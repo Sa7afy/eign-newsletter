@@ -1,0 +1,142 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T12:43:09.584Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T12:43:09.583Z",
+    "url": "https://www.crunchbase.com/organization/nefsak"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Nefsak",
+      "shortDescription": "Nefsak features different products from computers and electronics to home decoration and fashion.",
+      "description": "Nefsak is Egypt's fastest growing online retailer. It features over 14,000 different products from computers and electronics to home decoration and fashion. It was founded in 2008 by Sherif Nassar who is an ex IBM executive.",
+      "website": "https://www.nefsak.com/",
+      "foundedYear": 2008,
+      "operatingStatus": "Closed",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "101-250",
+      "headquarters": "Cairo, Al Qahirah, Egypt",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Middle East",
+        "Middle East and North Africa (MENA)",
+        "North Africa"
+      ],
+      "industries": [
+        "Consumer Electronics",
+        "E-Commerce",
+        "Electronics",
+        "Fashion",
+        "Online Portals",
+        "Retail",
+        "Shopping"
+      ],
+      "sectors": [
+        "Clothing and Apparel",
+        "Commerce and Shopping",
+        "Consumer Electronics",
+        "Design",
+        "Hardware",
+        "Internet Services"
+      ],
+      "founders": [
+        "Sherif Nassar"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 1681605,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2011-06-27",
+      "lastFundingType": "Venture round",
+      "rounds": [
+        {
+          "announcedDate": "2011-06-27",
+          "amount": {
+            "amount": 1681605,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "Ideavelopers"
+          ],
+          "type": "Venture round"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "Ideavelopers",
+            "rounds": [
+              "Venture round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 1,
+      "includedUniqueCount": 1,
+      "items": [
+        {
+          "date": "2011-06-27",
+          "title": "Venture Round - Nefsak"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 1681605,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "heatChange90Days": 0,
+      "heatScore": 5
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors."
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Venture round round raised $1,681,605, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

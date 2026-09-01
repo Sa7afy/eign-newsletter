@@ -1,0 +1,279 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T13:51:36.423Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T13:51:36.421Z",
+    "url": "https://www.crunchbase.com/organization/urento"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "uRento",
+      "shortDescription": "Simplifying Property Management",
+      "description": "uRento is a multi-functional app that helps small to medium-scale landlords manage their properties from a single platform. Be it residential or commercial properties, we want to help the landlords to do business in an efficient and cost-effective manner by embracing digital transformation. \n\nFrom the most basic need, such as collecting rent, to key operational needs, such as managing timely maintenance, we want landlords to do it all through uRento’s easy-to-use one-stop shop platform.",
+      "website": "https://urento.com/",
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "1-10",
+      "headquarters": "Manama, Al Manamah, Bahrain",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Property Management",
+        "Software"
+      ],
+      "sectors": [
+        "Real Estate",
+        "Software"
+      ],
+      "founders": [
+        "Juan David Landazabal",
+        "Ruby Mirchandani"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 42000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 2,
+      "detailedRoundCount": 2,
+      "lastFundingDate": "2020-09-20",
+      "lastFundingType": "Seed",
+      "rounds": [
+        {
+          "announcedDate": "2020-09-20",
+          "amount": {
+            "amount": 32000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "F6 Ventures"
+          ],
+          "postMoneyValuation": {
+            "amount": 542646,
+            "currency": "USD"
+          },
+          "type": "Seed"
+        },
+        {
+          "announcedDate": "2020-09-07",
+          "amount": {
+            "amount": 10000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "Standard Chartered Bank"
+          ],
+          "postMoneyValuation": {
+            "amount": 89358,
+            "currency": "USD"
+          },
+          "type": "Pre Seed"
+        }
+      ],
+      "investors": {
+        "reportedCount": 2,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "F6 Ventures",
+            "rounds": [
+              "Seed Round"
+            ]
+          },
+          {
+            "isLead": true,
+            "name": "Standard Chartered Bank",
+            "rounds": [
+              "Pre Seed Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 2,
+      "includedUniqueCount": 2,
+      "items": [
+        {
+          "date": "2020-09-20",
+          "title": "Seed Round - uRento"
+        },
+        {
+          "date": "2020-09-07",
+          "title": "Pre Seed Round - uRento"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 2,
+    "knownDetailedFundingAmount": {
+      "amount": 42000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 76.19,
+    "latestToEarliestKnownValuationMultiple": 6.07
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": -1,
+      "growthScore": 65,
+      "heatChange90Days": -11,
+      "heatScore": 48
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 37.05
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 15.6,
+        "timingEstimatePercent": {
+          "within6Months": 14.33,
+          "months6To11": 12.28,
+          "months12To24": 19.53,
+          "beyond24Months": 24.85
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 36
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 27.48
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Rent Manager is a completely integrated property management, accounting, contact manager, and facility maintenance software suite.",
+          "employeeRange": "251-500",
+          "name": "Rent Manager",
+          "sharedCategories": [
+            "Software"
+          ],
+          "similarityScore": 97
+        },
+        {
+          "description": "Guesty’s advanced technology optimizes, automates, and streamlines every aspect of managing a hospitality business, all from one platform.",
+          "employeeRange": "501-1,000",
+          "name": "Guesty",
+          "sharedCategories": [
+            "Software",
+            "Property Management"
+          ],
+          "similarityScore": 95
+        },
+        {
+          "description": "Uprent offers a full stack of software to help with everything from signing a new lease to tracking rent payments.",
+          "employeeRange": "1-10",
+          "name": "Uprent",
+          "sharedCategories": [
+            "Software"
+          ],
+          "similarityScore": 91
+        },
+        {
+          "description": "Rentlio is a SaaS tailor-made for vacation rentals owners, hostels and small hotels.",
+          "employeeRange": "1-10",
+          "name": "Rentlio",
+          "sharedCategories": [
+            "Software"
+          ],
+          "similarityScore": 89
+        },
+        {
+          "description": "Buildium is a software company that provides cloud-based property management software to landlords, and many other parties.",
+          "employeeRange": "251-500",
+          "name": "Buildium",
+          "sharedCategories": [
+            "Software",
+            "Property Management"
+          ],
+          "similarityScore": 87
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Seed round raised $32,000, or 76.19% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $89,358 to $542,646, a 6.07x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 65 (-1 over 90 days) and market heat at 48 (-11).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Rent Manager, Guesty, Uprent.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

@@ -1,0 +1,201 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T13:43:48.623Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T13:43:48.621Z",
+    "url": "https://www.crunchbase.com/organization/the-qassim-cement-co"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "The Qassim Cement Co.",
+      "shortDescription": "The Qassim Cement manufactures and produces cement and construction materials.",
+      "description": "Qassim Cement manufactures and produces cement and building materials. Their products include ordinary portland cement, portland pozzolana cement, sulfate resistant cement, and finishing cement.",
+      "website": "http://www.qcc.com.sa/",
+      "operatingStatus": "Active",
+      "ownershipStatus": "Public",
+      "companyType": "For profit",
+      "employeeRange": "501-1,000",
+      "estimatedRevenueRange": "$100M-$500M",
+      "headquarters": "Buraidah, Al Qasim, Saudi Arabia",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Building Material",
+        "Manufacturing"
+      ],
+      "sectors": [
+        "Manufacturing",
+        "Real Estate"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "Cement is a construction material produced by The Qassim Cement Co. used as a binder in concrete and mortar for building and infrastructure projects.",
+        "name": "Cement"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 106862924,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2026-08-13",
+      "lastFundingType": "Debt Financing",
+      "rounds": [
+        {
+          "announcedDate": "2026-08-13",
+          "amount": {
+            "amount": 106862924,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "Saudi Industrial Development Fund (SIDF)"
+          ],
+          "type": "Debt Financing"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "Saudi Industrial Development Fund (SIDF)",
+            "rounds": [
+              "Debt Financing"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 3,
+      "includedUniqueCount": 3,
+      "items": [
+        {
+          "date": "2026-08-16",
+          "publisher": "Arab News",
+          "title": "Closing Bell: Saudi main index rises to close at 10,919",
+          "url": "https://www.arabnews.com/node/2654865/business-economy"
+        },
+        {
+          "date": "2026-08-13",
+          "title": "Debt Financing - The Qassim Cement Co."
+        },
+        {
+          "date": "2010-02-24",
+          "title": "3040"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 106862924,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": 3,
+      "growthScore": 94,
+      "heatChange90Days": 75,
+      "heatScore": 90
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Prometheus Materials develops bio-cement with zero carbon emissions to reduce the global CO2 emissions.",
+          "employeeRange": "11-50",
+          "name": "Prometheus Materials",
+          "sharedSpecialties": [
+            "Masonry and Concrete Blocks",
+            "Construction Chemicals",
+            "Precast Concrete Manufacturing",
+            "Ready-Mix Concrete",
+            "Cement and Concrete",
+            "Concrete Mixers and Mixer Trucks",
+            "Concrete Block and Precast Machinery",
+            "Concrete Batching Plants",
+            "Construction Materials Testing Equipment"
+          ],
+          "similarityScore": 100
+        },
+        {
+          "description": "YTL Cement is a manufacturing company that manufactures building material products such as bricks, cement, concrete, and dry mix.",
+          "employeeRange": "101-250",
+          "name": "YTL Cement",
+          "sharedCategories": [
+            "Building Material",
+            "Manufacturing"
+          ],
+          "sharedSpecialties": [
+            "Masonry and Concrete Blocks",
+            "Construction Chemicals",
+            "Ready-Mix Concrete",
+            "Aggregates and Quarry Materials",
+            "Cement and Concrete",
+            "Concrete Mixers and Mixer Trucks",
+            "Concrete Pumps",
+            "Concrete Batching Plants",
+            "Construction Materials Testing Equipment"
+          ],
+          "similarityScore": 87.5
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Debt Financing round raised $106,862,924, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 94 (+3 over 90 days) and market heat at 90 (+75).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

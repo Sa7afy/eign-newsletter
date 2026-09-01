@@ -1,0 +1,181 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T13:35:03.717Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T13:35:03.715Z",
+    "url": "https://www.crunchbase.com/organization/swyft"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Swyft",
+      "shortDescription": "Swyft is an on-demand mobile delivery app.",
+      "website": "https://swyft.delivery/",
+      "operatingStatus": "Closed",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "11-50",
+      "estimatedRevenueRange": "$1M-$10M",
+      "headquarters": "Al Khobar, Ash Sharqiyah, Saudi Arabia",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Logistics",
+        "Predictive Analytics"
+      ],
+      "sectors": [
+        "Artificial Intelligence (AI)",
+        "Data and Analytics",
+        "Software",
+        "Transportation"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 10000000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2019-05-01",
+      "lastFundingType": "Seed",
+      "rounds": [
+        {
+          "announcedDate": "2019-05-01",
+          "amount": {
+            "amount": 10000000,
+            "currency": "USD"
+          },
+          "type": "Seed"
+        }
+      ]
+    },
+    "recentNews": {
+      "reportedCount": 4,
+      "includedUniqueCount": 4,
+      "items": [
+        {
+          "date": "2020-01-17",
+          "publisher": "Fast Company",
+          "title": "Unlike Ikea, this easy-to-assemble couch won’t test your relationship",
+          "url": "https://www.fastcompany.com/90452740/unlike-ikea-this-easy-to-assemble-couch-wont-test-your-relationship"
+        },
+        {
+          "date": "2019-10-15",
+          "publisher": "Irish Tech News",
+          "title": "The SWYFT Vision Aiming For Long Term with Bold Projects in 2020 and beyond",
+          "url": "https://irishtechnews.ie/?p=104353"
+        },
+        {
+          "date": "2019-05-08",
+          "publisher": "صحيفة مال الاقتصادية",
+          "title": "مستثمر يضخ 38 مليون في تطبيق «سويفت» لتوصيل الطلبات - A $10M investment in Swyft app for deliveries",
+          "url": "https://www.maaal.com/archives/20190509/123026"
+        },
+        {
+          "date": "2019-05-01",
+          "title": "Seed Round - Swyft"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 10000000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "heatChange90Days": -4,
+      "heatScore": 54
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "DoorDash is a food delivery platform that connects customers with local and national businesses.",
+          "employeeRange": "10,001+",
+          "name": "DoorDash",
+          "similarityScore": 97
+        },
+        {
+          "description": "Uber Eats is a food delivery platform that makes getting great food from a favorite local restaurants as easy as requesting a ride.",
+          "employeeRange": "101-250",
+          "name": "Uber Eats",
+          "similarityScore": 95
+        },
+        {
+          "description": "Grubhub is an online platform that connects customers with local restaurants.",
+          "employeeRange": "11-50",
+          "name": "Grubhub",
+          "similarityScore": 93
+        },
+        {
+          "description": "Instacart is an online grocery platform that offers same-day delivery and pickup services for retailers and consumers.",
+          "employeeRange": "1,001-5,000",
+          "name": "Instacart",
+          "similarityScore": 91
+        },
+        {
+          "description": "Postmates is an on-demand food delivery platform that gives customers access to restaurants and retailers.",
+          "employeeRange": "1,001-5,000",
+          "name": "Postmates",
+          "sharedCategories": [
+            "Logistics"
+          ],
+          "similarityScore": 89
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Seed round raised $10,000,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include DoorDash, Uber Eats, Grubhub.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

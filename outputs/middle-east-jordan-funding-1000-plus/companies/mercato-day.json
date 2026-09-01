@@ -1,0 +1,5871 @@
+{
+  "sourceUrl": "https://www.crunchbase.com/organization/mercato-day",
+  "pageTitle": "mercato-day",
+  "scrapedAt": "2026-09-01T12:31:22.593Z",
+  "extraction": {
+    "authenticated": true,
+    "method": "curl-cffi-authenticated-entity-fetch-no-browser"
+  },
+  "organization": {
+    "properties": {
+      "facet_ids": [
+        "ai_insight",
+        "builtwith",
+        "company",
+        "rank",
+        "semrush"
+      ],
+      "identifier": {
+        "uuid": "ab88f733-78b4-4872-bb8b-aeae5ed9d9dd",
+        "value": "Mercato Day",
+        "image_id": "bvsgrtwvuyz8qgrcgqzk",
+        "permalink": "mercato-day",
+        "entity_def_id": "organization"
+      },
+      "short_description": "Mercato Day is a sports news platform that offers football economics, and live broadcasts.",
+      "rank_delta_d90": 0,
+      "title": "Mercato Day"
+    },
+    "cards": {
+      "semrush_summary": {
+        "identifier": {
+          "uuid": "ab88f733-78b4-4872-bb8b-aeae5ed9d9dd",
+          "value": "Mercato Day",
+          "image_id": "bvsgrtwvuyz8qgrcgqzk",
+          "permalink": "mercato-day",
+          "entity_def_id": "organization"
+        },
+        "semrush_global_rank": 499249,
+        "semrush_visits_latest_month": 56009
+      },
+      "key_employee_change_list": [],
+      "apptopia_attribution": {},
+      "diversity_spotlight_investments_headline": {},
+      "apptopia_app_rating_list": [],
+      "funds_summary": {
+        "identifier": {
+          "uuid": "ab88f733-78b4-4872-bb8b-aeae5ed9d9dd",
+          "value": "Mercato Day",
+          "image_id": "bvsgrtwvuyz8qgrcgqzk",
+          "permalink": "mercato-day",
+          "entity_def_id": "organization"
+        }
+      },
+      "funding_prediction": [],
+      "company_about_fields1": {},
+      "current_advisors_image_list": [],
+      "recommended_search": [
+        {
+          "identifier": {
+            "permalink": "city-of-amman-seed-stage-companies",
+            "image_id": "002f7c738afd483387e289fcabbc3951",
+            "uuid": "82175615-025a-451e-a608-5ed7d8946308",
+            "entity_def_id": "hub",
+            "value": "City of Amman Seed Stage Companies"
+          },
+          "org_identifiers": [
+            {
+              "permalink": "the-middle-frame",
+              "image_id": "002f7c738afd483387e289fcabbc3951",
+              "uuid": "160f4292-c29b-4332-946b-c46066d49df9",
+              "entity_def_id": "organization",
+              "value": "The Middle Frame"
+            },
+            {
+              "permalink": "rightnow-ai",
+              "image_id": "8662a6afb30c45df95741a62b1a5e46c",
+              "uuid": "77bb1f5b-00a4-4362-85a8-219fecd0b181",
+              "entity_def_id": "organization",
+              "value": "RightNow"
+            },
+            {
+              "permalink": "cargenie",
+              "image_id": "ewiuqywiptobkzh03i4a",
+              "uuid": "b9f3e407-c3e0-4835-81d1-10daed2a0228",
+              "entity_def_id": "organization",
+              "value": "Viero"
+            },
+            {
+              "permalink": "invoiceq",
+              "image_id": "8186017e4cf24687a7bfc426325560a9",
+              "uuid": "c1799677-b08e-4cbd-8159-687c9d6c109d",
+              "entity_def_id": "organization",
+              "value": "InvoiceQ"
+            },
+            {
+              "permalink": "repzo",
+              "image_id": "ldrfr4mr1lhyrmqzrale",
+              "uuid": "f85de812-960e-4345-8fab-c3bedc14c4bf",
+              "entity_def_id": "organization",
+              "value": "Repzo"
+            },
+            {
+              "permalink": "capifly",
+              "image_id": "abewqjsn5r8scl4byib8",
+              "uuid": "7dd7653e-580b-4460-b4f8-0d57e05c6093",
+              "entity_def_id": "organization",
+              "value": "Capifly"
+            },
+            {
+              "permalink": "basket-technologies-ltd",
+              "image_id": "v1hpkxnvckh6jmskmbvo",
+              "uuid": "04873643-115d-4228-a4b0-b4057e19b4c6",
+              "entity_def_id": "organization",
+              "value": "Basket Technologies"
+            },
+            {
+              "permalink": "construcllo",
+              "image_id": "217bac7402a846359882a73c474becab",
+              "uuid": "b1467f0a-84a5-40d4-8ea5-f3a91f6c2be2",
+              "entity_def_id": "organization",
+              "value": "Construcllo"
+            }
+          ],
+          "org_funding_total": {
+            "currency": "USD",
+            "value": 43803376,
+            "value_usd": 43803376
+          },
+          "org_num_investors": 212,
+          "org_num": 144,
+          "queries": {
+            "event": [
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "18c3f473-94ab-7b11-47dd-26769797c485"
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "principal.has_event.forward",
+                "query": [
+                  {
+                    "field_id": "facet_ids",
+                    "operator_id": "includes",
+                    "values": [
+                      "company"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "funding_stage",
+                    "operator_id": "eq",
+                    "values": [
+                      "seed"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "active"
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ],
+            "organization": [
+              {
+                "field_id": "facet_ids",
+                "operator_id": "includes",
+                "values": [
+                  "company"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "18c3f473-94ab-7b11-47dd-26769797c485"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "funding_stage",
+                "operator_id": "eq",
+                "values": [
+                  "seed"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "operating_status",
+                "operator_id": "eq",
+                "values": [
+                  "active"
+                ],
+                "type": "predicate"
+              }
+            ],
+            "person": [
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "18c3f473-94ab-7b11-47dd-26769797c485"
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "organization.has_primary_organization.forward",
+                "query": [
+                  {
+                    "field_id": "facet_ids",
+                    "operator_id": "includes",
+                    "values": [
+                      "company"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "location_identifiers",
+                    "operator_id": "includes",
+                    "values": [
+                      "18c3f473-94ab-7b11-47dd-26769797c485"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "funding_stage",
+                    "operator_id": "eq",
+                    "values": [
+                      "seed"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "active"
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ]
+          }
+        },
+        {
+          "identifier": {
+            "permalink": "europe-middle-east-and-africa-startups-founded-in-2019",
+            "image_id": "216886c7d09c49d39cce6277f342d12d",
+            "uuid": "819348a0-acdb-4c57-b150-a33e3750f376",
+            "entity_def_id": "hub",
+            "value": "Europe, Middle East, and Africa (EMEA) Startups Founded in 2019"
+          },
+          "org_identifiers": [
+            {
+              "permalink": "fasset",
+              "image_id": "216886c7d09c49d39cce6277f342d12d",
+              "uuid": "fb8d3cbb-6706-4fda-941f-7add24517f7c",
+              "entity_def_id": "organization",
+              "value": "Fasset"
+            },
+            {
+              "permalink": "neura-robotics",
+              "image_id": "88ca83fec0c5492685d9ddebfe276f25",
+              "uuid": "669e5ee8-3faf-4c78-a84d-c2e7c885eec4",
+              "entity_def_id": "organization",
+              "value": "NEURA Robotics"
+            },
+            {
+              "permalink": "multiverse-computing",
+              "image_id": "gldicgpdpgw3rbcmvrze",
+              "uuid": "2c831d21-483e-4c95-a6b8-84c2894ea473",
+              "entity_def_id": "organization",
+              "value": "Multiverse Computing"
+            },
+            {
+              "permalink": "greyparrot-ai",
+              "image_id": "xyxhzcn6vuubj6h6qh5e",
+              "uuid": "1002b878-941e-4ca3-a4ed-66ef45c5328d",
+              "entity_def_id": "organization",
+              "value": "Greyparrot"
+            },
+            {
+              "permalink": "moove-io",
+              "image_id": "a4382d1c9d544304a3da94f03931cebc",
+              "uuid": "5cdc52c3-9f6f-45b3-9036-0aabbb1de332",
+              "entity_def_id": "organization",
+              "value": "Moove"
+            },
+            {
+              "permalink": "vaderis-therapeutics",
+              "image_id": "bcrr4stc2q0ts9yk4mfr",
+              "uuid": "4d73fe67-3116-424e-8b31-1e75ed30e1a6",
+              "entity_def_id": "organization",
+              "value": "Vaderis Therapeutics"
+            },
+            {
+              "permalink": "n8n-io",
+              "image_id": "bdf36502224c47da9b8b3aba4cf0f86a",
+              "uuid": "90c91604-b597-428b-be48-cdcb25bc1496",
+              "entity_def_id": "organization",
+              "value": "n8n"
+            },
+            {
+              "permalink": "wayflyer",
+              "image_id": "biiccdveraebl42z18wt",
+              "uuid": "ea7d9526-c8ce-476a-ab11-f400d4cb05e9",
+              "entity_def_id": "organization",
+              "value": "Wayflyer"
+            }
+          ],
+          "org_funding_total": {
+            "currency": "USD",
+            "value": 51200609974,
+            "value_usd": 51200609974
+          },
+          "org_num_investors": 13653,
+          "org_num": 4283,
+          "queries": {
+            "event": [
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "4e8be435-c63a-4aff-8a2f-44a880d9c341"
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "principal.has_event.forward",
+                "query": [
+                  {
+                    "field_id": "funding_stage",
+                    "operator_id": "includes",
+                    "values": [
+                      "seed",
+                      "early_stage_venture",
+                      "late_stage_venture"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "founded_on",
+                    "operator_id": "between",
+                    "values": [
+                      "2019-01-01",
+                      "2019-12-31"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "active"
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ],
+            "organization": [
+              {
+                "field_id": "funding_stage",
+                "operator_id": "includes",
+                "values": [
+                  "seed",
+                  "early_stage_venture",
+                  "late_stage_venture"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "4e8be435-c63a-4aff-8a2f-44a880d9c341"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "founded_on",
+                "operator_id": "between",
+                "values": [
+                  "2019-01-01",
+                  "2019-12-31"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "operating_status",
+                "operator_id": "eq",
+                "values": [
+                  "active"
+                ],
+                "type": "predicate"
+              }
+            ],
+            "person": [
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "4e8be435-c63a-4aff-8a2f-44a880d9c341"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "rank_person",
+                "operator_id": "lte",
+                "values": [
+                  360000
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "organization.has_primary_organization.forward",
+                "query": [
+                  {
+                    "field_id": "funding_stage",
+                    "operator_id": "includes",
+                    "values": [
+                      "seed",
+                      "early_stage_venture",
+                      "late_stage_venture"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "location_identifiers",
+                    "operator_id": "includes",
+                    "values": [
+                      "4e8be435-c63a-4aff-8a2f-44a880d9c341"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "founded_on",
+                    "operator_id": "between",
+                    "values": [
+                      "2019-01-01",
+                      "2019-12-31"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "active"
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ]
+          }
+        },
+        {
+          "identifier": {
+            "permalink": "middle-east-seed-stage-companies-fewer-than-50-employees",
+            "image_id": "c78a9c91104e4167b0f1efe770815f21",
+            "uuid": "7b13f747-005a-4136-9c2f-19f64be9ce37",
+            "entity_def_id": "hub",
+            "value": "Middle East Seed Stage Companies With Fewer Than 50 Employees"
+          },
+          "org_identifiers": [
+            {
+              "permalink": "corma-2a34",
+              "image_id": "c78a9c91104e4167b0f1efe770815f21",
+              "uuid": "13f2e7d6-19bf-49e6-99cc-ef9403a22a34",
+              "entity_def_id": "organization",
+              "value": "Corma"
+            },
+            {
+              "permalink": "aila-a6e1",
+              "image_id": "710c1bdcc944473395943d44b58eb7bb",
+              "uuid": "55e3c4b4-7408-4306-99e4-bb3c02d0a6e1",
+              "entity_def_id": "organization",
+              "value": "AILA"
+            },
+            {
+              "permalink": "fincart-8c0d",
+              "image_id": "2157db3af2424b619df39903e68869da",
+              "uuid": "38128808-f1be-480b-813a-77fb6ea68c0d",
+              "entity_def_id": "organization",
+              "value": "Fincart"
+            },
+            {
+              "permalink": "bundle-a717",
+              "image_id": "6293c7748c3f4511a67e43a92ab715c9",
+              "uuid": "60cab2d6-6198-4f84-8507-2fe77f15a717",
+              "entity_def_id": "organization",
+              "value": "Bundle"
+            },
+            {
+              "permalink": "lahint-company",
+              "image_id": "qw2tz7m5kpopjgoesyqz",
+              "uuid": "cd27ae34-fb6d-4ba5-9df6-c9de8bd9c042",
+              "entity_def_id": "organization",
+              "value": "Lahint Company"
+            },
+            {
+              "permalink": "cobi-26b2",
+              "image_id": "890be9e9bada44279dbb64787f785c96",
+              "uuid": "ad5d5626-e78d-46c3-a45f-3d487fdb26b2",
+              "entity_def_id": "organization",
+              "value": "Cobi"
+            },
+            {
+              "permalink": "naran-49c5",
+              "image_id": "05cba89d79f54f878d5023aac5198e4f",
+              "uuid": "fc040bd9-9a74-4ff2-b942-bc3ab73c49c5",
+              "entity_def_id": "organization",
+              "value": "Naran"
+            },
+            {
+              "permalink": "perceptron-network",
+              "image_id": "7046a1a5e79f4079b94932c67efa6b6d",
+              "uuid": "1630f854-df7d-4c80-af61-55215880f6cd",
+              "entity_def_id": "organization",
+              "value": "Perceptron Network"
+            }
+          ],
+          "org_funding_total": {
+            "currency": "USD",
+            "value": 7320641989,
+            "value_usd": 7320641989
+          },
+          "org_num_investors": 10662,
+          "org_num": 5255,
+          "queries": {
+            "event": [
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "e0272206-3430-48cb-a5bc-1d4b3eafe15a"
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "principal.has_event.forward",
+                "query": [
+                  {
+                    "field_id": "facet_ids",
+                    "operator_id": "includes",
+                    "values": [
+                      "company"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "num_employees_enum",
+                    "operator_id": "includes",
+                    "values": [
+                      "c_00001_00010",
+                      "c_00011_00050"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "funding_stage",
+                    "operator_id": "eq",
+                    "values": [
+                      "seed"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "active"
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ],
+            "organization": [
+              {
+                "field_id": "facet_ids",
+                "operator_id": "includes",
+                "values": [
+                  "company"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "e0272206-3430-48cb-a5bc-1d4b3eafe15a"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "num_employees_enum",
+                "operator_id": "includes",
+                "values": [
+                  "c_00001_00010",
+                  "c_00011_00050"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "funding_stage",
+                "operator_id": "eq",
+                "values": [
+                  "seed"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "operating_status",
+                "operator_id": "eq",
+                "values": [
+                  "active"
+                ],
+                "type": "predicate"
+              }
+            ],
+            "person": [
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "e0272206-3430-48cb-a5bc-1d4b3eafe15a"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "rank_person",
+                "operator_id": "lte",
+                "values": [
+                  390000
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "organization.has_primary_organization.forward",
+                "query": [
+                  {
+                    "field_id": "facet_ids",
+                    "operator_id": "includes",
+                    "values": [
+                      "company"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "location_identifiers",
+                    "operator_id": "includes",
+                    "values": [
+                      "e0272206-3430-48cb-a5bc-1d4b3eafe15a"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "num_employees_enum",
+                    "operator_id": "includes",
+                    "values": [
+                      "c_00001_00010",
+                      "c_00011_00050"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "funding_stage",
+                    "operator_id": "eq",
+                    "values": [
+                      "seed"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "active"
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ]
+          }
+        },
+        {
+          "identifier": {
+            "permalink": "middle-east-companies-fewer-than-50-employees",
+            "image_id": "hrzg28gqupnfqskstkis",
+            "uuid": "7741ebeb-3f92-495f-805e-96070f586f96",
+            "entity_def_id": "hub",
+            "value": "Middle East Companies With Fewer Than 50 Employees (Top 10K)"
+          },
+          "org_identifiers": [
+            {
+              "permalink": "remepy-healthcare",
+              "image_id": "hrzg28gqupnfqskstkis",
+              "uuid": "b4f69efc-f8c1-4584-820d-d75632eb8b22",
+              "entity_def_id": "organization",
+              "value": "Remepy"
+            },
+            {
+              "permalink": "above-security-6928",
+              "image_id": "cbc83c286261480aa8f922418260f0fa",
+              "uuid": "8824d7f0-3f8f-4516-beea-7ef6b3836928",
+              "entity_def_id": "organization",
+              "value": "Above Security"
+            },
+            {
+              "permalink": "hush-security",
+              "image_id": "2e33696f80c345a48582a428f6144bef",
+              "uuid": "470a1eac-b652-4fbf-970a-01638b9d4f2b",
+              "entity_def_id": "organization",
+              "value": "Hush Security"
+            },
+            {
+              "permalink": "a1r-water",
+              "image_id": "1e483de797a14b9fb5fdf94635ca739c",
+              "uuid": "ce65cd3e-1f1a-41c6-a966-87f53b1d8789",
+              "entity_def_id": "organization",
+              "value": "A1R WATER"
+            },
+            {
+              "permalink": "corma-2a34",
+              "image_id": "c78a9c91104e4167b0f1efe770815f21",
+              "uuid": "13f2e7d6-19bf-49e6-99cc-ef9403a22a34",
+              "entity_def_id": "organization",
+              "value": "Corma"
+            },
+            {
+              "permalink": "noma-94e0",
+              "image_id": "fb698ab341224e6c9270a5279ccc398e",
+              "uuid": "d9c814e2-fff0-44ce-8846-66df480a94e0",
+              "entity_def_id": "organization",
+              "value": "Noma Security"
+            },
+            {
+              "permalink": "aila-a6e1",
+              "image_id": "710c1bdcc944473395943d44b58eb7bb",
+              "uuid": "55e3c4b4-7408-4306-99e4-bb3c02d0a6e1",
+              "entity_def_id": "organization",
+              "value": "AILA"
+            },
+            {
+              "permalink": "irregular",
+              "image_id": "fa0f0fa9c6dd462da716bf2c3277b600",
+              "uuid": "4c6fe4a3-4ee6-4f05-8a49-06ac8b7aaf6f",
+              "entity_def_id": "organization",
+              "value": "Irregular"
+            }
+          ],
+          "org_funding_total": {
+            "currency": "USD",
+            "value": 60361845740,
+            "value_usd": 60361845740
+          },
+          "org_num_investors": 16672,
+          "org_num": 9839,
+          "queries": {
+            "event": [
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "e0272206-3430-48cb-a5bc-1d4b3eafe15a"
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "principal.has_event.forward",
+                "query": [
+                  {
+                    "field_id": "facet_ids",
+                    "operator_id": "includes",
+                    "values": [
+                      "company"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "num_employees_enum",
+                    "operator_id": "includes",
+                    "values": [
+                      "c_00001_00010",
+                      "c_00011_00050"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "active"
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ],
+            "organization": [
+              {
+                "field_id": "facet_ids",
+                "operator_id": "includes",
+                "values": [
+                  "company"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "e0272206-3430-48cb-a5bc-1d4b3eafe15a"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "num_employees_enum",
+                "operator_id": "includes",
+                "values": [
+                  "c_00001_00010",
+                  "c_00011_00050"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "operating_status",
+                "operator_id": "eq",
+                "values": [
+                  "active"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "rank_org",
+                "operator_id": "lte",
+                "values": [
+                  530000
+                ],
+                "type": "predicate"
+              }
+            ],
+            "person": [
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "e0272206-3430-48cb-a5bc-1d4b3eafe15a"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "rank_person",
+                "operator_id": "lte",
+                "values": [
+                  130000
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "organization.has_primary_organization.forward",
+                "query": [
+                  {
+                    "field_id": "facet_ids",
+                    "operator_id": "includes",
+                    "values": [
+                      "company"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "location_identifiers",
+                    "operator_id": "includes",
+                    "values": [
+                      "e0272206-3430-48cb-a5bc-1d4b3eafe15a"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "num_employees_enum",
+                    "operator_id": "includes",
+                    "values": [
+                      "c_00001_00010",
+                      "c_00011_00050"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "active"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "rank_org",
+                    "operator_id": "lte",
+                    "values": [
+                      530000
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ]
+          }
+        }
+      ],
+      "org_similarity_org_list": [
+        {
+          "identifier": {
+            "uuid": "6f03145c-df5f-4f8d-9c50-7ec93e58657c",
+            "value": "Sports Monetize",
+            "image_id": "iqmeh9mbyh2mobrcvyv2",
+            "permalink": "sports-monetize",
+            "entity_def_id": "organization"
+          }
+        },
+        {
+          "identifier": {
+            "uuid": "a42b290e-e738-4186-8058-c752b89137ed",
+            "value": "Hayters",
+            "image_id": "f4a01t8yaskcta0ogf7a",
+            "permalink": "hayters",
+            "entity_def_id": "organization"
+          }
+        },
+        {
+          "identifier": {
+            "uuid": "038aab1d-5476-478d-ba1c-db486f09bada",
+            "value": "SportsDias",
+            "image_id": "wqpkk2vaohtktqxduy86",
+            "permalink": "sportsdias",
+            "entity_def_id": "organization"
+          }
+        }
+      ],
+      "investors_summary": {
+        "identifier": {
+          "uuid": "ab88f733-78b4-4872-bb8b-aeae5ed9d9dd",
+          "value": "Mercato Day",
+          "image_id": "bvsgrtwvuyz8qgrcgqzk",
+          "permalink": "mercato-day",
+          "entity_def_id": "organization"
+        }
+      },
+      "funds_list": [],
+      "alumni_image_list": [],
+      "semrush_overview_headline": {
+        "semrush_global_rank": 499249,
+        "semrush_global_rank_mom_pct": 2.94688201625399
+      },
+      "frequently_asked_questions_total_funding": {
+        "funding_total": {
+          "value": 100000,
+          "currency": "USD",
+          "value_usd": 100000
+        },
+        "identifier": {
+          "uuid": "ab88f733-78b4-4872-bb8b-aeae5ed9d9dd",
+          "value": "Mercato Day",
+          "image_id": "bvsgrtwvuyz8qgrcgqzk",
+          "permalink": "mercato-day",
+          "entity_def_id": "organization"
+        }
+      },
+      "exits_summary": {
+        "identifier": {
+          "uuid": "ab88f733-78b4-4872-bb8b-aeae5ed9d9dd",
+          "value": "Mercato Day",
+          "image_id": "bvsgrtwvuyz8qgrcgqzk",
+          "permalink": "mercato-day",
+          "entity_def_id": "organization"
+        }
+      },
+      "partnership_announcements": [],
+      "bombora_surge_list": [],
+      "diversity_spotlight_investments_list": [],
+      "builtwith_tech_used_list": [
+        {
+          "identifier": {
+            "uuid": "28654445-17a4-4667-8a53-4560f6143e57",
+            "value": "SPF",
+            "entity_def_id": "builtwith_technology"
+          },
+          "technology_category": [
+            "mx"
+          ],
+          "num_companies_using": 999981
+        },
+        {
+          "identifier": {
+            "uuid": "d0d62df5-4da1-4018-a97a-0a48733a1305",
+            "value": "Euro",
+            "entity_def_id": "builtwith_technology"
+          },
+          "technology_category": [
+            "payment"
+          ],
+          "num_companies_using": 999894
+        },
+        {
+          "identifier": {
+            "uuid": "0ecdc0bb-7517-4313-b1ae-2805807eebe6",
+            "value": "Cloudflare Radar",
+            "entity_def_id": "builtwith_technology"
+          },
+          "technology_category": [
+            "widgets"
+          ],
+          "num_companies_using": 88091
+        }
+      ],
+      "funding_rounds_summary": {
+        "identifier": {
+          "uuid": "ab88f733-78b4-4872-bb8b-aeae5ed9d9dd",
+          "value": "Mercato Day",
+          "image_id": "bvsgrtwvuyz8qgrcgqzk",
+          "permalink": "mercato-day",
+          "entity_def_id": "organization"
+        },
+        "last_funding_type": "seed",
+        "last_funding_at": "2020-04-01",
+        "funding_total": {
+          "value": 100000,
+          "currency": "USD",
+          "value_usd": 100000
+        },
+        "num_funding_rounds": 1
+      },
+      "org_similarity_list": [
+        {
+          "source": {
+            "uuid": "ab88f733-78b4-4872-bb8b-aeae5ed9d9dd",
+            "value": "Mercato Day",
+            "image_id": "bvsgrtwvuyz8qgrcgqzk",
+            "permalink": "mercato-day",
+            "entity_def_id": "organization"
+          },
+          "identifier": {
+            "uuid": "43dc60b8-1a44-4d5f-a854-693d4789043e",
+            "value": "Mercato Day competes with Sports Monetize",
+            "entity_def_id": "org_similarity"
+          },
+          "source_revenue_range": "r_00000000",
+          "source_locations": [
+            {
+              "uuid": "18c3f473-94ab-7b11-47dd-26769797c485",
+              "value": "Amman",
+              "permalink": "amman-amman",
+              "entity_def_id": "location",
+              "location_type": "city"
+            },
+            {
+              "uuid": "36dd1e53-bc8a-4bf2-771a-7611036b3ebc",
+              "value": "Amman",
+              "permalink": "amman-jordan",
+              "entity_def_id": "location",
+              "location_type": "region"
+            },
+            {
+              "uuid": "e5fffa67-5dbb-56cb-27e1-23f8b09b59ba",
+              "value": "Jordan",
+              "permalink": "jordan",
+              "entity_def_id": "location",
+              "location_type": "country"
+            },
+            {
+              "uuid": "b41404d2-8ecc-caf5-1268-8fdd3afe73ee",
+              "value": "Asia",
+              "permalink": "asia",
+              "entity_def_id": "location",
+              "location_type": "continent"
+            }
+          ],
+          "score": 100,
+          "target_micro_categories": [
+            {
+              "uuid": "f3ab52bf-0fbf-4d1b-851e-fe84e27d790e",
+              "value": "Business Journalism",
+              "permalink": "business-journalism",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "3cd89874-02d0-4d5f-8c86-f4c5c1b84607",
+              "value": "Endorsements and Celebrity Partnerships",
+              "permalink": "endorsements-and-celebrity-partnerships",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "5ea4d7a9-24f5-4c57-9feb-ed8d2cb456a7",
+              "value": "Event Sponsorship Sales",
+              "permalink": "event-sponsorship-sales",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "860c61a2-456e-4325-b54a-21eb39b91c06",
+              "value": "Financial & Market News",
+              "permalink": "financial-market-news",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "5918bc46-4021-4fe5-b75e-478512dfdfe1",
+              "value": "Football Clubs",
+              "permalink": "football-clubs",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "2b7f2d43-8cd6-4ea6-9f1e-bf51778a3c5e",
+              "value": "Market Data and Research",
+              "permalink": "market-data-and-research",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "49512328-1817-4220-8fd6-8e3f35cc7ff5",
+              "value": "Sponsorship Marketing",
+              "permalink": "sponsorship-marketing",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "f6b900ca-6569-4fac-9f59-0215c6697a13",
+              "value": "Sports and Stadium Catering",
+              "permalink": "sports-and-stadium-catering",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "bb0b294a-7887-421e-ba55-9abd6778f970",
+              "value": "Sports Event Management",
+              "permalink": "sports-event-management",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "351ea39d-cdcd-466a-aced-52030ac811da",
+              "value": "Sports Law",
+              "permalink": "sports-law",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "84bc795d-0c27-4e6d-b66a-5cce0ccebd1a",
+              "value": "Sports Travel",
+              "permalink": "sports-travel-bd1a",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "812c7b14-d74c-4a7b-808a-cb7864a07f43",
+              "value": "Venue Marketing",
+              "permalink": "venue-marketing-7f43",
+              "entity_def_id": "micro_category"
+            }
+          ],
+          "target_locations": [
+            {
+              "uuid": "b03cbbaf-6405-4181-9ead-fe93c2f523ac",
+              "value": "Stone Mountain",
+              "permalink": "stone-mountain-georgia",
+              "entity_def_id": "location",
+              "location_type": "city"
+            },
+            {
+              "uuid": "e5e9da40-cf54-5c78-963b-e6d5a2efe686",
+              "value": "Georgia",
+              "permalink": "georgia-united-states",
+              "entity_def_id": "location",
+              "location_type": "region"
+            },
+            {
+              "uuid": "f110fca2-1055-99f6-996d-011c198b3928",
+              "value": "United States",
+              "permalink": "united-states",
+              "entity_def_id": "location",
+              "location_type": "country"
+            },
+            {
+              "uuid": "b25caef9-a1b8-3a5d-6232-93b2dfb6a1d1",
+              "value": "North America",
+              "permalink": "north-america",
+              "entity_def_id": "location",
+              "location_type": "continent"
+            }
+          ],
+          "target_short_description": "Sports Monetize is an online media brand",
+          "target_categories": [
+            {
+              "uuid": "59c8fdd7-d408-86d2-3805-de824af0016b",
+              "value": "American Football",
+              "image_id": "6d01dc7e219f4fc2ad5d774de94cb70b",
+              "permalink": "american-football",
+              "entity_def_id": "category"
+            },
+            {
+              "uuid": "0300a491-8816-447f-ab80-dd78a82b291e",
+              "value": "Basketball",
+              "image_id": "2cac22a6af7844878b6b91b69992ff38",
+              "permalink": "basketball",
+              "entity_def_id": "category"
+            },
+            {
+              "uuid": "8c453fd3-90cc-5be3-23a6-cb2944fb05cf",
+              "value": "Data Visualization",
+              "image_id": "b3a417deb90d4003ac5665a45aa75d0e",
+              "permalink": "data-visualization",
+              "entity_def_id": "category"
+            },
+            {
+              "uuid": "2f47ba93-33d3-61fe-de89-0fe8a4a8366b",
+              "value": "Digital Media",
+              "image_id": "afd8eaeb54c74db7ac8805674159abaf",
+              "permalink": "digital-media-2f47",
+              "entity_def_id": "category"
+            },
+            {
+              "uuid": "78b58810-ad58-a623-2a80-2a0e3603a544",
+              "value": "Media and Entertainment",
+              "image_id": "5b198f953ddc491ca9a1029778c2057e",
+              "permalink": "media-and-entertainment",
+              "entity_def_id": "category"
+            },
+            {
+              "uuid": "a0144815-bd8f-9a1b-42ae-74c91617a77c",
+              "value": "Sports",
+              "image_id": "45fedbc985f14dfe9863c9651bf46e31",
+              "permalink": "sports",
+              "entity_def_id": "category"
+            },
+            {
+              "uuid": "69eb7729-14ce-2fb1-0998-ef15631f644b",
+              "value": "Women's",
+              "image_id": "bc47faefc70548f6ac84dfacfa747ee6",
+              "permalink": "womens",
+              "entity_def_id": "category"
+            }
+          ],
+          "source_num_employees_enum": "c_00001_00010",
+          "target": {
+            "uuid": "6f03145c-df5f-4f8d-9c50-7ec93e58657c",
+            "value": "Sports Monetize",
+            "image_id": "iqmeh9mbyh2mobrcvyv2",
+            "permalink": "sports-monetize",
+            "entity_def_id": "organization"
+          },
+          "target_num_employees_enum": "c_00001_00010",
+          "target_category_groups": [
+            {
+              "uuid": "7ae83f91-fa42-d534-9099-aa6745114b0d",
+              "value": "Community and Lifestyle",
+              "permalink": "community-and-lifestyle",
+              "entity_def_id": "category_group"
+            },
+            {
+              "uuid": "701eef4f-18c1-4aff-b550-caf732cd575f",
+              "value": "Data and Analytics",
+              "permalink": "data-and-analytics",
+              "entity_def_id": "category_group"
+            },
+            {
+              "uuid": "e8b98a7d-448c-3c4f-f893-33f17f8f5093",
+              "value": "Design",
+              "permalink": "design",
+              "entity_def_id": "category_group"
+            },
+            {
+              "uuid": "4fe3f3ac-e522-5889-7477-c1b6d6663710",
+              "value": "Information Technology",
+              "permalink": "information-technology-4fe3",
+              "entity_def_id": "category_group"
+            },
+            {
+              "uuid": "3bd75a3d-986a-9911-b145-f944d7d6d4c6",
+              "value": "Media and Entertainment",
+              "permalink": "media-and-entertainment-3bd7",
+              "entity_def_id": "category_group"
+            },
+            {
+              "uuid": "85b6bca9-930a-11bc-a608-a513b76fb637",
+              "value": "Software",
+              "permalink": "software-85b6",
+              "entity_def_id": "category_group"
+            },
+            {
+              "uuid": "8f4d8907-0ee6-80f7-92a9-16ac0f85352b",
+              "value": "Sports",
+              "permalink": "sports-8f4d",
+              "entity_def_id": "category_group"
+            }
+          ],
+          "target_location_groups": [
+            {
+              "uuid": "23e84fcd-9a32-4016-ab2a-3ece1ad40e08",
+              "value": "Greater Atlanta Area",
+              "permalink": "greater-atlanta-area",
+              "entity_def_id": "location",
+              "location_type": "group"
+            },
+            {
+              "uuid": "6c6b9ca5-966a-448b-8480-29b5a753f9ee",
+              "value": "East Coast",
+              "permalink": "east-coast-united-states",
+              "entity_def_id": "location",
+              "location_type": "group"
+            },
+            {
+              "uuid": "090db99d-13e7-455a-a0e4-95cd21211c92",
+              "value": "Southern US",
+              "permalink": "southern-united-states",
+              "entity_def_id": "location",
+              "location_type": "group"
+            }
+          ],
+          "source_short_description": "Mercato Day is a sports news platform that offers football economics, and live broadcasts.",
+          "source_micro_categories": [
+            {
+              "uuid": "2aaddaf2-ac1a-4a89-9fee-ce262ef9af35",
+              "value": "Broadcast Journalism",
+              "permalink": "broadcast-journalism",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "f3ab52bf-0fbf-4d1b-851e-fe84e27d790e",
+              "value": "Business Journalism",
+              "permalink": "business-journalism",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "84d0a04c-33b1-4fab-a1ec-ca27352c2628",
+              "value": "Content Aggregation Services",
+              "permalink": "content-aggregation-services",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "214fbea7-6895-43c1-9a10-0bd6b4f44ad2",
+              "value": "Digital Newspaper Services",
+              "permalink": "digital-newspaper-services",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "860c61a2-456e-4325-b54a-21eb39b91c06",
+              "value": "Financial & Market News",
+              "permalink": "financial-market-news",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "a9e9ef4e-802c-45b1-853c-bed19815e7fc",
+              "value": "Live Streaming and Video Services",
+              "permalink": "live-streaming-and-video-services",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "f1839a8e-134e-46c1-97f3-24fecf28f31a",
+              "value": "Market Intelligence",
+              "permalink": "market-intelligence-f31a",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "2d81b654-b99d-48dc-a020-fa71617cbdeb",
+              "value": "Multimedia News",
+              "permalink": "multimedia-news",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "e2b63185-9414-4921-8e02-dfde907dec06",
+              "value": "Video Hosting Platforms",
+              "permalink": "video-hosting-platforms",
+              "entity_def_id": "micro_category"
+            }
+          ],
+          "source_location_groups": [
+            {
+              "uuid": "4e8be435-c63a-4aff-8a2f-44a880d9c341",
+              "value": "Europe, Middle East, and Africa (EMEA)",
+              "permalink": "europe-middle-east-africa-emea",
+              "entity_def_id": "location",
+              "location_type": "group"
+            },
+            {
+              "uuid": "e0272206-3430-48cb-a5bc-1d4b3eafe15a",
+              "value": "Middle East",
+              "permalink": "middle-east",
+              "entity_def_id": "location",
+              "location_type": "group"
+            },
+            {
+              "uuid": "8cb7cad4-b7e4-4b28-a496-2ede3720cb19",
+              "value": "Middle East and North Africa (MENA)",
+              "permalink": "middle-east-and-north-africa-mena",
+              "entity_def_id": "location",
+              "location_type": "group"
+            }
+          ]
+        },
+        {
+          "source": {
+            "uuid": "ab88f733-78b4-4872-bb8b-aeae5ed9d9dd",
+            "value": "Mercato Day",
+            "image_id": "bvsgrtwvuyz8qgrcgqzk",
+            "permalink": "mercato-day",
+            "entity_def_id": "organization"
+          },
+          "identifier": {
+            "uuid": "e9dc611d-952c-48dc-9a0b-0916e283a8f0",
+            "value": "Mercato Day competes with SportsDias",
+            "entity_def_id": "org_similarity"
+          },
+          "source_revenue_range": "r_00000000",
+          "source_locations": [
+            {
+              "uuid": "18c3f473-94ab-7b11-47dd-26769797c485",
+              "value": "Amman",
+              "permalink": "amman-amman",
+              "entity_def_id": "location",
+              "location_type": "city"
+            },
+            {
+              "uuid": "36dd1e53-bc8a-4bf2-771a-7611036b3ebc",
+              "value": "Amman",
+              "permalink": "amman-jordan",
+              "entity_def_id": "location",
+              "location_type": "region"
+            },
+            {
+              "uuid": "e5fffa67-5dbb-56cb-27e1-23f8b09b59ba",
+              "value": "Jordan",
+              "permalink": "jordan",
+              "entity_def_id": "location",
+              "location_type": "country"
+            },
+            {
+              "uuid": "b41404d2-8ecc-caf5-1268-8fdd3afe73ee",
+              "value": "Asia",
+              "permalink": "asia",
+              "entity_def_id": "location",
+              "location_type": "continent"
+            }
+          ],
+          "additional_reasons": [
+            "global_location_overlap"
+          ],
+          "score": 94.995,
+          "target_micro_categories": [
+            {
+              "uuid": "1902b8a0-f13a-40f4-ab10-ff5c95bc9590",
+              "value": "Audience Measurement and Analytics",
+              "permalink": "audience-measurement-and-analytics",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "84d0a04c-33b1-4fab-a1ec-ca27352c2628",
+              "value": "Content Aggregation Services",
+              "permalink": "content-aggregation-services",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "214fbea7-6895-43c1-9a10-0bd6b4f44ad2",
+              "value": "Digital Newspaper Services",
+              "permalink": "digital-newspaper-services",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "91d39fad-578d-413f-8cdc-f5886d14367e",
+              "value": "Event Analytics and Surveys",
+              "permalink": "event-analytics-and-surveys",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "2d81b654-b99d-48dc-a020-fa71617cbdeb",
+              "value": "Multimedia News",
+              "permalink": "multimedia-news",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "04f9421c-d94d-41d1-9773-1c9692005051",
+              "value": "News Alerts",
+              "permalink": "news-alerts",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "f19a10bc-eeb7-478a-a3e4-e719f2b8dab6",
+              "value": "News Reading Apps",
+              "permalink": "news-reading-apps",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "74d4bf84-6259-4002-8eca-92451612ed8b",
+              "value": "Social Listening and Analytics",
+              "permalink": "social-listening-and-analytics",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "977bff95-3b22-4b1b-94ad-e2b7a8e379e6",
+              "value": "Social Media Analytics and Insights",
+              "permalink": "social-media-analytics-and-insights",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "7f9c70d7-2500-489c-b5fd-2a556ac3035d",
+              "value": "Sports and Athlete Marketing",
+              "permalink": "sports-and-athlete-marketing",
+              "entity_def_id": "micro_category"
+            }
+          ],
+          "target_locations": [
+            {
+              "uuid": "aad17950-576b-8c44-8fd4-f44dbeb59220",
+              "value": "London",
+              "permalink": "london-england",
+              "entity_def_id": "location",
+              "location_type": "city"
+            },
+            {
+              "uuid": "79eb923b-9e93-e0db-2fe0-75f0c430c2cb",
+              "value": "England",
+              "permalink": "england-united-kingdom",
+              "entity_def_id": "location",
+              "location_type": "region"
+            },
+            {
+              "uuid": "a30e342c-1742-6b1c-66e9-461de680e54b",
+              "value": "United Kingdom",
+              "permalink": "united-kingdom",
+              "entity_def_id": "location",
+              "location_type": "country"
+            },
+            {
+              "uuid": "6106f5dc-823e-5da8-40d7-51612c0b2c4e",
+              "value": "Europe",
+              "permalink": "europe",
+              "entity_def_id": "location",
+              "location_type": "continent"
+            }
+          ],
+          "target_short_description": "SportsDias is a football updates platform that provides football news and event updates.",
+          "target_categories": [
+            {
+              "uuid": "db01a201-1e47-57b3-c3cc-a63eb94e3878",
+              "value": "News",
+              "image_id": "57041740473943df8dd63cd0a0008f1f",
+              "permalink": "news",
+              "entity_def_id": "category"
+            },
+            {
+              "uuid": "aad2f937-0707-e264-9c2e-63a2f5083150",
+              "value": "Soccer",
+              "image_id": "9fe2ccbdeddc49aeaaf0432c84cac81c",
+              "permalink": "soccer",
+              "entity_def_id": "category"
+            },
+            {
+              "uuid": "a0144815-bd8f-9a1b-42ae-74c91617a77c",
+              "value": "Sports",
+              "image_id": "45fedbc985f14dfe9863c9651bf46e31",
+              "permalink": "sports",
+              "entity_def_id": "category"
+            }
+          ],
+          "source_num_employees_enum": "c_00001_00010",
+          "target": {
+            "uuid": "038aab1d-5476-478d-ba1c-db486f09bada",
+            "value": "SportsDias",
+            "image_id": "wqpkk2vaohtktqxduy86",
+            "permalink": "sportsdias",
+            "entity_def_id": "organization"
+          },
+          "target_revenue_range": "r_00001000",
+          "target_num_employees_enum": "c_00011_00050",
+          "target_category_groups": [
+            {
+              "uuid": "d5f76b18-83d5-c86d-25cb-facca572d71a",
+              "value": "Content and Publishing",
+              "permalink": "content-and-publishing",
+              "entity_def_id": "category_group"
+            },
+            {
+              "uuid": "3bd75a3d-986a-9911-b145-f944d7d6d4c6",
+              "value": "Media and Entertainment",
+              "permalink": "media-and-entertainment-3bd7",
+              "entity_def_id": "category_group"
+            },
+            {
+              "uuid": "8f4d8907-0ee6-80f7-92a9-16ac0f85352b",
+              "value": "Sports",
+              "permalink": "sports-8f4d",
+              "entity_def_id": "category_group"
+            }
+          ],
+          "target_location_groups": [
+            {
+              "uuid": "4e8be435-c63a-4aff-8a2f-44a880d9c341",
+              "value": "Europe, Middle East, and Africa (EMEA)",
+              "permalink": "europe-middle-east-africa-emea",
+              "entity_def_id": "location",
+              "location_type": "group"
+            }
+          ],
+          "source_short_description": "Mercato Day is a sports news platform that offers football economics, and live broadcasts.",
+          "source_micro_categories": [
+            {
+              "uuid": "2aaddaf2-ac1a-4a89-9fee-ce262ef9af35",
+              "value": "Broadcast Journalism",
+              "permalink": "broadcast-journalism",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "f3ab52bf-0fbf-4d1b-851e-fe84e27d790e",
+              "value": "Business Journalism",
+              "permalink": "business-journalism",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "84d0a04c-33b1-4fab-a1ec-ca27352c2628",
+              "value": "Content Aggregation Services",
+              "permalink": "content-aggregation-services",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "214fbea7-6895-43c1-9a10-0bd6b4f44ad2",
+              "value": "Digital Newspaper Services",
+              "permalink": "digital-newspaper-services",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "860c61a2-456e-4325-b54a-21eb39b91c06",
+              "value": "Financial & Market News",
+              "permalink": "financial-market-news",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "a9e9ef4e-802c-45b1-853c-bed19815e7fc",
+              "value": "Live Streaming and Video Services",
+              "permalink": "live-streaming-and-video-services",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "f1839a8e-134e-46c1-97f3-24fecf28f31a",
+              "value": "Market Intelligence",
+              "permalink": "market-intelligence-f31a",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "2d81b654-b99d-48dc-a020-fa71617cbdeb",
+              "value": "Multimedia News",
+              "permalink": "multimedia-news",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "e2b63185-9414-4921-8e02-dfde907dec06",
+              "value": "Video Hosting Platforms",
+              "permalink": "video-hosting-platforms",
+              "entity_def_id": "micro_category"
+            }
+          ],
+          "source_location_groups": [
+            {
+              "uuid": "4e8be435-c63a-4aff-8a2f-44a880d9c341",
+              "value": "Europe, Middle East, and Africa (EMEA)",
+              "permalink": "europe-middle-east-africa-emea",
+              "entity_def_id": "location",
+              "location_type": "group"
+            },
+            {
+              "uuid": "e0272206-3430-48cb-a5bc-1d4b3eafe15a",
+              "value": "Middle East",
+              "permalink": "middle-east",
+              "entity_def_id": "location",
+              "location_type": "group"
+            },
+            {
+              "uuid": "8cb7cad4-b7e4-4b28-a496-2ede3720cb19",
+              "value": "Middle East and North Africa (MENA)",
+              "permalink": "middle-east-and-north-africa-mena",
+              "entity_def_id": "location",
+              "location_type": "group"
+            }
+          ]
+        },
+        {
+          "target_num_contacts": 1,
+          "source": {
+            "uuid": "ab88f733-78b4-4872-bb8b-aeae5ed9d9dd",
+            "value": "Mercato Day",
+            "image_id": "bvsgrtwvuyz8qgrcgqzk",
+            "permalink": "mercato-day",
+            "entity_def_id": "organization"
+          },
+          "identifier": {
+            "uuid": "3610c3cc-0453-40ec-8959-c80bb5e72387",
+            "value": "Mercato Day competes with Hayters",
+            "entity_def_id": "org_similarity"
+          },
+          "source_revenue_range": "r_00000000",
+          "source_locations": [
+            {
+              "uuid": "18c3f473-94ab-7b11-47dd-26769797c485",
+              "value": "Amman",
+              "permalink": "amman-amman",
+              "entity_def_id": "location",
+              "location_type": "city"
+            },
+            {
+              "uuid": "36dd1e53-bc8a-4bf2-771a-7611036b3ebc",
+              "value": "Amman",
+              "permalink": "amman-jordan",
+              "entity_def_id": "location",
+              "location_type": "region"
+            },
+            {
+              "uuid": "e5fffa67-5dbb-56cb-27e1-23f8b09b59ba",
+              "value": "Jordan",
+              "permalink": "jordan",
+              "entity_def_id": "location",
+              "location_type": "country"
+            },
+            {
+              "uuid": "b41404d2-8ecc-caf5-1268-8fdd3afe73ee",
+              "value": "Asia",
+              "permalink": "asia",
+              "entity_def_id": "location",
+              "location_type": "continent"
+            }
+          ],
+          "additional_reasons": [
+            "global_location_overlap"
+          ],
+          "score": 89.966,
+          "target_micro_categories": [
+            {
+              "uuid": "214fbea7-6895-43c1-9a10-0bd6b4f44ad2",
+              "value": "Digital Newspaper Services",
+              "permalink": "digital-newspaper-services",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "c7f0ba7a-d055-4e67-89c4-a453309a3cff",
+              "value": "Digital Publications",
+              "permalink": "digital-publications-3cff",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "cef29354-8f07-48e0-acb6-024499f101ae",
+              "value": "Editorial Social Curation",
+              "permalink": "editorial-social-curation",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "ce7e7340-0ace-4535-b6b3-83f62724ee08",
+              "value": "Investigative & Fact-Checking Services",
+              "permalink": "investigative-fact-checking-services",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "2d81b654-b99d-48dc-a020-fa71617cbdeb",
+              "value": "Multimedia News",
+              "permalink": "multimedia-news",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "4c9098f5-8d55-400d-b07d-46e4edefef74",
+              "value": "Newspaper Publishing",
+              "permalink": "newspaper-publishing",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "d5414267-7c07-483f-b52b-809e12c81b02",
+              "value": "Photojournalism Agencies and Collectives",
+              "permalink": "photojournalism-agencies-and-collectives",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "977bff95-3b22-4b1b-94ad-e2b7a8e379e6",
+              "value": "Social Media Analytics and Insights",
+              "permalink": "social-media-analytics-and-insights",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "866122df-9d58-4219-b5c9-d6e37a07655a",
+              "value": "Social Media Video Editing",
+              "permalink": "social-media-video-editing",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "7f9c70d7-2500-489c-b5fd-2a556ac3035d",
+              "value": "Sports and Athlete Marketing",
+              "permalink": "sports-and-athlete-marketing",
+              "entity_def_id": "micro_category"
+            }
+          ],
+          "target_locations": [
+            {
+              "uuid": "aad17950-576b-8c44-8fd4-f44dbeb59220",
+              "value": "London",
+              "permalink": "london-england",
+              "entity_def_id": "location",
+              "location_type": "city"
+            },
+            {
+              "uuid": "79eb923b-9e93-e0db-2fe0-75f0c430c2cb",
+              "value": "England",
+              "permalink": "england-united-kingdom",
+              "entity_def_id": "location",
+              "location_type": "region"
+            },
+            {
+              "uuid": "a30e342c-1742-6b1c-66e9-461de680e54b",
+              "value": "United Kingdom",
+              "permalink": "united-kingdom",
+              "entity_def_id": "location",
+              "location_type": "country"
+            },
+            {
+              "uuid": "6106f5dc-823e-5da8-40d7-51612c0b2c4e",
+              "value": "Europe",
+              "permalink": "europe",
+              "entity_def_id": "location",
+              "location_type": "continent"
+            }
+          ],
+          "target_short_description": "Hayters is a sports journalism company that provides football news, interviews, and social media article articles.",
+          "target_categories": [
+            {
+              "uuid": "6f169dae-3199-cda7-a7eb-94c30066691c",
+              "value": "Digital Entertainment",
+              "image_id": "6eb3fe31bacc4a8ab19f7fb90634d846",
+              "permalink": "digital-entertainment",
+              "entity_def_id": "category"
+            },
+            {
+              "uuid": "c704ac44-d7ba-7cbe-146c-1503d4e620f0",
+              "value": "Journalism",
+              "image_id": "92d7967ce6a44cbda632482246d4119c",
+              "permalink": "journalism",
+              "entity_def_id": "category"
+            },
+            {
+              "uuid": "db01a201-1e47-57b3-c3cc-a63eb94e3878",
+              "value": "News",
+              "image_id": "57041740473943df8dd63cd0a0008f1f",
+              "permalink": "news",
+              "entity_def_id": "category"
+            },
+            {
+              "uuid": "a0144815-bd8f-9a1b-42ae-74c91617a77c",
+              "value": "Sports",
+              "image_id": "45fedbc985f14dfe9863c9651bf46e31",
+              "permalink": "sports",
+              "entity_def_id": "category"
+            }
+          ],
+          "source_num_employees_enum": "c_00001_00010",
+          "target": {
+            "uuid": "a42b290e-e738-4186-8058-c752b89137ed",
+            "value": "Hayters",
+            "image_id": "f4a01t8yaskcta0ogf7a",
+            "permalink": "hayters",
+            "entity_def_id": "organization"
+          },
+          "target_revenue_range": "r_00001000",
+          "target_num_employees_enum": "c_00011_00050",
+          "target_category_groups": [
+            {
+              "uuid": "d5f76b18-83d5-c86d-25cb-facca572d71a",
+              "value": "Content and Publishing",
+              "permalink": "content-and-publishing",
+              "entity_def_id": "category_group"
+            },
+            {
+              "uuid": "3bd75a3d-986a-9911-b145-f944d7d6d4c6",
+              "value": "Media and Entertainment",
+              "permalink": "media-and-entertainment-3bd7",
+              "entity_def_id": "category_group"
+            },
+            {
+              "uuid": "8f4d8907-0ee6-80f7-92a9-16ac0f85352b",
+              "value": "Sports",
+              "permalink": "sports-8f4d",
+              "entity_def_id": "category_group"
+            }
+          ],
+          "target_location_groups": [
+            {
+              "uuid": "4e8be435-c63a-4aff-8a2f-44a880d9c341",
+              "value": "Europe, Middle East, and Africa (EMEA)",
+              "permalink": "europe-middle-east-africa-emea",
+              "entity_def_id": "location",
+              "location_type": "group"
+            }
+          ],
+          "source_short_description": "Mercato Day is a sports news platform that offers football economics, and live broadcasts.",
+          "source_micro_categories": [
+            {
+              "uuid": "2aaddaf2-ac1a-4a89-9fee-ce262ef9af35",
+              "value": "Broadcast Journalism",
+              "permalink": "broadcast-journalism",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "f3ab52bf-0fbf-4d1b-851e-fe84e27d790e",
+              "value": "Business Journalism",
+              "permalink": "business-journalism",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "84d0a04c-33b1-4fab-a1ec-ca27352c2628",
+              "value": "Content Aggregation Services",
+              "permalink": "content-aggregation-services",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "214fbea7-6895-43c1-9a10-0bd6b4f44ad2",
+              "value": "Digital Newspaper Services",
+              "permalink": "digital-newspaper-services",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "860c61a2-456e-4325-b54a-21eb39b91c06",
+              "value": "Financial & Market News",
+              "permalink": "financial-market-news",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "a9e9ef4e-802c-45b1-853c-bed19815e7fc",
+              "value": "Live Streaming and Video Services",
+              "permalink": "live-streaming-and-video-services",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "f1839a8e-134e-46c1-97f3-24fecf28f31a",
+              "value": "Market Intelligence",
+              "permalink": "market-intelligence-f31a",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "2d81b654-b99d-48dc-a020-fa71617cbdeb",
+              "value": "Multimedia News",
+              "permalink": "multimedia-news",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "e2b63185-9414-4921-8e02-dfde907dec06",
+              "value": "Video Hosting Platforms",
+              "permalink": "video-hosting-platforms",
+              "entity_def_id": "micro_category"
+            }
+          ],
+          "source_location_groups": [
+            {
+              "uuid": "4e8be435-c63a-4aff-8a2f-44a880d9c341",
+              "value": "Europe, Middle East, and Africa (EMEA)",
+              "permalink": "europe-middle-east-africa-emea",
+              "entity_def_id": "location",
+              "location_type": "group"
+            },
+            {
+              "uuid": "e0272206-3430-48cb-a5bc-1d4b3eafe15a",
+              "value": "Middle East",
+              "permalink": "middle-east",
+              "entity_def_id": "location",
+              "location_type": "group"
+            },
+            {
+              "uuid": "8cb7cad4-b7e4-4b28-a496-2ede3720cb19",
+              "value": "Middle East and North Africa (MENA)",
+              "permalink": "middle-east-and-north-africa-mena",
+              "entity_def_id": "location",
+              "location_type": "group"
+            }
+          ]
+        }
+      ],
+      "ipo_prediction": [
+        {
+          "generated_on": "2025-03-30",
+          "identifier": {
+            "uuid": "e50dd982-4f37-4d93-8b00-0804fef1fdf5",
+            "value": "IPO Prediction 2025-03-30",
+            "entity_def_id": "ipo_prediction"
+          },
+          "probability_score": 0.0345,
+          "created_at": "2025-03-30T10:05:27Z",
+          "updated_at": "2025-03-30T10:05:27Z",
+          "probability_tier": "p500_negative_high"
+        }
+      ],
+      "acquisitions_summary": {
+        "identifier": {
+          "uuid": "ab88f733-78b4-4872-bb8b-aeae5ed9d9dd",
+          "value": "Mercato Day",
+          "image_id": "bvsgrtwvuyz8qgrcgqzk",
+          "permalink": "mercato-day",
+          "entity_def_id": "organization"
+        }
+      },
+      "advisors_summary": {
+        "identifier": {
+          "uuid": "ab88f733-78b4-4872-bb8b-aeae5ed9d9dd",
+          "value": "Mercato Day",
+          "image_id": "bvsgrtwvuyz8qgrcgqzk",
+          "permalink": "mercato-day",
+          "entity_def_id": "organization"
+        }
+      },
+      "acquisitions_list": [],
+      "exits_headline": {},
+      "investments_summary": {
+        "identifier": {
+          "uuid": "ab88f733-78b4-4872-bb8b-aeae5ed9d9dd",
+          "value": "Mercato Day",
+          "image_id": "bvsgrtwvuyz8qgrcgqzk",
+          "permalink": "mercato-day",
+          "entity_def_id": "organization"
+        }
+      },
+      "acquired_by_fields": {},
+      "research_insight_text_link": {},
+      "acquisition_prediction": [
+        {
+          "generated_on": "2025-03-30",
+          "identifier": {
+            "uuid": "1d2ae6f1-1e86-4129-ad73-c8ce90148839",
+            "value": "Acquisition Prediction 2025-03-30",
+            "entity_def_id": "acquisition_prediction"
+          },
+          "probability_score": 0.3832,
+          "runway_speculation": {
+            "uuid": "e279872d-a82b-4cbb-ae35-25471fff4af9",
+            "value": "Seed Round - Mercato Day",
+            "image_id": "bvsgrtwvuyz8qgrcgqzk",
+            "permalink": "mercato-day-seed--e279872d",
+            "entity_def_id": "funding_round"
+          },
+          "created_at": "2025-03-30T10:01:57Z",
+          "updated_at": "2025-03-30T10:01:57Z",
+          "probability_tier": "p300_neutral"
+        }
+      ],
+      "sub_organizations_headline": {},
+      "layoff_list": [],
+      "growth_and_heat": {
+        "heat_score_history": {
+          "periods": {
+            "i1": {
+              "values": [
+                61,
+                61,
+                61,
+                61,
+                62,
+                62,
+                62,
+                61,
+                61,
+                61,
+                61,
+                62,
+                62,
+                62,
+                62,
+                62,
+                62,
+                62,
+                62,
+                62,
+                62,
+                62,
+                62,
+                62,
+                62,
+                62,
+                62,
+                62,
+                62,
+                62,
+                62,
+                62,
+                62,
+                62,
+                62,
+                63,
+                63,
+                63,
+                63,
+                63,
+                63,
+                63,
+                63,
+                63,
+                63,
+                64,
+                64,
+                64,
+                64,
+                64,
+                64,
+                64,
+                64,
+                64,
+                64,
+                64,
+                65,
+                65,
+                65,
+                65,
+                65,
+                65,
+                65,
+                65,
+                65,
+                65,
+                65,
+                66,
+                66,
+                66,
+                66,
+                66,
+                66,
+                66,
+                66,
+                66,
+                66,
+                66,
+                67,
+                67,
+                67,
+                67,
+                67,
+                67,
+                67,
+                67,
+                67,
+                67,
+                67,
+                67
+              ],
+              "interval": 1
+            },
+            "i2": {
+              "values": [
+                61,
+                61,
+                62,
+                62,
+                61,
+                62,
+                62,
+                62,
+                62,
+                62,
+                62,
+                62,
+                62,
+                62,
+                62,
+                62,
+                62,
+                63,
+                63,
+                63,
+                63,
+                63,
+                64,
+                64,
+                64,
+                64,
+                64,
+                64,
+                65,
+                65,
+                65,
+                65,
+                65,
+                66,
+                66,
+                66,
+                66,
+                66,
+                66,
+                67,
+                67,
+                67,
+                67,
+                67,
+                67,
+                68,
+                68,
+                68,
+                67,
+                67,
+                68,
+                67,
+                66,
+                66,
+                66,
+                67,
+                67,
+                67,
+                67,
+                67,
+                67,
+                67,
+                68,
+                67,
+                67,
+                67,
+                67,
+                67,
+                67,
+                67,
+                68,
+                68,
+                68,
+                68,
+                69,
+                69,
+                70,
+                70,
+                70,
+                71,
+                71,
+                71,
+                72,
+                72,
+                73,
+                73,
+                74,
+                74,
+                75,
+                75,
+                75
+              ],
+              "interval": 2
+            },
+            "i4": {
+              "values": [
+                61,
+                62,
+                61,
+                62,
+                62,
+                62,
+                62,
+                62,
+                62,
+                63,
+                63,
+                64,
+                64,
+                64,
+                65,
+                65,
+                65,
+                66,
+                66,
+                67,
+                67,
+                67,
+                67,
+                68,
+                67,
+                68,
+                66,
+                67,
+                67,
+                67,
+                67,
+                67,
+                67,
+                67,
+                67,
+                68,
+                68,
+                69,
+                70,
+                71,
+                71,
+                72,
+                73,
+                74,
+                75,
+                76,
+                77,
+                78,
+                79,
+                81,
+                80,
+                79,
+                80,
+                81,
+                81,
+                82,
+                82,
+                81,
+                82,
+                83,
+                80,
+                78,
+                80,
+                80,
+                81,
+                79,
+                81,
+                82,
+                83,
+                85,
+                86,
+                85,
+                86,
+                87,
+                89,
+                89,
+                90,
+                89,
+                89,
+                90,
+                92,
+                91,
+                91,
+                91,
+                90,
+                89,
+                90,
+                90,
+                88,
+                83,
+                82,
+                82
+              ],
+              "interval": 4
+            },
+            "i7": {
+              "values": [
+                61,
+                61,
+                62,
+                62,
+                62,
+                63,
+                64,
+                64,
+                65,
+                65,
+                66,
+                67,
+                67,
+                68,
+                67,
+                66,
+                67,
+                67,
+                67,
+                67,
+                68,
+                69,
+                70,
+                72,
+                73,
+                75,
+                77,
+                79,
+                80,
+                79,
+                81,
+                81,
+                82,
+                82,
+                80,
+                79,
+                80,
+                80,
+                82,
+                84,
+                85,
+                86,
+                88,
+                89,
+                89,
+                90,
+                91,
+                91,
+                90,
+                90,
+                88,
+                82,
+                83,
+                83,
+                84,
+                83,
+                84,
+                86,
+                88,
+                88,
+                77,
+                75,
+                75,
+                77,
+                76,
+                76,
+                78,
+                78,
+                78,
+                75,
+                76,
+                73,
+                67,
+                67,
+                68,
+                69,
+                70,
+                72,
+                73,
+                75,
+                76,
+                74,
+                73,
+                70,
+                72,
+                72,
+                69,
+                71,
+                73,
+                74,
+                70,
+                72,
+                71,
+                69,
+                70,
+                68,
+                67,
+                62,
+                59,
+                60,
+                61,
+                62,
+                56,
+                56,
+                56
+              ],
+              "interval": 7
+            },
+            "i18": {
+              "values": [
+                61,
+                62,
+                64,
+                65,
+                67,
+                67,
+                67,
+                67,
+                70,
+                73,
+                78,
+                80,
+                81,
+                80,
+                80,
+                84,
+                88,
+                90,
+                91,
+                88,
+                83,
+                84,
+                87,
+                80,
+                76,
+                77,
+                77,
+                75,
+                67,
+                69,
+                73,
+                75,
+                71,
+                71,
+                73,
+                71,
+                69,
+                66,
+                60,
+                60,
+                56,
+                58,
+                62,
+                66,
+                67,
+                65,
+                62,
+                54,
+                49,
+                51,
+                54,
+                57,
+                58,
+                59,
+                62,
+                58,
+                59,
+                63,
+                66,
+                63,
+                60,
+                59,
+                64,
+                68,
+                70,
+                65,
+                62,
+                61,
+                67,
+                70,
+                74,
+                72,
+                73,
+                66,
+                64,
+                63,
+                63,
+                67,
+                69,
+                67,
+                65,
+                64,
+                69,
+                72,
+                71,
+                66,
+                61,
+                57,
+                53,
+                56,
+                58,
+                59,
+                62,
+                63,
+                62,
+                59,
+                61,
+                58,
+                57,
+                58,
+                63,
+                67
+              ],
+              "interval": 18
+            },
+            "i36": {
+              "values": [
+                61,
+                64,
+                67,
+                67,
+                71,
+                79,
+                81,
+                82,
+                89,
+                89,
+                83,
+                83,
+                76,
+                76,
+                68,
+                74,
+                71,
+                72,
+                68,
+                60,
+                57,
+                64,
+                66,
+                58,
+                50,
+                55,
+                58,
+                60,
+                61,
+                64,
+                59,
+                66,
+                68,
+                62,
+                69,
+                73,
+                70,
+                63,
+                65,
+                68,
+                64,
+                70,
+                68,
+                59,
+                54,
+                59,
+                63,
+                60,
+                60,
+                58,
+                66,
+                74,
+                69,
+                65,
+                73,
+                69,
+                61,
+                71,
+                73,
+                73,
+                74,
+                66,
+                65,
+                58,
+                75,
+                15,
+                11,
+                0
+              ],
+              "interval": 36
+            }
+          }
+        },
+        "growth_score_delta_d90": -1,
+        "growth_score_history": {
+          "periods": {
+            "i1": {
+              "values": [
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                34,
+                34,
+                34
+              ],
+              "interval": 1
+            },
+            "i2": {
+              "values": [
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                34,
+                34,
+                34,
+                34,
+                34,
+                34,
+                34,
+                34,
+                34,
+                34,
+                34,
+                34,
+                34,
+                34,
+                34,
+                34,
+                34,
+                34,
+                34,
+                34,
+                34,
+                34,
+                34,
+                34,
+                34,
+                34,
+                34,
+                34,
+                34,
+                34,
+                34,
+                34,
+                34,
+                34,
+                34,
+                34,
+                34,
+                34,
+                34,
+                34,
+                34,
+                35,
+                35,
+                35,
+                35,
+                35,
+                35,
+                35
+              ],
+              "interval": 2
+            },
+            "i4": {
+              "values": [
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                34,
+                34,
+                34,
+                34,
+                34,
+                34,
+                34,
+                34,
+                34,
+                34,
+                34,
+                34,
+                34,
+                34,
+                34,
+                34,
+                34,
+                34,
+                34,
+                34,
+                35,
+                35,
+                35,
+                35,
+                35,
+                23,
+                7,
+                5,
+                4,
+                2,
+                1,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "interval": 4
+            },
+            "i7": {
+              "values": [
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                34,
+                34,
+                34,
+                34,
+                34,
+                34,
+                34,
+                34,
+                34,
+                34,
+                34,
+                34,
+                35,
+                35,
+                35,
+                12,
+                4,
+                2,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                15,
+                21,
+                22,
+                23,
+                25,
+                26,
+                27,
+                28,
+                29,
+                29,
+                30,
+                30,
+                29,
+                30,
+                30,
+                31,
+                31,
+                32,
+                32,
+                33,
+                33,
+                33,
+                34,
+                33,
+                34,
+                34,
+                34,
+                34,
+                35,
+                35,
+                35,
+                35,
+                36,
+                36,
+                37,
+                38,
+                39,
+                53,
+                66,
+                65,
+                63,
+                47,
+                36,
+                36,
+                36
+              ],
+              "interval": 7
+            },
+            "i18": {
+              "values": [
+                33,
+                33,
+                33,
+                33,
+                33,
+                34,
+                34,
+                34,
+                34,
+                35,
+                23,
+                2,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                11,
+                23,
+                26,
+                29,
+                30,
+                30,
+                31,
+                32,
+                33,
+                34,
+                34,
+                35,
+                35,
+                36,
+                41,
+                66,
+                48,
+                36,
+                36,
+                37,
+                37,
+                38,
+                38,
+                38,
+                37,
+                36,
+                36,
+                37,
+                37,
+                37,
+                37,
+                38,
+                37,
+                37,
+                38,
+                38,
+                38,
+                37,
+                37,
+                38,
+                39,
+                39,
+                39,
+                38,
+                38,
+                39,
+                52,
+                65,
+                67,
+                68,
+                68,
+                69,
+                69,
+                70,
+                71,
+                71,
+                71,
+                72,
+                71,
+                73,
+                73,
+                73,
+                73,
+                73,
+                73,
+                73,
+                73,
+                74,
+                75,
+                76,
+                76,
+                77,
+                77,
+                77,
+                77,
+                78,
+                78,
+                79,
+                80
+              ],
+              "interval": 18
+            },
+            "i36": {
+              "values": [
+                33,
+                33,
+                34,
+                34,
+                34,
+                12,
+                0,
+                0,
+                0,
+                0,
+                0,
+                6,
+                25,
+                29,
+                30,
+                33,
+                34,
+                35,
+                39,
+                57,
+                36,
+                37,
+                38,
+                37,
+                36,
+                37,
+                37,
+                38,
+                38,
+                38,
+                37,
+                39,
+                39,
+                38,
+                45,
+                66,
+                68,
+                69,
+                70,
+                71,
+                71,
+                73,
+                73,
+                73,
+                73,
+                74,
+                76,
+                77,
+                77,
+                78,
+                80,
+                82,
+                82,
+                83,
+                85,
+                85,
+                85,
+                87,
+                88,
+                89,
+                90,
+                90,
+                91,
+                90,
+                92,
+                90,
+                89,
+                85,
+                82,
+                76,
+                46,
+                41,
+                39,
+                36,
+                31,
+                24
+              ],
+              "interval": 36
+            }
+          }
+        },
+        "growth_trend_365": {
+          "periods": {
+            "i1": {
+              "values": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                100,
+                100,
+                93,
+                84,
+                77,
+                72,
+                68,
+                64,
+                61,
+                64,
+                61,
+                59,
+                57,
+                55,
+                53,
+                52,
+                51,
+                49,
+                48,
+                47,
+                46,
+                44,
+                43,
+                42,
+                41,
+                41,
+                40,
+                38,
+                36,
+                34,
+                35,
+                34,
+                33,
+                32
+              ],
+              "interval": 1
+            },
+            "i2": {
+              "values": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                100,
+                89,
+                75,
+                66,
+                63,
+                60,
+                56,
+                53,
+                50,
+                48,
+                45,
+                43,
+                41,
+                39,
+                35,
+                35,
+                33,
+                30,
+                28,
+                27,
+                25,
+                24,
+                22,
+                21,
+                20,
+                19,
+                19,
+                18,
+                17,
+                16,
+                15,
+                16,
+                15,
+                15,
+                14,
+                13,
+                12,
+                12,
+                11,
+                13,
+                13,
+                12,
+                16,
+                15,
+                15,
+                15,
+                14,
+                14,
+                14,
+                13,
+                13,
+                12,
+                12,
+                12,
+                11,
+                11,
+                11,
+                10,
+                10,
+                10,
+                10,
+                9,
+                9
+              ],
+              "interval": 2
+            },
+            "i4": {
+              "values": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                94,
+                70,
+                61,
+                54,
+                49,
+                44,
+                40,
+                35,
+                31,
+                27,
+                24,
+                22,
+                19,
+                18,
+                16,
+                15,
+                15,
+                13,
+                12,
+                12,
+                12,
+                16,
+                15,
+                14,
+                13,
+                13,
+                12,
+                11,
+                10,
+                10,
+                10,
+                9,
+                9,
+                -30,
+                -80,
+                -85,
+                -90,
+                -94,
+                -96,
+                -98,
+                -50,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "interval": 4
+            },
+            "i7": {
+              "values": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                85,
+                60,
+                49,
+                41,
+                33,
+                27,
+                22,
+                18,
+                16,
+                15,
+                12,
+                12,
+                15,
+                14,
+                13,
+                11,
+                10,
+                9,
+                9,
+                -64,
+                -87,
+                -94,
+                -98,
+                -14,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                -46,
+                -45,
+                -41,
+                -38,
+                -34,
+                -31,
+                -28,
+                -26,
+                -24,
+                -21,
+                -18,
+                -17,
+                -18,
+                -18,
+                -16,
+                -15,
+                -14,
+                -13,
+                -13,
+                -12,
+                -10,
+                -11,
+                -10,
+                -10,
+                -9,
+                -9,
+                -10,
+                -9,
+                -8,
+                -6,
+                -6,
+                -4,
+                -4,
+                -4,
+                -3,
+                0,
+                2,
+                37,
+                74,
+                71,
+                67,
+                23,
+                -6,
+                -4,
+                -3
+              ],
+              "interval": 7
+            },
+            "i18": {
+              "values": [
+                0,
+                0,
+                0,
+                62,
+                41,
+                24,
+                16,
+                13,
+                14,
+                10,
+                -30,
+                -94,
+                -11,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                -30,
+                -39,
+                -31,
+                -24,
+                -18,
+                -18,
+                -15,
+                -13,
+                -11,
+                -9,
+                -9,
+                -7,
+                -5,
+                -3,
+                7,
+                72,
+                25,
+                -3,
+                -3,
+                -5,
+                -4,
+                -4,
+                -1,
+                1,
+                -3,
+                -7,
+                -36,
+                -44,
+                -45,
+                -46,
+                -45,
+                -45,
+                -46,
+                -47,
+                -46,
+                -46,
+                -47,
+                -48,
+                -48,
+                -48,
+                -47,
+                -46,
+                -48,
+                -48,
+                -48,
+                -47,
+                -30,
+                -13,
+                -11,
+                -10,
+                -11,
+                -11,
+                -10,
+                -11,
+                -9,
+                -8,
+                -9,
+                -11,
+                -12,
+                -12,
+                -11,
+                -11,
+                -10,
+                -12,
+                -13,
+                -14,
+                -15,
+                -14,
+                -11,
+                -10,
+                -10,
+                -12,
+                -13,
+                -12,
+                -13,
+                -13,
+                -13,
+                -12,
+                -11
+              ],
+              "interval": 18
+            },
+            "i36": {
+              "values": [
+                0,
+                31,
+                32,
+                14,
+                12,
+                -62,
+                -6,
+                0,
+                0,
+                0,
+                0,
+                -15,
+                -35,
+                -21,
+                -16,
+                -12,
+                -9,
+                -6,
+                2,
+                49,
+                -3,
+                -4,
+                -2,
+                -1,
+                -22,
+                -44,
+                -45,
+                -46,
+                -47,
+                -47,
+                -48,
+                -47,
+                -47,
+                -48,
+                -38,
+                -12,
+                -11,
+                -10,
+                -10,
+                -9,
+                -11,
+                -12,
+                -11,
+                -12,
+                -14,
+                -12,
+                -10,
+                -12,
+                -12,
+                -13,
+                -11,
+                -9,
+                -9,
+                -8,
+                -8,
+                -5,
+                -4,
+                3,
+                9,
+                23,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                90,
+                64,
+                28
+              ],
+              "interval": 36
+            }
+          }
+        },
+        "heat_score": 61,
+        "heat_trend_365": {
+          "periods": {
+            "i1": {
+              "values": [
+                -24,
+                -24,
+                -24,
+                -24,
+                -25,
+                -23,
+                -23,
+                -24,
+                -24,
+                -25,
+                -25,
+                -23,
+                -23,
+                -24,
+                -24,
+                -24,
+                -24,
+                -24,
+                -25,
+                -24,
+                -24,
+                -24,
+                -24,
+                -24,
+                -25,
+                -23,
+                -23,
+                -24,
+                -24,
+                -24,
+                -24,
+                -24,
+                -25,
+                -25,
+                -25,
+                -25,
+                -25,
+                -25,
+                -25,
+                -25,
+                -25,
+                -25,
+                -26,
+                -26,
+                -26,
+                -26,
+                -26,
+                -26,
+                -26,
+                -25,
+                -25,
+                -25,
+                -25,
+                -24,
+                -24,
+                -21,
+                -17,
+                -13,
+                -13,
+                -13,
+                -13,
+                -13,
+                -13,
+                -14,
+                -14,
+                -10,
+                -10,
+                -10,
+                -10,
+                -10,
+                -10,
+                -11,
+                -11,
+                -11,
+                -11,
+                -11,
+                -11,
+                -12,
+                -12,
+                -12,
+                -12,
+                -12,
+                -13,
+                -13,
+                -13,
+                -13,
+                -9,
+                -9,
+                -9,
+                -10
+              ],
+              "interval": 1
+            },
+            "i2": {
+              "values": [
+                -24,
+                -24,
+                -24,
+                -23,
+                -24,
+                -24,
+                -23,
+                -24,
+                -24,
+                -24,
+                -24,
+                -24,
+                -24,
+                -23,
+                -24,
+                -24,
+                -25,
+                -25,
+                -25,
+                -25,
+                -25,
+                -26,
+                -26,
+                -26,
+                -25,
+                -25,
+                -24,
+                -22,
+                -15,
+                -13,
+                -13,
+                -13,
+                -12,
+                -10,
+                -10,
+                -10,
+                -11,
+                -11,
+                -11,
+                -12,
+                -12,
+                -13,
+                -13,
+                -9,
+                -9,
+                -10,
+                -10,
+                -11,
+                -12,
+                -12,
+                -12,
+                -14,
+                -15,
+                -15,
+                -12,
+                -12,
+                -13,
+                -13,
+                -13,
+                -9,
+                -9,
+                -10,
+                -10,
+                -11,
+                -12,
+                -11,
+                -11,
+                -6,
+                -6,
+                -7,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                3,
+                4,
+                3,
+                3,
+                3,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4
+              ],
+              "interval": 2
+            },
+            "i4": {
+              "values": [
+                -24,
+                -24,
+                -24,
+                -24,
+                -24,
+                -24,
+                -24,
+                -24,
+                -25,
+                -25,
+                -25,
+                -26,
+                -25,
+                -23,
+                -14,
+                -13,
+                -11,
+                -10,
+                -11,
+                -12,
+                -12,
+                -11,
+                -10,
+                -10,
+                -12,
+                -13,
+                -15,
+                -12,
+                -13,
+                -11,
+                -10,
+                -11,
+                -11,
+                -8,
+                -7,
+                2,
+                2,
+                2,
+                3,
+                3,
+                3,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                5,
+                5,
+                5,
+                7,
+                10,
+                11,
+                15,
+                15,
+                13,
+                12,
+                13,
+                18,
+                13,
+                9,
+                9,
+                8,
+                9,
+                5,
+                12,
+                15,
+                15,
+                16,
+                19,
+                23,
+                22,
+                23,
+                26,
+                28,
+                31,
+                30,
+                34,
+                40,
+                50,
+                48,
+                46,
+                45,
+                43,
+                40,
+                40,
+                52,
+                52,
+                43,
+                42,
+                41
+              ],
+              "interval": 4
+            },
+            "i7": {
+              "values": [
+                -24,
+                -24,
+                -24,
+                -24,
+                -24,
+                -25,
+                -26,
+                -24,
+                -14,
+                -11,
+                -11,
+                -12,
+                -10,
+                -11,
+                -13,
+                -13,
+                -12,
+                -10,
+                -11,
+                -7,
+                2,
+                2,
+                3,
+                4,
+                4,
+                4,
+                4,
+                5,
+                5,
+                7,
+                11,
+                15,
+                12,
+                14,
+                14,
+                9,
+                8,
+                7,
+                15,
+                16,
+                21,
+                22,
+                25,
+                29,
+                31,
+                42,
+                48,
+                45,
+                41,
+                42,
+                52,
+                42,
+                42,
+                41,
+                40,
+                37,
+                35,
+                34,
+                34,
+                31,
+                14,
+                13,
+                10,
+                10,
+                13,
+                22,
+                22,
+                24,
+                24,
+                33,
+                40,
+                44,
+                32,
+                31,
+                31,
+                30,
+                29,
+                29,
+                30,
+                31,
+                30,
+                25,
+                22,
+                22,
+                22,
+                19,
+                13,
+                14,
+                16,
+                22,
+                17,
+                25,
+                20,
+                14,
+                13,
+                7,
+                3,
+                -5,
+                -8,
+                -6,
+                -2,
+                -2,
+                -12,
+                -2,
+                0
+              ],
+              "interval": 7
+            },
+            "i18": {
+              "values": [
+                -24,
+                -24,
+                -25,
+                -13,
+                -11,
+                -12,
+                -11,
+                -7,
+                3,
+                4,
+                4,
+                8,
+                14,
+                12,
+                9,
+                18,
+                25,
+                38,
+                45,
+                46,
+                42,
+                38,
+                34,
+                19,
+                10,
+                20,
+                25,
+                40,
+                31,
+                30,
+                30,
+                27,
+                22,
+                16,
+                18,
+                22,
+                13,
+                3,
+                -7,
+                -6,
+                -2,
+                -3,
+                -5,
+                -3,
+                -4,
+                3,
+                1,
+                -13,
+                -25,
+                -26,
+                -24,
+                -19,
+                -19,
+                -6,
+                -3,
+                -8,
+                -7,
+                -6,
+                -3,
+                -5,
+                -6,
+                -9,
+                -9,
+                -4,
+                2,
+                -1,
+                5,
+                10,
+                24,
+                22,
+                24,
+                16,
+                16,
+                5,
+                5,
+                6,
+                2,
+                16,
+                17,
+                13,
+                1,
+                -8,
+                -7,
+                -1,
+                -2,
+                5,
+                -5,
+                -16,
+                -25,
+                -25,
+                -16,
+                -2,
+                3,
+                -2,
+                -10,
+                -19,
+                -16,
+                -18,
+                -19,
+                -20,
+                -14,
+                -9
+              ],
+              "interval": 18
+            },
+            "i36": {
+              "values": [
+                -24,
+                -19,
+                -12,
+                -9,
+                3,
+                6,
+                13,
+                14,
+                31,
+                45,
+                40,
+                27,
+                15,
+                33,
+                30,
+                28,
+                19,
+                20,
+                8,
+                -6,
+                -2,
+                -4,
+                0,
+                -6,
+                -26,
+                -21,
+                -12,
+                -5,
+                -6,
+                -4,
+                -8,
+                -6,
+                0,
+                8,
+                23,
+                20,
+                10,
+                5,
+                9,
+                15,
+                -4,
+                -4,
+                1,
+                -11,
+                -25,
+                -9,
+                1,
+                -15,
+                -17,
+                -20,
+                -10,
+                13,
+                6,
+                10,
+                -1,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                93,
+                100,
+                1
+              ],
+              "interval": 36
+            }
+          }
+        },
+        "growth_score": 33,
+        "heat_score_delta_d90": -6
+      },
+      "bombora_summary": {
+        "identifier": {
+          "uuid": "ab88f733-78b4-4872-bb8b-aeae5ed9d9dd",
+          "value": "Mercato Day",
+          "image_id": "bvsgrtwvuyz8qgrcgqzk",
+          "permalink": "mercato-day",
+          "entity_def_id": "organization"
+        }
+      },
+      "semrush_rank_headline": {
+        "semrush_visits_latest_month": 56009,
+        "semrush_visits_mom_pct": -0.812463796261263
+      },
+      "frequently_asked_questions_latest_funding_round": {
+        "identifier": {
+          "uuid": "ab88f733-78b4-4872-bb8b-aeae5ed9d9dd",
+          "value": "Mercato Day",
+          "image_id": "bvsgrtwvuyz8qgrcgqzk",
+          "permalink": "mercato-day",
+          "entity_def_id": "organization"
+        },
+        "last_funding_at": "2020-04-01",
+        "last_funding_type": "seed",
+        "num_funding_rounds": 1
+      },
+      "apptopia_app_overview_list_free": [],
+      "contacts": {},
+      "product_launches": [],
+      "alumni_summary": {
+        "identifier": {
+          "uuid": "ab88f733-78b4-4872-bb8b-aeae5ed9d9dd",
+          "value": "Mercato Day",
+          "image_id": "bvsgrtwvuyz8qgrcgqzk",
+          "permalink": "mercato-day",
+          "entity_def_id": "organization"
+        }
+      },
+      "apptopia_summary": {
+        "identifier": {
+          "uuid": "ab88f733-78b4-4872-bb8b-aeae5ed9d9dd",
+          "value": "Mercato Day",
+          "image_id": "bvsgrtwvuyz8qgrcgqzk",
+          "permalink": "mercato-day",
+          "entity_def_id": "organization"
+        }
+      },
+      "product_similarity_target_org_list": [
+        {
+          "source": {
+            "uuid": "7b7d21d2-871b-485a-a39b-95bcf8bc98c8",
+            "value": "Sports News Platform",
+            "entity_def_id": "product"
+          },
+          "identifier": {
+            "uuid": "72831de4-7ea0-4fca-a214-8a9884137c53",
+            "value": "Sports News Platform is similar to Football News Articles",
+            "entity_def_id": "product_similarity"
+          },
+          "target": {
+            "uuid": "0b24560a-6c47-434d-bf60-b8909c57e939",
+            "value": "Football News Articles",
+            "entity_def_id": "product"
+          },
+          "target_organization": {
+            "uuid": "a42b290e-e738-4186-8058-c752b89137ed",
+            "value": "Hayters",
+            "image_id": "f4a01t8yaskcta0ogf7a",
+            "permalink": "hayters",
+            "entity_def_id": "organization"
+          }
+        },
+        {
+          "source": {
+            "uuid": "e195092b-c88c-4509-9364-019eaa7deddf",
+            "value": "Football Economics Coverage",
+            "entity_def_id": "product"
+          },
+          "identifier": {
+            "uuid": "5b017fcb-780b-4c9c-8841-0b8c1613bd85",
+            "value": "Football Economics Coverage is similar to Transfer Updates",
+            "entity_def_id": "product_similarity"
+          },
+          "target": {
+            "uuid": "d9b4aa20-7721-40d1-91d0-781da956dc8b",
+            "value": "Transfer Updates",
+            "entity_def_id": "product"
+          },
+          "target_organization": {
+            "uuid": "038aab1d-5476-478d-ba1c-db486f09bada",
+            "value": "SportsDias",
+            "image_id": "wqpkk2vaohtktqxduy86",
+            "permalink": "sportsdias",
+            "entity_def_id": "organization"
+          }
+        },
+        {
+          "source": {
+            "uuid": "7b7d21d2-871b-485a-a39b-95bcf8bc98c8",
+            "value": "Sports News Platform",
+            "entity_def_id": "product"
+          },
+          "identifier": {
+            "uuid": "dad01d87-3959-477e-bbbb-9e73dda44ecb",
+            "value": "Sports News Platform is similar to Football News Updates",
+            "entity_def_id": "product_similarity"
+          },
+          "target": {
+            "uuid": "9f3f4609-d5ff-415e-80f3-2add923a2a16",
+            "value": "Football News Updates",
+            "entity_def_id": "product"
+          },
+          "target_organization": {
+            "uuid": "038aab1d-5476-478d-ba1c-db486f09bada",
+            "value": "SportsDias",
+            "image_id": "wqpkk2vaohtktqxduy86",
+            "permalink": "sportsdias",
+            "entity_def_id": "organization"
+          }
+        },
+        {
+          "source": {
+            "uuid": "e195092b-c88c-4509-9364-019eaa7deddf",
+            "value": "Football Economics Coverage",
+            "entity_def_id": "product"
+          },
+          "identifier": {
+            "uuid": "101ddeec-4544-4fb7-bd0c-4cbd50f89277",
+            "value": "Football Economics Coverage is similar to NFL and NCAA Football Contracts and Salary Data",
+            "entity_def_id": "product_similarity"
+          },
+          "target": {
+            "uuid": "3a8f7e6d-1803-4736-8bc4-25bf04ec586a",
+            "value": "NFL and NCAA Football Contracts and Salary Data",
+            "entity_def_id": "product"
+          },
+          "target_organization": {
+            "uuid": "6f03145c-df5f-4f8d-9c50-7ec93e58657c",
+            "value": "Sports Monetize",
+            "image_id": "iqmeh9mbyh2mobrcvyv2",
+            "permalink": "sports-monetize",
+            "entity_def_id": "organization"
+          }
+        }
+      ],
+      "social_fields": {
+        "facebook": {
+          "value": "https://www.facebook.com/mercatoday"
+        },
+        "linkedin": {
+          "value": "https://www.linkedin.com/company/mercatoday"
+        },
+        "twitter": {
+          "value": "https://x.com/mercato_day"
+        }
+      },
+      "investments_headline": {},
+      "investment_thesis": {
+        "lookup": [],
+        "properties": {
+          "identifier": {
+            "uuid": "ab88f733-78b4-4872-bb8b-aeae5ed9d9dd",
+            "value": "Mercato Day",
+            "image_id": "bvsgrtwvuyz8qgrcgqzk",
+            "permalink": "mercato-day",
+            "entity_def_id": "organization"
+          }
+        },
+        "data": []
+      },
+      "diversity_spotlight_investments_summary": {
+        "identifier": {
+          "uuid": "ab88f733-78b4-4872-bb8b-aeae5ed9d9dd",
+          "value": "Mercato Day",
+          "image_id": "bvsgrtwvuyz8qgrcgqzk",
+          "permalink": "mercato-day",
+          "entity_def_id": "organization"
+        }
+      },
+      "contact_fields": {
+        "contact_email": "maher@mercatoday.com",
+        "phone_number": "+962791939855"
+      },
+      "growth_prediction": [
+        {
+          "generated_on": "2025-01-11",
+          "identifier": {
+            "uuid": "4595fe6b-b694-4e1a-a0d6-4bf0843f7163",
+            "value": "Growth Prediction 2025-01-11",
+            "entity_def_id": "growth_prediction"
+          },
+          "probability_score": 0.9459,
+          "created_at": "2025-01-17T22:59:20Z",
+          "updated_at": "2025-01-17T22:59:20Z",
+          "probability_tier": "p200_positive_low"
+        }
+      ],
+      "sub_organizations_summary": {
+        "identifier": {
+          "uuid": "ab88f733-78b4-4872-bb8b-aeae5ed9d9dd",
+          "value": "Mercato Day",
+          "image_id": "bvsgrtwvuyz8qgrcgqzk",
+          "permalink": "mercato-day",
+          "entity_def_id": "organization"
+        }
+      },
+      "overview_description": {
+        "description": "Mercato Day is a sports site with news of the transfer market, football economics, and live broadcasts of todays matches. Their transfer match news includes football news, world cup news, statistics and numbers, summer mercato transfers, and golden ball news."
+      },
+      "current_employees_featured_order_field": [
+        {
+          "person_identifier": {
+            "uuid": "bec6ce5d-13d7-458a-aa5f-c190246271f7",
+            "value": "Mahmoud Maher",
+            "image_id": "mixvrwoi40xvfzhkkosu",
+            "permalink": "mahmoud-maher",
+            "entity_def_id": "person"
+          },
+          "identifier": {
+            "uuid": "546ae8bb-1b93-4668-b38d-4af2ebd118d0",
+            "value": "Mahmoud Maher Journalist @ Mercato Day",
+            "permalink": "mahmoud-maher-employee-mercato-day--546ae8bb",
+            "entity_def_id": "job"
+          },
+          "started_on": {
+            "value": "2018-09-01",
+            "precision": "month"
+          },
+          "title": "Journalist"
+        },
+        {
+          "person_identifier": {
+            "uuid": "bec6ce5d-13d7-458a-aa5f-c190246271f7",
+            "value": "Mahmoud Maher",
+            "image_id": "mixvrwoi40xvfzhkkosu",
+            "permalink": "mahmoud-maher",
+            "entity_def_id": "person"
+          },
+          "identifier": {
+            "uuid": "5dad2cd6-f109-4e03-b803-a657baf4403b",
+            "value": "Mahmoud Maher Co Editor Chief @ Mercato Day",
+            "permalink": "mahmoud-maher-executive-mercato-day--5dad2cd6",
+            "entity_def_id": "job"
+          },
+          "started_on": {
+            "value": "2018-09-01",
+            "precision": "month"
+          },
+          "title": "Co Editor Chief"
+        },
+        {
+          "person_identifier": {
+            "uuid": "cc261d6a-5fd8-8d55-c5bb-9ac93fd81e35",
+            "value": "Ahmed Maher",
+            "image_id": "v1441701823/mdnllnhphrzbsapdsvuq.jpg",
+            "permalink": "ahmed-maher",
+            "entity_def_id": "person"
+          },
+          "identifier": {
+            "uuid": "76cc9e5e-54e1-4a18-9582-0bfcd7e0ce2b",
+            "value": "Ahmed Maher Co-Founder, Director of Growth & Monetization @ Mercato Day",
+            "permalink": "ahmed-maher-executive-mercato-day--76cc9e5e",
+            "entity_def_id": "job"
+          },
+          "started_on": {
+            "value": "2018-10-01",
+            "precision": "month"
+          },
+          "title": "Co-Founder, Director of Growth & Monetization"
+        }
+      ],
+      "company_about_fields2": {
+        "website": {
+          "value": "https://mercatoday.com"
+        },
+        "ipo_status": "private",
+        "num_employees_enum": "c_00001_00010",
+        "last_funding_type": "seed",
+        "location_identifiers": [
+          {
+            "uuid": "18c3f473-94ab-7b11-47dd-26769797c485",
+            "value": "Amman",
+            "permalink": "amman-amman",
+            "entity_def_id": "location",
+            "location_type": "city"
+          },
+          {
+            "uuid": "36dd1e53-bc8a-4bf2-771a-7611036b3ebc",
+            "value": "Amman",
+            "permalink": "amman-jordan",
+            "entity_def_id": "location",
+            "location_type": "region"
+          },
+          {
+            "uuid": "e5fffa67-5dbb-56cb-27e1-23f8b09b59ba",
+            "value": "Jordan",
+            "permalink": "jordan",
+            "entity_def_id": "location",
+            "location_type": "country"
+          },
+          {
+            "uuid": "b41404d2-8ecc-caf5-1268-8fdd3afe73ee",
+            "value": "Asia",
+            "permalink": "asia",
+            "entity_def_id": "location",
+            "location_type": "continent"
+          }
+        ],
+        "rank_org_company": 238411
+      },
+      "sub_organizations_image_list": [],
+      "frequently_asked_questions_headquarters_location": {
+        "identifier": {
+          "uuid": "ab88f733-78b4-4872-bb8b-aeae5ed9d9dd",
+          "value": "Mercato Day",
+          "image_id": "bvsgrtwvuyz8qgrcgqzk",
+          "permalink": "mercato-day",
+          "entity_def_id": "organization"
+        },
+        "location_identifiers": [
+          {
+            "uuid": "18c3f473-94ab-7b11-47dd-26769797c485",
+            "value": "Amman",
+            "permalink": "amman-amman",
+            "entity_def_id": "location",
+            "location_type": "city"
+          },
+          {
+            "uuid": "36dd1e53-bc8a-4bf2-771a-7611036b3ebc",
+            "value": "Amman",
+            "permalink": "amman-jordan",
+            "entity_def_id": "location",
+            "location_type": "region"
+          },
+          {
+            "uuid": "e5fffa67-5dbb-56cb-27e1-23f8b09b59ba",
+            "value": "Jordan",
+            "permalink": "jordan",
+            "entity_def_id": "location",
+            "location_type": "country"
+          },
+          {
+            "uuid": "b41404d2-8ecc-caf5-1268-8fdd3afe73ee",
+            "value": "Asia",
+            "permalink": "asia",
+            "entity_def_id": "location",
+            "location_type": "continent"
+          }
+        ]
+      },
+      "investors_headline": {},
+      "ipo_summary": {
+        "identifier": {
+          "uuid": "ab88f733-78b4-4872-bb8b-aeae5ed9d9dd",
+          "value": "Mercato Day",
+          "image_id": "bvsgrtwvuyz8qgrcgqzk",
+          "permalink": "mercato-day",
+          "entity_def_id": "organization"
+        }
+      },
+      "ipqwery_summary": {
+        "identifier": {
+          "uuid": "ab88f733-78b4-4872-bb8b-aeae5ed9d9dd",
+          "value": "Mercato Day",
+          "image_id": "bvsgrtwvuyz8qgrcgqzk",
+          "permalink": "mercato-day",
+          "entity_def_id": "organization"
+        }
+      },
+      "awards": [],
+      "siftery_product_list": [],
+      "competitors_list": [
+        {
+          "identifier": {
+            "uuid": "43dc60b8-1a44-4d5f-a854-693d4789043e",
+            "value": "Mercato Day competes with Sports Monetize",
+            "entity_def_id": "org_similarity"
+          },
+          "featured_category_overlap": [
+            {
+              "uuid": "860c61a2-456e-4325-b54a-21eb39b91c06",
+              "value": "Financial & Market News",
+              "permalink": "financial-market-news",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "f3ab52bf-0fbf-4d1b-851e-fe84e27d790e",
+              "value": "Business Journalism",
+              "permalink": "business-journalism",
+              "entity_def_id": "micro_category"
+            }
+          ],
+          "score": 100,
+          "target_locations": [
+            {
+              "uuid": "b03cbbaf-6405-4181-9ead-fe93c2f523ac",
+              "value": "Stone Mountain",
+              "permalink": "stone-mountain-georgia",
+              "entity_def_id": "location",
+              "location_type": "city"
+            },
+            {
+              "uuid": "e5e9da40-cf54-5c78-963b-e6d5a2efe686",
+              "value": "Georgia",
+              "permalink": "georgia-united-states",
+              "entity_def_id": "location",
+              "location_type": "region"
+            },
+            {
+              "uuid": "f110fca2-1055-99f6-996d-011c198b3928",
+              "value": "United States",
+              "permalink": "united-states",
+              "entity_def_id": "location",
+              "location_type": "country"
+            },
+            {
+              "uuid": "b25caef9-a1b8-3a5d-6232-93b2dfb6a1d1",
+              "value": "North America",
+              "permalink": "north-america",
+              "entity_def_id": "location",
+              "location_type": "continent"
+            }
+          ],
+          "target_short_description": "Sports Monetize is an online media brand",
+          "target_categories": [
+            {
+              "uuid": "59c8fdd7-d408-86d2-3805-de824af0016b",
+              "value": "American Football",
+              "image_id": "6d01dc7e219f4fc2ad5d774de94cb70b",
+              "permalink": "american-football",
+              "entity_def_id": "category"
+            },
+            {
+              "uuid": "0300a491-8816-447f-ab80-dd78a82b291e",
+              "value": "Basketball",
+              "image_id": "2cac22a6af7844878b6b91b69992ff38",
+              "permalink": "basketball",
+              "entity_def_id": "category"
+            },
+            {
+              "uuid": "8c453fd3-90cc-5be3-23a6-cb2944fb05cf",
+              "value": "Data Visualization",
+              "image_id": "b3a417deb90d4003ac5665a45aa75d0e",
+              "permalink": "data-visualization",
+              "entity_def_id": "category"
+            },
+            {
+              "uuid": "2f47ba93-33d3-61fe-de89-0fe8a4a8366b",
+              "value": "Digital Media",
+              "image_id": "afd8eaeb54c74db7ac8805674159abaf",
+              "permalink": "digital-media-2f47",
+              "entity_def_id": "category"
+            },
+            {
+              "uuid": "78b58810-ad58-a623-2a80-2a0e3603a544",
+              "value": "Media and Entertainment",
+              "image_id": "5b198f953ddc491ca9a1029778c2057e",
+              "permalink": "media-and-entertainment",
+              "entity_def_id": "category"
+            },
+            {
+              "uuid": "a0144815-bd8f-9a1b-42ae-74c91617a77c",
+              "value": "Sports",
+              "image_id": "45fedbc985f14dfe9863c9651bf46e31",
+              "permalink": "sports",
+              "entity_def_id": "category"
+            },
+            {
+              "uuid": "69eb7729-14ce-2fb1-0998-ef15631f644b",
+              "value": "Women's",
+              "image_id": "bc47faefc70548f6ac84dfacfa747ee6",
+              "permalink": "womens",
+              "entity_def_id": "category"
+            }
+          ],
+          "target_location_groups": [
+            {
+              "uuid": "23e84fcd-9a32-4016-ab2a-3ece1ad40e08",
+              "value": "Greater Atlanta Area",
+              "permalink": "greater-atlanta-area",
+              "entity_def_id": "location",
+              "location_type": "group"
+            },
+            {
+              "uuid": "6c6b9ca5-966a-448b-8480-29b5a753f9ee",
+              "value": "East Coast",
+              "permalink": "east-coast-united-states",
+              "entity_def_id": "location",
+              "location_type": "group"
+            },
+            {
+              "uuid": "090db99d-13e7-455a-a0e4-95cd21211c92",
+              "value": "Southern US",
+              "permalink": "southern-united-states",
+              "entity_def_id": "location",
+              "location_type": "group"
+            }
+          ],
+          "target": {
+            "uuid": "6f03145c-df5f-4f8d-9c50-7ec93e58657c",
+            "value": "Sports Monetize",
+            "image_id": "iqmeh9mbyh2mobrcvyv2",
+            "permalink": "sports-monetize",
+            "entity_def_id": "organization"
+          },
+          "micro_category_overlap": [
+            {
+              "uuid": "860c61a2-456e-4325-b54a-21eb39b91c06",
+              "value": "Financial & Market News",
+              "permalink": "financial-market-news",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "f3ab52bf-0fbf-4d1b-851e-fe84e27d790e",
+              "value": "Business Journalism",
+              "permalink": "business-journalism",
+              "entity_def_id": "micro_category"
+            }
+          ],
+          "target_num_employees_enum": "c_00001_00010"
+        },
+        {
+          "identifier": {
+            "uuid": "e9dc611d-952c-48dc-9a0b-0916e283a8f0",
+            "value": "Mercato Day competes with SportsDias",
+            "entity_def_id": "org_similarity"
+          },
+          "score": 94.995,
+          "target_locations": [
+            {
+              "uuid": "aad17950-576b-8c44-8fd4-f44dbeb59220",
+              "value": "London",
+              "permalink": "london-england",
+              "entity_def_id": "location",
+              "location_type": "city"
+            },
+            {
+              "uuid": "79eb923b-9e93-e0db-2fe0-75f0c430c2cb",
+              "value": "England",
+              "permalink": "england-united-kingdom",
+              "entity_def_id": "location",
+              "location_type": "region"
+            },
+            {
+              "uuid": "a30e342c-1742-6b1c-66e9-461de680e54b",
+              "value": "United Kingdom",
+              "permalink": "united-kingdom",
+              "entity_def_id": "location",
+              "location_type": "country"
+            },
+            {
+              "uuid": "6106f5dc-823e-5da8-40d7-51612c0b2c4e",
+              "value": "Europe",
+              "permalink": "europe",
+              "entity_def_id": "location",
+              "location_type": "continent"
+            }
+          ],
+          "target_short_description": "SportsDias is a football updates platform that provides football news and event updates.",
+          "target_categories": [
+            {
+              "uuid": "db01a201-1e47-57b3-c3cc-a63eb94e3878",
+              "value": "News",
+              "image_id": "57041740473943df8dd63cd0a0008f1f",
+              "permalink": "news",
+              "entity_def_id": "category"
+            },
+            {
+              "uuid": "aad2f937-0707-e264-9c2e-63a2f5083150",
+              "value": "Soccer",
+              "image_id": "9fe2ccbdeddc49aeaaf0432c84cac81c",
+              "permalink": "soccer",
+              "entity_def_id": "category"
+            },
+            {
+              "uuid": "a0144815-bd8f-9a1b-42ae-74c91617a77c",
+              "value": "Sports",
+              "image_id": "45fedbc985f14dfe9863c9651bf46e31",
+              "permalink": "sports",
+              "entity_def_id": "category"
+            }
+          ],
+          "target_location_groups": [
+            {
+              "uuid": "4e8be435-c63a-4aff-8a2f-44a880d9c341",
+              "value": "Europe, Middle East, and Africa (EMEA)",
+              "permalink": "europe-middle-east-africa-emea",
+              "entity_def_id": "location",
+              "location_type": "group"
+            }
+          ],
+          "target": {
+            "uuid": "038aab1d-5476-478d-ba1c-db486f09bada",
+            "value": "SportsDias",
+            "image_id": "wqpkk2vaohtktqxduy86",
+            "permalink": "sportsdias",
+            "entity_def_id": "organization"
+          },
+          "target_revenue_range": "r_00001000",
+          "micro_category_overlap": [
+            {
+              "uuid": "214fbea7-6895-43c1-9a10-0bd6b4f44ad2",
+              "value": "Digital Newspaper Services",
+              "permalink": "digital-newspaper-services",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "2d81b654-b99d-48dc-a020-fa71617cbdeb",
+              "value": "Multimedia News",
+              "permalink": "multimedia-news",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "84d0a04c-33b1-4fab-a1ec-ca27352c2628",
+              "value": "Content Aggregation Services",
+              "permalink": "content-aggregation-services",
+              "entity_def_id": "micro_category"
+            }
+          ],
+          "target_num_employees_enum": "c_00011_00050",
+          "additional_reasons": [
+            "global_location_overlap"
+          ],
+          "featured_category_overlap": [
+            {
+              "uuid": "214fbea7-6895-43c1-9a10-0bd6b4f44ad2",
+              "value": "Digital Newspaper Services",
+              "permalink": "digital-newspaper-services",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "2d81b654-b99d-48dc-a020-fa71617cbdeb",
+              "value": "Multimedia News",
+              "permalink": "multimedia-news",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "84d0a04c-33b1-4fab-a1ec-ca27352c2628",
+              "value": "Content Aggregation Services",
+              "permalink": "content-aggregation-services",
+              "entity_def_id": "micro_category"
+            }
+          ]
+        },
+        {
+          "target_num_contacts": 1,
+          "identifier": {
+            "uuid": "3610c3cc-0453-40ec-8959-c80bb5e72387",
+            "value": "Mercato Day competes with Hayters",
+            "entity_def_id": "org_similarity"
+          },
+          "score": 89.966,
+          "target_locations": [
+            {
+              "uuid": "aad17950-576b-8c44-8fd4-f44dbeb59220",
+              "value": "London",
+              "permalink": "london-england",
+              "entity_def_id": "location",
+              "location_type": "city"
+            },
+            {
+              "uuid": "79eb923b-9e93-e0db-2fe0-75f0c430c2cb",
+              "value": "England",
+              "permalink": "england-united-kingdom",
+              "entity_def_id": "location",
+              "location_type": "region"
+            },
+            {
+              "uuid": "a30e342c-1742-6b1c-66e9-461de680e54b",
+              "value": "United Kingdom",
+              "permalink": "united-kingdom",
+              "entity_def_id": "location",
+              "location_type": "country"
+            },
+            {
+              "uuid": "6106f5dc-823e-5da8-40d7-51612c0b2c4e",
+              "value": "Europe",
+              "permalink": "europe",
+              "entity_def_id": "location",
+              "location_type": "continent"
+            }
+          ],
+          "target_short_description": "Hayters is a sports journalism company that provides football news, interviews, and social media article articles.",
+          "target_categories": [
+            {
+              "uuid": "6f169dae-3199-cda7-a7eb-94c30066691c",
+              "value": "Digital Entertainment",
+              "image_id": "6eb3fe31bacc4a8ab19f7fb90634d846",
+              "permalink": "digital-entertainment",
+              "entity_def_id": "category"
+            },
+            {
+              "uuid": "c704ac44-d7ba-7cbe-146c-1503d4e620f0",
+              "value": "Journalism",
+              "image_id": "92d7967ce6a44cbda632482246d4119c",
+              "permalink": "journalism",
+              "entity_def_id": "category"
+            },
+            {
+              "uuid": "db01a201-1e47-57b3-c3cc-a63eb94e3878",
+              "value": "News",
+              "image_id": "57041740473943df8dd63cd0a0008f1f",
+              "permalink": "news",
+              "entity_def_id": "category"
+            },
+            {
+              "uuid": "a0144815-bd8f-9a1b-42ae-74c91617a77c",
+              "value": "Sports",
+              "image_id": "45fedbc985f14dfe9863c9651bf46e31",
+              "permalink": "sports",
+              "entity_def_id": "category"
+            }
+          ],
+          "target_location_groups": [
+            {
+              "uuid": "4e8be435-c63a-4aff-8a2f-44a880d9c341",
+              "value": "Europe, Middle East, and Africa (EMEA)",
+              "permalink": "europe-middle-east-africa-emea",
+              "entity_def_id": "location",
+              "location_type": "group"
+            }
+          ],
+          "target": {
+            "uuid": "a42b290e-e738-4186-8058-c752b89137ed",
+            "value": "Hayters",
+            "image_id": "f4a01t8yaskcta0ogf7a",
+            "permalink": "hayters",
+            "entity_def_id": "organization"
+          },
+          "target_revenue_range": "r_00001000",
+          "micro_category_overlap": [
+            {
+              "uuid": "214fbea7-6895-43c1-9a10-0bd6b4f44ad2",
+              "value": "Digital Newspaper Services",
+              "permalink": "digital-newspaper-services",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "2d81b654-b99d-48dc-a020-fa71617cbdeb",
+              "value": "Multimedia News",
+              "permalink": "multimedia-news",
+              "entity_def_id": "micro_category"
+            }
+          ],
+          "target_num_employees_enum": "c_00011_00050",
+          "additional_reasons": [
+            "global_location_overlap"
+          ],
+          "featured_category_overlap": [
+            {
+              "uuid": "214fbea7-6895-43c1-9a10-0bd6b4f44ad2",
+              "value": "Digital Newspaper Services",
+              "permalink": "digital-newspaper-services",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "2d81b654-b99d-48dc-a020-fa71617cbdeb",
+              "value": "Multimedia News",
+              "permalink": "multimedia-news",
+              "entity_def_id": "micro_category"
+            }
+          ]
+        }
+      ],
+      "growth_knowledge": {
+        "lookup": [],
+        "properties": {
+          "identifier": {
+            "uuid": "ab88f733-78b4-4872-bb8b-aeae5ed9d9dd",
+            "value": "Mercato Day",
+            "image_id": "bvsgrtwvuyz8qgrcgqzk",
+            "permalink": "mercato-day",
+            "entity_def_id": "organization"
+          }
+        },
+        "data": []
+      },
+      "overview_fields_extended": {
+        "founded_on": {
+          "value": "2019-01-01",
+          "precision": "day"
+        },
+        "founder_identifiers": [
+          {
+            "uuid": "cc261d6a-5fd8-8d55-c5bb-9ac93fd81e35",
+            "value": "Ahmed Maher",
+            "image_id": "v1441701823/mdnllnhphrzbsapdsvuq.jpg",
+            "permalink": "ahmed-maher",
+            "entity_def_id": "person"
+          },
+          {
+            "uuid": "bec6ce5d-13d7-458a-aa5f-c190246271f7",
+            "value": "Mahmoud Maher",
+            "image_id": "mixvrwoi40xvfzhkkosu",
+            "permalink": "mahmoud-maher",
+            "entity_def_id": "person"
+          }
+        ],
+        "revenue_range": "r_00000000",
+        "operating_status": "active",
+        "last_funding_type": "seed",
+        "legal_name": "ميركاتو داي",
+        "location_group_identifiers": [
+          {
+            "uuid": "4e8be435-c63a-4aff-8a2f-44a880d9c341",
+            "value": "Europe, Middle East, and Africa (EMEA)",
+            "permalink": "europe-middle-east-africa-emea",
+            "entity_def_id": "location",
+            "location_type": "group"
+          },
+          {
+            "uuid": "e0272206-3430-48cb-a5bc-1d4b3eafe15a",
+            "value": "Middle East",
+            "permalink": "middle-east",
+            "entity_def_id": "location",
+            "location_type": "group"
+          },
+          {
+            "uuid": "8cb7cad4-b7e4-4b28-a496-2ede3720cb19",
+            "value": "Middle East and North Africa (MENA)",
+            "permalink": "middle-east-and-north-africa-mena",
+            "entity_def_id": "location",
+            "location_type": "group"
+          }
+        ],
+        "aliases": [
+          "ميركاتو داي"
+        ]
+      },
+      "overview_investor_fields": {},
+      "bombora_attribution": {},
+      "semrush_location_list": [
+        {
+          "identifier": {
+            "uuid": "0e16b542-4da5-4a31-82af-7e10018aa111"
+          },
+          "visits_mom_pct": -0.70485609107145,
+          "uuid": "0e16b542-4da5-4a31-82af-7e10018aa111",
+          "rank": 10554,
+          "rank_mom_pct": 2.16841789252477,
+          "location_identifiers": [
+            {
+              "uuid": "7d6eef02-5784-2dce-08f7-69705f85e35f",
+              "value": "Egypt",
+              "permalink": "egypt",
+              "entity_def_id": "location"
+            },
+            {
+              "uuid": "5b194c3b-3018-b47d-f611-ab142cdfd74c",
+              "value": "Africa",
+              "permalink": "africa",
+              "entity_def_id": "location"
+            }
+          ],
+          "visits_pct": 0.433733864200396
+        },
+        {
+          "identifier": {
+            "uuid": "e2e80804-cd97-4136-b988-c354ad250c23"
+          },
+          "visits_mom_pct": 0.317867213534991,
+          "uuid": "e2e80804-cd97-4136-b988-c354ad250c23",
+          "rank": 816422,
+          "rank_mom_pct": -0.075664617046305,
+          "location_identifiers": [
+            {
+              "uuid": "f110fca2-1055-99f6-996d-011c198b3928",
+              "value": "United States",
+              "permalink": "united-states",
+              "entity_def_id": "location"
+            },
+            {
+              "uuid": "b25caef9-a1b8-3a5d-6232-93b2dfb6a1d1",
+              "value": "North America",
+              "permalink": "north-america",
+              "entity_def_id": "location"
+            }
+          ],
+          "visits_pct": 0.0917888196539842
+        },
+        {
+          "identifier": {
+            "uuid": "ed7870f8-a810-4b16-82d1-4fcfd13d8e52"
+          },
+          "visits_mom_pct": -0.433567359915221,
+          "uuid": "ed7870f8-a810-4b16-82d1-4fcfd13d8e52",
+          "rank": 15254,
+          "rank_mom_pct": 0.884838749536637,
+          "location_identifiers": [
+            {
+              "uuid": "49fa4652-23b8-b837-8a61-cdc6cf71ce69",
+              "value": "Iraq",
+              "permalink": "iraq",
+              "entity_def_id": "location"
+            },
+            {
+              "uuid": "b41404d2-8ecc-caf5-1268-8fdd3afe73ee",
+              "value": "Asia",
+              "permalink": "asia",
+              "entity_def_id": "location"
+            }
+          ],
+          "visits_pct": 0.0763448731453873
+        },
+        {
+          "identifier": {
+            "uuid": "ac8a2a90-e643-45d0-b586-611da4fb8f4f"
+          },
+          "visits_mom_pct": -0.665566277298121,
+          "uuid": "ac8a2a90-e643-45d0-b586-611da4fb8f4f",
+          "rank": 21863,
+          "rank_mom_pct": 1.47011637103152,
+          "location_identifiers": [
+            {
+              "uuid": "15f95dae-46bd-d9ef-d35a-e86417fc3afb",
+              "value": "Morocco",
+              "permalink": "morocco",
+              "entity_def_id": "location"
+            },
+            {
+              "uuid": "5b194c3b-3018-b47d-f611-ab142cdfd74c",
+              "value": "Africa",
+              "permalink": "africa",
+              "entity_def_id": "location"
+            }
+          ],
+          "visits_pct": 0.0705422342837758
+        },
+        {
+          "identifier": {
+            "uuid": "35c7f9a3-9fe7-464a-ae1b-fa84fcf3b413"
+          },
+          "visits_mom_pct": -0.146639511201629,
+          "uuid": "35c7f9a3-9fe7-464a-ae1b-fa84fcf3b413",
+          "rank": 51727,
+          "rank_mom_pct": 0.236275423627542,
+          "location_identifiers": [
+            {
+              "uuid": "ab89e1a9-013f-8261-3b5f-60487350334d",
+              "value": "Israel",
+              "permalink": "israel",
+              "entity_def_id": "location"
+            },
+            {
+              "uuid": "b41404d2-8ecc-caf5-1268-8fdd3afe73ee",
+              "value": "Asia",
+              "permalink": "asia",
+              "entity_def_id": "location"
+            }
+          ],
+          "visits_pct": 0.0523665839418665
+        }
+      ],
+      "investors_list": [],
+      "siftery_summary": {
+        "identifier": {
+          "uuid": "ab88f733-78b4-4872-bb8b-aeae5ed9d9dd",
+          "value": "Mercato Day",
+          "image_id": "bvsgrtwvuyz8qgrcgqzk",
+          "permalink": "mercato-day",
+          "entity_def_id": "organization"
+        }
+      },
+      "acquired_by_summary": {
+        "identifier": {
+          "uuid": "ab88f733-78b4-4872-bb8b-aeae5ed9d9dd",
+          "value": "Mercato Day",
+          "image_id": "bvsgrtwvuyz8qgrcgqzk",
+          "permalink": "mercato-day",
+          "entity_def_id": "organization"
+        }
+      },
+      "ipo_fields": {},
+      "apptopia_app_overview_list_public": [],
+      "apptopia_sdk_list": [],
+      "trading_view": {},
+      "current_employees_image_list": [
+        {
+          "identifier": {
+            "uuid": "546ae8bb-1b93-4668-b38d-4af2ebd118d0",
+            "value": "Mahmoud Maher Journalist @ Mercato Day",
+            "permalink": "mahmoud-maher-employee-mercato-day--546ae8bb",
+            "entity_def_id": "job"
+          },
+          "person_identifier": {
+            "uuid": "bec6ce5d-13d7-458a-aa5f-c190246271f7",
+            "value": "Mahmoud Maher",
+            "image_id": "mixvrwoi40xvfzhkkosu",
+            "permalink": "mahmoud-maher",
+            "entity_def_id": "person"
+          },
+          "title": "Journalist"
+        },
+        {
+          "identifier": {
+            "uuid": "5dad2cd6-f109-4e03-b803-a657baf4403b",
+            "value": "Mahmoud Maher Co Editor Chief @ Mercato Day",
+            "permalink": "mahmoud-maher-executive-mercato-day--5dad2cd6",
+            "entity_def_id": "job"
+          },
+          "person_identifier": {
+            "uuid": "bec6ce5d-13d7-458a-aa5f-c190246271f7",
+            "value": "Mahmoud Maher",
+            "image_id": "mixvrwoi40xvfzhkkosu",
+            "permalink": "mahmoud-maher",
+            "entity_def_id": "person"
+          },
+          "title": "Co Editor Chief"
+        },
+        {
+          "identifier": {
+            "uuid": "76cc9e5e-54e1-4a18-9582-0bfcd7e0ce2b",
+            "value": "Ahmed Maher Co-Founder, Director of Growth & Monetization @ Mercato Day",
+            "permalink": "ahmed-maher-executive-mercato-day--76cc9e5e",
+            "entity_def_id": "job"
+          },
+          "person_identifier": {
+            "uuid": "cc261d6a-5fd8-8d55-c5bb-9ac93fd81e35",
+            "value": "Ahmed Maher",
+            "image_id": "v1441701823/mdnllnhphrzbsapdsvuq.jpg",
+            "permalink": "ahmed-maher",
+            "entity_def_id": "person"
+          },
+          "title": "Co-Founder, Director of Growth & Monetization"
+        }
+      ],
+      "frequently_asked_questions_investors": {
+        "identifier": {
+          "uuid": "ab88f733-78b4-4872-bb8b-aeae5ed9d9dd",
+          "value": "Mercato Day",
+          "image_id": "bvsgrtwvuyz8qgrcgqzk",
+          "permalink": "mercato-day",
+          "entity_def_id": "organization"
+        }
+      },
+      "funding_rounds_list": [
+        {
+          "identifier": {
+            "uuid": "e279872d-a82b-4cbb-ae35-25471fff4af9",
+            "value": "Seed Round - Mercato Day",
+            "image_id": "bvsgrtwvuyz8qgrcgqzk",
+            "permalink": "mercato-day-seed--e279872d",
+            "entity_def_id": "funding_round"
+          },
+          "announced_on": "2020-04-01",
+          "money_raised": {
+            "value": 100000,
+            "currency": "USD",
+            "value_usd": 100000
+          },
+          "post_money_valuation": {
+            "value": 150000,
+            "currency": "USD",
+            "value_usd": 150000
+          },
+          "investment_type": "seed"
+        }
+      ],
+      "technology_highlights": {
+        "builtwith_num_technologies_used": 2,
+        "semrush_visits_latest_month": 56009,
+        "semrush_visits_mom_pct": -0.812463796261263
+      },
+      "funding_rounds_headline": {
+        "funding_total": {
+          "value": 100000,
+          "currency": "USD",
+          "value_usd": 100000
+        },
+        "num_funding_rounds": 1
+      },
+      "investments_list": [],
+      "exits_image_list": [],
+      "funds_headline": {},
+      "people_highlights": {
+        "num_current_positions": 3
+      },
+      "semrush_attribution": {
+        "semrush_last_updated": "2026-08-24"
+      },
+      "frequently_asked_questions_similar_companies": {
+        "identifier": {
+          "uuid": "ab88f733-78b4-4872-bb8b-aeae5ed9d9dd",
+          "value": "Mercato Day",
+          "image_id": "bvsgrtwvuyz8qgrcgqzk",
+          "permalink": "mercato-day",
+          "entity_def_id": "organization"
+        }
+      },
+      "semrush_overview": {
+        "semrush_visit_duration_mom_pct": -0.256696428571429,
+        "semrush_visit_pageview_mom_pct": -0.129092064837377,
+        "semrush_visit_pageviews": 1.6441,
+        "semrush_bounce_rate": 0.8049,
+        "semrush_visit_duration": 333,
+        "semrush_bounce_rate_mom_pct": 0.203139013452915
+      },
+      "org_category_ranks": {},
+      "current_valuation": [
+        {
+          "preview_properties": {
+            "financials_impact_tier": {
+              "is_present": true
+            },
+            "identifier": {
+              "is_present": true
+            },
+            "financials_reasons": {
+              "is_present": true,
+              "length": 3
+            },
+            "estimate_confidence_tier": {
+              "is_present": true
+            },
+            "industry_performance_reasons": {
+              "is_present": true,
+              "length": 2
+            },
+            "market_equity_reasons": {
+              "is_present": true,
+              "length": 3
+            },
+            "misc_impact_tier": {
+              "is_present": true
+            },
+            "estimated_lower_bound": {
+              "is_present": true
+            },
+            "generated_on": {
+              "is_present": true
+            },
+            "misc_reasons": {
+              "is_present": true,
+              "length": 3
+            },
+            "industry_performance_impact_tier": {
+              "is_present": true
+            },
+            "estimated_upper_bound": {
+              "is_present": true
+            },
+            "current_valuation": {
+              "is_present": true
+            },
+            "market_equity_impact_tier": {
+              "is_present": true
+            }
+          }
+        },
+        {
+          "preview_properties": {
+            "financials_impact_tier": {
+              "is_present": true
+            },
+            "identifier": {
+              "is_present": true
+            },
+            "financials_reasons": {
+              "is_present": true,
+              "length": 3
+            },
+            "estimate_confidence_tier": {
+              "is_present": true
+            },
+            "industry_performance_reasons": {
+              "is_present": true,
+              "length": 2
+            },
+            "market_equity_reasons": {
+              "is_present": true,
+              "length": 3
+            },
+            "misc_impact_tier": {
+              "is_present": true
+            },
+            "estimated_lower_bound": {
+              "is_present": true
+            },
+            "generated_on": {
+              "is_present": true
+            },
+            "misc_reasons": {
+              "is_present": true,
+              "length": 3
+            },
+            "industry_performance_impact_tier": {
+              "is_present": true
+            },
+            "estimated_upper_bound": {
+              "is_present": true
+            },
+            "current_valuation": {
+              "is_present": true
+            },
+            "market_equity_impact_tier": {
+              "is_present": true
+            }
+          }
+        },
+        {
+          "preview_properties": {
+            "financials_impact_tier": {
+              "is_present": true
+            },
+            "identifier": {
+              "is_present": true
+            },
+            "financials_reasons": {
+              "is_present": true,
+              "length": 3
+            },
+            "estimate_confidence_tier": {
+              "is_present": true
+            },
+            "industry_performance_reasons": {
+              "is_present": true,
+              "length": 2
+            },
+            "market_equity_reasons": {
+              "is_present": true,
+              "length": 3
+            },
+            "misc_impact_tier": {
+              "is_present": true
+            },
+            "estimated_lower_bound": {
+              "is_present": true
+            },
+            "generated_on": {
+              "is_present": true
+            },
+            "misc_reasons": {
+              "is_present": true,
+              "length": 3
+            },
+            "industry_performance_impact_tier": {
+              "is_present": true
+            },
+            "estimated_upper_bound": {
+              "is_present": true
+            },
+            "current_valuation": {
+              "is_present": true
+            },
+            "market_equity_impact_tier": {
+              "is_present": true
+            }
+          }
+        },
+        {
+          "preview_properties": {
+            "financials_impact_tier": {
+              "is_present": true
+            },
+            "identifier": {
+              "is_present": true
+            },
+            "financials_reasons": {
+              "is_present": true,
+              "length": 3
+            },
+            "estimate_confidence_tier": {
+              "is_present": true
+            },
+            "industry_performance_reasons": {
+              "is_present": true,
+              "length": 2
+            },
+            "market_equity_reasons": {
+              "is_present": true,
+              "length": 3
+            },
+            "misc_impact_tier": {
+              "is_present": true
+            },
+            "estimated_lower_bound": {
+              "is_present": true
+            },
+            "generated_on": {
+              "is_present": true
+            },
+            "misc_reasons": {
+              "is_present": true,
+              "length": 3
+            },
+            "industry_performance_impact_tier": {
+              "is_present": true
+            },
+            "estimated_upper_bound": {
+              "is_present": true
+            },
+            "current_valuation": {
+              "is_present": true
+            },
+            "market_equity_impact_tier": {
+              "is_present": true
+            }
+          }
+        },
+        {
+          "preview_properties": {
+            "financials_impact_tier": {
+              "is_present": true
+            },
+            "identifier": {
+              "is_present": true
+            },
+            "financials_reasons": {
+              "is_present": true,
+              "length": 3
+            },
+            "estimate_confidence_tier": {
+              "is_present": true
+            },
+            "industry_performance_reasons": {
+              "is_present": true,
+              "length": 2
+            },
+            "market_equity_reasons": {
+              "is_present": true,
+              "length": 3
+            },
+            "misc_impact_tier": {
+              "is_present": true
+            },
+            "estimated_lower_bound": {
+              "is_present": true
+            },
+            "generated_on": {
+              "is_present": true
+            },
+            "misc_reasons": {
+              "is_present": true,
+              "length": 3
+            },
+            "industry_performance_impact_tier": {
+              "is_present": true
+            },
+            "estimated_upper_bound": {
+              "is_present": true
+            },
+            "current_valuation": {
+              "is_present": true
+            },
+            "market_equity_impact_tier": {
+              "is_present": true
+            }
+          }
+        }
+      ],
+      "legal_proceedings": [],
+      "current_employees_summary": {
+        "identifier": {
+          "uuid": "ab88f733-78b4-4872-bb8b-aeae5ed9d9dd",
+          "value": "Mercato Day",
+          "image_id": "bvsgrtwvuyz8qgrcgqzk",
+          "permalink": "mercato-day",
+          "entity_def_id": "organization"
+        },
+        "num_current_positions": 3
+      },
+      "aberdeen_summary": {
+        "identifier": {
+          "uuid": "ab88f733-78b4-4872-bb8b-aeae5ed9d9dd",
+          "value": "Mercato Day",
+          "image_id": "bvsgrtwvuyz8qgrcgqzk",
+          "permalink": "mercato-day",
+          "entity_def_id": "organization"
+        }
+      },
+      "offices": [],
+      "overview_timeline": {
+        "count": 1,
+        "entities": [
+          {
+            "uuid": "e279872d-a82b-4cbb-ae35-25471fff4af9",
+            "properties": {
+              "identifier": {
+                "uuid": "e279872d-a82b-4cbb-ae35-25471fff4af9",
+                "value": "Seed Round - Mercato Day",
+                "image_id": "bvsgrtwvuyz8qgrcgqzk",
+                "permalink": "mercato-day-seed--e279872d",
+                "entity_def_id": "funding_round"
+              },
+              "entity_def_id": "funding_round",
+              "activity_entities": [
+                {
+                  "role": "investee",
+                  "uuid": "ab88f733-78b4-4872-bb8b-aeae5ed9d9dd",
+                  "value": "Mercato Day",
+                  "image_id": "bvsgrtwvuyz8qgrcgqzk",
+                  "permalink": "mercato-day",
+                  "entity_def_id": "organization"
+                }
+              ],
+              "activity_properties": {
+                "money_raised": {
+                  "value": 100000,
+                  "currency": "USD",
+                  "value_usd": 100000
+                },
+                "investment_type": "seed"
+              },
+              "activity_date": "2020-04-01"
+            }
+          }
+        ]
+      },
+      "company_financials_highlights": {
+        "funding_total": {
+          "value": 100000,
+          "currency": "USD",
+          "value_usd": 100000
+        },
+        "num_funding_rounds": 1
+      },
+      "overview_company_fields": {
+        "company_type": "for_profit"
+      },
+      "private_tags_pill_list": [],
+      "acquisitions_headline": {},
+      "builtwith_summary": {
+        "builtwith_num_technologies_used": 2,
+        "identifier": {
+          "uuid": "ab88f733-78b4-4872-bb8b-aeae5ed9d9dd",
+          "value": "Mercato Day",
+          "image_id": "bvsgrtwvuyz8qgrcgqzk",
+          "permalink": "mercato-day",
+          "entity_def_id": "organization"
+        }
+      },
+      "about_short_description": {
+        "short_description": "Mercato Day is a sports news platform that offers football economics, and live broadcasts."
+      },
+      "product": [
+        {
+          "identifier": {
+            "uuid": "7b7d21d2-871b-485a-a39b-95bcf8bc98c8",
+            "value": "Sports News Platform",
+            "entity_def_id": "product"
+          },
+          "name": "Sports News Platform",
+          "description": "A digital platform providing news coverage on football, including match reports, player updates, and league information."
+        },
+        {
+          "identifier": {
+            "uuid": "e195092b-c88c-4509-9364-019eaa7deddf",
+            "value": "Football Economics Coverage",
+            "entity_def_id": "product"
+          },
+          "name": "Football Economics Coverage",
+          "description": "A service offering analysis and reports on the financial aspects of football clubs, transfers, and market trends."
+        },
+        {
+          "identifier": {
+            "uuid": "b116943c-397a-4a83-a440-cf8a133838ca",
+            "value": "Live Broadcasts",
+            "entity_def_id": "product"
+          },
+          "name": "Live Broadcasts",
+          "description": "A service that streams live football matches and related sports events to viewers through digital channels."
+        }
+      ],
+      "apptopia_app_headline": {}
+    }
+  }
+}

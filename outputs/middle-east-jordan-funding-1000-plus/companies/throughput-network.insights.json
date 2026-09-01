@@ -1,0 +1,244 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T13:44:39.724Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T13:44:39.721Z",
+    "url": "https://www.crunchbase.com/organization/throughput-network"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Throughput Network",
+      "shortDescription": "Throughput Network is a Blockchain firm offering infrastructure productivity and ledger as a service.",
+      "website": "https://throughput.network/",
+      "foundedYear": 2021,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "1-10",
+      "headquarters": "Riyadh, Ar Riyad, Saudi Arabia",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Blockchain",
+        "Service Industry",
+        "Sports Leagues and Teams"
+      ],
+      "sectors": [
+        "Blockchain and Cryptocurrency",
+        "Other",
+        "Sports"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 180000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2025-05-27",
+      "lastFundingType": "Seed",
+      "rounds": [
+        {
+          "announcedDate": "2025-05-27",
+          "amount": {
+            "amount": 180000,
+            "currency": "USD"
+          },
+          "investorCount": 2,
+          "leadInvestors": [
+            "Orbit Ventures",
+            "TB Ventures"
+          ],
+          "postMoneyValuation": {
+            "amount": 10180000,
+            "currency": "USD"
+          },
+          "type": "Seed"
+        }
+      ],
+      "investors": {
+        "reportedCount": 2,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "Orbit Ventures",
+            "rounds": [
+              "Seed Round"
+            ]
+          },
+          {
+            "isLead": true,
+            "name": "TB Ventures",
+            "rounds": [
+              "Seed Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 1,
+      "includedUniqueCount": 1,
+      "items": [
+        {
+          "date": "2025-05-27",
+          "title": "Seed Round - Throughput Network"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 180000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": 3,
+      "growthScore": 58,
+      "heatChange90Days": -22,
+      "heatScore": 57
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 5
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 87.16,
+        "timingEstimatePercent": {
+          "within6Months": 99.96,
+          "months6To11": 0.01,
+          "months12To24": 0,
+          "beyond24Months": 0.03
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 85.33
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 0
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "IBM provides technology and consulting, including software, infrastructure systems, and cloud-based solutions.",
+          "employeeRange": "10,001+",
+          "name": "IBM",
+          "similarityScore": 95
+        },
+        {
+          "description": "Oracle is an integrated cloud application and platform services that sells a range of enterprise information technology solutions.",
+          "employeeRange": "10,001+",
+          "name": "Oracle",
+          "similarityScore": 94
+        },
+        {
+          "description": "Microsoft provides computer software, consumer electronics, cloud computing platforms, and digital enterprise systems.",
+          "employeeRange": "11-50",
+          "name": "Microsoft",
+          "similarityScore": 88
+        },
+        {
+          "description": "R3 is a financial innovation firm focusing on designing and implementing distributed ledger technology for modernizing financial services.",
+          "employeeRange": "101-250",
+          "name": "R3",
+          "sharedCategories": [
+            "Blockchain"
+          ],
+          "similarityScore": 88
+        },
+        {
+          "description": "Axoni is a real-time data replication technology company serving the world’s largest financial institutions.",
+          "employeeRange": "51-100",
+          "name": "Axoni",
+          "similarityScore": 86
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Seed round raised $180,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $10,180,000 to $10,180,000, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 58 (+3 over 90 days) and market heat at 57 (-22).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include IBM, Oracle, Microsoft.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

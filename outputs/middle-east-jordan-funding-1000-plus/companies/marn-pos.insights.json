@@ -1,0 +1,355 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T12:27:08.414Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T12:27:08.411Z",
+    "url": "https://www.crunchbase.com/organization/marn-pos"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Marn",
+      "shortDescription": "Marn provides easy-to-use cloud POS solutions to clients who manage SMEs to get you all they want, to manage their store, and more.",
+      "description": "Marn provides easy-to-use cloud POS solutions to clients who manage SMEs to get you all they want, to manage their store, and more.",
+      "website": "https://marn.com/",
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "101-250",
+      "headquarters": "Riyadh, Ar Riyad, Saudi Arabia",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Point of Sale",
+        "Restaurants",
+        "Retail",
+        "Software"
+      ],
+      "sectors": [
+        "Commerce and Shopping",
+        "Food and Beverage",
+        "Software"
+      ],
+      "founders": [
+        "Mohammed Alqifari",
+        "Saleh ALMOHSIN"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "A cloud-based point of sale system that manages sales, payments, inventory, and employee performance with real-time reporting and multi-payment options.",
+        "name": "Marn POS System"
+      },
+      {
+        "description": "A point of sale device that processes electronic payments, issues invoices, and manages sales reports, designed for various retail and service businesses.",
+        "name": "Marn Light POS Device"
+      },
+      {
+        "description": "An integrated retail cashier system with high-definition screens, barcode scanning, and inventory linkage for efficient sales and stock management.",
+        "name": "Retail POS System"
+      },
+      {
+        "description": "A customer-facing display that shows order details, supports barcode scanning, loyalty integration, and multiple payment methods.",
+        "name": "Customer Display System (CDS)"
+      },
+      {
+        "description": "A display system that informs customers about their order status and alerts kitchen staff to manage preparation times efficiently.",
+        "name": "Order Status Screen (Notifier)"
+      },
+      {
+        "description": "A payment screen that connects the cashier system to payment devices via Bluetooth to speed up transactions and reduce errors.",
+        "name": "PaySync Payment Screen"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 1000000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2021-06-30",
+      "lastFundingType": "Seed",
+      "rounds": [
+        {
+          "announcedDate": "2021-06-30",
+          "amount": {
+            "amount": 1000000,
+            "currency": "USD"
+          },
+          "investorCount": 5,
+          "leadInvestors": [
+            "Sukna Ventures"
+          ],
+          "postMoneyValuation": {
+            "amount": 8387238,
+            "currency": "USD"
+          },
+          "type": "Seed"
+        }
+      ],
+      "investors": {
+        "reportedCount": 5,
+        "visibleNames": [
+          {
+            "name": "Al majdiah investment",
+            "rounds": [
+              "Seed Round"
+            ]
+          },
+          {
+            "name": "Riyadh Angel Investors",
+            "rounds": [
+              "Seed Round"
+            ]
+          },
+          {
+            "name": "Saudi Venture Capital Company",
+            "rounds": [
+              "Seed Round"
+            ]
+          },
+          {
+            "isLead": true,
+            "name": "Sukna Ventures",
+            "rounds": [
+              "Seed Round"
+            ]
+          },
+          {
+            "name": "Vision Ventures",
+            "rounds": [
+              "Seed Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 2,
+      "includedUniqueCount": 2,
+      "items": [
+        {
+          "date": "2023-02-09",
+          "publisher": "Wamda",
+          "title": "Marn raises $1 million post-Seed round",
+          "url": "https://www.wamda.com/2023/02/marn-raises-1-million-post-seed-round"
+        },
+        {
+          "date": "2021-06-30",
+          "title": "Seed Round - Marn"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 1000000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": -1,
+      "growthScore": 70,
+      "heatChange90Days": -10,
+      "heatScore": 50
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 41.33
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 20.15,
+        "timingEstimatePercent": {
+          "within6Months": 14.23,
+          "months6To11": 12.2,
+          "months12To24": 19.44,
+          "beyond24Months": 24.83
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 90.81
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 40.71
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Clover is a cloud-based open business operating system, powered by Android-based devices.",
+          "employeeRange": "1,001-5,000",
+          "name": "Clover",
+          "sharedCategories": [
+            "Point of Sale",
+            "Restaurants",
+            "Software"
+          ],
+          "sharedSpecialties": [
+            "POS Peripherals",
+            "Payment Terminals",
+            "Payment Processing",
+            "Point of Sale (POS) Hardware",
+            "Restaurant Reporting and Analytics",
+            "Table Ordering and Waitstaff Apps",
+            "Online Ordering for Restaurants",
+            "Restaurant and Hospitality POS Systems",
+            "Kitchen Display Systems (KDS)"
+          ],
+          "similarityScore": 95
+        },
+        {
+          "description": "Square is a technology company with a focus on financial services.",
+          "employeeRange": "10,001+",
+          "name": "Square",
+          "sharedCategories": [
+            "Point of Sale",
+            "Software"
+          ],
+          "sharedSpecialties": [
+            "Payment Terminals",
+            "Payment Processing",
+            "Point of Sale (POS) Hardware",
+            "Online Ordering for Restaurants"
+          ],
+          "similarityScore": 91
+        },
+        {
+          "description": "Toast is a point-of-sale and restaurant management platform designed for businesses in the food service and hospitality industry.",
+          "employeeRange": "5,001-10,000",
+          "name": "Toast",
+          "sharedCategories": [
+            "Point of Sale",
+            "Restaurants"
+          ],
+          "sharedSpecialties": [
+            "Order and Inventory Management",
+            "Point of Sale (POS) Hardware",
+            "Restaurant Reporting and Analytics",
+            "Table Ordering and Waitstaff Apps",
+            "Online Ordering for Restaurants",
+            "Restaurant and Hospitality POS Systems",
+            "Kitchen Display Systems (KDS)"
+          ],
+          "similarityScore": 91
+        },
+        {
+          "description": "Lightspeed Commerce develops a unified point of sale and payments platform for retail and hospitality businesses.",
+          "employeeRange": "1,001-5,000",
+          "name": "Lightspeed Commerce",
+          "sharedSpecialties": [
+            "Payment Terminals",
+            "Order and Inventory Management",
+            "Payment Processing",
+            "Point of Sale (POS) Hardware",
+            "Restaurant Reporting and Analytics",
+            "Restaurant and Hospitality POS Systems",
+            "Kitchen Display Systems (KDS)"
+          ],
+          "similarityScore": 90
+        },
+        {
+          "description": "Revel Systems is a cloud-based point of sale and business management platform that helps restaurants and retailers with their businesses.",
+          "employeeRange": "501-1,000",
+          "name": "Revel Systems",
+          "sharedCategories": [
+            "Point of Sale",
+            "Software"
+          ],
+          "sharedSpecialties": [
+            "POS Peripherals",
+            "Payment Terminals",
+            "Order and Inventory Management",
+            "Point of Sale (POS) Hardware",
+            "Online Ordering for Restaurants",
+            "Restaurant and Hospitality POS Systems",
+            "Kitchen Display Systems (KDS)"
+          ],
+          "similarityScore": 89
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Seed round raised $1,000,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $8,387,238 to $8,387,238, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 70 (-1 over 90 days) and market heat at 50 (-10).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Clover, Square, Toast.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

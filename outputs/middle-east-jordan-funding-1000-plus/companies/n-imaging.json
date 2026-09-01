@@ -1,0 +1,2562 @@
+{
+  "sourceUrl": "https://www.crunchbase.com/organization/n-imaging",
+  "pageTitle": "n-imaging",
+  "scrapedAt": "2026-09-01T12:40:12.919Z",
+  "extraction": {
+    "authenticated": true,
+    "method": "curl-cffi-authenticated-entity-fetch-no-browser"
+  },
+  "organization": {
+    "properties": {
+      "facet_ids": [
+        "company",
+        "rank"
+      ],
+      "identifier": {
+        "uuid": "2fc938d9-168b-49f6-8b0f-44babc25dfd2",
+        "value": "N-Imaging",
+        "permalink": "n-imaging",
+        "entity_def_id": "organization"
+      },
+      "category_groups": [
+        {
+          "uuid": "2b8382fc-8e57-2357-f3d7-e925406cb1c9",
+          "value": "Energy",
+          "permalink": "energy-2b83",
+          "entity_def_id": "category_group"
+        }
+      ],
+      "short_description": "Fabrication of smart nano-devices for image sensing and solar energy harvesting",
+      "investor_identifiers": [
+        {
+          "uuid": "f33fabc2-d96d-adc7-1fcd-0f997387560e",
+          "value": "KAUST Innovation Fund",
+          "image_id": "xtupqvptdson9hus1vbj",
+          "permalink": "kaust-innovation-fund",
+          "entity_def_id": "organization"
+        }
+      ],
+      "rank_delta_d90": -0.8,
+      "title": "N-Imaging"
+    },
+    "cards": {
+      "semrush_summary": {
+        "identifier": {
+          "uuid": "2fc938d9-168b-49f6-8b0f-44babc25dfd2",
+          "value": "N-Imaging",
+          "permalink": "n-imaging",
+          "entity_def_id": "organization"
+        }
+      },
+      "key_employee_change_list": [],
+      "apptopia_attribution": {},
+      "diversity_spotlight_investments_headline": {},
+      "apptopia_app_rating_list": [],
+      "funds_summary": {
+        "identifier": {
+          "uuid": "2fc938d9-168b-49f6-8b0f-44babc25dfd2",
+          "value": "N-Imaging",
+          "permalink": "n-imaging",
+          "entity_def_id": "organization"
+        }
+      },
+      "funding_prediction": [],
+      "company_about_fields1": {},
+      "current_advisors_image_list": [],
+      "recommended_search": [
+        {
+          "identifier": {
+            "permalink": "closed-middle-east-and-north-africa-companies",
+            "image_id": "zvwrwp9pquwdyvucpvab",
+            "uuid": "66074af4-13fc-43dd-9460-2b0969c8afcd",
+            "entity_def_id": "hub",
+            "value": "Closed Middle East and North Africa (MENA) Companies"
+          },
+          "org_identifiers": [
+            {
+              "permalink": "aim-security",
+              "image_id": "zvwrwp9pquwdyvucpvab",
+              "uuid": "e75e8060-e042-46cb-b849-5a4014779185",
+              "entity_def_id": "organization",
+              "value": "Aim Security"
+            },
+            {
+              "permalink": "future-meat-technologies",
+              "image_id": "as8z7iqnkhmj9g7cwr7w",
+              "uuid": "ff2eedf4-9f69-4426-a52c-dc1e4a874a09",
+              "entity_def_id": "organization",
+              "value": "Believer Meats"
+            },
+            {
+              "permalink": "vulcan-cyber",
+              "image_id": "0f5e4d9bcd424f348edfee948d980139",
+              "uuid": "18b59b98-9e94-4b72-a5fd-f534217a266c",
+              "entity_def_id": "organization",
+              "value": "Vulcan Cyber"
+            },
+            {
+              "permalink": "sam-seamless-network",
+              "image_id": "rbldk6cvkuspaf3525mj",
+              "uuid": "d4eed887-6cd3-8af2-4b0a-3312a911678b",
+              "entity_def_id": "organization",
+              "value": "SAM Seamless Network"
+            },
+            {
+              "permalink": "perimeter-81",
+              "image_id": "fnykxpmwhyqjqfku8se8",
+              "uuid": "ad22a2a6-015d-4ff1-9516-f517cedebeee",
+              "entity_def_id": "organization",
+              "value": "Perimeter 81"
+            },
+            {
+              "permalink": "hellenic-bank",
+              "image_id": "v1488695598/d87zcrgpbesqz9oxlcke.png",
+              "uuid": "543102bd-9f07-aecf-5d89-2c08b2e4262f",
+              "entity_def_id": "organization",
+              "value": "Hellenic Bank"
+            },
+            {
+              "permalink": "guardicore",
+              "image_id": "f7ca7gms3i1xyzh3dwlz",
+              "uuid": "ef649444-dbfa-3c62-5bd3-1f1e856d0655",
+              "entity_def_id": "organization",
+              "value": "Guardicore"
+            },
+            {
+              "permalink": "fetchr",
+              "image_id": "v1433852729/qh0qghi4vyltapyyczlu.png",
+              "uuid": "cd8e3e9d-309c-60a2-2a88-8e4e4e629cc2",
+              "entity_def_id": "organization",
+              "value": "Fetchr"
+            }
+          ],
+          "org_funding_total": {
+            "currency": "USD",
+            "value": 13738889294,
+            "value_usd": 13738889294
+          },
+          "org_num_investors": 3918,
+          "org_num": 8148,
+          "queries": {
+            "event": [
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "8cb7cad4-b7e4-4b28-a496-2ede3720cb19"
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "principal.has_event.forward",
+                "query": [
+                  {
+                    "field_id": "facet_ids",
+                    "operator_id": "includes",
+                    "values": [
+                      "company"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "closed"
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ],
+            "organization": [
+              {
+                "field_id": "facet_ids",
+                "operator_id": "includes",
+                "values": [
+                  "company"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "8cb7cad4-b7e4-4b28-a496-2ede3720cb19"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "operating_status",
+                "operator_id": "eq",
+                "values": [
+                  "closed"
+                ],
+                "type": "predicate"
+              }
+            ],
+            "person": [
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "8cb7cad4-b7e4-4b28-a496-2ede3720cb19"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "rank_person",
+                "operator_id": "lte",
+                "values": [
+                  990000
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "organization.has_primary_organization.forward",
+                "query": [
+                  {
+                    "field_id": "facet_ids",
+                    "operator_id": "includes",
+                    "values": [
+                      "company"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "location_identifiers",
+                    "operator_id": "includes",
+                    "values": [
+                      "8cb7cad4-b7e4-4b28-a496-2ede3720cb19"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "closed"
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ]
+          }
+        },
+        {
+          "identifier": {
+            "permalink": "closed-europe-middle-east-and-africa-energy-companies",
+            "image_id": "v1491370806/p1ptvf59ggjhgvovkvo8.png",
+            "uuid": "41b2ebb7-e701-4191-8bfe-eb77b8500ee4",
+            "entity_def_id": "hub",
+            "value": "Closed Europe, Middle East, and Africa (EMEA) Energy Companies"
+          },
+          "org_identifiers": [
+            {
+              "permalink": "bulb-2",
+              "image_id": "v1491370806/p1ptvf59ggjhgvovkvo8.png",
+              "uuid": "b191c2fe-9a04-86d6-a760-ec44a6993bfa",
+              "entity_def_id": "organization",
+              "value": "Bulb Energy"
+            },
+            {
+              "permalink": "peg-africa-c7a4",
+              "image_id": "fqzndd18py2lf5v54dxp",
+              "uuid": "94c70339-9de2-4a05-aee9-1c101d94c7a4",
+              "entity_def_id": "organization",
+              "value": "PEG Africa"
+            },
+            {
+              "permalink": "greenflux",
+              "image_id": "qrqakjzammtfjyue3x6n",
+              "uuid": "db6a49aa-5799-5fad-7b7c-6c0ca2e12d5e",
+              "entity_def_id": "organization",
+              "value": "GreenFlux"
+            },
+            {
+              "permalink": "pushme-2",
+              "image_id": "nhggkalzqss2dyhlmara",
+              "uuid": "62b117d0-39e5-897f-2341-4d4933bfc3ca",
+              "entity_def_id": "organization",
+              "value": "Pushme"
+            },
+            {
+              "permalink": "the-faraday-grid",
+              "image_id": "abe3wt4odmbljtngktwm",
+              "uuid": "18e6d67f-e035-4af7-825e-6cdec9cea10a",
+              "entity_def_id": "organization",
+              "value": "The Faraday Grid"
+            },
+            {
+              "permalink": "eyvon",
+              "image_id": "maiv9mwaeckwo5hgbsww",
+              "uuid": "e27b3782-4eb0-472c-8dd3-514fafdea305",
+              "entity_def_id": "organization",
+              "value": "Evyon"
+            },
+            {
+              "permalink": "depsys",
+              "image_id": "yg2t7dmwpdkh9ebkqt2f",
+              "uuid": "7c20a05e-9506-5dd3-c74b-02418e0b68a1",
+              "entity_def_id": "organization",
+              "value": "DEPsys"
+            },
+            {
+              "permalink": "efficient-energy",
+              "image_id": "vnokx1zogorwcs6mxiag",
+              "uuid": "e6bdfbdb-d61c-4c1b-87fe-18025bfd1e26",
+              "entity_def_id": "organization",
+              "value": "Efficient Energy"
+            }
+          ],
+          "org_funding_total": {
+            "currency": "USD",
+            "value": 5741469550,
+            "value_usd": 5741469550
+          },
+          "org_num_investors": 603,
+          "org_num": 1196,
+          "queries": {
+            "event": [
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "4e8be435-c63a-4aff-8a2f-44a880d9c341"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "categories",
+                "operator_id": "includes",
+                "values": [
+                  "0ff04f3a-4264-226a-9c03-a481554b637d"
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "principal.has_event.forward",
+                "query": [
+                  {
+                    "field_id": "facet_ids",
+                    "operator_id": "includes",
+                    "values": [
+                      "company"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "closed"
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ],
+            "organization": [
+              {
+                "field_id": "facet_ids",
+                "operator_id": "includes",
+                "values": [
+                  "company"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "4e8be435-c63a-4aff-8a2f-44a880d9c341"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "categories",
+                "operator_id": "includes",
+                "values": [
+                  "0ff04f3a-4264-226a-9c03-a481554b637d"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "operating_status",
+                "operator_id": "eq",
+                "values": [
+                  "closed"
+                ],
+                "type": "predicate"
+              }
+            ],
+            "person": [
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "4e8be435-c63a-4aff-8a2f-44a880d9c341"
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "organization.has_primary_organization.forward",
+                "query": [
+                  {
+                    "field_id": "facet_ids",
+                    "operator_id": "includes",
+                    "values": [
+                      "company"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "location_identifiers",
+                    "operator_id": "includes",
+                    "values": [
+                      "4e8be435-c63a-4aff-8a2f-44a880d9c341"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "categories",
+                    "operator_id": "includes",
+                    "values": [
+                      "0ff04f3a-4264-226a-9c03-a481554b637d"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "closed"
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ]
+          }
+        },
+        {
+          "identifier": {
+            "permalink": "closed-middle-east-companies",
+            "image_id": "zvwrwp9pquwdyvucpvab",
+            "uuid": "3e4ffa6e-7ea5-44e9-8a24-ef547503fd9c",
+            "entity_def_id": "hub",
+            "value": "Closed Middle East Companies"
+          },
+          "org_identifiers": [
+            {
+              "permalink": "aim-security",
+              "image_id": "zvwrwp9pquwdyvucpvab",
+              "uuid": "e75e8060-e042-46cb-b849-5a4014779185",
+              "entity_def_id": "organization",
+              "value": "Aim Security"
+            },
+            {
+              "permalink": "future-meat-technologies",
+              "image_id": "as8z7iqnkhmj9g7cwr7w",
+              "uuid": "ff2eedf4-9f69-4426-a52c-dc1e4a874a09",
+              "entity_def_id": "organization",
+              "value": "Believer Meats"
+            },
+            {
+              "permalink": "vulcan-cyber",
+              "image_id": "0f5e4d9bcd424f348edfee948d980139",
+              "uuid": "18b59b98-9e94-4b72-a5fd-f534217a266c",
+              "entity_def_id": "organization",
+              "value": "Vulcan Cyber"
+            },
+            {
+              "permalink": "sam-seamless-network",
+              "image_id": "rbldk6cvkuspaf3525mj",
+              "uuid": "d4eed887-6cd3-8af2-4b0a-3312a911678b",
+              "entity_def_id": "organization",
+              "value": "SAM Seamless Network"
+            },
+            {
+              "permalink": "perimeter-81",
+              "image_id": "fnykxpmwhyqjqfku8se8",
+              "uuid": "ad22a2a6-015d-4ff1-9516-f517cedebeee",
+              "entity_def_id": "organization",
+              "value": "Perimeter 81"
+            },
+            {
+              "permalink": "hellenic-bank",
+              "image_id": "v1488695598/d87zcrgpbesqz9oxlcke.png",
+              "uuid": "543102bd-9f07-aecf-5d89-2c08b2e4262f",
+              "entity_def_id": "organization",
+              "value": "Hellenic Bank"
+            },
+            {
+              "permalink": "guardicore",
+              "image_id": "f7ca7gms3i1xyzh3dwlz",
+              "uuid": "ef649444-dbfa-3c62-5bd3-1f1e856d0655",
+              "entity_def_id": "organization",
+              "value": "Guardicore"
+            },
+            {
+              "permalink": "fetchr",
+              "image_id": "v1433852729/qh0qghi4vyltapyyczlu.png",
+              "uuid": "cd8e3e9d-309c-60a2-2a88-8e4e4e629cc2",
+              "entity_def_id": "organization",
+              "value": "Fetchr"
+            }
+          ],
+          "org_funding_total": {
+            "currency": "USD",
+            "value": 13311530176,
+            "value_usd": 13311530176
+          },
+          "org_num_investors": 3703,
+          "org_num": 7081,
+          "queries": {
+            "event": [
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "e0272206-3430-48cb-a5bc-1d4b3eafe15a"
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "principal.has_event.forward",
+                "query": [
+                  {
+                    "field_id": "facet_ids",
+                    "operator_id": "includes",
+                    "values": [
+                      "company"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "closed"
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ],
+            "organization": [
+              {
+                "field_id": "facet_ids",
+                "operator_id": "includes",
+                "values": [
+                  "company"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "e0272206-3430-48cb-a5bc-1d4b3eafe15a"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "operating_status",
+                "operator_id": "eq",
+                "values": [
+                  "closed"
+                ],
+                "type": "predicate"
+              }
+            ],
+            "person": [
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "e0272206-3430-48cb-a5bc-1d4b3eafe15a"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "rank_person",
+                "operator_id": "lte",
+                "values": [
+                  1000000
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "organization.has_primary_organization.forward",
+                "query": [
+                  {
+                    "field_id": "facet_ids",
+                    "operator_id": "includes",
+                    "values": [
+                      "company"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "location_identifiers",
+                    "operator_id": "includes",
+                    "values": [
+                      "e0272206-3430-48cb-a5bc-1d4b3eafe15a"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "closed"
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ]
+          }
+        },
+        {
+          "identifier": {
+            "permalink": "closed-gulf-cooperation-council-companies",
+            "image_id": "v1433852729/qh0qghi4vyltapyyczlu.png",
+            "uuid": "244cc192-4dde-4ab1-98d3-6f2300a0bd6b",
+            "entity_def_id": "hub",
+            "value": "Closed Gulf Cooperation Council (GCC) Companies"
+          },
+          "org_identifiers": [
+            {
+              "permalink": "fetchr",
+              "image_id": "v1433852729/qh0qghi4vyltapyyczlu.png",
+              "uuid": "cd8e3e9d-309c-60a2-2a88-8e4e4e629cc2",
+              "entity_def_id": "organization",
+              "value": "Fetchr"
+            },
+            {
+              "permalink": "ikcon",
+              "image_id": "ljsqlpgspy1pcq0q90wl",
+              "uuid": "7c290555-4dbf-4cbd-890f-d556bf214e5b",
+              "entity_def_id": "organization",
+              "value": "iKcon"
+            },
+            {
+              "permalink": "wadi",
+              "image_id": "v1455512288/j5jbdeloxsckjjfriykq.png",
+              "uuid": "8300663d-f7e1-4269-c148-c040281a89aa",
+              "entity_def_id": "organization",
+              "value": "Wadi"
+            },
+            {
+              "permalink": "lunch-on",
+              "image_id": "iyjqgbtz5hjx1hswulnk",
+              "uuid": "e50bbde0-395e-9610-49e8-5da07b82b9aa",
+              "entity_def_id": "organization",
+              "value": "MUNCH:ON"
+            },
+            {
+              "permalink": "xyro",
+              "image_id": "202b235870c74502b682a3ad440fd2d2",
+              "uuid": "64d635f3-f386-4440-b898-84e562b00dd0",
+              "entity_def_id": "organization",
+              "value": "XYRO"
+            },
+            {
+              "permalink": "optima-6599",
+              "image_id": "31520d6db3dd423ab5008a4c5fbfbefc",
+              "uuid": "e2371942-64d2-4398-aed0-fc0c7ed36599",
+              "entity_def_id": "organization",
+              "value": "Optima"
+            },
+            {
+              "permalink": "eventtus",
+              "image_id": "uf3xtracasi8xp1ugavo",
+              "uuid": "121e4e82-3eaa-18a1-8a75-0778132d073b",
+              "entity_def_id": "organization",
+              "value": "Eventtus"
+            },
+            {
+              "permalink": "meddy",
+              "image_id": "o5ythlgiyn5o0vdobyga",
+              "uuid": "16275fd9-29b8-343b-5f73-ebffc75f0a8f",
+              "entity_def_id": "organization",
+              "value": "Meddy"
+            }
+          ],
+          "org_funding_total": {
+            "currency": "USD",
+            "value": 1722823431,
+            "value_usd": 1722823431
+          },
+          "org_num_investors": 397,
+          "org_num": 1764,
+          "queries": {
+            "event": [
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "c4365698-c7c5-44b0-b33a-7d13900e5be2"
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "principal.has_event.forward",
+                "query": [
+                  {
+                    "field_id": "facet_ids",
+                    "operator_id": "includes",
+                    "values": [
+                      "company"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "closed"
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ],
+            "organization": [
+              {
+                "field_id": "facet_ids",
+                "operator_id": "includes",
+                "values": [
+                  "company"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "c4365698-c7c5-44b0-b33a-7d13900e5be2"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "operating_status",
+                "operator_id": "eq",
+                "values": [
+                  "closed"
+                ],
+                "type": "predicate"
+              }
+            ],
+            "person": [
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "c4365698-c7c5-44b0-b33a-7d13900e5be2"
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "organization.has_primary_organization.forward",
+                "query": [
+                  {
+                    "field_id": "facet_ids",
+                    "operator_id": "includes",
+                    "values": [
+                      "company"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "location_identifiers",
+                    "operator_id": "includes",
+                    "values": [
+                      "c4365698-c7c5-44b0-b33a-7d13900e5be2"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "closed"
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ]
+          }
+        }
+      ],
+      "org_similarity_org_list": [],
+      "investors_summary": {
+        "identifier": {
+          "uuid": "2fc938d9-168b-49f6-8b0f-44babc25dfd2",
+          "value": "N-Imaging",
+          "permalink": "n-imaging",
+          "entity_def_id": "organization"
+        },
+        "num_investors": 1
+      },
+      "funds_list": [],
+      "alumni_image_list": [],
+      "semrush_overview_headline": {},
+      "frequently_asked_questions_total_funding": {
+        "funding_total": {
+          "value": 294640,
+          "currency": "USD",
+          "value_usd": 294640
+        },
+        "identifier": {
+          "uuid": "2fc938d9-168b-49f6-8b0f-44babc25dfd2",
+          "value": "N-Imaging",
+          "permalink": "n-imaging",
+          "entity_def_id": "organization"
+        }
+      },
+      "exits_summary": {
+        "identifier": {
+          "uuid": "2fc938d9-168b-49f6-8b0f-44babc25dfd2",
+          "value": "N-Imaging",
+          "permalink": "n-imaging",
+          "entity_def_id": "organization"
+        }
+      },
+      "partnership_announcements": [],
+      "bombora_surge_list": [],
+      "diversity_spotlight_investments_list": [],
+      "builtwith_tech_used_list": [],
+      "funding_rounds_summary": {
+        "identifier": {
+          "uuid": "2fc938d9-168b-49f6-8b0f-44babc25dfd2",
+          "value": "N-Imaging",
+          "permalink": "n-imaging",
+          "entity_def_id": "organization"
+        },
+        "last_funding_type": "seed",
+        "last_funding_at": "2011-03-08",
+        "funding_total": {
+          "value": 294640,
+          "currency": "USD",
+          "value_usd": 294640
+        },
+        "num_funding_rounds": 1
+      },
+      "org_similarity_list": [],
+      "ipo_prediction": [],
+      "acquisitions_summary": {
+        "identifier": {
+          "uuid": "2fc938d9-168b-49f6-8b0f-44babc25dfd2",
+          "value": "N-Imaging",
+          "permalink": "n-imaging",
+          "entity_def_id": "organization"
+        }
+      },
+      "advisors_summary": {
+        "identifier": {
+          "uuid": "2fc938d9-168b-49f6-8b0f-44babc25dfd2",
+          "value": "N-Imaging",
+          "permalink": "n-imaging",
+          "entity_def_id": "organization"
+        }
+      },
+      "acquisitions_list": [],
+      "exits_headline": {},
+      "investments_summary": {
+        "identifier": {
+          "uuid": "2fc938d9-168b-49f6-8b0f-44babc25dfd2",
+          "value": "N-Imaging",
+          "permalink": "n-imaging",
+          "entity_def_id": "organization"
+        }
+      },
+      "acquired_by_fields": {},
+      "research_insight_text_link": {},
+      "acquisition_prediction": [],
+      "sub_organizations_headline": {},
+      "layoff_list": [],
+      "growth_and_heat": {
+        "heat_score": 4,
+        "heat_score_delta_d90": -9,
+        "heat_score_history": {
+          "periods": {
+            "i1": {
+              "values": [
+                4,
+                5,
+                5,
+                5,
+                5,
+                5,
+                5,
+                5,
+                5,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                7,
+                7,
+                7,
+                7,
+                7,
+                7,
+                7,
+                7,
+                7,
+                8,
+                8,
+                8,
+                8,
+                8,
+                8,
+                8,
+                8,
+                8,
+                8,
+                9,
+                9,
+                9,
+                9,
+                9,
+                9,
+                9,
+                9,
+                9,
+                9,
+                10,
+                10,
+                10,
+                10,
+                10,
+                10,
+                10,
+                10,
+                10,
+                10,
+                10,
+                10,
+                11,
+                11,
+                11,
+                11,
+                11,
+                11,
+                11,
+                11,
+                11,
+                11,
+                11,
+                11,
+                12,
+                12,
+                12,
+                12,
+                12,
+                12,
+                12,
+                12,
+                12,
+                12,
+                12,
+                12,
+                12,
+                13,
+                13,
+                13,
+                13,
+                13
+              ],
+              "interval": 1
+            },
+            "i2": {
+              "values": [
+                4,
+                5,
+                5,
+                5,
+                6,
+                6,
+                6,
+                6,
+                6,
+                7,
+                7,
+                7,
+                7,
+                7,
+                8,
+                8,
+                8,
+                8,
+                8,
+                9,
+                9,
+                9,
+                9,
+                9,
+                10,
+                10,
+                10,
+                10,
+                10,
+                10,
+                11,
+                11,
+                11,
+                11,
+                11,
+                11,
+                12,
+                12,
+                12,
+                12,
+                12,
+                12,
+                13,
+                13,
+                13,
+                13,
+                13,
+                13,
+                13,
+                14,
+                14,
+                14,
+                15,
+                15,
+                16,
+                17,
+                18,
+                18,
+                19,
+                20,
+                20,
+                21,
+                21,
+                22,
+                23,
+                23,
+                24,
+                24,
+                25,
+                25,
+                26,
+                26,
+                27,
+                27,
+                27,
+                28,
+                28,
+                29,
+                29,
+                29,
+                30,
+                28,
+                25,
+                21,
+                17,
+                17,
+                17,
+                17,
+                17,
+                17,
+                17
+              ],
+              "interval": 2
+            },
+            "i4": {
+              "values": [
+                4,
+                5,
+                6,
+                6,
+                6,
+                7,
+                7,
+                8,
+                8,
+                9,
+                9,
+                9,
+                10,
+                10,
+                10,
+                11,
+                11,
+                11,
+                12,
+                12,
+                12,
+                13,
+                13,
+                13,
+                14,
+                14,
+                15,
+                16,
+                18,
+                19,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                28,
+                29,
+                29,
+                23,
+                17,
+                17,
+                17,
+                17,
+                18,
+                18,
+                18,
+                18,
+                19,
+                19,
+                19,
+                19,
+                19,
+                20,
+                21,
+                23,
+                25,
+                27,
+                29,
+                30,
+                32,
+                34,
+                36,
+                38,
+                39,
+                41,
+                43,
+                44,
+                44,
+                38,
+                36,
+                38,
+                39,
+                39,
+                39,
+                38,
+                37,
+                38,
+                37,
+                37,
+                35,
+                36,
+                36,
+                35,
+                35,
+                35,
+                36,
+                36,
+                36,
+                35
+              ],
+              "interval": 4
+            },
+            "i7": {
+              "values": [
+                4,
+                6,
+                6,
+                7,
+                8,
+                9,
+                9,
+                10,
+                10,
+                11,
+                12,
+                12,
+                13,
+                13,
+                14,
+                16,
+                18,
+                21,
+                23,
+                24,
+                26,
+                28,
+                29,
+                25,
+                17,
+                17,
+                18,
+                18,
+                18,
+                19,
+                19,
+                20,
+                22,
+                25,
+                28,
+                31,
+                34,
+                38,
+                41,
+                43,
+                42,
+                36,
+                39,
+                38,
+                37,
+                37,
+                37,
+                36,
+                35,
+                35,
+                36,
+                35,
+                33,
+                28,
+                27,
+                26,
+                23,
+                26,
+                29,
+                28,
+                27,
+                28,
+                30,
+                31,
+                24,
+                25,
+                24,
+                26,
+                28,
+                30,
+                30,
+                32,
+                29,
+                29,
+                27,
+                29,
+                31,
+                28,
+                18,
+                15,
+                17,
+                21,
+                24,
+                26,
+                29,
+                31,
+                33,
+                34,
+                33,
+                26,
+                20,
+                22,
+                24,
+                26,
+                28,
+                30,
+                33,
+                31,
+                30,
+                31,
+                33,
+                35,
+                37,
+                36,
+                30
+              ],
+              "interval": 7
+            },
+            "i18": {
+              "values": [
+                4,
+                7,
+                9,
+                11,
+                12,
+                14,
+                19,
+                24,
+                28,
+                20,
+                18,
+                19,
+                21,
+                29,
+                37,
+                42,
+                38,
+                37,
+                36,
+                35,
+                32,
+                26,
+                27,
+                27,
+                30,
+                24,
+                27,
+                31,
+                29,
+                29,
+                20,
+                19,
+                27,
+                32,
+                30,
+                22,
+                27,
+                31,
+                31,
+                35,
+                32,
+                24,
+                25,
+                19,
+                26,
+                26,
+                25,
+                15,
+                16,
+                19,
+                18,
+                19,
+                19,
+                18,
+                22,
+                24,
+                22,
+                17,
+                16,
+                20,
+                21,
+                25,
+                21,
+                26,
+                26,
+                21,
+                26,
+                25,
+                23,
+                22,
+                28,
+                30,
+                33,
+                37,
+                45,
+                47,
+                37,
+                32,
+                31,
+                24,
+                17,
+                19,
+                26,
+                26,
+                25,
+                18,
+                18,
+                14,
+                12,
+                3,
+                6,
+                8,
+                1,
+                2,
+                3,
+                4,
+                5,
+                5,
+                7,
+                11,
+                15,
+                19
+              ],
+              "interval": 18
+            },
+            "i36": {
+              "values": [
+                4,
+                10,
+                13,
+                21,
+                24,
+                18,
+                25,
+                39,
+                38,
+                36,
+                29,
+                27,
+                27,
+                29,
+                29,
+                20,
+                29,
+                26,
+                29,
+                33,
+                28,
+                22,
+                26,
+                20,
+                18,
+                19,
+                18,
+                23,
+                19,
+                18,
+                23,
+                23,
+                23,
+                26,
+                22,
+                29,
+                35,
+                46,
+                35,
+                28,
+                18,
+                26,
+                21,
+                16,
+                7,
+                7,
+                1,
+                3,
+                5,
+                9,
+                17,
+                20,
+                16,
+                13,
+                16,
+                21,
+                45,
+                57,
+                57,
+                58,
+                62,
+                67,
+                66,
+                68,
+                73,
+                70,
+                72,
+                71,
+                73,
+                78,
+                83,
+                74,
+                80,
+                83,
+                86,
+                56,
+                43,
+                43,
+                43,
+                43,
+                44,
+                44,
+                44,
+                44,
+                44,
+                44,
+                45,
+                45,
+                45,
+                45,
+                45,
+                45,
+                46,
+                46,
+                46,
+                46,
+                46,
+                46,
+                46,
+                46,
+                46,
+                47
+              ],
+              "interval": 36
+            }
+          }
+        },
+        "heat_trend_365": {
+          "periods": {
+            "i1": {
+              "values": [
+                -64,
+                -64,
+                -64,
+                -64,
+                -61,
+                -61,
+                -58,
+                -58,
+                -58,
+                -58,
+                -58,
+                -58,
+                -54,
+                -54,
+                -54,
+                -54,
+                -54,
+                -54,
+                -54,
+                -55,
+                -55,
+                -55,
+                -55,
+                -55,
+                -50,
+                -42,
+                -43,
+                -43,
+                -44,
+                -44,
+                -45,
+                -45,
+                -45,
+                -46,
+                -46,
+                -46,
+                -46,
+                -47,
+                -47,
+                -47,
+                -48,
+                -48,
+                -48,
+                -48,
+                -49,
+                -49,
+                -49,
+                -49,
+                -49,
+                -45,
+                -45,
+                -45,
+                -45,
+                -46,
+                -46,
+                -46,
+                -46,
+                -41,
+                -41,
+                -41,
+                -42,
+                -42,
+                -42,
+                -42,
+                -42,
+                -43,
+                -43,
+                -43,
+                -43,
+                -44,
+                -44,
+                -44,
+                -44,
+                -44,
+                -45,
+                -45,
+                -45,
+                -45,
+                -45,
+                -45,
+                -46,
+                -46,
+                -36,
+                -36,
+                -37,
+                -37,
+                -29,
+                -29,
+                -30,
+                -30
+              ],
+              "interval": 1
+            },
+            "i2": {
+              "values": [
+                -64,
+                -64,
+                -61,
+                -58,
+                -58,
+                -58,
+                -54,
+                -54,
+                -54,
+                -54,
+                -55,
+                -55,
+                -46,
+                -43,
+                -44,
+                -45,
+                -45,
+                -46,
+                -46,
+                -47,
+                -48,
+                -48,
+                -49,
+                -49,
+                -47,
+                -45,
+                -45,
+                -46,
+                -43,
+                -41,
+                -42,
+                -42,
+                -42,
+                -43,
+                -43,
+                -44,
+                -44,
+                -45,
+                -45,
+                -45,
+                -46,
+                -36,
+                -37,
+                -29,
+                -30,
+                -31,
+                -32,
+                -33,
+                -34,
+                -26,
+                -27,
+                -28,
+                -28,
+                -28,
+                -27,
+                -26,
+                -26,
+                -25,
+                -25,
+                -25,
+                -24,
+                -24,
+                -17,
+                -18,
+                -18,
+                -18,
+                -18,
+                -18,
+                -19,
+                -19,
+                -7,
+                -3,
+                -4,
+                -4,
+                -5,
+                -5,
+                0,
+                5,
+                5,
+                4,
+                4,
+                -3,
+                -10,
+                -21,
+                -33,
+                -33,
+                -34,
+                -27,
+                -27,
+                -28,
+                -28
+              ],
+              "interval": 2
+            },
+            "i4": {
+              "values": [
+                -64,
+                -59,
+                -58,
+                -54,
+                -54,
+                -55,
+                -44,
+                -44,
+                -46,
+                -47,
+                -48,
+                -49,
+                -46,
+                -46,
+                -42,
+                -42,
+                -43,
+                -44,
+                -44,
+                -45,
+                -41,
+                -33,
+                -31,
+                -33,
+                -30,
+                -28,
+                -28,
+                -27,
+                -26,
+                -25,
+                -24,
+                -17,
+                -18,
+                -18,
+                -19,
+                -5,
+                -4,
+                -5,
+                3,
+                4,
+                0,
+                -15,
+                -33,
+                -30,
+                -27,
+                -15,
+                13,
+                12,
+                8,
+                4,
+                -1,
+                -7,
+                -11,
+                -14,
+                -17,
+                -19,
+                -19,
+                -16,
+                -14,
+                -13,
+                -11,
+                -10,
+                -2,
+                2,
+                13,
+                33,
+                58,
+                64,
+                62,
+                61,
+                56,
+                35,
+                26,
+                26,
+                27,
+                22,
+                18,
+                12,
+                12,
+                16,
+                14,
+                21,
+                12,
+                9,
+                7,
+                2,
+                0,
+                -3,
+                -3,
+                -4,
+                3,
+                21
+              ],
+              "interval": 4
+            },
+            "i7": {
+              "values": [
+                -64,
+                -57,
+                -54,
+                -49,
+                -45,
+                -47,
+                -49,
+                -45,
+                -42,
+                -43,
+                -44,
+                -43,
+                -32,
+                -33,
+                -27,
+                -28,
+                -25,
+                -22,
+                -18,
+                -19,
+                -5,
+                -3,
+                4,
+                -9,
+                -32,
+                -28,
+                9,
+                9,
+                2,
+                -7,
+                -14,
+                -19,
+                -18,
+                -14,
+                -12,
+                -5,
+                4,
+                37,
+                64,
+                61,
+                48,
+                26,
+                26,
+                19,
+                11,
+                14,
+                18,
+                10,
+                5,
+                -1,
+                -3,
+                0,
+                14,
+                3,
+                16,
+                9,
+                -4,
+                1,
+                28,
+                31,
+                18,
+                10,
+                8,
+                4,
+                -8,
+                5,
+                -3,
+                -2,
+                21,
+                66,
+                62,
+                64,
+                47,
+                40,
+                25,
+                29,
+                53,
+                34,
+                -6,
+                -17,
+                -7,
+                16,
+                19,
+                22,
+                47,
+                47,
+                40,
+                35,
+                30,
+                13,
+                -11,
+                -6,
+                3,
+                14,
+                38,
+                37,
+                73,
+                61,
+                49,
+                41,
+                37,
+                51,
+                60,
+                49,
+                24
+              ],
+              "interval": 7
+            },
+            "i18": {
+              "values": [
+                -64,
+                -48,
+                -47,
+                -43,
+                -40,
+                -30,
+                -25,
+                -15,
+                0,
+                -24,
+                5,
+                -7,
+                -18,
+                -10,
+                31,
+                54,
+                25,
+                13,
+                11,
+                -2,
+                8,
+                8,
+                13,
+                20,
+                4,
+                -1,
+                17,
+                65,
+                40,
+                38,
+                4,
+                4,
+                30,
+                43,
+                24,
+                -6,
+                23,
+                58,
+                46,
+                50,
+                30,
+                3,
+                7,
+                -19,
+                10,
+                13,
+                -6,
+                -26,
+                -18,
+                -13,
+                -28,
+                -27,
+                -33,
+                -43,
+                -42,
+                -36,
+                -31,
+                -34,
+                -34,
+                0,
+                14,
+                11,
+                -17,
+                3,
+                9,
+                8,
+                32,
+                47,
+                66,
+                100,
+                100,
+                97,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                99,
+                54,
+                0,
+                1,
+                16,
+                28,
+                31,
+                17,
+                24,
+                -8,
+                -17,
+                -45,
+                -32,
+                -54,
+                -78,
+                -79,
+                -79,
+                -78,
+                -76,
+                -76,
+                -74,
+                -68,
+                -63,
+                -59
+              ],
+              "interval": 18
+            },
+            "i36": {
+              "values": [
+                -64,
+                -45,
+                -35,
+                -20,
+                -12,
+                -1,
+                -14,
+                43,
+                19,
+                4,
+                8,
+                16,
+                2,
+                41,
+                39,
+                4,
+                36,
+                9,
+                40,
+                48,
+                16,
+                -6,
+                11,
+                -16,
+                -15,
+                -27,
+                -38,
+                -39,
+                -32,
+                -17,
+                13,
+                -7,
+                9,
+                39,
+                83,
+                98,
+                100,
+                100,
+                100,
+                76,
+                1,
+                22,
+                24,
+                8,
+                -31,
+                -43,
+                -78,
+                -79,
+                -76,
+                -71,
+                -62,
+                -60,
+                -64,
+                -69,
+                -68,
+                -60,
+                -32,
+                -18,
+                -19,
+                -23,
+                -22,
+                -8,
+                -15,
+                -18,
+                -11,
+                34,
+                54,
+                51,
+                54,
+                63,
+                71,
+                55,
+                65,
+                69,
+                75,
+                20,
+                -3,
+                -3,
+                -3,
+                -3,
+                -3,
+                -3,
+                -3,
+                -3,
+                -3,
+                -3,
+                -2,
+                -2,
+                -2,
+                -2,
+                -2,
+                -2,
+                -2,
+                -2,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                0,
+                0,
+                0
+              ],
+              "interval": 36
+            }
+          }
+        }
+      },
+      "bombora_summary": {
+        "identifier": {
+          "uuid": "2fc938d9-168b-49f6-8b0f-44babc25dfd2",
+          "value": "N-Imaging",
+          "permalink": "n-imaging",
+          "entity_def_id": "organization"
+        }
+      },
+      "semrush_rank_headline": {},
+      "frequently_asked_questions_latest_funding_round": {
+        "identifier": {
+          "uuid": "2fc938d9-168b-49f6-8b0f-44babc25dfd2",
+          "value": "N-Imaging",
+          "permalink": "n-imaging",
+          "entity_def_id": "organization"
+        },
+        "last_funding_at": "2011-03-08",
+        "last_funding_type": "seed",
+        "num_funding_rounds": 1
+      },
+      "apptopia_app_overview_list_free": [],
+      "contacts": {},
+      "product_launches": [],
+      "alumni_summary": {
+        "identifier": {
+          "uuid": "2fc938d9-168b-49f6-8b0f-44babc25dfd2",
+          "value": "N-Imaging",
+          "permalink": "n-imaging",
+          "entity_def_id": "organization"
+        }
+      },
+      "apptopia_summary": {
+        "identifier": {
+          "uuid": "2fc938d9-168b-49f6-8b0f-44babc25dfd2",
+          "value": "N-Imaging",
+          "permalink": "n-imaging",
+          "entity_def_id": "organization"
+        }
+      },
+      "product_similarity_target_org_list": [],
+      "social_fields": {},
+      "investments_headline": {},
+      "investment_thesis": {
+        "lookup": [],
+        "properties": {
+          "identifier": {
+            "uuid": "2fc938d9-168b-49f6-8b0f-44babc25dfd2",
+            "value": "N-Imaging",
+            "permalink": "n-imaging",
+            "entity_def_id": "organization"
+          }
+        },
+        "data": []
+      },
+      "diversity_spotlight_investments_summary": {
+        "identifier": {
+          "uuid": "2fc938d9-168b-49f6-8b0f-44babc25dfd2",
+          "value": "N-Imaging",
+          "permalink": "n-imaging",
+          "entity_def_id": "organization"
+        }
+      },
+      "contact_fields": {},
+      "growth_prediction": [],
+      "sub_organizations_summary": {
+        "identifier": {
+          "uuid": "2fc938d9-168b-49f6-8b0f-44babc25dfd2",
+          "value": "N-Imaging",
+          "permalink": "n-imaging",
+          "entity_def_id": "organization"
+        }
+      },
+      "overview_description": {
+        "description": "Fabrication of smart nano-devices for image sensing and solar energy harvesting"
+      },
+      "current_employees_featured_order_field": [],
+      "company_about_fields2": {
+        "ipo_status": "private",
+        "last_funding_type": "seed",
+        "location_identifiers": [
+          {
+            "uuid": "5ed0d74b-bd48-9fa1-4a9f-eaa707a9772b",
+            "value": "Thuwal",
+            "permalink": "thuwal-hail",
+            "entity_def_id": "location",
+            "location_type": "city"
+          },
+          {
+            "uuid": "6bdb40fb-f5ea-b9e4-4c5d-a0813e309d12",
+            "value": "Ha'il",
+            "permalink": "hail-saudi-arabia",
+            "entity_def_id": "location",
+            "location_type": "region"
+          },
+          {
+            "uuid": "2c205931-d55b-569b-0fdf-957f2f062bf3",
+            "value": "Saudi Arabia",
+            "permalink": "saudi-arabia",
+            "entity_def_id": "location",
+            "location_type": "country"
+          },
+          {
+            "uuid": "b41404d2-8ecc-caf5-1268-8fdd3afe73ee",
+            "value": "Asia",
+            "permalink": "asia",
+            "entity_def_id": "location",
+            "location_type": "continent"
+          }
+        ],
+        "rank_org_company": 5962774
+      },
+      "sub_organizations_image_list": [],
+      "frequently_asked_questions_headquarters_location": {
+        "identifier": {
+          "uuid": "2fc938d9-168b-49f6-8b0f-44babc25dfd2",
+          "value": "N-Imaging",
+          "permalink": "n-imaging",
+          "entity_def_id": "organization"
+        },
+        "location_identifiers": [
+          {
+            "uuid": "5ed0d74b-bd48-9fa1-4a9f-eaa707a9772b",
+            "value": "Thuwal",
+            "permalink": "thuwal-hail",
+            "entity_def_id": "location",
+            "location_type": "city"
+          },
+          {
+            "uuid": "6bdb40fb-f5ea-b9e4-4c5d-a0813e309d12",
+            "value": "Ha'il",
+            "permalink": "hail-saudi-arabia",
+            "entity_def_id": "location",
+            "location_type": "region"
+          },
+          {
+            "uuid": "2c205931-d55b-569b-0fdf-957f2f062bf3",
+            "value": "Saudi Arabia",
+            "permalink": "saudi-arabia",
+            "entity_def_id": "location",
+            "location_type": "country"
+          },
+          {
+            "uuid": "b41404d2-8ecc-caf5-1268-8fdd3afe73ee",
+            "value": "Asia",
+            "permalink": "asia",
+            "entity_def_id": "location",
+            "location_type": "continent"
+          }
+        ]
+      },
+      "investors_headline": {
+        "num_investors": 1
+      },
+      "ipo_summary": {
+        "identifier": {
+          "uuid": "2fc938d9-168b-49f6-8b0f-44babc25dfd2",
+          "value": "N-Imaging",
+          "permalink": "n-imaging",
+          "entity_def_id": "organization"
+        }
+      },
+      "ipqwery_summary": {
+        "identifier": {
+          "uuid": "2fc938d9-168b-49f6-8b0f-44babc25dfd2",
+          "value": "N-Imaging",
+          "permalink": "n-imaging",
+          "entity_def_id": "organization"
+        }
+      },
+      "awards": [],
+      "siftery_product_list": [],
+      "competitors_list": [],
+      "growth_knowledge": {
+        "lookup": [],
+        "properties": {
+          "identifier": {
+            "uuid": "2fc938d9-168b-49f6-8b0f-44babc25dfd2",
+            "value": "N-Imaging",
+            "permalink": "n-imaging",
+            "entity_def_id": "organization"
+          }
+        },
+        "data": []
+      },
+      "overview_fields_extended": {
+        "location_group_identifiers": [
+          {
+            "uuid": "4e8be435-c63a-4aff-8a2f-44a880d9c341",
+            "value": "Europe, Middle East, and Africa (EMEA)",
+            "permalink": "europe-middle-east-africa-emea",
+            "entity_def_id": "location",
+            "location_type": "group"
+          },
+          {
+            "uuid": "c4365698-c7c5-44b0-b33a-7d13900e5be2",
+            "value": "Gulf Cooperation Council (GCC)",
+            "permalink": "gulf-cooperation-council",
+            "entity_def_id": "location",
+            "location_type": "group"
+          },
+          {
+            "uuid": "e0272206-3430-48cb-a5bc-1d4b3eafe15a",
+            "value": "Middle East",
+            "permalink": "middle-east",
+            "entity_def_id": "location",
+            "location_type": "group"
+          },
+          {
+            "uuid": "8cb7cad4-b7e4-4b28-a496-2ede3720cb19",
+            "value": "Middle East and North Africa (MENA)",
+            "permalink": "middle-east-and-north-africa-mena",
+            "entity_def_id": "location",
+            "location_type": "group"
+          }
+        ],
+        "founder_identifiers": [
+          {
+            "uuid": "7fa53dee-5ff8-4c33-98e3-536a0cff5eb4",
+            "value": "Faycal Saffih",
+            "permalink": "faycal-saffih",
+            "entity_def_id": "person"
+          }
+        ],
+        "operating_status": "closed",
+        "closed_on": {
+          "precision": "none"
+        },
+        "last_funding_type": "seed",
+        "categories": [
+          {
+            "uuid": "0ff04f3a-4264-226a-9c03-a481554b637d",
+            "value": "Energy",
+            "image_id": "a37d3a8ad0f8428d993c84dac3d61375",
+            "permalink": "energy-0ff0",
+            "entity_def_id": "category"
+          }
+        ]
+      },
+      "overview_investor_fields": {},
+      "bombora_attribution": {},
+      "semrush_location_list": [],
+      "investors_list": [
+        {
+          "identifier": {
+            "uuid": "f6d63dfc-4c8f-4aa3-aa1d-42ddb3be28fe",
+            "value": "KAUST Innovation Fund investment in Seed Round - N-Imaging",
+            "permalink": "kaust-innovation-fund-invested-in-n-imaging-seed--93454548--f6d63dfc",
+            "entity_def_id": "investment"
+          },
+          "funding_round_identifier": {
+            "uuid": "93454548-a0bd-43ba-90a5-6c9d1e1a28ef",
+            "value": "Seed Round - N-Imaging",
+            "permalink": "n-imaging-seed--93454548",
+            "entity_def_id": "funding_round"
+          },
+          "investor_identifier": {
+            "uuid": "f33fabc2-d96d-adc7-1fcd-0f997387560e",
+            "value": "KAUST Innovation Fund",
+            "image_id": "xtupqvptdson9hus1vbj",
+            "permalink": "kaust-innovation-fund",
+            "entity_def_id": "organization"
+          }
+        }
+      ],
+      "siftery_summary": {
+        "identifier": {
+          "uuid": "2fc938d9-168b-49f6-8b0f-44babc25dfd2",
+          "value": "N-Imaging",
+          "permalink": "n-imaging",
+          "entity_def_id": "organization"
+        }
+      },
+      "acquired_by_summary": {
+        "identifier": {
+          "uuid": "2fc938d9-168b-49f6-8b0f-44babc25dfd2",
+          "value": "N-Imaging",
+          "permalink": "n-imaging",
+          "entity_def_id": "organization"
+        }
+      },
+      "ipo_fields": {},
+      "apptopia_app_overview_list_public": [],
+      "apptopia_sdk_list": [],
+      "trading_view": {},
+      "current_employees_image_list": [],
+      "frequently_asked_questions_investors": {
+        "identifier": {
+          "uuid": "2fc938d9-168b-49f6-8b0f-44babc25dfd2",
+          "value": "N-Imaging",
+          "permalink": "n-imaging",
+          "entity_def_id": "organization"
+        },
+        "num_investors": 1
+      },
+      "funding_rounds_list": [
+        {
+          "identifier": {
+            "uuid": "93454548-a0bd-43ba-90a5-6c9d1e1a28ef",
+            "value": "Seed Round - N-Imaging",
+            "permalink": "n-imaging-seed--93454548",
+            "entity_def_id": "funding_round"
+          },
+          "announced_on": "2011-03-08",
+          "money_raised": {
+            "value": 294640,
+            "currency": "USD",
+            "value_usd": 294640
+          },
+          "num_investors": 1,
+          "investment_type": "seed"
+        }
+      ],
+      "technology_highlights": {},
+      "funding_rounds_headline": {
+        "funding_total": {
+          "value": 294640,
+          "currency": "USD",
+          "value_usd": 294640
+        },
+        "num_funding_rounds": 1
+      },
+      "investments_list": [],
+      "exits_image_list": [],
+      "funds_headline": {},
+      "people_highlights": {},
+      "semrush_attribution": {},
+      "frequently_asked_questions_similar_companies": {
+        "identifier": {
+          "uuid": "2fc938d9-168b-49f6-8b0f-44babc25dfd2",
+          "value": "N-Imaging",
+          "permalink": "n-imaging",
+          "entity_def_id": "organization"
+        }
+      },
+      "semrush_overview": {},
+      "org_category_ranks": {
+        "category_ranks": {
+          "0ff04f3a-4264-226a-9c03-a481554b637d": {
+            "rank": 96364,
+            "count": 98173,
+            "pv_rank": 96372
+          }
+        }
+      },
+      "current_valuation": [],
+      "legal_proceedings": [],
+      "current_employees_summary": {
+        "identifier": {
+          "uuid": "2fc938d9-168b-49f6-8b0f-44babc25dfd2",
+          "value": "N-Imaging",
+          "permalink": "n-imaging",
+          "entity_def_id": "organization"
+        }
+      },
+      "aberdeen_summary": {
+        "identifier": {
+          "uuid": "2fc938d9-168b-49f6-8b0f-44babc25dfd2",
+          "value": "N-Imaging",
+          "permalink": "n-imaging",
+          "entity_def_id": "organization"
+        }
+      },
+      "offices": [],
+      "overview_timeline": {
+        "count": 1,
+        "entities": [
+          {
+            "uuid": "93454548-a0bd-43ba-90a5-6c9d1e1a28ef",
+            "properties": {
+              "identifier": {
+                "uuid": "93454548-a0bd-43ba-90a5-6c9d1e1a28ef",
+                "value": "Seed Round - N-Imaging",
+                "permalink": "n-imaging-seed--93454548",
+                "entity_def_id": "funding_round"
+              },
+              "entity_def_id": "funding_round",
+              "activity_entities": [
+                {
+                  "role": "investor",
+                  "uuid": "f33fabc2-d96d-adc7-1fcd-0f997387560e",
+                  "value": "KAUST Innovation Fund",
+                  "image_id": "xtupqvptdson9hus1vbj",
+                  "permalink": "kaust-innovation-fund",
+                  "entity_def_id": "organization"
+                },
+                {
+                  "role": "investee",
+                  "uuid": "2fc938d9-168b-49f6-8b0f-44babc25dfd2",
+                  "value": "N-Imaging",
+                  "permalink": "n-imaging",
+                  "entity_def_id": "organization"
+                }
+              ],
+              "activity_properties": {
+                "money_raised": {
+                  "value": 294640,
+                  "currency": "USD",
+                  "value_usd": 294640
+                },
+                "investment_type": "seed"
+              },
+              "activity_date": "2011-03-08"
+            }
+          }
+        ]
+      },
+      "company_financials_highlights": {
+        "funding_total": {
+          "value": 294640,
+          "currency": "USD",
+          "value_usd": 294640
+        },
+        "num_funding_rounds": 1,
+        "num_investors": 1
+      },
+      "overview_company_fields": {
+        "company_type": "for_profit"
+      },
+      "private_tags_pill_list": [],
+      "acquisitions_headline": {},
+      "builtwith_summary": {
+        "identifier": {
+          "uuid": "2fc938d9-168b-49f6-8b0f-44babc25dfd2",
+          "value": "N-Imaging",
+          "permalink": "n-imaging",
+          "entity_def_id": "organization"
+        }
+      },
+      "about_short_description": {
+        "short_description": "Fabrication of smart nano-devices for image sensing and solar energy harvesting"
+      },
+      "product": [],
+      "apptopia_app_headline": {}
+    }
+  }
+}

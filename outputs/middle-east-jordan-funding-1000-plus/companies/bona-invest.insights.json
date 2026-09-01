@@ -1,0 +1,220 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T11:02:38.916Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T11:02:38.914Z",
+    "url": "https://www.crunchbase.com/organization/bona-invest"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Bona Invest",
+      "shortDescription": "Neo-Brokerage for GenZs across Africa",
+      "description": "Bona is the 1st of its kind neo brokerage & wealth management startup offering a one stop investment shop for digital millennials and Gen`Z from Africa through intuitive mobile and web applications. Our mission is to empower our users to exponentially grow their wealth by simplifying and democratizing access to global investment opportunities.",
+      "website": "https://bonainvest.io/",
+      "foundedYear": 2021,
+      "operatingStatus": "Closed",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "1-10",
+      "headquarters": "Cairo, Al Qahirah, Egypt",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Middle East",
+        "Middle East and North Africa (MENA)",
+        "North Africa"
+      ],
+      "industries": [
+        "FinTech",
+        "Stock Exchanges",
+        "Wealth Management"
+      ],
+      "sectors": [
+        "Financial Services",
+        "Lending and Investments"
+      ],
+      "founders": [
+        "Hossam Hamdy"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "A digital brokerage platform designed for GenZ users across Africa to invest in financial markets.",
+        "name": "Neo-Brokerage Platform"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 100000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2021-03-01",
+      "lastFundingType": "Angel",
+      "rounds": [
+        {
+          "announcedDate": "2021-03-01",
+          "amount": {
+            "amount": 100000,
+            "currency": "USD"
+          },
+          "type": "Angel"
+        }
+      ]
+    },
+    "recentNews": {
+      "reportedCount": 2,
+      "includedUniqueCount": 2,
+      "items": [
+        {
+          "date": "2024-02-18",
+          "publisher": "Business Wire",
+          "title": "Bona Announces Acquisition of Australian Distributor, Ezi Floor Products (EFP)",
+          "url": "https://www.businesswire.com/news/home/20240218742975/en/Bona-Announces-Acquisition-of-Australian-Distributor-Ezi-Floor-Products-EFP"
+        },
+        {
+          "date": "2021-03-01",
+          "title": "Angel Round - Bona Invest"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 100000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthInsightGeneratedDate": "2024-07-25",
+      "heatChange90Days": -5,
+      "heatScore": 51,
+      "status": "Growing"
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2025-05-07",
+        "probabilityPercent": 1.5
+      },
+      "funding": {
+        "generatedDate": "2025-11-15",
+        "probabilityPercent": 22.87,
+        "timingEstimatePercent": {
+          "within6Months": 14.37,
+          "months6To11": 12.3,
+          "months12To24": 19.56,
+          "beyond24Months": 24.86
+        }
+      },
+      "growth": {
+        "generatedDate": "2025-11-15",
+        "probabilityPercent": 71.33
+      },
+      "ipo": {
+        "generatedDate": "2025-05-07",
+        "probabilityPercent": 64.82
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Bamboo is a regulated digital investment platform helping Africans & diaspora invest in US Stocks, Nigerian Stocks,Savings, T-Bills and more",
+          "employeeRange": "101-250",
+          "name": "Bamboo",
+          "sharedCategories": [
+            "Stock Exchanges",
+            "Wealth Management",
+            "FinTech"
+          ],
+          "similarityScore": 97
+        },
+        {
+          "description": "Cowrywise is a fintech company that simplifies access to elite financial services by making them affordable to the mass market.",
+          "employeeRange": "51-100",
+          "name": "Cowrywise",
+          "sharedCategories": [
+            "Wealth Management",
+            "FinTech"
+          ],
+          "similarityScore": 91
+        },
+        {
+          "description": "Chaka is an Investment Passport for Africans and African businesses to trade global capital markets.",
+          "employeeRange": "11-50",
+          "name": "Chaka Technologies",
+          "sharedCategories": [
+            "Stock Exchanges",
+            "FinTech"
+          ],
+          "similarityScore": 90
+        },
+        {
+          "description": "Rise Vest Technologies is a technology-driven finance company connecting everyday dollar-denominated investment opportunities.",
+          "employeeRange": "11-50",
+          "name": "Rise Vest Technologies",
+          "sharedCategories": [
+            "Wealth Management"
+          ],
+          "similarityScore": 84
+        },
+        {
+          "description": "Flutterwave is a fintech company that offers payment infrastructure to global merchants and payment service providers.",
+          "employeeRange": "251-500",
+          "name": "Flutterwave",
+          "sharedCategories": [
+            "FinTech"
+          ],
+          "similarityScore": 83
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Angel round raised $100,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Bamboo, Cowrywise, Chaka Technologies.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

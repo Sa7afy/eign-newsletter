@@ -1,0 +1,3585 @@
+{
+  "sourceUrl": "https://www.crunchbase.com/organization/malakah",
+  "pageTitle": "malakah",
+  "scrapedAt": "2026-09-01T12:25:51.836Z",
+  "extraction": {
+    "authenticated": true,
+    "method": "curl-cffi-authenticated-entity-fetch-no-browser"
+  },
+  "organization": {
+    "properties": {
+      "facet_ids": [
+        "ai_insight",
+        "builtwith",
+        "company",
+        "rank",
+        "semrush"
+      ],
+      "identifier": {
+        "uuid": "e016599e-2332-43e7-a860-5a341a96faa7",
+        "value": "Malakah",
+        "image_id": "a93b1f6ccdf9435bb81090a8da1833b6",
+        "permalink": "malakah",
+        "entity_def_id": "organization"
+      },
+      "category_groups": [
+        {
+          "uuid": "abe5fae0-90ed-1f76-2bfa-dc5ee53af3b5",
+          "value": "Professional Services",
+          "permalink": "professional-services-abe5",
+          "entity_def_id": "category_group"
+        }
+      ],
+      "short_description": "Malakah is a legal AI hub for legal guidance and contract automation.",
+      "rank_delta_d90": 0.6,
+      "title": "Malakah"
+    },
+    "cards": {
+      "semrush_summary": {
+        "identifier": {
+          "uuid": "e016599e-2332-43e7-a860-5a341a96faa7",
+          "value": "Malakah",
+          "image_id": "a93b1f6ccdf9435bb81090a8da1833b6",
+          "permalink": "malakah",
+          "entity_def_id": "organization"
+        },
+        "semrush_global_rank": 16159769,
+        "semrush_visits_latest_month": 204
+      },
+      "key_employee_change_list": [],
+      "apptopia_attribution": {},
+      "diversity_spotlight_investments_headline": {},
+      "apptopia_app_rating_list": [],
+      "funds_summary": {
+        "identifier": {
+          "uuid": "e016599e-2332-43e7-a860-5a341a96faa7",
+          "value": "Malakah",
+          "image_id": "a93b1f6ccdf9435bb81090a8da1833b6",
+          "permalink": "malakah",
+          "entity_def_id": "organization"
+        }
+      },
+      "funding_prediction": [],
+      "company_about_fields1": {},
+      "current_advisors_image_list": [],
+      "recommended_search": [
+        {
+          "identifier": {
+            "permalink": "middle-east-seed-stage-companies-fewer-than-50-employees",
+            "image_id": "c78a9c91104e4167b0f1efe770815f21",
+            "uuid": "7b13f747-005a-4136-9c2f-19f64be9ce37",
+            "entity_def_id": "hub",
+            "value": "Middle East Seed Stage Companies With Fewer Than 50 Employees"
+          },
+          "org_identifiers": [
+            {
+              "permalink": "corma-2a34",
+              "image_id": "c78a9c91104e4167b0f1efe770815f21",
+              "uuid": "13f2e7d6-19bf-49e6-99cc-ef9403a22a34",
+              "entity_def_id": "organization",
+              "value": "Corma"
+            },
+            {
+              "permalink": "aila-a6e1",
+              "image_id": "710c1bdcc944473395943d44b58eb7bb",
+              "uuid": "55e3c4b4-7408-4306-99e4-bb3c02d0a6e1",
+              "entity_def_id": "organization",
+              "value": "AILA"
+            },
+            {
+              "permalink": "fincart-8c0d",
+              "image_id": "2157db3af2424b619df39903e68869da",
+              "uuid": "38128808-f1be-480b-813a-77fb6ea68c0d",
+              "entity_def_id": "organization",
+              "value": "Fincart"
+            },
+            {
+              "permalink": "bundle-a717",
+              "image_id": "6293c7748c3f4511a67e43a92ab715c9",
+              "uuid": "60cab2d6-6198-4f84-8507-2fe77f15a717",
+              "entity_def_id": "organization",
+              "value": "Bundle"
+            },
+            {
+              "permalink": "lahint-company",
+              "image_id": "qw2tz7m5kpopjgoesyqz",
+              "uuid": "cd27ae34-fb6d-4ba5-9df6-c9de8bd9c042",
+              "entity_def_id": "organization",
+              "value": "Lahint Company"
+            },
+            {
+              "permalink": "cobi-26b2",
+              "image_id": "890be9e9bada44279dbb64787f785c96",
+              "uuid": "ad5d5626-e78d-46c3-a45f-3d487fdb26b2",
+              "entity_def_id": "organization",
+              "value": "Cobi"
+            },
+            {
+              "permalink": "naran-49c5",
+              "image_id": "05cba89d79f54f878d5023aac5198e4f",
+              "uuid": "fc040bd9-9a74-4ff2-b942-bc3ab73c49c5",
+              "entity_def_id": "organization",
+              "value": "Naran"
+            },
+            {
+              "permalink": "perceptron-network",
+              "image_id": "7046a1a5e79f4079b94932c67efa6b6d",
+              "uuid": "1630f854-df7d-4c80-af61-55215880f6cd",
+              "entity_def_id": "organization",
+              "value": "Perceptron Network"
+            }
+          ],
+          "org_funding_total": {
+            "currency": "USD",
+            "value": 7320641989,
+            "value_usd": 7320641989
+          },
+          "org_num_investors": 10662,
+          "org_num": 5255,
+          "queries": {
+            "event": [
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "e0272206-3430-48cb-a5bc-1d4b3eafe15a"
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "principal.has_event.forward",
+                "query": [
+                  {
+                    "field_id": "facet_ids",
+                    "operator_id": "includes",
+                    "values": [
+                      "company"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "num_employees_enum",
+                    "operator_id": "includes",
+                    "values": [
+                      "c_00001_00010",
+                      "c_00011_00050"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "funding_stage",
+                    "operator_id": "eq",
+                    "values": [
+                      "seed"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "active"
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ],
+            "organization": [
+              {
+                "field_id": "facet_ids",
+                "operator_id": "includes",
+                "values": [
+                  "company"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "e0272206-3430-48cb-a5bc-1d4b3eafe15a"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "num_employees_enum",
+                "operator_id": "includes",
+                "values": [
+                  "c_00001_00010",
+                  "c_00011_00050"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "funding_stage",
+                "operator_id": "eq",
+                "values": [
+                  "seed"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "operating_status",
+                "operator_id": "eq",
+                "values": [
+                  "active"
+                ],
+                "type": "predicate"
+              }
+            ],
+            "person": [
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "e0272206-3430-48cb-a5bc-1d4b3eafe15a"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "rank_person",
+                "operator_id": "lte",
+                "values": [
+                  390000
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "organization.has_primary_organization.forward",
+                "query": [
+                  {
+                    "field_id": "facet_ids",
+                    "operator_id": "includes",
+                    "values": [
+                      "company"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "location_identifiers",
+                    "operator_id": "includes",
+                    "values": [
+                      "e0272206-3430-48cb-a5bc-1d4b3eafe15a"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "num_employees_enum",
+                    "operator_id": "includes",
+                    "values": [
+                      "c_00001_00010",
+                      "c_00011_00050"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "funding_stage",
+                    "operator_id": "eq",
+                    "values": [
+                      "seed"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "active"
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ]
+          }
+        },
+        {
+          "identifier": {
+            "permalink": "gulf-cooperation-council-legal-companies",
+            "image_id": "e58ec6c4909a41be8c56c70f51b0d7e5",
+            "uuid": "781a525d-d7b7-4c62-a1d0-e0d2bcb65487",
+            "entity_def_id": "hub",
+            "value": "Gulf Cooperation Council (GCC) Legal Companies"
+          },
+          "org_identifiers": [
+            {
+              "permalink": "qanooni",
+              "image_id": "e58ec6c4909a41be8c56c70f51b0d7e5",
+              "uuid": "eee5aa55-bb90-4ae2-aaf7-a354730ff0df",
+              "entity_def_id": "organization",
+              "value": "Qanooni"
+            },
+            {
+              "permalink": "dillx",
+              "image_id": "rygyodrf42ci2pomodvg",
+              "uuid": "c666717c-5a8e-40ec-8ce8-a43e47793ef5",
+              "entity_def_id": "organization",
+              "value": "DillX"
+            },
+            {
+              "permalink": "malakah",
+              "image_id": "a93b1f6ccdf9435bb81090a8da1833b6",
+              "uuid": "e016599e-2332-43e7-a860-5a341a96faa7",
+              "entity_def_id": "organization",
+              "value": "Malakah"
+            },
+            {
+              "permalink": "pisiq",
+              "image_id": "1da5aee5ad1a41918a2e39d2d39415fc",
+              "uuid": "2b86f174-7d61-477f-84f2-0d5f454dd8b6",
+              "entity_def_id": "organization",
+              "value": "PISIQ"
+            },
+            {
+              "permalink": "prowebmatrix",
+              "image_id": "792235d513da49b1914281634b61a776",
+              "uuid": "3c2a1032-9a57-4e1a-a362-194f1bec2277",
+              "entity_def_id": "organization",
+              "value": "Prowebmatrix"
+            },
+            {
+              "permalink": "naseh",
+              "image_id": "0ee43a028e5147dba60fcbd22d4132b8",
+              "uuid": "4940a871-650e-433d-8106-7d56a2ef1ac2",
+              "entity_def_id": "organization",
+              "value": "Naseh"
+            },
+            {
+              "permalink": "avendi-bde4",
+              "image_id": "5278db4ad55a479f8c8413afdba41807",
+              "uuid": "070df6ed-8ef0-4231-8a39-e8530ddfbde4",
+              "entity_def_id": "organization",
+              "value": "Avendi"
+            },
+            {
+              "permalink": "crescent-enterprises",
+              "image_id": "quklibwn8oejg9poigke",
+              "uuid": "640af266-3555-4f2e-b02f-4599dc21808b",
+              "entity_def_id": "organization",
+              "value": "Crescent Enterprises"
+            }
+          ],
+          "org_funding_total": {
+            "currency": "USD",
+            "value": 3505343,
+            "value_usd": 3505343
+          },
+          "org_num_investors": 25,
+          "org_num": 968,
+          "queries": {
+            "event": [
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "c4365698-c7c5-44b0-b33a-7d13900e5be2"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "categories",
+                "operator_id": "includes",
+                "values": [
+                  "b1234a83-0ad1-c131-b788-81f8eb48c35e"
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "principal.has_event.forward",
+                "query": [
+                  {
+                    "field_id": "facet_ids",
+                    "operator_id": "includes",
+                    "values": [
+                      "company"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "active"
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ],
+            "organization": [
+              {
+                "field_id": "facet_ids",
+                "operator_id": "includes",
+                "values": [
+                  "company"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "c4365698-c7c5-44b0-b33a-7d13900e5be2"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "categories",
+                "operator_id": "includes",
+                "values": [
+                  "b1234a83-0ad1-c131-b788-81f8eb48c35e"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "operating_status",
+                "operator_id": "eq",
+                "values": [
+                  "active"
+                ],
+                "type": "predicate"
+              }
+            ],
+            "person": [
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "c4365698-c7c5-44b0-b33a-7d13900e5be2"
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "organization.has_primary_organization.forward",
+                "query": [
+                  {
+                    "field_id": "facet_ids",
+                    "operator_id": "includes",
+                    "values": [
+                      "company"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "location_identifiers",
+                    "operator_id": "includes",
+                    "values": [
+                      "c4365698-c7c5-44b0-b33a-7d13900e5be2"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "categories",
+                    "operator_id": "includes",
+                    "values": [
+                      "b1234a83-0ad1-c131-b788-81f8eb48c35e"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "active"
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ]
+          }
+        },
+        {
+          "identifier": {
+            "permalink": "riyadh-seed-stage-companies",
+            "image_id": "710c1bdcc944473395943d44b58eb7bb",
+            "uuid": "77622526-362f-4949-bfa3-10f5e57615d7",
+            "entity_def_id": "hub",
+            "value": "Riyadh Seed Stage Companies"
+          },
+          "org_identifiers": [
+            {
+              "permalink": "aila-a6e1",
+              "image_id": "710c1bdcc944473395943d44b58eb7bb",
+              "uuid": "55e3c4b4-7408-4306-99e4-bb3c02d0a6e1",
+              "entity_def_id": "organization",
+              "value": "AILA"
+            },
+            {
+              "permalink": "think-ai-18b7",
+              "image_id": "aa39398804ce425799a2361dd0525803",
+              "uuid": "19d00bd7-62a8-42e1-91bb-72dbad4518b7",
+              "entity_def_id": "organization",
+              "value": "Think AI"
+            },
+            {
+              "permalink": "raff",
+              "image_id": "944c69427be7429d853757a3a1c97429",
+              "uuid": "03a29cfe-cd21-44f8-8200-25d71c9b4bc4",
+              "entity_def_id": "organization",
+              "value": "Raff"
+            },
+            {
+              "permalink": "fitting",
+              "image_id": "a8a8904e243b4a68bf80311c8e55c0bf",
+              "uuid": "92cda9fb-b789-4950-8450-b6a4b8627961",
+              "entity_def_id": "organization",
+              "value": "Fitting"
+            },
+            {
+              "permalink": "ash-games-studio",
+              "image_id": "ebdc21ff9c7245fcb03e31d57206af7c",
+              "uuid": "517a3355-8127-44e4-9fe2-10fe9891c4e7",
+              "entity_def_id": "organization",
+              "value": "Ash Games Studio"
+            },
+            {
+              "permalink": "tabsense",
+              "image_id": "adsdcreyv8ip4yxy8m3s",
+              "uuid": "4e22c04b-0abc-4294-bb27-034836d1f6b5",
+              "entity_def_id": "organization",
+              "value": "TABsense"
+            },
+            {
+              "permalink": "rime-da9e",
+              "image_id": "748bdb92172b45bfae7e58c8b4e0a596",
+              "uuid": "b6aa38a8-a3ba-499d-9b48-937089a5da9e",
+              "entity_def_id": "organization",
+              "value": "RIME"
+            },
+            {
+              "permalink": "spare",
+              "image_id": "nrwbftqkzixayu6g8yks",
+              "uuid": "7a49ef1d-6ae6-4f42-b137-bcd68595e961",
+              "entity_def_id": "organization",
+              "value": "Spare"
+            }
+          ],
+          "org_funding_total": {
+            "currency": "USD",
+            "value": 622202978,
+            "value_usd": 622202978
+          },
+          "org_num_investors": 779,
+          "org_num": 443,
+          "queries": {
+            "event": [
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "54e9bc1a-c83b-6231-7fd6-36b8db81ff4c"
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "principal.has_event.forward",
+                "query": [
+                  {
+                    "field_id": "facet_ids",
+                    "operator_id": "includes",
+                    "values": [
+                      "company"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "funding_stage",
+                    "operator_id": "eq",
+                    "values": [
+                      "seed"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "active"
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ],
+            "organization": [
+              {
+                "field_id": "facet_ids",
+                "operator_id": "includes",
+                "values": [
+                  "company"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "54e9bc1a-c83b-6231-7fd6-36b8db81ff4c"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "funding_stage",
+                "operator_id": "eq",
+                "values": [
+                  "seed"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "operating_status",
+                "operator_id": "eq",
+                "values": [
+                  "active"
+                ],
+                "type": "predicate"
+              }
+            ],
+            "person": [
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "54e9bc1a-c83b-6231-7fd6-36b8db81ff4c"
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "organization.has_primary_organization.forward",
+                "query": [
+                  {
+                    "field_id": "facet_ids",
+                    "operator_id": "includes",
+                    "values": [
+                      "company"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "location_identifiers",
+                    "operator_id": "includes",
+                    "values": [
+                      "54e9bc1a-c83b-6231-7fd6-36b8db81ff4c"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "funding_stage",
+                    "operator_id": "eq",
+                    "values": [
+                      "seed"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "active"
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ]
+          }
+        },
+        {
+          "identifier": {
+            "permalink": "middle-east-companies-fewer-than-50-employees",
+            "image_id": "hrzg28gqupnfqskstkis",
+            "uuid": "7741ebeb-3f92-495f-805e-96070f586f96",
+            "entity_def_id": "hub",
+            "value": "Middle East Companies With Fewer Than 50 Employees (Top 10K)"
+          },
+          "org_identifiers": [
+            {
+              "permalink": "remepy-healthcare",
+              "image_id": "hrzg28gqupnfqskstkis",
+              "uuid": "b4f69efc-f8c1-4584-820d-d75632eb8b22",
+              "entity_def_id": "organization",
+              "value": "Remepy"
+            },
+            {
+              "permalink": "above-security-6928",
+              "image_id": "cbc83c286261480aa8f922418260f0fa",
+              "uuid": "8824d7f0-3f8f-4516-beea-7ef6b3836928",
+              "entity_def_id": "organization",
+              "value": "Above Security"
+            },
+            {
+              "permalink": "hush-security",
+              "image_id": "2e33696f80c345a48582a428f6144bef",
+              "uuid": "470a1eac-b652-4fbf-970a-01638b9d4f2b",
+              "entity_def_id": "organization",
+              "value": "Hush Security"
+            },
+            {
+              "permalink": "a1r-water",
+              "image_id": "1e483de797a14b9fb5fdf94635ca739c",
+              "uuid": "ce65cd3e-1f1a-41c6-a966-87f53b1d8789",
+              "entity_def_id": "organization",
+              "value": "A1R WATER"
+            },
+            {
+              "permalink": "corma-2a34",
+              "image_id": "c78a9c91104e4167b0f1efe770815f21",
+              "uuid": "13f2e7d6-19bf-49e6-99cc-ef9403a22a34",
+              "entity_def_id": "organization",
+              "value": "Corma"
+            },
+            {
+              "permalink": "noma-94e0",
+              "image_id": "fb698ab341224e6c9270a5279ccc398e",
+              "uuid": "d9c814e2-fff0-44ce-8846-66df480a94e0",
+              "entity_def_id": "organization",
+              "value": "Noma Security"
+            },
+            {
+              "permalink": "aila-a6e1",
+              "image_id": "710c1bdcc944473395943d44b58eb7bb",
+              "uuid": "55e3c4b4-7408-4306-99e4-bb3c02d0a6e1",
+              "entity_def_id": "organization",
+              "value": "AILA"
+            },
+            {
+              "permalink": "irregular",
+              "image_id": "fa0f0fa9c6dd462da716bf2c3277b600",
+              "uuid": "4c6fe4a3-4ee6-4f05-8a49-06ac8b7aaf6f",
+              "entity_def_id": "organization",
+              "value": "Irregular"
+            }
+          ],
+          "org_funding_total": {
+            "currency": "USD",
+            "value": 60361845740,
+            "value_usd": 60361845740
+          },
+          "org_num_investors": 16672,
+          "org_num": 9839,
+          "queries": {
+            "event": [
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "e0272206-3430-48cb-a5bc-1d4b3eafe15a"
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "principal.has_event.forward",
+                "query": [
+                  {
+                    "field_id": "facet_ids",
+                    "operator_id": "includes",
+                    "values": [
+                      "company"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "num_employees_enum",
+                    "operator_id": "includes",
+                    "values": [
+                      "c_00001_00010",
+                      "c_00011_00050"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "active"
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ],
+            "organization": [
+              {
+                "field_id": "facet_ids",
+                "operator_id": "includes",
+                "values": [
+                  "company"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "e0272206-3430-48cb-a5bc-1d4b3eafe15a"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "num_employees_enum",
+                "operator_id": "includes",
+                "values": [
+                  "c_00001_00010",
+                  "c_00011_00050"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "operating_status",
+                "operator_id": "eq",
+                "values": [
+                  "active"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "rank_org",
+                "operator_id": "lte",
+                "values": [
+                  530000
+                ],
+                "type": "predicate"
+              }
+            ],
+            "person": [
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "e0272206-3430-48cb-a5bc-1d4b3eafe15a"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "rank_person",
+                "operator_id": "lte",
+                "values": [
+                  130000
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "organization.has_primary_organization.forward",
+                "query": [
+                  {
+                    "field_id": "facet_ids",
+                    "operator_id": "includes",
+                    "values": [
+                      "company"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "location_identifiers",
+                    "operator_id": "includes",
+                    "values": [
+                      "e0272206-3430-48cb-a5bc-1d4b3eafe15a"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "num_employees_enum",
+                    "operator_id": "includes",
+                    "values": [
+                      "c_00001_00010",
+                      "c_00011_00050"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "active"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "rank_org",
+                    "operator_id": "lte",
+                    "values": [
+                      530000
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ]
+          }
+        }
+      ],
+      "org_similarity_org_list": [],
+      "investors_summary": {
+        "identifier": {
+          "uuid": "e016599e-2332-43e7-a860-5a341a96faa7",
+          "value": "Malakah",
+          "image_id": "a93b1f6ccdf9435bb81090a8da1833b6",
+          "permalink": "malakah",
+          "entity_def_id": "organization"
+        }
+      },
+      "funds_list": [],
+      "alumni_image_list": [],
+      "semrush_overview_headline": {
+        "semrush_global_rank": 16159769,
+        "semrush_global_rank_mom_pct": -0.674194915798347
+      },
+      "frequently_asked_questions_total_funding": {
+        "funding_total": {
+          "value": 600000,
+          "currency": "USD",
+          "value_usd": 600000
+        },
+        "identifier": {
+          "uuid": "e016599e-2332-43e7-a860-5a341a96faa7",
+          "value": "Malakah",
+          "image_id": "a93b1f6ccdf9435bb81090a8da1833b6",
+          "permalink": "malakah",
+          "entity_def_id": "organization"
+        }
+      },
+      "exits_summary": {
+        "identifier": {
+          "uuid": "e016599e-2332-43e7-a860-5a341a96faa7",
+          "value": "Malakah",
+          "image_id": "a93b1f6ccdf9435bb81090a8da1833b6",
+          "permalink": "malakah",
+          "entity_def_id": "organization"
+        }
+      },
+      "partnership_announcements": [],
+      "bombora_surge_list": [],
+      "diversity_spotlight_investments_list": [],
+      "builtwith_tech_used_list": [
+        {
+          "identifier": {
+            "uuid": "406526b5-ad50-41bc-8a08-e53842442565",
+            "value": "nginx",
+            "entity_def_id": "builtwith_technology"
+          },
+          "technology_category": [
+            "web_server"
+          ],
+          "num_companies_using": 759325
+        },
+        {
+          "identifier": {
+            "uuid": "73d010c3-fec5-42f9-811f-0f3233f3d568",
+            "value": "Common Crawl",
+            "entity_def_id": "builtwith_technology"
+          },
+          "technology_category": [
+            "widgets"
+          ],
+          "num_companies_using": 655673
+        },
+        {
+          "identifier": {
+            "uuid": "164f3623-277f-4e1b-b752-8ebfa483fcf5",
+            "value": "Google Cloud",
+            "entity_def_id": "builtwith_technology"
+          },
+          "technology_category": [
+            "hosting"
+          ],
+          "num_companies_using": 441360
+        },
+        {
+          "identifier": {
+            "uuid": "8404e0a2-3592-4a79-aa04-908ed2b1a265",
+            "value": "Google",
+            "entity_def_id": "builtwith_technology"
+          },
+          "technology_category": [
+            "hosting"
+          ],
+          "num_companies_using": 402610
+        },
+        {
+          "identifier": {
+            "uuid": "719cb498-5c7b-44ef-ab42-f58ca70c413c",
+            "value": "OpenResty",
+            "entity_def_id": "builtwith_technology"
+          },
+          "technology_category": [
+            "framework"
+          ],
+          "num_companies_using": 311256
+        },
+        {
+          "identifier": {
+            "uuid": "922ab109-f17f-4170-a395-fadd9ef75487",
+            "value": "GoDaddy CDN",
+            "entity_def_id": "builtwith_technology"
+          },
+          "technology_category": [
+            "cdn"
+          ],
+          "num_companies_using": 205755
+        },
+        {
+          "identifier": {
+            "uuid": "c6e4c403-7ce0-4b87-bbda-545fff56e070",
+            "value": "Google Cloud Global Multi-Region",
+            "entity_def_id": "builtwith_technology"
+          },
+          "technology_category": [
+            "hosting"
+          ],
+          "num_companies_using": 181700
+        },
+        {
+          "identifier": {
+            "uuid": "773eed3e-c20d-4d1a-936c-1023de4b9404",
+            "value": "GoDaddy SSL",
+            "entity_def_id": "builtwith_technology"
+          },
+          "technology_category": [
+            "ssl"
+          ],
+          "num_companies_using": 161461
+        },
+        {
+          "identifier": {
+            "uuid": "ed46fea7-dffa-465d-bdfc-2e6c48443fee",
+            "value": "AdBlock Acceptable Ads",
+            "entity_def_id": "builtwith_technology"
+          },
+          "technology_category": [
+            "ads"
+          ],
+          "num_companies_using": 143048
+        },
+        {
+          "identifier": {
+            "uuid": "71db0bef-add4-4a44-874d-b5e2e742a967",
+            "value": "Google Adsense",
+            "entity_def_id": "builtwith_technology"
+          },
+          "technology_category": [
+            "ads"
+          ],
+          "num_companies_using": 124319
+        }
+      ],
+      "funding_rounds_summary": {
+        "identifier": {
+          "uuid": "e016599e-2332-43e7-a860-5a341a96faa7",
+          "value": "Malakah",
+          "image_id": "a93b1f6ccdf9435bb81090a8da1833b6",
+          "permalink": "malakah",
+          "entity_def_id": "organization"
+        },
+        "last_funding_type": "pre_seed",
+        "last_funding_at": "2025-02-15",
+        "funding_total": {
+          "value": 600000,
+          "currency": "USD",
+          "value_usd": 600000
+        },
+        "num_funding_rounds": 1
+      },
+      "org_similarity_list": [],
+      "ipo_prediction": [],
+      "acquisitions_summary": {
+        "identifier": {
+          "uuid": "e016599e-2332-43e7-a860-5a341a96faa7",
+          "value": "Malakah",
+          "image_id": "a93b1f6ccdf9435bb81090a8da1833b6",
+          "permalink": "malakah",
+          "entity_def_id": "organization"
+        }
+      },
+      "advisors_summary": {
+        "identifier": {
+          "uuid": "e016599e-2332-43e7-a860-5a341a96faa7",
+          "value": "Malakah",
+          "image_id": "a93b1f6ccdf9435bb81090a8da1833b6",
+          "permalink": "malakah",
+          "entity_def_id": "organization"
+        }
+      },
+      "acquisitions_list": [],
+      "exits_headline": {},
+      "investments_summary": {
+        "identifier": {
+          "uuid": "e016599e-2332-43e7-a860-5a341a96faa7",
+          "value": "Malakah",
+          "image_id": "a93b1f6ccdf9435bb81090a8da1833b6",
+          "permalink": "malakah",
+          "entity_def_id": "organization"
+        }
+      },
+      "acquired_by_fields": {},
+      "research_insight_text_link": {},
+      "acquisition_prediction": [],
+      "sub_organizations_headline": {},
+      "layoff_list": [],
+      "growth_and_heat": {
+        "heat_score_history": {
+          "periods": {
+            "i1": {
+              "values": [
+                65,
+                66,
+                66,
+                66,
+                59,
+                60,
+                60,
+                60,
+                60,
+                61,
+                61,
+                61,
+                62,
+                62,
+                62,
+                62,
+                63,
+                62,
+                62,
+                62,
+                62,
+                63,
+                63,
+                63,
+                63,
+                64,
+                52,
+                52,
+                52,
+                52,
+                53,
+                53,
+                53,
+                53,
+                53,
+                53,
+                53,
+                53,
+                54,
+                54,
+                54,
+                54,
+                54,
+                54,
+                54,
+                54,
+                55,
+                54,
+                54,
+                54,
+                54,
+                54,
+                54,
+                55,
+                55,
+                55,
+                55,
+                56,
+                56,
+                57,
+                57,
+                58,
+                57,
+                58,
+                58,
+                59,
+                59,
+                60,
+                60,
+                61,
+                61,
+                62,
+                62,
+                62,
+                63,
+                63,
+                64,
+                64,
+                64,
+                65,
+                65,
+                65,
+                66,
+                66,
+                66,
+                67,
+                67,
+                67,
+                68,
+                68
+              ],
+              "interval": 1
+            },
+            "i2": {
+              "values": [
+                65,
+                66,
+                60,
+                60,
+                61,
+                61,
+                62,
+                62,
+                63,
+                62,
+                63,
+                63,
+                64,
+                52,
+                52,
+                53,
+                53,
+                53,
+                53,
+                54,
+                54,
+                54,
+                54,
+                55,
+                54,
+                54,
+                55,
+                55,
+                56,
+                57,
+                58,
+                58,
+                59,
+                60,
+                61,
+                62,
+                62,
+                63,
+                64,
+                65,
+                65,
+                66,
+                67,
+                67,
+                68,
+                69,
+                69,
+                70,
+                71,
+                71,
+                72,
+                72,
+                73,
+                73,
+                74,
+                74,
+                75,
+                72,
+                70,
+                61,
+                61,
+                62,
+                64,
+                65,
+                66,
+                67,
+                68,
+                69,
+                70,
+                71,
+                72,
+                72,
+                72,
+                73,
+                73,
+                74,
+                74,
+                75,
+                76,
+                76,
+                77,
+                78,
+                79,
+                80,
+                80,
+                81,
+                82,
+                78,
+                79,
+                80,
+                81
+              ],
+              "interval": 2
+            },
+            "i4": {
+              "values": [
+                65,
+                60,
+                61,
+                62,
+                62,
+                63,
+                58,
+                53,
+                53,
+                54,
+                54,
+                54,
+                54,
+                55,
+                56,
+                58,
+                59,
+                61,
+                63,
+                64,
+                66,
+                67,
+                68,
+                70,
+                71,
+                72,
+                73,
+                74,
+                74,
+                65,
+                62,
+                64,
+                66,
+                68,
+                70,
+                72,
+                72,
+                73,
+                75,
+                76,
+                78,
+                79,
+                81,
+                80,
+                80,
+                79,
+                74,
+                76,
+                78,
+                80,
+                82,
+                84,
+                87,
+                89,
+                89,
+                89,
+                89,
+                91,
+                92,
+                89,
+                88,
+                89,
+                89,
+                90,
+                91,
+                90,
+                86,
+                81,
+                77,
+                79,
+                80,
+                78,
+                81,
+                83,
+                85,
+                86,
+                84,
+                80,
+                81,
+                81,
+                81,
+                80,
+                77,
+                67,
+                63,
+                63,
+                58,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "interval": 4
+            },
+            "i7": {
+              "values": [
+                65,
+                61,
+                62,
+                60,
+                53,
+                54,
+                54,
+                54,
+                57,
+                59,
+                62,
+                65,
+                67,
+                70,
+                72,
+                74,
+                70,
+                62,
+                66,
+                69,
+                72,
+                73,
+                76,
+                78,
+                80,
+                80,
+                75,
+                77,
+                81,
+                84,
+                88,
+                89,
+                90,
+                91,
+                88,
+                89,
+                90,
+                89,
+                80,
+                78,
+                79,
+                81,
+                84,
+                85,
+                80,
+                81,
+                80,
+                71,
+                63,
+                42,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                5,
+                10,
+                14,
+                18,
+                22,
+                25,
+                28,
+                31,
+                33
+              ],
+              "interval": 7
+            },
+            "i18": {
+              "values": [
+                65,
+                57,
+                54,
+                58,
+                65,
+                71,
+                68,
+                68,
+                74,
+                80,
+                77,
+                85,
+                90,
+                89,
+                88,
+                78,
+                83,
+                81,
+                71,
+                21,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                2,
+                2,
+                9,
+                19,
+                28,
+                32
+              ],
+              "interval": 18
+            },
+            "i36": {
+              "values": [
+                65,
+                56,
+                68,
+                68,
+                77,
+                81,
+                89,
+                83,
+                82,
+                46,
+                1,
+                1,
+                1,
+                2,
+                14,
+                29
+              ],
+              "interval": 36
+            }
+          }
+        },
+        "growth_score_delta_d90": -1,
+        "growth_score_history": {
+          "periods": {
+            "i1": {
+              "values": [
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                88,
+                88,
+                88,
+                88,
+                88,
+                88,
+                88,
+                88,
+                88,
+                88,
+                88,
+                88,
+                88,
+                88,
+                88,
+                88,
+                88,
+                88,
+                88
+              ],
+              "interval": 1
+            },
+            "i2": {
+              "values": [
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                88,
+                88,
+                88,
+                88,
+                88,
+                88,
+                88,
+                88,
+                88,
+                88,
+                88,
+                88,
+                88,
+                88,
+                88,
+                88,
+                88,
+                88,
+                88,
+                88,
+                89,
+                89,
+                89,
+                88,
+                88,
+                88,
+                88,
+                88,
+                89,
+                89,
+                89,
+                89,
+                89,
+                89,
+                89,
+                89,
+                90,
+                90,
+                90,
+                90,
+                90,
+                90,
+                90,
+                90,
+                90,
+                91,
+                91,
+                91,
+                91,
+                91,
+                91,
+                91,
+                91,
+                91,
+                91,
+                92
+              ],
+              "interval": 2
+            },
+            "i4": {
+              "values": [
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                88,
+                88,
+                88,
+                88,
+                88,
+                88,
+                88,
+                88,
+                88,
+                89,
+                89,
+                88,
+                88,
+                88,
+                89,
+                89,
+                89,
+                89,
+                90,
+                90,
+                90,
+                90,
+                91,
+                91,
+                91,
+                91,
+                91,
+                92,
+                91,
+                91,
+                92,
+                92,
+                92,
+                93,
+                93,
+                93,
+                93,
+                93,
+                93,
+                94,
+                94,
+                93,
+                93,
+                93,
+                93,
+                94,
+                94,
+                94,
+                93,
+                93,
+                93,
+                93,
+                93,
+                93,
+                93,
+                93,
+                93,
+                93,
+                93,
+                92,
+                92,
+                92,
+                92,
+                91,
+                91,
+                90,
+                89,
+                89,
+                88,
+                85,
+                84,
+                72,
+                63,
+                63
+              ],
+              "interval": 4
+            },
+            "i7": {
+              "values": [
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                88,
+                88,
+                88,
+                88,
+                88,
+                88,
+                88,
+                88,
+                89,
+                89,
+                90,
+                90,
+                90,
+                91,
+                91,
+                91,
+                91,
+                92,
+                92,
+                93,
+                93,
+                93,
+                93,
+                94,
+                93,
+                93,
+                94,
+                94,
+                93,
+                93,
+                93,
+                93,
+                93,
+                93,
+                92,
+                92,
+                91,
+                90,
+                89,
+                87,
+                84,
+                65,
+                63,
+                63,
+                63,
+                64,
+                64,
+                64,
+                64,
+                64,
+                64,
+                64,
+                64,
+                64,
+                64,
+                65,
+                65,
+                65,
+                65,
+                65,
+                65,
+                65,
+                65,
+                65,
+                65,
+                66,
+                66,
+                66,
+                66,
+                66,
+                66,
+                66,
+                65,
+                65,
+                65,
+                64,
+                64,
+                64,
+                63,
+                63,
+                63,
+                62,
+                62,
+                61,
+                61,
+                61,
+                60,
+                60,
+                59,
+                58,
+                58,
+                57,
+                56,
+                55,
+                54
+              ],
+              "interval": 7
+            },
+            "i18": {
+              "values": [
+                87,
+                87,
+                87,
+                87,
+                88,
+                88,
+                88,
+                89,
+                90,
+                91,
+                92,
+                93,
+                93,
+                93,
+                94,
+                93,
+                93,
+                92,
+                90,
+                83,
+                63,
+                63,
+                64,
+                64,
+                64,
+                65,
+                65,
+                65,
+                65,
+                66,
+                66,
+                66,
+                65,
+                64,
+                63,
+                62,
+                61,
+                60,
+                59,
+                57,
+                54,
+                32,
+                27,
+                26,
+                25,
+                24,
+                23,
+                22,
+                20,
+                19,
+                16,
+                13
+              ],
+              "interval": 18
+            },
+            "i36": {
+              "values": [
+                87,
+                87,
+                88,
+                89,
+                91,
+                92,
+                93,
+                93,
+                92,
+                86,
+                63,
+                64,
+                64,
+                65,
+                65,
+                66,
+                65,
+                63,
+                61,
+                58,
+                43,
+                26,
+                24,
+                22,
+                20,
+                15
+              ],
+              "interval": 36
+            }
+          }
+        },
+        "growth_trend_365": {
+          "periods": {
+            "i1": {
+              "values": [
+                33,
+                33,
+                33,
+                33,
+                32,
+                32,
+                32,
+                32,
+                32,
+                32,
+                32,
+                32,
+                32,
+                32,
+                32,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                32,
+                32,
+                32,
+                32,
+                32,
+                32,
+                32,
+                32,
+                32,
+                32,
+                32,
+                32,
+                32,
+                32,
+                32,
+                32,
+                32,
+                32,
+                32,
+                31,
+                31,
+                31,
+                31,
+                31,
+                31,
+                31,
+                31,
+                31,
+                31,
+                31,
+                31,
+                31,
+                31,
+                31,
+                31,
+                31,
+                31,
+                31,
+                31,
+                31,
+                31,
+                31,
+                32,
+                32,
+                32,
+                32,
+                32,
+                32,
+                32,
+                32,
+                32,
+                32,
+                32,
+                32,
+                32,
+                32,
+                32,
+                32,
+                32,
+                32,
+                32,
+                32,
+                32,
+                32
+              ],
+              "interval": 1
+            },
+            "i2": {
+              "values": [
+                33,
+                33,
+                32,
+                32,
+                32,
+                32,
+                32,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                32,
+                32,
+                32,
+                32,
+                32,
+                32,
+                32,
+                32,
+                32,
+                32,
+                31,
+                31,
+                31,
+                31,
+                31,
+                31,
+                31,
+                31,
+                31,
+                31,
+                31,
+                32,
+                32,
+                32,
+                32,
+                32,
+                32,
+                32,
+                32,
+                32,
+                32,
+                32,
+                32,
+                32,
+                32,
+                32,
+                32,
+                32,
+                32,
+                32,
+                32,
+                32,
+                32,
+                32,
+                32,
+                32,
+                31,
+                31,
+                31,
+                31,
+                31,
+                32,
+                32,
+                32,
+                32,
+                32,
+                32,
+                32,
+                32,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                34,
+                34,
+                34,
+                34,
+                34,
+                34,
+                34,
+                34,
+                34,
+                34
+              ],
+              "interval": 2
+            },
+            "i4": {
+              "values": [
+                33,
+                32,
+                32,
+                32,
+                33,
+                33,
+                33,
+                32,
+                32,
+                32,
+                32,
+                31,
+                31,
+                31,
+                31,
+                31,
+                31,
+                32,
+                32,
+                32,
+                32,
+                32,
+                32,
+                32,
+                32,
+                32,
+                32,
+                32,
+                32,
+                32,
+                31,
+                31,
+                32,
+                32,
+                32,
+                32,
+                33,
+                33,
+                33,
+                33,
+                33,
+                34,
+                34,
+                34,
+                34,
+                34,
+                34,
+                34,
+                34,
+                35,
+                35,
+                36,
+                37,
+                37,
+                38,
+                38,
+                39,
+                39,
+                40,
+                40,
+                40,
+                40,
+                41,
+                41,
+                42,
+                42,
+                42,
+                42,
+                42,
+                43,
+                43,
+                43,
+                44,
+                45,
+                45,
+                46,
+                46,
+                46,
+                46,
+                46,
+                47,
+                47,
+                47,
+                47,
+                46,
+                47,
+                47,
+                43,
+                42,
+                26,
+                13,
+                14
+              ],
+              "interval": 4
+            },
+            "i7": {
+              "values": [
+                33,
+                32,
+                33,
+                33,
+                32,
+                32,
+                31,
+                31,
+                31,
+                31,
+                32,
+                32,
+                32,
+                32,
+                32,
+                32,
+                32,
+                31,
+                32,
+                32,
+                32,
+                33,
+                33,
+                34,
+                34,
+                34,
+                34,
+                34,
+                35,
+                36,
+                37,
+                38,
+                39,
+                40,
+                40,
+                41,
+                41,
+                42,
+                42,
+                42,
+                43,
+                44,
+                45,
+                46,
+                46,
+                46,
+                47,
+                47,
+                47,
+                46,
+                42,
+                16,
+                16,
+                33,
+                98,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100
+              ],
+              "interval": 7
+            },
+            "i18": {
+              "values": [
+                33,
+                32,
+                32,
+                31,
+                32,
+                32,
+                32,
+                32,
+                33,
+                34,
+                34,
+                36,
+                38,
+                40,
+                42,
+                43,
+                45,
+                46,
+                47,
+                40,
+                22,
+                99,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                98,
+                94,
+                89,
+                84,
+                78,
+                72,
+                65,
+                56,
+                43,
+                23
+              ],
+              "interval": 18
+            },
+            "i36": {
+              "values": [
+                33,
+                31,
+                32,
+                32,
+                33,
+                35,
+                39,
+                42,
+                46,
+                43,
+                60,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                96,
+                86,
+                75,
+                60,
+                36
+              ],
+              "interval": 36
+            }
+          }
+        },
+        "heat_score": 65,
+        "heat_trend_365": {
+          "periods": {
+            "i1": {
+              "values": [
+                81,
+                82,
+                82,
+                83,
+                74,
+                74,
+                75,
+                75,
+                75,
+                76,
+                76,
+                76,
+                77,
+                77,
+                77,
+                78,
+                78,
+                77,
+                77,
+                77,
+                78,
+                78,
+                78,
+                79,
+                79,
+                79,
+                65,
+                64,
+                65,
+                65,
+                65,
+                65,
+                65,
+                66,
+                66,
+                66,
+                66,
+                66,
+                66,
+                67,
+                67,
+                67,
+                67,
+                67,
+                67,
+                67,
+                68,
+                67,
+                67,
+                67,
+                67,
+                67,
+                67,
+                68,
+                68,
+                68,
+                69,
+                69,
+                70,
+                70,
+                71,
+                72,
+                71,
+                72,
+                72,
+                73,
+                74,
+                74,
+                75,
+                75,
+                76,
+                76,
+                77,
+                77,
+                78,
+                78,
+                79,
+                79,
+                80,
+                80,
+                81,
+                81,
+                82,
+                82,
+                83,
+                83,
+                83,
+                84,
+                84,
+                85
+              ],
+              "interval": 1
+            },
+            "i2": {
+              "values": [
+                81,
+                83,
+                74,
+                75,
+                76,
+                76,
+                77,
+                78,
+                78,
+                77,
+                78,
+                79,
+                79,
+                65,
+                65,
+                65,
+                66,
+                66,
+                66,
+                67,
+                67,
+                67,
+                67,
+                68,
+                67,
+                67,
+                68,
+                68,
+                69,
+                70,
+                72,
+                72,
+                73,
+                74,
+                75,
+                76,
+                77,
+                78,
+                79,
+                80,
+                81,
+                82,
+                83,
+                84,
+                85,
+                85,
+                86,
+                87,
+                88,
+                88,
+                89,
+                90,
+                90,
+                91,
+                92,
+                92,
+                93,
+                90,
+                86,
+                75,
+                76,
+                77,
+                79,
+                80,
+                82,
+                83,
+                84,
+                85,
+                87,
+                85,
+                83,
+                80,
+                78,
+                75,
+                74,
+                71,
+                70,
+                68,
+                67,
+                66,
+                65,
+                63,
+                62,
+                62,
+                61,
+                60,
+                59,
+                54,
+                53,
+                53,
+                53
+              ],
+              "interval": 2
+            },
+            "i4": {
+              "values": [
+                81,
+                75,
+                76,
+                77,
+                77,
+                78,
+                72,
+                65,
+                66,
+                66,
+                67,
+                67,
+                67,
+                68,
+                70,
+                72,
+                73,
+                76,
+                78,
+                80,
+                82,
+                83,
+                85,
+                87,
+                88,
+                89,
+                91,
+                92,
+                91,
+                81,
+                76,
+                79,
+                82,
+                85,
+                86,
+                81,
+                76,
+                72,
+                69,
+                66,
+                64,
+                62,
+                60,
+                57,
+                53,
+                50,
+                43,
+                43,
+                42,
+                43,
+                44,
+                46,
+                48,
+                50,
+                50,
+                51,
+                51,
+                52,
+                54,
+                51,
+                49,
+                51,
+                50,
+                51,
+                52,
+                51,
+                47,
+                43,
+                40,
+                41,
+                42,
+                41,
+                43,
+                45,
+                47,
+                47,
+                46,
+                43,
+                43,
+                43,
+                43,
+                42,
+                39,
+                31,
+                27,
+                27,
+                22,
+                -29,
+                -29,
+                -29,
+                -29,
+                -29
+              ],
+              "interval": 4
+            },
+            "i7": {
+              "values": [
+                81,
+                76,
+                77,
+                75,
+                65,
+                66,
+                67,
+                67,
+                70,
+                74,
+                77,
+                81,
+                84,
+                87,
+                89,
+                91,
+                87,
+                77,
+                82,
+                85,
+                79,
+                72,
+                66,
+                62,
+                59,
+                53,
+                44,
+                42,
+                43,
+                46,
+                50,
+                50,
+                51,
+                53,
+                50,
+                50,
+                52,
+                51,
+                43,
+                40,
+                41,
+                43,
+                46,
+                47,
+                43,
+                43,
+                43,
+                34,
+                27,
+                8,
+                -29,
+                -29,
+                -29,
+                -29,
+                -29,
+                -29,
+                -29,
+                -29,
+                -29,
+                -29,
+                -29,
+                -29,
+                -29,
+                -29,
+                -29,
+                -29,
+                -29,
+                -29,
+                -29,
+                -29,
+                -29,
+                -29,
+                -25,
+                -21,
+                -17,
+                -14,
+                -11,
+                -8,
+                -5,
+                -2,
+                0
+              ],
+              "interval": 7
+            },
+            "i18": {
+              "values": [
+                81,
+                71,
+                67,
+                72,
+                81,
+                88,
+                84,
+                83,
+                70,
+                58,
+                44,
+                47,
+                51,
+                51,
+                50,
+                41,
+                45,
+                43,
+                34,
+                -11,
+                -29,
+                -29,
+                -29,
+                -29,
+                -29,
+                -29,
+                -29,
+                -29,
+                -22,
+                -13,
+                -5,
+                -1
+              ],
+              "interval": 18
+            },
+            "i36": {
+              "values": [
+                81,
+                69,
+                85,
+                84,
+                64,
+                45,
+                51,
+                45,
+                44,
+                11,
+                -29,
+                -29,
+                -29,
+                -29,
+                -17,
+                -4
+              ],
+              "interval": 36
+            }
+          }
+        },
+        "growth_score": 87,
+        "heat_score_delta_d90": -3
+      },
+      "bombora_summary": {
+        "identifier": {
+          "uuid": "e016599e-2332-43e7-a860-5a341a96faa7",
+          "value": "Malakah",
+          "image_id": "a93b1f6ccdf9435bb81090a8da1833b6",
+          "permalink": "malakah",
+          "entity_def_id": "organization"
+        }
+      },
+      "semrush_rank_headline": {
+        "semrush_visits_latest_month": 204,
+        "semrush_visits_mom_pct": 10.7434554973822
+      },
+      "frequently_asked_questions_latest_funding_round": {
+        "identifier": {
+          "uuid": "e016599e-2332-43e7-a860-5a341a96faa7",
+          "value": "Malakah",
+          "image_id": "a93b1f6ccdf9435bb81090a8da1833b6",
+          "permalink": "malakah",
+          "entity_def_id": "organization"
+        },
+        "last_funding_at": "2025-02-15",
+        "last_funding_type": "pre_seed",
+        "num_funding_rounds": 1
+      },
+      "apptopia_app_overview_list_free": [],
+      "contacts": {},
+      "product_launches": [],
+      "alumni_summary": {
+        "identifier": {
+          "uuid": "e016599e-2332-43e7-a860-5a341a96faa7",
+          "value": "Malakah",
+          "image_id": "a93b1f6ccdf9435bb81090a8da1833b6",
+          "permalink": "malakah",
+          "entity_def_id": "organization"
+        }
+      },
+      "apptopia_summary": {
+        "identifier": {
+          "uuid": "e016599e-2332-43e7-a860-5a341a96faa7",
+          "value": "Malakah",
+          "image_id": "a93b1f6ccdf9435bb81090a8da1833b6",
+          "permalink": "malakah",
+          "entity_def_id": "organization"
+        }
+      },
+      "product_similarity_target_org_list": [],
+      "social_fields": {
+        "linkedin": {
+          "value": "https://www.linkedin.com/company/malakah/"
+        }
+      },
+      "investments_headline": {},
+      "investment_thesis": {
+        "lookup": [],
+        "properties": {
+          "identifier": {
+            "uuid": "e016599e-2332-43e7-a860-5a341a96faa7",
+            "value": "Malakah",
+            "image_id": "a93b1f6ccdf9435bb81090a8da1833b6",
+            "permalink": "malakah",
+            "entity_def_id": "organization"
+          }
+        },
+        "data": []
+      },
+      "diversity_spotlight_investments_summary": {
+        "identifier": {
+          "uuid": "e016599e-2332-43e7-a860-5a341a96faa7",
+          "value": "Malakah",
+          "image_id": "a93b1f6ccdf9435bb81090a8da1833b6",
+          "permalink": "malakah",
+          "entity_def_id": "organization"
+        }
+      },
+      "contact_fields": {
+        "contact_email": "Info@malakah.ai"
+      },
+      "growth_prediction": [
+        {
+          "generated_on": "2026-08-24",
+          "identifier": {
+            "uuid": "f57ffc69-8352-4f46-9b41-d44944ff6fda",
+            "value": "Growth Prediction 2026-08-24",
+            "image_id": "61b23f3657644851ae7c6126bc317af1",
+            "entity_def_id": "growth_prediction"
+          },
+          "probability_score": 0.8805,
+          "created_at": "2026-08-15T21:49:13Z",
+          "updated_at": "2026-08-24T19:57:40Z",
+          "probability_tier": "p200_positive_low"
+        }
+      ],
+      "sub_organizations_summary": {
+        "identifier": {
+          "uuid": "e016599e-2332-43e7-a860-5a341a96faa7",
+          "value": "Malakah",
+          "image_id": "a93b1f6ccdf9435bb81090a8da1833b6",
+          "permalink": "malakah",
+          "entity_def_id": "organization"
+        }
+      },
+      "overview_description": {
+        "description": "Malakah is a legal AI hub for legal guidance and contract automation."
+      },
+      "current_employees_featured_order_field": [
+        {
+          "person_identifier": {
+            "uuid": "4054368b-c23c-4fce-9010-b612c509c33a",
+            "value": "Abdullah Bokhari",
+            "image_id": "d617093961c84d84ae3f0c3f5ca69fc1",
+            "permalink": "abdullah-bokhari-c33a",
+            "entity_def_id": "person"
+          },
+          "identifier": {
+            "uuid": "85177540-8f29-4302-9a7c-5370946c6f53",
+            "value": "Abdullah Bokhari Founder @ Malakah",
+            "permalink": "abdullah-bokhari-c33a-executive-malakah--85177540",
+            "entity_def_id": "job"
+          },
+          "started_on": {
+            "value": "2024-07-01",
+            "precision": "month"
+          },
+          "title": "Founder"
+        }
+      ],
+      "company_about_fields2": {
+        "website": {
+          "value": "https://malakah.ai/"
+        },
+        "ipo_status": "private",
+        "num_employees_enum": "c_00001_00010",
+        "last_funding_type": "pre_seed",
+        "location_identifiers": [
+          {
+            "uuid": "54e9bc1a-c83b-6231-7fd6-36b8db81ff4c",
+            "value": "Riyadh",
+            "permalink": "riyadh-ar-riyad",
+            "entity_def_id": "location",
+            "location_type": "city"
+          },
+          {
+            "uuid": "acd31494-95eb-3a8e-d64f-faa43d348c35",
+            "value": "Ar Riyad",
+            "permalink": "ar-riyad-saudi-arabia",
+            "entity_def_id": "location",
+            "location_type": "region"
+          },
+          {
+            "uuid": "2c205931-d55b-569b-0fdf-957f2f062bf3",
+            "value": "Saudi Arabia",
+            "permalink": "saudi-arabia",
+            "entity_def_id": "location",
+            "location_type": "country"
+          },
+          {
+            "uuid": "b41404d2-8ecc-caf5-1268-8fdd3afe73ee",
+            "value": "Asia",
+            "permalink": "asia",
+            "entity_def_id": "location",
+            "location_type": "continent"
+          }
+        ],
+        "rank_org_company": 143268
+      },
+      "sub_organizations_image_list": [],
+      "frequently_asked_questions_headquarters_location": {
+        "identifier": {
+          "uuid": "e016599e-2332-43e7-a860-5a341a96faa7",
+          "value": "Malakah",
+          "image_id": "a93b1f6ccdf9435bb81090a8da1833b6",
+          "permalink": "malakah",
+          "entity_def_id": "organization"
+        },
+        "location_identifiers": [
+          {
+            "uuid": "54e9bc1a-c83b-6231-7fd6-36b8db81ff4c",
+            "value": "Riyadh",
+            "permalink": "riyadh-ar-riyad",
+            "entity_def_id": "location",
+            "location_type": "city"
+          },
+          {
+            "uuid": "acd31494-95eb-3a8e-d64f-faa43d348c35",
+            "value": "Ar Riyad",
+            "permalink": "ar-riyad-saudi-arabia",
+            "entity_def_id": "location",
+            "location_type": "region"
+          },
+          {
+            "uuid": "2c205931-d55b-569b-0fdf-957f2f062bf3",
+            "value": "Saudi Arabia",
+            "permalink": "saudi-arabia",
+            "entity_def_id": "location",
+            "location_type": "country"
+          },
+          {
+            "uuid": "b41404d2-8ecc-caf5-1268-8fdd3afe73ee",
+            "value": "Asia",
+            "permalink": "asia",
+            "entity_def_id": "location",
+            "location_type": "continent"
+          }
+        ]
+      },
+      "investors_headline": {},
+      "ipo_summary": {
+        "identifier": {
+          "uuid": "e016599e-2332-43e7-a860-5a341a96faa7",
+          "value": "Malakah",
+          "image_id": "a93b1f6ccdf9435bb81090a8da1833b6",
+          "permalink": "malakah",
+          "entity_def_id": "organization"
+        }
+      },
+      "ipqwery_summary": {
+        "identifier": {
+          "uuid": "e016599e-2332-43e7-a860-5a341a96faa7",
+          "value": "Malakah",
+          "image_id": "a93b1f6ccdf9435bb81090a8da1833b6",
+          "permalink": "malakah",
+          "entity_def_id": "organization"
+        }
+      },
+      "awards": [],
+      "siftery_product_list": [],
+      "competitors_list": [],
+      "growth_knowledge": {
+        "lookup": [],
+        "properties": {
+          "identifier": {
+            "uuid": "e016599e-2332-43e7-a860-5a341a96faa7",
+            "value": "Malakah",
+            "image_id": "a93b1f6ccdf9435bb81090a8da1833b6",
+            "permalink": "malakah",
+            "entity_def_id": "organization"
+          }
+        },
+        "data": []
+      },
+      "overview_fields_extended": {
+        "location_group_identifiers": [
+          {
+            "uuid": "4e8be435-c63a-4aff-8a2f-44a880d9c341",
+            "value": "Europe, Middle East, and Africa (EMEA)",
+            "permalink": "europe-middle-east-africa-emea",
+            "entity_def_id": "location",
+            "location_type": "group"
+          },
+          {
+            "uuid": "c4365698-c7c5-44b0-b33a-7d13900e5be2",
+            "value": "Gulf Cooperation Council (GCC)",
+            "permalink": "gulf-cooperation-council",
+            "entity_def_id": "location",
+            "location_type": "group"
+          },
+          {
+            "uuid": "e0272206-3430-48cb-a5bc-1d4b3eafe15a",
+            "value": "Middle East",
+            "permalink": "middle-east",
+            "entity_def_id": "location",
+            "location_type": "group"
+          },
+          {
+            "uuid": "8cb7cad4-b7e4-4b28-a496-2ede3720cb19",
+            "value": "Middle East and North Africa (MENA)",
+            "permalink": "middle-east-and-north-africa-mena",
+            "entity_def_id": "location",
+            "location_type": "group"
+          }
+        ],
+        "founded_on": {
+          "value": "2024-01-01",
+          "precision": "year"
+        },
+        "founder_identifiers": [
+          {
+            "uuid": "4054368b-c23c-4fce-9010-b612c509c33a",
+            "value": "Abdullah Bokhari",
+            "image_id": "d617093961c84d84ae3f0c3f5ca69fc1",
+            "permalink": "abdullah-bokhari-c33a",
+            "entity_def_id": "person"
+          }
+        ],
+        "operating_status": "active",
+        "last_funding_type": "pre_seed",
+        "categories": [
+          {
+            "uuid": "b1234a83-0ad1-c131-b788-81f8eb48c35e",
+            "value": "Legal",
+            "image_id": "61b23f3657644851ae7c6126bc317af1",
+            "permalink": "legal",
+            "entity_def_id": "category"
+          }
+        ]
+      },
+      "overview_investor_fields": {},
+      "bombora_attribution": {},
+      "semrush_location_list": [
+        {
+          "identifier": {
+            "uuid": "1284118d-c489-415a-ad24-8565f36f15ce"
+          },
+          "visits_mom_pct": 10.3769633507853,
+          "uuid": "1284118d-c489-415a-ad24-8565f36f15ce",
+          "rank": 161949,
+          "rank_mom_pct": -0.694673039567331,
+          "location_identifiers": [
+            {
+              "uuid": "2c205931-d55b-569b-0fdf-957f2f062bf3",
+              "value": "Saudi Arabia",
+              "permalink": "saudi-arabia",
+              "entity_def_id": "location"
+            },
+            {
+              "uuid": "b41404d2-8ecc-caf5-1268-8fdd3afe73ee",
+              "value": "Asia",
+              "permalink": "asia",
+              "entity_def_id": "location"
+            }
+          ],
+          "visits_pct": 0.784313725490196
+        },
+        {
+          "identifier": {
+            "uuid": "d2c2ac6c-7099-4237-ba12-ee195defc057"
+          },
+          "uuid": "d2c2ac6c-7099-4237-ba12-ee195defc057",
+          "rank": 1554873,
+          "location_identifiers": [
+            {
+              "uuid": "ea487e37-15cf-a2f7-3ea6-77f44bf0f977",
+              "value": "Pakistan",
+              "permalink": "pakistan",
+              "entity_def_id": "location"
+            },
+            {
+              "uuid": "b41404d2-8ecc-caf5-1268-8fdd3afe73ee",
+              "value": "Asia",
+              "permalink": "asia",
+              "entity_def_id": "location"
+            }
+          ],
+          "visits_pct": 0.215686274509804
+        },
+        {
+          "identifier": {
+            "uuid": "ce1cd05b-13b4-4bad-99bc-0b9316818325"
+          },
+          "uuid": "ce1cd05b-13b4-4bad-99bc-0b9316818325",
+          "rank": 61035,
+          "location_identifiers": [
+            {
+              "uuid": "2e6f5980-92de-071f-0062-cb3389470ccf",
+              "value": "Palestinian Territory",
+              "permalink": "palestinian-territory",
+              "entity_def_id": "location"
+            },
+            {
+              "uuid": "b41404d2-8ecc-caf5-1268-8fdd3afe73ee",
+              "value": "Asia",
+              "permalink": "asia",
+              "entity_def_id": "location"
+            }
+          ],
+          "visits_pct": 0.0205082478823005
+        },
+        {
+          "identifier": {
+            "uuid": "def1e302-9996-413b-94b4-e5bfdd4ebec2"
+          },
+          "uuid": "def1e302-9996-413b-94b4-e5bfdd4ebec2",
+          "rank": 215183,
+          "location_identifiers": [
+            {
+              "uuid": "eaccd6a7-125c-1332-5574-4cdacc1ecefa",
+              "value": "Tunisia",
+              "permalink": "tunisia",
+              "entity_def_id": "location"
+            },
+            {
+              "uuid": "5b194c3b-3018-b47d-f611-ab142cdfd74c",
+              "value": "Africa",
+              "permalink": "africa",
+              "entity_def_id": "location"
+            }
+          ],
+          "visits_pct": 0.0103215561730846
+        }
+      ],
+      "investors_list": [],
+      "siftery_summary": {
+        "identifier": {
+          "uuid": "e016599e-2332-43e7-a860-5a341a96faa7",
+          "value": "Malakah",
+          "image_id": "a93b1f6ccdf9435bb81090a8da1833b6",
+          "permalink": "malakah",
+          "entity_def_id": "organization"
+        }
+      },
+      "acquired_by_summary": {
+        "identifier": {
+          "uuid": "e016599e-2332-43e7-a860-5a341a96faa7",
+          "value": "Malakah",
+          "image_id": "a93b1f6ccdf9435bb81090a8da1833b6",
+          "permalink": "malakah",
+          "entity_def_id": "organization"
+        }
+      },
+      "ipo_fields": {},
+      "apptopia_app_overview_list_public": [],
+      "apptopia_sdk_list": [],
+      "trading_view": {},
+      "current_employees_image_list": [
+        {
+          "identifier": {
+            "uuid": "85177540-8f29-4302-9a7c-5370946c6f53",
+            "value": "Abdullah Bokhari Founder @ Malakah",
+            "permalink": "abdullah-bokhari-c33a-executive-malakah--85177540",
+            "entity_def_id": "job"
+          },
+          "person_identifier": {
+            "uuid": "4054368b-c23c-4fce-9010-b612c509c33a",
+            "value": "Abdullah Bokhari",
+            "image_id": "d617093961c84d84ae3f0c3f5ca69fc1",
+            "permalink": "abdullah-bokhari-c33a",
+            "entity_def_id": "person"
+          },
+          "title": "Founder"
+        }
+      ],
+      "frequently_asked_questions_investors": {
+        "identifier": {
+          "uuid": "e016599e-2332-43e7-a860-5a341a96faa7",
+          "value": "Malakah",
+          "image_id": "a93b1f6ccdf9435bb81090a8da1833b6",
+          "permalink": "malakah",
+          "entity_def_id": "organization"
+        }
+      },
+      "funding_rounds_list": [
+        {
+          "identifier": {
+            "uuid": "b56e7ac1-4eed-421a-8dc4-d38a2f2d3cc4",
+            "value": "Pre Seed Round - Malakah",
+            "image_id": "a93b1f6ccdf9435bb81090a8da1833b6",
+            "permalink": "malakah-pre-seed--b56e7ac1",
+            "entity_def_id": "funding_round"
+          },
+          "announced_on": "2025-02-15",
+          "money_raised": {
+            "value": 600000,
+            "currency": "USD",
+            "value_usd": 600000
+          },
+          "post_money_valuation": {
+            "value": 4375230,
+            "currency": "USD",
+            "value_usd": 4375230
+          },
+          "investment_type": "pre_seed"
+        }
+      ],
+      "technology_highlights": {
+        "builtwith_num_technologies_used": 16,
+        "semrush_visits_latest_month": 204,
+        "semrush_visits_mom_pct": 10.7434554973822
+      },
+      "funding_rounds_headline": {
+        "funding_total": {
+          "value": 600000,
+          "currency": "USD",
+          "value_usd": 600000
+        },
+        "num_funding_rounds": 1
+      },
+      "investments_list": [],
+      "exits_image_list": [],
+      "funds_headline": {},
+      "people_highlights": {
+        "num_current_positions": 1
+      },
+      "semrush_attribution": {
+        "semrush_last_updated": "2026-08-24"
+      },
+      "frequently_asked_questions_similar_companies": {
+        "identifier": {
+          "uuid": "e016599e-2332-43e7-a860-5a341a96faa7",
+          "value": "Malakah",
+          "image_id": "a93b1f6ccdf9435bb81090a8da1833b6",
+          "permalink": "malakah",
+          "entity_def_id": "organization"
+        }
+      },
+      "semrush_overview": {
+        "semrush_visit_duration_mom_pct": 0.0417495029821074,
+        "semrush_visit_pageview_mom_pct": -0.525363868168068,
+        "semrush_visit_pageviews": 5.0098,
+        "semrush_bounce_rate": 0.2892,
+        "semrush_visit_duration": 318,
+        "semrush_bounce_rate_mom_pct": 4.55029093931837
+      },
+      "org_category_ranks": {
+        "category_ranks": {
+          "b1234a83-0ad1-c131-b788-81f8eb48c35e": {
+            "rank": 683,
+            "count": 147899,
+            "pv_rank": 1764
+          }
+        }
+      },
+      "current_valuation": [],
+      "legal_proceedings": [],
+      "current_employees_summary": {
+        "identifier": {
+          "uuid": "e016599e-2332-43e7-a860-5a341a96faa7",
+          "value": "Malakah",
+          "image_id": "a93b1f6ccdf9435bb81090a8da1833b6",
+          "permalink": "malakah",
+          "entity_def_id": "organization"
+        },
+        "num_current_positions": 1
+      },
+      "aberdeen_summary": {
+        "identifier": {
+          "uuid": "e016599e-2332-43e7-a860-5a341a96faa7",
+          "value": "Malakah",
+          "image_id": "a93b1f6ccdf9435bb81090a8da1833b6",
+          "permalink": "malakah",
+          "entity_def_id": "organization"
+        }
+      },
+      "offices": [],
+      "overview_timeline": {
+        "count": 1,
+        "entities": [
+          {
+            "uuid": "b56e7ac1-4eed-421a-8dc4-d38a2f2d3cc4",
+            "properties": {
+              "identifier": {
+                "uuid": "b56e7ac1-4eed-421a-8dc4-d38a2f2d3cc4",
+                "value": "Pre Seed Round - Malakah",
+                "image_id": "a93b1f6ccdf9435bb81090a8da1833b6",
+                "permalink": "malakah-pre-seed--b56e7ac1",
+                "entity_def_id": "funding_round"
+              },
+              "entity_def_id": "funding_round",
+              "activity_entities": [
+                {
+                  "role": "investee",
+                  "uuid": "e016599e-2332-43e7-a860-5a341a96faa7",
+                  "value": "Malakah",
+                  "image_id": "a93b1f6ccdf9435bb81090a8da1833b6",
+                  "permalink": "malakah",
+                  "entity_def_id": "organization"
+                }
+              ],
+              "activity_properties": {
+                "money_raised": {
+                  "value": 600000,
+                  "currency": "USD",
+                  "value_usd": 600000
+                },
+                "investment_type": "pre_seed"
+              },
+              "activity_date": "2025-02-15"
+            }
+          }
+        ]
+      },
+      "company_financials_highlights": {
+        "funding_total": {
+          "value": 600000,
+          "currency": "USD",
+          "value_usd": 600000
+        },
+        "num_funding_rounds": 1
+      },
+      "overview_company_fields": {},
+      "private_tags_pill_list": [],
+      "acquisitions_headline": {},
+      "builtwith_summary": {
+        "builtwith_num_technologies_used": 16,
+        "identifier": {
+          "uuid": "e016599e-2332-43e7-a860-5a341a96faa7",
+          "value": "Malakah",
+          "image_id": "a93b1f6ccdf9435bb81090a8da1833b6",
+          "permalink": "malakah",
+          "entity_def_id": "organization"
+        }
+      },
+      "about_short_description": {
+        "short_description": "Malakah is a legal AI hub for legal guidance and contract automation."
+      },
+      "product": [],
+      "apptopia_app_headline": {}
+    }
+  }
+}

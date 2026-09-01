@@ -1,0 +1,274 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T09:13:09.990Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T09:13:09.988Z",
+    "url": "https://www.crunchbase.com/organization/analyticabi"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "AnalyticaBI",
+      "shortDescription": "Providing 360 analytics by leveraging business intelligence technology for better decision making",
+      "description": "We acknowledge the importance of your data and help you make the most out of them. Our main goal is to help expanding and empowering all types of businesses.\nOnce extracted, the data is then taken in a cleansing and an analysis process.\nYou’re then provided with dashboards that are readable, understandable, and, most importantly, they are reliable for making better decisions.\nUsing automated analysis tool, you save all the waiting time that is usually spent when using the traditional data analysis tools.",
+      "website": "http://analyticabi.app/",
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "11-50",
+      "headquarters": "Cairo, Al Qahirah, Egypt",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Middle East",
+        "Middle East and North Africa (MENA)",
+        "North Africa"
+      ],
+      "industries": [
+        "Analytics"
+      ],
+      "sectors": [
+        "Data and Analytics"
+      ],
+      "founders": [
+        "Ahmed El-Labban",
+        "Hyeonuk Park",
+        "Mahmoud Elmaghrabi"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "A business intelligence platform that consolidates data from multiple sources to provide comprehensive analytics for decision making.",
+        "name": "360 Analytics Platform"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 25000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2021-04-12",
+      "lastFundingType": "Pre Seed",
+      "rounds": [
+        {
+          "announcedDate": "2021-04-12",
+          "amount": {
+            "amount": 25000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "postMoneyValuation": {
+            "amount": 481765,
+            "currency": "USD"
+          },
+          "type": "Pre Seed"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "name": "Baobab Network",
+            "rounds": [
+              "Pre Seed Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 1,
+      "includedUniqueCount": 1,
+      "items": [
+        {
+          "date": "2021-04-12",
+          "title": "Pre Seed Round - AnalyticaBI"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 25000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": 0,
+      "growthScore": 75,
+      "heatChange90Days": -2,
+      "heatScore": 61
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 30.7
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 14.33,
+        "timingEstimatePercent": {
+          "within6Months": 16.36,
+          "months6To11": 13.68,
+          "months12To24": 21.02,
+          "beyond24Months": 24.99
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 92.59
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 44.6
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Tableau helps global organizations unleash the power of their most valuable assets: their data and their people.",
+          "employeeRange": "1,001-5,000",
+          "name": "Tableau",
+          "sharedCategories": [
+            "Analytics"
+          ],
+          "sharedSpecialties": [
+            "Extract Transform Load (ETL)",
+            "Cloud Business Intelligence",
+            "Dashboard Software",
+            "Self-Service Business Intelligence",
+            "Reporting Software",
+            "Data Storytelling Software"
+          ],
+          "similarityScore": 96
+        },
+        {
+          "description": "Microsoft provides computer software, consumer electronics, cloud computing platforms, and digital enterprise systems.",
+          "employeeRange": "11-50",
+          "name": "Microsoft",
+          "sharedSpecialties": [
+            "Self-Service Business Intelligence"
+          ],
+          "similarityScore": 95
+        },
+        {
+          "description": "Qlik is a data analytics platform that helps businesses make better decisions through advanced data integration, quality, and analytics.",
+          "employeeRange": "1,001-5,000",
+          "name": "Qlik",
+          "sharedCategories": [
+            "Analytics"
+          ],
+          "sharedSpecialties": [
+            "Extract Transform Load (ETL)",
+            "Cloud Business Intelligence",
+            "Self-Service Business Intelligence",
+            "Data Warehousing",
+            "Data Pipelines"
+          ],
+          "similarityScore": 94
+        },
+        {
+          "description": "Google Cloud focuses on business challenges that head-on with cloud computing services from Google.",
+          "employeeRange": "10,001+",
+          "name": "Google Cloud",
+          "sharedSpecialties": [
+            "Cloud Business Intelligence",
+            "Data Warehousing",
+            "Big Data Analytics"
+          ],
+          "similarityScore": 92
+        },
+        {
+          "description": "Sisense is a business analytics software company that delivers agile analytics at scale.",
+          "employeeRange": "501-1,000",
+          "name": "Sisense",
+          "sharedCategories": [
+            "Analytics"
+          ],
+          "sharedSpecialties": [
+            "Cloud Business Intelligence",
+            "Dashboard Software",
+            "Self-Service Business Intelligence",
+            "Reporting Software"
+          ],
+          "similarityScore": 91
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Pre Seed round raised $25,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $481,765 to $481,765, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 75 (+0 over 90 days) and market heat at 61 (-2).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Tableau, Microsoft, Qlik.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

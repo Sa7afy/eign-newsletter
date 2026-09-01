@@ -1,0 +1,255 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T11:20:41.214Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T11:20:41.212Z",
+    "url": "https://www.crunchbase.com/organization/darjee"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Darjee",
+      "shortDescription": "Darjee is service company that provides on demand customization of dresses at earliest.",
+      "website": "https://darjee.co/",
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "1-10",
+      "estimatedRevenueRange": "Less than $1M",
+      "headquarters": "Cairo, Al Qahirah, Egypt",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Middle East",
+        "Middle East and North Africa (MENA)",
+        "North Africa"
+      ],
+      "industries": [
+        "Consumer Goods",
+        "Customer Service",
+        "E-Commerce",
+        "Fashion"
+      ],
+      "sectors": [
+        "Clothing and Apparel",
+        "Commerce and Shopping",
+        "Consumer Goods",
+        "Design",
+        "Professional Services"
+      ],
+      "founders": [
+        "Mai Hossam Shaltout"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 6000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 2,
+      "detailedRoundCount": 2,
+      "lastFundingDate": "2021-01-01",
+      "lastFundingType": "Venture round",
+      "rounds": [
+        {
+          "announcedDate": "2021-01-01",
+          "investorCount": 1,
+          "postMoneyValuation": {
+            "amount": 865748,
+            "currency": "USD"
+          },
+          "type": "Venture round"
+        },
+        {
+          "announcedDate": "2019-01-01",
+          "amount": {
+            "amount": 6000,
+            "currency": "USD"
+          },
+          "postMoneyValuation": {
+            "amount": 100684,
+            "currency": "USD"
+          },
+          "type": "Pre Seed"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "name": "Falak Startups",
+            "rounds": [
+              "Venture round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 2,
+      "includedUniqueCount": 2,
+      "items": [
+        {
+          "date": "2021-01-01",
+          "title": "Venture Round - Darjee"
+        },
+        {
+          "date": "2019-01-01",
+          "title": "Pre Seed Round - Darjee"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 6000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestToEarliestKnownValuationMultiple": 8.6
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": -2,
+      "growthScore": 74,
+      "heatChange90Days": -11,
+      "heatScore": 48
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 0
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 19.89,
+        "timingEstimatePercent": {
+          "within6Months": 13.17,
+          "months6To11": 11.43,
+          "months12To24": 18.55,
+          "beyond24Months": 24.53
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 83.19
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 0
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "We are an international fashion e-commerce company making custom clothing.",
+          "employeeRange": "101-250",
+          "name": "eShakti.com",
+          "sharedCategories": [
+            "E-Commerce",
+            "Fashion"
+          ],
+          "similarityScore": 92
+        },
+        {
+          "description": "Lunss manufactures and sells custom bridal dresses.",
+          "employeeRange": "11-50",
+          "name": "Lunss",
+          "sharedCategories": [
+            "E-Commerce",
+            "Fashion"
+          ],
+          "similarityScore": 88
+        },
+        {
+          "description": "Cocomelody is a leading bridal and formal wear brand that has been providing high-quality and affordable dresses to customers worldwide.",
+          "employeeRange": "51-100",
+          "name": "COCOMELODY",
+          "sharedCategories": [
+            "E-Commerce",
+            "Fashion"
+          ],
+          "similarityScore": 82
+        },
+        {
+          "description": "Lulus fashion lounge is an online store for women's dresses, shoes, accessories, and clothing.",
+          "employeeRange": "501-1,000",
+          "name": "Lulus",
+          "sharedCategories": [
+            "E-Commerce",
+            "Consumer Goods",
+            "Fashion"
+          ],
+          "similarityScore": 80
+        },
+        {
+          "description": "Azazie is a fashion bridal party online store that offers affordable, body-inclusive, and made-to-order-dresses.",
+          "employeeRange": "51-100",
+          "name": "Azazie",
+          "sharedCategories": [
+            "E-Commerce"
+          ],
+          "similarityScore": 78
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $100,684 to $865,748, a 8.6x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 74 (-2 over 90 days) and market heat at 48 (-11).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include eShakti.com, Lunss, COCOMELODY.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

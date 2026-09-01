@@ -1,0 +1,289 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T11:34:16.033Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T11:34:16.030Z",
+    "url": "https://www.crunchbase.com/organization/enabill"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Enabill",
+      "shortDescription": "Enabill is a fintech startup that offers innovative payment solutions to consumers and offline merchants.",
+      "description": "Enabill is a fintech startup that offers innovative payment solutions to consumers and offline merchants.",
+      "website": "https://enabill.com/",
+      "foundedYear": 2020,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "11-50",
+      "headquarters": "Kuwait, Al Kuwayt",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Financial Services",
+        "FinTech"
+      ],
+      "sectors": [
+        "Financial Services"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "A payment system enabling consumers to pay offline merchants quickly via a tap on Enabill’s device, supporting multiple payment methods without requiring an app.",
+        "name": "Enabill Payment Solution"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 1200000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2022-05-24",
+      "lastFundingType": "Seed",
+      "rounds": [
+        {
+          "announcedDate": "2022-05-24",
+          "amount": {
+            "amount": 1200000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "postMoneyValuation": {
+            "amount": 9352045,
+            "currency": "USD"
+          },
+          "type": "Seed"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "name": "The Taken Seat",
+            "rounds": [
+              "Seed Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 2,
+      "includedUniqueCount": 2,
+      "items": [
+        {
+          "date": "2022-05-24",
+          "publisher": "Techloy",
+          "title": "Kuwait's fintech startup Enabill secures $1.2 million in seed round",
+          "url": "https://www.techloy.com/kuwaits-fintech-startup-enabil-secures-1-2-million-in-seed-round/"
+        },
+        {
+          "date": "2022-05-24",
+          "title": "Seed Round - Enabill"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 1200000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": 0,
+      "growthScore": 64,
+      "heatChange90Days": -9,
+      "heatScore": 2
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 49.01
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 25.73,
+        "timingEstimatePercent": {
+          "within6Months": 14.58,
+          "months6To11": 12.45,
+          "months12To24": 19.72,
+          "beyond24Months": 24.89
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 82.79
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 39.54
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Ezetap Mobile Solutions is a payment device maker.",
+          "employeeRange": "101-250",
+          "name": "Ezetap",
+          "similarityScore": 97
+        },
+        {
+          "description": "Ingenico is the global leader in payment acceptance and services.",
+          "employeeRange": "1,001-5,000",
+          "name": "Ingenico",
+          "sharedCategories": [
+            "Financial Services"
+          ],
+          "sharedSpecialties": [
+            "Payment Terminals",
+            "Merchant Portal and Escrow Services",
+            "Payment Processing",
+            "Point of Sale (POS) Hardware",
+            "Merchant Services",
+            "Payment Orchestration Platforms",
+            "Payment Gateway Services",
+            "Payment Analytics and Dashboard"
+          ],
+          "similarityScore": 95
+        },
+        {
+          "description": "VeriFone is a California-based company that designs, markets, and services electronic payment solutions.",
+          "employeeRange": "1,001-5,000",
+          "name": "Verifone",
+          "sharedCategories": [
+            "Financial Services"
+          ],
+          "sharedSpecialties": [
+            "POS Peripherals",
+            "Payment Terminals",
+            "Payment Processing",
+            "Point of Sale (POS) Hardware",
+            "Merchant Services",
+            "Payment Orchestration Platforms",
+            "Payment Gateway Services",
+            "Payment Analytics and Dashboard"
+          ],
+          "similarityScore": 91
+        },
+        {
+          "description": "Global POS leader: 110M+ payment terminals in 120+ countries. Secure EMV/NFC solutions, POS software, terminals, retail & payment services.",
+          "employeeRange": "1,001-5,000",
+          "name": "PAX Technology Inc., North America",
+          "sharedCategories": [
+            "Financial Services"
+          ],
+          "sharedSpecialties": [
+            "POS Peripherals",
+            "Payment Terminals",
+            "Point of Sale (POS) Hardware",
+            "Merchant Services",
+            "QR Code Payments",
+            "Payment Orchestration Platforms",
+            "Payment Gateway Services",
+            "Payment Analytics and Dashboard",
+            "Restaurant and Hospitality POS Systems"
+          ],
+          "similarityScore": 90
+        },
+        {
+          "description": "Square is a technology company with a focus on financial services.",
+          "employeeRange": "10,001+",
+          "name": "Square",
+          "sharedCategories": [
+            "Financial Services"
+          ],
+          "sharedSpecialties": [
+            "Payment Terminals",
+            "Payment Processing",
+            "Point of Sale (POS) Hardware",
+            "Merchant Services",
+            "QR Code Payments"
+          ],
+          "similarityScore": 88
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Seed round raised $1,200,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $9,352,045 to $9,352,045, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 64 (+0 over 90 days) and market heat at 2 (-9).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Ezetap, Ingenico, Verifone.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

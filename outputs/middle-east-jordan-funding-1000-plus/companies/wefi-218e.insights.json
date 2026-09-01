@@ -1,0 +1,138 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T13:58:33.776Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T13:58:33.774Z",
+    "url": "https://www.crunchbase.com/organization/wefi-218e"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "WeFi",
+      "shortDescription": "WeFi is a decentralized Web3 finance platform that combines on-chain banking, crypto lending, leverage trading, and DeFi investment tools.",
+      "description": "WeFi is a blockchain-based decentralized finance (DeFi) and on-chain banking platform designed to bridge traditional financial services with the Web3 ecosystem. The platform enables users to access crypto-backed loans, leverage trading, staking, yield generation, and decentralized banking services through secure smart contracts and non-custodial infrastructure. WeFi supports on-chain accounts, crypto payment cards, lending and borrowing markets, and leveraged investment products integrated with DeFi protocols such as AAVE. Its mission is to create a transparent, user-controlled financial ecosystem where users can manage fiat and crypto assets seamlessly while benefiting from decentralized security, lower funding costs, and global accessibility.",
+      "website": "https://wefi.xyz/",
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "1-10",
+      "headquarters": "Dubai, United Arab Emirates",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Banking",
+        "Blockchain",
+        "Decentralized Finance (DeFi)",
+        "Web3"
+      ],
+      "sectors": [
+        "Blockchain and Cryptocurrency",
+        "Financial Services",
+        "Internet Services",
+        "Lending and Investments"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 1000000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2022-03-01",
+      "lastFundingType": "Seed",
+      "rounds": [
+        {
+          "announcedDate": "2022-03-01",
+          "amount": {
+            "amount": 1000000,
+            "currency": "USD"
+          },
+          "type": "Seed"
+        }
+      ]
+    },
+    "recentNews": {
+      "reportedCount": 1,
+      "includedUniqueCount": 1,
+      "items": [
+        {
+          "date": "2022-03-01",
+          "title": "Seed Round - WeFi"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 1000000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": 1,
+      "growthScore": 70,
+      "heatChange90Days": -25,
+      "heatScore": 67
+    },
+    "modelPredictions": {
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 77.15
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors."
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Seed round raised $1,000,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 70 (+1 over 90 days) and market heat at 67 (-25).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

@@ -1,0 +1,561 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T08:57:31.984Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T08:57:31.980Z",
+    "url": "https://www.crunchbase.com/organization/abu-dhabi-national-oil-company"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Abu Dhabi National Oil Company",
+      "shortDescription": "ADNOC is active in onshore and offshore oil and gas exploration through providing drilling services and supporting marine equipment.",
+      "description": "Abu Dhabi National Oil Company (ADNOC) was to operate in all areas of the oil and gas industry and since then has steadily broadened its activity in establishing companies and subsidiaries and creating an integrated oil and gas industry in the fields of exploration and production, support services, oil refining and gas processing, chemicals and petrochemicals, maritime transportation and refined products and distribution.\n\nADNOC Drilling Company PJSC provides drilling services and associated marine equipment, as well as the hiring out of onshore and offshore drilling rigs on behalf of connected parties engaging in onshore and offshore oil and gas exploration. Onshore, Offshore Jack-up, Offshore Island, and OilField Service are the operating business segments, with Onshore generating the most revenue.",
+      "website": "http://adnoc.ae/",
+      "foundedYear": 1971,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Public",
+      "companyType": "For profit",
+      "employeeRange": "10,001+",
+      "estimatedRevenueRange": "$1B-$10B",
+      "headquarters": "Abu Dhabi, United Arab Emirates",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Manufacturing",
+        "Marine Technology",
+        "Oil and Gas"
+      ],
+      "sectors": [
+        "Energy",
+        "Manufacturing",
+        "Natural Resources",
+        "Science and Engineering"
+      ],
+      "founders": [
+        "Abdul Raheim"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "Exploration, development, and production of conventional and unconventional oil and natural gas resources across Abu Dhabi’s onshore and offshore fields.",
+        "name": "Oil and Gas Exploration and Production"
+      },
+      {
+        "description": "Onshore and offshore drilling services supporting the development of Abu Dhabi’s conventional and unconventional oil and gas resources.",
+        "name": "ADNOC Drilling Services"
+      },
+      {
+        "description": "Processing and marketing of natural gas and associated products for domestic and international customers.",
+        "name": "Natural Gas Processing and Marketing"
+      },
+      {
+        "description": "Production and supply of Abu Dhabi crude oil for domestic refining and international customers, including Murban and offshore grades.",
+        "name": "Crude Oil"
+      },
+      {
+        "description": "Refining and supply of fuels and other petroleum products for domestic and international markets.",
+        "name": "Refined Petroleum Products"
+      },
+      {
+        "description": "Production, supply, marketing, and trading of liquefied natural gas for international energy customers.",
+        "name": "Liquefied Natural Gas (LNG)"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 21994814886,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 5,
+      "detailedRoundCount": 5,
+      "lastFundingDate": "2025-10-01",
+      "lastFundingType": "Post IPO Equity",
+      "rounds": [
+        {
+          "announcedDate": "2025-10-01",
+          "investorCount": 1,
+          "leadInvestors": [
+            "Kohlberg Kravis Roberts & Co."
+          ],
+          "type": "Post IPO Equity"
+        },
+        {
+          "announcedDate": "2024-07-04",
+          "amount": {
+            "amount": 2994814886,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "Japan Bank for International Cooperation"
+          ],
+          "type": "Post IPO Debt"
+        },
+        {
+          "announcedDate": "2023-06-21",
+          "amount": {
+            "amount": 900000000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "DHS Ventures & Holdings"
+          ],
+          "type": "Post IPO Equity"
+        },
+        {
+          "announcedDate": "2020-06-23",
+          "amount": {
+            "amount": 8000000000,
+            "currency": "USD"
+          },
+          "investorCount": 9,
+          "type": "Post IPO Debt"
+        },
+        {
+          "announcedDate": "2020-06-23",
+          "amount": {
+            "amount": 10100000000,
+            "currency": "USD"
+          },
+          "investorCount": 6,
+          "postMoneyValuation": {
+            "amount": 20612244898,
+            "currency": "USD"
+          },
+          "type": "Post IPO Equity"
+        }
+      ],
+      "investors": {
+        "reportedCount": 18,
+        "visibleNames": [
+          {
+            "name": "Abu Dhabi Commercial Bank",
+            "rounds": [
+              "Post-IPO Debt"
+            ]
+          },
+          {
+            "name": "BNP Paribas",
+            "rounds": [
+              "Post-IPO Debt"
+            ]
+          },
+          {
+            "name": "Crédit Agricole",
+            "rounds": [
+              "Post-IPO Debt"
+            ]
+          },
+          {
+            "isLead": true,
+            "name": "DHS Ventures & Holdings",
+            "rounds": [
+              "Post-IPO Equity"
+            ]
+          },
+          {
+            "name": "GIC",
+            "rounds": [
+              "Post-IPO Equity"
+            ]
+          },
+          {
+            "name": "HSBC"
+          },
+          {
+            "isLead": true,
+            "name": "Japan Bank for International Cooperation",
+            "rounds": [
+              "Post-IPO Debt"
+            ]
+          },
+          {
+            "isLead": true,
+            "name": "Kohlberg Kravis Roberts & Co.",
+            "rounds": [
+              "Post-IPO Equity"
+            ]
+          },
+          {
+            "name": "MUFG Bank"
+          },
+          {
+            "name": "NH Investment & Securities",
+            "rounds": [
+              "Post-IPO Equity"
+            ]
+          },
+          {
+            "name": "Ontario Teachers' Pension Plan",
+            "rounds": [
+              "Post-IPO Equity"
+            ]
+          },
+          {
+            "name": "Standard Chartered Bank",
+            "rounds": [
+              "Post-IPO Debt"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 841,
+      "includedUniqueCount": 10,
+      "items": [
+        {
+          "date": "2026-08-26",
+          "publisher": "The National",
+          "title": "Taqa to be delisted from ADX as L’imad completes acquisition",
+          "url": "https://www.thenationalnews.com/business/energy/2026/08/26/taqa-to-be-delisted-from-adx-as-limad-completes-acquisition/"
+        },
+        {
+          "date": "2026-08-25",
+          "publisher": "The National",
+          "title": "Adnoc's approach has made the UAE a 'top five' robotic country, Gecko CEO says",
+          "url": "https://www.thenationalnews.com/future/technology/2026/08/25/gecko-robotics-uae-adnoc/"
+        },
+        {
+          "date": "2026-08-14",
+          "publisher": "Business Insider",
+          "title": "British oil giant faces major setback in Africa’s richest country as top court blocks offshore oil exploration",
+          "url": "https://africa.businessinsider.com/local/markets/british-oil-giant-faces-major-setback-in-africas-richest-country-as-top-court-blocks/fxts21y"
+        },
+        {
+          "date": "2026-08-12",
+          "publisher": "Atalayar",
+          "title": "In the Wake of Tensions in the Strait of Hormuz, the United Arab Emirates Chart the Future of Global Energy",
+          "url": "https://www.atalayar.com/en/articulo/economy-and-business/in-the-wake-of-tensions-in-the-strait-of-hormuz-the-united-arab-emirates-chart-the-future-of-global-energy/20260812182600228343.html"
+        },
+        {
+          "date": "2026-08-07",
+          "publisher": "Offshore Technology",
+          "title": "ADNOC L&S buys 11 vessels in $1.3bn fleet expansion",
+          "url": "https://www.offshore-technology.com/news/adnoc-ls-1-3bn-fleet-expansion/"
+        },
+        {
+          "date": "2026-08-06",
+          "publisher": "https://fastcompanyme.com",
+          "title": "ADCCI report highlights Abu Dhabi’s growing role in the global hydrogen economy",
+          "url": "https://fastcompanyme.com/news/adcci-report-highlights-abu-dhabis-growing-role-in-the-global-hydrogen-economy/"
+        },
+        {
+          "date": "2026-08-04",
+          "publisher": "MarketScreener",
+          "title": "ADNOC Teams Up with SLB to Deploy AI Platform on Drilling Rigs Fleet",
+          "url": "https://www.marketscreener.com/news/adnoc-teams-up-with-slb-to-deploy-ai-platform-on-drilling-rigs-fleet-ce7f50ded98ffe2c"
+        },
+        {
+          "date": "2026-07-29",
+          "publisher": "EIN Presswire",
+          "title": "Drilling Tools Market to Reach USD 16.06 Billion by 2035 at 5.00% CAGR.",
+          "url": "https://www.einpresswire.com/article/929026002/drilling-tools-market-to-reach-usd-16-06-billion-by-2035-at-5-00-cagr"
+        },
+        {
+          "date": "2026-07-23",
+          "publisher": "IndiaTimes",
+          "title": "India to build Phase-II strategic oil reserves at Rs 14,527 cr under PPP model",
+          "url": "https://economictimes.indiatimes.com/industry/energy/oil-gas/india-to-build-phase-ii-strategic-oil-reserves-at-rs-14527-cr-under-ppp-model/articleshow/132580005.cms"
+        },
+        {
+          "date": "2026-07-21",
+          "publisher": "eyeofriyadh.com",
+          "title": "ADNOC accelerates gas growth strategy with $6.2 billion FID for Umm Shaif Gas Cap",
+          "url": "https://www.eyeofriyadh.com/news/details/adnoc-accelerates-gas-growth-strategy-with-6-2-billion-fid-for-umm-shaif-gas-cap"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 4,
+    "knownDetailedFundingAmount": {
+      "amount": 21994814886,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "reportedPartnerships": {
+      "note": "Provider event summaries with linked sources; not independently verified.",
+      "items": [
+        {
+          "date": "2026-07-21",
+          "description": "ADNOC, TotalEnergies, and Eni have entered into a formal partnership to develop the $6.2 billion Umm Shaif Gas Cap project in Abu Dhabi, supporting future LNG export capacity from the UAE.",
+          "sources": [
+            {
+              "date": "2026-07-21",
+              "publisher": "MarketScreener",
+              "title": "ADNOC Makes $6.2 Billion Investment Decision on Umm Shaif Gas Cap Project With TotalEnergies, Eni",
+              "url": "https://www.marketscreener.com/news/adnoc-makes-6-2-billion-investment-decision-on-umm-shaif-gas-cap-project-with-totalenergies-eni-ce7f51dbd089f624"
+            }
+          ]
+        },
+        {
+          "date": "2026-06-11",
+          "description": "India and the UAE, through Abu Dhabi National Oil Company, are advancing a strategic energy partnership to expand UAE-linked crude oil storage in India from 5.8 million to 30 million barrels and to jointly explore strategic gas reserves and crude storage in Fujairah.",
+          "sources": [
+            {
+              "date": "2026-06-11",
+              "publisher": "IndiaTimes",
+              "title": "30 million barrels of oil storage: India, UAE work to expand strategic reserves - here’s why it’s significant",
+              "url": "https://timesofindia.indiatimes.com/business/india-business/30-million-barrels-of-oil-storage-india-uae-work-to-expand-strategic-reserves-heres-why-its-significant/articleshow/131650976.cms"
+            }
+          ]
+        },
+        {
+          "date": "2026-04-29",
+          "description": "Abu Dhabi National Oil Company and Indian Strategic Petroleum Reserves Limited maintain a bilateral arrangement under which ADNOC has stored 5.86 million barrels of crude in India’s Mangalore strategic reserve, forming an energy-security link between the UAE and India.",
+          "sources": [
+            {
+              "date": "2026-04-29",
+              "publisher": "Indian Express",
+              "title": "In exiting OPEC, UAE has prioritised changing realities over cartel loyalty",
+              "url": "https://indianexpress.com/article/opinion/columns/opec-uae-exit-saudi-india-reserves-israel-trump-iran-war-gulf-10662230/"
+            }
+          ]
+        },
+        {
+          "date": "2025-12-31",
+          "description": "Abu Dhabi National Energy Company (TAQA) and Emirates Water and Electricity Company (EWEC) announced financial close for the AED 3.6 billion, 1GW Al Dhafra Power Plant, a strategic partnership project to supply power to data centres and support the UAE AI strategy.",
+          "sources": [
+            {
+              "date": "2025-12-31",
+              "publisher": "eyeofriyadh.com",
+              "title": "TAQA, EWEC announce financial closing for 1GW Al Dhafra Power Plant",
+              "url": "https://www.eyeofriyadh.com/news/details/taqa-ewec-announce-financial-closing-for-1gw-al-dhafra-power-plant%3E"
+            }
+          ]
+        },
+        {
+          "date": "2025-12-31",
+          "description": "ADNIC entered a long-term strategic partnership with Allianz Trade in the Middle East to expand trade credit insurance solutions across the UAE.",
+          "sources": [
+            {
+              "date": "2026-02-10",
+              "publisher": "Zawya.com",
+              "title": "ADNIC reports strong full-year performance in 2025",
+              "url": "https://www.zawya.com/en/press-release/companies-news/adnic-reports-strong-full-year-performance-in-2025-mdt5bu6l"
+            }
+          ]
+        },
+        {
+          "date": "2025-11-10",
+          "description": "ADNIC announced a long-term strategic partnership with Allianz Trade in the Middle East to expand access to trade credit insurance solutions for UAE businesses, combining ADNIC's local expertise with Allianz Trade's credit risk capabilities.",
+          "sources": [
+            {
+              "date": "2025-11-10",
+              "publisher": "Zawya.com",
+              "title": "ADNIC reports strong 9M 2025 performance driven by continued growth and strategic partnerships",
+              "url": "https://www.zawya.com/en/press-release/companies-news/adnic-reports-strong-9m-2025-performance-driven-by-continued-growth-and-strategic-partnerships-iso32a0g"
+            }
+          ]
+        },
+        {
+          "date": "2025-10-09",
+          "description": "ADNOC Gas signed a 20-year AED147 billion gas supply agreement with Ruwais LNG, securing feedstock for the UAE’s largest LNG facility.",
+          "sources": [
+            {
+              "date": "2025-10-09",
+              "publisher": "eyeofriyadh.com",
+              "title": "ADNOC listed companies target record AED158 billion in dividends from 2025 to 2030",
+              "url": "https://www.eyeofriyadh.com/news/details/adnoc-listed-companies-target-record-aed158-billion-in-dividends-from-2025-to-2030"
+            }
+          ]
+        },
+        {
+          "date": "2025-08-27",
+          "description": "Adnoc agreed a 15-year LNG supply contract with Indian Oil for 1 million tons per year, primarily from the under-construction Ruwais export terminal; a separate deal covers 1.2 million tons per year from Das Island operations.",
+          "sources": [
+            {
+              "date": "2025-08-27",
+              "publisher": "Bloomberg",
+              "title": "UAE’s Adnoc Expands LNG Sales With 15-Year India Supply Deal",
+              "url": "https://bloomberg.com/news/articles/2025-08-27/uae-s-adnoc-expands-lng-sales-with-15-year-india-supply-deal"
+            }
+          ]
+        },
+        {
+          "date": "2025-07-23",
+          "description": "Abu Dhabi National Insurance Company (ADNIC) and Sheikh Zayed Housing Program (SZHP) have announced a strategic partnership to launch a specialized life insurance offering for eligible UAE Nationals, enhancing financial inclusion for older borrowers.",
+          "sources": [
+            {
+              "date": "2025-07-23",
+              "publisher": "Zawya.com",
+              "title": "ADNIC and Sheikh Zayed Housing Program sign strategic partnership to support UAE Nationals with life insurance",
+              "url": "https://www.zawya.com/en/press-release/companies-news/adnic-and-sheikh-zayed-housing-program-sign-strategic-partnership-to-support-uae-nationals-with-life-insurance-c4uz37hq"
+            }
+          ]
+        },
+        {
+          "date": "2025-06-16",
+          "description": "Abu Dhabi National Energy Company (TAQA) and Kuwait's Ministry of Electricity, Water and Renewable Energy have agreed to form a joint technical team to study and implement energy and water projects, as part of a broader memorandum of understanding to enhance bilateral cooperation.",
+          "sources": [
+            {
+              "date": "2025-06-16",
+              "publisher": "Times Kuwait",
+              "title": "Kuwait, UAE’s TAQA agree to joint technical team for energy and water projects",
+              "url": "https://timeskuwait.com/kuwait-uaes-taqa-agree-to-joint-technical-team-for-energy-and-water-projects/"
+            }
+          ]
+        }
+      ]
+    },
+    "crunchbaseMomentum": {
+      "growthInsightGeneratedDate": "2026-08-16",
+      "growthChange90Days": -5,
+      "growthScore": 87,
+      "heatChange90Days": 6,
+      "heatScore": 72,
+      "status": "Growing"
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2025-09-22",
+        "probabilityPercent": 0
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Masdar is a state-owned renewable energy company that develops and operates solar, wind, energy storage, and geothermal projects.",
+          "employeeRange": "501-1,000",
+          "name": "Masdar",
+          "similarityScore": 100
+        },
+        {
+          "description": "Seabound offers an onboard carbon capture system for ships that traps CO₂ emissions as solid carbonate pebbles.",
+          "employeeRange": "11-50",
+          "name": "Seabound",
+          "sharedSpecialties": [
+            "Offshore and Marine Logistics",
+            "Offshore Support Services",
+            "Bioenergy with Carbon Capture and Storage",
+            "Port and Terminal Services",
+            "Carbon Capture and Utilization"
+          ],
+          "similarityScore": 93.197
+        },
+        {
+          "description": "BP is an energy company providing oil, gas, and renewable energy solutions, alongside refining, trading, and shipping services worldwide.",
+          "employeeRange": "10,001+",
+          "name": "BP p.l.c.",
+          "sharedCategories": [
+            "Oil and Gas"
+          ],
+          "sharedSpecialties": [
+            "Oil and Gas Exploration and Production",
+            "Liquid Bulk Terminals and LPG Services",
+            "Offshore and Marine Logistics",
+            "Liquefied Natural Gas (LNG)",
+            "Hydrogen Energy",
+            "Oilfield Equipment and Services"
+          ],
+          "similarityScore": 84.953
+        },
+        {
+          "description": "Equatic uses a seawater electrolysis process that enhances the ocean's capacity to absorb and store large quantities of carbon dioxide.",
+          "employeeRange": "11-50",
+          "name": "Equatic",
+          "sharedSpecialties": [
+            "Hydrogen Energy",
+            "Bioenergy with Carbon Capture and Storage",
+            "Carbon Capture and Utilization"
+          ],
+          "similarityScore": 79.47
+        },
+        {
+          "description": "Eni is an integrated energy company that engages in oil and natural gas exploration and production.",
+          "employeeRange": "10,001+",
+          "name": "Eni",
+          "sharedCategories": [
+            "Oil and Gas"
+          ],
+          "sharedSpecialties": [
+            "Oil and Gas Exploration and Production",
+            "Liquefied Natural Gas (LNG)",
+            "Oilfield Equipment and Services",
+            "Bioenergy with Carbon Capture and Storage"
+          ],
+          "similarityScore": 74.592
+        }
+      ]
+    },
+    "aiResearchSummary": {
+      "notFact": true,
+      "text": "Abu Dhabi National Oil Company is advancing subsurface characterization and reservoir engineering through work on a Method of detection of hydrocarbon horizontal slippage passages and Muon based imaging and detection of fluids, gases and natural solids. It pursues reservoir stimulation using a Limited entry liner for hydrocarbon reservoir stimulation with deep penetration and a Method for determining an outlet configuration of a liner, and improves planning via a System for recommending a reservoir monitoring plan and flow testing plan of wells, covering detection, imaging, stimulation and monitoring."
+    }
+  },
+  "insights": [
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $20,612,244,898 to $20,612,244,898, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 87 (-5 over 90 days) and market heat at 72 (+6).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Masdar, Seabound, BP p.l.c..",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "issues": [
+      {
+        "severity": "low",
+        "finding": "Crunchbase reports 841 timeline items but exposes 10 unique items in this payload.",
+        "impact": "Recent news is a partial sample, not a complete history."
+      }
+    ],
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

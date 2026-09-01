@@ -1,0 +1,304 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T13:37:53.701Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T13:37:53.699Z",
+    "url": "https://www.crunchbase.com/organization/tamweel-trading-company"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Tamweel Trading Company.",
+      "shortDescription": "Tamweel Trading Company was established in 2018 and it is specialized in BNPL (Buy now, pay later) Service.",
+      "description": "Tamweel Trading Company was established in 2018 and it is specialized in selling  through comfortable monthly installments to individuals, small and medium-sized companies, employees of public and private sectors, as well as professionals and Taxi Drivers in Jordan, The company offers easy financing solutions for a wide range of products including cellular devices, home appliances, sports and electronic appliances, furnishings and more.",
+      "website": "https://tamweeljo.com/",
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "1-10",
+      "headquarters": "Amman, Jordan",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Financial Services",
+        "FinTech"
+      ],
+      "sectors": [
+        "Financial Services"
+      ],
+      "founders": [
+        "Mahmoud Khater"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "A financial service allowing customers to purchase products immediately and pay for them in installments over time.",
+        "name": "Buy Now, Pay Later (BNPL) Service"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 320000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 3,
+      "detailedRoundCount": 3,
+      "lastFundingDate": "2021-11-04",
+      "lastFundingType": "Seed",
+      "rounds": [
+        {
+          "announcedDate": "2021-11-04",
+          "amount": {
+            "amount": 150000,
+            "currency": "USD"
+          },
+          "postMoneyValuation": {
+            "amount": 500000,
+            "currency": "USD"
+          },
+          "type": "Seed"
+        },
+        {
+          "announcedDate": "2019-04-21",
+          "amount": {
+            "amount": 100000,
+            "currency": "USD"
+          },
+          "postMoneyValuation": {
+            "amount": 300000,
+            "currency": "USD"
+          },
+          "type": "Seed"
+        },
+        {
+          "announcedDate": "2018-02-03",
+          "amount": {
+            "amount": 70000,
+            "currency": "USD"
+          },
+          "postMoneyValuation": {
+            "amount": 170000,
+            "currency": "USD"
+          },
+          "type": "Pre Seed"
+        }
+      ]
+    },
+    "recentNews": {
+      "reportedCount": 3,
+      "includedUniqueCount": 3,
+      "items": [
+        {
+          "date": "2021-11-04",
+          "title": "Seed Round - Tamweel Trading Company."
+        },
+        {
+          "date": "2019-04-21",
+          "title": "Seed Round - Tamweel Trading Company."
+        },
+        {
+          "date": "2018-02-03",
+          "title": "Pre Seed Round - Tamweel Trading Company."
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 3,
+    "knownDetailedFundingAmount": {
+      "amount": 320000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 46.88,
+    "latestToEarliestKnownValuationMultiple": 2.94
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": 4,
+      "growthScore": 31,
+      "heatChange90Days": -14,
+      "heatScore": 53
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 45.07
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 21.57,
+        "timingEstimatePercent": {
+          "within6Months": 14.58,
+          "months6To11": 12.45,
+          "months12To24": 19.72,
+          "beyond24Months": 24.89
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 73.97
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 35.45
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Tymit is a credit company that offers traditional credit cards and a buy now, pay later service.",
+          "employeeRange": "101-250",
+          "name": "Tymit",
+          "sharedCategories": [
+            "Financial Services"
+          ],
+          "sharedSpecialties": [
+            "Payment Processing",
+            "Banking-as-a-Service (BaaS)",
+            "Merchant Services",
+            "Payment Gateway Services",
+            "Payment Analytics and Dashboard",
+            "Account Verification and KYC"
+          ],
+          "similarityScore": 100
+        },
+        {
+          "description": "Tabby is a payments and shopping app that enables customers to make purchases and pay for them in installments.",
+          "employeeRange": "1-10",
+          "name": "Tabby",
+          "sharedCategories": [
+            "Financial Services",
+            "FinTech"
+          ],
+          "sharedSpecialties": [
+            "Payment Facilitation (PayFac) Infrastructure",
+            "Merchant Services",
+            "Payment Gateway Services",
+            "Payment Analytics and Dashboard",
+            "Account Verification and KYC"
+          ],
+          "similarityScore": 95
+        },
+        {
+          "description": "Xare is a revolutionary way for you to share access to your credit or debit cards with anyone, anywhere –securely, instantly",
+          "employeeRange": "11-50",
+          "name": "Xare",
+          "sharedCategories": [
+            "Financial Services",
+            "FinTech"
+          ],
+          "sharedSpecialties": [
+            "Account Verification and KYC"
+          ],
+          "similarityScore": 93.266
+        },
+        {
+          "description": "Postpay is a financial technology company that provides Buy Now, Pay Later (BNPL) payment solutions for online and in-store shoppers.",
+          "employeeRange": "51-100",
+          "name": "Postpay",
+          "sharedCategories": [
+            "Financial Services"
+          ],
+          "sharedSpecialties": [
+            "Payment Processing",
+            "Loan Management Systems",
+            "Merchant Services",
+            "Payment Orchestration Platforms",
+            "Payment Gateway Services",
+            "Payment Analytics and Dashboard"
+          ],
+          "similarityScore": 91
+        },
+        {
+          "description": "Cashew allows banks to turn their mobile applications into a means of payment with Point-of-Sale financing functionality.",
+          "employeeRange": "11-50",
+          "name": "Cashew",
+          "sharedSpecialties": [
+            "Payment Processing",
+            "Loan Management Systems",
+            "Banking-as-a-Service (BaaS)",
+            "Payment Facilitation (PayFac) Infrastructure",
+            "Merchant Services",
+            "Payment Orchestration Platforms",
+            "Payment Gateway Services",
+            "Payment Analytics and Dashboard"
+          ],
+          "similarityScore": 88
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Seed round raised $150,000, or 46.88% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $170,000 to $500,000, a 2.94x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 31 (+4 over 90 days) and market heat at 53 (-14).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Tymit, Tabby, Xare.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

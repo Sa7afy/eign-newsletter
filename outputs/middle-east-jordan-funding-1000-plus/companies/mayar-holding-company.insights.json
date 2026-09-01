@@ -1,0 +1,251 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T12:29:00.343Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T12:29:00.342Z",
+    "url": "https://www.crunchbase.com/organization/mayar-holding-company"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Mayar Holding Company",
+      "shortDescription": "Mayar Holding Company invests in industrial sectors, including elevators, escalators, and poultry sales through its subsidiaries.",
+      "website": "https://www.mayar.com.sa/",
+      "foundedYear": 1999,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Public",
+      "companyType": "For profit",
+      "employeeRange": "11-50",
+      "estimatedRevenueRange": "$10M-$50M",
+      "headquarters": "Riyadh, Ar Riyad, Saudi Arabia",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Building Material",
+        "Industrial",
+        "Manufacturing"
+      ],
+      "sectors": [
+        "Manufacturing",
+        "Real Estate"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "Manufacture of elevators and escalators for buildings and infrastructure projects.",
+        "name": "Elevators and Escalators Manufacturing"
+      },
+      {
+        "description": "Trading, installation, operation, and maintenance services for elevators and escalators.",
+        "name": "Elevator and Escalator Trading, Installation, Operation, and Maintenance"
+      },
+      {
+        "description": "Manufacture and sale of animal feed for livestock and poultry.",
+        "name": "Animal Feed Production"
+      },
+      {
+        "description": "Raising and selling poultry products including live birds and processed poultry.",
+        "name": "Poultry Farming and Sales"
+      },
+      {
+        "description": "Manufacture of plastic components and systems for drip irrigation.",
+        "name": "Drip Irrigation Systems Manufacturing"
+      },
+      {
+        "description": "Manufacture of plastic shoes, sandals, and EVA/PVC compounds for footwear.",
+        "name": "Plastic Footwear and EVA/PVC Compound Manufacturing"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 23464208,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2025-12-29",
+      "lastFundingType": "Post IPO Debt",
+      "rounds": [
+        {
+          "announcedDate": "2025-12-29",
+          "amount": {
+            "amount": 23464208,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "Saudi Awwal Bank"
+          ],
+          "type": "Post IPO Debt"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "Saudi Awwal Bank",
+            "rounds": [
+              "Post-IPO Debt"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 3,
+      "includedUniqueCount": 3,
+      "items": [
+        {
+          "date": "2026-03-24",
+          "publisher": "TradingView",
+          "title": "Mayar Holding FY Loss 46.3 Million Riyals",
+          "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN40B0WE:0-mayar-holding-fy-loss-46-3-million-riyals/"
+        },
+        {
+          "date": "2025-12-29",
+          "title": "Post-IPO Debt - Mayar Holding Company"
+        },
+        {
+          "date": "2023-04-13",
+          "title": "9568"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 23464208,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthInsightGeneratedDate": "2026-04-05",
+      "growthChange90Days": 0,
+      "growthScore": 88,
+      "heatChange90Days": -3,
+      "heatScore": 64,
+      "status": "Declining"
+    },
+    "modelPredictions": {
+      "growth": {
+        "generatedDate": "2025-12-27",
+        "probabilityPercent": 95.8
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "FormStudio manufactures plastic shoes for men and women.",
+          "employeeRange": "11-50",
+          "name": "FormStudio",
+          "sharedCategories": [
+            "Manufacturing"
+          ],
+          "similarityScore": 100
+        },
+        {
+          "description": "Royal Fuji Star specializes in elevator and lift installation, maintenance, and repair services.",
+          "employeeRange": "101-250",
+          "name": "Royal Fuji Star",
+          "sharedCategories": [
+            "Industrial"
+          ],
+          "sharedSpecialties": [
+            "Elevator Installation",
+            "Elevator Control Systems",
+            "Elevator and Escalator Maintenance"
+          ],
+          "similarityScore": 95.027
+        },
+        {
+          "description": "Boswell provides solutions for fire & security system, lightning protection system, and surge protection system.",
+          "employeeRange": "1-10",
+          "name": "Boswell",
+          "sharedCategories": [
+            "Industrial"
+          ],
+          "similarityScore": 90.424
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Post IPO Debt round raised $23,464,208, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 88 (+0 over 90 days) and market heat at 64 (-3).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Strategic repositioning and listing coverage shape the current narrative",
+      "statement": "Mayar Holding Company has a recent strategic-positioning change; 1 recent unique news titles explicitly contain the English terms IPO or listing.",
+      "implication": "Their timing coincides with increased visibility in the loaded news and Crunchbase momentum signals, but the data does not establish causation.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.company.formerName",
+        "facts.recentNews",
+        "providerSignals.crunchbaseMomentum"
+      ],
+      "caveats": [
+        "The causal link to Crunchbase momentum is an inference from timing, not a disclosed company metric."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include FormStudio, Royal Fuji Star, Boswell.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

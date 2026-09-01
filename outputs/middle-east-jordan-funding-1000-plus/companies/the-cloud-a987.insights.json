@@ -1,0 +1,242 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T13:42:33.968Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T13:42:33.966Z",
+    "url": "https://www.crunchbase.com/organization/the-cloud-a987"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "The Cloud",
+      "shortDescription": "The Cloud is a B2B2C web platform where kitchens can leverage their excess capacity by hosting third party restaurants.",
+      "description": "The Cloud is a B2B2C web platform where kitchens can leverage their excess capacity by hosting third party restaurants.",
+      "website": "https://www.thecloud.ae/",
+      "operatingStatus": "Closed",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "101-250",
+      "headquarters": "Abu Dhabi, United Arab Emirates",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "E-Commerce Platforms",
+        "Food and Beverage",
+        "Food Delivery",
+        "Restaurants",
+        "Supply Chain Management"
+      ],
+      "sectors": [
+        "Commerce and Shopping",
+        "Food and Beverage",
+        "Internet Services",
+        "Transportation"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 22000000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 5,
+      "detailedRoundCount": 5,
+      "lastFundingDate": "2024-02-19",
+      "lastFundingType": "Series B",
+      "rounds": [
+        {
+          "announcedDate": "2024-02-19",
+          "amount": {
+            "amount": 12000000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "MENA Moonshots"
+          ],
+          "type": "Series B"
+        },
+        {
+          "announcedDate": "2024-02-19",
+          "investorCount": 1,
+          "leadInvestors": [
+            "Aluna Partners"
+          ],
+          "type": "Debt Financing"
+        },
+        {
+          "announcedDate": "2022-09-14",
+          "amount": {
+            "amount": 10000000,
+            "currency": "USD"
+          },
+          "investorCount": 2,
+          "leadInvestors": [
+            "Middle East Venture Partners (MEVP)"
+          ],
+          "type": "Series A"
+        },
+        {
+          "announcedDate": "2020-12-01",
+          "investorCount": 1,
+          "leadInvestors": [
+            "Middle East Venture Partners (MEVP)"
+          ],
+          "type": "Seed"
+        },
+        {
+          "announcedDate": "2019-12-01",
+          "investorCount": 1,
+          "leadInvestors": [
+            "Elēkrŏn Ventures"
+          ],
+          "type": "Pre Seed"
+        }
+      ],
+      "investors": {
+        "reportedCount": 5,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "Aluna Partners",
+            "rounds": [
+              "Debt Financing"
+            ]
+          },
+          {
+            "isLead": true,
+            "name": "Elēkrŏn Ventures",
+            "rounds": [
+              "Pre Seed Round"
+            ]
+          },
+          {
+            "isLead": true,
+            "name": "MENA Moonshots",
+            "rounds": [
+              "Series B"
+            ]
+          },
+          {
+            "isLead": true,
+            "name": "Middle East Venture Partners (MEVP)",
+            "rounds": [
+              "Series A",
+              "Seed Round"
+            ]
+          },
+          {
+            "name": "Rua Growth Fund",
+            "rounds": [
+              "Series A"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 6,
+      "includedUniqueCount": 6,
+      "items": [
+        {
+          "date": "2024-02-19",
+          "title": "Debt Financing - The Cloud"
+        },
+        {
+          "date": "2024-02-19",
+          "title": "Series B - The Cloud"
+        },
+        {
+          "date": "2024-02-19",
+          "title": "Kbox Global acquired by The Cloud"
+        },
+        {
+          "date": "2022-09-14",
+          "title": "Series A - The Cloud"
+        },
+        {
+          "date": "2020-12-01",
+          "title": "Seed Round - The Cloud"
+        },
+        {
+          "date": "2019-12-01",
+          "title": "Pre Seed Round - The Cloud"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 2,
+    "knownDetailedFundingAmount": {
+      "amount": 22000000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 54.55
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "heatChange90Days": -8,
+      "heatScore": 50
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2025-12-02",
+        "probabilityPercent": 87.8
+      },
+      "funding": {
+        "generatedDate": "2025-12-02",
+        "probabilityPercent": 92.09,
+        "timingEstimatePercent": {
+          "within6Months": 99.97,
+          "months6To11": 0,
+          "months12To24": 0,
+          "beyond24Months": 0.03
+        }
+      },
+      "growth": {
+        "generatedDate": "2025-12-02",
+        "probabilityPercent": 95.5
+      },
+      "ipo": {
+        "generatedDate": "2025-12-02",
+        "probabilityPercent": 4.42
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors."
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Series B round raised $12,000,000, or 54.55% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

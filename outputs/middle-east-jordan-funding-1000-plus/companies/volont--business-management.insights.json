@@ -1,0 +1,297 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T13:55:29.909Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T13:55:29.907Z",
+    "url": "https://www.crunchbase.com/organization/volont%C3%A9-business-management"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Volonte Business Management",
+      "shortDescription": "Volonte Business Management is a consulting firm that offers boutique advisory services such as market research and business plans.",
+      "website": "https://www.volontebm.com/",
+      "foundedYear": 2020,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "11-50",
+      "estimatedRevenueRange": "$1M-$10M",
+      "headquarters": "Dubai, United Arab Emirates",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Business Development",
+        "Management Consulting",
+        "Market Research"
+      ],
+      "sectors": [
+        "Data and Analytics",
+        "Design",
+        "Professional Services"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "Provides tailored strategies for business growth, market entry, operational excellence, and performance optimization.",
+        "name": "Strategy Consulting"
+      },
+      {
+        "description": "Gathers and analyzes market data to provide insights for business strategy and competitive positioning.",
+        "name": "Market Research"
+      },
+      {
+        "description": "Develops detailed business plans outlining objectives, strategies, financial forecasts, and operational plans.",
+        "name": "Business Plans"
+      },
+      {
+        "description": "Designs investor-focused presentations to communicate business value and secure funding.",
+        "name": "Investment Pitch Deck"
+      },
+      {
+        "description": "Develops sustainability strategies, ESG frameworks, environmental assessments, and social impact initiatives.",
+        "name": "Sustainability and ESG Consulting Services"
+      },
+      {
+        "description": "Identifies performance gaps and develops strategies to address them for improved business alignment and execution.",
+        "name": "Gap Analysis"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 30000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2021-03-09",
+      "lastFundingType": "Seed",
+      "rounds": [
+        {
+          "announcedDate": "2021-03-09",
+          "amount": {
+            "amount": 30000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "FasterCapital"
+          ],
+          "postMoneyValuation": {
+            "amount": 780133,
+            "currency": "USD"
+          },
+          "type": "Seed"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "FasterCapital",
+            "rounds": [
+              "Seed Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 1,
+      "includedUniqueCount": 1,
+      "items": [
+        {
+          "date": "2021-03-09",
+          "title": "Seed Round - Volonte Business Management"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 30000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": 46,
+      "growthScore": 79,
+      "heatChange90Days": -13,
+      "heatScore": 54
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 0
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 18.34,
+        "timingEstimatePercent": {
+          "within6Months": 14.21,
+          "months6To11": 12.19,
+          "months12To24": 19.43,
+          "beyond24Months": 24.83
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 87.1
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 0
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Venture Plans is a full service management consulting firm with deep expertise in finance, technology and legal advisory.",
+          "employeeRange": "1-10",
+          "name": "Venture Plans",
+          "sharedCategories": [
+            "Business Development"
+          ],
+          "sharedSpecialties": [
+            "Startup and Scaleup Advisory",
+            "Strategy Consulting",
+            "Pitch Deck Design"
+          ],
+          "similarityScore": 97
+        },
+        {
+          "description": "Upmetrics is a well-rounded business planning software which helps you with every step of writing your business plan.",
+          "employeeRange": "11-50",
+          "name": "Upmetrics",
+          "sharedSpecialties": [
+            "Startup and Scaleup Advisory",
+            "Pitch Deck Design"
+          ],
+          "similarityScore": 95
+        },
+        {
+          "description": "Oliver Wyman is a management consulting firm that specializes in strategies, operations, risk management, and organizational transformation.",
+          "employeeRange": "1,001-5,000",
+          "name": "Oliver Wyman",
+          "sharedSpecialties": [
+            "Sustainability and ESG Consulting",
+            "Strategy Consulting",
+            "Operational Excellence Consulting",
+            "Change Management"
+          ],
+          "similarityScore": 91
+        },
+        {
+          "description": "Wise Business Plans is a fintech firm with U.S. MBA experts crafting business plans for startups, entrepreneurs & growing companies.",
+          "employeeRange": "11-50",
+          "name": "Wise Business Plans®",
+          "sharedCategories": [
+            "Business Development",
+            "Management Consulting"
+          ],
+          "sharedSpecialties": [
+            "Startup and Scaleup Advisory",
+            "Pitch Deck Design"
+          ],
+          "similarityScore": 89
+        },
+        {
+          "description": "Since 1999, Growthink has helped many businesses & assisted in transformative success through strategic, innovation, and business planning.",
+          "employeeRange": "11-50",
+          "name": "Growthink",
+          "sharedCategories": [
+            "Business Development",
+            "Management Consulting"
+          ],
+          "sharedSpecialties": [
+            "Product Strategy and Management",
+            "Startup and Scaleup Advisory",
+            "Strategy Consulting",
+            "Pitch Deck Design",
+            "Market Intelligence"
+          ],
+          "similarityScore": 87
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Seed round raised $30,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $780,133 to $780,133, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 79 (+46 over 90 days) and market heat at 54 (-13).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Venture Plans, Upmetrics, Oliver Wyman.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

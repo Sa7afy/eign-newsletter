@@ -1,0 +1,193 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T09:08:35.871Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T09:08:35.869Z",
+    "url": "https://www.crunchbase.com/organization/al-shroouk-scan-lab"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Al Shroouk Scan & Lab",
+      "shortDescription": "Al Shroouk Scan & Lab is a healthcare diagnostics company providing medical imaging, radiology, and laboratory testing services.",
+      "description": "Al Shroouk Scan & Lab is a healthcare diagnostics company that provides medical imaging, radiology, and laboratory testing services. The company offers diagnostic solutions such as MRI, CT scans, ultrasound, X-rays, and medical lab analyses through a network of diagnostic centers, focusing on accurate testing and advanced medical technology.",
+      "website": "http://alshroouk-scan.com/",
+      "foundedYear": 2009,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "251-500",
+      "headquarters": "Gîza, Al Jizah, Egypt",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Middle East",
+        "Middle East and North Africa (MENA)",
+        "North Africa"
+      ],
+      "industries": [
+        "Health Care",
+        "Hospital"
+      ],
+      "sectors": [
+        "Health Care"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 3941330,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2018-01-01",
+      "lastFundingType": "Debt Financing",
+      "rounds": [
+        {
+          "announcedDate": "2018-01-01",
+          "amount": {
+            "amount": 3941330,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "The Saudi Investment Bank"
+          ],
+          "type": "Debt Financing"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "The Saudi Investment Bank",
+            "rounds": [
+              "Debt Financing"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 2,
+      "includedUniqueCount": 2,
+      "items": [
+        {
+          "date": "2026-06-02",
+          "publisher": "EnterpriseAM Egypt",
+          "title": "Al Shroouk Scan maps out USD 20 mn expansion ahead of IPO",
+          "url": "https://enterpriseam.com/egypt/2026/06/02/al-shroouk-scan-maps-out-usd-20-mn-expansion-ahead-of-ipo/"
+        },
+        {
+          "date": "2018-01-01",
+          "title": "Debt Financing - Al Shroouk Scan & Lab"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 3941330,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthInsightGeneratedDate": "2026-06-14",
+      "growthChange90Days": -9,
+      "growthScore": 25,
+      "heatChange90Days": -32,
+      "heatScore": 56,
+      "status": "Growing"
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 11.9
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 21.09
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 12.51
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors."
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Debt Financing round raised $3,941,330, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 25 (-9 over 90 days) and market heat at 56 (-32).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Strategic repositioning and listing coverage shape the current narrative",
+      "statement": "Al Shroouk Scan & Lab has a recent strategic-positioning change; 1 recent unique news titles explicitly contain the English terms IPO or listing.",
+      "implication": "Their timing coincides with increased visibility in the loaded news and Crunchbase momentum signals, but the data does not establish causation.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.company.formerName",
+        "facts.recentNews",
+        "providerSignals.crunchbaseMomentum"
+      ],
+      "caveats": [
+        "The causal link to Crunchbase momentum is an inference from timing, not a disclosed company metric."
+      ]
+    },
+    {
+      "title": "IPO intent and modeled likelihood conflict",
+      "statement": "Recent headline metadata discusses an IPO or listing, while Crunchbase’s model assigns a 12.51% IPO probability.",
+      "implication": "Publicly discussed intent should not be treated as proof of execution; the conflict is a useful diligence flag for verifying filing status, timing, and exchange readiness.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.recentNews",
+        "providerSignals.modelPredictions.ipo"
+      ],
+      "caveats": [
+        "The prediction is an opaque model output and may lag current company plans."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

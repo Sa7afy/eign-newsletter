@@ -1,0 +1,187 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T12:26:30.033Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T12:26:30.032Z",
+    "url": "https://www.crunchbase.com/organization/mansourah-poultry"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Mansourah Poultry",
+      "shortDescription": "Mansoura Poultry Company is a poultry farm that produces and sells broiler chicks and hatching eggs.",
+      "description": "Mansoura Poultry Co specialized in the production of one-day-old broiler chicks. They protect, advance, and promote the company's growth and production. They also operate a veterinary pharmacy, provides different medicines such as antibiotics and veterinary vaccines. They developing up to date strategy and technology to provide innovative, relevant products and services.",
+      "website": "https://www.mpcopoultry.com/",
+      "operatingStatus": "Active",
+      "ownershipStatus": "Public",
+      "companyType": "For profit",
+      "employeeRange": "101-250",
+      "estimatedRevenueRange": "$10M-$50M",
+      "headquarters": "Ramadan City, Ash Sharqiyah, Egypt",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Middle East",
+        "Middle East and North Africa (MENA)",
+        "North Africa"
+      ],
+      "industries": [
+        "Agriculture",
+        "Farming",
+        "Food and Beverage",
+        "Industrial",
+        "Meat and Poultry"
+      ],
+      "sectors": [
+        "Agriculture and Farming",
+        "Food and Beverage",
+        "Manufacturing"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 4398304,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2025-09-28",
+      "lastFundingType": "Post IPO Secondary",
+      "rounds": [
+        {
+          "announcedDate": "2025-09-28",
+          "amount": {
+            "amount": 4398304,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "Egyptian Future Authority For Sustainable Development"
+          ],
+          "type": "Post IPO Secondary"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "Egyptian Future Authority For Sustainable Development",
+            "rounds": [
+              "Post-IPO Secondary"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 4,
+      "includedUniqueCount": 4,
+      "items": [
+        {
+          "date": "2026-06-02",
+          "publisher": "Zawya.com",
+          "title": "Egypt: Mansourah Poultry swings to losses in Q1 2026; board approves capital hike",
+          "url": "https://www.zawya.com/en/capital-markets/equities/egypt-mansourah-poultry-swings-to-losses-in-q1-2026-board-approves-capital-hike-o9vay24g"
+        },
+        {
+          "date": "2025-09-28",
+          "title": "Post-IPO Secondary - Mansourah Poultry"
+        },
+        {
+          "date": "2023-11-05",
+          "publisher": "TradingView",
+          "title": "Egypt's Mansoura Poultry Posts Q3 Profit",
+          "url": "https://www.tradingview.com/news/reuters.com,2023:newsml_FWN3C445T:0-egypt-s-mansoura-poultry-posts-q3-profit/"
+        },
+        {
+          "date": "1995-02-02",
+          "title": "MPCO"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 4398304,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthInsightGeneratedDate": "2026-07-05",
+      "growthChange90Days": -3,
+      "growthScore": 85,
+      "heatChange90Days": -9,
+      "heatScore": 78,
+      "status": "Declining"
+    },
+    "modelPredictions": {
+      "growth": {
+        "generatedDate": "2026-02-28",
+        "probabilityPercent": 95.39
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors."
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Post IPO Secondary round raised $4,398,304, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 85 (-3 over 90 days) and market heat at 78 (-9).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Strategic repositioning and listing coverage shape the current narrative",
+      "statement": "Mansourah Poultry has a recent strategic-positioning change; 1 recent unique news titles explicitly contain the English terms IPO or listing.",
+      "implication": "Their timing coincides with increased visibility in the loaded news and Crunchbase momentum signals, but the data does not establish causation.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.company.formerName",
+        "facts.recentNews",
+        "providerSignals.crunchbaseMomentum"
+      ],
+      "caveats": [
+        "The causal link to Crunchbase momentum is an inference from timing, not a disclosed company metric."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

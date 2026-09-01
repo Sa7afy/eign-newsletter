@@ -1,0 +1,187 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T12:17:45.750Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T12:17:45.748Z",
+    "url": "https://www.crunchbase.com/organization/labby-88ea"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Labby",
+      "shortDescription": "Labby is creating a digital platform to combine various common services into a single application.",
+      "description": "Labby is building a digital platform that will combine several routine services into a single application.",
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "headquarters": "Syria, Bur Sa'id, Egypt",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Middle East",
+        "Middle East and North Africa (MENA)",
+        "North Africa"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "A Syrian super app offering unified ride-hailing, delivery, and other everyday digital services in a single platform.",
+        "name": "Labby"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 10000000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2026-07-22",
+      "lastFundingType": "Undisclosed",
+      "rounds": [
+        {
+          "announcedDate": "2026-07-22",
+          "amount": {
+            "amount": 10000000,
+            "currency": "USD"
+          },
+          "type": "Undisclosed"
+        }
+      ]
+    },
+    "recentNews": {
+      "reportedCount": 9,
+      "includedUniqueCount": 9,
+      "items": [
+        {
+          "date": "2026-08-14",
+          "publisher": "FWDStart | MENA Startups, Tech News & VC Insights",
+          "title": "Tabby and Tamara diverge in Saudi, CMA probes the Kingdom's IPO flops",
+          "url": "https://www.fwdstart.me/p/tabby-and-tamara-diverge-in-saudi-cma-probes-the-kingdom-s-ipo-flops"
+        },
+        {
+          "date": "2026-07-31",
+          "publisher": "FWDStart | MENA Startups, Tech News & VC Insights",
+          "title": "UAE credit files add Tabby and Tamara, Abhi eyes Karachi listing",
+          "url": "https://www.fwdstart.me/p/uae-credit-files-add-tabby-and-tamara-abhi-eyes-karachi-listing"
+        },
+        {
+          "date": "2026-07-28",
+          "publisher": "إنت عربي | entARABI",
+          "title": "MENA Startups Raise $96.1 Million in Two Weeks as Saudi Arabia Leads Fintech Investment",
+          "url": "https://entarabi.com/en/2026/07/mena-startups-raise-96-1-million-in-two-weeks-as-saudi-arabia-leads-fintech-investment/"
+        },
+        {
+          "date": "2026-07-27",
+          "publisher": "intellinews.com",
+          "title": "Syria's Labby raises $10mn from Gulf investors in first foreign tech deal",
+          "url": "https://www.intellinews.com/syria-s-labby-raises-10mn-from-gulf-investors-in-first-foreign-tech-deal-457167/?source=saudi-arabia"
+        },
+        {
+          "date": "2026-07-27",
+          "publisher": "Incubees",
+          "title": "Syria’s super app Labby raises $10 M investment from multiple investors",
+          "url": "https://incubees.com/syrias-super-app-labby-raises-10-m-investment-from-multiple-investors/"
+        },
+        {
+          "date": "2026-07-25",
+          "publisher": "Arab News",
+          "title": "Investment momentum continues in MENA amid conflict",
+          "url": "https://www.arabnews.com/node/2652293/business-economy"
+        },
+        {
+          "date": "2026-07-22",
+          "title": "Funding Round - Labby"
+        },
+        {
+          "date": "2026-07-22",
+          "publisher": "إنت عربي | entARABI",
+          "title": "Syria Launches Super App “Labby” with $10 Million Foreign Investment",
+          "url": "https://entarabi.com/en/2026/07/syria-launches-super-app-labby-with-10-million-foreign-investment/"
+        },
+        {
+          "date": "2026-07-21",
+          "publisher": "Wamda",
+          "title": "Syria's startup ecosystem reaches milestone as Labby raises $10 million",
+          "url": "https://www.wamda.com/2026/07/syria-startup-ecosystem-reaches-milestone-labby-raises-10-million"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 10000000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthInsightGeneratedDate": "2026-08-02",
+      "growthChange90Days": 13,
+      "growthScore": 91,
+      "heatChange90Days": 42,
+      "heatScore": 46,
+      "status": "Growing"
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors."
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Undisclosed round raised $10,000,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 91 (+13 over 90 days) and market heat at 46 (+42).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Strategic repositioning and listing coverage shape the current narrative",
+      "statement": "Labby has a recent strategic-positioning change; 2 recent unique news titles explicitly contain the English terms IPO or listing.",
+      "implication": "Their timing coincides with increased visibility in the loaded news and Crunchbase momentum signals, but the data does not establish causation.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.company.formerName",
+        "facts.recentNews",
+        "providerSignals.crunchbaseMomentum"
+      ],
+      "caveats": [
+        "The causal link to Crunchbase momentum is an inference from timing, not a disclosed company metric."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

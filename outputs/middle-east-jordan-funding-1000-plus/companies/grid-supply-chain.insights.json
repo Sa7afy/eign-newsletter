@@ -1,0 +1,222 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T11:53:18.992Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T11:53:18.990Z",
+    "url": "https://www.crunchbase.com/organization/grid-supply-chain"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Grid Supply Chain",
+      "shortDescription": "Grid is a SaaS platform that brings efficiency into B2B logistics and transportation flows by sea, air, road & rail",
+      "description": "Grid aggregates supply and demand and enables shippers, carriers and freight forwarders to seamlessly share, communicate and collaborate logistics with end-to-end real-time visibility on shipments and processes.\n\nWe help ecosystem actors to save time, money and security stress through our collaborative logistics cost saving platform",
+      "website": "http://www.sc-grid.com/",
+      "operatingStatus": "Closed",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "1-10",
+      "estimatedRevenueRange": "$1M-$10M",
+      "headquarters": "Cairo, Al Qahirah, Egypt",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Middle East",
+        "Middle East and North Africa (MENA)",
+        "North Africa"
+      ],
+      "industries": [
+        "Freight Service",
+        "Logistics",
+        "SaaS",
+        "Shipping"
+      ],
+      "sectors": [
+        "Software",
+        "Transportation"
+      ],
+      "founders": [
+        "Ehab El Shishiny"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 50000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 3,
+      "detailedRoundCount": 3,
+      "lastFundingDate": "2018-02-01",
+      "lastFundingType": "Seed",
+      "rounds": [
+        {
+          "announcedDate": "2018-02-01",
+          "amount": {
+            "amount": 50000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "type": "Seed"
+        },
+        {
+          "announcedDate": "2017-01-01",
+          "type": "Pre Seed"
+        },
+        {
+          "announcedDate": "2015-12-01",
+          "investorCount": 1,
+          "leadInvestors": [
+            "TIEC Incubation"
+          ],
+          "type": "Non Equity Assistance"
+        }
+      ],
+      "investors": {
+        "reportedCount": 2,
+        "visibleNames": [
+          {
+            "name": "Startupbootcamp Smart City Dubai",
+            "rounds": [
+              "Seed Round"
+            ]
+          },
+          {
+            "isLead": true,
+            "name": "TIEC Incubation",
+            "rounds": [
+              "Non Equity Assistance"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 3,
+      "includedUniqueCount": 3,
+      "items": [
+        {
+          "date": "2018-02-01",
+          "title": "Seed Round - Grid Supply Chain"
+        },
+        {
+          "date": "2017-01-01",
+          "title": "Pre Seed Round - Grid Supply Chain"
+        },
+        {
+          "date": "2015-12-01",
+          "title": "Non Equity Assistance - Grid Supply Chain"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 50000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "heatChange90Days": -5,
+      "heatScore": 43
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Descartes provides cloud-based logistics and supply chain management solutions to improve productivity for businesses.",
+          "employeeRange": "1,001-5,000",
+          "name": "Descartes Systems Group",
+          "sharedCategories": [
+            "SaaS",
+            "Logistics"
+          ],
+          "similarityScore": 93
+        },
+        {
+          "description": "e2open is an enterprise platform that offers supply chain management solutions.",
+          "employeeRange": "1,001-5,000",
+          "name": "e2open",
+          "sharedCategories": [
+            "SaaS",
+            "Logistics"
+          ],
+          "similarityScore": 90
+        },
+        {
+          "description": "As the supply chain connective tissue, project44 operates the world’s most trusted end-to-end visibility platform Movement",
+          "employeeRange": "501-1,000",
+          "name": "project44",
+          "sharedCategories": [
+            "SaaS",
+            "Logistics",
+            "Freight Service"
+          ],
+          "similarityScore": 88
+        },
+        {
+          "description": "FourKites turns real-time supply chain data into automated execution with its Intelligent Control Tower™.",
+          "employeeRange": "501-1,000",
+          "name": "FourKites",
+          "sharedCategories": [
+            "Logistics"
+          ],
+          "similarityScore": 87
+        },
+        {
+          "description": "WiseTech Global develops cloud-based software solutions for the international and domestic logistics industries.",
+          "employeeRange": "1,001-5,000",
+          "name": "WiseTech Global",
+          "sharedCategories": [
+            "Logistics"
+          ],
+          "similarityScore": 86
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Seed round raised $50,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Descartes Systems Group, e2open, project44.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

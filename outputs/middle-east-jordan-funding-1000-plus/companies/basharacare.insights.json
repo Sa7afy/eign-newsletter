@@ -1,0 +1,344 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T10:57:37.259Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T10:57:37.256Z",
+    "url": "https://www.crunchbase.com/organization/basharacare"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "BasharaCare",
+      "shortDescription": "BasharaCare is an online retailer of skincare products targeted to consumers.",
+      "description": "BasharaCare is a Dubai-based online retailer that specialises in premium skincare, haircare, beauty, and grooming products. Founded in 2012, the company operates primarily as an e-commerce platform offering dermatologist-backed and clinically trusted beauty products to customers across the Middle East.\nThe platform provides a curated selection of professional skincare and cosmetic brands typically found in dermatology clinics, luxury spas, and pharmacies. BasharaCare focuses on high-performance products and innovations designed to address various skin and hair concerns such as aging, pigmentation, acne, and hair loss.",
+      "website": "https://www.basharacare.com/",
+      "foundedYear": 2012,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "11-50",
+      "estimatedRevenueRange": "$1M-$10M",
+      "headquarters": "Dubai, United Arab Emirates",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Beauty",
+        "E-Commerce",
+        "Health Care",
+        "Internet"
+      ],
+      "sectors": [
+        "Commerce and Shopping",
+        "Consumer Goods",
+        "Health Care",
+        "Information Technology"
+      ],
+      "founders": [
+        "Jad Haidamous"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "A cream formulated to restore lipids and address signs of aging in dry skin.",
+        "name": "SkinCeuticals Triple Lipid Restore 2:4:2 Anti Aging Cream for Dry Skin"
+      },
+      {
+        "description": "A skincare routine targeting melasma for normal to dry skin types.",
+        "name": "Eucerin Melasma Routine for Normal to Dry Skin"
+      },
+      {
+        "description": "Oral capsules intended to support skin radiance and address pigmentation issues.",
+        "name": "Heliocare Purewhite Radiance Max 240 Oral - 60 Capsules"
+      },
+      {
+        "description": "A vitamin C serum formulated to provide anti-aging benefits for sensitive skin.",
+        "name": "SkinCeuticals Serum 10 Anti Aging Vitamin C Serum for Sensitive Skin"
+      },
+      {
+        "description": "A sunscreen fluid providing high SPF protection with oil control for sensitive skin.",
+        "name": "La Roche Posay Anthelios UVMune 400 Oil Control Invisible Fluid Sunscreen SPF 50+"
+      },
+      {
+        "description": "A lightweight sunscreen for oily, acne-prone, and sensitive skin with SPF 50 protection.",
+        "name": "Avene Cleanance Sunscreen SPF 50 50mL"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 1500000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 3,
+      "detailedRoundCount": 3,
+      "lastFundingDate": "2016-09-01",
+      "lastFundingType": "Series A",
+      "rounds": [
+        {
+          "announcedDate": "2016-09-01",
+          "amount": {
+            "amount": 1000000,
+            "currency": "USD"
+          },
+          "postMoneyValuation": {
+            "amount": 5861263,
+            "currency": "USD"
+          },
+          "type": "Series A"
+        },
+        {
+          "announcedDate": "2013-12-01",
+          "amount": {
+            "amount": 400000,
+            "currency": "USD"
+          },
+          "postMoneyValuation": {
+            "amount": 2418238,
+            "currency": "USD"
+          },
+          "type": "Angel"
+        },
+        {
+          "announcedDate": "2013-01-01",
+          "amount": {
+            "amount": 100000,
+            "currency": "USD"
+          },
+          "postMoneyValuation": {
+            "amount": 933472,
+            "currency": "USD"
+          },
+          "type": "Seed"
+        }
+      ]
+    },
+    "recentNews": {
+      "reportedCount": 3,
+      "includedUniqueCount": 3,
+      "items": [
+        {
+          "date": "2016-09-01",
+          "title": "Series A - BasharaCare"
+        },
+        {
+          "date": "2013-12-01",
+          "title": "Angel Round - BasharaCare"
+        },
+        {
+          "date": "2013-01-01",
+          "title": "Seed Round - BasharaCare"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 3,
+    "knownDetailedFundingAmount": {
+      "amount": 1500000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 66.67,
+    "latestToEarliestKnownValuationMultiple": 6.28
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": 0,
+      "growthScore": 36,
+      "heatChange90Days": -54,
+      "heatScore": 6
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 0
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 4.33,
+        "timingEstimatePercent": {
+          "within6Months": 14.37,
+          "months6To11": 12.31,
+          "months12To24": 19.56,
+          "beyond24Months": 24.86
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 90.95
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 0
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "SkinStore is an online store that offers skincare, spa products and cosmetics.",
+          "employeeRange": "51-100",
+          "name": "SkinStore",
+          "sharedCategories": [
+            "E-Commerce",
+            "Internet",
+            "Health Care",
+            "Beauty"
+          ],
+          "sharedSpecialties": [
+            "Cosmeceuticals",
+            "Beauty Serums",
+            "Moisturizers",
+            "Skin Care",
+            "Facial Skincare",
+            "Hair Care"
+          ],
+          "similarityScore": 95
+        },
+        {
+          "description": "LovelySkin.com is a cosmetics company specializing in skin care, hair care, and cosmetics products.",
+          "employeeRange": "51-100",
+          "name": "LovelySkin.com",
+          "sharedCategories": [
+            "E-Commerce",
+            "Health Care"
+          ],
+          "sharedSpecialties": [
+            "Sunscreen and Sun Care",
+            "Beauty Serums",
+            "Skin Care",
+            "Beauty and Personal Care Distribution",
+            "Facial Skincare",
+            "Hair Care"
+          ],
+          "similarityScore": 94
+        },
+        {
+          "description": "Sephora is an online shopping site that offers a range of beauty products such as cosmetics and skincare items.",
+          "employeeRange": "10,001+",
+          "name": "Sephora",
+          "sharedCategories": [
+            "E-Commerce",
+            "Beauty"
+          ],
+          "sharedSpecialties": [
+            "Cosmeceuticals",
+            "Beauty Serums",
+            "Hair Treatments",
+            "Skin Care",
+            "Beauty and Personal Care Distribution",
+            "Hair Care",
+            "Hair Styling Products"
+          ],
+          "similarityScore": 93
+        },
+        {
+          "description": "Space NK is a apothecary is a British beauty retailer operating in both the UK and US.",
+          "employeeRange": "1,001-5,000",
+          "name": "Space NK",
+          "sharedCategories": [
+            "Beauty"
+          ],
+          "sharedSpecialties": [
+            "Sunscreen and Sun Care",
+            "Hair Treatments",
+            "Beauty and Personal Care Distribution",
+            "Facial Skincare",
+            "Hair Care",
+            "Hair Styling Products"
+          ],
+          "similarityScore": 91
+        },
+        {
+          "description": "SkinMedix is an e-commerce platform that offers health & beauty products.",
+          "name": "SkinMedix",
+          "sharedCategories": [
+            "E-Commerce",
+            "Beauty"
+          ],
+          "sharedSpecialties": [
+            "Cosmeceuticals",
+            "Sunscreen and Sun Care",
+            "Beauty Serums",
+            "Moisturizers",
+            "Skin Care",
+            "Beauty and Personal Care Distribution",
+            "Facial Skincare"
+          ],
+          "similarityScore": 89
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Series A round raised $1,000,000, or 66.67% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $933,472 to $5,861,263, a 6.28x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 36 (+0 over 90 days) and market heat at 6 (-54).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include SkinStore, LovelySkin.com, Sephora.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

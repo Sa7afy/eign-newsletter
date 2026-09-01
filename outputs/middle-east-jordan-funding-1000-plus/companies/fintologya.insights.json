@@ -1,0 +1,272 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T11:42:50.576Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T11:42:50.574Z",
+    "url": "https://www.crunchbase.com/organization/fintologya"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Fintologya",
+      "shortDescription": "Fintologya is building scalable, compliant infrastructure that allows financial institutions to launch digital products and services.",
+      "website": "https://fintologya.com/",
+      "foundedYear": 2024,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "1-10",
+      "headquarters": "Sitrah, Bahrain",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Finance",
+        "Financial Services",
+        "FinTech"
+      ],
+      "sectors": [
+        "Financial Services"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 1000000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2025-09-15",
+      "lastFundingType": "Seed",
+      "rounds": [
+        {
+          "announcedDate": "2025-09-15",
+          "amount": {
+            "amount": 1000000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "Gulf Holding Company"
+          ],
+          "postMoneyValuation": {
+            "amount": 8144746,
+            "currency": "USD"
+          },
+          "type": "Seed"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "Gulf Holding Company",
+            "rounds": [
+              "Seed Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 4,
+      "includedUniqueCount": 4,
+      "items": [
+        {
+          "date": "2025-09-25",
+          "publisher": "Techgist Africa | Africa Leading Tech News, Reviews and Tips",
+          "title": "Fintologya, a Bahrain-based fintech startup Secures US$1 million in a seed funding round",
+          "url": "https://techgistafrica.com/middle-east-and-africa/fintologya-a-bahrain-based-fintech-startup-secures-us1-million-in-a-seed-funding-round/"
+        },
+        {
+          "date": "2025-09-20",
+          "publisher": "Arab News",
+          "title": "Startup wrap — Early stage funding maintains growth momentum in MENA",
+          "url": "https://www.arabnews.com/node/2616091"
+        },
+        {
+          "date": "2025-09-18",
+          "publisher": "VC Circle",
+          "title": "MENA Digest: Saudi firms HALA, Bynow, Oman’s Rihal, others get funding",
+          "url": "https://www.vccircle.com/menadigest-saudi-firms-hala-bynow-oman-s-rihal-others-get-funding"
+        },
+        {
+          "date": "2025-09-15",
+          "title": "Seed Round - Fintologya"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 1000000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthInsightGeneratedDate": "2025-09-29",
+      "growthChange90Days": 0,
+      "growthScore": 48,
+      "heatChange90Days": -9,
+      "heatScore": 4,
+      "status": "Growing"
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2025-12-20",
+        "probabilityPercent": 35
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 85.99,
+        "timingEstimatePercent": {
+          "within6Months": 99.36,
+          "months6To11": 0,
+          "months12To24": 0,
+          "beyond24Months": 0.64
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 93.16
+      },
+      "ipo": {
+        "generatedDate": "2025-12-20",
+        "probabilityPercent": 35
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "The AI-native Banking OS where customers, employees, and AI agents work as one across channels and operations.",
+          "employeeRange": "1,001-5,000",
+          "name": "Backbase",
+          "sharedCategories": [
+            "Financial Services",
+            "FinTech"
+          ],
+          "similarityScore": 97
+        },
+        {
+          "description": "Bankjoy is a Y Combinator and Bessemer Venture Partner backed FinTech startup.",
+          "employeeRange": "51-100",
+          "name": "Bankjoy",
+          "sharedCategories": [
+            "Financial Services",
+            "Finance",
+            "FinTech"
+          ],
+          "similarityScore": 95
+        },
+        {
+          "description": "Q2 is a Financial Services company.",
+          "employeeRange": "1,001-5,000",
+          "name": "Q2",
+          "sharedCategories": [
+            "Financial Services",
+            "FinTech"
+          ],
+          "similarityScore": 93
+        },
+        {
+          "description": "NYMBUS is a provider of banking technology solutions for financial institutions to innovate and grow.",
+          "employeeRange": "251-500",
+          "name": "NYMBUS",
+          "sharedCategories": [
+            "Financial Services",
+            "FinTech"
+          ],
+          "similarityScore": 91
+        },
+        {
+          "description": "FIS is a fintech firm that provides advance integrated banking, wealth management, risk and compliance, and other solutions.",
+          "employeeRange": "10,001+",
+          "name": "FIS",
+          "sharedCategories": [
+            "Financial Services",
+            "FinTech"
+          ],
+          "similarityScore": 90
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Seed round raised $1,000,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $8,144,746 to $8,144,746, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 48 (+0 over 90 days) and market heat at 4 (-9).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Backbase, Bankjoy, Q2.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

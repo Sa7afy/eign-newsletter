@@ -1,0 +1,260 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T12:38:25.305Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T12:38:25.303Z",
+    "url": "https://www.crunchbase.com/organization/munfarid-consulting-co"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Munfarid Consulting Co.",
+      "shortDescription": "Immersive Learning Delivery Programs",
+      "description": "A company focused on delivering immersive learning programs",
+      "website": "https://www.munfarid.org/",
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "11-50",
+      "estimatedRevenueRange": "Less than $1M",
+      "headquarters": "Manama, Al Manamah, Bahrain",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Augmented Reality",
+        "Education",
+        "Higher Education",
+        "Social Impact",
+        "STEM Education",
+        "Training",
+        "Virtual Reality",
+        "Wellness"
+      ],
+      "sectors": [
+        "Education",
+        "Hardware",
+        "Health Care",
+        "Science and Engineering",
+        "Social Impact",
+        "Software"
+      ],
+      "founders": [
+        "Dr. Sana Farid"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 100000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2018-09-10",
+      "lastFundingType": "Seed",
+      "rounds": [
+        {
+          "announcedDate": "2018-09-10",
+          "amount": {
+            "amount": 100000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "postMoneyValuation": {
+            "amount": 1100000,
+            "currency": "USD"
+          },
+          "type": "Seed"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "name": "Mr. Khan",
+            "rounds": [
+              "Seed Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 1,
+      "includedUniqueCount": 1,
+      "items": [
+        {
+          "date": "2018-09-10",
+          "title": "Seed Round - Munfarid Consulting Co."
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 100000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": -9,
+      "growthScore": 54,
+      "heatChange90Days": -9,
+      "heatScore": 39
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 0
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 8.37,
+        "timingEstimatePercent": {
+          "within6Months": 14.26,
+          "months6To11": 12.22,
+          "months12To24": 19.47,
+          "beyond24Months": 24.84
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 54.06
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 0
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Labster is an e-learning company that offers virtual laboratory simulations based on mathematical algorithms.",
+          "employeeRange": "251-500",
+          "name": "Labster",
+          "sharedCategories": [
+            "Education",
+            "Virtual Reality"
+          ],
+          "similarityScore": 92
+        },
+        {
+          "description": "STRIVR is an E-Learning company that provides virtual reality training solutions.",
+          "employeeRange": "51-100",
+          "name": "STRIVR",
+          "sharedCategories": [
+            "Training",
+            "Virtual Reality"
+          ],
+          "similarityScore": 90
+        },
+        {
+          "description": "VictoryXR is a virtual reality educational product development.",
+          "employeeRange": "11-50",
+          "name": "VictoryXR",
+          "sharedCategories": [
+            "Education"
+          ],
+          "similarityScore": 86
+        },
+        {
+          "description": "Mursion provides immersive simulated practice for essential skills in the workplace powered by humans and assisted by AI.",
+          "employeeRange": "101-250",
+          "name": "Mursion",
+          "sharedCategories": [
+            "Augmented Reality",
+            "Virtual Reality"
+          ],
+          "similarityScore": 84
+        },
+        {
+          "description": "Nearpod is a provider of edtech platform for K-12 teachers to create interactive slides filled with videos, quizzes, and other activities.",
+          "employeeRange": "251-500",
+          "name": "Nearpod",
+          "sharedCategories": [
+            "Education",
+            "Virtual Reality"
+          ],
+          "similarityScore": 82
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Seed round raised $100,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $1,100,000 to $1,100,000, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 54 (-9 over 90 days) and market heat at 39 (-9).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Labster, STRIVR, VictoryXR.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

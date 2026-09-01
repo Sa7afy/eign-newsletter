@@ -1,0 +1,260 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T11:44:37.792Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T11:44:37.790Z",
+    "url": "https://www.crunchbase.com/organization/flemingo"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Flemingo",
+      "shortDescription": "Flemingo is a duty free and travel retail operators with a focus on emerging markets.",
+      "description": "Flemingo is a duty free and travel retail operators with a focus on emerging markets. Flemingo operates across different formats like duty free shops in airports, borders, downtown and seaports.",
+      "website": "https://www.flemingo-intl.com/",
+      "foundedYear": 1997,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "251-500",
+      "estimatedRevenueRange": "$10M-$50M",
+      "headquarters": "Dubai, United Arab Emirates",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Retail",
+        "Travel"
+      ],
+      "sectors": [
+        "Commerce and Shopping",
+        "Travel and Tourism"
+      ],
+      "founders": [
+        "Hem Chand Gandhi",
+        "Pierro Copo",
+        "Suresh Bhatia"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "Flemingo operates duty-free shops at airports, offering a range of merchandise for travelers.",
+        "name": "Duty Free Shops at Airports"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 12707751,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 3,
+      "detailedRoundCount": 3,
+      "lastFundingDate": "2014-01-01",
+      "lastFundingType": "Private Equity",
+      "rounds": [
+        {
+          "announcedDate": "2014-01-01",
+          "investorCount": 1,
+          "leadInvestors": [
+            "Samena Capital"
+          ],
+          "type": "Private Equity"
+        },
+        {
+          "announcedDate": "2013-04-10",
+          "investorCount": 1,
+          "type": "Private Equity"
+        },
+        {
+          "announcedDate": "2008-01-01",
+          "amount": {
+            "amount": 12707751,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "type": "Private Equity"
+        }
+      ],
+      "investors": {
+        "reportedCount": 3,
+        "visibleNames": [
+          {
+            "name": "CDIB Capital",
+            "rounds": [
+              "Private Equity Round"
+            ]
+          },
+          {
+            "name": "Samara Capital",
+            "rounds": [
+              "Private Equity Round"
+            ]
+          },
+          {
+            "isLead": true,
+            "name": "Samena Capital",
+            "rounds": [
+              "Private Equity Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 4,
+      "includedUniqueCount": 4,
+      "items": [
+        {
+          "date": "2018-07-15",
+          "publisher": "Deccan Chronicle",
+          "title": "Dalal Street ready for Rs 14,000 crore initial public offers",
+          "url": "https://www.deccanchronicle.com/business/market/150718/dalal-street-ready-for-rs-14000-crore-initial-public-offers.html"
+        },
+        {
+          "date": "2014-01-01",
+          "title": "Private Equity Round - Flemingo"
+        },
+        {
+          "date": "2013-04-10",
+          "title": "Private Equity Round - Flemingo"
+        },
+        {
+          "date": "2008-01-01",
+          "title": "Private Equity Round - Flemingo"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 12707751,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": 1,
+      "growthScore": 86,
+      "heatChange90Days": 2,
+      "heatScore": 57
+    },
+    "modelPredictions": {
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 93.38
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Duty Free Americas is a retail stores with a collection of fragrances and cosmetics, wine and spirits, tobacco, jewelary - duty free.",
+          "employeeRange": "1,001-5,000",
+          "name": "Duty Free Americas",
+          "sharedCategories": [
+            "Retail"
+          ],
+          "sharedSpecialties": [
+            "Airport Retail and Concessions"
+          ],
+          "similarityScore": 91
+        },
+        {
+          "description": "DFS Group Limited, a retailer of luxury branded merchandise.",
+          "employeeRange": "5,001-10,000",
+          "name": "DFS Group",
+          "sharedCategories": [
+            "Retail"
+          ],
+          "sharedSpecialties": [
+            "Branded Merchandise",
+            "Airport Retail and Concessions"
+          ],
+          "similarityScore": 89
+        },
+        {
+          "description": "A leading international group based on its expertise in Travel Retail and Distribution",
+          "employeeRange": "10,001+",
+          "name": "Lagardere Travel Retail",
+          "sharedCategories": [
+            "Travel"
+          ],
+          "sharedSpecialties": [
+            "Luggage and Travel Gear",
+            "Airport Retail and Concessions"
+          ],
+          "similarityScore": 89
+        },
+        {
+          "description": "Shenzhen Capital Group is a venture capital company focused on cultivating national industries and shaping national brands.",
+          "employeeRange": "11-50",
+          "name": "Shenzhen Capital Group",
+          "similarityScore": 84
+        },
+        {
+          "description": "King Power is a leading travel retail group.",
+          "employeeRange": "5,001-10,000",
+          "name": "King Power International",
+          "sharedCategories": [
+            "Travel",
+            "Retail"
+          ],
+          "sharedSpecialties": [
+            "Airport and Travel Hub Advertising",
+            "Airport Retail and Concessions"
+          ],
+          "similarityScore": 84
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 86 (+1 over 90 days) and market heat at 57 (+2).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Duty Free Americas, DFS Group, Lagardere Travel Retail.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

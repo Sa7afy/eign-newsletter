@@ -1,0 +1,215 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T11:07:45.888Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T11:07:45.887Z",
+    "url": "https://www.crunchbase.com/organization/capital-leasing-8102"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Capital Leasing",
+      "shortDescription": "Capital Leasing Company provides leasing solutions to workers in the public and private sectors.",
+      "description": "Capital Leasing Company provides leasing solutions to workers in the public and private sectors, independent contractors, companies of all kinds, and everyone else with the ability to lend money.",
+      "website": "https://www.capitalleasing.jo/en/",
+      "foundedYear": 2017,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "headquarters": "Amman, Jordan",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Commercial",
+        "Leasing",
+        "Lending"
+      ],
+      "sectors": [
+        "Financial Services",
+        "Other"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 5626755,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 2,
+      "detailedRoundCount": 2,
+      "lastFundingDate": "2025-05-15",
+      "lastFundingType": "Debt Financing",
+      "rounds": [
+        {
+          "announcedDate": "2025-05-15",
+          "amount": {
+            "amount": 626755,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "European Union"
+          ],
+          "type": "Grant"
+        },
+        {
+          "announcedDate": "2025-05-15",
+          "amount": {
+            "amount": 5000000,
+            "currency": "USD"
+          },
+          "investorCount": 2,
+          "leadInvestors": [
+            "European Bank for Reconstruction and Development"
+          ],
+          "type": "Debt Financing"
+        }
+      ],
+      "investors": {
+        "reportedCount": 3,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "European Bank for Reconstruction and Development",
+            "rounds": [
+              "Debt Financing"
+            ]
+          },
+          {
+            "isLead": true,
+            "name": "European Union",
+            "rounds": [
+              "Grant"
+            ]
+          },
+          {
+            "name": "Green Climate Fund",
+            "rounds": [
+              "Debt Financing"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 2,
+      "includedUniqueCount": 2,
+      "items": [
+        {
+          "date": "2025-05-15",
+          "title": "Grant - Capital Leasing"
+        },
+        {
+          "date": "2025-05-15",
+          "title": "Debt Financing - Capital Leasing"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 2,
+    "knownDetailedFundingAmount": {
+      "amount": 5626755,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 11.14,
+    "grantFunding": {
+      "amount": {
+        "amount": 626755,
+        "currency": "USD"
+      },
+      "disclosedRoundCount": 1,
+      "shareOfTotalPercent": 11.14
+    }
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": -1,
+      "growthScore": 60,
+      "heatChange90Days": 2,
+      "heatScore": 21
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 32.37
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 7.73,
+        "timingEstimatePercent": {
+          "within6Months": 1.26,
+          "months6To11": 0,
+          "months12To24": 0,
+          "beyond24Months": 98.74
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-01-24",
+        "probabilityPercent": 75.21
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 9.01
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors."
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Grant round raised $626,755, or 11.14% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Meaningful non-dilutive funding",
+      "statement": "1 disclosed grants total $626,755, representing 11.14% of reported funding.",
+      "implication": "The grants reduce the share of reported financing attributed to equity or notes, although their restrictions and milestone requirements need separate verification.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.grantFunding"
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 60 (-1 over 90 days) and market heat at 21 (+2).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

@@ -1,0 +1,230 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T13:47:08.614Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T13:47:08.612Z",
+    "url": "https://www.crunchbase.com/organization/trim-d144"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "TRIM",
+      "shortDescription": "Trim is an application that offers salon and hairdresser appointment services.",
+      "description": "Trim is an application that offers salon and hairdresser appointment services.\n\nIt is founded in 2020.",
+      "website": "https://trim.style/ar",
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "1-10",
+      "headquarters": "El Gizeh, Al Jizah, Egypt",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Middle East",
+        "Middle East and North Africa (MENA)",
+        "North Africa"
+      ],
+      "industries": [
+        "Apps",
+        "Internet",
+        "Software"
+      ],
+      "sectors": [
+        "Apps",
+        "Information Technology",
+        "Software"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 5000000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2021-08-05",
+      "lastFundingType": "Pre Seed",
+      "rounds": [
+        {
+          "announcedDate": "2021-08-05",
+          "amount": {
+            "amount": 5000000,
+            "currency": "USD"
+          },
+          "postMoneyValuation": {
+            "amount": 10000000,
+            "currency": "USD"
+          },
+          "type": "Pre Seed"
+        }
+      ]
+    },
+    "recentNews": {
+      "reportedCount": 1,
+      "includedUniqueCount": 1,
+      "items": [
+        {
+          "date": "2021-08-05",
+          "title": "Pre Seed Round - TRIM"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 5000000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": 31,
+      "growthScore": 66,
+      "heatChange90Days": -2,
+      "heatScore": 22
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 33.05
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 18.66,
+        "timingEstimatePercent": {
+          "within6Months": 15.12,
+          "months6To11": 12.84,
+          "months12To24": 20.14,
+          "beyond24Months": 24.96
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 73.72
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 46.91
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Fresha is a marketplace platform that allows users to find beauty, wellness, and self-care services nearby.",
+          "employeeRange": "251-500",
+          "name": "Fresha",
+          "similarityScore": 97
+        },
+        {
+          "description": "Booksy is a booking platform that links local customers with professionals in the beauty, wellness, and health industries.",
+          "employeeRange": "501-1,000",
+          "name": "Booksy",
+          "sharedCategories": [
+            "Software"
+          ],
+          "similarityScore": 95
+        },
+        {
+          "description": "Treatwell is Europe’s leading beauty booking platform, connecting 75k+ salons with users through 24/7 marketplace and SaaS management tools.",
+          "employeeRange": "501-1,000",
+          "name": "Treatwell",
+          "sharedCategories": [
+            "Internet",
+            "Software"
+          ],
+          "similarityScore": 93
+        },
+        {
+          "description": "Zenoti is a provider of cloud-based software for the spa and salon industries.",
+          "employeeRange": "501-1,000",
+          "name": "Zenoti",
+          "sharedCategories": [
+            "Software"
+          ],
+          "similarityScore": 89
+        },
+        {
+          "description": "Phorest is salon and spa management software built for growth-focused premium businesses.",
+          "employeeRange": "251-500",
+          "name": "Phorest",
+          "sharedCategories": [
+            "Software"
+          ],
+          "similarityScore": 87
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Pre Seed round raised $5,000,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $10,000,000 to $10,000,000, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 66 (+31 over 90 days) and market heat at 22 (-2).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Fresha, Booksy, Treatwell.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

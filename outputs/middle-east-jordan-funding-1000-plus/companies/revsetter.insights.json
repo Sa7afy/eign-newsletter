@@ -1,0 +1,303 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T13:11:10.481Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T13:11:10.478Z",
+    "url": "https://www.crunchbase.com/organization/revsetter"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Nebelus",
+      "shortDescription": "Nebelus develops an agentic AI platform that uses natural language to automate workflows and execute tasks.",
+      "description": "Nebelus is an agentic AI company that builds a platform for business users, allows them to create, deploy, and scale powerful artificial intelligence agents by using natural language without the need for coding or development. With the company's flagship AI Agent Studio, businesses can enhance every workflow with purpose-built AI Agents - securely governed and scaled - amplifying human impact and enhancing all workflows.",
+      "website": "https://nebelus.ai/",
+      "foundedYear": 2025,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "11-50",
+      "estimatedRevenueRange": "$1M-$10M",
+      "headquarters": "Dubai, United Arab Emirates",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Agentic AI",
+        "Data Management",
+        "Developer APIs",
+        "SaaS"
+      ],
+      "sectors": [
+        "Artificial Intelligence (AI)",
+        "Data and Analytics",
+        "Software"
+      ],
+      "founders": [
+        "Haydar Al-Saad"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "A no-code platform to visually build, test, and deploy custom AI agents using pre-built components and templates.",
+        "name": "AI Agent Studio"
+      },
+      {
+        "description": "Services to connect data from multiple sources and deploy AI agents into existing technology stacks or a secure native environment.",
+        "name": "Data Integration and Deployment Services"
+      },
+      {
+        "description": "Capability to connect and utilize multiple large language models within AI agents for enhanced task handling and language processing.",
+        "name": "Multi-Model Large Language Model (LLM) Integration"
+      },
+      {
+        "description": "A visual tool to design multi-agent interactions and customize agent behaviors using predefined patterns and persistent memory.",
+        "name": "Visual Workflow and Multi-Agent Architecture Builder"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 500000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2025-01-01",
+      "lastFundingType": "Pre Seed",
+      "rounds": [
+        {
+          "announcedDate": "2025-01-01",
+          "amount": {
+            "amount": 500000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "postMoneyValuation": {
+            "amount": 7500000,
+            "currency": "USD"
+          },
+          "type": "Pre Seed"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "name": "Alenmo Holdings",
+            "rounds": [
+              "Pre Seed Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 1,
+      "includedUniqueCount": 1,
+      "items": [
+        {
+          "date": "2025-01-01",
+          "title": "Pre Seed Round - Nebelus"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 500000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": -3,
+      "growthScore": 82,
+      "heatChange90Days": -1,
+      "heatScore": 18
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 82.9
+      },
+      "funding": {
+        "generatedDate": "2026-06-20",
+        "probabilityPercent": 94.65,
+        "timingEstimatePercent": {
+          "within6Months": 99.99,
+          "months6To11": 0,
+          "months12To24": 0,
+          "beyond24Months": 0.01
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 84.9
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 4.27
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Cognigy is an enterprise conversational AI platform designed to automate customer and employee support processes.",
+          "employeeRange": "251-500",
+          "name": "Cognigy",
+          "sharedCategories": [
+            "SaaS"
+          ],
+          "sharedSpecialties": [
+            "Agentic Orchestration",
+            "LLMOps",
+            "Customer Support Agents",
+            "AI Chatbots and Virtual Assistants"
+          ],
+          "similarityScore": 97
+        },
+        {
+          "description": "Kore.ai powers governed, secure enterprise AI—building & orchestrating multi-agent systems across CX and workplace productivity at scale",
+          "employeeRange": "501-1,000",
+          "name": "Kore.ai",
+          "sharedCategories": [
+            "Agentic AI"
+          ],
+          "sharedSpecialties": [
+            "Agentic Orchestration",
+            "Workflow Automation",
+            "LLMOps",
+            "AI Chatbots and Virtual Assistants",
+            "Multi-Agent Systems",
+            "Integration Platforms",
+            "Prompt Management"
+          ],
+          "similarityScore": 95
+        },
+        {
+          "description": "Moveworks offers an AI-powered assistant designed to enhance workflows and automate tasks within enterprises.",
+          "employeeRange": "501-1,000",
+          "name": "Moveworks",
+          "sharedCategories": [
+            "Agentic AI"
+          ],
+          "sharedSpecialties": [
+            "No-Code / Low-Code Development",
+            "Agentic Orchestration",
+            "AI Chatbots and Virtual Assistants",
+            "Workflow Automation Agents"
+          ],
+          "similarityScore": 93
+        },
+        {
+          "description": "Ada is an automated customer experience company that provides chat bots used in customer support.",
+          "employeeRange": "251-500",
+          "name": "Ada",
+          "sharedCategories": [
+            "Agentic AI",
+            "SaaS"
+          ],
+          "sharedSpecialties": [
+            "Customer Support Agents",
+            "AI Chatbots and Virtual Assistants",
+            "Prompt Management"
+          ],
+          "similarityScore": 91
+        },
+        {
+          "description": "ServiceNow is an AI platform that delivers IT operations, field service management and app engine solutions.",
+          "employeeRange": "10,001+",
+          "name": "ServiceNow",
+          "sharedCategories": [
+            "Agentic AI",
+            "SaaS"
+          ],
+          "sharedSpecialties": [
+            "Workflow Automation",
+            "AI Chatbots and Virtual Assistants",
+            "iPaaS Data Integration",
+            "Integration Platforms",
+            "Prompt Management"
+          ],
+          "similarityScore": 89
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Pre Seed round raised $500,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $7,500,000 to $7,500,000, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 82 (-3 over 90 days) and market heat at 18 (-1).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Cognigy, Kore.ai, Moveworks.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

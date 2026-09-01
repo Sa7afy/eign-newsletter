@@ -1,0 +1,355 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T13:02:13.751Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T13:02:13.749Z",
+    "url": "https://www.crunchbase.com/organization/q-less"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "KlickIt",
+      "shortDescription": "KlickIt is an online payment platform that provides individuals with a fast, accessible and convenient payment method.",
+      "description": "KlickIt is a one-stop-shop aiming at digitalizing payments across various sectors in Egypt, axing the fuss of routine payments in cash-adapted nations.",
+      "website": "https://klickit.co/",
+      "foundedYear": 2017,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "1-10",
+      "estimatedRevenueRange": "Less than $1M",
+      "headquarters": "Cairo, Al Qahirah, Egypt",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Middle East",
+        "Middle East and North Africa (MENA)",
+        "North Africa"
+      ],
+      "industries": [
+        "Education",
+        "FinTech",
+        "Payments"
+      ],
+      "sectors": [
+        "Education",
+        "Financial Services",
+        "Payments"
+      ],
+      "founders": [
+        "Hashim Ibrahim",
+        "Saeed Talaat",
+        "Walid ElNour"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "An online payment platform providing individuals with a fast, accessible, and convenient method to make payments.",
+        "name": "KlickIt Online Payment Platform"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 100000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 3,
+      "detailedRoundCount": 3,
+      "lastFundingDate": "2022-09-28",
+      "lastFundingType": "Non Equity Assistance",
+      "rounds": [
+        {
+          "announcedDate": "2022-09-28",
+          "investorCount": 1,
+          "leadInvestors": [
+            "GrowthX Accelerator"
+          ],
+          "type": "Non Equity Assistance"
+        },
+        {
+          "announcedDate": "2021-11-29",
+          "amount": {
+            "amount": 100000,
+            "currency": "USD"
+          },
+          "investorCount": 3,
+          "leadInvestors": [
+            "Camel Ventures",
+            "EFG Hermes"
+          ],
+          "postMoneyValuation": {
+            "amount": 1723745,
+            "currency": "USD"
+          },
+          "type": "Seed"
+        },
+        {
+          "announcedDate": "2018-06-01",
+          "investorCount": 1,
+          "type": "Non Equity Assistance"
+        }
+      ],
+      "investors": {
+        "reportedCount": 5,
+        "visibleNames": [
+          {
+            "name": "AUC Venture Lab",
+            "rounds": [
+              "Non Equity Assistance"
+            ]
+          },
+          {
+            "isLead": true,
+            "name": "Camel Ventures",
+            "rounds": [
+              "Seed Round"
+            ]
+          },
+          {
+            "name": "dfin Holding",
+            "rounds": [
+              "Seed Round"
+            ]
+          },
+          {
+            "isLead": true,
+            "name": "EFG Hermes",
+            "rounds": [
+              "Seed Round"
+            ]
+          },
+          {
+            "isLead": true,
+            "name": "GrowthX Accelerator",
+            "rounds": [
+              "Non Equity Assistance"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 5,
+      "includedUniqueCount": 5,
+      "items": [
+        {
+          "date": "2025-11-18",
+          "publisher": "Zawya.com",
+          "title": "EFG Finance SMEs, Klickit expand financing access for education-focused SMEs in Egypt",
+          "url": "https://www.zawya.com/en/economy/north-africa/efg-finance-smes-klickit-expand-financing-access-for-education-focused-smes-in-egypt-grpgh77w"
+        },
+        {
+          "date": "2022-09-28",
+          "title": "Non Equity Assistance - KlickIt"
+        },
+        {
+          "date": "2021-11-30",
+          "publisher": "Wamda News",
+          "title": "Egypt's fintech KlickIt closes its first round of funding",
+          "url": "https://www.wamda.com/2021/11/egypts-fintech-klickit-raises-round-funding"
+        },
+        {
+          "date": "2021-11-29",
+          "title": "Seed Round - KlickIt"
+        },
+        {
+          "date": "2018-06-01",
+          "title": "Non Equity Assistance - KlickIt"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 100000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": 2,
+      "growthScore": 72,
+      "heatChange90Days": 7,
+      "heatScore": 62
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 0
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 28.07,
+        "timingEstimatePercent": {
+          "within6Months": 14.84,
+          "months6To11": 12.64,
+          "months12To24": 19.93,
+          "beyond24Months": 24.93
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 95.63
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 0
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "BillDesk develops an integrated technology platform and unified APIs to make digital payments easy and accessible.",
+          "employeeRange": "501-1,000",
+          "name": "Billdesk",
+          "sharedCategories": [
+            "FinTech"
+          ],
+          "sharedSpecialties": [
+            "ACH and Bank Transfer Services",
+            "Payment Processing",
+            "Payment Facilitation (PayFac) Infrastructure",
+            "Real-Time Payments (RTP) Infrastructure",
+            "Merchant Services",
+            "Payment Orchestration Platforms",
+            "Payment Gateway Services",
+            "Payment Analytics and Dashboard",
+            "Payment Links"
+          ],
+          "similarityScore": 95
+        },
+        {
+          "description": "Easy and fast payment with your smartphone.",
+          "employeeRange": "11-50",
+          "name": "payconiq",
+          "sharedCategories": [
+            "FinTech"
+          ],
+          "sharedSpecialties": [
+            "Payment Processing",
+            "Payment Facilitation (PayFac) Infrastructure",
+            "Real-Time Payments (RTP) Infrastructure",
+            "Merchant Services",
+            "QR Code Payments",
+            "Payment Orchestration Platforms",
+            "Payment Gateway Services",
+            "Payment Analytics and Dashboard"
+          ],
+          "similarityScore": 93
+        },
+        {
+          "description": "Checkout.com is a global provider of payment solutions that help businesses and communities thrive in the digital economy.",
+          "employeeRange": "1,001-5,000",
+          "name": "Checkout.com",
+          "sharedCategories": [
+            "FinTech",
+            "Payments"
+          ],
+          "sharedSpecialties": [
+            "Payment Processing",
+            "Payment Facilitation (PayFac) Infrastructure",
+            "Merchant Services",
+            "Payment Orchestration Platforms",
+            "Payment Gateway Services",
+            "Payment Analytics and Dashboard",
+            "Payment Links"
+          ],
+          "similarityScore": 90
+        },
+        {
+          "description": "Tipalti is a global payables automation platform that provides a cloud solution to scale and automate global payables operations.",
+          "employeeRange": "1,001-5,000",
+          "name": "Tipalti",
+          "sharedCategories": [
+            "FinTech",
+            "Payments"
+          ],
+          "sharedSpecialties": [
+            "ACH and Bank Transfer Services",
+            "Payment Processing",
+            "Payment Orchestration Platforms"
+          ],
+          "similarityScore": 89
+        },
+        {
+          "description": "Stripe is a financial technology company that provides online payment processing and payment infrastructure for businesses.",
+          "employeeRange": "5,001-10,000",
+          "name": "Stripe",
+          "sharedCategories": [
+            "FinTech",
+            "Payments"
+          ],
+          "sharedSpecialties": [
+            "Payment Processing",
+            "Merchant Services",
+            "Payment Orchestration Platforms",
+            "Payment Gateway Services",
+            "Payment Analytics and Dashboard",
+            "Payment Links"
+          ],
+          "similarityScore": 88
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $1,723,745 to $1,723,745, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 72 (+2 over 90 days) and market heat at 62 (+7).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Billdesk, payconiq, Checkout.com.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

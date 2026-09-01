@@ -1,0 +1,315 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T11:08:40.696Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T11:08:40.693Z",
+    "url": "https://www.crunchbase.com/organization/cargenie"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Viero",
+      "shortDescription": "Viero provides Intelligent CRM for Auto Services.",
+      "description": "CarGenie is an intelligent CRM software that leverages AI/ML to transform auto service businesses. Our platform focuses on building long-lasting customer relationships through intuitive subscription management and engaging loyalty programs. With CarGenie, businesses can make data-driven decisions to discover new growth opportunities based on their customers data.",
+      "website": "https://www.cargeniejo.com/",
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "11-50",
+      "headquarters": "Amman, Jordan",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Automotive",
+        "Big Data",
+        "CRM",
+        "Loyalty Programs",
+        "Predictive Analytics",
+        "Software"
+      ],
+      "sectors": [
+        "Artificial Intelligence (AI)",
+        "Data and Analytics",
+        "Sales and Marketing",
+        "Software",
+        "Transportation"
+      ],
+      "founders": [
+        "Ahmad Otaibi",
+        "Ayham Basheer",
+        "Khaled Daqqaq",
+        "Mohammad El-Maaita"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 2000000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 2,
+      "detailedRoundCount": 2,
+      "lastFundingDate": "2026-02-02",
+      "lastFundingType": "Seed",
+      "rounds": [
+        {
+          "announcedDate": "2026-02-02",
+          "amount": {
+            "amount": 1200000,
+            "currency": "USD"
+          },
+          "investorCount": 4,
+          "leadInvestors": [
+            "SHARE Investment",
+            "Watheeq Capital"
+          ],
+          "postMoneyValuation": {
+            "amount": 9738157,
+            "currency": "USD"
+          },
+          "type": "Seed"
+        },
+        {
+          "announcedDate": "2022-04-01",
+          "amount": {
+            "amount": 800000,
+            "currency": "USD"
+          },
+          "postMoneyValuation": {
+            "amount": 3800000,
+            "currency": "USD"
+          },
+          "type": "Pre Seed"
+        }
+      ],
+      "investors": {
+        "reportedCount": 4,
+        "visibleNames": [
+          {
+            "name": "Black Iris Angel Network",
+            "rounds": [
+              "Seed Round"
+            ]
+          },
+          {
+            "name": "numu Angels Investment Community",
+            "rounds": [
+              "Seed Round"
+            ]
+          },
+          {
+            "isLead": true,
+            "name": "SHARE Investment",
+            "rounds": [
+              "Seed Round"
+            ]
+          },
+          {
+            "isLead": true,
+            "name": "Watheeq Capital",
+            "rounds": [
+              "Seed Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 4,
+      "includedUniqueCount": 4,
+      "items": [
+        {
+          "date": "2026-02-09",
+          "publisher": "Incubees",
+          "title": "Viero obtains $1.2 M to develop fintech logistics operating layer",
+          "url": "https://incubees.com/viero-obtains-1-2-m-to-develop-fintech-logistics-operating-layer/"
+        },
+        {
+          "date": "2026-02-04",
+          "publisher": "SecneNow",
+          "title": "SaudiFleet & Logistics Platform ‘Viero’ Raises $1.2M in Seed Funding",
+          "url": "https://thestartupscene.me/INVESTMENTS/SaudiFleet-Logistics-Platform-Viero-Raises-1-2M-in-Seed-Funding"
+        },
+        {
+          "date": "2026-02-02",
+          "title": "Seed Round - Viero"
+        },
+        {
+          "date": "2022-04-01",
+          "title": "Pre Seed Round - Viero"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 2,
+    "knownDetailedFundingAmount": {
+      "amount": 2000000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 60,
+    "latestToEarliestKnownValuationMultiple": 2.56
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthInsightGeneratedDate": "2026-02-15",
+      "growthChange90Days": -9,
+      "growthScore": 75,
+      "heatChange90Days": -2,
+      "heatScore": 58,
+      "status": "Growing"
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 5
+      },
+      "funding": {
+        "generatedDate": "2026-06-20",
+        "probabilityPercent": 94.93,
+        "timingEstimatePercent": {
+          "within6Months": 98.67,
+          "months6To11": 0,
+          "months12To24": 0,
+          "beyond24Months": 1.33
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 93.3
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 0
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Tekion is the first cloud-native platform for automotive retail, powered by Tekion AI.",
+          "employeeRange": "1,001-5,000",
+          "name": "Tekion",
+          "sharedCategories": [
+            "Automotive",
+            "Software",
+            "Big Data"
+          ],
+          "similarityScore": 97
+        },
+        {
+          "description": "Reynolds and Reynolds develop and support software for automotive retailers.",
+          "employeeRange": "1,001-5,000",
+          "name": "Reynolds and Reynolds",
+          "sharedCategories": [
+            "Automotive"
+          ],
+          "similarityScore": 95
+        },
+        {
+          "description": "CDK Global is an automotive retail company that offers integrated data and technology solutions for dealers and auto manufacturers.",
+          "employeeRange": "5,001-10,000",
+          "name": "CDK Global",
+          "sharedCategories": [
+            "Automotive",
+            "Software"
+          ],
+          "similarityScore": 93
+        },
+        {
+          "description": "AutoAlert is a data-mining and trade-cycle management platform that provides a marketplace for modern automotive dealership.",
+          "employeeRange": "251-500",
+          "name": "AutoAlert",
+          "sharedCategories": [
+            "CRM",
+            "Automotive",
+            "Software"
+          ],
+          "similarityScore": 91
+        },
+        {
+          "description": "Xtime is a provider of hosted customer relationship management (CRM) for automotive service departments in North America.",
+          "employeeRange": "251-500",
+          "name": "Xtime",
+          "sharedCategories": [
+            "CRM",
+            "Automotive",
+            "Software"
+          ],
+          "similarityScore": 89
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Seed round raised $1,200,000, or 60% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $3,800,000 to $9,738,157, a 2.56x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 75 (-9 over 90 days) and market heat at 58 (-2).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Tekion, Reynolds and Reynolds, CDK Global.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

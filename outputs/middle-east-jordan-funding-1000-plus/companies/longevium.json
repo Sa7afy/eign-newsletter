@@ -1,0 +1,2628 @@
+{
+  "sourceUrl": "https://www.crunchbase.com/organization/longevium",
+  "pageTitle": "longevium",
+  "scrapedAt": "2026-09-01T12:21:46.287Z",
+  "extraction": {
+    "authenticated": true,
+    "method": "curl-cffi-authenticated-entity-fetch-no-browser"
+  },
+  "organization": {
+    "properties": {
+      "facet_ids": [
+        "company",
+        "rank",
+        "semrush"
+      ],
+      "identifier": {
+        "uuid": "bed8e5ab-69a9-482f-9e58-9e3ed60175c6",
+        "value": "Longevium",
+        "image_id": "92403d7358564934867b9d73d369f167",
+        "permalink": "longevium",
+        "entity_def_id": "organization"
+      },
+      "short_description": "Longevium is a longevity clinic network that uses data-driven preventive medicine and AI-enabled diagnostics to extend healthspan.",
+      "rank_delta_d90": 9.9,
+      "title": "Longevium"
+    },
+    "cards": {
+      "semrush_summary": {
+        "identifier": {
+          "uuid": "bed8e5ab-69a9-482f-9e58-9e3ed60175c6",
+          "value": "Longevium",
+          "image_id": "92403d7358564934867b9d73d369f167",
+          "permalink": "longevium",
+          "entity_def_id": "organization"
+        },
+        "semrush_global_rank": 6953206,
+        "semrush_visits_latest_month": 1139
+      },
+      "key_employee_change_list": [],
+      "apptopia_attribution": {},
+      "diversity_spotlight_investments_headline": {},
+      "apptopia_app_rating_list": [],
+      "funds_summary": {
+        "identifier": {
+          "uuid": "bed8e5ab-69a9-482f-9e58-9e3ed60175c6",
+          "value": "Longevium",
+          "image_id": "92403d7358564934867b9d73d369f167",
+          "permalink": "longevium",
+          "entity_def_id": "organization"
+        }
+      },
+      "funding_prediction": [],
+      "company_about_fields1": {},
+      "current_advisors_image_list": [],
+      "recommended_search": [
+        {
+          "identifier": {
+            "permalink": "united-arab-emirates-seed-stage-companies-more-than-10-employees",
+            "image_id": "6293c7748c3f4511a67e43a92ab715c9",
+            "uuid": "7ec9bed5-de11-48f2-bd34-f8dcd3a909fc",
+            "entity_def_id": "hub",
+            "value": "United Arab Emirates Seed Stage Companies With More Than 10 Employees"
+          },
+          "org_identifiers": [
+            {
+              "permalink": "bundle-a717",
+              "image_id": "6293c7748c3f4511a67e43a92ab715c9",
+              "uuid": "60cab2d6-6198-4f84-8507-2fe77f15a717",
+              "entity_def_id": "organization",
+              "value": "Bundle"
+            },
+            {
+              "permalink": "tax-star",
+              "image_id": "a8c403fd939e40ac8260efbedad69cb7",
+              "uuid": "3e6f3eab-a41f-4046-904e-e045a365a940",
+              "entity_def_id": "organization",
+              "value": "Tax Star"
+            },
+            {
+              "permalink": "entravel",
+              "image_id": "95c249b05a2c4eb58dbc11a089204ad8",
+              "uuid": "52c0e2d9-c7d9-46fd-b527-84c82b4abebc",
+              "entity_def_id": "organization",
+              "value": "Entravel"
+            },
+            {
+              "permalink": "zest-technologies-difc",
+              "image_id": "jldicbq1p6udyjfpgijb",
+              "uuid": "c8fb7e36-4eac-4162-824b-393d369a2c36",
+              "entity_def_id": "organization",
+              "value": "Zest Equity"
+            },
+            {
+              "permalink": "mal-82c7",
+              "image_id": "1e2b749bb2aa4a5faae8f1ff46bac829",
+              "uuid": "81948719-e4ea-40a7-a1db-addf8e1782c7",
+              "entity_def_id": "organization",
+              "value": "Mal"
+            },
+            {
+              "permalink": "kamel-pay",
+              "image_id": "zktlcm7fhgnt6q0q1x8u",
+              "uuid": "bd8ea9ca-620b-4ad1-a549-1e65f1094658",
+              "entity_def_id": "organization",
+              "value": "Kamel Pay"
+            },
+            {
+              "permalink": "lorum-finance",
+              "image_id": "0aabba7b2a454110a8b6b7a5e197c1b7",
+              "uuid": "e31ca05c-45da-44a8-9ebe-62918095a6e6",
+              "entity_def_id": "organization",
+              "value": "Lorum Finance"
+            },
+            {
+              "permalink": "estaie",
+              "image_id": "c854e00b0ea841ff8becbc469ca7edbc",
+              "uuid": "5b1e37b0-9622-4bc1-9626-7b916ecd974b",
+              "entity_def_id": "organization",
+              "value": "estaie"
+            }
+          ],
+          "org_funding_total": {
+            "currency": "USD",
+            "value": 2317085680,
+            "value_usd": 2317085680
+          },
+          "org_num_investors": 1693,
+          "org_num": 669,
+          "queries": {
+            "event": [
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "9314d29a-0a56-02c3-6b27-4168733de77f"
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "principal.has_event.forward",
+                "query": [
+                  {
+                    "field_id": "facet_ids",
+                    "operator_id": "includes",
+                    "values": [
+                      "company"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "num_employees_enum",
+                    "operator_id": "includes",
+                    "values": [
+                      "c_00011_00050",
+                      "c_00051_00100",
+                      "c_00101_00250",
+                      "c_00251_00500",
+                      "c_00501_01000",
+                      "c_01001_05000",
+                      "c_05001_10000",
+                      "c_10001_max"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "funding_stage",
+                    "operator_id": "eq",
+                    "values": [
+                      "seed"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "active"
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ],
+            "organization": [
+              {
+                "field_id": "facet_ids",
+                "operator_id": "includes",
+                "values": [
+                  "company"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "9314d29a-0a56-02c3-6b27-4168733de77f"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "num_employees_enum",
+                "operator_id": "includes",
+                "values": [
+                  "c_00011_00050",
+                  "c_00051_00100",
+                  "c_00101_00250",
+                  "c_00251_00500",
+                  "c_00501_01000",
+                  "c_01001_05000",
+                  "c_05001_10000",
+                  "c_10001_max"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "funding_stage",
+                "operator_id": "eq",
+                "values": [
+                  "seed"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "operating_status",
+                "operator_id": "eq",
+                "values": [
+                  "active"
+                ],
+                "type": "predicate"
+              }
+            ],
+            "person": [
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "9314d29a-0a56-02c3-6b27-4168733de77f"
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "organization.has_primary_organization.forward",
+                "query": [
+                  {
+                    "field_id": "facet_ids",
+                    "operator_id": "includes",
+                    "values": [
+                      "company"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "location_identifiers",
+                    "operator_id": "includes",
+                    "values": [
+                      "9314d29a-0a56-02c3-6b27-4168733de77f"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "num_employees_enum",
+                    "operator_id": "includes",
+                    "values": [
+                      "c_00011_00050",
+                      "c_00051_00100",
+                      "c_00101_00250",
+                      "c_00251_00500",
+                      "c_00501_01000",
+                      "c_01001_05000",
+                      "c_05001_10000",
+                      "c_10001_max"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "funding_stage",
+                    "operator_id": "eq",
+                    "values": [
+                      "seed"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "active"
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ]
+          }
+        },
+        {
+          "identifier": {
+            "permalink": "companies-fewer-than-100-employees",
+            "image_id": "77c1bcaeed6c45e282160ff30f20d699",
+            "uuid": "7d31a8b9-0ff9-4003-a491-d0a3c59825ad",
+            "entity_def_id": "hub",
+            "value": "Companies With Fewer Than 100 Employees (Top 10K)"
+          },
+          "org_identifiers": [
+            {
+              "permalink": "unitree-robotics",
+              "image_id": "77c1bcaeed6c45e282160ff30f20d699",
+              "uuid": "f1cd7b2a-a4af-421f-a682-c4dbc448c60a",
+              "entity_def_id": "organization",
+              "value": "Unitree Robotics"
+            },
+            {
+              "permalink": "openrouter",
+              "image_id": "a8c797b31e6c4e86b047a1f2a094c419",
+              "uuid": "abcf0bf1-2480-4ab6-a427-3ee832612f71",
+              "entity_def_id": "organization",
+              "value": "OpenRouter"
+            },
+            {
+              "permalink": "starcloud",
+              "image_id": "wugy8ku0ykdwxvkyno7w",
+              "uuid": "fdbee074-89fd-4b18-b2ca-c7ae938ad185",
+              "entity_def_id": "organization",
+              "value": "Starcloud"
+            },
+            {
+              "permalink": "emerald-ai",
+              "image_id": "41315669a5a84083bf7d214dfc1fe722",
+              "uuid": "c1ec70ae-b490-4b61-a131-c8c4729a2ebd",
+              "entity_def_id": "organization",
+              "value": "Emerald AI"
+            },
+            {
+              "permalink": "valar-atomics",
+              "image_id": "8af174944a764ccabb2b8f37efe82b5c",
+              "uuid": "b1934b8e-591b-4740-b36e-dc88e31ff2f5",
+              "entity_def_id": "organization",
+              "value": "Valar Atomics"
+            },
+            {
+              "permalink": "world-labs",
+              "image_id": "7e39375157714ef1b7733d002ebb3017",
+              "uuid": "660ad03f-c1fb-42bd-8d39-dcca245e82ce",
+              "entity_def_id": "organization",
+              "value": "World Labs"
+            },
+            {
+              "permalink": "world-liberty-financial",
+              "image_id": "3bee3ef8ab4b42d1ab0fe68f40267fa2",
+              "uuid": "eb2fe359-3789-49df-bbe7-af289c547cc4",
+              "entity_def_id": "organization",
+              "value": "World Liberty Financial"
+            },
+            {
+              "permalink": "binance-labs-b05e",
+              "image_id": "kermvpjt6vvcclqvly6k",
+              "uuid": "8b52e412-7d11-4b4d-ae49-3811f29fb05e",
+              "entity_def_id": "organization",
+              "value": "YZi Labs"
+            }
+          ],
+          "org_funding_total": {
+            "currency": "USD",
+            "value": 713033340738,
+            "value_usd": 713033340738
+          },
+          "org_num_investors": 85661,
+          "org_num": 9685,
+          "queries": {
+            "event": [
+              {
+                "collection_id": "principal.has_event.forward",
+                "query": [
+                  {
+                    "field_id": "facet_ids",
+                    "operator_id": "includes",
+                    "values": [
+                      "company"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "num_employees_enum",
+                    "operator_id": "includes",
+                    "values": [
+                      "c_00001_00010",
+                      "c_00011_00050",
+                      "c_00051_00100"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "active"
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ],
+            "organization": [
+              {
+                "field_id": "facet_ids",
+                "operator_id": "includes",
+                "values": [
+                  "company"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "num_employees_enum",
+                "operator_id": "includes",
+                "values": [
+                  "c_00001_00010",
+                  "c_00011_00050",
+                  "c_00051_00100"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "operating_status",
+                "operator_id": "eq",
+                "values": [
+                  "active"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "rank_org",
+                "operator_id": "lte",
+                "values": [
+                  20000
+                ],
+                "type": "predicate"
+              }
+            ],
+            "person": [
+              {
+                "field_id": "rank_person",
+                "operator_id": "lte",
+                "values": [
+                  9800
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "organization.has_primary_organization.forward",
+                "query": [
+                  {
+                    "field_id": "facet_ids",
+                    "operator_id": "includes",
+                    "values": [
+                      "company"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "num_employees_enum",
+                    "operator_id": "includes",
+                    "values": [
+                      "c_00001_00010",
+                      "c_00011_00050",
+                      "c_00051_00100"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "active"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "rank_org",
+                    "operator_id": "lte",
+                    "values": [
+                      20000
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ]
+          }
+        },
+        {
+          "identifier": {
+            "permalink": "dubai-startups-founded-in-2022",
+            "image_id": "j0op1l3pqcuo7xltsltr",
+            "uuid": "7b86f7ec-bce4-43b5-ad17-4c0a9a301f5e",
+            "entity_def_id": "hub",
+            "value": "Dubai Startups Founded in 2022"
+          },
+          "org_identifiers": [
+            {
+              "permalink": "yuze-digital",
+              "image_id": "j0op1l3pqcuo7xltsltr",
+              "uuid": "896bffd0-9f88-49be-83d6-1b9849925b53",
+              "entity_def_id": "organization",
+              "value": "Yuze Digital"
+            },
+            {
+              "permalink": "pemo",
+              "image_id": "gvtpme7rc7gaetdybl2p",
+              "uuid": "c775c027-af97-4338-bf6c-c22f37031a14",
+              "entity_def_id": "organization",
+              "value": "Pemo"
+            },
+            {
+              "permalink": "longevium",
+              "image_id": "92403d7358564934867b9d73d369f167",
+              "uuid": "bed8e5ab-69a9-482f-9e58-9e3ed60175c6",
+              "entity_def_id": "organization",
+              "value": "Longevium"
+            },
+            {
+              "permalink": "prypco",
+              "image_id": "34e1850755014476a8b62421b46b50f1",
+              "uuid": "1e4733bc-08d2-4191-b367-df8d3b2e9987",
+              "entity_def_id": "organization",
+              "value": "PRYPCO"
+            },
+            {
+              "permalink": "the-open-platform",
+              "image_id": "gguxlmf4pd6c9qcthl8m",
+              "uuid": "e08a4c95-2683-4a0e-8053-daf1025230d3",
+              "entity_def_id": "organization",
+              "value": "The Open Platform"
+            },
+            {
+              "permalink": "shipfinex",
+              "image_id": "jyfvjoa5f2xve0blfeht",
+              "uuid": "91fca433-c25d-41c1-ae9b-e5373604fed3",
+              "entity_def_id": "organization",
+              "value": "ShipFinex"
+            },
+            {
+              "permalink": "flow48",
+              "image_id": "j3pvwmigrxdghttglqaa",
+              "uuid": "22c77d22-9ecf-41af-b778-eea1eca1b9a5",
+              "entity_def_id": "organization",
+              "value": "Flow48"
+            },
+            {
+              "permalink": "sav-4e16",
+              "image_id": "1f5a62c2a54e44cfaf2cccb2156167ed",
+              "uuid": "74143334-d058-420c-bf23-3b97feff4e16",
+              "entity_def_id": "organization",
+              "value": "Sav"
+            }
+          ],
+          "org_funding_total": {
+            "currency": "USD",
+            "value": 543751954,
+            "value_usd": 543751954
+          },
+          "org_num_investors": 376,
+          "org_num": 164,
+          "queries": {
+            "event": [
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "bdaf57f0-4a06-3b65-7b13-e2983186c2ab"
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "principal.has_event.forward",
+                "query": [
+                  {
+                    "field_id": "funding_stage",
+                    "operator_id": "includes",
+                    "values": [
+                      "seed",
+                      "early_stage_venture",
+                      "late_stage_venture"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "founded_on",
+                    "operator_id": "between",
+                    "values": [
+                      "2022-01-01",
+                      "2022-12-31"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "active"
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ],
+            "organization": [
+              {
+                "field_id": "funding_stage",
+                "operator_id": "includes",
+                "values": [
+                  "seed",
+                  "early_stage_venture",
+                  "late_stage_venture"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "bdaf57f0-4a06-3b65-7b13-e2983186c2ab"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "founded_on",
+                "operator_id": "between",
+                "values": [
+                  "2022-01-01",
+                  "2022-12-31"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "operating_status",
+                "operator_id": "eq",
+                "values": [
+                  "active"
+                ],
+                "type": "predicate"
+              }
+            ],
+            "person": [
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "bdaf57f0-4a06-3b65-7b13-e2983186c2ab"
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "organization.has_primary_organization.forward",
+                "query": [
+                  {
+                    "field_id": "funding_stage",
+                    "operator_id": "includes",
+                    "values": [
+                      "seed",
+                      "early_stage_venture",
+                      "late_stage_venture"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "location_identifiers",
+                    "operator_id": "includes",
+                    "values": [
+                      "bdaf57f0-4a06-3b65-7b13-e2983186c2ab"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "founded_on",
+                    "operator_id": "between",
+                    "values": [
+                      "2022-01-01",
+                      "2022-12-31"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "active"
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ]
+          }
+        },
+        {
+          "identifier": {
+            "permalink": "city-of-dubai-startups-founded-in-2022",
+            "image_id": "j0op1l3pqcuo7xltsltr",
+            "uuid": "7a38f56a-67e0-4332-b73e-fed0a4ec55cc",
+            "entity_def_id": "hub",
+            "value": "City of Dubai Startups Founded in 2022"
+          },
+          "org_identifiers": [
+            {
+              "permalink": "yuze-digital",
+              "image_id": "j0op1l3pqcuo7xltsltr",
+              "uuid": "896bffd0-9f88-49be-83d6-1b9849925b53",
+              "entity_def_id": "organization",
+              "value": "Yuze Digital"
+            },
+            {
+              "permalink": "pemo",
+              "image_id": "gvtpme7rc7gaetdybl2p",
+              "uuid": "c775c027-af97-4338-bf6c-c22f37031a14",
+              "entity_def_id": "organization",
+              "value": "Pemo"
+            },
+            {
+              "permalink": "longevium",
+              "image_id": "92403d7358564934867b9d73d369f167",
+              "uuid": "bed8e5ab-69a9-482f-9e58-9e3ed60175c6",
+              "entity_def_id": "organization",
+              "value": "Longevium"
+            },
+            {
+              "permalink": "prypco",
+              "image_id": "34e1850755014476a8b62421b46b50f1",
+              "uuid": "1e4733bc-08d2-4191-b367-df8d3b2e9987",
+              "entity_def_id": "organization",
+              "value": "PRYPCO"
+            },
+            {
+              "permalink": "the-open-platform",
+              "image_id": "gguxlmf4pd6c9qcthl8m",
+              "uuid": "e08a4c95-2683-4a0e-8053-daf1025230d3",
+              "entity_def_id": "organization",
+              "value": "The Open Platform"
+            },
+            {
+              "permalink": "shipfinex",
+              "image_id": "jyfvjoa5f2xve0blfeht",
+              "uuid": "91fca433-c25d-41c1-ae9b-e5373604fed3",
+              "entity_def_id": "organization",
+              "value": "ShipFinex"
+            },
+            {
+              "permalink": "flow48",
+              "image_id": "j3pvwmigrxdghttglqaa",
+              "uuid": "22c77d22-9ecf-41af-b778-eea1eca1b9a5",
+              "entity_def_id": "organization",
+              "value": "Flow48"
+            },
+            {
+              "permalink": "sav-4e16",
+              "image_id": "1f5a62c2a54e44cfaf2cccb2156167ed",
+              "uuid": "74143334-d058-420c-bf23-3b97feff4e16",
+              "entity_def_id": "organization",
+              "value": "Sav"
+            }
+          ],
+          "org_funding_total": {
+            "currency": "USD",
+            "value": 543751954,
+            "value_usd": 543751954
+          },
+          "org_num_investors": 375,
+          "org_num": 163,
+          "queries": {
+            "event": [
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "0e8010ee-2f59-38db-b7e2-998e92dde222"
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "principal.has_event.forward",
+                "query": [
+                  {
+                    "field_id": "funding_stage",
+                    "operator_id": "includes",
+                    "values": [
+                      "seed",
+                      "early_stage_venture",
+                      "late_stage_venture"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "founded_on",
+                    "operator_id": "between",
+                    "values": [
+                      "2022-01-01",
+                      "2022-12-31"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "active"
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ],
+            "organization": [
+              {
+                "field_id": "funding_stage",
+                "operator_id": "includes",
+                "values": [
+                  "seed",
+                  "early_stage_venture",
+                  "late_stage_venture"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "0e8010ee-2f59-38db-b7e2-998e92dde222"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "founded_on",
+                "operator_id": "between",
+                "values": [
+                  "2022-01-01",
+                  "2022-12-31"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "operating_status",
+                "operator_id": "eq",
+                "values": [
+                  "active"
+                ],
+                "type": "predicate"
+              }
+            ],
+            "person": [
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "0e8010ee-2f59-38db-b7e2-998e92dde222"
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "organization.has_primary_organization.forward",
+                "query": [
+                  {
+                    "field_id": "funding_stage",
+                    "operator_id": "includes",
+                    "values": [
+                      "seed",
+                      "early_stage_venture",
+                      "late_stage_venture"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "location_identifiers",
+                    "operator_id": "includes",
+                    "values": [
+                      "0e8010ee-2f59-38db-b7e2-998e92dde222"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "founded_on",
+                    "operator_id": "between",
+                    "values": [
+                      "2022-01-01",
+                      "2022-12-31"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "active"
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ]
+          }
+        }
+      ],
+      "org_similarity_org_list": [],
+      "investors_summary": {
+        "identifier": {
+          "uuid": "bed8e5ab-69a9-482f-9e58-9e3ed60175c6",
+          "value": "Longevium",
+          "image_id": "92403d7358564934867b9d73d369f167",
+          "permalink": "longevium",
+          "entity_def_id": "organization"
+        }
+      },
+      "funds_list": [],
+      "alumni_image_list": [],
+      "semrush_overview_headline": {
+        "semrush_global_rank": 6953206,
+        "semrush_global_rank_mom_pct": -0.392999491489543
+      },
+      "frequently_asked_questions_total_funding": {
+        "funding_total": {
+          "value": 7000000,
+          "currency": "USD",
+          "value_usd": 7000000
+        },
+        "identifier": {
+          "uuid": "bed8e5ab-69a9-482f-9e58-9e3ed60175c6",
+          "value": "Longevium",
+          "image_id": "92403d7358564934867b9d73d369f167",
+          "permalink": "longevium",
+          "entity_def_id": "organization"
+        }
+      },
+      "exits_summary": {
+        "identifier": {
+          "uuid": "bed8e5ab-69a9-482f-9e58-9e3ed60175c6",
+          "value": "Longevium",
+          "image_id": "92403d7358564934867b9d73d369f167",
+          "permalink": "longevium",
+          "entity_def_id": "organization"
+        }
+      },
+      "partnership_announcements": [],
+      "bombora_surge_list": [],
+      "diversity_spotlight_investments_list": [],
+      "builtwith_tech_used_list": [],
+      "funding_rounds_summary": {
+        "identifier": {
+          "uuid": "bed8e5ab-69a9-482f-9e58-9e3ed60175c6",
+          "value": "Longevium",
+          "image_id": "92403d7358564934867b9d73d369f167",
+          "permalink": "longevium",
+          "entity_def_id": "organization"
+        },
+        "last_funding_type": "seed",
+        "last_funding_at": "2026-08-04",
+        "funding_total": {
+          "value": 7000000,
+          "currency": "USD",
+          "value_usd": 7000000
+        },
+        "num_funding_rounds": 1
+      },
+      "org_similarity_list": [],
+      "ipo_prediction": [],
+      "acquisitions_summary": {
+        "identifier": {
+          "uuid": "bed8e5ab-69a9-482f-9e58-9e3ed60175c6",
+          "value": "Longevium",
+          "image_id": "92403d7358564934867b9d73d369f167",
+          "permalink": "longevium",
+          "entity_def_id": "organization"
+        }
+      },
+      "advisors_summary": {
+        "identifier": {
+          "uuid": "bed8e5ab-69a9-482f-9e58-9e3ed60175c6",
+          "value": "Longevium",
+          "image_id": "92403d7358564934867b9d73d369f167",
+          "permalink": "longevium",
+          "entity_def_id": "organization"
+        }
+      },
+      "acquisitions_list": [],
+      "exits_headline": {},
+      "investments_summary": {
+        "identifier": {
+          "uuid": "bed8e5ab-69a9-482f-9e58-9e3ed60175c6",
+          "value": "Longevium",
+          "image_id": "92403d7358564934867b9d73d369f167",
+          "permalink": "longevium",
+          "entity_def_id": "organization"
+        }
+      },
+      "acquired_by_fields": {},
+      "research_insight_text_link": {},
+      "acquisition_prediction": [],
+      "sub_organizations_headline": {},
+      "layoff_list": [],
+      "growth_and_heat": {
+        "heat_score_history": {
+          "periods": {
+            "i1": {
+              "values": [
+                81,
+                82,
+                84,
+                85,
+                87,
+                88,
+                90,
+                85,
+                87,
+                87,
+                89,
+                90,
+                89,
+                91,
+                91,
+                90,
+                91,
+                92,
+                93,
+                94,
+                93,
+                92,
+                79,
+                74,
+                64,
+                47,
+                3
+              ],
+              "interval": 1
+            },
+            "i2": {
+              "values": [
+                81,
+                85,
+                88,
+                88,
+                87,
+                90,
+                90,
+                91,
+                92,
+                94,
+                93,
+                77,
+                56,
+                3
+              ],
+              "interval": 2
+            },
+            "i4": {
+              "values": [
+                81,
+                88,
+                88,
+                90,
+                93,
+                85,
+                38
+              ],
+              "interval": 4
+            },
+            "i7": {
+              "values": [
+                81,
+                88,
+                92,
+                60
+              ],
+              "interval": 7
+            },
+            "i18": {
+              "values": [
+                81,
+                71
+              ],
+              "interval": 18
+            },
+            "i36": {
+              "values": [
+                81
+              ],
+              "interval": 36
+            }
+          }
+        },
+        "growth_score_delta_d90": 7,
+        "growth_score_history": {
+          "periods": {
+            "i1": {
+              "values": [
+                93,
+                93,
+                93,
+                93,
+                93,
+                93,
+                93,
+                93,
+                93,
+                93,
+                93,
+                93,
+                93,
+                93,
+                93,
+                93,
+                93,
+                93,
+                93,
+                93,
+                93,
+                93,
+                93,
+                93,
+                93,
+                92,
+                91,
+                89,
+                89,
+                89,
+                89,
+                89,
+                89,
+                89,
+                89,
+                89,
+                89,
+                89,
+                89,
+                89,
+                89,
+                89,
+                89,
+                88,
+                88,
+                88,
+                88,
+                88,
+                88,
+                88,
+                88,
+                88,
+                88,
+                88,
+                88,
+                88,
+                88,
+                88,
+                88,
+                88,
+                88,
+                88,
+                88,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                86,
+                86,
+                86,
+                86,
+                86,
+                86,
+                86,
+                86,
+                86,
+                86
+              ],
+              "interval": 1
+            },
+            "i2": {
+              "values": [
+                93,
+                93,
+                93,
+                93,
+                93,
+                93,
+                93,
+                93,
+                93,
+                93,
+                93,
+                93,
+                93,
+                90,
+                89,
+                89,
+                89,
+                89,
+                89,
+                89,
+                89,
+                89,
+                88,
+                88,
+                88,
+                88,
+                88,
+                88,
+                88,
+                88,
+                88,
+                88,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                86,
+                86,
+                86,
+                86,
+                86,
+                86,
+                86,
+                86,
+                86,
+                85,
+                85,
+                85,
+                85,
+                85,
+                85,
+                85,
+                84,
+                84,
+                84,
+                84,
+                84,
+                84,
+                84,
+                83,
+                83,
+                83,
+                83,
+                83,
+                83,
+                83,
+                82,
+                82,
+                82,
+                82,
+                82,
+                81,
+                81,
+                81,
+                81,
+                81,
+                81,
+                80,
+                80,
+                80,
+                80,
+                79,
+                79,
+                79,
+                79,
+                78,
+                78
+              ],
+              "interval": 2
+            },
+            "i4": {
+              "values": [
+                93,
+                93,
+                93,
+                93,
+                93,
+                93,
+                91,
+                89,
+                89,
+                89,
+                89,
+                88,
+                88,
+                88,
+                88,
+                88,
+                87,
+                87,
+                87,
+                87,
+                86,
+                86,
+                86,
+                86,
+                85,
+                85,
+                85,
+                85,
+                84,
+                84,
+                84,
+                84,
+                83,
+                83,
+                83,
+                82,
+                82,
+                82,
+                81,
+                81,
+                80,
+                80,
+                80,
+                79,
+                78,
+                78,
+                77,
+                76,
+                76,
+                74,
+                72,
+                61,
+                36,
+                36,
+                36,
+                36,
+                35,
+                35,
+                35,
+                35,
+                35,
+                34,
+                34,
+                34,
+                34,
+                33,
+                33,
+                33,
+                33,
+                32,
+                32,
+                32,
+                32,
+                31,
+                31,
+                31,
+                31,
+                30,
+                30,
+                30,
+                29,
+                29,
+                29,
+                28,
+                28,
+                28,
+                27,
+                27,
+                26,
+                26,
+                25,
+                25
+              ],
+              "interval": 4
+            },
+            "i7": {
+              "values": [
+                93,
+                93,
+                93,
+                92,
+                89,
+                89,
+                88,
+                88,
+                88,
+                87,
+                87,
+                86,
+                86,
+                86,
+                85,
+                85,
+                84,
+                84,
+                83,
+                83,
+                82,
+                81,
+                81,
+                80,
+                79,
+                78,
+                77,
+                76,
+                74,
+                55,
+                36,
+                36,
+                35,
+                35,
+                35,
+                34,
+                34,
+                33,
+                33,
+                33,
+                32,
+                32,
+                31,
+                31,
+                30,
+                30,
+                29,
+                28,
+                28,
+                27,
+                26,
+                25,
+                24,
+                23,
+                21,
+                18
+              ],
+              "interval": 7
+            },
+            "i18": {
+              "values": [
+                93,
+                91,
+                88,
+                88,
+                86,
+                85,
+                84,
+                83,
+                81,
+                79,
+                76,
+                54,
+                35,
+                34,
+                34,
+                32,
+                31,
+                30,
+                28,
+                27,
+                24,
+                20
+              ],
+              "interval": 18
+            },
+            "i36": {
+              "values": [
+                93,
+                88,
+                86,
+                83,
+                80,
+                65,
+                35,
+                33,
+                31,
+                28,
+                22
+              ],
+              "interval": 36
+            }
+          }
+        },
+        "growth_trend_365": {
+          "periods": {
+            "i1": {
+              "values": [
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100
+              ],
+              "interval": 1
+            },
+            "i2": {
+              "values": [
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100
+              ],
+              "interval": 2
+            },
+            "i4": {
+              "values": [
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                95,
+                77,
+                77,
+                76,
+                75,
+                74,
+                74,
+                73,
+                72,
+                72,
+                71,
+                70,
+                69,
+                69,
+                68,
+                67,
+                66,
+                65,
+                64,
+                64,
+                63,
+                62,
+                61,
+                60,
+                59,
+                58,
+                57,
+                56,
+                55,
+                54,
+                53,
+                51,
+                50,
+                49,
+                48,
+                46,
+                45,
+                43,
+                41,
+                40,
+                38
+              ],
+              "interval": 4
+            },
+            "i7": {
+              "values": [
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                90,
+                77,
+                75,
+                74,
+                73,
+                72,
+                70,
+                69,
+                68,
+                66,
+                65,
+                63,
+                62,
+                60,
+                58,
+                56,
+                55,
+                53,
+                51,
+                48,
+                46,
+                43,
+                40,
+                36,
+                32,
+                26,
+                15
+              ],
+              "interval": 7
+            },
+            "i18": {
+              "values": [
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                88,
+                75,
+                71,
+                68,
+                64,
+                60,
+                55,
+                50,
+                44,
+                35,
+                21
+              ],
+              "interval": 18
+            },
+            "i36": {
+              "values": [
+                100,
+                100,
+                100,
+                100,
+                100,
+                94,
+                73,
+                66,
+                58,
+                47,
+                29
+              ],
+              "interval": 36
+            }
+          }
+        },
+        "heat_score": 81,
+        "heat_trend_365": {
+          "periods": {
+            "i1": {
+              "values": [
+                72,
+                73,
+                74,
+                75,
+                75,
+                76,
+                77,
+                75,
+                76,
+                76,
+                77,
+                77,
+                77,
+                78,
+                78,
+                77,
+                78,
+                78,
+                79,
+                80,
+                79,
+                78,
+                71,
+                68,
+                63,
+                53,
+                29
+              ],
+              "interval": 1
+            },
+            "i2": {
+              "values": [
+                72,
+                75,
+                76,
+                76,
+                76,
+                77,
+                78,
+                78,
+                78,
+                80,
+                79,
+                70,
+                58,
+                29
+              ],
+              "interval": 2
+            },
+            "i4": {
+              "values": [
+                72,
+                76,
+                77,
+                78,
+                79,
+                74,
+                48
+              ],
+              "interval": 4
+            },
+            "i7": {
+              "values": [
+                72,
+                77,
+                78,
+                60
+              ],
+              "interval": 7
+            },
+            "i18": {
+              "values": [
+                72,
+                67
+              ],
+              "interval": 18
+            },
+            "i36": {
+              "values": [
+                72
+              ],
+              "interval": 36
+            }
+          }
+        },
+        "growth_score": 93,
+        "heat_score_delta_d90": 78
+      },
+      "bombora_summary": {
+        "identifier": {
+          "uuid": "bed8e5ab-69a9-482f-9e58-9e3ed60175c6",
+          "value": "Longevium",
+          "image_id": "92403d7358564934867b9d73d369f167",
+          "permalink": "longevium",
+          "entity_def_id": "organization"
+        }
+      },
+      "semrush_rank_headline": {
+        "semrush_visits_latest_month": 1139,
+        "semrush_visits_mom_pct": 2.1120218579235
+      },
+      "frequently_asked_questions_latest_funding_round": {
+        "identifier": {
+          "uuid": "bed8e5ab-69a9-482f-9e58-9e3ed60175c6",
+          "value": "Longevium",
+          "image_id": "92403d7358564934867b9d73d369f167",
+          "permalink": "longevium",
+          "entity_def_id": "organization"
+        },
+        "last_funding_at": "2026-08-04",
+        "last_funding_type": "seed",
+        "num_funding_rounds": 1
+      },
+      "apptopia_app_overview_list_free": [],
+      "contacts": {},
+      "product_launches": [],
+      "alumni_summary": {
+        "identifier": {
+          "uuid": "bed8e5ab-69a9-482f-9e58-9e3ed60175c6",
+          "value": "Longevium",
+          "image_id": "92403d7358564934867b9d73d369f167",
+          "permalink": "longevium",
+          "entity_def_id": "organization"
+        }
+      },
+      "apptopia_summary": {
+        "identifier": {
+          "uuid": "bed8e5ab-69a9-482f-9e58-9e3ed60175c6",
+          "value": "Longevium",
+          "image_id": "92403d7358564934867b9d73d369f167",
+          "permalink": "longevium",
+          "entity_def_id": "organization"
+        }
+      },
+      "product_similarity_target_org_list": [],
+      "social_fields": {
+        "linkedin": {
+          "value": "https://www.linkedin.com/company/longevium/"
+        }
+      },
+      "investments_headline": {},
+      "investment_thesis": {
+        "lookup": [],
+        "properties": {
+          "identifier": {
+            "uuid": "bed8e5ab-69a9-482f-9e58-9e3ed60175c6",
+            "value": "Longevium",
+            "image_id": "92403d7358564934867b9d73d369f167",
+            "permalink": "longevium",
+            "entity_def_id": "organization"
+          }
+        },
+        "data": []
+      },
+      "diversity_spotlight_investments_summary": {
+        "identifier": {
+          "uuid": "bed8e5ab-69a9-482f-9e58-9e3ed60175c6",
+          "value": "Longevium",
+          "image_id": "92403d7358564934867b9d73d369f167",
+          "permalink": "longevium",
+          "entity_def_id": "organization"
+        }
+      },
+      "contact_fields": {},
+      "growth_prediction": [],
+      "sub_organizations_summary": {
+        "identifier": {
+          "uuid": "bed8e5ab-69a9-482f-9e58-9e3ed60175c6",
+          "value": "Longevium",
+          "image_id": "92403d7358564934867b9d73d369f167",
+          "permalink": "longevium",
+          "entity_def_id": "organization"
+        }
+      },
+      "overview_description": {
+        "description": "Longevium is a Dubai-based longevity and preventive healthcare clinic network focused on extending healthspan through advanced diagnostics, biomarker analysis, peptide protocols, regenerative therapies, and AI-powered health analytics."
+      },
+      "current_employees_featured_order_field": [],
+      "company_about_fields2": {
+        "website": {
+          "value": "https://longevium.clinic/"
+        },
+        "ipo_status": "private",
+        "num_employees_enum": "c_00051_00100",
+        "last_funding_type": "seed",
+        "location_identifiers": [
+          {
+            "uuid": "0e8010ee-2f59-38db-b7e2-998e92dde222",
+            "value": "Dubai",
+            "permalink": "dubai-dubai",
+            "entity_def_id": "location",
+            "location_type": "city"
+          },
+          {
+            "uuid": "bdaf57f0-4a06-3b65-7b13-e2983186c2ab",
+            "value": "Dubai",
+            "permalink": "dubai-united-arab-emirates",
+            "entity_def_id": "location",
+            "location_type": "region"
+          },
+          {
+            "uuid": "9314d29a-0a56-02c3-6b27-4168733de77f",
+            "value": "United Arab Emirates",
+            "permalink": "united-arab-emirates",
+            "entity_def_id": "location",
+            "location_type": "country"
+          },
+          {
+            "uuid": "b41404d2-8ecc-caf5-1268-8fdd3afe73ee",
+            "value": "Asia",
+            "permalink": "asia",
+            "entity_def_id": "location",
+            "location_type": "continent"
+          }
+        ],
+        "rank_org_company": 12398
+      },
+      "sub_organizations_image_list": [],
+      "frequently_asked_questions_headquarters_location": {
+        "identifier": {
+          "uuid": "bed8e5ab-69a9-482f-9e58-9e3ed60175c6",
+          "value": "Longevium",
+          "image_id": "92403d7358564934867b9d73d369f167",
+          "permalink": "longevium",
+          "entity_def_id": "organization"
+        },
+        "location_identifiers": [
+          {
+            "uuid": "0e8010ee-2f59-38db-b7e2-998e92dde222",
+            "value": "Dubai",
+            "permalink": "dubai-dubai",
+            "entity_def_id": "location",
+            "location_type": "city"
+          },
+          {
+            "uuid": "bdaf57f0-4a06-3b65-7b13-e2983186c2ab",
+            "value": "Dubai",
+            "permalink": "dubai-united-arab-emirates",
+            "entity_def_id": "location",
+            "location_type": "region"
+          },
+          {
+            "uuid": "9314d29a-0a56-02c3-6b27-4168733de77f",
+            "value": "United Arab Emirates",
+            "permalink": "united-arab-emirates",
+            "entity_def_id": "location",
+            "location_type": "country"
+          },
+          {
+            "uuid": "b41404d2-8ecc-caf5-1268-8fdd3afe73ee",
+            "value": "Asia",
+            "permalink": "asia",
+            "entity_def_id": "location",
+            "location_type": "continent"
+          }
+        ]
+      },
+      "investors_headline": {},
+      "ipo_summary": {
+        "identifier": {
+          "uuid": "bed8e5ab-69a9-482f-9e58-9e3ed60175c6",
+          "value": "Longevium",
+          "image_id": "92403d7358564934867b9d73d369f167",
+          "permalink": "longevium",
+          "entity_def_id": "organization"
+        }
+      },
+      "ipqwery_summary": {
+        "identifier": {
+          "uuid": "bed8e5ab-69a9-482f-9e58-9e3ed60175c6",
+          "value": "Longevium",
+          "image_id": "92403d7358564934867b9d73d369f167",
+          "permalink": "longevium",
+          "entity_def_id": "organization"
+        }
+      },
+      "awards": [],
+      "siftery_product_list": [],
+      "competitors_list": [],
+      "growth_knowledge": {
+        "lookup": [],
+        "properties": {
+          "identifier": {
+            "uuid": "bed8e5ab-69a9-482f-9e58-9e3ed60175c6",
+            "value": "Longevium",
+            "image_id": "92403d7358564934867b9d73d369f167",
+            "permalink": "longevium",
+            "entity_def_id": "organization"
+          }
+        },
+        "data": []
+      },
+      "overview_fields_extended": {
+        "founded_on": {
+          "value": "2022-01-01",
+          "precision": "year"
+        },
+        "last_funding_type": "seed",
+        "location_group_identifiers": [
+          {
+            "uuid": "4e8be435-c63a-4aff-8a2f-44a880d9c341",
+            "value": "Europe, Middle East, and Africa (EMEA)",
+            "permalink": "europe-middle-east-africa-emea",
+            "entity_def_id": "location",
+            "location_type": "group"
+          },
+          {
+            "uuid": "c4365698-c7c5-44b0-b33a-7d13900e5be2",
+            "value": "Gulf Cooperation Council (GCC)",
+            "permalink": "gulf-cooperation-council",
+            "entity_def_id": "location",
+            "location_type": "group"
+          },
+          {
+            "uuid": "e0272206-3430-48cb-a5bc-1d4b3eafe15a",
+            "value": "Middle East",
+            "permalink": "middle-east",
+            "entity_def_id": "location",
+            "location_type": "group"
+          },
+          {
+            "uuid": "8cb7cad4-b7e4-4b28-a496-2ede3720cb19",
+            "value": "Middle East and North Africa (MENA)",
+            "permalink": "middle-east-and-north-africa-mena",
+            "entity_def_id": "location",
+            "location_type": "group"
+          }
+        ],
+        "operating_status": "active"
+      },
+      "overview_investor_fields": {},
+      "bombora_attribution": {},
+      "semrush_location_list": [
+        {
+          "identifier": {
+            "uuid": "c25be03b-c138-4eed-9335-24eddca8e51f"
+          },
+          "visits_mom_pct": 0.188034188034188,
+          "uuid": "c25be03b-c138-4eed-9335-24eddca8e51f",
+          "rank": 128614,
+          "rank_mom_pct": 0.0140260968975441,
+          "location_identifiers": [
+            {
+              "uuid": "9314d29a-0a56-02c3-6b27-4168733de77f",
+              "value": "United Arab Emirates",
+              "permalink": "united-arab-emirates",
+              "entity_def_id": "location"
+            },
+            {
+              "uuid": "b41404d2-8ecc-caf5-1268-8fdd3afe73ee",
+              "value": "Asia",
+              "permalink": "asia",
+              "entity_def_id": "location"
+            }
+          ],
+          "visits_pct": 0.244073748902546
+        },
+        {
+          "identifier": {
+            "uuid": "f9d9197a-7730-489b-a21b-4b1ffda351cd"
+          },
+          "uuid": "f9d9197a-7730-489b-a21b-4b1ffda351cd",
+          "rank": 66591,
+          "location_identifiers": [
+            {
+              "uuid": "c0771ac6-45dc-7060-e8e5-4fad1098f695",
+              "value": "Estonia",
+              "permalink": "estonia",
+              "entity_def_id": "location"
+            },
+            {
+              "uuid": "6106f5dc-823e-5da8-40d7-51612c0b2c4e",
+              "value": "Europe",
+              "permalink": "europe",
+              "entity_def_id": "location"
+            }
+          ],
+          "visits_pct": 0.182616330114135
+        },
+        {
+          "identifier": {
+            "uuid": "8aeb592a-2dd6-4492-a0c3-00a7ccf8c021"
+          },
+          "uuid": "8aeb592a-2dd6-4492-a0c3-00a7ccf8c021",
+          "rank": 342569,
+          "location_identifiers": [
+            {
+              "uuid": "0a3244eb-ffb1-15fc-ae8d-468f4c22c4b1",
+              "value": "Vietnam",
+              "permalink": "vietnam",
+              "entity_def_id": "location"
+            },
+            {
+              "uuid": "b41404d2-8ecc-caf5-1268-8fdd3afe73ee",
+              "value": "Asia",
+              "permalink": "asia",
+              "entity_def_id": "location"
+            }
+          ],
+          "visits_pct": 0.151009657594381
+        },
+        {
+          "identifier": {
+            "uuid": "d46d3ffe-7577-4c80-b6f7-c79dcde9cd71"
+          },
+          "uuid": "d46d3ffe-7577-4c80-b6f7-c79dcde9cd71",
+          "rank": 392725,
+          "location_identifiers": [
+            {
+              "uuid": "4abbf906-6e8c-0c01-e56b-0e41d56bbfca",
+              "value": "Nigeria",
+              "permalink": "nigeria",
+              "entity_def_id": "location"
+            },
+            {
+              "uuid": "5b194c3b-3018-b47d-f611-ab142cdfd74c",
+              "value": "Africa",
+              "permalink": "africa",
+              "entity_def_id": "location"
+            }
+          ],
+          "visits_pct": 0.149253731343284
+        },
+        {
+          "identifier": {
+            "uuid": "7747ca56-c4a8-4711-9b34-09530d9f2003"
+          },
+          "uuid": "7747ca56-c4a8-4711-9b34-09530d9f2003",
+          "rank": 314899,
+          "location_identifiers": [
+            {
+              "uuid": "315aab30-dbfa-fa2a-8d93-e787e9944dd9",
+              "value": "Portugal",
+              "permalink": "portugal",
+              "entity_def_id": "location"
+            },
+            {
+              "uuid": "6106f5dc-823e-5da8-40d7-51612c0b2c4e",
+              "value": "Europe",
+              "permalink": "europe",
+              "entity_def_id": "location"
+            }
+          ],
+          "visits_pct": 0.115891132572432
+        }
+      ],
+      "investors_list": [],
+      "siftery_summary": {
+        "identifier": {
+          "uuid": "bed8e5ab-69a9-482f-9e58-9e3ed60175c6",
+          "value": "Longevium",
+          "image_id": "92403d7358564934867b9d73d369f167",
+          "permalink": "longevium",
+          "entity_def_id": "organization"
+        }
+      },
+      "acquired_by_summary": {
+        "identifier": {
+          "uuid": "bed8e5ab-69a9-482f-9e58-9e3ed60175c6",
+          "value": "Longevium",
+          "image_id": "92403d7358564934867b9d73d369f167",
+          "permalink": "longevium",
+          "entity_def_id": "organization"
+        }
+      },
+      "ipo_fields": {},
+      "apptopia_app_overview_list_public": [],
+      "apptopia_sdk_list": [],
+      "trading_view": {},
+      "current_employees_image_list": [],
+      "frequently_asked_questions_investors": {
+        "identifier": {
+          "uuid": "bed8e5ab-69a9-482f-9e58-9e3ed60175c6",
+          "value": "Longevium",
+          "image_id": "92403d7358564934867b9d73d369f167",
+          "permalink": "longevium",
+          "entity_def_id": "organization"
+        }
+      },
+      "funding_rounds_list": [
+        {
+          "identifier": {
+            "uuid": "d22773fa-ad87-43cf-b367-3790cfd48a7b",
+            "value": "Seed Round - Longevium",
+            "image_id": "92403d7358564934867b9d73d369f167",
+            "permalink": "longevium-seed--d22773fa",
+            "entity_def_id": "funding_round"
+          },
+          "announced_on": "2026-08-04",
+          "money_raised": {
+            "value": 7000000,
+            "currency": "USD",
+            "value_usd": 7000000
+          },
+          "investment_type": "seed"
+        }
+      ],
+      "technology_highlights": {
+        "semrush_visits_latest_month": 1139,
+        "semrush_visits_mom_pct": 2.1120218579235
+      },
+      "funding_rounds_headline": {
+        "funding_total": {
+          "value": 7000000,
+          "currency": "USD",
+          "value_usd": 7000000
+        },
+        "num_funding_rounds": 1
+      },
+      "investments_list": [],
+      "exits_image_list": [],
+      "funds_headline": {},
+      "people_highlights": {},
+      "semrush_attribution": {
+        "semrush_last_updated": "2026-08-24"
+      },
+      "frequently_asked_questions_similar_companies": {
+        "identifier": {
+          "uuid": "bed8e5ab-69a9-482f-9e58-9e3ed60175c6",
+          "value": "Longevium",
+          "image_id": "92403d7358564934867b9d73d369f167",
+          "permalink": "longevium",
+          "entity_def_id": "organization"
+        }
+      },
+      "semrush_overview": {
+        "semrush_visit_duration_mom_pct": 3.46296296296296,
+        "semrush_visit_pageview_mom_pct": 0.825832201086957,
+        "semrush_visit_pageviews": 2.1501,
+        "semrush_bounce_rate": 0.5329,
+        "semrush_visit_duration": 482,
+        "semrush_bounce_rate_mom_pct": -0.352018482490272
+      },
+      "org_category_ranks": {},
+      "current_valuation": [],
+      "legal_proceedings": [],
+      "current_employees_summary": {
+        "identifier": {
+          "uuid": "bed8e5ab-69a9-482f-9e58-9e3ed60175c6",
+          "value": "Longevium",
+          "image_id": "92403d7358564934867b9d73d369f167",
+          "permalink": "longevium",
+          "entity_def_id": "organization"
+        }
+      },
+      "aberdeen_summary": {
+        "identifier": {
+          "uuid": "bed8e5ab-69a9-482f-9e58-9e3ed60175c6",
+          "value": "Longevium",
+          "image_id": "92403d7358564934867b9d73d369f167",
+          "permalink": "longevium",
+          "entity_def_id": "organization"
+        }
+      },
+      "offices": [],
+      "overview_timeline": {
+        "count": 5,
+        "entities": [
+          {
+            "uuid": "cb0c33d3-de69-45a8-8b12-ec89c05bf14f",
+            "properties": {
+              "identifier": {
+                "uuid": "cb0c33d3-de69-45a8-8b12-ec89c05bf14f",
+                "value": "August Startup Funding Tops $9M in MENA, Led by Healthcare",
+                "entity_def_id": "press_reference"
+              },
+              "entity_def_id": "press_reference",
+              "activity_entities": [
+                {
+                  "uuid": "bed8e5ab-69a9-482f-9e58-9e3ed60175c6",
+                  "value": "Longevium",
+                  "image_id": "92403d7358564934867b9d73d369f167",
+                  "permalink": "longevium",
+                  "entity_def_id": "organization"
+                }
+              ],
+              "activity_properties": {
+                "url": {
+                  "value": "https://entarabi.com/en/2026/08/august-startup-funding-tops-9m-in-mena-led-by-healthcare/"
+                },
+                "title": "August Startup Funding Tops $9M in MENA, Led by Healthcare",
+                "author": "محمد يحي",
+                "publisher": "إنت عربي | entARABI"
+              },
+              "activity_date": "2026-08-10"
+            }
+          },
+          {
+            "uuid": "1cf3b1ef-e84a-4df5-a8f6-c56ff2ac7175",
+            "properties": {
+              "identifier": {
+                "uuid": "1cf3b1ef-e84a-4df5-a8f6-c56ff2ac7175",
+                "value": "Startup wrap — Saudi Arabia leads MENA investments in July",
+                "entity_def_id": "press_reference"
+              },
+              "entity_def_id": "press_reference",
+              "activity_entities": [
+                {
+                  "uuid": "bed8e5ab-69a9-482f-9e58-9e3ed60175c6",
+                  "value": "Longevium",
+                  "image_id": "92403d7358564934867b9d73d369f167",
+                  "permalink": "longevium",
+                  "entity_def_id": "organization"
+                }
+              ],
+              "activity_properties": {
+                "url": {
+                  "value": "https://www.arabnews.com/node/2653864/business-economy"
+                },
+                "title": "Startup wrap — Saudi Arabia leads MENA investments in July",
+                "publisher": "Arab News"
+              },
+              "activity_date": "2026-08-08"
+            }
+          },
+          {
+            "uuid": "1febdacc-9803-4760-89a1-9bac1b609532",
+            "properties": {
+              "identifier": {
+                "uuid": "1febdacc-9803-4760-89a1-9bac1b609532",
+                "value": "Mubadala makes Moove a unicorn, Careem hands Uber a widening loss",
+                "entity_def_id": "press_reference"
+              },
+              "entity_def_id": "press_reference",
+              "activity_entities": [
+                {
+                  "uuid": "bed8e5ab-69a9-482f-9e58-9e3ed60175c6",
+                  "value": "Longevium",
+                  "image_id": "92403d7358564934867b9d73d369f167",
+                  "permalink": "longevium",
+                  "entity_def_id": "organization"
+                }
+              ],
+              "activity_properties": {
+                "url": {
+                  "value": "https://www.fwdstart.me/p/mubadala-makes-moove-a-unicorn-careem-hands-uber-a-widening-loss"
+                },
+                "title": "Mubadala makes Moove a unicorn, Careem hands Uber a widening loss",
+                "author": "Jamie Lane",
+                "publisher": "FWDStart | MENA Startups, Tech News & VC Insights"
+              },
+              "activity_date": "2026-08-07"
+            }
+          },
+          {
+            "uuid": "2adedccc-77ea-4d94-9b78-38e7ff45524c",
+            "properties": {
+              "identifier": {
+                "uuid": "2adedccc-77ea-4d94-9b78-38e7ff45524c",
+                "value": "Longevium Raises US$7M to Launch AI Longevity Research Lab in Dubai",
+                "entity_def_id": "press_reference"
+              },
+              "entity_def_id": "press_reference",
+              "activity_entities": [
+                {
+                  "uuid": "bed8e5ab-69a9-482f-9e58-9e3ed60175c6",
+                  "value": "Longevium",
+                  "image_id": "92403d7358564934867b9d73d369f167",
+                  "permalink": "longevium",
+                  "entity_def_id": "organization"
+                }
+              ],
+              "activity_properties": {
+                "url": {
+                  "value": "https://lucidityinsights.com/news/longevium-raises-us7m-funding"
+                },
+                "title": "Longevium Raises US$7M to Launch AI Longevity Research Lab in Dubai",
+                "author": "Lucy Unicorn",
+                "publisher": "Lucidity Insights"
+              },
+              "activity_date": "2026-08-04"
+            }
+          },
+          {
+            "uuid": "d22773fa-ad87-43cf-b367-3790cfd48a7b",
+            "properties": {
+              "identifier": {
+                "uuid": "d22773fa-ad87-43cf-b367-3790cfd48a7b",
+                "value": "Seed Round - Longevium",
+                "image_id": "92403d7358564934867b9d73d369f167",
+                "permalink": "longevium-seed--d22773fa",
+                "entity_def_id": "funding_round"
+              },
+              "entity_def_id": "funding_round",
+              "activity_entities": [
+                {
+                  "role": "investee",
+                  "uuid": "bed8e5ab-69a9-482f-9e58-9e3ed60175c6",
+                  "value": "Longevium",
+                  "image_id": "92403d7358564934867b9d73d369f167",
+                  "permalink": "longevium",
+                  "entity_def_id": "organization"
+                }
+              ],
+              "activity_properties": {
+                "money_raised": {
+                  "value": 7000000,
+                  "currency": "USD",
+                  "value_usd": 7000000
+                },
+                "investment_type": "seed"
+              },
+              "activity_date": "2026-08-04"
+            }
+          }
+        ]
+      },
+      "company_financials_highlights": {
+        "funding_total": {
+          "value": 7000000,
+          "currency": "USD",
+          "value_usd": 7000000
+        },
+        "num_funding_rounds": 1
+      },
+      "overview_company_fields": {},
+      "private_tags_pill_list": [],
+      "acquisitions_headline": {},
+      "builtwith_summary": {
+        "identifier": {
+          "uuid": "bed8e5ab-69a9-482f-9e58-9e3ed60175c6",
+          "value": "Longevium",
+          "image_id": "92403d7358564934867b9d73d369f167",
+          "permalink": "longevium",
+          "entity_def_id": "organization"
+        }
+      },
+      "about_short_description": {
+        "short_description": "Longevium is a longevity clinic network that uses data-driven preventive medicine and AI-enabled diagnostics to extend healthspan."
+      },
+      "product": [],
+      "apptopia_app_headline": {}
+    }
+  }
+}

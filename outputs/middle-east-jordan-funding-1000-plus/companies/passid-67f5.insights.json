@@ -1,0 +1,206 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T12:54:10.052Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T12:54:10.050Z",
+    "url": "https://www.crunchbase.com/organization/passid-67f5"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "PASSiD",
+      "shortDescription": "A biometric secured digital wallet.",
+      "website": "https://www.getpassid.com/",
+      "foundedYear": 2019,
+      "operatingStatus": "Closed",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "1-10",
+      "headquarters": "Cairo, Al Qahirah, Egypt",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Middle East",
+        "Middle East and North Africa (MENA)",
+        "North Africa"
+      ],
+      "industries": [
+        "Biometrics",
+        "Information Services",
+        "Information Technology"
+      ],
+      "sectors": [
+        "Biotechnology",
+        "Data and Analytics",
+        "Information Technology",
+        "Science and Engineering"
+      ],
+      "founders": [
+        "Mohamed Adel",
+        "Mohamed Said"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 75000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 2,
+      "detailedRoundCount": 2,
+      "lastFundingDate": "2019-04-01",
+      "lastFundingType": "Pre Seed",
+      "rounds": [
+        {
+          "announcedDate": "2019-04-01",
+          "amount": {
+            "amount": 50000,
+            "currency": "USD"
+          },
+          "type": "Pre Seed"
+        },
+        {
+          "announcedDate": "2019-01-01",
+          "amount": {
+            "amount": 25000,
+            "currency": "USD"
+          },
+          "type": "Pre Seed"
+        }
+      ]
+    },
+    "recentNews": {
+      "reportedCount": 2,
+      "includedUniqueCount": 2,
+      "items": [
+        {
+          "date": "2019-04-01",
+          "title": "Pre Seed Round - PASSiD"
+        },
+        {
+          "date": "2019-01-01",
+          "title": "Pre Seed Round - PASSiD"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 2,
+    "knownDetailedFundingAmount": {
+      "amount": 75000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 66.67
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "heatChange90Days": -5,
+      "heatScore": 47
+    },
+    "modelPredictions": {
+      "funding": {
+        "generatedDate": "2025-09-13",
+        "probabilityPercent": 10.05,
+        "timingEstimatePercent": {
+          "within6Months": 16.09,
+          "months6To11": 13.5,
+          "months12To24": 20.84,
+          "beyond24Months": 25
+        }
+      },
+      "growth": {
+        "generatedDate": "2025-09-13",
+        "probabilityPercent": 94.52
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Yoti is a digital identity platform that provides secure identity verification, online and in person.",
+          "employeeRange": "251-500",
+          "name": "Yoti",
+          "sharedCategories": [
+            "Biometrics",
+            "Information Technology"
+          ],
+          "similarityScore": 95
+        },
+        {
+          "description": "Next Generation Identity Proofing",
+          "employeeRange": "11-50",
+          "name": "AuthenticID",
+          "similarityScore": 90
+        },
+        {
+          "description": "Docusign provides a software to prepare, send, sign, store, and manage documents through electronic signature and workflow tools.",
+          "employeeRange": "5,001-10,000",
+          "name": "Docusign",
+          "sharedCategories": [
+            "Information Technology"
+          ],
+          "similarityScore": 88
+        },
+        {
+          "description": "Ultrapass Identity Corp provides high-value data sharing through innovative digital identity solutions.",
+          "employeeRange": "1-10",
+          "name": "Ultrapass Identity Corp",
+          "sharedCategories": [
+            "Information Technology"
+          ],
+          "similarityScore": 87
+        },
+        {
+          "description": "Persona is an identity verification and management platform that enables businesses to automate and streamline their verification processes.",
+          "employeeRange": "501-1,000",
+          "name": "Persona",
+          "sharedCategories": [
+            "Information Technology"
+          ],
+          "similarityScore": 86
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Pre Seed round raised $50,000, or 66.67% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Yoti, AuthenticID, Docusign.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

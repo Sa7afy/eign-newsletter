@@ -1,0 +1,215 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T11:00:50.781Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T11:00:50.780Z",
+    "url": "https://www.crunchbase.com/organization/bitdesk-5db2"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Bitdesk",
+      "shortDescription": "Bitdesk is a technology company that brings youth closer to blockchain and makes Bitcoin accessible to all.",
+      "description": "Bitdesk is a technology company that brings youth closer to blockchain and makes Bitcoin accessible to all.",
+      "website": "https://thebitdesk.com/",
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "1-10",
+      "estimatedRevenueRange": "Less than $1M",
+      "headquarters": "Dubai, United Arab Emirates",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Information Technology",
+        "Internet"
+      ],
+      "sectors": [
+        "Information Technology"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 1000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2020-06-13",
+      "lastFundingType": "Seed",
+      "rounds": [
+        {
+          "announcedDate": "2020-06-13",
+          "amount": {
+            "amount": 1000,
+            "currency": "USD"
+          },
+          "postMoneyValuation": {
+            "amount": 142335,
+            "currency": "USD"
+          },
+          "type": "Seed"
+        }
+      ]
+    },
+    "recentNews": {
+      "reportedCount": 1,
+      "includedUniqueCount": 1,
+      "items": [
+        {
+          "date": "2020-06-13",
+          "title": "Seed Round - Bitdesk"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 1000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": 1,
+      "growthScore": 84,
+      "heatChange90Days": 10,
+      "heatScore": 38
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 0
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 14.92,
+        "timingEstimatePercent": {
+          "within6Months": 14.05,
+          "months6To11": 12.08,
+          "months12To24": 19.3,
+          "beyond24Months": 24.79
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 84.98
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 0
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Bitcoin Depot is an INC 5000 company and the fastest-growing multi-cryptocurrency ATM Network offering users the ability to buy and sell.",
+          "employeeRange": "101-250",
+          "name": "Bitcoin Depot",
+          "similarityScore": 97
+        },
+        {
+          "description": "Coinme is a digital currency exchange that operates a bitcoin ATM network to gain access to virtual currency.",
+          "employeeRange": "51-100",
+          "name": "Coinme",
+          "similarityScore": 95
+        },
+        {
+          "description": "Coinstar is a coin exchange and cryptocurrency kiosk operator.",
+          "employeeRange": "1,001-5,000",
+          "name": "Coinstar",
+          "similarityScore": 91
+        },
+        {
+          "description": "Bitcoin provides services to buy, sell, spend, swap, and invest in various cryptocurrencies.",
+          "employeeRange": "101-250",
+          "name": "Bitcoin.com",
+          "similarityScore": 89
+        },
+        {
+          "description": "NYDIG is a bitcoin company that provides technology and financial services to businesses in a broad range of industries.",
+          "employeeRange": "101-250",
+          "name": "NYDIG",
+          "similarityScore": 87
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Seed round raised $1,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $142,335 to $142,335, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 84 (+1 over 90 days) and market heat at 38 (+10).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Bitcoin Depot, Coinme, Coinstar.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

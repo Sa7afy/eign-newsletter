@@ -1,0 +1,275 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T08:58:50.032Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T08:58:50.028Z",
+    "url": "https://www.crunchbase.com/organization/adeer-306b"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Adeer",
+      "shortDescription": "Adeer is an innovative business management app designed for small to medium-sized businesses and freelancers.",
+      "description": "Adeer is an innovative business management app designed for small to medium-sized businesses and freelancers. With features like sales management, digital invoicing, inventory tracking, and financial analysis, Adeer simplifies operations and empowers users to efficiently manage their business activities. Available in both Arabic and English, the app is user-friendly, making it accessible to everyone, regardless of technical skill.\n\nIn addition to the app, adeer offers innovative solutions for medium & large corporates to streamline their operations. adeer have recently launched their Ai Doc Chatbot which makes finding information and tech consulting services.Our team provides tailored solutions in software development and automation, helping businesses optimize their operations and achieve sustainable growth.",
+      "website": "https://www.adeer.qa/",
+      "foundedYear": 2022,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "11-50",
+      "headquarters": "Doha, Ad Dawhah, Qatar",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Apps",
+        "Business Development",
+        "Business Information Systems"
+      ],
+      "sectors": [
+        "Apps",
+        "Information Technology",
+        "Professional Services",
+        "Software"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "A business management application for small to medium-sized businesses and freelancers to manage sales, inventory, finances, payroll, taxes, and reports.",
+        "name": "adeer app"
+      },
+      {
+        "description": "An AI-powered assistant that provides business insights and support 24/7 to help users manage their operations.",
+        "name": "AI Advisor"
+      },
+      {
+        "description": "A module to monitor business profits by tracking sales and managing customer orders with digital invoicing.",
+        "name": "Sales and Orders Tracking"
+      },
+      {
+        "description": "A system to manage products, stock levels, and calculate total product value to optimize inventory control.",
+        "name": "Product and Inventory Management"
+      },
+      {
+        "description": "A tool for tracking expenses, generating financial graphs, and calculating profit and loss to simplify financial management.",
+        "name": "Finance and Expense Tracking"
+      },
+      {
+        "description": "A feature that automates tax calculation, organizes tax-related data, and generates tax reports to aid compliance.",
+        "name": "Tax Management"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 27465,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2023-06-22",
+      "lastFundingType": "Non Equity Assistance",
+      "rounds": [
+        {
+          "announcedDate": "2023-06-22",
+          "amount": {
+            "amount": 27465,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "Digital Incubation Center"
+          ],
+          "type": "Non Equity Assistance"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "Digital Incubation Center",
+            "rounds": [
+              "Non Equity Assistance"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 1,
+      "includedUniqueCount": 1,
+      "items": [
+        {
+          "date": "2023-06-22",
+          "title": "Non Equity Assistance - Adeer"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 27465,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": -26,
+      "growthScore": 26,
+      "heatChange90Days": -8,
+      "heatScore": 59
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 61.92
+      },
+      "funding": {
+        "generatedDate": "2026-06-20",
+        "probabilityPercent": 6.06,
+        "timingEstimatePercent": {
+          "within6Months": 0.02,
+          "months6To11": 0,
+          "months12To24": 0,
+          "beyond24Months": 99.98
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 73.71
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 49.97
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Odoo is an open-source business software that provides ERP and CRM solutions.",
+          "employeeRange": "5,001-10,000",
+          "name": "Odoo",
+          "sharedSpecialties": [
+            "Order and Inventory Management",
+            "ERP Consulting",
+            "Invoicing Automation",
+            "Accounting Software"
+          ],
+          "similarityScore": 95
+        },
+        {
+          "description": "Zoho is an IT company that offers cloud-based software for CRM, project management, finance, and human resource services.",
+          "employeeRange": "10,001+",
+          "name": "Zoho",
+          "sharedSpecialties": [
+            "Accounting Software"
+          ],
+          "similarityScore": 95
+        },
+        {
+          "description": "Intuit QuickBooks is small business financial software supporting start-ups track, organize, and manage their finances.",
+          "employeeRange": "5,001-10,000",
+          "name": "QuickBooks",
+          "sharedSpecialties": [
+            "Tax Compliance Tools",
+            "Time and Attendance Management",
+            "Expense Management",
+            "Accounts Receivable Management",
+            "Invoicing Automation",
+            "Accounting Software"
+          ],
+          "similarityScore": 92
+        },
+        {
+          "description": "Wave offers tailored financial services (payments, payroll) and award-winning free software for small/micro-businesses around the world.",
+          "employeeRange": "101-250",
+          "name": "Wave",
+          "sharedCategories": [
+            "Apps"
+          ],
+          "sharedSpecialties": [
+            "Expense Management",
+            "Payment Analytics and Dashboard",
+            "Invoicing Automation",
+            "Accounting Software"
+          ],
+          "similarityScore": 89
+        },
+        {
+          "description": "Xero is an online accounting software for small businesses that automating invoicing, bank reconciliations, and reporting.",
+          "employeeRange": "1,001-5,000",
+          "name": "Xero",
+          "sharedSpecialties": [
+            "Expense Management",
+            "Accounts Receivable Management",
+            "Invoicing Automation",
+            "Accounting Software"
+          ],
+          "similarityScore": 88
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Non Equity Assistance round raised $27,465, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 26 (-26 over 90 days) and market heat at 59 (-8).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Odoo, Zoho, QuickBooks.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

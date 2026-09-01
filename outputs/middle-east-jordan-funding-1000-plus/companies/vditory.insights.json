@@ -1,0 +1,165 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T13:53:17.771Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T13:53:17.769Z",
+    "url": "https://www.crunchbase.com/organization/vditory"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Vditory",
+      "shortDescription": "“Vditory” empowers the blinds and the Visually impaired people, by providing the necessary tools to live independently.",
+      "description": "“Vditory” tries to make up for the vision disabilities through auditory technologies for the blinds and the Visually impaired people all around the world, by providing them with the necessary tools to live effortlessly and independently. It aids in removing the barrier to let them interact more with the society and live their daily lives as they please including doing their work and studies. \nVditory enables them to explore the world around them in ways that weren't possible before. First, it reads any text displayed in front of the users and says it into their ears, enabling them to read books, magazines, or even menus in restaurants or any text they might run into in their day-to-day activities. Similarly, it helps them live independently by describing everything surrounding them, including any objects placed in front of them and even humans. When Vditory detects a human near the user, it will either recognize the person's name if they were on their database, or it will simply tell the user the person's gender, age and emotional expressions. Vditory can also recognize currencies and colors in a matter of seconds. Due to the fact that we value the user's safety more than anything, that is why Vditory will always track the user's location, which will only be accessible by the person who the user chooses as to be responsible for them in case of emergency. \nAll of this is done by one simple click on a button, making the users' lives a lot simpler, more productive and fun!",
+      "website": "http://www.vditory.com/",
+      "foundedYear": 2016,
+      "operatingStatus": "Closed",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "headquarters": "Cairo, Al Qahirah, Egypt",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Middle East",
+        "Middle East and North Africa (MENA)",
+        "North Africa"
+      ],
+      "industries": [
+        "Health Care"
+      ],
+      "sectors": [
+        "Health Care"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 8500,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2017-01-01",
+      "lastFundingType": "Pre Seed",
+      "rounds": [
+        {
+          "announcedDate": "2017-01-01",
+          "amount": {
+            "amount": 8500,
+            "currency": "USD"
+          },
+          "type": "Pre Seed"
+        }
+      ]
+    },
+    "recentNews": {
+      "reportedCount": 1,
+      "includedUniqueCount": 1,
+      "items": [
+        {
+          "date": "2017-01-01",
+          "title": "Pre Seed Round - Vditory"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 8500,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "heatChange90Days": -18,
+      "heatScore": 27
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Aira provides tech-enabled services for the 300 million visually impaired people around the globe.",
+          "employeeRange": "1-10",
+          "name": "Aira",
+          "similarityScore": 95
+        },
+        {
+          "description": "OrCam harnesses the power of artificial vision in an intuitive portable device that compensates for lost visual abilities.",
+          "employeeRange": "51-100",
+          "name": "OrCam Technologies",
+          "sharedCategories": [
+            "Health Care"
+          ],
+          "similarityScore": 94
+        },
+        {
+          "description": "Be My Eyes is an application that connects blind and low-vision people with sighted volunteers and companies.",
+          "employeeRange": "11-50",
+          "name": "Be My Eyes",
+          "sharedCategories": [
+            "Health Care"
+          ],
+          "similarityScore": 93
+        },
+        {
+          "description": "Envision builds AI based tools that enable visually impaired people to access visual information around them independently.",
+          "employeeRange": "11-50",
+          "name": "Envision",
+          "similarityScore": 91
+        },
+        {
+          "description": "BlindShell is a smartphone for visually impaired users.",
+          "employeeRange": "1-10",
+          "name": "BlindShell",
+          "sharedCategories": [
+            "Health Care"
+          ],
+          "similarityScore": 87
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Pre Seed round raised $8,500, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Aira, OrCam Technologies, Be My Eyes.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

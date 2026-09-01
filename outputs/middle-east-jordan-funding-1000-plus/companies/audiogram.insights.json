@@ -1,0 +1,187 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T09:18:46.927Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T09:18:46.925Z",
+    "url": "https://www.crunchbase.com/organization/audiogram"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Audiogram",
+      "shortDescription": "Audiogram is a platform that allows you to customize and enjoy audio content from world-class publishers every time you make a call.",
+      "description": "Audiogram is a telecommunications startup that helps operators modernize legacy revenue streams and make them more relevant and attractive for consumers of the internet age.\n\nThey take pre-existing services and transform them to appeal to wider audiences, increase subscriber dependency, and drive your ARPU for years to come.",
+      "website": "https://www.audiogram.me/",
+      "foundedYear": 2016,
+      "operatingStatus": "Closed",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "1-10",
+      "headquarters": "Amman, Jordan",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Audio",
+        "Content",
+        "Information Technology",
+        "Publishing",
+        "Telecommunications"
+      ],
+      "sectors": [
+        "Content and Publishing",
+        "Information Technology",
+        "Media and Entertainment",
+        "Messaging and Telecommunications",
+        "Music and Audio"
+      ],
+      "founders": [
+        "Amr Barakat",
+        "Faisal Hakim",
+        "Omar Rida"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 50000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2016-09-01",
+      "lastFundingType": "Seed",
+      "rounds": [
+        {
+          "announcedDate": "2016-09-01",
+          "amount": {
+            "amount": 50000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "type": "Seed"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "name": "Oasis500",
+            "rounds": [
+              "Seed Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 1,
+      "includedUniqueCount": 1,
+      "items": [
+        {
+          "date": "2016-09-01",
+          "title": "Seed Round - Audiogram"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 50000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "heatChange90Days": -35,
+      "heatScore": 1
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Gong is a technology company that offers a revenue intelligence platform using AI to analyze customer interactions.",
+          "employeeRange": "1,001-5,000",
+          "name": "Gong",
+          "sharedCategories": [
+            "Information Technology"
+          ],
+          "similarityScore": 97
+        },
+        {
+          "description": "Audiogram content marketing solutions for podcast is a software which converts audio into video.",
+          "employeeRange": "1-10",
+          "name": "Audiogram",
+          "similarityScore": 92
+        },
+        {
+          "description": "Chopcast is an internet company that helps businesses in content, video, audio marketing and podcast creation services.",
+          "employeeRange": "1-10",
+          "name": "Chopcast",
+          "similarityScore": 91
+        },
+        {
+          "description": "Recast Studio is a tool that offers repurpose for audio podcasts, video episodes, webinars, and talking head videos.",
+          "employeeRange": "1-10",
+          "name": "Recast Studio",
+          "similarityScore": 89
+        },
+        {
+          "description": "YouMail has developed a feature-rich, easy to use visual voicemail app, for your phone, tablet, or computer.",
+          "employeeRange": "1-10",
+          "name": "YouMail",
+          "sharedCategories": [
+            "Telecommunications"
+          ],
+          "similarityScore": 85
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Seed round raised $50,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Gong, Audiogram, Chopcast.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

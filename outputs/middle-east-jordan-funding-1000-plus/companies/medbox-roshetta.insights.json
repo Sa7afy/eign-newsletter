@@ -1,0 +1,175 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T12:29:52.377Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T12:29:52.376Z",
+    "url": "https://www.crunchbase.com/organization/medbox-roshetta"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Medbox (Roshetta)",
+      "shortDescription": "Roshetta is an easy simple and smart application that is developed to serve pharmacies.",
+      "description": "Medbox is a suite of applications that will be involved in the whole pharmaceutical value chain, from the pharmaceutical producers/importers to the patient. Its main objective is to ease communication, purchasing, planning, and payment between all stakeholders while also providing direct and targeted marketing channels for pharmaceutical companies and brands, medical reps, and pharmacies. The first app currently being rolled out is Roshetta, which is an app linking patient with their closest pharmacy, but eventually, Medbox will also include a community-building platform for pharmacists, medical reps, and companies, a POS system to be installed in pharmacies as well as inventory and purchasing management system. These services and products will also allow Medbox to collect a wealth of data that it will capitalize on at a later stage. \nRoshetta is easy simple and smart application that is developed to serve pharmacies and their customers (Users) and ease the communications between both parties. Roshetta allows any user to choose his nearby pharmacy also providing two ways to go through either to select medicines or to scan and upload the prescription. Only two steps his order will be placed and delivered. Roshetta Ultimate Features- Vouchers redemption; Push notifications; Pharmacy Directory; Missing Drug report; Sales increase; Reports; Live support; Order in two steps; Upload or scan your Roshetta; Drug Index; Drugs reminder; Get your nearby pharmacy;\n• Rate your Pharmacy; Re-order old orders from your history; Recommend pharmacy",
+      "website": "http://www.roshettapp.com/",
+      "foundedYear": 2016,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "1-10",
+      "headquarters": "Cairo, Al Qahirah, Egypt",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Middle East",
+        "Middle East and North Africa (MENA)",
+        "North Africa"
+      ],
+      "founders": [
+        "Mohamed Saad"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 30000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 2,
+      "detailedRoundCount": 2,
+      "lastFundingDate": "2018-01-01",
+      "lastFundingType": "Pre Seed",
+      "rounds": [
+        {
+          "announcedDate": "2018-01-01",
+          "amount": {
+            "amount": 30000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "postMoneyValuation": {
+            "amount": 382965,
+            "currency": "USD"
+          },
+          "type": "Pre Seed"
+        },
+        {
+          "announcedDate": "2017-12-01",
+          "investorCount": 1,
+          "type": "Non Equity Assistance"
+        }
+      ],
+      "investors": {
+        "reportedCount": 2,
+        "visibleNames": [
+          {
+            "name": "AUC Venture Lab",
+            "rounds": [
+              "Non Equity Assistance"
+            ]
+          },
+          {
+            "name": "Falak Startups",
+            "rounds": [
+              "Pre Seed Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 2,
+      "includedUniqueCount": 2,
+      "items": [
+        {
+          "date": "2018-01-01",
+          "title": "Pre Seed Round - Medbox (Roshetta)"
+        },
+        {
+          "date": "2017-12-01",
+          "title": "Non Equity Assistance - Medbox (Roshetta)"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 30000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": 0,
+      "growthScore": 1,
+      "heatChange90Days": -9,
+      "heatScore": 46
+    },
+    "modelPredictions": {
+      "growth": {
+        "generatedDate": "2024-12-19",
+        "probabilityPercent": 96.32
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors."
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Pre Seed round raised $30,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $382,965 to $382,965, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 1 (+0 over 90 days) and market heat at 46 (-9).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

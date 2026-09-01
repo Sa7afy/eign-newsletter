@@ -1,0 +1,280 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T12:23:45.587Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T12:23:45.584Z",
+    "url": "https://www.crunchbase.com/organization/made-in-w-inc"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "MADE IN W Inc.",
+      "shortDescription": "MADE IN W Inc. is a Marketing & Sales Company which helps manufacturers to market and sell their products worldwide.",
+      "description": "MADE IN W is the next level 21st century web platform which will change the approach of accessing information.\r\nA world in which one could reach out to anyone and everyone Just by a click.",
+      "website": "https://www.madeinw.com/",
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "1-10",
+      "estimatedRevenueRange": "Less than $1M",
+      "headquarters": "Riyadh, Ar Riyad, Saudi Arabia",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "B2B",
+        "Business Intelligence",
+        "Direct Marketing",
+        "Direct Sales",
+        "E-Commerce",
+        "Events",
+        "Trading Platform"
+      ],
+      "sectors": [
+        "Commerce and Shopping",
+        "Data and Analytics",
+        "Events",
+        "Financial Services",
+        "Lending and Investments",
+        "Other",
+        "Sales and Marketing"
+      ],
+      "founders": [
+        "Habib Mohammed Hadi Bani-Hashim"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "A digital platform connecting exporters and importers worldwide to facilitate product marketing and sales.",
+        "name": "MADE IN WORLD Platform"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 525000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2015-09-30",
+      "lastFundingType": "Angel",
+      "rounds": [
+        {
+          "announcedDate": "2015-09-30",
+          "amount": {
+            "amount": 525000,
+            "currency": "USD"
+          },
+          "postMoneyValuation": {
+            "amount": 2025000,
+            "currency": "USD"
+          },
+          "type": "Angel"
+        }
+      ]
+    },
+    "recentNews": {
+      "reportedCount": 1,
+      "includedUniqueCount": 1,
+      "items": [
+        {
+          "date": "2015-09-30",
+          "title": "Angel Round - MADE IN W Inc."
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 525000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": 0,
+      "growthScore": 39,
+      "heatChange90Days": -8,
+      "heatScore": 1
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 0
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 3.69,
+        "timingEstimatePercent": {
+          "within6Months": 13.87,
+          "months6To11": 11.94,
+          "months12To24": 19.15,
+          "beyond24Months": 24.75
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 95.08
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 0
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Alibaba.com  is a global e-commerce platform that connects buyers and suppliers around the world.",
+          "employeeRange": "10,001+",
+          "name": "Alibaba.com",
+          "sharedSpecialties": [
+            "Marketplace Management",
+            "International and E‑commerce Fulfillment",
+            "B2B E-Commerce Platforms",
+            "E-Commerce Operations Management",
+            "Multivendor Marketplace Platforms"
+          ],
+          "similarityScore": 97
+        },
+        {
+          "description": "Global Sources is a Hong Kong-based B2B media company facilitating trade between China and the world through English language media.",
+          "employeeRange": "1,001-5,000",
+          "name": "Global Sources",
+          "sharedCategories": [
+            "E-Commerce",
+            "B2B"
+          ],
+          "sharedSpecialties": [
+            "B2B E-Commerce Platforms",
+            "Marketplace Integration"
+          ],
+          "similarityScore": 95
+        },
+        {
+          "description": "TradeKey.com is an online Business-to-Business marketplace helping worldwide traders find new trade partners and business opportunities.",
+          "employeeRange": "251-500",
+          "name": "TradeKey.com",
+          "sharedCategories": [
+            "E-Commerce",
+            "B2B"
+          ],
+          "sharedSpecialties": [
+            "Marketplace Management",
+            "Agricultural Marketplaces",
+            "B2B E-Commerce Platforms",
+            "Multivendor Marketplace Platforms"
+          ],
+          "similarityScore": 90
+        },
+        {
+          "description": "EC21 is a B2B e-commerce company connecting buyers and suppliers through e-marketplaces.",
+          "employeeRange": "501-1,000",
+          "name": "EC21",
+          "sharedCategories": [
+            "E-Commerce",
+            "B2B"
+          ],
+          "sharedSpecialties": [
+            "Marketplace Management",
+            "International and E‑commerce Fulfillment",
+            "Automotive Marketplaces",
+            "Agricultural Marketplaces",
+            "B2B E-Commerce Platforms",
+            "Multivendor Marketplace Platforms"
+          ],
+          "similarityScore": 89
+        },
+        {
+          "description": "Exporthub’s Tumblr Blog for everything from B2B news. Innovative guides, tips and proven growth strategies from industry thought leaders.",
+          "employeeRange": "501-1,000",
+          "name": "ExportHub Tumblr",
+          "sharedCategories": [
+            "B2B"
+          ],
+          "sharedSpecialties": [
+            "International and E‑commerce Fulfillment",
+            "B2B E-Commerce Platforms",
+            "Multivendor Marketplace Platforms"
+          ],
+          "similarityScore": 88
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Angel round raised $525,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $2,025,000 to $2,025,000, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 39 (+0 over 90 days) and market heat at 1 (-8).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Alibaba.com, Global Sources, TradeKey.com.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

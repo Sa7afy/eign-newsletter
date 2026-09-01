@@ -1,0 +1,258 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T10:54:35.793Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T10:54:35.791Z",
+    "url": "https://www.crunchbase.com/organization/ayan-investment-company"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Ayyan Investment Company",
+      "shortDescription": "Ayyan Investment Company is a investment firm that specializes in investment management, healthcare, real estate, and industrial projects.",
+      "website": "https://ayyan.com.sa/",
+      "foundedYear": 1993,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Public",
+      "companyType": "For profit",
+      "employeeRange": "11-50",
+      "estimatedRevenueRange": "$10M-$50M",
+      "headquarters": "Al Khobar, Ash Sharqiyah, Saudi Arabia",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Finance",
+        "Financial Services",
+        "Health Care",
+        "Industrial",
+        "Real Estate Investment"
+      ],
+      "sectors": [
+        "Financial Services",
+        "Health Care",
+        "Manufacturing",
+        "Real Estate"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 119655569,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 2,
+      "detailedRoundCount": 2,
+      "lastFundingDate": "2026-08-31",
+      "lastFundingType": "Post IPO Debt",
+      "rounds": [
+        {
+          "announcedDate": "2026-08-31",
+          "amount": {
+            "amount": 39724587,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "Saudi Awwal Bank"
+          ],
+          "type": "Post IPO Debt"
+        },
+        {
+          "announcedDate": "2026-03-10",
+          "amount": {
+            "amount": 79930982,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "Saudi National Bank"
+          ],
+          "type": "Post IPO Debt"
+        }
+      ],
+      "investors": {
+        "reportedCount": 2,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "Saudi Awwal Bank",
+            "rounds": [
+              "Post-IPO Debt"
+            ]
+          },
+          {
+            "isLead": true,
+            "name": "Saudi National Bank",
+            "rounds": [
+              "Post-IPO Debt"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 10,
+      "includedUniqueCount": 10,
+      "items": [
+        {
+          "date": "2026-09-01",
+          "publisher": "TradingView",
+          "title": "Saudi’s Ayyan Investment secures $40mln Islamic loan facility with SAB",
+          "url": "https://www.tradingview.com/news/reuters.com,2026-09-01:newsml_Zaw74m98t:0-saudi-s-ayyan-investment-secures-40mln-islamic-loan-facility-with-sab/"
+        },
+        {
+          "date": "2026-09-01",
+          "publisher": "TradingView",
+          "title": "Ayyan Investment Signs Islamic Credit Facility Agreement With Saudi Awwal Bank",
+          "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN44S0VT:0-ayyan-investment-signs-islamic-credit-facility-agreement-with-saudi-awwal-bank/"
+        },
+        {
+          "date": "2026-08-31",
+          "title": "Post-IPO Debt - Ayyan Investment Company"
+        },
+        {
+          "date": "2026-07-28",
+          "publisher": "Arab News",
+          "title": "Closing Bell: Saudi main index slips to close at 10,678",
+          "url": "https://www.arabnews.com/node/2652584/business-economy"
+        },
+        {
+          "date": "2026-05-03",
+          "publisher": "TradingView",
+          "title": "Ayyan Investment Signs Asset Purchase Agreement With Al-Othman Agricultural (NADA)",
+          "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN41E0LC:0-ayyan-investment-signs-asset-purchase-agreement-with-al-othman-agricultural-nada/"
+        },
+        {
+          "date": "2026-04-22",
+          "publisher": "KSA",
+          "title": "Ayyan + Al Rajhi Capital to launch Riyadh real estate fund, SVC backs Growth Catalyst Fund",
+          "url": "https://enterpriseam.com/ksa/2026/04/22/ayyan-al-rajhi-capital-to-launch-riyadh-real-estate-fund-svc-backs-growth-catalyst-fund/"
+        },
+        {
+          "date": "2026-03-10",
+          "publisher": "eyeofriyadh.com",
+          "title": "AYYAN gets SAR 300M credit facility from SNB",
+          "url": "https://www.eyeofriyadh.com/news/details/ayyan-gets-sar-300m-credit-facility-from-snb"
+        },
+        {
+          "date": "2026-03-10",
+          "title": "Post-IPO Debt - Ayyan Investment Company"
+        },
+        {
+          "date": "2026-02-18",
+          "publisher": "eyeofriyadh.com",
+          "title": "AYYAN inks MoU to set up private fund for SAR 600M project",
+          "url": "https://www.eyeofriyadh.com/news/details/ayyan-inks-mou-to-set-up-private-fund-for-sar-600m-project"
+        },
+        {
+          "date": "2010-02-24",
+          "title": "2140"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 2,
+    "knownDetailedFundingAmount": {
+      "amount": 119655569,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 33.2
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "reportedPartnerships": {
+      "note": "Provider event summaries with linked sources; not independently verified.",
+      "items": [
+        {
+          "date": "2026-02-18",
+          "description": "AYYAN Investment signed a non-binding MoU with Al Rajhi Capital and Sumou Holding to collaborate on establishing and developing a private real estate fund for a SAR 600 million mixed-use project in Riyadh.",
+          "sources": [
+            {
+              "date": "2026-02-18",
+              "publisher": "eyeofriyadh.com",
+              "title": "AYYAN inks MoU to set up private fund for SAR 600M project",
+              "url": "https://www.eyeofriyadh.com/news/details/ayyan-inks-mou-to-set-up-private-fund-for-sar-600m-project"
+            }
+          ]
+        }
+      ]
+    },
+    "crunchbaseMomentum": {
+      "growthInsightGeneratedDate": "2026-08-02",
+      "growthChange90Days": -5,
+      "growthScore": 90,
+      "heatChange90Days": -3,
+      "heatScore": 64,
+      "status": "Growing"
+    },
+    "modelPredictions": {
+      "growth": {
+        "generatedDate": "2026-03-07",
+        "probabilityPercent": 95.64
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors."
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Post IPO Debt round raised $39,724,587, or 33.2% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 90 (-5 over 90 days) and market heat at 64 (-3).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Strategic repositioning and listing coverage shape the current narrative",
+      "statement": "Ayyan Investment Company has a recent strategic-positioning change; 2 recent unique news titles explicitly contain the English terms IPO or listing.",
+      "implication": "Their timing coincides with increased visibility in the loaded news and Crunchbase momentum signals, but the data does not establish causation.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.company.formerName",
+        "facts.recentNews",
+        "providerSignals.crunchbaseMomentum"
+      ],
+      "caveats": [
+        "The causal link to Crunchbase momentum is an inference from timing, not a disclosed company metric."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

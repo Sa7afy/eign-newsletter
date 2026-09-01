@@ -1,0 +1,323 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T12:42:42.024Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T12:42:42.021Z",
+    "url": "https://www.crunchbase.com/organization/nawel"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Nawel",
+      "shortDescription": "Nawel provides logistics and supply chain solutions.",
+      "description": "Nawel provides logistics and supply chain solutions. Its mission is to transform the logistics and supply chain landscape by repurposing underutilized spaces and offering a range of services including pallet storage, micro-fulfillment, and strategically located delivery hubs.",
+      "website": "https://nawel.sa/",
+      "foundedYear": 2022,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "11-50",
+      "estimatedRevenueRange": "$1M-$10M",
+      "headquarters": "Jeddah, Makkah, Saudi Arabia",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Logistics",
+        "Service Industry",
+        "Supply Chain Management"
+      ],
+      "sectors": [
+        "Other",
+        "Transportation"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "A barcode-driven fulfillment service for e-commerce that manages receiving, quality control, labeling, picking, packing, storage, last mile delivery, returns, and customer pickups.",
+        "name": "Nawel Quick - B2C Fulfillment & Ecommerce Storage Services"
+      },
+      {
+        "description": "A 3PL service offering receiving, quality control, labeling, pallet storage, order preparation, returns management, and middle mile delivery with WMS integration and detailed billing.",
+        "name": "Nawel Spaces – B2B/3PL Storage & Distribution Services"
+      },
+      {
+        "description": "A service allowing merchants to drop packages for shipping without storage fees if dispatched within 24 hours, including sorting, same-day delivery, and cash collection from drivers.",
+        "name": "Nawel Hubs - Drop & Ship Service"
+      },
+      {
+        "description": "Various storage options including short-term, long-term, dry, ambient, chilled, deep chilled, and frozen storage designed to maintain required product atmospheres.",
+        "name": "Storage Solutions"
+      },
+      {
+        "description": "Consulting and technology services to automate warehouses and improve logistics processes, including upgrades from limited-functionality warehouse management systems.",
+        "name": "Support Services for Warehouse Automation and Process Streamlining"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 999902,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 2,
+      "detailedRoundCount": 2,
+      "lastFundingDate": "2024-01-04",
+      "lastFundingType": "Seed",
+      "rounds": [
+        {
+          "announcedDate": "2024-01-04",
+          "amount": {
+            "amount": 999902,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "NOMD Holding"
+          ],
+          "postMoneyValuation": {
+            "amount": 8306911,
+            "currency": "USD"
+          },
+          "type": "Seed"
+        },
+        {
+          "announcedDate": "2023-01-01",
+          "investorCount": 1,
+          "postMoneyValuation": {
+            "amount": 3386175,
+            "currency": "USD"
+          },
+          "type": "Seed"
+        }
+      ],
+      "investors": {
+        "reportedCount": 2,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "NOMD Holding",
+            "rounds": [
+              "Seed Round"
+            ]
+          },
+          {
+            "name": "Oqal",
+            "rounds": [
+              "Seed Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 16,
+      "includedUniqueCount": 4,
+      "items": [
+        {
+          "date": "2024-02-01",
+          "title": "Saudi Arabia's Nawel closes $1 million Seed round",
+          "url": "https://www.wamda.com/2024/01/saudi-arabia-nawel-closes-1-million-seed-round"
+        },
+        {
+          "date": "2024-01-16",
+          "publisher": "Incubees",
+          "title": "Saudi Arabia’s logistics solutions firm Nawel closed $1 M in Seed round",
+          "url": "https://incubees.com/saudi-arabias-logistics-solutions-firm-nawel-closed-1-m-in-seed-round/"
+        },
+        {
+          "date": "2024-01-16",
+          "title": "Saudi logistics firm Nawel raises $1m in seed funding round",
+          "url": "https://www.arabnews.com/node/2438666/business-economy"
+        },
+        {
+          "date": "2024-01-08",
+          "publisher": "Zawya.com",
+          "title": "Saudi logistics solutions start-up Nawel secures $1mln",
+          "url": "https://www.zawya.com/en/business/transport-and-logistics/saudi-logistics-solutions-start-up-nawel-secures-1mln-t9j7xhw1"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 999902,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "latestToEarliestKnownValuationMultiple": 2.45
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthInsightGeneratedDate": "2024-05-18",
+      "growthChange90Days": -2,
+      "growthScore": 46,
+      "heatChange90Days": -4,
+      "heatScore": 47,
+      "status": "Growing"
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 32.45
+      },
+      "funding": {
+        "generatedDate": "2025-10-04",
+        "probabilityPercent": 91.46,
+        "timingEstimatePercent": {
+          "within6Months": 100,
+          "months6To11": 0,
+          "months12To24": 0,
+          "beyond24Months": 0
+        }
+      },
+      "growth": {
+        "generatedDate": "2025-05-07",
+        "probabilityPercent": 97.98
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 4.52
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Xcalibre Communications offers web design, app development, content, marketing, video, creative direction, and UX design services.",
+          "employeeRange": "11-50",
+          "name": "Xcalibre Communications",
+          "sharedCategories": [
+            "Logistics"
+          ],
+          "similarityScore": 100
+        },
+        {
+          "description": "uQuote helps brands optimize and manage their supply chain network.",
+          "employeeRange": "1-10",
+          "name": "uQuote",
+          "sharedCategories": [
+            "Logistics"
+          ],
+          "sharedSpecialties": [
+            "Fulfillment and Warehousing",
+            "Third-Party Logistics (3PL)"
+          ],
+          "similarityScore": 95.303
+        },
+        {
+          "description": "Bosta is a logistics and technology company that provides next-day delivery and fast transfer services to e-commerce businesses.",
+          "employeeRange": "11-50",
+          "name": "Bosta",
+          "sharedCategories": [
+            "Logistics"
+          ],
+          "sharedSpecialties": [
+            "Last Mile Delivery",
+            "E-Commerce Operations Management",
+            "Fulfillment and Warehousing",
+            "Third-Party Logistics (3PL)"
+          ],
+          "similarityScore": 91
+        },
+        {
+          "description": "Private Equity firm headquartered in Riyadh, Saudi Arabia",
+          "employeeRange": "11-50",
+          "name": "Mad'a Investment Company",
+          "similarityScore": 90.679
+        },
+        {
+          "description": "ShipBlu is a platform that redefines the e-commerce shipping and fulfillment experience providing 24-hour delivery with live tracking.",
+          "employeeRange": "101-250",
+          "name": "ShipBlu",
+          "sharedCategories": [
+            "Logistics"
+          ],
+          "sharedSpecialties": [
+            "Last Mile Delivery"
+          ],
+          "similarityScore": 87
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Seed round raised $999,902, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $3,386,175 to $8,306,911, a 2.45x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 46 (-2 over 90 days) and market heat at 47 (-4).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Xcalibre Communications, uQuote, Bosta.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "issues": [
+      {
+        "severity": "low",
+        "finding": "Crunchbase reports 16 timeline items but exposes 4 unique items in this payload.",
+        "impact": "Recent news is a partial sample, not a complete history."
+      }
+    ],
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

@@ -1,0 +1,243 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T13:09:15.229Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T13:09:15.228Z",
+    "url": "https://www.crunchbase.com/organization/rehla"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Rehla",
+      "shortDescription": "Only application licensed by Saudi Transport General Authority to offer inter-city ride sharing services, along with additional services.",
+      "description": "Rehla is an application based in Saudi Arabia that aims to simplify the struggles of travelers traveling from one city to another. Pioneered as a ridesharing concept, we have established ourselves in the market by introducing a plethora of services like Airport pick-up and drop, Tour trips with verified tour guides, and one-day package delivery. It is now upon our potential travelers to choose their ride as ride-hailing or ridesharing.\nPassengers can also find us at 23 airports in Saudi Arabia and 3 Haramain railway station which includes: Jeddah, Makkah, and Medina.",
+      "website": "https://rehlacar.com/home",
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "11-50",
+      "estimatedRevenueRange": "Less than $1M",
+      "headquarters": "Jeddah, Makkah, Saudi Arabia",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "A licensed application service that facilitates ride sharing between cities in Saudi Arabia.",
+        "name": "Inter-city Ride Sharing Service"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 614000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 2,
+      "detailedRoundCount": 2,
+      "lastFundingDate": "2021-04-17",
+      "lastFundingType": "Equity Crowdfunding",
+      "rounds": [
+        {
+          "announcedDate": "2021-04-17",
+          "amount": {
+            "amount": 614000,
+            "currency": "USD"
+          },
+          "postMoneyValuation": {
+            "amount": 3280666,
+            "currency": "USD"
+          },
+          "type": "Equity Crowdfunding"
+        },
+        {
+          "announcedDate": "2020-01-01",
+          "investorCount": 1,
+          "type": "Non Equity Assistance"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "name": "Taqadam",
+            "rounds": [
+              "Non Equity Assistance"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 2,
+      "includedUniqueCount": 2,
+      "items": [
+        {
+          "date": "2021-04-17",
+          "title": "Equity Crowdfunding - Rehla"
+        },
+        {
+          "date": "2020-01-01",
+          "title": "Non Equity Assistance - Rehla"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 614000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": 36,
+      "growthScore": 37,
+      "heatChange90Days": -7,
+      "heatScore": 70
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2025-09-22",
+        "probabilityPercent": 14.62
+      },
+      "growth": {
+        "generatedDate": "2025-01-11",
+        "probabilityPercent": 98.42
+      },
+      "ipo": {
+        "generatedDate": "2025-09-22",
+        "probabilityPercent": 8.8
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Jameel is a technology and information company that provides an application for vehicle routing and passenger transportation.",
+          "employeeRange": "11-50",
+          "name": "Jameel",
+          "sharedSpecialties": [
+            "Driver Staffing and Recruitment",
+            "Driver Safety and Compliance Management",
+            "Ride Sharing and Carpooling",
+            "Airport Transfers",
+            "Route Optimization and Fleet Tracking"
+          ],
+          "similarityScore": 100
+        },
+        {
+          "description": "UNLIMITED shuttle ride for billions of workers & students under $2.50 a day worldwide. U-HOP will revolutionize how people commute daily.",
+          "employeeRange": "11-50",
+          "name": "U-HOP",
+          "sharedSpecialties": [
+            "Demand-Responsive Transport",
+            "Private Shuttle Services",
+            "Group Transportation",
+            "Ride Sharing and Carpooling",
+            "Airport Transfers"
+          ],
+          "similarityScore": 94.39
+        },
+        {
+          "description": "Mishwari develops software application that helps to connect drivers with customers looking for rides and delivery services.",
+          "employeeRange": "1-10",
+          "name": "Mishwari",
+          "sharedSpecialties": [
+            "Fleet Management Software",
+            "Driver Safety and Compliance Management",
+            "Route Optimization and Fleet Tracking"
+          ],
+          "similarityScore": 88.795
+        },
+        {
+          "description": "Yango is a ride-hailing, delivery and e-grocery service operating in Europe, Africa, Middle East and South America",
+          "employeeRange": "5,001-10,000",
+          "name": "Yango",
+          "similarityScore": 84.061
+        },
+        {
+          "description": "DASH Ventures is a Venture Capital firm operating at the forefront of MENA’s rapidly transforming economic landscape.",
+          "employeeRange": "1-10",
+          "name": "DASH Ventures",
+          "similarityScore": 79.463
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Equity Crowdfunding round raised $614,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $3,280,666 to $3,280,666, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 37 (+36 over 90 days) and market heat at 70 (-7).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Jameel, U-HOP, Mishwari.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

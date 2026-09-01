@@ -1,0 +1,174 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T08:56:34.282Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T08:56:34.281Z",
+    "url": "https://www.crunchbase.com/organization/a2zarabia-com"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "A2Zarabia.com",
+      "shortDescription": "A2Zarabia.com is the UAE's fastest-growing online ecosystem for Properties, Motors, Jobs, Deals, Events and Classifieds.",
+      "description": "Classifieds, E-Commerce, Marketplace",
+      "website": "https://a2zarabia.com/",
+      "foundedYear": 2016,
+      "operatingStatus": "Closed",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "101-250",
+      "headquarters": "Dubai, United Arab Emirates",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "E-Commerce",
+        "Internet",
+        "Marketing",
+        "Marketplace"
+      ],
+      "sectors": [
+        "Commerce and Shopping",
+        "Information Technology",
+        "Sales and Marketing"
+      ],
+      "founders": [
+        "Parvez Ahmed",
+        "Syed Sarfraz"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 2722199,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2016-11-20",
+      "lastFundingType": "Angel",
+      "rounds": [
+        {
+          "announcedDate": "2016-11-20",
+          "amount": {
+            "amount": 2722199,
+            "currency": "USD"
+          },
+          "type": "Angel"
+        }
+      ]
+    },
+    "recentNews": {
+      "reportedCount": 1,
+      "includedUniqueCount": 1,
+      "items": [
+        {
+          "date": "2016-11-20",
+          "title": "Angel Round - A2Zarabia.com"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 2722199,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "heatChange90Days": 2,
+      "heatScore": 36
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "dubizzle is an online platform that enables individuals to sell, buy, or find products in their cities.",
+          "employeeRange": "501-1,000",
+          "name": "dubizzle",
+          "sharedCategories": [
+            "E-Commerce"
+          ],
+          "similarityScore": 97
+        },
+        {
+          "description": "OpenSooq is an online classified platform that allows users to freely trade property, cars, products, and services.",
+          "employeeRange": "251-500",
+          "name": "OpenSooq",
+          "similarityScore": 95
+        },
+        {
+          "description": "Bayut.com is a property portal and real estate company.",
+          "employeeRange": "251-500",
+          "name": "Bayut",
+          "similarityScore": 93
+        },
+        {
+          "description": "CarSwitch is an online marketplace and car-buying platform.",
+          "employeeRange": "51-100",
+          "name": "CarSwitch",
+          "similarityScore": 83
+        },
+        {
+          "description": "Kargal Classifieds - Portal to rent, buy, sell and find Used cars, Properties, Jobs and more | Register and Start Post Your Free ads",
+          "employeeRange": "51-100",
+          "name": "Kargal Advertising L.L.C",
+          "sharedCategories": [
+            "E-Commerce",
+            "Internet",
+            "Marketing"
+          ],
+          "similarityScore": 81
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Angel round raised $2,722,199, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include dubizzle, OpenSooq, Bayut.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

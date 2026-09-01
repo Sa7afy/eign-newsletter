@@ -1,0 +1,155 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T11:24:52.717Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T11:24:52.716Z",
+    "url": "https://www.crunchbase.com/organization/diwanee"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Diwanee",
+      "shortDescription": "Diwanee is a digital media company that creates and distributes original, high quality, and trusted content for the Middle East audience.",
+      "description": "Diwanee is a digital media company, building one of the largest female audiences in the Middle East. \nDiwanee creates and distributes original, high quality and trusted content through its unique offering of premium Arabic sites targeting the Middle East audience along selected verticals. \n\nEach Diwanee digital property leads its category:\n- Yasmina.com: Female Lifestyle, Beauty & Fashion Portal\n- Wikeez.com: Entertainment portal focusing on celebrities, music, movies, & TV shows\n- 3a2ilati.com: Female portal focusing on Mother & Baby, Family Health, Beauty and Recipes",
+      "website": "http://www.diwanee.com/",
+      "foundedYear": 2009,
+      "operatingStatus": "Closed",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "51-100",
+      "headquarters": "Dubai, United Arab Emirates",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Advertising",
+        "Digital Media",
+        "News"
+      ],
+      "sectors": [
+        "Advertising",
+        "Content and Publishing",
+        "Media and Entertainment",
+        "Sales and Marketing"
+      ],
+      "founders": [
+        "Herve Cuviliez",
+        "Ivan Petrovic"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 8250000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 2,
+      "detailedRoundCount": 2,
+      "lastFundingDate": "2014-03-20",
+      "lastFundingType": "Venture round",
+      "rounds": [
+        {
+          "announcedDate": "2014-03-20",
+          "amount": {
+            "amount": 5000000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "Webedia"
+          ],
+          "type": "Venture round"
+        },
+        {
+          "announcedDate": "2013-06-04",
+          "amount": {
+            "amount": 3250000,
+            "currency": "USD"
+          },
+          "type": "Seed"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "Webedia",
+            "rounds": [
+              "Venture round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 3,
+      "includedUniqueCount": 3,
+      "items": [
+        {
+          "date": "2014-03-20",
+          "title": "Venture Round - Diwanee"
+        },
+        {
+          "date": "2014-03-20",
+          "publisher": "Webrazzi",
+          "title": "French digital media company Webedia acquires UAE’s lifestyle publisher Diwanee",
+          "url": "http://en.webrazzi.com/2014/03/20/french-digital-media-company-webedia-acquires-uaes-lifestyle-publisher-diwanee/"
+        },
+        {
+          "date": "2013-06-04",
+          "title": "Seed Round - Diwanee"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 2,
+    "knownDetailedFundingAmount": {
+      "amount": 8250000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 60.61
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "heatChange90Days": -7,
+      "heatScore": 1
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors."
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Venture round round raised $5,000,000, or 60.61% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

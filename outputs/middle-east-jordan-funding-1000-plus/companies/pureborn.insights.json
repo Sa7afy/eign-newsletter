@@ -1,0 +1,304 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T13:01:56.341Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T13:01:56.339Z",
+    "url": "https://www.crunchbase.com/organization/pureborn"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "PureBorn",
+      "shortDescription": "PureBorn is a baby care brand that produces eco-friendly and premium products for infants and toddlers.",
+      "description": "PureBorn is a baby care brand that produces eco-friendly and premium products for infants and toddlers, focusing on sustainability, safety, and skin-friendly materials. The company was founded in 2016 and is headquartered in Dubai, United Arab Emirates.",
+      "website": "https://www.pureborn.com/",
+      "foundedYear": 2016,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "11-50",
+      "estimatedRevenueRange": "$1M-$10M",
+      "headquarters": "Dubai, United Arab Emirates",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Baby",
+        "Environmental Consulting",
+        "Health Care",
+        "Organic"
+      ],
+      "sectors": [
+        "Community and Lifestyle",
+        "Health Care",
+        "Professional Services",
+        "Sustainability"
+      ],
+      "founders": [
+        "Hannah Curran"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "Disposable nappies made from organic bamboo fibers designed for baby comfort and environmental sustainability.",
+        "name": "Organic Bamboo Nappies"
+      },
+      {
+        "description": "Training pants made from bio-based bamboo fibers designed for day and night use to support toddler potty training.",
+        "name": "Day Dreams Training Pants"
+      },
+      {
+        "description": "Baby wipes infused with organic calendula lotion for gentle cleaning of infants' skin.",
+        "name": "Pure Moisture Wipes With Organic Calendula Lotion"
+      },
+      {
+        "description": "Swim pants designed to prevent leaks and pool incidents for babies and toddlers during swimming activities.",
+        "name": "Pure Swim Pants"
+      },
+      {
+        "description": "A subscription delivery service providing regular shipments of nappies, training pants, and wipes to customers' homes.",
+        "name": "Subscription Service for Nappies, Training Pants, and Wipes"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 2000000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2021-12-08",
+      "lastFundingType": "Seed",
+      "rounds": [
+        {
+          "announcedDate": "2021-12-08",
+          "amount": {
+            "amount": 2000000,
+            "currency": "USD"
+          },
+          "postMoneyValuation": {
+            "amount": 12443481,
+            "currency": "USD"
+          },
+          "type": "Seed"
+        }
+      ]
+    },
+    "recentNews": {
+      "reportedCount": 17,
+      "includedUniqueCount": 4,
+      "items": [
+        {
+          "date": "2025-02-23",
+          "publisher": "Wamda",
+          "title": "Convertible debt could be the right solution for MENA funding gap",
+          "url": "https://www.wamda.com/2025/02/convertible-debt-right-solution-mena-funding-gap"
+        },
+        {
+          "date": "2024-04-21",
+          "publisher": "Entrepreneur",
+          "title": "UAE-Born PureBorn Goes International By Launching Direct Distribution Of Its Eco-Friendly Baby Care Products In ...",
+          "url": "https://www.entrepreneur.com/en-ae/growth-strategies/born-in-the-uae-branching-out-into-the-world-dubai-based/472313"
+        },
+        {
+          "date": "2024-04-21",
+          "publisher": "Gulf News",
+          "title": "UAE-based PureBorn announces direct distribution across Europe",
+          "url": "https://gulfnews.com/business/corporate-news/uae-based-pureborn-announces-direct-distribution-across-europe-1.1712066783483"
+        },
+        {
+          "date": "2024-04-21",
+          "publisher": "ZAWYA",
+          "title": "UAE-based PureBorn announces direct distribution across Europe",
+          "url": "https://www.zawya.com/en/press-release/companies-news/uae-based-pureborn-announces-direct-distribution-across-europe-tgc25k4g"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 2000000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthInsightGeneratedDate": "2025-03-03",
+      "growthChange90Days": 0,
+      "growthScore": 48,
+      "heatChange90Days": -6,
+      "heatScore": 40,
+      "status": "Growing"
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 0
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 23.44,
+        "timingEstimatePercent": {
+          "within6Months": 14.1,
+          "months6To11": 12.11,
+          "months12To24": 19.34,
+          "beyond24Months": 24.8
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 79.41
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 0
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Yalla Baby Box company provides baby products and chance to give customer to prepare own baby items.",
+          "employeeRange": "11-50",
+          "name": "Yalla Baby Box",
+          "sharedSpecialties": [
+            "Baby Diapers",
+            "Baby Wipes",
+            "Subscription Shopping",
+            "Baby Care Products",
+            "Diaper and Essential Supplies Distribution"
+          ],
+          "similarityScore": 100
+        },
+        {
+          "description": "BoxFetti sells celebration boxes, toys, swimwear, arts and crafts.",
+          "employeeRange": "1-10",
+          "name": "BoxFetti",
+          "similarityScore": 94.935
+        },
+        {
+          "description": "Quality Wipes is a manufacturer of wet wipe products.",
+          "employeeRange": "11-50",
+          "name": "Quality Wipes",
+          "sharedSpecialties": [
+            "Cleaning Cloths and Wipes",
+            "Baby Wipes",
+            "Disposable Wipes"
+          ],
+          "similarityScore": 90.129
+        },
+        {
+          "description": "GDM specializes in producing baby diapers, pants, adult briefs, protective underwear, and underpaid products.",
+          "employeeRange": "251-500",
+          "name": "GDM",
+          "sharedSpecialties": [
+            "Baby Diapers",
+            "Baby Wipes",
+            "Baby Care Products",
+            "Disposable Wipes"
+          ],
+          "similarityScore": 85.564
+        },
+        {
+          "description": "İlkas Sağlik Ürünleri̇ is a manufacturer and supplier of baby and health products.",
+          "employeeRange": "101-250",
+          "name": "İlkas Sağlik Ürünleri̇",
+          "sharedCategories": [
+            "Baby"
+          ],
+          "sharedSpecialties": [
+            "Cleaning Cloths and Wipes",
+            "Baby Diapers",
+            "Baby Wipes",
+            "Baby Care Products",
+            "Diaper and Essential Supplies Distribution",
+            "Disposable Wipes"
+          ],
+          "similarityScore": 80.687
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Seed round raised $2,000,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $12,443,481 to $12,443,481, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 48 (+0 over 90 days) and market heat at 40 (-6).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Yalla Baby Box, BoxFetti, Quality Wipes.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "issues": [
+      {
+        "severity": "low",
+        "finding": "Crunchbase reports 17 timeline items but exposes 4 unique items in this payload.",
+        "impact": "Recent news is a partial sample, not a complete history."
+      }
+    ],
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

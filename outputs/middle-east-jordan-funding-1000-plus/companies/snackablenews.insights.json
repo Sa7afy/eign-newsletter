@@ -1,0 +1,232 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T13:27:19.027Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T13:27:19.025Z",
+    "url": "https://www.crunchbase.com/organization/snackablenews"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Snackable News",
+      "shortDescription": "Snackable News is a technology platform for finding trending stories, content creation and distribution in English, Arabic & French.",
+      "description": "Snackable News is a technology company focused on native advertising and social media data mining. The company was founded by Ziad Barouni in January 2015 and is based in Amman.",
+      "website": "http://snackablenews.com/",
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "1-10",
+      "headquarters": "Amman, Jordan",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Advertising",
+        "Content Creators",
+        "Content Discovery",
+        "Content Marketing",
+        "Native Advertising"
+      ],
+      "sectors": [
+        "Advertising",
+        "Content and Publishing",
+        "Media and Entertainment",
+        "Sales and Marketing"
+      ],
+      "founders": [
+        "Ziad Barouni"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 50000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2015-01-10",
+      "lastFundingType": "Seed",
+      "rounds": [
+        {
+          "announcedDate": "2015-01-10",
+          "amount": {
+            "amount": 50000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "postMoneyValuation": {
+            "amount": 522475,
+            "currency": "USD"
+          },
+          "type": "Seed"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "name": "Oasis500",
+            "rounds": [
+              "Seed Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 3,
+      "includedUniqueCount": 3,
+      "items": [
+        {
+          "date": "2015-03-31",
+          "title": "SnackableNews Wins at the Arab Social Media Influencers Summit",
+          "url": "http://waleg.com/techgadgets/2015/03/snackablenews-wins-at-arab-social-media-summit-dubai.html"
+        },
+        {
+          "date": "2015-03-17",
+          "title": "Snackable News Wins First Place at the Arab Social Media Influencers Summit - Snackablenews.com",
+          "url": "http://snackablenews.com/snackable-news-wins-first-place-in-the-arab-social-media-influencers-summit/"
+        },
+        {
+          "date": "2015-01-10",
+          "title": "Seed Round - Snackable News"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 50000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "heatChange90Days": -10,
+      "heatScore": 7
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 14.32
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 4.87,
+        "timingEstimatePercent": {
+          "within6Months": 12.04,
+          "months6To11": 10.59,
+          "months12To24": 17.51,
+          "beyond24Months": 24.03
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 17.45
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 7.98
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Chartbeat tools measure and monetize website visitors' attention and engagement on page content and advertising.",
+          "employeeRange": "101-250",
+          "name": "Chartbeat",
+          "sharedCategories": [
+            "Advertising"
+          ],
+          "similarityScore": 97
+        },
+        {
+          "description": "Storyful is a social media news agency and destination for shared curation of news and collaborative storytelling.",
+          "employeeRange": "51-100",
+          "name": "Storyful",
+          "similarityScore": 95
+        },
+        {
+          "description": "NewzDash is a news and editorial SEO tool that helps publishers and news sites.",
+          "employeeRange": "1-10",
+          "name": "NewzDash",
+          "similarityScore": 93
+        },
+        {
+          "description": "CrowdTangle makes it incredibly easy to find and track content on the social web.",
+          "employeeRange": "11-50",
+          "name": "CrowdTangle",
+          "similarityScore": 91
+        },
+        {
+          "description": "Socialgist is social media data provider.",
+          "employeeRange": "11-50",
+          "name": "Socialgist",
+          "similarityScore": 89
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Seed round raised $50,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $522,475 to $522,475, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Chartbeat, Storyful, NewzDash.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

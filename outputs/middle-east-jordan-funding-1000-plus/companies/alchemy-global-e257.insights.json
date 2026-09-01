@@ -1,0 +1,165 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T09:09:31.114Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T09:09:31.113Z",
+    "url": "https://www.crunchbase.com/organization/alchemy-global-e257"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Alchemy Cleantech",
+      "shortDescription": "Alchemy Cleantech builds, owns & operates clean energy and infrastructure projects in renewable natural gas, biofuels, solar and recycling.",
+      "description": "Alchemy Global builds, owns and operates clean energy and infrastructure projects under the Alchemy Global brand. The organization focuses on renewable natural gas, liquid biofuels, SME solar, bottle-to-bottle plastics recycling and carbon offset projects. It collaborates with project developers, EPC companies and investors to deploy clean infrastructure at scale. The firm applies an asset-level financing model to support emerging clean infrastructure segments while limiting dilution for project promoters. It targets projects that conventional financing often overlooks and aims to support the development of a circular, low-carbon economy.",
+      "website": "https://www.alchemyglobal.group/",
+      "foundedYear": 2023,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "11-50",
+      "headquarters": "Dubai, United Arab Emirates",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Biofuel",
+        "Biomass Energy",
+        "Carbon Capture",
+        "Clean Energy",
+        "Infrastructure",
+        "Recycling",
+        "Renewable Energy",
+        "Sustainability"
+      ],
+      "sectors": [
+        "Energy",
+        "Natural Resources",
+        "Other",
+        "Sustainability"
+      ],
+      "founders": [
+        "Himanshu Sanadhya",
+        "Sushant Arora"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 3800000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2025-08-01",
+      "lastFundingType": "Convertible note",
+      "rounds": [
+        {
+          "announcedDate": "2025-08-01",
+          "amount": {
+            "amount": 3800000,
+            "currency": "USD"
+          },
+          "type": "Convertible note"
+        }
+      ]
+    },
+    "recentNews": {
+      "reportedCount": 1,
+      "includedUniqueCount": 1,
+      "items": [
+        {
+          "date": "2025-08-01",
+          "title": "Convertible Note - Alchemy Cleantech"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 3800000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": -4,
+      "growthScore": 64,
+      "heatChange90Days": -14,
+      "heatScore": 73
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 72.18
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 63.51,
+        "timingEstimatePercent": {
+          "within6Months": 99.74,
+          "months6To11": 0.13,
+          "months12To24": 0,
+          "beyond24Months": 0.13
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 95.29
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 4.66
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors."
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Convertible note round raised $3,800,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 64 (-4 over 90 days) and market heat at 73 (-14).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

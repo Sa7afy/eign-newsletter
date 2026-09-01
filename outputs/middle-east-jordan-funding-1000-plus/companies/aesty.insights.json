@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T08:59:45.241Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T08:59:45.239Z",
+    "url": "https://www.crunchbase.com/organization/aesty"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Aesty",
+      "shortDescription": "Aesty is an AI-powered fashion and styling platform that helps users create outfits, organize their wardrobe.",
+      "description": "Aesty is an AI-powered fashion and styling platform that helps users create outfits, organise their wardrobe, and virtually try on clothing using artificial intelligence. The platform analyses a user’s body features, style preferences, and clothing photos to generate personalised outfit recommendations and styling advice.",
+      "website": "https://www.aesty.ai/",
+      "foundedYear": 2024,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "1-10",
+      "headquarters": "Dubai, United Arab Emirates",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Apparel",
+        "B2B",
+        "B2C",
+        "E-Commerce",
+        "Fashion",
+        "SaaS"
+      ],
+      "sectors": [
+        "Clothing and Apparel",
+        "Commerce and Shopping",
+        "Design",
+        "Other",
+        "Software"
+      ],
+      "founders": [
+        "Andrei Rychkov",
+        "Nadia Zueva"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "A mobile application that uses AI to analyze a user's wardrobe and style preferences to suggest outfit combinations and personal styling advice.",
+        "name": "Aesty AI Personal Try-On App"
+      },
+      {
+        "description": "A 10-line white-label widget that integrates into e-commerce sites to enable shoppers to virtually try on products using AI, aiming to improve conversion rates and reduce product returns.",
+        "name": "Aesty White-Label AI Widget for E-commerce"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 300000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2025-06-21",
+      "lastFundingType": "Pre Seed",
+      "rounds": [
+        {
+          "announcedDate": "2025-06-21",
+          "amount": {
+            "amount": 300000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "Antler"
+          ],
+          "postMoneyValuation": {
+            "amount": 5300000,
+            "currency": "USD"
+          },
+          "type": "Pre Seed"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "Antler",
+            "rounds": [
+              "Pre Seed Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 1,
+      "includedUniqueCount": 1,
+      "items": [
+        {
+          "date": "2025-06-21",
+          "title": "Pre Seed Round - Aesty"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 300000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": -5,
+      "growthScore": 60,
+      "heatChange90Days": -9,
+      "heatScore": 82
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 34.29
+      },
+      "funding": {
+        "generatedDate": "2026-06-20",
+        "probabilityPercent": 94.18,
+        "timingEstimatePercent": {
+          "within6Months": 99.94,
+          "months6To11": 0,
+          "months12To24": 0,
+          "beyond24Months": 0.06
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 96.36
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 3.86
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Cladwell is a mobile application that offers personal styling services.",
+          "employeeRange": "1-10",
+          "name": "Cladwell",
+          "sharedCategories": [
+            "Fashion"
+          ],
+          "sharedSpecialties": [
+            "Recommendation Engines",
+            "Body Measurement and Virtual Try-On",
+            "Personal Styling"
+          ],
+          "similarityScore": 97
+        },
+        {
+          "description": "Whering is a social styling and wardrobe app allowing users to see and style their clothes.",
+          "employeeRange": "11-50",
+          "name": "Whering",
+          "sharedCategories": [
+            "E-Commerce",
+            "Fashion"
+          ],
+          "sharedSpecialties": [
+            "Visual Search",
+            "Recommendation Engines",
+            "Personal Styling"
+          ],
+          "similarityScore": 95
+        },
+        {
+          "description": "Stylebook is a virtual closet app for your real clothes.",
+          "employeeRange": "1-10",
+          "name": "Stylebook",
+          "sharedCategories": [
+            "Fashion"
+          ],
+          "similarityScore": 93
+        },
+        {
+          "description": "Pureple is designed to help you carefully curate your wardrobe so you can look effortlessly chic everyday.",
+          "employeeRange": "1-10",
+          "name": "Pureple App",
+          "sharedCategories": [
+            "Fashion"
+          ],
+          "sharedSpecialties": [
+            "Recommendation Engines",
+            "Body Measurement and Virtual Try-On",
+            "Personal Styling"
+          ],
+          "similarityScore": 86
+        },
+        {
+          "description": "Vue.ai is a visual AI platform that redesigns the future of retail commerce.",
+          "employeeRange": "101-250",
+          "name": "Vue.ai",
+          "sharedCategories": [
+            "Fashion"
+          ],
+          "sharedSpecialties": [
+            "Product Recognition",
+            "Recommendation Engines"
+          ],
+          "similarityScore": 79
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Pre Seed round raised $300,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $5,300,000 to $5,300,000, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 60 (-5 over 90 days) and market heat at 82 (-9).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Cladwell, Whering, Stylebook.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

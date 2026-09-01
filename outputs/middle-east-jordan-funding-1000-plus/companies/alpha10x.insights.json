@@ -1,0 +1,308 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T09:11:47.659Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T09:11:47.656Z",
+    "url": "https://www.crunchbase.com/organization/alpha10x"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "ALPHA10X",
+      "shortDescription": "AI leader in private markets, turning knowledge into outperformance and alpha.",
+      "description": "ALPHA10X is the AI leader in private markets investing. We enable investors and acquirers to move faster, underwrite with greater conviction, and allocate capital with precision—institutionalizing investment workflows to operationalize decisions that drive confident capital deployment. Founded in 2018, ALPHA10X is headquartered in Dubai with R&D in the South of France. Our team combines deep expertise in AI, quantum knowledge systems, and private-market investing—connecting people, capital, and ideas to reveal the underlying logic of markets. We help investors, acquirers, and strategic advisors turn complexity into clarity and knowledge into alpha. We are builders, operators, and investors who believe performance is driven by insight and strengthened by foresight. Our mission is to equip private-markets capital with intelligence, precision, and conviction.",
+      "website": "http://alpha10x.com/",
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "11-50",
+      "estimatedRevenueRange": "$1M-$10M",
+      "headquarters": "Dubai, United Arab Emirates",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Generative AI",
+        "Intelligent Systems",
+        "Knowledge Management",
+        "Predictive Analytics"
+      ],
+      "sectors": [
+        "Administrative Services",
+        "Artificial Intelligence (AI)",
+        "Data and Analytics",
+        "Science and Engineering",
+        "Software"
+      ],
+      "founders": [
+        "Robert Marcus"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "A neuro-symbolic AI system that integrates data and AI methods to provide predictive intelligence and decision support for private market investments.",
+        "name": "ALPHAcodex"
+      },
+      {
+        "description": "An end-to-end AI platform that supports the entire private market investment lifecycle by providing data-driven insights for strategy, deal sourcing, value creation, and exit optimization.",
+        "name": "Private Markets Predictive Intelligence Platform"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 18101753,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 3,
+      "detailedRoundCount": 3,
+      "lastFundingDate": "2024-05-23",
+      "lastFundingType": "Seed",
+      "rounds": [
+        {
+          "announcedDate": "2024-05-23",
+          "amount": {
+            "amount": 8545487,
+            "currency": "USD"
+          },
+          "postMoneyValuation": {
+            "amount": 49635063,
+            "currency": "USD"
+          },
+          "type": "Seed"
+        },
+        {
+          "announcedDate": "2021-10-15",
+          "amount": {
+            "amount": 2838696,
+            "currency": "USD"
+          },
+          "postMoneyValuation": {
+            "amount": 28002142,
+            "currency": "USD"
+          },
+          "type": "Pre Seed"
+        },
+        {
+          "announcedDate": "2019-11-10",
+          "amount": {
+            "amount": 6717570,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "QuantumWave Capital"
+          ],
+          "postMoneyValuation": {
+            "amount": 31683901,
+            "currency": "USD"
+          },
+          "type": "Undisclosed"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "QuantumWave Capital",
+            "rounds": [
+              "Funding Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 4,
+      "includedUniqueCount": 4,
+      "items": [
+        {
+          "date": "2024-11-28",
+          "publisher": "PRLog",
+          "title": "Former McKinsey QuantumBlack Leader Joins ALPHA10X as Chief Scientist",
+          "url": "https://www.prlog.org/13050262-former-mckinsey-quantumblack-leader-joins-alpha10x-as-chief-scientist.html"
+        },
+        {
+          "date": "2024-05-23",
+          "title": "Seed Round - ALPHA10X"
+        },
+        {
+          "date": "2021-10-15",
+          "title": "Pre Seed Round - ALPHA10X"
+        },
+        {
+          "date": "2019-11-10",
+          "title": "Funding Round - ALPHA10X"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 3,
+    "knownDetailedFundingAmount": {
+      "amount": 18101753,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 47.21,
+    "latestToEarliestKnownValuationMultiple": 1.57
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": -2,
+      "growthScore": 86,
+      "heatChange90Days": -5,
+      "heatScore": 70
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 80
+      },
+      "funding": {
+        "generatedDate": "2026-06-20",
+        "probabilityPercent": 92.21,
+        "timingEstimatePercent": {
+          "within6Months": 99.12,
+          "months6To11": 0,
+          "months12To24": 0,
+          "beyond24Months": 0.88
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 95.64
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 4.38
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "PitchBook offers financial data and tools on companies, deals, investors, and markets to support sales and business development.",
+          "employeeRange": "1,001-5,000",
+          "name": "PitchBook",
+          "sharedSpecialties": [
+            "Market Data and Research",
+            "Venture Capital Funds",
+            "Market Intelligence"
+          ],
+          "similarityScore": 97
+        },
+        {
+          "description": "Preqin is a provider of a private markets database platform for private capital and hedge fund data sets.",
+          "employeeRange": "1,001-5,000",
+          "name": "Preqin",
+          "sharedSpecialties": [
+            "Market Data and Research",
+            "Alternative Investments",
+            "Venture Capital Funds"
+          ],
+          "similarityScore": 95
+        },
+        {
+          "description": "Inven is a technology company that develops B2B SaaS solutions for M&A, private equity, and management consulting professionals.",
+          "employeeRange": "51-100",
+          "name": "Inven",
+          "sharedSpecialties": [
+            "Market Data and Research",
+            "Market Intelligence"
+          ],
+          "similarityScore": 93
+        },
+        {
+          "description": "AlphaSense is a platform harnessing AI to deliver insights, helping professionals make informed, impactful decisions.",
+          "employeeRange": "1,001-5,000",
+          "name": "AlphaSense",
+          "sharedSpecialties": [
+            "Knowledge Management",
+            "Augmented Business Intelligence",
+            "Market Data and Research",
+            "Market Intelligence"
+          ],
+          "similarityScore": 91
+        },
+        {
+          "description": "Deal management and business development software for principal investing and M&A advisory professionals.",
+          "employeeRange": "51-100",
+          "name": "DealCloud",
+          "similarityScore": 89
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Seed round raised $8,545,487, or 47.21% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $31,683,901 to $49,635,063, a 1.57x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 86 (-2 over 90 days) and market heat at 70 (-5).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include PitchBook, Preqin, Inven.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

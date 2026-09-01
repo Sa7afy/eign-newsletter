@@ -1,0 +1,194 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T12:35:14.620Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T12:35:14.619Z",
+    "url": "https://www.crunchbase.com/organization/mohammed-hadi-al-rasheed-partners"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Mohammed Hadi Al-Rasheed & Partners",
+      "shortDescription": "Mohammed Hadi Al-Rasheed & Partners Company operates as a mining company.",
+      "description": "Mohammed Hadi Al Rasheed Company established as a private enterprise that concentrated on construction materials.It focuses on silica sand, granite, marble, and industrial asphalt materials.",
+      "website": "https://alrasheedco.com.sa/",
+      "foundedYear": 2000,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Public",
+      "employeeRange": "1,001-5,000",
+      "headquarters": "Riyadh, Ar Riyad, Saudi Arabia",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Building Material",
+        "Military",
+        "Mining"
+      ],
+      "sectors": [
+        "Government and Military",
+        "Natural Resources",
+        "Real Estate"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 5333084,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2026-02-05",
+      "lastFundingType": "Post IPO Debt",
+      "rounds": [
+        {
+          "announcedDate": "2026-02-05",
+          "amount": {
+            "amount": 5333084,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "Emirates NBD"
+          ],
+          "type": "Post IPO Debt"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "Emirates NBD",
+            "rounds": [
+              "Post-IPO Debt"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 7,
+      "includedUniqueCount": 7,
+      "items": [
+        {
+          "date": "2026-07-13",
+          "publisher": "Zawya.com",
+          "title": "Saudi Arabia's Al Rasheed to acquire 50% stake in Taif Shipping for $24.6mln",
+          "url": "https://www.zawya.com/en/business/m-a/saudi-arabias-al-rasheed-to-acquire-50-stake-in-taif-shipping-for-246mln-uh2gasjd"
+        },
+        {
+          "date": "2026-07-13",
+          "publisher": "Zawya.com",
+          "title": "Hormuz traffic slows to multi-week low as renewed US, Iran strikes raise safety risk",
+          "url": "https://www.zawya.com/en/world/middle-east/hormuz-traffic-slows-to-multi-week-low-as-renewed-us-iran-strikes-raise-safety-risk-mfoy8z7j"
+        },
+        {
+          "date": "2026-07-13",
+          "publisher": "Zawya.com",
+          "title": "GCC inflation remains stable at 1.8% in 2025",
+          "url": "https://www.zawya.com/en/economy/gcc/gcc-inflation-remains-stable-at-18-in-2025-wkdo435z"
+        },
+        {
+          "date": "2026-07-09",
+          "title": "Secondary Market - Taif Shipping"
+        },
+        {
+          "date": "2026-05-14",
+          "publisher": "TradingView",
+          "title": "Mohammed Hadi Al-Rashid And Partners Board Approves Co's Transfer From Parallel Market To Main Market",
+          "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN41R1E4:0-mohammed-hadi-al-rashid-and-partners-board-approves-co-s-transfer-from-parallel-market-to-main-market/"
+        },
+        {
+          "date": "2026-02-05",
+          "title": "Post-IPO Debt - Mohammed Hadi Al-Rasheed & Partners"
+        },
+        {
+          "date": "2024-05-23",
+          "title": "9601"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 5333084,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthInsightGeneratedDate": "2026-08-02",
+      "growthChange90Days": 10,
+      "growthScore": 92,
+      "heatChange90Days": 11,
+      "heatScore": 75,
+      "status": "Growing"
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors."
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Post IPO Debt round raised $5,333,084, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 92 (+10 over 90 days) and market heat at 75 (+11).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Strategic repositioning and listing coverage shape the current narrative",
+      "statement": "Mohammed Hadi Al-Rasheed & Partners has a recent strategic-positioning change; 1 recent unique news titles explicitly contain the English terms IPO or listing.",
+      "implication": "Their timing coincides with increased visibility in the loaded news and Crunchbase momentum signals, but the data does not establish causation.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.company.formerName",
+        "facts.recentNews",
+        "providerSignals.crunchbaseMomentum"
+      ],
+      "caveats": [
+        "The causal link to Crunchbase momentum is an inference from timing, not a disclosed company metric."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

@@ -1,0 +1,510 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T13:38:32.002Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T13:38:31.999Z",
+    "url": "https://www.crunchbase.com/organization/tarabut-gateway"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Tarabut",
+      "shortDescription": "Tarabut is a financial technology company that provides open banking and embedded finance infrastructure for banks and businesses.",
+      "description": "Tarabut’s platform allows organizations to access customer-permissioned financial data, initiate payments, and embed financial services such as lending and credit directly into digital products and marketplaces. This helps financial institutions deliver faster, more personalized financial experiences and expand access to financial services across the region.\n\nThe company operates mainly in Saudi Arabia, Bahrain, and the UAE, where it provides solutions including open finance APIs, payment initiation services, data intelligence tools, and embedded finance products. By connecting banks, fintech startups, and businesses in one ecosystem, Tarabut aims to accelerate digital banking innovation and improve financial inclusion in the MENA region.",
+      "website": "https://www.tarabut.com/",
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "51-100",
+      "estimatedRevenueRange": "$1M-$10M",
+      "headquarters": "Dubai, United Arab Emirates",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Embedded Software",
+        "FinTech",
+        "Payments"
+      ],
+      "sectors": [
+        "Financial Services",
+        "Payments",
+        "Software"
+      ],
+      "founders": [
+        "Abdulla Almoayed"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "A platform providing compliant open finance infrastructure with APIs for financial institutions and fintechs to build and scale digital financial services.",
+        "name": "BaaS (Banking as a Service)"
+      },
+      {
+        "description": "Tools and APIs that convert financial data into real-time insights to support smarter credit decisions and personalized financial experiences.",
+        "name": "Data Services"
+      },
+      {
+        "description": "Solutions that integrate financing and payment capabilities directly into everyday digital customer journeys to enhance user experience and revenue.",
+        "name": "Embedded Finance"
+      },
+      {
+        "description": "API-driven service enabling fast, secure, account-to-account payments that bypass traditional intermediaries for real-time transactions.",
+        "name": "Payments"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 57000000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 5,
+      "detailedRoundCount": 5,
+      "lastFundingDate": "2023-05-03",
+      "lastFundingType": "Series A",
+      "rounds": [
+        {
+          "announcedDate": "2023-05-03",
+          "amount": {
+            "amount": 32000000,
+            "currency": "USD"
+          },
+          "investorCount": 4,
+          "leadInvestors": [
+            "Pinnacle Capital"
+          ],
+          "postMoneyValuation": {
+            "amount": 208252095,
+            "currency": "USD"
+          },
+          "type": "Series A"
+        },
+        {
+          "announcedDate": "2021-11-02",
+          "amount": {
+            "amount": 12000000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "Tiger Global Management"
+          ],
+          "postMoneyValuation": {
+            "amount": 82456430,
+            "currency": "USD"
+          },
+          "type": "Seed"
+        },
+        {
+          "announcedDate": "2021-02-23",
+          "amount": {
+            "amount": 13000000,
+            "currency": "USD"
+          },
+          "investorCount": 6,
+          "leadInvestors": [
+            "Target Global"
+          ],
+          "postMoneyValuation": {
+            "amount": 54310001,
+            "currency": "USD"
+          },
+          "type": "Seed"
+        },
+        {
+          "announcedDate": "2020-11-26",
+          "investorCount": 1,
+          "leadInvestors": [
+            "DIFC FinTech Hive"
+          ],
+          "postMoneyValuation": {
+            "amount": 10222537,
+            "currency": "USD"
+          },
+          "type": "Pre Seed"
+        },
+        {
+          "announcedDate": "2020-07-01",
+          "investorCount": 1,
+          "leadInvestors": [
+            "Mad'a Investment Company"
+          ],
+          "postMoneyValuation": {
+            "amount": 5358417,
+            "currency": "USD"
+          },
+          "type": "Seed"
+        }
+      ],
+      "investors": {
+        "reportedCount": 11,
+        "visibleNames": [
+          {
+            "name": "Aljazira Capital",
+            "rounds": [
+              "Series A"
+            ]
+          },
+          {
+            "name": "Almoayed Ventures",
+            "rounds": [
+              "Seed Round"
+            ]
+          },
+          {
+            "name": "Crescent Ventures",
+            "rounds": [
+              "Seed Round"
+            ]
+          },
+          {
+            "name": "Global Ventures"
+          },
+          {
+            "name": "Kingsway Capital",
+            "rounds": [
+              "Seed Round"
+            ]
+          },
+          {
+            "name": "Mad'a Investment Company",
+            "rounds": [
+              "Seed Round"
+            ]
+          },
+          {
+            "isLead": true,
+            "name": "Pinnacle Capital",
+            "rounds": [
+              "Series A"
+            ]
+          },
+          {
+            "isLead": true,
+            "name": "Target Global",
+            "rounds": [
+              "Seed Round"
+            ]
+          },
+          {
+            "isLead": true,
+            "name": "Tiger Global Management",
+            "rounds": [
+              "Series A",
+              "Seed Round"
+            ]
+          },
+          {
+            "name": "Visa",
+            "rounds": [
+              "Series A"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 180,
+      "includedUniqueCount": 10,
+      "items": [
+        {
+          "date": "2026-06-18",
+          "publisher": "startupbahrain.com",
+          "title": "Servable: How Servable went from founding to acquisition in two years?",
+          "url": "https://startupbahrain.com/blog/servable-how-servable-went-from-founding-to-acquisition-in-two-years"
+        },
+        {
+          "date": "2026-06-18",
+          "publisher": "startupbahrain.com",
+          "title": "Tarabut: From a Bahrain Sandbox to GCC-wide Open Finance",
+          "url": "https://startupbahrain.com/blog/tarabut-from-a-bahrain-sandbox-to-gcc-wide-open-finance"
+        },
+        {
+          "date": "2026-02-04",
+          "publisher": "SecneNow",
+          "title": "Tarabut Acquires AI Servable to Expand Compliance Capabilities",
+          "url": "https://thestartupscene.me/MenaEcosystems/Tarabut-Acquires-AI-Servable-to-Expand-Compliance-Capabilities"
+        },
+        {
+          "date": "2026-02-02",
+          "publisher": "Yahoo Finance",
+          "title": "Tarabut acquires Servable to add financial AI capabilities",
+          "url": "https://finance.yahoo.com/news/tarabut-acquires-servable-add-financial-123309833.html"
+        },
+        {
+          "date": "2026-02-02",
+          "publisher": "Retail Banker International",
+          "title": "Tarabut acquires Servable to add financial AI capabilities",
+          "url": "https://www.retailbankerinternational.com/news/tarabut-acquires-servable/"
+        },
+        {
+          "date": "2026-02-01",
+          "publisher": "Pulse 2.0",
+          "title": "Tarabut Acquires Servable To Build AI-Native Financial Infrastructure Across MENA",
+          "url": "https://pulse2.com/tarabut-acquires-servable-to-build-ai-native-financial-infrastructure-across-mena/"
+        },
+        {
+          "date": "2026-01-31",
+          "title": "Servable acquired by Tarabut"
+        },
+        {
+          "date": "2026-01-31",
+          "publisher": "Zawya.com",
+          "title": "Tarabut Acquires Bahrain-founded AI platform Servable to build the region’s most advanced regulated financial infrastructure",
+          "url": "https://www.zawya.com/en/press-release/companies-news/tarabut-acquires-bahrain-founded-ai-platform-servable-to-build-the-regions-most-advanced-regulated-financial-infrastructure-dzqwglwk"
+        },
+        {
+          "date": "2025-10-05",
+          "publisher": "eyeofriyadh.com",
+          "title": "WETEX 2025 Promotes the Competitiveness of Eco-Friendly Vehicles",
+          "url": "https://www.eyeofriyadh.com/news/details/wetex-2025-promotes-the-competitiveness-of-eco-friendly-vehicles%3E"
+        },
+        {
+          "date": "2025-09-30",
+          "publisher": "Financial IT",
+          "title": "Tarabut Inaugurates Regional Headquarters In Riyadh",
+          "url": "https://financialit.net/news/infrastructure/tarabut-inaugurates-regional-headquarters-riyadh"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 3,
+    "knownDetailedFundingAmount": {
+      "amount": 57000000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 56.14,
+    "latestToEarliestKnownValuationMultiple": 38.86
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "reportedPartnerships": {
+      "note": "Provider event summaries with linked sources; not independently verified.",
+      "items": [
+        {
+          "date": "2024-11-19",
+          "description": "Tarabut and Geidea have signed an MOU to explore SME financing solutions in Saudi Arabia, aiming to create efficient and accessible financing opportunities for SMEs.",
+          "sources": [
+            {
+              "date": "2024-11-19",
+              "publisher": "Business Wire",
+              "title": "Strategic Partnership: Tarabut & Geidea Sign MOU to Explore Game-Changing SME Financing Solutions in Saudi Arabia",
+              "url": "https://www.businesswire.com/news/home/20241119812138/en/Strategic-Partnership-Tarabut-Geidea-Sign-MOU-to-Explore-Game-Changing-SME-Financing-Solutions-in-Saudi-Arabia"
+            }
+          ]
+        },
+        {
+          "date": "2023-05-01",
+          "description": "In May 2023, Tarabut entered a strategic partnership with Visa to co-develop open banking products and connect Tarabut’s API infrastructure with Visa’s global payments network for the MENA region.",
+          "sources": [
+            {
+              "date": "2026-06-18",
+              "publisher": "startupbahrain.com",
+              "title": "Tarabut: From a Bahrain Sandbox to GCC-wide Open Finance",
+              "url": "https://startupbahrain.com/blog/tarabut-from-a-bahrain-sandbox-to-gcc-wide-open-finance"
+            }
+          ]
+        }
+      ]
+    },
+    "crunchbaseMomentum": {
+      "growthInsightGeneratedDate": "2026-06-28",
+      "growthChange90Days": -6,
+      "growthScore": 52,
+      "heatChange90Days": -1,
+      "heatScore": 56,
+      "status": "Growing"
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 0
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 31.83,
+        "timingEstimatePercent": {
+          "within6Months": 15.7,
+          "months6To11": 13.23,
+          "months12To24": 20.56,
+          "beyond24Months": 25
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 95.27
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 0
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "TrueLayer powers smarter, safer and faster online payments by combining real-time bank payments with financial and identity data.",
+          "employeeRange": "251-500",
+          "name": "TrueLayer",
+          "sharedCategories": [
+            "FinTech",
+            "Payments"
+          ],
+          "sharedSpecialties": [
+            "ACH and Bank Transfer Services",
+            "Real-Time Payments (RTP) Infrastructure",
+            "Open Banking Infrastructure",
+            "Payment Orchestration Platforms",
+            "Payment Analytics and Dashboard"
+          ],
+          "similarityScore": 97
+        },
+        {
+          "description": "Tink is a cloud-based platform providing infrastructure and data products to enable the future of financial services.",
+          "employeeRange": "501-1,000",
+          "name": "Tink",
+          "sharedCategories": [
+            "FinTech"
+          ],
+          "sharedSpecialties": [
+            "ACH and Bank Transfer Services",
+            "API Integration",
+            "Open Banking Infrastructure",
+            "Payment Orchestration Platforms",
+            "Payment Analytics and Dashboard"
+          ],
+          "similarityScore": 95
+        },
+        {
+          "description": "Redefining how the world interacts with value.",
+          "employeeRange": "101-250",
+          "name": "Yapily",
+          "sharedCategories": [
+            "Payments"
+          ],
+          "sharedSpecialties": [
+            "ACH and Bank Transfer Services",
+            "Payment Processing",
+            "Real-Time Payments (RTP) Infrastructure",
+            "Open Banking Infrastructure",
+            "Payment Orchestration Platforms",
+            "API Management"
+          ],
+          "similarityScore": 93
+        },
+        {
+          "description": "Plaid develops financial technology infrastructure that enables applications to connect with users' bank accounts and financial data.",
+          "employeeRange": "501-1,000",
+          "name": "Plaid",
+          "sharedCategories": [
+            "FinTech"
+          ],
+          "sharedSpecialties": [
+            "ACH and Bank Transfer Services",
+            "API Integration",
+            "Payment Processing",
+            "Open Banking Infrastructure",
+            "Alternative Credit Data and Scoring"
+          ],
+          "similarityScore": 89
+        },
+        {
+          "description": "A leader in providing banks, fintechs, lenders, credit bureaus with Open Banking API solutions, connected to 5000+ banks in 50+ countries",
+          "employeeRange": "101-250",
+          "name": "Salt Edge Inc.",
+          "sharedCategories": [
+            "FinTech"
+          ],
+          "sharedSpecialties": [
+            "API Integration",
+            "Payment Processing",
+            "Open Banking Infrastructure",
+            "Financial Marketing and Customer Analytics",
+            "Payment Analytics and Dashboard",
+            "API Management"
+          ],
+          "similarityScore": 88
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Series A round raised $32,000,000, or 56.14% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $5,358,417 to $208,252,095, a 38.86x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 52 (-6 over 90 days) and market heat at 56 (-1).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include TrueLayer, Tink, Yapily.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "issues": [
+      {
+        "severity": "low",
+        "finding": "Crunchbase reports 180 timeline items but exposes 10 unique items in this payload.",
+        "impact": "Recent news is a partial sample, not a complete history."
+      }
+    ],
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

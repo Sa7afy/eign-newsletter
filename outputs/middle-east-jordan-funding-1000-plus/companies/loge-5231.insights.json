@@ -1,0 +1,246 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T12:21:18.337Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T12:21:18.335Z",
+    "url": "https://www.crunchbase.com/organization/loge-5231"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "LogE",
+      "shortDescription": "LogE is a digital platform that provides procurement process management and logistics solutions to help improve small businesses.",
+      "description": "LogE offers procurement and logistics services that are hassle-free. They help businesses manage their procurement processes and operations. They work alongside businesses to help them enhance food cost control by offering the best available prices.",
+      "website": "http://www.whyloge.com/",
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "1-10",
+      "headquarters": "Amman, Jordan",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Information Technology",
+        "Internet",
+        "Logistics",
+        "Mobile Apps",
+        "PaaS",
+        "Procurement"
+      ],
+      "sectors": [
+        "Apps",
+        "Information Technology",
+        "Mobile",
+        "Software",
+        "Transportation"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "A digital platform for managing procurement and logistics for small businesses in the food service sector.",
+        "name": "LogE Procurement Platform"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 281000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2022-10-16",
+      "lastFundingType": "Pre Seed",
+      "rounds": [
+        {
+          "announcedDate": "2022-10-16",
+          "amount": {
+            "amount": 281000,
+            "currency": "USD"
+          },
+          "postMoneyValuation": {
+            "amount": 2397770,
+            "currency": "USD"
+          },
+          "type": "Pre Seed"
+        }
+      ]
+    },
+    "recentNews": {
+      "reportedCount": 1,
+      "includedUniqueCount": 1,
+      "items": [
+        {
+          "date": "2022-10-16",
+          "title": "Pre Seed Round - LogE"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 281000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": 0,
+      "growthScore": 66,
+      "heatChange90Days": -8,
+      "heatScore": 61
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 51.73
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 28.64,
+        "timingEstimatePercent": {
+          "within6Months": 14.79,
+          "months6To11": 12.6,
+          "months12To24": 19.89,
+          "beyond24Months": 24.93
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 65.43
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 44.64
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Marketman is a restaurant inventory and vendor payment management software between foodservice operators and their suppliers.",
+          "employeeRange": "51-100",
+          "name": "Marketman",
+          "sharedSpecialties": [
+            "Order and Inventory Management",
+            "Procurement and Purchasing Systems"
+          ],
+          "similarityScore": 92
+        },
+        {
+          "description": "xtraCHEF is a SaaS restaurant management platform for the restaurant industry to improve productivity and increase profits.",
+          "employeeRange": "11-50",
+          "name": "xtraCHEF",
+          "sharedSpecialties": [
+            "Order and Inventory Management"
+          ],
+          "similarityScore": 87
+        },
+        {
+          "description": "Restaurant365 is an enterprise management software for restaurants that provides accounting, inventory, scheduling, and payroll solutions.",
+          "employeeRange": "501-1,000",
+          "name": "Restaurant365",
+          "sharedSpecialties": [
+            "Order and Inventory Management",
+            "Procurement and Purchasing Systems"
+          ],
+          "similarityScore": 86
+        },
+        {
+          "description": "Craftable is a complete restaurant management platform designed by Silicon Valley tech experts partnered with hospitality industry veterans.",
+          "employeeRange": "1-10",
+          "name": "Craftable",
+          "sharedSpecialties": [
+            "Order and Inventory Management"
+          ],
+          "similarityScore": 84
+        },
+        {
+          "description": "Bamboo Rose is a retail company providing b2b marketplace and sales management service.",
+          "employeeRange": "101-250",
+          "name": "Bamboo Rose",
+          "sharedSpecialties": [
+            "Supply Chain Visibility Platforms",
+            "Logistics Software",
+            "Procurement and Purchasing Systems"
+          ],
+          "similarityScore": 84
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Pre Seed round raised $281,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $2,397,770 to $2,397,770, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 66 (+0 over 90 days) and market heat at 61 (-8).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Marketman, xtraCHEF, Restaurant365.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

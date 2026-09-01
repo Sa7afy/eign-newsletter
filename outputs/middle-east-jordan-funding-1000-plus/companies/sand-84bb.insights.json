@@ -1,0 +1,185 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T13:16:38.743Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T13:16:38.742Z",
+    "url": "https://www.crunchbase.com/organization/sand-84bb"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Sand",
+      "shortDescription": "Sand is an AI-based open Platform-as-a-Service (PaaS) for the energy operations sector.",
+      "description": "Sand is a multi-tenant, AI-based Platform-as-a-Service that acts as the connective tissue for energy data. Organizations that generate, distribute, trade, finance, or optimize energy today rely on a patchwork of point solutions and internal spreadsheets to run their operations — Sand replaces that fragmentation with a unified platform built on a shared data model and composable software packages.\n\nRather than selling a single application, Sand operates as a code factory: new energy-management apps can be composed rapidly from the same underlying platform, keeping the cost of solving a second or third operational problem near zero once a customer is on the platform. Sand currently powers three product lines built on this shared foundation — SandGen for renewable generators and asset operators, SandDist for energy distributors and utilities, and SandAgg for aggregators and virtual power plant (VPP) operators — each covering monitoring, analytics, billing, and operational workflows for its stakeholder.\n\nCustomers can also build their own applications on top of Sand's unified data model, extending the platform to needs no off-the-shelf vendor addresses.",
+      "website": "https://www.sandbase.com/",
+      "foundedYear": 2024,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "11-50",
+      "headquarters": "Cairo, Al Qahirah, Egypt",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Middle East",
+        "Middle East and North Africa (MENA)",
+        "North Africa"
+      ],
+      "industries": [
+        "Artificial Intelligence (AI)",
+        "Energy",
+        "Energy Management",
+        "Enterprise Software",
+        "Renewable Energy"
+      ],
+      "sectors": [
+        "Artificial Intelligence (AI)",
+        "Data and Analytics",
+        "Energy",
+        "Science and Engineering",
+        "Software",
+        "Sustainability"
+      ],
+      "founders": [
+        "Ahmed Teir",
+        "Mohamed Fayez",
+        "Ziad Aly"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 350000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 2,
+      "detailedRoundCount": 2,
+      "lastFundingDate": "2025-12-19",
+      "lastFundingType": "Secondary Market",
+      "rounds": [
+        {
+          "announcedDate": "2025-12-19",
+          "amount": {
+            "amount": 200000,
+            "currency": "USD"
+          },
+          "type": "Secondary Market"
+        },
+        {
+          "announcedDate": "2025-04-24",
+          "amount": {
+            "amount": 150000,
+            "currency": "USD"
+          },
+          "postMoneyValuation": {
+            "amount": 2268531,
+            "currency": "USD"
+          },
+          "type": "Pre Seed"
+        }
+      ]
+    },
+    "recentNews": {
+      "reportedCount": 2,
+      "includedUniqueCount": 2,
+      "items": [
+        {
+          "date": "2025-12-19",
+          "title": "Secondary Market - Sand"
+        },
+        {
+          "date": "2025-04-24",
+          "title": "Pre Seed Round - Sand"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 2,
+    "knownDetailedFundingAmount": {
+      "amount": 350000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 57.14,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": 6,
+      "growthScore": 94,
+      "heatChange90Days": 88,
+      "heatScore": 93
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 26.14
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 95.03
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 4.36
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors."
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Secondary Market round raised $200,000, or 57.14% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $2,268,531 to $2,268,531, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 94 (+6 over 90 days) and market heat at 93 (+88).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

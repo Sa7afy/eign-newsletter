@@ -1,0 +1,317 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T10:59:20.442Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T10:59:20.439Z",
+    "url": "https://www.crunchbase.com/organization/berrylab"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "BerryLab",
+      "shortDescription": "BerryLab is a Dubai-based Web3 assistant and crypto wallet management platform.",
+      "description": "BerryLab is a Dubai-based Web3 assistant and crypto wallet management platform designed to help users monitor blockchain wallets, track digital assets, receive alerts, and manage on-chain activity across multiple networks. The platform primarily operates through a mobile application focused on productivity, security, and blockchain analytics.",
+      "website": "https://berrylab.xyz/",
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "1-10",
+      "headquarters": "Dubai, United Arab Emirates",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Blockchain",
+        "Cryptocurrency",
+        "Web3"
+      ],
+      "sectors": [
+        "Blockchain and Cryptocurrency",
+        "Financial Services",
+        "Internet Services",
+        "Payments",
+        "Software"
+      ],
+      "founders": [
+        "Moeen Sal"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "A feature that provides alerts for wallet-related events such as hacks, gas fees, and transaction reminders.",
+        "name": "Notification Center"
+      },
+      {
+        "description": "A tool that offers detailed insights into wallet activities across multiple blockchain networks.",
+        "name": "Network Dashboards"
+      },
+      {
+        "description": "A feature that identifies tokens eligible for airdrops and staking rewards, facilitating their claim.",
+        "name": "Claimable Tokens"
+      },
+      {
+        "description": "An embedded browser within the BerryLab App that enables users to connect and interact with decentralized applications (Dapps).",
+        "name": "Dapp Browser"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 18000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 2,
+      "detailedRoundCount": 2,
+      "lastFundingDate": "2024-05-15",
+      "lastFundingType": "Grant",
+      "rounds": [
+        {
+          "announcedDate": "2024-05-15",
+          "amount": {
+            "amount": 3000,
+            "currency": "USD"
+          },
+          "type": "Grant"
+        },
+        {
+          "announcedDate": "2024-02-16",
+          "amount": {
+            "amount": 15000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "Covalent"
+          ],
+          "type": "Grant"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "Covalent",
+            "rounds": [
+              "Grant"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 2,
+      "includedUniqueCount": 2,
+      "items": [
+        {
+          "date": "2024-05-15",
+          "title": "Grant - BerryLab"
+        },
+        {
+          "date": "2024-02-16",
+          "title": "Grant - BerryLab"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 2,
+    "knownDetailedFundingAmount": {
+      "amount": 18000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 16.67,
+    "grantFunding": {
+      "amount": {
+        "amount": 18000,
+        "currency": "USD"
+      },
+      "disclosedRoundCount": 2,
+      "shareOfTotalPercent": 100
+    }
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": -2,
+      "growthScore": 35,
+      "heatChange90Days": -10,
+      "heatScore": 60
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 73.76
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 11.5,
+        "timingEstimatePercent": {
+          "within6Months": 1.12,
+          "months6To11": 0,
+          "months12To24": 0,
+          "beyond24Months": 98.88
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-13",
+        "probabilityPercent": 88.4
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 4.21
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Zerion is an all-in-one interface that allows technical and non-technical users to acquire, track and manage DeFi assets.",
+          "employeeRange": "11-50",
+          "name": "Zerion",
+          "sharedCategories": [
+            "Blockchain",
+            "Cryptocurrency"
+          ],
+          "sharedSpecialties": [
+            "Ethereum Analytics Platforms",
+            "Staking Services",
+            "Decentralized Exchanges",
+            "Crypto Custody and Wallets",
+            "Cryptocurrency Tax and Accounting",
+            "Dashboarding and Embedded Analytics",
+            "Cross-Chain Bridges"
+          ],
+          "similarityScore": 97
+        },
+        {
+          "description": "Rabby Wallet provides a browser crypto wallet for managing assets and approving transactions.",
+          "name": "Rabby Wallet",
+          "sharedCategories": [
+            "Cryptocurrency"
+          ],
+          "sharedSpecialties": [
+            "Ethereum Analytics Platforms",
+            "Staking Services",
+            "Decentralized Exchanges",
+            "Cross-Chain Bridges"
+          ],
+          "similarityScore": 95
+        },
+        {
+          "description": "Trust Wallet is a mobile wallet company for Ethereum and ERC20/ERC223 tokens.",
+          "employeeRange": "101-250",
+          "name": "Trust Wallet",
+          "sharedCategories": [
+            "Cryptocurrency"
+          ],
+          "sharedSpecialties": [
+            "Staking Services",
+            "Decentralized Exchanges",
+            "Crypto Custody and Wallets",
+            "Cross-Chain Bridges"
+          ],
+          "similarityScore": 93
+        },
+        {
+          "description": "Rainbow is a mobile app of Ethereum wallet for managing your assets.",
+          "employeeRange": "11-50",
+          "name": "Rainbow",
+          "sharedCategories": [
+            "Cryptocurrency"
+          ],
+          "sharedSpecialties": [
+            "Decentralized Exchanges",
+            "Crypto Custody and Wallets",
+            "Push and In-App Notifications",
+            "Cross-Chain Bridges"
+          ],
+          "similarityScore": 91
+        },
+        {
+          "description": "MetaMask is a crypto wallet that allows users to manage their digital assets through a browser extension or mobile app.",
+          "employeeRange": "101-250",
+          "name": "MetaMask",
+          "sharedCategories": [
+            "Blockchain",
+            "Cryptocurrency"
+          ],
+          "sharedSpecialties": [
+            "Staking Services",
+            "Decentralized Exchanges",
+            "Crypto Custody and Wallets",
+            "Cross-Chain Bridges"
+          ],
+          "similarityScore": 89
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Grant round raised $3,000, or 16.67% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Meaningful non-dilutive funding",
+      "statement": "2 disclosed grants total $18,000, representing 100% of reported funding.",
+      "implication": "The grants reduce the share of reported financing attributed to equity or notes, although their restrictions and milestone requirements need separate verification.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.grantFunding"
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 35 (-2 over 90 days) and market heat at 60 (-10).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Zerion, Rabby Wallet, Trust Wallet.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

@@ -1,0 +1,244 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T13:01:18.051Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T13:01:18.049Z",
+    "url": "https://www.crunchbase.com/organization/property-search-77d5"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Property Search",
+      "shortDescription": "UAE's leading property platform connecting buyers, sellers, and renters. Your search starts here! #PropertySearch #Realestate",
+      "description": "Unlocking the doors to your dream property in the UAE. Property Search is where your search begins, connecting you to a vibrant marketplace of homes, investments, and opportunities across the Middle East, and soon across the world!",
+      "website": "https://www.propertysearch.com/",
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "51-100",
+      "headquarters": "Dubai, United Arab Emirates",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Artificial Intelligence (AI)",
+        "Machine Learning",
+        "Mobile Apps",
+        "PropTech",
+        "Real Estate",
+        "Rental"
+      ],
+      "sectors": [
+        "Apps",
+        "Artificial Intelligence (AI)",
+        "Commerce and Shopping",
+        "Data and Analytics",
+        "Mobile",
+        "Real Estate",
+        "Science and Engineering",
+        "Software"
+      ],
+      "founders": [
+        "Ian Hollingdale",
+        "Samer Diab"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 1500000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2025-04-04",
+      "lastFundingType": "Seed",
+      "rounds": [
+        {
+          "announcedDate": "2025-04-04",
+          "amount": {
+            "amount": 1500000,
+            "currency": "USD"
+          },
+          "postMoneyValuation": {
+            "amount": 2500000,
+            "currency": "USD"
+          },
+          "type": "Seed"
+        }
+      ]
+    },
+    "recentNews": {
+      "reportedCount": 1,
+      "includedUniqueCount": 1,
+      "items": [
+        {
+          "date": "2025-04-04",
+          "title": "Seed Round - Property Search"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 1500000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": 2,
+      "growthScore": 51,
+      "heatChange90Days": -1,
+      "heatScore": 60
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 72.77
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 78.38,
+        "timingEstimatePercent": {
+          "within6Months": 99.9,
+          "months6To11": 0.01,
+          "months12To24": 0,
+          "beyond24Months": 0.08
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 95.54
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 4.39
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Bayut.com is a property portal and real estate company.",
+          "employeeRange": "251-500",
+          "name": "Bayut",
+          "sharedCategories": [
+            "Real Estate"
+          ],
+          "similarityScore": 95
+        },
+        {
+          "description": "UAE's new home for buying, selling and renting property. A portal with a difference, it hosts an extensive selection of properties.",
+          "employeeRange": "11-50",
+          "name": "Houza",
+          "sharedCategories": [
+            "Real Estate"
+          ],
+          "similarityScore": 91
+        },
+        {
+          "description": "dubizzle is an online platform that enables individuals to sell, buy, or find products in their cities.",
+          "employeeRange": "501-1,000",
+          "name": "dubizzle",
+          "sharedCategories": [
+            "Real Estate"
+          ],
+          "similarityScore": 90
+        },
+        {
+          "description": "Lamudi is a global online real estate platform serving emerging market.",
+          "employeeRange": "251-500",
+          "name": "Lamudi",
+          "sharedCategories": [
+            "Real Estate"
+          ],
+          "similarityScore": 87
+        },
+        {
+          "description": "Mubawab is a real estate portal that provides property listings for sale and rent.",
+          "employeeRange": "101-250",
+          "name": "Mubawab",
+          "sharedCategories": [
+            "Real Estate"
+          ],
+          "similarityScore": 83
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Seed round raised $1,500,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $2,500,000 to $2,500,000, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 51 (+2 over 90 days) and market heat at 60 (-1).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Bayut, Houza, dubizzle.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

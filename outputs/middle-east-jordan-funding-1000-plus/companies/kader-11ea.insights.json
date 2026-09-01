@@ -1,0 +1,306 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T12:11:34.043Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T12:11:34.040Z",
+    "url": "https://www.crunchbase.com/organization/kader-11ea"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Kader",
+      "shortDescription": "Kader is an on-demand hiring platform for jobs in the hospitality, retail, and service sectors.",
+      "description": "Kader is a hiring platform. They offer services for an online job board for restaurant and hotel jobs. They provide message mentioning the job description and shortlist and hire candidates.",
+      "website": "https://www.kaderapp.com/",
+      "foundedYear": 2019,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "11-50",
+      "headquarters": "Amman, Jordan",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Apps",
+        "Employment",
+        "Information Technology"
+      ],
+      "sectors": [
+        "Apps",
+        "Information Technology",
+        "Professional Services",
+        "Software"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "A platform connecting businesses with hourly contract workers in hospitality, retail, and service sectors.",
+        "name": "Kader App"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 400000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2022-02-15",
+      "lastFundingType": "Seed",
+      "rounds": [
+        {
+          "announcedDate": "2022-02-15",
+          "amount": {
+            "amount": 400000,
+            "currency": "USD"
+          },
+          "investorCount": 2,
+          "leadInvestors": [
+            "Innovative Startups and SME’s Fund (ISSF)",
+            "Village Capital"
+          ],
+          "postMoneyValuation": {
+            "amount": 3822362,
+            "currency": "USD"
+          },
+          "type": "Seed"
+        }
+      ],
+      "investors": {
+        "reportedCount": 2,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "Innovative Startups and SME’s Fund (ISSF)",
+            "rounds": [
+              "Seed Round"
+            ]
+          },
+          {
+            "isLead": true,
+            "name": "Village Capital",
+            "rounds": [
+              "Seed Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 1,
+      "includedUniqueCount": 1,
+      "items": [
+        {
+          "date": "2022-02-15",
+          "title": "Seed Round - Kader"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 400000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": 33,
+      "growthScore": 70,
+      "heatChange90Days": -9,
+      "heatScore": 59
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 47
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 24.57,
+        "timingEstimatePercent": {
+          "within6Months": 14.2,
+          "months6To11": 12.19,
+          "months12To24": 19.43,
+          "beyond24Months": 24.83
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 83.83
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 37.44
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Instawork is an on-demand staffing app for gig workers and hospitality businesses.",
+          "employeeRange": "501-1,000",
+          "name": "Instawork",
+          "sharedCategories": [
+            "Information Technology"
+          ],
+          "sharedSpecialties": [
+            "Time and Attendance Management",
+            "Managed Workforce Services",
+            "Retail Workforce Management",
+            "Event Staffing",
+            "Temporary Staffing",
+            "Workforce Scheduling and Roster Management",
+            "Freelance and Flexible Staffing"
+          ],
+          "similarityScore": 98
+        },
+        {
+          "description": "Qwick is the professional platform at the heart of hospitality, connecting businesses with industry freelancers in real time.",
+          "employeeRange": "101-250",
+          "name": "Qwick",
+          "sharedCategories": [
+            "Apps"
+          ],
+          "sharedSpecialties": [
+            "Time and Attendance Management",
+            "Event Staffing",
+            "Temporary Staffing",
+            "Workforce Scheduling and Roster Management",
+            "Freelance and Flexible Staffing",
+            "Shift Scheduling Software"
+          ],
+          "similarityScore": 96
+        },
+        {
+          "description": "Shiftsmart is a labor-management marketplace connecting part-time workers with open shifts across multiple platforms.",
+          "employeeRange": "501-1,000",
+          "name": "Shiftsmart",
+          "sharedCategories": [
+            "Employment"
+          ],
+          "sharedSpecialties": [
+            "Time and Attendance Management",
+            "Managed Workforce Services",
+            "Retail Workforce Management",
+            "Temporary Staffing",
+            "Workforce Scheduling and Roster Management",
+            "Freelance and Flexible Staffing",
+            "Shift Scheduling Software"
+          ],
+          "similarityScore": 92
+        },
+        {
+          "description": "Snagajob is the platform for hourly work, with 100 million registered hourly workers and 470,000 employer locations nationwide.",
+          "employeeRange": "101-250",
+          "name": "Snagajob",
+          "sharedCategories": [
+            "Employment"
+          ],
+          "sharedSpecialties": [
+            "Retail Workforce Management",
+            "Temporary Staffing",
+            "Contract Staffing",
+            "Workforce Scheduling and Roster Management",
+            "Freelance and Flexible Staffing"
+          ],
+          "similarityScore": 88
+        },
+        {
+          "description": "Wonolo is an on-demand staffing platform for businesses to fill their immediate labor needs.",
+          "employeeRange": "501-1,000",
+          "name": "Wonolo",
+          "sharedCategories": [
+            "Employment"
+          ],
+          "sharedSpecialties": [
+            "Time and Attendance Management",
+            "Managed Workforce Services",
+            "Retail Workforce Management",
+            "Event Staffing",
+            "Temporary Staffing",
+            "Workforce Scheduling and Roster Management",
+            "Freelance and Flexible Staffing",
+            "Shift Scheduling Software"
+          ],
+          "similarityScore": 86
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Seed round raised $400,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $3,822,362 to $3,822,362, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 70 (+33 over 90 days) and market heat at 59 (-9).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Instawork, Qwick, Shiftsmart.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

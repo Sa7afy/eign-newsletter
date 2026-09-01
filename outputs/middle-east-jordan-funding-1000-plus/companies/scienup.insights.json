@@ -1,0 +1,189 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T13:19:02.107Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T13:19:02.106Z",
+    "url": "https://www.crunchbase.com/organization/scienup"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Scienup",
+      "shortDescription": "Scienup is a marketplace for scientific research services.",
+      "description": "Scienup is a marketplace for scientific research services! We help you find the equipment you need to finish your research project.",
+      "website": "https://www.scienup.com/",
+      "operatingStatus": "Closed",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "1-10",
+      "headquarters": "Gîza, Al Jizah, Egypt",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Middle East",
+        "Middle East and North Africa (MENA)",
+        "North Africa"
+      ],
+      "industries": [
+        "Marketplace",
+        "Market Research",
+        "Product Research"
+      ],
+      "sectors": [
+        "Commerce and Shopping",
+        "Data and Analytics",
+        "Design"
+      ],
+      "founders": [
+        "Yomna Saleh"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 20000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 2,
+      "detailedRoundCount": 2,
+      "lastFundingDate": "2019-07-15",
+      "lastFundingType": "Non Equity Assistance",
+      "rounds": [
+        {
+          "announcedDate": "2019-07-15",
+          "investorCount": 1,
+          "leadInvestors": [
+            "Technology Innovation and Entrepreneurship Center"
+          ],
+          "type": "Non Equity Assistance"
+        },
+        {
+          "announcedDate": "2018-08-15",
+          "amount": {
+            "amount": 20000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "F6 Ventures"
+          ],
+          "type": "Seed"
+        }
+      ],
+      "investors": {
+        "reportedCount": 2,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "F6 Ventures",
+            "rounds": [
+              "Seed Round"
+            ]
+          },
+          {
+            "isLead": true,
+            "name": "Technology Innovation and Entrepreneurship Center",
+            "rounds": [
+              "Non Equity Assistance"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 2,
+      "includedUniqueCount": 2,
+      "items": [
+        {
+          "date": "2019-07-15",
+          "title": "Non Equity Assistance - Scienup"
+        },
+        {
+          "date": "2018-08-15",
+          "title": "Seed Round - Scienup"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 20000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "heatChange90Days": -18,
+      "heatScore": 32
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Scientist.com is a network of public and private e-commerce marketplaces that connect buyers and sellers of scientific research services.",
+          "employeeRange": "101-250",
+          "name": "Scientist.com",
+          "sharedCategories": [
+            "Marketplace"
+          ],
+          "similarityScore": 97
+        },
+        {
+          "description": "Science Exchange provides life sciences procurement and supplier management SaaS solutions.",
+          "employeeRange": "51-100",
+          "name": "Science Exchange",
+          "similarityScore": 95
+        },
+        {
+          "description": "Turn drug development chaos into clarity: AI-powered procurement and trial management with CROaccess.",
+          "employeeRange": "1-10",
+          "name": "CROaccess",
+          "similarityScore": 91
+        },
+        {
+          "description": "The world’s leading solution for consolidating lab communication, inventory management, and lab supply purchasing.",
+          "employeeRange": "51-100",
+          "name": "Quartzy",
+          "similarityScore": 87
+        },
+        {
+          "description": "Thermo Fisher Scientific is a biotechnology and laboratory equipment company that provides a wide range of scientific products and services.",
+          "employeeRange": "10,001+",
+          "name": "Thermo Fisher Scientific",
+          "similarityScore": 86
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Scientist.com, Science Exchange, CROaccess.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

@@ -1,0 +1,250 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T09:18:36.665Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T09:18:36.663Z",
+    "url": "https://www.crunchbase.com/organization/atom-3d"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "ATOM 3D",
+      "shortDescription": "ATOM 3D is a manufacturer of 3D printers.",
+      "website": "https://www.atom3dprinters.com/",
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "headquarters": "Alexandria, Al Iskandariyah, Egypt",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Middle East",
+        "Middle East and North Africa (MENA)",
+        "North Africa"
+      ],
+      "industries": [
+        "3D Printing",
+        "Hardware",
+        "Manufacturing"
+      ],
+      "sectors": [
+        "Hardware",
+        "Manufacturing"
+      ],
+      "founders": [
+        "Ahmed El Samadony",
+        "Ahmed Joe",
+        "Mohamed Elgaml"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 25000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 2,
+      "detailedRoundCount": 2,
+      "lastFundingDate": "2018-03-01",
+      "lastFundingType": "Pre Seed",
+      "rounds": [
+        {
+          "announcedDate": "2018-03-01",
+          "amount": {
+            "amount": 15000,
+            "currency": "USD"
+          },
+          "postMoneyValuation": {
+            "amount": 190092,
+            "currency": "USD"
+          },
+          "type": "Pre Seed"
+        },
+        {
+          "announcedDate": "2018-01-01",
+          "amount": {
+            "amount": 10000,
+            "currency": "USD"
+          },
+          "postMoneyValuation": {
+            "amount": 141646,
+            "currency": "USD"
+          },
+          "type": "Pre Seed"
+        }
+      ]
+    },
+    "recentNews": {
+      "reportedCount": 3,
+      "includedUniqueCount": 3,
+      "items": [
+        {
+          "date": "2022-10-21",
+          "publisher": "Hackaday",
+          "title": "ERRF 22: Recreator 3D Turns Trash Into Filament",
+          "url": "https://hackaday.com/2022/10/21/errf-22-recreator-3d-turns-trash-into-filament/"
+        },
+        {
+          "date": "2018-03-01",
+          "title": "Pre Seed Round - ATOM 3D"
+        },
+        {
+          "date": "2018-01-01",
+          "title": "Pre Seed Round - ATOM 3D"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 2,
+    "knownDetailedFundingAmount": {
+      "amount": 25000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 60,
+    "latestToEarliestKnownValuationMultiple": 1.34
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": 2,
+      "growthScore": 40,
+      "heatChange90Days": 1,
+      "heatScore": 53
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 15.51
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 94.92
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 27.96
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Bambu Lab manufactures 3D printers, focusing on desktop models and offering multi-color, high-speed printing solutions.",
+          "employeeRange": "101-250",
+          "name": "Bambu Lab",
+          "sharedCategories": [
+            "3D Printing",
+            "Manufacturing"
+          ],
+          "similarityScore": 95
+        },
+        {
+          "description": "Prusa Research s.r.o. is a Czech 3D printing company.",
+          "employeeRange": "51-100",
+          "name": "Prusa Research",
+          "sharedCategories": [
+            "3D Printing",
+            "Manufacturing"
+          ],
+          "similarityScore": 94
+        },
+        {
+          "description": "Creality specializes in the production and sales of 3D printers.",
+          "employeeRange": "1,001-5,000",
+          "name": "Creality",
+          "sharedCategories": [
+            "3D Printing",
+            "Hardware"
+          ],
+          "similarityScore": 93
+        },
+        {
+          "description": "ANYCUBIC manufactures, supplies, and sells, electrical, and electronics appliances and products.",
+          "employeeRange": "1,001-5,000",
+          "name": "ANYCUBIC",
+          "sharedCategories": [
+            "Manufacturing"
+          ],
+          "similarityScore": 92
+        },
+        {
+          "description": "Elegoo provides 3D printing, photopolymer resin, and STEM kits.",
+          "employeeRange": "1,001-5,000",
+          "name": "Elegoo",
+          "sharedCategories": [
+            "3D Printing",
+            "Manufacturing"
+          ],
+          "similarityScore": 90
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Pre Seed round raised $15,000, or 60% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $141,646 to $190,092, a 1.34x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 40 (+2 over 90 days) and market heat at 53 (+1).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Bambu Lab, Prusa Research, Creality.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

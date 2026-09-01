@@ -1,0 +1,169 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T13:16:28.197Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T13:16:28.195Z",
+    "url": "https://www.crunchbase.com/organization/sana3ly"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Sana3ly",
+      "shortDescription": "Sana3ly is a mobile application that provides comprehensive solutions for purchasing spare parts and machinery for factories.",
+      "description": "Sana3ly is a mobile application that provides comprehensive solutions for purchasing spare parts and machinery for factories, streamlining the procurement process. Sana3ly provides a competitive, transparent, and fair environment to Manage the purchase requisitions and maintain all the industrial spare parts purchasing processes online in one place to provide the factory cost-saving, time-saving, transparency, and traceability Sana3ly uses a website and mobile app that works with Android and IOS versions in which the factory automatically creates spare part purchase requisitions with various categories, receives multiple quotations from suppliers, compares quotations, transmits POs to suppliers. Factory gathers all industrial purchasing items in one place. Control, track, and report the company’s spend.",
+      "website": "http://www.sana3ly.com/",
+      "operatingStatus": "Closed",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "1-10",
+      "headquarters": "Gîza, Al Jizah, Egypt",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Middle East",
+        "Middle East and North Africa (MENA)",
+        "North Africa"
+      ],
+      "industries": [
+        "Industrial",
+        "Mobile Apps",
+        "Procurement"
+      ],
+      "sectors": [
+        "Apps",
+        "Manufacturing",
+        "Mobile",
+        "Software",
+        "Transportation"
+      ],
+      "founders": [
+        "Bahaa Eldin Mohamed",
+        "Wael Elsafty"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 20000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2018-12-09",
+      "lastFundingType": "Seed",
+      "rounds": [
+        {
+          "announcedDate": "2018-12-09",
+          "amount": {
+            "amount": 20000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "type": "Seed"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "name": "F6 Ventures",
+            "rounds": [
+              "Seed Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 1,
+      "includedUniqueCount": 1,
+      "items": [
+        {
+          "date": "2018-12-09",
+          "title": "Seed Round - Sana3ly"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 20000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "heatChange90Days": -14,
+      "heatScore": 25
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Machine Compare specializes in machinery sales, industrial machinery, and spare parts.",
+          "employeeRange": "11-50",
+          "name": "Machine Compare",
+          "sharedCategories": [
+            "Industrial"
+          ],
+          "similarityScore": 93
+        },
+        {
+          "description": "MFG.com is The Global Contract Manufacturing Marketplace for Custom Manufactured Parts",
+          "employeeRange": "51-100",
+          "name": "MFG.com",
+          "similarityScore": 91
+        },
+        {
+          "description": "kheoos is the community platform for the reuse of industrial maintenance spare parts.",
+          "employeeRange": "11-50",
+          "name": "kheoos",
+          "similarityScore": 68
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Seed round raised $20,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Machine Compare, MFG.com, kheoos.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

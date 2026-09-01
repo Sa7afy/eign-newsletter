@@ -1,0 +1,263 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T12:20:32.461Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T12:20:32.459Z",
+    "url": "https://www.crunchbase.com/organization/livedin"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Livedin",
+      "shortDescription": "Livedin is a real estate company that provides property management, design and furnishing solutions, and property maintenance services.",
+      "website": "https://www.livedin.me/",
+      "foundedYear": 2024,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "1-10",
+      "headquarters": "Riyadh, Ar Riyad, Saudi Arabia",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Property Management",
+        "Real Estate",
+        "Rental",
+        "Residential"
+      ],
+      "sectors": [
+        "Commerce and Shopping",
+        "Real Estate"
+      ],
+      "founders": [
+        "Abdulla Ismayilov",
+        "Asim Kidwai",
+        "Khurram Kidwai",
+        "Samad Khan"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "Livedin offers services to manage residential and commercial properties, including tenant relations, rent collection, and property inspections.",
+        "name": "Property Management"
+      },
+      {
+        "description": "Livedin provides interior design and furnishing services to enhance the aesthetic and functional aspects of properties.",
+        "name": "Design and Furnishing Solutions"
+      },
+      {
+        "description": "Livedin offers maintenance services to ensure properties are kept in good condition, including repairs and regular upkeep.",
+        "name": "Property Maintenance Services"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 180000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2024-02-29",
+      "lastFundingType": "Pre Seed",
+      "rounds": [
+        {
+          "announcedDate": "2024-02-29",
+          "amount": {
+            "amount": 180000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "postMoneyValuation": {
+            "amount": 2182904,
+            "currency": "USD"
+          },
+          "type": "Pre Seed"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "name": "Antler",
+            "rounds": [
+              "Pre Seed Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 1,
+      "includedUniqueCount": 1,
+      "items": [
+        {
+          "date": "2024-02-29",
+          "title": "Pre Seed Round - Livedin"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 180000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": -5,
+      "growthScore": 40,
+      "heatChange90Days": -7,
+      "heatScore": 70
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 95.07
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 43.89,
+        "timingEstimatePercent": {
+          "within6Months": 57.38,
+          "months6To11": 0.04,
+          "months12To24": 0,
+          "beyond24Months": 42.58
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 91.33
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 4.17
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Awning is a technology platform and brokerage built exclusively for real estate investing.",
+          "employeeRange": "11-50",
+          "name": "Awning",
+          "sharedCategories": [
+            "Real Estate"
+          ],
+          "similarityScore": 97
+        },
+        {
+          "description": "Evolve offers rental services for vacation with modern approach to hospitality and property.",
+          "employeeRange": "1-10",
+          "name": "Evolve",
+          "similarityScore": 93
+        },
+        {
+          "description": "Vacasa is a vacation rental management company that helps homeowners buy, manage, and sell their vacation homes.",
+          "employeeRange": "1,001-5,000",
+          "name": "Vacasa",
+          "sharedCategories": [
+            "Real Estate",
+            "Property Management"
+          ],
+          "similarityScore": 91
+        },
+        {
+          "description": "Wander is a luxury rental company that provides smart home travel services.",
+          "employeeRange": "11-50",
+          "name": "Wander",
+          "sharedCategories": [
+            "Rental"
+          ],
+          "similarityScore": 85
+        },
+        {
+          "description": "Blueground provides furnished apartments.",
+          "employeeRange": "501-1,000",
+          "name": "Blueground",
+          "sharedCategories": [
+            "Real Estate",
+            "Property Management"
+          ],
+          "similarityScore": 81
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Pre Seed round raised $180,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $2,182,904 to $2,182,904, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 40 (-5 over 90 days) and market heat at 70 (-7).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Awning, Evolve, Vacasa.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

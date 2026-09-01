@@ -1,0 +1,332 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T14:05:11.396Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T14:05:11.393Z",
+    "url": "https://www.crunchbase.com/organization/zarafx"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Zarvista Capital Markets",
+      "shortDescription": "Zarvista Capital Markets is an online forex and multi-asset trading platform.",
+      "description": "Zarvista Capital Markets is an online forex and multi-asset trading platform that provides brokerage services for individuals and institutional traders. The platform allows users to trade financial instruments such as foreign exchange (forex), commodities, indices, and CFDs (contracts for difference) through digital trading software and brokerage tools.",
+      "website": "https://zarvistacm.com/",
+      "foundedYear": 2019,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "51-100",
+      "estimatedRevenueRange": "$1M-$10M",
+      "headquarters": "Dubai, United Arab Emirates",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Financial Services",
+        "FinTech",
+        "Trading Platform"
+      ],
+      "sectors": [
+        "Financial Services",
+        "Lending and Investments"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "A service enabling trading of global currency pairs with access to liquidity and fast execution.",
+        "name": "Forex Trading"
+      },
+      {
+        "description": "A platform for trading various cryptocurrencies including Bitcoin, Ethereum, and altcoins with instant execution.",
+        "name": "Cryptocurrency Trading"
+      },
+      {
+        "description": "Trading service for precious metals like gold, silver, platinum, and palladium to diversify investment portfolios.",
+        "name": "Precious Metals Trading"
+      },
+      {
+        "description": "A service allowing trading of Contracts for Difference on various underlying assets like indices and stocks.",
+        "name": "CFD Trading"
+      },
+      {
+        "description": "Four types of trading accounts tailored to different trader profiles with varying spreads, commissions, and minimum deposits.",
+        "name": "Trading Accounts"
+      },
+      {
+        "description": "A service that allows traders to follow and replicate trades of experienced traders automatically.",
+        "name": "Social Copy Trading"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 2000000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2024-03-04",
+      "lastFundingType": "Series A",
+      "rounds": [
+        {
+          "announcedDate": "2024-03-04",
+          "amount": {
+            "amount": 2000000,
+            "currency": "USD"
+          },
+          "postMoneyValuation": {
+            "amount": 17727184,
+            "currency": "USD"
+          },
+          "type": "Series A"
+        }
+      ]
+    },
+    "recentNews": {
+      "reportedCount": 5,
+      "includedUniqueCount": 4,
+      "items": [
+        {
+          "date": "2026-06-14",
+          "publisher": "FX News Group",
+          "title": "FX week in review: ATFX prop closes, MultiBank CMO, Zarvista CEO leaves, INFINOX partnerships head, USGFX mega-fine",
+          "url": "https://fxnewsgroup.com/forex-news/retail-forex/fx-week-in-review-atfx-prop-closes-multibank-cmo-zarvista-ceo-leaves-infinox-partnerships-head-usgfx-mega-fine/"
+        },
+        {
+          "date": "2024-03-05",
+          "publisher": "FinTech Global",
+          "title": "ZaraFX, leading Forex broker, secures $2m in Series A funding for global expansion",
+          "url": "https://fintech.global/2024/03/05/zarafx-leading-forex-broker-secures-2m-in-series-a-funding-for-global-expansion/"
+        },
+        {
+          "date": "2024-03-04",
+          "title": "Series A - Zarvista Capital Markets"
+        },
+        {
+          "date": "2024-03-04",
+          "publisher": "Gulf News",
+          "title": "ZaraFX secures over $2 million in Series 'A' funding",
+          "url": "https://gulfnews.com/business/corporate-news/zarafx-secures-over-2-million-in-series-a-funding-1.1709560451886"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 2000000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthInsightGeneratedDate": "2024-07-23",
+      "growthChange90Days": -3,
+      "growthScore": 53,
+      "heatChange90Days": 0,
+      "heatScore": 31,
+      "status": "Growing"
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 77.88
+      },
+      "funding": {
+        "generatedDate": "2025-10-04",
+        "probabilityPercent": 91.26,
+        "timingEstimatePercent": {
+          "within6Months": 99.97,
+          "months6To11": 0,
+          "months12To24": 0,
+          "beyond24Months": 0.03
+        }
+      },
+      "growth": {
+        "generatedDate": "2025-09-27",
+        "probabilityPercent": 83.51
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 8.88
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "IC Markets is the largest True ECN forex broker in Australia offering spreads from 0.0 pips.",
+          "employeeRange": "51-100",
+          "name": "IC Markets",
+          "sharedCategories": [
+            "Trading Platform",
+            "FinTech"
+          ],
+          "sharedSpecialties": [
+            "Market Data and Economic Calendars",
+            "Execution Management Systems",
+            "Algorithmic Trading and Order Management",
+            "International and Multi-Currency Accounts",
+            "Trading APIs and FIX Tools",
+            "CFD and Spread Betting Services",
+            "Risk and Margin Management Platforms"
+          ],
+          "similarityScore": 97
+        },
+        {
+          "description": "Pepperstone is an Australian online retail foreign exchange broker specializing in foreign exchange trading.",
+          "employeeRange": "501-1,000",
+          "name": "Pepperstone",
+          "sharedCategories": [
+            "Financial Services",
+            "FinTech"
+          ],
+          "sharedSpecialties": [
+            "Market Data and Economic Calendars",
+            "Execution Management Systems",
+            "Algorithmic Trading and Order Management",
+            "International and Multi-Currency Accounts",
+            "Trading APIs and FIX Tools",
+            "CFD and Spread Betting Services",
+            "Risk and Margin Management Platforms"
+          ],
+          "similarityScore": 95
+        },
+        {
+          "description": "XM is a trading name and a registered trademark of Trading Point Holdings Ltd.",
+          "employeeRange": "11-50",
+          "name": "XM",
+          "sharedCategories": [
+            "Financial Services"
+          ],
+          "sharedSpecialties": [
+            "Market Data and Economic Calendars",
+            "Execution Management Systems",
+            "Algorithmic Trading and Order Management",
+            "International and Multi-Currency Accounts",
+            "Trading APIs and FIX Tools",
+            "Precious Metals and Bullion",
+            "CFD and Spread Betting Services",
+            "Risk and Margin Management Platforms"
+          ],
+          "similarityScore": 93
+        },
+        {
+          "description": "Exness is an International Business Company.",
+          "employeeRange": "1,001-5,000",
+          "name": "Exness",
+          "sharedSpecialties": [
+            "Market Data and Economic Calendars",
+            "Execution Management Systems",
+            "Cryptocurrency Exchanges",
+            "Algorithmic Trading and Order Management",
+            "International and Multi-Currency Accounts",
+            "Trading APIs and FIX Tools",
+            "CFD and Spread Betting Services",
+            "Risk and Margin Management Platforms"
+          ],
+          "similarityScore": 91
+        },
+        {
+          "description": "HF Markets is a trading platform that provides forex and commodities services.",
+          "employeeRange": "51-100",
+          "name": "HF Markets",
+          "sharedCategories": [
+            "Trading Platform",
+            "Financial Services"
+          ],
+          "sharedSpecialties": [
+            "Market Data and Economic Calendars",
+            "Execution Management Systems",
+            "Algorithmic Trading and Order Management",
+            "Trading APIs and FIX Tools",
+            "CFD and Spread Betting Services",
+            "Risk and Margin Management Platforms"
+          ],
+          "similarityScore": 86
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Series A round raised $2,000,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $17,727,184 to $17,727,184, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 53 (-3 over 90 days) and market heat at 31 (+0).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include IC Markets, Pepperstone, XM.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "issues": [
+      {
+        "severity": "low",
+        "finding": "Crunchbase reports 5 timeline items but exposes 4 unique items in this payload.",
+        "impact": "Recent news is a partial sample, not a complete history."
+      }
+    ],
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

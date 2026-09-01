@@ -1,0 +1,243 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T12:30:34.058Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T12:30:34.056Z",
+    "url": "https://www.crunchbase.com/organization/meet-the-locals"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Meet The Locals",
+      "shortDescription": "Meet The Locals is an online platform that appears to connect people with local hosts, guides, or experiences.",
+      "description": "Meet The Locals is a web platform associated with arranging connections between visitors and local individuals in the United Arab Emirates. It is used to present and coordinate locally based experiences, where users can find or interact with residents offering knowledge, guidance, or services related to places, culture, or activities in the region. The site functions as an intermediary platform for listing, browsing, and arranging such interactions rather than providing the services directly.",
+      "website": "https://www.meetthelocalsuae.com/",
+      "foundedYear": 2016,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "1-10",
+      "headquarters": "Dubai, United Arab Emirates",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Advertising",
+        "Hospitality",
+        "Tourism",
+        "Travel"
+      ],
+      "sectors": [
+        "Advertising",
+        "Sales and Marketing",
+        "Travel and Tourism"
+      ],
+      "founders": [
+        "Khadija Behzad"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 9530,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2017-09-01",
+      "lastFundingType": "Pre Seed",
+      "rounds": [
+        {
+          "announcedDate": "2017-09-01",
+          "amount": {
+            "amount": 9530,
+            "currency": "USD"
+          },
+          "postMoneyValuation": {
+            "amount": 167925,
+            "currency": "USD"
+          },
+          "type": "Pre Seed"
+        }
+      ]
+    },
+    "recentNews": {
+      "reportedCount": 2,
+      "includedUniqueCount": 2,
+      "items": [
+        {
+          "date": "2025-09-01",
+          "publisher": "Al Tamimi and Company",
+          "title": "Al Tamimi and Company Celebrates Emirati Women’s Day 2025, Reaffirming Commitment to Emiratization",
+          "url": "https://www.globenewswire.com/news-release/2025/09/01/3141949/0/en/Al-Tamimi-and-Company-Celebrates-Emirati-Women-s-Day-2025-Reaffirming-Commitment-to-Emiratization.html"
+        },
+        {
+          "date": "2017-09-01",
+          "title": "Pre Seed Round - Meet The Locals"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 9530,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": -1,
+      "growthScore": 47,
+      "heatChange90Days": -29,
+      "heatScore": 55
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 21.18
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 7.51,
+        "timingEstimatePercent": {
+          "within6Months": 13.25,
+          "months6To11": 11.5,
+          "months12To24": 18.63,
+          "beyond24Months": 24.56
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 68.24
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 14.62
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Arabian Adventures offers desert safaris, overnight desert camping, dune buggies, and other exclusive desert experience.",
+          "employeeRange": "251-500",
+          "name": "Arabian Adventures",
+          "sharedCategories": [
+            "Tourism",
+            "Travel"
+          ],
+          "similarityScore": 93
+        },
+        {
+          "description": "Experience Abu Dhabi offers guides to attractions, events, and activities for exploring Abu Dhabi's culture and entertainment.",
+          "employeeRange": "11-50",
+          "name": "Experience Abu Dhabi",
+          "sharedCategories": [
+            "Tourism",
+            "Travel"
+          ],
+          "similarityScore": 91
+        },
+        {
+          "description": "Platinum Heritage is a tour operator that offers desert safari experiences in the Dubai Desert Conservation Reserve.",
+          "employeeRange": "51-100",
+          "name": "Platinum Heritage",
+          "sharedCategories": [
+            "Tourism",
+            "Travel"
+          ],
+          "similarityScore": 91
+        },
+        {
+          "description": "Dubai Department of Economy and Tourism is a government body that works to supervise, develop, and market business and tourism sectors.",
+          "employeeRange": "501-1,000",
+          "name": "Dubai Department of Economy and Tourism",
+          "sharedCategories": [
+            "Tourism"
+          ],
+          "similarityScore": 89
+        },
+        {
+          "description": "Dubai Culture is a regional and global platform for diverse cultural exchange and innovation.",
+          "employeeRange": "251-500",
+          "name": "Dubai Culture",
+          "similarityScore": 85
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Pre Seed round raised $9,530, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $167,925 to $167,925, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 47 (-1 over 90 days) and market heat at 55 (-29).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Arabian Adventures, Experience Abu Dhabi, Platinum Heritage.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

@@ -1,0 +1,2548 @@
+{
+  "sourceUrl": "https://www.crunchbase.com/organization/li-fi-tech",
+  "pageTitle": "li-fi-tech",
+  "scrapedAt": "2026-09-01T12:19:42.800Z",
+  "extraction": {
+    "authenticated": true,
+    "method": "curl-cffi-authenticated-entity-fetch-no-browser"
+  },
+  "organization": {
+    "properties": {
+      "facet_ids": [
+        "company",
+        "rank"
+      ],
+      "identifier": {
+        "uuid": "acf8d767-207f-4053-8f77-4d4b241f81cb",
+        "value": "Li-Fi Tech",
+        "image_id": "isfozfoecrpkiwazwdgh",
+        "permalink": "li-fi-tech",
+        "entity_def_id": "organization"
+      },
+      "short_description": "Li-fi Tech is a technology firm that focuses on bringing lifi technology to market.",
+      "investor_identifiers": [
+        {
+          "uuid": "236b07ff-0c91-4c61-b490-30fe970a6b2e",
+          "value": "Intelak Hub",
+          "image_id": "cijdtjkmbcb52vazszej",
+          "permalink": "intelak",
+          "entity_def_id": "organization"
+        }
+      ],
+      "rank_delta_d90": -1.2,
+      "title": "Li-Fi Tech"
+    },
+    "cards": {
+      "semrush_summary": {
+        "identifier": {
+          "uuid": "acf8d767-207f-4053-8f77-4d4b241f81cb",
+          "value": "Li-Fi Tech",
+          "image_id": "isfozfoecrpkiwazwdgh",
+          "permalink": "li-fi-tech",
+          "entity_def_id": "organization"
+        }
+      },
+      "key_employee_change_list": [],
+      "apptopia_attribution": {},
+      "diversity_spotlight_investments_headline": {},
+      "apptopia_app_rating_list": [],
+      "funds_summary": {
+        "identifier": {
+          "uuid": "acf8d767-207f-4053-8f77-4d4b241f81cb",
+          "value": "Li-Fi Tech",
+          "image_id": "isfozfoecrpkiwazwdgh",
+          "permalink": "li-fi-tech",
+          "entity_def_id": "organization"
+        }
+      },
+      "funding_prediction": [],
+      "company_about_fields1": {},
+      "current_advisors_image_list": [],
+      "recommended_search": [
+        {
+          "identifier": {
+            "permalink": "closed-middle-east-and-north-africa-companies",
+            "image_id": "zvwrwp9pquwdyvucpvab",
+            "uuid": "66074af4-13fc-43dd-9460-2b0969c8afcd",
+            "entity_def_id": "hub",
+            "value": "Closed Middle East and North Africa (MENA) Companies"
+          },
+          "org_identifiers": [
+            {
+              "permalink": "aim-security",
+              "image_id": "zvwrwp9pquwdyvucpvab",
+              "uuid": "e75e8060-e042-46cb-b849-5a4014779185",
+              "entity_def_id": "organization",
+              "value": "Aim Security"
+            },
+            {
+              "permalink": "future-meat-technologies",
+              "image_id": "as8z7iqnkhmj9g7cwr7w",
+              "uuid": "ff2eedf4-9f69-4426-a52c-dc1e4a874a09",
+              "entity_def_id": "organization",
+              "value": "Believer Meats"
+            },
+            {
+              "permalink": "vulcan-cyber",
+              "image_id": "0f5e4d9bcd424f348edfee948d980139",
+              "uuid": "18b59b98-9e94-4b72-a5fd-f534217a266c",
+              "entity_def_id": "organization",
+              "value": "Vulcan Cyber"
+            },
+            {
+              "permalink": "sam-seamless-network",
+              "image_id": "rbldk6cvkuspaf3525mj",
+              "uuid": "d4eed887-6cd3-8af2-4b0a-3312a911678b",
+              "entity_def_id": "organization",
+              "value": "SAM Seamless Network"
+            },
+            {
+              "permalink": "perimeter-81",
+              "image_id": "fnykxpmwhyqjqfku8se8",
+              "uuid": "ad22a2a6-015d-4ff1-9516-f517cedebeee",
+              "entity_def_id": "organization",
+              "value": "Perimeter 81"
+            },
+            {
+              "permalink": "hellenic-bank",
+              "image_id": "v1488695598/d87zcrgpbesqz9oxlcke.png",
+              "uuid": "543102bd-9f07-aecf-5d89-2c08b2e4262f",
+              "entity_def_id": "organization",
+              "value": "Hellenic Bank"
+            },
+            {
+              "permalink": "guardicore",
+              "image_id": "f7ca7gms3i1xyzh3dwlz",
+              "uuid": "ef649444-dbfa-3c62-5bd3-1f1e856d0655",
+              "entity_def_id": "organization",
+              "value": "Guardicore"
+            },
+            {
+              "permalink": "fetchr",
+              "image_id": "v1433852729/qh0qghi4vyltapyyczlu.png",
+              "uuid": "cd8e3e9d-309c-60a2-2a88-8e4e4e629cc2",
+              "entity_def_id": "organization",
+              "value": "Fetchr"
+            }
+          ],
+          "org_funding_total": {
+            "currency": "USD",
+            "value": 13738889294,
+            "value_usd": 13738889294
+          },
+          "org_num_investors": 3918,
+          "org_num": 8148,
+          "queries": {
+            "event": [
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "8cb7cad4-b7e4-4b28-a496-2ede3720cb19"
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "principal.has_event.forward",
+                "query": [
+                  {
+                    "field_id": "facet_ids",
+                    "operator_id": "includes",
+                    "values": [
+                      "company"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "closed"
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ],
+            "organization": [
+              {
+                "field_id": "facet_ids",
+                "operator_id": "includes",
+                "values": [
+                  "company"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "8cb7cad4-b7e4-4b28-a496-2ede3720cb19"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "operating_status",
+                "operator_id": "eq",
+                "values": [
+                  "closed"
+                ],
+                "type": "predicate"
+              }
+            ],
+            "person": [
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "8cb7cad4-b7e4-4b28-a496-2ede3720cb19"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "rank_person",
+                "operator_id": "lte",
+                "values": [
+                  990000
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "organization.has_primary_organization.forward",
+                "query": [
+                  {
+                    "field_id": "facet_ids",
+                    "operator_id": "includes",
+                    "values": [
+                      "company"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "location_identifiers",
+                    "operator_id": "includes",
+                    "values": [
+                      "8cb7cad4-b7e4-4b28-a496-2ede3720cb19"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "closed"
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ]
+          }
+        },
+        {
+          "identifier": {
+            "permalink": "closed-middle-east-companies",
+            "image_id": "zvwrwp9pquwdyvucpvab",
+            "uuid": "3e4ffa6e-7ea5-44e9-8a24-ef547503fd9c",
+            "entity_def_id": "hub",
+            "value": "Closed Middle East Companies"
+          },
+          "org_identifiers": [
+            {
+              "permalink": "aim-security",
+              "image_id": "zvwrwp9pquwdyvucpvab",
+              "uuid": "e75e8060-e042-46cb-b849-5a4014779185",
+              "entity_def_id": "organization",
+              "value": "Aim Security"
+            },
+            {
+              "permalink": "future-meat-technologies",
+              "image_id": "as8z7iqnkhmj9g7cwr7w",
+              "uuid": "ff2eedf4-9f69-4426-a52c-dc1e4a874a09",
+              "entity_def_id": "organization",
+              "value": "Believer Meats"
+            },
+            {
+              "permalink": "vulcan-cyber",
+              "image_id": "0f5e4d9bcd424f348edfee948d980139",
+              "uuid": "18b59b98-9e94-4b72-a5fd-f534217a266c",
+              "entity_def_id": "organization",
+              "value": "Vulcan Cyber"
+            },
+            {
+              "permalink": "sam-seamless-network",
+              "image_id": "rbldk6cvkuspaf3525mj",
+              "uuid": "d4eed887-6cd3-8af2-4b0a-3312a911678b",
+              "entity_def_id": "organization",
+              "value": "SAM Seamless Network"
+            },
+            {
+              "permalink": "perimeter-81",
+              "image_id": "fnykxpmwhyqjqfku8se8",
+              "uuid": "ad22a2a6-015d-4ff1-9516-f517cedebeee",
+              "entity_def_id": "organization",
+              "value": "Perimeter 81"
+            },
+            {
+              "permalink": "hellenic-bank",
+              "image_id": "v1488695598/d87zcrgpbesqz9oxlcke.png",
+              "uuid": "543102bd-9f07-aecf-5d89-2c08b2e4262f",
+              "entity_def_id": "organization",
+              "value": "Hellenic Bank"
+            },
+            {
+              "permalink": "guardicore",
+              "image_id": "f7ca7gms3i1xyzh3dwlz",
+              "uuid": "ef649444-dbfa-3c62-5bd3-1f1e856d0655",
+              "entity_def_id": "organization",
+              "value": "Guardicore"
+            },
+            {
+              "permalink": "fetchr",
+              "image_id": "v1433852729/qh0qghi4vyltapyyczlu.png",
+              "uuid": "cd8e3e9d-309c-60a2-2a88-8e4e4e629cc2",
+              "entity_def_id": "organization",
+              "value": "Fetchr"
+            }
+          ],
+          "org_funding_total": {
+            "currency": "USD",
+            "value": 13311530176,
+            "value_usd": 13311530176
+          },
+          "org_num_investors": 3703,
+          "org_num": 7081,
+          "queries": {
+            "event": [
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "e0272206-3430-48cb-a5bc-1d4b3eafe15a"
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "principal.has_event.forward",
+                "query": [
+                  {
+                    "field_id": "facet_ids",
+                    "operator_id": "includes",
+                    "values": [
+                      "company"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "closed"
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ],
+            "organization": [
+              {
+                "field_id": "facet_ids",
+                "operator_id": "includes",
+                "values": [
+                  "company"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "e0272206-3430-48cb-a5bc-1d4b3eafe15a"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "operating_status",
+                "operator_id": "eq",
+                "values": [
+                  "closed"
+                ],
+                "type": "predicate"
+              }
+            ],
+            "person": [
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "e0272206-3430-48cb-a5bc-1d4b3eafe15a"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "rank_person",
+                "operator_id": "lte",
+                "values": [
+                  1000000
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "organization.has_primary_organization.forward",
+                "query": [
+                  {
+                    "field_id": "facet_ids",
+                    "operator_id": "includes",
+                    "values": [
+                      "company"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "location_identifiers",
+                    "operator_id": "includes",
+                    "values": [
+                      "e0272206-3430-48cb-a5bc-1d4b3eafe15a"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "closed"
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ]
+          }
+        },
+        {
+          "identifier": {
+            "permalink": "closed-gulf-cooperation-council-companies",
+            "image_id": "v1433852729/qh0qghi4vyltapyyczlu.png",
+            "uuid": "244cc192-4dde-4ab1-98d3-6f2300a0bd6b",
+            "entity_def_id": "hub",
+            "value": "Closed Gulf Cooperation Council (GCC) Companies"
+          },
+          "org_identifiers": [
+            {
+              "permalink": "fetchr",
+              "image_id": "v1433852729/qh0qghi4vyltapyyczlu.png",
+              "uuid": "cd8e3e9d-309c-60a2-2a88-8e4e4e629cc2",
+              "entity_def_id": "organization",
+              "value": "Fetchr"
+            },
+            {
+              "permalink": "ikcon",
+              "image_id": "ljsqlpgspy1pcq0q90wl",
+              "uuid": "7c290555-4dbf-4cbd-890f-d556bf214e5b",
+              "entity_def_id": "organization",
+              "value": "iKcon"
+            },
+            {
+              "permalink": "wadi",
+              "image_id": "v1455512288/j5jbdeloxsckjjfriykq.png",
+              "uuid": "8300663d-f7e1-4269-c148-c040281a89aa",
+              "entity_def_id": "organization",
+              "value": "Wadi"
+            },
+            {
+              "permalink": "lunch-on",
+              "image_id": "iyjqgbtz5hjx1hswulnk",
+              "uuid": "e50bbde0-395e-9610-49e8-5da07b82b9aa",
+              "entity_def_id": "organization",
+              "value": "MUNCH:ON"
+            },
+            {
+              "permalink": "xyro",
+              "image_id": "202b235870c74502b682a3ad440fd2d2",
+              "uuid": "64d635f3-f386-4440-b898-84e562b00dd0",
+              "entity_def_id": "organization",
+              "value": "XYRO"
+            },
+            {
+              "permalink": "optima-6599",
+              "image_id": "31520d6db3dd423ab5008a4c5fbfbefc",
+              "uuid": "e2371942-64d2-4398-aed0-fc0c7ed36599",
+              "entity_def_id": "organization",
+              "value": "Optima"
+            },
+            {
+              "permalink": "eventtus",
+              "image_id": "uf3xtracasi8xp1ugavo",
+              "uuid": "121e4e82-3eaa-18a1-8a75-0778132d073b",
+              "entity_def_id": "organization",
+              "value": "Eventtus"
+            },
+            {
+              "permalink": "meddy",
+              "image_id": "o5ythlgiyn5o0vdobyga",
+              "uuid": "16275fd9-29b8-343b-5f73-ebffc75f0a8f",
+              "entity_def_id": "organization",
+              "value": "Meddy"
+            }
+          ],
+          "org_funding_total": {
+            "currency": "USD",
+            "value": 1722823431,
+            "value_usd": 1722823431
+          },
+          "org_num_investors": 397,
+          "org_num": 1764,
+          "queries": {
+            "event": [
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "c4365698-c7c5-44b0-b33a-7d13900e5be2"
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "principal.has_event.forward",
+                "query": [
+                  {
+                    "field_id": "facet_ids",
+                    "operator_id": "includes",
+                    "values": [
+                      "company"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "closed"
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ],
+            "organization": [
+              {
+                "field_id": "facet_ids",
+                "operator_id": "includes",
+                "values": [
+                  "company"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "c4365698-c7c5-44b0-b33a-7d13900e5be2"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "operating_status",
+                "operator_id": "eq",
+                "values": [
+                  "closed"
+                ],
+                "type": "predicate"
+              }
+            ],
+            "person": [
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "c4365698-c7c5-44b0-b33a-7d13900e5be2"
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "organization.has_primary_organization.forward",
+                "query": [
+                  {
+                    "field_id": "facet_ids",
+                    "operator_id": "includes",
+                    "values": [
+                      "company"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "location_identifiers",
+                    "operator_id": "includes",
+                    "values": [
+                      "c4365698-c7c5-44b0-b33a-7d13900e5be2"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "closed"
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ]
+          }
+        },
+        {
+          "identifier": {
+            "permalink": "closed-europe-middle-east-and-africa-companies",
+            "image_id": "v1425199547/gkrrhijmxcsw0376zude.jpg",
+            "uuid": "1dd499ca-05d6-4917-8ad9-8eaafb22e2d1",
+            "entity_def_id": "hub",
+            "value": "Closed Europe, Middle East, and Africa (EMEA) Companies (Top 10K)"
+          },
+          "org_identifiers": [
+            {
+              "permalink": "canal+",
+              "image_id": "v1425199547/gkrrhijmxcsw0376zude.jpg",
+              "uuid": "4f8558c2-e6e6-3aa8-51d4-23d26b775d37",
+              "entity_def_id": "organization",
+              "value": "Canal+"
+            },
+            {
+              "permalink": "builderai",
+              "image_id": "iinnnbiuh9vorcnxolit",
+              "uuid": "8e807421-bb0e-4be4-a62e-66ea29d3d5b2",
+              "entity_def_id": "organization",
+              "value": "Builder.ai"
+            },
+            {
+              "permalink": "aim-security",
+              "image_id": "zvwrwp9pquwdyvucpvab",
+              "uuid": "e75e8060-e042-46cb-b849-5a4014779185",
+              "entity_def_id": "organization",
+              "value": "Aim Security"
+            },
+            {
+              "permalink": "lilium-aviation",
+              "image_id": "iposwvumwnqegicehoyq",
+              "uuid": "74118a96-7180-6154-0b81-915e42cacb75",
+              "entity_def_id": "organization",
+              "value": "Lilium"
+            },
+            {
+              "permalink": "oneweb",
+              "image_id": "wcuqqjuv7s6ofhabnmnj",
+              "uuid": "26bedf21-dd8e-8027-51d8-933419b03e65",
+              "entity_def_id": "organization",
+              "value": "OneWeb"
+            },
+            {
+              "permalink": "ordo",
+              "image_id": "cee348ee82074bd1994a15e007f1782f",
+              "uuid": "36f7d76e-67b3-db7b-2361-9e017fc4a73b",
+              "entity_def_id": "organization",
+              "value": "Ordo"
+            },
+            {
+              "permalink": "holcim",
+              "image_id": "z2w6yfixt9wpjzsmxkx8",
+              "uuid": "f5520db1-05b6-2b2a-259c-3892ad6fed0a",
+              "entity_def_id": "organization",
+              "value": "Holcim"
+            },
+            {
+              "permalink": "rechargecom",
+              "image_id": "mv7cvovsxwns3qnyrq9b",
+              "uuid": "5364e01b-63b7-482a-9b76-0692b9db60ec",
+              "entity_def_id": "organization",
+              "value": "Recharge"
+            }
+          ],
+          "org_funding_total": {
+            "currency": "USD",
+            "value": 99249250246,
+            "value_usd": 99249250246
+          },
+          "org_num_investors": 17568,
+          "org_num": 9978,
+          "queries": {
+            "event": [
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "4e8be435-c63a-4aff-8a2f-44a880d9c341"
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "principal.has_event.forward",
+                "query": [
+                  {
+                    "field_id": "facet_ids",
+                    "operator_id": "includes",
+                    "values": [
+                      "company"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "closed"
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ],
+            "organization": [
+              {
+                "field_id": "facet_ids",
+                "operator_id": "includes",
+                "values": [
+                  "company"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "4e8be435-c63a-4aff-8a2f-44a880d9c341"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "operating_status",
+                "operator_id": "eq",
+                "values": [
+                  "closed"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "rank_org",
+                "operator_id": "lte",
+                "values": [
+                  990000
+                ],
+                "type": "predicate"
+              }
+            ],
+            "person": [
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "4e8be435-c63a-4aff-8a2f-44a880d9c341"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "rank_person",
+                "operator_id": "lte",
+                "values": [
+                  340000
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "organization.has_primary_organization.forward",
+                "query": [
+                  {
+                    "field_id": "facet_ids",
+                    "operator_id": "includes",
+                    "values": [
+                      "company"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "location_identifiers",
+                    "operator_id": "includes",
+                    "values": [
+                      "4e8be435-c63a-4aff-8a2f-44a880d9c341"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "closed"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "rank_org",
+                    "operator_id": "lte",
+                    "values": [
+                      990000
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ]
+          }
+        }
+      ],
+      "org_similarity_org_list": [],
+      "investors_summary": {
+        "identifier": {
+          "uuid": "acf8d767-207f-4053-8f77-4d4b241f81cb",
+          "value": "Li-Fi Tech",
+          "image_id": "isfozfoecrpkiwazwdgh",
+          "permalink": "li-fi-tech",
+          "entity_def_id": "organization"
+        },
+        "num_investors": 1
+      },
+      "funds_list": [],
+      "alumni_image_list": [],
+      "semrush_overview_headline": {},
+      "frequently_asked_questions_total_funding": {
+        "funding_total": {
+          "value": 50000,
+          "currency": "AED",
+          "value_usd": 13613
+        },
+        "identifier": {
+          "uuid": "acf8d767-207f-4053-8f77-4d4b241f81cb",
+          "value": "Li-Fi Tech",
+          "image_id": "isfozfoecrpkiwazwdgh",
+          "permalink": "li-fi-tech",
+          "entity_def_id": "organization"
+        }
+      },
+      "exits_summary": {
+        "identifier": {
+          "uuid": "acf8d767-207f-4053-8f77-4d4b241f81cb",
+          "value": "Li-Fi Tech",
+          "image_id": "isfozfoecrpkiwazwdgh",
+          "permalink": "li-fi-tech",
+          "entity_def_id": "organization"
+        }
+      },
+      "partnership_announcements": [],
+      "bombora_surge_list": [],
+      "diversity_spotlight_investments_list": [],
+      "builtwith_tech_used_list": [],
+      "funding_rounds_summary": {
+        "identifier": {
+          "uuid": "acf8d767-207f-4053-8f77-4d4b241f81cb",
+          "value": "Li-Fi Tech",
+          "image_id": "isfozfoecrpkiwazwdgh",
+          "permalink": "li-fi-tech",
+          "entity_def_id": "organization"
+        },
+        "last_funding_type": "grant",
+        "last_funding_at": "2017-12-19",
+        "funding_total": {
+          "value": 50000,
+          "currency": "AED",
+          "value_usd": 13613
+        },
+        "num_funding_rounds": 1
+      },
+      "org_similarity_list": [],
+      "ipo_prediction": [],
+      "acquisitions_summary": {
+        "identifier": {
+          "uuid": "acf8d767-207f-4053-8f77-4d4b241f81cb",
+          "value": "Li-Fi Tech",
+          "image_id": "isfozfoecrpkiwazwdgh",
+          "permalink": "li-fi-tech",
+          "entity_def_id": "organization"
+        }
+      },
+      "advisors_summary": {
+        "identifier": {
+          "uuid": "acf8d767-207f-4053-8f77-4d4b241f81cb",
+          "value": "Li-Fi Tech",
+          "image_id": "isfozfoecrpkiwazwdgh",
+          "permalink": "li-fi-tech",
+          "entity_def_id": "organization"
+        }
+      },
+      "acquisitions_list": [],
+      "exits_headline": {},
+      "investments_summary": {
+        "identifier": {
+          "uuid": "acf8d767-207f-4053-8f77-4d4b241f81cb",
+          "value": "Li-Fi Tech",
+          "image_id": "isfozfoecrpkiwazwdgh",
+          "permalink": "li-fi-tech",
+          "entity_def_id": "organization"
+        }
+      },
+      "acquired_by_fields": {},
+      "research_insight_text_link": {},
+      "acquisition_prediction": [],
+      "sub_organizations_headline": {},
+      "layoff_list": [],
+      "growth_and_heat": {
+        "heat_score": 4,
+        "heat_score_delta_d90": -13,
+        "heat_score_history": {
+          "periods": {
+            "i1": {
+              "values": [
+                4,
+                5,
+                5,
+                5,
+                5,
+                5,
+                5,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                7,
+                7,
+                7,
+                7,
+                7,
+                7,
+                8,
+                8,
+                8,
+                8,
+                8,
+                8,
+                9,
+                9,
+                9,
+                9,
+                9,
+                9,
+                9,
+                10,
+                10,
+                10,
+                10,
+                10,
+                10,
+                10,
+                11,
+                11,
+                11,
+                11,
+                11,
+                11,
+                11,
+                11,
+                12,
+                12,
+                12,
+                12,
+                12,
+                12,
+                12,
+                13,
+                13,
+                13,
+                13,
+                13,
+                13,
+                13,
+                13,
+                14,
+                14,
+                14,
+                14,
+                14,
+                14,
+                14,
+                14,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                16,
+                16,
+                16,
+                16,
+                16,
+                16,
+                16,
+                16,
+                16,
+                17,
+                17,
+                17
+              ],
+              "interval": 1
+            },
+            "i2": {
+              "values": [
+                4,
+                5,
+                5,
+                6,
+                6,
+                6,
+                7,
+                7,
+                7,
+                8,
+                8,
+                8,
+                9,
+                9,
+                9,
+                9,
+                10,
+                10,
+                10,
+                11,
+                11,
+                11,
+                11,
+                12,
+                12,
+                12,
+                12,
+                13,
+                13,
+                13,
+                13,
+                14,
+                14,
+                14,
+                14,
+                15,
+                15,
+                15,
+                15,
+                16,
+                16,
+                16,
+                16,
+                17,
+                17,
+                17,
+                17,
+                17,
+                18,
+                18,
+                18,
+                18,
+                19,
+                19,
+                19,
+                19,
+                19,
+                20,
+                20,
+                20,
+                20,
+                20,
+                21,
+                21,
+                22,
+                23,
+                23,
+                24,
+                24,
+                25,
+                25,
+                26,
+                26,
+                27,
+                27,
+                28,
+                28,
+                29,
+                29,
+                30,
+                30,
+                31,
+                31,
+                31,
+                32,
+                32,
+                33,
+                33,
+                34,
+                34,
+                34
+              ],
+              "interval": 2
+            },
+            "i4": {
+              "values": [
+                4,
+                5,
+                6,
+                7,
+                7,
+                8,
+                9,
+                9,
+                10,
+                10,
+                11,
+                11,
+                12,
+                13,
+                13,
+                14,
+                14,
+                15,
+                15,
+                16,
+                16,
+                16,
+                17,
+                17,
+                18,
+                18,
+                19,
+                19,
+                19,
+                20,
+                20,
+                21,
+                22,
+                23,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                30,
+                31,
+                32,
+                33,
+                34,
+                34,
+                28,
+                26,
+                26,
+                26,
+                27,
+                27,
+                27,
+                28,
+                28,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                36,
+                38,
+                40,
+                41,
+                43,
+                45,
+                47,
+                49,
+                51,
+                45,
+                44,
+                46,
+                47,
+                49,
+                47,
+                47,
+                49,
+                50,
+                52,
+                50,
+                48,
+                46,
+                46,
+                45,
+                44,
+                43,
+                44,
+                44,
+                44,
+                41
+              ],
+              "interval": 4
+            },
+            "i7": {
+              "values": [
+                4,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                17,
+                18,
+                19,
+                20,
+                20,
+                22,
+                24,
+                26,
+                28,
+                29,
+                31,
+                32,
+                34,
+                29,
+                26,
+                26,
+                27,
+                27,
+                28,
+                29,
+                31,
+                33,
+                35,
+                38,
+                41,
+                45,
+                48,
+                49,
+                44,
+                47,
+                48,
+                48,
+                50,
+                50,
+                47,
+                45,
+                44,
+                44,
+                43,
+                39,
+                35,
+                33,
+                37,
+                39,
+                42,
+                45,
+                45,
+                41,
+                42,
+                41,
+                42,
+                39,
+                41,
+                44,
+                47,
+                46,
+                49,
+                48,
+                46,
+                38,
+                31,
+                33,
+                36,
+                38,
+                41,
+                43,
+                44,
+                45,
+                45,
+                49,
+                49,
+                53,
+                56,
+                58,
+                61,
+                60,
+                55,
+                50,
+                49,
+                53,
+                53,
+                55,
+                58,
+                61,
+                62,
+                57,
+                51,
+                51,
+                53,
+                53,
+                48,
+                48
+              ],
+              "interval": 7
+            },
+            "i18": {
+              "values": [
+                4,
+                9,
+                11,
+                14,
+                16,
+                18,
+                20,
+                24,
+                28,
+                32,
+                28,
+                27,
+                29,
+                33,
+                41,
+                48,
+                46,
+                49,
+                47,
+                44,
+                38,
+                36,
+                43,
+                42,
+                42,
+                41,
+                47,
+                48,
+                34,
+                37,
+                42,
+                45,
+                50,
+                57,
+                58,
+                50,
+                54,
+                60,
+                55,
+                53,
+                46,
+                49,
+                54,
+                47,
+                39,
+                33,
+                32,
+                32,
+                32,
+                35,
+                33,
+                36,
+                40,
+                47,
+                46,
+                32,
+                36,
+                41,
+                50,
+                53,
+                57,
+                51,
+                55,
+                59,
+                64,
+                68,
+                71,
+                67,
+                63,
+                68,
+                73,
+                75,
+                74,
+                74,
+                74,
+                73,
+                73,
+                74,
+                73,
+                77,
+                85,
+                90,
+                92,
+                90,
+                80,
+                72,
+                63,
+                56,
+                49,
+                47,
+                40,
+                26,
+                22,
+                23,
+                24,
+                27,
+                32,
+                37,
+                36,
+                32,
+                42,
+                49
+              ],
+              "interval": 18
+            },
+            "i36": {
+              "values": [
+                4,
+                12,
+                17,
+                22,
+                30,
+                28,
+                31,
+                44,
+                48,
+                45,
+                37,
+                43,
+                41,
+                47,
+                36,
+                44,
+                54,
+                54,
+                57,
+                54,
+                47,
+                51,
+                36,
+                32,
+                33,
+                34,
+                43,
+                39,
+                38,
+                52,
+                54,
+                57,
+                66,
+                69,
+                66,
+                74,
+                74,
+                73,
+                74,
+                75,
+                87,
+                91,
+                76,
+                59,
+                48,
+                33,
+                22,
+                25,
+                35,
+                34,
+                46,
+                45,
+                3,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                5,
+                21,
+                31
+              ],
+              "interval": 36
+            }
+          }
+        },
+        "heat_trend_365": {
+          "periods": {
+            "i1": {
+              "values": [
+                -38,
+                -38,
+                -38,
+                -38,
+                -38,
+                -39,
+                -35,
+                -35,
+                -35,
+                -35,
+                -35,
+                -36,
+                -31,
+                -31,
+                -31,
+                -32,
+                -32,
+                -32,
+                -32,
+                -32,
+                -33,
+                -33,
+                -33,
+                -33,
+                -33,
+                -33,
+                -33,
+                -34,
+                -34,
+                -34,
+                -34,
+                -34,
+                -34,
+                -35,
+                -35,
+                -35,
+                -35,
+                -35,
+                -35,
+                -35,
+                -36,
+                -36,
+                -36,
+                -36,
+                -36,
+                -36,
+                -36,
+                -36,
+                -36,
+                -36,
+                -34,
+                -34,
+                -35,
+                -35,
+                -35,
+                -35,
+                -33,
+                -29,
+                -30,
+                -30,
+                -30,
+                -30,
+                -30,
+                -30,
+                -30,
+                -30,
+                -31,
+                -31,
+                -31,
+                -31,
+                -31,
+                -28,
+                -28,
+                -28,
+                -29,
+                -29,
+                -29,
+                -29,
+                -29,
+                -30,
+                -30,
+                -30,
+                -27,
+                -27,
+                -27,
+                -28,
+                -24,
+                -24,
+                -25,
+                -25
+              ],
+              "interval": 1
+            },
+            "i2": {
+              "values": [
+                -38,
+                -38,
+                -38,
+                -35,
+                -35,
+                -35,
+                -31,
+                -31,
+                -32,
+                -32,
+                -33,
+                -33,
+                -33,
+                -33,
+                -34,
+                -34,
+                -34,
+                -35,
+                -35,
+                -35,
+                -36,
+                -36,
+                -36,
+                -36,
+                -36,
+                -34,
+                -35,
+                -35,
+                -31,
+                -30,
+                -30,
+                -30,
+                -30,
+                -31,
+                -31,
+                -29,
+                -28,
+                -29,
+                -29,
+                -29,
+                -30,
+                -27,
+                -27,
+                -24,
+                -25,
+                -25,
+                -26,
+                -27,
+                -27,
+                -28,
+                -28,
+                -29,
+                -29,
+                -29,
+                -30,
+                -27,
+                -28,
+                -28,
+                -28,
+                -29,
+                -29,
+                -29,
+                -29,
+                -27,
+                -27,
+                -27,
+                -26,
+                -26,
+                -20,
+                -20,
+                -17,
+                -14,
+                -9,
+                -5,
+                -5,
+                -5,
+                -5,
+                -5,
+                -5,
+                -5,
+                -6,
+                -6,
+                -6,
+                -7,
+                -7,
+                -7,
+                -7,
+                -8,
+                -8,
+                -8,
+                -8
+              ],
+              "interval": 2
+            },
+            "i4": {
+              "values": [
+                -38,
+                -37,
+                -35,
+                -31,
+                -32,
+                -33,
+                -33,
+                -34,
+                -35,
+                -35,
+                -36,
+                -36,
+                -35,
+                -35,
+                -30,
+                -30,
+                -30,
+                -30,
+                -28,
+                -29,
+                -28,
+                -26,
+                -25,
+                -26,
+                -27,
+                -28,
+                -29,
+                -29,
+                -28,
+                -29,
+                -29,
+                -28,
+                -27,
+                -26,
+                -20,
+                -15,
+                -7,
+                -5,
+                -5,
+                -5,
+                -6,
+                -7,
+                -7,
+                -7,
+                -8,
+                -8,
+                -16,
+                -20,
+                -20,
+                -20,
+                -18,
+                -19,
+                -21,
+                -23,
+                -21,
+                -22,
+                -23,
+                -24,
+                -24,
+                -24,
+                -24,
+                -24,
+                -23,
+                -20,
+                -16,
+                -13,
+                -10,
+                -3,
+                -1,
+                -1,
+                -1,
+                -8,
+                -8,
+                -8,
+                -8,
+                -8,
+                -12,
+                -13,
+                -12,
+                -10,
+                -9,
+                -4,
+                -4,
+                -3,
+                -5,
+                -7,
+                -9,
+                -11,
+                -8,
+                -5,
+                -3,
+                -7
+              ],
+              "interval": 4
+            },
+            "i7": {
+              "values": [
+                -38,
+                -34,
+                -32,
+                -33,
+                -34,
+                -35,
+                -36,
+                -35,
+                -30,
+                -31,
+                -29,
+                -29,
+                -25,
+                -27,
+                -28,
+                -29,
+                -28,
+                -29,
+                -27,
+                -23,
+                -12,
+                -5,
+                -5,
+                -6,
+                -7,
+                -8,
+                -14,
+                -20,
+                -19,
+                -20,
+                -22,
+                -22,
+                -24,
+                -24,
+                -24,
+                -23,
+                -19,
+                -13,
+                -4,
+                -1,
+                -4,
+                -9,
+                -8,
+                -10,
+                -13,
+                -10,
+                -5,
+                -4,
+                -6,
+                -9,
+                -8,
+                -4,
+                -6,
+                -11,
+                -15,
+                -15,
+                -14,
+                -13,
+                -5,
+                0,
+                -7,
+                0,
+                2,
+                9,
+                6,
+                12,
+                14,
+                17,
+                23,
+                22,
+                19,
+                14,
+                11,
+                0,
+                -1,
+                0,
+                5,
+                10,
+                11,
+                10,
+                9,
+                12,
+                12,
+                8,
+                8,
+                9,
+                9,
+                14,
+                16,
+                24,
+                23,
+                20,
+                21,
+                20,
+                20,
+                21,
+                19,
+                16,
+                7,
+                -2,
+                -1,
+                -2,
+                -4,
+                -9,
+                -7
+              ],
+              "interval": 7
+            },
+            "i18": {
+              "values": [
+                -38,
+                -34,
+                -35,
+                -31,
+                -28,
+                -28,
+                -29,
+                -23,
+                -6,
+                -7,
+                -17,
+                -20,
+                -23,
+                -24,
+                -14,
+                -3,
+                -8,
+                -11,
+                -4,
+                -8,
+                -7,
+                -15,
+                -9,
+                -3,
+                5,
+                11,
+                20,
+                17,
+                4,
+                3,
+                10,
+                11,
+                9,
+                10,
+                19,
+                21,
+                20,
+                19,
+                4,
+                -2,
+                -9,
+                -3,
+                -1,
+                -12,
+                -22,
+                -30,
+                -32,
+                -29,
+                -28,
+                -30,
+                -33,
+                -32,
+                -27,
+                -22,
+                -22,
+                -33,
+                -31,
+                -27,
+                -19,
+                -20,
+                -22,
+                -28,
+                -26,
+                -21,
+                -11,
+                -2,
+                9,
+                14,
+                14,
+                25,
+                43,
+                73,
+                74,
+                71,
+                68,
+                58,
+                48,
+                41,
+                46,
+                53,
+                43,
+                37,
+                42,
+                77,
+                100,
+                100,
+                100,
+                99,
+                96,
+                92,
+                77,
+                49,
+                40,
+                42,
+                44,
+                50,
+                61,
+                70,
+                69,
+                61,
+                79,
+                93
+              ],
+              "interval": 18
+            },
+            "i36": {
+              "values": [
+                -38,
+                -33,
+                -28,
+                -26,
+                -6,
+                -18,
+                -23,
+                -8,
+                -10,
+                -6,
+                -11,
+                -6,
+                8,
+                19,
+                3,
+                11,
+                9,
+                20,
+                20,
+                1,
+                -6,
+                -7,
+                -26,
+                -31,
+                -29,
+                -32,
+                -25,
+                -28,
+                -29,
+                -20,
+                -25,
+                -23,
+                -7,
+                11,
+                19,
+                58,
+                72,
+                63,
+                44,
+                50,
+                40,
+                60,
+                100,
+                100,
+                94,
+                63,
+                41,
+                47,
+                66,
+                65,
+                88,
+                84,
+                1,
+                -2,
+                -2,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -7,
+                -28,
+                -37,
+                -36,
+                -36,
+                -36,
+                -36,
+                -36,
+                -36,
+                -36,
+                -34,
+                -14,
+                -2
+              ],
+              "interval": 36
+            }
+          }
+        }
+      },
+      "bombora_summary": {
+        "identifier": {
+          "uuid": "acf8d767-207f-4053-8f77-4d4b241f81cb",
+          "value": "Li-Fi Tech",
+          "image_id": "isfozfoecrpkiwazwdgh",
+          "permalink": "li-fi-tech",
+          "entity_def_id": "organization"
+        }
+      },
+      "semrush_rank_headline": {},
+      "frequently_asked_questions_latest_funding_round": {
+        "identifier": {
+          "uuid": "acf8d767-207f-4053-8f77-4d4b241f81cb",
+          "value": "Li-Fi Tech",
+          "image_id": "isfozfoecrpkiwazwdgh",
+          "permalink": "li-fi-tech",
+          "entity_def_id": "organization"
+        },
+        "last_funding_at": "2017-12-19",
+        "last_funding_type": "grant",
+        "num_funding_rounds": 1
+      },
+      "apptopia_app_overview_list_free": [],
+      "contacts": {},
+      "product_launches": [],
+      "alumni_summary": {
+        "identifier": {
+          "uuid": "acf8d767-207f-4053-8f77-4d4b241f81cb",
+          "value": "Li-Fi Tech",
+          "image_id": "isfozfoecrpkiwazwdgh",
+          "permalink": "li-fi-tech",
+          "entity_def_id": "organization"
+        }
+      },
+      "apptopia_summary": {
+        "identifier": {
+          "uuid": "acf8d767-207f-4053-8f77-4d4b241f81cb",
+          "value": "Li-Fi Tech",
+          "image_id": "isfozfoecrpkiwazwdgh",
+          "permalink": "li-fi-tech",
+          "entity_def_id": "organization"
+        }
+      },
+      "product_similarity_target_org_list": [],
+      "social_fields": {},
+      "investments_headline": {},
+      "investment_thesis": {
+        "lookup": [],
+        "properties": {
+          "identifier": {
+            "uuid": "acf8d767-207f-4053-8f77-4d4b241f81cb",
+            "value": "Li-Fi Tech",
+            "image_id": "isfozfoecrpkiwazwdgh",
+            "permalink": "li-fi-tech",
+            "entity_def_id": "organization"
+          }
+        },
+        "data": []
+      },
+      "diversity_spotlight_investments_summary": {
+        "identifier": {
+          "uuid": "acf8d767-207f-4053-8f77-4d4b241f81cb",
+          "value": "Li-Fi Tech",
+          "image_id": "isfozfoecrpkiwazwdgh",
+          "permalink": "li-fi-tech",
+          "entity_def_id": "organization"
+        }
+      },
+      "contact_fields": {},
+      "growth_prediction": [],
+      "sub_organizations_summary": {
+        "identifier": {
+          "uuid": "acf8d767-207f-4053-8f77-4d4b241f81cb",
+          "value": "Li-Fi Tech",
+          "image_id": "isfozfoecrpkiwazwdgh",
+          "permalink": "li-fi-tech",
+          "entity_def_id": "organization"
+        }
+      },
+      "overview_description": {},
+      "current_employees_featured_order_field": [],
+      "company_about_fields2": {
+        "website": {
+          "value": "http://www.li-fi-tech.org/"
+        },
+        "ipo_status": "private",
+        "last_funding_type": "grant",
+        "location_identifiers": [
+          {
+            "uuid": "0e8010ee-2f59-38db-b7e2-998e92dde222",
+            "value": "Dubai",
+            "permalink": "dubai-dubai",
+            "entity_def_id": "location",
+            "location_type": "city"
+          },
+          {
+            "uuid": "bdaf57f0-4a06-3b65-7b13-e2983186c2ab",
+            "value": "Dubai",
+            "permalink": "dubai-united-arab-emirates",
+            "entity_def_id": "location",
+            "location_type": "region"
+          },
+          {
+            "uuid": "9314d29a-0a56-02c3-6b27-4168733de77f",
+            "value": "United Arab Emirates",
+            "permalink": "united-arab-emirates",
+            "entity_def_id": "location",
+            "location_type": "country"
+          },
+          {
+            "uuid": "b41404d2-8ecc-caf5-1268-8fdd3afe73ee",
+            "value": "Asia",
+            "permalink": "asia",
+            "entity_def_id": "location",
+            "location_type": "continent"
+          }
+        ],
+        "rank_org_company": 916035
+      },
+      "sub_organizations_image_list": [],
+      "frequently_asked_questions_headquarters_location": {
+        "identifier": {
+          "uuid": "acf8d767-207f-4053-8f77-4d4b241f81cb",
+          "value": "Li-Fi Tech",
+          "image_id": "isfozfoecrpkiwazwdgh",
+          "permalink": "li-fi-tech",
+          "entity_def_id": "organization"
+        },
+        "location_identifiers": [
+          {
+            "uuid": "0e8010ee-2f59-38db-b7e2-998e92dde222",
+            "value": "Dubai",
+            "permalink": "dubai-dubai",
+            "entity_def_id": "location",
+            "location_type": "city"
+          },
+          {
+            "uuid": "bdaf57f0-4a06-3b65-7b13-e2983186c2ab",
+            "value": "Dubai",
+            "permalink": "dubai-united-arab-emirates",
+            "entity_def_id": "location",
+            "location_type": "region"
+          },
+          {
+            "uuid": "9314d29a-0a56-02c3-6b27-4168733de77f",
+            "value": "United Arab Emirates",
+            "permalink": "united-arab-emirates",
+            "entity_def_id": "location",
+            "location_type": "country"
+          },
+          {
+            "uuid": "b41404d2-8ecc-caf5-1268-8fdd3afe73ee",
+            "value": "Asia",
+            "permalink": "asia",
+            "entity_def_id": "location",
+            "location_type": "continent"
+          }
+        ]
+      },
+      "investors_headline": {
+        "num_investors": 1,
+        "num_lead_investors": 1
+      },
+      "ipo_summary": {
+        "identifier": {
+          "uuid": "acf8d767-207f-4053-8f77-4d4b241f81cb",
+          "value": "Li-Fi Tech",
+          "image_id": "isfozfoecrpkiwazwdgh",
+          "permalink": "li-fi-tech",
+          "entity_def_id": "organization"
+        }
+      },
+      "ipqwery_summary": {
+        "identifier": {
+          "uuid": "acf8d767-207f-4053-8f77-4d4b241f81cb",
+          "value": "Li-Fi Tech",
+          "image_id": "isfozfoecrpkiwazwdgh",
+          "permalink": "li-fi-tech",
+          "entity_def_id": "organization"
+        }
+      },
+      "awards": [],
+      "siftery_product_list": [],
+      "competitors_list": [],
+      "growth_knowledge": {
+        "lookup": [],
+        "properties": {
+          "identifier": {
+            "uuid": "acf8d767-207f-4053-8f77-4d4b241f81cb",
+            "value": "Li-Fi Tech",
+            "image_id": "isfozfoecrpkiwazwdgh",
+            "permalink": "li-fi-tech",
+            "entity_def_id": "organization"
+          }
+        },
+        "data": []
+      },
+      "overview_fields_extended": {
+        "closed_on": {
+          "precision": "none"
+        },
+        "last_funding_type": "grant",
+        "location_group_identifiers": [
+          {
+            "uuid": "4e8be435-c63a-4aff-8a2f-44a880d9c341",
+            "value": "Europe, Middle East, and Africa (EMEA)",
+            "permalink": "europe-middle-east-africa-emea",
+            "entity_def_id": "location",
+            "location_type": "group"
+          },
+          {
+            "uuid": "c4365698-c7c5-44b0-b33a-7d13900e5be2",
+            "value": "Gulf Cooperation Council (GCC)",
+            "permalink": "gulf-cooperation-council",
+            "entity_def_id": "location",
+            "location_type": "group"
+          },
+          {
+            "uuid": "e0272206-3430-48cb-a5bc-1d4b3eafe15a",
+            "value": "Middle East",
+            "permalink": "middle-east",
+            "entity_def_id": "location",
+            "location_type": "group"
+          },
+          {
+            "uuid": "8cb7cad4-b7e4-4b28-a496-2ede3720cb19",
+            "value": "Middle East and North Africa (MENA)",
+            "permalink": "middle-east-and-north-africa-mena",
+            "entity_def_id": "location",
+            "location_type": "group"
+          }
+        ],
+        "operating_status": "closed"
+      },
+      "overview_investor_fields": {},
+      "bombora_attribution": {},
+      "semrush_location_list": [],
+      "investors_list": [
+        {
+          "is_lead_investor": true,
+          "identifier": {
+            "uuid": "144ea183-cce1-42b1-9a78-a635419a8180",
+            "value": "Intelak Hub investment in Grant - Li-Fi Tech",
+            "permalink": "intelak-invested-in-li-fi-tech-grant--8c763b1a--144ea183",
+            "entity_def_id": "investment"
+          },
+          "funding_round_identifier": {
+            "uuid": "8c763b1a-ae7e-42d2-8191-b4bcfcf6a5e6",
+            "value": "Grant - Li-Fi Tech",
+            "image_id": "isfozfoecrpkiwazwdgh",
+            "permalink": "li-fi-tech-grant--8c763b1a",
+            "entity_def_id": "funding_round"
+          },
+          "investor_identifier": {
+            "uuid": "236b07ff-0c91-4c61-b490-30fe970a6b2e",
+            "value": "Intelak Hub",
+            "image_id": "cijdtjkmbcb52vazszej",
+            "permalink": "intelak",
+            "entity_def_id": "organization"
+          }
+        }
+      ],
+      "siftery_summary": {
+        "identifier": {
+          "uuid": "acf8d767-207f-4053-8f77-4d4b241f81cb",
+          "value": "Li-Fi Tech",
+          "image_id": "isfozfoecrpkiwazwdgh",
+          "permalink": "li-fi-tech",
+          "entity_def_id": "organization"
+        }
+      },
+      "acquired_by_summary": {
+        "identifier": {
+          "uuid": "acf8d767-207f-4053-8f77-4d4b241f81cb",
+          "value": "Li-Fi Tech",
+          "image_id": "isfozfoecrpkiwazwdgh",
+          "permalink": "li-fi-tech",
+          "entity_def_id": "organization"
+        }
+      },
+      "ipo_fields": {},
+      "apptopia_app_overview_list_public": [],
+      "apptopia_sdk_list": [],
+      "trading_view": {},
+      "current_employees_image_list": [],
+      "frequently_asked_questions_investors": {
+        "identifier": {
+          "uuid": "acf8d767-207f-4053-8f77-4d4b241f81cb",
+          "value": "Li-Fi Tech",
+          "image_id": "isfozfoecrpkiwazwdgh",
+          "permalink": "li-fi-tech",
+          "entity_def_id": "organization"
+        },
+        "num_investors": 1
+      },
+      "funding_rounds_list": [
+        {
+          "identifier": {
+            "uuid": "8c763b1a-ae7e-42d2-8191-b4bcfcf6a5e6",
+            "value": "Grant - Li-Fi Tech",
+            "image_id": "isfozfoecrpkiwazwdgh",
+            "permalink": "li-fi-tech-grant--8c763b1a",
+            "entity_def_id": "funding_round"
+          },
+          "announced_on": "2017-12-19",
+          "money_raised": {
+            "value": 50000,
+            "currency": "AED",
+            "value_usd": 13613
+          },
+          "num_investors": 1,
+          "investment_type": "grant",
+          "lead_investor_identifiers": [
+            {
+              "uuid": "236b07ff-0c91-4c61-b490-30fe970a6b2e",
+              "value": "Intelak Hub",
+              "image_id": "cijdtjkmbcb52vazszej",
+              "permalink": "intelak",
+              "entity_def_id": "organization"
+            }
+          ]
+        }
+      ],
+      "technology_highlights": {},
+      "funding_rounds_headline": {
+        "funding_total": {
+          "value": 50000,
+          "currency": "AED",
+          "value_usd": 13613
+        },
+        "num_funding_rounds": 1
+      },
+      "investments_list": [],
+      "exits_image_list": [],
+      "funds_headline": {},
+      "people_highlights": {},
+      "semrush_attribution": {},
+      "frequently_asked_questions_similar_companies": {
+        "identifier": {
+          "uuid": "acf8d767-207f-4053-8f77-4d4b241f81cb",
+          "value": "Li-Fi Tech",
+          "image_id": "isfozfoecrpkiwazwdgh",
+          "permalink": "li-fi-tech",
+          "entity_def_id": "organization"
+        }
+      },
+      "semrush_overview": {},
+      "org_category_ranks": {},
+      "current_valuation": [],
+      "legal_proceedings": [],
+      "current_employees_summary": {
+        "identifier": {
+          "uuid": "acf8d767-207f-4053-8f77-4d4b241f81cb",
+          "value": "Li-Fi Tech",
+          "image_id": "isfozfoecrpkiwazwdgh",
+          "permalink": "li-fi-tech",
+          "entity_def_id": "organization"
+        }
+      },
+      "aberdeen_summary": {
+        "identifier": {
+          "uuid": "acf8d767-207f-4053-8f77-4d4b241f81cb",
+          "value": "Li-Fi Tech",
+          "image_id": "isfozfoecrpkiwazwdgh",
+          "permalink": "li-fi-tech",
+          "entity_def_id": "organization"
+        }
+      },
+      "offices": [],
+      "overview_timeline": {
+        "count": 1,
+        "entities": [
+          {
+            "uuid": "8c763b1a-ae7e-42d2-8191-b4bcfcf6a5e6",
+            "properties": {
+              "identifier": {
+                "uuid": "8c763b1a-ae7e-42d2-8191-b4bcfcf6a5e6",
+                "value": "Grant - Li-Fi Tech",
+                "image_id": "isfozfoecrpkiwazwdgh",
+                "permalink": "li-fi-tech-grant--8c763b1a",
+                "entity_def_id": "funding_round"
+              },
+              "entity_def_id": "funding_round",
+              "activity_entities": [
+                {
+                  "role": "investor",
+                  "uuid": "236b07ff-0c91-4c61-b490-30fe970a6b2e",
+                  "value": "Intelak Hub",
+                  "image_id": "cijdtjkmbcb52vazszej",
+                  "permalink": "intelak",
+                  "entity_def_id": "organization"
+                },
+                {
+                  "role": "investee",
+                  "uuid": "acf8d767-207f-4053-8f77-4d4b241f81cb",
+                  "value": "Li-Fi Tech",
+                  "image_id": "isfozfoecrpkiwazwdgh",
+                  "permalink": "li-fi-tech",
+                  "entity_def_id": "organization"
+                }
+              ],
+              "activity_properties": {
+                "money_raised": {
+                  "value": 50000,
+                  "currency": "AED",
+                  "value_usd": 13613
+                },
+                "investment_type": "grant"
+              },
+              "activity_date": "2017-12-19"
+            }
+          }
+        ]
+      },
+      "company_financials_highlights": {
+        "funding_total": {
+          "value": 50000,
+          "currency": "AED",
+          "value_usd": 13613
+        },
+        "num_funding_rounds": 1,
+        "num_investors": 1,
+        "num_lead_investors": 1
+      },
+      "overview_company_fields": {
+        "company_type": "for_profit"
+      },
+      "private_tags_pill_list": [],
+      "acquisitions_headline": {},
+      "builtwith_summary": {
+        "identifier": {
+          "uuid": "acf8d767-207f-4053-8f77-4d4b241f81cb",
+          "value": "Li-Fi Tech",
+          "image_id": "isfozfoecrpkiwazwdgh",
+          "permalink": "li-fi-tech",
+          "entity_def_id": "organization"
+        }
+      },
+      "about_short_description": {
+        "short_description": "Li-fi Tech is a technology firm that focuses on bringing lifi technology to market."
+      },
+      "product": [],
+      "apptopia_app_headline": {}
+    }
+  }
+}

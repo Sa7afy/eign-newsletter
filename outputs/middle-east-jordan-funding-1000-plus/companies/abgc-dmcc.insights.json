@@ -1,0 +1,176 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T08:57:08.146Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T08:57:08.145Z",
+    "url": "https://www.crunchbase.com/organization/abgc-dmcc"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "ABGC DMCC",
+      "shortDescription": "ABGC DMCC, a joint venture (JV) between Al Seer Marine and BGN, operates an energy transportation firm.",
+      "description": "ABGC DMCC, a joint venture (JV) between Al Seer Marine and BGN, operates an energy transportation firm.",
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "headquarters": "Dubai, United Arab Emirates",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 370002587,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 2,
+      "detailedRoundCount": 2,
+      "lastFundingDate": "2024-03-27",
+      "lastFundingType": "Debt Financing",
+      "rounds": [
+        {
+          "announcedDate": "2024-03-27",
+          "amount": {
+            "amount": 235002587,
+            "currency": "USD"
+          },
+          "type": "Debt Financing"
+        },
+        {
+          "announcedDate": "2022-05-11",
+          "amount": {
+            "amount": 135000000,
+            "currency": "USD"
+          },
+          "type": "Debt Financing"
+        }
+      ]
+    },
+    "recentNews": {
+      "reportedCount": 7,
+      "includedUniqueCount": 7,
+      "items": [
+        {
+          "date": "2025-11-13",
+          "publisher": "LogisticsGulf",
+          "title": "Al Seer Marine attains fleet of 18 vessels in just three years",
+          "url": "https://logisticsgulf.com/2025/11/al-seer-marine-attains-fleet-of-18-vessels-in-just-three-years/"
+        },
+        {
+          "date": "2025-11-11",
+          "publisher": "Zawya.com",
+          "title": "Al Seer Marine achieves fleet of 18 vessels in just three years",
+          "url": "https://www.zawya.com/en/press-release/companies-news/al-seer-marine-achieves-fleet-of-18-vessels-in-just-three-years-c238njma"
+        },
+        {
+          "date": "2025-09-19",
+          "publisher": "LogisticsGulf",
+          "title": "Al Seer Marine and BGN JV announce delivery of the third VLGC Merak",
+          "url": "https://logisticsgulf.com/2025/09/al-seer-marine-and-bgn-jv-announce-delivery-of-the-third-vlgc-merak/"
+        },
+        {
+          "date": "2025-09-18",
+          "publisher": "Zawya.com",
+          "title": "Al Seer Marine and BGN JV announces delivery of third VLGC Merak",
+          "url": "https://www.zawya.com/en/press-release/companies-news/al-seer-marine-and-bgn-jv-announces-delivery-of-third-vlgc-merak-u14l0uda"
+        },
+        {
+          "date": "2025-09-17",
+          "publisher": "Zawya.com",
+          "title": "Al Seer Marine, BGN JV announce delivery of third VLGC 'Merak'",
+          "url": "https://www.zawya.com/en/projects/industry/al-seer-marine-bgn-jv-announce-delivery-of-third-vlgc-merak-gzh1wltg"
+        },
+        {
+          "date": "2024-03-27",
+          "title": "Debt Financing - ABGC DMCC"
+        },
+        {
+          "date": "2022-05-11",
+          "title": "Debt Financing - ABGC DMCC"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 2,
+    "knownDetailedFundingAmount": {
+      "amount": 370002587,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 63.51
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthInsightGeneratedDate": "2025-11-17",
+      "growthChange90Days": 1,
+      "growthScore": 52,
+      "heatChange90Days": -8,
+      "heatScore": 43,
+      "status": "Growing"
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-03-28",
+        "probabilityPercent": 27.94
+      },
+      "growth": {
+        "generatedDate": "2025-01-11",
+        "probabilityPercent": 96.1
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 23.96
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors."
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Debt Financing round raised $235,002,587, or 63.51% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 52 (+1 over 90 days) and market heat at 43 (-8).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

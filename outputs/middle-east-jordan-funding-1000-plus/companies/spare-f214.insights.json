@@ -1,0 +1,306 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T13:29:52.417Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T13:29:52.414Z",
+    "url": "https://www.crunchbase.com/organization/spare-f214"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Spare",
+      "shortDescription": "Spare is a fintech providing open banking APIs for secure bank data access, account verification, and account-to-account payments.",
+      "website": "https://www.tryspare.com/sa/",
+      "foundedYear": 2018,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "11-50",
+      "headquarters": "Riyadh, Ar Riyad, Saudi Arabia",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Finance",
+        "FinTech",
+        "Payments"
+      ],
+      "sectors": [
+        "Financial Services",
+        "Payments"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 8000000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 2,
+      "detailedRoundCount": 2,
+      "lastFundingDate": "2025-09-16",
+      "lastFundingType": "Seed",
+      "rounds": [
+        {
+          "announcedDate": "2025-09-16",
+          "amount": {
+            "amount": 5000000,
+            "currency": "USD"
+          },
+          "investorCount": 6,
+          "leadInvestors": [
+            "ANB Capital"
+          ],
+          "postMoneyValuation": {
+            "amount": 35893114,
+            "currency": "USD"
+          },
+          "type": "Seed"
+        },
+        {
+          "announcedDate": "2023-12-20",
+          "amount": {
+            "amount": 3000000,
+            "currency": "USD"
+          },
+          "investorCount": 4,
+          "leadInvestors": [
+            "Vision Ventures"
+          ],
+          "postMoneyValuation": {
+            "amount": 19073651,
+            "currency": "USD"
+          },
+          "type": "Seed"
+        }
+      ],
+      "investors": {
+        "reportedCount": 7,
+        "visibleNames": [
+          {
+            "name": "500 Global",
+            "rounds": [
+              "Seed Round"
+            ]
+          },
+          {
+            "isLead": true,
+            "name": "ANB Capital",
+            "rounds": [
+              "Seed Round"
+            ]
+          },
+          {
+            "name": "Boubyan Capital",
+            "rounds": [
+              "Seed Round"
+            ]
+          },
+          {
+            "name": "Middle East Venture Partners (MEVP)",
+            "rounds": [
+              "Seed Round"
+            ]
+          },
+          {
+            "name": "SEEDRA Ventures",
+            "rounds": [
+              "Seed Round"
+            ]
+          },
+          {
+            "isLead": true,
+            "name": "Vision Ventures",
+            "rounds": [
+              "Seed Round"
+            ]
+          },
+          {
+            "name": "Wa’ed Ventures",
+            "rounds": [
+              "Seed Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 2,
+      "includedUniqueCount": 2,
+      "items": [
+        {
+          "date": "2025-09-16",
+          "title": "Seed Round - Spare"
+        },
+        {
+          "date": "2023-12-20",
+          "title": "Seed Round - Spare"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 2,
+    "knownDetailedFundingAmount": {
+      "amount": 8000000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 62.5,
+    "latestToEarliestKnownValuationMultiple": 1.88
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": 0,
+      "growthScore": 83,
+      "heatChange90Days": 12,
+      "heatScore": 84
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 95.04
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 61.14,
+        "timingEstimatePercent": {
+          "within6Months": 99.88,
+          "months6To11": 0.11,
+          "months12To24": 0,
+          "beyond24Months": 0.01
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 89.68
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 0
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Plaid develops financial technology infrastructure that enables applications to connect with users' bank accounts and financial data.",
+          "employeeRange": "501-1,000",
+          "name": "Plaid",
+          "sharedCategories": [
+            "FinTech"
+          ],
+          "similarityScore": 96
+        },
+        {
+          "description": "TrueLayer powers smarter, safer and faster online payments by combining real-time bank payments with financial and identity data.",
+          "employeeRange": "251-500",
+          "name": "TrueLayer",
+          "sharedCategories": [
+            "FinTech",
+            "Payments"
+          ],
+          "similarityScore": 95
+        },
+        {
+          "description": "Redefining how the world interacts with value.",
+          "employeeRange": "101-250",
+          "name": "Yapily",
+          "sharedCategories": [
+            "Payments"
+          ],
+          "similarityScore": 94
+        },
+        {
+          "description": "Tink is a cloud-based platform providing infrastructure and data products to enable the future of financial services.",
+          "employeeRange": "501-1,000",
+          "name": "Tink",
+          "sharedCategories": [
+            "FinTech"
+          ],
+          "similarityScore": 92
+        },
+        {
+          "description": "Pioneering next-gen B2B payment platform. Fintecture is a licensed payment institution (ACPR-17248)",
+          "employeeRange": "11-50",
+          "name": "Fintecture",
+          "sharedCategories": [
+            "FinTech",
+            "Payments"
+          ],
+          "similarityScore": 88
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Seed round raised $5,000,000, or 62.5% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $19,073,651 to $35,893,114, a 1.88x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 83 (+0 over 90 days) and market heat at 84 (+12).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Plaid, TrueLayer, Yapily.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

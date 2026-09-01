@@ -1,0 +1,273 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T13:46:30.396Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T13:46:30.394Z",
+    "url": "https://www.crunchbase.com/organization/travelfox"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "travelfox",
+      "shortDescription": "TravelFox is a travel search engine where travelers can search and compare hundreds of travel sites.",
+      "description": "TravelFox is a travel search engine where travelers can search and compare 100s of travel sites with just few clicks.\r\nTravelFox search on many sections Like hotels / flights / car rentals to get you the best price and deal for your preferred destination you willing to travel to .\r\nyou can vist us at http://www.travelfox.com",
+      "website": "http://www.travelfox.com/",
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "11-50",
+      "estimatedRevenueRange": "Less than $1M",
+      "headquarters": "Alexandria, Al Iskandariyah, Egypt",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Middle East",
+        "Middle East and North Africa (MENA)",
+        "North Africa"
+      ],
+      "industries": [
+        "Search Engine",
+        "Travel"
+      ],
+      "sectors": [
+        "Internet Services",
+        "Travel and Tourism"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "An AI-powered travel assistant that interacts with users to help book trips by understanding their travel preferences and handling booking details.",
+        "name": "AI Travel Agent"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 1000000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2010-05-15",
+      "lastFundingType": "Seed",
+      "rounds": [
+        {
+          "announcedDate": "2010-05-15",
+          "amount": {
+            "amount": 1000000,
+            "currency": "USD"
+          },
+          "postMoneyValuation": {
+            "amount": 4871842,
+            "currency": "USD"
+          },
+          "type": "Seed"
+        }
+      ]
+    },
+    "recentNews": {
+      "reportedCount": 2,
+      "includedUniqueCount": 2,
+      "items": [
+        {
+          "date": "2024-04-22",
+          "publisher": "PRNewswire",
+          "title": "Travelzoo Sets Target of 1,000,000 Pledges for #TravelforTomorrow",
+          "url": "https://www.prnewswire.com/news-releases/travelzoo-sets-target-of-1-000-000-pledges-for-travelfortomorrow-302123670.html"
+        },
+        {
+          "date": "2010-05-15",
+          "title": "Seed Round - travelfox"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 1000000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": 1,
+      "growthScore": 81,
+      "heatChange90Days": -8,
+      "heatScore": 30
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 0
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 0.92,
+        "timingEstimatePercent": {
+          "within6Months": 13.23,
+          "months6To11": 11.48,
+          "months12To24": 18.6,
+          "beyond24Months": 24.55
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 91
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 0
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "KAYAK helps millions of travelers around the globe make confident travel decisions.",
+          "employeeRange": "1,001-5,000",
+          "name": "KAYAK",
+          "sharedCategories": [
+            "Search Engine",
+            "Travel"
+          ],
+          "sharedSpecialties": [
+            "Fare Comparison Platforms",
+            "Flight Booking",
+            "Travel Review Platforms",
+            "Travel Reporting and Analytics"
+          ],
+          "similarityScore": 97
+        },
+        {
+          "description": "momondo is a travel metasearch site that finds and compares the offers on flights, hotels, car rentals, and package holidays.",
+          "employeeRange": "251-500",
+          "name": "momondo",
+          "sharedCategories": [
+            "Travel"
+          ],
+          "sharedSpecialties": [
+            "Fare Comparison Platforms",
+            "Flight Booking",
+            "Travel Review Platforms",
+            "Recommendation Engines",
+            "Travel Reporting and Analytics",
+            "Tour Packages"
+          ],
+          "similarityScore": 93
+        },
+        {
+          "description": "Google specializes in internet-related services and products, including search, advertising, and software.",
+          "employeeRange": "10,001+",
+          "name": "Google",
+          "sharedCategories": [
+            "Search Engine"
+          ],
+          "similarityScore": 88
+        },
+        {
+          "description": "Cheapflights is a search and comparison site offering information on flight deals, travel agents and flight deal providers.",
+          "employeeRange": "51-100",
+          "name": "Cheapflights",
+          "sharedCategories": [
+            "Travel"
+          ],
+          "sharedSpecialties": [
+            "Fare Comparison Platforms",
+            "Flight Booking",
+            "Travel Review Platforms",
+            "Travel Reporting and Analytics"
+          ],
+          "similarityScore": 87
+        },
+        {
+          "description": "We develop flights and hotels metasearch sites allowing people to find cheapest fares and hotel rooms",
+          "employeeRange": "51-100",
+          "name": "JetRadar",
+          "sharedCategories": [
+            "Search Engine",
+            "Travel"
+          ],
+          "sharedSpecialties": [
+            "Fare Comparison Platforms",
+            "Flight Booking",
+            "Travel Review Platforms",
+            "Recommendation Engines",
+            "Travel Reporting and Analytics",
+            "Airport Transfers"
+          ],
+          "similarityScore": 85
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Seed round raised $1,000,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $4,871,842 to $4,871,842, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 81 (+1 over 90 days) and market heat at 30 (-8).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include KAYAK, momondo, Google.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

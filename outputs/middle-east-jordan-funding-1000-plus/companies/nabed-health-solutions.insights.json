@@ -1,0 +1,347 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T12:40:23.271Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T12:40:23.268Z",
+    "url": "https://www.crunchbase.com/organization/nabed-health-solutions"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Nabed Health Solutions",
+      "shortDescription": "NABED is an innovative patient-centric digital platform that elevates patient engagement and empowers them to be participant in their care.",
+      "website": "https://www.nabed.net/ar/",
+      "foundedYear": 2012,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "11-50",
+      "headquarters": "Riyadh, Ar Riyad, Saudi Arabia",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Health Care"
+      ],
+      "sectors": [
+        "Health Care"
+      ],
+      "founders": [
+        "Adnan Abu Sharar"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "Digital TV channels for waiting rooms that provide department-specific health information and promote healthcare services to patients during wait times.",
+        "name": "Waiting Room TV Channels"
+      },
+      {
+        "description": "A tool used during patient consultations to enhance physician-patient interaction and improve adherence to personalized care plans.",
+        "name": "Consultation Clinical Engagement Tool"
+      },
+      {
+        "description": "Automated delivery of personalized patient education based on medical codes integrated with hospital information and electronic medical record systems.",
+        "name": "Personalized Education Integrated with HIS/EMR"
+      },
+      {
+        "description": "A platform that allows healthcare educators to design and customize patient educational journeys and monitor adherence post-discharge.",
+        "name": "Content Management System for Educators"
+      },
+      {
+        "description": "A system to connect with patients throughout their care continuum, providing personalized guidance and monitoring to support self-care and compliance.",
+        "name": "Outpatient Care Plan"
+      },
+      {
+        "description": "A tool to automate the collection and analysis of patient feedback on care experience to improve quality and satisfaction.",
+        "name": "Patient-Reported Experience Measures (PREMs)"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 2800000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 2,
+      "detailedRoundCount": 2,
+      "lastFundingDate": "2019-06-13",
+      "lastFundingType": "Series A",
+      "rounds": [
+        {
+          "announcedDate": "2019-06-13",
+          "amount": {
+            "amount": 1600000,
+            "currency": "USD"
+          },
+          "investorCount": 4,
+          "postMoneyValuation": {
+            "amount": 16600000,
+            "currency": "USD"
+          },
+          "type": "Series A"
+        },
+        {
+          "announcedDate": "2018-03-10",
+          "amount": {
+            "amount": 1200000,
+            "currency": "USD"
+          },
+          "investorCount": 3,
+          "postMoneyValuation": {
+            "amount": 11200000,
+            "currency": "USD"
+          },
+          "type": "Seed"
+        }
+      ],
+      "investors": {
+        "reportedCount": 7,
+        "visibleNames": [
+          {
+            "name": "Hazem Elluzi",
+            "rounds": [
+              "Series A",
+              "Seed Round"
+            ]
+          },
+          {
+            "name": "Hozoon Holding",
+            "rounds": [
+              "Series A"
+            ]
+          },
+          {
+            "name": "Mohammed AlKhushail",
+            "rounds": [
+              "Series A"
+            ]
+          },
+          {
+            "name": "Shy Lad Limited",
+            "rounds": [
+              "Seed Round"
+            ]
+          },
+          {
+            "name": "Tarek Elluzi",
+            "rounds": [
+              "Series A",
+              "Seed Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 2,
+      "includedUniqueCount": 2,
+      "items": [
+        {
+          "date": "2019-06-13",
+          "title": "Series A - Nabed Health Solutions"
+        },
+        {
+          "date": "2018-03-10",
+          "title": "Seed Round - Nabed Health Solutions"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 2,
+    "knownDetailedFundingAmount": {
+      "amount": 2800000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 57.14,
+    "latestToEarliestKnownValuationMultiple": 1.48
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": 0,
+      "growthScore": 62,
+      "heatChange90Days": -1,
+      "heatScore": 72
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 29.7
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 10.05,
+        "timingEstimatePercent": {
+          "within6Months": 14.56,
+          "months6To11": 12.44,
+          "months12To24": 19.71,
+          "beyond24Months": 24.89
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 95.29
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 26.18
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "A Full Stack Digital Healthcare and Telehealth Solution that Empowers Providers to Engage, Consult, Educate, and Remotely Monitor Patients",
+          "employeeRange": "1-10",
+          "name": "Hifinite Health",
+          "sharedCategories": [
+            "Health Care"
+          ],
+          "sharedSpecialties": [
+            "Patient Monitoring Systems",
+            "Patient Engagement Platforms",
+            "Health Systems Integration",
+            "Chronic Disease Management",
+            "Remote Patient Monitoring",
+            "Patient Experience Management"
+          ],
+          "similarityScore": 100
+        },
+        {
+          "description": "GetWellNetwork provides patient engagement solutions that help healthcare providers engage, educate and empower patients.",
+          "employeeRange": "251-500",
+          "name": "GetWellNetwork",
+          "sharedCategories": [
+            "Health Care"
+          ],
+          "sharedSpecialties": [
+            "Patient Monitoring Systems",
+            "Patient Engagement Platforms",
+            "Patient Portal",
+            "Health Systems Integration",
+            "Chronic Disease Management",
+            "Remote Patient Monitoring",
+            "Value-Based Care Services",
+            "Patient Experience Management"
+          ],
+          "similarityScore": 96
+        },
+        {
+          "description": "mHealthCoach is a care coordination smart platform that enables physician practices to improve revenue and patient outcomes in the process.",
+          "employeeRange": "1-10",
+          "name": "mHealthCoach",
+          "sharedCategories": [
+            "Health Care"
+          ],
+          "sharedSpecialties": [
+            "Patient Engagement Platforms",
+            "Patient Portal",
+            "Health Systems Integration",
+            "Value-Based Care Services"
+          ],
+          "similarityScore": 95.139
+        },
+        {
+          "description": "Phreesia is a healthcare centre that provides automated patient check-in processes for personal health.",
+          "employeeRange": "1,001-5,000",
+          "name": "Phreesia",
+          "sharedCategories": [
+            "Health Care"
+          ],
+          "sharedSpecialties": [
+            "Patient Engagement Platforms",
+            "Patient Experience Management"
+          ],
+          "similarityScore": 91
+        },
+        {
+          "description": "ExtendedCare is a leading provider of telehealth as a clinically-integrated, configurable, enterprise-class care experience.",
+          "employeeRange": "101-250",
+          "name": "ExtendedCare",
+          "sharedCategories": [
+            "Health Care"
+          ],
+          "sharedSpecialties": [
+            "Patient Monitoring Systems",
+            "Patient Engagement Platforms",
+            "Patient Portal",
+            "Health Systems Integration",
+            "Remote Patient Monitoring"
+          ],
+          "similarityScore": 90.255
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Series A round raised $1,600,000, or 57.14% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $11,200,000 to $16,600,000, a 1.48x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 62 (+0 over 90 days) and market heat at 72 (-1).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Hifinite Health, GetWellNetwork, mHealthCoach.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

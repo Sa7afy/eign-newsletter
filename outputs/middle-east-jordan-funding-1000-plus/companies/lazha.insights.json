@@ -1,0 +1,165 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T12:18:35.107Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T12:18:35.105Z",
+    "url": "https://www.crunchbase.com/organization/lazha"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Lahza",
+      "shortDescription": "Lahza helps manufacturing teams see what's really happening on the line and improve performance with confidence, not assumptions.",
+      "description": "Lahza turns the cameras a factory already has into a live monitoring agent.\n\nMost plants only find out about a problem after it costs them something. A near miss that nobody reported. A hygiene breach that surfaces in an audit. A line that sat idle for forty minutes on the night shift. The footage exists, but nobody was watching at the moment it mattered.\n\nWith Lahza, your team writes in plain language what to watch for, in English or Arabic, and the system watches the live feed and alerts the moment it happens, with a short documented clip. No CCTV replacement, no re-cabling, no long integration project. It runs on your existing IP cameras and goes live in a day.\n\nThree areas of focus:\n\nSafety. Missing PPE, people in danger zones, unsafe proximity to machines.\n\nQuality and hygiene. Missing hairnets or gloves, clean-zone breaches, missing caps or labels.\n\nOperations. Stopped lines, slow stations, empty workstations, and where the time actually goes.\n\nAll video is processed locally on an edge device installed at your site. Nothing is streamed off your premises, and your footage and data stay yours.\n\nLahza is an AI vision platform based in Amman, built with Jordanian-German engineering and research partnerships with the German Jordanian University and Al Hussein Technical University.\n\nManufacturing teams use Lahza to see what is really happening on the line, understand what is holding performance back, and improve with confidence, not assumptions.",
+      "website": "https://lahza.ai/",
+      "foundedYear": 2026,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "employeeRange": "11-50",
+      "headquarters": "Amman, Jordan",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Consulting",
+        "Manufacturing",
+        "Software"
+      ],
+      "sectors": [
+        "Manufacturing",
+        "Professional Services",
+        "Software"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 282087,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2026-06-01",
+      "lastFundingType": "Pre Seed",
+      "rounds": [
+        {
+          "announcedDate": "2026-06-01",
+          "amount": {
+            "amount": 282087,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "postMoneyValuation": {
+            "amount": 3102961,
+            "currency": "USD"
+          },
+          "type": "Pre Seed"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "name": "Angel Investor",
+            "rounds": [
+              "Pre Seed Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 1,
+      "includedUniqueCount": 1,
+      "items": [
+        {
+          "date": "2026-06-01",
+          "title": "Pre Seed Round - Lahza"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 282087,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": 7,
+      "growthScore": 94,
+      "heatChange90Days": 32,
+      "heatScore": 92
+    },
+    "modelPredictions": {
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 83.29
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors."
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Pre Seed round raised $282,087, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $3,102,961 to $3,102,961, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 94 (+7 over 90 days) and market heat at 92 (+32).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

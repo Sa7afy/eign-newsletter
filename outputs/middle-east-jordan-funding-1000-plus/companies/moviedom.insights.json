@@ -1,0 +1,221 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T12:36:48.123Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T12:36:48.122Z",
+    "url": "https://www.crunchbase.com/organization/moviedom"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Moviedom",
+      "shortDescription": "MovieDOM is a blockchain-powered entertainment ecosystem designed to revolutionize how films, events, and digital content are funded.",
+      "description": "MovieDOM is building an open, borderless entertainment ecosystem designed to empower filmmakers, musicians, and fans to collaboratively own and shape the future of content creation.\n\nThe platform’s vision centers on decentralizing the entertainment industry by enabling creators and audiences to participate directly in the development, funding, and success of creative projects. By fostering co-ownership and community-driven collaboration, MovieDOM aims to create a more inclusive and transparent model for the next generation of entertainment.\n\nThrough this approach, the company seeks to strengthen connections between creators and fans while unlocking new opportunities for participation, engagement, and shared value creation across film, music, and digital media.",
+      "website": "https://moviedom.com/",
+      "foundedYear": 2021,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "11-50",
+      "headquarters": "Dubai, United Arab Emirates",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Media and Entertainment"
+      ],
+      "sectors": [
+        "Media and Entertainment"
+      ],
+      "founders": [
+        "Hira Bulani"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 23000000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 2,
+      "detailedRoundCount": 2,
+      "lastFundingDate": "2025-12-24",
+      "lastFundingType": "Venture round",
+      "rounds": [
+        {
+          "announcedDate": "2025-12-24",
+          "amount": {
+            "amount": 20000000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "Nimbus Capital"
+          ],
+          "postMoneyValuation": {
+            "amount": 102887871,
+            "currency": "USD"
+          },
+          "type": "Venture round"
+        },
+        {
+          "announcedDate": "2025-10-08",
+          "amount": {
+            "amount": 3000000,
+            "currency": "USD"
+          },
+          "investorCount": 2,
+          "leadInvestors": [
+            "FasterCapital"
+          ],
+          "postMoneyValuation": {
+            "amount": 24485670,
+            "currency": "USD"
+          },
+          "type": "Seed"
+        }
+      ],
+      "investors": {
+        "reportedCount": 3,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "FasterCapital",
+            "rounds": [
+              "Seed Round"
+            ]
+          },
+          {
+            "isLead": true,
+            "name": "Nimbus Capital",
+            "rounds": [
+              "Venture round"
+            ]
+          },
+          {
+            "name": "Unsync Ventures",
+            "rounds": [
+              "Seed Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 2,
+      "includedUniqueCount": 2,
+      "items": [
+        {
+          "date": "2025-12-24",
+          "title": "Venture Round - Moviedom"
+        },
+        {
+          "date": "2025-10-08",
+          "title": "Seed Round - Moviedom"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 2,
+    "knownDetailedFundingAmount": {
+      "amount": 23000000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 86.96,
+    "latestToEarliestKnownValuationMultiple": 4.2
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": -3,
+      "growthScore": 63,
+      "heatChange90Days": -27,
+      "heatScore": 16
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 76.08
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 76.72,
+        "timingEstimatePercent": {
+          "within6Months": 99.99,
+          "months6To11": 0,
+          "months12To24": 0,
+          "beyond24Months": 0.01
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 95.8
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 4.06
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors."
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Venture round round raised $20,000,000, or 86.96% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $24,485,670 to $102,887,871, a 4.2x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 63 (-3 over 90 days) and market heat at 16 (-27).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

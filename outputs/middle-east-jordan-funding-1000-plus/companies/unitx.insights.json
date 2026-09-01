@@ -1,0 +1,241 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T13:50:58.195Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T13:50:58.193Z",
+    "url": "https://www.crunchbase.com/organization/unitx"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "UnitX",
+      "shortDescription": "We automate workplace safety and security using AI",
+      "description": "UnitX is a deep tech company that automates safety & security monitoring at industrial sites. Vizard, our patent-pending AI platform, leverages sensor data & video analytics to equip HSE & Security managers with real-time actionable insights. It detects life-threatening hazards such as worker falls, heat stress, etc., identifies and tracks workers, monitors restricted zones, and more. We help enhance worker safety, minimize incident risks and reduce operational costs while adhering to the highest levels of responsible AI and ethics. UnitX is an ISO certified company recognized by SDAIA & NVIDIA.",
+      "website": "https://unitx.io/",
+      "foundedYear": 2018,
+      "operatingStatus": "Closed",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "11-50",
+      "estimatedRevenueRange": "$1M-$10M",
+      "headquarters": "Thuwal, Ha'il, Saudi Arabia",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Artificial Intelligence (AI)",
+        "Computer Vision",
+        "Image Recognition",
+        "Machine Learning"
+      ],
+      "sectors": [
+        "Artificial Intelligence (AI)",
+        "Data and Analytics",
+        "Science and Engineering",
+        "Software"
+      ],
+      "founders": [
+        "Ankita Shree",
+        "Kiran Narayanan",
+        "Ravi Samtaney",
+        "Salman Kattan"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 2050000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 2,
+      "detailedRoundCount": 2,
+      "lastFundingDate": "2019-10-10",
+      "lastFundingType": "Seed",
+      "rounds": [
+        {
+          "announcedDate": "2019-10-10",
+          "amount": {
+            "amount": 2000000,
+            "currency": "USD"
+          },
+          "investorCount": 2,
+          "leadInvestors": [
+            "KAUST Innovation Fund",
+            "Wa’ed Ventures"
+          ],
+          "type": "Seed"
+        },
+        {
+          "announcedDate": "2018-06-10",
+          "amount": {
+            "amount": 50000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "type": "Pre Seed"
+        }
+      ],
+      "investors": {
+        "reportedCount": 2,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "KAUST Innovation Fund",
+            "rounds": [
+              "Seed Round",
+              "Pre Seed Round"
+            ]
+          },
+          {
+            "isLead": true,
+            "name": "Wa’ed Ventures",
+            "rounds": [
+              "Seed Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 3,
+      "includedUniqueCount": 3,
+      "items": [
+        {
+          "date": "2023-09-27",
+          "publisher": "PR Newswire",
+          "title": "UnitX Raises $5M from SE Ventures to Elevate Manufacturing Quality with AI-powered Defect Detection",
+          "url": "https://www.prnewswire.com/news-releases/unitx-raises-5m-from-se-ventures-to-elevate-manufacturing-quality-with-ai-powered-defect-detection-301940887.html"
+        },
+        {
+          "date": "2019-10-10",
+          "title": "Seed Round - UnitX"
+        },
+        {
+          "date": "2018-06-10",
+          "title": "Pre Seed Round - UnitX"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 2,
+    "knownDetailedFundingAmount": {
+      "amount": 2050000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 97.56
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "heatChange90Days": 1,
+      "heatScore": 56
+    },
+    "modelPredictions": {
+      "funding": {
+        "generatedDate": "2025-10-04",
+        "probabilityPercent": 13.18,
+        "timingEstimatePercent": {
+          "within6Months": 15.37,
+          "months6To11": 13.01,
+          "months12To24": 20.32,
+          "beyond24Months": 24.98
+        }
+      },
+      "growth": {
+        "generatedDate": "2025-10-04",
+        "probabilityPercent": 86.89
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Intelex develops software solutions for environment, health, safety, and quality (EHSQ) programs.",
+          "employeeRange": "251-500",
+          "name": "Intelex",
+          "similarityScore": 95
+        },
+        {
+          "description": "SGS is the world’s first full-spectrum artificial intelligence company devoted entirely to government and national defense.",
+          "name": "SparkCognition Government Systems",
+          "sharedCategories": [
+            "Machine Learning",
+            "Artificial Intelligence (AI)"
+          ],
+          "similarityScore": 94
+        },
+        {
+          "description": "Sphera offers risk management software, data, and consulting services.",
+          "employeeRange": "1,001-5,000",
+          "name": "Sphera",
+          "similarityScore": 91
+        },
+        {
+          "description": "Protex AI develops an AI-powered proactive health and safety technology that enables an injury-free industrial workplace.",
+          "employeeRange": "51-100",
+          "name": "Protex AI",
+          "sharedCategories": [
+            "Machine Learning",
+            "Computer Vision",
+            "Artificial Intelligence (AI)"
+          ],
+          "similarityScore": 87
+        },
+        {
+          "description": "See and prevent risks in real time with the converged EHS+ software platform.",
+          "employeeRange": "501-1,000",
+          "name": "Cority",
+          "sharedCategories": [
+            "Artificial Intelligence (AI)"
+          ],
+          "similarityScore": 85
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Seed round raised $2,000,000, or 97.56% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Intelex, SparkCognition Government Systems, Sphera.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

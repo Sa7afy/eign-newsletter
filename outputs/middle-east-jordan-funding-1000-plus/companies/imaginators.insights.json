@@ -1,0 +1,298 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T12:03:12.088Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T12:03:12.086Z",
+    "url": "https://www.crunchbase.com/organization/imaginators"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Imaginators",
+      "shortDescription": "Imaginators is an online platform that helps people to showcase their work professionally and interactively.",
+      "description": "Imaginators is an online platform that helps people to showcase their work professionally and interactively. Now you can build your online portfolio and create interactive presentations for your work just by dragging and dropping needed elements and customizing the design of your presentation. You can add animations and several content visualizing elements in your presentation to make it catchy.",
+      "website": "https://imginators.com/",
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "1-10",
+      "estimatedRevenueRange": "Less than $1M",
+      "headquarters": "Cairo, Al Qahirah, Egypt",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Middle East",
+        "Middle East and North Africa (MENA)",
+        "North Africa"
+      ],
+      "industries": [
+        "Presentations",
+        "Presentation Software",
+        "Productivity Tools",
+        "Social Media",
+        "Software"
+      ],
+      "sectors": [
+        "Internet Services",
+        "Media and Entertainment",
+        "Software"
+      ],
+      "founders": [
+        "Amr Naguib",
+        "Moody Boles"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 2753,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 2,
+      "detailedRoundCount": 2,
+      "lastFundingDate": "2017-07-01",
+      "lastFundingType": "Pre Seed",
+      "rounds": [
+        {
+          "announcedDate": "2017-07-01",
+          "investorCount": 2,
+          "leadInvestors": [
+            "Innoventures",
+            "VC4A"
+          ],
+          "postMoneyValuation": {
+            "amount": 369323,
+            "currency": "USD"
+          },
+          "type": "Pre Seed"
+        },
+        {
+          "announcedDate": "2017-06-17",
+          "amount": {
+            "amount": 2753,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "Orange"
+          ],
+          "type": "Grant"
+        }
+      ],
+      "investors": {
+        "reportedCount": 3,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "Innoventures",
+            "rounds": [
+              "Pre Seed Round"
+            ]
+          },
+          {
+            "isLead": true,
+            "name": "Orange",
+            "rounds": [
+              "Grant"
+            ]
+          },
+          {
+            "isLead": true,
+            "name": "VC4A",
+            "rounds": [
+              "Pre Seed Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 5,
+      "includedUniqueCount": 5,
+      "items": [
+        {
+          "date": "2017-12-19",
+          "publisher": "Tech Moran",
+          "title": "Innoventures Announces 4 Winners of Startup Reactor Cycle Four",
+          "url": "https://techmoran.com/innoventures-announces-4-winners-startup-reactor-cycle-four/"
+        },
+        {
+          "date": "2017-07-01",
+          "title": "Pre Seed Round - Imaginators"
+        },
+        {
+          "date": "2017-06-17",
+          "title": "Grant - Imaginators"
+        },
+        {
+          "date": "2017-05-10",
+          "title": "Imaginators: The Startup Founded by a 16-Years-Old Boy.",
+          "url": "http://egyptinnovate.com/en/innovation_digest/imaginators-startup-founded-16-years-old-boy"
+        },
+        {
+          "date": "2016-12-17",
+          "title": "أصغر أصحاب شركة ناشئة في قمة RiseUp",
+          "url": "http://insidermasr.com/miu/8604/%d8%a3%d8%b5%d8%ba%d8%b1-%d8%a3%d8%b5%d8%ad%d8%a7%d8%a8-%d8%b4%d8%b1%d9%83%d8%a9-%d9%86%d8%a7%d8%b4%d8%a6%d8%a9-%d9%81%d9%8a-%d9%82%d9%85%d8%a9-riseup/"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 2753,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "grantFunding": {
+      "amount": {
+        "amount": 2753,
+        "currency": "USD"
+      },
+      "disclosedRoundCount": 1,
+      "shareOfTotalPercent": 100
+    },
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": -3,
+      "growthScore": 3,
+      "heatChange90Days": -12,
+      "heatScore": 48
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 0
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 5.96,
+        "timingEstimatePercent": {
+          "within6Months": 14.1,
+          "months6To11": 12.11,
+          "months12To24": 19.34,
+          "beyond24Months": 24.8
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 91.36
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 0
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Adobe Portfolio specializes in web design and web hosting services.",
+          "employeeRange": "1-10",
+          "name": "Adobe Portfolio",
+          "similarityScore": 92
+        },
+        {
+          "description": "T2Earth is a forest products company that produces sustainable, toxic-chemical-free, and high-performance wood.",
+          "employeeRange": "11-50",
+          "name": "T2Earth",
+          "similarityScore": 91
+        },
+        {
+          "description": "Format is a powerful and easy-to-use online portfolio solution for photographers, artists, illustrators, and designers.",
+          "employeeRange": "11-50",
+          "name": "Format",
+          "sharedCategories": [
+            "Software"
+          ],
+          "similarityScore": 90
+        },
+        {
+          "description": "Dribbble is a fully remote company that helps global designers with motion design, illustrations, and graphic elements.",
+          "employeeRange": "1-10",
+          "name": "Dribbble Holdings Limited",
+          "sharedCategories": [
+            "Software"
+          ],
+          "similarityScore": 90
+        },
+        {
+          "description": "WordPress.com is a website builder that helps creators and businesses launch, manage, and scale websites and online brands.",
+          "employeeRange": "501-1,000",
+          "name": "WordPress.com",
+          "sharedCategories": [
+            "Software"
+          ],
+          "similarityScore": 88
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Meaningful non-dilutive funding",
+      "statement": "1 disclosed grants total $2,753, representing 100% of reported funding.",
+      "implication": "The grants reduce the share of reported financing attributed to equity or notes, although their restrictions and milestone requirements need separate verification.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.grantFunding"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $369,323 to $369,323, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 3 (-3 over 90 days) and market heat at 48 (-12).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Adobe Portfolio, T2Earth, Format.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

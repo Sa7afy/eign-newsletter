@@ -1,0 +1,212 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T11:59:46.569Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T11:59:46.568Z",
+    "url": "https://www.crunchbase.com/organization/hot-technologies"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "HOT Technologies",
+      "shortDescription": "HOT Technologies operates as a subscription-based fitness application.",
+      "description": "HOT Technologies is a subscription-based fitness application that makes fitness accessible and rewarding by putting exceptional workouts in your hands so that you can train anytime and anywhere. It includes thousands of hours of curated and localized fitness content. For instance, they host a daily schedule of live classes that cater to different levels and goals. During a live class, the coaches will challenge attendees, call their names during class, and invite them to their next classes. HOT will soon be launching exclusive content for guided personal training sessions, alongside other features.",
+      "website": "http://ahotlife.com/",
+      "foundedYear": 2018,
+      "operatingStatus": "Closed",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "1-10",
+      "headquarters": "Kuwait, Al Kuwayt",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Fitness",
+        "Health Care",
+        "Software",
+        "Wellness"
+      ],
+      "sectors": [
+        "Health Care",
+        "Software",
+        "Sports"
+      ],
+      "founders": [
+        "Nezar Saleh"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 1100000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2020-07-23",
+      "lastFundingType": "Seed",
+      "rounds": [
+        {
+          "announcedDate": "2020-07-23",
+          "amount": {
+            "amount": 1100000,
+            "currency": "USD"
+          },
+          "type": "Seed"
+        }
+      ]
+    },
+    "recentNews": {
+      "reportedCount": 2,
+      "includedUniqueCount": 2,
+      "items": [
+        {
+          "date": "2020-07-23",
+          "title": "Seed Round - HOT Technologies"
+        },
+        {
+          "date": "2020-07-20",
+          "publisher": "Wamda News",
+          "title": "HOT Technologies raises $1.1 million in seed funding",
+          "url": "https://www.wamda.com/2020/07/hot-technologies-raises-1-1-million-seed-funding"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 1100000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "heatChange90Days": 0,
+      "heatScore": 62
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2025-07-19",
+        "probabilityPercent": 3.89
+      },
+      "funding": {
+        "generatedDate": "2025-10-11",
+        "probabilityPercent": 19.93,
+        "timingEstimatePercent": {
+          "within6Months": 14.13,
+          "months6To11": 12.13,
+          "months12To24": 19.37,
+          "beyond24Months": 24.81
+        }
+      },
+      "growth": {
+        "generatedDate": "2025-10-11",
+        "probabilityPercent": 72.7
+      },
+      "ipo": {
+        "generatedDate": "2025-07-19",
+        "probabilityPercent": 16.44
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Peloton is an interactive fitness platform reinventing fitness with live and on-demand boutique studio classes.",
+          "employeeRange": "1,001-5,000",
+          "name": "Peloton",
+          "sharedCategories": [
+            "Fitness",
+            "Health Care",
+            "Wellness"
+          ],
+          "similarityScore": 97
+        },
+        {
+          "description": "DailyBurn offers a fitness and nutrition tracking app with features such as detailed tracking, online accountability, and motivation.",
+          "employeeRange": "11-50",
+          "name": "DailyBurn",
+          "sharedCategories": [
+            "Fitness",
+            "Health Care"
+          ],
+          "similarityScore": 95
+        },
+        {
+          "description": "Online yoga, fitness, and meditation classes.",
+          "employeeRange": "51-100",
+          "name": "Alo Moves",
+          "sharedCategories": [
+            "Health Care"
+          ],
+          "similarityScore": 91
+        },
+        {
+          "description": "Apple is a technology company that designs, manufactures, and markets consumer electronics, personal computers, and software.",
+          "employeeRange": "1-10",
+          "name": "Apple",
+          "similarityScore": 90
+        },
+        {
+          "description": "FitOn is a digital wellness platform focused on driving health outcomes for its 12M+ consumer, employee and health plan participant members.",
+          "employeeRange": "101-250",
+          "name": "FitOn",
+          "sharedCategories": [
+            "Fitness",
+            "Health Care",
+            "Wellness"
+          ],
+          "similarityScore": 89
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Seed round raised $1,100,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Peloton, DailyBurn, Alo Moves.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

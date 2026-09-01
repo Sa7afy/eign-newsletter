@@ -1,0 +1,246 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T11:49:14.580Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T11:49:14.578Z",
+    "url": "https://www.crunchbase.com/organization/gasnas"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "GasNas",
+      "shortDescription": "An energy solutions platform that is digitizing energy delivery, on-demand\" from suppliers to end users from one super application.",
+      "description": "An energy solutions platform that is digitizing energy transportation & delivery, on-demand\" from suppliers & distributors to end users from one super application.",
+      "website": "https://www.gasnas.com/",
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "11-50",
+      "estimatedRevenueRange": "Less than $1M",
+      "headquarters": "Amman, Jordan",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Delivery Service",
+        "Energy",
+        "Mobile Apps",
+        "Software"
+      ],
+      "sectors": [
+        "Apps",
+        "Energy",
+        "Mobile",
+        "Software",
+        "Transportation"
+      ],
+      "founders": [
+        "Mustafa Sadek"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "A mobile app that allows users to order gas cylinders on demand and track delivery in real time.",
+        "name": "GasNas Mobile Application"
+      },
+      {
+        "description": "A dedicated app for gas delivery drivers to manage and fulfill customer orders.",
+        "name": "GasNas Driver Application"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 600000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 2,
+      "detailedRoundCount": 2,
+      "lastFundingDate": "2021-01-01",
+      "lastFundingType": "Pre Seed",
+      "rounds": [
+        {
+          "announcedDate": "2021-01-01",
+          "amount": {
+            "amount": 400000,
+            "currency": "USD"
+          },
+          "postMoneyValuation": {
+            "amount": 2400000,
+            "currency": "USD"
+          },
+          "type": "Pre Seed"
+        },
+        {
+          "announcedDate": "2020-12-17",
+          "amount": {
+            "amount": 200000,
+            "currency": "USD"
+          },
+          "postMoneyValuation": {
+            "amount": 1636347,
+            "currency": "USD"
+          },
+          "type": "Angel"
+        }
+      ]
+    },
+    "recentNews": {
+      "reportedCount": 2,
+      "includedUniqueCount": 2,
+      "items": [
+        {
+          "date": "2021-01-01",
+          "title": "Pre Seed Round - GasNas"
+        },
+        {
+          "date": "2020-12-17",
+          "title": "Angel Round - GasNas"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 2,
+    "knownDetailedFundingAmount": {
+      "amount": 600000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 66.67,
+    "latestToEarliestKnownValuationMultiple": 1.47
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": 29,
+      "growthScore": 64,
+      "heatChange90Days": -6,
+      "heatScore": 24
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 0
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 16.03,
+        "timingEstimatePercent": {
+          "within6Months": 14.79,
+          "months6To11": 12.6,
+          "months12To24": 19.89,
+          "beyond24Months": 24.93
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 82.59
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 0
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Gasable is a digital marketplace connecting customers with on-demand energy solutions to enhancing sustainability throw AI and Blockchain.",
+          "employeeRange": "51-100",
+          "name": "Gasable",
+          "sharedCategories": [
+            "Energy"
+          ],
+          "sharedSpecialties": [
+            "Fleet Management Software",
+            "Fuel Distribution and Fleet Fueling",
+            "Energy Marketplaces and Trading",
+            "Propane Supply and Services"
+          ],
+          "similarityScore": 91
+        },
+        {
+          "description": "GCB offers accessible financial support wherever it is needed through helpful service and expert solutions.",
+          "employeeRange": "1,001-5,000",
+          "name": "Ghana Commercial Bank",
+          "similarityScore": 85
+        },
+        {
+          "description": "Happy Pay is a payment platform that delivers merchants, shoppers, and the planet.",
+          "employeeRange": "11-50",
+          "name": "Happy Pay",
+          "similarityScore": 85
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Pre Seed round raised $400,000, or 66.67% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $1,636,347 to $2,400,000, a 1.47x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 64 (+29 over 90 days) and market heat at 24 (-6).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Gasable, Ghana Commercial Bank, Happy Pay.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

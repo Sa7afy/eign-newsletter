@@ -1,0 +1,241 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T13:09:50.050Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T13:09:50.048Z",
+    "url": "https://www.crunchbase.com/organization/renovatenow"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "RenovateNow",
+      "shortDescription": "Platform, PropTech, marketplace for property improvement, home services digitization platform, Construction-tech enablement layer,",
+      "description": "RenovateNow is a proptech platform digitizing the fragmented home improvement and renovation market across the Middle East. It connects homeowners with verified professionals through a data-driven matching engine that simplifies discovery, communication, and transactions. The platform operates on a transaction-based model that scales efficiently without asset ownership. By combining trust verification, behavioral data, and workflow automation, RenovateNow is building the infrastructure layer for property improvement services. Every interaction strengthens its network effects and data moat, driving defensible growth across the region.",
+      "website": "https://www.renovatenow.ae/",
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "1-10",
+      "headquarters": "Dubai, United Arab Emirates",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Commercial Real Estate",
+        "Construction",
+        "Home Improvement",
+        "Home Renovation",
+        "Property Development",
+        "Property Management",
+        "Real Estate",
+        "Residential",
+        "Retail"
+      ],
+      "sectors": [
+        "Commerce and Shopping",
+        "Real Estate"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 100000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2025-10-01",
+      "lastFundingType": "Pre Seed",
+      "rounds": [
+        {
+          "announcedDate": "2025-10-01",
+          "amount": {
+            "amount": 100000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "Orbit Ventures"
+          ],
+          "postMoneyValuation": {
+            "amount": 1988421,
+            "currency": "USD"
+          },
+          "type": "Pre Seed"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "Orbit Ventures",
+            "rounds": [
+              "Pre Seed Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 1,
+      "includedUniqueCount": 1,
+      "items": [
+        {
+          "date": "2025-10-01",
+          "title": "Pre Seed Round - RenovateNow"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 100000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": -1,
+      "growthScore": 80,
+      "heatChange90Days": -9,
+      "heatScore": 52
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 31.76
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 90.56,
+        "timingEstimatePercent": {
+          "within6Months": 99.99,
+          "months6To11": 0.01,
+          "months12To24": 0,
+          "beyond24Months": 0
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 88.91
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 4.35
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "ServiceMarket is an online marketplace that provides quotes and online booking for moving, home services and insurance.",
+          "employeeRange": "11-50",
+          "name": "ServiceMarket",
+          "sharedCategories": [
+            "Home Improvement"
+          ],
+          "similarityScore": 91
+        },
+        {
+          "description": "Justlife is an online platform for a home service-based company.",
+          "employeeRange": "101-250",
+          "name": "Justlife",
+          "similarityScore": 87
+        },
+        {
+          "description": "Urban Company provides home cleaning, maintenance, and beauty treatment services conveniently delivered to the doorstep.",
+          "employeeRange": "1,001-5,000",
+          "name": "Urban Company",
+          "similarityScore": 85
+        },
+        {
+          "description": "Where to-do, gets done. A digital marketplace, connecting thousands of small Aussie businesses with genuine customers every day.",
+          "employeeRange": "51-100",
+          "name": "Oneflare",
+          "similarityScore": 81
+        },
+        {
+          "description": "mrusta is an online marketplace that connects customers to trusted service providers in the Middle East.",
+          "employeeRange": "1-10",
+          "name": "mrusta.com",
+          "similarityScore": 80
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Pre Seed round raised $100,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $1,988,421 to $1,988,421, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 80 (-1 over 90 days) and market heat at 52 (-9).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include ServiceMarket, Justlife, Urban Company.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

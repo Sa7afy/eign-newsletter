@@ -1,0 +1,251 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T13:34:52.346Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T13:34:52.344Z",
+    "url": "https://www.crunchbase.com/organization/switch-planes"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Switch Planes",
+      "shortDescription": "Hologram Advertising",
+      "description": "Advertising venues using Hologram",
+      "website": "https://switchplanes.com/",
+      "foundedYear": 2018,
+      "operatingStatus": "Closed",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "1-10",
+      "headquarters": "Dubai, United Arab Emirates",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Advertising",
+        "Marketing"
+      ],
+      "sectors": [
+        "Advertising",
+        "Sales and Marketing"
+      ],
+      "founders": [
+        "A R Sh"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 30000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 2,
+      "detailedRoundCount": 2,
+      "lastFundingDate": "2018-11-17",
+      "lastFundingType": "Pre Seed",
+      "rounds": [
+        {
+          "announcedDate": "2018-11-17",
+          "amount": {
+            "amount": 20000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "Tajir Al Youm"
+          ],
+          "postMoneyValuation": {
+            "amount": 170000,
+            "currency": "USD"
+          },
+          "type": "Pre Seed"
+        },
+        {
+          "announcedDate": "2018-04-03",
+          "amount": {
+            "amount": 10000,
+            "currency": "USD"
+          },
+          "investorCount": 2,
+          "leadInvestors": [
+            "A R Sh",
+            "Nihal Shaikh"
+          ],
+          "postMoneyValuation": {
+            "amount": 60000,
+            "currency": "USD"
+          },
+          "type": "Pre Seed"
+        }
+      ],
+      "investors": {
+        "reportedCount": 3,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "A R Sh",
+            "rounds": [
+              "Pre Seed Round"
+            ]
+          },
+          {
+            "isLead": true,
+            "name": "Nihal Shaikh",
+            "rounds": [
+              "Pre Seed Round"
+            ]
+          },
+          {
+            "isLead": true,
+            "name": "Tajir Al Youm",
+            "rounds": [
+              "Pre Seed Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 6,
+      "includedUniqueCount": 6,
+      "items": [
+        {
+          "date": "2021-09-02",
+          "title": "Switch Planes acquired by RYNMS"
+        },
+        {
+          "date": "2019-05-01",
+          "title": "Switch Planes acquired by PISIQ"
+        },
+        {
+          "date": "2018-11-17",
+          "title": "Pre Seed Round - Switch Planes"
+        },
+        {
+          "date": "2018-11-13",
+          "title": "Switch Planes acquired by Tajir Al Youm"
+        },
+        {
+          "date": "2018-06-24",
+          "title": "Switch Planes acquired by Shop Smart Group"
+        },
+        {
+          "date": "2018-04-03",
+          "title": "Pre Seed Round - Switch Planes"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 2,
+    "knownDetailedFundingAmount": {
+      "amount": 30000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 66.67,
+    "latestToEarliestKnownValuationMultiple": 2.83
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "heatChange90Days": -12,
+      "heatScore": 29
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "PORTL Hologram offers at-home hologram machines.",
+          "employeeRange": "51-100",
+          "name": "PROTO",
+          "similarityScore": 93
+        },
+        {
+          "description": "HYPERVSN is a hardware-enabled technology platform that enables users to create and display 3D holographic content without any headgear.",
+          "employeeRange": "101-250",
+          "name": "HYPERVSN",
+          "similarityScore": 92
+        },
+        {
+          "description": "Realfiction is a manufacturer of mixed reality solutions for retail, events, and brand activations.",
+          "employeeRange": "11-50",
+          "name": "Realfiction",
+          "sharedCategories": [
+            "Marketing",
+            "Advertising"
+          ],
+          "similarityScore": 90
+        },
+        {
+          "description": "Mæ is an architecture company for urban design and social infrastructure sectors.",
+          "employeeRange": "11-50",
+          "name": "Mæ",
+          "similarityScore": 87
+        },
+        {
+          "description": "3D CMS & digital asset management for enterprises. Auto-convert CAD files into interactive 3D eCommerce, sales & marketing",
+          "employeeRange": "11-50",
+          "name": "VNTANA",
+          "similarityScore": 80
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Pre Seed round raised $20,000, or 66.67% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $60,000 to $170,000, a 2.83x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include PROTO, HYPERVSN, Realfiction.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

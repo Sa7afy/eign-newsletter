@@ -1,0 +1,2471 @@
+{
+  "sourceUrl": "https://www.crunchbase.com/organization/coronamood",
+  "pageTitle": "coronamood",
+  "scrapedAt": "2026-09-01T11:16:36.216Z",
+  "extraction": {
+    "authenticated": true,
+    "method": "curl-cffi-authenticated-entity-fetch-no-browser"
+  },
+  "organization": {
+    "properties": {
+      "facet_ids": [
+        "builtwith",
+        "company",
+        "contact",
+        "rank"
+      ],
+      "identifier": {
+        "uuid": "edbbee45-c36e-4d55-9175-04179b15b4b4",
+        "value": "CORONAMOOD",
+        "image_id": "ejg4u66lq3erby3batzh",
+        "permalink": "coronamood",
+        "entity_def_id": "organization"
+      },
+      "short_description": "Nonprofit organization",
+      "rank_delta_d90": -0.2,
+      "title": "CORONAMOOD"
+    },
+    "cards": {
+      "semrush_summary": {
+        "identifier": {
+          "uuid": "edbbee45-c36e-4d55-9175-04179b15b4b4",
+          "value": "CORONAMOOD",
+          "image_id": "ejg4u66lq3erby3batzh",
+          "permalink": "coronamood",
+          "entity_def_id": "organization"
+        }
+      },
+      "key_employee_change_list": [],
+      "apptopia_attribution": {},
+      "diversity_spotlight_investments_headline": {},
+      "apptopia_app_rating_list": [],
+      "funds_summary": {
+        "identifier": {
+          "uuid": "edbbee45-c36e-4d55-9175-04179b15b4b4",
+          "value": "CORONAMOOD",
+          "image_id": "ejg4u66lq3erby3batzh",
+          "permalink": "coronamood",
+          "entity_def_id": "organization"
+        }
+      },
+      "funding_prediction": [],
+      "company_about_fields1": {},
+      "current_advisors_image_list": [],
+      "recommended_search": [
+        {
+          "identifier": {
+            "permalink": "closed-middle-east-companies",
+            "image_id": "zvwrwp9pquwdyvucpvab",
+            "uuid": "3e4ffa6e-7ea5-44e9-8a24-ef547503fd9c",
+            "entity_def_id": "hub",
+            "value": "Closed Middle East Companies"
+          },
+          "org_identifiers": [
+            {
+              "permalink": "aim-security",
+              "image_id": "zvwrwp9pquwdyvucpvab",
+              "uuid": "e75e8060-e042-46cb-b849-5a4014779185",
+              "entity_def_id": "organization",
+              "value": "Aim Security"
+            },
+            {
+              "permalink": "future-meat-technologies",
+              "image_id": "as8z7iqnkhmj9g7cwr7w",
+              "uuid": "ff2eedf4-9f69-4426-a52c-dc1e4a874a09",
+              "entity_def_id": "organization",
+              "value": "Believer Meats"
+            },
+            {
+              "permalink": "vulcan-cyber",
+              "image_id": "0f5e4d9bcd424f348edfee948d980139",
+              "uuid": "18b59b98-9e94-4b72-a5fd-f534217a266c",
+              "entity_def_id": "organization",
+              "value": "Vulcan Cyber"
+            },
+            {
+              "permalink": "sam-seamless-network",
+              "image_id": "rbldk6cvkuspaf3525mj",
+              "uuid": "d4eed887-6cd3-8af2-4b0a-3312a911678b",
+              "entity_def_id": "organization",
+              "value": "SAM Seamless Network"
+            },
+            {
+              "permalink": "perimeter-81",
+              "image_id": "fnykxpmwhyqjqfku8se8",
+              "uuid": "ad22a2a6-015d-4ff1-9516-f517cedebeee",
+              "entity_def_id": "organization",
+              "value": "Perimeter 81"
+            },
+            {
+              "permalink": "hellenic-bank",
+              "image_id": "v1488695598/d87zcrgpbesqz9oxlcke.png",
+              "uuid": "543102bd-9f07-aecf-5d89-2c08b2e4262f",
+              "entity_def_id": "organization",
+              "value": "Hellenic Bank"
+            },
+            {
+              "permalink": "guardicore",
+              "image_id": "f7ca7gms3i1xyzh3dwlz",
+              "uuid": "ef649444-dbfa-3c62-5bd3-1f1e856d0655",
+              "entity_def_id": "organization",
+              "value": "Guardicore"
+            },
+            {
+              "permalink": "fetchr",
+              "image_id": "v1433852729/qh0qghi4vyltapyyczlu.png",
+              "uuid": "cd8e3e9d-309c-60a2-2a88-8e4e4e629cc2",
+              "entity_def_id": "organization",
+              "value": "Fetchr"
+            }
+          ],
+          "org_funding_total": {
+            "currency": "USD",
+            "value": 13311530176,
+            "value_usd": 13311530176
+          },
+          "org_num_investors": 3703,
+          "org_num": 7081,
+          "queries": {
+            "event": [
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "e0272206-3430-48cb-a5bc-1d4b3eafe15a"
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "principal.has_event.forward",
+                "query": [
+                  {
+                    "field_id": "facet_ids",
+                    "operator_id": "includes",
+                    "values": [
+                      "company"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "closed"
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ],
+            "organization": [
+              {
+                "field_id": "facet_ids",
+                "operator_id": "includes",
+                "values": [
+                  "company"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "e0272206-3430-48cb-a5bc-1d4b3eafe15a"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "operating_status",
+                "operator_id": "eq",
+                "values": [
+                  "closed"
+                ],
+                "type": "predicate"
+              }
+            ],
+            "person": [
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "e0272206-3430-48cb-a5bc-1d4b3eafe15a"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "rank_person",
+                "operator_id": "lte",
+                "values": [
+                  1000000
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "organization.has_primary_organization.forward",
+                "query": [
+                  {
+                    "field_id": "facet_ids",
+                    "operator_id": "includes",
+                    "values": [
+                      "company"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "location_identifiers",
+                    "operator_id": "includes",
+                    "values": [
+                      "e0272206-3430-48cb-a5bc-1d4b3eafe15a"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "closed"
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ]
+          }
+        },
+        {
+          "identifier": {
+            "permalink": "closed-gulf-cooperation-council-companies",
+            "image_id": "v1433852729/qh0qghi4vyltapyyczlu.png",
+            "uuid": "244cc192-4dde-4ab1-98d3-6f2300a0bd6b",
+            "entity_def_id": "hub",
+            "value": "Closed Gulf Cooperation Council (GCC) Companies"
+          },
+          "org_identifiers": [
+            {
+              "permalink": "fetchr",
+              "image_id": "v1433852729/qh0qghi4vyltapyyczlu.png",
+              "uuid": "cd8e3e9d-309c-60a2-2a88-8e4e4e629cc2",
+              "entity_def_id": "organization",
+              "value": "Fetchr"
+            },
+            {
+              "permalink": "ikcon",
+              "image_id": "ljsqlpgspy1pcq0q90wl",
+              "uuid": "7c290555-4dbf-4cbd-890f-d556bf214e5b",
+              "entity_def_id": "organization",
+              "value": "iKcon"
+            },
+            {
+              "permalink": "wadi",
+              "image_id": "v1455512288/j5jbdeloxsckjjfriykq.png",
+              "uuid": "8300663d-f7e1-4269-c148-c040281a89aa",
+              "entity_def_id": "organization",
+              "value": "Wadi"
+            },
+            {
+              "permalink": "lunch-on",
+              "image_id": "iyjqgbtz5hjx1hswulnk",
+              "uuid": "e50bbde0-395e-9610-49e8-5da07b82b9aa",
+              "entity_def_id": "organization",
+              "value": "MUNCH:ON"
+            },
+            {
+              "permalink": "xyro",
+              "image_id": "202b235870c74502b682a3ad440fd2d2",
+              "uuid": "64d635f3-f386-4440-b898-84e562b00dd0",
+              "entity_def_id": "organization",
+              "value": "XYRO"
+            },
+            {
+              "permalink": "optima-6599",
+              "image_id": "31520d6db3dd423ab5008a4c5fbfbefc",
+              "uuid": "e2371942-64d2-4398-aed0-fc0c7ed36599",
+              "entity_def_id": "organization",
+              "value": "Optima"
+            },
+            {
+              "permalink": "eventtus",
+              "image_id": "uf3xtracasi8xp1ugavo",
+              "uuid": "121e4e82-3eaa-18a1-8a75-0778132d073b",
+              "entity_def_id": "organization",
+              "value": "Eventtus"
+            },
+            {
+              "permalink": "meddy",
+              "image_id": "o5ythlgiyn5o0vdobyga",
+              "uuid": "16275fd9-29b8-343b-5f73-ebffc75f0a8f",
+              "entity_def_id": "organization",
+              "value": "Meddy"
+            }
+          ],
+          "org_funding_total": {
+            "currency": "USD",
+            "value": 1722823431,
+            "value_usd": 1722823431
+          },
+          "org_num_investors": 397,
+          "org_num": 1764,
+          "queries": {
+            "event": [
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "c4365698-c7c5-44b0-b33a-7d13900e5be2"
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "principal.has_event.forward",
+                "query": [
+                  {
+                    "field_id": "facet_ids",
+                    "operator_id": "includes",
+                    "values": [
+                      "company"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "closed"
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ],
+            "organization": [
+              {
+                "field_id": "facet_ids",
+                "operator_id": "includes",
+                "values": [
+                  "company"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "c4365698-c7c5-44b0-b33a-7d13900e5be2"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "operating_status",
+                "operator_id": "eq",
+                "values": [
+                  "closed"
+                ],
+                "type": "predicate"
+              }
+            ],
+            "person": [
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "c4365698-c7c5-44b0-b33a-7d13900e5be2"
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "organization.has_primary_organization.forward",
+                "query": [
+                  {
+                    "field_id": "facet_ids",
+                    "operator_id": "includes",
+                    "values": [
+                      "company"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "location_identifiers",
+                    "operator_id": "includes",
+                    "values": [
+                      "c4365698-c7c5-44b0-b33a-7d13900e5be2"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "closed"
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ]
+          }
+        },
+        {
+          "identifier": {
+            "permalink": "closed-europe-middle-east-and-africa-companies",
+            "image_id": "v1425199547/gkrrhijmxcsw0376zude.jpg",
+            "uuid": "1dd499ca-05d6-4917-8ad9-8eaafb22e2d1",
+            "entity_def_id": "hub",
+            "value": "Closed Europe, Middle East, and Africa (EMEA) Companies (Top 10K)"
+          },
+          "org_identifiers": [
+            {
+              "permalink": "canal+",
+              "image_id": "v1425199547/gkrrhijmxcsw0376zude.jpg",
+              "uuid": "4f8558c2-e6e6-3aa8-51d4-23d26b775d37",
+              "entity_def_id": "organization",
+              "value": "Canal+"
+            },
+            {
+              "permalink": "builderai",
+              "image_id": "iinnnbiuh9vorcnxolit",
+              "uuid": "8e807421-bb0e-4be4-a62e-66ea29d3d5b2",
+              "entity_def_id": "organization",
+              "value": "Builder.ai"
+            },
+            {
+              "permalink": "aim-security",
+              "image_id": "zvwrwp9pquwdyvucpvab",
+              "uuid": "e75e8060-e042-46cb-b849-5a4014779185",
+              "entity_def_id": "organization",
+              "value": "Aim Security"
+            },
+            {
+              "permalink": "lilium-aviation",
+              "image_id": "iposwvumwnqegicehoyq",
+              "uuid": "74118a96-7180-6154-0b81-915e42cacb75",
+              "entity_def_id": "organization",
+              "value": "Lilium"
+            },
+            {
+              "permalink": "oneweb",
+              "image_id": "wcuqqjuv7s6ofhabnmnj",
+              "uuid": "26bedf21-dd8e-8027-51d8-933419b03e65",
+              "entity_def_id": "organization",
+              "value": "OneWeb"
+            },
+            {
+              "permalink": "ordo",
+              "image_id": "cee348ee82074bd1994a15e007f1782f",
+              "uuid": "36f7d76e-67b3-db7b-2361-9e017fc4a73b",
+              "entity_def_id": "organization",
+              "value": "Ordo"
+            },
+            {
+              "permalink": "holcim",
+              "image_id": "z2w6yfixt9wpjzsmxkx8",
+              "uuid": "f5520db1-05b6-2b2a-259c-3892ad6fed0a",
+              "entity_def_id": "organization",
+              "value": "Holcim"
+            },
+            {
+              "permalink": "rechargecom",
+              "image_id": "mv7cvovsxwns3qnyrq9b",
+              "uuid": "5364e01b-63b7-482a-9b76-0692b9db60ec",
+              "entity_def_id": "organization",
+              "value": "Recharge"
+            }
+          ],
+          "org_funding_total": {
+            "currency": "USD",
+            "value": 99249250246,
+            "value_usd": 99249250246
+          },
+          "org_num_investors": 17568,
+          "org_num": 9978,
+          "queries": {
+            "event": [
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "4e8be435-c63a-4aff-8a2f-44a880d9c341"
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "principal.has_event.forward",
+                "query": [
+                  {
+                    "field_id": "facet_ids",
+                    "operator_id": "includes",
+                    "values": [
+                      "company"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "closed"
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ],
+            "organization": [
+              {
+                "field_id": "facet_ids",
+                "operator_id": "includes",
+                "values": [
+                  "company"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "4e8be435-c63a-4aff-8a2f-44a880d9c341"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "operating_status",
+                "operator_id": "eq",
+                "values": [
+                  "closed"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "rank_org",
+                "operator_id": "lte",
+                "values": [
+                  990000
+                ],
+                "type": "predicate"
+              }
+            ],
+            "person": [
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "4e8be435-c63a-4aff-8a2f-44a880d9c341"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "rank_person",
+                "operator_id": "lte",
+                "values": [
+                  340000
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "organization.has_primary_organization.forward",
+                "query": [
+                  {
+                    "field_id": "facet_ids",
+                    "operator_id": "includes",
+                    "values": [
+                      "company"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "location_identifiers",
+                    "operator_id": "includes",
+                    "values": [
+                      "4e8be435-c63a-4aff-8a2f-44a880d9c341"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "closed"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "rank_org",
+                    "operator_id": "lte",
+                    "values": [
+                      990000
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ]
+          }
+        },
+        {
+          "identifier": {
+            "permalink": "closed-city-of-dubai-companies",
+            "image_id": "v1433852729/qh0qghi4vyltapyyczlu.png",
+            "uuid": "d55a2985-cab6-4e40-ab12-f2e0cbcb2b12",
+            "entity_def_id": "hub",
+            "value": "Closed City of Dubai Companies"
+          },
+          "org_identifiers": [
+            {
+              "permalink": "fetchr",
+              "image_id": "v1433852729/qh0qghi4vyltapyyczlu.png",
+              "uuid": "cd8e3e9d-309c-60a2-2a88-8e4e4e629cc2",
+              "entity_def_id": "organization",
+              "value": "Fetchr"
+            },
+            {
+              "permalink": "ikcon",
+              "image_id": "ljsqlpgspy1pcq0q90wl",
+              "uuid": "7c290555-4dbf-4cbd-890f-d556bf214e5b",
+              "entity_def_id": "organization",
+              "value": "iKcon"
+            },
+            {
+              "permalink": "wadi",
+              "image_id": "v1455512288/j5jbdeloxsckjjfriykq.png",
+              "uuid": "8300663d-f7e1-4269-c148-c040281a89aa",
+              "entity_def_id": "organization",
+              "value": "Wadi"
+            },
+            {
+              "permalink": "lunch-on",
+              "image_id": "iyjqgbtz5hjx1hswulnk",
+              "uuid": "e50bbde0-395e-9610-49e8-5da07b82b9aa",
+              "entity_def_id": "organization",
+              "value": "MUNCH:ON"
+            },
+            {
+              "permalink": "xyro",
+              "image_id": "202b235870c74502b682a3ad440fd2d2",
+              "uuid": "64d635f3-f386-4440-b898-84e562b00dd0",
+              "entity_def_id": "organization",
+              "value": "XYRO"
+            },
+            {
+              "permalink": "optima-6599",
+              "image_id": "31520d6db3dd423ab5008a4c5fbfbefc",
+              "uuid": "e2371942-64d2-4398-aed0-fc0c7ed36599",
+              "entity_def_id": "organization",
+              "value": "Optima"
+            },
+            {
+              "permalink": "eventtus",
+              "image_id": "uf3xtracasi8xp1ugavo",
+              "uuid": "121e4e82-3eaa-18a1-8a75-0778132d073b",
+              "entity_def_id": "organization",
+              "value": "Eventtus"
+            },
+            {
+              "permalink": "souqalmal",
+              "image_id": "eknjup1mjnuy7uebhhl6",
+              "uuid": "1f5c620c-92b6-9a63-2be1-38fbf1aba253",
+              "entity_def_id": "organization",
+              "value": "Souqalmal"
+            }
+          ],
+          "org_funding_total": {
+            "currency": "USD",
+            "value": 1605409286,
+            "value_usd": 1605409286
+          },
+          "org_num_investors": 263,
+          "org_num": 1026,
+          "queries": {
+            "event": [
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "0e8010ee-2f59-38db-b7e2-998e92dde222"
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "principal.has_event.forward",
+                "query": [
+                  {
+                    "field_id": "facet_ids",
+                    "operator_id": "includes",
+                    "values": [
+                      "company"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "closed"
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ],
+            "organization": [
+              {
+                "field_id": "facet_ids",
+                "operator_id": "includes",
+                "values": [
+                  "company"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "0e8010ee-2f59-38db-b7e2-998e92dde222"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "operating_status",
+                "operator_id": "eq",
+                "values": [
+                  "closed"
+                ],
+                "type": "predicate"
+              }
+            ],
+            "person": [
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "0e8010ee-2f59-38db-b7e2-998e92dde222"
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "organization.has_primary_organization.forward",
+                "query": [
+                  {
+                    "field_id": "facet_ids",
+                    "operator_id": "includes",
+                    "values": [
+                      "company"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "location_identifiers",
+                    "operator_id": "includes",
+                    "values": [
+                      "0e8010ee-2f59-38db-b7e2-998e92dde222"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "closed"
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ]
+          }
+        }
+      ],
+      "org_similarity_org_list": [],
+      "investors_summary": {
+        "identifier": {
+          "uuid": "edbbee45-c36e-4d55-9175-04179b15b4b4",
+          "value": "CORONAMOOD",
+          "image_id": "ejg4u66lq3erby3batzh",
+          "permalink": "coronamood",
+          "entity_def_id": "organization"
+        }
+      },
+      "funds_list": [],
+      "alumni_image_list": [],
+      "semrush_overview_headline": {},
+      "frequently_asked_questions_total_funding": {
+        "funding_total": {
+          "value": 10000,
+          "currency": "AED",
+          "value_usd": 2722
+        },
+        "identifier": {
+          "uuid": "edbbee45-c36e-4d55-9175-04179b15b4b4",
+          "value": "CORONAMOOD",
+          "image_id": "ejg4u66lq3erby3batzh",
+          "permalink": "coronamood",
+          "entity_def_id": "organization"
+        }
+      },
+      "exits_summary": {
+        "identifier": {
+          "uuid": "edbbee45-c36e-4d55-9175-04179b15b4b4",
+          "value": "CORONAMOOD",
+          "image_id": "ejg4u66lq3erby3batzh",
+          "permalink": "coronamood",
+          "entity_def_id": "organization"
+        }
+      },
+      "partnership_announcements": [],
+      "bombora_surge_list": [],
+      "diversity_spotlight_investments_list": [],
+      "builtwith_tech_used_list": [],
+      "funding_rounds_summary": {
+        "identifier": {
+          "uuid": "edbbee45-c36e-4d55-9175-04179b15b4b4",
+          "value": "CORONAMOOD",
+          "image_id": "ejg4u66lq3erby3batzh",
+          "permalink": "coronamood",
+          "entity_def_id": "organization"
+        },
+        "last_funding_type": "grant",
+        "last_funding_at": "2020-01-30",
+        "funding_total": {
+          "value": 10000,
+          "currency": "AED",
+          "value_usd": 2722
+        },
+        "num_funding_rounds": 1
+      },
+      "org_similarity_list": [],
+      "ipo_prediction": [],
+      "acquisitions_summary": {
+        "identifier": {
+          "uuid": "edbbee45-c36e-4d55-9175-04179b15b4b4",
+          "value": "CORONAMOOD",
+          "image_id": "ejg4u66lq3erby3batzh",
+          "permalink": "coronamood",
+          "entity_def_id": "organization"
+        }
+      },
+      "advisors_summary": {
+        "identifier": {
+          "uuid": "edbbee45-c36e-4d55-9175-04179b15b4b4",
+          "value": "CORONAMOOD",
+          "image_id": "ejg4u66lq3erby3batzh",
+          "permalink": "coronamood",
+          "entity_def_id": "organization"
+        }
+      },
+      "acquisitions_list": [],
+      "exits_headline": {},
+      "investments_summary": {
+        "identifier": {
+          "uuid": "edbbee45-c36e-4d55-9175-04179b15b4b4",
+          "value": "CORONAMOOD",
+          "image_id": "ejg4u66lq3erby3batzh",
+          "permalink": "coronamood",
+          "entity_def_id": "organization"
+        }
+      },
+      "acquired_by_fields": {},
+      "research_insight_text_link": {},
+      "acquisition_prediction": [],
+      "sub_organizations_headline": {},
+      "layoff_list": [],
+      "growth_and_heat": {
+        "heat_score": 30,
+        "heat_score_delta_d90": -11,
+        "heat_score_history": {
+          "periods": {
+            "i1": {
+              "values": [
+                30,
+                31,
+                15,
+                15,
+                16,
+                16,
+                16,
+                16,
+                16,
+                17,
+                17,
+                17,
+                17,
+                17,
+                18,
+                18,
+                18,
+                18,
+                18,
+                19,
+                19,
+                19,
+                19,
+                19,
+                19,
+                20,
+                20,
+                20,
+                20,
+                20,
+                21,
+                21,
+                21,
+                21,
+                21,
+                21,
+                22,
+                22,
+                22,
+                23,
+                23,
+                24,
+                24,
+                25,
+                25,
+                25,
+                26,
+                26,
+                27,
+                27,
+                27,
+                28,
+                28,
+                29,
+                29,
+                29,
+                30,
+                30,
+                30,
+                31,
+                31,
+                32,
+                32,
+                32,
+                33,
+                33,
+                33,
+                34,
+                34,
+                34,
+                35,
+                35,
+                35,
+                36,
+                36,
+                36,
+                37,
+                37,
+                37,
+                38,
+                38,
+                38,
+                39,
+                39,
+                39,
+                40,
+                40,
+                40,
+                41,
+                41
+              ],
+              "interval": 1
+            },
+            "i2": {
+              "values": [
+                30,
+                15,
+                16,
+                16,
+                17,
+                17,
+                17,
+                18,
+                18,
+                19,
+                19,
+                19,
+                20,
+                20,
+                20,
+                21,
+                21,
+                21,
+                22,
+                23,
+                24,
+                25,
+                25,
+                26,
+                27,
+                28,
+                29,
+                29,
+                30,
+                31,
+                32,
+                32,
+                33,
+                34,
+                34,
+                35,
+                36,
+                36,
+                37,
+                38,
+                38,
+                39,
+                40,
+                40,
+                41,
+                41,
+                42,
+                43,
+                34,
+                24,
+                25,
+                25,
+                25,
+                26,
+                26,
+                26,
+                26,
+                27,
+                27,
+                27,
+                27,
+                28,
+                28,
+                28,
+                28,
+                29,
+                29,
+                29,
+                29,
+                30,
+                30,
+                30,
+                30,
+                31,
+                31,
+                31,
+                31,
+                32,
+                32,
+                32,
+                32,
+                32,
+                33,
+                33,
+                33,
+                33,
+                33,
+                34,
+                34,
+                34,
+                34
+              ],
+              "interval": 2
+            },
+            "i4": {
+              "values": [
+                30,
+                16,
+                17,
+                18,
+                18,
+                19,
+                20,
+                21,
+                21,
+                22,
+                24,
+                26,
+                27,
+                29,
+                30,
+                32,
+                33,
+                35,
+                36,
+                37,
+                39,
+                40,
+                41,
+                42,
+                29,
+                25,
+                25,
+                26,
+                27,
+                27,
+                28,
+                28,
+                29,
+                29,
+                30,
+                30,
+                31,
+                31,
+                31,
+                32,
+                32,
+                33,
+                33,
+                34,
+                34,
+                34,
+                35,
+                35,
+                36,
+                36,
+                36,
+                37,
+                37,
+                37,
+                38,
+                39,
+                40,
+                41,
+                43,
+                44,
+                45,
+                47,
+                50,
+                52,
+                55,
+                57,
+                60,
+                63,
+                66,
+                68,
+                68,
+                64,
+                65,
+                67,
+                70,
+                69,
+                69,
+                70,
+                70,
+                70,
+                70,
+                71,
+                67,
+                65,
+                65,
+                63,
+                62,
+                62,
+                60,
+                61,
+                62,
+                55
+              ],
+              "interval": 4
+            },
+            "i7": {
+              "values": [
+                30,
+                17,
+                18,
+                19,
+                21,
+                22,
+                25,
+                28,
+                31,
+                33,
+                36,
+                38,
+                40,
+                40,
+                25,
+                26,
+                27,
+                28,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                33,
+                34,
+                35,
+                35,
+                36,
+                37,
+                37,
+                38,
+                40,
+                43,
+                45,
+                49,
+                53,
+                58,
+                62,
+                67,
+                66,
+                65,
+                69,
+                69,
+                70,
+                70,
+                70,
+                65,
+                64,
+                62,
+                61,
+                62,
+                57,
+                55,
+                56,
+                57,
+                59,
+                63,
+                67,
+                67,
+                56,
+                54,
+                55,
+                57,
+                56,
+                55,
+                52,
+                50,
+                51,
+                47,
+                41,
+                43,
+                41,
+                37,
+                39,
+                41,
+                43,
+                44,
+                36,
+                36,
+                38,
+                41,
+                45,
+                50,
+                54,
+                58,
+                59,
+                61,
+                64,
+                68,
+                62,
+                59,
+                61,
+                52,
+                45,
+                48,
+                50,
+                42,
+                44,
+                38,
+                33,
+                34,
+                38,
+                41,
+                44
+              ],
+              "interval": 7
+            },
+            "i18": {
+              "values": [
+                30,
+                20,
+                25,
+                32,
+                38,
+                32,
+                27,
+                29,
+                31,
+                33,
+                35,
+                37,
+                40,
+                46,
+                57,
+                66,
+                68,
+                70,
+                66,
+                62,
+                58,
+                57,
+                64,
+                59,
+                56,
+                54,
+                51,
+                42,
+                39,
+                42,
+                39,
+                40,
+                50,
+                59,
+                65,
+                61,
+                50,
+                47,
+                40,
+                35,
+                41,
+                42,
+                42,
+                30,
+                41,
+                51,
+                51,
+                43,
+                28,
+                29,
+                36,
+                44,
+                51,
+                50,
+                51,
+                46,
+                47,
+                34,
+                41,
+                50,
+                57,
+                60,
+                58,
+                40,
+                47,
+                45,
+                44,
+                37,
+                35,
+                43,
+                50,
+                45,
+                50,
+                43,
+                45,
+                35,
+                42,
+                50,
+                54,
+                52,
+                43,
+                45,
+                38,
+                34,
+                38,
+                31,
+                12,
+                17,
+                22,
+                22,
+                11,
+                13,
+                14,
+                15,
+                16,
+                18,
+                24,
+                28,
+                27,
+                19,
+                21,
+                27
+              ],
+              "interval": 18
+            },
+            "i36": {
+              "values": [
+                30,
+                29,
+                35,
+                28,
+                32,
+                36,
+                43,
+                61,
+                69,
+                64,
+                57,
+                62,
+                55,
+                47,
+                40,
+                39,
+                54,
+                63,
+                49,
+                38,
+                42,
+                36,
+                46,
+                47,
+                28,
+                40,
+                51,
+                49,
+                40,
+                46,
+                59,
+                49,
+                46,
+                41,
+                39,
+                48,
+                46,
+                40,
+                46,
+                53,
+                44,
+                36,
+                34,
+                14,
+                22,
+                12,
+                14,
+                17,
+                26,
+                23,
+                25,
+                40,
+                42,
+                48,
+                34,
+                44,
+                53,
+                62,
+                65,
+                65,
+                76,
+                88,
+                69,
+                8,
+                1,
+                12,
+                33
+              ],
+              "interval": 36
+            }
+          }
+        },
+        "heat_trend_365": {
+          "periods": {
+            "i1": {
+              "values": [
+                -22,
+                -23,
+                -36,
+                -37,
+                -37,
+                -37,
+                -34,
+                -35,
+                -35,
+                -35,
+                -35,
+                -32,
+                -32,
+                -33,
+                -33,
+                -33,
+                -33,
+                -34,
+                -34,
+                -34,
+                -34,
+                -34,
+                -34,
+                -32,
+                -32,
+                -32,
+                -32,
+                -32,
+                -33,
+                -33,
+                -33,
+                -33,
+                -33,
+                -34,
+                -34,
+                -34,
+                -34,
+                -34,
+                -34,
+                -34,
+                -34,
+                -34,
+                -34,
+                -34,
+                -33,
+                -33,
+                -33,
+                -33,
+                -33,
+                -31,
+                -31,
+                -31,
+                -31,
+                -31,
+                -29,
+                -27,
+                -24,
+                -24,
+                -20,
+                -20,
+                -20,
+                -20,
+                -20,
+                -21,
+                -21,
+                -17,
+                -17,
+                -17,
+                -17,
+                -17,
+                -17,
+                -17,
+                -17,
+                -17,
+                -18,
+                -18,
+                -18,
+                -18,
+                -18,
+                -18,
+                -18,
+                -14,
+                -14,
+                -15,
+                -15,
+                -15,
+                -15,
+                -15,
+                -11,
+                -11
+              ],
+              "interval": 1
+            },
+            "i2": {
+              "values": [
+                -22,
+                -36,
+                -37,
+                -34,
+                -35,
+                -33,
+                -32,
+                -33,
+                -33,
+                -34,
+                -34,
+                -33,
+                -32,
+                -32,
+                -33,
+                -33,
+                -33,
+                -34,
+                -34,
+                -34,
+                -34,
+                -34,
+                -33,
+                -33,
+                -32,
+                -31,
+                -31,
+                -28,
+                -24,
+                -20,
+                -20,
+                -20,
+                -19,
+                -17,
+                -17,
+                -17,
+                -17,
+                -18,
+                -18,
+                -18,
+                -16,
+                -14,
+                -15,
+                -15,
+                -11,
+                -11,
+                -11,
+                -12,
+                -18,
+                -25,
+                -25,
+                -25,
+                -26,
+                -21,
+                -22,
+                -22,
+                -22,
+                -23,
+                -23,
+                -23,
+                -21,
+                -15,
+                -11,
+                -12,
+                -12,
+                -13,
+                -13,
+                -14,
+                -14,
+                -14,
+                -15,
+                -10,
+                -6,
+                -6,
+                -6,
+                -7,
+                -7,
+                -7,
+                -8,
+                -8,
+                -8,
+                -8,
+                -9,
+                -9,
+                -9,
+                -9,
+                -10,
+                -10,
+                -10,
+                -10,
+                -11
+              ],
+              "interval": 2
+            },
+            "i4": {
+              "values": [
+                -22,
+                -36,
+                -34,
+                -33,
+                -34,
+                -33,
+                -32,
+                -33,
+                -34,
+                -34,
+                -34,
+                -33,
+                -31,
+                -29,
+                -22,
+                -20,
+                -18,
+                -17,
+                -17,
+                -18,
+                -15,
+                -15,
+                -11,
+                -11,
+                -22,
+                -25,
+                -24,
+                -22,
+                -23,
+                -23,
+                -18,
+                -12,
+                -13,
+                -13,
+                -14,
+                -12,
+                -6,
+                -6,
+                -7,
+                -8,
+                -8,
+                -9,
+                -9,
+                -10,
+                -10,
+                -5,
+                1,
+                0,
+                -1,
+                -2,
+                -3,
+                -4,
+                -6,
+                -8,
+                -10,
+                -12,
+                -12,
+                -13,
+                -14,
+                -15,
+                -11,
+                -11,
+                -10,
+                -10,
+                -9,
+                -8,
+                -3,
+                1,
+                6,
+                7,
+                5,
+                8,
+                11,
+                20,
+                23,
+                21,
+                20,
+                19,
+                23,
+                28,
+                26,
+                26,
+                25,
+                36,
+                35,
+                33,
+                31,
+                27,
+                22,
+                21,
+                19,
+                11
+              ],
+              "interval": 4
+            },
+            "i7": {
+              "values": [
+                -22,
+                -34,
+                -34,
+                -33,
+                -33,
+                -34,
+                -33,
+                -30,
+                -21,
+                -18,
+                -17,
+                -16,
+                -13,
+                -13,
+                -25,
+                -22,
+                -23,
+                -17,
+                -13,
+                -14,
+                -10,
+                -7,
+                -8,
+                -9,
+                -10,
+                -10,
+                1,
+                -1,
+                -3,
+                -5,
+                -8,
+                -11,
+                -13,
+                -14,
+                -12,
+                -11,
+                -9,
+                -8,
+                2,
+                6,
+                6,
+                13,
+                23,
+                20,
+                20,
+                27,
+                25,
+                31,
+                34,
+                30,
+                23,
+                20,
+                15,
+                16,
+                14,
+                13,
+                13,
+                17,
+                50,
+                44,
+                25,
+                17,
+                14,
+                11,
+                6,
+                2,
+                -2,
+                1,
+                6,
+                3,
+                -2,
+                11,
+                17,
+                12,
+                13,
+                13,
+                12,
+                10,
+                -3,
+                -5,
+                -6,
+                -7,
+                -6,
+                -2,
+                3,
+                8,
+                9,
+                7,
+                13,
+                23,
+                15,
+                11,
+                10,
+                9,
+                9,
+                15,
+                15,
+                3,
+                2,
+                -7,
+                -15,
+                -17,
+                -16,
+                -13,
+                -13
+              ],
+              "interval": 7
+            },
+            "i18": {
+              "values": [
+                -22,
+                -33,
+                -33,
+                -20,
+                -16,
+                -19,
+                -20,
+                -13,
+                -7,
+                -9,
+                -2,
+                -5,
+                -12,
+                -12,
+                -7,
+                6,
+                19,
+                23,
+                31,
+                26,
+                16,
+                13,
+                31,
+                29,
+                12,
+                1,
+                4,
+                3,
+                14,
+                13,
+                1,
+                -6,
+                -1,
+                8,
+                15,
+                12,
+                9,
+                12,
+                -3,
+                -16,
+                -14,
+                -16,
+                -8,
+                -12,
+                -6,
+                7,
+                5,
+                11,
+                -10,
+                -16,
+                -13,
+                -2,
+                4,
+                6,
+                9,
+                11,
+                2,
+                -16,
+                -12,
+                1,
+                14,
+                13,
+                28,
+                5,
+                11,
+                27,
+                44,
+                25,
+                15,
+                34,
+                55,
+                45,
+                49,
+                37,
+                39,
+                20,
+                20,
+                24,
+                38,
+                42,
+                24,
+                15,
+                -1,
+                -8,
+                -4,
+                -15,
+                -38,
+                -20,
+                -12,
+                -15,
+                -31,
+                -34,
+                -36,
+                -34,
+                -38,
+                -38,
+                -33,
+                -31,
+                -29,
+                -39,
+                -40,
+                -38
+              ],
+              "interval": 18
+            },
+            "i36": {
+              "values": [
+                -22,
+                -27,
+                -18,
+                -17,
+                -8,
+                -4,
+                -12,
+                0,
+                21,
+                28,
+                15,
+                30,
+                7,
+                4,
+                13,
+                -3,
+                3,
+                14,
+                10,
+                -10,
+                -15,
+                -10,
+                1,
+                8,
+                -13,
+                -7,
+                5,
+                10,
+                -7,
+                -5,
+                14,
+                16,
+                19,
+                34,
+                24,
+                50,
+                43,
+                29,
+                22,
+                40,
+                20,
+                -4,
+                -9,
+                -29,
+                -13,
+                -32,
+                -35,
+                -38,
+                -32,
+                -34,
+                -39,
+                -33,
+                -12,
+                75,
+                56,
+                40,
+                18,
+                21,
+                25,
+                25,
+                36,
+                47,
+                28,
+                -33,
+                -40,
+                -29,
+                -8
+              ],
+              "interval": 36
+            }
+          }
+        }
+      },
+      "bombora_summary": {
+        "identifier": {
+          "uuid": "edbbee45-c36e-4d55-9175-04179b15b4b4",
+          "value": "CORONAMOOD",
+          "image_id": "ejg4u66lq3erby3batzh",
+          "permalink": "coronamood",
+          "entity_def_id": "organization"
+        }
+      },
+      "semrush_rank_headline": {},
+      "frequently_asked_questions_latest_funding_round": {
+        "identifier": {
+          "uuid": "edbbee45-c36e-4d55-9175-04179b15b4b4",
+          "value": "CORONAMOOD",
+          "image_id": "ejg4u66lq3erby3batzh",
+          "permalink": "coronamood",
+          "entity_def_id": "organization"
+        },
+        "last_funding_at": "2020-01-30",
+        "last_funding_type": "grant",
+        "num_funding_rounds": 1
+      },
+      "apptopia_app_overview_list_free": [],
+      "contacts": {
+        "num_contact_emails": 1,
+        "num_contacts": 1
+      },
+      "product_launches": [],
+      "alumni_summary": {
+        "identifier": {
+          "uuid": "edbbee45-c36e-4d55-9175-04179b15b4b4",
+          "value": "CORONAMOOD",
+          "image_id": "ejg4u66lq3erby3batzh",
+          "permalink": "coronamood",
+          "entity_def_id": "organization"
+        }
+      },
+      "apptopia_summary": {
+        "identifier": {
+          "uuid": "edbbee45-c36e-4d55-9175-04179b15b4b4",
+          "value": "CORONAMOOD",
+          "image_id": "ejg4u66lq3erby3batzh",
+          "permalink": "coronamood",
+          "entity_def_id": "organization"
+        }
+      },
+      "product_similarity_target_org_list": [],
+      "social_fields": {
+        "linkedin": {
+          "value": "https://www.linkedin.com/company/coronamood/"
+        },
+        "twitter": {
+          "value": "https://x.com/thecoronamood"
+        }
+      },
+      "investments_headline": {},
+      "investment_thesis": {
+        "lookup": [],
+        "properties": {
+          "identifier": {
+            "uuid": "edbbee45-c36e-4d55-9175-04179b15b4b4",
+            "value": "CORONAMOOD",
+            "image_id": "ejg4u66lq3erby3batzh",
+            "permalink": "coronamood",
+            "entity_def_id": "organization"
+          }
+        },
+        "data": []
+      },
+      "diversity_spotlight_investments_summary": {
+        "identifier": {
+          "uuid": "edbbee45-c36e-4d55-9175-04179b15b4b4",
+          "value": "CORONAMOOD",
+          "image_id": "ejg4u66lq3erby3batzh",
+          "permalink": "coronamood",
+          "entity_def_id": "organization"
+        }
+      },
+      "contact_fields": {
+        "contact_email": "thecoronamood@gmail.com"
+      },
+      "growth_prediction": [],
+      "sub_organizations_summary": {
+        "identifier": {
+          "uuid": "edbbee45-c36e-4d55-9175-04179b15b4b4",
+          "value": "CORONAMOOD",
+          "image_id": "ejg4u66lq3erby3batzh",
+          "permalink": "coronamood",
+          "entity_def_id": "organization"
+        }
+      },
+      "overview_description": {
+        "description": "A nonprofit organization researching mood during the COVID-19 pandemic and transforming data into relatable statistics for private research."
+      },
+      "current_employees_featured_order_field": [],
+      "company_about_fields2": {
+        "website": {
+          "value": "http://thecoronamood.org"
+        },
+        "ipo_status": "private",
+        "num_employees_enum": "c_00001_00010",
+        "last_funding_type": "grant",
+        "location_identifiers": [
+          {
+            "uuid": "0e8010ee-2f59-38db-b7e2-998e92dde222",
+            "value": "Dubai",
+            "permalink": "dubai-dubai",
+            "entity_def_id": "location",
+            "location_type": "city"
+          },
+          {
+            "uuid": "bdaf57f0-4a06-3b65-7b13-e2983186c2ab",
+            "value": "Dubai",
+            "permalink": "dubai-united-arab-emirates",
+            "entity_def_id": "location",
+            "location_type": "region"
+          },
+          {
+            "uuid": "9314d29a-0a56-02c3-6b27-4168733de77f",
+            "value": "United Arab Emirates",
+            "permalink": "united-arab-emirates",
+            "entity_def_id": "location",
+            "location_type": "country"
+          },
+          {
+            "uuid": "b41404d2-8ecc-caf5-1268-8fdd3afe73ee",
+            "value": "Asia",
+            "permalink": "asia",
+            "entity_def_id": "location",
+            "location_type": "continent"
+          }
+        ],
+        "rank_org_company": 461830
+      },
+      "sub_organizations_image_list": [],
+      "frequently_asked_questions_headquarters_location": {
+        "identifier": {
+          "uuid": "edbbee45-c36e-4d55-9175-04179b15b4b4",
+          "value": "CORONAMOOD",
+          "image_id": "ejg4u66lq3erby3batzh",
+          "permalink": "coronamood",
+          "entity_def_id": "organization"
+        },
+        "location_identifiers": [
+          {
+            "uuid": "0e8010ee-2f59-38db-b7e2-998e92dde222",
+            "value": "Dubai",
+            "permalink": "dubai-dubai",
+            "entity_def_id": "location",
+            "location_type": "city"
+          },
+          {
+            "uuid": "bdaf57f0-4a06-3b65-7b13-e2983186c2ab",
+            "value": "Dubai",
+            "permalink": "dubai-united-arab-emirates",
+            "entity_def_id": "location",
+            "location_type": "region"
+          },
+          {
+            "uuid": "9314d29a-0a56-02c3-6b27-4168733de77f",
+            "value": "United Arab Emirates",
+            "permalink": "united-arab-emirates",
+            "entity_def_id": "location",
+            "location_type": "country"
+          },
+          {
+            "uuid": "b41404d2-8ecc-caf5-1268-8fdd3afe73ee",
+            "value": "Asia",
+            "permalink": "asia",
+            "entity_def_id": "location",
+            "location_type": "continent"
+          }
+        ]
+      },
+      "investors_headline": {},
+      "ipo_summary": {
+        "identifier": {
+          "uuid": "edbbee45-c36e-4d55-9175-04179b15b4b4",
+          "value": "CORONAMOOD",
+          "image_id": "ejg4u66lq3erby3batzh",
+          "permalink": "coronamood",
+          "entity_def_id": "organization"
+        }
+      },
+      "ipqwery_summary": {
+        "identifier": {
+          "uuid": "edbbee45-c36e-4d55-9175-04179b15b4b4",
+          "value": "CORONAMOOD",
+          "image_id": "ejg4u66lq3erby3batzh",
+          "permalink": "coronamood",
+          "entity_def_id": "organization"
+        }
+      },
+      "awards": [],
+      "siftery_product_list": [],
+      "competitors_list": [],
+      "growth_knowledge": {
+        "lookup": [],
+        "properties": {
+          "identifier": {
+            "uuid": "edbbee45-c36e-4d55-9175-04179b15b4b4",
+            "value": "CORONAMOOD",
+            "image_id": "ejg4u66lq3erby3batzh",
+            "permalink": "coronamood",
+            "entity_def_id": "organization"
+          }
+        },
+        "data": []
+      },
+      "overview_fields_extended": {
+        "location_group_identifiers": [
+          {
+            "uuid": "4e8be435-c63a-4aff-8a2f-44a880d9c341",
+            "value": "Europe, Middle East, and Africa (EMEA)",
+            "permalink": "europe-middle-east-africa-emea",
+            "entity_def_id": "location",
+            "location_type": "group"
+          },
+          {
+            "uuid": "c4365698-c7c5-44b0-b33a-7d13900e5be2",
+            "value": "Gulf Cooperation Council (GCC)",
+            "permalink": "gulf-cooperation-council",
+            "entity_def_id": "location",
+            "location_type": "group"
+          },
+          {
+            "uuid": "e0272206-3430-48cb-a5bc-1d4b3eafe15a",
+            "value": "Middle East",
+            "permalink": "middle-east",
+            "entity_def_id": "location",
+            "location_type": "group"
+          },
+          {
+            "uuid": "8cb7cad4-b7e4-4b28-a496-2ede3720cb19",
+            "value": "Middle East and North Africa (MENA)",
+            "permalink": "middle-east-and-north-africa-mena",
+            "entity_def_id": "location",
+            "location_type": "group"
+          }
+        ],
+        "founded_on": {
+          "value": "2020-01-01",
+          "precision": "month"
+        },
+        "founder_identifiers": [
+          {
+            "uuid": "95f1dda6-5565-46c9-af9d-ae30a1f9887c",
+            "value": "Louai Allani",
+            "image_id": "nzvljaaxfavci0avpi4f",
+            "permalink": "louai-allani",
+            "entity_def_id": "person"
+          }
+        ],
+        "operating_status": "closed",
+        "closed_on": {
+          "precision": "none"
+        },
+        "last_funding_type": "grant"
+      },
+      "overview_investor_fields": {},
+      "bombora_attribution": {},
+      "semrush_location_list": [],
+      "investors_list": [],
+      "siftery_summary": {
+        "identifier": {
+          "uuid": "edbbee45-c36e-4d55-9175-04179b15b4b4",
+          "value": "CORONAMOOD",
+          "image_id": "ejg4u66lq3erby3batzh",
+          "permalink": "coronamood",
+          "entity_def_id": "organization"
+        }
+      },
+      "acquired_by_summary": {
+        "identifier": {
+          "uuid": "edbbee45-c36e-4d55-9175-04179b15b4b4",
+          "value": "CORONAMOOD",
+          "image_id": "ejg4u66lq3erby3batzh",
+          "permalink": "coronamood",
+          "entity_def_id": "organization"
+        }
+      },
+      "ipo_fields": {},
+      "apptopia_app_overview_list_public": [],
+      "apptopia_sdk_list": [],
+      "trading_view": {},
+      "current_employees_image_list": [],
+      "frequently_asked_questions_investors": {
+        "identifier": {
+          "uuid": "edbbee45-c36e-4d55-9175-04179b15b4b4",
+          "value": "CORONAMOOD",
+          "image_id": "ejg4u66lq3erby3batzh",
+          "permalink": "coronamood",
+          "entity_def_id": "organization"
+        }
+      },
+      "funding_rounds_list": [
+        {
+          "identifier": {
+            "uuid": "cc445bb4-751d-4cac-86fb-f5e30fad704f",
+            "value": "Grant - CORONAMOOD",
+            "image_id": "ejg4u66lq3erby3batzh",
+            "permalink": "coronamood-grant--cc445bb4",
+            "entity_def_id": "funding_round"
+          },
+          "announced_on": "2020-01-30",
+          "money_raised": {
+            "value": 10000,
+            "currency": "AED",
+            "value_usd": 2722
+          },
+          "investment_type": "grant"
+        }
+      ],
+      "technology_highlights": {
+        "builtwith_num_technologies_used": 0
+      },
+      "funding_rounds_headline": {
+        "funding_total": {
+          "value": 10000,
+          "currency": "AED",
+          "value_usd": 2722
+        },
+        "num_funding_rounds": 1
+      },
+      "investments_list": [],
+      "exits_image_list": [],
+      "funds_headline": {},
+      "people_highlights": {
+        "num_contacts": 1
+      },
+      "semrush_attribution": {},
+      "frequently_asked_questions_similar_companies": {
+        "identifier": {
+          "uuid": "edbbee45-c36e-4d55-9175-04179b15b4b4",
+          "value": "CORONAMOOD",
+          "image_id": "ejg4u66lq3erby3batzh",
+          "permalink": "coronamood",
+          "entity_def_id": "organization"
+        }
+      },
+      "semrush_overview": {},
+      "org_category_ranks": {},
+      "current_valuation": [],
+      "legal_proceedings": [],
+      "current_employees_summary": {
+        "identifier": {
+          "uuid": "edbbee45-c36e-4d55-9175-04179b15b4b4",
+          "value": "CORONAMOOD",
+          "image_id": "ejg4u66lq3erby3batzh",
+          "permalink": "coronamood",
+          "entity_def_id": "organization"
+        }
+      },
+      "aberdeen_summary": {
+        "identifier": {
+          "uuid": "edbbee45-c36e-4d55-9175-04179b15b4b4",
+          "value": "CORONAMOOD",
+          "image_id": "ejg4u66lq3erby3batzh",
+          "permalink": "coronamood",
+          "entity_def_id": "organization"
+        }
+      },
+      "offices": [],
+      "overview_timeline": {
+        "count": 1,
+        "entities": [
+          {
+            "uuid": "cc445bb4-751d-4cac-86fb-f5e30fad704f",
+            "properties": {
+              "identifier": {
+                "uuid": "cc445bb4-751d-4cac-86fb-f5e30fad704f",
+                "value": "Grant - CORONAMOOD",
+                "image_id": "ejg4u66lq3erby3batzh",
+                "permalink": "coronamood-grant--cc445bb4",
+                "entity_def_id": "funding_round"
+              },
+              "entity_def_id": "funding_round",
+              "activity_entities": [
+                {
+                  "role": "investee",
+                  "uuid": "edbbee45-c36e-4d55-9175-04179b15b4b4",
+                  "value": "CORONAMOOD",
+                  "image_id": "ejg4u66lq3erby3batzh",
+                  "permalink": "coronamood",
+                  "entity_def_id": "organization"
+                }
+              ],
+              "activity_properties": {
+                "money_raised": {
+                  "value": 10000,
+                  "currency": "AED",
+                  "value_usd": 2722
+                },
+                "investment_type": "grant"
+              },
+              "activity_date": "2020-01-30"
+            }
+          }
+        ]
+      },
+      "company_financials_highlights": {
+        "funding_total": {
+          "value": 10000,
+          "currency": "AED",
+          "value_usd": 2722
+        },
+        "num_funding_rounds": 1
+      },
+      "overview_company_fields": {},
+      "private_tags_pill_list": [],
+      "acquisitions_headline": {},
+      "builtwith_summary": {
+        "builtwith_num_technologies_used": 0,
+        "identifier": {
+          "uuid": "edbbee45-c36e-4d55-9175-04179b15b4b4",
+          "value": "CORONAMOOD",
+          "image_id": "ejg4u66lq3erby3batzh",
+          "permalink": "coronamood",
+          "entity_def_id": "organization"
+        }
+      },
+      "about_short_description": {
+        "short_description": "Nonprofit organization"
+      },
+      "product": [],
+      "apptopia_app_headline": {}
+    }
+  }
+}

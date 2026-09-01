@@ -1,0 +1,238 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T09:18:33.294Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T09:18:33.291Z",
+    "url": "https://www.crunchbase.com/organization/athel-tree"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Athel Tree",
+      "shortDescription": "Athel Tree provides information technology services specializing in programming, design, and project analysis.",
+      "description": "Athel Tree provides information technology services specializing in programming, design, and project analysis. It develops and implements model solutions to create an integrated system that elevates the company for the better and characterizes the work of an individual and distinctive interface through the design of a unique website that suits the work environment of the company and through which opens new doors to work.\n\nAthel Tree was established in 2016 and is based in Riyadh, Saudi Arabia.",
+      "website": "http://www.atheltree.com/",
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "11-50",
+      "estimatedRevenueRange": "$1M-$10M",
+      "headquarters": "Riyadh, Ar Riyad, Saudi Arabia",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Enterprise Resource Planning (ERP)",
+        "Mobile Apps",
+        "Web Apps"
+      ],
+      "sectors": [
+        "Apps",
+        "Mobile",
+        "Software"
+      ],
+      "founders": [
+        "Mohamed Elsheshtawy",
+        "Wahaf Al-Dahas"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 400000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2017-01-01",
+      "lastFundingType": "Series A",
+      "rounds": [
+        {
+          "announcedDate": "2017-01-01",
+          "amount": {
+            "amount": 400000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "Pharma Pharmaceutical Industries"
+          ],
+          "postMoneyValuation": {
+            "amount": 600000,
+            "currency": "USD"
+          },
+          "type": "Series A"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "Pharma Pharmaceutical Industries",
+            "rounds": [
+              "Series A"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 1,
+      "includedUniqueCount": 1,
+      "items": [
+        {
+          "date": "2017-01-01",
+          "title": "Series A - Athel Tree"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 400000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": 0,
+      "growthScore": 37,
+      "heatChange90Days": -15,
+      "heatScore": 32
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 0
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 5.33,
+        "timingEstimatePercent": {
+          "within6Months": 13.92,
+          "months6To11": 11.99,
+          "months12To24": 19.2,
+          "beyond24Months": 24.76
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 88.13
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 0
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Netguru offers digital acceleration services - consulting, design, development - to well-founded startups and corporates.",
+          "employeeRange": "1-10",
+          "name": "Netguru",
+          "similarityScore": 97
+        },
+        {
+          "description": "Endava is a software development outsourcing company that creates dynamic platforms and intelligent digital experiences for businesses.",
+          "employeeRange": "10,001+",
+          "name": "Endava",
+          "similarityScore": 95
+        },
+        {
+          "description": "EPAM leverages its core engineering expertise as a leading global product development and digital platform engineering services company.",
+          "employeeRange": "10,001+",
+          "name": "EPAM Systems",
+          "similarityScore": 93
+        },
+        {
+          "description": "Thoughtworks is a technological firm that combines strategy, design, and software engineering.",
+          "employeeRange": "10,001+",
+          "name": "Thoughtworks",
+          "similarityScore": 91
+        },
+        {
+          "description": "BCG X is the tech build & design unit of BCG.",
+          "employeeRange": "501-1,000",
+          "name": "BCG X",
+          "similarityScore": 89
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Series A round raised $400,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $600,000 to $600,000, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 37 (+0 over 90 days) and market heat at 32 (-15).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Netguru, Endava, EPAM Systems.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

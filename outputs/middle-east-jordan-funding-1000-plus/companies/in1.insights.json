@@ -1,0 +1,318 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T12:03:29.799Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T12:03:29.796Z",
+    "url": "https://www.crunchbase.com/organization/in1"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "IN1",
+      "shortDescription": "IN1 operates as a financial management app.",
+      "description": "IN1 operates as a financial management app, where we can send, spend, earn money & crypto in one app.",
+      "website": "https://www.in1.io/",
+      "foundedYear": 2023,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "11-50",
+      "headquarters": "Abu Dhabi, United Arab Emirates",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Cryptocurrency",
+        "Financial Services"
+      ],
+      "sectors": [
+        "Blockchain and Cryptocurrency",
+        "Financial Services",
+        "Payments",
+        "Software"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "A financial management app that allows users to send, spend, earn money, and manage both fiat and cryptocurrency assets in one platform.",
+        "name": "IN1 App"
+      },
+      {
+        "description": "A user account that enables access to IN1 services, including fiat and cryptocurrency transactions, balance management, and payment initiation.",
+        "name": "IN1 Account"
+      },
+      {
+        "description": "A digital wallet integrated with the IN1 Account for storing, managing, and transacting supported cryptocurrencies and digital assets.",
+        "name": "IN1 Wallet"
+      },
+      {
+        "description": "A Mastercard® branded debit card linked to the IN1 Account for making purchases and ATM withdrawals using fiat or cryptocurrency balances.",
+        "name": "IN1 Card"
+      },
+      {
+        "description": "An internal marketplace within the IN1 platform offering various services and products with cashback offers for users.",
+        "name": "IN1 Hub"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 6000000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2024-09-16",
+      "lastFundingType": "Seed",
+      "rounds": [
+        {
+          "announcedDate": "2024-09-16",
+          "amount": {
+            "amount": 6000000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "Ivan Herasymenko"
+          ],
+          "postMoneyValuation": {
+            "amount": 33758317,
+            "currency": "USD"
+          },
+          "type": "Seed"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "Ivan Herasymenko",
+            "rounds": [
+              "Seed Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 2,
+      "includedUniqueCount": 2,
+      "items": [
+        {
+          "date": "2025-03-27",
+          "publisher": "Tech.eu",
+          "title": "Poland's dynamic tech ecosystem",
+          "url": "https://tech.eu/2025/03/27/polands-dynamic-tech-ecosystem/"
+        },
+        {
+          "date": "2024-09-16",
+          "title": "Seed Round - IN1"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 6000000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthInsightGeneratedDate": "2025-03-31",
+      "growthChange90Days": -1,
+      "growthScore": 70,
+      "heatChange90Days": 1,
+      "heatScore": 46,
+      "status": "Growing"
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2025-06-11",
+        "probabilityPercent": 86.03
+      },
+      "funding": {
+        "generatedDate": "2025-10-04",
+        "probabilityPercent": 94.12,
+        "timingEstimatePercent": {
+          "within6Months": 100,
+          "months6To11": 0,
+          "months12To24": 0,
+          "beyond24Months": 0
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 95.45
+      },
+      "ipo": {
+        "generatedDate": "2025-06-11",
+        "probabilityPercent": 2.32
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Revolut is a financial technology company that offers banking services, money transfers, foreign exchange, and spending analytics.",
+          "employeeRange": "10,001+",
+          "name": "Revolut",
+          "sharedCategories": [
+            "Financial Services"
+          ],
+          "sharedSpecialties": [
+            "Cryptocurrency Exchanges",
+            "Payment Processing",
+            "International and Multi-Currency Accounts",
+            "Crypto Custody and Wallets",
+            "Mobile Banking",
+            "International Money Transfer",
+            "Payment Cards"
+          ],
+          "similarityScore": 97
+        },
+        {
+          "description": "Wirex is a digital payment platform that aims to make crypto and traditional currencies equal and accessible to everyone.",
+          "employeeRange": "251-500",
+          "name": "Wirex",
+          "sharedCategories": [
+            "Financial Services",
+            "Cryptocurrency"
+          ],
+          "sharedSpecialties": [
+            "Cryptocurrency Payment Gateways",
+            "Cryptocurrency Exchanges",
+            "Payment Processing",
+            "International and Multi-Currency Accounts",
+            "Crypto Custody and Wallets",
+            "Crypto Payment Cards"
+          ],
+          "similarityScore": 95
+        },
+        {
+          "description": "Uphold’s technology enables individuals and businesses to invest, exchange, spend and transfer currencies, commodities, equities, and more.",
+          "employeeRange": "251-500",
+          "name": "Uphold",
+          "sharedCategories": [
+            "Financial Services",
+            "Cryptocurrency"
+          ],
+          "sharedSpecialties": [
+            "Cryptocurrency Exchanges",
+            "International and Multi-Currency Accounts",
+            "Staking Services",
+            "Crypto Custody and Wallets"
+          ],
+          "similarityScore": 93
+        },
+        {
+          "description": "Crypto.com is a platform for buying, trading, and earning cryptocurrency.",
+          "employeeRange": "1,001-5,000",
+          "name": "Crypto.com",
+          "sharedCategories": [
+            "Cryptocurrency"
+          ],
+          "sharedSpecialties": [
+            "Cryptocurrency Payment Gateways",
+            "Cryptocurrency Exchanges",
+            "Staking Services",
+            "Crypto Custody and Wallets",
+            "Crypto Payment Cards"
+          ],
+          "similarityScore": 91
+        },
+        {
+          "description": "Nexo is a premier digital assets wealth platform empowering clients to grow, manage, and preserve their crypto holdings.",
+          "employeeRange": "501-1,000",
+          "name": "Nexo",
+          "sharedCategories": [
+            "Financial Services",
+            "Cryptocurrency"
+          ],
+          "sharedSpecialties": [
+            "Cryptocurrency Payment Gateways",
+            "Cryptocurrency Exchanges",
+            "Crypto Custody and Wallets",
+            "Crypto Payment Cards"
+          ],
+          "similarityScore": 89
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Seed round raised $6,000,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $33,758,317 to $33,758,317, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 70 (-1 over 90 days) and market heat at 46 (+1).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Revolut, Wirex, Uphold.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

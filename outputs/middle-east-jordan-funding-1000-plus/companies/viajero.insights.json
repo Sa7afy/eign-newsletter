@@ -1,0 +1,303 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T13:54:23.921Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T13:54:23.919Z",
+    "url": "https://www.crunchbase.com/organization/viajero"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Viajero",
+      "shortDescription": "The 1st Transportation and Organized Trips Platform in Egypt.",
+      "description": "The 1st Transportation and Organized Trips Platform in Egypt, We provide the first search engine for transportation and reservation of most popular travel agencies trips.",
+      "website": "https://viajero.app/",
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "1-10",
+      "estimatedRevenueRange": "$1M-$10M",
+      "headquarters": "Cairo, Al Qahirah, Egypt",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Middle East",
+        "Middle East and North Africa (MENA)",
+        "North Africa"
+      ],
+      "industries": [
+        "Tourism",
+        "Transportation",
+        "Travel"
+      ],
+      "sectors": [
+        "Transportation",
+        "Travel and Tourism"
+      ],
+      "founders": [
+        "Ahmed El-Banna",
+        "Ahmed Elfeky",
+        "Mamdouh El-Nakeeb",
+        "Mohammed Ali",
+        "Omar Mo'men"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "A platform providing a search engine for transportation options and reservations for organized trips in Egypt.",
+        "name": "Transportation and Organized Trips Platform"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 150000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 2,
+      "detailedRoundCount": 2,
+      "lastFundingDate": "2021-08-10",
+      "lastFundingType": "Pre Seed",
+      "rounds": [
+        {
+          "announcedDate": "2021-08-10",
+          "amount": {
+            "amount": 100000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "Crete Agency"
+          ],
+          "postMoneyValuation": {
+            "amount": 863238,
+            "currency": "USD"
+          },
+          "type": "Pre Seed"
+        },
+        {
+          "announcedDate": "2021-01-21",
+          "amount": {
+            "amount": 50000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "Crete Agency"
+          ],
+          "postMoneyValuation": {
+            "amount": 445015,
+            "currency": "USD"
+          },
+          "type": "Pre Seed"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "Crete Agency",
+            "rounds": [
+              "Pre Seed Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 4,
+      "includedUniqueCount": 4,
+      "items": [
+        {
+          "date": "2024-01-19",
+          "publisher": "globallegalchronicle.com",
+          "title": "Viajero Hostels’ Loan Financing",
+          "url": "https://globallegalchronicle.com/viajero-hostels-loan-financing/"
+        },
+        {
+          "date": "2023-02-10",
+          "publisher": "fintechgate",
+          "title": "Egyptian travel platform “viaJero” aims to expand into the UAE next summer",
+          "url": "https://fintechgate.net/2023/02/11/%d9%85%d9%86%d8%b5%d8%a9-viajero%d9%84%d9%84%d8%b1%d8%ad%d9%84%d8%a7%d8%aa-%d8%a7%d9%84%d9%85%d8%b5%d8%b1%d9%8a%d8%a9-%d8%aa%d8%b3%d8%aa%d9%87%d8%af%d9%81-%d8%a7%d9%84%d8%aa%d9%88%d8%b3%d8%b9/"
+        },
+        {
+          "date": "2021-08-10",
+          "title": "Pre Seed Round - Viajero"
+        },
+        {
+          "date": "2021-01-21",
+          "title": "Pre Seed Round - Viajero"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 2,
+    "knownDetailedFundingAmount": {
+      "amount": 150000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 66.67,
+    "latestToEarliestKnownValuationMultiple": 1.94
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": 32,
+      "growthScore": 68,
+      "heatChange90Days": -9,
+      "heatScore": 43
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 0
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 18.77,
+        "timingEstimatePercent": {
+          "within6Months": 15.11,
+          "months6To11": 12.83,
+          "months12To24": 20.13,
+          "beyond24Months": 24.96
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 83.58
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 0
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "You. Smart. Thing. is a travel demand management platform for destinations, venues, and live events.",
+          "employeeRange": "11-50",
+          "name": "You. Smart. Thing.",
+          "sharedSpecialties": [
+            "Travel Management Software"
+          ],
+          "similarityScore": 100
+        },
+        {
+          "description": "Swvl offers an app that allows customers to book fixed rate rides on buses and vans in their network.",
+          "employeeRange": "251-500",
+          "name": "Swvl",
+          "sharedCategories": [
+            "Travel",
+            "Transportation"
+          ],
+          "sharedSpecialties": [
+            "Transit Ticketing",
+            "Bus Services"
+          ],
+          "similarityScore": 95
+        },
+        {
+          "description": "Go Bus is a transportation company.",
+          "employeeRange": "501-1,000",
+          "name": "Go Bus",
+          "sharedCategories": [
+            "Travel",
+            "Transportation"
+          ],
+          "sharedSpecialties": [
+            "Transit Ticketing",
+            "Travel Consolidators and Wholesalers",
+            "Ticket Marketplaces",
+            "Bus Services"
+          ],
+          "similarityScore": 92
+        },
+        {
+          "description": "Blue Bus is a transportation company located in Giza.",
+          "employeeRange": "101-250",
+          "name": "Blue Bus",
+          "sharedCategories": [
+            "Tourism",
+            "Transportation"
+          ],
+          "similarityScore": 90
+        },
+        {
+          "description": "Jabbar is a leading investor in the MENA region with the biggest exits so far (maktoob.com to Yahoo) and (Souq.com to Amazon) .",
+          "employeeRange": "251-500",
+          "name": "Jabbar Internet Group",
+          "similarityScore": 87.5
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Pre Seed round raised $100,000, or 66.67% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $445,015 to $863,238, a 1.94x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 68 (+32 over 90 days) and market heat at 43 (-9).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include You. Smart. Thing., Swvl, Go Bus.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

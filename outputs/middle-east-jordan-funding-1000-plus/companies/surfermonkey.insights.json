@@ -1,0 +1,319 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T13:34:20.402Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T13:34:20.399Z",
+    "url": "https://www.crunchbase.com/organization/surfermonkey"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "SurferMonkey",
+      "shortDescription": "Ensuring privacy and compliance in blockchain ecosystems and the Metaverse via Zero-Knowledge Proofs (ZKP).",
+      "website": "https://www.surfermonkey.io/",
+      "foundedYear": 2022,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "1-10",
+      "estimatedRevenueRange": "Less than $1M",
+      "headquarters": "Abu Dhabi, United Arab Emirates",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Apps",
+        "Blockchain",
+        "IT Infrastructure",
+        "Web3"
+      ],
+      "sectors": [
+        "Apps",
+        "Blockchain and Cryptocurrency",
+        "Information Technology",
+        "Internet Services",
+        "Software"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "A privacy solution using Zero-Knowledge Proofs to enable private, secure, and compliant blockchain transactions for institutions.",
+        "name": "Regulatory Privacy for Web3"
+      },
+      {
+        "description": "A smart contract-based application layer plugin enabling anonymous, compliant, and multi-smart contract calls across any blockchain without requiring smart contract integration.",
+        "name": "1UP (Universal Plugin)"
+      },
+      {
+        "description": "A compliance tool embedded in smart contracts that blocks interactions from sanctioned addresses to ensure regulatory adherence and secure dApp environments.",
+        "name": "Smart Contract-Level Sanction Screening Firewall"
+      },
+      {
+        "description": "A middleware protocol that embeds compliance into blockchain transactions, enabling privacy-preserving regulatory oversight and financial forensics.",
+        "name": "Decentralized Anonymous Compliance Technology (DACT)"
+      },
+      {
+        "description": "A software development kit that integrates privacy and regulatory compliance features into stablecoin transactions for institutions.",
+        "name": "Plug-and-Play SDK for Stablecoin Privacy and Compliance"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 100000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2023-09-25",
+      "lastFundingType": "Pre Seed",
+      "rounds": [
+        {
+          "announcedDate": "2023-09-25",
+          "amount": {
+            "amount": 100000,
+            "currency": "USD"
+          },
+          "investorCount": 4,
+          "postMoneyValuation": {
+            "amount": 1613552,
+            "currency": "USD"
+          },
+          "type": "Pre Seed"
+        }
+      ],
+      "investors": {
+        "reportedCount": 4,
+        "visibleNames": [
+          {
+            "name": "Mina Foundation",
+            "rounds": [
+              "Pre Seed Round"
+            ]
+          },
+          {
+            "name": "Old Fashion Research",
+            "rounds": [
+              "Pre Seed Round"
+            ]
+          },
+          {
+            "name": "Outlier Ventures",
+            "rounds": [
+              "Pre Seed Round"
+            ]
+          },
+          {
+            "name": "ScalingX",
+            "rounds": [
+              "Pre Seed Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 2,
+      "includedUniqueCount": 2,
+      "items": [
+        {
+          "date": "2025-03-28",
+          "publisher": "Cointelegraph",
+          "title": "SurferMonkey launches revolutionary payroll solution to slash costs and generate yield for businesses",
+          "url": "https://cointelegraph.com/press-releases/surfermonkey-launches-revolutionary-payroll-solution-to-slash-costs-and-generate-yield-for-businesses"
+        },
+        {
+          "date": "2023-09-25",
+          "title": "Pre Seed Round - SurferMonkey"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 100000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": -2,
+      "growthScore": 34,
+      "heatChange90Days": 2,
+      "heatScore": 45
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 94.53
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 9.89,
+        "timingEstimatePercent": {
+          "within6Months": 0.32,
+          "months6To11": 0,
+          "months12To24": 0,
+          "beyond24Months": 99.68
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 90.66
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 4.17
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Chainalysis provides blockchain data and analysis to governments, banks, and businesses worldwide.",
+          "employeeRange": "501-1,000",
+          "name": "Chainalysis",
+          "sharedCategories": [
+            "Blockchain",
+            "Web3"
+          ],
+          "sharedSpecialties": [
+            "Blockchain and Cryptocurrency Forensics",
+            "Fraud Detection and KYC",
+            "Trade Sanctions and OFAC Compliance"
+          ],
+          "similarityScore": 97
+        },
+        {
+          "description": "TRM Labs is a software company that offers blockchain, transaction monitoring, and analytics to help financial institutions and governments.",
+          "employeeRange": "251-500",
+          "name": "TRM Labs",
+          "sharedCategories": [
+            "Blockchain"
+          ],
+          "sharedSpecialties": [
+            "Blockchain and Cryptocurrency Forensics",
+            "Fraud Detection and KYC",
+            "Trade Sanctions and OFAC Compliance",
+            "Cross-Chain Bridges"
+          ],
+          "similarityScore": 95
+        },
+        {
+          "description": "Elliptic is a fintech company that provides blockchain analytics and crypto compliance tools to ensure financial crime compliance .",
+          "employeeRange": "101-250",
+          "name": "Elliptic",
+          "sharedCategories": [
+            "Blockchain"
+          ],
+          "sharedSpecialties": [
+            "Blockchain and Cryptocurrency Forensics",
+            "Fraud Detection and KYC",
+            "Trade Sanctions and OFAC Compliance"
+          ],
+          "similarityScore": 93
+        },
+        {
+          "description": "Merkle Science is a software company that offers predictive crypto risk and intelligence platforms for businesses and government agencies.",
+          "employeeRange": "11-50",
+          "name": "Merkle Science",
+          "sharedCategories": [
+            "Blockchain"
+          ],
+          "sharedSpecialties": [
+            "Blockchain and Cryptocurrency Forensics",
+            "Fraud Detection and KYC",
+            "Trade Sanctions and OFAC Compliance",
+            "Cross-Chain Bridges"
+          ],
+          "similarityScore": 91
+        },
+        {
+          "description": "ComplyAdvantage is an AI-based fraud and anti-money laundering risk detection platform for banks, insurance, and cryptocurrency industries.",
+          "employeeRange": "251-500",
+          "name": "ComplyAdvantage",
+          "sharedSpecialties": [
+            "Blockchain and Cryptocurrency Forensics",
+            "Fraud Detection and KYC",
+            "Trade Sanctions and OFAC Compliance"
+          ],
+          "similarityScore": 89
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Pre Seed round raised $100,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $1,613,552 to $1,613,552, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 34 (-2 over 90 days) and market heat at 45 (+2).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Chainalysis, TRM Labs, Elliptic.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

@@ -1,0 +1,218 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T09:11:30.662Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T09:11:30.660Z",
+    "url": "https://www.crunchbase.com/organization/almujtama-alraida-medical"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Almujtama Alraida Medical",
+      "shortDescription": "Almujtama Alraida Medical is a leading and fully integrated group in providing pharmaceutical services.",
+      "description": "Almujtama Alraida Medical is a prominent and fully integrated pharmaceutical services provider. Known for its comprehensive approach to healthcare, the company typically offers a wide range of services that span from manufacturing and distribution to retail and consulting.",
+      "website": "https://www.almujtama.com.sa/",
+      "foundedYear": 2001,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Public",
+      "companyType": "For profit",
+      "employeeRange": "101-250",
+      "estimatedRevenueRange": "$100M-$500M",
+      "headquarters": "Jeddah, Makkah, Saudi Arabia",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Health Care",
+        "Medical",
+        "Pharmaceutical"
+      ],
+      "sectors": [
+        "Health Care"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "A retail pharmacy providing pharmaceutical products and dispensing medications to customers.",
+        "name": "Almujtama Pharmacy"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 11983064,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2025-01-05",
+      "lastFundingType": "Post IPO Debt",
+      "rounds": [
+        {
+          "announcedDate": "2025-01-05",
+          "amount": {
+            "amount": 11983064,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "Alinma Bank"
+          ],
+          "type": "Post IPO Debt"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "Alinma Bank",
+            "rounds": [
+              "Post-IPO Debt"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 4,
+      "includedUniqueCount": 4,
+      "items": [
+        {
+          "date": "2026-08-02",
+          "publisher": "TradingView",
+          "title": "Almujtama Alraida Medical Appoints Omar Yousef Khojah As Chairman",
+          "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN43Z003:0-almujtama-alraida-medical-appoints-omar-yousef-khojah-as-chairman/"
+        },
+        {
+          "date": "2026-03-15",
+          "publisher": "TradingView",
+          "title": "Almujtama Alraida Medical FY Profit 8.4 Million Riyals",
+          "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN402004:0-almujtama-alraida-medical-fy-profit-8-4-million-riyals/"
+        },
+        {
+          "date": "2025-01-05",
+          "title": "Post-IPO Debt - Almujtama Alraida Medical"
+        },
+        {
+          "date": "2023-11-22",
+          "title": "9592"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 11983064,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthInsightGeneratedDate": "2026-03-22",
+      "growthChange90Days": -5,
+      "growthScore": 87,
+      "heatChange90Days": 29,
+      "heatScore": 74,
+      "status": "Growing"
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2025-09-22",
+        "probabilityPercent": 0
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Best hospital in Saudi Arabia.",
+          "employeeRange": "1,001-5,000",
+          "name": "Abeer Medical Group",
+          "sharedCategories": [
+            "Health Care"
+          ],
+          "sharedSpecialties": [
+            "Medication Access and Assistance",
+            "Pharmacy and Online Pharmacy"
+          ],
+          "similarityScore": 100
+        },
+        {
+          "description": "Noor Group Ltd manages businesses in utilities, food services, and logistics.",
+          "employeeRange": "101-250",
+          "name": "Noor Group",
+          "sharedCategories": [
+            "Medical"
+          ],
+          "sharedSpecialties": [
+            "Pharmacy and Online Pharmacy",
+            "Medication Management"
+          ],
+          "similarityScore": 87.5
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Post IPO Debt round raised $11,983,064, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 87 (-5 over 90 days) and market heat at 74 (+29).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Strategic repositioning and listing coverage shape the current narrative",
+      "statement": "Almujtama Alraida Medical has a recent strategic-positioning change; 1 recent unique news titles explicitly contain the English terms IPO or listing.",
+      "implication": "Their timing coincides with increased visibility in the loaded news and Crunchbase momentum signals, but the data does not establish causation.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.company.formerName",
+        "facts.recentNews",
+        "providerSignals.crunchbaseMomentum"
+      ],
+      "caveats": [
+        "The causal link to Crunchbase momentum is an inference from timing, not a disclosed company metric."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

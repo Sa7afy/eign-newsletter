@@ -1,0 +1,220 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T12:05:45.727Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T12:05:45.725Z",
+    "url": "https://www.crunchbase.com/organization/interfield-software-solutions"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Interfield Software Solutions",
+      "shortDescription": "Interfield Software Solutions provides data management solutions and online-offline software applications for the oil and gas industries.",
+      "description": "Interfield Software Solutions is a B2B software company that provides data management, industrial SaaS, and procurement marketplace solutions for industries such as oil & gas, mining, renewables, and maritime. Interfield Software Solutions helps industrial businesses digitize field operations, streamline workflows, and improve operational efficiency through cloud-based platforms and AI-driven tools.",
+      "website": "https://interfieldsolutions.com/",
+      "foundedYear": 2014,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Public",
+      "companyType": "For profit",
+      "employeeRange": "1-10",
+      "estimatedRevenueRange": "$1M-$10M",
+      "headquarters": "Dubai, United Arab Emirates",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Database",
+        "Data Management",
+        "Information Technology",
+        "Mining",
+        "Oil and Gas",
+        "Software"
+      ],
+      "sectors": [
+        "Data and Analytics",
+        "Energy",
+        "Information Technology",
+        "Natural Resources",
+        "Software"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "A procurement gateway connecting buyers and suppliers globally in industries like Oil & Gas and Mining, offering a marketplace for both new and surplus industrial equipment.",
+        "name": "Equipment Hound"
+      },
+      {
+        "description": "A cloud-based platform that digitizes field tickets and job reports, offering real-time operational data management and workflow streamlining for industrial companies.",
+        "name": "ToolSuite"
+      },
+      {
+        "description": "Provides a consolidated, real-time view of mining operations, including activity reports and financial data, to support informed decision-making.",
+        "name": "MineSuite"
+      },
+      {
+        "description": "A platform based on ESG principles that enables companies to track and report on environmental, social, and corporate governance standards across all sectors.",
+        "name": "ESG-Suite"
+      },
+      {
+        "description": "A modular operational software platform designed for providing operational insights through various modules and sub-modules, focusing on AI and machine learning.",
+        "name": "Apollo"
+      },
+      {
+        "description": "A suite of software solutions for digitizing reporting processes, streamlining operations, and generating customized management reports.",
+        "name": "Data Management Software"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 2000000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2023-09-01",
+      "lastFundingType": "Post IPO Equity",
+      "rounds": [
+        {
+          "announcedDate": "2023-09-01",
+          "amount": {
+            "amount": 2000000,
+            "currency": "USD"
+          },
+          "type": "Post IPO Equity"
+        }
+      ]
+    },
+    "recentNews": {
+      "reportedCount": 5,
+      "includedUniqueCount": 4,
+      "items": [
+        {
+          "date": "2025-05-30",
+          "publisher": "Interfield Global Software Inc.",
+          "title": "Interfield Announces Board Changes",
+          "url": "https://www.globenewswire.com/news-release/2025/05/30/3091337/0/en/Interfield-Announces-Board-Changes.html"
+        },
+        {
+          "date": "2025-03-31",
+          "publisher": "Canada NewsWire",
+          "title": "INTERFIELD ANNOUNCES CHANGES IN MANGEMENT AND ‎DELAY IN ANNUAL FILINGS",
+          "url": "https://www.newswire.ca/news-releases/interfield-announces-changes-in-mangement-and-delay-in-annual-filings-844660485.html"
+        },
+        {
+          "date": "2023-09-01",
+          "title": "Post-IPO Equity - Interfield Software Solutions"
+        },
+        {
+          "date": "2023-02-10",
+          "title": "IFSS"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 2000000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": -44,
+      "growthScore": 25,
+      "heatChange90Days": -11,
+      "heatScore": 59
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-03-07",
+        "probabilityPercent": 82.68
+      },
+      "funding": {
+        "generatedDate": "2026-03-07",
+        "probabilityPercent": 35.87,
+        "timingEstimatePercent": {
+          "within6Months": 3.68,
+          "months6To11": 0,
+          "months12To24": 0,
+          "beyond24Months": 96.32
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-03-07",
+        "probabilityPercent": 95.1
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors."
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Post IPO Equity round raised $2,000,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 25 (-44 over 90 days) and market heat at 59 (-11).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Strategic repositioning and listing coverage shape the current narrative",
+      "statement": "Interfield Software Solutions has a recent strategic-positioning change; 1 recent unique news titles explicitly contain the English terms IPO or listing.",
+      "implication": "Their timing coincides with increased visibility in the loaded news and Crunchbase momentum signals, but the data does not establish causation.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.company.formerName",
+        "facts.recentNews",
+        "providerSignals.crunchbaseMomentum"
+      ],
+      "caveats": [
+        "The causal link to Crunchbase momentum is an inference from timing, not a disclosed company metric."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "issues": [
+      {
+        "severity": "low",
+        "finding": "Crunchbase reports 5 timeline items but exposes 4 unique items in this payload.",
+        "impact": "Recent news is a partial sample, not a complete history."
+      }
+    ],
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

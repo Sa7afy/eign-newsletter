@@ -1,0 +1,184 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T14:04:25.154Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T14:04:25.152Z",
+    "url": "https://www.crunchbase.com/organization/z-wall"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Z-Wall",
+      "shortDescription": "Z-Wall is a service delivery and social media platform that enables its users to merge their online activities with real-world interactions.",
+      "description": "Z-Wall is a service delivery and social media platform that enables its users to merge their online activities with real-world interactions. It was launched on October 15, 2011.",
+      "website": "http://www.z-wall.com/",
+      "operatingStatus": "Closed",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "headquarters": "Cairo, Al Qahirah, Egypt",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Middle East",
+        "Middle East and North Africa (MENA)",
+        "North Africa"
+      ],
+      "industries": [
+        "Delivery",
+        "Internet",
+        "Social Media",
+        "Software"
+      ],
+      "sectors": [
+        "Information Technology",
+        "Internet Services",
+        "Media and Entertainment",
+        "Software",
+        "Transportation"
+      ],
+      "founders": [
+        "Fayed Yousry",
+        "Kamal Salem"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 60000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2012-04-01",
+      "lastFundingType": "Seed",
+      "rounds": [
+        {
+          "announcedDate": "2012-04-01",
+          "amount": {
+            "amount": 60000,
+            "currency": "USD"
+          },
+          "type": "Seed"
+        }
+      ]
+    },
+    "recentNews": {
+      "reportedCount": 1,
+      "includedUniqueCount": 1,
+      "items": [
+        {
+          "date": "2012-04-01",
+          "title": "Seed Round - Z-Wall"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 60000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "heatChange90Days": -8,
+      "heatScore": 21
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Nextdoor is a private social networking platform that connects neighbors for them to exchange helpful information, goods, and services.",
+          "employeeRange": "501-1,000",
+          "name": "Nextdoor",
+          "sharedCategories": [
+            "Internet",
+            "Social Media"
+          ],
+          "similarityScore": 97
+        },
+        {
+          "description": "Instagram is a free photo-sharing application that enables its users to take photos, apply filters, and share them on social networks.",
+          "employeeRange": "10,001+",
+          "name": "Instagram",
+          "sharedCategories": [
+            "Social Media",
+            "Software"
+          ],
+          "similarityScore": 93
+        },
+        {
+          "description": "StartMeUp/> is a outsourcing software development compamy",
+          "employeeRange": "1-10",
+          "name": "StartMeUp/>",
+          "sharedCategories": [
+            "Software"
+          ],
+          "similarityScore": 89
+        },
+        {
+          "description": "X is a social networking platform that allows its users to send and read microblogs.",
+          "employeeRange": "1,001-5,000",
+          "name": "X (formerly Twitter)",
+          "sharedCategories": [
+            "Social Media"
+          ],
+          "similarityScore": 88
+        },
+        {
+          "description": "Meetup brings people together in thousands of cities to do more of what they want to do in life.",
+          "employeeRange": "1-10",
+          "name": "Meetup",
+          "sharedCategories": [
+            "Internet",
+            "Social Media"
+          ],
+          "similarityScore": 87
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Seed round raised $60,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Nextdoor, Instagram, StartMeUp/>.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

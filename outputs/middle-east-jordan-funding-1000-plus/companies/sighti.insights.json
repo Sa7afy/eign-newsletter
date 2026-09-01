@@ -1,0 +1,269 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T13:23:49.653Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T13:23:49.651Z",
+    "url": "https://www.crunchbase.com/organization/sighti"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Sighti",
+      "shortDescription": "Sighti transforms every CCTV camera into a valuable source of business insights through the application of AI.",
+      "website": "https://www.sighti.ai/",
+      "foundedYear": 2025,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "1-10",
+      "headquarters": "Riyadh, Ar Riyad, Saudi Arabia",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Business Intelligence",
+        "Compliance",
+        "Consulting",
+        "Industrial Automation",
+        "Information Technology",
+        "Retail Technology"
+      ],
+      "sectors": [
+        "Commerce and Shopping",
+        "Data and Analytics",
+        "Hardware",
+        "Information Technology",
+        "Manufacturing",
+        "Professional Services",
+        "Science and Engineering",
+        "Software"
+      ],
+      "founders": [
+        "Salim Noor"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 280000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 2,
+      "detailedRoundCount": 2,
+      "lastFundingDate": "2026-01-05",
+      "lastFundingType": "Pre Seed",
+      "rounds": [
+        {
+          "announcedDate": "2026-01-05",
+          "amount": {
+            "amount": 100000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "postMoneyValuation": {
+            "amount": 1964984,
+            "currency": "USD"
+          },
+          "type": "Pre Seed"
+        },
+        {
+          "announcedDate": "2025-02-20",
+          "amount": {
+            "amount": 180000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "postMoneyValuation": {
+            "amount": 2483594,
+            "currency": "USD"
+          },
+          "type": "Pre Seed"
+        }
+      ],
+      "investors": {
+        "reportedCount": 2,
+        "visibleNames": [
+          {
+            "name": "Antler",
+            "rounds": [
+              "Pre Seed Round"
+            ]
+          },
+          {
+            "name": "Startups House",
+            "rounds": [
+              "Pre Seed Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 3,
+      "includedUniqueCount": 3,
+      "items": [
+        {
+          "date": "2026-07-23",
+          "publisher": "إنت عربي | entARABI",
+          "title": "House Ventures Fund Invests $500K in 5 Saudi Startups",
+          "url": "https://entarabi.com/en/2026/07/house-ventures-fund-invests-500k-in-5-saudi-startups/"
+        },
+        {
+          "date": "2026-01-05",
+          "title": "Pre Seed Round - Sighti"
+        },
+        {
+          "date": "2025-02-20",
+          "title": "Pre Seed Round - Sighti"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 2,
+    "knownDetailedFundingAmount": {
+      "amount": 280000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 35.71,
+    "latestToEarliestKnownValuationMultiple": 0.79
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": -1,
+      "growthScore": 87,
+      "heatChange90Days": 21,
+      "heatScore": 84
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 5
+      },
+      "funding": {
+        "generatedDate": "2026-06-20",
+        "probabilityPercent": 81.51,
+        "timingEstimatePercent": {
+          "within6Months": 99.98,
+          "months6To11": 0,
+          "months12To24": 0,
+          "beyond24Months": 0.02
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 95.61
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 0
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "BriefCam improves everyday lives by transforming video surveillance data into valuable insights for a smarter, better world.",
+          "employeeRange": "101-250",
+          "name": "BriefCam",
+          "similarityScore": 97
+        },
+        {
+          "description": "Verkada is a cyber security company that offers an AI integrated platform for cloud physical security.",
+          "employeeRange": "1,001-5,000",
+          "name": "Verkada",
+          "similarityScore": 95
+        },
+        {
+          "description": "Deep Learning powered video monitoring",
+          "employeeRange": "11-50",
+          "name": "Calipsa",
+          "similarityScore": 85
+        },
+        {
+          "description": "Irisity is world-leading video analytics company",
+          "employeeRange": "51-100",
+          "name": "Irisity",
+          "similarityScore": 83
+        },
+        {
+          "description": "Scylla is a real-time physical threat detection solution. We use AI and computer vision to detect objects, actions and behavior anomalies.",
+          "employeeRange": "101-250",
+          "name": "Scylla",
+          "similarityScore": 77
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Pre Seed round raised $100,000, or 35.71% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $2,483,594 to $1,964,984, a 0.79x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 87 (-1 over 90 days) and market heat at 84 (+21).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include BriefCam, Verkada, Calipsa.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

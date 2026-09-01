@@ -1,0 +1,308 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T10:55:50.622Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T10:55:50.619Z",
+    "url": "https://www.crunchbase.com/organization/bahrain-server"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Bahrain Server",
+      "shortDescription": "GPU Web Hosting and External Email Server",
+      "description": "GPU Web Hosting and External Email Server",
+      "website": "http://bahrainserver.net/",
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "11-50",
+      "headquarters": "Isa Town, Madinat, Bahrain",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Cloud Computing",
+        "Web Hosting"
+      ],
+      "sectors": [
+        "Information Technology",
+        "Internet Services",
+        "Software"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "Provides cloud-based web hosting services with domain registration, SSL security, and 24/7 support for websites.",
+        "name": "Cloud Web Hosting"
+      },
+      {
+        "description": "Designs and develops websites with control panels for content management and SEO optimization.",
+        "name": "Website Design and Development"
+      },
+      {
+        "description": "Develops custom software solutions with bug-free warranty and ongoing updates for business needs.",
+        "name": "Business Software Solutions"
+      },
+      {
+        "description": "Offers digital marketing including SEO, paid ads, and Google My Business reporting to enhance online visibility.",
+        "name": "Digital Marketing Services"
+      },
+      {
+        "description": "Develops mobile applications tailored to client specifications for various business and consumer needs.",
+        "name": "Mobile App Development"
+      },
+      {
+        "description": "Provides e-commerce platform development and integration to support online sales and digital transactions.",
+        "name": "E-Commerce Solutions"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 50000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2025-10-04",
+      "lastFundingType": "Private Equity",
+      "rounds": [
+        {
+          "announcedDate": "2025-10-04",
+          "amount": {
+            "amount": 50000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "postMoneyValuation": {
+            "amount": 1066003,
+            "currency": "USD"
+          },
+          "type": "Private Equity"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "name": "Valu.vc",
+            "rounds": [
+              "Private Equity Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 1,
+      "includedUniqueCount": 1,
+      "items": [
+        {
+          "date": "2025-10-04",
+          "title": "Private Equity Round - Bahrain Server"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 50000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": -2,
+      "growthScore": 57,
+      "heatChange90Days": 1,
+      "heatScore": 69
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 85.1
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 52.38,
+        "timingEstimatePercent": {
+          "within6Months": 97.34,
+          "months6To11": 0.01,
+          "months12To24": 0,
+          "beyond24Months": 2.65
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 82.18
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 18.81
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Hostinger is one of the world’s fastest-growing AI-powered hosting and website-building platforms.",
+          "employeeRange": "501-1,000",
+          "name": "Hostinger",
+          "sharedCategories": [
+            "Web Hosting"
+          ],
+          "sharedSpecialties": [
+            "Web Security",
+            "DNS Management",
+            "Email Hosting",
+            "E-Commerce Hosting and Optimization",
+            "Domain Management",
+            "Website Hosting and Maintenance",
+            "Managed Hosting"
+          ],
+          "similarityScore": 97
+        },
+        {
+          "description": "A2 Hosting is a high-performance hosting provider. Their services range from Web Hosting, Reseller Hosting, VPS & Dedicated servers.",
+          "employeeRange": "11-50",
+          "name": "A2 Hosting",
+          "sharedCategories": [
+            "Web Hosting"
+          ],
+          "sharedSpecialties": [
+            "Web Security",
+            "DNS Management",
+            "Email Hosting",
+            "Domain Management",
+            "Dedicated Server Hosting",
+            "Website Hosting and Maintenance",
+            "Managed Hosting"
+          ],
+          "similarityScore": 95
+        },
+        {
+          "description": "1&1 IONOS provides web hosting solutions for private users, as well as high-end products for small-and medium-sized businesses.",
+          "employeeRange": "1,001-5,000",
+          "name": "1&1 IONOS",
+          "sharedCategories": [
+            "Web Hosting",
+            "Cloud Computing"
+          ],
+          "sharedSpecialties": [
+            "Email Hosting",
+            "Cloud Hosting",
+            "E-Commerce Hosting and Optimization",
+            "Domain Management",
+            "Dedicated Server Hosting",
+            "Website Hosting and Maintenance",
+            "Managed Hosting"
+          ],
+          "similarityScore": 90
+        },
+        {
+          "description": "One of the premier shared/VPS/dedicated hosting solutions for websites, domain names, email, eCommerce, SEO marketing, & more.",
+          "employeeRange": "501-1,000",
+          "name": "Bluehost",
+          "sharedCategories": [
+            "Web Hosting"
+          ],
+          "sharedSpecialties": [
+            "Web Security",
+            "Email Hosting",
+            "Cloud Hosting",
+            "E-Commerce Hosting and Optimization",
+            "Domain Management",
+            "Dedicated Server Hosting",
+            "Website Hosting and Maintenance",
+            "Managed Hosting"
+          ],
+          "similarityScore": 89
+        },
+        {
+          "description": "Google specializes in internet-related services and products, including search, advertising, and software.",
+          "employeeRange": "10,001+",
+          "name": "Google",
+          "sharedSpecialties": [
+            "Email Hosting",
+            "Cloud Hosting"
+          ],
+          "similarityScore": 88
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Private Equity round raised $50,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $1,066,003 to $1,066,003, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 57 (-2 over 90 days) and market heat at 69 (+1).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Hostinger, A2 Hosting, 1&1 IONOS.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

@@ -1,0 +1,233 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T13:16:59.734Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T13:16:59.733Z",
+    "url": "https://www.crunchbase.com/organization/saudi-advanced-industries-co"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Saudi Advanced Industries Company",
+      "shortDescription": "Saudi Advanced Industries Company is an investment company that offers industries like oil and gas industries, and petrochemical industries.",
+      "description": "Saudi Advanced Industries Company is an investment management company. They provide industries with competitive advantages, such as the oil and gas industries, petrochemical industries, building materials and associated services, and the housing finance sector.",
+      "website": "https://saic.com.sa/",
+      "operatingStatus": "Active",
+      "ownershipStatus": "Public",
+      "companyType": "For profit",
+      "employeeRange": "11-50",
+      "estimatedRevenueRange": "$50M-$100M",
+      "headquarters": "Ar Riyadh, Ar Riyad, Saudi Arabia",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Energy",
+        "Impact Investing",
+        "Oil and Gas"
+      ],
+      "sectors": [
+        "Energy",
+        "Financial Services",
+        "Lending and Investments",
+        "Natural Resources"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 42635726,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 2,
+      "detailedRoundCount": 2,
+      "lastFundingDate": "2026-07-16",
+      "lastFundingType": "Post IPO Debt",
+      "rounds": [
+        {
+          "announcedDate": "2026-07-16",
+          "amount": {
+            "amount": 15978023,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "Al Rajhi Capital"
+          ],
+          "type": "Post IPO Debt"
+        },
+        {
+          "announcedDate": "2025-03-24",
+          "amount": {
+            "amount": 26657703,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "Alinma Bank"
+          ],
+          "type": "Post IPO Debt"
+        }
+      ],
+      "investors": {
+        "reportedCount": 2,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "Al Rajhi Capital",
+            "rounds": [
+              "Post-IPO Debt"
+            ]
+          },
+          {
+            "isLead": true,
+            "name": "Alinma Bank",
+            "rounds": [
+              "Post-IPO Debt"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 9,
+      "includedUniqueCount": 9,
+      "items": [
+        {
+          "date": "2026-07-16",
+          "title": "Post-IPO Debt - Saudi Advanced Industries Company"
+        },
+        {
+          "date": "2026-07-16",
+          "publisher": "Zawya.com",
+          "title": "Saudi-based SAIC renews $16mln Islamic loan facility with Al Rajhi Capital",
+          "url": "https://www.zawya.com/en/business/banking-and-insurance/saudi-based-saic-renews-16mln-islamic-loan-facility-with-al-rajhi-capital-sxxnwmhf"
+        },
+        {
+          "date": "2026-07-14",
+          "publisher": "TradingView",
+          "title": "Saudi Advanced Industries Renews Islamic Credit Facilities With Al Rajhi Capital",
+          "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN43G0GH:0-saudi-advanced-industries-renews-islamic-credit-facilities-with-al-rajhi-capital/"
+        },
+        {
+          "date": "2026-06-15",
+          "publisher": "Zawya.com",
+          "title": "Saudi SAIC renews $26.7mln Shariah-complaint loan facility",
+          "url": "https://www.zawya.com/en/capital-markets/loans/saudi-saic-renews-267mln-shariah-complaint-loan-facility-w6fkx6ya"
+        },
+        {
+          "date": "2025-11-12",
+          "publisher": "Zawya.com",
+          "title": "Saudi: SAIC incurs $29.06mln net losses in 9M-25",
+          "url": "https://www.zawya.com/en/capital-markets/equities/saudi-saic-incurs-2906mln-net-losses-in-9m-25-qhmm4yl7"
+        },
+        {
+          "date": "2025-08-12",
+          "publisher": "Zawya.com",
+          "title": "Saudi: SAIC shifts to $29.3mln net losses in H1-25",
+          "url": "https://www.zawya.com/en/capital-markets/equities/saudi-saic-shifts-to-293mln-net-losses-in-h1-25-qozx9xzu"
+        },
+        {
+          "date": "2025-03-24",
+          "title": "Post-IPO Debt - Saudi Advanced Industries Company"
+        },
+        {
+          "date": "2024-08-25",
+          "publisher": "TradingView",
+          "title": "Saudi Lime Industries H1 Profit Rises",
+          "url": "https://www.tradingview.com/news/reuters.com,2024:newsml_FWN3KA1CO:0-saudi-lime-industries-h1-profit-rises/"
+        },
+        {
+          "date": "2010-02-24",
+          "title": "2120"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 2,
+    "knownDetailedFundingAmount": {
+      "amount": 42635726,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 37.48
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthInsightGeneratedDate": "2026-07-19",
+      "growthChange90Days": 2,
+      "growthScore": 91,
+      "heatChange90Days": 15,
+      "heatScore": 74,
+      "status": "Growing"
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2025-09-22",
+        "probabilityPercent": 0
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors."
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Post IPO Debt round raised $15,978,023, or 37.48% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 91 (+2 over 90 days) and market heat at 74 (+15).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Strategic repositioning and listing coverage shape the current narrative",
+      "statement": "Saudi Advanced Industries Company has a recent strategic-positioning change; 2 recent unique news titles explicitly contain the English terms IPO or listing.",
+      "implication": "Their timing coincides with increased visibility in the loaded news and Crunchbase momentum signals, but the data does not establish causation.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.company.formerName",
+        "facts.recentNews",
+        "providerSignals.crunchbaseMomentum"
+      ],
+      "caveats": [
+        "The causal link to Crunchbase momentum is an inference from timing, not a disclosed company metric."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

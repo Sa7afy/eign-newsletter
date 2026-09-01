@@ -1,0 +1,258 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T12:18:28.072Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T12:18:28.070Z",
+    "url": "https://www.crunchbase.com/organization/laymune"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Laymune",
+      "shortDescription": "Laymune empowers communities by eliminating stigma and ensuring access to real, affordable medicine.",
+      "website": "https://www.laymune.com/",
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "1-10",
+      "headquarters": "Riyadh, Ar Riyad, Saudi Arabia",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Fitness",
+        "Health Care",
+        "Wellness"
+      ],
+      "sectors": [
+        "Health Care",
+        "Sports"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "A platform that tracks patient-reported outcome and experience measures to monitor health outcomes and care quality in real time.",
+        "name": "Laymune Patient Reported Measures Platform"
+      },
+      {
+        "description": "An online healthcare service offering personalized treatment plans, specialist consultations, and discreet medication delivery for stigmatized health conditions.",
+        "name": "Laymune Personalized Treatment Service"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 180000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2024-08-05",
+      "lastFundingType": "Pre Seed",
+      "rounds": [
+        {
+          "announcedDate": "2024-08-05",
+          "amount": {
+            "amount": 180000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "type": "Pre Seed"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "name": "Antler",
+            "rounds": [
+              "Pre Seed Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 1,
+      "includedUniqueCount": 1,
+      "items": [
+        {
+          "date": "2024-08-05",
+          "title": "Pre Seed Round - Laymune"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 180000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": -2,
+      "growthScore": 51,
+      "heatChange90Days": 10,
+      "heatScore": 77
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 5
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 81.93
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 0
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Ro is a healthcare platform that combines digital medical consultations, laboratory services, and pharmaceutical fulfillment.",
+          "employeeRange": "501-1,000",
+          "name": "Ro",
+          "sharedCategories": [
+            "Health Care",
+            "Wellness"
+          ],
+          "sharedSpecialties": [
+            "Medication Access and Assistance",
+            "Pharmacy and Online Pharmacy",
+            "Pharmacy Delivery Services",
+            "Home Sample Collection Service"
+          ],
+          "similarityScore": 97
+        },
+        {
+          "description": "Nurx is a digital healthcare company offering 10 services across reproductive health, at-home testing, dermatology, migraine care, and more.",
+          "employeeRange": "501-1,000",
+          "name": "Nurx",
+          "sharedCategories": [
+            "Health Care",
+            "Wellness"
+          ],
+          "sharedSpecialties": [
+            "Medication Access and Assistance",
+            "Pharmacy and Online Pharmacy",
+            "Sexual Health",
+            "Medication Management",
+            "Pharmacy Delivery Services",
+            "Home Sample Collection Service"
+          ],
+          "similarityScore": 93
+        },
+        {
+          "description": "PlushCare is a tech-enabled concierge primary care practice that offers services for the healthcare industry.",
+          "employeeRange": "101-250",
+          "name": "PlushCare",
+          "sharedCategories": [
+            "Health Care"
+          ],
+          "sharedSpecialties": [
+            "Medication Access and Assistance",
+            "Pharmacy and Online Pharmacy",
+            "Sexual Health",
+            "Online Appointment Scheduling"
+          ],
+          "similarityScore": 91
+        },
+        {
+          "description": "K Health is a data-driven digital primary care system that uses AI to deliver personalized primary care services.",
+          "employeeRange": "251-500",
+          "name": "K Health",
+          "sharedCategories": [
+            "Health Care"
+          ],
+          "sharedSpecialties": [
+            "Patient Engagement Platforms",
+            "Medication Access and Assistance",
+            "Medication Management",
+            "Patient Portal"
+          ],
+          "similarityScore": 89
+        },
+        {
+          "description": "Lemonaid Health is a telemedicine platform that uses technology to change the way people interact with health care.",
+          "employeeRange": "501-1,000",
+          "name": "Lemonaid Health",
+          "sharedCategories": [
+            "Health Care"
+          ],
+          "sharedSpecialties": [
+            "Pharmacy and Online Pharmacy",
+            "Medication Management",
+            "Pharmacy Delivery Services",
+            "Home Sample Collection Service"
+          ],
+          "similarityScore": 87
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Pre Seed round raised $180,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 51 (-2 over 90 days) and market heat at 77 (+10).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Ro, Nurx, PlushCare.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

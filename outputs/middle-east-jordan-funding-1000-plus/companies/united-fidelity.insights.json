@@ -1,0 +1,255 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T13:50:40.685Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T13:50:40.683Z",
+    "url": "https://www.crunchbase.com/organization/united-fidelity"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "United Fidelity",
+      "shortDescription": "United Fidelity is an insurance company which offers motor, medical, home, travel and marine insurance services.",
+      "website": "http://www.fidelityunited.ae/",
+      "foundedYear": 1976,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "101-250",
+      "headquarters": "Dubai, United Arab Emirates",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Auto Insurance",
+        "Health Care",
+        "Health Insurance",
+        "Insurance",
+        "Life Insurance"
+      ],
+      "sectors": [
+        "Financial Services",
+        "Health Care"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "Provides coverage for loss, damage, and third-party liability related to motor vehicles, including accidental collision, theft, and fire.",
+        "name": "Motor Insurance"
+      },
+      {
+        "description": "Offers monetary protection for medical treatment expenses due to illness or accidents, including inpatient and outpatient care.",
+        "name": "Health Insurance"
+      },
+      {
+        "description": "Covers protection for home contents, buildings, personal belongings, and liabilities related to domestic helpers and tenants.",
+        "name": "Home Insurance"
+      },
+      {
+        "description": "Provides insurance coverage for veterinary expenses, death benefits, theft, and third-party liability for dogs and cats.",
+        "name": "Pet Insurance"
+      },
+      {
+        "description": "Provides coverage for risks associated with travel, including medical emergencies and trip interruptions.",
+        "name": "Travel Insurance"
+      },
+      {
+        "description": "Covers risks related to marine cargo and pleasure crafts, including loss or damage during transit or ownership.",
+        "name": "Marine Insurance"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 29135466,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2026-08-27",
+      "lastFundingType": "Undisclosed",
+      "rounds": [
+        {
+          "announcedDate": "2026-08-27",
+          "amount": {
+            "amount": 29135466,
+            "currency": "USD"
+          },
+          "type": "Undisclosed"
+        }
+      ]
+    },
+    "recentNews": {
+      "reportedCount": 2,
+      "includedUniqueCount": 2,
+      "items": [
+        {
+          "date": "2026-08-27",
+          "title": "Funding Round - United Fidelity"
+        },
+        {
+          "date": "2025-04-23",
+          "publisher": "Zawya.com",
+          "title": "UAE-listed insurers may need regulatory intervention - S&P",
+          "url": "https://www.zawya.com/en/capital-markets/equities/uae-listed-insurers-may-need-regulatory-intervention-s-and-p-s0lz0tj0"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 29135466,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": 3,
+      "growthScore": 94,
+      "heatChange90Days": 77,
+      "heatScore": 94
+    },
+    "modelPredictions": {
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 94.17
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "ADNIC is an insurance company that provides commercial and consumer insurance products to individuals and corporations.",
+          "employeeRange": "251-500",
+          "name": "ADNIC",
+          "sharedCategories": [
+            "Life Insurance",
+            "Insurance"
+          ],
+          "sharedSpecialties": [
+            "Commercial Auto and Fleet Insurance",
+            "Group Health Insurance",
+            "Travel Insurance",
+            "Homeowners Insurance"
+          ],
+          "similarityScore": 93
+        },
+        {
+          "description": "Dubai National Insurance provides insurance and reinsurance services for health, motor, property, marine, and liability.",
+          "employeeRange": "101-250",
+          "name": "Dubai National Insurance",
+          "sharedCategories": [
+            "Insurance",
+            "Health Insurance"
+          ],
+          "sharedSpecialties": [
+            "Commercial Auto and Fleet Insurance",
+            "Group Health Insurance",
+            "Marine and Boat Insurance",
+            "Insurance Claims Services",
+            "Travel Insurance",
+            "Auto and Taxi Insurance"
+          ],
+          "similarityScore": 91
+        },
+        {
+          "description": "Noor Takaful provides a broad range of general and customised Islamic insurance products and services.",
+          "employeeRange": "101-250",
+          "name": "Noor Takaful",
+          "sharedCategories": [
+            "Auto Insurance",
+            "Insurance",
+            "Health Insurance"
+          ],
+          "similarityScore": 89
+        },
+        {
+          "description": "AXA Gulf offers a wide range of insurance products and services for corporate, SME and individual customers.",
+          "employeeRange": "251-500",
+          "name": "Axa Gulf",
+          "sharedCategories": [
+            "Insurance"
+          ],
+          "similarityScore": 88
+        },
+        {
+          "description": "Orient Takaful Insurance provides, motor, home, and property insurance services.",
+          "employeeRange": "501-1,000",
+          "name": "Orient Takaful Insurance",
+          "sharedCategories": [
+            "Insurance"
+          ],
+          "sharedSpecialties": [
+            "Commercial Auto and Fleet Insurance",
+            "Group Health Insurance",
+            "Marine and Boat Insurance",
+            "Insurance Claims Services",
+            "Auto and Taxi Insurance",
+            "Homeowners Insurance"
+          ],
+          "similarityScore": 85
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Undisclosed round raised $29,135,466, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 94 (+3 over 90 days) and market heat at 94 (+77).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include ADNIC, Dubai National Insurance, Noor Takaful.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

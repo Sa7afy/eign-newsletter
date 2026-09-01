@@ -1,0 +1,2682 @@
+{
+  "sourceUrl": "https://www.crunchbase.com/organization/agdss",
+  "pageTitle": "agdss",
+  "scrapedAt": "2026-09-01T09:00:16.052Z",
+  "extraction": {
+    "authenticated": true,
+    "method": "curl-cffi-authenticated-entity-fetch-no-browser"
+  },
+  "organization": {
+    "properties": {
+      "facet_ids": [
+        "aberdeen",
+        "builtwith",
+        "company",
+        "rank"
+      ],
+      "identifier": {
+        "uuid": "ea50ed1d-a07c-4e9b-bcee-b2ec0f25f01d",
+        "value": "AgDSS",
+        "image_id": "c0py3qvwijcmr8uatwia",
+        "permalink": "agdss",
+        "entity_def_id": "organization"
+      },
+      "category_groups": [
+        {
+          "uuid": "00d19f85-95d6-2e98-12f2-10d5dcaa9f26",
+          "value": "Agriculture and Farming",
+          "permalink": "agriculture-and-farming",
+          "entity_def_id": "category_group"
+        }
+      ],
+      "short_description": "AgDSS is a decision support system to help farmers and agriculture industry maximize their profit.",
+      "investor_identifiers": [
+        {
+          "uuid": "f33fabc2-d96d-adc7-1fcd-0f997387560e",
+          "value": "KAUST Innovation Fund",
+          "image_id": "xtupqvptdson9hus1vbj",
+          "permalink": "kaust-innovation-fund",
+          "entity_def_id": "organization"
+        }
+      ],
+      "rank_delta_d90": -0.2,
+      "title": "AgDSS"
+    },
+    "cards": {
+      "semrush_summary": {
+        "identifier": {
+          "uuid": "ea50ed1d-a07c-4e9b-bcee-b2ec0f25f01d",
+          "value": "AgDSS",
+          "image_id": "c0py3qvwijcmr8uatwia",
+          "permalink": "agdss",
+          "entity_def_id": "organization"
+        }
+      },
+      "key_employee_change_list": [],
+      "apptopia_attribution": {},
+      "diversity_spotlight_investments_headline": {},
+      "apptopia_app_rating_list": [],
+      "funds_summary": {
+        "identifier": {
+          "uuid": "ea50ed1d-a07c-4e9b-bcee-b2ec0f25f01d",
+          "value": "AgDSS",
+          "image_id": "c0py3qvwijcmr8uatwia",
+          "permalink": "agdss",
+          "entity_def_id": "organization"
+        }
+      },
+      "funding_prediction": [],
+      "company_about_fields1": {},
+      "current_advisors_image_list": [],
+      "recommended_search": [
+        {
+          "identifier": {
+            "permalink": "closed-agriculture-companies",
+            "image_id": "itbswes2av9iw6szvqgl",
+            "uuid": "c718a18c-cfcc-4a19-bd38-d59913694de7",
+            "entity_def_id": "hub",
+            "value": "Closed Agriculture Companies"
+          },
+          "org_identifiers": [
+            {
+              "permalink": "80-acres-farms",
+              "image_id": "itbswes2av9iw6szvqgl",
+              "uuid": "e32e822e-5cf2-4f18-a0f2-ba040ee75696",
+              "entity_def_id": "organization",
+              "value": "80 Acres Farms"
+            },
+            {
+              "permalink": "bowery-farming-inc",
+              "image_id": "4f768c7e0efe456da6de034acff1c58e",
+              "uuid": "e1175a4e-80fe-c21f-76d9-60d5b78015fb",
+              "entity_def_id": "organization",
+              "value": "Bowery Farming"
+            },
+            {
+              "permalink": "farmwise",
+              "image_id": "tdijq0teq4catrxfjpvp",
+              "uuid": "9c708ade-666f-b9cb-4d0f-b4b55b10db86",
+              "entity_def_id": "organization",
+              "value": "FarmWise"
+            },
+            {
+              "permalink": "descartes-labs",
+              "image_id": "dk0hcd7wgfbqgpi7fxjd",
+              "uuid": "1e2e9b39-9d64-69d6-2852-be5dd6b9cea6",
+              "entity_def_id": "organization",
+              "value": "Descartes Labs"
+            },
+            {
+              "permalink": "gro-intelligence",
+              "image_id": "k0ffdzojzsoonxmc1uob",
+              "uuid": "8bb75a65-0355-003b-5f58-2f437e83a55a",
+              "entity_def_id": "organization",
+              "value": "Gro Intelligence"
+            },
+            {
+              "permalink": "trace-genomics",
+              "image_id": "p2hkgtjyokzsgelrju30",
+              "uuid": "089aa5f1-0833-7699-6295-5d104d82f49a",
+              "entity_def_id": "organization",
+              "value": "Trace Genomics"
+            },
+            {
+              "permalink": "farm-ng",
+              "image_id": "vctq84ovl8ukosv2jgu1",
+              "uuid": "431bf10c-06e4-4d87-a751-d5635f770e9a",
+              "entity_def_id": "organization",
+              "value": "Farm-ng"
+            },
+            {
+              "permalink": "iron-ox",
+              "image_id": "yj59kuuxvet01vwvogko",
+              "uuid": "53443059-e1dd-84ff-2b83-e2975a896eb8",
+              "entity_def_id": "organization",
+              "value": "Iron Ox"
+            }
+          ],
+          "org_funding_total": {
+            "currency": "USD",
+            "value": 7481944667,
+            "value_usd": 7481944667
+          },
+          "org_num_investors": 1160,
+          "org_num": 1669,
+          "queries": {
+            "event": [
+              {
+                "field_id": "categories",
+                "operator_id": "includes",
+                "values": [
+                  "6a733ac8-b79c-e2d2-55b9-cc3d66435eb6"
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "principal.has_event.forward",
+                "query": [
+                  {
+                    "field_id": "facet_ids",
+                    "operator_id": "includes",
+                    "values": [
+                      "company"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "closed"
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ],
+            "organization": [
+              {
+                "field_id": "facet_ids",
+                "operator_id": "includes",
+                "values": [
+                  "company"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "categories",
+                "operator_id": "includes",
+                "values": [
+                  "6a733ac8-b79c-e2d2-55b9-cc3d66435eb6"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "operating_status",
+                "operator_id": "eq",
+                "values": [
+                  "closed"
+                ],
+                "type": "predicate"
+              }
+            ],
+            "person": [
+              {
+                "collection_id": "organization.has_primary_organization.forward",
+                "query": [
+                  {
+                    "field_id": "facet_ids",
+                    "operator_id": "includes",
+                    "values": [
+                      "company"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "categories",
+                    "operator_id": "includes",
+                    "values": [
+                      "6a733ac8-b79c-e2d2-55b9-cc3d66435eb6"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "closed"
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ]
+          }
+        },
+        {
+          "identifier": {
+            "permalink": "closed-saudi-arabia-companies",
+            "image_id": "bkxyltrjtttyed8ecl77",
+            "uuid": "bc9d09ad-17ae-444d-9c33-ab992808f73a",
+            "entity_def_id": "hub",
+            "value": "Closed Saudi Arabia Companies"
+          },
+          "org_identifiers": [
+            {
+              "permalink": "unitx",
+              "image_id": "bkxyltrjtttyed8ecl77",
+              "uuid": "8811ccbd-7a54-4a1f-9165-9fd500daef5c",
+              "entity_def_id": "organization",
+              "value": "UnitX"
+            },
+            {
+              "permalink": "siwar-ef91",
+              "image_id": "qpfvtwmkspsjxlyenr3s",
+              "uuid": "93ff1485-ec87-4b11-b31f-21e09031ef91",
+              "entity_def_id": "organization",
+              "value": "Siwar"
+            },
+            {
+              "permalink": "swyft",
+              "image_id": "kjhdvmdgrnfdwlrp6iqy",
+              "uuid": "70cf5698-003a-4e65-a5ed-2c32245f3a56",
+              "entity_def_id": "organization",
+              "value": "Swyft"
+            },
+            {
+              "permalink": "azom",
+              "image_id": "l7znttk3cdbuklhavqt2",
+              "uuid": "e3269af5-06d8-4056-8f21-18f1799c42fd",
+              "entity_def_id": "organization",
+              "value": "Azom"
+            },
+            {
+              "permalink": "sadeem",
+              "image_id": "v1449316966/jyef9fqmcyt9vvms9kyd.png",
+              "uuid": "7c7f1227-07da-dcf3-3afb-cf68dcd4c2a0",
+              "entity_def_id": "organization",
+              "value": "Sadeem"
+            },
+            {
+              "permalink": "dar-al-balad-contracting",
+              "image_id": "cd4278339cf34f70af583caa9f554104",
+              "uuid": "2088531a-2767-439b-8298-84345612893c",
+              "entity_def_id": "organization",
+              "value": "Dar Al Balad Contracting"
+            },
+            {
+              "permalink": "legends-gaming",
+              "image_id": "b6fcenaulinbugdeuzkl",
+              "uuid": "69c4ab46-2051-4363-a369-9fc08de3cca1",
+              "entity_def_id": "organization",
+              "value": "Legends Gaming"
+            },
+            {
+              "permalink": "nala-ai",
+              "image_id": "us3rdn0c5dqo1rj4w3r8",
+              "uuid": "ef3fbe22-f559-480d-bddc-476ccb7f4a00",
+              "entity_def_id": "organization",
+              "value": "Nala"
+            }
+          ],
+          "org_funding_total": {
+            "currency": "USD",
+            "value": 45370550,
+            "value_usd": 45370550
+          },
+          "org_num_investors": 62,
+          "org_num": 267,
+          "queries": {
+            "event": [
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "2c205931-d55b-569b-0fdf-957f2f062bf3"
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "principal.has_event.forward",
+                "query": [
+                  {
+                    "field_id": "facet_ids",
+                    "operator_id": "includes",
+                    "values": [
+                      "company"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "closed"
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ],
+            "organization": [
+              {
+                "field_id": "facet_ids",
+                "operator_id": "includes",
+                "values": [
+                  "company"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "2c205931-d55b-569b-0fdf-957f2f062bf3"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "operating_status",
+                "operator_id": "eq",
+                "values": [
+                  "closed"
+                ],
+                "type": "predicate"
+              }
+            ],
+            "person": [
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "2c205931-d55b-569b-0fdf-957f2f062bf3"
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "organization.has_primary_organization.forward",
+                "query": [
+                  {
+                    "field_id": "facet_ids",
+                    "operator_id": "includes",
+                    "values": [
+                      "company"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "location_identifiers",
+                    "operator_id": "includes",
+                    "values": [
+                      "2c205931-d55b-569b-0fdf-957f2f062bf3"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "closed"
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ]
+          }
+        },
+        {
+          "identifier": {
+            "permalink": "closed-europe-middle-east-and-africa-agriculture-companies",
+            "image_id": "e3vl4hqfduiesbzgvwlc",
+            "uuid": "3bd8d8d0-3e61-40b1-aae5-088be034580a",
+            "entity_def_id": "hub",
+            "value": "Closed Europe, Middle East, and Africa (EMEA) Agriculture Companies"
+          },
+          "org_identifiers": [
+            {
+              "permalink": "augmenta-2274",
+              "image_id": "e3vl4hqfduiesbzgvwlc",
+              "uuid": "897087e6-e7a8-42fd-80d4-0ffae2fe2274",
+              "entity_def_id": "organization",
+              "value": "Augmenta"
+            },
+            {
+              "permalink": "the-small-robot-company",
+              "image_id": "i4qkmpwf5mrskinvuljl",
+              "uuid": "97282213-30e1-aad5-5997-1aec6c2003fe",
+              "entity_def_id": "organization",
+              "value": "The Small Robot Company"
+            },
+            {
+              "permalink": "lavie-bio",
+              "image_id": "i2whiykfsgmaqaarbk9n",
+              "uuid": "ba6259bf-0e25-45d5-be2b-a688900d5bf7",
+              "entity_def_id": "organization",
+              "value": "Lavie bio"
+            },
+            {
+              "permalink": "agricool",
+              "image_id": "rpje8x58njclyly0ulng",
+              "uuid": "1ea166d5-f010-2fbe-c4ab-8b7f0f5720af",
+              "entity_def_id": "organization",
+              "value": "Agricool"
+            },
+            {
+              "permalink": "ceradis",
+              "image_id": "1ed50cef3a8b453ba87f3153bc45a8eb",
+              "uuid": "1311bd3e-d4e0-759c-805f-fdcc8b68415d",
+              "entity_def_id": "organization",
+              "value": "Ceradis"
+            },
+            {
+              "permalink": "farmitoo",
+              "image_id": "sogxxiz1mlwium4o21vw",
+              "uuid": "3b907a6e-f56e-44c2-9058-2df64cbe2d70",
+              "entity_def_id": "organization",
+              "value": "Farmitoo"
+            },
+            {
+              "permalink": "instamaki",
+              "image_id": "xkholm7xjopox7qcgnbm",
+              "uuid": "02a5f0b1-f87d-4ebb-92cf-a9e6acd89074",
+              "entity_def_id": "organization",
+              "value": "Instamaki"
+            },
+            {
+              "permalink": "fruitspec",
+              "image_id": "vzudon50mlidgpbx2ciu",
+              "uuid": "4bbeb915-315f-4c09-ac79-d0a1b80e8af8",
+              "entity_def_id": "organization",
+              "value": "FruitSpec"
+            }
+          ],
+          "org_funding_total": {
+            "value_usd": 750865169,
+            "currency": "USD",
+            "value": 750865169
+          },
+          "org_num_investors": 233,
+          "org_num": 474,
+          "queries": {
+            "person": [
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "4e8be435-c63a-4aff-8a2f-44a880d9c341"
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "organization.has_primary_organization.forward",
+                "query": [
+                  {
+                    "field_id": "facet_ids",
+                    "operator_id": "includes",
+                    "values": [
+                      "company"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "location_identifiers",
+                    "operator_id": "includes",
+                    "values": [
+                      "4e8be435-c63a-4aff-8a2f-44a880d9c341"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "categories",
+                    "operator_id": "includes",
+                    "values": [
+                      "6a733ac8-b79c-e2d2-55b9-cc3d66435eb6"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "closed"
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ],
+            "organization": [
+              {
+                "field_id": "facet_ids",
+                "operator_id": "includes",
+                "values": [
+                  "company"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "4e8be435-c63a-4aff-8a2f-44a880d9c341"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "categories",
+                "operator_id": "includes",
+                "values": [
+                  "6a733ac8-b79c-e2d2-55b9-cc3d66435eb6"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "operating_status",
+                "operator_id": "eq",
+                "values": [
+                  "closed"
+                ],
+                "type": "predicate"
+              }
+            ],
+            "event": [
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "4e8be435-c63a-4aff-8a2f-44a880d9c341"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "categories",
+                "operator_id": "includes",
+                "values": [
+                  "6a733ac8-b79c-e2d2-55b9-cc3d66435eb6"
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "principal.has_event.forward",
+                "query": [
+                  {
+                    "field_id": "facet_ids",
+                    "operator_id": "includes",
+                    "values": [
+                      "company"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "closed"
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ]
+          }
+        },
+        {
+          "identifier": {
+            "permalink": "closed-asia-companies",
+            "image_id": "lgmypwcse8blq6kvw3cd",
+            "uuid": "ab1da616-d587-47bc-95bd-c573a452ccb4",
+            "entity_def_id": "hub",
+            "value": "Closed Asia Companies (Top 10K)"
+          },
+          "org_identifiers": [
+            {
+              "permalink": "zevero",
+              "image_id": "lgmypwcse8blq6kvw3cd",
+              "uuid": "b2492f5b-c189-467e-a7f6-88f55f2ea478",
+              "entity_def_id": "organization",
+              "value": "Zevero"
+            },
+            {
+              "permalink": "aim-security",
+              "image_id": "zvwrwp9pquwdyvucpvab",
+              "uuid": "e75e8060-e042-46cb-b849-5a4014779185",
+              "entity_def_id": "organization",
+              "value": "Aim Security"
+            },
+            {
+              "permalink": "vistara-47ee",
+              "image_id": "qobvt3mwchv0hwdbrge6",
+              "uuid": "167b2cf7-62c3-4636-8f8f-e621f3c847ee",
+              "entity_def_id": "organization",
+              "value": "Vistara"
+            },
+            {
+              "permalink": "timelyai",
+              "image_id": "bd9dohptg3stnaoggj8l",
+              "uuid": "41fa969f-0b71-48ca-9f64-453a5745b55c",
+              "entity_def_id": "organization",
+              "value": "TimelyAI"
+            },
+            {
+              "permalink": "future-meat-technologies",
+              "image_id": "as8z7iqnkhmj9g7cwr7w",
+              "uuid": "ff2eedf4-9f69-4426-a52c-dc1e4a874a09",
+              "entity_def_id": "organization",
+              "value": "Believer Meats"
+            },
+            {
+              "permalink": "vulcan-cyber",
+              "image_id": "0f5e4d9bcd424f348edfee948d980139",
+              "uuid": "18b59b98-9e94-4b72-a5fd-f534217a266c",
+              "entity_def_id": "organization",
+              "value": "Vulcan Cyber"
+            },
+            {
+              "permalink": "olam-svi-spices-and-vegetable-ingredients",
+              "image_id": "v1509746816/k7zvnq5kg8fmzr6oy4bn.png",
+              "uuid": "3bdde72f-2346-4a4e-b7ed-8fbc78d8b96e",
+              "entity_def_id": "organization",
+              "value": "Olam"
+            },
+            {
+              "permalink": "sam-seamless-network",
+              "image_id": "rbldk6cvkuspaf3525mj",
+              "uuid": "d4eed887-6cd3-8af2-4b0a-3312a911678b",
+              "entity_def_id": "organization",
+              "value": "SAM Seamless Network"
+            }
+          ],
+          "org_funding_total": {
+            "currency": "USD",
+            "value": 94087446829,
+            "value_usd": 94087446829
+          },
+          "org_num_investors": 14496,
+          "org_num": 9939,
+          "queries": {
+            "event": [
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "b41404d2-8ecc-caf5-1268-8fdd3afe73ee"
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "principal.has_event.forward",
+                "query": [
+                  {
+                    "field_id": "facet_ids",
+                    "operator_id": "includes",
+                    "values": [
+                      "company"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "closed"
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ],
+            "organization": [
+              {
+                "field_id": "facet_ids",
+                "operator_id": "includes",
+                "values": [
+                  "company"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "b41404d2-8ecc-caf5-1268-8fdd3afe73ee"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "operating_status",
+                "operator_id": "eq",
+                "values": [
+                  "closed"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "rank_org",
+                "operator_id": "lte",
+                "values": [
+                  3300000
+                ],
+                "type": "predicate"
+              }
+            ],
+            "person": [
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "b41404d2-8ecc-caf5-1268-8fdd3afe73ee"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "rank_person",
+                "operator_id": "lte",
+                "values": [
+                  450000
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "organization.has_primary_organization.forward",
+                "query": [
+                  {
+                    "field_id": "facet_ids",
+                    "operator_id": "includes",
+                    "values": [
+                      "company"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "location_identifiers",
+                    "operator_id": "includes",
+                    "values": [
+                      "b41404d2-8ecc-caf5-1268-8fdd3afe73ee"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "closed"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "rank_org",
+                    "operator_id": "lte",
+                    "values": [
+                      3300000
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ]
+          }
+        }
+      ],
+      "org_similarity_org_list": [],
+      "investors_summary": {
+        "identifier": {
+          "uuid": "ea50ed1d-a07c-4e9b-bcee-b2ec0f25f01d",
+          "value": "AgDSS",
+          "image_id": "c0py3qvwijcmr8uatwia",
+          "permalink": "agdss",
+          "entity_def_id": "organization"
+        },
+        "num_investors": 1
+      },
+      "funds_list": [],
+      "alumni_image_list": [],
+      "semrush_overview_headline": {},
+      "frequently_asked_questions_total_funding": {
+        "funding_total": {
+          "value": 50000,
+          "currency": "USD",
+          "value_usd": 50000
+        },
+        "identifier": {
+          "uuid": "ea50ed1d-a07c-4e9b-bcee-b2ec0f25f01d",
+          "value": "AgDSS",
+          "image_id": "c0py3qvwijcmr8uatwia",
+          "permalink": "agdss",
+          "entity_def_id": "organization"
+        }
+      },
+      "exits_summary": {
+        "identifier": {
+          "uuid": "ea50ed1d-a07c-4e9b-bcee-b2ec0f25f01d",
+          "value": "AgDSS",
+          "image_id": "c0py3qvwijcmr8uatwia",
+          "permalink": "agdss",
+          "entity_def_id": "organization"
+        }
+      },
+      "partnership_announcements": [],
+      "bombora_surge_list": [],
+      "diversity_spotlight_investments_list": [],
+      "builtwith_tech_used_list": [
+        {
+          "identifier": {
+            "uuid": "d65a37dd-4c6b-4f6a-ad9e-4b50a48e5cde",
+            "value": "Mapbox",
+            "entity_def_id": "builtwith_technology"
+          },
+          "technology_category": [
+            "mapping"
+          ],
+          "num_companies_using": 26961
+        },
+        {
+          "identifier": {
+            "uuid": "bb307af0-8fb0-4464-b7bc-d7a9b461701a",
+            "value": "MapLibre GL JS",
+            "entity_def_id": "builtwith_technology"
+          },
+          "technology_category": [
+            "mapping"
+          ],
+          "num_companies_using": 3940
+        }
+      ],
+      "funding_rounds_summary": {
+        "identifier": {
+          "uuid": "ea50ed1d-a07c-4e9b-bcee-b2ec0f25f01d",
+          "value": "AgDSS",
+          "image_id": "c0py3qvwijcmr8uatwia",
+          "permalink": "agdss",
+          "entity_def_id": "organization"
+        },
+        "last_funding_type": "pre_seed",
+        "last_funding_at": "2018-05-01",
+        "funding_total": {
+          "value": 50000,
+          "currency": "USD",
+          "value_usd": 50000
+        },
+        "num_funding_rounds": 1
+      },
+      "org_similarity_list": [],
+      "ipo_prediction": [],
+      "acquisitions_summary": {
+        "identifier": {
+          "uuid": "ea50ed1d-a07c-4e9b-bcee-b2ec0f25f01d",
+          "value": "AgDSS",
+          "image_id": "c0py3qvwijcmr8uatwia",
+          "permalink": "agdss",
+          "entity_def_id": "organization"
+        }
+      },
+      "advisors_summary": {
+        "identifier": {
+          "uuid": "ea50ed1d-a07c-4e9b-bcee-b2ec0f25f01d",
+          "value": "AgDSS",
+          "image_id": "c0py3qvwijcmr8uatwia",
+          "permalink": "agdss",
+          "entity_def_id": "organization"
+        }
+      },
+      "acquisitions_list": [],
+      "exits_headline": {},
+      "investments_summary": {
+        "identifier": {
+          "uuid": "ea50ed1d-a07c-4e9b-bcee-b2ec0f25f01d",
+          "value": "AgDSS",
+          "image_id": "c0py3qvwijcmr8uatwia",
+          "permalink": "agdss",
+          "entity_def_id": "organization"
+        }
+      },
+      "acquired_by_fields": {},
+      "research_insight_text_link": {},
+      "acquisition_prediction": [],
+      "sub_organizations_headline": {},
+      "layoff_list": [],
+      "growth_and_heat": {
+        "heat_score": 24,
+        "heat_score_delta_d90": -14,
+        "heat_score_history": {
+          "periods": {
+            "i1": {
+              "values": [
+                24,
+                24,
+                24,
+                24,
+                24,
+                25,
+                25,
+                25,
+                25,
+                25,
+                25,
+                25,
+                25,
+                25,
+                26,
+                26,
+                26,
+                26,
+                26,
+                27,
+                27,
+                27,
+                28,
+                28,
+                28,
+                29,
+                29,
+                29,
+                30,
+                30,
+                30,
+                30,
+                31,
+                31,
+                31,
+                32,
+                32,
+                32,
+                32,
+                33,
+                33,
+                33,
+                33,
+                34,
+                34,
+                34,
+                35,
+                35,
+                36,
+                36,
+                36,
+                37,
+                37,
+                37,
+                38,
+                38,
+                38,
+                39,
+                32,
+                33,
+                33,
+                33,
+                34,
+                34,
+                35,
+                35,
+                35,
+                36,
+                36,
+                37,
+                37,
+                37,
+                38,
+                38,
+                38,
+                39,
+                39,
+                33,
+                34,
+                34,
+                34,
+                35,
+                35,
+                36,
+                36,
+                36,
+                37,
+                37,
+                38,
+                38
+              ],
+              "interval": 1
+            },
+            "i2": {
+              "values": [
+                24,
+                24,
+                25,
+                25,
+                25,
+                25,
+                25,
+                26,
+                26,
+                27,
+                27,
+                28,
+                29,
+                29,
+                30,
+                30,
+                31,
+                32,
+                32,
+                33,
+                33,
+                34,
+                34,
+                35,
+                36,
+                37,
+                37,
+                38,
+                39,
+                33,
+                33,
+                34,
+                35,
+                36,
+                37,
+                37,
+                38,
+                39,
+                36,
+                34,
+                35,
+                36,
+                36,
+                37,
+                38,
+                39,
+                39,
+                40,
+                41,
+                42,
+                43,
+                43,
+                41,
+                39,
+                40,
+                41,
+                42,
+                42,
+                43,
+                44,
+                45,
+                43,
+                41,
+                42,
+                43,
+                44,
+                45,
+                45,
+                46,
+                42,
+                43,
+                43,
+                44,
+                44,
+                45,
+                46,
+                47,
+                42,
+                42,
+                43,
+                44,
+                45,
+                46,
+                46,
+                45,
+                43,
+                44,
+                45,
+                46,
+                47,
+                48
+              ],
+              "interval": 2
+            },
+            "i4": {
+              "values": [
+                24,
+                25,
+                25,
+                26,
+                26,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                35,
+                36,
+                38,
+                36,
+                34,
+                35,
+                37,
+                38,
+                35,
+                35,
+                37,
+                38,
+                40,
+                42,
+                43,
+                40,
+                40,
+                42,
+                43,
+                44,
+                42,
+                43,
+                45,
+                44,
+                43,
+                44,
+                45,
+                44,
+                43,
+                44,
+                46,
+                44,
+                45,
+                47,
+                47,
+                45,
+                47,
+                48,
+                50,
+                51,
+                52,
+                52,
+                51,
+                52,
+                49,
+                44,
+                35,
+                36,
+                38,
+                40,
+                43,
+                46,
+                49,
+                52,
+                54,
+                57,
+                59,
+                61,
+                64,
+                66,
+                64,
+                65,
+                64,
+                65,
+                64,
+                62,
+                64,
+                64,
+                64,
+                65,
+                65,
+                63,
+                61,
+                60,
+                61,
+                62,
+                62,
+                63,
+                65,
+                67,
+                68
+              ],
+              "interval": 4
+            },
+            "i7": {
+              "values": [
+                24,
+                25,
+                26,
+                28,
+                30,
+                32,
+                34,
+                37,
+                35,
+                35,
+                38,
+                34,
+                37,
+                40,
+                43,
+                39,
+                42,
+                43,
+                43,
+                44,
+                43,
+                45,
+                42,
+                45,
+                44,
+                47,
+                46,
+                48,
+                50,
+                52,
+                50,
+                50,
+                40,
+                36,
+                40,
+                45,
+                50,
+                54,
+                58,
+                63,
+                65,
+                64,
+                65,
+                63,
+                64,
+                64,
+                65,
+                62,
+                60,
+                62,
+                62,
+                66,
+                68,
+                68,
+                67,
+                64,
+                63,
+                63,
+                62,
+                61,
+                60,
+                63,
+                62,
+                65,
+                64,
+                67,
+                67,
+                68,
+                63,
+                65,
+                68,
+                67,
+                65,
+                62,
+                65,
+                68,
+                68,
+                65,
+                68,
+                71,
+                73,
+                70,
+                72,
+                73,
+                74,
+                76,
+                77,
+                76,
+                79,
+                80,
+                79,
+                76,
+                79,
+                79,
+                81,
+                80,
+                81,
+                80,
+                82,
+                84,
+                84,
+                87,
+                89,
+                90,
+                90
+              ],
+              "interval": 7
+            },
+            "i18": {
+              "values": [
+                24,
+                29,
+                34,
+                36,
+                36,
+                41,
+                42,
+                44,
+                44,
+                45,
+                47,
+                51,
+                44,
+                41,
+                53,
+                63,
+                64,
+                64,
+                62,
+                62,
+                68,
+                65,
+                62,
+                61,
+                64,
+                66,
+                66,
+                67,
+                64,
+                68,
+                68,
+                72,
+                73,
+                77,
+                79,
+                78,
+                80,
+                80,
+                83,
+                87,
+                89,
+                85,
+                88,
+                87,
+                91,
+                85,
+                80,
+                79,
+                81,
+                84,
+                83,
+                80,
+                77,
+                80,
+                79,
+                81,
+                87,
+                89,
+                90,
+                87,
+                80,
+                79,
+                79,
+                83,
+                85,
+                84,
+                83,
+                84,
+                83,
+                85,
+                86,
+                86,
+                89,
+                90,
+                90,
+                91,
+                88,
+                86,
+                83,
+                83,
+                83,
+                80,
+                81,
+                81,
+                73,
+                66,
+                64,
+                66,
+                66,
+                64,
+                62,
+                63,
+                60,
+                53,
+                53,
+                58,
+                57,
+                52,
+                50,
+                50,
+                46,
+                40
+              ],
+              "interval": 18
+            },
+            "i36": {
+              "values": [
+                24,
+                35,
+                39,
+                43,
+                44,
+                49,
+                42,
+                58,
+                64,
+                62,
+                66,
+                62,
+                65,
+                66,
+                66,
+                70,
+                75,
+                78,
+                80,
+                85,
+                87,
+                87,
+                88,
+                80,
+                82,
+                82,
+                78,
+                80,
+                88,
+                89,
+                80,
+                81,
+                84,
+                84,
+                84,
+                86,
+                90,
+                90,
+                87,
+                83,
+                81,
+                81,
+                69,
+                65,
+                65,
+                62,
+                56,
+                56,
+                55,
+                50,
+                44,
+                51,
+                57,
+                53,
+                54,
+                58,
+                55,
+                54,
+                61,
+                54,
+                56,
+                61,
+                46,
+                46,
+                47,
+                41,
+                49,
+                47,
+                45,
+                50,
+                57,
+                55,
+                57,
+                55,
+                66,
+                24,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                14,
+                27
+              ],
+              "interval": 36
+            }
+          }
+        },
+        "heat_trend_365": {
+          "periods": {
+            "i1": {
+              "values": [
+                -35,
+                -34,
+                -34,
+                -34,
+                -35,
+                -35,
+                -34,
+                -34,
+                -34,
+                -34,
+                -34,
+                -34,
+                -34,
+                -34,
+                -33,
+                -33,
+                -33,
+                -33,
+                -32,
+                -31,
+                -29,
+                -29,
+                -29,
+                -29,
+                -29,
+                -29,
+                -29,
+                -28,
+                -27,
+                -27,
+                -28,
+                -27,
+                -25,
+                -25,
+                -25,
+                -25,
+                -26,
+                -26,
+                -26,
+                -25,
+                -23,
+                -23,
+                -23,
+                -23,
+                -23,
+                -23,
+                -23,
+                -23,
+                -22,
+                -21,
+                -19,
+                -20,
+                -20,
+                -20,
+                -20,
+                -20,
+                -18,
+                -18,
+                -23,
+                -23,
+                -23,
+                -23,
+                -23,
+                -23,
+                -23,
+                -23,
+                -23,
+                -23,
+                -23,
+                -20,
+                -20,
+                -20,
+                -20,
+                -20,
+                -20,
+                -20,
+                -20,
+                -25,
+                -25,
+                -25,
+                -25,
+                -25,
+                -23,
+                -23,
+                -23,
+                -22,
+                -22,
+                -22,
+                -22,
+                -22
+              ],
+              "interval": 1
+            },
+            "i2": {
+              "values": [
+                -35,
+                -34,
+                -35,
+                -34,
+                -34,
+                -34,
+                -34,
+                -33,
+                -33,
+                -31,
+                -29,
+                -29,
+                -29,
+                -28,
+                -27,
+                -27,
+                -25,
+                -25,
+                -26,
+                -25,
+                -23,
+                -23,
+                -23,
+                -23,
+                -21,
+                -19,
+                -20,
+                -20,
+                -18,
+                -23,
+                -23,
+                -23,
+                -23,
+                -23,
+                -21,
+                -20,
+                -20,
+                -20,
+                -22,
+                -25,
+                -25,
+                -23,
+                -22,
+                -22,
+                -22,
+                -22,
+                -22,
+                -21,
+                -20,
+                -20,
+                -20,
+                -19,
+                -21,
+                -24,
+                -22,
+                -18,
+                -17,
+                -18,
+                -18,
+                -18,
+                -16,
+                -18,
+                -20,
+                -20,
+                -20,
+                -20,
+                -19,
+                -17,
+                -16,
+                -20,
+                -18,
+                -18,
+                -17,
+                -15,
+                -14,
+                -14,
+                -14,
+                -19,
+                -19,
+                -19,
+                -19,
+                -19,
+                -19,
+                -17,
+                -19,
+                -21,
+                -16,
+                -15,
+                -15,
+                -15,
+                -15
+              ],
+              "interval": 2
+            },
+            "i4": {
+              "values": [
+                -35,
+                -34,
+                -34,
+                -33,
+                -32,
+                -29,
+                -29,
+                -27,
+                -25,
+                -26,
+                -23,
+                -23,
+                -20,
+                -20,
+                -20,
+                -23,
+                -23,
+                -21,
+                -20,
+                -24,
+                -24,
+                -22,
+                -22,
+                -22,
+                -20,
+                -19,
+                -23,
+                -20,
+                -17,
+                -18,
+                -17,
+                -20,
+                -20,
+                -18,
+                -18,
+                -18,
+                -16,
+                -14,
+                -16,
+                -19,
+                -19,
+                -18,
+                -20,
+                -15,
+                -15,
+                -16,
+                -19,
+                -19,
+                -18,
+                -18,
+                -16,
+                -14,
+                -15,
+                -16,
+                -16,
+                -18,
+                -23,
+                -31,
+                -30,
+                -29,
+                -27,
+                -24,
+                -22,
+                -21,
+                -20,
+                -19,
+                -17,
+                -14,
+                -10,
+                -10,
+                -10,
+                -11,
+                -11,
+                -12,
+                -12,
+                -11,
+                -13,
+                -12,
+                -12,
+                -12,
+                -12,
+                -12,
+                -14,
+                -16,
+                -17,
+                -16,
+                -17,
+                -18,
+                -17,
+                -17,
+                -16,
+                -15
+              ],
+              "interval": 4
+            },
+            "i7": {
+              "values": [
+                -35,
+                -34,
+                -32,
+                -29,
+                -26,
+                -25,
+                -23,
+                -20,
+                -22,
+                -23,
+                -20,
+                -24,
+                -22,
+                -21,
+                -20,
+                -22,
+                -18,
+                -18,
+                -20,
+                -18,
+                -18,
+                -14,
+                -19,
+                -18,
+                -18,
+                -15,
+                -18,
+                -19,
+                -17,
+                -14,
+                -17,
+                -17,
+                -26,
+                -30,
+                -27,
+                -23,
+                -21,
+                -19,
+                -14,
+                -10,
+                -10,
+                -11,
+                -12,
+                -12,
+                -12,
+                -12,
+                -12,
+                -15,
+                -17,
+                -17,
+                -18,
+                -16,
+                -14,
+                -13,
+                -12,
+                -15,
+                -17,
+                -18,
+                -17,
+                -18,
+                -19,
+                -19,
+                -19,
+                -17,
+                -15,
+                -10,
+                -8,
+                -9,
+                -12,
+                -10,
+                -8,
+                -11,
+                -10,
+                -14,
+                -13,
+                -11,
+                -11,
+                -13,
+                -10,
+                -8,
+                -6,
+                -5,
+                -2,
+                -4,
+                -5,
+                -2,
+                -1,
+                -3,
+                0,
+                1,
+                -1,
+                -5,
+                -4,
+                -6,
+                -5,
+                -5,
+                -6,
+                -8,
+                -5,
+                -4,
+                -2,
+                0,
+                3,
+                8,
+                10
+              ],
+              "interval": 7
+            },
+            "i18": {
+              "values": [
+                -35,
+                -28,
+                -23,
+                -22,
+                -22,
+                -21,
+                -18,
+                -19,
+                -17,
+                -17,
+                -18,
+                -16,
+                -23,
+                -26,
+                -19,
+                -11,
+                -12,
+                -12,
+                -15,
+                -17,
+                -14,
+                -14,
+                -17,
+                -19,
+                -18,
+                -11,
+                -10,
+                -9,
+                -12,
+                -12,
+                -10,
+                -5,
+                -4,
+                -2,
+                0,
+                -3,
+                -5,
+                -6,
+                -5,
+                0,
+                8,
+                4,
+                6,
+                3,
+                4,
+                1,
+                -2,
+                -3,
+                -1,
+                -2,
+                -2,
+                -5,
+                -9,
+                -7,
+                -7,
+                -6,
+                -1,
+                3,
+                5,
+                3,
+                -1,
+                -1,
+                -2,
+                3,
+                11,
+                16,
+                15,
+                14,
+                14,
+                17,
+                20,
+                20,
+                27,
+                34,
+                31,
+                28,
+                27,
+                32,
+                30,
+                32,
+                38,
+                34,
+                31,
+                21,
+                13,
+                10,
+                8,
+                13,
+                11,
+                8,
+                3,
+                3,
+                4,
+                1,
+                -1,
+                2,
+                -3,
+                -7,
+                -4,
+                -1,
+                -7,
+                -16
+              ],
+              "interval": 18
+            },
+            "i36": {
+              "values": [
+                -35,
+                -22,
+                -22,
+                -19,
+                -17,
+                -17,
+                -25,
+                -15,
+                -12,
+                -16,
+                -14,
+                -18,
+                -14,
+                -10,
+                -12,
+                -8,
+                -3,
+                -2,
+                -6,
+                -2,
+                6,
+                4,
+                3,
+                -3,
+                -1,
+                -4,
+                -8,
+                -7,
+                1,
+                4,
+                -1,
+                1,
+                13,
+                15,
+                16,
+                20,
+                30,
+                29,
+                30,
+                31,
+                36,
+                26,
+                11,
+                11,
+                10,
+                3,
+                2,
+                1,
+                -5,
+                -2,
+                -11,
+                -7,
+                12,
+                7,
+                7,
+                17,
+                6,
+                7,
+                15,
+                3,
+                -2,
+                5,
+                -9,
+                -10,
+                -15,
+                42,
+                79,
+                76,
+                73,
+                81,
+                93,
+                89,
+                91,
+                51,
+                41,
+                -8,
+                -33,
+                -33,
+                -33,
+                -33,
+                -33,
+                -33,
+                -33,
+                -19,
+                -4
+              ],
+              "interval": 36
+            }
+          }
+        }
+      },
+      "bombora_summary": {
+        "identifier": {
+          "uuid": "ea50ed1d-a07c-4e9b-bcee-b2ec0f25f01d",
+          "value": "AgDSS",
+          "image_id": "c0py3qvwijcmr8uatwia",
+          "permalink": "agdss",
+          "entity_def_id": "organization"
+        }
+      },
+      "semrush_rank_headline": {},
+      "frequently_asked_questions_latest_funding_round": {
+        "identifier": {
+          "uuid": "ea50ed1d-a07c-4e9b-bcee-b2ec0f25f01d",
+          "value": "AgDSS",
+          "image_id": "c0py3qvwijcmr8uatwia",
+          "permalink": "agdss",
+          "entity_def_id": "organization"
+        },
+        "last_funding_at": "2018-05-01",
+        "last_funding_type": "pre_seed",
+        "num_funding_rounds": 1
+      },
+      "apptopia_app_overview_list_free": [],
+      "contacts": {},
+      "product_launches": [],
+      "alumni_summary": {
+        "identifier": {
+          "uuid": "ea50ed1d-a07c-4e9b-bcee-b2ec0f25f01d",
+          "value": "AgDSS",
+          "image_id": "c0py3qvwijcmr8uatwia",
+          "permalink": "agdss",
+          "entity_def_id": "organization"
+        }
+      },
+      "apptopia_summary": {
+        "identifier": {
+          "uuid": "ea50ed1d-a07c-4e9b-bcee-b2ec0f25f01d",
+          "value": "AgDSS",
+          "image_id": "c0py3qvwijcmr8uatwia",
+          "permalink": "agdss",
+          "entity_def_id": "organization"
+        }
+      },
+      "product_similarity_target_org_list": [],
+      "social_fields": {
+        "linkedin": {
+          "value": "https://www.linkedin.com/company/agdss/"
+        }
+      },
+      "investments_headline": {},
+      "investment_thesis": {
+        "lookup": [],
+        "properties": {
+          "identifier": {
+            "uuid": "ea50ed1d-a07c-4e9b-bcee-b2ec0f25f01d",
+            "value": "AgDSS",
+            "image_id": "c0py3qvwijcmr8uatwia",
+            "permalink": "agdss",
+            "entity_def_id": "organization"
+          }
+        },
+        "data": []
+      },
+      "diversity_spotlight_investments_summary": {
+        "identifier": {
+          "uuid": "ea50ed1d-a07c-4e9b-bcee-b2ec0f25f01d",
+          "value": "AgDSS",
+          "image_id": "c0py3qvwijcmr8uatwia",
+          "permalink": "agdss",
+          "entity_def_id": "organization"
+        }
+      },
+      "contact_fields": {
+        "contact_email": "info@spatialdss.com"
+      },
+      "growth_prediction": [],
+      "sub_organizations_summary": {
+        "identifier": {
+          "uuid": "ea50ed1d-a07c-4e9b-bcee-b2ec0f25f01d",
+          "value": "AgDSS",
+          "image_id": "c0py3qvwijcmr8uatwia",
+          "permalink": "agdss",
+          "entity_def_id": "organization"
+        }
+      },
+      "overview_description": {},
+      "current_employees_featured_order_field": [
+        {
+          "person_identifier": {
+            "uuid": "210649c9-166a-4f91-aa6e-90c3172fa1d7",
+            "value": "Ali Ershadi",
+            "image_id": "iosyii5czoag53o6womz",
+            "permalink": "ali-ershadi",
+            "entity_def_id": "person"
+          },
+          "identifier": {
+            "uuid": "231a01e8-763d-47c9-8439-68b6d3f59888",
+            "value": "Ali Ershadi Founder & CEO @ AgDSS",
+            "permalink": "ali-ershadi-executive-agdss--231a01e8",
+            "entity_def_id": "job"
+          },
+          "title": "Founder & CEO"
+        },
+        {
+          "person_identifier": {
+            "uuid": "e5ee991e-abca-4cf5-a737-625e1cca7638",
+            "value": "Matthew McCabe",
+            "image_id": "kfgkbo3igup7qedqyqpj",
+            "permalink": "matthew-mccabe-7638",
+            "entity_def_id": "person"
+          },
+          "identifier": {
+            "uuid": "2b2da173-1d20-43da-b1ab-a9d39852aad0",
+            "value": "Matthew McCabe Chief Science Officer @ AgDSS",
+            "permalink": "matthew-mccabe-7638-executive-agdss--2b2da173",
+            "entity_def_id": "job"
+          },
+          "title": "Chief Science Officer"
+        }
+      ],
+      "company_about_fields2": {
+        "website": {
+          "value": "https://www.agdss.com/"
+        },
+        "ipo_status": "private",
+        "num_employees_enum": "c_00001_00010",
+        "last_funding_type": "pre_seed",
+        "location_identifiers": [
+          {
+            "uuid": "5ed0d74b-bd48-9fa1-4a9f-eaa707a9772b",
+            "value": "Thuwal",
+            "permalink": "thuwal-hail",
+            "entity_def_id": "location",
+            "location_type": "city"
+          },
+          {
+            "uuid": "6bdb40fb-f5ea-b9e4-4c5d-a0813e309d12",
+            "value": "Ha'il",
+            "permalink": "hail-saudi-arabia",
+            "entity_def_id": "location",
+            "location_type": "region"
+          },
+          {
+            "uuid": "2c205931-d55b-569b-0fdf-957f2f062bf3",
+            "value": "Saudi Arabia",
+            "permalink": "saudi-arabia",
+            "entity_def_id": "location",
+            "location_type": "country"
+          },
+          {
+            "uuid": "b41404d2-8ecc-caf5-1268-8fdd3afe73ee",
+            "value": "Asia",
+            "permalink": "asia",
+            "entity_def_id": "location",
+            "location_type": "continent"
+          }
+        ],
+        "rank_org_company": 291506
+      },
+      "sub_organizations_image_list": [],
+      "frequently_asked_questions_headquarters_location": {
+        "identifier": {
+          "uuid": "ea50ed1d-a07c-4e9b-bcee-b2ec0f25f01d",
+          "value": "AgDSS",
+          "image_id": "c0py3qvwijcmr8uatwia",
+          "permalink": "agdss",
+          "entity_def_id": "organization"
+        },
+        "location_identifiers": [
+          {
+            "uuid": "5ed0d74b-bd48-9fa1-4a9f-eaa707a9772b",
+            "value": "Thuwal",
+            "permalink": "thuwal-hail",
+            "entity_def_id": "location",
+            "location_type": "city"
+          },
+          {
+            "uuid": "6bdb40fb-f5ea-b9e4-4c5d-a0813e309d12",
+            "value": "Ha'il",
+            "permalink": "hail-saudi-arabia",
+            "entity_def_id": "location",
+            "location_type": "region"
+          },
+          {
+            "uuid": "2c205931-d55b-569b-0fdf-957f2f062bf3",
+            "value": "Saudi Arabia",
+            "permalink": "saudi-arabia",
+            "entity_def_id": "location",
+            "location_type": "country"
+          },
+          {
+            "uuid": "b41404d2-8ecc-caf5-1268-8fdd3afe73ee",
+            "value": "Asia",
+            "permalink": "asia",
+            "entity_def_id": "location",
+            "location_type": "continent"
+          }
+        ]
+      },
+      "investors_headline": {
+        "num_investors": 1
+      },
+      "ipo_summary": {
+        "identifier": {
+          "uuid": "ea50ed1d-a07c-4e9b-bcee-b2ec0f25f01d",
+          "value": "AgDSS",
+          "image_id": "c0py3qvwijcmr8uatwia",
+          "permalink": "agdss",
+          "entity_def_id": "organization"
+        }
+      },
+      "ipqwery_summary": {
+        "identifier": {
+          "uuid": "ea50ed1d-a07c-4e9b-bcee-b2ec0f25f01d",
+          "value": "AgDSS",
+          "image_id": "c0py3qvwijcmr8uatwia",
+          "permalink": "agdss",
+          "entity_def_id": "organization"
+        }
+      },
+      "awards": [],
+      "siftery_product_list": [],
+      "competitors_list": [],
+      "growth_knowledge": {
+        "lookup": [],
+        "properties": {
+          "identifier": {
+            "uuid": "ea50ed1d-a07c-4e9b-bcee-b2ec0f25f01d",
+            "value": "AgDSS",
+            "image_id": "c0py3qvwijcmr8uatwia",
+            "permalink": "agdss",
+            "entity_def_id": "organization"
+          }
+        },
+        "data": []
+      },
+      "overview_fields_extended": {
+        "location_group_identifiers": [
+          {
+            "uuid": "4e8be435-c63a-4aff-8a2f-44a880d9c341",
+            "value": "Europe, Middle East, and Africa (EMEA)",
+            "permalink": "europe-middle-east-africa-emea",
+            "entity_def_id": "location",
+            "location_type": "group"
+          },
+          {
+            "uuid": "c4365698-c7c5-44b0-b33a-7d13900e5be2",
+            "value": "Gulf Cooperation Council (GCC)",
+            "permalink": "gulf-cooperation-council",
+            "entity_def_id": "location",
+            "location_type": "group"
+          },
+          {
+            "uuid": "e0272206-3430-48cb-a5bc-1d4b3eafe15a",
+            "value": "Middle East",
+            "permalink": "middle-east",
+            "entity_def_id": "location",
+            "location_type": "group"
+          },
+          {
+            "uuid": "8cb7cad4-b7e4-4b28-a496-2ede3720cb19",
+            "value": "Middle East and North Africa (MENA)",
+            "permalink": "middle-east-and-north-africa-mena",
+            "entity_def_id": "location",
+            "location_type": "group"
+          }
+        ],
+        "founded_on": {
+          "value": "2016-01-01",
+          "precision": "year"
+        },
+        "founder_identifiers": [
+          {
+            "uuid": "210649c9-166a-4f91-aa6e-90c3172fa1d7",
+            "value": "Ali Ershadi",
+            "image_id": "iosyii5czoag53o6womz",
+            "permalink": "ali-ershadi",
+            "entity_def_id": "person"
+          },
+          {
+            "uuid": "e5ee991e-abca-4cf5-a737-625e1cca7638",
+            "value": "Matthew McCabe",
+            "image_id": "kfgkbo3igup7qedqyqpj",
+            "permalink": "matthew-mccabe-7638",
+            "entity_def_id": "person"
+          }
+        ],
+        "operating_status": "closed",
+        "closed_on": {
+          "precision": "none"
+        },
+        "last_funding_type": "pre_seed",
+        "categories": [
+          {
+            "uuid": "6a733ac8-b79c-e2d2-55b9-cc3d66435eb6",
+            "value": "Agriculture",
+            "image_id": "db4bb759de5d44cca0ef7ad274d49191",
+            "permalink": "agriculture",
+            "entity_def_id": "category"
+          }
+        ]
+      },
+      "overview_investor_fields": {},
+      "bombora_attribution": {},
+      "semrush_location_list": [],
+      "investors_list": [
+        {
+          "identifier": {
+            "uuid": "87194c84-54cc-4fd9-9f7d-b0be9c34ebb5",
+            "value": "KAUST Innovation Fund investment in Pre Seed Round - AgDSS",
+            "permalink": "kaust-innovation-fund-invested-in-agdss-pre-seed--8e45252a--87194c84",
+            "entity_def_id": "investment"
+          },
+          "funding_round_identifier": {
+            "uuid": "8e45252a-c96e-44d9-b902-5506b3332ad2",
+            "value": "Pre Seed Round - AgDSS",
+            "image_id": "c0py3qvwijcmr8uatwia",
+            "permalink": "agdss-pre-seed--8e45252a",
+            "entity_def_id": "funding_round"
+          },
+          "investor_identifier": {
+            "uuid": "f33fabc2-d96d-adc7-1fcd-0f997387560e",
+            "value": "KAUST Innovation Fund",
+            "image_id": "xtupqvptdson9hus1vbj",
+            "permalink": "kaust-innovation-fund",
+            "entity_def_id": "organization"
+          }
+        }
+      ],
+      "siftery_summary": {
+        "identifier": {
+          "uuid": "ea50ed1d-a07c-4e9b-bcee-b2ec0f25f01d",
+          "value": "AgDSS",
+          "image_id": "c0py3qvwijcmr8uatwia",
+          "permalink": "agdss",
+          "entity_def_id": "organization"
+        }
+      },
+      "acquired_by_summary": {
+        "identifier": {
+          "uuid": "ea50ed1d-a07c-4e9b-bcee-b2ec0f25f01d",
+          "value": "AgDSS",
+          "image_id": "c0py3qvwijcmr8uatwia",
+          "permalink": "agdss",
+          "entity_def_id": "organization"
+        }
+      },
+      "ipo_fields": {},
+      "apptopia_app_overview_list_public": [],
+      "apptopia_sdk_list": [],
+      "trading_view": {},
+      "current_employees_image_list": [
+        {
+          "identifier": {
+            "uuid": "231a01e8-763d-47c9-8439-68b6d3f59888",
+            "value": "Ali Ershadi Founder & CEO @ AgDSS",
+            "permalink": "ali-ershadi-executive-agdss--231a01e8",
+            "entity_def_id": "job"
+          },
+          "person_identifier": {
+            "uuid": "210649c9-166a-4f91-aa6e-90c3172fa1d7",
+            "value": "Ali Ershadi",
+            "image_id": "iosyii5czoag53o6womz",
+            "permalink": "ali-ershadi",
+            "entity_def_id": "person"
+          },
+          "title": "Founder & CEO"
+        },
+        {
+          "identifier": {
+            "uuid": "2b2da173-1d20-43da-b1ab-a9d39852aad0",
+            "value": "Matthew McCabe Chief Science Officer @ AgDSS",
+            "permalink": "matthew-mccabe-7638-executive-agdss--2b2da173",
+            "entity_def_id": "job"
+          },
+          "person_identifier": {
+            "uuid": "e5ee991e-abca-4cf5-a737-625e1cca7638",
+            "value": "Matthew McCabe",
+            "image_id": "kfgkbo3igup7qedqyqpj",
+            "permalink": "matthew-mccabe-7638",
+            "entity_def_id": "person"
+          },
+          "title": "Chief Science Officer"
+        }
+      ],
+      "frequently_asked_questions_investors": {
+        "identifier": {
+          "uuid": "ea50ed1d-a07c-4e9b-bcee-b2ec0f25f01d",
+          "value": "AgDSS",
+          "image_id": "c0py3qvwijcmr8uatwia",
+          "permalink": "agdss",
+          "entity_def_id": "organization"
+        },
+        "num_investors": 1
+      },
+      "funding_rounds_list": [
+        {
+          "identifier": {
+            "uuid": "8e45252a-c96e-44d9-b902-5506b3332ad2",
+            "value": "Pre Seed Round - AgDSS",
+            "image_id": "c0py3qvwijcmr8uatwia",
+            "permalink": "agdss-pre-seed--8e45252a",
+            "entity_def_id": "funding_round"
+          },
+          "announced_on": "2018-05-01",
+          "money_raised": {
+            "value": 50000,
+            "currency": "USD",
+            "value_usd": 50000
+          },
+          "num_investors": 1,
+          "investment_type": "pre_seed"
+        }
+      ],
+      "technology_highlights": {
+        "builtwith_num_technologies_used": 2
+      },
+      "funding_rounds_headline": {
+        "funding_total": {
+          "value": 50000,
+          "currency": "USD",
+          "value_usd": 50000
+        },
+        "num_funding_rounds": 1
+      },
+      "investments_list": [],
+      "exits_image_list": [],
+      "funds_headline": {},
+      "people_highlights": {
+        "num_current_positions": 2
+      },
+      "semrush_attribution": {},
+      "frequently_asked_questions_similar_companies": {
+        "identifier": {
+          "uuid": "ea50ed1d-a07c-4e9b-bcee-b2ec0f25f01d",
+          "value": "AgDSS",
+          "image_id": "c0py3qvwijcmr8uatwia",
+          "permalink": "agdss",
+          "entity_def_id": "organization"
+        }
+      },
+      "semrush_overview": {},
+      "org_category_ranks": {
+        "category_ranks": {
+          "6a733ac8-b79c-e2d2-55b9-cc3d66435eb6": {
+            "rank": 4252,
+            "count": 107954,
+            "pv_rank": 19904
+          }
+        }
+      },
+      "current_valuation": [],
+      "legal_proceedings": [],
+      "current_employees_summary": {
+        "identifier": {
+          "uuid": "ea50ed1d-a07c-4e9b-bcee-b2ec0f25f01d",
+          "value": "AgDSS",
+          "image_id": "c0py3qvwijcmr8uatwia",
+          "permalink": "agdss",
+          "entity_def_id": "organization"
+        },
+        "num_current_positions": 2
+      },
+      "aberdeen_summary": {
+        "aberdeen_site_it_spend": {
+          "value": 8826792,
+          "currency": "USD",
+          "value_usd": 8826792
+        },
+        "identifier": {
+          "uuid": "ea50ed1d-a07c-4e9b-bcee-b2ec0f25f01d",
+          "value": "AgDSS",
+          "image_id": "c0py3qvwijcmr8uatwia",
+          "permalink": "agdss",
+          "entity_def_id": "organization"
+        }
+      },
+      "offices": [],
+      "overview_timeline": {
+        "count": 1,
+        "entities": [
+          {
+            "uuid": "8e45252a-c96e-44d9-b902-5506b3332ad2",
+            "properties": {
+              "identifier": {
+                "uuid": "8e45252a-c96e-44d9-b902-5506b3332ad2",
+                "value": "Pre Seed Round - AgDSS",
+                "image_id": "c0py3qvwijcmr8uatwia",
+                "permalink": "agdss-pre-seed--8e45252a",
+                "entity_def_id": "funding_round"
+              },
+              "entity_def_id": "funding_round",
+              "activity_entities": [
+                {
+                  "role": "investee",
+                  "uuid": "ea50ed1d-a07c-4e9b-bcee-b2ec0f25f01d",
+                  "value": "AgDSS",
+                  "image_id": "c0py3qvwijcmr8uatwia",
+                  "permalink": "agdss",
+                  "entity_def_id": "organization"
+                },
+                {
+                  "role": "investor",
+                  "uuid": "f33fabc2-d96d-adc7-1fcd-0f997387560e",
+                  "value": "KAUST Innovation Fund",
+                  "image_id": "xtupqvptdson9hus1vbj",
+                  "permalink": "kaust-innovation-fund",
+                  "entity_def_id": "organization"
+                }
+              ],
+              "activity_properties": {
+                "money_raised": {
+                  "value": 50000,
+                  "currency": "USD",
+                  "value_usd": 50000
+                },
+                "investment_type": "pre_seed"
+              },
+              "activity_date": "2018-05-01"
+            }
+          }
+        ]
+      },
+      "company_financials_highlights": {
+        "funding_total": {
+          "value": 50000,
+          "currency": "USD",
+          "value_usd": 50000
+        },
+        "num_funding_rounds": 1,
+        "num_investors": 1
+      },
+      "overview_company_fields": {
+        "company_type": "for_profit"
+      },
+      "private_tags_pill_list": [],
+      "acquisitions_headline": {},
+      "builtwith_summary": {
+        "builtwith_num_technologies_used": 2,
+        "identifier": {
+          "uuid": "ea50ed1d-a07c-4e9b-bcee-b2ec0f25f01d",
+          "value": "AgDSS",
+          "image_id": "c0py3qvwijcmr8uatwia",
+          "permalink": "agdss",
+          "entity_def_id": "organization"
+        }
+      },
+      "about_short_description": {
+        "short_description": "AgDSS is a decision support system to help farmers and agriculture industry maximize their profit."
+      },
+      "product": [],
+      "apptopia_app_headline": {}
+    }
+  }
+}

@@ -1,0 +1,234 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T11:59:29.324Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T11:59:29.322Z",
+    "url": "https://www.crunchbase.com/organization/hopea-pay"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Hopea Pay",
+      "shortDescription": "Hopea Pay provides payment plans for healthcare services that comply with Shariah financial standards.",
+      "description": "Hopea Pay provides payment plans for healthcare services that comply with Shariah financial standards. The platform allows patients to split bills into monthly installments from three to twenty-four months. Payments are sent directly to healthcare providers while patients manage their schedules digitally through a mobile app. The system meets global standards for security and privacy, including HIPAA, PCI DSS, and SOC2. It works with healthcare providers to make services accessible through managed payment solutions.",
+      "website": "https://hopeapay.com/",
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "employeeRange": "1-10",
+      "headquarters": "Riyadh, Ar Riyad, Saudi Arabia",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "FinTech"
+      ],
+      "sectors": [
+        "Financial Services"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 399933,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2025-02-14",
+      "lastFundingType": "Pre Seed",
+      "rounds": [
+        {
+          "announcedDate": "2025-02-14",
+          "amount": {
+            "amount": 399933,
+            "currency": "USD"
+          },
+          "investorCount": 3,
+          "leadInvestors": [
+            "Iwan Ventures"
+          ],
+          "postMoneyValuation": {
+            "amount": 2499933,
+            "currency": "USD"
+          },
+          "type": "Pre Seed"
+        }
+      ],
+      "investors": {
+        "reportedCount": 3,
+        "visibleNames": [
+          {
+            "name": "Beetleware",
+            "rounds": [
+              "Pre Seed Round"
+            ]
+          },
+          {
+            "isLead": true,
+            "name": "Iwan Ventures",
+            "rounds": [
+              "Pre Seed Round"
+            ]
+          },
+          {
+            "name": "ODBA",
+            "rounds": [
+              "Pre Seed Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 1,
+      "includedUniqueCount": 1,
+      "items": [
+        {
+          "date": "2025-02-14",
+          "title": "Pre Seed Round - Hopea Pay"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 399933,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": -2,
+      "growthScore": 86,
+      "heatChange90Days": -16,
+      "heatScore": 65
+    },
+    "modelPredictions": {
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 88.64
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Sunbit offers pay-over-time technology that allows users to finance everyday expenses by dividing payments into manageable installments.",
+          "employeeRange": "501-1,000",
+          "name": "Sunbit",
+          "sharedCategories": [
+            "FinTech"
+          ],
+          "similarityScore": 95
+        },
+        {
+          "description": "CareCredit has been providing a valuable financing option for treatments and procedures that typically are not covered by insurance",
+          "employeeRange": "10,001+",
+          "name": "CareCredit",
+          "similarityScore": 93
+        },
+        {
+          "description": "PatientFi is a financial services company that helps patients to access current health, beauty, and wellness treatments.",
+          "employeeRange": "51-100",
+          "name": "PatientFi",
+          "sharedCategories": [
+            "FinTech"
+          ],
+          "similarityScore": 89
+        },
+        {
+          "description": "Affirm is a financial technology services company that offers installment loans to consumers at the point of sale.",
+          "employeeRange": "1,001-5,000",
+          "name": "Affirm",
+          "sharedCategories": [
+            "FinTech"
+          ],
+          "similarityScore": 85
+        },
+        {
+          "description": "Klarna is a global digital bank and flexible payments provider.",
+          "employeeRange": "1,001-5,000",
+          "name": "Klarna",
+          "sharedCategories": [
+            "FinTech"
+          ],
+          "similarityScore": 83
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Pre Seed round raised $399,933, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $2,499,933 to $2,499,933, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 86 (-2 over 90 days) and market heat at 65 (-16).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Sunbit, CareCredit, PatientFi.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

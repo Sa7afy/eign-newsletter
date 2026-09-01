@@ -1,0 +1,600 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T13:35:00.186Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T13:35:00.183Z",
+    "url": "https://www.crunchbase.com/organization/swvl"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Swvl",
+      "shortDescription": "Swvl offers an app that allows customers to book fixed rate rides on buses and vans in their network.",
+      "description": "Swvl offers an app that allows customers to book fixed-rate rides on buses and vans in their network. It allows people to share a ride in a van or bus during morning and evening commutes for a fixed flat fare with no surge pricing. Through an app, one can book a ride at an affordable rate. Launched in 2017, Swvl has its headquarters in Dubai, United Arab Emirates.",
+      "website": "https://swvl.com/",
+      "operatingStatus": "Active",
+      "ownershipStatus": "Public",
+      "companyType": "For profit",
+      "employeeRange": "251-500",
+      "estimatedRevenueRange": "$10M-$50M",
+      "headquarters": "Dubai, United Arab Emirates",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Internet",
+        "Mobile Apps",
+        "Transportation",
+        "Travel"
+      ],
+      "sectors": [
+        "Apps",
+        "Information Technology",
+        "Mobile",
+        "Software",
+        "Transportation",
+        "Travel and Tourism"
+      ],
+      "founders": [
+        "Ahmed Sabbah",
+        "Mahmoud Nouh",
+        "Maxim Nohroudi",
+        "Mostafa Kandil",
+        "Rafael Coronel"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "An app that allows riders to plan, book, and pay for trips on fixed routes using buses and vans within Swvl’s network.",
+        "name": "Rider App"
+      },
+      {
+        "description": "An app for drivers (captains) to manage trips, track schedules, check passengers in and out, and monitor performance metrics.",
+        "name": "Captain App"
+      },
+      {
+        "description": "A web-based dashboard providing transit operators and business administrators with real-time and historical analytics on fleet performance, trip statistics, and financial reporting.",
+        "name": "Admin Dashboard"
+      },
+      {
+        "description": "A platform for fleet operators to manage vehicles and riders, improve scheduling, and replace manual processes with digital tools.",
+        "name": "Partner Portal"
+      },
+      {
+        "description": "Customized shuttle services for factory workers with optimized routes and schedules to ensure timely arrivals and reduce travel time.",
+        "name": "Factory Transit Service"
+      },
+      {
+        "description": "Employee transportation solutions that provide timely, optimized, and trackable rides to improve punctuality and reduce costs for corporate commutes.",
+        "name": "Office Commute Service"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 257699998,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 12,
+      "detailedRoundCount": 10,
+      "lastFundingDate": "2026-08-27",
+      "lastFundingType": "Post IPO Equity",
+      "rounds": [
+        {
+          "announcedDate": "2026-08-27",
+          "amount": {
+            "amount": 12999998,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "Coefficient LP"
+          ],
+          "type": "Post IPO Equity"
+        },
+        {
+          "announcedDate": "2025-02-07",
+          "amount": {
+            "amount": 2000000,
+            "currency": "USD"
+          },
+          "type": "Post IPO Equity"
+        },
+        {
+          "announcedDate": "2024-11-25",
+          "investorCount": 1,
+          "leadInvestors": [
+            "HSBC Bank"
+          ],
+          "type": "Post IPO Debt"
+        },
+        {
+          "announcedDate": "2024-11-18",
+          "amount": {
+            "amount": 4700000,
+            "currency": "USD"
+          },
+          "type": "Post IPO Equity"
+        },
+        {
+          "announcedDate": "2022-08-10",
+          "amount": {
+            "amount": 20000000,
+            "currency": "USD"
+          },
+          "type": "Post IPO Equity"
+        },
+        {
+          "announcedDate": "2022-02-03",
+          "amount": {
+            "amount": 111500000,
+            "currency": "USD"
+          },
+          "investorCount": 5,
+          "type": "Post IPO Equity"
+        },
+        {
+          "announcedDate": "2020-05-07",
+          "amount": {
+            "amount": 26000000,
+            "currency": "USD"
+          },
+          "investorCount": 4,
+          "leadInvestors": [
+            "VNV Global"
+          ],
+          "type": "Venture round"
+        },
+        {
+          "announcedDate": "2019-06-20",
+          "amount": {
+            "amount": 42000000,
+            "currency": "USD"
+          },
+          "investorCount": 12,
+          "leadInvestors": [
+            "BECO Capital",
+            "VNV Global",
+            "Vostok Ventures"
+          ],
+          "type": "Series B"
+        },
+        {
+          "announcedDate": "2018-11-22",
+          "amount": {
+            "amount": 30000000,
+            "currency": "USD"
+          },
+          "investorCount": 9,
+          "leadInvestors": [
+            "BECO Capital",
+            "DiGAME"
+          ],
+          "postMoneyValuation": {
+            "amount": 100000000,
+            "currency": "USD"
+          },
+          "type": "Series B"
+        },
+        {
+          "announcedDate": "2018-04-23",
+          "amount": {
+            "amount": 8000000,
+            "currency": "USD"
+          },
+          "investorCount": 8,
+          "leadInvestors": [
+            "BECO Capital",
+            "DiGAME",
+            "Silicon Badia"
+          ],
+          "type": "Series A"
+        }
+      ],
+      "investors": {
+        "reportedCount": 29,
+        "visibleNames": [
+          {
+            "name": "Agility",
+            "rounds": [
+              "Post-IPO Equity"
+            ]
+          },
+          {
+            "name": "Autotech Ventures"
+          },
+          {
+            "name": "BECO Capital",
+            "rounds": [
+              "Venture round"
+            ]
+          },
+          {
+            "name": "Careem"
+          },
+          {
+            "name": "Chimera Investment",
+            "rounds": [
+              "Post-IPO Equity"
+            ]
+          },
+          {
+            "isLead": true,
+            "name": "Coefficient LP",
+            "rounds": [
+              "Post-IPO Equity"
+            ]
+          },
+          {
+            "name": "Endeavor Catalyst",
+            "rounds": [
+              "Venture round"
+            ]
+          },
+          {
+            "name": "European Bank for Reconstruction and Development",
+            "rounds": [
+              "Post-IPO Equity"
+            ]
+          },
+          {
+            "isLead": true,
+            "name": "HSBC Bank",
+            "rounds": [
+              "Post-IPO Debt"
+            ]
+          },
+          {
+            "name": "Luxor Group",
+            "rounds": [
+              "Post-IPO Equity"
+            ]
+          },
+          {
+            "name": "Silverbacks Holdings",
+            "rounds": [
+              "Venture round"
+            ]
+          },
+          {
+            "name": "Zain Ventures",
+            "rounds": [
+              "Post-IPO Equity"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 140,
+      "includedUniqueCount": 10,
+      "items": [
+        {
+          "date": "2026-08-31",
+          "publisher": "FinSMEs",
+          "title": "Swvl Raises $13M in Funding",
+          "url": "https://www.finsmes.com/2026/08/swvl-raises-13m-in-funding.html"
+        },
+        {
+          "date": "2026-08-29",
+          "publisher": "إنت عربي | entARABI",
+          "title": "Swvl Raises Strategic Investment Round to $14.5 Million with Sovico Investment",
+          "url": "https://entarabi.com/en/2026/08/swvl-raises-strategic-investment-round-to-14-5-million-with-sovico-investment/"
+        },
+        {
+          "date": "2026-08-28",
+          "publisher": "Tech In Africa",
+          "title": "Swvl Expands Strategic Funding Round to $14.5M to Accelerate US Growth",
+          "url": "https://www.techinafrica.com/swvl-expands-strategic-funding-round-to-14-5m-to-accelerate-us-growth/"
+        },
+        {
+          "date": "2026-08-28",
+          "publisher": "FWDStart | MENA Startups, Tech News & VC Insights",
+          "title": "Fasset joins the unicorn club, Builder.ai founder resurfaces in Dubai",
+          "url": "https://www.fwdstart.me/p/fasset-joins-the-unicorn-club-builder-ai-founder-resurfaces-in-dubai"
+        },
+        {
+          "date": "2026-08-28",
+          "publisher": "TechCabal",
+          "title": "👨🏿‍🚀TechCabal Daily – OPay to NGX?",
+          "url": "https://techcabal.com/2026/08/28/techcabal-daily-opay-to-ngx/"
+        },
+        {
+          "date": "2026-08-27",
+          "publisher": "The SaaS News",
+          "title": "Swvl Raises $13M Strategic Investment",
+          "url": "https://www.thesaasnews.com/news/swvl-holdings-raises-13m-growth-capital/"
+        },
+        {
+          "date": "2026-08-27",
+          "title": "Post-IPO Equity - Swvl"
+        },
+        {
+          "date": "2026-08-27",
+          "publisher": "Lucidity Insights",
+          "title": "Swvl Secures $13M PIPE Led by Coefficient to Accelerate U.S. Expansion",
+          "url": "https://lucidityinsights.com/news/swvl-secures-13m-pipe-funding"
+        },
+        {
+          "date": "2026-08-27",
+          "publisher": "Business Insider",
+          "title": "Egypt’s Sawiris family leads $14.5 million bet on Swvl as transport startup expands into America",
+          "url": "https://africa.businessinsider.com/local/markets/egypts-sawiris-family-leads-dollar145-million-bet-on-swvl-as-transport-startup/nw912js"
+        },
+        {
+          "date": "2026-08-26",
+          "publisher": "legacy.thefly.com",
+          "title": "Swvl prices announces pricing of $1.5M private placement",
+          "url": "https://thefly.com/SWVL"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 9,
+    "knownDetailedFundingAmount": {
+      "amount": 257199998,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 99.81,
+    "unattributedFundingAmount": {
+      "amount": 500000,
+      "currency": "USD"
+    },
+    "latestRoundShareOfTotalPercent": 5.04,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "reportedPartnerships": {
+      "note": "Provider event summaries with linked sources; not independently verified.",
+      "items": [
+        {
+          "date": "2026-07-07",
+          "description": "Swvl signed a new contract with Bank Albilad, indicating a fresh commercial partnership or service agreement between the mobility platform and the Saudi bank.",
+          "sources": [
+            {
+              "date": "2026-08-26",
+              "publisher": "legacy.thefly.com",
+              "title": "Swvl prices announces pricing of $1.5M private placement",
+              "url": "https://thefly.com/SWVL"
+            }
+          ]
+        },
+        {
+          "date": "2025-11-26",
+          "description": "Swvl announced that its collaboration partnership with Bank AlJazira in Saudi Arabia has surpassed 100,000 bookings in 2025, highlighting their joint effort to provide sustainable, tech-enabled employee transportation solutions across the Kingdom.",
+          "sources": [
+            {
+              "date": "2025-11-26",
+              "publisher": "SWVL Global FZE",
+              "title": "Swvl and Bank AlJazira in Saudi Arabia Mark Over 100,000 Bookings Milestone in 2025, Accelerating Sustainable Mobility Across Saudi Arabia",
+              "url": "https://www.globenewswire.com/news-release/2025/11/26/3195021/0/en/Swvl-and-Bank-AlJazira-in-Saudi-Arabia-Mark-Over-100-000-Bookings-Milestone-in-2025-Accelerating-Sustainable-Mobility-Across-Saudi-Arabia.html"
+            }
+          ]
+        },
+        {
+          "date": "2024-12-26",
+          "sources": [
+            {
+              "date": "2024-12-26",
+              "publisher": "Swvl to Provide Last-Mile Shuttle Services for SAB Bank Following Riyadh Metro Launch",
+              "title": "Swvl to Provide Last-Mile Shuttle Services for SAB Bank Following Riyadh Metro Launch",
+              "url": "https://uaereview.com/article/swvl-to-provide-last-mile-shuttle-services-for-sab-bank-following-riyadh-metro-launch"
+            }
+          ]
+        },
+        {
+          "date": "2024-11-18",
+          "description": "Swvl announced a strategic five-year partnership with e& Egypt valued at USD 6.3 M to enhance B2B transportation solutions.",
+          "sources": [
+            {
+              "date": "2024-11-18",
+              "publisher": "WeeTracker",
+              "title": "Swvl—Once A Mobility Star—Seeks Lifeline Amid Fears of Grinding To A Halt",
+              "url": "https://weetracker.com/2024/11/18/swvl-seeks-gains-amid-struggles/"
+            }
+          ]
+        }
+      ]
+    },
+    "crunchbaseMomentum": {
+      "growthInsightGeneratedDate": "2026-05-10",
+      "growthChange90Days": -20,
+      "growthScore": 28,
+      "heatChange90Days": 35,
+      "heatScore": 92,
+      "status": "Growing"
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2025-09-22",
+        "probabilityPercent": 2.74
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Bolt is a mobility app that provides rides, food delivery, scooters, and car-sharing services.",
+          "employeeRange": "1-10",
+          "name": "Bolt",
+          "sharedCategories": [
+            "Mobile Apps",
+            "Transportation"
+          ],
+          "sharedSpecialties": [
+            "Fleet Management Software",
+            "Fleet Telematics and GPS Tracking",
+            "Route Optimization and Fleet Tracking"
+          ],
+          "similarityScore": 100
+        },
+        {
+          "description": "Blaise is an AI-based software platform that enables transit operators to bus services using their existing vehicles.",
+          "employeeRange": "1-10",
+          "name": "Blaise",
+          "sharedSpecialties": [
+            "Demand-Responsive Transport",
+            "Smart Mobility",
+            "Fleet Management Software",
+            "Passenger Information Systems",
+            "Private Shuttle Services",
+            "Fleet Telematics and GPS Tracking",
+            "Travel Reporting and Analytics",
+            "Bus Services",
+            "Route Optimization and Fleet Tracking"
+          ],
+          "similarityScore": 87.551
+        },
+        {
+          "description": "CitySwift is a data-driven bus scheduling and business intelligence platform.",
+          "employeeRange": "51-100",
+          "name": "CitySwift",
+          "sharedCategories": [
+            "Transportation"
+          ],
+          "sharedSpecialties": [
+            "Fleet Management Software",
+            "Transit Ticketing",
+            "Fleet Telematics and GPS Tracking",
+            "Travel Reporting and Analytics",
+            "Route Optimization and Fleet Tracking"
+          ],
+          "similarityScore": 83.046
+        },
+        {
+          "description": "Clever Devices designs innovative technology solutions for all modes of public transportation.",
+          "employeeRange": "251-500",
+          "name": "Clever Devices",
+          "sharedCategories": [
+            "Transportation"
+          ],
+          "sharedSpecialties": [
+            "Fleet Management Software",
+            "Passenger Information Systems",
+            "Fleet Telematics and GPS Tracking",
+            "Bus Services"
+          ],
+          "similarityScore": 78.543
+        },
+        {
+          "description": "Ito World solves transportation challenges across the globe by delivering real-time transit data feeds & a platform for agencies & operators",
+          "employeeRange": "101-250",
+          "name": "Ito World",
+          "sharedCategories": [
+            "Transportation"
+          ],
+          "sharedSpecialties": [
+            "Smart Mobility",
+            "Passenger Information Systems"
+          ],
+          "similarityScore": 74.043
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Post IPO Equity round raised $12,999,998, or 5.04% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ],
+      "caveats": [
+        "Crunchbase reports 12 rounds but provides 10 detailed rows."
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $100,000,000 to $100,000,000, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 28 (-20 over 90 days) and market heat at 92 (+35).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Strategic repositioning and listing coverage shape the current narrative",
+      "statement": "Swvl has a recent strategic-positioning change; 1 recent unique news titles explicitly contain the English terms IPO or listing.",
+      "implication": "Their timing coincides with increased visibility in the loaded news and Crunchbase momentum signals, but the data does not establish causation.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.company.formerName",
+        "facts.recentNews",
+        "providerSignals.crunchbaseMomentum"
+      ],
+      "caveats": [
+        "The causal link to Crunchbase momentum is an inference from timing, not a disclosed company metric."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Bolt, Blaise, CitySwift.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "issues": [
+      {
+        "severity": "medium",
+        "finding": "Crunchbase reports 12 funding rounds but supplies 10 detailed rows.",
+        "impact": "The detailed round history is incomplete."
+      },
+      {
+        "severity": "medium",
+        "finding": "Disclosed detailed amounts total $257,199,998, leaving $500,000 of reported funding unattributed.",
+        "impact": "Do not invent or assign the missing amount to a round."
+      },
+      {
+        "severity": "low",
+        "finding": "Crunchbase reports 140 timeline items but exposes 10 unique items in this payload.",
+        "impact": "Recent news is a partial sample, not a complete history."
+      }
+    ],
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

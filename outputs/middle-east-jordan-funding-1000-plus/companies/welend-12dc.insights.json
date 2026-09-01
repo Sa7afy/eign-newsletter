@@ -1,0 +1,245 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T13:58:40.740Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T13:58:40.738Z",
+    "url": "https://www.crunchbase.com/organization/welend-12dc"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "WeLend",
+      "shortDescription": "SMEs financing fintech",
+      "description": "WeLend is an all-in-one place for SMEs financing needs. Leveraging alternative data to offer an end-to-end digital process, from application to repayment.",
+      "website": "https://www.welend.credit/",
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "1-10",
+      "headquarters": "Cairo, Al Qahirah, Egypt",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Middle East",
+        "Middle East and North Africa (MENA)",
+        "North Africa"
+      ],
+      "industries": [
+        "Lending",
+        "Small and Medium Businesses"
+      ],
+      "sectors": [
+        "Financial Services",
+        "Other"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 100000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2025-05-30",
+      "lastFundingType": "Pre Seed",
+      "rounds": [
+        {
+          "announcedDate": "2025-05-30",
+          "amount": {
+            "amount": 100000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "Orbit Ventures"
+          ],
+          "postMoneyValuation": {
+            "amount": 1121775,
+            "currency": "USD"
+          },
+          "type": "Pre Seed"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "Orbit Ventures",
+            "rounds": [
+              "Pre Seed Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 3,
+      "includedUniqueCount": 3,
+      "items": [
+        {
+          "date": "2025-09-23",
+          "publisher": "Incubees",
+          "title": "Eleven startups supported by Orbit’s Sanabil Accelerator to promote innovation in MENA",
+          "url": "https://incubees.com/eleven-startups-supported-by-orbits-sanabil-accelerator-to-promote-innovation-in-mena/"
+        },
+        {
+          "date": "2025-09-11",
+          "publisher": "TNGlobal",
+          "title": "11 startups backed by Sanabil Accelerator by Orbit advance innovation across MENA",
+          "url": "https://technode.global/2025/09/11/11-startups-backed-by-sanabil-accelerator-by-orbit-advance-innovation-across-mena/"
+        },
+        {
+          "date": "2025-05-30",
+          "title": "Pre Seed Round - WeLend"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 100000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthInsightGeneratedDate": "2025-09-29",
+      "growthChange90Days": 3,
+      "growthScore": 49,
+      "heatChange90Days": -11,
+      "heatScore": 39,
+      "status": "Growing"
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2025-12-20",
+        "probabilityPercent": 35
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 88.01,
+        "timingEstimatePercent": {
+          "within6Months": 99.75,
+          "months6To11": 0.03,
+          "months12To24": 0,
+          "beyond24Months": 0.22
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 95.62
+      },
+      "ipo": {
+        "generatedDate": "2025-12-27",
+        "probabilityPercent": 35
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "FundPark is a fintech scale-up with a vision to power digital entrepreneurs to realise their growth potential and drive prosperity.",
+          "employeeRange": "51-100",
+          "name": "FundPark",
+          "similarityScore": 97
+        },
+        {
+          "description": "Qupital is a fintech company that develops a one-stop financing platform for cross-border e-commerce sellers.",
+          "employeeRange": "51-100",
+          "name": "Qupital",
+          "similarityScore": 95
+        },
+        {
+          "description": "Mox Bank offers smart banking services.",
+          "employeeRange": "251-500",
+          "name": "Mox Bank",
+          "similarityScore": 88
+        },
+        {
+          "description": "WeLab is a FinTech company that provides digital lending, payments, and financial management services through technology-driven platforms.",
+          "employeeRange": "501-1,000",
+          "name": "WeLab",
+          "similarityScore": 87
+        },
+        {
+          "description": "Fusion Bank is a financial service provider that offers deposit, remittance, loan, and other banking services virtually to customers.",
+          "employeeRange": "101-250",
+          "name": "Fusion Bank",
+          "similarityScore": 85
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Pre Seed round raised $100,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $1,121,775 to $1,121,775, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 49 (+3 over 90 days) and market heat at 39 (-11).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include FundPark, Qupital, Mox Bank.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

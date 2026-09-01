@@ -1,0 +1,207 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T13:47:25.823Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T13:47:25.821Z",
+    "url": "https://www.crunchbase.com/organization/trippifi"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Trippifi",
+      "shortDescription": "Trippifi is a social travel community (website + apps) connecting like-minded people who will be in the same place at the same time.",
+      "description": "Trippifi is a website and app which connects like-minded people who will be in the same place at the same time. We are leading the social travel revolution. Trippifi is a Dubai-based social travel networking platform that connected travelers visiting the same destinations at the same time. The platform combined social networking, destination-based communities, messaging, and local discovery features to help users make travel experiences more interactive and social. Founded in 2014, Trippifi allowed travelers to connect based on shared interests, travel dates, events, and locations, enabling them to chat, organize activities, share recommendations, and meet new people while traveling.",
+      "website": "http://www.trippifi.com/",
+      "operatingStatus": "Closed",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "11-50",
+      "headquarters": "Dubai, United Arab Emirates",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Android",
+        "Apps",
+        "iOS",
+        "Location Based Services",
+        "Social Media",
+        "Travel"
+      ],
+      "sectors": [
+        "Apps",
+        "Data and Analytics",
+        "Internet Services",
+        "Media and Entertainment",
+        "Mobile",
+        "Navigation and Mapping",
+        "Platforms",
+        "Software",
+        "Travel and Tourism"
+      ],
+      "founders": [
+        "Carey Benn",
+        "Chris Johnstone"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 150000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2014-01-01",
+      "lastFundingType": "Seed",
+      "rounds": [
+        {
+          "announcedDate": "2014-01-01",
+          "amount": {
+            "amount": 150000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "type": "Seed"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "name": "Clicksco",
+            "rounds": [
+              "Seed Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 2,
+      "includedUniqueCount": 2,
+      "items": [
+        {
+          "date": "2014-04-26",
+          "publisher": "TechCrunch",
+          "title": "Travel Tech Investors Are Ready For Takeoff | TechCrunch",
+          "url": "http://techcrunch.com/2014/03/09/travel-tech-investors-are-ready-for-takeoff/"
+        },
+        {
+          "date": "2014-01-01",
+          "title": "Seed Round - Trippifi"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 150000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "heatChange90Days": -13,
+      "heatScore": 18
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Tourlina is a female travel app .",
+          "name": "Tourlina",
+          "sharedCategories": [
+            "Travel",
+            "Apps"
+          ],
+          "similarityScore": 95
+        },
+        {
+          "description": "Social travel app to create or join excursions with travel buddies",
+          "employeeRange": "1-10",
+          "name": "roammate",
+          "sharedCategories": [
+            "Travel"
+          ],
+          "similarityScore": 93
+        },
+        {
+          "description": "SKOUT is a mobile network and community platform for connecting with new people.",
+          "employeeRange": "51-100",
+          "name": "SKOUT",
+          "sharedCategories": [
+            "Social Media"
+          ],
+          "similarityScore": 89
+        },
+        {
+          "description": "Backpackr is a social mobile app connecting like-minded travellers around the globe!",
+          "employeeRange": "1-10",
+          "name": "Backpackr",
+          "sharedCategories": [
+            "Apps"
+          ],
+          "similarityScore": 87
+        },
+        {
+          "description": "Couchsurfing is a travel community connecting a network of travelers, adventure seekers, and lifelong learners to share their experiences.",
+          "employeeRange": "11-50",
+          "name": "Couchsurfing",
+          "sharedCategories": [
+            "Social Media",
+            "Travel"
+          ],
+          "similarityScore": 81
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Seed round raised $150,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Tourlina, roammate, SKOUT.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

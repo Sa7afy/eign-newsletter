@@ -1,0 +1,276 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T13:39:55.710Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T13:39:55.708Z",
+    "url": "https://www.crunchbase.com/organization/teachive"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Teachive",
+      "shortDescription": "Teachive is an innovative EdTech platform that connects students with educators, tutors, coaches, & professionals through e-learning.",
+      "description": "Teachive is a UAE-based educational technology company focused on transforming digital learning through an interactive e-learning and virtual reality (VR) platform. The platform enables students to connect with educators, mentors, and industry professionals for personalized learning, tutoring, coaching, and skill development. Teachive integrates advanced matching technology, digital wallet features, and collaborative learning tools to create an engaging knowledge-sharing ecosystem for Gen Z learners. The company also promotes youth empowerment by enabling educators and freelancers to monetize their expertise while supporting quality education aligned with the United Nations Sustainable Development Goals (SDGs).",
+      "website": "https://teachive.io/",
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "11-50",
+      "headquarters": "Dubai, United Arab Emirates",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "EdTech",
+        "Education",
+        "E-Learning",
+        "Tutoring"
+      ],
+      "sectors": [
+        "Education",
+        "Software"
+      ],
+      "founders": [
+        "Kaoutar Abdallah"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "A cloud-based platform connecting students and tutors for live, interactive educational sessions across various subjects and languages.",
+        "name": "Teachive Platform"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 250000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2021-11-10",
+      "lastFundingType": "Pre Seed",
+      "rounds": [
+        {
+          "announcedDate": "2021-11-10",
+          "amount": {
+            "amount": 250000,
+            "currency": "USD"
+          },
+          "postMoneyValuation": {
+            "amount": 1945000,
+            "currency": "USD"
+          },
+          "type": "Pre Seed"
+        }
+      ]
+    },
+    "recentNews": {
+      "reportedCount": 1,
+      "includedUniqueCount": 1,
+      "items": [
+        {
+          "date": "2021-11-10",
+          "title": "Pre Seed Round - Teachive"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 250000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": 33,
+      "growthScore": 75,
+      "heatChange90Days": -8,
+      "heatScore": 71
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 43.75
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 20.64,
+        "timingEstimatePercent": {
+          "within6Months": 15.01,
+          "months6To11": 12.76,
+          "months12To24": 20.06,
+          "beyond24Months": 24.95
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 80.93
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 35.9
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "UPchieve is an ed-tech nonprofit helping high school students connect to free on-demand live tutors and counselors.",
+          "employeeRange": "11-50",
+          "name": "UPchieve",
+          "sharedCategories": [
+            "Education"
+          ],
+          "sharedSpecialties": [
+            "Academic Tutoring",
+            "Test Preparation"
+          ],
+          "similarityScore": 95
+        },
+        {
+          "description": "Varsity Tutors is a live learning platform that connects students and professionals with personalized instruction to achieve any goal.",
+          "employeeRange": "1,001-5,000",
+          "name": "Varsity Tutors",
+          "sharedCategories": [
+            "EdTech"
+          ],
+          "sharedSpecialties": [
+            "Online Language Learning",
+            "E-Learning Content Development",
+            "Academic Tutoring",
+            "Test Preparation",
+            "Learning Management Systems (LMS)"
+          ],
+          "similarityScore": 94
+        },
+        {
+          "description": "Elevate K-12 is an instructional services company that provides live streaming instruction to K-12 classrooms.",
+          "employeeRange": "251-500",
+          "name": "Elevate K-12",
+          "sharedCategories": [
+            "Education",
+            "EdTech",
+            "E-Learning"
+          ],
+          "sharedSpecialties": [
+            "Online Language Learning",
+            "Academic Tutoring",
+            "Learning Management Systems (LMS)"
+          ],
+          "similarityScore": 93
+        },
+        {
+          "description": "Tutor.com is an online tutoring platform that offers live, on-demand, one-to-one learning solutions for students and professionals.",
+          "employeeRange": "1,001-5,000",
+          "name": "Tutor.com",
+          "sharedCategories": [
+            "Education",
+            "EdTech",
+            "Tutoring",
+            "E-Learning"
+          ],
+          "sharedSpecialties": [
+            "Academic Tutoring",
+            "Test Preparation"
+          ],
+          "similarityScore": 87
+        },
+        {
+          "description": "Wyzant is an online marketplace that helps students connect with qualified in-person and online tutors in over 250 different subjects.",
+          "employeeRange": "101-250",
+          "name": "Wyzant",
+          "sharedCategories": [
+            "Education",
+            "Tutoring",
+            "E-Learning"
+          ],
+          "sharedSpecialties": [
+            "Online Language Learning",
+            "Marketplace Management",
+            "Online Appointment Scheduling",
+            "Language Learning Tools",
+            "Academic Tutoring",
+            "Test Preparation"
+          ],
+          "similarityScore": 85
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Pre Seed round raised $250,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $1,945,000 to $1,945,000, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 75 (+33 over 90 days) and market heat at 71 (-8).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include UPchieve, Varsity Tutors, Elevate K-12.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

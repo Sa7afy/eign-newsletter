@@ -1,0 +1,263 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T13:19:33.445Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T13:19:33.443Z",
+    "url": "https://www.crunchbase.com/organization/search-in-mena-com"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Search in MENA.com",
+      "shortDescription": "It is a B2B marketplace listing products, services & companies in the MENA region",
+      "description": "Search in MENA.com is a B2B marketplace listing products, services & companies in the MENA region.",
+      "website": "http://www.searchinmena.com/",
+      "operatingStatus": "Closed",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "1-10",
+      "estimatedRevenueRange": "Less than $1M",
+      "headquarters": "Dubai, United Arab Emirates",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "B2B",
+        "Database",
+        "Internet",
+        "Marketing",
+        "Marketplace"
+      ],
+      "sectors": [
+        "Commerce and Shopping",
+        "Data and Analytics",
+        "Information Technology",
+        "Other",
+        "Sales and Marketing",
+        "Software"
+      ],
+      "founders": [
+        "Kamila Mavadin",
+        "Salim Aqeel"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 630000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 5,
+      "detailedRoundCount": 5,
+      "lastFundingDate": "2016-01-01",
+      "lastFundingType": "Seed",
+      "rounds": [
+        {
+          "announcedDate": "2016-01-01",
+          "amount": {
+            "amount": 205000,
+            "currency": "USD"
+          },
+          "postMoneyValuation": {
+            "amount": 5055000,
+            "currency": "USD"
+          },
+          "type": "Seed"
+        },
+        {
+          "announcedDate": "2015-01-01",
+          "amount": {
+            "amount": 255000,
+            "currency": "USD"
+          },
+          "postMoneyValuation": {
+            "amount": 2205000,
+            "currency": "USD"
+          },
+          "type": "Seed"
+        },
+        {
+          "announcedDate": "2014-09-01",
+          "amount": {
+            "amount": 140000,
+            "currency": "USD"
+          },
+          "postMoneyValuation": {
+            "amount": 2090000,
+            "currency": "USD"
+          },
+          "type": "Seed"
+        },
+        {
+          "announcedDate": "2012-10-24",
+          "investorCount": 1,
+          "postMoneyValuation": {
+            "amount": 400000,
+            "currency": "USD"
+          },
+          "type": "Seed"
+        },
+        {
+          "announcedDate": "2012-01-01",
+          "amount": {
+            "amount": 30000,
+            "currency": "USD"
+          },
+          "type": "Seed"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "name": "Dtec Ventures",
+            "rounds": [
+              "Seed Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 5,
+      "includedUniqueCount": 5,
+      "items": [
+        {
+          "date": "2016-01-01",
+          "title": "Seed Round - Search in MENA.com"
+        },
+        {
+          "date": "2015-01-01",
+          "title": "Seed Round - Search in MENA.com"
+        },
+        {
+          "date": "2014-09-01",
+          "title": "Seed Round - Search in MENA.com"
+        },
+        {
+          "date": "2012-10-24",
+          "title": "Seed Round - Search in MENA.com"
+        },
+        {
+          "date": "2012-01-01",
+          "title": "Seed Round - Search in MENA.com"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 4,
+    "knownDetailedFundingAmount": {
+      "amount": 630000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 32.54,
+    "latestToEarliestKnownValuationMultiple": 12.64
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "heatChange90Days": -6,
+      "heatScore": 4
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Tradeling is MENA’s dominant e-marketplace that focuses on business-to-business (B2B) transactions.",
+          "employeeRange": "251-500",
+          "name": "Tradeling",
+          "similarityScore": 96
+        },
+        {
+          "description": "Kompass International provides B2B data solutions including company databases, sales intelligence, and marketing tools for business growth.",
+          "employeeRange": "251-500",
+          "name": "Kompass International",
+          "sharedCategories": [
+            "B2B"
+          ],
+          "similarityScore": 88
+        },
+        {
+          "description": "Connect.ae is a local search engine to find companies, products, and services.",
+          "employeeRange": "51-100",
+          "name": "Connect.ae",
+          "similarityScore": 86
+        },
+        {
+          "description": "YellowPages-UAE is the best online UAE Business Directory for local searches to find accurate information of local businesses in UAE",
+          "employeeRange": "11-50",
+          "name": "YellowPages-UAE.com by Lunad Digital Portal",
+          "sharedCategories": [
+            "Internet",
+            "Marketing"
+          ],
+          "similarityScore": 84
+        },
+        {
+          "description": "Zawya provides business intelligence and news focused on the Middle East and North Africa regions.",
+          "employeeRange": "10,001+",
+          "name": "Zawya",
+          "similarityScore": 83
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Seed round raised $205,000, or 32.54% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $400,000 to $5,055,000, a 12.64x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Tradeling, Kompass International, Connect.ae.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

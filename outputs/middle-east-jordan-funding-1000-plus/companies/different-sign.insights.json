@@ -1,0 +1,195 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T11:23:33.045Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T11:23:33.043Z",
+    "url": "https://www.crunchbase.com/organization/different-sign"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Different Sign",
+      "shortDescription": "Different Sign is a marketing and media solutions company, We are offer our clients custom solutions.",
+      "website": "http://www.differentsignagency.com/",
+      "operatingStatus": "Closed",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "1-10",
+      "headquarters": "Alexandria, Al Iskandariyah, Egypt",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Middle East",
+        "Middle East and North Africa (MENA)",
+        "North Africa"
+      ],
+      "industries": [
+        "Advertising",
+        "Content Marketing",
+        "Digital Marketing"
+      ],
+      "sectors": [
+        "Advertising",
+        "Sales and Marketing"
+      ],
+      "founders": [
+        "Shreen Mansour"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 25000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2018-09-01",
+      "lastFundingType": "Angel",
+      "rounds": [
+        {
+          "announcedDate": "2018-09-01",
+          "amount": {
+            "amount": 25000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "Hashem Zahran"
+          ],
+          "type": "Angel"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "Hashem Zahran",
+            "rounds": [
+              "Angel Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 1,
+      "includedUniqueCount": 1,
+      "items": [
+        {
+          "date": "2018-09-01",
+          "title": "Angel Round - Different Sign"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 25000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "heatChange90Days": -19,
+      "heatScore": 41
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Digital Marketing Agency, Specializing in Lead Generation for Home Services, Home Improvement and Healthcare Industries",
+          "employeeRange": "101-250",
+          "name": "Socius Marketing",
+          "sharedCategories": [
+            "Advertising",
+            "Digital Marketing"
+          ],
+          "similarityScore": 97
+        },
+        {
+          "description": "WebFX is a tech-enabled digital marketing agency that drives measurable growth from AI search and SEO, paid advertising, and more.",
+          "employeeRange": "501-1,000",
+          "name": "WebFX",
+          "sharedCategories": [
+            "Content Marketing",
+            "Advertising",
+            "Digital Marketing"
+          ],
+          "similarityScore": 88
+        },
+        {
+          "description": "SmartSites provides digital marketing services including web design, SEO, PPC, and social media management.",
+          "employeeRange": "251-500",
+          "name": "SmartSites",
+          "sharedCategories": [
+            "Digital Marketing"
+          ],
+          "similarityScore": 85
+        },
+        {
+          "description": "LYFE Marketing is a Social Media Marketing Company that helps businesses increase awareness, website traffic, and lead generation.",
+          "employeeRange": "11-50",
+          "name": "LYFE Marketing",
+          "sharedCategories": [
+            "Advertising"
+          ],
+          "similarityScore": 83
+        },
+        {
+          "description": "Thrive Internet Marketing Agency boosts online presence with full-service digital marketing.",
+          "employeeRange": "51-100",
+          "name": "Thrive Internet Marketing Agency",
+          "sharedCategories": [
+            "Digital Marketing"
+          ],
+          "similarityScore": 82
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Angel round raised $25,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Socius Marketing, WebFX, SmartSites.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

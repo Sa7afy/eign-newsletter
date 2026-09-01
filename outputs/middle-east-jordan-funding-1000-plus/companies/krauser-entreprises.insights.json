@@ -1,0 +1,187 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T12:16:59.861Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T12:16:59.860Z",
+    "url": "https://www.crunchbase.com/organization/krauser-entreprises"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Krauser Entreprises",
+      "shortDescription": "Diversified holding company that invests in, acquires, and manages a portfolio of companies across a wide range of industries.",
+      "description": "Krauser Enterprises Inc. is a diversified holding company that invests in, acquires, and manages a portfolio of companies across a wide range of industries. We are committed to creating long-term value for our shareholders by partnering with exceptional management teams and building strong businesses.\n\nWe invest in companies with strong growth potential and a proven track record of success. We are particularly interested in companies that operate in industries with attractive long-term trends and that have a competitive advantage.\n\nWe are an active investor and work closely with our management teams to develop and execute strategic plans that will drive growth and profitability. We also provide our companies with access to capital, resources, and expertise to help them achieve their goals.\n\nKrauser Enterprises Inc. is a trusted partner for businesses of all sizes. We are committed to helping our companies succeed and to creating value for our shareholders.",
+      "foundedYear": 2020,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "1-10",
+      "headquarters": "Dubai, United Arab Emirates",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Angel Investment"
+      ],
+      "sectors": [
+        "Financial Services",
+        "Lending and Investments"
+      ],
+      "founders": [
+        "Jase Sardin"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 200000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 2,
+      "detailedRoundCount": 2,
+      "lastFundingDate": "2021-01-01",
+      "lastFundingType": "Debt Financing",
+      "rounds": [
+        {
+          "announcedDate": "2021-01-01",
+          "amount": {
+            "amount": 100000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "BlackRock Private Equity Partners"
+          ],
+          "type": "Debt Financing"
+        },
+        {
+          "announcedDate": "2020-01-01",
+          "amount": {
+            "amount": 100000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "JP Morgan Chase"
+          ],
+          "type": "Debt Financing"
+        }
+      ],
+      "investors": {
+        "reportedCount": 2,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "BlackRock Private Equity Partners",
+            "rounds": [
+              "Debt Financing"
+            ]
+          },
+          {
+            "isLead": true,
+            "name": "JP Morgan Chase",
+            "rounds": [
+              "Debt Financing"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 3,
+      "includedUniqueCount": 3,
+      "items": [
+        {
+          "date": "2021-01-01",
+          "title": "Kolding acquired by Krauser Entreprises"
+        },
+        {
+          "date": "2021-01-01",
+          "title": "Debt Financing - Krauser Entreprises"
+        },
+        {
+          "date": "2020-01-01",
+          "title": "Debt Financing - Krauser Entreprises"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 2,
+    "knownDetailedFundingAmount": {
+      "amount": 200000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 50
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": 34,
+      "growthScore": 67,
+      "heatChange90Days": -18,
+      "heatScore": 53
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 49.98
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 92.84
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 36.26
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors."
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Debt Financing round raised $100,000, or 50% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 67 (+34 over 90 days) and market heat at 53 (-18).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

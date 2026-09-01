@@ -1,0 +1,311 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T14:03:54.629Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T14:03:54.626Z",
+    "url": "https://www.crunchbase.com/organization/yousui"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "YouSUI",
+      "shortDescription": "Yousui.io is a technology company focused on AI-powered business automation, workflow optimization, and digital transformation solutions.",
+      "description": "Yousui.io is a technology company focused on AI-powered business automation, workflow optimization, and digital transformation solutions. The platform helps businesses streamline operations by integrating artificial intelligence, automation systems, and custom software tools into everyday business processes.",
+      "website": "https://yousui.io/",
+      "foundedYear": 2023,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "11-50",
+      "estimatedRevenueRange": "$1M-$10M",
+      "headquarters": "Dubai, United Arab Emirates",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Business Intelligence",
+        "Decentralized Finance (DeFi)",
+        "Non-Fungible Token (NFT)"
+      ],
+      "sectors": [
+        "Blockchain and Cryptocurrency",
+        "Data and Analytics"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "A blockchain-based platform that assists game developers and blockchain projects in raising funds by selling tokens or NFTs.",
+        "name": "Launchpad Platform"
+      },
+      {
+        "description": "A platform for trading NFTs, allowing users to buy, sell, and create NFT collections.",
+        "name": "NFT Marketplace"
+      },
+      {
+        "description": "A platform for trading digital assets without a centralized intermediary.",
+        "name": "Decentralized Exchange (DEX)"
+      },
+      {
+        "description": "A service enabling asset swaps and transfers across different blockchain networks.",
+        "name": "Cross-Chain Swap and Bridge"
+      },
+      {
+        "description": "A utility token used within the YouSUI platform for various activities including staking and governance.",
+        "name": "XUI Token"
+      },
+      {
+        "description": "A system where users can stake XUI tokens to participate in decision-making processes.",
+        "name": "Governance System"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 1000000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 2,
+      "detailedRoundCount": 2,
+      "lastFundingDate": "2024-07-26",
+      "lastFundingType": "Seed",
+      "rounds": [
+        {
+          "announcedDate": "2024-07-26",
+          "amount": {
+            "amount": 1000000,
+            "currency": "USD"
+          },
+          "investorCount": 2,
+          "postMoneyValuation": {
+            "amount": 9866222,
+            "currency": "USD"
+          },
+          "type": "Seed"
+        },
+        {
+          "announcedDate": "2024-07-26",
+          "investorCount": 1,
+          "leadInvestors": [
+            "Pyth Network"
+          ],
+          "type": "Grant"
+        }
+      ],
+      "investors": {
+        "reportedCount": 3,
+        "visibleNames": [
+          {
+            "name": "FZF Ventures",
+            "rounds": [
+              "Seed Round"
+            ]
+          },
+          {
+            "name": "Layer OTC",
+            "rounds": [
+              "Seed Round"
+            ]
+          },
+          {
+            "isLead": true,
+            "name": "Pyth Network",
+            "rounds": [
+              "Grant"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 3,
+      "includedUniqueCount": 3,
+      "items": [
+        {
+          "date": "2024-07-30",
+          "publisher": "FinSMES",
+          "title": "YouSUI Raises $1M in Funding",
+          "url": "https://www.finsmes.com/2024/07/yousui-raises-1m-in-funding.html"
+        },
+        {
+          "date": "2024-07-26",
+          "title": "Grant - YouSUI"
+        },
+        {
+          "date": "2024-07-26",
+          "title": "Seed Round - YouSUI"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 1000000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "grantFunding": {
+      "amount": {
+        "amount": 0,
+        "currency": "USD"
+      },
+      "disclosedRoundCount": 1
+    },
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": -4,
+      "growthScore": 80,
+      "heatChange90Days": -21,
+      "heatScore": 16
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 95.03
+      },
+      "funding": {
+        "generatedDate": "2026-06-20",
+        "probabilityPercent": 86.37,
+        "timingEstimatePercent": {
+          "within6Months": 99.89,
+          "months6To11": 0,
+          "months12To24": 0,
+          "beyond24Months": 0.11
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 90.29
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 4.41
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Cetus is a pioneer DEX and concentrated liquidity protocol built on the Sui and Aptos blockchain.",
+          "name": "Cetus",
+          "sharedSpecialties": [
+            "Decentralized Exchanges"
+          ],
+          "similarityScore": 97
+        },
+        {
+          "description": "Turbos Finance is a decentralized exchange on Sui Network, offering non-custodial trading and asset management.",
+          "employeeRange": "1-10",
+          "name": "Turbos Finance",
+          "sharedCategories": [
+            "Decentralized Finance (DeFi)"
+          ],
+          "similarityScore": 95
+        },
+        {
+          "description": "Aftermath Finance provides a DeFi platform for token swaps, liquidity, and SUI staking on Sui.",
+          "name": "Aftermath Finance",
+          "sharedCategories": [
+            "Decentralized Finance (DeFi)"
+          ],
+          "similarityScore": 91
+        },
+        {
+          "description": "Bluefin is an orderbook-based derivatives exchange that uses the most innovative decentralized infrastructure.",
+          "employeeRange": "11-50",
+          "name": "Bluefin",
+          "sharedSpecialties": [
+            "Decentralized Exchanges",
+            "Cross-Chain Bridges"
+          ],
+          "similarityScore": 89
+        },
+        {
+          "description": "TradePort platform aggregates NFTs from all marketplaces across Stacks, NEAR, Aptos, and Sui.",
+          "employeeRange": "1-10",
+          "name": "TradePort",
+          "sharedSpecialties": [
+            "Marketplace Management",
+            "NFT Marketplaces",
+            "NFT Analytics Platforms",
+            "Cross-Chain Bridges"
+          ],
+          "similarityScore": 83
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Seed round raised $1,000,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $9,866,222 to $9,866,222, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 80 (-4 over 90 days) and market heat at 16 (-21).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Cetus, Turbos Finance, Aftermath Finance.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

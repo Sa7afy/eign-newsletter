@@ -1,0 +1,252 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T11:03:03.368Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T11:03:03.366Z",
+    "url": "https://www.crunchbase.com/organization/book-direct-and-save"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Book Direct and Save™",
+      "shortDescription": "Book Direct and Save™ is the Fastest Growing Direct Booking Platform for Hotels, Serviced Accommodation, Flights and Car Hire.",
+      "description": "Founded by a team of experienced travel professionals, BookDirectAndSave.com is dedicated to helping travelers save money and time when booking their accommodation. With a user-friendly website and a wide range of hotels and serviced accommodation options to choose from, BookDirectAndSave.com makes it easy for travelers to find the perfect place to stay at a price that fits their budget.",
+      "website": "https://bookdirectandsave.com/",
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "51-100",
+      "headquarters": "Dubai, United Arab Emirates",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Business Travel",
+        "Travel",
+        "Travel Accommodations",
+        "Travel Agency",
+        "Vacation Rental"
+      ],
+      "sectors": [
+        "Real Estate",
+        "Travel and Tourism"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "A platform for searching and booking flights worldwide, including options for one-way, round-trip, and multi-city travel.",
+        "name": "Flight Booking"
+      },
+      {
+        "description": "A service to search and book hotel accommodations worldwide, including hotels, villas, apartments, and resorts.",
+        "name": "Hotel Booking"
+      },
+      {
+        "description": "A service for renting vehicles from trusted partners, available for various durations and locations.",
+        "name": "Car Rental"
+      },
+      {
+        "description": "A service providing transportation between airports and destinations, tailored to user schedules and locations.",
+        "name": "Airport Transfer"
+      },
+      {
+        "description": "A platform to discover and book various activities, tours, and attractions worldwide.",
+        "name": "Activities and Experiences Booking"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 21000000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2021-02-19",
+      "lastFundingType": "Private Equity",
+      "rounds": [
+        {
+          "announcedDate": "2021-02-19",
+          "amount": {
+            "amount": 21000000,
+            "currency": "USD"
+          },
+          "postMoneyValuation": {
+            "amount": 74628577,
+            "currency": "USD"
+          },
+          "type": "Private Equity"
+        }
+      ]
+    },
+    "recentNews": {
+      "reportedCount": 1,
+      "includedUniqueCount": 1,
+      "items": [
+        {
+          "date": "2021-02-19",
+          "title": "Private Equity Round - Book Direct and Save™"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 21000000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": 0,
+      "growthScore": 32,
+      "heatChange90Days": 7,
+      "heatScore": 68
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 47.83
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 17.04,
+        "timingEstimatePercent": {
+          "within6Months": 14.66,
+          "months6To11": 12.51,
+          "months12To24": 19.79,
+          "beyond24Months": 24.91
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 74.7
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 34.01
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "The all-in-one hotel management system for small accommodation providers.",
+          "employeeRange": "501-1,000",
+          "name": "Little Hotelier",
+          "similarityScore": 95
+        },
+        {
+          "description": "Cloudbeds is the hospitality management system built for ambitious hoteliers who demand more.",
+          "employeeRange": "501-1,000",
+          "name": "Cloudbeds",
+          "sharedSpecialties": [
+            "Vacation Rentals and Holiday Cottages"
+          ],
+          "similarityScore": 93
+        },
+        {
+          "description": "Mews is a cloud-native hospitality management system designed to automate operations, enhance revenue, and improve guest experiences.",
+          "employeeRange": "1,001-5,000",
+          "name": "Mews",
+          "sharedCategories": [
+            "Travel"
+          ],
+          "similarityScore": 91
+        },
+        {
+          "description": "The world’s leading hotel distribution and revenue platform",
+          "employeeRange": "1,001-5,000",
+          "name": "SiteMinder",
+          "sharedCategories": [
+            "Travel"
+          ],
+          "similarityScore": 89
+        },
+        {
+          "description": "ResNexus is professional-grade, property management software for any business operating a reservation system.",
+          "employeeRange": "11-50",
+          "name": "ResNexus",
+          "sharedSpecialties": [
+            "Vacation Rentals and Holiday Cottages"
+          ],
+          "similarityScore": 83
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Private Equity round raised $21,000,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $74,628,577 to $74,628,577, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 32 (+0 over 90 days) and market heat at 68 (+7).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Little Hotelier, Cloudbeds, Mews.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

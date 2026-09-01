@@ -1,0 +1,4485 @@
+{
+  "sourceUrl": "https://www.crunchbase.com/organization/welcome-to-the-world",
+  "pageTitle": "welcome-to-the-world",
+  "scrapedAt": "2026-09-01T13:58:37.255Z",
+  "extraction": {
+    "authenticated": true,
+    "method": "curl-cffi-authenticated-entity-fetch-no-browser"
+  },
+  "organization": {
+    "properties": {
+      "facet_ids": [
+        "ai_insight",
+        "builtwith",
+        "company",
+        "contact",
+        "rank",
+        "semrush",
+        "siftery"
+      ],
+      "identifier": {
+        "uuid": "f6b72c2f-34b2-42ce-8007-6e7250d61e90",
+        "value": "Welcome to the World",
+        "image_id": "pnm9qpciti8kwtyy25kv",
+        "permalink": "welcome-to-the-world",
+        "entity_def_id": "organization"
+      },
+      "short_description": "Welcome to the World is a travel-technology platform designed to promote tourism businesses.",
+      "rank_delta_d90": -0.4,
+      "title": "Welcome to the World"
+    },
+    "cards": {
+      "semrush_summary": {
+        "identifier": {
+          "uuid": "f6b72c2f-34b2-42ce-8007-6e7250d61e90",
+          "value": "Welcome to the World",
+          "image_id": "pnm9qpciti8kwtyy25kv",
+          "permalink": "welcome-to-the-world",
+          "entity_def_id": "organization"
+        },
+        "semrush_global_rank": 9433667,
+        "semrush_visits_latest_month": 612
+      },
+      "key_employee_change_list": [],
+      "apptopia_attribution": {},
+      "diversity_spotlight_investments_headline": {},
+      "apptopia_app_rating_list": [],
+      "funds_summary": {
+        "identifier": {
+          "uuid": "f6b72c2f-34b2-42ce-8007-6e7250d61e90",
+          "value": "Welcome to the World",
+          "image_id": "pnm9qpciti8kwtyy25kv",
+          "permalink": "welcome-to-the-world",
+          "entity_def_id": "organization"
+        }
+      },
+      "funding_prediction": [],
+      "company_about_fields1": {},
+      "current_advisors_image_list": [],
+      "recommended_search": [
+        {
+          "identifier": {
+            "permalink": "united-arab-emirates-startups-female-founders",
+            "image_id": "o7fnzrzpzrip8ho4jftf",
+            "uuid": "b5709545-3b51-4518-9d5c-ea8bd562b854",
+            "entity_def_id": "hub",
+            "value": "United Arab Emirates Startups with Female Founders"
+          },
+          "org_identifiers": [
+            {
+              "permalink": "keyper-db0e",
+              "image_id": "o7fnzrzpzrip8ho4jftf",
+              "uuid": "98945a35-740e-4fb9-8cb6-b0faf3a3db0e",
+              "entity_def_id": "organization",
+              "value": "Keyper"
+            },
+            {
+              "permalink": "zest-technologies-difc",
+              "image_id": "jldicbq1p6udyjfpgijb",
+              "uuid": "c8fb7e36-4eac-4162-824b-393d369a2c36",
+              "entity_def_id": "organization",
+              "value": "Zest Equity"
+            },
+            {
+              "permalink": "ziina",
+              "image_id": "tqvgchf3ej8mcihznd3a",
+              "uuid": "913d8017-6663-4366-98ff-77a289b12efe",
+              "entity_def_id": "organization",
+              "value": "Ziina"
+            },
+            {
+              "permalink": "aesty",
+              "image_id": "d92ca8bc025946818222838f7d76ec93",
+              "uuid": "6ea6eab8-22f8-482c-929f-eaed40022029",
+              "entity_def_id": "organization",
+              "value": "Aesty"
+            },
+            {
+              "permalink": "pemo",
+              "image_id": "gvtpme7rc7gaetdybl2p",
+              "uuid": "c775c027-af97-4338-bf6c-c22f37031a14",
+              "entity_def_id": "organization",
+              "value": "Pemo"
+            },
+            {
+              "permalink": "prypco",
+              "image_id": "34e1850755014476a8b62421b46b50f1",
+              "uuid": "1e4733bc-08d2-4191-b367-df8d3b2e9987",
+              "entity_def_id": "organization",
+              "value": "PRYPCO"
+            },
+            {
+              "permalink": "sav-4e16",
+              "image_id": "1f5a62c2a54e44cfaf2cccb2156167ed",
+              "uuid": "74143334-d058-420c-bf23-3b97feff4e16",
+              "entity_def_id": "organization",
+              "value": "Sav"
+            },
+            {
+              "permalink": "sarwa-co",
+              "image_id": "fmnb6tblna9z1hr5tmvf",
+              "uuid": "cedf0b0f-fa28-479d-bd57-79b0a11a941a",
+              "entity_def_id": "organization",
+              "value": "Sarwa"
+            }
+          ],
+          "org_funding_total": {
+            "currency": "USD",
+            "value": 860010494,
+            "value_usd": 860010494
+          },
+          "org_num_investors": 624,
+          "org_num": 194,
+          "queries": {
+            "event": [
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "9314d29a-0a56-02c3-6b27-4168733de77f"
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "principal.has_event.forward",
+                "query": [
+                  {
+                    "field_id": "funding_stage",
+                    "operator_id": "includes",
+                    "values": [
+                      "seed",
+                      "early_stage_venture",
+                      "late_stage_venture"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "collection_id": "person.has_founder.forward",
+                    "query": [
+                      {
+                        "field_id": "gender",
+                        "operator_id": "includes",
+                        "values": [
+                          "female"
+                        ],
+                        "type": "predicate"
+                      }
+                    ],
+                    "type": "sub_query"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "active"
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ],
+            "organization": [
+              {
+                "field_id": "funding_stage",
+                "operator_id": "includes",
+                "values": [
+                  "seed",
+                  "early_stage_venture",
+                  "late_stage_venture"
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "person.has_founder.forward",
+                "query": [
+                  {
+                    "field_id": "gender",
+                    "operator_id": "includes",
+                    "values": [
+                      "female"
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              },
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "9314d29a-0a56-02c3-6b27-4168733de77f"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "operating_status",
+                "operator_id": "eq",
+                "values": [
+                  "active"
+                ],
+                "type": "predicate"
+              }
+            ],
+            "person": [
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "9314d29a-0a56-02c3-6b27-4168733de77f"
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "organization.has_primary_organization.forward",
+                "query": [
+                  {
+                    "field_id": "funding_stage",
+                    "operator_id": "includes",
+                    "values": [
+                      "seed",
+                      "early_stage_venture",
+                      "late_stage_venture"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "collection_id": "person.has_founder.forward",
+                    "query": [
+                      {
+                        "field_id": "gender",
+                        "operator_id": "includes",
+                        "values": [
+                          "female"
+                        ],
+                        "type": "predicate"
+                      }
+                    ],
+                    "type": "sub_query"
+                  },
+                  {
+                    "field_id": "location_identifiers",
+                    "operator_id": "includes",
+                    "values": [
+                      "9314d29a-0a56-02c3-6b27-4168733de77f"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "active"
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ]
+          }
+        },
+        {
+          "identifier": {
+            "permalink": "gulf-cooperation-council-companies-less-than-1b-in-revenue",
+            "image_id": "v1444307467/wjljtmzfwxmg9xxokd23.png",
+            "uuid": "b46acb72-76f3-458c-b84b-c7ef6d327d7b",
+            "entity_def_id": "hub",
+            "value": "Gulf Cooperation Council (GCC) Companies With Less Than $1B in Revenue (Top 10K)"
+          },
+          "org_identifiers": [
+            {
+              "permalink": "investcorp-2",
+              "image_id": "v1444307467/wjljtmzfwxmg9xxokd23.png",
+              "uuid": "2f09a625-dfd1-bea9-d16b-0a45158c80c9",
+              "entity_def_id": "organization",
+              "value": "Investcorp"
+            },
+            {
+              "permalink": "masdar-abu-dhabi-future-energy-company",
+              "image_id": "jcx27u7bl3ql8jco2dng",
+              "uuid": "6277c63a-1dc8-a7b5-f900-5c392c026afd",
+              "entity_def_id": "organization",
+              "value": "Masdar"
+            },
+            {
+              "permalink": "a1r-water",
+              "image_id": "1e483de797a14b9fb5fdf94635ca739c",
+              "uuid": "ce65cd3e-1f1a-41c6-a966-87f53b1d8789",
+              "entity_def_id": "organization",
+              "value": "A1R WATER"
+            },
+            {
+              "permalink": "careem",
+              "image_id": "89cebfad73fa4d1da5101b16a8eb7d5e",
+              "uuid": "8044fef3-7107-8de4-9564-ab7ecf80eae4",
+              "entity_def_id": "organization",
+              "value": "Careem"
+            },
+            {
+              "permalink": "space42",
+              "image_id": "1c6e561f90a940a79fe2763abb98166f",
+              "uuid": "ad76c23e-553c-4a37-a45a-b0a2645369a0",
+              "entity_def_id": "organization",
+              "value": "Space42"
+            },
+            {
+              "permalink": "sal-d6f6",
+              "image_id": "ktrk4gnfsntxpypikjhe",
+              "uuid": "f986e75a-8334-48f4-a8b2-e3f159bed6f6",
+              "entity_def_id": "organization",
+              "value": "SAL"
+            },
+            {
+              "permalink": "riyadh-air",
+              "image_id": "c2219fb5e93b488287630d7981e565bd",
+              "uuid": "c4ba0df9-a8b8-4efa-bfa8-c1088fd49b29",
+              "entity_def_id": "organization",
+              "value": "Riyadh Air"
+            },
+            {
+              "permalink": "mozn",
+              "image_id": "j0qr4qgwopwwz4lxq04n",
+              "uuid": "7287b03f-94ca-4482-83b4-80791f4f72b6",
+              "entity_def_id": "organization",
+              "value": "Mozn"
+            }
+          ],
+          "org_funding_total": {
+            "currency": "USD",
+            "value": 152545099885,
+            "value_usd": 152545099885
+          },
+          "org_num_investors": 4540,
+          "org_num": 9783,
+          "queries": {
+            "event": [
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "c4365698-c7c5-44b0-b33a-7d13900e5be2"
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "principal.has_event.forward",
+                "query": [
+                  {
+                    "field_id": "facet_ids",
+                    "operator_id": "includes",
+                    "values": [
+                      "company"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "revenue_range",
+                    "operator_id": "includes",
+                    "values": [
+                      "r_00000000",
+                      "r_00001000",
+                      "r_00010000",
+                      "r_00050000",
+                      "r_00100000",
+                      "r_00500000"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "active"
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ],
+            "organization": [
+              {
+                "field_id": "facet_ids",
+                "operator_id": "includes",
+                "values": [
+                  "company"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "c4365698-c7c5-44b0-b33a-7d13900e5be2"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "revenue_range",
+                "operator_id": "includes",
+                "values": [
+                  "r_00000000",
+                  "r_00001000",
+                  "r_00010000",
+                  "r_00050000",
+                  "r_00100000",
+                  "r_00500000"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "operating_status",
+                "operator_id": "eq",
+                "values": [
+                  "active"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "rank_org",
+                "operator_id": "lte",
+                "values": [
+                  1300000
+                ],
+                "type": "predicate"
+              }
+            ],
+            "person": [
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "c4365698-c7c5-44b0-b33a-7d13900e5be2"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "rank_person",
+                "operator_id": "lte",
+                "values": [
+                  150000
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "organization.has_primary_organization.forward",
+                "query": [
+                  {
+                    "field_id": "facet_ids",
+                    "operator_id": "includes",
+                    "values": [
+                      "company"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "location_identifiers",
+                    "operator_id": "includes",
+                    "values": [
+                      "c4365698-c7c5-44b0-b33a-7d13900e5be2"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "revenue_range",
+                    "operator_id": "includes",
+                    "values": [
+                      "r_00000000",
+                      "r_00001000",
+                      "r_00010000",
+                      "r_00050000",
+                      "r_00100000",
+                      "r_00500000"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "active"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "rank_org",
+                    "operator_id": "lte",
+                    "values": [
+                      1300000
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ]
+          }
+        },
+        {
+          "identifier": {
+            "permalink": "middle-east-and-north-africa-seed-stage-companies-fewer-than-10-employees",
+            "image_id": "890be9e9bada44279dbb64787f785c96",
+            "uuid": "b3486ee5-44b4-4e72-82d1-d0058122c08d",
+            "entity_def_id": "hub",
+            "value": "Middle East and North Africa (MENA) Seed Stage Companies With Fewer Than 10 Employees"
+          },
+          "org_identifiers": [
+            {
+              "permalink": "cobi-26b2",
+              "image_id": "890be9e9bada44279dbb64787f785c96",
+              "uuid": "ad5d5626-e78d-46c3-a45f-3d487fdb26b2",
+              "entity_def_id": "organization",
+              "value": "Cobi"
+            },
+            {
+              "permalink": "naran-49c5",
+              "image_id": "05cba89d79f54f878d5023aac5198e4f",
+              "uuid": "fc040bd9-9a74-4ff2-b942-bc3ab73c49c5",
+              "entity_def_id": "organization",
+              "value": "Naran"
+            },
+            {
+              "permalink": "perceptron-network",
+              "image_id": "7046a1a5e79f4079b94932c67efa6b6d",
+              "uuid": "1630f854-df7d-4c80-af61-55215880f6cd",
+              "entity_def_id": "organization",
+              "value": "Perceptron Network"
+            },
+            {
+              "permalink": "beacon-security",
+              "image_id": "ed9941c7947c48d6a965ecc3c4ce3aaa",
+              "uuid": "4dacdd13-9069-4fdb-ab57-b9dfdec523b9",
+              "entity_def_id": "organization",
+              "value": "Beacon Security"
+            },
+            {
+              "permalink": "stellaria",
+              "image_id": "24cc2bb609a9415d86b7d53ad2a489f7",
+              "uuid": "16f44e00-b67f-4739-af4e-8fd14681e259",
+              "entity_def_id": "organization",
+              "value": "Stellaria"
+            },
+            {
+              "permalink": "raff",
+              "image_id": "944c69427be7429d853757a3a1c97429",
+              "uuid": "03a29cfe-cd21-44f8-8200-25d71c9b4bc4",
+              "entity_def_id": "organization",
+              "value": "Raff"
+            },
+            {
+              "permalink": "oro-6e9f",
+              "image_id": "276bba8f0e4e4cd9bd08cf935fae3274",
+              "uuid": "85a2d493-ab9e-4b84-be05-8b0739676e9f",
+              "entity_def_id": "organization",
+              "value": "ORO"
+            },
+            {
+              "permalink": "surge-games",
+              "image_id": "cf136837ae654773ae6be5dd13731f28",
+              "uuid": "5c26eaac-b9a7-454e-a9c4-bf610ddc8cc7",
+              "entity_def_id": "organization",
+              "value": "Surge Games"
+            }
+          ],
+          "org_funding_total": {
+            "currency": "USD",
+            "value": 1878960377,
+            "value_usd": 1878960377
+          },
+          "org_num_investors": 5061,
+          "org_num": 3260,
+          "queries": {
+            "event": [
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "8cb7cad4-b7e4-4b28-a496-2ede3720cb19"
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "principal.has_event.forward",
+                "query": [
+                  {
+                    "field_id": "facet_ids",
+                    "operator_id": "includes",
+                    "values": [
+                      "company"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "num_employees_enum",
+                    "operator_id": "includes",
+                    "values": [
+                      "c_00001_00010"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "funding_stage",
+                    "operator_id": "eq",
+                    "values": [
+                      "seed"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "active"
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ],
+            "organization": [
+              {
+                "field_id": "facet_ids",
+                "operator_id": "includes",
+                "values": [
+                  "company"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "8cb7cad4-b7e4-4b28-a496-2ede3720cb19"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "num_employees_enum",
+                "operator_id": "includes",
+                "values": [
+                  "c_00001_00010"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "funding_stage",
+                "operator_id": "eq",
+                "values": [
+                  "seed"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "operating_status",
+                "operator_id": "eq",
+                "values": [
+                  "active"
+                ],
+                "type": "predicate"
+              }
+            ],
+            "person": [
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "8cb7cad4-b7e4-4b28-a496-2ede3720cb19"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "rank_person",
+                "operator_id": "lte",
+                "values": [
+                  1200000
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "organization.has_primary_organization.forward",
+                "query": [
+                  {
+                    "field_id": "facet_ids",
+                    "operator_id": "includes",
+                    "values": [
+                      "company"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "location_identifiers",
+                    "operator_id": "includes",
+                    "values": [
+                      "8cb7cad4-b7e4-4b28-a496-2ede3720cb19"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "num_employees_enum",
+                    "operator_id": "includes",
+                    "values": [
+                      "c_00001_00010"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "funding_stage",
+                    "operator_id": "eq",
+                    "values": [
+                      "seed"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "active"
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ]
+          }
+        },
+        {
+          "identifier": {
+            "permalink": "middle-east-companies",
+            "image_id": "216886c7d09c49d39cce6277f342d12d",
+            "uuid": "b1a51423-31c6-471b-aad4-59abd1d6f6ca",
+            "entity_def_id": "hub",
+            "value": "Middle East Companies (Top 10K)"
+          },
+          "org_identifiers": [
+            {
+              "permalink": "fasset",
+              "image_id": "216886c7d09c49d39cce6277f342d12d",
+              "uuid": "fb8d3cbb-6706-4fda-941f-7add24517f7c",
+              "entity_def_id": "organization",
+              "value": "Fasset"
+            },
+            {
+              "permalink": "biocatch",
+              "image_id": "eauvaq6djrm4cjktjmxi",
+              "uuid": "516abfe7-ee23-d825-b1e2-144b41ca591e",
+              "entity_def_id": "organization",
+              "value": "BioCatch"
+            },
+            {
+              "permalink": "african-export-import-bank",
+              "image_id": "aa1e4a9f367f4a34a29d5f81de4cb62b",
+              "uuid": "971b156a-46e5-c04c-2ae9-d36127a9bd9f",
+              "entity_def_id": "organization",
+              "value": "African Export-Import Bank"
+            },
+            {
+              "permalink": "humain-c7c3",
+              "image_id": "dc960b95a8634d398fb802e43c760504",
+              "uuid": "6bde23ba-59a6-43e2-882e-2fdf96c1c7c3",
+              "entity_def_id": "organization",
+              "value": "HUMAIN"
+            },
+            {
+              "permalink": "omilia",
+              "image_id": "a6e6d6f0223b4e70840705a17f248b9e",
+              "uuid": "49e3e363-63c7-e951-4974-1c79137fcef0",
+              "entity_def_id": "organization",
+              "value": "Omilia"
+            },
+            {
+              "permalink": "team8",
+              "image_id": "jgzvsw4o9vpv30kqv7yg",
+              "uuid": "192acc26-46d6-5961-2a18-2ec462242091",
+              "entity_def_id": "organization",
+              "value": "Team8"
+            },
+            {
+              "permalink": "investcorp-2",
+              "image_id": "v1444307467/wjljtmzfwxmg9xxokd23.png",
+              "uuid": "2f09a625-dfd1-bea9-d16b-0a45158c80c9",
+              "entity_def_id": "organization",
+              "value": "Investcorp"
+            },
+            {
+              "permalink": "remepy-healthcare",
+              "image_id": "hrzg28gqupnfqskstkis",
+              "uuid": "b4f69efc-f8c1-4584-820d-d75632eb8b22",
+              "entity_def_id": "organization",
+              "value": "Remepy"
+            }
+          ],
+          "org_funding_total": {
+            "currency": "USD",
+            "value": 774895588752,
+            "value_usd": 774895588752
+          },
+          "org_num_investors": 24830,
+          "org_num": 9760,
+          "queries": {
+            "event": [
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "e0272206-3430-48cb-a5bc-1d4b3eafe15a"
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "principal.has_event.forward",
+                "query": [
+                  {
+                    "field_id": "facet_ids",
+                    "operator_id": "includes",
+                    "values": [
+                      "company"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "active"
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ],
+            "organization": [
+              {
+                "field_id": "facet_ids",
+                "operator_id": "includes",
+                "values": [
+                  "company"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "e0272206-3430-48cb-a5bc-1d4b3eafe15a"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "operating_status",
+                "operator_id": "eq",
+                "values": [
+                  "active"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "rank_org",
+                "operator_id": "lte",
+                "values": [
+                  330000
+                ],
+                "type": "predicate"
+              }
+            ],
+            "person": [
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "e0272206-3430-48cb-a5bc-1d4b3eafe15a"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "rank_person",
+                "operator_id": "lte",
+                "values": [
+                  72000
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "organization.has_primary_organization.forward",
+                "query": [
+                  {
+                    "field_id": "facet_ids",
+                    "operator_id": "includes",
+                    "values": [
+                      "company"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "location_identifiers",
+                    "operator_id": "includes",
+                    "values": [
+                      "e0272206-3430-48cb-a5bc-1d4b3eafe15a"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "active"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "rank_org",
+                    "operator_id": "lte",
+                    "values": [
+                      330000
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ]
+          }
+        }
+      ],
+      "org_similarity_org_list": [],
+      "investors_summary": {
+        "identifier": {
+          "uuid": "f6b72c2f-34b2-42ce-8007-6e7250d61e90",
+          "value": "Welcome to the World",
+          "image_id": "pnm9qpciti8kwtyy25kv",
+          "permalink": "welcome-to-the-world",
+          "entity_def_id": "organization"
+        }
+      },
+      "funds_list": [],
+      "alumni_image_list": [],
+      "semrush_overview_headline": {
+        "semrush_global_rank": 9433667
+      },
+      "frequently_asked_questions_total_funding": {
+        "funding_total": {
+          "value": 264000,
+          "currency": "USD",
+          "value_usd": 264000
+        },
+        "identifier": {
+          "uuid": "f6b72c2f-34b2-42ce-8007-6e7250d61e90",
+          "value": "Welcome to the World",
+          "image_id": "pnm9qpciti8kwtyy25kv",
+          "permalink": "welcome-to-the-world",
+          "entity_def_id": "organization"
+        }
+      },
+      "exits_summary": {
+        "identifier": {
+          "uuid": "f6b72c2f-34b2-42ce-8007-6e7250d61e90",
+          "value": "Welcome to the World",
+          "image_id": "pnm9qpciti8kwtyy25kv",
+          "permalink": "welcome-to-the-world",
+          "entity_def_id": "organization"
+        }
+      },
+      "partnership_announcements": [],
+      "bombora_surge_list": [],
+      "diversity_spotlight_investments_list": [],
+      "builtwith_tech_used_list": [
+        {
+          "identifier": {
+            "uuid": "2f6cffdd-6438-400e-9512-692a21e184d8",
+            "value": "IPhone / Mobile Compatible",
+            "entity_def_id": "builtwith_technology"
+          },
+          "technology_category": [
+            "mobile"
+          ],
+          "num_companies_using": 999984
+        },
+        {
+          "identifier": {
+            "uuid": "745d7435-4344-4c2d-80ac-3866e0186e2d",
+            "value": "Google Maps",
+            "entity_def_id": "builtwith_technology"
+          },
+          "technology_category": [
+            "mapping"
+          ],
+          "num_companies_using": 632234
+        },
+        {
+          "identifier": {
+            "uuid": "1aa009b0-280b-4eea-b5ee-3ef7f0cb0943",
+            "value": "PostalAddress Schema",
+            "entity_def_id": "builtwith_technology"
+          },
+          "technology_category": [
+            "framework"
+          ],
+          "num_companies_using": 334696
+        },
+        {
+          "identifier": {
+            "uuid": "38a4a8c8-8a96-4c14-9476-4dea1ea2b772",
+            "value": "Facebook Sharer",
+            "entity_def_id": "builtwith_technology"
+          },
+          "technology_category": [
+            "widgets"
+          ],
+          "num_companies_using": 256695
+        },
+        {
+          "identifier": {
+            "uuid": "db13819f-1f30-472e-83e9-fce5225e4d53",
+            "value": "LocalBusiness Schema",
+            "entity_def_id": "builtwith_technology"
+          },
+          "technology_category": [
+            "framework"
+          ],
+          "num_companies_using": 234489
+        },
+        {
+          "identifier": {
+            "uuid": "e383296b-9cfa-4244-b9a8-aa3dfac7484a",
+            "value": "AggregateRating Schema",
+            "entity_def_id": "builtwith_technology"
+          },
+          "technology_category": [
+            "framework"
+          ],
+          "num_companies_using": 75895
+        }
+      ],
+      "funding_rounds_summary": {
+        "identifier": {
+          "uuid": "f6b72c2f-34b2-42ce-8007-6e7250d61e90",
+          "value": "Welcome to the World",
+          "image_id": "pnm9qpciti8kwtyy25kv",
+          "permalink": "welcome-to-the-world",
+          "entity_def_id": "organization"
+        },
+        "last_funding_type": "pre_seed",
+        "last_funding_at": "2020-11-01",
+        "funding_total": {
+          "value": 264000,
+          "currency": "USD",
+          "value_usd": 264000
+        },
+        "num_funding_rounds": 2
+      },
+      "org_similarity_list": [],
+      "ipo_prediction": [
+        {
+          "generated_on": "2025-09-22",
+          "identifier": {
+            "uuid": "25718f5c-2702-4d9f-8f62-b2d9e7c86887",
+            "value": "IPO Prediction 2025-09-22",
+            "entity_def_id": "ipo_prediction"
+          },
+          "probability_score": 0.1912,
+          "created_at": "2025-09-22T23:31:17Z",
+          "updated_at": "2025-09-22T23:31:17Z",
+          "probability_tier": "p400_negative_low"
+        }
+      ],
+      "acquisitions_summary": {
+        "identifier": {
+          "uuid": "f6b72c2f-34b2-42ce-8007-6e7250d61e90",
+          "value": "Welcome to the World",
+          "image_id": "pnm9qpciti8kwtyy25kv",
+          "permalink": "welcome-to-the-world",
+          "entity_def_id": "organization"
+        }
+      },
+      "advisors_summary": {
+        "identifier": {
+          "uuid": "f6b72c2f-34b2-42ce-8007-6e7250d61e90",
+          "value": "Welcome to the World",
+          "image_id": "pnm9qpciti8kwtyy25kv",
+          "permalink": "welcome-to-the-world",
+          "entity_def_id": "organization"
+        }
+      },
+      "acquisitions_list": [],
+      "exits_headline": {},
+      "investments_summary": {
+        "identifier": {
+          "uuid": "f6b72c2f-34b2-42ce-8007-6e7250d61e90",
+          "value": "Welcome to the World",
+          "image_id": "pnm9qpciti8kwtyy25kv",
+          "permalink": "welcome-to-the-world",
+          "entity_def_id": "organization"
+        }
+      },
+      "acquired_by_fields": {},
+      "research_insight_text_link": {},
+      "acquisition_prediction": [
+        {
+          "generated_on": "2025-09-22",
+          "identifier": {
+            "uuid": "2f58471c-6efc-423f-a767-237c5c395ffc",
+            "value": "Acquisition Prediction 2025-09-22",
+            "entity_def_id": "acquisition_prediction"
+          },
+          "probability_score": 0.4212,
+          "runway_speculation": {
+            "uuid": "8fe92325-2175-4b4a-b813-97b32cba54d4",
+            "value": "Pre Seed Round - Welcome to the World",
+            "image_id": "pnm9qpciti8kwtyy25kv",
+            "permalink": "welcome-to-the-world-pre-seed--8fe92325",
+            "entity_def_id": "funding_round"
+          },
+          "created_at": "2025-09-22T22:10:45Z",
+          "updated_at": "2025-09-22T22:10:45Z",
+          "probability_tier": "p300_neutral"
+        }
+      ],
+      "sub_organizations_headline": {},
+      "layoff_list": [],
+      "growth_and_heat": {
+        "heat_score_history": {
+          "periods": {
+            "i1": {
+              "values": [
+                31,
+                32,
+                32,
+                32,
+                32,
+                32,
+                32,
+                31,
+                31,
+                31,
+                31,
+                31,
+                31,
+                32,
+                32,
+                32,
+                31,
+                32,
+                31,
+                31,
+                31,
+                31,
+                31,
+                30,
+                31,
+                31,
+                31,
+                31,
+                31,
+                31,
+                31,
+                31,
+                31,
+                31,
+                31,
+                31,
+                32,
+                32,
+                32,
+                33,
+                33,
+                33,
+                33,
+                34,
+                34,
+                34,
+                35,
+                35,
+                35,
+                35,
+                36,
+                36,
+                36,
+                37,
+                37,
+                37,
+                38,
+                38,
+                39,
+                39,
+                39,
+                40,
+                40,
+                40,
+                41,
+                41,
+                41,
+                42,
+                42,
+                42,
+                42,
+                43,
+                43,
+                43,
+                44,
+                44,
+                44,
+                44,
+                45,
+                45,
+                45,
+                46,
+                46,
+                46,
+                46,
+                47,
+                47,
+                47,
+                47,
+                48
+              ],
+              "interval": 1
+            },
+            "i2": {
+              "values": [
+                31,
+                32,
+                32,
+                32,
+                31,
+                31,
+                32,
+                32,
+                32,
+                31,
+                31,
+                31,
+                31,
+                31,
+                31,
+                31,
+                31,
+                31,
+                32,
+                33,
+                33,
+                34,
+                34,
+                35,
+                35,
+                36,
+                37,
+                37,
+                38,
+                39,
+                40,
+                40,
+                41,
+                42,
+                42,
+                43,
+                43,
+                44,
+                44,
+                45,
+                46,
+                46,
+                47,
+                47,
+                48,
+                48,
+                49,
+                49,
+                44,
+                45,
+                45,
+                46,
+                47,
+                48,
+                49,
+                50,
+                46,
+                42,
+                43,
+                43,
+                44,
+                45,
+                45,
+                46,
+                46,
+                47,
+                47,
+                48,
+                48,
+                49,
+                49,
+                49,
+                50,
+                50,
+                51,
+                51,
+                52,
+                52,
+                53,
+                53,
+                48,
+                43,
+                43,
+                43,
+                43,
+                43,
+                44,
+                44,
+                44,
+                44,
+                44
+              ],
+              "interval": 2
+            },
+            "i4": {
+              "values": [
+                31,
+                32,
+                31,
+                32,
+                31,
+                31,
+                31,
+                31,
+                31,
+                32,
+                33,
+                35,
+                36,
+                37,
+                39,
+                40,
+                41,
+                42,
+                44,
+                45,
+                46,
+                47,
+                48,
+                49,
+                45,
+                46,
+                48,
+                49,
+                44,
+                43,
+                44,
+                45,
+                46,
+                48,
+                49,
+                49,
+                50,
+                51,
+                52,
+                53,
+                46,
+                43,
+                43,
+                44,
+                44,
+                44,
+                44,
+                45,
+                45,
+                45,
+                45,
+                46,
+                46,
+                46,
+                47,
+                47,
+                48,
+                49,
+                51,
+                53,
+                54,
+                55,
+                57,
+                58,
+                60,
+                62,
+                63,
+                65,
+                67,
+                68,
+                70,
+                69,
+                65,
+                66,
+                68,
+                69,
+                70,
+                68,
+                68,
+                69,
+                69,
+                69,
+                63,
+                59,
+                59,
+                60,
+                59,
+                58,
+                59,
+                59,
+                59,
+                57
+              ],
+              "interval": 4
+            },
+            "i7": {
+              "values": [
+                31,
+                31,
+                31,
+                31,
+                31,
+                32,
+                34,
+                36,
+                39,
+                41,
+                43,
+                45,
+                47,
+                47,
+                46,
+                48,
+                44,
+                44,
+                46,
+                48,
+                49,
+                51,
+                53,
+                43,
+                43,
+                44,
+                44,
+                45,
+                45,
+                46,
+                46,
+                47,
+                48,
+                51,
+                54,
+                56,
+                59,
+                62,
+                64,
+                68,
+                70,
+                66,
+                67,
+                70,
+                68,
+                69,
+                69,
+                60,
+                59,
+                59,
+                59,
+                59,
+                58,
+                58,
+                58,
+                58,
+                58,
+                59,
+                59,
+                56,
+                49,
+                46,
+                45,
+                47,
+                46,
+                46,
+                45,
+                45,
+                46,
+                47,
+                43,
+                39,
+                40,
+                38,
+                37,
+                39,
+                40,
+                39,
+                35,
+                38,
+                40,
+                43,
+                44,
+                46,
+                48,
+                49,
+                50,
+                47,
+                48,
+                47,
+                41,
+                42,
+                43,
+                44,
+                47,
+                47,
+                47,
+                46,
+                47,
+                44,
+                43,
+                42,
+                42,
+                37,
+                39
+              ],
+              "interval": 7
+            },
+            "i18": {
+              "values": [
+                31,
+                31,
+                34,
+                40,
+                45,
+                47,
+                45,
+                48,
+                51,
+                43,
+                45,
+                46,
+                48,
+                54,
+                61,
+                68,
+                67,
+                69,
+                62,
+                59,
+                58,
+                58,
+                59,
+                50,
+                46,
+                46,
+                46,
+                42,
+                39,
+                39,
+                37,
+                42,
+                46,
+                49,
+                48,
+                42,
+                45,
+                46,
+                45,
+                42,
+                37,
+                34,
+                37,
+                39,
+                41,
+                47,
+                46,
+                48,
+                46,
+                49,
+                47,
+                47,
+                45,
+                40,
+                44,
+                48,
+                49,
+                47,
+                51,
+                53,
+                56,
+                60,
+                59,
+                61,
+                62,
+                63,
+                65,
+                66,
+                63,
+                66,
+                73,
+                80,
+                83,
+                83,
+                76,
+                77,
+                79,
+                80,
+                78,
+                75,
+                81,
+                89,
+                92,
+                91,
+                82,
+                81,
+                78,
+                65,
+                62,
+                64,
+                61,
+                59,
+                55,
+                55,
+                55,
+                52,
+                52,
+                51,
+                49,
+                47,
+                53,
+                56
+              ],
+              "interval": 18
+            },
+            "i36": {
+              "values": [
+                31,
+                37,
+                46,
+                46,
+                47,
+                45,
+                51,
+                64,
+                68,
+                61,
+                58,
+                55,
+                46,
+                44,
+                39,
+                39,
+                48,
+                45,
+                46,
+                44,
+                36,
+                38,
+                44,
+                47,
+                47,
+                47,
+                43,
+                46,
+                48,
+                52,
+                58,
+                60,
+                63,
+                66,
+                64,
+                76,
+                83,
+                77,
+                79,
+                77,
+                85,
+                91,
+                81,
+                71,
+                63,
+                60,
+                55,
+                54,
+                52,
+                48,
+                54,
+                54,
+                13,
+                5,
+                5,
+                5,
+                8,
+                14,
+                20,
+                5,
+                1,
+                1,
+                1
+              ],
+              "interval": 36
+            }
+          }
+        },
+        "growth_score_delta_d90": 33,
+        "growth_score_history": {
+          "periods": {
+            "i1": {
+              "values": [
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                14,
+                12,
+                11,
+                10,
+                9,
+                9,
+                8,
+                8,
+                8,
+                7,
+                7,
+                6,
+                6,
+                6,
+                5,
+                5,
+                5,
+                4,
+                4,
+                3,
+                3,
+                3,
+                3,
+                2,
+                2,
+                2,
+                2,
+                2,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "interval": 1
+            },
+            "i2": {
+              "values": [
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                13,
+                11,
+                9,
+                8,
+                8,
+                7,
+                6,
+                5,
+                5,
+                4,
+                3,
+                3,
+                2,
+                2,
+                1,
+                1,
+                1,
+                1,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "interval": 2
+            },
+            "i4": {
+              "values": [
+                33,
+                33,
+                33,
+                23,
+                10,
+                8,
+                6,
+                5,
+                3,
+                2,
+                2,
+                1,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "interval": 4
+            },
+            "i7": {
+              "values": [
+                33,
+                33,
+                10,
+                7,
+                4,
+                2,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                24,
+                27,
+                28,
+                29,
+                30,
+                31,
+                31,
+                31,
+                32,
+                32,
+                32,
+                34,
+                35,
+                36,
+                37,
+                39,
+                42,
+                53,
+                72,
+                72,
+                72,
+                72,
+                72,
+                72,
+                72,
+                72,
+                70,
+                70,
+                70,
+                70,
+                70,
+                69,
+                68,
+                67,
+                66,
+                65,
+                63,
+                47,
+                37,
+                36,
+                36
+              ],
+              "interval": 7
+            },
+            "i18": {
+              "values": [
+                33,
+                6,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                2,
+                26,
+                30,
+                31,
+                32,
+                34,
+                37,
+                49,
+                72,
+                72,
+                72,
+                70,
+                70,
+                68,
+                66,
+                48,
+                36,
+                36,
+                37,
+                37,
+                37,
+                38,
+                38,
+                38,
+                38,
+                38,
+                38,
+                38,
+                37,
+                37,
+                38,
+                38,
+                38,
+                47,
+                62,
+                64,
+                66,
+                67,
+                67,
+                68,
+                68,
+                69,
+                69,
+                70,
+                69,
+                70,
+                71,
+                72,
+                73,
+                73,
+                73,
+                73,
+                73,
+                74,
+                74,
+                74,
+                76,
+                78,
+                79,
+                79,
+                79,
+                79,
+                79,
+                79,
+                79,
+                81,
+                81,
+                82,
+                82,
+                83,
+                83,
+                84,
+                84,
+                85,
+                85,
+                86,
+                87,
+                88
+              ],
+              "interval": 18
+            },
+            "i36": {
+              "values": [
+                33,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                14,
+                30,
+                33,
+                43,
+                72,
+                71,
+                69,
+                57,
+                36,
+                37,
+                37,
+                38,
+                38,
+                38,
+                37,
+                38,
+                43,
+                63,
+                66,
+                68,
+                69,
+                69,
+                70,
+                72,
+                73,
+                73,
+                74,
+                74,
+                77,
+                79,
+                79,
+                79,
+                80,
+                81,
+                82,
+                83,
+                85,
+                85,
+                87,
+                88,
+                87,
+                88,
+                89,
+                90,
+                91,
+                91,
+                92,
+                92,
+                92,
+                91,
+                90
+              ],
+              "interval": 36
+            }
+          }
+        },
+        "growth_trend_365": {
+          "periods": {
+            "i1": {
+              "values": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "interval": 1
+            },
+            "i2": {
+              "values": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                50,
+                100,
+                100,
+                100,
+                100,
+                50,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "interval": 2
+            },
+            "i4": {
+              "values": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                25,
+                100,
+                100,
+                25,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                -25,
+                -100,
+                -100,
+                -100,
+                -100,
+                -100,
+                -100,
+                -100,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "interval": 4
+            },
+            "i7": {
+              "values": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                86,
+                57,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                -29,
+                -100,
+                -100,
+                -100,
+                -86,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                -71,
+                -71,
+                0,
+                0,
+                0,
+                0,
+                -37,
+                -29,
+                -26,
+                -23,
+                -20,
+                -18,
+                -18,
+                -17,
+                -16,
+                -15,
+                -14,
+                -12,
+                -8,
+                -5,
+                -2,
+                4,
+                12,
+                42,
+                92,
+                92,
+                93,
+                96,
+                94,
+                90,
+                90,
+                89,
+                85,
+                84,
+                84,
+                82,
+                83,
+                68,
+                18,
+                11,
+                7,
+                3,
+                -2,
+                -28,
+                -43,
+                -45,
+                -44
+              ],
+              "interval": 7
+            },
+            "i18": {
+              "values": [
+                0,
+                0,
+                56,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                -39,
+                -100,
+                -22,
+                0,
+                0,
+                0,
+                -33,
+                -22,
+                -5,
+                -30,
+                -21,
+                -17,
+                -15,
+                -11,
+                -1,
+                32,
+                92,
+                94,
+                90,
+                84,
+                83,
+                32,
+                5,
+                -26,
+                -45,
+                -46,
+                -46,
+                -46,
+                -46,
+                -45,
+                -46,
+                -46,
+                -46,
+                -46,
+                -48,
+                -48,
+                -49,
+                -49,
+                -48,
+                -48,
+                -48,
+                -36,
+                -17,
+                -14,
+                -14,
+                -14,
+                -15,
+                -14,
+                -13,
+                -13,
+                -13,
+                -12,
+                -13,
+                -13,
+                -12,
+                -11,
+                -11,
+                -11,
+                -13,
+                -13,
+                -13,
+                -13,
+                -13,
+                -13,
+                -13,
+                -12,
+                -11,
+                -11,
+                -9,
+                -9,
+                -10,
+                -10,
+                -10,
+                -10,
+                -10,
+                -9,
+                -10,
+                -9,
+                -9,
+                -9,
+                -8,
+                -8,
+                -8,
+                -7,
+                -5,
+                -4
+              ],
+              "interval": 18
+            },
+            "i36": {
+              "values": [
+                0,
+                28,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                -69,
+                -11,
+                0,
+                -28,
+                -17,
+                -19,
+                -13,
+                15,
+                93,
+                87,
+                58,
+                -10,
+                -45,
+                -46,
+                -45,
+                -46,
+                -46,
+                -48,
+                -49,
+                -48,
+                -42,
+                -16,
+                -14,
+                -14,
+                -13,
+                -12,
+                -13,
+                -12,
+                -11,
+                -13,
+                -13,
+                -13,
+                -12,
+                -11,
+                -9,
+                -10,
+                -10,
+                -10,
+                -9,
+                -9,
+                -8,
+                -7,
+                -5,
+                -3,
+                -3,
+                -2,
+                -1,
+                0,
+                1,
+                2,
+                3,
+                3,
+                2,
+                1,
+                0
+              ],
+              "interval": 36
+            }
+          }
+        },
+        "heat_score": 31,
+        "heat_trend_365": {
+          "periods": {
+            "i1": {
+              "values": [
+                -25,
+                -25,
+                -25,
+                -25,
+                -25,
+                -25,
+                -24,
+                -25,
+                -25,
+                -25,
+                -26,
+                -26,
+                -24,
+                -24,
+                -24,
+                -24,
+                -25,
+                -25,
+                -26,
+                -26,
+                -26,
+                -27,
+                -26,
+                -27,
+                -25,
+                -25,
+                -25,
+                -25,
+                -26,
+                -26,
+                -26,
+                -26,
+                -26,
+                -26,
+                -26,
+                -26,
+                -26,
+                -25,
+                -25,
+                -25,
+                -25,
+                -24,
+                -23,
+                -23,
+                -23,
+                -23,
+                -23,
+                -23,
+                -23,
+                -22,
+                -22,
+                -20,
+                -20,
+                -14,
+                -12,
+                -11,
+                -11,
+                -11,
+                -11,
+                -11,
+                -11,
+                -9,
+                -6,
+                -6,
+                -6,
+                -6,
+                -6,
+                -6,
+                -2,
+                -2,
+                -2,
+                -2,
+                -2,
+                -2,
+                -2,
+                -3,
+                -3,
+                -3,
+                -3,
+                -3,
+                -3,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                3,
+                3,
+                3
+              ],
+              "interval": 1
+            },
+            "i2": {
+              "values": [
+                -25,
+                -25,
+                -25,
+                -24,
+                -25,
+                -26,
+                -24,
+                -24,
+                -25,
+                -26,
+                -26,
+                -26,
+                -25,
+                -25,
+                -26,
+                -26,
+                -26,
+                -26,
+                -25,
+                -25,
+                -24,
+                -23,
+                -23,
+                -23,
+                -22,
+                -21,
+                -17,
+                -11,
+                -11,
+                -11,
+                -10,
+                -6,
+                -6,
+                -6,
+                -2,
+                -2,
+                -2,
+                -2,
+                -3,
+                -3,
+                -1,
+                0,
+                0,
+                2,
+                3,
+                3,
+                2,
+                2,
+                0,
+                0,
+                0,
+                0,
+                0,
+                4,
+                4,
+                5,
+                1,
+                -4,
+                -4,
+                -4,
+                -3,
+                -3,
+                0,
+                2,
+                4,
+                7,
+                10,
+                10,
+                10,
+                10,
+                10,
+                10,
+                10,
+                10,
+                17,
+                17,
+                17,
+                17,
+                18,
+                18,
+                11,
+                5,
+                5,
+                5,
+                4,
+                4,
+                4,
+                4,
+                4,
+                9,
+                13
+              ],
+              "interval": 2
+            },
+            "i4": {
+              "values": [
+                -25,
+                -25,
+                -25,
+                -24,
+                -25,
+                -26,
+                -25,
+                -26,
+                -26,
+                -25,
+                -24,
+                -23,
+                -22,
+                -14,
+                -11,
+                -8,
+                -6,
+                -2,
+                -2,
+                -3,
+                -1,
+                1,
+                3,
+                2,
+                0,
+                0,
+                2,
+                5,
+                -2,
+                -4,
+                -3,
+                1,
+                6,
+                10,
+                10,
+                10,
+                10,
+                17,
+                17,
+                18,
+                8,
+                5,
+                4,
+                4,
+                6,
+                13,
+                11,
+                9,
+                7,
+                6,
+                4,
+                3,
+                2,
+                2,
+                1,
+                0,
+                0,
+                1,
+                2,
+                2,
+                4,
+                9,
+                10,
+                10,
+                13,
+                15,
+                22,
+                27,
+                27,
+                27,
+                29,
+                29,
+                22,
+                22,
+                22,
+                23,
+                24,
+                23,
+                23,
+                25,
+                23,
+                24,
+                22,
+                17,
+                18,
+                19,
+                19,
+                19,
+                19,
+                26,
+                25,
+                21
+              ],
+              "interval": 4
+            },
+            "i7": {
+              "values": [
+                -25,
+                -25,
+                -25,
+                -26,
+                -26,
+                -25,
+                -23,
+                -17,
+                -10,
+                -5,
+                -2,
+                -2,
+                2,
+                1,
+                0,
+                4,
+                -3,
+                -2,
+                5,
+                10,
+                10,
+                16,
+                18,
+                5,
+                4,
+                8,
+                11,
+                8,
+                5,
+                2,
+                2,
+                0,
+                0,
+                2,
+                4,
+                10,
+                11,
+                16,
+                26,
+                27,
+                29,
+                23,
+                22,
+                24,
+                23,
+                24,
+                24,
+                18,
+                18,
+                19,
+                20,
+                25,
+                25,
+                31,
+                28,
+                27,
+                25,
+                25,
+                27,
+                19,
+                10,
+                8,
+                4,
+                2,
+                -1,
+                -2,
+                0,
+                0,
+                -2,
+                -1,
+                -4,
+                -8,
+                -6,
+                -9,
+                -11,
+                -12,
+                -9,
+                -9,
+                -11,
+                -8,
+                -7,
+                -4,
+                0,
+                1,
+                7,
+                12,
+                10,
+                3,
+                4,
+                1,
+                -7,
+                -8,
+                -5,
+                -6,
+                -2,
+                1,
+                -1,
+                -5,
+                -5,
+                -9,
+                -10,
+                -10,
+                -12,
+                -19,
+                -17
+              ],
+              "interval": 7
+            },
+            "i18": {
+              "values": [
+                -25,
+                -26,
+                -23,
+                -7,
+                -1,
+                1,
+                -1,
+                8,
+                15,
+                5,
+                9,
+                3,
+                0,
+                6,
+                16,
+                28,
+                22,
+                24,
+                20,
+                21,
+                27,
+                27,
+                26,
+                12,
+                3,
+                -1,
+                -1,
+                -5,
+                -8,
+                -11,
+                -10,
+                -5,
+                3,
+                10,
+                3,
+                -7,
+                -4,
+                -1,
+                -7,
+                -11,
+                -19,
+                -23,
+                -21,
+                -20,
+                -19,
+                -15,
+                -17,
+                -16,
+                -16,
+                -16,
+                -23,
+                -26,
+                -29,
+                -32,
+                -25,
+                -24,
+                -23,
+                -25,
+                -21,
+                -19,
+                -21,
+                -22,
+                -23,
+                -20,
+                -14,
+                -13,
+                -9,
+                5,
+                0,
+                3,
+                11,
+                22,
+                28,
+                27,
+                22,
+                24,
+                27,
+                29,
+                32,
+                28,
+                26,
+                32,
+                36,
+                42,
+                98,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                98,
+                88,
+                77,
+                67,
+                58,
+                50,
+                37,
+                93,
+                94,
+                100,
+                100
+              ],
+              "interval": 18
+            },
+            "i36": {
+              "values": [
+                -25,
+                -15,
+                0,
+                4,
+                10,
+                6,
+                3,
+                22,
+                23,
+                20,
+                27,
+                19,
+                1,
+                -3,
+                -9,
+                -7,
+                6,
+                -2,
+                -3,
+                -9,
+                -21,
+                -20,
+                -17,
+                -16,
+                -16,
+                -25,
+                -30,
+                -25,
+                -24,
+                -20,
+                -22,
+                -22,
+                -14,
+                -2,
+                1,
+                16,
+                27,
+                23,
+                28,
+                30,
+                29,
+                39,
+                99,
+                100,
+                100,
+                99,
+                83,
+                63,
+                43,
+                93,
+                100,
+                100,
+                24,
+                7,
+                7,
+                7,
+                13,
+                26,
+                38,
+                9,
+                0,
+                0,
+                0
+              ],
+              "interval": 36
+            }
+          }
+        },
+        "growth_score": 33,
+        "heat_score_delta_d90": -17
+      },
+      "bombora_summary": {
+        "identifier": {
+          "uuid": "f6b72c2f-34b2-42ce-8007-6e7250d61e90",
+          "value": "Welcome to the World",
+          "image_id": "pnm9qpciti8kwtyy25kv",
+          "permalink": "welcome-to-the-world",
+          "entity_def_id": "organization"
+        }
+      },
+      "semrush_rank_headline": {
+        "semrush_visits_latest_month": 612
+      },
+      "frequently_asked_questions_latest_funding_round": {
+        "identifier": {
+          "uuid": "f6b72c2f-34b2-42ce-8007-6e7250d61e90",
+          "value": "Welcome to the World",
+          "image_id": "pnm9qpciti8kwtyy25kv",
+          "permalink": "welcome-to-the-world",
+          "entity_def_id": "organization"
+        },
+        "last_funding_at": "2020-11-01",
+        "last_funding_type": "pre_seed",
+        "num_funding_rounds": 2
+      },
+      "apptopia_app_overview_list_free": [],
+      "contacts": {},
+      "product_launches": [],
+      "alumni_summary": {
+        "identifier": {
+          "uuid": "f6b72c2f-34b2-42ce-8007-6e7250d61e90",
+          "value": "Welcome to the World",
+          "image_id": "pnm9qpciti8kwtyy25kv",
+          "permalink": "welcome-to-the-world",
+          "entity_def_id": "organization"
+        }
+      },
+      "apptopia_summary": {
+        "identifier": {
+          "uuid": "f6b72c2f-34b2-42ce-8007-6e7250d61e90",
+          "value": "Welcome to the World",
+          "image_id": "pnm9qpciti8kwtyy25kv",
+          "permalink": "welcome-to-the-world",
+          "entity_def_id": "organization"
+        }
+      },
+      "product_similarity_target_org_list": [],
+      "social_fields": {
+        "linkedin": {
+          "value": "https://www.linkedin.com/company/welcometotheworld"
+        }
+      },
+      "investments_headline": {},
+      "investment_thesis": {
+        "lookup": [],
+        "properties": {
+          "identifier": {
+            "uuid": "f6b72c2f-34b2-42ce-8007-6e7250d61e90",
+            "value": "Welcome to the World",
+            "image_id": "pnm9qpciti8kwtyy25kv",
+            "permalink": "welcome-to-the-world",
+            "entity_def_id": "organization"
+          }
+        },
+        "data": []
+      },
+      "diversity_spotlight_investments_summary": {
+        "identifier": {
+          "uuid": "f6b72c2f-34b2-42ce-8007-6e7250d61e90",
+          "value": "Welcome to the World",
+          "image_id": "pnm9qpciti8kwtyy25kv",
+          "permalink": "welcome-to-the-world",
+          "entity_def_id": "organization"
+        }
+      },
+      "contact_fields": {
+        "contact_email": "stefanie@welcometotheworld.com",
+        "phone_number": "+971567450595"
+      },
+      "growth_prediction": [
+        {
+          "generated_on": "2025-01-11",
+          "identifier": {
+            "uuid": "e5aa39d1-707c-4fb0-9a2c-1caad50494b3",
+            "value": "Growth Prediction 2025-01-11",
+            "entity_def_id": "growth_prediction"
+          },
+          "probability_score": 0.9562,
+          "created_at": "2025-01-17T22:47:04Z",
+          "updated_at": "2025-01-17T22:47:04Z",
+          "probability_tier": "p100_positive_high"
+        }
+      ],
+      "sub_organizations_summary": {
+        "identifier": {
+          "uuid": "f6b72c2f-34b2-42ce-8007-6e7250d61e90",
+          "value": "Welcome to the World",
+          "image_id": "pnm9qpciti8kwtyy25kv",
+          "permalink": "welcome-to-the-world",
+          "entity_def_id": "organization"
+        }
+      },
+      "overview_description": {
+        "description": "Welcome to the World is a travel-technology platform designed to promote tourism businesses and allow travellers to book directly with hotels, attractions, and service providers without relying on traditional booking aggregators."
+      },
+      "current_employees_featured_order_field": [],
+      "company_about_fields2": {
+        "website": {
+          "value": "https://www.welcometotheworld.com"
+        },
+        "ipo_status": "private",
+        "num_employees_enum": "c_00001_00010",
+        "last_funding_type": "pre_seed",
+        "location_identifiers": [
+          {
+            "uuid": "0e8010ee-2f59-38db-b7e2-998e92dde222",
+            "value": "Dubai",
+            "permalink": "dubai-dubai",
+            "entity_def_id": "location",
+            "location_type": "city"
+          },
+          {
+            "uuid": "bdaf57f0-4a06-3b65-7b13-e2983186c2ab",
+            "value": "Dubai",
+            "permalink": "dubai-united-arab-emirates",
+            "entity_def_id": "location",
+            "location_type": "region"
+          },
+          {
+            "uuid": "9314d29a-0a56-02c3-6b27-4168733de77f",
+            "value": "United Arab Emirates",
+            "permalink": "united-arab-emirates",
+            "entity_def_id": "location",
+            "location_type": "country"
+          },
+          {
+            "uuid": "b41404d2-8ecc-caf5-1268-8fdd3afe73ee",
+            "value": "Asia",
+            "permalink": "asia",
+            "entity_def_id": "location",
+            "location_type": "continent"
+          }
+        ],
+        "rank_org_company": 223830
+      },
+      "sub_organizations_image_list": [],
+      "frequently_asked_questions_headquarters_location": {
+        "identifier": {
+          "uuid": "f6b72c2f-34b2-42ce-8007-6e7250d61e90",
+          "value": "Welcome to the World",
+          "image_id": "pnm9qpciti8kwtyy25kv",
+          "permalink": "welcome-to-the-world",
+          "entity_def_id": "organization"
+        },
+        "location_identifiers": [
+          {
+            "uuid": "0e8010ee-2f59-38db-b7e2-998e92dde222",
+            "value": "Dubai",
+            "permalink": "dubai-dubai",
+            "entity_def_id": "location",
+            "location_type": "city"
+          },
+          {
+            "uuid": "bdaf57f0-4a06-3b65-7b13-e2983186c2ab",
+            "value": "Dubai",
+            "permalink": "dubai-united-arab-emirates",
+            "entity_def_id": "location",
+            "location_type": "region"
+          },
+          {
+            "uuid": "9314d29a-0a56-02c3-6b27-4168733de77f",
+            "value": "United Arab Emirates",
+            "permalink": "united-arab-emirates",
+            "entity_def_id": "location",
+            "location_type": "country"
+          },
+          {
+            "uuid": "b41404d2-8ecc-caf5-1268-8fdd3afe73ee",
+            "value": "Asia",
+            "permalink": "asia",
+            "entity_def_id": "location",
+            "location_type": "continent"
+          }
+        ]
+      },
+      "investors_headline": {},
+      "ipo_summary": {
+        "identifier": {
+          "uuid": "f6b72c2f-34b2-42ce-8007-6e7250d61e90",
+          "value": "Welcome to the World",
+          "image_id": "pnm9qpciti8kwtyy25kv",
+          "permalink": "welcome-to-the-world",
+          "entity_def_id": "organization"
+        }
+      },
+      "ipqwery_summary": {
+        "identifier": {
+          "uuid": "f6b72c2f-34b2-42ce-8007-6e7250d61e90",
+          "value": "Welcome to the World",
+          "image_id": "pnm9qpciti8kwtyy25kv",
+          "permalink": "welcome-to-the-world",
+          "entity_def_id": "organization"
+        }
+      },
+      "awards": [],
+      "siftery_product_list": [
+        {
+          "product_identifier": {
+            "uuid": "44fbb3b4-e7da-4a08-b981-83f46b8b2f01",
+            "value": "HTML5",
+            "image_id": "siftery/siftery_logo_prNc7nA_qm8_k5",
+            "entity_def_id": "siftery_product"
+          },
+          "identifier": {
+            "uuid": "6b0bbc07-4235-4a52-9481-7e6d918f86ca"
+          },
+          "uuid": "6b0bbc07-4235-4a52-9481-7e6d918f86ca",
+          "product_num_customers": 439507,
+          "status": "using"
+        },
+        {
+          "uuid": "5418b534-afaa-4644-8181-da782e10627f",
+          "product_identifier": {
+            "uuid": "eb3dc232-9d7e-4295-886c-5a6980aaa277",
+            "value": "Google Doubleclick",
+            "image_id": "siftery/siftery_logo_prIrtRyRcT6IvC",
+            "entity_def_id": "siftery_product"
+          },
+          "status": "using",
+          "identifier": {
+            "uuid": "5418b534-afaa-4644-8181-da782e10627f"
+          }
+        },
+        {
+          "uuid": "5b0a3a55-67e2-4411-8aad-500c3437911d",
+          "product_identifier": {
+            "uuid": "ed517776-0dd8-4bf7-b3fa-f8a3fbb964f0",
+            "value": "Microsoft Outlook",
+            "image_id": "siftery/siftery_logo_pr_7ubnUbBH-Oo",
+            "entity_def_id": "siftery_product"
+          },
+          "status": "not_using",
+          "identifier": {
+            "uuid": "5b0a3a55-67e2-4411-8aad-500c3437911d"
+          }
+        },
+        {
+          "uuid": "65df0cd6-cfb2-4590-bc99-2df7f3d887a9",
+          "product_identifier": {
+            "uuid": "77840218-830a-466c-a035-7c3c7676ebd9",
+            "value": "Google Analytics",
+            "image_id": "siftery/siftery_logo_prchiZeMpgVrUy",
+            "entity_def_id": "siftery_product"
+          },
+          "status": "using",
+          "identifier": {
+            "uuid": "65df0cd6-cfb2-4590-bc99-2df7f3d887a9"
+          }
+        },
+        {
+          "uuid": "68d1b669-73d9-48cd-a943-6b8d58d070c2",
+          "product_identifier": {
+            "uuid": "74cd291b-ac7e-45f7-b4c8-ebef4606fca5",
+            "value": "Wordpress",
+            "image_id": "siftery/siftery_logo_prMpmxYTgyl3Lo",
+            "entity_def_id": "siftery_product"
+          },
+          "status": "using",
+          "identifier": {
+            "uuid": "68d1b669-73d9-48cd-a943-6b8d58d070c2"
+          }
+        },
+        {
+          "uuid": "6ff09bbc-bafc-49eb-858f-807365a8aa6b",
+          "product_identifier": {
+            "uuid": "028b4d09-aae9-4895-8634-0961ab7fe255",
+            "value": "Google Tag Manager",
+            "image_id": "siftery/siftery_logo_prUAreEBebQ9vF",
+            "entity_def_id": "siftery_product"
+          },
+          "status": "using",
+          "identifier": {
+            "uuid": "6ff09bbc-bafc-49eb-858f-807365a8aa6b"
+          }
+        },
+        {
+          "uuid": "98ebc442-5501-4661-b527-043d30cea7cf",
+          "product_identifier": {
+            "uuid": "89cec21b-759d-48a8-aa73-74132e1a6fd0",
+            "value": "Apache Server",
+            "image_id": "siftery/siftery_logo_prvrxOhb1ru2BC",
+            "entity_def_id": "siftery_product"
+          },
+          "status": "using",
+          "identifier": {
+            "uuid": "98ebc442-5501-4661-b527-043d30cea7cf"
+          }
+        },
+        {
+          "uuid": "f1993611-674c-4f3b-b9fd-ebbccea663cd",
+          "product_identifier": {
+            "uuid": "62619f24-cf53-4f93-abd7-cb9716cbd7ca",
+            "value": "F5 NGINX",
+            "image_id": "siftery/siftery_logo_pr2-mGB9xhBg6F",
+            "entity_def_id": "siftery_product"
+          },
+          "status": "using",
+          "identifier": {
+            "uuid": "f1993611-674c-4f3b-b9fd-ebbccea663cd"
+          }
+        },
+        {
+          "uuid": "ff362d3f-4514-46e3-a492-86da3a655836",
+          "product_identifier": {
+            "uuid": "805f03a3-ee62-4c9e-8457-1a5f564b8239",
+            "value": "jQuery",
+            "image_id": "siftery/siftery_logo_prViuoE4t3fDhh",
+            "entity_def_id": "siftery_product"
+          },
+          "status": "using",
+          "identifier": {
+            "uuid": "ff362d3f-4514-46e3-a492-86da3a655836"
+          }
+        }
+      ],
+      "competitors_list": [],
+      "growth_knowledge": {
+        "lookup": [],
+        "properties": {
+          "identifier": {
+            "uuid": "f6b72c2f-34b2-42ce-8007-6e7250d61e90",
+            "value": "Welcome to the World",
+            "image_id": "pnm9qpciti8kwtyy25kv",
+            "permalink": "welcome-to-the-world",
+            "entity_def_id": "organization"
+          }
+        },
+        "data": []
+      },
+      "overview_fields_extended": {
+        "location_group_identifiers": [
+          {
+            "uuid": "4e8be435-c63a-4aff-8a2f-44a880d9c341",
+            "value": "Europe, Middle East, and Africa (EMEA)",
+            "permalink": "europe-middle-east-africa-emea",
+            "entity_def_id": "location",
+            "location_type": "group"
+          },
+          {
+            "uuid": "c4365698-c7c5-44b0-b33a-7d13900e5be2",
+            "value": "Gulf Cooperation Council (GCC)",
+            "permalink": "gulf-cooperation-council",
+            "entity_def_id": "location",
+            "location_type": "group"
+          },
+          {
+            "uuid": "e0272206-3430-48cb-a5bc-1d4b3eafe15a",
+            "value": "Middle East",
+            "permalink": "middle-east",
+            "entity_def_id": "location",
+            "location_type": "group"
+          },
+          {
+            "uuid": "8cb7cad4-b7e4-4b28-a496-2ede3720cb19",
+            "value": "Middle East and North Africa (MENA)",
+            "permalink": "middle-east-and-north-africa-mena",
+            "entity_def_id": "location",
+            "location_type": "group"
+          }
+        ],
+        "founded_on": {
+          "value": "2020-07-05",
+          "precision": "day"
+        },
+        "founder_identifiers": [
+          {
+            "uuid": "0ba5381c-cd5a-4978-a98e-b9849359d8ca",
+            "value": "Stefanie Schachtschabel",
+            "image_id": "vvdjbr9vhnqei7rpzmou",
+            "permalink": "stefanie-schachtschabel",
+            "entity_def_id": "person"
+          }
+        ],
+        "revenue_range": "r_00000000",
+        "operating_status": "active",
+        "last_funding_type": "pre_seed",
+        "legal_name": "Welcome to the World LLC"
+      },
+      "overview_investor_fields": {},
+      "bombora_attribution": {},
+      "semrush_location_list": [
+        {
+          "identifier": {
+            "uuid": "5ef31fa1-9d10-4003-a60a-1af4d635b8cb"
+          },
+          "uuid": "5ef31fa1-9d10-4003-a60a-1af4d635b8cb",
+          "rank": 355843,
+          "location_identifiers": [
+            {
+              "uuid": "9c11aede-288a-3d2d-2715-f0ea2bfea02f",
+              "value": "Romania",
+              "permalink": "romania",
+              "entity_def_id": "location"
+            },
+            {
+              "uuid": "6106f5dc-823e-5da8-40d7-51612c0b2c4e",
+              "value": "Europe",
+              "permalink": "europe",
+              "entity_def_id": "location"
+            }
+          ],
+          "visits_pct": 1
+        },
+        {
+          "identifier": {
+            "uuid": "ba480bfe-9297-4242-958c-d36c5aae9a02"
+          },
+          "uuid": "ba480bfe-9297-4242-958c-d36c5aae9a02",
+          "rank": 2732161,
+          "location_identifiers": [
+            {
+              "uuid": "f110fca2-1055-99f6-996d-011c198b3928",
+              "value": "United States",
+              "permalink": "united-states",
+              "entity_def_id": "location"
+            },
+            {
+              "uuid": "b25caef9-a1b8-3a5d-6232-93b2dfb6a1d1",
+              "value": "North America",
+              "permalink": "north-america",
+              "entity_def_id": "location"
+            }
+          ],
+          "visits_pct": 0.915032679738562
+        },
+        {
+          "identifier": {
+            "uuid": "be50f8e6-819d-47c1-8555-09d7fc2bed63"
+          },
+          "uuid": "be50f8e6-819d-47c1-8555-09d7fc2bed63",
+          "rank": 389569,
+          "location_identifiers": [
+            {
+              "uuid": "9314d29a-0a56-02c3-6b27-4168733de77f",
+              "value": "United Arab Emirates",
+              "permalink": "united-arab-emirates",
+              "entity_def_id": "location"
+            },
+            {
+              "uuid": "b41404d2-8ecc-caf5-1268-8fdd3afe73ee",
+              "value": "Asia",
+              "permalink": "asia",
+              "entity_def_id": "location"
+            }
+          ],
+          "visits_pct": 0.0849673202614379
+        }
+      ],
+      "investors_list": [],
+      "siftery_summary": {
+        "identifier": {
+          "uuid": "f6b72c2f-34b2-42ce-8007-6e7250d61e90",
+          "value": "Welcome to the World",
+          "image_id": "pnm9qpciti8kwtyy25kv",
+          "permalink": "welcome-to-the-world",
+          "entity_def_id": "organization"
+        },
+        "siftery_num_products": 14
+      },
+      "acquired_by_summary": {
+        "identifier": {
+          "uuid": "f6b72c2f-34b2-42ce-8007-6e7250d61e90",
+          "value": "Welcome to the World",
+          "image_id": "pnm9qpciti8kwtyy25kv",
+          "permalink": "welcome-to-the-world",
+          "entity_def_id": "organization"
+        }
+      },
+      "ipo_fields": {},
+      "apptopia_app_overview_list_public": [],
+      "apptopia_sdk_list": [],
+      "trading_view": {},
+      "current_employees_image_list": [],
+      "frequently_asked_questions_investors": {
+        "identifier": {
+          "uuid": "f6b72c2f-34b2-42ce-8007-6e7250d61e90",
+          "value": "Welcome to the World",
+          "image_id": "pnm9qpciti8kwtyy25kv",
+          "permalink": "welcome-to-the-world",
+          "entity_def_id": "organization"
+        }
+      },
+      "funding_rounds_list": [
+        {
+          "identifier": {
+            "uuid": "8fe92325-2175-4b4a-b813-97b32cba54d4",
+            "value": "Pre Seed Round - Welcome to the World",
+            "image_id": "pnm9qpciti8kwtyy25kv",
+            "permalink": "welcome-to-the-world-pre-seed--8fe92325",
+            "entity_def_id": "funding_round"
+          },
+          "announced_on": "2020-11-01",
+          "money_raised": {
+            "value": 149500,
+            "currency": "USD",
+            "value_usd": 149500
+          },
+          "post_money_valuation": {
+            "value": 2872440,
+            "currency": "USD",
+            "value_usd": 2872440
+          },
+          "investment_type": "pre_seed"
+        },
+        {
+          "identifier": {
+            "uuid": "dbe0518f-fb79-495d-b622-3d4bd3c95130",
+            "value": "Pre Seed Round - Welcome to the World",
+            "image_id": "pnm9qpciti8kwtyy25kv",
+            "permalink": "welcome-to-the-world-pre-seed--dbe0518f",
+            "entity_def_id": "funding_round"
+          },
+          "announced_on": "2020-05-01",
+          "money_raised": {
+            "value": 114500,
+            "currency": "USD",
+            "value_usd": 114500
+          },
+          "post_money_valuation": {
+            "value": 1203676,
+            "currency": "USD",
+            "value_usd": 1203676
+          },
+          "investment_type": "pre_seed"
+        }
+      ],
+      "technology_highlights": {
+        "builtwith_num_technologies_used": 5,
+        "semrush_visits_latest_month": 612,
+        "siftery_num_products": 14
+      },
+      "funding_rounds_headline": {
+        "funding_total": {
+          "value": 264000,
+          "currency": "USD",
+          "value_usd": 264000
+        },
+        "num_funding_rounds": 2
+      },
+      "investments_list": [],
+      "exits_image_list": [],
+      "funds_headline": {},
+      "people_highlights": {},
+      "semrush_attribution": {
+        "semrush_last_updated": "2026-08-24"
+      },
+      "frequently_asked_questions_similar_companies": {
+        "identifier": {
+          "uuid": "f6b72c2f-34b2-42ce-8007-6e7250d61e90",
+          "value": "Welcome to the World",
+          "image_id": "pnm9qpciti8kwtyy25kv",
+          "permalink": "welcome-to-the-world",
+          "entity_def_id": "organization"
+        }
+      },
+      "semrush_overview": {
+        "semrush_bounce_rate": 0.8431,
+        "semrush_visit_duration": 4,
+        "semrush_visit_pageviews": 1.1569
+      },
+      "org_category_ranks": {},
+      "current_valuation": [
+        {
+          "preview_properties": {
+            "financials_impact_tier": {
+              "is_present": true
+            },
+            "identifier": {
+              "is_present": true
+            },
+            "financials_reasons": {
+              "is_present": true,
+              "length": 3
+            },
+            "estimate_confidence_tier": {
+              "is_present": true
+            },
+            "industry_performance_reasons": {
+              "is_present": true,
+              "length": 2
+            },
+            "market_equity_reasons": {
+              "is_present": true,
+              "length": 3
+            },
+            "misc_impact_tier": {
+              "is_present": true
+            },
+            "estimated_lower_bound": {
+              "is_present": true
+            },
+            "generated_on": {
+              "is_present": true
+            },
+            "misc_reasons": {
+              "is_present": true,
+              "length": 3
+            },
+            "industry_performance_impact_tier": {
+              "is_present": true
+            },
+            "estimated_upper_bound": {
+              "is_present": true
+            },
+            "current_valuation": {
+              "is_present": true
+            },
+            "market_equity_impact_tier": {
+              "is_present": true
+            }
+          }
+        },
+        {
+          "preview_properties": {
+            "financials_impact_tier": {
+              "is_present": true
+            },
+            "identifier": {
+              "is_present": true
+            },
+            "financials_reasons": {
+              "is_present": true,
+              "length": 3
+            },
+            "estimate_confidence_tier": {
+              "is_present": true
+            },
+            "industry_performance_reasons": {
+              "is_present": true,
+              "length": 2
+            },
+            "market_equity_reasons": {
+              "is_present": true,
+              "length": 3
+            },
+            "misc_impact_tier": {
+              "is_present": true
+            },
+            "estimated_lower_bound": {
+              "is_present": true
+            },
+            "generated_on": {
+              "is_present": true
+            },
+            "misc_reasons": {
+              "is_present": true,
+              "length": 3
+            },
+            "industry_performance_impact_tier": {
+              "is_present": true
+            },
+            "estimated_upper_bound": {
+              "is_present": true
+            },
+            "current_valuation": {
+              "is_present": true
+            },
+            "market_equity_impact_tier": {
+              "is_present": true
+            }
+          }
+        },
+        {
+          "preview_properties": {
+            "financials_impact_tier": {
+              "is_present": true
+            },
+            "identifier": {
+              "is_present": true
+            },
+            "financials_reasons": {
+              "is_present": true,
+              "length": 3
+            },
+            "estimate_confidence_tier": {
+              "is_present": true
+            },
+            "industry_performance_reasons": {
+              "is_present": true,
+              "length": 2
+            },
+            "market_equity_reasons": {
+              "is_present": true,
+              "length": 3
+            },
+            "misc_impact_tier": {
+              "is_present": true
+            },
+            "estimated_lower_bound": {
+              "is_present": true
+            },
+            "generated_on": {
+              "is_present": true
+            },
+            "misc_reasons": {
+              "is_present": true,
+              "length": 3
+            },
+            "industry_performance_impact_tier": {
+              "is_present": true
+            },
+            "estimated_upper_bound": {
+              "is_present": true
+            },
+            "current_valuation": {
+              "is_present": true
+            },
+            "market_equity_impact_tier": {
+              "is_present": true
+            }
+          }
+        },
+        {
+          "preview_properties": {
+            "financials_impact_tier": {
+              "is_present": true
+            },
+            "identifier": {
+              "is_present": true
+            },
+            "financials_reasons": {
+              "is_present": true,
+              "length": 3
+            },
+            "estimate_confidence_tier": {
+              "is_present": true
+            },
+            "industry_performance_reasons": {
+              "is_present": true,
+              "length": 2
+            },
+            "market_equity_reasons": {
+              "is_present": true,
+              "length": 3
+            },
+            "misc_impact_tier": {
+              "is_present": true
+            },
+            "estimated_lower_bound": {
+              "is_present": true
+            },
+            "generated_on": {
+              "is_present": true
+            },
+            "misc_reasons": {
+              "is_present": true,
+              "length": 3
+            },
+            "industry_performance_impact_tier": {
+              "is_present": true
+            },
+            "estimated_upper_bound": {
+              "is_present": true
+            },
+            "current_valuation": {
+              "is_present": true
+            },
+            "market_equity_impact_tier": {
+              "is_present": true
+            }
+          }
+        },
+        {
+          "preview_properties": {
+            "financials_impact_tier": {
+              "is_present": true
+            },
+            "identifier": {
+              "is_present": true
+            },
+            "financials_reasons": {
+              "is_present": true,
+              "length": 3
+            },
+            "estimate_confidence_tier": {
+              "is_present": true
+            },
+            "industry_performance_reasons": {
+              "is_present": true,
+              "length": 2
+            },
+            "market_equity_reasons": {
+              "is_present": true,
+              "length": 3
+            },
+            "misc_impact_tier": {
+              "is_present": true
+            },
+            "estimated_lower_bound": {
+              "is_present": true
+            },
+            "generated_on": {
+              "is_present": true
+            },
+            "misc_reasons": {
+              "is_present": true,
+              "length": 3
+            },
+            "industry_performance_impact_tier": {
+              "is_present": true
+            },
+            "estimated_upper_bound": {
+              "is_present": true
+            },
+            "current_valuation": {
+              "is_present": true
+            },
+            "market_equity_impact_tier": {
+              "is_present": true
+            }
+          }
+        }
+      ],
+      "legal_proceedings": [],
+      "current_employees_summary": {
+        "identifier": {
+          "uuid": "f6b72c2f-34b2-42ce-8007-6e7250d61e90",
+          "value": "Welcome to the World",
+          "image_id": "pnm9qpciti8kwtyy25kv",
+          "permalink": "welcome-to-the-world",
+          "entity_def_id": "organization"
+        }
+      },
+      "aberdeen_summary": {
+        "identifier": {
+          "uuid": "f6b72c2f-34b2-42ce-8007-6e7250d61e90",
+          "value": "Welcome to the World",
+          "image_id": "pnm9qpciti8kwtyy25kv",
+          "permalink": "welcome-to-the-world",
+          "entity_def_id": "organization"
+        }
+      },
+      "offices": [],
+      "overview_timeline": {
+        "count": 5,
+        "entities": [
+          {
+            "uuid": "8b1cf42a-abce-4ab0-8ae0-4c89d7670653",
+            "properties": {
+              "identifier": {
+                "uuid": "8b1cf42a-abce-4ab0-8ae0-4c89d7670653",
+                "value": "PR specialist launches new agency",
+                "entity_def_id": "press_reference"
+              },
+              "entity_def_id": "press_reference",
+              "activity_entities": [
+                {
+                  "uuid": "f6b72c2f-34b2-42ce-8007-6e7250d61e90",
+                  "value": "Welcome to the World",
+                  "image_id": "pnm9qpciti8kwtyy25kv",
+                  "permalink": "welcome-to-the-world",
+                  "entity_def_id": "organization"
+                }
+              ],
+              "activity_properties": {
+                "url": {
+                  "value": "https://bdaily.co.uk/articles/2026/03/24/pr-specialist-launches-new-agency"
+                },
+                "title": "PR specialist launches new agency",
+                "author": "Bdaily Business News",
+                "publisher": "B Daily"
+              },
+              "activity_date": "2026-03-24"
+            }
+          },
+          {
+            "uuid": "04e4a6f4-337b-43b4-9fe9-739f06d2ae4a",
+            "properties": {
+              "identifier": {
+                "uuid": "04e4a6f4-337b-43b4-9fe9-739f06d2ae4a",
+                "value": "Travel site ‘Welcome to the World’ expands into Abu Dhabi with new content platform",
+                "entity_def_id": "press_reference"
+              },
+              "entity_def_id": "press_reference",
+              "activity_entities": [
+                {
+                  "uuid": "f6b72c2f-34b2-42ce-8007-6e7250d61e90",
+                  "value": "Welcome to the World",
+                  "image_id": "pnm9qpciti8kwtyy25kv",
+                  "permalink": "welcome-to-the-world",
+                  "entity_def_id": "organization"
+                }
+              ],
+              "activity_properties": {
+                "url": {
+                  "value": "https://www.hotelnewsme.com/news/travel-site-welcome-to-the-world-expands-into-abu-dhabi-with-new-content-platform/"
+                },
+                "title": "Travel site ‘Welcome to the World’ expands into Abu Dhabi with new content platform",
+                "publisher": "Hotel News ME",
+                "thumbnail_url": "https://www.hotelnewsme.com/wp-content/uploads/2021/07/Video-first-Welcome-to-Abu-Dhabi-platform-puts-power-back-in-travelers-hands.jpg"
+              },
+              "activity_date": "2021-07-05"
+            }
+          },
+          {
+            "uuid": "66eb77aa-0bd9-4ead-8329-8acd9bf21abf",
+            "properties": {
+              "identifier": {
+                "uuid": "66eb77aa-0bd9-4ead-8329-8acd9bf21abf",
+                "value": "New tourism direct booking initiative launches in Dubai",
+                "entity_def_id": "press_reference"
+              },
+              "entity_def_id": "press_reference",
+              "activity_entities": [
+                {
+                  "uuid": "f6b72c2f-34b2-42ce-8007-6e7250d61e90",
+                  "value": "Welcome to the World",
+                  "image_id": "pnm9qpciti8kwtyy25kv",
+                  "permalink": "welcome-to-the-world",
+                  "entity_def_id": "organization"
+                }
+              ],
+              "activity_properties": {
+                "url": {
+                  "value": "https://www.arabianbusiness.com/travel-hospitality/455920-new-tourism-direct-booking-initiative-launches-in-dubai"
+                },
+                "title": "New tourism direct booking initiative launches in Dubai",
+                "publisher": "ArabianBusiness.com",
+                "thumbnail_url": "https://www.arabianbusiness.com/public/images/2020/12/15/Dubai-tourism.jpg"
+              },
+              "activity_date": "2020-12-19"
+            }
+          },
+          {
+            "uuid": "8fe92325-2175-4b4a-b813-97b32cba54d4",
+            "properties": {
+              "identifier": {
+                "uuid": "8fe92325-2175-4b4a-b813-97b32cba54d4",
+                "value": "Pre Seed Round - Welcome to the World",
+                "image_id": "pnm9qpciti8kwtyy25kv",
+                "permalink": "welcome-to-the-world-pre-seed--8fe92325",
+                "entity_def_id": "funding_round"
+              },
+              "entity_def_id": "funding_round",
+              "activity_entities": [
+                {
+                  "role": "investee",
+                  "uuid": "f6b72c2f-34b2-42ce-8007-6e7250d61e90",
+                  "value": "Welcome to the World",
+                  "image_id": "pnm9qpciti8kwtyy25kv",
+                  "permalink": "welcome-to-the-world",
+                  "entity_def_id": "organization"
+                }
+              ],
+              "activity_properties": {
+                "money_raised": {
+                  "value": 149500,
+                  "currency": "USD",
+                  "value_usd": 149500
+                },
+                "investment_type": "pre_seed"
+              },
+              "activity_date": "2020-11-01"
+            }
+          },
+          {
+            "uuid": "dbe0518f-fb79-495d-b622-3d4bd3c95130",
+            "properties": {
+              "identifier": {
+                "uuid": "dbe0518f-fb79-495d-b622-3d4bd3c95130",
+                "value": "Pre Seed Round - Welcome to the World",
+                "image_id": "pnm9qpciti8kwtyy25kv",
+                "permalink": "welcome-to-the-world-pre-seed--dbe0518f",
+                "entity_def_id": "funding_round"
+              },
+              "entity_def_id": "funding_round",
+              "activity_entities": [
+                {
+                  "role": "investee",
+                  "uuid": "f6b72c2f-34b2-42ce-8007-6e7250d61e90",
+                  "value": "Welcome to the World",
+                  "image_id": "pnm9qpciti8kwtyy25kv",
+                  "permalink": "welcome-to-the-world",
+                  "entity_def_id": "organization"
+                }
+              ],
+              "activity_properties": {
+                "money_raised": {
+                  "value": 114500,
+                  "currency": "USD",
+                  "value_usd": 114500
+                },
+                "investment_type": "pre_seed"
+              },
+              "activity_date": "2020-05-01"
+            }
+          }
+        ]
+      },
+      "company_financials_highlights": {
+        "funding_total": {
+          "value": 264000,
+          "currency": "USD",
+          "value_usd": 264000
+        },
+        "num_funding_rounds": 2
+      },
+      "overview_company_fields": {
+        "company_type": "for_profit"
+      },
+      "private_tags_pill_list": [],
+      "acquisitions_headline": {},
+      "builtwith_summary": {
+        "builtwith_num_technologies_used": 5,
+        "identifier": {
+          "uuid": "f6b72c2f-34b2-42ce-8007-6e7250d61e90",
+          "value": "Welcome to the World",
+          "image_id": "pnm9qpciti8kwtyy25kv",
+          "permalink": "welcome-to-the-world",
+          "entity_def_id": "organization"
+        }
+      },
+      "about_short_description": {
+        "short_description": "Welcome to the World is a travel-technology platform designed to promote tourism businesses."
+      },
+      "product": [],
+      "apptopia_app_headline": {}
+    }
+  }
+}

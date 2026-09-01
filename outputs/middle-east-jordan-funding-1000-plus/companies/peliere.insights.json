@@ -1,0 +1,239 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T12:55:13.183Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T12:55:13.181Z",
+    "url": "https://www.crunchbase.com/organization/peliere"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Peliere",
+      "shortDescription": "Peliere, streamlines the logistics industry by creating a platform to facilitate charter and part-charter services.",
+      "description": "We aim to advance the air cargo industry by aligning it with 21st century standards by offering a service that improves communication and trade between Airline and Logistic companies through blockchain and Smart Contracts.",
+      "website": "http://www.naemys.com/peliere.html",
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "1-10",
+      "headquarters": "Dubai, United Arab Emirates",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Logistics",
+        "Software",
+        "Supply Chain Management"
+      ],
+      "sectors": [
+        "Software",
+        "Transportation"
+      ],
+      "founders": [
+        "Humberto Mendez Filgueira",
+        "Joachim Gutierrez",
+        "Thomas Kohlen"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 13613,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2018-05-01",
+      "lastFundingType": "Grant",
+      "rounds": [
+        {
+          "announcedDate": "2018-05-01",
+          "amount": {
+            "amount": 13613,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "Intelak Hub"
+          ],
+          "type": "Grant"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "Intelak Hub",
+            "rounds": [
+              "Grant"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 2,
+      "includedUniqueCount": 2,
+      "items": [
+        {
+          "date": "2020-11-10",
+          "publisher": "Extreme Tech",
+          "title": "EKWB Launches Peltier Cooler Powered by Intel Cryo Cooling Technology",
+          "url": "https://www.extremetech.com/computing/317189-ekwb-launches-peltier-cooler-powered-by-intel-cryo-cooling-technology"
+        },
+        {
+          "date": "2018-05-01",
+          "title": "Grant - Peliere"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 13613,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "grantFunding": {
+      "amount": {
+        "amount": 13613,
+        "currency": "USD"
+      },
+      "disclosedRoundCount": 1,
+      "shareOfTotalPercent": 100
+    }
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": 0,
+      "growthScore": 34,
+      "heatChange90Days": -9,
+      "heatScore": 7
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 40.48
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 77.47
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 26.65
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "CharterPad provides a digital platform for air charter trip sourcing and aircraft management.",
+          "employeeRange": "1-10",
+          "name": "CharterPad",
+          "similarityScore": 93
+        },
+        {
+          "description": "Avinode provides the leading platform \"Marketplace\", which is a tool for air operators and flight brokers to buy and sell aircraft charter.",
+          "employeeRange": "101-250",
+          "name": "Avinode AB",
+          "similarityScore": 92
+        },
+        {
+          "description": "Stellar is an advanced commercial operations system created for private aviation combined with an all-digital distribution network.",
+          "employeeRange": "51-100",
+          "name": "Stellar Labs",
+          "sharedCategories": [
+            "Software"
+          ],
+          "similarityScore": 88
+        },
+        {
+          "description": "Aveler is a platform that connects travelers with private jet operators.",
+          "employeeRange": "1-10",
+          "name": "Aveler",
+          "similarityScore": 85
+        },
+        {
+          "description": "Insta Charter develops customized business aviation software for air charter brokers and operators. Manage quoting, scheduling, and clients.",
+          "employeeRange": "1-10",
+          "name": "Insta Charter",
+          "sharedCategories": [
+            "Software"
+          ],
+          "similarityScore": 83
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Grant round raised $13,613, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Meaningful non-dilutive funding",
+      "statement": "1 disclosed grants total $13,613, representing 100% of reported funding.",
+      "implication": "The grants reduce the share of reported financing attributed to equity or notes, although their restrictions and milestone requirements need separate verification.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.grantFunding"
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 34 (+0 over 90 days) and market heat at 7 (-9).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include CharterPad, Avinode AB, Stellar Labs.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

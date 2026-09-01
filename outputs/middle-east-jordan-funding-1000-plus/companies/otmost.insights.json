@@ -1,0 +1,194 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T12:52:36.354Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T12:52:36.353Z",
+    "url": "https://www.crunchbase.com/organization/otmost"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Otmost",
+      "shortDescription": "Otmost is a cashless solution to reinvent the way businesses used to do transactions.",
+      "description": "Otmost is a cashless solution to reinvent the way businesses used to do transactions. Otmost is designed particularly for B2B transactions, where businesses can sell their unused (not utilized) capacity in exchange for Mosto's (Pseudo-currency). So they can buy and sell any business service on the platform as long as they have enough Mosto's in their accounts.",
+      "website": "https://www.otmost.com/",
+      "foundedYear": 2017,
+      "operatingStatus": "Closed",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "1-10",
+      "headquarters": "Cairo, Al Qahirah, Egypt",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Middle East",
+        "Middle East and North Africa (MENA)",
+        "North Africa"
+      ],
+      "industries": [
+        "E-Commerce",
+        "Information Technology",
+        "Internet",
+        "Professional Networking",
+        "Transaction Processing"
+      ],
+      "sectors": [
+        "Commerce and Shopping",
+        "Community and Lifestyle",
+        "Financial Services",
+        "Information Technology",
+        "Payments",
+        "Professional Services",
+        "Software"
+      ],
+      "founders": [
+        "Amr Nawar",
+        "Ayman Taha",
+        "Mina William"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 6621,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2017-06-05",
+      "lastFundingType": "Non Equity Assistance",
+      "rounds": [
+        {
+          "announcedDate": "2017-06-05",
+          "amount": {
+            "amount": 6621,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "TIEC Incubation"
+          ],
+          "type": "Non Equity Assistance"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "TIEC Incubation",
+            "rounds": [
+              "Non Equity Assistance"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 1,
+      "includedUniqueCount": 1,
+      "items": [
+        {
+          "date": "2017-06-05",
+          "title": "Non Equity Assistance - Otmost"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 6621,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "heatChange90Days": -14,
+      "heatScore": 26
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Digital loyalty system for independent retailers and eateries",
+          "employeeRange": "1-10",
+          "name": "Loyalzoo",
+          "sharedCategories": [
+            "E-Commerce"
+          ],
+          "similarityScore": 95
+        },
+        {
+          "description": "Cantaloupe is a payment platform that operates in the small-ticket electronic payments industry.",
+          "employeeRange": "251-500",
+          "name": "Cantaloupe",
+          "similarityScore": 93
+        },
+        {
+          "description": "Nayax is a fintech company that provides merchant financial services to different retailers.",
+          "employeeRange": "1,001-5,000",
+          "name": "Nayax",
+          "similarityScore": 91
+        },
+        {
+          "description": "ParLevel develops hardware and software that provides intelligent solutions to the vending machine industry.",
+          "employeeRange": "51-100",
+          "name": "ParLevel Systems",
+          "similarityScore": 89
+        },
+        {
+          "description": "PayRange is a network for everyday purchases developing a mobile payment technology to make mobile payments easy-to-use.",
+          "employeeRange": "251-500",
+          "name": "PayRange",
+          "sharedCategories": [
+            "Transaction Processing"
+          ],
+          "similarityScore": 87
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Non Equity Assistance round raised $6,621, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Loyalzoo, Cantaloupe, Nayax.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

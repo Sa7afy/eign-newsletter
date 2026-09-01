@@ -1,0 +1,3489 @@
+{
+  "sourceUrl": "https://www.crunchbase.com/organization/human-investments",
+  "pageTitle": "human-investments",
+  "scrapedAt": "2026-09-01T12:00:52.716Z",
+  "extraction": {
+    "authenticated": true,
+    "method": "curl-cffi-authenticated-entity-fetch-no-browser"
+  },
+  "organization": {
+    "properties": {
+      "facet_ids": [
+        "ai_insight",
+        "company",
+        "rank"
+      ],
+      "identifier": {
+        "uuid": "cb30f607-7df4-41db-a403-0577e28e226d",
+        "value": "Human Investments",
+        "permalink": "human-investments",
+        "entity_def_id": "organization"
+      },
+      "category_groups": [
+        {
+          "uuid": "2e6eafef-f310-ba60-d932-62f866a87779",
+          "value": "Hardware",
+          "permalink": "hardware-2e6e",
+          "entity_def_id": "category_group"
+        },
+        {
+          "uuid": "85b6bca9-930a-11bc-a608-a513b76fb637",
+          "value": "Software",
+          "permalink": "software-85b6",
+          "entity_def_id": "category_group"
+        }
+      ],
+      "short_description": "Human Investments is the exclusive distribution partner in Korea and China for Establishment Labs Holdings.",
+      "investor_identifiers": [
+        {
+          "uuid": "42e0b808-d465-90d7-d2bb-6fe6486a1f67",
+          "value": "C-Bridge Capital",
+          "image_id": "v1500353816/wgymoodrz43tqh5yylxi.jpg",
+          "permalink": "c-bridge-capital",
+          "entity_def_id": "organization"
+        }
+      ],
+      "rank_delta_d90": 2.5,
+      "title": "Human Investments"
+    },
+    "cards": {
+      "semrush_summary": {
+        "identifier": {
+          "uuid": "cb30f607-7df4-41db-a403-0577e28e226d",
+          "value": "Human Investments",
+          "permalink": "human-investments",
+          "entity_def_id": "organization"
+        }
+      },
+      "key_employee_change_list": [],
+      "apptopia_attribution": {},
+      "diversity_spotlight_investments_headline": {},
+      "apptopia_app_rating_list": [],
+      "funds_summary": {
+        "identifier": {
+          "uuid": "cb30f607-7df4-41db-a403-0577e28e226d",
+          "value": "Human Investments",
+          "permalink": "human-investments",
+          "entity_def_id": "organization"
+        }
+      },
+      "funding_prediction": [],
+      "company_about_fields1": {},
+      "current_advisors_image_list": [],
+      "recommended_search": [
+        {
+          "identifier": {
+            "permalink": "private-dubai-companies",
+            "image_id": "216886c7d09c49d39cce6277f342d12d",
+            "uuid": "55c6a845-85e1-4058-8399-0df729984e45",
+            "entity_def_id": "hub",
+            "value": "Private Dubai Companies (Top 10K)"
+          },
+          "org_identifiers": [
+            {
+              "permalink": "fasset",
+              "image_id": "216886c7d09c49d39cce6277f342d12d",
+              "uuid": "fb8d3cbb-6706-4fda-941f-7add24517f7c",
+              "entity_def_id": "organization",
+              "value": "Fasset"
+            },
+            {
+              "permalink": "careem",
+              "image_id": "89cebfad73fa4d1da5101b16a8eb7d5e",
+              "uuid": "8044fef3-7107-8de4-9564-ab7ecf80eae4",
+              "entity_def_id": "organization",
+              "value": "Careem"
+            },
+            {
+              "permalink": "oraseya-capital",
+              "image_id": "nrwqtikpbaruhdx8lvti",
+              "uuid": "d016a5da-659c-49a0-9b4a-40f11542529e",
+              "entity_def_id": "organization",
+              "value": "Oraseya Capital"
+            },
+            {
+              "permalink": "propertyfinder",
+              "image_id": "afljgs935dgqvpzgwxkv",
+              "uuid": "f98f6e15-74d0-0855-258b-c98781716319",
+              "entity_def_id": "organization",
+              "value": "Property Finder"
+            },
+            {
+              "permalink": "cobi-26b2",
+              "image_id": "890be9e9bada44279dbb64787f785c96",
+              "uuid": "ad5d5626-e78d-46c3-a45f-3d487fdb26b2",
+              "entity_def_id": "organization",
+              "value": "Cobi"
+            },
+            {
+              "permalink": "dp-world-group-dubai",
+              "image_id": "v1476388564/xy1cmuz4ihmpqirgoevn.png",
+              "uuid": "e2ed164c-21e2-1f00-5cee-1cd1654b45e7",
+              "entity_def_id": "organization",
+              "value": "DP World Group"
+            },
+            {
+              "permalink": "telegram-messenger",
+              "image_id": "icy14hwiqs3uxvip8fsn",
+              "uuid": "41544b58-79b0-d26a-1e2f-5b54656aa1b5",
+              "entity_def_id": "organization",
+              "value": "Telegram"
+            },
+            {
+              "permalink": "arada",
+              "image_id": "af32aab8738343d0959dd23898c303b1",
+              "uuid": "092f0c9f-a47c-4471-8789-8d138e63cd78",
+              "entity_def_id": "organization",
+              "value": "Arada"
+            }
+          ],
+          "org_funding_total": {
+            "currency": "USD",
+            "value": 63033738231,
+            "value_usd": 63033738231
+          },
+          "org_num_investors": 4237,
+          "org_num": 9481,
+          "queries": {
+            "event": [
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "bdaf57f0-4a06-3b65-7b13-e2983186c2ab"
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "principal.has_event.forward",
+                "query": [
+                  {
+                    "field_id": "facet_ids",
+                    "operator_id": "includes",
+                    "values": [
+                      "company"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "ipo_status",
+                    "operator_id": "includes",
+                    "values": [
+                      "private"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "active"
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ],
+            "organization": [
+              {
+                "field_id": "facet_ids",
+                "operator_id": "includes",
+                "values": [
+                  "company"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "bdaf57f0-4a06-3b65-7b13-e2983186c2ab"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "ipo_status",
+                "operator_id": "includes",
+                "values": [
+                  "private"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "operating_status",
+                "operator_id": "eq",
+                "values": [
+                  "active"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "rank_org",
+                "operator_id": "lte",
+                "values": [
+                  1200000
+                ],
+                "type": "predicate"
+              }
+            ],
+            "person": [
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "bdaf57f0-4a06-3b65-7b13-e2983186c2ab"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "rank_person",
+                "operator_id": "lte",
+                "values": [
+                  160000
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "organization.has_primary_organization.forward",
+                "query": [
+                  {
+                    "field_id": "facet_ids",
+                    "operator_id": "includes",
+                    "values": [
+                      "company"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "location_identifiers",
+                    "operator_id": "includes",
+                    "values": [
+                      "bdaf57f0-4a06-3b65-7b13-e2983186c2ab"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "ipo_status",
+                    "operator_id": "includes",
+                    "values": [
+                      "private"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "active"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "rank_org",
+                    "operator_id": "lte",
+                    "values": [
+                      1200000
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ]
+          }
+        },
+        {
+          "identifier": {
+            "permalink": "middle-east-and-north-africa-companies",
+            "image_id": "kermvpjt6vvcclqvly6k",
+            "uuid": "53cfed49-527f-4c93-bf76-6838d3dcb232",
+            "entity_def_id": "hub",
+            "value": "Middle East and North Africa (MENA) Companies (Top 10K)"
+          },
+          "org_identifiers": [
+            {
+              "permalink": "binance-labs-b05e",
+              "image_id": "kermvpjt6vvcclqvly6k",
+              "uuid": "8b52e412-7d11-4b4d-ae49-3811f29fb05e",
+              "entity_def_id": "organization",
+              "value": "YZi Labs"
+            },
+            {
+              "permalink": "fasset",
+              "image_id": "216886c7d09c49d39cce6277f342d12d",
+              "uuid": "fb8d3cbb-6706-4fda-941f-7add24517f7c",
+              "entity_def_id": "organization",
+              "value": "Fasset"
+            },
+            {
+              "permalink": "african-export-import-bank",
+              "image_id": "aa1e4a9f367f4a34a29d5f81de4cb62b",
+              "uuid": "971b156a-46e5-c04c-2ae9-d36127a9bd9f",
+              "entity_def_id": "organization",
+              "value": "African Export-Import Bank"
+            },
+            {
+              "permalink": "biocatch",
+              "image_id": "eauvaq6djrm4cjktjmxi",
+              "uuid": "516abfe7-ee23-d825-b1e2-144b41ca591e",
+              "entity_def_id": "organization",
+              "value": "BioCatch"
+            },
+            {
+              "permalink": "humain-c7c3",
+              "image_id": "dc960b95a8634d398fb802e43c760504",
+              "uuid": "6bde23ba-59a6-43e2-882e-2fdf96c1c7c3",
+              "entity_def_id": "organization",
+              "value": "HUMAIN"
+            },
+            {
+              "permalink": "omilia",
+              "image_id": "a6e6d6f0223b4e70840705a17f248b9e",
+              "uuid": "49e3e363-63c7-e951-4974-1c79137fcef0",
+              "entity_def_id": "organization",
+              "value": "Omilia"
+            },
+            {
+              "permalink": "team8",
+              "image_id": "jgzvsw4o9vpv30kqv7yg",
+              "uuid": "192acc26-46d6-5961-2a18-2ec462242091",
+              "entity_def_id": "organization",
+              "value": "Team8"
+            },
+            {
+              "permalink": "investcorp-2",
+              "image_id": "v1444307467/wjljtmzfwxmg9xxokd23.png",
+              "uuid": "2f09a625-dfd1-bea9-d16b-0a45158c80c9",
+              "entity_def_id": "organization",
+              "value": "Investcorp"
+            }
+          ],
+          "org_funding_total": {
+            "currency": "USD",
+            "value": 812836644429,
+            "value_usd": 812836644429
+          },
+          "org_num_investors": 26387,
+          "org_num": 9970,
+          "queries": {
+            "event": [
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "8cb7cad4-b7e4-4b28-a496-2ede3720cb19"
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "principal.has_event.forward",
+                "query": [
+                  {
+                    "field_id": "facet_ids",
+                    "operator_id": "includes",
+                    "values": [
+                      "company"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "active"
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ],
+            "organization": [
+              {
+                "field_id": "facet_ids",
+                "operator_id": "includes",
+                "values": [
+                  "company"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "8cb7cad4-b7e4-4b28-a496-2ede3720cb19"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "operating_status",
+                "operator_id": "eq",
+                "values": [
+                  "active"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "rank_org",
+                "operator_id": "lte",
+                "values": [
+                  300000
+                ],
+                "type": "predicate"
+              }
+            ],
+            "person": [
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "8cb7cad4-b7e4-4b28-a496-2ede3720cb19"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "rank_person",
+                "operator_id": "lte",
+                "values": [
+                  72000
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "organization.has_primary_organization.forward",
+                "query": [
+                  {
+                    "field_id": "facet_ids",
+                    "operator_id": "includes",
+                    "values": [
+                      "company"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "location_identifiers",
+                    "operator_id": "includes",
+                    "values": [
+                      "8cb7cad4-b7e4-4b28-a496-2ede3720cb19"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "active"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "rank_org",
+                    "operator_id": "lte",
+                    "values": [
+                      300000
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ]
+          }
+        },
+        {
+          "identifier": {
+            "permalink": "private-middle-east-companies",
+            "image_id": "216886c7d09c49d39cce6277f342d12d",
+            "uuid": "5136cb53-db44-4263-b5b9-272bba20807e",
+            "entity_def_id": "hub",
+            "value": "Private Middle East Companies (Top 10K)"
+          },
+          "org_identifiers": [
+            {
+              "permalink": "fasset",
+              "image_id": "216886c7d09c49d39cce6277f342d12d",
+              "uuid": "fb8d3cbb-6706-4fda-941f-7add24517f7c",
+              "entity_def_id": "organization",
+              "value": "Fasset"
+            },
+            {
+              "permalink": "african-export-import-bank",
+              "image_id": "aa1e4a9f367f4a34a29d5f81de4cb62b",
+              "uuid": "971b156a-46e5-c04c-2ae9-d36127a9bd9f",
+              "entity_def_id": "organization",
+              "value": "African Export-Import Bank"
+            },
+            {
+              "permalink": "biocatch",
+              "image_id": "eauvaq6djrm4cjktjmxi",
+              "uuid": "516abfe7-ee23-d825-b1e2-144b41ca591e",
+              "entity_def_id": "organization",
+              "value": "BioCatch"
+            },
+            {
+              "permalink": "humain-c7c3",
+              "image_id": "dc960b95a8634d398fb802e43c760504",
+              "uuid": "6bde23ba-59a6-43e2-882e-2fdf96c1c7c3",
+              "entity_def_id": "organization",
+              "value": "HUMAIN"
+            },
+            {
+              "permalink": "omilia",
+              "image_id": "a6e6d6f0223b4e70840705a17f248b9e",
+              "uuid": "49e3e363-63c7-e951-4974-1c79137fcef0",
+              "entity_def_id": "organization",
+              "value": "Omilia"
+            },
+            {
+              "permalink": "team8",
+              "image_id": "jgzvsw4o9vpv30kqv7yg",
+              "uuid": "192acc26-46d6-5961-2a18-2ec462242091",
+              "entity_def_id": "organization",
+              "value": "Team8"
+            },
+            {
+              "permalink": "investcorp-2",
+              "image_id": "v1444307467/wjljtmzfwxmg9xxokd23.png",
+              "uuid": "2f09a625-dfd1-bea9-d16b-0a45158c80c9",
+              "entity_def_id": "organization",
+              "value": "Investcorp"
+            },
+            {
+              "permalink": "groundcover",
+              "image_id": "1e72fd70219541fc8c97c87e9faa67c6",
+              "uuid": "6ee7de61-7f3a-4f7c-8fd7-3b8059c41eb6",
+              "entity_def_id": "organization",
+              "value": "Groundcover"
+            }
+          ],
+          "org_funding_total": {
+            "currency": "USD",
+            "value": 421857788275,
+            "value_usd": 421857788275
+          },
+          "org_num_investors": 23611,
+          "org_num": 9950,
+          "queries": {
+            "event": [
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "e0272206-3430-48cb-a5bc-1d4b3eafe15a"
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "principal.has_event.forward",
+                "query": [
+                  {
+                    "field_id": "facet_ids",
+                    "operator_id": "includes",
+                    "values": [
+                      "company"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "ipo_status",
+                    "operator_id": "includes",
+                    "values": [
+                      "private"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "active"
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ],
+            "organization": [
+              {
+                "field_id": "facet_ids",
+                "operator_id": "includes",
+                "values": [
+                  "company"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "e0272206-3430-48cb-a5bc-1d4b3eafe15a"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "ipo_status",
+                "operator_id": "includes",
+                "values": [
+                  "private"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "operating_status",
+                "operator_id": "eq",
+                "values": [
+                  "active"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "rank_org",
+                "operator_id": "lte",
+                "values": [
+                  360000
+                ],
+                "type": "predicate"
+              }
+            ],
+            "person": [
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "e0272206-3430-48cb-a5bc-1d4b3eafe15a"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "rank_person",
+                "operator_id": "lte",
+                "values": [
+                  77000
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "organization.has_primary_organization.forward",
+                "query": [
+                  {
+                    "field_id": "facet_ids",
+                    "operator_id": "includes",
+                    "values": [
+                      "company"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "location_identifiers",
+                    "operator_id": "includes",
+                    "values": [
+                      "e0272206-3430-48cb-a5bc-1d4b3eafe15a"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "ipo_status",
+                    "operator_id": "includes",
+                    "values": [
+                      "private"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "active"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "rank_org",
+                    "operator_id": "lte",
+                    "values": [
+                      360000
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ]
+          }
+        },
+        {
+          "identifier": {
+            "permalink": "private-city-of-dubai-companies",
+            "image_id": "216886c7d09c49d39cce6277f342d12d",
+            "uuid": "4d1aa6b9-10fb-4337-ae84-83894d0c3ccb",
+            "entity_def_id": "hub",
+            "value": "Private City of Dubai Companies (Top 10K)"
+          },
+          "org_identifiers": [
+            {
+              "permalink": "fasset",
+              "image_id": "216886c7d09c49d39cce6277f342d12d",
+              "uuid": "fb8d3cbb-6706-4fda-941f-7add24517f7c",
+              "entity_def_id": "organization",
+              "value": "Fasset"
+            },
+            {
+              "permalink": "careem",
+              "image_id": "89cebfad73fa4d1da5101b16a8eb7d5e",
+              "uuid": "8044fef3-7107-8de4-9564-ab7ecf80eae4",
+              "entity_def_id": "organization",
+              "value": "Careem"
+            },
+            {
+              "permalink": "oraseya-capital",
+              "image_id": "nrwqtikpbaruhdx8lvti",
+              "uuid": "d016a5da-659c-49a0-9b4a-40f11542529e",
+              "entity_def_id": "organization",
+              "value": "Oraseya Capital"
+            },
+            {
+              "permalink": "propertyfinder",
+              "image_id": "afljgs935dgqvpzgwxkv",
+              "uuid": "f98f6e15-74d0-0855-258b-c98781716319",
+              "entity_def_id": "organization",
+              "value": "Property Finder"
+            },
+            {
+              "permalink": "cobi-26b2",
+              "image_id": "890be9e9bada44279dbb64787f785c96",
+              "uuid": "ad5d5626-e78d-46c3-a45f-3d487fdb26b2",
+              "entity_def_id": "organization",
+              "value": "Cobi"
+            },
+            {
+              "permalink": "dp-world-group-dubai",
+              "image_id": "v1476388564/xy1cmuz4ihmpqirgoevn.png",
+              "uuid": "e2ed164c-21e2-1f00-5cee-1cd1654b45e7",
+              "entity_def_id": "organization",
+              "value": "DP World Group"
+            },
+            {
+              "permalink": "telegram-messenger",
+              "image_id": "icy14hwiqs3uxvip8fsn",
+              "uuid": "41544b58-79b0-d26a-1e2f-5b54656aa1b5",
+              "entity_def_id": "organization",
+              "value": "Telegram"
+            },
+            {
+              "permalink": "arada",
+              "image_id": "af32aab8738343d0959dd23898c303b1",
+              "uuid": "092f0c9f-a47c-4471-8789-8d138e63cd78",
+              "entity_def_id": "organization",
+              "value": "Arada"
+            }
+          ],
+          "org_funding_total": {
+            "currency": "USD",
+            "value": 62898636470,
+            "value_usd": 62898636470
+          },
+          "org_num_investors": 4201,
+          "org_num": 9698,
+          "queries": {
+            "event": [
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "0e8010ee-2f59-38db-b7e2-998e92dde222"
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "principal.has_event.forward",
+                "query": [
+                  {
+                    "field_id": "facet_ids",
+                    "operator_id": "includes",
+                    "values": [
+                      "company"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "ipo_status",
+                    "operator_id": "includes",
+                    "values": [
+                      "private"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "active"
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ],
+            "organization": [
+              {
+                "field_id": "facet_ids",
+                "operator_id": "includes",
+                "values": [
+                  "company"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "0e8010ee-2f59-38db-b7e2-998e92dde222"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "ipo_status",
+                "operator_id": "includes",
+                "values": [
+                  "private"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "operating_status",
+                "operator_id": "eq",
+                "values": [
+                  "active"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "rank_org",
+                "operator_id": "lte",
+                "values": [
+                  1300000
+                ],
+                "type": "predicate"
+              }
+            ],
+            "person": [
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "0e8010ee-2f59-38db-b7e2-998e92dde222"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "rank_person",
+                "operator_id": "lte",
+                "values": [
+                  250000
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "organization.has_primary_organization.forward",
+                "query": [
+                  {
+                    "field_id": "facet_ids",
+                    "operator_id": "includes",
+                    "values": [
+                      "company"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "location_identifiers",
+                    "operator_id": "includes",
+                    "values": [
+                      "0e8010ee-2f59-38db-b7e2-998e92dde222"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "ipo_status",
+                    "operator_id": "includes",
+                    "values": [
+                      "private"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "active"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "rank_org",
+                    "operator_id": "lte",
+                    "values": [
+                      1300000
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ]
+          }
+        }
+      ],
+      "org_similarity_org_list": [],
+      "investors_summary": {
+        "identifier": {
+          "uuid": "cb30f607-7df4-41db-a403-0577e28e226d",
+          "value": "Human Investments",
+          "permalink": "human-investments",
+          "entity_def_id": "organization"
+        },
+        "num_investors": 1
+      },
+      "funds_list": [],
+      "alumni_image_list": [],
+      "semrush_overview_headline": {},
+      "frequently_asked_questions_total_funding": {
+        "funding_total": {
+          "value": 50000000,
+          "currency": "USD",
+          "value_usd": 50000000
+        },
+        "identifier": {
+          "uuid": "cb30f607-7df4-41db-a403-0577e28e226d",
+          "value": "Human Investments",
+          "permalink": "human-investments",
+          "entity_def_id": "organization"
+        }
+      },
+      "exits_summary": {
+        "identifier": {
+          "uuid": "cb30f607-7df4-41db-a403-0577e28e226d",
+          "value": "Human Investments",
+          "permalink": "human-investments",
+          "entity_def_id": "organization"
+        }
+      },
+      "partnership_announcements": [],
+      "bombora_surge_list": [],
+      "diversity_spotlight_investments_list": [],
+      "builtwith_tech_used_list": [],
+      "funding_rounds_summary": {
+        "identifier": {
+          "uuid": "cb30f607-7df4-41db-a403-0577e28e226d",
+          "value": "Human Investments",
+          "permalink": "human-investments",
+          "entity_def_id": "organization"
+        },
+        "last_funding_type": "debt_financing",
+        "last_funding_at": "2024-12-10",
+        "funding_total": {
+          "value": 50000000,
+          "currency": "USD",
+          "value_usd": 50000000
+        },
+        "num_funding_rounds": 1
+      },
+      "org_similarity_list": [],
+      "ipo_prediction": [
+        {
+          "generated_on": "2026-08-24",
+          "identifier": {
+            "uuid": "6178320f-3a49-4c1e-849f-361701589a35",
+            "value": "IPO Prediction 2026-08-24",
+            "image_id": "15bc6556f2e1479ea9b61ca9b205ee4c",
+            "entity_def_id": "ipo_prediction"
+          },
+          "media_sentiment": "c200_evidence_present",
+          "probability_score": 0.5646,
+          "created_at": "2026-07-09T08:11:43Z",
+          "updated_at": "2026-08-24T22:32:28Z",
+          "probability_tier": "p300_neutral"
+        }
+      ],
+      "acquisitions_summary": {
+        "identifier": {
+          "uuid": "cb30f607-7df4-41db-a403-0577e28e226d",
+          "value": "Human Investments",
+          "permalink": "human-investments",
+          "entity_def_id": "organization"
+        }
+      },
+      "advisors_summary": {
+        "identifier": {
+          "uuid": "cb30f607-7df4-41db-a403-0577e28e226d",
+          "value": "Human Investments",
+          "permalink": "human-investments",
+          "entity_def_id": "organization"
+        }
+      },
+      "acquisitions_list": [],
+      "exits_headline": {},
+      "investments_summary": {
+        "identifier": {
+          "uuid": "cb30f607-7df4-41db-a403-0577e28e226d",
+          "value": "Human Investments",
+          "permalink": "human-investments",
+          "entity_def_id": "organization"
+        }
+      },
+      "acquired_by_fields": {},
+      "research_insight_text_link": {},
+      "acquisition_prediction": [
+        {
+          "generated_on": "2026-08-24",
+          "identifier": {
+            "uuid": "6a63f2be-c186-4d5a-b5fb-2abb62c45f24",
+            "value": "Acquisition Prediction 2026-08-24",
+            "image_id": "15bc6556f2e1479ea9b61ca9b205ee4c",
+            "entity_def_id": "acquisition_prediction"
+          },
+          "probability_score": 0.313,
+          "created_at": "2026-07-08T23:19:46Z",
+          "updated_at": "2026-08-24T17:37:18Z",
+          "probability_tier": "p400_negative_low"
+        }
+      ],
+      "sub_organizations_headline": {},
+      "layoff_list": [],
+      "growth_and_heat": {
+        "heat_score_history": {
+          "periods": {
+            "i1": {
+              "values": [
+                50,
+                50,
+                51,
+                51,
+                52,
+                52,
+                52,
+                53,
+                48,
+                49,
+                49,
+                49,
+                50,
+                50,
+                50,
+                51,
+                50,
+                51,
+                50,
+                45,
+                38,
+                38,
+                39,
+                39,
+                39,
+                40,
+                41,
+                41,
+                42,
+                42,
+                43,
+                43,
+                44,
+                44,
+                45,
+                45,
+                45,
+                46,
+                46,
+                46,
+                47,
+                47,
+                48,
+                48,
+                48,
+                49,
+                49,
+                49,
+                49,
+                50,
+                50,
+                50,
+                51,
+                51,
+                45,
+                45,
+                46,
+                46,
+                46,
+                47,
+                47,
+                47,
+                47,
+                48,
+                48,
+                48,
+                49,
+                49,
+                49,
+                49,
+                50,
+                50,
+                50,
+                51,
+                51,
+                52,
+                52,
+                52,
+                53,
+                53,
+                54,
+                55,
+                55,
+                56,
+                44,
+                45,
+                45,
+                46,
+                46,
+                47
+              ],
+              "interval": 1
+            },
+            "i2": {
+              "values": [
+                50,
+                51,
+                52,
+                53,
+                49,
+                49,
+                50,
+                51,
+                51,
+                48,
+                38,
+                39,
+                40,
+                41,
+                42,
+                43,
+                44,
+                45,
+                46,
+                46,
+                47,
+                48,
+                49,
+                49,
+                50,
+                50,
+                51,
+                45,
+                46,
+                47,
+                47,
+                48,
+                48,
+                49,
+                49,
+                50,
+                51,
+                52,
+                52,
+                53,
+                55,
+                56,
+                45,
+                46,
+                47,
+                48,
+                49,
+                50,
+                51,
+                52,
+                53,
+                54,
+                55,
+                55,
+                56,
+                57,
+                58,
+                58,
+                59,
+                60,
+                61,
+                61,
+                62,
+                62,
+                63,
+                64,
+                57,
+                58,
+                58,
+                50,
+                46,
+                47,
+                47,
+                47,
+                47,
+                48,
+                49,
+                49,
+                50,
+                50,
+                51,
+                52,
+                52,
+                53,
+                54,
+                54,
+                55,
+                56,
+                50,
+                51,
+                52
+              ],
+              "interval": 2
+            },
+            "i4": {
+              "values": [
+                50,
+                52,
+                49,
+                50,
+                49,
+                39,
+                40,
+                43,
+                45,
+                46,
+                48,
+                49,
+                50,
+                48,
+                46,
+                47,
+                49,
+                50,
+                51,
+                53,
+                55,
+                45,
+                47,
+                50,
+                52,
+                53,
+                55,
+                57,
+                58,
+                60,
+                61,
+                62,
+                63,
+                57,
+                54,
+                46,
+                47,
+                48,
+                49,
+                50,
+                51,
+                52,
+                54,
+                56,
+                50,
+                52,
+                54,
+                57,
+                59,
+                61,
+                63,
+                65,
+                64,
+                65,
+                67,
+                69,
+                70,
+                69,
+                70,
+                70,
+                64,
+                62,
+                59,
+                60,
+                61,
+                53,
+                55,
+                57,
+                57,
+                59,
+                60,
+                62,
+                63,
+                63,
+                66,
+                68,
+                69,
+                69,
+                69,
+                70,
+                69,
+                67,
+                66,
+                66,
+                64,
+                60,
+                56,
+                54,
+                54,
+                55,
+                57,
+                58
+              ],
+              "interval": 4
+            },
+            "i7": {
+              "values": [
+                50,
+                50,
+                48,
+                40,
+                43,
+                46,
+                49,
+                49,
+                47,
+                49,
+                51,
+                54,
+                46,
+                50,
+                53,
+                56,
+                58,
+                61,
+                62,
+                55,
+                47,
+                48,
+                50,
+                52,
+                54,
+                51,
+                54,
+                58,
+                61,
+                64,
+                64,
+                68,
+                69,
+                70,
+                66,
+                59,
+                60,
+                54,
+                57,
+                58,
+                60,
+                63,
+                66,
+                68,
+                69,
+                69,
+                67,
+                65,
+                63,
+                55,
+                54,
+                56,
+                60,
+                65,
+                72,
+                76,
+                79,
+                79,
+                84,
+                87,
+                78,
+                80,
+                63,
+                59,
+                56,
+                56,
+                55,
+                55,
+                56,
+                57,
+                56,
+                54,
+                51,
+                53,
+                54,
+                57,
+                61,
+                61,
+                63,
+                67,
+                70,
+                75,
+                84,
+                91,
+                91,
+                92,
+                87,
+                85,
+                82,
+                32
+              ],
+              "interval": 7
+            },
+            "i18": {
+              "values": [
+                50,
+                42,
+                48,
+                48,
+                50,
+                52,
+                59,
+                56,
+                49,
+                53,
+                56,
+                63,
+                68,
+                64,
+                57,
+                59,
+                65,
+                69,
+                65,
+                55,
+                62,
+                75,
+                81,
+                82,
+                63,
+                55,
+                56,
+                56,
+                52,
+                58,
+                64,
+                73,
+                89,
+                89,
+                65
+              ],
+              "interval": 18
+            },
+            "i36": {
+              "values": [
+                50,
+                48,
+                51,
+                57,
+                51,
+                60,
+                66,
+                58,
+                67,
+                60,
+                68,
+                81,
+                59,
+                56,
+                55,
+                68,
+                89,
+                65
+              ],
+              "interval": 36
+            }
+          }
+        },
+        "growth_score_delta_d90": 0,
+        "growth_score_history": {
+          "periods": {
+            "i1": {
+              "values": [
+                61,
+                62,
+                62,
+                62,
+                62,
+                62,
+                62,
+                62,
+                61,
+                61,
+                61,
+                62,
+                62,
+                62,
+                62,
+                62,
+                62,
+                62,
+                62,
+                61,
+                61,
+                61,
+                61,
+                61,
+                61,
+                61,
+                61,
+                61,
+                61,
+                61,
+                61,
+                61,
+                61,
+                61,
+                61,
+                62,
+                62,
+                62,
+                62,
+                62,
+                62,
+                62,
+                62,
+                62,
+                62,
+                62,
+                62,
+                62,
+                62,
+                62,
+                62,
+                62,
+                62,
+                62,
+                62,
+                62,
+                62,
+                62,
+                62,
+                62,
+                62,
+                62,
+                62,
+                62,
+                62,
+                62,
+                62,
+                62,
+                62,
+                62,
+                62,
+                62,
+                62,
+                62,
+                62,
+                62,
+                62,
+                62,
+                62,
+                62,
+                62,
+                62,
+                62,
+                62,
+                61,
+                61,
+                61,
+                61,
+                61,
+                61
+              ],
+              "interval": 1
+            },
+            "i2": {
+              "values": [
+                61,
+                62,
+                62,
+                62,
+                61,
+                62,
+                62,
+                62,
+                62,
+                62,
+                61,
+                61,
+                61,
+                61,
+                61,
+                61,
+                61,
+                62,
+                62,
+                62,
+                62,
+                62,
+                62,
+                62,
+                62,
+                62,
+                62,
+                62,
+                62,
+                62,
+                62,
+                62,
+                62,
+                62,
+                62,
+                62,
+                62,
+                62,
+                62,
+                62,
+                62,
+                62,
+                61,
+                61,
+                61,
+                62,
+                62,
+                62,
+                62,
+                62,
+                62,
+                63,
+                63,
+                63,
+                63,
+                63,
+                63,
+                64,
+                64,
+                64,
+                64,
+                64,
+                64,
+                65,
+                65,
+                65,
+                65,
+                65,
+                65,
+                65,
+                64,
+                64,
+                64,
+                65,
+                65,
+                65,
+                65,
+                65,
+                65,
+                66,
+                66,
+                66,
+                66,
+                66,
+                66,
+                66,
+                66,
+                67,
+                66,
+                66,
+                67
+              ],
+              "interval": 2
+            },
+            "i4": {
+              "values": [
+                61,
+                62,
+                61,
+                62,
+                62,
+                61,
+                61,
+                61,
+                61,
+                62,
+                62,
+                62,
+                62,
+                62,
+                62,
+                62,
+                62,
+                62,
+                62,
+                62,
+                62,
+                61,
+                61,
+                62,
+                62,
+                62,
+                63,
+                63,
+                63,
+                64,
+                64,
+                65,
+                65,
+                65,
+                65,
+                64,
+                65,
+                65,
+                65,
+                65,
+                66,
+                66,
+                66,
+                67,
+                66,
+                67,
+                67,
+                67,
+                68,
+                68,
+                68,
+                69,
+                69,
+                69,
+                70,
+                70,
+                70,
+                70,
+                71,
+                71,
+                71,
+                71,
+                72,
+                72,
+                72,
+                72,
+                72,
+                72,
+                72,
+                73,
+                73,
+                74,
+                74,
+                75,
+                76,
+                77,
+                87,
+                94,
+                94,
+                93,
+                93,
+                92,
+                90,
+                88,
+                73,
+                69,
+                68,
+                68,
+                68,
+                68,
+                69,
+                69
+              ],
+              "interval": 4
+            },
+            "i7": {
+              "values": [
+                61,
+                62,
+                62,
+                61,
+                61,
+                62,
+                62,
+                62,
+                62,
+                62,
+                62,
+                62,
+                61,
+                62,
+                62,
+                63,
+                64,
+                64,
+                65,
+                65,
+                64,
+                65,
+                65,
+                66,
+                66,
+                66,
+                67,
+                67,
+                68,
+                69,
+                69,
+                70,
+                70,
+                71,
+                71,
+                71,
+                72,
+                72,
+                72,
+                73,
+                73,
+                74,
+                75,
+                82,
+                94,
+                93,
+                92,
+                89,
+                71,
+                68,
+                68,
+                68,
+                69,
+                69,
+                69,
+                69,
+                69,
+                69,
+                70,
+                70,
+                70,
+                70,
+                70,
+                70,
+                69,
+                69,
+                70,
+                70,
+                70,
+                70,
+                70,
+                70,
+                70,
+                70,
+                70,
+                70,
+                71,
+                71,
+                71,
+                71,
+                72,
+                72,
+                72,
+                72,
+                72,
+                72,
+                72,
+                72,
+                71,
+                70,
+                69,
+                69,
+                69,
+                69,
+                68,
+                68,
+                68,
+                68,
+                68,
+                68,
+                68,
+                67,
+                67,
+                67,
+                67
+              ],
+              "interval": 7
+            },
+            "i18": {
+              "values": [
+                61,
+                61,
+                62,
+                62,
+                62,
+                62,
+                64,
+                65,
+                65,
+                66,
+                67,
+                69,
+                70,
+                71,
+                72,
+                73,
+                76,
+                94,
+                84,
+                68,
+                69,
+                69,
+                69,
+                70,
+                70,
+                69,
+                70,
+                70,
+                70,
+                70,
+                71,
+                72,
+                72,
+                72,
+                71,
+                69,
+                69,
+                68,
+                68,
+                67,
+                67,
+                67,
+                66,
+                65,
+                60,
+                28,
+                28,
+                27,
+                27,
+                26,
+                26,
+                25,
+                24,
+                22,
+                19,
+                16
+              ],
+              "interval": 18
+            },
+            "i36": {
+              "values": [
+                61,
+                62,
+                62,
+                64,
+                66,
+                68,
+                71,
+                72,
+                85,
+                76,
+                69,
+                70,
+                70,
+                70,
+                70,
+                71,
+                72,
+                70,
+                68,
+                68,
+                67,
+                66,
+                44,
+                28,
+                27,
+                26,
+                23,
+                19
+              ],
+              "interval": 36
+            }
+          }
+        },
+        "growth_trend_365": {
+          "periods": {
+            "i1": {
+              "values": [
+                -9,
+                -9,
+                -9,
+                -9,
+                -9,
+                -9,
+                -9,
+                -9,
+                -9,
+                -9,
+                -9,
+                -9,
+                -9,
+                -9,
+                -9,
+                -9,
+                -9,
+                -9,
+                -9,
+                -9,
+                -10,
+                -10,
+                -10,
+                -10,
+                -10,
+                -10,
+                -10,
+                -10,
+                -10,
+                -10,
+                -10,
+                -10,
+                -9,
+                -9,
+                -9,
+                -9,
+                -9,
+                -9,
+                -9,
+                -9,
+                -9,
+                -9,
+                -9,
+                -9,
+                -9,
+                -9,
+                -9,
+                -9,
+                -9,
+                -9,
+                -9,
+                -9,
+                -9,
+                -9,
+                -10,
+                -10,
+                -10,
+                -10,
+                -10,
+                -10,
+                -10,
+                -10,
+                -10,
+                -10,
+                -10,
+                -10,
+                -10,
+                -10,
+                -10,
+                -10,
+                -9,
+                -9,
+                -9,
+                -9,
+                -9,
+                -9,
+                -9,
+                -9,
+                -9,
+                -9,
+                -9,
+                -9,
+                -9,
+                -9,
+                -10,
+                -10,
+                -10,
+                -10,
+                -10,
+                -10
+              ],
+              "interval": 1
+            },
+            "i2": {
+              "values": [
+                -9,
+                -9,
+                -9,
+                -9,
+                -9,
+                -9,
+                -9,
+                -9,
+                -9,
+                -9,
+                -10,
+                -10,
+                -10,
+                -10,
+                -10,
+                -10,
+                -9,
+                -9,
+                -9,
+                -9,
+                -9,
+                -9,
+                -9,
+                -9,
+                -9,
+                -9,
+                -9,
+                -10,
+                -10,
+                -10,
+                -10,
+                -10,
+                -10,
+                -10,
+                -10,
+                -9,
+                -9,
+                -9,
+                -9,
+                -9,
+                -9,
+                -9,
+                -10,
+                -10,
+                -10,
+                -9,
+                -9,
+                -9,
+                -9,
+                -9,
+                -9,
+                -8,
+                -8,
+                -8,
+                -8,
+                -8,
+                -8,
+                -7,
+                -7,
+                -7,
+                -7,
+                -7,
+                -6,
+                -6,
+                -6,
+                -6,
+                -6,
+                -6,
+                -6,
+                -6,
+                -6,
+                -6,
+                -6,
+                -6,
+                -6,
+                -6,
+                -6,
+                -6,
+                -5,
+                -5,
+                -5,
+                -5,
+                -5,
+                -5,
+                -5,
+                -5,
+                -5,
+                -5,
+                -5,
+                -5,
+                -5
+              ],
+              "interval": 2
+            },
+            "i4": {
+              "values": [
+                -9,
+                -9,
+                -9,
+                -9,
+                -9,
+                -10,
+                -10,
+                -10,
+                -9,
+                -9,
+                -9,
+                -9,
+                -9,
+                -9,
+                -10,
+                -10,
+                -10,
+                -9,
+                -9,
+                -9,
+                -9,
+                -10,
+                -10,
+                -9,
+                -9,
+                -9,
+                -8,
+                -8,
+                -7,
+                -7,
+                -7,
+                -6,
+                -6,
+                -6,
+                -6,
+                -6,
+                -6,
+                -6,
+                -6,
+                -5,
+                -5,
+                -5,
+                -5,
+                -5,
+                -5,
+                -5,
+                -5,
+                -5,
+                -4,
+                -4,
+                -4,
+                -4,
+                -3,
+                -3,
+                -3,
+                -2,
+                -2,
+                -2,
+                -1,
+                -1,
+                -1,
+                0,
+                0,
+                1,
+                2,
+                3,
+                4,
+                4,
+                4,
+                5,
+                5,
+                6,
+                7,
+                8,
+                9,
+                11,
+                23,
+                32,
+                31,
+                31,
+                31,
+                30,
+                27,
+                25,
+                7,
+                2,
+                1,
+                1,
+                1,
+                2,
+                2,
+                2
+              ],
+              "interval": 4
+            },
+            "i7": {
+              "values": [
+                -9,
+                -9,
+                -9,
+                -10,
+                -10,
+                -9,
+                -9,
+                -9,
+                -10,
+                -10,
+                -9,
+                -9,
+                -10,
+                -9,
+                -9,
+                -8,
+                -7,
+                -7,
+                -6,
+                -6,
+                -6,
+                -6,
+                -5,
+                -5,
+                -5,
+                -5,
+                -5,
+                -4,
+                -4,
+                -4,
+                -3,
+                -3,
+                -2,
+                -1,
+                -1,
+                0,
+                1,
+                3,
+                4,
+                5,
+                5,
+                7,
+                9,
+                17,
+                32,
+                31,
+                29,
+                26,
+                5,
+                1,
+                1,
+                2,
+                2,
+                3,
+                3,
+                4,
+                4,
+                4,
+                5,
+                6,
+                7,
+                9,
+                11,
+                62,
+                98,
+                99,
+                99,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100
+              ],
+              "interval": 7
+            },
+            "i18": {
+              "values": [
+                -9,
+                -10,
+                -9,
+                -10,
+                -9,
+                -9,
+                -7,
+                -6,
+                -6,
+                -5,
+                -5,
+                -4,
+                -2,
+                -1,
+                2,
+                5,
+                9,
+                31,
+                20,
+                1,
+                2,
+                4,
+                4,
+                7,
+                40,
+                99,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                98,
+                56,
+                54,
+                52,
+                51,
+                49,
+                47,
+                44,
+                39,
+                33,
+                23,
+                9
+              ],
+              "interval": 18
+            },
+            "i36": {
+              "values": [
+                -9,
+                -9,
+                -9,
+                -7,
+                -5,
+                -4,
+                -1,
+                4,
+                20,
+                11,
+                3,
+                6,
+                69,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                77,
+                53,
+                50,
+                45,
+                36,
+                21
+              ],
+              "interval": 36
+            }
+          }
+        },
+        "heat_score": 50,
+        "heat_trend_365": {
+          "periods": {
+            "i1": {
+              "values": [
+                -5,
+                -5,
+                -5,
+                -5,
+                -5,
+                -6,
+                -6,
+                -5,
+                -8,
+                -8,
+                -8,
+                -9,
+                -9,
+                -9,
+                -10,
+                -10,
+                -11,
+                -11,
+                -11,
+                -14,
+                -18,
+                -18,
+                -18,
+                -18,
+                -18,
+                -18,
+                -18,
+                -18,
+                -18,
+                -18,
+                -18,
+                -17,
+                -15,
+                -15,
+                -16,
+                -16,
+                -16,
+                -16,
+                -16,
+                -16,
+                -16,
+                -16,
+                -16,
+                -16,
+                -16,
+                -17,
+                -17,
+                -17,
+                -17,
+                -17,
+                -17,
+                -17,
+                -17,
+                -17,
+                -19,
+                -15,
+                -16,
+                -16,
+                -15,
+                -15,
+                -15,
+                -15,
+                -15,
+                -15,
+                -15,
+                -15,
+                -15,
+                -15,
+                -15,
+                -14,
+                -11,
+                -4,
+                -4,
+                -4,
+                -4,
+                -4,
+                -4,
+                -4,
+                -4,
+                -4,
+                -3,
+                -2,
+                0,
+                0,
+                -6,
+                -6,
+                -6,
+                -6,
+                -5,
+                -5
+              ],
+              "interval": 1
+            },
+            "i2": {
+              "values": [
+                -5,
+                -5,
+                -5,
+                -5,
+                -8,
+                -8,
+                -9,
+                -10,
+                -11,
+                -12,
+                -18,
+                -18,
+                -18,
+                -18,
+                -18,
+                -17,
+                -15,
+                -16,
+                -16,
+                -16,
+                -16,
+                -16,
+                -16,
+                -17,
+                -17,
+                -17,
+                -17,
+                -17,
+                -16,
+                -15,
+                -15,
+                -15,
+                -15,
+                -15,
+                -14,
+                -7,
+                -4,
+                -4,
+                -4,
+                -4,
+                -2,
+                0,
+                -6,
+                -6,
+                -5,
+                -4,
+                -3,
+                -3,
+                -2,
+                -1,
+                -1,
+                -1,
+                -1,
+                0,
+                1,
+                1,
+                1,
+                1,
+                1,
+                2,
+                2,
+                2,
+                3,
+                3,
+                4,
+                5,
+                2,
+                2,
+                1,
+                -3,
+                -2,
+                -2,
+                -2,
+                -3,
+                -3,
+                -2,
+                -2,
+                -2,
+                -3,
+                -3,
+                -3,
+                -3,
+                -3,
+                -4,
+                -4,
+                -3,
+                -3,
+                -2,
+                -6,
+                -6,
+                -6
+              ],
+              "interval": 2
+            },
+            "i4": {
+              "values": [
+                -5,
+                -5,
+                -8,
+                -9,
+                -12,
+                -18,
+                -18,
+                -18,
+                -15,
+                -16,
+                -16,
+                -17,
+                -17,
+                -17,
+                -15,
+                -15,
+                -15,
+                -11,
+                -4,
+                -4,
+                -1,
+                -6,
+                -4,
+                -3,
+                -2,
+                -1,
+                -1,
+                1,
+                1,
+                1,
+                2,
+                3,
+                5,
+                2,
+                -1,
+                -2,
+                -2,
+                -3,
+                -2,
+                -3,
+                -3,
+                -3,
+                -4,
+                -2,
+                -6,
+                -5,
+                -5,
+                -5,
+                -5,
+                -5,
+                -4,
+                -5,
+                -8,
+                -10,
+                -11,
+                -10,
+                -10,
+                -10,
+                -10,
+                -8,
+                -10,
+                -12,
+                -11,
+                -11,
+                -3,
+                24,
+                39,
+                41,
+                40,
+                42,
+                42,
+                44,
+                45,
+                45,
+                47,
+                49,
+                49,
+                49,
+                50,
+                50,
+                49,
+                48,
+                47,
+                47,
+                46,
+                43,
+                39,
+                38,
+                39,
+                39,
+                41,
+                41
+              ],
+              "interval": 4
+            },
+            "i7": {
+              "values": [
+                -5,
+                -8,
+                -12,
+                -18,
+                -17,
+                -16,
+                -17,
+                -17,
+                -15,
+                -15,
+                -5,
+                -2,
+                -6,
+                -3,
+                -1,
+                0,
+                1,
+                2,
+                4,
+                0,
+                -2,
+                -3,
+                -3,
+                -3,
+                -3,
+                -5,
+                -5,
+                -5,
+                -5,
+                -6,
+                -10,
+                -11,
+                -10,
+                -10,
+                -10,
+                -12,
+                -10,
+                26,
+                40,
+                41,
+                43,
+                45,
+                47,
+                49,
+                49,
+                49,
+                48,
+                47,
+                45,
+                39,
+                39,
+                40,
+                43,
+                46,
+                51,
+                55,
+                56,
+                57,
+                60,
+                63,
+                56,
+                58,
+                45,
+                42,
+                39,
+                39,
+                39,
+                39,
+                39,
+                41,
+                40,
+                39,
+                36,
+                37,
+                38,
+                41,
+                43,
+                44,
+                45,
+                48,
+                50,
+                54,
+                60,
+                66,
+                66,
+                67,
+                63,
+                61,
+                59,
+                22
+              ],
+              "interval": 7
+            },
+            "i18": {
+              "values": [
+                -5,
+                -17,
+                -16,
+                -14,
+                -4,
+                -2,
+                1,
+                1,
+                -3,
+                -4,
+                -5,
+                -7,
+                -10,
+                -10,
+                15,
+                42,
+                47,
+                49,
+                47,
+                39,
+                44,
+                54,
+                58,
+                59,
+                45,
+                39,
+                39,
+                40,
+                37,
+                41,
+                46,
+                52,
+                65,
+                64,
+                46
+              ],
+              "interval": 18
+            },
+            "i36": {
+              "values": [
+                -5,
+                -15,
+                -3,
+                1,
+                -3,
+                -6,
+                -10,
+                29,
+                48,
+                43,
+                49,
+                58,
+                42,
+                39,
+                39,
+                49,
+                65,
+                46
+              ],
+              "interval": 36
+            }
+          }
+        },
+        "growth_score": 61,
+        "heat_score_delta_d90": 3
+      },
+      "bombora_summary": {
+        "identifier": {
+          "uuid": "cb30f607-7df4-41db-a403-0577e28e226d",
+          "value": "Human Investments",
+          "permalink": "human-investments",
+          "entity_def_id": "organization"
+        }
+      },
+      "semrush_rank_headline": {},
+      "frequently_asked_questions_latest_funding_round": {
+        "identifier": {
+          "uuid": "cb30f607-7df4-41db-a403-0577e28e226d",
+          "value": "Human Investments",
+          "permalink": "human-investments",
+          "entity_def_id": "organization"
+        },
+        "last_funding_at": "2024-12-10",
+        "last_funding_type": "debt_financing",
+        "num_funding_rounds": 1
+      },
+      "apptopia_app_overview_list_free": [],
+      "contacts": {},
+      "product_launches": [],
+      "alumni_summary": {
+        "identifier": {
+          "uuid": "cb30f607-7df4-41db-a403-0577e28e226d",
+          "value": "Human Investments",
+          "permalink": "human-investments",
+          "entity_def_id": "organization"
+        }
+      },
+      "apptopia_summary": {
+        "identifier": {
+          "uuid": "cb30f607-7df4-41db-a403-0577e28e226d",
+          "value": "Human Investments",
+          "permalink": "human-investments",
+          "entity_def_id": "organization"
+        }
+      },
+      "product_similarity_target_org_list": [],
+      "social_fields": {},
+      "investments_headline": {},
+      "investment_thesis": {
+        "lookup": [],
+        "properties": {
+          "identifier": {
+            "uuid": "cb30f607-7df4-41db-a403-0577e28e226d",
+            "value": "Human Investments",
+            "permalink": "human-investments",
+            "entity_def_id": "organization"
+          }
+        },
+        "data": []
+      },
+      "diversity_spotlight_investments_summary": {
+        "identifier": {
+          "uuid": "cb30f607-7df4-41db-a403-0577e28e226d",
+          "value": "Human Investments",
+          "permalink": "human-investments",
+          "entity_def_id": "organization"
+        }
+      },
+      "contact_fields": {},
+      "growth_prediction": [
+        {
+          "generated_on": "2026-08-24",
+          "identifier": {
+            "uuid": "491a5af8-c2bc-4182-bc53-718b8996d767",
+            "value": "Growth Prediction 2026-08-24",
+            "image_id": "15bc6556f2e1479ea9b61ca9b205ee4c",
+            "entity_def_id": "growth_prediction"
+          },
+          "probability_score": 0.8817,
+          "created_at": "2026-08-16T03:00:50Z",
+          "updated_at": "2026-08-24T19:13:54Z",
+          "probability_tier": "p200_positive_low"
+        }
+      ],
+      "sub_organizations_summary": {
+        "identifier": {
+          "uuid": "cb30f607-7df4-41db-a403-0577e28e226d",
+          "value": "Human Investments",
+          "permalink": "human-investments",
+          "entity_def_id": "organization"
+        }
+      },
+      "overview_description": {
+        "description": "Human Investments is the exclusive distribution partner in Korea and China for Establishment Labs Holdings. Through its subsidiaries Motiva Korea and Motiva China, Human Investments Ltd. currently markets Motiva® devices in the Korea and China markets. Motiva® Devices, known for their advanced 3D negative imprinting technology, are recognized for their superior safety and natural look and feel."
+      },
+      "current_employees_featured_order_field": [],
+      "company_about_fields2": {
+        "ipo_status": "private",
+        "last_funding_type": "debt_financing",
+        "location_identifiers": [
+          {
+            "uuid": "0e8010ee-2f59-38db-b7e2-998e92dde222",
+            "value": "Dubai",
+            "permalink": "dubai-dubai",
+            "entity_def_id": "location",
+            "location_type": "city"
+          },
+          {
+            "uuid": "bdaf57f0-4a06-3b65-7b13-e2983186c2ab",
+            "value": "Dubai",
+            "permalink": "dubai-united-arab-emirates",
+            "entity_def_id": "location",
+            "location_type": "region"
+          },
+          {
+            "uuid": "9314d29a-0a56-02c3-6b27-4168733de77f",
+            "value": "United Arab Emirates",
+            "permalink": "united-arab-emirates",
+            "entity_def_id": "location",
+            "location_type": "country"
+          },
+          {
+            "uuid": "b41404d2-8ecc-caf5-1268-8fdd3afe73ee",
+            "value": "Asia",
+            "permalink": "asia",
+            "entity_def_id": "location",
+            "location_type": "continent"
+          }
+        ],
+        "rank_org_company": 55099
+      },
+      "sub_organizations_image_list": [],
+      "frequently_asked_questions_headquarters_location": {
+        "identifier": {
+          "uuid": "cb30f607-7df4-41db-a403-0577e28e226d",
+          "value": "Human Investments",
+          "permalink": "human-investments",
+          "entity_def_id": "organization"
+        },
+        "location_identifiers": [
+          {
+            "uuid": "0e8010ee-2f59-38db-b7e2-998e92dde222",
+            "value": "Dubai",
+            "permalink": "dubai-dubai",
+            "entity_def_id": "location",
+            "location_type": "city"
+          },
+          {
+            "uuid": "bdaf57f0-4a06-3b65-7b13-e2983186c2ab",
+            "value": "Dubai",
+            "permalink": "dubai-united-arab-emirates",
+            "entity_def_id": "location",
+            "location_type": "region"
+          },
+          {
+            "uuid": "9314d29a-0a56-02c3-6b27-4168733de77f",
+            "value": "United Arab Emirates",
+            "permalink": "united-arab-emirates",
+            "entity_def_id": "location",
+            "location_type": "country"
+          },
+          {
+            "uuid": "b41404d2-8ecc-caf5-1268-8fdd3afe73ee",
+            "value": "Asia",
+            "permalink": "asia",
+            "entity_def_id": "location",
+            "location_type": "continent"
+          }
+        ]
+      },
+      "investors_headline": {
+        "num_investors": 1,
+        "num_lead_investors": 1
+      },
+      "ipo_summary": {
+        "identifier": {
+          "uuid": "cb30f607-7df4-41db-a403-0577e28e226d",
+          "value": "Human Investments",
+          "permalink": "human-investments",
+          "entity_def_id": "organization"
+        }
+      },
+      "ipqwery_summary": {
+        "identifier": {
+          "uuid": "cb30f607-7df4-41db-a403-0577e28e226d",
+          "value": "Human Investments",
+          "permalink": "human-investments",
+          "entity_def_id": "organization"
+        }
+      },
+      "awards": [],
+      "siftery_product_list": [],
+      "competitors_list": [],
+      "growth_knowledge": {
+        "lookup": [],
+        "properties": {
+          "identifier": {
+            "uuid": "cb30f607-7df4-41db-a403-0577e28e226d",
+            "value": "Human Investments",
+            "permalink": "human-investments",
+            "entity_def_id": "organization"
+          }
+        },
+        "data": []
+      },
+      "overview_fields_extended": {
+        "location_group_identifiers": [
+          {
+            "uuid": "4e8be435-c63a-4aff-8a2f-44a880d9c341",
+            "value": "Europe, Middle East, and Africa (EMEA)",
+            "permalink": "europe-middle-east-africa-emea",
+            "entity_def_id": "location",
+            "location_type": "group"
+          },
+          {
+            "uuid": "c4365698-c7c5-44b0-b33a-7d13900e5be2",
+            "value": "Gulf Cooperation Council (GCC)",
+            "permalink": "gulf-cooperation-council",
+            "entity_def_id": "location",
+            "location_type": "group"
+          },
+          {
+            "uuid": "e0272206-3430-48cb-a5bc-1d4b3eafe15a",
+            "value": "Middle East",
+            "permalink": "middle-east",
+            "entity_def_id": "location",
+            "location_type": "group"
+          },
+          {
+            "uuid": "8cb7cad4-b7e4-4b28-a496-2ede3720cb19",
+            "value": "Middle East and North Africa (MENA)",
+            "permalink": "middle-east-and-north-africa-mena",
+            "entity_def_id": "location",
+            "location_type": "group"
+          }
+        ],
+        "operating_status": "active",
+        "legal_name": "Human Investments Ltd.",
+        "last_funding_type": "debt_financing",
+        "categories": [
+          {
+            "uuid": "76c672c1-ef33-72f0-8027-d747c8c6e4ba",
+            "value": "3D Technology",
+            "image_id": "15bc6556f2e1479ea9b61ca9b205ee4c",
+            "permalink": "3d-technology",
+            "entity_def_id": "category"
+          }
+        ]
+      },
+      "overview_investor_fields": {},
+      "bombora_attribution": {},
+      "semrush_location_list": [],
+      "investors_list": [
+        {
+          "is_lead_investor": true,
+          "identifier": {
+            "uuid": "123e5aa3-04c2-4ebd-bf7d-41410010fde4",
+            "value": "C-Bridge Capital investment in Debt Financing - Human Investments",
+            "permalink": "c-bridge-capital-invested-in-human-investments-debt-financing--b5167d24--123e5aa3",
+            "entity_def_id": "investment"
+          },
+          "funding_round_identifier": {
+            "uuid": "b5167d24-080b-4cec-bbcc-0f6e730b72d7",
+            "value": "Debt Financing - Human Investments",
+            "permalink": "human-investments-debt-financing--b5167d24",
+            "entity_def_id": "funding_round"
+          },
+          "investor_identifier": {
+            "uuid": "42e0b808-d465-90d7-d2bb-6fe6486a1f67",
+            "value": "C-Bridge Capital",
+            "image_id": "v1500353816/wgymoodrz43tqh5yylxi.jpg",
+            "permalink": "c-bridge-capital",
+            "entity_def_id": "organization"
+          }
+        }
+      ],
+      "siftery_summary": {
+        "identifier": {
+          "uuid": "cb30f607-7df4-41db-a403-0577e28e226d",
+          "value": "Human Investments",
+          "permalink": "human-investments",
+          "entity_def_id": "organization"
+        }
+      },
+      "acquired_by_summary": {
+        "identifier": {
+          "uuid": "cb30f607-7df4-41db-a403-0577e28e226d",
+          "value": "Human Investments",
+          "permalink": "human-investments",
+          "entity_def_id": "organization"
+        }
+      },
+      "ipo_fields": {},
+      "apptopia_app_overview_list_public": [],
+      "apptopia_sdk_list": [],
+      "trading_view": {},
+      "current_employees_image_list": [],
+      "frequently_asked_questions_investors": {
+        "identifier": {
+          "uuid": "cb30f607-7df4-41db-a403-0577e28e226d",
+          "value": "Human Investments",
+          "permalink": "human-investments",
+          "entity_def_id": "organization"
+        },
+        "num_investors": 1
+      },
+      "funding_rounds_list": [
+        {
+          "identifier": {
+            "uuid": "b5167d24-080b-4cec-bbcc-0f6e730b72d7",
+            "value": "Debt Financing - Human Investments",
+            "permalink": "human-investments-debt-financing--b5167d24",
+            "entity_def_id": "funding_round"
+          },
+          "announced_on": "2024-12-10",
+          "money_raised": {
+            "value": 50000000,
+            "currency": "USD",
+            "value_usd": 50000000
+          },
+          "num_investors": 1,
+          "investment_type": "debt_financing",
+          "lead_investor_identifiers": [
+            {
+              "uuid": "42e0b808-d465-90d7-d2bb-6fe6486a1f67",
+              "value": "C-Bridge Capital",
+              "image_id": "v1500353816/wgymoodrz43tqh5yylxi.jpg",
+              "permalink": "c-bridge-capital",
+              "entity_def_id": "organization"
+            }
+          ]
+        }
+      ],
+      "technology_highlights": {},
+      "funding_rounds_headline": {
+        "funding_total": {
+          "value": 50000000,
+          "currency": "USD",
+          "value_usd": 50000000
+        },
+        "num_funding_rounds": 1
+      },
+      "investments_list": [],
+      "exits_image_list": [],
+      "funds_headline": {},
+      "people_highlights": {},
+      "semrush_attribution": {},
+      "frequently_asked_questions_similar_companies": {
+        "identifier": {
+          "uuid": "cb30f607-7df4-41db-a403-0577e28e226d",
+          "value": "Human Investments",
+          "permalink": "human-investments",
+          "entity_def_id": "organization"
+        }
+      },
+      "semrush_overview": {},
+      "org_category_ranks": {
+        "category_ranks": {
+          "76c672c1-ef33-72f0-8027-d747c8c6e4ba": {
+            "rank": 283,
+            "count": 26257,
+            "pv_rank": 460
+          }
+        }
+      },
+      "current_valuation": [],
+      "legal_proceedings": [],
+      "current_employees_summary": {
+        "identifier": {
+          "uuid": "cb30f607-7df4-41db-a403-0577e28e226d",
+          "value": "Human Investments",
+          "permalink": "human-investments",
+          "entity_def_id": "organization"
+        }
+      },
+      "aberdeen_summary": {
+        "identifier": {
+          "uuid": "cb30f607-7df4-41db-a403-0577e28e226d",
+          "value": "Human Investments",
+          "permalink": "human-investments",
+          "entity_def_id": "organization"
+        }
+      },
+      "offices": [],
+      "overview_timeline": {
+        "count": 4,
+        "entities": [
+          {
+            "uuid": "213e36e6-62d7-4cd9-be4d-43ee2c3e1ba4",
+            "properties": {
+              "identifier": {
+                "uuid": "213e36e6-62d7-4cd9-be4d-43ee2c3e1ba4",
+                "value": "HumanCo Investments Sends Letter to the Board of Directors of Grove Collaborative",
+                "entity_def_id": "press_reference"
+              },
+              "entity_def_id": "press_reference",
+              "activity_entities": [
+                {
+                  "uuid": "cb30f607-7df4-41db-a403-0577e28e226d",
+                  "value": "Human Investments",
+                  "permalink": "human-investments",
+                  "entity_def_id": "organization"
+                }
+              ],
+              "activity_properties": {
+                "url": {
+                  "value": "https://www.prnewswire.com/news-releases/humanco-investments-sends-letter-to-the-board-of-directors-of-grove-collaborative-302500563.html"
+                },
+                "title": "HumanCo Investments Sends Letter to the Board of Directors of Grove Collaborative",
+                "author": "HumanCo Investments",
+                "publisher": "PR Newswire"
+              },
+              "activity_date": "2025-07-08"
+            }
+          },
+          {
+            "uuid": "f49b918d-05c2-461c-b081-139b08b0f757",
+            "properties": {
+              "identifier": {
+                "uuid": "f49b918d-05c2-461c-b081-139b08b0f757",
+                "value": "Zimbabwe: Chinese Brutally Attacks Employee for Seeking NSSA Recourse Over Occupational Injury",
+                "entity_def_id": "press_reference"
+              },
+              "entity_def_id": "press_reference",
+              "activity_entities": [
+                {
+                  "uuid": "cb30f607-7df4-41db-a403-0577e28e226d",
+                  "value": "Human Investments",
+                  "permalink": "human-investments",
+                  "entity_def_id": "organization"
+                }
+              ],
+              "activity_properties": {
+                "url": {
+                  "value": "https://allafrica.com/stories/202506230130.html"
+                },
+                "title": "Zimbabwe: Chinese Brutally Attacks Employee for Seeking NSSA Recourse Over Occupational Injury",
+                "author": "Alois Vinga",
+                "publisher": "AllAfrica.com"
+              },
+              "activity_date": "2025-06-22"
+            }
+          },
+          {
+            "uuid": "5656f4f9-33ff-429b-a2b5-4366a8cba306",
+            "properties": {
+              "identifier": {
+                "uuid": "5656f4f9-33ff-429b-a2b5-4366a8cba306",
+                "value": "Deals in brief: B Capital leads Series A investment in Eureka Robotics, Cove attracts new funding, True Global Ventures backs US-based Prezent, and more",
+                "entity_def_id": "press_reference"
+              },
+              "entity_def_id": "press_reference",
+              "activity_entities": [
+                {
+                  "uuid": "cb30f607-7df4-41db-a403-0577e28e226d",
+                  "value": "Human Investments",
+                  "permalink": "human-investments",
+                  "entity_def_id": "organization"
+                }
+              ],
+              "activity_properties": {
+                "url": {
+                  "value": "https://kr-asia.com/deals-in-brief-b-capital-leads-series-a-investment-in-eureka-robotics-cove-attracts-new-funding-true-global-ventures-backs-us-based-prezent-and-more"
+                },
+                "title": "Deals in brief: B Capital leads Series A investment in Eureka Robotics, Cove attracts new funding, True Global Ventures backs US-based Prezent, and more",
+                "author": "KrASIA Writers",
+                "publisher": "KrASIA",
+                "thumbnail_url": "https://kr-asia.com/deals-in-brief-b-capital-leads-series-a-investment-in-eureka-robotics-cove-attracts-new-funding-true-global-ventures-backs-us-based-prezent-and-more"
+              },
+              "activity_date": "2024-12-14"
+            }
+          },
+          {
+            "uuid": "b5167d24-080b-4cec-bbcc-0f6e730b72d7",
+            "properties": {
+              "identifier": {
+                "uuid": "b5167d24-080b-4cec-bbcc-0f6e730b72d7",
+                "value": "Debt Financing - Human Investments",
+                "permalink": "human-investments-debt-financing--b5167d24",
+                "entity_def_id": "funding_round"
+              },
+              "entity_def_id": "funding_round",
+              "activity_entities": [
+                {
+                  "role": "investor",
+                  "uuid": "42e0b808-d465-90d7-d2bb-6fe6486a1f67",
+                  "value": "C-Bridge Capital",
+                  "image_id": "v1500353816/wgymoodrz43tqh5yylxi.jpg",
+                  "permalink": "c-bridge-capital",
+                  "entity_def_id": "organization"
+                },
+                {
+                  "role": "investee",
+                  "uuid": "cb30f607-7df4-41db-a403-0577e28e226d",
+                  "value": "Human Investments",
+                  "permalink": "human-investments",
+                  "entity_def_id": "organization"
+                }
+              ],
+              "activity_properties": {
+                "money_raised": {
+                  "value": 50000000,
+                  "currency": "USD",
+                  "value_usd": 50000000
+                },
+                "investment_type": "debt_financing"
+              },
+              "activity_date": "2024-12-10"
+            }
+          }
+        ]
+      },
+      "company_financials_highlights": {
+        "funding_total": {
+          "value": 50000000,
+          "currency": "USD",
+          "value_usd": 50000000
+        },
+        "num_funding_rounds": 1,
+        "num_investors": 1,
+        "num_lead_investors": 1
+      },
+      "overview_company_fields": {
+        "company_type": "for_profit"
+      },
+      "private_tags_pill_list": [],
+      "acquisitions_headline": {},
+      "builtwith_summary": {
+        "identifier": {
+          "uuid": "cb30f607-7df4-41db-a403-0577e28e226d",
+          "value": "Human Investments",
+          "permalink": "human-investments",
+          "entity_def_id": "organization"
+        }
+      },
+      "about_short_description": {
+        "short_description": "Human Investments is the exclusive distribution partner in Korea and China for Establishment Labs Holdings."
+      },
+      "product": [],
+      "apptopia_app_headline": {}
+    }
+  }
+}

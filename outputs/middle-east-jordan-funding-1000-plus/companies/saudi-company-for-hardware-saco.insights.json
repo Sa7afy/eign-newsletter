@@ -1,0 +1,208 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T13:17:27.998Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T13:17:27.997Z",
+    "url": "https://www.crunchbase.com/organization/saudi-company-for-hardware-saco"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Saudi Company For Hardware SACO",
+      "shortDescription": "Saudi Company For Hardware - SACO is a hardware retailing and wholesaling business.",
+      "website": "https://www.saco.sa/",
+      "operatingStatus": "Active",
+      "ownershipStatus": "Public",
+      "companyType": "For profit",
+      "employeeRange": "1,001-5,000",
+      "estimatedRevenueRange": "$100M-$500M",
+      "headquarters": "Riyadh, Ar Riyad, Saudi Arabia",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Hardware",
+        "Home Decor",
+        "Retail",
+        "Wholesale"
+      ],
+      "sectors": [
+        "Commerce and Shopping",
+        "Hardware",
+        "Real Estate"
+      ],
+      "founders": [
+        "Abdulrahman Sharbatly"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "A range of hardware items including tools, building materials, and home improvement supplies for retail and wholesale customers.",
+        "name": "Hardware Products"
+      },
+      {
+        "description": "Various household tools and equipment for everyday domestic use and maintenance tasks.",
+        "name": "Household Tools and Equipment"
+      },
+      {
+        "description": "Prepaid gift cards usable for purchasing a wide range of products at SACO stores and online within a one-year validity period.",
+        "name": "Gift Cards"
+      },
+      {
+        "description": "Services for the installation and delivery of purchased products to customers' locations.",
+        "name": "Installation and Delivery Services"
+      },
+      {
+        "description": "Post-sale maintenance and repair services for products bought from SACO to ensure functionality and customer support.",
+        "name": "Maintenance and Repair Services"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 39988366,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2026-02-01",
+      "lastFundingType": "Post IPO Debt",
+      "rounds": [
+        {
+          "announcedDate": "2026-02-01",
+          "amount": {
+            "amount": 39988366,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "Saudi National Bank"
+          ],
+          "type": "Post IPO Debt"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "Saudi National Bank",
+            "rounds": [
+              "Post-IPO Debt"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 4,
+      "includedUniqueCount": 4,
+      "items": [
+        {
+          "date": "2026-07-21",
+          "publisher": "TradingView",
+          "title": "Saco Hardware Announces Non-Renewal Of Contract Of CEO Abdel-Salam Bdeir, Effective Oct 31",
+          "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN43M0OU:0-saco-hardware-announces-non-renewal-of-contract-of-ceo-abdel-salam-bdeir-effective-oct-31/"
+        },
+        {
+          "date": "2026-03-04",
+          "publisher": "TradingView",
+          "title": "SACO Hardware FY Dividend Per Share SAR 0.25",
+          "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN3ZS032:0-saco-hardware-fy-dividend-per-share-sar-0-25/"
+        },
+        {
+          "date": "2026-02-01",
+          "title": "Post-IPO Debt - Saudi Company For Hardware SACO"
+        },
+        {
+          "date": "2015-05-14",
+          "title": "4008"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 39988366,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": -1,
+      "growthScore": 88,
+      "heatChange90Days": 1,
+      "heatScore": 71
+    },
+    "modelPredictions": {
+      "growth": {
+        "generatedDate": "2026-01-31",
+        "probabilityPercent": 95.2
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors."
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Post IPO Debt round raised $39,988,366, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 88 (-1 over 90 days) and market heat at 71 (+1).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Strategic repositioning and listing coverage shape the current narrative",
+      "statement": "Saudi Company For Hardware SACO has a recent strategic-positioning change; 1 recent unique news titles explicitly contain the English terms IPO or listing.",
+      "implication": "Their timing coincides with increased visibility in the loaded news and Crunchbase momentum signals, but the data does not establish causation.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.company.formerName",
+        "facts.recentNews",
+        "providerSignals.crunchbaseMomentum"
+      ],
+      "caveats": [
+        "The causal link to Crunchbase momentum is an inference from timing, not a disclosed company metric."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

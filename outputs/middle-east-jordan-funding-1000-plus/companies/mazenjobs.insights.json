@@ -1,0 +1,232 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T12:29:24.528Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T12:29:24.526Z",
+    "url": "https://www.crunchbase.com/organization/mazenjobs"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "MazenJobs",
+      "shortDescription": "MazenJobs is a local and international job website.",
+      "description": "MazenJobs is a local and international job website. It was launched on February 25, 2014, and is based in Cairo, Al Qahirah, Egypt.",
+      "website": "http://www.mazenjobs.com/",
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "1-10",
+      "estimatedRevenueRange": "$1M-$10M",
+      "headquarters": "Cairo, Al Qahirah, Egypt",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Middle East",
+        "Middle East and North Africa (MENA)",
+        "North Africa"
+      ],
+      "industries": [
+        "Career Planning",
+        "Online Portals",
+        "Recruiting",
+        "Social Recruiting"
+      ],
+      "sectors": [
+        "Internet Services",
+        "Professional Services"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 12000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2014-05-01",
+      "lastFundingType": "Undisclosed",
+      "rounds": [
+        {
+          "announcedDate": "2014-05-01",
+          "amount": {
+            "amount": 12000,
+            "currency": "USD"
+          },
+          "postMoneyValuation": {
+            "amount": 159896,
+            "currency": "USD"
+          },
+          "type": "Undisclosed"
+        }
+      ]
+    },
+    "recentNews": {
+      "reportedCount": 1,
+      "includedUniqueCount": 1,
+      "items": [
+        {
+          "date": "2014-05-01",
+          "title": "Funding Round - MazenJobs"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 12000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": 1,
+      "growthScore": 64,
+      "heatChange90Days": -15,
+      "heatScore": 17
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 0
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 2.76,
+        "timingEstimatePercent": {
+          "within6Months": 13.38,
+          "months6To11": 11.59,
+          "months12To24": 18.74,
+          "beyond24Months": 24.6
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 89.99
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 0
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Bayt.com is an online recruitment website for the Gulf and Middle East region.",
+          "employeeRange": "1,001-5,000",
+          "name": "Bayt.com",
+          "sharedCategories": [
+            "Recruiting",
+            "Online Portals"
+          ],
+          "similarityScore": 97
+        },
+        {
+          "description": "Wuzzuf is an online marketplace that connects highly educated people as well as low, medium, or no education workers with employers.",
+          "employeeRange": "51-100",
+          "name": "WUZZUF",
+          "sharedCategories": [
+            "Recruiting"
+          ],
+          "similarityScore": 95
+        },
+        {
+          "description": "Akhtaboot is an online career network.",
+          "employeeRange": "51-100",
+          "name": "Akhtaboot",
+          "sharedCategories": [
+            "Recruiting",
+            "Career Planning"
+          ],
+          "similarityScore": 91
+        },
+        {
+          "description": "Naukri Gulf is a job portal for Gulf and Middle East countries, offering job listings across multiple industries and recruitment services",
+          "employeeRange": "101-250",
+          "name": "Naukri Gulf",
+          "similarityScore": 90
+        },
+        {
+          "description": "FORASNA's is the first and most reliable recruitment platform in the Middle East that targets job seekers from all educational background.",
+          "employeeRange": "11-50",
+          "name": "FORASNA",
+          "sharedCategories": [
+            "Recruiting"
+          ],
+          "similarityScore": 89
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Undisclosed round raised $12,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $159,896 to $159,896, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 64 (+1 over 90 days) and market heat at 17 (-15).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Bayt.com, WUZZUF, Akhtaboot.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

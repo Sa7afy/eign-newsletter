@@ -1,0 +1,196 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T13:35:24.377Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T13:35:24.376Z",
+    "url": "https://www.crunchbase.com/organization/symplfy-ai"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Symplfy.ai",
+      "shortDescription": "Symplfy.ai is an insurance technology platform.",
+      "description": "Symplfy.ai is an AI-powered claims optimization platform focused on the motor insurance industry, particularly addressing inefficiencies and profitability challenges in automotive claims processing. The company operates within the InsurTech sector, combining artificial intelligence, automotive pricing intelligence, and insurance operations expertise to help insurers reduce claim costs and improve underwriting profitability.\n\nIts primary market focus is the UAE motor insurance sector, a major segment of the region’s general insurance industry. Symplfy addresses a critical industry problem: many motor insurance portfolios operate with low or negative profitability due to rising repair costs, inefficient claims assessment, and inconsistent pricing practices.",
+      "website": "https://symplfy.ai/",
+      "foundedYear": 2021,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "11-50",
+      "headquarters": "Dubai, United Arab Emirates",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Insurance"
+      ],
+      "sectors": [
+        "Financial Services"
+      ],
+      "founders": [
+        "Sivakumar Thangaratnavelu"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 370000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2023-10-18",
+      "lastFundingType": "Seed",
+      "rounds": [
+        {
+          "announcedDate": "2023-10-18",
+          "amount": {
+            "amount": 370000,
+            "currency": "USD"
+          },
+          "investorCount": 3,
+          "postMoneyValuation": {
+            "amount": 4202545,
+            "currency": "USD"
+          },
+          "type": "Seed"
+        }
+      ],
+      "investors": {
+        "reportedCount": 3,
+        "visibleNames": [
+          {
+            "name": "AI Venture Labs",
+            "rounds": [
+              "Seed Round"
+            ]
+          },
+          {
+            "name": "Qatar Development Bank",
+            "rounds": [
+              "Seed Round"
+            ]
+          },
+          {
+            "name": "Qatar FinTech Hub",
+            "rounds": [
+              "Seed Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 1,
+      "includedUniqueCount": 1,
+      "items": [
+        {
+          "date": "2023-10-18",
+          "title": "Seed Round - Symplfy.ai"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 370000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": -5,
+      "growthScore": 63,
+      "heatChange90Days": -22,
+      "heatScore": 69
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 69.07
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 63.15,
+        "timingEstimatePercent": {
+          "within6Months": 20.24,
+          "months6To11": 0.01,
+          "months12To24": 0,
+          "beyond24Months": 79.75
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-13",
+        "probabilityPercent": 95.83
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 4.06
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors."
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Seed round raised $370,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $4,202,545 to $4,202,545, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 63 (-5 over 90 days) and market heat at 69 (-22).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

@@ -1,0 +1,205 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T11:58:51.408Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T11:58:51.406Z",
+    "url": "https://www.crunchbase.com/organization/holler-1867"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Holler",
+      "shortDescription": "Make a living out of something you love",
+      "website": "https://holler.me/",
+      "operatingStatus": "Closed",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "1-10",
+      "headquarters": "Dubai, United Arab Emirates",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Business Intelligence",
+        "Information Technology"
+      ],
+      "sectors": [
+        "Data and Analytics",
+        "Information Technology"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 5000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2018-02-04",
+      "lastFundingType": "Seed",
+      "rounds": [
+        {
+          "announcedDate": "2018-02-04",
+          "amount": {
+            "amount": 5000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "Nihal Shaikh"
+          ],
+          "postMoneyValuation": {
+            "amount": 335000,
+            "currency": "USD"
+          },
+          "type": "Seed"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "Nihal Shaikh",
+            "rounds": [
+              "Seed Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 3,
+      "includedUniqueCount": 3,
+      "items": [
+        {
+          "date": "2021-07-11",
+          "title": "Holler acquired by RYNMS"
+        },
+        {
+          "date": "2020-12-01",
+          "title": "Holler acquired by PISIQ"
+        },
+        {
+          "date": "2018-02-04",
+          "title": "Seed Round - Holler"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 5000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "heatChange90Days": -15,
+      "heatScore": 31
+    },
+    "modelPredictions": {
+      "growth": {
+        "generatedDate": "2026-02-28",
+        "probabilityPercent": 90.45
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Patreon is an online platform connecting musicians and other artists with their fan base.",
+          "employeeRange": "251-500",
+          "name": "Patreon",
+          "similarityScore": 96
+        },
+        {
+          "description": "Gumroad owns and operates an online service through which users can buy and sell digital goods such as design templates and source codes.",
+          "employeeRange": "11-50",
+          "name": "Gumroad",
+          "similarityScore": 94
+        },
+        {
+          "description": "Ko-fi is a platform that allows individuals to create pages to display their work and gain support.",
+          "employeeRange": "11-50",
+          "name": "Ko-fi",
+          "similarityScore": 91
+        },
+        {
+          "description": "Kajabi operates as an all-in-one knowledge commerce platform designed to help businesses achieve success online.",
+          "employeeRange": "251-500",
+          "name": "Kajabi",
+          "similarityScore": 89
+        },
+        {
+          "description": "Buy Me a Coffee makes it easy for creators to accept donations and membership from their fans.",
+          "employeeRange": "11-50",
+          "name": "Buy Me a Coffee",
+          "similarityScore": 89
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Seed round raised $5,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $335,000 to $335,000, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Patreon, Gumroad, Ko-fi.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

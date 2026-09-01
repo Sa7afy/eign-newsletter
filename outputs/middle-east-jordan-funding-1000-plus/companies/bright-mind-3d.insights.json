@@ -1,0 +1,233 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T11:04:54.215Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T11:04:54.211Z",
+    "url": "https://www.crunchbase.com/organization/bright-mind-3d"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Bright Mind 3D",
+      "shortDescription": "Bright Mind offers 3D printing and product design services.",
+      "description": "Bright Mind 3D provides a 3D printing service and integrates it with other technologies to create final products and amazing 3D models. They provide training for universities and institutes. They provide training in 3D printing, 3D design, and creative product development.",
+      "website": "https://www.brightmind3d.com/",
+      "foundedYear": 2015,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "11-50",
+      "headquarters": "Dubai, United Arab Emirates",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "3D Printing",
+        "3D Technology",
+        "Information Technology",
+        "Manufacturing"
+      ],
+      "sectors": [
+        "Hardware",
+        "Information Technology",
+        "Manufacturing",
+        "Software"
+      ],
+      "founders": [
+        "Zeyad Nader"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 1089,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2017-05-01",
+      "lastFundingType": "Grant",
+      "rounds": [
+        {
+          "announcedDate": "2017-05-01",
+          "amount": {
+            "amount": 1089,
+            "currency": "USD"
+          },
+          "type": "Grant"
+        }
+      ]
+    },
+    "recentNews": {
+      "reportedCount": 1,
+      "includedUniqueCount": 1,
+      "items": [
+        {
+          "date": "2017-05-01",
+          "title": "Grant - Bright Mind 3D"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 1089,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "grantFunding": {
+      "amount": {
+        "amount": 1089,
+        "currency": "USD"
+      },
+      "disclosedRoundCount": 1,
+      "shareOfTotalPercent": 100
+    }
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": 1,
+      "growthScore": 61,
+      "heatChange90Days": -8,
+      "heatScore": 51
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 29.51
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 94.73
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 16.78
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Proto Labs is a digital manufacturing source for prototypes and low-volume production parts.",
+          "employeeRange": "1,001-5,000",
+          "name": "Proto Labs",
+          "sharedCategories": [
+            "3D Printing",
+            "Manufacturing"
+          ],
+          "similarityScore": 94
+        },
+        {
+          "description": "Xometry is an online marketplace that allows customers to access a network of machine shops and custom manufacturers.",
+          "employeeRange": "1,001-5,000",
+          "name": "Xometry",
+          "sharedCategories": [
+            "3D Printing",
+            "Manufacturing"
+          ],
+          "similarityScore": 90
+        },
+        {
+          "description": "Shapeways offers 3D technology solutions to enable the automation, innovation, and digitization of product development.",
+          "employeeRange": "11-50",
+          "name": "Shapeways",
+          "sharedCategories": [
+            "3D Printing",
+            "Manufacturing"
+          ],
+          "similarityScore": 89
+        },
+        {
+          "description": "Fictiv is a digital manufacturing and supply chain company that offers a digital platform for sourcing custom mechanical components.",
+          "employeeRange": "251-500",
+          "name": "Fictiv",
+          "sharedCategories": [
+            "3D Printing",
+            "Manufacturing"
+          ],
+          "similarityScore": 88
+        },
+        {
+          "description": "Sculpteo is a 3D printing cloud engine company that enables online retailers to integrate 3D printing and mass customization to their offer.",
+          "employeeRange": "51-100",
+          "name": "Sculpteo",
+          "sharedCategories": [
+            "3D Technology",
+            "3D Printing"
+          ],
+          "similarityScore": 87
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Grant round raised $1,089, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Meaningful non-dilutive funding",
+      "statement": "1 disclosed grants total $1,089, representing 100% of reported funding.",
+      "implication": "The grants reduce the share of reported financing attributed to equity or notes, although their restrictions and milestone requirements need separate verification.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.grantFunding"
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 61 (+1 over 90 days) and market heat at 51 (-8).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Proto Labs, Xometry, Shapeways.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

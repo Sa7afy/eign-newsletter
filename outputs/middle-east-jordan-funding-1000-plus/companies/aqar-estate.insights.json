@@ -1,0 +1,130 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T09:14:01.461Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T09:14:01.459Z",
+    "url": "https://www.crunchbase.com/organization/aqar-estate"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "AQAR-ESTATE",
+      "shortDescription": "AQAR-ESTATE is an online market place for real estate in the Middle East.",
+      "description": "AQAR-ESTATE is a real estate website dedicated to helping real estate owners, real estate buyers, sellers, renters, real estate agents and professionals, landlords and property managers to find and share vital information about real estate. We are transforming the way sellers and consumers make real estate-related decisions and connect with real estate professionals.\r\nOur business Objectives are:\r\n-\tTo connect more people with more options of properties than anywhere else.\r\n-\tTo keep consumers informed about the estimated prices of properties.\r\n-\tTo monitor the real estate market movement; i.e. where people are looking to buy/invest, what prices are in the market, differences of prices in a location from a year to year… etc. \r\n-\tProvide a moderated and up-to-date property information with all possible details (in-door, out-door images, videos, location finder maps, price, specifications … etc)\r\n-\tTo establish a one trust-worthy informative tunnel of everything related to real estate in the market, i.e. news, studies, articles, interviews, guides, how to, videos … etc.\r\n-\tFacilitating and helping real estate professionals and companies to transform their marketing techniques into online.\r\n-\tTo represent a channel for Banks to help them liquidating their real estate assets.\r\n-\tEnabling people to locate the best real estate deals online, by advising them on Hot Offers.",
+      "website": "http://www.aqar-estate.com/en",
+      "foundedYear": 2010,
+      "operatingStatus": "Closed",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "1-10",
+      "estimatedRevenueRange": "$1M-$10M",
+      "headquarters": "Amman, Jordan",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "E-Commerce",
+        "Real Estate"
+      ],
+      "sectors": [
+        "Commerce and Shopping",
+        "Real Estate"
+      ],
+      "founders": [
+        "Hanan Khader",
+        "Malik Al-Barghouthi"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 31000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2011-03-01",
+      "lastFundingType": "Seed",
+      "rounds": [
+        {
+          "announcedDate": "2011-03-01",
+          "amount": {
+            "amount": 31000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "type": "Seed"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "name": "Oasis500",
+            "rounds": [
+              "Seed Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 1,
+      "includedUniqueCount": 1,
+      "items": [
+        {
+          "date": "2011-03-01",
+          "title": "Seed Round - AQAR-ESTATE"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 31000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "heatChange90Days": 16,
+      "heatScore": 17
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors."
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Seed round raised $31,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

@@ -1,0 +1,308 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T13:07:02.864Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T13:07:02.862Z",
+    "url": "https://www.crunchbase.com/organization/raseed"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Raseed",
+      "shortDescription": "Raseed is a fintech investment platform that enables individuals in the Middle East and North Africa.",
+      "description": "Raseed is a fintech investment platform that enables individuals in the Middle East and North Africa (MENA) region to access global financial markets and invest in international stocks and financial instruments. The platform aims to simplify investing by providing users with digital tools that allow them to buy, sell, and manage investments through a secure and user-friendly mobile and web interface.\n\nRaseed focuses on making global investing more accessible by reducing traditional barriers such as high fees, complex account processes, and limited access to foreign markets. Through its platform, users can explore investment opportunities, track market performance, and build diversified portfolios using real-time financial data and analytics.",
+      "website": "https://www.raseedinvest.com/",
+      "foundedYear": 2020,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "11-50",
+      "estimatedRevenueRange": "$1M-$10M",
+      "headquarters": "Dubai, United Arab Emirates",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Financial Services",
+        "FinTech"
+      ],
+      "sectors": [
+        "Financial Services"
+      ],
+      "founders": [
+        "Abdel Sallam Qatshan"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 1092925,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 4,
+      "detailedRoundCount": 4,
+      "lastFundingDate": "2024-01-01",
+      "lastFundingType": "Seed",
+      "rounds": [
+        {
+          "announcedDate": "2024-01-01",
+          "investorCount": 1,
+          "postMoneyValuation": {
+            "amount": 13316231,
+            "currency": "USD"
+          },
+          "type": "Seed"
+        },
+        {
+          "announcedDate": "2021-11-28",
+          "amount": {
+            "amount": 1092925,
+            "currency": "USD"
+          },
+          "investorCount": 2,
+          "leadInvestors": [
+            "Impact46"
+          ],
+          "postMoneyValuation": {
+            "amount": 7266737,
+            "currency": "USD"
+          },
+          "type": "Pre Seed"
+        },
+        {
+          "announcedDate": "2021-02-23",
+          "investorCount": 1,
+          "leadInvestors": [
+            "Startupbootcamp FinTech Dubai"
+          ],
+          "type": "Non Equity Assistance"
+        },
+        {
+          "announcedDate": "2020-09-01",
+          "investorCount": 2,
+          "leadInvestors": [
+            "F6 Ventures"
+          ],
+          "postMoneyValuation": {
+            "amount": 4331055,
+            "currency": "USD"
+          },
+          "type": "Pre Seed"
+        }
+      ],
+      "investors": {
+        "reportedCount": 6,
+        "visibleNames": [
+          {
+            "name": "Core Vision Investments",
+            "rounds": [
+              "Seed Round"
+            ]
+          },
+          {
+            "isLead": true,
+            "name": "F6 Ventures",
+            "rounds": [
+              "Pre Seed Round"
+            ]
+          },
+          {
+            "name": "Falak Angels",
+            "rounds": [
+              "Pre Seed Round"
+            ]
+          },
+          {
+            "isLead": true,
+            "name": "Impact46",
+            "rounds": [
+              "Pre Seed Round"
+            ]
+          },
+          {
+            "name": "Oqal",
+            "rounds": [
+              "Pre Seed Round"
+            ]
+          },
+          {
+            "isLead": true,
+            "name": "Startupbootcamp FinTech Dubai",
+            "rounds": [
+              "Non Equity Assistance"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 4,
+      "includedUniqueCount": 4,
+      "items": [
+        {
+          "date": "2024-01-01",
+          "title": "Seed Round - Raseed"
+        },
+        {
+          "date": "2021-11-28",
+          "title": "Pre Seed Round - Raseed"
+        },
+        {
+          "date": "2021-02-23",
+          "title": "Non Equity Assistance - Raseed"
+        },
+        {
+          "date": "2020-09-01",
+          "title": "Pre Seed Round - Raseed"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 1092925,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestToEarliestKnownValuationMultiple": 3.07
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": -2,
+      "growthScore": 34,
+      "heatChange90Days": 2,
+      "heatScore": 75
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 75.32
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 59.61,
+        "timingEstimatePercent": {
+          "within6Months": 80.34,
+          "months6To11": 0.13,
+          "months12To24": 0,
+          "beyond24Months": 19.53
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 94.56
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 3.92
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "We strive to simplify the investment process and money management to make it accessible to everyone.",
+          "employeeRange": "1-10",
+          "name": "Poncho Capital",
+          "sharedCategories": [
+            "FinTech"
+          ],
+          "similarityScore": 100
+        },
+        {
+          "description": "Wall Street Survivor provides stock trade simulation and financial courses.",
+          "employeeRange": "1-10",
+          "name": "Wall Street Survivor",
+          "sharedCategories": [
+            "Financial Services"
+          ],
+          "similarityScore": 95.397
+        },
+        {
+          "description": "Scibernet Inc. develops kinetic plasma simulations for diverse applications in the software industry.",
+          "name": "SciberNet",
+          "similarityScore": 90.871
+        },
+        {
+          "description": "Thndr is a financial services company that operates an app-based investment platform.",
+          "employeeRange": "251-500",
+          "name": "Thndr",
+          "sharedCategories": [
+            "Financial Services",
+            "FinTech"
+          ],
+          "similarityScore": 90
+        },
+        {
+          "description": "Sarwa is a financial platform and app that lets you easily trade stocks and ETFs, save and invest your money passively all in one place.",
+          "employeeRange": "101-250",
+          "name": "Sarwa",
+          "sharedCategories": [
+            "FinTech"
+          ],
+          "similarityScore": 89
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $4,331,055 to $13,316,231, a 3.07x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 34 (-2 over 90 days) and market heat at 75 (+2).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Poncho Capital, Wall Street Survivor, SciberNet.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

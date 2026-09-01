@@ -1,0 +1,334 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T13:35:41.771Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T13:35:41.768Z",
+    "url": "https://www.crunchbase.com/organization/t7d-gaming"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "T7D Gaming",
+      "shortDescription": "T7D Gaming is a MENA-focused gaming and esports platform that provides tournaments, gaming infrastructure, creator economy tools.",
+      "description": "T7D Gaming is a Dubai-based gaming technology company building gaming infrastructure and esports ecosystems for the Middle East and North Africa (MENA) region. Founded in 2022, the company offers a gaming super-app that combines tournaments, live streaming, creator economy tools, rewards systems, and in-game commerce into a unified platform for gamers and developers. The platform supports casual and competitive gaming experiences while enabling players to earn and use digital currencies such as Galactic Dust (GD) across multiple games and services.",
+      "website": "https://t7dgaming.com/",
+      "foundedYear": 2022,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "11-50",
+      "headquarters": "Dubai, United Arab Emirates",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "eSports",
+        "Gaming",
+        "Infrastructure"
+      ],
+      "sectors": [
+        "Gaming",
+        "Other"
+      ],
+      "founders": [
+        "Houcem Maiza"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "A gaming platform offering access to multiple HTML5 casual and competitive games with a unified in-app currency system.",
+        "name": "T7D Gaming Platform"
+      },
+      {
+        "description": "A dual in-app currency system where GD is purchased and SD is earned, used across games for transactions and rewards.",
+        "name": "Galactic Dust (GD) and Star Dust (SD) Currency System"
+      },
+      {
+        "description": "An API enabling game developers to integrate T7D’s currency and experience point systems into their games.",
+        "name": "T7D Polygon API"
+      },
+      {
+        "description": "Organized competitive and casual gaming tournaments and events accessible to all players or premium users.",
+        "name": "Tournaments and Events"
+      },
+      {
+        "description": "A digital shop where players can purchase in-game items, upgrades, and vouchers using the platform’s currency.",
+        "name": "In-App Shop"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 1500000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 2,
+      "detailedRoundCount": 2,
+      "lastFundingDate": "2023-07-05",
+      "lastFundingType": "Seed",
+      "rounds": [
+        {
+          "announcedDate": "2023-07-05",
+          "amount": {
+            "amount": 1000000,
+            "currency": "USD"
+          },
+          "investorCount": 4,
+          "postMoneyValuation": {
+            "amount": 11000000,
+            "currency": "USD"
+          },
+          "type": "Seed"
+        },
+        {
+          "announcedDate": "2023-01-01",
+          "amount": {
+            "amount": 500000,
+            "currency": "USD"
+          },
+          "postMoneyValuation": {
+            "amount": 5448804,
+            "currency": "USD"
+          },
+          "type": "Seed"
+        }
+      ],
+      "investors": {
+        "reportedCount": 4,
+        "visibleNames": [
+          {
+            "name": "Faisal Alabdelsalam",
+            "rounds": [
+              "Seed Round"
+            ]
+          },
+          {
+            "name": "Khalid AlKhudairi",
+            "rounds": [
+              "Seed Round"
+            ]
+          },
+          {
+            "name": "Oman Technology Fund",
+            "rounds": [
+              "Seed Round"
+            ]
+          },
+          {
+            "name": "Shurafa Real Estate Development",
+            "rounds": [
+              "Seed Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 3,
+      "includedUniqueCount": 3,
+      "items": [
+        {
+          "date": "2024-02-03",
+          "publisher": "esportsafricanews.com",
+          "title": "T7D Gaming & Al Aan TV Forge Groundbreaking Partnership",
+          "url": "https://esportsafricanews.com/t7d-gaming-al-aan-tv-forge-groundbreaking-partnership/"
+        },
+        {
+          "date": "2023-07-05",
+          "title": "Seed Round - T7D Gaming"
+        },
+        {
+          "date": "2023-01-01",
+          "title": "Seed Round - T7D Gaming"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 2,
+    "knownDetailedFundingAmount": {
+      "amount": 1500000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 66.67,
+    "latestToEarliestKnownValuationMultiple": 2.02
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": -26,
+      "growthScore": 24,
+      "heatChange90Days": -9,
+      "heatScore": 70
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 59.24
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 39.95,
+        "timingEstimatePercent": {
+          "within6Months": 13.44,
+          "months6To11": 11.64,
+          "months12To24": 18.79,
+          "beyond24Months": 24.62
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 95.17
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 50.13
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Bitlayer is the first Bitcoin second-layer network, offering ultra-scalability and L1 security, aiming to be Bitcoin's computing layer.",
+          "employeeRange": "11-50",
+          "name": "Bitlayer",
+          "sharedSpecialties": [
+            "Tokenization Platforms"
+          ],
+          "similarityScore": 100
+        },
+        {
+          "description": "Tencent develops internet, gaming, fintech, and AI solutions, offering social content, enterprise services, and cloud technologies.",
+          "employeeRange": "10,001+",
+          "name": "Tencent",
+          "sharedCategories": [
+            "Gaming"
+          ],
+          "sharedSpecialties": [
+            "Esports and Competitive Gaming",
+            "Gaming Platforms",
+            "Game Server Hosting",
+            "Mobile Games"
+          ],
+          "similarityScore": 90.497
+        },
+        {
+          "description": "NFTPort provides one-stop and developer-friendly NFT infrastructure and APIs for developers.",
+          "employeeRange": "1-10",
+          "name": "NFTPort",
+          "sharedSpecialties": [
+            "Creator Commerce Platforms",
+            "Tokenization Platforms",
+            "API Management",
+            "Developer Portals"
+          ],
+          "similarityScore": 85.531
+        },
+        {
+          "description": "Skillz is a marketplace platform for competition-based mobile games. Fueled by FIRY",
+          "employeeRange": "101-250",
+          "name": "Skillz",
+          "sharedCategories": [
+            "eSports"
+          ],
+          "sharedSpecialties": [
+            "Esports and Competitive Gaming",
+            "Gaming Platforms",
+            "Digital Game and In-Game Currency Cards",
+            "Game Server Hosting",
+            "Browser Games",
+            "Mobile Games"
+          ],
+          "similarityScore": 85
+        },
+        {
+          "description": "WorldWinner is an online platform that enables individuals to play games and compete for cash.",
+          "employeeRange": "51-100",
+          "name": "WorldWinner",
+          "sharedCategories": [
+            "Gaming"
+          ],
+          "sharedSpecialties": [
+            "Esports and Competitive Gaming",
+            "Gaming Platforms",
+            "Digital Game and In-Game Currency Cards",
+            "Game Server Hosting",
+            "Browser Games",
+            "Mobile Games"
+          ],
+          "similarityScore": 84
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Seed round raised $1,000,000, or 66.67% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $5,448,804 to $11,000,000, a 2.02x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 24 (-26 over 90 days) and market heat at 70 (-9).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Bitlayer, Tencent, NFTPort.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

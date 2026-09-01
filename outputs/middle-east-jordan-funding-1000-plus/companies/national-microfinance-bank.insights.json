@@ -1,0 +1,180 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T12:42:24.610Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T12:42:24.608Z",
+    "url": "https://www.crunchbase.com/organization/national-microfinance-bank"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "National Microfinance Bank",
+      "shortDescription": "National Microfinance Bank is a financial company that helps businesses and individuals with financial and non-financial services.",
+      "description": "National Microfinance Bank is a nonprofit firm that provide financial services. It serves institution that employs financial inclusion to provide optimal solutions to its customers towards the sustainable improvement of their living conditions.",
+      "website": "https://www.nmb.com.jo/",
+      "foundedYear": 2006,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "Nonprofit",
+      "employeeRange": "251-500",
+      "estimatedRevenueRange": "$50M-$100M",
+      "headquarters": "Amman, Jordan",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Banking",
+        "Financial Services",
+        "Lending",
+        "Non Profit"
+      ],
+      "sectors": [
+        "Financial Services",
+        "Lending and Investments",
+        "Social Impact"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "A loan designed for starting or developing small home-based projects, or for low-income families for various needs such as medical treatment, home improvement, or purchasing durable goods.",
+        "name": "قرض وطني (National Loan)"
+      },
+      {
+        "description": "A loan for starting or developing small home-based projects, available in different categories based on the loan amount and repayment period.",
+        "name": "قرض مشروعي (My Project Loan)"
+      },
+      {
+        "description": "A loan for purchasing energy-saving home appliances, targeting existing and potential customers interested in eco-friendly solutions.",
+        "name": "قرض صديق البيئة (Eco-Friendly Loan)"
+      },
+      {
+        "description": "A loan for installing solar energy systems, aimed at promoting renewable energy and reducing energy consumption.",
+        "name": "قرض الخلايا الشمسية (Solar Panel Loan)"
+      },
+      {
+        "description": "A loan for farmers and agricultural project owners to cover operational costs and enhance their projects, available in different categories based on the loan amount and repayment period.",
+        "name": "قرض بذار (Seed Loan)"
+      },
+      {
+        "description": "A loan for purchasing scooters, aimed at customers interested in using scooters for delivery services or personal use.",
+        "name": "قرض السكوتر (Scooter Loan)"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 5000000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2015-10-23",
+      "lastFundingType": "Debt Financing",
+      "rounds": [
+        {
+          "announcedDate": "2015-10-23",
+          "amount": {
+            "amount": 5000000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "Swedfund International"
+          ],
+          "type": "Debt Financing"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "Swedfund International",
+            "rounds": [
+              "Debt Financing"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 1,
+      "includedUniqueCount": 1,
+      "items": [
+        {
+          "date": "2015-10-23",
+          "title": "Debt Financing - National Microfinance Bank"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 5000000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": 0,
+      "growthScore": 32,
+      "heatChange90Days": -5,
+      "heatScore": 1
+    },
+    "modelPredictions": {
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 89.01
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors."
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Debt Financing round raised $5,000,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 32 (+0 over 90 days) and market heat at 1 (-5).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

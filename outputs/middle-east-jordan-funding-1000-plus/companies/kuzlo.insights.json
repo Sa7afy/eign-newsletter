@@ -1,0 +1,223 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T12:17:38.787Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T12:17:38.786Z",
+    "url": "https://www.crunchbase.com/organization/kuzlo"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Kuzlo",
+      "shortDescription": "Kuzlo is a marketplace that connects retailers with wholesalers by providing full transparency on product availability and prices.",
+      "description": "Kuzlo is a B2B marketplace that connects FMCG small retailers with wholesalers available in their area providing full transparency on product availability and prices.",
+      "website": "https://www.kuzlogomla.com/",
+      "foundedYear": 2021,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "1-10",
+      "estimatedRevenueRange": "Less than $1M",
+      "headquarters": "Alexandria, Al Iskandariyah, Egypt",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Middle East",
+        "Middle East and North Africa (MENA)",
+        "North Africa"
+      ],
+      "industries": [
+        "E-Commerce",
+        "Marketplace",
+        "Retail"
+      ],
+      "sectors": [
+        "Commerce and Shopping"
+      ],
+      "founders": [
+        "Ayman Elgarem",
+        "Mohamed Gebril",
+        "Tarek Gamal"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "A network that connects retailers with various wholesalers, providing access to a wide range of products.",
+        "name": "Wholesaler Network"
+      },
+      {
+        "description": "A service that ensures a broad selection of products including dry, fresh, frozen, and detergents are available for retailers.",
+        "name": "Wide Products Availability"
+      },
+      {
+        "description": "A service that focuses on providing timely delivery of products to retailers.",
+        "name": "Optimum Delivery Time"
+      },
+      {
+        "description": "A feature that allows retailers to compare prices from different wholesalers to find the best deals.",
+        "name": "Compare and Get Best Prices"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 100000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2021-10-28",
+      "lastFundingType": "Pre Seed",
+      "rounds": [
+        {
+          "announcedDate": "2021-10-28",
+          "amount": {
+            "amount": 100000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "Nama Ventures"
+          ],
+          "postMoneyValuation": {
+            "amount": 990396,
+            "currency": "USD"
+          },
+          "type": "Pre Seed"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "Nama Ventures",
+            "rounds": [
+              "Pre Seed Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 3,
+      "includedUniqueCount": 3,
+      "items": [
+        {
+          "date": "2021-10-31",
+          "publisher": "Cairo Scene",
+          "title": "KSA’s Nama Ventures Invests in Egyptian B2B Ecommerce Startup Kuzlo",
+          "url": "http://spr.ly/6018JnEY6"
+        },
+        {
+          "date": "2021-10-29",
+          "publisher": "PYMNTS.com",
+          "title": "Egypt-Based B2B eCommerce Firm Kuzlo Raises Pre-Seed Funding",
+          "url": "http://dlvr.it/SBXmwH"
+        },
+        {
+          "date": "2021-10-28",
+          "title": "Pre Seed Round - Kuzlo"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 100000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": 34,
+      "growthScore": 73,
+      "heatChange90Days": -2,
+      "heatScore": 10
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 0
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 20.27,
+        "timingEstimatePercent": {
+          "within6Months": 15.07,
+          "months6To11": 12.8,
+          "months12To24": 20.1,
+          "beyond24Months": 24.96
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 82.8
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 0
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors."
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Pre Seed round raised $100,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $990,396 to $990,396, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 73 (+34 over 90 days) and market heat at 10 (-2).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

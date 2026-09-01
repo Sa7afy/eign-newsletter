@@ -1,0 +1,163 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T08:46:01.869Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T08:46:01.863Z",
+    "url": "https://www.crunchbase.com/organization/3dmena"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "3Dmena",
+      "shortDescription": "3Dmena specialized in building fabrication laboratories (“FabLabs”) and operate them as training centers and hardware business incubators",
+      "description": "3Dmena specialized in building fabrication laboratories (“FabLabs”) and operate them as training centers and hardware business incubators, intended to address not only the challenges in the world today, but also to prepare the region starting from Jordan for a rapidly changing job market shaped by emerging technology. Since inception, 3Dmena advocated for 3D printing technology adoption in Jordan and introduced the concept of Fab Labs to Jordan In partnership and support from NextFab, Luminus Group & Fab Foundation.\n\nIn May 2017 3Dmena team and assets merged under Luminus Education focusing on the sustainability of Shamal Start project.",
+      "website": "http://www.3dmena.com/",
+      "operatingStatus": "Closed",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "11-50",
+      "estimatedRevenueRange": "Less than $1M",
+      "headquarters": "Amman, Jordan",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "3D Printing",
+        "3D Technology",
+        "Incubators"
+      ],
+      "sectors": [
+        "Financial Services",
+        "Hardware",
+        "Lending and Investments",
+        "Manufacturing",
+        "Software"
+      ],
+      "founders": [
+        "Loay Malahmeh",
+        "Rakan Khamash"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 30000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2014-08-01",
+      "lastFundingType": "Pre Seed",
+      "rounds": [
+        {
+          "announcedDate": "2014-08-01",
+          "amount": {
+            "amount": 30000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "type": "Pre Seed"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "name": "Oasis500",
+            "rounds": [
+              "Pre Seed Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 4,
+      "includedUniqueCount": 4,
+      "items": [
+        {
+          "date": "2016-03-26",
+          "publisher": "BBC Business",
+          "title": "Tech eases Syrians' trauma in Jordanian refugee camp",
+          "url": "http://www.bbc.com/news/technology-35889662"
+        },
+        {
+          "date": "2014-09-22",
+          "title": "3D Print Anything On Demand with 3Dmena",
+          "url": "https://www.arabnet.me/3d-print-anything-demand-3dmena/"
+        },
+        {
+          "date": "2014-09-14",
+          "publisher": "Wamda News (MENA)",
+          "title": "Jordanian serial entrepreneur pivots from selling gadgets to 3D printing…",
+          "url": "http://www.wamda.com/2014/09/jordanian-serial-entrepreneur-pivots-3d-printing"
+        },
+        {
+          "date": "2014-08-01",
+          "title": "Pre Seed Round - 3Dmena"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 30000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "heatChange90Days": -8,
+      "heatScore": 1
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Qatar Foundation for Education, Science and Community Development is a private, non-profit organization that serves the people of Qatar",
+          "employeeRange": "1,001-5,000",
+          "name": "Qatar Foundation",
+          "similarityScore": 85
+        },
+        {
+          "description": "Saxion University of Applied Sciences is a higher education institution in the Netherlands.",
+          "name": "Saxion Hogescholen",
+          "similarityScore": 83
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Pre Seed round raised $30,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

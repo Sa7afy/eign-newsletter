@@ -1,0 +1,207 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T11:21:11.904Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T11:21:11.903Z",
+    "url": "https://www.crunchbase.com/organization/dawar"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Dawar",
+      "shortDescription": "Dawar is a circular economy platform providing digital infrastructure for tracking recyclable material flows.",
+      "description": "Dawar operates a circular waste management infrastructure that enables waste traceability, compliance reporting, and accountable material flows across the post-consumer waste value chain in Egypt.",
+      "website": "https://dawarapp.com/",
+      "foundedYear": 2017,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "11-50",
+      "headquarters": "Gîza, Al Jizah, Egypt",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Middle East",
+        "Middle East and North Africa (MENA)",
+        "North Africa"
+      ],
+      "industries": [
+        "Service Industry",
+        "Waste Management"
+      ],
+      "sectors": [
+        "Other",
+        "Sustainability"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 1929809,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2026-06-03",
+      "lastFundingType": "Debt Financing",
+      "rounds": [
+        {
+          "announcedDate": "2026-06-03",
+          "amount": {
+            "amount": 1929809,
+            "currency": "USD"
+          },
+          "investorCount": 3,
+          "type": "Debt Financing"
+        }
+      ],
+      "investors": {
+        "reportedCount": 3,
+        "visibleNames": [
+          {
+            "name": "Commercial International Bank",
+            "rounds": [
+              "Debt Financing"
+            ]
+          },
+          {
+            "name": "GlobalCorp",
+            "rounds": [
+              "Debt Financing"
+            ]
+          },
+          {
+            "name": "Tawasoa Factoring",
+            "rounds": [
+              "Debt Financing"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 6,
+      "includedUniqueCount": 6,
+      "items": [
+        {
+          "date": "2026-06-07",
+          "publisher": "إنت عربي | entARABI",
+          "title": "During the first week of June 2026, startup investments reach $258.5 million",
+          "url": "https://entarabi.com/en/2026/06/during-the-first-week-of-june-2026-startup-investments-reach-258-5-million/"
+        },
+        {
+          "date": "2026-06-03",
+          "title": "Debt Financing - Dawar"
+        },
+        {
+          "date": "2026-06-03",
+          "publisher": "إنت عربي | entARABI",
+          "title": "Egypt’s DAWAR secures funding from GlobalCorp, Tawasoa, and CIB",
+          "url": "https://entarabi.com/en/2026/06/egypts-dawar-secures-funding-from-globalcorp-tawasoa-and-cib/"
+        },
+        {
+          "date": "2026-04-21",
+          "publisher": "Businessday NG",
+          "title": "7 M&A transactions that shaped Africa’s economy in Q1",
+          "url": "https://businessday.ng/business-economy/article/7-ma-transactions-that-shaped-africas-economy-in-q1/"
+        },
+        {
+          "date": "2026-02-26",
+          "publisher": "Disrupt Africa",
+          "title": "Egypt’s Dawar acquires stake in BekyaPay to digitise recycling “first mile”",
+          "url": "https://disruptafrica.com/2026/02/26/egypts-dawar-acquires-stake-in-bekyapay-to-digitise-recycling-first-mile/"
+        },
+        {
+          "date": "2026-02-18",
+          "title": "Bekya pay acquired by Dawar"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 1929809,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthInsightGeneratedDate": "2026-06-14",
+      "growthChange90Days": -11,
+      "growthScore": 81,
+      "heatChange90Days": -14,
+      "heatScore": 58,
+      "status": "Growing"
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 27.78
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 35.12,
+        "timingEstimatePercent": {
+          "within6Months": 0.16,
+          "months6To11": 0,
+          "months12To24": 0,
+          "beyond24Months": 99.84
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 77.63
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 22.91
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors."
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Debt Financing round raised $1,929,809, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 81 (-11 over 90 days) and market heat at 58 (-14).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

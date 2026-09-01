@@ -1,0 +1,232 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T12:55:34.077Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T12:55:34.075Z",
+    "url": "https://www.crunchbase.com/organization/percent-co"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Percent&Co",
+      "shortDescription": "Percent&Co is a real estate agency that helps investors and individuals find and buy high-yield residential and commercial properties.",
+      "description": "Percent&Co is a Dubai-based company that provides business setup, corporate services, and administrative support for entrepreneurs and companies looking to establish or expand their presence in the United Arab Emirates.\nThe company assists with company formation in mainland, free zone, and offshore jurisdictions, helping clients navigate licensing, regulatory requirements, and government procedures. Its services include trade license registration, visa processing, PRO services, bank account assistance, and other operational support needed to start and manage a business in the UAE.",
+      "website": "https://percentco.ae/",
+      "foundedYear": 2025,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "employeeRange": "11-50",
+      "headquarters": "Al Barahah, Dubai, United Arab Emirates",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Commercial",
+        "Real Estate"
+      ],
+      "sectors": [
+        "Other",
+        "Real Estate"
+      ],
+      "founders": [
+        "Nikita Protsenko"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 3000000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2025-07-14",
+      "lastFundingType": "Corporate Round",
+      "rounds": [
+        {
+          "announcedDate": "2025-07-14",
+          "amount": {
+            "amount": 3000000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "Mira Developments"
+          ],
+          "type": "Corporate Round"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "Mira Developments",
+            "rounds": [
+              "Corporate Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 4,
+      "includedUniqueCount": 3,
+      "items": [
+        {
+          "date": "2025-07-14",
+          "publisher": "Zawya.com",
+          "title": "UAE's Mira Developments invests $3mln in launching exclusive real estate company to attract global investors to MENA Market",
+          "url": "https://www.zawya.com/en/press-release/companies-news/uaes-mira-developments-invests-3mln-in-launching-exclusive-real-estate-company-to-attract-global-investors-to-mena-market-s0u9vvra"
+        },
+        {
+          "date": "2025-07-14",
+          "publisher": "Zawya.com",
+          "title": "Mira Developments launches MENA-focused real estate company via $3mln investments",
+          "url": "https://www.zawya.com/en/business/real-estate/mira-developments-launches-mena-focused-real-estate-company-via-3mln-investments-ylqhlsbx"
+        },
+        {
+          "date": "2025-07-14",
+          "title": "Corporate Round - Percent&Co"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 3000000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthInsightGeneratedDate": "2025-07-21",
+      "growthChange90Days": -1,
+      "growthScore": 82,
+      "heatChange90Days": -16,
+      "heatScore": 11,
+      "status": "Growing"
+    },
+    "modelPredictions": {
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 60.53
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Allsopp & Allsopp is a family founded property services company.",
+          "employeeRange": "251-500",
+          "name": "Allsopp & Allsopp",
+          "sharedCategories": [
+            "Real Estate"
+          ],
+          "similarityScore": 97
+        },
+        {
+          "description": "fäm Properties is a real estate company which provides services for residential and commercial properties in Dubai.",
+          "employeeRange": "501-1,000",
+          "name": "fäm Properties",
+          "sharedCategories": [
+            "Real Estate"
+          ],
+          "similarityScore": 93
+        },
+        {
+          "description": "Espace Real Estate provides Real Estate Agency Property Services.",
+          "employeeRange": "101-250",
+          "name": "Espace Real Estate",
+          "similarityScore": 91
+        },
+        {
+          "description": "Driven Properties is a real estate company.",
+          "employeeRange": "501-1,000",
+          "name": "Driven Properties",
+          "sharedCategories": [
+            "Real Estate",
+            "Commercial"
+          ],
+          "similarityScore": 85
+        },
+        {
+          "description": "Asteco is a property management solution.",
+          "employeeRange": "101-250",
+          "name": "Asteco",
+          "sharedCategories": [
+            "Real Estate"
+          ],
+          "similarityScore": 83
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Corporate Round round raised $3,000,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 82 (-1 over 90 days) and market heat at 11 (-16).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Allsopp & Allsopp, fäm Properties, Espace Real Estate.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "issues": [
+      {
+        "severity": "low",
+        "finding": "Crunchbase reports 4 timeline items but exposes 3 unique items in this payload.",
+        "impact": "Recent news is a partial sample, not a complete history."
+      }
+    ],
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

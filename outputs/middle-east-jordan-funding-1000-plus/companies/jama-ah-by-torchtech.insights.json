@@ -1,0 +1,219 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T12:09:00.266Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T12:09:00.264Z",
+    "url": "https://www.crunchbase.com/organization/jama-ah-by-torchtech"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "TorchTech FZCO",
+      "shortDescription": "Torchtech FZCO provides web design, development, and digital marketing services for businesses.",
+      "description": "Torchtech FZCO provides web design, development, and digital marketing services for businesses. The company builds websites to meet client needs and develops customized solutions for different online purposes. Torchtech FZCO offers digital marketing services to help businesses reach new customers and clients. The team also provides consultation and advice on online strategies and web solutions. Torchtech FZCO works with clients to plan and implement projects that grow online presence and engagement. The company manages both the design and technical aspects of websites to maintain functionality and accessibility. It supports clients throughout the process, from initial ideas to completed online platforms.",
+      "website": "https://torchtech-fzco.com/",
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "11-50",
+      "headquarters": "Dubai, United Arab Emirates",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Software Engineering"
+      ],
+      "sectors": [
+        "Science and Engineering",
+        "Software"
+      ],
+      "founders": [
+        "An onymous",
+        "Edan Mann Singh",
+        "Zakaria Dahmouch"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 26192,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2025-02-07",
+      "lastFundingType": "Pre Seed",
+      "rounds": [
+        {
+          "announcedDate": "2025-02-07",
+          "amount": {
+            "amount": 26192,
+            "currency": "USD"
+          },
+          "postMoneyValuation": {
+            "amount": 2626192,
+            "currency": "USD"
+          },
+          "type": "Pre Seed"
+        }
+      ]
+    },
+    "recentNews": {
+      "reportedCount": 1,
+      "includedUniqueCount": 1,
+      "items": [
+        {
+          "date": "2025-02-07",
+          "title": "Pre Seed Round - TorchTech FZCO"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 26192,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": -4,
+      "growthScore": 67,
+      "heatChange90Days": -5,
+      "heatScore": 51
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 95.01
+      },
+      "funding": {
+        "generatedDate": "2026-08-13",
+        "probabilityPercent": 57.67,
+        "timingEstimatePercent": {
+          "within6Months": 99.93,
+          "months6To11": 0.01,
+          "months12To24": 0,
+          "beyond24Months": 0.06
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 77.27
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 4.81
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Tomsher Technologies is a website design and digital marketing company based in Dubai.",
+          "employeeRange": "1-10",
+          "name": "Tomsher Technologies",
+          "similarityScore": 97
+        },
+        {
+          "description": "RedSpider is a web design and development company that offers email marketing, web hosting, SEO, and graphic design services.",
+          "employeeRange": "11-50",
+          "name": "RedSpider",
+          "similarityScore": 84
+        },
+        {
+          "description": "Si3 Digital is an innovative interactive and inspirational digital marketing and web design Sharjah company.",
+          "employeeRange": "10,001+",
+          "name": "Si3 Digital Sharjah",
+          "similarityScore": 82
+        },
+        {
+          "description": "We Create Beautifully Unique Websites to Mesmerize",
+          "employeeRange": "51-100",
+          "name": "Branex DMCC",
+          "similarityScore": 80
+        },
+        {
+          "description": "Blue Beetle is a full-service digital agency. We design experiences that transform brands, grow businesses and make people's lives better.",
+          "employeeRange": "11-50",
+          "name": "BLUE BEETLE JLT",
+          "similarityScore": 78
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Pre Seed round raised $26,192, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $2,626,192 to $2,626,192, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 67 (-4 over 90 days) and market heat at 51 (-5).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Tomsher Technologies, RedSpider, Si3 Digital Sharjah.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

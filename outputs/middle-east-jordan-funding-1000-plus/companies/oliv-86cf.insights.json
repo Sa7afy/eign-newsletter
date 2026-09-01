@@ -1,0 +1,339 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T12:48:39.605Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T12:48:39.603Z",
+    "url": "https://www.crunchbase.com/organization/oliv-86cf"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "oliv Finance",
+      "shortDescription": "oliv is a digital invoice finance company that serves small and medium-sized enterprises.",
+      "description": "oliv is a digital invoice finance company that serves small and medium-sized enterprises. Its service requires minimal manual engagement from clients and no technical needs.",
+      "website": "https://oliv.finance/",
+      "foundedYear": 2024,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "11-50",
+      "headquarters": "Cairo, Al Qahirah, Egypt",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Middle East",
+        "Middle East and North Africa (MENA)",
+        "North Africa"
+      ],
+      "industries": [
+        "Financial Services"
+      ],
+      "sectors": [
+        "Financial Services"
+      ],
+      "founders": [
+        "Hatem Sabry",
+        "Ziad Mokhtar"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "A digital service that provides financing against e-invoices for small and medium-sized enterprises, enabling access to working capital within 48 hours.",
+        "name": "Invoice Financing"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 628817,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 2,
+      "detailedRoundCount": 2,
+      "lastFundingDate": "2025-10-13",
+      "lastFundingType": "Debt Financing",
+      "rounds": [
+        {
+          "announcedDate": "2025-10-13",
+          "amount": {
+            "amount": 628817,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "Suez Canal Bank"
+          ],
+          "type": "Debt Financing"
+        },
+        {
+          "announcedDate": "2024-01-01",
+          "investorCount": 2,
+          "leadInvestors": [
+            "Algebra Ventures",
+            "Alter Global"
+          ],
+          "postMoneyValuation": {
+            "amount": 2634777,
+            "currency": "USD"
+          },
+          "type": "Pre Seed"
+        }
+      ],
+      "investors": {
+        "reportedCount": 3,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "Algebra Ventures",
+            "rounds": [
+              "Pre Seed Round"
+            ]
+          },
+          {
+            "isLead": true,
+            "name": "Alter Global",
+            "rounds": [
+              "Pre Seed Round"
+            ]
+          },
+          {
+            "isLead": true,
+            "name": "Suez Canal Bank",
+            "rounds": [
+              "Debt Financing"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 5,
+      "includedUniqueCount": 4,
+      "items": [
+        {
+          "date": "2025-10-19",
+          "publisher": "Zawya.com",
+          "title": "Egypt: Suez Canal Bank signs credit facility with Oliv",
+          "url": "https://www.zawya.com/en/business/fintech/egypt-suez-canal-bank-signs-credit-facility-with-oliv-blpw3eah"
+        },
+        {
+          "date": "2025-10-18",
+          "publisher": "Daily Star Egypt",
+          "title": "Suez Canal Bank signs EGP 30m credit facility with Oliv",
+          "url": "https://www.dailynewsegypt.com/2025/10/18/suez-canal-bank-signs-egp-30m-credit-facility-with-oliv/"
+        },
+        {
+          "date": "2025-10-13",
+          "title": "Debt Financing - oliv Finance"
+        },
+        {
+          "date": "2024-01-01",
+          "title": "Pre Seed Round - oliv Finance"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 628817,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthInsightGeneratedDate": "2025-10-27",
+      "growthChange90Days": -1,
+      "growthScore": 69,
+      "heatChange90Days": -3,
+      "heatScore": 63,
+      "status": "Growing"
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 25.61
+      },
+      "funding": {
+        "generatedDate": "2026-01-03",
+        "probabilityPercent": 94.79,
+        "timingEstimatePercent": {
+          "within6Months": 99.98,
+          "months6To11": 0,
+          "months12To24": 0,
+          "beyond24Months": 0.02
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 95.75
+      },
+      "ipo": {
+        "generatedDate": "2026-03-28",
+        "probabilityPercent": 3.88
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "FundThrough helps small business owners navigate their cash flow challenges with by accessing the working capital in their unpaid invoices.",
+          "employeeRange": "101-250",
+          "name": "FundThrough",
+          "sharedCategories": [
+            "Financial Services"
+          ],
+          "sharedSpecialties": [
+            "Working Capital Loans",
+            "Invoice Factoring",
+            "Cash Flow Management",
+            "Accounts Receivable and Payable Services",
+            "Accounts Receivable Management"
+          ],
+          "similarityScore": 97
+        },
+        {
+          "description": "Bibby Financial Services is wholly owned by the Bibby Line Group, a dynamic business to business services group.",
+          "employeeRange": "1,001-5,000",
+          "name": "Bibby Financial Services",
+          "sharedCategories": [
+            "Financial Services"
+          ],
+          "sharedSpecialties": [
+            "Working Capital Loans",
+            "Invoice Factoring",
+            "Cash Flow Management",
+            "Accounts Receivable and Payable Services",
+            "Asset-Based Lending",
+            "Supply Chain Finance"
+          ],
+          "similarityScore": 91
+        },
+        {
+          "description": "ECapital is a financial services firm that provides financial solutions for small and medium-sized businesses.",
+          "employeeRange": "501-1,000",
+          "name": "eCapital",
+          "sharedCategories": [
+            "Financial Services"
+          ],
+          "sharedSpecialties": [
+            "Working Capital Loans",
+            "Invoice Factoring",
+            "Accounts Receivable and Payable Services",
+            "Purchase Order Financing",
+            "Asset-Based Lending",
+            "Accounts Receivable Management",
+            "Business Lines of Credit",
+            "Supply Chain Finance"
+          ],
+          "similarityScore": 89
+        },
+        {
+          "description": "Fundbox provides the capital infrastructure to power platforms and support their customers’ growth.",
+          "employeeRange": "251-500",
+          "name": "Fundbox",
+          "sharedCategories": [
+            "Financial Services"
+          ],
+          "sharedSpecialties": [
+            "Working Capital Loans",
+            "Loan Management Systems",
+            "Cash Flow Management",
+            "Business Lines of Credit"
+          ],
+          "similarityScore": 88
+        },
+        {
+          "description": "Bluevine empowers small businesses with innovative banking products designed for them.",
+          "employeeRange": "501-1,000",
+          "name": "Bluevine",
+          "sharedCategories": [
+            "Financial Services"
+          ],
+          "sharedSpecialties": [
+            "Working Capital Loans",
+            "Cash Flow Management",
+            "Business Lines of Credit"
+          ],
+          "similarityScore": 87
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Debt Financing round raised $628,817, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $2,634,777 to $2,634,777, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 69 (-1 over 90 days) and market heat at 63 (-3).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include FundThrough, Bibby Financial Services, eCapital.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "issues": [
+      {
+        "severity": "low",
+        "finding": "Crunchbase reports 5 timeline items but exposes 4 unique items in this payload.",
+        "impact": "Recent news is a partial sample, not a complete history."
+      }
+    ],
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

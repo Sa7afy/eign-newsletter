@@ -1,0 +1,308 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T13:08:40.212Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T13:08:40.210Z",
+    "url": "https://www.crunchbase.com/organization/red-sea-wind-energy"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Red Sea Wind Energy",
+      "shortDescription": "Red Sea Wind Energy is a joint-stock company that constructs and operates a greenfield wind farm.",
+      "description": "Red Sea Wind Energy is a joint-stock company that constructs and operates a greenfield wind farm.",
+      "website": "https://www.rswe.co/",
+      "foundedYear": 2020,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "251-500",
+      "headquarters": "Cairo, Al Qahirah, Egypt",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Middle East",
+        "Middle East and North Africa (MENA)",
+        "North Africa"
+      ],
+      "industries": [
+        "Power Grid",
+        "Renewable Energy",
+        "Wind Energy"
+      ],
+      "sectors": [
+        "Energy",
+        "Natural Resources",
+        "Sustainability"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "A 500MW greenfield wind farm project generating renewable energy to supply electricity to households.",
+        "name": "Red Sea Windfarm"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 106000000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2024-11-19",
+      "lastFundingType": "Debt Financing",
+      "rounds": [
+        {
+          "announcedDate": "2024-11-19",
+          "amount": {
+            "amount": 106000000,
+            "currency": "USD"
+          },
+          "investorCount": 5,
+          "leadInvestors": [
+            "Japan Bank for International Cooperation"
+          ],
+          "type": "Debt Financing"
+        }
+      ],
+      "investors": {
+        "reportedCount": 5,
+        "visibleNames": [
+          {
+            "name": "European Bank for Reconstruction and Development",
+            "rounds": [
+              "Debt Financing"
+            ]
+          },
+          {
+            "isLead": true,
+            "name": "Japan Bank for International Cooperation",
+            "rounds": [
+              "Debt Financing"
+            ]
+          },
+          {
+            "name": "Societe Generale S.A.",
+            "rounds": [
+              "Debt Financing"
+            ]
+          },
+          {
+            "name": "Sumitomo Mitsui Banking Corporation",
+            "rounds": [
+              "Debt Financing"
+            ]
+          },
+          {
+            "name": "The Norinchukin Bank",
+            "rounds": [
+              "Debt Financing"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 4,
+      "includedUniqueCount": 4,
+      "items": [
+        {
+          "date": "2025-08-04",
+          "publisher": "Techgist Africa | Africa Leading Tech News, Reviews and Tips",
+          "title": "Engie completes Egypt’s Red Sea Wind Energy project ahead of schedule",
+          "url": "https://techgistafrica.com/energy/engie-completes-egypts-red-sea-wind-energy-project-ahead-of-schedule/"
+        },
+        {
+          "date": "2025-07-01",
+          "publisher": "Zawya.com",
+          "title": "Engie targets speedy renewables growth in Mideast, North Africa",
+          "url": "https://www.zawya.com/en/projects/utilities/engie-targets-speedy-renewables-growth-in-mideast-north-africa-t8x0s52d"
+        },
+        {
+          "date": "2025-01-31",
+          "publisher": "globallegalchronicle.com",
+          "title": "Red Sea Wind Energy’s Financing Arrangement",
+          "url": "https://globallegalchronicle.com/red-sea-wind-energys-financing-arrangement/"
+        },
+        {
+          "date": "2024-11-19",
+          "title": "Debt Financing - Red Sea Wind Energy"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 106000000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthInsightGeneratedDate": "2025-02-13",
+      "growthChange90Days": 16,
+      "growthScore": 75,
+      "heatChange90Days": -11,
+      "heatScore": 23,
+      "status": "Growing"
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-29",
+        "probabilityPercent": 31.05
+      },
+      "funding": {
+        "generatedDate": "2026-08-29",
+        "probabilityPercent": 35.06,
+        "timingEstimatePercent": {
+          "within6Months": 0.05,
+          "months6To11": 0,
+          "months12To24": 0,
+          "beyond24Months": 99.95
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-29",
+        "probabilityPercent": 90.63
+      },
+      "ipo": {
+        "generatedDate": "2026-08-29",
+        "probabilityPercent": 20.43
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "ACWA Power is a developer, investor, co-owner and operator of a portfolio of power generation and renewable energy.",
+          "employeeRange": "1,001-5,000",
+          "name": "ACWA Power",
+          "sharedCategories": [
+            "Renewable Energy"
+          ],
+          "sharedSpecialties": [
+            "Infrastructure Construction",
+            "Renewable Energy Engineering",
+            "Grid Interconnection Equipment",
+            "Power Purchase Agreements (PPAs)",
+            "Project Finance",
+            "Energy Monitoring and Metering",
+            "Electric Utilities and Cooperatives"
+          ],
+          "similarityScore": 97
+        },
+        {
+          "description": "Engie is an energy transition company that provides renewable electricity and green gas for the industrial sector.",
+          "employeeRange": "10,001+",
+          "name": "Engie",
+          "sharedCategories": [
+            "Renewable Energy"
+          ],
+          "sharedSpecialties": [
+            "Renewable Energy Engineering",
+            "Energy Monitoring and Metering",
+            "Electric Utilities and Cooperatives"
+          ],
+          "similarityScore": 93
+        },
+        {
+          "description": "Eurus Energy Holdings operates wind and solar farms to develop optimal solutions and disseminate and expand renewable energy technologies.",
+          "employeeRange": "501-1,000",
+          "name": "Eurus Energy Holdings",
+          "sharedSpecialties": [
+            "Renewable Energy Engineering",
+            "Grid Interconnection Equipment",
+            "Power Purchase Agreements (PPAs)",
+            "Wind Turbines",
+            "Environmental Impact Assessment",
+            "Energy Monitoring and Metering",
+            "Electric Utilities and Cooperatives"
+          ],
+          "similarityScore": 92
+        },
+        {
+          "description": "Masdar is a state-owned renewable energy company that develops and operates solar, wind, energy storage, and geothermal projects.",
+          "employeeRange": "501-1,000",
+          "name": "Masdar",
+          "sharedCategories": [
+            "Wind Energy",
+            "Renewable Energy"
+          ],
+          "similarityScore": 91
+        },
+        {
+          "description": "Ørsted develops and maintains offshore and onshore renewable energy farms, energy storage facilities, and bioenergy plants.",
+          "employeeRange": "5,001-10,000",
+          "name": "Ørsted",
+          "sharedCategories": [
+            "Renewable Energy"
+          ],
+          "sharedSpecialties": [
+            "Renewable Energy Engineering",
+            "Grid Interconnection Equipment",
+            "Power Purchase Agreements (PPAs)",
+            "Wind Turbines"
+          ],
+          "similarityScore": 87
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Debt Financing round raised $106,000,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 75 (+16 over 90 days) and market heat at 23 (-11).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include ACWA Power, Engie, Eurus Energy Holdings.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

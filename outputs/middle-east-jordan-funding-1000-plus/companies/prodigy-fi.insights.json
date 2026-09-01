@@ -1,0 +1,299 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T13:00:39.755Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T13:00:39.753Z",
+    "url": "https://www.crunchbase.com/organization/prodigy-fi"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Prodigy.Fi",
+      "shortDescription": "Prodigy.Fi is a decentralized platform dedicated to facilitating income generation through on-chain dual investment trading strategies.",
+      "website": "https://prodigy.fi/",
+      "foundedYear": 2004,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "1-10",
+      "headquarters": "Dubai, United Arab Emirates",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Cryptocurrency",
+        "Decentralized Finance (DeFi)",
+        "Web3"
+      ],
+      "sectors": [
+        "Blockchain and Cryptocurrency",
+        "Financial Services",
+        "Internet Services",
+        "Payments",
+        "Software"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "Smart contract-based vaults allowing users to earn fixed yields by subscribing to buy low or sell high strategies on cryptocurrency assets with predefined strike prices and expirations.",
+        "name": "Dual Investment Vaults"
+      },
+      {
+        "description": "A service enabling liquidity providers to create customized Dual Investment vaults by setting parameters like asset pairs, strike prices, yields, and expiration dates to offer investment opportunities to subscribers.",
+        "name": "Vault Creation Service"
+      },
+      {
+        "description": "A service allowing users to subscribe to existing Dual Investment vaults by depositing assets to earn fixed yields and participate in buy low or sell high strategies based on vault parameters.",
+        "name": "Vault Subscription Service"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 5000000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2025-02-07",
+      "lastFundingType": "Seed",
+      "rounds": [
+        {
+          "announcedDate": "2025-02-07",
+          "amount": {
+            "amount": 5000000,
+            "currency": "USD"
+          },
+          "investorCount": 6,
+          "leadInvestors": [
+            "Quantstamp",
+            "Republic"
+          ],
+          "type": "Seed"
+        }
+      ],
+      "investors": {
+        "reportedCount": 6,
+        "visibleNames": [
+          {
+            "name": "Arbelos Markets",
+            "rounds": [
+              "Seed Round"
+            ]
+          },
+          {
+            "name": "PANONY",
+            "rounds": [
+              "Seed Round"
+            ]
+          },
+          {
+            "isLead": true,
+            "name": "Quantstamp",
+            "rounds": [
+              "Seed Round"
+            ]
+          },
+          {
+            "isLead": true,
+            "name": "Republic",
+            "rounds": [
+              "Seed Round"
+            ]
+          },
+          {
+            "name": "RSK Capital Management",
+            "rounds": [
+              "Seed Round"
+            ]
+          },
+          {
+            "name": "Samara Alpha Management",
+            "rounds": [
+              "Seed Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 1,
+      "includedUniqueCount": 1,
+      "items": [
+        {
+          "date": "2025-02-07",
+          "title": "Seed Round - Prodigy.Fi"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 5000000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": -2,
+      "growthScore": 60,
+      "heatChange90Days": -4,
+      "heatScore": 47
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 30.89
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 84.88
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 34.4
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Binance is a blockchain ecosystem and digital asset exchange platform that provides a wide range of crypto-related services.",
+          "employeeRange": "5,001-10,000",
+          "name": "Binance",
+          "sharedCategories": [
+            "Cryptocurrency",
+            "Web3"
+          ],
+          "sharedSpecialties": [
+            "Cryptocurrency Exchanges",
+            "Tokenization Platforms",
+            "Crypto Custody and Wallets",
+            "Market Making Services",
+            "Risk and Margin Management Platforms"
+          ],
+          "similarityScore": 96
+        },
+        {
+          "description": "OKX is a global digital-asset platform offering crypto trading, investment products, and Web3 services for retail and institutional users.",
+          "employeeRange": "1,001-5,000",
+          "name": "OKX",
+          "sharedCategories": [
+            "Cryptocurrency",
+            "Web3"
+          ],
+          "sharedSpecialties": [
+            "Cryptocurrency Exchanges",
+            "Crypto Custody and Wallets",
+            "Risk and Margin Management Platforms",
+            "Layer 2 Payment Networks"
+          ],
+          "similarityScore": 95
+        },
+        {
+          "description": "Bybit is a global cryptocurrency derivatives exchange designed for all retail traders, professionals, and investment institutions alike.",
+          "employeeRange": "1,001-5,000",
+          "name": "Bybit",
+          "sharedCategories": [
+            "Cryptocurrency"
+          ],
+          "sharedSpecialties": [
+            "Cryptocurrency Exchanges",
+            "Crypto Custody and Wallets",
+            "Market Making Services"
+          ],
+          "similarityScore": 94
+        },
+        {
+          "description": "Gate is a next-generation crypto exchange ranked among the top 3 globally by trading volume and liquidity.",
+          "employeeRange": "501-1,000",
+          "name": "Gate",
+          "sharedCategories": [
+            "Cryptocurrency"
+          ],
+          "sharedSpecialties": [
+            "Cryptocurrency Exchanges",
+            "Tokenization Platforms",
+            "Crypto Custody and Wallets",
+            "Market Making Services",
+            "Risk and Margin Management Platforms"
+          ],
+          "similarityScore": 90
+        },
+        {
+          "description": "Coinbase is a crypto exchange and wallet platform that allows merchants and consumers to buy, sell, and store digital currencies.",
+          "employeeRange": "5,001-10,000",
+          "name": "Coinbase",
+          "sharedCategories": [
+            "Cryptocurrency"
+          ],
+          "sharedSpecialties": [
+            "Cryptocurrency Exchanges",
+            "Crypto Custody and Wallets"
+          ],
+          "similarityScore": 88
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Seed round raised $5,000,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 60 (-2 over 90 days) and market heat at 47 (-4).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Binance, OKX, Bybit.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

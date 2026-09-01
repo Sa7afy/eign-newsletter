@@ -1,0 +1,252 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T13:36:40.481Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T13:36:40.479Z",
+    "url": "https://www.crunchbase.com/organization/tadbiir-for-financial-services"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Tadbiir For Financial Services",
+      "shortDescription": "Tadbiir For Financial Services provides leasing, factoring, and real estate investment solutions for SMEs and retail clients.",
+      "description": "Tadbiir For Financial Services offers a comprehensive range of non-banking financial services, including leasing and factoring. The company focuses on providing innovative and timely financial solutions to SMEs and retail clients, aiming to improve their quality of life. Tadbiir also assists clients in investing in real estate, both residential and commercial, and offers services to furnish units. The company operates as a hub for sustainable financial growth, catering to diverse financial needs.",
+      "website": "https://tadbiir.com/",
+      "foundedYear": 2022,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "11-50",
+      "estimatedRevenueRange": "$1M-$10M",
+      "headquarters": "Mataria, Al Qahirah, Egypt",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Middle East",
+        "Middle East and North Africa (MENA)",
+        "North Africa"
+      ],
+      "industries": [
+        "Financial Services",
+        "Leasing",
+        "Real Estate Investment"
+      ],
+      "sectors": [
+        "Financial Services",
+        "Real Estate"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "Provides leasing solutions for small and medium enterprises and retail clients, allowing them to acquire assets without immediate full payment.",
+        "name": "Leasing"
+      },
+      {
+        "description": "Offers factoring services to businesses, enabling them to sell their accounts receivable for immediate cash flow.",
+        "name": "Factoring"
+      },
+      {
+        "description": "Engages in real estate investment activities, providing opportunities for clients to invest in property markets.",
+        "name": "Real Estate Investment"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 1614739,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2025-07-13",
+      "lastFundingType": "Debt Financing",
+      "rounds": [
+        {
+          "announcedDate": "2025-07-13",
+          "amount": {
+            "amount": 1614739,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "MSMEDA - The Micro, Small, and Medium Enterprises Development Agency"
+          ],
+          "type": "Debt Financing"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "MSMEDA - The Micro, Small, and Medium Enterprises Development Agency",
+            "rounds": [
+              "Debt Financing"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 1,
+      "includedUniqueCount": 1,
+      "items": [
+        {
+          "date": "2025-07-13",
+          "title": "Debt Financing - Tadbiir For Financial Services"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 1614739,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": -1,
+      "growthScore": 86,
+      "heatChange90Days": -4,
+      "heatScore": 70
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 29.02
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 35.89,
+        "timingEstimatePercent": {
+          "within6Months": 1.39,
+          "months6To11": 0,
+          "months12To24": 0,
+          "beyond24Months": 98.6
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 75.39
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 4.59
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "GB Lease & Factoring offers customized finance solutions to satisfy organizations' operating and growth requirements.",
+          "employeeRange": "501-1,000",
+          "name": "GB Lease & Factoring",
+          "sharedCategories": [
+            "Financial Services"
+          ],
+          "similarityScore": 97
+        },
+        {
+          "description": "True Finance Lease provides financial services including asset finance, working capital, and construction finance.",
+          "employeeRange": "11-50",
+          "name": "True Finance Lease",
+          "sharedCategories": [
+            "Leasing",
+            "Financial Services"
+          ],
+          "sharedSpecialties": [
+            "Invoice Factoring",
+            "Asset-Based Lending",
+            "Equipment Financing",
+            "Equipment Leasing"
+          ],
+          "similarityScore": 90
+        },
+        {
+          "description": "valU is a fintech company that provides buy now, pay later, and customized financial solutions.",
+          "employeeRange": "501-1,000",
+          "name": "valU",
+          "sharedCategories": [
+            "Financial Services"
+          ],
+          "similarityScore": 85
+        },
+        {
+          "description": "Al Ahly Pharos an Egyptian firm offering securities brokerage and investment banking services under Al Ahly Capital Holding.",
+          "employeeRange": "101-250",
+          "name": "Al Ahly Pharos",
+          "sharedCategories": [
+            "Financial Services"
+          ],
+          "similarityScore": 85
+        },
+        {
+          "description": "Abu Dhabi Islamic Bank is a commercial bank that specialises in personal loans, retail, corporate, and investment banking.",
+          "employeeRange": "1,001-5,000",
+          "name": "Abu Dhabi Islamic Bank Egypt",
+          "sharedCategories": [
+            "Financial Services"
+          ],
+          "similarityScore": 83
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Debt Financing round raised $1,614,739, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 86 (-1 over 90 days) and market heat at 70 (-4).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include GB Lease & Factoring, True Finance Lease, valU.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

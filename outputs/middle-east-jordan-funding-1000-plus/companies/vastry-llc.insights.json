@@ -1,0 +1,235 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T13:53:03.741Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T13:53:03.739Z",
+    "url": "https://www.crunchbase.com/organization/vastry-llc"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Vastry LLC",
+      "shortDescription": "Software Development , Marketing and professional services",
+      "website": "https://vastry.com/",
+      "operatingStatus": "Closed",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "1-10",
+      "estimatedRevenueRange": "Less than $1M",
+      "headquarters": "Doha, Ad Dawhah, Qatar",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "E-Commerce",
+        "Electronics",
+        "Hardware",
+        "Marketing"
+      ],
+      "sectors": [
+        "Commerce and Shopping",
+        "Hardware",
+        "Sales and Marketing"
+      ],
+      "founders": [
+        "Ehab Nagip"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "Service offering the sale of domain names with options for immediate purchase or payment plans.",
+        "name": "Domain Name Sales"
+      },
+      {
+        "description": "A financing option allowing customers to pay for domain names over time with zero percent interest and no credit check.",
+        "name": "Domain Name Payment Plans"
+      },
+      {
+        "description": "A service to hide domain ownership information from public Whois databases to protect personal information.",
+        "name": "WhoIs Privacy Protection"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 30000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2022-04-01",
+      "lastFundingType": "Pre Seed",
+      "rounds": [
+        {
+          "announcedDate": "2022-04-01",
+          "amount": {
+            "amount": 30000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "postMoneyValuation": {
+            "amount": 715000,
+            "currency": "USD"
+          },
+          "type": "Pre Seed"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "name": "Qatar Business Incubation Center",
+            "rounds": [
+              "Pre Seed Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 1,
+      "includedUniqueCount": 1,
+      "items": [
+        {
+          "date": "2022-04-01",
+          "title": "Pre Seed Round - Vastry LLC"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 30000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "heatChange90Days": -5,
+      "heatScore": 40
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2025-09-22",
+        "probabilityPercent": 33.53
+      },
+      "funding": {
+        "generatedDate": "2025-11-15",
+        "probabilityPercent": 32.6,
+        "timingEstimatePercent": {
+          "within6Months": 14.14,
+          "months6To11": 12.14,
+          "months12To24": 19.38,
+          "beyond24Months": 24.81
+        }
+      },
+      "growth": {
+        "generatedDate": "2025-11-15",
+        "probabilityPercent": 47.94
+      },
+      "ipo": {
+        "generatedDate": "2025-09-22",
+        "probabilityPercent": 3.97
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Namecheap provides domain registration, hosting, and security products for online presence.",
+          "employeeRange": "1,001-5,000",
+          "name": "Namecheap",
+          "similarityScore": 96
+        },
+        {
+          "description": "GoDaddy is a commerce and web services company providing domains, websites, marketing, payment processing, and AI to help business grow.",
+          "employeeRange": "5,001-10,000",
+          "name": "GoDaddy",
+          "sharedCategories": [
+            "E-Commerce"
+          ],
+          "similarityScore": 95
+        },
+        {
+          "description": "Porkbun is a domain name registrar and web hosting company.",
+          "employeeRange": "1-10",
+          "name": "Porkbun",
+          "similarityScore": 93
+        },
+        {
+          "description": "NameSilo is a low-cost provider of domain name registration and web hosting services.",
+          "employeeRange": "11-50",
+          "name": "NameSilo",
+          "similarityScore": 91
+        },
+        {
+          "description": "Dynadot is an ICANN accredited domain name registrar and web host.",
+          "employeeRange": "51-100",
+          "name": "Dynadot",
+          "similarityScore": 87
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Pre Seed round raised $30,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $715,000 to $715,000, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Namecheap, GoDaddy, Porkbun.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

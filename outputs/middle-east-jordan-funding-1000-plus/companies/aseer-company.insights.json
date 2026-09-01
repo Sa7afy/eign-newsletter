@@ -1,0 +1,194 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T09:17:24.247Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T09:17:24.246Z",
+    "url": "https://www.crunchbase.com/organization/aseer-company"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Sinad Holding Company",
+      "shortDescription": "Aseer Company is a multi-activities firm focused in various sectors namely food processing , electrical and electronic home appliances.",
+      "description": "Aseer Company is established for trade, tourism, agriculture, industry, real estate, and contracting. This is a public joint-stock company. They engage in the field of fertilizer and pesticide trade. The company focuses on investments in the tourism sector and transforming itself into an investment holding company.",
+      "website": "https://sinadholding.com/en/home-2/",
+      "operatingStatus": "Active",
+      "ownershipStatus": "Public",
+      "companyType": "For profit",
+      "employeeRange": "1-10",
+      "estimatedRevenueRange": "$100M-$500M",
+      "headquarters": "Riyadh, Ar Riyad, Saudi Arabia",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Electronics",
+        "Food Processing",
+        "Health Care",
+        "Home Appliances",
+        "Impact Investing",
+        "Manufacturing",
+        "Real Estate",
+        "Service Industry"
+      ],
+      "sectors": [
+        "Consumer Goods",
+        "Financial Services",
+        "Food and Beverage",
+        "Hardware",
+        "Health Care",
+        "Lending and Investments",
+        "Manufacturing",
+        "Other",
+        "Real Estate"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 79905541,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2026-06-11",
+      "lastFundingType": "Post IPO Debt",
+      "rounds": [
+        {
+          "announcedDate": "2026-06-11",
+          "amount": {
+            "amount": 79905541,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "Alinma Bank"
+          ],
+          "type": "Post IPO Debt"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "Alinma Bank",
+            "rounds": [
+              "Post-IPO Debt"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 4,
+      "includedUniqueCount": 4,
+      "items": [
+        {
+          "date": "2026-06-11",
+          "title": "Post-IPO Debt - Sinad Holding Company"
+        },
+        {
+          "date": "2026-06-11",
+          "publisher": "Zawya.com",
+          "title": "Sinad Holding secures $80mln credit facility from Alinma Bank",
+          "url": "https://www.zawya.com/en/business/banking-and-insurance/sinad-holding-secures-80mln-credit-facility-from-alinma-bank-oxpj7lmp"
+        },
+        {
+          "date": "2026-03-12",
+          "publisher": "TradingView",
+          "title": "Sinad Holding FY Loss 14.8 Million Riyals",
+          "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN4001SB:0-sinad-holding-fy-loss-14-8-million-riyals/"
+        },
+        {
+          "date": "1977-01-05",
+          "title": "4080"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 79905541,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": 0,
+      "growthScore": 93,
+      "heatChange90Days": 57,
+      "heatScore": 72
+    },
+    "modelPredictions": {
+      "growth": {
+        "generatedDate": "2026-06-06",
+        "probabilityPercent": 95.73
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors."
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Post IPO Debt round raised $79,905,541, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 93 (+0 over 90 days) and market heat at 72 (+57).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Strategic repositioning and listing coverage shape the current narrative",
+      "statement": "Sinad Holding Company has a recent strategic-positioning change; 1 recent unique news titles explicitly contain the English terms IPO or listing.",
+      "implication": "Their timing coincides with increased visibility in the loaded news and Crunchbase momentum signals, but the data does not establish causation.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.company.formerName",
+        "facts.recentNews",
+        "providerSignals.crunchbaseMomentum"
+      ],
+      "caveats": [
+        "The causal link to Crunchbase momentum is an inference from timing, not a disclosed company metric."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

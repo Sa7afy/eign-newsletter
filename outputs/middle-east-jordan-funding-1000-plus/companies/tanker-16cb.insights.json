@@ -1,0 +1,212 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T13:38:00.701Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T13:38:00.700Z",
+    "url": "https://www.crunchbase.com/organization/tanker-16cb"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "TANKER",
+      "shortDescription": "TANKER provides a digital system to monitor and manage fuel consumption in logistics and transportation fleets.",
+      "website": "https://www.egtanker.com/",
+      "foundedYear": 2006,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "51-100",
+      "headquarters": "Cairo, Al Qahirah, Egypt",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Middle East",
+        "Middle East and North Africa (MENA)",
+        "North Africa"
+      ],
+      "industries": [
+        "Oil and Gas"
+      ],
+      "sectors": [
+        "Energy",
+        "Natural Resources"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 9888,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2025-08-07",
+      "lastFundingType": "Non Equity Assistance",
+      "rounds": [
+        {
+          "announcedDate": "2025-08-07",
+          "amount": {
+            "amount": 9888,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "Technology Innovation and Entrepreneurship Center"
+          ],
+          "type": "Non Equity Assistance"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "Technology Innovation and Entrepreneurship Center",
+            "rounds": [
+              "Non Equity Assistance"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 1,
+      "includedUniqueCount": 1,
+      "items": [
+        {
+          "date": "2025-08-07",
+          "title": "Non Equity Assistance - TANKER"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 9888,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": 1,
+      "growthScore": 48,
+      "heatChange90Days": -17,
+      "heatScore": 30
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 29.52
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 35.54,
+        "timingEstimatePercent": {
+          "within6Months": 0.06,
+          "months6To11": 0,
+          "months12To24": 0,
+          "beyond24Months": 99.94
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 89.88
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 8.8
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Geotab is a provider of secure Open Platform telematics technology for GPS fleet management.",
+          "employeeRange": "1,001-5,000",
+          "name": "Geotab",
+          "similarityScore": 97
+        },
+        {
+          "description": "Built with operators, for operators.",
+          "employeeRange": "1,001-5,000",
+          "name": "Samsara",
+          "similarityScore": 95
+        },
+        {
+          "description": "Motive is a fleet management and driver safety platform that helps improve the safety, productivity, and profitability of fleet operations.",
+          "employeeRange": "1,001-5,000",
+          "name": "Motive",
+          "similarityScore": 93
+        },
+        {
+          "description": "Verizon Connect is a guiding connected world on the go by automating, optimizing and revolutionizing the way people.",
+          "employeeRange": "1,001-5,000",
+          "name": "Verizon Connect",
+          "similarityScore": 91
+        },
+        {
+          "description": "A leading global provider of fleet and mobile asset management solutions.",
+          "employeeRange": "501-1,000",
+          "name": "MiX Telematics",
+          "similarityScore": 87
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Non Equity Assistance round raised $9,888, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 48 (+1 over 90 days) and market heat at 30 (-17).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Geotab, Samsara, Motive.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

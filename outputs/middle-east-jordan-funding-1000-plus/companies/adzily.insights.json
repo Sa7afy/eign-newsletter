@@ -1,0 +1,195 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T08:59:38.379Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T08:59:38.377Z",
+    "url": "https://www.crunchbase.com/organization/adzily"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Adzily",
+      "shortDescription": "Adzily is a digital advertising platform that mix between traditional advertising and digital advertising.",
+      "description": "Adzily is a digital advertising platform that mixes between traditional advertising and digital advertising. Users can reach their audience using Display screens and get rich audience insights available on digital advertising as well. Adzily is the first indoor advertising platform in MENA. The network is available in the most crowded places such as Cafes, Restaurants, and Gyms.\n\nIt was founded in 2018 by Ahmed Ashoor, Mostafa Hendawy, Mostafa Kamshish, and Mohamed Ossman. It is headquartered in Sheikh Zayed City, Egypt.",
+      "website": "https://www.adzily.com/",
+      "foundedYear": 2018,
+      "operatingStatus": "Closed",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "51-100",
+      "estimatedRevenueRange": "$1M-$10M",
+      "headquarters": "Sharm El-sheikh, Janub Sina', Egypt",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Middle East",
+        "Middle East and North Africa (MENA)",
+        "North Africa"
+      ],
+      "industries": [
+        "Advertising",
+        "Digital Marketing",
+        "Digital Media"
+      ],
+      "sectors": [
+        "Advertising",
+        "Media and Entertainment",
+        "Sales and Marketing"
+      ],
+      "founders": [
+        "Ahmed Ashoor",
+        "Mohamed Ossman",
+        "Mostafa Hendawy",
+        "Mostafa Kamshish"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 12200000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2019-11-27",
+      "lastFundingType": "Venture round",
+      "rounds": [
+        {
+          "announcedDate": "2019-11-27",
+          "amount": {
+            "amount": 12200000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "Tharawat Holding"
+          ],
+          "type": "Venture round"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "Tharawat Holding",
+            "rounds": [
+              "Venture round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 1,
+      "includedUniqueCount": 1,
+      "items": [
+        {
+          "date": "2019-11-27",
+          "title": "Venture Round - Adzily"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 12200000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "heatChange90Days": -3,
+      "heatScore": 13
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Digital Signage Software Solutions",
+          "employeeRange": "251-500",
+          "name": "Broadsign",
+          "sharedCategories": [
+            "Advertising"
+          ],
+          "similarityScore": 95
+        },
+        {
+          "description": "DoohClick AB is a Swedish based company which develops and provides out of home ad serving ecosystems",
+          "employeeRange": "1-10",
+          "name": "Doohclick AB",
+          "similarityScore": 94
+        },
+        {
+          "description": "Hivestack is a full-stack marketing technology company fueling the buy and sell side of programmatic digital out of home (DOOH) advertising.",
+          "employeeRange": "51-100",
+          "name": "Hivestack",
+          "sharedCategories": [
+            "Advertising",
+            "Digital Marketing"
+          ],
+          "similarityScore": 93
+        },
+        {
+          "description": "Azerion is a media- and technology company that provides safe, reliable and valuable content on a European scale with local presence.",
+          "employeeRange": "1,001-5,000",
+          "name": "Azerion",
+          "similarityScore": 89
+        },
+        {
+          "description": "Vistar Media is a provider of technology solutions for digital-out-of-home (DOOH) advertisements.",
+          "employeeRange": "101-250",
+          "name": "Vistar Media",
+          "sharedCategories": [
+            "Digital Media",
+            "Advertising"
+          ],
+          "similarityScore": 87
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Venture round round raised $12,200,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Broadsign, Doohclick AB, Hivestack.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

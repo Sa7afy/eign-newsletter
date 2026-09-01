@@ -1,0 +1,219 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T10:55:47.152Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T10:55:47.150Z",
+    "url": "https://www.crunchbase.com/organization/baggr"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "BAGGR",
+      "shortDescription": "BAGGR is an all in-one multi-carrier shipping & business solutions platform for e-commerce SMEs.",
+      "description": "BAGGR is an all-in-one multi-carrier shipping & business solutions platform. E-commerce merchants can now seamlessly manage their shipping operations, and track their shipments. And access a wide range of services (Inventory management system, Order management system &CRM) to enhance their business operations through an all-in-one workspace",
+      "website": "https://www.baggr.org/home",
+      "operatingStatus": "Closed",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "1-10",
+      "estimatedRevenueRange": "Less than $1M",
+      "headquarters": "Cairo, Al Qahirah, Egypt",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Middle East",
+        "Middle East and North Africa (MENA)",
+        "North Africa"
+      ],
+      "industries": [
+        "Information Technology",
+        "Software"
+      ],
+      "sectors": [
+        "Information Technology",
+        "Software"
+      ],
+      "founders": [
+        "Mohamed Ibrahim"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "A platform for e-commerce merchants to access discounted shipping rates from multiple carriers and print labels in one place.",
+        "name": "Online Shipping Software Solution"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 50000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2023-03-01",
+      "lastFundingType": "Pre Seed",
+      "rounds": [
+        {
+          "announcedDate": "2023-03-01",
+          "amount": {
+            "amount": 50000,
+            "currency": "USD"
+          },
+          "investorCount": 2,
+          "type": "Pre Seed"
+        }
+      ],
+      "investors": {
+        "reportedCount": 2,
+        "visibleNames": [
+          {
+            "name": "MARL 5G Accelerator",
+            "rounds": [
+              "Pre Seed Round"
+            ]
+          },
+          {
+            "name": "Right Side Capital Management",
+            "rounds": [
+              "Pre Seed Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 1,
+      "includedUniqueCount": 1,
+      "items": [
+        {
+          "date": "2023-03-01",
+          "title": "Pre Seed Round - BAGGR"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 50000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "heatChange90Days": 7,
+      "heatScore": 63
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2025-07-05",
+        "probabilityPercent": 29.07
+      },
+      "funding": {
+        "generatedDate": "2025-07-05",
+        "probabilityPercent": 44.74,
+        "timingEstimatePercent": {
+          "within6Months": 15.54,
+          "months6To11": 13.13,
+          "months12To24": 20.45,
+          "beyond24Months": 24.99
+        }
+      },
+      "growth": {
+        "generatedDate": "2025-01-11",
+        "probabilityPercent": 93.37
+      },
+      "ipo": {
+        "generatedDate": "2025-07-05",
+        "probabilityPercent": 0.69
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "We help eCommerce merchants create shipping labels ship and fulfill their products no matter where they sell or how they ship.",
+          "employeeRange": "101-250",
+          "name": "ShipStation",
+          "sharedCategories": [
+            "Software"
+          ],
+          "similarityScore": 97
+        },
+        {
+          "description": "Shippo is a shipping platform with tools for label creation, tracking, and carrier comparisons, saving time and cost.",
+          "employeeRange": "101-250",
+          "name": "Shippo",
+          "sharedCategories": [
+            "Software"
+          ],
+          "similarityScore": 95
+        },
+        {
+          "description": "Easyship empowers eCommerce sellers with worldwide shipping.",
+          "employeeRange": "101-250",
+          "name": "Easyship",
+          "similarityScore": 93
+        },
+        {
+          "description": "ShippingEasy is cloud-based shipping software enabling online retailers to download orders from multiple stores and ship them out.",
+          "employeeRange": "11-50",
+          "name": "Shipping Easy",
+          "similarityScore": 91
+        },
+        {
+          "description": "Pirate Ship offers the cheapest USPS discounts available.",
+          "employeeRange": "51-100",
+          "name": "Pirate Ship",
+          "sharedCategories": [
+            "Software"
+          ],
+          "similarityScore": 89
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Pre Seed round raised $50,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include ShipStation, Shippo, Easyship.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

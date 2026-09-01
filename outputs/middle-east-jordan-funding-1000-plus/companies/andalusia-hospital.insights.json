@@ -1,0 +1,205 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T09:13:20.328Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T09:13:20.326Z",
+    "url": "https://www.crunchbase.com/organization/andalusia-hospital"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Andalusia Hospital",
+      "shortDescription": "Andalusia Egypt offers healthcare services across multiple specialties, focusing on patient health and safety.",
+      "description": "Andalusia Egypt operates in the healthcare sector, providing a wide range of medical services across various specialties. Established in 1989, it has grown to include multiple clinics and hospitals, focusing on enhancing patient health and safety through the adoption of the latest medical technologies. Its facilities offer comprehensive healthcare services, including internal medicine and numerous other medical specialties, aiming to deliver quality care. Andalusia Egypt employs a team of highly skilled doctors and healthcare professionals dedicated to improving patient outcomes.",
+      "website": "https://www.andalusiaegypt.com/",
+      "foundedYear": 1989,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "5,001-10,000",
+      "headquarters": "Alexandria, Al Iskandariyah, Egypt",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Middle East",
+        "Middle East and North Africa (MENA)",
+        "North Africa"
+      ],
+      "industries": [
+        "Health Care",
+        "Hospital",
+        "Wellness"
+      ],
+      "sectors": [
+        "Health Care"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "Provision of healthcare services across various medical specialties to diagnose, treat, and manage patient health conditions.",
+        "name": "General Medical Care"
+      },
+      {
+        "description": "Diagnosis and treatment of musculoskeletal system disorders including bones, joints, ligaments, and muscles.",
+        "name": "Orthopedic Services"
+      },
+      {
+        "description": "Medical care related to female reproductive health, pregnancy, and childbirth.",
+        "name": "Obstetrics and Gynecology"
+      },
+      {
+        "description": "Diagnosis and treatment of disorders affecting the ear, nose, and throat regions.",
+        "name": "Ear, Nose, and Throat (ENT) Services"
+      },
+      {
+        "description": "Management and treatment of hormonal and metabolic disorders such as diabetes and thyroid diseases.",
+        "name": "Endocrinology Services"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 12400000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2026-05-06",
+      "lastFundingType": "Debt Financing",
+      "rounds": [
+        {
+          "announcedDate": "2026-05-06",
+          "amount": {
+            "amount": 12400000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "Banque Misr"
+          ],
+          "type": "Debt Financing"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "Banque Misr",
+            "rounds": [
+              "Debt Financing"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 3,
+      "includedUniqueCount": 3,
+      "items": [
+        {
+          "date": "2026-05-11",
+          "publisher": "Zawya.com",
+          "title": "Banque Misr funds Andalusia Hospital Maadi expansion",
+          "url": "https://www.zawya.com/en/business/healthcare/banque-misr-funds-andalusia-hospital-maadi-expansion-x9okn7tp"
+        },
+        {
+          "date": "2026-05-10",
+          "publisher": "Daily Star Egypt",
+          "title": "Banque Misr funds Andalusia Hospital Maadi expansion with EGP 300m, $6.5m over 8 years",
+          "url": "https://www.dailynewsegypt.com/2026/05/10/banque-misr-funds-andalusia-hospital-maadi-expansion-with-egp-300m-6-5m-over-8-years/"
+        },
+        {
+          "date": "2026-05-06",
+          "title": "Debt Financing - Andalusia Hospital"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 12400000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthInsightGeneratedDate": "2026-06-07",
+      "growthChange90Days": -6,
+      "growthScore": 89,
+      "heatChange90Days": -27,
+      "heatScore": 61,
+      "status": "Growing"
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 32.88
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 0.26,
+        "timingEstimatePercent": {
+          "within6Months": 2.41,
+          "months6To11": 0,
+          "months12To24": 0,
+          "beyond24Months": 97.59
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 94.45
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 31.49
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors."
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Debt Financing round raised $12,400,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 89 (-6 over 90 days) and market heat at 61 (-27).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

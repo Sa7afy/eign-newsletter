@@ -1,0 +1,5138 @@
+{
+  "sourceUrl": "https://www.crunchbase.com/organization/mabanee",
+  "pageTitle": "mabanee",
+  "scrapedAt": "2026-09-01T12:23:28.170Z",
+  "extraction": {
+    "authenticated": true,
+    "method": "curl-cffi-authenticated-entity-fetch-no-browser"
+  },
+  "organization": {
+    "properties": {
+      "facet_ids": [
+        "ai_insight",
+        "builtwith",
+        "company",
+        "contact",
+        "key_event",
+        "rank",
+        "semrush"
+      ],
+      "identifier": {
+        "uuid": "9fd71e2a-dfbd-4214-a103-cf3acd2c3d08",
+        "value": "Mabanee",
+        "image_id": "ykjz1kjmhanfsjuapqqy",
+        "permalink": "mabanee",
+        "entity_def_id": "organization"
+      },
+      "category_groups": [
+        {
+          "uuid": "598c79bd-1265-cc6b-4349-13169afd9654",
+          "value": "Real Estate",
+          "permalink": "real-estate-598c",
+          "entity_def_id": "category_group"
+        }
+      ],
+      "short_description": "Mabanee operates in the business of real estate development.",
+      "rank_delta_d90": -2.1,
+      "title": "Mabanee"
+    },
+    "cards": {
+      "semrush_summary": {
+        "identifier": {
+          "uuid": "9fd71e2a-dfbd-4214-a103-cf3acd2c3d08",
+          "value": "Mabanee",
+          "image_id": "ykjz1kjmhanfsjuapqqy",
+          "permalink": "mabanee",
+          "entity_def_id": "organization"
+        },
+        "semrush_global_rank": 3283269,
+        "semrush_visits_latest_month": 4723
+      },
+      "key_employee_change_list": [],
+      "apptopia_attribution": {},
+      "diversity_spotlight_investments_headline": {},
+      "apptopia_app_rating_list": [],
+      "funds_summary": {
+        "identifier": {
+          "uuid": "9fd71e2a-dfbd-4214-a103-cf3acd2c3d08",
+          "value": "Mabanee",
+          "image_id": "ykjz1kjmhanfsjuapqqy",
+          "permalink": "mabanee",
+          "entity_def_id": "organization"
+        }
+      },
+      "funding_prediction": [],
+      "company_about_fields1": {},
+      "current_advisors_image_list": [],
+      "recommended_search": [
+        {
+          "identifier": {
+            "permalink": "property-development-public-companies",
+            "image_id": "db10834489cd428dbb09a22dc48a697d",
+            "uuid": "7d6109cb-73dc-4626-95b5-55ecc5387aa0",
+            "entity_def_id": "hub",
+            "value": "Property Development Public Companies"
+          },
+          "org_identifiers": [
+            {
+              "permalink": "rio-grande-resources",
+              "image_id": "db10834489cd428dbb09a22dc48a697d",
+              "uuid": "5651faa7-3e81-483a-a6ba-45e8262a80c4",
+              "entity_def_id": "organization",
+              "value": "Rio Grande Resources"
+            },
+            {
+              "permalink": "wework",
+              "image_id": "mqydkuriqyctx0vamfop",
+              "uuid": "eeacbc1a-04f3-48a8-dae7-3fc0aa8e9485",
+              "entity_def_id": "organization",
+              "value": "WeWork"
+            },
+            {
+              "permalink": "nivika-fastigheter",
+              "image_id": "czsjc5v5zxk4nkzdltwa",
+              "uuid": "79b3f4da-64f4-409c-850c-f1a10315295c",
+              "entity_def_id": "organization",
+              "value": "Nivika"
+            },
+            {
+              "permalink": "cbre-group",
+              "image_id": "v1404384012/xihpwrgec1wtydjkjyqi.png",
+              "uuid": "acc267bc-355e-2692-8429-42bb3d8da5c2",
+              "entity_def_id": "organization",
+              "value": "CBRE Group"
+            },
+            {
+              "permalink": "avalonbay",
+              "image_id": "rxaorsyzwgxttpc74feo",
+              "uuid": "55d9d7b2-3c0a-f750-6388-174164320bdc",
+              "entity_def_id": "organization",
+              "value": "AvalonBay Communities"
+            },
+            {
+              "permalink": "opendoor-2",
+              "image_id": "v1485485992/cqds3dxjkyw6y68f5u8w.jpg",
+              "uuid": "edfa0214-f0fa-98ec-3a59-fe77919956cd",
+              "entity_def_id": "organization",
+              "value": "Opendoor Technologies"
+            },
+            {
+              "permalink": "adani-ports",
+              "image_id": "ql8a9r99kjjsfl7alkgj",
+              "uuid": "210c32b5-cd13-dcc0-5279-36d172009392",
+              "entity_def_id": "organization",
+              "value": "Adani Ports"
+            },
+            {
+              "permalink": "darglobal",
+              "image_id": "n2f1prwmjmbexvsjxnto",
+              "uuid": "e6af0c8d-c13d-43db-9b99-84fb7d973b6e",
+              "entity_def_id": "organization",
+              "value": "DarGlobal"
+            }
+          ],
+          "org_funding_total": {
+            "currency": "USD",
+            "value": 97657135357,
+            "value_usd": 97657135357
+          },
+          "org_num_investors": 255,
+          "org_num": 834,
+          "queries": {
+            "event": [
+              {
+                "field_id": "categories",
+                "operator_id": "includes",
+                "values": [
+                  "8256b6a2-134f-d28e-a78c-c606ce4e0b97"
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "principal.has_event.forward",
+                "query": [
+                  {
+                    "field_id": "facet_ids",
+                    "operator_id": "includes",
+                    "values": [
+                      "company"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "funding_stage",
+                    "operator_id": "eq",
+                    "values": [
+                      "ipo"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "active"
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ],
+            "organization": [
+              {
+                "field_id": "facet_ids",
+                "operator_id": "includes",
+                "values": [
+                  "company"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "categories",
+                "operator_id": "includes",
+                "values": [
+                  "8256b6a2-134f-d28e-a78c-c606ce4e0b97"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "funding_stage",
+                "operator_id": "eq",
+                "values": [
+                  "ipo"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "operating_status",
+                "operator_id": "eq",
+                "values": [
+                  "active"
+                ],
+                "type": "predicate"
+              }
+            ],
+            "person": [
+              {
+                "collection_id": "organization.has_primary_organization.forward",
+                "query": [
+                  {
+                    "field_id": "facet_ids",
+                    "operator_id": "includes",
+                    "values": [
+                      "company"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "categories",
+                    "operator_id": "includes",
+                    "values": [
+                      "8256b6a2-134f-d28e-a78c-c606ce4e0b97"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "funding_stage",
+                    "operator_id": "eq",
+                    "values": [
+                      "ipo"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "active"
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ]
+          }
+        },
+        {
+          "identifier": {
+            "permalink": "europe-middle-east-and-africa-real-estate-public-companies",
+            "image_id": "yyabyzxh9zi97cbylyln",
+            "uuid": "791274f3-6fe0-461c-ad86-601cb91f28b9",
+            "entity_def_id": "hub",
+            "value": "Europe, Middle East, and Africa (EMEA) Real Estate Public Companies"
+          },
+          "org_identifiers": [
+            {
+              "permalink": "iqm",
+              "image_id": "yyabyzxh9zi97cbylyln",
+              "uuid": "b0f71e17-bc64-42bb-9608-da173cc668db",
+              "entity_def_id": "organization",
+              "value": "IQM Quantum Computers"
+            },
+            {
+              "permalink": "park-in",
+              "image_id": "jwa8emjnok8vdo3vfjz3",
+              "uuid": "0424ab92-06f3-4914-91e2-964a4fe16f54",
+              "entity_def_id": "organization",
+              "value": "Park'IN"
+            },
+            {
+              "permalink": "nivika-fastigheter",
+              "image_id": "czsjc5v5zxk4nkzdltwa",
+              "uuid": "79b3f4da-64f4-409c-850c-f1a10315295c",
+              "entity_def_id": "organization",
+              "value": "Nivika"
+            },
+            {
+              "permalink": "rent-guarantor",
+              "image_id": "c6gjsaprplvljlruhebz",
+              "uuid": "37cd28dc-bb6c-4ba3-9891-d7ae74fea4b4",
+              "entity_def_id": "organization",
+              "value": "Rent Guarantor"
+            },
+            {
+              "permalink": "first-avenue-real-estate-development",
+              "image_id": "562f649cda924d948113992c67cbb7c5",
+              "uuid": "0f7b9d41-856a-4c64-87f5-806ac50d34f3",
+              "entity_def_id": "organization",
+              "value": "First Avenue Real Estate Development"
+            },
+            {
+              "permalink": "ctp-aea3",
+              "image_id": "h3xohmvercfsnqzwptwi",
+              "uuid": "829cde00-6607-4f86-a258-11a2763eaea3",
+              "entity_def_id": "organization",
+              "value": "CTP"
+            },
+            {
+              "permalink": "international-holding-company",
+              "image_id": "ihcukiky3yfflnnmdyla",
+              "uuid": "5b5f7b87-e76f-4a3c-a855-3739ff3a5bdf",
+              "entity_def_id": "organization",
+              "value": "International Holding Company"
+            },
+            {
+              "permalink": "aldar-properties",
+              "image_id": "v1397185621/412d0c003c2f4b2405b64fbf26eb56dd.png",
+              "uuid": "aaad1bc3-ac66-f03c-4a71-98d258c0d903",
+              "entity_def_id": "organization",
+              "value": "Aldar Properties"
+            }
+          ],
+          "org_funding_total": {
+            "currency": "USD",
+            "value": 103063420891,
+            "value_usd": 103063420891
+          },
+          "org_num_investors": 296,
+          "org_num": 828,
+          "queries": {
+            "event": [
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "4e8be435-c63a-4aff-8a2f-44a880d9c341"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "categories",
+                "operator_id": "includes",
+                "values": [
+                  "a326e225-acb8-f9c0-abfe-609a82b71965"
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "principal.has_event.forward",
+                "query": [
+                  {
+                    "field_id": "facet_ids",
+                    "operator_id": "includes",
+                    "values": [
+                      "company"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "funding_stage",
+                    "operator_id": "eq",
+                    "values": [
+                      "ipo"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "active"
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ],
+            "organization": [
+              {
+                "field_id": "facet_ids",
+                "operator_id": "includes",
+                "values": [
+                  "company"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "4e8be435-c63a-4aff-8a2f-44a880d9c341"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "categories",
+                "operator_id": "includes",
+                "values": [
+                  "a326e225-acb8-f9c0-abfe-609a82b71965"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "funding_stage",
+                "operator_id": "eq",
+                "values": [
+                  "ipo"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "operating_status",
+                "operator_id": "eq",
+                "values": [
+                  "active"
+                ],
+                "type": "predicate"
+              }
+            ],
+            "person": [
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "4e8be435-c63a-4aff-8a2f-44a880d9c341"
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "organization.has_primary_organization.forward",
+                "query": [
+                  {
+                    "field_id": "facet_ids",
+                    "operator_id": "includes",
+                    "values": [
+                      "company"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "location_identifiers",
+                    "operator_id": "includes",
+                    "values": [
+                      "4e8be435-c63a-4aff-8a2f-44a880d9c341"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "categories",
+                    "operator_id": "includes",
+                    "values": [
+                      "a326e225-acb8-f9c0-abfe-609a82b71965"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "funding_stage",
+                    "operator_id": "eq",
+                    "values": [
+                      "ipo"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "active"
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ]
+          }
+        },
+        {
+          "identifier": {
+            "permalink": "middle-east-companies-more-than-10-employees",
+            "image_id": "216886c7d09c49d39cce6277f342d12d",
+            "uuid": "778bddc6-20cb-4363-9ea4-0697a933c63f",
+            "entity_def_id": "hub",
+            "value": "Middle East Companies With More Than 10 Employees (Top 10K)"
+          },
+          "org_identifiers": [
+            {
+              "permalink": "fasset",
+              "image_id": "216886c7d09c49d39cce6277f342d12d",
+              "uuid": "fb8d3cbb-6706-4fda-941f-7add24517f7c",
+              "entity_def_id": "organization",
+              "value": "Fasset"
+            },
+            {
+              "permalink": "african-export-import-bank",
+              "image_id": "aa1e4a9f367f4a34a29d5f81de4cb62b",
+              "uuid": "971b156a-46e5-c04c-2ae9-d36127a9bd9f",
+              "entity_def_id": "organization",
+              "value": "African Export-Import Bank"
+            },
+            {
+              "permalink": "biocatch",
+              "image_id": "eauvaq6djrm4cjktjmxi",
+              "uuid": "516abfe7-ee23-d825-b1e2-144b41ca591e",
+              "entity_def_id": "organization",
+              "value": "BioCatch"
+            },
+            {
+              "permalink": "humain-c7c3",
+              "image_id": "dc960b95a8634d398fb802e43c760504",
+              "uuid": "6bde23ba-59a6-43e2-882e-2fdf96c1c7c3",
+              "entity_def_id": "organization",
+              "value": "HUMAIN"
+            },
+            {
+              "permalink": "omilia",
+              "image_id": "a6e6d6f0223b4e70840705a17f248b9e",
+              "uuid": "49e3e363-63c7-e951-4974-1c79137fcef0",
+              "entity_def_id": "organization",
+              "value": "Omilia"
+            },
+            {
+              "permalink": "team8",
+              "image_id": "jgzvsw4o9vpv30kqv7yg",
+              "uuid": "192acc26-46d6-5961-2a18-2ec462242091",
+              "entity_def_id": "organization",
+              "value": "Team8"
+            },
+            {
+              "permalink": "investcorp-2",
+              "image_id": "v1444307467/wjljtmzfwxmg9xxokd23.png",
+              "uuid": "2f09a625-dfd1-bea9-d16b-0a45158c80c9",
+              "entity_def_id": "organization",
+              "value": "Investcorp"
+            },
+            {
+              "permalink": "groundcover",
+              "image_id": "1e72fd70219541fc8c97c87e9faa67c6",
+              "uuid": "6ee7de61-7f3a-4f7c-8fd7-3b8059c41eb6",
+              "entity_def_id": "organization",
+              "value": "Groundcover"
+            }
+          ],
+          "org_funding_total": {
+            "currency": "USD",
+            "value": 734136060278,
+            "value_usd": 734136060278
+          },
+          "org_num_investors": 20274,
+          "org_num": 9861,
+          "queries": {
+            "event": [
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "e0272206-3430-48cb-a5bc-1d4b3eafe15a"
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "principal.has_event.forward",
+                "query": [
+                  {
+                    "field_id": "facet_ids",
+                    "operator_id": "includes",
+                    "values": [
+                      "company"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "num_employees_enum",
+                    "operator_id": "includes",
+                    "values": [
+                      "c_00011_00050",
+                      "c_00051_00100",
+                      "c_00101_00250",
+                      "c_00251_00500",
+                      "c_00501_01000",
+                      "c_01001_05000",
+                      "c_05001_10000",
+                      "c_10001_max"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "active"
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ],
+            "organization": [
+              {
+                "field_id": "facet_ids",
+                "operator_id": "includes",
+                "values": [
+                  "company"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "e0272206-3430-48cb-a5bc-1d4b3eafe15a"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "num_employees_enum",
+                "operator_id": "includes",
+                "values": [
+                  "c_00011_00050",
+                  "c_00051_00100",
+                  "c_00101_00250",
+                  "c_00251_00500",
+                  "c_00501_01000",
+                  "c_01001_05000",
+                  "c_05001_10000",
+                  "c_10001_max"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "operating_status",
+                "operator_id": "eq",
+                "values": [
+                  "active"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "rank_org",
+                "operator_id": "lte",
+                "values": [
+                  470000
+                ],
+                "type": "predicate"
+              }
+            ],
+            "person": [
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "e0272206-3430-48cb-a5bc-1d4b3eafe15a"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "rank_person",
+                "operator_id": "lte",
+                "values": [
+                  72000
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "organization.has_primary_organization.forward",
+                "query": [
+                  {
+                    "field_id": "facet_ids",
+                    "operator_id": "includes",
+                    "values": [
+                      "company"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "location_identifiers",
+                    "operator_id": "includes",
+                    "values": [
+                      "e0272206-3430-48cb-a5bc-1d4b3eafe15a"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "num_employees_enum",
+                    "operator_id": "includes",
+                    "values": [
+                      "c_00011_00050",
+                      "c_00051_00100",
+                      "c_00101_00250",
+                      "c_00251_00500",
+                      "c_00501_01000",
+                      "c_01001_05000",
+                      "c_05001_10000",
+                      "c_10001_max"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "active"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "rank_org",
+                    "operator_id": "lte",
+                    "values": [
+                      470000
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ]
+          }
+        },
+        {
+          "identifier": {
+            "permalink": "property-development-companies-less-than-1b-in-revenue",
+            "image_id": "39cf41e09fc5455c8b470f7f73021a0e",
+            "uuid": "74cb4367-e94d-4f67-97f3-94748d6fabf1",
+            "entity_def_id": "hub",
+            "value": "Property Development Companies With Less Than $1B in Revenue (Top 10K)"
+          },
+          "org_identifiers": [
+            {
+              "permalink": "flow-e3bc",
+              "image_id": "39cf41e09fc5455c8b470f7f73021a0e",
+              "uuid": "eaadc37f-973c-4f7e-8feb-e585e271e3bc",
+              "entity_def_id": "organization",
+              "value": "Flow"
+            },
+            {
+              "permalink": "jome",
+              "image_id": "93041e36ba77428b950ff6dc83e54d7e",
+              "uuid": "598a2673-e70c-4014-8c2d-d71f0b3f7a75",
+              "entity_def_id": "organization",
+              "value": "Jome"
+            },
+            {
+              "permalink": "damac-properties",
+              "image_id": "49e357186f0c4cdb9b728b60f9cd19c5",
+              "uuid": "8a2e94a6-1416-3ec8-8400-28d720714b62",
+              "entity_def_id": "organization",
+              "value": "Damac Properties"
+            },
+            {
+              "permalink": "stream-realty-partners",
+              "image_id": "xoaxleabrlghtergbh0k",
+              "uuid": "fa64a04e-e373-8bbb-d2aa-2832426ed3cb",
+              "entity_def_id": "organization",
+              "value": "Stream Realty Partners"
+            },
+            {
+              "permalink": "casa-grande",
+              "image_id": "jibpotkqwo3khe2v8g6y",
+              "uuid": "5b3bdc78-c39b-7b10-aac4-f5b751e824f2",
+              "entity_def_id": "organization",
+              "value": "Casagrand"
+            },
+            {
+              "permalink": "cim-group",
+              "image_id": "v1480671666/wlrbxpw6nrlv73x3vrfm.png",
+              "uuid": "6b22f3b1-eb40-ecf4-c758-fb38d742dbb7",
+              "entity_def_id": "organization",
+              "value": "CIM Group"
+            },
+            {
+              "permalink": "nivika-fastigheter",
+              "image_id": "czsjc5v5zxk4nkzdltwa",
+              "uuid": "79b3f4da-64f4-409c-850c-f1a10315295c",
+              "entity_def_id": "organization",
+              "value": "Nivika"
+            },
+            {
+              "permalink": "sterling-group-1075",
+              "image_id": "on1teqig7lqmt0fgfc5g",
+              "uuid": "001738e2-cce3-46e0-bb6e-6a783f481075",
+              "entity_def_id": "organization",
+              "value": "Sterling Group"
+            }
+          ],
+          "org_funding_total": {
+            "currency": "USD",
+            "value": 89601498134,
+            "value_usd": 89601498134
+          },
+          "org_num_investors": 994,
+          "org_num": 9856,
+          "queries": {
+            "event": [
+              {
+                "field_id": "categories",
+                "operator_id": "includes",
+                "values": [
+                  "8256b6a2-134f-d28e-a78c-c606ce4e0b97"
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "principal.has_event.forward",
+                "query": [
+                  {
+                    "field_id": "facet_ids",
+                    "operator_id": "includes",
+                    "values": [
+                      "company"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "revenue_range",
+                    "operator_id": "includes",
+                    "values": [
+                      "r_00000000",
+                      "r_00001000",
+                      "r_00010000",
+                      "r_00050000",
+                      "r_00100000",
+                      "r_00500000"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "active"
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ],
+            "organization": [
+              {
+                "field_id": "facet_ids",
+                "operator_id": "includes",
+                "values": [
+                  "company"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "categories",
+                "operator_id": "includes",
+                "values": [
+                  "8256b6a2-134f-d28e-a78c-c606ce4e0b97"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "revenue_range",
+                "operator_id": "includes",
+                "values": [
+                  "r_00000000",
+                  "r_00001000",
+                  "r_00010000",
+                  "r_00050000",
+                  "r_00100000",
+                  "r_00500000"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "operating_status",
+                "operator_id": "eq",
+                "values": [
+                  "active"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "rank_org",
+                "operator_id": "lte",
+                "values": [
+                  2200000
+                ],
+                "type": "predicate"
+              }
+            ],
+            "person": [
+              {
+                "field_id": "rank_person",
+                "operator_id": "lte",
+                "values": [
+                  380000
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "organization.has_primary_organization.forward",
+                "query": [
+                  {
+                    "field_id": "facet_ids",
+                    "operator_id": "includes",
+                    "values": [
+                      "company"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "categories",
+                    "operator_id": "includes",
+                    "values": [
+                      "8256b6a2-134f-d28e-a78c-c606ce4e0b97"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "revenue_range",
+                    "operator_id": "includes",
+                    "values": [
+                      "r_00000000",
+                      "r_00001000",
+                      "r_00010000",
+                      "r_00050000",
+                      "r_00100000",
+                      "r_00500000"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "active"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "rank_org",
+                    "operator_id": "lte",
+                    "values": [
+                      2200000
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ]
+          }
+        }
+      ],
+      "org_similarity_org_list": [
+        {
+          "identifier": {
+            "uuid": "4e07ba85-7172-6512-240d-21a86b32d981",
+            "value": "The-Avenues",
+            "image_id": "v1412934259/oeookbbjwzh9kenj1iyt.jpg",
+            "permalink": "the-avenues",
+            "entity_def_id": "organization"
+          }
+        }
+      ],
+      "investors_summary": {
+        "identifier": {
+          "uuid": "9fd71e2a-dfbd-4214-a103-cf3acd2c3d08",
+          "value": "Mabanee",
+          "image_id": "ykjz1kjmhanfsjuapqqy",
+          "permalink": "mabanee",
+          "entity_def_id": "organization"
+        }
+      },
+      "funds_list": [],
+      "alumni_image_list": [],
+      "semrush_overview_headline": {
+        "semrush_global_rank": 3283269,
+        "semrush_global_rank_mom_pct": -0.0337119490872961
+      },
+      "frequently_asked_questions_total_funding": {
+        "funding_total": {
+          "value": 50200000,
+          "currency": "KWD",
+          "value_usd": 163150071
+        },
+        "identifier": {
+          "uuid": "9fd71e2a-dfbd-4214-a103-cf3acd2c3d08",
+          "value": "Mabanee",
+          "image_id": "ykjz1kjmhanfsjuapqqy",
+          "permalink": "mabanee",
+          "entity_def_id": "organization"
+        }
+      },
+      "exits_summary": {
+        "identifier": {
+          "uuid": "9fd71e2a-dfbd-4214-a103-cf3acd2c3d08",
+          "value": "Mabanee",
+          "image_id": "ykjz1kjmhanfsjuapqqy",
+          "permalink": "mabanee",
+          "entity_def_id": "organization"
+        }
+      },
+      "partnership_announcements": [
+        {
+          "press_references": [
+            {
+              "uuid": "07d02a0c-b3bf-463d-b2a7-aebf8e04dc5a",
+              "value": "Alshaya Group signs agreement with Mabanee to open H&M, Primark, Ulta Beauty and over 20 more stores at Aventura Mall",
+              "posted_on": "2026-05-13",
+              "publisher": "Zawya.com",
+              "source_url": "https://www.zawya.com/en/press-release/companies-news/alshaya-group-signs-agreement-with-mabanee-to-open-h-and-m-primark-ulta-beauty-and-over-20-more-stores-at-aventura-mall-abxq0khf",
+              "entity_def_id": "press_reference"
+            }
+          ],
+          "identifier": {
+            "uuid": "0ad88e5b-9ad0-4b96-8f40-69001332b4d7",
+            "image_id": "1d12ae569017422d958a1802e1ad11e4",
+            "entity_def_id": "partnership_announcement"
+          },
+          "created_at": "2026-05-13T11:07:07Z",
+          "updated_at": "2026-05-13T11:07:07Z",
+          "description": "Mabanee and Alshaya Group signed a new partnership agreement for Alshaya to open more than 20 branded stores, including H&M, Primark and Ulta Beauty, at the upcoming Aventura Mall in Jaber Al-Ahmad City, Kuwait.",
+          "key_event_date": "2026-05-13"
+        },
+        {
+          "press_references": [
+            {
+              "uuid": "a07dfd35-f694-43a5-bbaa-499c05912897",
+              "value": "Mabanee's Kuwaiti smart urban project Aventura on track",
+              "posted_on": "2025-04-06",
+              "publisher": "Zawya.com",
+              "source_url": "https://www.zawya.com/en/business/real-estate/mabanees-kuwaiti-smart-urban-project-aventura-on-track-q54fmqt6",
+              "entity_def_id": "press_reference"
+            }
+          ],
+          "identifier": {
+            "uuid": "7f768a95-a142-4626-9670-ca6fbf95409c",
+            "image_id": "1d12ae569017422d958a1802e1ad11e4",
+            "entity_def_id": "partnership_announcement"
+          },
+          "created_at": "2025-04-07T04:34:25Z",
+          "updated_at": "2025-04-07T04:34:25Z",
+          "description": "Mabanee, in partnership with the Public Authority for Housing Welfare and Pace, is developing the Aventura project in Kuwait. This public-private partnership aims to redefine Kuwait's urban identity with a focus on sustainability and community integration.",
+          "key_event_date": "2025-04-06"
+        },
+        {
+          "press_references": [
+            {
+              "uuid": "e1a678ad-cfbf-44d1-8328-5caa0ab45070",
+              "value": "Mabanee KSA Unit Signs Two Contracts For Construction Of Avenues Riyadh- Phase2 \"Towers\"",
+              "posted_on": "2025-02-22",
+              "publisher": "TradingView",
+              "source_url": "https://www.tradingview.com/news/reuters.com,2025:newsml_FWN3PD05T:0-mabanee-ksa-unit-signs-two-contracts-for-construction-of-avenues-riyadh-phase2-towers/",
+              "entity_def_id": "press_reference"
+            }
+          ],
+          "identifier": {
+            "uuid": "1bcbe1c9-fb25-4ecb-be23-0bfa61233588",
+            "image_id": "1c2e884c02444f6cb9d4e2538577d625",
+            "entity_def_id": "partnership_announcement"
+          },
+          "created_at": "2025-02-23T20:46:59Z",
+          "updated_at": "2025-02-23T20:46:59Z",
+          "description": "SAR 656 million contract with Alghanim International Al Saudia for three towers; SAR 475 million contract with Al-Ahmadiah Contracting & Trading Co for two towers.",
+          "key_event_date": "2025-02-22"
+        }
+      ],
+      "bombora_surge_list": [],
+      "diversity_spotlight_investments_list": [],
+      "builtwith_tech_used_list": [
+        {
+          "identifier": {
+            "uuid": "33e2515b-e834-4cef-a725-09a565e92395",
+            "value": "Google Tag Manager",
+            "entity_def_id": "builtwith_technology"
+          },
+          "technology_category": [
+            "widgets"
+          ],
+          "num_companies_using": 999928
+        },
+        {
+          "identifier": {
+            "uuid": "d789546e-09be-458c-a3e8-1fe2cefc2b36",
+            "value": "HSTS",
+            "entity_def_id": "builtwith_technology"
+          },
+          "technology_category": [
+            "ssl"
+          ],
+          "num_companies_using": 999915
+        },
+        {
+          "identifier": {
+            "uuid": "c22c40a0-dccc-42b2-9af7-355c83639e3a",
+            "value": "DNSSEC",
+            "entity_def_id": "builtwith_technology"
+          },
+          "technology_category": [
+            "ns"
+          ],
+          "num_companies_using": 999783
+        },
+        {
+          "identifier": {
+            "uuid": "6b21a9c8-f801-4f42-be61-755fd6e2c34a",
+            "value": "CrUX Dataset",
+            "entity_def_id": "builtwith_technology"
+          },
+          "technology_category": [
+            "widgets"
+          ],
+          "num_companies_using": 918898
+        },
+        {
+          "identifier": {
+            "uuid": "35fb33ce-1695-49d3-9de5-1f1fd5660f01",
+            "value": "Cloudflare",
+            "entity_def_id": "builtwith_technology"
+          },
+          "technology_category": [
+            "cdn"
+          ],
+          "num_companies_using": 850099
+        },
+        {
+          "identifier": {
+            "uuid": "406526b5-ad50-41bc-8a08-e53842442565",
+            "value": "nginx",
+            "entity_def_id": "builtwith_technology"
+          },
+          "technology_category": [
+            "web_server"
+          ],
+          "num_companies_using": 759325
+        },
+        {
+          "identifier": {
+            "uuid": "c55bbd5a-53ad-4757-9666-49e429968c73",
+            "value": "Organization Schema",
+            "entity_def_id": "builtwith_technology"
+          },
+          "technology_category": [
+            "framework"
+          ],
+          "num_companies_using": 746667
+        },
+        {
+          "identifier": {
+            "uuid": "c6faf6a9-f13e-454c-ad5d-523e68c10954",
+            "value": "Global Site Tag",
+            "entity_def_id": "builtwith_technology"
+          },
+          "technology_category": [
+            "analytics"
+          ],
+          "num_companies_using": 737754
+        },
+        {
+          "identifier": {
+            "uuid": "05247f57-c7e7-4547-b943-b5b40f0a9915",
+            "value": "Apache",
+            "entity_def_id": "builtwith_technology"
+          },
+          "technology_category": [
+            "web_server"
+          ],
+          "num_companies_using": 694630
+        },
+        {
+          "identifier": {
+            "uuid": "9827d75e-181d-4e8e-b4c1-bb5f0d48d1fa",
+            "value": "reCAPTCHA",
+            "entity_def_id": "builtwith_technology"
+          },
+          "technology_category": [
+            "widgets"
+          ],
+          "num_companies_using": 488542
+        }
+      ],
+      "funding_rounds_summary": {
+        "identifier": {
+          "uuid": "9fd71e2a-dfbd-4214-a103-cf3acd2c3d08",
+          "value": "Mabanee",
+          "image_id": "ykjz1kjmhanfsjuapqqy",
+          "permalink": "mabanee",
+          "entity_def_id": "organization"
+        },
+        "last_funding_type": "post_ipo_debt",
+        "last_funding_at": "2026-04-23",
+        "funding_total": {
+          "value": 50200000,
+          "currency": "KWD",
+          "value_usd": 163150071
+        },
+        "num_funding_rounds": 2
+      },
+      "org_similarity_list": [
+        {
+          "source": {
+            "uuid": "9fd71e2a-dfbd-4214-a103-cf3acd2c3d08",
+            "value": "Mabanee",
+            "image_id": "ykjz1kjmhanfsjuapqqy",
+            "permalink": "mabanee",
+            "entity_def_id": "organization"
+          },
+          "source_revenue_range": "r_00100000",
+          "source_locations": [
+            {
+              "uuid": "6a37367e-6226-32fa-c7d8-fe6b4142ea2e",
+              "value": "Safat",
+              "permalink": "safat-al-kuwayt",
+              "entity_def_id": "location",
+              "location_type": "city"
+            },
+            {
+              "uuid": "d4a8a2d2-218d-6189-8c1b-093f0a24a7b8",
+              "value": "Al Kuwayt",
+              "permalink": "al-kuwayt-kuwait",
+              "entity_def_id": "location",
+              "location_type": "region"
+            },
+            {
+              "uuid": "0800712a-500f-dc3b-6125-df7a0345739c",
+              "value": "Kuwait",
+              "permalink": "kuwait",
+              "entity_def_id": "location",
+              "location_type": "country"
+            },
+            {
+              "uuid": "b41404d2-8ecc-caf5-1268-8fdd3afe73ee",
+              "value": "Asia",
+              "permalink": "asia",
+              "entity_def_id": "location",
+              "location_type": "continent"
+            }
+          ],
+          "score": 100,
+          "target_micro_categories": [
+            {
+              "uuid": "8ce75bfa-976e-40e5-9fea-7cb63b535ad7",
+              "value": "Box Office Ticketing",
+              "permalink": "box-office-ticketing",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "7bb20ed7-973d-4467-97ff-0a0aed621220",
+              "value": "Concierge Guides",
+              "permalink": "concierge-guides",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "22c9175a-878d-47c1-80b5-86ac057234b0",
+              "value": "Convenience Stores",
+              "permalink": "convenience-stores-34b0",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "b306cff9-de3c-436f-aeda-d176d79412b4",
+              "value": "Family Entertainment Centers and Indoor Playgrounds",
+              "permalink": "family-entertainment-centers-and-indoor-playgrounds",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "665d4dd3-db32-4d7b-b81d-adf05d6eef5a",
+              "value": "Mall Advertising Networks",
+              "permalink": "mall-advertising-networks",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "d106a141-ca2e-4cb1-a3ce-7b4ee1a38ea6",
+              "value": "Mall and Marketplace Events",
+              "permalink": "mall-and-marketplace-events",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "f858da10-21be-4067-9e15-3f49cb69c424",
+              "value": "Mall Operators",
+              "permalink": "mall-operators",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "e222ca82-7638-4468-a88c-7d589dbb14ea",
+              "value": "Pop-Up Retail and Experiential Stores",
+              "permalink": "pop-up-retail-and-experiential-stores",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "1ad86af4-e6ed-4284-8ece-167f7babdc18",
+              "value": "Restaurants and Cafes",
+              "permalink": "restaurants-and-cafes",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "ae886c67-d4e6-4097-8fc5-ce4b04dd5682",
+              "value": "Retail and Shopping Center Management",
+              "permalink": "retail-and-shopping-center-management",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "fe997190-18b4-460e-9dc8-e95a8ab88c98",
+              "value": "Retail Displays and Visual Merchandising",
+              "permalink": "retail-displays-and-visual-merchandising",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "707717fa-1a1e-4b3f-8e76-9cd99c155d88",
+              "value": "Retail Merchandising Services",
+              "permalink": "retail-merchandising-services-5d88",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "47c1f133-7ccc-4e48-92c6-adbf69b9856b",
+              "value": "Spa and Wellness Services",
+              "permalink": "spa-and-wellness-services",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "539bd91d-3505-43f1-a9e5-09543975f26c",
+              "value": "Theaters and Live Event Venues",
+              "permalink": "theaters-and-live-event-venues",
+              "entity_def_id": "micro_category"
+            }
+          ],
+          "target_locations": [
+            {
+              "uuid": "db845f2b-6dd8-53e6-9cdc-f30b9cf17fdd",
+              "value": "Kuwait",
+              "permalink": "kuwait-al-kuwayt",
+              "entity_def_id": "location",
+              "location_type": "city"
+            },
+            {
+              "uuid": "d4a8a2d2-218d-6189-8c1b-093f0a24a7b8",
+              "value": "Al Kuwayt",
+              "permalink": "al-kuwayt-kuwait",
+              "entity_def_id": "location",
+              "location_type": "region"
+            },
+            {
+              "uuid": "0800712a-500f-dc3b-6125-df7a0345739c",
+              "value": "Kuwait",
+              "permalink": "kuwait",
+              "entity_def_id": "location",
+              "location_type": "country"
+            },
+            {
+              "uuid": "b41404d2-8ecc-caf5-1268-8fdd3afe73ee",
+              "value": "Asia",
+              "permalink": "asia",
+              "entity_def_id": "location",
+              "location_type": "continent"
+            }
+          ],
+          "target_short_description": "The Avenues is a shopping center that consists of several stores, restaurants, cinemas, spas, and cafes.",
+          "target_categories": [
+            {
+              "uuid": "655df1bf-587c-59e3-4665-136fb2920827",
+              "value": "Shopping",
+              "image_id": "e636de479e8e4e3a8cb9afee98f40b38",
+              "permalink": "shopping",
+              "entity_def_id": "category"
+            }
+          ],
+          "source_num_employees_enum": "c_00251_00500",
+          "target_revenue_range": "r_00000000",
+          "target_num_employees_enum": "c_00001_00010",
+          "source_num_contacts": 22,
+          "identifier": {
+            "uuid": "372d0d1b-65b7-4955-aa18-535ce7aeb991",
+            "value": "Mabanee competes with The-Avenues",
+            "entity_def_id": "org_similarity"
+          },
+          "target_location_groups": [
+            {
+              "uuid": "4e8be435-c63a-4aff-8a2f-44a880d9c341",
+              "value": "Europe, Middle East, and Africa (EMEA)",
+              "permalink": "europe-middle-east-africa-emea",
+              "entity_def_id": "location",
+              "location_type": "group"
+            },
+            {
+              "uuid": "c4365698-c7c5-44b0-b33a-7d13900e5be2",
+              "value": "Gulf Cooperation Council (GCC)",
+              "permalink": "gulf-cooperation-council",
+              "entity_def_id": "location",
+              "location_type": "group"
+            },
+            {
+              "uuid": "e0272206-3430-48cb-a5bc-1d4b3eafe15a",
+              "value": "Middle East",
+              "permalink": "middle-east",
+              "entity_def_id": "location",
+              "location_type": "group"
+            },
+            {
+              "uuid": "8cb7cad4-b7e4-4b28-a496-2ede3720cb19",
+              "value": "Middle East and North Africa (MENA)",
+              "permalink": "middle-east-and-north-africa-mena",
+              "entity_def_id": "location",
+              "location_type": "group"
+            }
+          ],
+          "source_short_description": "Mabanee operates in the business of real estate development.",
+          "target": {
+            "uuid": "4e07ba85-7172-6512-240d-21a86b32d981",
+            "value": "The-Avenues",
+            "image_id": "v1412934259/oeookbbjwzh9kenj1iyt.jpg",
+            "permalink": "the-avenues",
+            "entity_def_id": "organization"
+          },
+          "source_categories": [
+            {
+              "uuid": "8256b6a2-134f-d28e-a78c-c606ce4e0b97",
+              "value": "Property Development",
+              "image_id": "1d12ae569017422d958a1802e1ad11e4",
+              "permalink": "property-development",
+              "entity_def_id": "category"
+            },
+            {
+              "uuid": "c8e6b95f-80d9-bf15-ab7c-37a0e8f052c7",
+              "value": "Property Management",
+              "image_id": "aab2fc738c234ba79f99d9515117e0a7",
+              "permalink": "property-management",
+              "entity_def_id": "category"
+            },
+            {
+              "uuid": "a326e225-acb8-f9c0-abfe-609a82b71965",
+              "value": "Real Estate",
+              "image_id": "1e3979791bcd42a38803a47525fc8056",
+              "permalink": "real-estate",
+              "entity_def_id": "category"
+            }
+          ],
+          "source_micro_categories": [
+            {
+              "uuid": "fe1aac61-2de3-425f-b935-4bd0a4491a65",
+              "value": "Commercial Property Development",
+              "permalink": "commercial-property-development",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "b052117f-6fac-44ed-b3ec-8364903799ec",
+              "value": "Hospitality Real Estate Services",
+              "permalink": "hospitality-real-estate-services",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "8a3186ff-f1bb-45a5-867a-b216a976d0e2",
+              "value": "Land Use and Zoning Services",
+              "permalink": "land-use-and-zoning-services",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "f858da10-21be-4067-9e15-3f49cb69c424",
+              "value": "Mall Operators",
+              "permalink": "mall-operators",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "b90147ff-a35f-4f48-8eca-c29d540e19eb",
+              "value": "Master Planning",
+              "permalink": "master-planning",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "e9b96a05-df51-4b08-a70b-b40f0053d445",
+              "value": "Mixed-Use and Commercial Leasing",
+              "permalink": "mixed-use-and-commercial-leasing",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "868a7723-8144-4f0d-96c7-c9b30999d50d",
+              "value": "Mixed-Use Development",
+              "permalink": "mixed-use-development",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "6e6b7a07-3434-4a9d-9e0d-426f1103d1af",
+              "value": "Mixed-Use Property Management",
+              "permalink": "mixed-use-property-management",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "ae886c67-d4e6-4097-8fc5-ce4b04dd5682",
+              "value": "Retail and Shopping Center Management",
+              "permalink": "retail-and-shopping-center-management",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "5ace6fd9-ebeb-4ea9-9b8f-3b78d8dc775a",
+              "value": "Retail Development",
+              "permalink": "retail-development",
+              "entity_def_id": "micro_category"
+            }
+          ],
+          "source_location_groups": [
+            {
+              "uuid": "4e8be435-c63a-4aff-8a2f-44a880d9c341",
+              "value": "Europe, Middle East, and Africa (EMEA)",
+              "permalink": "europe-middle-east-africa-emea",
+              "entity_def_id": "location",
+              "location_type": "group"
+            },
+            {
+              "uuid": "c4365698-c7c5-44b0-b33a-7d13900e5be2",
+              "value": "Gulf Cooperation Council (GCC)",
+              "permalink": "gulf-cooperation-council",
+              "entity_def_id": "location",
+              "location_type": "group"
+            },
+            {
+              "uuid": "e0272206-3430-48cb-a5bc-1d4b3eafe15a",
+              "value": "Middle East",
+              "permalink": "middle-east",
+              "entity_def_id": "location",
+              "location_type": "group"
+            },
+            {
+              "uuid": "8cb7cad4-b7e4-4b28-a496-2ede3720cb19",
+              "value": "Middle East and North Africa (MENA)",
+              "permalink": "middle-east-and-north-africa-mena",
+              "entity_def_id": "location",
+              "location_type": "group"
+            }
+          ],
+          "source_category_groups": [
+            {
+              "uuid": "598c79bd-1265-cc6b-4349-13169afd9654",
+              "value": "Real Estate",
+              "permalink": "real-estate-598c",
+              "entity_def_id": "category_group"
+            }
+          ],
+          "target_category_groups": [
+            {
+              "uuid": "3805abe5-5b70-a4a1-a51e-bcda8257aca0",
+              "value": "Commerce and Shopping",
+              "permalink": "commerce-and-shopping",
+              "entity_def_id": "category_group"
+            }
+          ]
+        }
+      ],
+      "ipo_prediction": [],
+      "acquisitions_summary": {
+        "identifier": {
+          "uuid": "9fd71e2a-dfbd-4214-a103-cf3acd2c3d08",
+          "value": "Mabanee",
+          "image_id": "ykjz1kjmhanfsjuapqqy",
+          "permalink": "mabanee",
+          "entity_def_id": "organization"
+        }
+      },
+      "advisors_summary": {
+        "identifier": {
+          "uuid": "9fd71e2a-dfbd-4214-a103-cf3acd2c3d08",
+          "value": "Mabanee",
+          "image_id": "ykjz1kjmhanfsjuapqqy",
+          "permalink": "mabanee",
+          "entity_def_id": "organization"
+        }
+      },
+      "acquisitions_list": [],
+      "exits_headline": {},
+      "investments_summary": {
+        "identifier": {
+          "uuid": "9fd71e2a-dfbd-4214-a103-cf3acd2c3d08",
+          "value": "Mabanee",
+          "image_id": "ykjz1kjmhanfsjuapqqy",
+          "permalink": "mabanee",
+          "entity_def_id": "organization"
+        }
+      },
+      "acquired_by_fields": {},
+      "research_insight_text_link": {},
+      "acquisition_prediction": [],
+      "sub_organizations_headline": {},
+      "layoff_list": [],
+      "growth_and_heat": {
+        "heat_score_history": {
+          "periods": {
+            "i1": {
+              "values": [
+                63,
+                64,
+                64,
+                64,
+                64,
+                65,
+                65,
+                65,
+                65,
+                66,
+                66,
+                66,
+                66,
+                67,
+                67,
+                67,
+                67,
+                67,
+                68,
+                68,
+                68,
+                68,
+                69,
+                69,
+                69,
+                69,
+                69,
+                70,
+                70,
+                70,
+                70,
+                70,
+                71,
+                71,
+                71,
+                71,
+                71,
+                72,
+                72,
+                72,
+                72,
+                72,
+                72,
+                73,
+                73,
+                73,
+                70,
+                61,
+                61,
+                61,
+                61,
+                61,
+                61,
+                62,
+                62,
+                62,
+                62,
+                63,
+                63,
+                63,
+                64,
+                64,
+                64,
+                65,
+                65,
+                66,
+                66,
+                67,
+                68,
+                68,
+                69,
+                70,
+                71,
+                72,
+                73,
+                73,
+                74,
+                75,
+                76,
+                76,
+                77,
+                78,
+                79,
+                79,
+                80,
+                80,
+                81,
+                82,
+                82,
+                83
+              ],
+              "interval": 1
+            },
+            "i2": {
+              "values": [
+                63,
+                64,
+                65,
+                65,
+                66,
+                66,
+                67,
+                67,
+                67,
+                68,
+                68,
+                69,
+                69,
+                70,
+                70,
+                70,
+                71,
+                71,
+                72,
+                72,
+                72,
+                73,
+                73,
+                66,
+                61,
+                61,
+                62,
+                62,
+                63,
+                63,
+                64,
+                65,
+                66,
+                67,
+                68,
+                70,
+                72,
+                73,
+                75,
+                76,
+                78,
+                79,
+                80,
+                82,
+                83,
+                84,
+                85,
+                86,
+                87,
+                89,
+                90,
+                91,
+                91,
+                92,
+                93,
+                91,
+                89,
+                90,
+                90,
+                86,
+                82,
+                82,
+                81,
+                75,
+                72,
+                66,
+                59,
+                59,
+                60,
+                60,
+                61,
+                61,
+                62,
+                62,
+                63,
+                63,
+                57,
+                58,
+                58,
+                58,
+                58,
+                59,
+                59,
+                59,
+                60,
+                60,
+                60,
+                59,
+                59,
+                59,
+                59
+              ],
+              "interval": 2
+            },
+            "i4": {
+              "values": [
+                63,
+                65,
+                66,
+                67,
+                68,
+                69,
+                69,
+                70,
+                71,
+                72,
+                72,
+                69,
+                61,
+                62,
+                63,
+                64,
+                66,
+                69,
+                72,
+                75,
+                78,
+                81,
+                83,
+                86,
+                88,
+                90,
+                92,
+                92,
+                90,
+                88,
+                82,
+                78,
+                69,
+                59,
+                60,
+                61,
+                62,
+                63,
+                57,
+                58,
+                59,
+                59,
+                60,
+                59,
+                59,
+                59,
+                59,
+                58,
+                59,
+                59,
+                59,
+                57,
+                57,
+                57,
+                58,
+                58,
+                58,
+                58,
+                59,
+                60,
+                64,
+                67,
+                70,
+                72,
+                74,
+                76,
+                79,
+                81,
+                82,
+                84,
+                85,
+                87,
+                89,
+                90,
+                87,
+                26,
+                26,
+                26,
+                24,
+                26,
+                26,
+                27,
+                27,
+                28,
+                26,
+                25,
+                26,
+                27,
+                28,
+                28,
+                29,
+                28
+              ],
+              "interval": 4
+            },
+            "i7": {
+              "values": [
+                63,
+                66,
+                67,
+                69,
+                70,
+                72,
+                69,
+                61,
+                63,
+                66,
+                72,
+                77,
+                82,
+                86,
+                90,
+                92,
+                90,
+                81,
+                69,
+                59,
+                61,
+                61,
+                58,
+                59,
+                60,
+                59,
+                59,
+                58,
+                59,
+                57,
+                57,
+                58,
+                58,
+                59,
+                63,
+                69,
+                72,
+                77,
+                80,
+                83,
+                86,
+                89,
+                79,
+                26,
+                25,
+                26,
+                26,
+                28,
+                25,
+                26,
+                28,
+                28,
+                29,
+                26,
+                21,
+                23,
+                24,
+                27,
+                29,
+                29,
+                29,
+                29,
+                31,
+                33,
+                34,
+                31,
+                33,
+                33,
+                35,
+                37,
+                38,
+                36,
+                33,
+                25,
+                23,
+                24,
+                24,
+                22,
+                22,
+                16,
+                8,
+                9,
+                9,
+                9,
+                10,
+                12,
+                13,
+                11,
+                12,
+                14,
+                13,
+                14,
+                12,
+                14,
+                11,
+                10,
+                10,
+                9,
+                10,
+                8,
+                9,
+                8,
+                8,
+                9,
+                9
+              ],
+              "interval": 7
+            },
+            "i18": {
+              "values": [
+                63,
+                70,
+                68,
+                65,
+                77,
+                88,
+                87,
+                63,
+                60,
+                59,
+                59,
+                58,
+                58,
+                64,
+                76,
+                84,
+                68,
+                26,
+                27,
+                27,
+                28,
+                22,
+                27,
+                29,
+                32,
+                33,
+                34,
+                37,
+                28,
+                24,
+                21,
+                9,
+                9,
+                12,
+                12,
+                13,
+                12,
+                10,
+                9,
+                8,
+                8,
+                7,
+                5,
+                7,
+                10,
+                10,
+                8,
+                5,
+                7,
+                9,
+                10,
+                12,
+                14,
+                14,
+                17,
+                19,
+                18,
+                16,
+                14,
+                14,
+                12,
+                14,
+                15,
+                16,
+                16,
+                14,
+                14,
+                17,
+                17,
+                18,
+                20,
+                20,
+                19,
+                16,
+                14,
+                15,
+                16,
+                14,
+                15,
+                13,
+                13,
+                11,
+                9,
+                12,
+                11,
+                10,
+                10,
+                10,
+                6,
+                5,
+                4,
+                3,
+                3,
+                1,
+                1,
+                3,
+                4,
+                5,
+                3,
+                4,
+                5,
+                6
+              ],
+              "interval": 18
+            },
+            "i36": {
+              "values": [
+                63,
+                66,
+                83,
+                75,
+                60,
+                58,
+                61,
+                80,
+                47,
+                27,
+                25,
+                28,
+                32,
+                36,
+                26,
+                15,
+                11,
+                13,
+                11,
+                9,
+                7,
+                6,
+                10,
+                7,
+                8,
+                11,
+                14,
+                18,
+                17,
+                14,
+                13,
+                16,
+                15,
+                15,
+                17,
+                20,
+                17,
+                15,
+                15,
+                14,
+                12,
+                11,
+                10,
+                10,
+                5,
+                4,
+                2,
+                2,
+                5,
+                3,
+                5,
+                4,
+                2
+              ],
+              "interval": 36
+            }
+          }
+        },
+        "growth_score_delta_d90": -7,
+        "growth_score_history": {
+          "periods": {
+            "i1": {
+              "values": [
+                88,
+                88,
+                88,
+                88,
+                88,
+                89,
+                89,
+                89,
+                89,
+                89,
+                89,
+                89,
+                89,
+                89,
+                90,
+                90,
+                90,
+                90,
+                90,
+                90,
+                90,
+                90,
+                90,
+                91,
+                91,
+                91,
+                91,
+                91,
+                91,
+                91,
+                91,
+                91,
+                91,
+                92,
+                92,
+                92,
+                92,
+                92,
+                92,
+                92,
+                92,
+                92,
+                92,
+                92,
+                93,
+                93,
+                92,
+                92,
+                92,
+                92,
+                92,
+                92,
+                93,
+                93,
+                93,
+                93,
+                93,
+                93,
+                93,
+                93,
+                93,
+                93,
+                93,
+                93,
+                93,
+                93,
+                93,
+                93,
+                93,
+                93,
+                93,
+                94,
+                94,
+                94,
+                94,
+                94,
+                94,
+                94,
+                94,
+                94,
+                94,
+                94,
+                94,
+                94,
+                94,
+                94,
+                94,
+                94,
+                95,
+                95
+              ],
+              "interval": 1
+            },
+            "i2": {
+              "values": [
+                88,
+                88,
+                89,
+                89,
+                89,
+                89,
+                89,
+                90,
+                90,
+                90,
+                90,
+                91,
+                91,
+                91,
+                91,
+                91,
+                92,
+                92,
+                92,
+                92,
+                92,
+                92,
+                93,
+                92,
+                92,
+                92,
+                93,
+                93,
+                93,
+                93,
+                93,
+                93,
+                93,
+                93,
+                93,
+                94,
+                94,
+                94,
+                94,
+                94,
+                94,
+                94,
+                94,
+                94,
+                95,
+                95,
+                95,
+                95,
+                95,
+                95,
+                95,
+                95,
+                95,
+                95,
+                95,
+                96,
+                96,
+                96,
+                96,
+                96,
+                96,
+                96,
+                96,
+                96,
+                95,
+                95,
+                95,
+                95,
+                94,
+                94,
+                94,
+                94,
+                93,
+                93,
+                93,
+                92,
+                91,
+                86,
+                81,
+                81,
+                81,
+                81,
+                81,
+                81,
+                80,
+                80,
+                80,
+                80,
+                80,
+                80,
+                80
+              ],
+              "interval": 2
+            },
+            "i4": {
+              "values": [
+                88,
+                89,
+                89,
+                90,
+                90,
+                90,
+                91,
+                91,
+                92,
+                92,
+                92,
+                93,
+                92,
+                93,
+                93,
+                93,
+                93,
+                93,
+                94,
+                94,
+                94,
+                94,
+                95,
+                95,
+                95,
+                95,
+                95,
+                96,
+                96,
+                96,
+                96,
+                96,
+                95,
+                95,
+                94,
+                94,
+                93,
+                92,
+                88,
+                81,
+                81,
+                81,
+                80,
+                80,
+                80,
+                80,
+                79,
+                79,
+                79,
+                79,
+                78,
+                78,
+                78,
+                77,
+                77,
+                78,
+                77,
+                78,
+                78,
+                78,
+                79,
+                79,
+                79,
+                79,
+                79,
+                80,
+                80,
+                80,
+                80,
+                80,
+                80,
+                81,
+                81,
+                81,
+                87,
+                91,
+                91,
+                91,
+                91,
+                91,
+                91,
+                91,
+                91,
+                91,
+                91,
+                90,
+                90,
+                89,
+                89,
+                88,
+                87,
+                87
+              ],
+              "interval": 4
+            },
+            "i7": {
+              "values": [
+                88,
+                89,
+                90,
+                91,
+                91,
+                92,
+                92,
+                93,
+                93,
+                93,
+                94,
+                94,
+                94,
+                95,
+                95,
+                95,
+                96,
+                96,
+                95,
+                94,
+                94,
+                92,
+                82,
+                81,
+                80,
+                80,
+                79,
+                79,
+                79,
+                78,
+                77,
+                77,
+                78,
+                78,
+                78,
+                79,
+                79,
+                80,
+                80,
+                80,
+                81,
+                81,
+                86,
+                91,
+                91,
+                91,
+                91,
+                91,
+                90,
+                90,
+                89,
+                88,
+                86,
+                85,
+                83,
+                83,
+                84,
+                84,
+                84,
+                84,
+                85,
+                84,
+                85,
+                85,
+                85,
+                85,
+                84,
+                83,
+                70,
+                62,
+                62,
+                62,
+                62,
+                61,
+                61,
+                60,
+                60,
+                58,
+                58,
+                57,
+                56,
+                55,
+                53,
+                47,
+                40,
+                39,
+                38,
+                37,
+                36,
+                35,
+                34,
+                33,
+                31,
+                30,
+                24,
+                7,
+                6,
+                5,
+                4,
+                3,
+                3,
+                2,
+                2,
+                1,
+                1
+              ],
+              "interval": 7
+            },
+            "i18": {
+              "values": [
+                88,
+                91,
+                92,
+                93,
+                94,
+                95,
+                96,
+                95,
+                88,
+                80,
+                79,
+                78,
+                78,
+                79,
+                79,
+                80,
+                86,
+                91,
+                91,
+                89,
+                86,
+                83,
+                84,
+                84,
+                85,
+                85,
+                75,
+                62,
+                62,
+                60,
+                58,
+                55,
+                46,
+                38,
+                36,
+                33,
+                27,
+                6,
+                4,
+                2,
+                1,
+                0,
+                0,
+                0,
+                1,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                2,
+                2,
+                2,
+                1,
+                1,
+                1,
+                1,
+                2,
+                2,
+                1,
+                2,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1
+              ],
+              "interval": 18
+            },
+            "i36": {
+              "values": [
+                88,
+                93,
+                95,
+                95,
+                84,
+                79,
+                78,
+                80,
+                88,
+                90,
+                85,
+                84,
+                85,
+                68,
+                61,
+                56,
+                42,
+                34,
+                16,
+                3,
+                0,
+                0,
+                1,
+                0,
+                0,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                2,
+                2,
+                1,
+                2,
+                2,
+                1,
+                1,
+                1,
+                1,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0
+              ],
+              "interval": 36
+            }
+          }
+        },
+        "growth_trend_365": {
+          "periods": {
+            "i1": {
+              "values": [
+                1,
+                2,
+                2,
+                2,
+                3,
+                3,
+                4,
+                4,
+                4,
+                5,
+                5,
+                6,
+                7,
+                7,
+                7,
+                7,
+                8,
+                8,
+                8,
+                8,
+                8,
+                8,
+                8,
+                9,
+                9,
+                9,
+                9,
+                9,
+                9,
+                9,
+                9,
+                9,
+                9,
+                9,
+                9,
+                9,
+                9,
+                9,
+                9,
+                9,
+                9,
+                9,
+                10,
+                10,
+                10,
+                10,
+                9,
+                9,
+                9,
+                9,
+                9,
+                9,
+                9,
+                9,
+                10,
+                10,
+                10,
+                10,
+                10,
+                10,
+                10,
+                10,
+                10,
+                10,
+                10,
+                10,
+                10,
+                10,
+                10,
+                10,
+                10,
+                11,
+                11,
+                11,
+                11,
+                11,
+                11,
+                11,
+                11,
+                11,
+                11,
+                11,
+                11,
+                11,
+                11,
+                11,
+                11,
+                11,
+                11,
+                11
+              ],
+              "interval": 1
+            },
+            "i2": {
+              "values": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                7,
+                8,
+                8,
+                8,
+                9,
+                9,
+                9,
+                9,
+                9,
+                9,
+                9,
+                9,
+                9,
+                9,
+                10,
+                10,
+                9,
+                9,
+                9,
+                9,
+                10,
+                10,
+                10,
+                10,
+                10,
+                10,
+                10,
+                10,
+                11,
+                11,
+                11,
+                11,
+                11,
+                11,
+                11,
+                11,
+                11,
+                11,
+                12,
+                12,
+                12,
+                12,
+                13,
+                13,
+                13,
+                14,
+                15,
+                16,
+                17,
+                19,
+                54,
+                54,
+                54,
+                54,
+                54,
+                54,
+                54,
+                53,
+                53,
+                53,
+                52,
+                52,
+                52,
+                52,
+                52,
+                51,
+                51,
+                51,
+                50,
+                49,
+                40,
+                33,
+                34,
+                34,
+                34,
+                34,
+                35,
+                35,
+                35,
+                36,
+                36,
+                37,
+                37,
+                37
+              ],
+              "interval": 2
+            },
+            "i4": {
+              "values": [
+                1,
+                4,
+                5,
+                7,
+                8,
+                8,
+                9,
+                9,
+                9,
+                9,
+                10,
+                10,
+                9,
+                10,
+                10,
+                10,
+                10,
+                10,
+                11,
+                11,
+                11,
+                11,
+                12,
+                12,
+                12,
+                13,
+                14,
+                16,
+                36,
+                54,
+                54,
+                54,
+                53,
+                53,
+                52,
+                52,
+                51,
+                50,
+                44,
+                34,
+                34,
+                34,
+                35,
+                36,
+                37,
+                38,
+                38,
+                38,
+                39,
+                41,
+                42,
+                43,
+                45,
+                48,
+                53,
+                85,
+                96,
+                98,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100
+              ],
+              "interval": 4
+            },
+            "i7": {
+              "values": [
+                1,
+                5,
+                8,
+                9,
+                9,
+                9,
+                10,
+                9,
+                10,
+                10,
+                11,
+                11,
+                11,
+                12,
+                13,
+                15,
+                44,
+                54,
+                53,
+                52,
+                52,
+                50,
+                35,
+                34,
+                35,
+                37,
+                38,
+                39,
+                41,
+                43,
+                48,
+                72,
+                96,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                57,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                92,
+                78,
+                27
+              ],
+              "interval": 7
+            },
+            "i18": {
+              "values": [
+                1,
+                9,
+                9,
+                10,
+                11,
+                13,
+                42,
+                53,
+                44,
+                35,
+                38,
+                44,
+                85,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                83,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                97,
+                21,
+                -68,
+                -89,
+                -71,
+                -40,
+                -8,
+                -35,
+                -88,
+                -81,
+                -69,
+                -66,
+                -57,
+                -40,
+                -17,
+                3,
+                -6,
+                -22,
+                -21,
+                -38,
+                -33,
+                -46,
+                0,
+                3,
+                -9,
+                -6,
+                -12,
+                -19,
+                26,
+                93,
+                97,
+                100,
+                100,
+                33,
+                0,
+                72,
+                100,
+                100,
+                78,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                98,
+                49,
+                32,
+                12,
+                -26,
+                -4,
+                0,
+                -40,
+                -63,
+                -33,
+                -8,
+                -72,
+                -49,
+                -16,
+                20
+              ],
+              "interval": 18
+            },
+            "i36": {
+              "values": [
+                1,
+                10,
+                12,
+                47,
+                39,
+                41,
+                92,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                92,
+                100,
+                100,
+                100,
+                100,
+                100,
+                98,
+                -24,
+                -80,
+                -24,
+                -61,
+                -75,
+                -61,
+                -29,
+                -1,
+                -21,
+                -36,
+                -23,
+                -3,
+                -9,
+                4,
+                95,
+                100,
+                17,
+                86,
+                89,
+                100,
+                100,
+                100,
+                100,
+                99,
+                41,
+                -7,
+                -2,
+                -52,
+                -21,
+                -61,
+                -10,
+                17,
+                -2
+              ],
+              "interval": 36
+            }
+          }
+        },
+        "heat_score": 63,
+        "heat_trend_365": {
+          "periods": {
+            "i1": {
+              "values": [
+                90,
+                89,
+                88,
+                87,
+                86,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                81,
+                79,
+                86,
+                85,
+                84,
+                83,
+                82,
+                85,
+                84,
+                83,
+                87,
+                86,
+                86,
+                91,
+                90,
+                96,
+                96,
+                96,
+                95,
+                96,
+                96,
+                96,
+                96,
+                97,
+                97,
+                98,
+                99,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100
+              ],
+              "interval": 1
+            },
+            "i2": {
+              "values": [
+                90,
+                88,
+                93,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                91,
+                83,
+                85,
+                83,
+                85,
+                85,
+                86,
+                91,
+                96,
+                96,
+                96,
+                96,
+                97,
+                99,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                98,
+                95,
+                93,
+                88,
+                75,
+                75,
+                58,
+                42,
+                43,
+                60,
+                61,
+                65,
+                66,
+                70,
+                77,
+                100,
+                100,
+                98,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100
+              ],
+              "interval": 2
+            },
+            "i4": {
+              "values": [
+                90,
+                97,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                95,
+                84,
+                84,
+                86,
+                93,
+                96,
+                97,
+                99,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                99,
+                94,
+                81,
+                66,
+                42,
+                61,
+                65,
+                73,
+                100,
+                99,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                79,
+                82,
+                84,
+                70,
+                88,
+                87,
+                86,
+                96,
+                100,
+                87,
+                84,
+                100,
+                100,
+                100,
+                100,
+                100,
+                99
+              ],
+              "interval": 4
+            },
+            "i7": {
+              "values": [
+                90,
+                100,
+                100,
+                100,
+                100,
+                100,
+                94,
+                84,
+                88,
+                96,
+                99,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                92,
+                65,
+                53,
+                68,
+                96,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                97,
+                80,
+                78,
+                85,
+                86,
+                100,
+                83,
+                100,
+                100,
+                100,
+                100,
+                100,
+                87,
+                94,
+                99,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                94,
+                84,
+                80,
+                68,
+                60,
+                60,
+                24,
+                -19,
+                -19,
+                -21,
+                -22,
+                -15,
+                -10,
+                -8,
+                -19,
+                -21,
+                -16,
+                -19,
+                -19,
+                -25,
+                -15,
+                -15,
+                -21,
+                -23,
+                -24,
+                -16,
+                -20,
+                -20,
+                -26,
+                -21,
+                -16,
+                -12
+              ],
+              "interval": 7
+            },
+            "i18": {
+              "values": [
+                90,
+                100,
+                93,
+                92,
+                100,
+                100,
+                97,
+                60,
+                94,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                93,
+                83,
+                91,
+                99,
+                100,
+                92,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                95,
+                74,
+                54,
+                -18,
+                -20,
+                -10,
+                -19,
+                -21,
+                -17,
+                -23,
+                -19,
+                -23,
+                -18,
+                -32,
+                -41,
+                -35,
+                -23,
+                -13,
+                -26,
+                -44,
+                -38,
+                -34,
+                -34,
+                -27,
+                -16,
+                -3,
+                11,
+                15,
+                12,
+                4,
+                -3,
+                4,
+                -3,
+                24,
+                28,
+                19,
+                21,
+                23,
+                19,
+                43,
+                81,
+                80,
+                100,
+                100,
+                100,
+                100,
+                100,
+                85,
+                74,
+                73,
+                92,
+                59,
+                50,
+                45,
+                30,
+                74,
+                100,
+                100,
+                100,
+                100,
+                99,
+                99,
+                92,
+                81,
+                77,
+                51,
+                60,
+                80,
+                98,
+                96,
+                78,
+                97,
+                100,
+                100
+              ],
+              "interval": 18
+            },
+            "i36": {
+              "values": [
+                90,
+                93,
+                100,
+                79,
+                97,
+                100,
+                100,
+                100,
+                88,
+                95,
+                96,
+                100,
+                100,
+                100,
+                84,
+                18,
+                -15,
+                -20,
+                -20,
+                -21,
+                -25,
+                -38,
+                -18,
+                -35,
+                -36,
+                -30,
+                -9,
+                13,
+                8,
+                0,
+                11,
+                23,
+                22,
+                31,
+                81,
+                100,
+                100,
+                92,
+                73,
+                75,
+                47,
+                52,
+                100,
+                100,
+                99,
+                87,
+                64,
+                70,
+                97,
+                88,
+                97,
+                93,
+                66
+              ],
+              "interval": 36
+            }
+          }
+        },
+        "growth_score": 88,
+        "heat_score_delta_d90": -20
+      },
+      "bombora_summary": {
+        "identifier": {
+          "uuid": "9fd71e2a-dfbd-4214-a103-cf3acd2c3d08",
+          "value": "Mabanee",
+          "image_id": "ykjz1kjmhanfsjuapqqy",
+          "permalink": "mabanee",
+          "entity_def_id": "organization"
+        }
+      },
+      "semrush_rank_headline": {
+        "semrush_visits_latest_month": 4723,
+        "semrush_visits_mom_pct": 0.14775212636695
+      },
+      "frequently_asked_questions_latest_funding_round": {
+        "identifier": {
+          "uuid": "9fd71e2a-dfbd-4214-a103-cf3acd2c3d08",
+          "value": "Mabanee",
+          "image_id": "ykjz1kjmhanfsjuapqqy",
+          "permalink": "mabanee",
+          "entity_def_id": "organization"
+        },
+        "last_funding_at": "2026-04-23",
+        "last_funding_type": "post_ipo_debt",
+        "num_funding_rounds": 2
+      },
+      "apptopia_app_overview_list_free": [],
+      "contacts": {
+        "num_contact_emails": 23,
+        "num_contact_phones": 0,
+        "num_contacts": 22
+      },
+      "product_launches": [],
+      "alumni_summary": {
+        "identifier": {
+          "uuid": "9fd71e2a-dfbd-4214-a103-cf3acd2c3d08",
+          "value": "Mabanee",
+          "image_id": "ykjz1kjmhanfsjuapqqy",
+          "permalink": "mabanee",
+          "entity_def_id": "organization"
+        }
+      },
+      "apptopia_summary": {
+        "identifier": {
+          "uuid": "9fd71e2a-dfbd-4214-a103-cf3acd2c3d08",
+          "value": "Mabanee",
+          "image_id": "ykjz1kjmhanfsjuapqqy",
+          "permalink": "mabanee",
+          "entity_def_id": "organization"
+        }
+      },
+      "product_similarity_target_org_list": [],
+      "social_fields": {
+        "linkedin": {
+          "value": "https://www.linkedin.com/company/mabanee-co-/"
+        }
+      },
+      "investments_headline": {},
+      "investment_thesis": {
+        "lookup": [],
+        "properties": {
+          "identifier": {
+            "uuid": "9fd71e2a-dfbd-4214-a103-cf3acd2c3d08",
+            "value": "Mabanee",
+            "image_id": "ykjz1kjmhanfsjuapqqy",
+            "permalink": "mabanee",
+            "entity_def_id": "organization"
+          }
+        },
+        "data": []
+      },
+      "diversity_spotlight_investments_summary": {
+        "identifier": {
+          "uuid": "9fd71e2a-dfbd-4214-a103-cf3acd2c3d08",
+          "value": "Mabanee",
+          "image_id": "ykjz1kjmhanfsjuapqqy",
+          "permalink": "mabanee",
+          "entity_def_id": "organization"
+        }
+      },
+      "contact_fields": {
+        "contact_email": "info@mabanee.com",
+        "phone_number": "+965 22244444"
+      },
+      "growth_prediction": [],
+      "sub_organizations_summary": {
+        "identifier": {
+          "uuid": "9fd71e2a-dfbd-4214-a103-cf3acd2c3d08",
+          "value": "Mabanee",
+          "image_id": "ykjz1kjmhanfsjuapqqy",
+          "permalink": "mabanee",
+          "entity_def_id": "organization"
+        }
+      },
+      "overview_description": {
+        "description": "Mabanee is a real estate investor, developer, and project manager that delivers innovative projects that create value for their shareholders and communities. They operate mixed-use destinations, operate and manage shopping malls, and design and manage projects."
+      },
+      "current_employees_featured_order_field": [
+        {
+          "person_identifier": {
+            "uuid": "c6f239c0-3de4-482f-9b51-b6260400ed8c",
+            "value": "Saud Alzabin",
+            "image_id": "weii110okowdwhsf1n98",
+            "permalink": "saud-alzabin",
+            "entity_def_id": "person"
+          },
+          "identifier": {
+            "uuid": "97d7df31-4eef-466a-826f-b42fd6bdcfa0",
+            "value": "Saud Alzabin Chief Administrative Officer @ Mabanee",
+            "permalink": "saud-alzabin-executive-mabanee--97d7df31",
+            "entity_def_id": "job"
+          },
+          "started_on": {
+            "value": "2015-10-01",
+            "precision": "month"
+          },
+          "title": "Chief Administrative Officer"
+        }
+      ],
+      "company_about_fields2": {
+        "website": {
+          "value": "http://www.mabanee.com"
+        },
+        "ipo_status": "public",
+        "num_employees_enum": "c_00251_00500",
+        "last_funding_type": "post_ipo_debt",
+        "location_identifiers": [
+          {
+            "uuid": "6a37367e-6226-32fa-c7d8-fe6b4142ea2e",
+            "value": "Safat",
+            "permalink": "safat-al-kuwayt",
+            "entity_def_id": "location",
+            "location_type": "city"
+          },
+          {
+            "uuid": "d4a8a2d2-218d-6189-8c1b-093f0a24a7b8",
+            "value": "Al Kuwayt",
+            "permalink": "al-kuwayt-kuwait",
+            "entity_def_id": "location",
+            "location_type": "region"
+          },
+          {
+            "uuid": "0800712a-500f-dc3b-6125-df7a0345739c",
+            "value": "Kuwait",
+            "permalink": "kuwait",
+            "entity_def_id": "location",
+            "location_type": "country"
+          },
+          {
+            "uuid": "b41404d2-8ecc-caf5-1268-8fdd3afe73ee",
+            "value": "Asia",
+            "permalink": "asia",
+            "entity_def_id": "location",
+            "location_type": "continent"
+          }
+        ],
+        "rank_org_company": 99700
+      },
+      "sub_organizations_image_list": [],
+      "frequently_asked_questions_headquarters_location": {
+        "identifier": {
+          "uuid": "9fd71e2a-dfbd-4214-a103-cf3acd2c3d08",
+          "value": "Mabanee",
+          "image_id": "ykjz1kjmhanfsjuapqqy",
+          "permalink": "mabanee",
+          "entity_def_id": "organization"
+        },
+        "location_identifiers": [
+          {
+            "uuid": "6a37367e-6226-32fa-c7d8-fe6b4142ea2e",
+            "value": "Safat",
+            "permalink": "safat-al-kuwayt",
+            "entity_def_id": "location",
+            "location_type": "city"
+          },
+          {
+            "uuid": "d4a8a2d2-218d-6189-8c1b-093f0a24a7b8",
+            "value": "Al Kuwayt",
+            "permalink": "al-kuwayt-kuwait",
+            "entity_def_id": "location",
+            "location_type": "region"
+          },
+          {
+            "uuid": "0800712a-500f-dc3b-6125-df7a0345739c",
+            "value": "Kuwait",
+            "permalink": "kuwait",
+            "entity_def_id": "location",
+            "location_type": "country"
+          },
+          {
+            "uuid": "b41404d2-8ecc-caf5-1268-8fdd3afe73ee",
+            "value": "Asia",
+            "permalink": "asia",
+            "entity_def_id": "location",
+            "location_type": "continent"
+          }
+        ]
+      },
+      "investors_headline": {},
+      "ipo_summary": {
+        "identifier": {
+          "uuid": "9fd71e2a-dfbd-4214-a103-cf3acd2c3d08",
+          "value": "Mabanee",
+          "image_id": "ykjz1kjmhanfsjuapqqy",
+          "permalink": "mabanee",
+          "entity_def_id": "organization"
+        },
+        "stock_link": {
+          "label": "KSE:MABANEE",
+          "value": "https://www.google.com/finance?q=KSE:MABANEE"
+        },
+        "went_public_on": "1999-11-17"
+      },
+      "ipqwery_summary": {
+        "identifier": {
+          "uuid": "9fd71e2a-dfbd-4214-a103-cf3acd2c3d08",
+          "value": "Mabanee",
+          "image_id": "ykjz1kjmhanfsjuapqqy",
+          "permalink": "mabanee",
+          "entity_def_id": "organization"
+        }
+      },
+      "awards": [
+        {
+          "press_references": [
+            {
+              "uuid": "a0d3f089-0817-40fa-a4b2-5b6bbcb6a3fe",
+              "value": "Eight Kuwait CEOs named on CNBC Arabia’s Top 100 Business Leaders list",
+              "posted_on": "2026-07-16",
+              "publisher": "News Archives - Times Kuwait",
+              "source_url": "https://timeskuwait.com/eight-kuwait-ceos-named-on-cnbc-arabias-top-100-business-leaders-list/",
+              "entity_def_id": "press_reference"
+            }
+          ],
+          "identifier": {
+            "uuid": "49bb9826-6884-4b2f-ba5b-1d52dd9c1579",
+            "value": "CNBC Arabia Top 100 Business Leaders 2026",
+            "image_id": "2d9f62efe0e34ff8abebe9f2df7da16a",
+            "entity_def_id": "award"
+          },
+          "created_at": "2026-07-16T09:03:02Z",
+          "updated_at": "2026-07-16T09:03:02Z",
+          "description": "Mabanee was represented on CNBC Arabia’s 2026 Top 100 Business Leaders list through CEO Waleed Al-Shuraiaan, highlighting its role in regional real estate development.",
+          "key_event_date": "2026-07-16"
+        },
+        {
+          "press_references": [
+            {
+              "uuid": "d8de9d21-c1c2-4c8c-89bf-b12b1f1c78e6",
+              "value": "8 Kuwaitis on Forbes Middle East’s most influential real estate leaders list",
+              "posted_on": "2026-05-05",
+              "publisher": "Arab Times",
+              "source_url": "https://www.arabtimesonline.com/news/8-kuwaitis-on-forbes-middle-easts-most-influential-real-estate-leaders-list/",
+              "entity_def_id": "press_reference"
+            }
+          ],
+          "identifier": {
+            "uuid": "b8ad8a9a-b10d-49e1-93eb-41b3e9aa391f",
+            "value": "Forbes Middle East Most Influential Real Estate Company Leaders 2025",
+            "image_id": "ecba655c117d49e4b8e0beedda988a56",
+            "entity_def_id": "award"
+          },
+          "created_at": "2026-05-07T14:21:08Z",
+          "updated_at": "2026-05-07T14:21:08Z",
+          "description": "Mabanee Company was represented on Forbes Middle East’s 2025 list of the region’s most influential real estate company leaders through its CEO Waleed Khaled Al‑Shuraian, highlighting the firm’s project scale and financial strength.",
+          "key_event_date": "2026-05-05"
+        },
+        {
+          "press_references": [
+            {
+              "uuid": "e368e3bb-7cae-41d4-9708-07080d9d44c7",
+              "value": "Seven Kuwaiti real estate titans shine on Forbes list",
+              "posted_on": "2025-04-18",
+              "publisher": "Arab Times",
+              "source_url": "https://www.arabtimesonline.com/news/seven-kuwaiti-real-estate-titans-shine-on-forbes-list/",
+              "entity_def_id": "press_reference"
+            }
+          ],
+          "identifier": {
+            "uuid": "4f004aa9-7623-4cf3-86ee-ed260aa4213f",
+            "value": "Forbes Most Influential Real Estate Leaders in the Middle East 2025",
+            "image_id": "2d9f62efe0e34ff8abebe9f2df7da16a",
+            "entity_def_id": "award"
+          },
+          "created_at": "2025-04-20T00:02:51Z",
+          "updated_at": "2025-04-20T00:02:51Z",
+          "description": "Seven Kuwaiti real estate leaders have been recognized by Forbes as influential figures in the Middle East for 2025, highlighting their achievements and financial standings.",
+          "key_event_date": "2025-04-18"
+        }
+      ],
+      "siftery_product_list": [],
+      "competitors_list": [
+        {
+          "identifier": {
+            "uuid": "372d0d1b-65b7-4955-aa18-535ce7aeb991",
+            "value": "Mabanee competes with The-Avenues",
+            "entity_def_id": "org_similarity"
+          },
+          "featured_category_overlap": [
+            {
+              "uuid": "ae886c67-d4e6-4097-8fc5-ce4b04dd5682",
+              "value": "Retail and Shopping Center Management",
+              "permalink": "retail-and-shopping-center-management",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "f858da10-21be-4067-9e15-3f49cb69c424",
+              "value": "Mall Operators",
+              "permalink": "mall-operators",
+              "entity_def_id": "micro_category"
+            }
+          ],
+          "score": 100,
+          "target_locations": [
+            {
+              "uuid": "db845f2b-6dd8-53e6-9cdc-f30b9cf17fdd",
+              "value": "Kuwait",
+              "permalink": "kuwait-al-kuwayt",
+              "entity_def_id": "location",
+              "location_type": "city"
+            },
+            {
+              "uuid": "d4a8a2d2-218d-6189-8c1b-093f0a24a7b8",
+              "value": "Al Kuwayt",
+              "permalink": "al-kuwayt-kuwait",
+              "entity_def_id": "location",
+              "location_type": "region"
+            },
+            {
+              "uuid": "0800712a-500f-dc3b-6125-df7a0345739c",
+              "value": "Kuwait",
+              "permalink": "kuwait",
+              "entity_def_id": "location",
+              "location_type": "country"
+            },
+            {
+              "uuid": "b41404d2-8ecc-caf5-1268-8fdd3afe73ee",
+              "value": "Asia",
+              "permalink": "asia",
+              "entity_def_id": "location",
+              "location_type": "continent"
+            }
+          ],
+          "target_short_description": "The Avenues is a shopping center that consists of several stores, restaurants, cinemas, spas, and cafes.",
+          "target_categories": [
+            {
+              "uuid": "655df1bf-587c-59e3-4665-136fb2920827",
+              "value": "Shopping",
+              "image_id": "e636de479e8e4e3a8cb9afee98f40b38",
+              "permalink": "shopping",
+              "entity_def_id": "category"
+            }
+          ],
+          "location_overlap": [
+            {
+              "uuid": "b41404d2-8ecc-caf5-1268-8fdd3afe73ee",
+              "value": "Asia",
+              "permalink": "asia",
+              "entity_def_id": "location"
+            },
+            {
+              "uuid": "0800712a-500f-dc3b-6125-df7a0345739c",
+              "value": "Kuwait",
+              "permalink": "kuwait",
+              "entity_def_id": "location"
+            }
+          ],
+          "target_location_groups": [
+            {
+              "uuid": "4e8be435-c63a-4aff-8a2f-44a880d9c341",
+              "value": "Europe, Middle East, and Africa (EMEA)",
+              "permalink": "europe-middle-east-africa-emea",
+              "entity_def_id": "location",
+              "location_type": "group"
+            },
+            {
+              "uuid": "c4365698-c7c5-44b0-b33a-7d13900e5be2",
+              "value": "Gulf Cooperation Council (GCC)",
+              "permalink": "gulf-cooperation-council",
+              "entity_def_id": "location",
+              "location_type": "group"
+            },
+            {
+              "uuid": "e0272206-3430-48cb-a5bc-1d4b3eafe15a",
+              "value": "Middle East",
+              "permalink": "middle-east",
+              "entity_def_id": "location",
+              "location_type": "group"
+            },
+            {
+              "uuid": "8cb7cad4-b7e4-4b28-a496-2ede3720cb19",
+              "value": "Middle East and North Africa (MENA)",
+              "permalink": "middle-east-and-north-africa-mena",
+              "entity_def_id": "location",
+              "location_type": "group"
+            }
+          ],
+          "target_revenue_range": "r_00000000",
+          "micro_category_overlap": [
+            {
+              "uuid": "ae886c67-d4e6-4097-8fc5-ce4b04dd5682",
+              "value": "Retail and Shopping Center Management",
+              "permalink": "retail-and-shopping-center-management",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "f858da10-21be-4067-9e15-3f49cb69c424",
+              "value": "Mall Operators",
+              "permalink": "mall-operators",
+              "entity_def_id": "micro_category"
+            }
+          ],
+          "target_num_employees_enum": "c_00001_00010",
+          "target": {
+            "uuid": "4e07ba85-7172-6512-240d-21a86b32d981",
+            "value": "The-Avenues",
+            "image_id": "v1412934259/oeookbbjwzh9kenj1iyt.jpg",
+            "permalink": "the-avenues",
+            "entity_def_id": "organization"
+          },
+          "source_categories": [
+            {
+              "uuid": "8256b6a2-134f-d28e-a78c-c606ce4e0b97",
+              "value": "Property Development",
+              "image_id": "1d12ae569017422d958a1802e1ad11e4",
+              "permalink": "property-development",
+              "entity_def_id": "category"
+            },
+            {
+              "uuid": "c8e6b95f-80d9-bf15-ab7c-37a0e8f052c7",
+              "value": "Property Management",
+              "image_id": "aab2fc738c234ba79f99d9515117e0a7",
+              "permalink": "property-management",
+              "entity_def_id": "category"
+            },
+            {
+              "uuid": "a326e225-acb8-f9c0-abfe-609a82b71965",
+              "value": "Real Estate",
+              "image_id": "1e3979791bcd42a38803a47525fc8056",
+              "permalink": "real-estate",
+              "entity_def_id": "category"
+            }
+          ]
+        }
+      ],
+      "growth_knowledge": {
+        "lookup": [
+          {
+            "press_references": [
+              {
+                "uuid": "beb29882-8712-4912-9ad9-2d8b45721d8a",
+                "value": "Kuwait real estate developer Mabanee secures $81.4mln green loan",
+                "posted_on": "2025-11-05",
+                "publisher": "Zawya.com",
+                "source_url": "https://www.zawya.com/en/capital-markets/loans/kuwait-real-estate-developer-mabanee-secures-814mln-green-loan-ca0bzsng",
+                "entity_def_id": "press_reference"
+              },
+              {
+                "uuid": "054a3d4f-e2bd-4d5e-a3d5-dcfcf46f695d",
+                "value": "Kuwait’s Mabanee signs $82mln credit facility with local bank",
+                "posted_on": "2026-04-23",
+                "publisher": "Zawya.com",
+                "source_url": "https://www.zawya.com/en/capital-markets/loans/kuwaits-mabanee-signs-82mln-credit-facility-with-local-bank-a6do4n0l",
+                "entity_def_id": "press_reference"
+              },
+              {
+                "uuid": "86b197b6-6a1a-439b-8487-e64bacdc9540",
+                "value": "Kuwait's Mabanee upsizes financing for The Avenues Riyadh project by $1.6bln",
+                "posted_on": "2025-11-09",
+                "publisher": "Zawya.com",
+                "source_url": "https://www.zawya.com/en/projects/construction/kuwaits-mabanee-upsizes-financing-for-the-avenues-riyadh-project-by-16bln-yrz9hh3n",
+                "entity_def_id": "press_reference",
+                "thumbnail_url": "https://www.zawya.com/en/projects/construction/kuwaits-mabanee-upsizes-financing-for-the-avenues-riyadh-project-by-16bln-yrz9hh3n"
+              }
+            ],
+            "generated_on": "2026-04-26",
+            "identifier": {
+              "uuid": "0f6726c8-de36-4d64-8dc3-72eeda4861fa",
+              "value": "Growth Insight 2026-04-26",
+              "image_id": "64afd0c11d214f44838af86d7e1fc48b",
+              "entity_def_id": "growth_insight"
+            },
+            "funding_raised": "c200_improving"
+          }
+        ],
+        "properties": {
+          "identifier": {
+            "uuid": "9fd71e2a-dfbd-4214-a103-cf3acd2c3d08",
+            "value": "Mabanee",
+            "image_id": "ykjz1kjmhanfsjuapqqy",
+            "permalink": "mabanee",
+            "entity_def_id": "organization"
+          },
+          "growth_insight_indicator": "growing"
+        },
+        "preview_properties": {
+          "growth_insight_description": {
+            "is_present": true,
+            "length": 873
+          },
+          "growth_insight_direction": {
+            "is_present": true
+          }
+        },
+        "data": [
+          {
+            "press_references": [
+              {
+                "uuid": "beb29882-8712-4912-9ad9-2d8b45721d8a",
+                "value": "Kuwait real estate developer Mabanee secures $81.4mln green loan",
+                "posted_on": "2025-11-05",
+                "publisher": "Zawya.com",
+                "source_url": "https://www.zawya.com/en/capital-markets/loans/kuwait-real-estate-developer-mabanee-secures-814mln-green-loan-ca0bzsng",
+                "entity_def_id": "press_reference"
+              },
+              {
+                "uuid": "054a3d4f-e2bd-4d5e-a3d5-dcfcf46f695d",
+                "value": "Kuwait’s Mabanee signs $82mln credit facility with local bank",
+                "posted_on": "2026-04-23",
+                "publisher": "Zawya.com",
+                "source_url": "https://www.zawya.com/en/capital-markets/loans/kuwaits-mabanee-signs-82mln-credit-facility-with-local-bank-a6do4n0l",
+                "entity_def_id": "press_reference"
+              },
+              {
+                "uuid": "86b197b6-6a1a-439b-8487-e64bacdc9540",
+                "value": "Kuwait's Mabanee upsizes financing for The Avenues Riyadh project by $1.6bln",
+                "posted_on": "2025-11-09",
+                "publisher": "Zawya.com",
+                "source_url": "https://www.zawya.com/en/projects/construction/kuwaits-mabanee-upsizes-financing-for-the-avenues-riyadh-project-by-16bln-yrz9hh3n",
+                "entity_def_id": "press_reference",
+                "thumbnail_url": "https://www.zawya.com/en/projects/construction/kuwaits-mabanee-upsizes-financing-for-the-avenues-riyadh-project-by-16bln-yrz9hh3n"
+              }
+            ],
+            "generated_on": "2026-04-26",
+            "identifier": {
+              "uuid": "0f6726c8-de36-4d64-8dc3-72eeda4861fa",
+              "value": "Growth Insight 2026-04-26",
+              "image_id": "64afd0c11d214f44838af86d7e1fc48b",
+              "entity_def_id": "growth_insight"
+            },
+            "funding_raised": "c200_improving"
+          }
+        ]
+      },
+      "overview_fields_extended": {
+        "founded_on": {
+          "value": "1999-01-01",
+          "precision": "year"
+        },
+        "revenue_range": "r_00100000",
+        "operating_status": "active",
+        "legal_name": "Mabanee Co. SAK",
+        "location_group_identifiers": [
+          {
+            "uuid": "4e8be435-c63a-4aff-8a2f-44a880d9c341",
+            "value": "Europe, Middle East, and Africa (EMEA)",
+            "permalink": "europe-middle-east-africa-emea",
+            "entity_def_id": "location",
+            "location_type": "group"
+          },
+          {
+            "uuid": "c4365698-c7c5-44b0-b33a-7d13900e5be2",
+            "value": "Gulf Cooperation Council (GCC)",
+            "permalink": "gulf-cooperation-council",
+            "entity_def_id": "location",
+            "location_type": "group"
+          },
+          {
+            "uuid": "e0272206-3430-48cb-a5bc-1d4b3eafe15a",
+            "value": "Middle East",
+            "permalink": "middle-east",
+            "entity_def_id": "location",
+            "location_type": "group"
+          },
+          {
+            "uuid": "8cb7cad4-b7e4-4b28-a496-2ede3720cb19",
+            "value": "Middle East and North Africa (MENA)",
+            "permalink": "middle-east-and-north-africa-mena",
+            "entity_def_id": "location",
+            "location_type": "group"
+          }
+        ],
+        "aliases": [
+          "Kuwait Building & Construction Company"
+        ],
+        "last_funding_type": "post_ipo_debt",
+        "categories": [
+          {
+            "uuid": "8256b6a2-134f-d28e-a78c-c606ce4e0b97",
+            "value": "Property Development",
+            "image_id": "1d12ae569017422d958a1802e1ad11e4",
+            "permalink": "property-development",
+            "entity_def_id": "category"
+          },
+          {
+            "uuid": "c8e6b95f-80d9-bf15-ab7c-37a0e8f052c7",
+            "value": "Property Management",
+            "image_id": "aab2fc738c234ba79f99d9515117e0a7",
+            "permalink": "property-management",
+            "entity_def_id": "category"
+          },
+          {
+            "uuid": "a326e225-acb8-f9c0-abfe-609a82b71965",
+            "value": "Real Estate",
+            "image_id": "1e3979791bcd42a38803a47525fc8056",
+            "permalink": "real-estate",
+            "entity_def_id": "category"
+          }
+        ]
+      },
+      "overview_investor_fields": {},
+      "bombora_attribution": {},
+      "semrush_location_list": [
+        {
+          "identifier": {
+            "uuid": "b24e4c68-0d58-4fd7-8b6e-1e53f88c83c0"
+          },
+          "visits_mom_pct": -0.212619300106045,
+          "uuid": "b24e4c68-0d58-4fd7-8b6e-1e53f88c83c0",
+          "rank": 8991,
+          "rank_mom_pct": 0.323373564910215,
+          "location_identifiers": [
+            {
+              "uuid": "0800712a-500f-dc3b-6125-df7a0345739c",
+              "value": "Kuwait",
+              "permalink": "kuwait",
+              "entity_def_id": "location"
+            },
+            {
+              "uuid": "b41404d2-8ecc-caf5-1268-8fdd3afe73ee",
+              "value": "Asia",
+              "permalink": "asia",
+              "entity_def_id": "location"
+            }
+          ],
+          "visits_pct": 0.314418801609147
+        },
+        {
+          "identifier": {
+            "uuid": "b4057cb5-f0d5-4a6c-b05c-37c4559d6938"
+          },
+          "uuid": "b4057cb5-f0d5-4a6c-b05c-37c4559d6938",
+          "rank": 1911067,
+          "location_identifiers": [
+            {
+              "uuid": "f110fca2-1055-99f6-996d-011c198b3928",
+              "value": "United States",
+              "permalink": "united-states",
+              "entity_def_id": "location"
+            },
+            {
+              "uuid": "b25caef9-a1b8-3a5d-6232-93b2dfb6a1d1",
+              "value": "North America",
+              "permalink": "north-america",
+              "entity_def_id": "location"
+            }
+          ],
+          "visits_pct": 0.213635401228033
+        },
+        {
+          "identifier": {
+            "uuid": "b3b4a77e-3a58-4760-b488-fc450dc4b440"
+          },
+          "visits_mom_pct": 0.420560747663551,
+          "uuid": "b3b4a77e-3a58-4760-b488-fc450dc4b440",
+          "rank": 83077,
+          "rank_mom_pct": -0.107802180099876,
+          "location_identifiers": [
+            {
+              "uuid": "2c205931-d55b-569b-0fdf-957f2f062bf3",
+              "value": "Saudi Arabia",
+              "permalink": "saudi-arabia",
+              "entity_def_id": "location"
+            },
+            {
+              "uuid": "b41404d2-8ecc-caf5-1268-8fdd3afe73ee",
+              "value": "Asia",
+              "permalink": "asia",
+              "entity_def_id": "location"
+            }
+          ],
+          "visits_pct": 0.160914672877408
+        },
+        {
+          "identifier": {
+            "uuid": "6910c0f6-336f-4929-b2b8-9f372cfaa6f8"
+          },
+          "uuid": "6910c0f6-336f-4929-b2b8-9f372cfaa6f8",
+          "rank": 446143,
+          "location_identifiers": [
+            {
+              "uuid": "500afaba-4645-0121-d7b8-99327c7aaa07",
+              "value": "China",
+              "permalink": "china-500a",
+              "entity_def_id": "location"
+            },
+            {
+              "uuid": "b41404d2-8ecc-caf5-1268-8fdd3afe73ee",
+              "value": "Asia",
+              "permalink": "asia",
+              "entity_def_id": "location"
+            }
+          ],
+          "visits_pct": 0.0688121956383655
+        },
+        {
+          "identifier": {
+            "uuid": "69fddc1e-bc49-4f2c-8e62-3f535965c9ac"
+          },
+          "visits_mom_pct": 2.14893617021277,
+          "uuid": "69fddc1e-bc49-4f2c-8e62-3f535965c9ac",
+          "rank": 19452,
+          "rank_mom_pct": -0.648817476078715,
+          "location_identifiers": [
+            {
+              "uuid": "45589bd1-d349-6399-3f79-763e133ee31b",
+              "value": "Bahrain",
+              "permalink": "bahrain",
+              "entity_def_id": "location"
+            },
+            {
+              "uuid": "b41404d2-8ecc-caf5-1268-8fdd3afe73ee",
+              "value": "Asia",
+              "permalink": "asia",
+              "entity_def_id": "location"
+            }
+          ],
+          "visits_pct": 0.0626720304890959
+        }
+      ],
+      "investors_list": [],
+      "siftery_summary": {
+        "identifier": {
+          "uuid": "9fd71e2a-dfbd-4214-a103-cf3acd2c3d08",
+          "value": "Mabanee",
+          "image_id": "ykjz1kjmhanfsjuapqqy",
+          "permalink": "mabanee",
+          "entity_def_id": "organization"
+        }
+      },
+      "acquired_by_summary": {
+        "identifier": {
+          "uuid": "9fd71e2a-dfbd-4214-a103-cf3acd2c3d08",
+          "value": "Mabanee",
+          "image_id": "ykjz1kjmhanfsjuapqqy",
+          "permalink": "mabanee",
+          "entity_def_id": "organization"
+        }
+      },
+      "ipo_fields": {
+        "stock_link": {
+          "label": "KSE:MABANEE",
+          "value": "https://www.google.com/finance?q=KSE:MABANEE"
+        },
+        "went_public_on": "1999-11-17"
+      },
+      "apptopia_app_overview_list_public": [],
+      "apptopia_sdk_list": [],
+      "trading_view": {},
+      "current_employees_image_list": [
+        {
+          "identifier": {
+            "uuid": "97d7df31-4eef-466a-826f-b42fd6bdcfa0",
+            "value": "Saud Alzabin Chief Administrative Officer @ Mabanee",
+            "permalink": "saud-alzabin-executive-mabanee--97d7df31",
+            "entity_def_id": "job"
+          },
+          "person_identifier": {
+            "uuid": "c6f239c0-3de4-482f-9b51-b6260400ed8c",
+            "value": "Saud Alzabin",
+            "image_id": "weii110okowdwhsf1n98",
+            "permalink": "saud-alzabin",
+            "entity_def_id": "person"
+          },
+          "title": "Chief Administrative Officer"
+        }
+      ],
+      "frequently_asked_questions_investors": {
+        "identifier": {
+          "uuid": "9fd71e2a-dfbd-4214-a103-cf3acd2c3d08",
+          "value": "Mabanee",
+          "image_id": "ykjz1kjmhanfsjuapqqy",
+          "permalink": "mabanee",
+          "entity_def_id": "organization"
+        }
+      },
+      "funding_rounds_list": [
+        {
+          "identifier": {
+            "uuid": "348fe5e5-c67a-468c-a85f-bdf41a4a77c3",
+            "value": "Post-IPO Debt - Mabanee",
+            "image_id": "ykjz1kjmhanfsjuapqqy",
+            "permalink": "mabanee-post-ipo-debt--348fe5e5",
+            "entity_def_id": "funding_round"
+          },
+          "announced_on": "2026-04-23",
+          "money_raised": {
+            "value": 25200000,
+            "currency": "KWD",
+            "value_usd": 81769863
+          },
+          "investment_type": "post_ipo_debt"
+        },
+        {
+          "identifier": {
+            "uuid": "ed2004ba-0051-45c0-b562-385b868c58ca",
+            "value": "Post-IPO Debt - Mabanee",
+            "image_id": "ykjz1kjmhanfsjuapqqy",
+            "permalink": "mabanee-post-ipo-debt--ed2004ba",
+            "entity_def_id": "funding_round"
+          },
+          "announced_on": "2025-11-05",
+          "money_raised": {
+            "value": 25000000,
+            "currency": "KWD",
+            "value_usd": 81380208
+          },
+          "investment_type": "post_ipo_debt"
+        }
+      ],
+      "technology_highlights": {
+        "builtwith_num_technologies_used": 90,
+        "semrush_visits_latest_month": 4723,
+        "semrush_visits_mom_pct": 0.14775212636695
+      },
+      "funding_rounds_headline": {
+        "funding_total": {
+          "value": 50200000,
+          "currency": "KWD",
+          "value_usd": 163150071
+        },
+        "num_funding_rounds": 2
+      },
+      "investments_list": [],
+      "exits_image_list": [],
+      "funds_headline": {},
+      "people_highlights": {
+        "num_contacts": 22,
+        "num_current_positions": 1
+      },
+      "semrush_attribution": {
+        "semrush_last_updated": "2026-08-24"
+      },
+      "frequently_asked_questions_similar_companies": {
+        "identifier": {
+          "uuid": "9fd71e2a-dfbd-4214-a103-cf3acd2c3d08",
+          "value": "Mabanee",
+          "image_id": "ykjz1kjmhanfsjuapqqy",
+          "permalink": "mabanee",
+          "entity_def_id": "organization"
+        }
+      },
+      "semrush_overview": {
+        "semrush_visit_duration_mom_pct": -0.703616352201258,
+        "semrush_visit_pageview_mom_pct": -0.42664989176488,
+        "semrush_visit_pageviews": 3.0989,
+        "semrush_bounce_rate": 0.5391,
+        "semrush_visit_duration": 377,
+        "semrush_bounce_rate_mom_pct": 0.177588466579292
+      },
+      "org_category_ranks": {
+        "category_ranks": {
+          "8256b6a2-134f-d28e-a78c-c606ce4e0b97": {
+            "rank": 357,
+            "count": 57703,
+            "pv_rank": 9730
+          },
+          "a326e225-acb8-f9c0-abfe-609a82b71965": {
+            "rank": 2832,
+            "count": 332846,
+            "pv_rank": 59299
+          },
+          "c8e6b95f-80d9-bf15-ab7c-37a0e8f052c7": {
+            "rank": 825,
+            "count": 155455,
+            "pv_rank": 25352
+          }
+        }
+      },
+      "current_valuation": [],
+      "legal_proceedings": [],
+      "current_employees_summary": {
+        "identifier": {
+          "uuid": "9fd71e2a-dfbd-4214-a103-cf3acd2c3d08",
+          "value": "Mabanee",
+          "image_id": "ykjz1kjmhanfsjuapqqy",
+          "permalink": "mabanee",
+          "entity_def_id": "organization"
+        },
+        "num_current_positions": 1
+      },
+      "aberdeen_summary": {
+        "identifier": {
+          "uuid": "9fd71e2a-dfbd-4214-a103-cf3acd2c3d08",
+          "value": "Mabanee",
+          "image_id": "ykjz1kjmhanfsjuapqqy",
+          "permalink": "mabanee",
+          "entity_def_id": "organization"
+        }
+      },
+      "offices": [],
+      "overview_timeline": {
+        "count": 28,
+        "entities": [
+          {
+            "uuid": "a0d3f089-0817-40fa-a4b2-5b6bbcb6a3fe",
+            "properties": {
+              "identifier": {
+                "uuid": "a0d3f089-0817-40fa-a4b2-5b6bbcb6a3fe",
+                "value": "Eight Kuwait CEOs named on CNBC Arabia’s Top 100 Business Leaders list",
+                "entity_def_id": "press_reference"
+              },
+              "entity_def_id": "press_reference",
+              "activity_entities": [
+                {
+                  "uuid": "9fd71e2a-dfbd-4214-a103-cf3acd2c3d08",
+                  "value": "Mabanee",
+                  "image_id": "ykjz1kjmhanfsjuapqqy",
+                  "permalink": "mabanee",
+                  "entity_def_id": "organization"
+                }
+              ],
+              "activity_properties": {
+                "url": {
+                  "value": "https://timeskuwait.com/eight-kuwait-ceos-named-on-cnbc-arabias-top-100-business-leaders-list/"
+                },
+                "title": "Eight Kuwait CEOs named on CNBC Arabia’s Top 100 Business Leaders list",
+                "author": "Francis",
+                "publisher": "News Archives - Times Kuwait"
+              },
+              "activity_date": "2026-07-16"
+            }
+          },
+          {
+            "uuid": "07d02a0c-b3bf-463d-b2a7-aebf8e04dc5a",
+            "properties": {
+              "identifier": {
+                "uuid": "07d02a0c-b3bf-463d-b2a7-aebf8e04dc5a",
+                "value": "Alshaya Group signs agreement with Mabanee to open H&M, Primark, Ulta Beauty and over 20 more stores at Aventura Mall",
+                "entity_def_id": "press_reference"
+              },
+              "entity_def_id": "press_reference",
+              "activity_entities": [
+                {
+                  "uuid": "9fd71e2a-dfbd-4214-a103-cf3acd2c3d08",
+                  "value": "Mabanee",
+                  "image_id": "ykjz1kjmhanfsjuapqqy",
+                  "permalink": "mabanee",
+                  "entity_def_id": "organization"
+                }
+              ],
+              "activity_properties": {
+                "url": {
+                  "value": "https://www.zawya.com/en/press-release/companies-news/alshaya-group-signs-agreement-with-mabanee-to-open-h-and-m-primark-ulta-beauty-and-over-20-more-stores-at-aventura-mall-abxq0khf"
+                },
+                "title": "Alshaya Group signs agreement with Mabanee to open H&M, Primark, Ulta Beauty and over 20 more stores at Aventura Mall",
+                "author": "Press Release",
+                "publisher": "Zawya.com"
+              },
+              "activity_date": "2026-05-13"
+            }
+          },
+          {
+            "uuid": "6a322bb2-3e0c-4c8e-9f04-070734c41aac",
+            "properties": {
+              "identifier": {
+                "uuid": "6a322bb2-3e0c-4c8e-9f04-070734c41aac",
+                "value": "8 Kuwaitis on Forbes Middle East’s most influential real estate leaders list",
+                "entity_def_id": "press_reference"
+              },
+              "entity_def_id": "press_reference",
+              "activity_entities": [
+                {
+                  "uuid": "9fd71e2a-dfbd-4214-a103-cf3acd2c3d08",
+                  "value": "Mabanee",
+                  "image_id": "ykjz1kjmhanfsjuapqqy",
+                  "permalink": "mabanee",
+                  "entity_def_id": "organization"
+                }
+              ],
+              "activity_properties": {
+                "url": {
+                  "value": "https://pakistanisinkuwait.com/newsdetail?id=11530&alias=8-kuwaitis-on-forbes-middle-easts-most-influential-real-estate-leaders-list"
+                },
+                "title": "8 Kuwaitis on Forbes Middle East’s most influential real estate leaders list",
+                "publisher": "Pakistanis in Kuwait"
+              },
+              "activity_date": "2026-05-07"
+            }
+          },
+          {
+            "uuid": "d8de9d21-c1c2-4c8c-89bf-b12b1f1c78e6",
+            "properties": {
+              "identifier": {
+                "uuid": "d8de9d21-c1c2-4c8c-89bf-b12b1f1c78e6",
+                "value": "8 Kuwaitis on Forbes Middle East’s most influential real estate leaders list",
+                "entity_def_id": "press_reference"
+              },
+              "entity_def_id": "press_reference",
+              "activity_entities": [
+                {
+                  "uuid": "9fd71e2a-dfbd-4214-a103-cf3acd2c3d08",
+                  "value": "Mabanee",
+                  "image_id": "ykjz1kjmhanfsjuapqqy",
+                  "permalink": "mabanee",
+                  "entity_def_id": "organization"
+                }
+              ],
+              "activity_properties": {
+                "url": {
+                  "value": "https://www.arabtimesonline.com/news/8-kuwaitis-on-forbes-middle-easts-most-influential-real-estate-leaders-list/"
+                },
+                "title": "8 Kuwaitis on Forbes Middle East’s most influential real estate leaders list",
+                "publisher": "Arab Times"
+              },
+              "activity_date": "2026-05-05"
+            }
+          },
+          {
+            "uuid": "e51f2037-60cd-4ff2-9967-e5938cb49a23",
+            "properties": {
+              "identifier": {
+                "uuid": "e51f2037-60cd-4ff2-9967-e5938cb49a23",
+                "value": "Kuwait developer Mabanee upsizes loan for commercial complex to $428.9mln",
+                "entity_def_id": "press_reference"
+              },
+              "entity_def_id": "press_reference",
+              "activity_entities": [
+                {
+                  "uuid": "9fd71e2a-dfbd-4214-a103-cf3acd2c3d08",
+                  "value": "Mabanee",
+                  "image_id": "ykjz1kjmhanfsjuapqqy",
+                  "permalink": "mabanee",
+                  "entity_def_id": "organization"
+                }
+              ],
+              "activity_properties": {
+                "url": {
+                  "value": "https://www.zawya.com/en/capital-markets/loans/kuwait-developer-mabanee-upsizes-loan-for-commercial-complex-to-4289mln-u3a7xfqe"
+                },
+                "title": "Kuwait developer Mabanee upsizes loan for commercial complex to $428.9mln",
+                "author": "ZAWYA",
+                "publisher": "Zawya.com"
+              },
+              "activity_date": "2026-04-28"
+            }
+          },
+          {
+            "uuid": "054a3d4f-e2bd-4d5e-a3d5-dcfcf46f695d",
+            "properties": {
+              "identifier": {
+                "uuid": "054a3d4f-e2bd-4d5e-a3d5-dcfcf46f695d",
+                "value": "Kuwait’s Mabanee signs $82mln credit facility with local bank",
+                "entity_def_id": "press_reference"
+              },
+              "entity_def_id": "press_reference",
+              "activity_entities": [
+                {
+                  "uuid": "9fd71e2a-dfbd-4214-a103-cf3acd2c3d08",
+                  "value": "Mabanee",
+                  "image_id": "ykjz1kjmhanfsjuapqqy",
+                  "permalink": "mabanee",
+                  "entity_def_id": "organization"
+                }
+              ],
+              "activity_properties": {
+                "url": {
+                  "value": "https://www.zawya.com/en/capital-markets/loans/kuwaits-mabanee-signs-82mln-credit-facility-with-local-bank-a6do4n0l"
+                },
+                "title": "Kuwait’s Mabanee signs $82mln credit facility with local bank",
+                "author": "ZAWYA",
+                "publisher": "Zawya.com"
+              },
+              "activity_date": "2026-04-23"
+            }
+          },
+          {
+            "uuid": "348fe5e5-c67a-468c-a85f-bdf41a4a77c3",
+            "properties": {
+              "identifier": {
+                "uuid": "348fe5e5-c67a-468c-a85f-bdf41a4a77c3",
+                "value": "Post-IPO Debt - Mabanee",
+                "image_id": "ykjz1kjmhanfsjuapqqy",
+                "permalink": "mabanee-post-ipo-debt--348fe5e5",
+                "entity_def_id": "funding_round"
+              },
+              "entity_def_id": "funding_round",
+              "activity_entities": [
+                {
+                  "role": "investee",
+                  "uuid": "9fd71e2a-dfbd-4214-a103-cf3acd2c3d08",
+                  "value": "Mabanee",
+                  "image_id": "ykjz1kjmhanfsjuapqqy",
+                  "permalink": "mabanee",
+                  "entity_def_id": "organization"
+                }
+              ],
+              "activity_properties": {
+                "money_raised": {
+                  "value": 25200000,
+                  "currency": "KWD",
+                  "value_usd": 81769863
+                },
+                "investment_type": "post_ipo_debt"
+              },
+              "activity_date": "2026-04-23"
+            }
+          },
+          {
+            "uuid": "2241f6ad-a980-4a91-bc4c-13e5baf35f89",
+            "properties": {
+              "identifier": {
+                "uuid": "2241f6ad-a980-4a91-bc4c-13e5baf35f89",
+                "value": "Mabanee Signs Financial Facility With Limit Of KD 15 Million",
+                "entity_def_id": "press_reference"
+              },
+              "entity_def_id": "press_reference",
+              "activity_entities": [
+                {
+                  "uuid": "9fd71e2a-dfbd-4214-a103-cf3acd2c3d08",
+                  "value": "Mabanee",
+                  "image_id": "ykjz1kjmhanfsjuapqqy",
+                  "permalink": "mabanee",
+                  "entity_def_id": "organization"
+                }
+              ],
+              "activity_properties": {
+                "url": {
+                  "value": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN40K187:0-mabanee-signs-financial-facility-with-limit-of-kd-15-million/"
+                },
+                "title": "Mabanee Signs Financial Facility With Limit Of KD 15 Million",
+                "publisher": "TradingView"
+              },
+              "activity_date": "2026-04-02"
+            }
+          },
+          {
+            "uuid": "86b197b6-6a1a-439b-8487-e64bacdc9540",
+            "properties": {
+              "identifier": {
+                "uuid": "86b197b6-6a1a-439b-8487-e64bacdc9540",
+                "value": "Kuwait's Mabanee upsizes financing for The Avenues Riyadh project by $1.6bln",
+                "entity_def_id": "press_reference"
+              },
+              "entity_def_id": "press_reference",
+              "activity_entities": [
+                {
+                  "uuid": "9fd71e2a-dfbd-4214-a103-cf3acd2c3d08",
+                  "value": "Mabanee",
+                  "image_id": "ykjz1kjmhanfsjuapqqy",
+                  "permalink": "mabanee",
+                  "entity_def_id": "organization"
+                }
+              ],
+              "activity_properties": {
+                "url": {
+                  "value": "https://www.zawya.com/en/projects/construction/kuwaits-mabanee-upsizes-financing-for-the-avenues-riyadh-project-by-16bln-yrz9hh3n"
+                },
+                "title": "Kuwait's Mabanee upsizes financing for The Avenues Riyadh project by $1.6bln",
+                "author": "Zawya Projects",
+                "publisher": "Zawya.com",
+                "thumbnail_url": "https://www.zawya.com/en/projects/construction/kuwaits-mabanee-upsizes-financing-for-the-avenues-riyadh-project-by-16bln-yrz9hh3n"
+              },
+              "activity_date": "2025-11-09"
+            }
+          },
+          {
+            "uuid": "96e68137-ea15-4915-87a7-4ec39a7801f5",
+            "properties": {
+              "identifier": {
+                "uuid": "96e68137-ea15-4915-87a7-4ec39a7801f5",
+                "value": "Mabanee Signs Facility Agreements For Avenues Riyadh Towers Project",
+                "entity_def_id": "press_reference"
+              },
+              "entity_def_id": "press_reference",
+              "activity_entities": [
+                {
+                  "uuid": "9fd71e2a-dfbd-4214-a103-cf3acd2c3d08",
+                  "value": "Mabanee",
+                  "image_id": "ykjz1kjmhanfsjuapqqy",
+                  "permalink": "mabanee",
+                  "entity_def_id": "organization"
+                }
+              ],
+              "activity_properties": {
+                "url": {
+                  "value": "https://www.tradingview.com/news/reuters.com,2025:newsml_FWN3WJ0ZW:0-mabanee-signs-facility-agreements-for-avenues-riyadh-towers-project/"
+                },
+                "title": "Mabanee Signs Facility Agreements For Avenues Riyadh Towers Project",
+                "publisher": "TradingView"
+              },
+              "activity_date": "2025-11-09"
+            }
+          }
+        ]
+      },
+      "company_financials_highlights": {
+        "funding_total": {
+          "value": 50200000,
+          "currency": "KWD",
+          "value_usd": 163150071
+        },
+        "num_funding_rounds": 2
+      },
+      "overview_company_fields": {
+        "company_type": "for_profit",
+        "stock_link": {
+          "label": "KSE:MABANEE",
+          "value": "https://www.google.com/finance?q=KSE:MABANEE"
+        }
+      },
+      "private_tags_pill_list": [],
+      "acquisitions_headline": {},
+      "builtwith_summary": {
+        "builtwith_num_technologies_used": 90,
+        "identifier": {
+          "uuid": "9fd71e2a-dfbd-4214-a103-cf3acd2c3d08",
+          "value": "Mabanee",
+          "image_id": "ykjz1kjmhanfsjuapqqy",
+          "permalink": "mabanee",
+          "entity_def_id": "organization"
+        }
+      },
+      "about_short_description": {
+        "short_description": "Mabanee operates in the business of real estate development."
+      },
+      "product": [
+        {
+          "identifier": {
+            "uuid": "45975b7e-89a9-4714-8b5a-288ac51c2dee",
+            "value": "The Avenues - Kuwait",
+            "entity_def_id": "product"
+          },
+          "name": "The Avenues - Kuwait",
+          "description": "A large retail, entertainment, and lifestyle development in Kuwait featuring multiple themed districts."
+        },
+        {
+          "identifier": {
+            "uuid": "ba48a5a5-91ea-4861-a8e2-9b50bd862374",
+            "value": "The Avenues - Bahrain",
+            "entity_def_id": "product"
+          },
+          "name": "The Avenues - Bahrain",
+          "description": "A retail destination in Manama, Bahrain, inspired by The Avenues - Kuwait design."
+        },
+        {
+          "identifier": {
+            "uuid": "9ed6a08b-78d8-4a3a-9bb9-c7ebec2c0a08",
+            "value": "The Avenues - Khobar",
+            "entity_def_id": "product"
+          },
+          "name": "The Avenues - Khobar",
+          "description": "A retail and mixed-use development in Khobar, Saudi Arabia, with modern architectural design."
+        },
+        {
+          "identifier": {
+            "uuid": "c92dd65a-fba2-4f20-a02e-5131f7111750",
+            "value": "The Avenues - Riyadh",
+            "entity_def_id": "product"
+          },
+          "name": "The Avenues - Riyadh",
+          "description": "A large mixed-use development in Riyadh, Saudi Arabia, located at a major city intersection."
+        },
+        {
+          "identifier": {
+            "uuid": "8ff0c356-e3a9-4904-b8c1-eaecdcf940f6",
+            "value": "Aventura - Kuwait",
+            "entity_def_id": "product"
+          },
+          "name": "Aventura - Kuwait",
+          "description": "A sustainable community development project in Jaber Al-Ahmad City, Kuwait."
+        },
+        {
+          "identifier": {
+            "uuid": "159c97f2-e31c-472b-bb89-0485879ef983",
+            "value": "Souk Sabah - Kuwait",
+            "entity_def_id": "product"
+          },
+          "name": "Souk Sabah - Kuwait",
+          "description": "A mixed-use retail and community center in Sabah Al-Ahmad, Kuwait, featuring a traditional market and hotel."
+        }
+      ],
+      "apptopia_app_headline": {}
+    }
+  }
+}

@@ -1,0 +1,293 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T13:24:38.499Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T13:24:38.497Z",
+    "url": "https://www.crunchbase.com/organization/simply-new-cars"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Drive Ninja",
+      "shortDescription": "Drive Ninja is a software platform that provides tools for the banking and automotive industries.",
+      "description": "Drive Ninja is a Dubai-based software company that develops digital infrastructure and technology solutions for the banking and automotive sectors. The company focuses on building platforms and systems that support financial services, vehicle-related operations, and enterprise workflow management. Its offerings include software tools for process automation, digital transactions, customer management, and operational integration designed for businesses operating in mobility and finance-related industries.",
+      "website": "https://www.driveninja.com/",
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "1-10",
+      "estimatedRevenueRange": "Less than $1M",
+      "headquarters": "Dubai, United Arab Emirates",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Automotive",
+        "E-Commerce",
+        "Internet",
+        "Software"
+      ],
+      "sectors": [
+        "Commerce and Shopping",
+        "Information Technology",
+        "Software",
+        "Transportation"
+      ],
+      "founders": [
+        "Adam Whitnall",
+        "David Irvine"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "A service that allows users to compare prices and deals for buying new and nearly new cars in the UAE.",
+        "name": "Car Buying Comparison"
+      },
+      {
+        "description": "A service enabling users to compare leasing options and deals for new and nearly new cars in the UAE.",
+        "name": "Car Leasing Comparison"
+      },
+      {
+        "description": "A service that allows users to compare car subscription plans for new and nearly new vehicles in the UAE.",
+        "name": "Car Subscription Comparison"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 30000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2020-02-15",
+      "lastFundingType": "Pre Seed",
+      "rounds": [
+        {
+          "announcedDate": "2020-02-15",
+          "amount": {
+            "amount": 30000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "Wamda Capital"
+          ],
+          "postMoneyValuation": {
+            "amount": 880987,
+            "currency": "USD"
+          },
+          "type": "Pre Seed"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "Wamda Capital",
+            "rounds": [
+              "Pre Seed Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 1,
+      "includedUniqueCount": 1,
+      "items": [
+        {
+          "date": "2020-02-15",
+          "title": "Pre Seed Round - Drive Ninja"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 30000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": -2,
+      "growthScore": 73,
+      "heatChange90Days": -7,
+      "heatScore": 66
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 0
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 11.12,
+        "timingEstimatePercent": {
+          "within6Months": 15.31,
+          "months6To11": 12.96,
+          "months12To24": 20.28,
+          "beyond24Months": 24.98
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 87.13
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 0
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Drive Arabia is an automotive platform that provides a range of services.",
+          "employeeRange": "11-50",
+          "name": "Drive Arabia",
+          "sharedCategories": [
+            "Automotive"
+          ],
+          "sharedSpecialties": [
+            "Automotive Marketplaces",
+            "Vehicle Dealerships"
+          ],
+          "similarityScore": 97
+        },
+        {
+          "description": "Seez is an AI-driven automotive platform helps car dealerships manage online listings, generate leads and improve digital sales efficiency.",
+          "employeeRange": "51-100",
+          "name": "Seez",
+          "sharedCategories": [
+            "E-Commerce",
+            "Automotive"
+          ],
+          "sharedSpecialties": [
+            "Automotive Classifieds",
+            "Dealer Management Systems",
+            "Automotive Dealership Marketing",
+            "Auto and Dealer Finance"
+          ],
+          "similarityScore": 93
+        },
+        {
+          "description": "CARS24 is as AutoTech company that utilizes technology and dealer network for buying and selling pre-owned cars.",
+          "employeeRange": "5,001-10,000",
+          "name": "CARS24",
+          "sharedCategories": [
+            "E-Commerce",
+            "Automotive"
+          ],
+          "sharedSpecialties": [
+            "Automotive Classifieds",
+            "Dealer Management Systems",
+            "Vehicle Financing",
+            "Automotive Marketplaces",
+            "Automotive Dealership Marketing",
+            "Vehicle Dealerships"
+          ],
+          "similarityScore": 92
+        },
+        {
+          "description": "Carasti is an on-demand monthly car subscription app that offers affordable and flexible all-inclusive access to new cars.",
+          "employeeRange": "11-50",
+          "name": "Carasti",
+          "sharedCategories": [
+            "E-Commerce"
+          ],
+          "sharedSpecialties": [
+            "Car Subscription",
+            "Car Leasing"
+          ],
+          "similarityScore": 91
+        },
+        {
+          "description": "eZhire is an app-based car rental and mobility platform offering on-demand, no-deposit vehicle rentals with doorstep delivery.",
+          "employeeRange": "251-500",
+          "name": "eZhire",
+          "sharedSpecialties": [
+            "Car Subscription"
+          ],
+          "similarityScore": 87
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Pre Seed round raised $30,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $880,987 to $880,987, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 73 (-2 over 90 days) and market heat at 66 (-7).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Drive Arabia, Seez, CARS24.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

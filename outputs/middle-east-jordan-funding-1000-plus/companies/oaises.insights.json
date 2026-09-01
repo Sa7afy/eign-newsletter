@@ -1,0 +1,237 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T12:47:37.344Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T12:47:37.342Z",
+    "url": "https://www.crunchbase.com/organization/oaises"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Oaises",
+      "shortDescription": "Oaises creates laser-based energy efficient lighting systems.",
+      "description": "Oæsis is the world’s first company that provides laser-based energy efficient grow lights for vertical farming. They offer a flexible design of their systems and the key benefits of laser technologies. This technology is capable of growing any kind of plants for indoor farming (such as micro greens, lettuces, herbs and berries) at commercial scale and maximizing yields effortless. It enables a yearly produce of fresh plants, with no need of pesticides as it is a controlled environment.",
+      "website": "https://www.oaesislsc.com/",
+      "foundedYear": 2017,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "1-10",
+      "headquarters": "Thuwal, Ha'il, Saudi Arabia",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Electronics"
+      ],
+      "sectors": [
+        "Hardware"
+      ],
+      "founders": [
+        "Kuan Sheng Ho",
+        "Robert Werfelmann",
+        "Vasiliki Kordopati"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 45000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2017-12-10",
+      "lastFundingType": "Pre Seed",
+      "rounds": [
+        {
+          "announcedDate": "2017-12-10",
+          "amount": {
+            "amount": 45000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "postMoneyValuation": {
+            "amount": 593279,
+            "currency": "USD"
+          },
+          "type": "Pre Seed"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "name": "KAUST Innovation Fund",
+            "rounds": [
+              "Pre Seed Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 1,
+      "includedUniqueCount": 1,
+      "items": [
+        {
+          "date": "2017-12-10",
+          "title": "Pre Seed Round - Oaises"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 45000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": 0,
+      "growthScore": 33,
+      "heatChange90Days": -13,
+      "heatScore": 40
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 21.89
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 5.23,
+        "timingEstimatePercent": {
+          "within6Months": 15.39,
+          "months6To11": 13.02,
+          "months12To24": 20.34,
+          "beyond24Months": 24.98
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 82.47
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 23.14
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Orion Energy Systems offers LED lighting systems and provide controls and IoT solutions, ongoing system maintenance, and program management.",
+          "employeeRange": "251-500",
+          "name": "Orion Energy Systems",
+          "sharedCategories": [
+            "Electronics"
+          ],
+          "similarityScore": 97
+        },
+        {
+          "description": "Solais Lighting is a market-driven manufacturing company improving environments through innovative LED lighting solutions.",
+          "employeeRange": "51-100",
+          "name": "Solais Lighting",
+          "sharedCategories": [
+            "Electronics"
+          ],
+          "similarityScore": 95
+        },
+        {
+          "description": "Signify provides lighting products and systems for homes and professional segments",
+          "employeeRange": "10,001+",
+          "name": "Signify",
+          "similarityScore": 93
+        },
+        {
+          "description": "Gavita is a horticultural lighting company that manufactures lighting products.",
+          "employeeRange": "51-100",
+          "name": "Gavita",
+          "similarityScore": 91
+        },
+        {
+          "description": "California LightWorks has been guided by a vision focused on the research, design, development and manufacturing.",
+          "employeeRange": "51-100",
+          "name": "California Lightworks",
+          "similarityScore": 87
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Pre Seed round raised $45,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $593,279 to $593,279, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 33 (+0 over 90 days) and market heat at 40 (-13).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Orion Energy Systems, Solais Lighting, Signify.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

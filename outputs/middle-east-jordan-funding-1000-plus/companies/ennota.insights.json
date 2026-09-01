@@ -1,0 +1,244 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T11:35:07.837Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T11:35:07.834Z",
+    "url": "https://www.crunchbase.com/organization/ennota"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Ennota",
+      "shortDescription": "A young financial management startup, focusing on cash flow management, budgeting and projections for small businesses",
+      "description": "Headquartered in Egypt, ennota is a young financial management startup, focusing on cash flow management, budgeting and projections for small businesses in the MENA region.\r\nOur flagship product, ennota.com, is a cloud based, cross platform cash flow management tool catering to small businesses in the MENA region.It is a cash flow management tool that is a secure and enables small businesses to record their transactions and view their data it in a visually intuitive way, specifically designed for business owners with no strong technical knowledge or strong accounting background.\r\nennota.com is fully customizable, in order to allow businesses to tailor-fit their own business spending and expenditure categories, and view trends that are critical to them making informed business decisions based on their own data. Using crisp and powerful visual reporting, we enable business owners to get as detailed or summary level view of their business financials in simple manner.",
+      "website": "https://ennota.com/?lang=en",
+      "foundedYear": 2014,
+      "operatingStatus": "Closed",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "1-10",
+      "estimatedRevenueRange": "$1M-$10M",
+      "headquarters": "Cairo, Al Qahirah, Egypt",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Middle East",
+        "Middle East and North Africa (MENA)",
+        "North Africa"
+      ],
+      "industries": [
+        "Apps",
+        "Education",
+        "Finance",
+        "Financial Services",
+        "FinTech"
+      ],
+      "sectors": [
+        "Apps",
+        "Education",
+        "Financial Services",
+        "Software"
+      ],
+      "founders": [
+        "Mohamed Hamada"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 30000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 2,
+      "detailedRoundCount": 2,
+      "lastFundingDate": "2018-01-03",
+      "lastFundingType": "Grant",
+      "rounds": [
+        {
+          "announcedDate": "2018-01-03",
+          "amount": {
+            "amount": 15000,
+            "currency": "USD"
+          },
+          "investorCount": 2,
+          "leadInvestors": [
+            "MetLife Foundation",
+            "Village Capital"
+          ],
+          "type": "Grant"
+        },
+        {
+          "announcedDate": "2014-01-01",
+          "amount": {
+            "amount": 15000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "type": "Seed"
+        }
+      ],
+      "investors": {
+        "reportedCount": 3,
+        "visibleNames": [
+          {
+            "name": "F6 Ventures",
+            "rounds": [
+              "Seed Round"
+            ]
+          },
+          {
+            "isLead": true,
+            "name": "MetLife Foundation",
+            "rounds": [
+              "Grant"
+            ]
+          },
+          {
+            "isLead": true,
+            "name": "Village Capital",
+            "rounds": [
+              "Grant"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 2,
+      "includedUniqueCount": 2,
+      "items": [
+        {
+          "date": "2018-01-03",
+          "title": "Grant - Ennota"
+        },
+        {
+          "date": "2014-01-01",
+          "title": "Seed Round - Ennota"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 2,
+    "knownDetailedFundingAmount": {
+      "amount": 30000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 50,
+    "grantFunding": {
+      "amount": {
+        "amount": 15000,
+        "currency": "USD"
+      },
+      "disclosedRoundCount": 1,
+      "shareOfTotalPercent": 50
+    }
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "heatChange90Days": -13,
+      "heatScore": 22
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Budgeto is an online, incredibly user friendly application allowing entrepreneurs to build and share budgets in a few clicks.",
+          "employeeRange": "1-10",
+          "name": "Budgeto",
+          "similarityScore": 97
+        },
+        {
+          "description": "Xero is an online accounting software for small businesses that automating invoicing, bank reconciliations, and reporting.",
+          "employeeRange": "1,001-5,000",
+          "name": "Xero",
+          "sharedCategories": [
+            "FinTech"
+          ],
+          "similarityScore": 93
+        },
+        {
+          "description": "Finotor is an all-in-one accounting and financial analysis software",
+          "employeeRange": "1-10",
+          "name": "Finotor Innovation Limited",
+          "sharedCategories": [
+            "Financial Services"
+          ],
+          "similarityScore": 92
+        },
+        {
+          "description": "Nav is a credit and financial health platform that provides access to credit and financing opportunities for businesses.",
+          "employeeRange": "251-500",
+          "name": "Nav",
+          "sharedCategories": [
+            "Financial Services",
+            "Finance",
+            "FinTech"
+          ],
+          "similarityScore": 91
+        },
+        {
+          "description": "Pleo provides smart payment cards for employees to buy work-related products while giving employers control and oversight over the spending.",
+          "employeeRange": "501-1,000",
+          "name": "Pleo",
+          "sharedCategories": [
+            "Financial Services",
+            "FinTech"
+          ],
+          "similarityScore": 89
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Grant round raised $15,000, or 50% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Meaningful non-dilutive funding",
+      "statement": "1 disclosed grants total $15,000, representing 50% of reported funding.",
+      "implication": "The grants reduce the share of reported financing attributed to equity or notes, although their restrictions and milestone requirements need separate verification.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.grantFunding"
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Budgeto, Xero, Finotor Innovation Limited.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

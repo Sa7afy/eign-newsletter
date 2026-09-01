@@ -1,0 +1,156 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T14:01:01.033Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T14:01:01.032Z",
+    "url": "https://www.crunchbase.com/organization/wysada-com"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Wysada.com",
+      "shortDescription": "Wysada is an online store in the Arab world for quality furniture, garden & home ware, decor accents and accessories.",
+      "description": "Wysada is an online retailer that sells furniture, garden, décor accents, and accessories to its users.\n\nThe site offers gift cards, bed and bath equipment, décor, furniture, gifts, home appliances, and kitchen and outdoor equipment. In addition, the site sells a range of Voonsh fashion accessories to its users, including necklaces, earrings, bracelets, rings, brooches, and hand embellishments.\n\nWysada was launched in 2013 by Mohammed Musleh and is based in Jordan.",
+      "website": "http://wysada.com/",
+      "foundedYear": 2013,
+      "operatingStatus": "Closed",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "51-100",
+      "estimatedRevenueRange": "$1M-$10M",
+      "headquarters": "Amman, Jordan",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Consumer Goods",
+        "E-Commerce",
+        "Shopping"
+      ],
+      "sectors": [
+        "Commerce and Shopping",
+        "Consumer Goods"
+      ],
+      "founders": [
+        "Mohammad Musleh, CMA"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 5000000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 2,
+      "detailedRoundCount": 2,
+      "lastFundingDate": "2014-10-27",
+      "lastFundingType": "Series A",
+      "rounds": [
+        {
+          "announcedDate": "2014-10-27",
+          "amount": {
+            "amount": 5000000,
+            "currency": "USD"
+          },
+          "investorCount": 3,
+          "leadInvestors": [
+            "Badia Impact Fund"
+          ],
+          "type": "Series A"
+        },
+        {
+          "announcedDate": "2013-06-13",
+          "investorCount": 1,
+          "type": "Venture round"
+        }
+      ],
+      "investors": {
+        "reportedCount": 3,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "Badia Impact Fund",
+            "rounds": [
+              "Series A"
+            ]
+          },
+          {
+            "name": "MVI (MENA Venture Investments)",
+            "rounds": [
+              "Series A",
+              "Venture round"
+            ]
+          },
+          {
+            "name": "Silicon Badia",
+            "rounds": [
+              "Series A"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 2,
+      "includedUniqueCount": 2,
+      "items": [
+        {
+          "date": "2014-10-27",
+          "title": "Series A - Wysada.com"
+        },
+        {
+          "date": "2013-06-13",
+          "title": "Venture Round - Wysada.com"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 5000000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "heatChange90Days": 1,
+      "heatScore": 4
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors."
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Series A round raised $5,000,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

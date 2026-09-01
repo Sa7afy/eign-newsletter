@@ -1,0 +1,255 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T13:20:33.656Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T13:20:33.654Z",
+    "url": "https://www.crunchbase.com/organization/sellershook"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Sellershook",
+      "shortDescription": "Sellershook Marketplace is a native app built exclusively for Shopify.",
+      "website": "https://sellershook.com/",
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "1-10",
+      "headquarters": "Ras Al Khaimah, United Arab Emirates",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "E-Commerce Platforms",
+        "Marketplace",
+        "Shopping"
+      ],
+      "sectors": [
+        "Commerce and Shopping",
+        "Internet Services"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "An online multi-vendor marketplace app built for Shopify that enables multiple sellers to list and sell products through a single platform.",
+        "name": "Sellershook Marketplace"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 50000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2023-09-23",
+      "lastFundingType": "Pre Seed",
+      "rounds": [
+        {
+          "announcedDate": "2023-09-23",
+          "amount": {
+            "amount": 50000,
+            "currency": "USD"
+          },
+          "investorCount": 2,
+          "leadInvestors": [
+            "FasterCapital"
+          ],
+          "type": "Pre Seed"
+        }
+      ],
+      "investors": {
+        "reportedCount": 2,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "FasterCapital",
+            "rounds": [
+              "Pre Seed Round"
+            ]
+          },
+          {
+            "name": "Hesham Zreik",
+            "rounds": [
+              "Pre Seed Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 1,
+      "includedUniqueCount": 1,
+      "items": [
+        {
+          "date": "2023-09-23",
+          "title": "Pre Seed Round - Sellershook"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 50000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": -8,
+      "growthScore": 43,
+      "heatChange90Days": -29,
+      "heatScore": 32
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 5
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 74.37
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 0
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "WebKul is a design and development company working on e-commerce and ERP.",
+          "employeeRange": "501-1,000",
+          "name": "WebKul",
+          "sharedSpecialties": [
+            "Marketplace Management"
+          ],
+          "similarityScore": 97
+        },
+        {
+          "description": "Transform your Shopify store into a high-performing marketplace. Best Multi-Vendor Marketplace on Shopify.",
+          "employeeRange": "1-10",
+          "name": "Garnet Marketplace",
+          "sharedCategories": [
+            "Marketplace"
+          ],
+          "sharedSpecialties": [
+            "Merchant Portal and Escrow Services",
+            "Order and Inventory Management",
+            "Marketplace Management",
+            "Marketplace Integration",
+            "E-Commerce Operations Management",
+            "Multivendor Marketplace Platforms",
+            "Mass Payouts and Bulk Disbursements"
+          ],
+          "similarityScore": 95
+        },
+        {
+          "description": "Shipturtle makes process easy for e-commerce orders by vendor onboardng and product sync and order routing and shipping.",
+          "employeeRange": "11-50",
+          "name": "Shipturtle",
+          "sharedCategories": [
+            "Marketplace",
+            "E-Commerce Platforms"
+          ],
+          "sharedSpecialties": [
+            "Merchant Portal and Escrow Services",
+            "Order and Inventory Management",
+            "Marketplace Management",
+            "Payment Orchestration Platforms",
+            "Marketplace Integration",
+            "E-Commerce Operations Management",
+            "Multivendor Marketplace Platforms",
+            "Mass Payouts and Bulk Disbursements"
+          ],
+          "similarityScore": 91
+        },
+        {
+          "description": "SaaS, Advanced Bundle Products Shopify App",
+          "employeeRange": "1-10",
+          "name": "MBC Bundle Products",
+          "sharedSpecialties": [
+            "Order and Inventory Management",
+            "E-Commerce Operations Management"
+          ],
+          "similarityScore": 87
+        },
+        {
+          "description": "CedCommerce develops and provides e-Commerce solutions for the clients’ specific needs.",
+          "employeeRange": "501-1,000",
+          "name": "CedCommerce",
+          "sharedSpecialties": [
+            "Order and Inventory Management",
+            "Marketplace Management",
+            "Marketplace Integration",
+            "E-Commerce Operations Management",
+            "Multivendor Marketplace Platforms"
+          ],
+          "similarityScore": 87
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Pre Seed round raised $50,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 43 (-8 over 90 days) and market heat at 32 (-29).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include WebKul, Garnet Marketplace, Shipturtle.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

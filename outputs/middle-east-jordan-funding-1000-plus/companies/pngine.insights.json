@@ -1,0 +1,189 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T12:58:31.128Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T12:58:31.127Z",
+    "url": "https://www.crunchbase.com/organization/pngine"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Pensqr",
+      "shortDescription": "Pngine, a microblogging platform, allows users to share stories, photos, blogs and videos on other social networks.",
+      "description": "Pensqr : A Twitter but much more organized.\r\n\r\nPensqr (formerly Pngine) will change the way you connect & interact with things that matter you.\r\nThey bring you a new content sharing platform to share your thoughts, ideas and opinions about topics that interest you not just with friends but with other like minded people. \r\nThey craft it to value what you share and keep what you love alive, accessible and collectively organized over lifetime.",
+      "website": "http://www.pensqr.com/",
+      "operatingStatus": "Closed",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "1-10",
+      "headquarters": "Gîza, Al Jizah, Egypt",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Middle East",
+        "Middle East and North Africa (MENA)",
+        "North Africa"
+      ],
+      "industries": [
+        "Content",
+        "Social Network",
+        "Video"
+      ],
+      "sectors": [
+        "Internet Services",
+        "Media and Entertainment",
+        "Video"
+      ],
+      "founders": [
+        "Bassem Mohamed Wahid",
+        "Karim Roushdy",
+        "Mohamed ElBalkini"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 10000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2013-06-01",
+      "lastFundingType": "Seed",
+      "rounds": [
+        {
+          "announcedDate": "2013-06-01",
+          "amount": {
+            "amount": 10000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "type": "Seed"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "name": "F6 Ventures",
+            "rounds": [
+              "Seed Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 1,
+      "includedUniqueCount": 1,
+      "items": [
+        {
+          "date": "2013-06-01",
+          "title": "Seed Round - Pensqr"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 10000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "heatChange90Days": -15,
+      "heatScore": 1
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Tumblr is a microblogging and social networking website.",
+          "employeeRange": "1,001-5,000",
+          "name": "Tumblr, Inc.",
+          "sharedCategories": [
+            "Social Network"
+          ],
+          "similarityScore": 95
+        },
+        {
+          "description": "Twitter UK Ltd operates regional services and support for the X (formerly Twitter) social networking platform.",
+          "employeeRange": "5,001-10,000",
+          "name": "Twitter Uk",
+          "sharedCategories": [
+            "Social Network"
+          ],
+          "similarityScore": 94
+        },
+        {
+          "description": "Micro.blog is a platform that combines blog hosting with a social media-style timeline and community.",
+          "employeeRange": "1-10",
+          "name": "Micro.blog",
+          "sharedCategories": [
+            "Social Network"
+          ],
+          "similarityScore": 93
+        },
+        {
+          "description": "Mastodon is a social network based on open web protocols and free, open-source software.",
+          "employeeRange": "1-10",
+          "name": "Mastodon Social",
+          "sharedCategories": [
+            "Social Network"
+          ],
+          "similarityScore": 88
+        },
+        {
+          "description": "Medium is a social publishing network that connects ideas and perspectives on topics that matter.",
+          "employeeRange": "1-10",
+          "name": "Medium",
+          "similarityScore": 87
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Seed round raised $10,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Tumblr, Inc., Twitter Uk, Micro.blog.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

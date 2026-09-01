@@ -1,0 +1,289 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T12:32:25.060Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T12:32:25.057Z",
+    "url": "https://www.crunchbase.com/organization/microsystem"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Microsystem Hotspot",
+      "shortDescription": "Microsystem Hotspot is a web platform that provides monetization and Wi-Fi management solutions.",
+      "description": "Microsystem Hotspot offers marketing and monetization solutions. They also offer WiFi management, firewall and Internet security, and Internet bandwidth management solutions. They provide solutions for the commercial, event management, and shopping mall sectors.",
+      "website": "http://hotspot.microsystem.com.eg/",
+      "foundedYear": 2011,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "11-50",
+      "headquarters": "Gîza, Al Jizah, Egypt",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Middle East",
+        "Middle East and North Africa (MENA)",
+        "North Africa"
+      ],
+      "industries": [
+        "Information Technology",
+        "Internet",
+        "Wireless"
+      ],
+      "sectors": [
+        "Hardware",
+        "Information Technology",
+        "Mobile"
+      ],
+      "founders": [
+        "Ahmed Mansour"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "A platform that uses Wi-Fi networks to engage with visitors through SMS, app push, email, and captive portal pages, capturing detailed data for marketing purposes.",
+        "name": "Wi-Fi Marketing and Monetization"
+      },
+      {
+        "description": "A cloud-based system for managing internet bandwidth, speed, and quotas, with features like load balancing, firewall security, and remote management.",
+        "name": "Internet Management Cloud System"
+      },
+      {
+        "description": "A scalable platform for MNOs and ISPs to offer white-labeled guest WiFi solutions, integrating with existing products and enabling network expansion.",
+        "name": "Carrier and Service Provider WiFi"
+      },
+      {
+        "description": "A solution providing secure guest WiFi in commercial buildings, enhancing visitor engagement and offering content filtering services.",
+        "name": "WiFi for Commercial Offices"
+      },
+      {
+        "description": "A WiFi solution for hotels to capture guest data, drive targeted marketing campaigns, and offer both free and paid internet access.",
+        "name": "WiFi for Hotels"
+      },
+      {
+        "description": "A service offering free WiFi in dining venues, enabling customer engagement through promotions and social media integration.",
+        "name": "WiFi for Restaurants and Cafes"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 10000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2017-04-01",
+      "lastFundingType": "Pre Seed",
+      "rounds": [
+        {
+          "announcedDate": "2017-04-01",
+          "amount": {
+            "amount": 10000,
+            "currency": "USD"
+          },
+          "postMoneyValuation": {
+            "amount": 135768,
+            "currency": "USD"
+          },
+          "type": "Pre Seed"
+        }
+      ]
+    },
+    "recentNews": {
+      "reportedCount": 1,
+      "includedUniqueCount": 1,
+      "items": [
+        {
+          "date": "2017-04-01",
+          "title": "Pre Seed Round - Microsystem Hotspot"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 10000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": -1,
+      "growthScore": 48,
+      "heatChange90Days": -21,
+      "heatScore": 43
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 12.66
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 5,
+        "timingEstimatePercent": {
+          "within6Months": 14.55,
+          "months6To11": 12.43,
+          "months12To24": 19.7,
+          "beyond24Months": 24.89
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 78.7
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 24.34
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "The leading Guest WiFi platform with social data capture, visitor metrics and marketing automation.",
+          "employeeRange": "11-50",
+          "name": "MyWiFi Networks",
+          "sharedCategories": [
+            "Wireless"
+          ],
+          "sharedSpecialties": [
+            "Customer Data Platform (CDP)",
+            "Location-Based Marketing Platform",
+            "Venue Marketing"
+          ],
+          "similarityScore": 97
+        },
+        {
+          "description": "HotspotSystem offers hotspot management and billing services for businesses or individuals to deliver wireless internet access to customers.",
+          "employeeRange": "1-10",
+          "name": "HotspotSystem",
+          "sharedCategories": [
+            "Internet",
+            "Wireless",
+            "Information Technology"
+          ],
+          "sharedSpecialties": [
+            "Event Connectivity Services",
+            "Wireless Access Points",
+            "Network Management"
+          ],
+          "similarityScore": 94
+        },
+        {
+          "description": "Purple is a WiFi analytics and marketing platform.",
+          "employeeRange": "51-100",
+          "name": "Purple",
+          "sharedCategories": [
+            "Wireless"
+          ],
+          "sharedSpecialties": [
+            "Event Connectivity Services",
+            "Customer Data Platform (CDP)",
+            "Location-Based Marketing Platform",
+            "Venue Marketing"
+          ],
+          "similarityScore": 84
+        },
+        {
+          "description": "The cloud platform for IT professionals to operate Wi-Fi networks",
+          "employeeRange": "11-50",
+          "name": "Tanaza",
+          "sharedCategories": [
+            "Wireless",
+            "Information Technology"
+          ],
+          "sharedSpecialties": [
+            "Wireless Access Points",
+            "Network Management"
+          ],
+          "similarityScore": 84
+        },
+        {
+          "description": "Meraki provides Cisco-based cloud-controlled Wi-Fi and routing and security products for distributed wired and wireless networks.",
+          "employeeRange": "1,001-5,000",
+          "name": "Meraki",
+          "sharedCategories": [
+            "Wireless"
+          ],
+          "sharedSpecialties": [
+            "Wireless Access Points",
+            "Network Management"
+          ],
+          "similarityScore": 82
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Pre Seed round raised $10,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $135,768 to $135,768, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 48 (-1 over 90 days) and market heat at 43 (-21).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include MyWiFi Networks, HotspotSystem, Purple.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

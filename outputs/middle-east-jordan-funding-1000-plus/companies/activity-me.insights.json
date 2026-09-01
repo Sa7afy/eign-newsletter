@@ -1,0 +1,289 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T08:58:22.924Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T08:58:22.921Z",
+    "url": "https://www.crunchbase.com/organization/activity-me"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "activity.me",
+      "shortDescription": "activity.me is a digital booking platform that enables users to discover and reserve a wide range of leisure activities.",
+      "description": "activity.me operates as a marketplace for experiences and recreational activities. It aggregates offerings from various providers and presents them in a single platform where users can explore different options based on location, interest, and availability.",
+      "website": "https://www.activity.me/",
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "1-10",
+      "headquarters": "Dubai, United Arab Emirates",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Events",
+        "Internet",
+        "Racing",
+        "Sports",
+        "Wellness"
+      ],
+      "sectors": [
+        "Events",
+        "Health Care",
+        "Information Technology",
+        "Sports"
+      ],
+      "founders": [
+        "Angelo Vassiliades"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "A platform that allows users to discover and register for mass participation sports events worldwide, focusing on activities like running, cycling, swimming, and boarding.",
+        "name": "Sporting Events Search Engine"
+      },
+      {
+        "description": "A service that allows event organizers to register their sports events on the platform to attract participants and manage event registrations.",
+        "name": "Event Organizer Registration Service"
+      },
+      {
+        "description": "A user account system enabling participants to create profiles, sign up for events, and manage their participation details.",
+        "name": "Participant Account Management"
+      },
+      {
+        "description": "An online blog providing articles with tips, motivation, and information related to fitness and sports events.",
+        "name": "Sports and Fitness Blog"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 150000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2020-01-15",
+      "lastFundingType": "Pre Seed",
+      "rounds": [
+        {
+          "announcedDate": "2020-01-15",
+          "amount": {
+            "amount": 150000,
+            "currency": "USD"
+          },
+          "postMoneyValuation": {
+            "amount": 1526990,
+            "currency": "USD"
+          },
+          "type": "Pre Seed"
+        }
+      ]
+    },
+    "recentNews": {
+      "reportedCount": 2,
+      "includedUniqueCount": 2,
+      "items": [
+        {
+          "date": "2021-03-24",
+          "publisher": "MarketWatch",
+          "title": "activity.me Launches Global Marketplace To Help Race Participants Discover Fitness & Sporting Events",
+          "url": "http://marketwatch.com/press-release/activityme-launches-global-marketplace-to-help-race-participants-discover-fitness-sporting-events-2021-03-24"
+        },
+        {
+          "date": "2020-01-15",
+          "title": "Pre Seed Round - activity.me"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 150000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": -1,
+      "growthScore": 73,
+      "heatChange90Days": -9,
+      "heatScore": 72
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 31.8
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 12.75,
+        "timingEstimatePercent": {
+          "within6Months": 14.25,
+          "months6To11": 12.22,
+          "months12To24": 19.46,
+          "beyond24Months": 24.83
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 84.47
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 24.18
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "RunSignup is a registration platform for fundraising and endurance events.",
+          "employeeRange": "51-100",
+          "name": "RunSignup",
+          "sharedCategories": [
+            "Racing",
+            "Events"
+          ],
+          "sharedSpecialties": [
+            "Event Registration Software",
+            "Event Analytics and Surveys",
+            "Sports Event Management"
+          ],
+          "similarityScore": 97
+        },
+        {
+          "description": "Let’s Do This is an online marketplace that that features endurance events in a global scale.",
+          "employeeRange": "101-250",
+          "name": "Let’s Do This",
+          "sharedCategories": [
+            "Sports",
+            "Events"
+          ],
+          "sharedSpecialties": [
+            "Event Registration Software",
+            "Marathon and Running Tours",
+            "Sports Travel",
+            "Local Event Listings",
+            "Event Analytics and Surveys",
+            "Event Registration Services",
+            "Sports Event Management",
+            "Event Reservations"
+          ],
+          "similarityScore": 95
+        },
+        {
+          "description": "Race Roster is an online registration and event marketing platform working primarily in the endurance sports industry.",
+          "employeeRange": "11-50",
+          "name": "Race Roster",
+          "sharedCategories": [
+            "Sports"
+          ],
+          "sharedSpecialties": [
+            "Event Registration Software",
+            "Marathon and Running Tours",
+            "Sports Event Management"
+          ],
+          "similarityScore": 93
+        },
+        {
+          "description": "Software & service solutions for the full scope of activity registration, management, and marketing needs.",
+          "employeeRange": "1,001-5,000",
+          "name": "Active Network",
+          "sharedSpecialties": [
+            "Event Registration Software",
+            "Marathon and Running Tours",
+            "Activities and Recreation",
+            "Event Analytics and Surveys",
+            "Sports Event Management",
+            "Event Reservations"
+          ],
+          "similarityScore": 91
+        },
+        {
+          "description": "Modular SaaS for Mass Participation Events",
+          "employeeRange": "1-10",
+          "name": "Pacer Event Solutions Ltd.",
+          "sharedCategories": [
+            "Events"
+          ],
+          "similarityScore": 89
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Pre Seed round raised $150,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $1,526,990 to $1,526,990, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 73 (-1 over 90 days) and market heat at 72 (-9).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include RunSignup, Let’s Do This, Race Roster.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

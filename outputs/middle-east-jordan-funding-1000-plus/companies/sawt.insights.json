@@ -1,0 +1,219 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T13:18:23.808Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T13:18:23.806Z",
+    "url": "https://www.crunchbase.com/organization/sawt"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Sawt",
+      "shortDescription": "Sawt a startup for pioneering AI voice call systems.",
+      "website": "https://www.sawt.sa/",
+      "foundedYear": 2025,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "11-50",
+      "headquarters": "Riyadh, Ar Riyad, Saudi Arabia",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "founders": [
+        "Abdulmalik Alsaeed",
+        "Basim Alharbi",
+        "Khaled Aljuraywi"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 1000000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2025-07-28",
+      "lastFundingType": "Pre Seed",
+      "rounds": [
+        {
+          "announcedDate": "2025-07-28",
+          "amount": {
+            "amount": 1000000,
+            "currency": "USD"
+          },
+          "investorCount": 2,
+          "leadInvestors": [
+            "STV",
+            "T2"
+          ],
+          "postMoneyValuation": {
+            "amount": 6503154,
+            "currency": "USD"
+          },
+          "type": "Pre Seed"
+        }
+      ],
+      "investors": {
+        "reportedCount": 2,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "STV",
+            "rounds": [
+              "Pre Seed Round"
+            ]
+          },
+          {
+            "isLead": true,
+            "name": "T2",
+            "rounds": [
+              "Pre Seed Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 6,
+      "includedUniqueCount": 6,
+      "items": [
+        {
+          "date": "2026-08-26",
+          "publisher": "SecneNow",
+          "title": "7 MENA Startups Transforming Customer Support with AI",
+          "url": "https://thestartupscene.me/MenaEcosystems/7-MENA-Startups-Transforming-Customer-Support-with-AI"
+        },
+        {
+          "date": "2025-10-21",
+          "publisher": "Techgist Africa | Africa Leading Tech News, Reviews and Tips",
+          "title": "Arabic Language Innovation Accelerator: Empowering the Future of Arabic Tech Startups",
+          "url": "https://techgistafrica.com/accelerator/arabic-language-innovation-accelerator-empowering-the-future-of-arabic-tech-startups/"
+        },
+        {
+          "date": "2025-07-28",
+          "title": "Pre Seed Round - Sawt"
+        },
+        {
+          "date": "2025-07-28",
+          "publisher": "thesaasnews.com",
+          "title": "Sawt Raises $1 Million in Pre-Seed Round",
+          "url": "https://www.thesaasnews.com/news/sawt-raises-1-million-in-pre-seed-round"
+        },
+        {
+          "date": "2025-07-27",
+          "publisher": "Wamda",
+          "title": "Sawt raises $1 million to transform voice-based customer service",
+          "url": "https://www.wamda.com/2025/07/sawt-raises-1-million-transform-voice-based-customer-service"
+        },
+        {
+          "date": "2025-07-27",
+          "publisher": "SecneNow",
+          "title": "Saudi Startup Sawt Raises $1 Million to Expand AI Voice Support",
+          "url": "https://thestartupscene.me/INVESTMENTS/Saudi-Startup-Sawt-Raises-1-Million-to-Expand-AI-Voice-Support"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 1000000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthInsightGeneratedDate": "2025-10-06",
+      "growthChange90Days": 5,
+      "growthScore": 60,
+      "heatChange90Days": 16,
+      "heatScore": 59,
+      "status": "Growing"
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2025-12-27",
+        "probabilityPercent": 35
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 94.23,
+        "timingEstimatePercent": {
+          "within6Months": 99.97,
+          "months6To11": 0.03,
+          "months12To24": 0,
+          "beyond24Months": 0
+        }
+      },
+      "ipo": {
+        "generatedDate": "2025-12-27",
+        "probabilityPercent": 35
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors."
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Pre Seed round raised $1,000,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $6,503,154 to $6,503,154, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 60 (+5 over 90 days) and market heat at 59 (+16).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

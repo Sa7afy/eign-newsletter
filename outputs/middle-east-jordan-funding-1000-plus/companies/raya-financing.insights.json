@@ -1,0 +1,260 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T13:07:41.128Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T13:07:41.125Z",
+    "url": "https://www.crunchbase.com/organization/raya-financing"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Raya Financing",
+      "shortDescription": "Raya Financing Company provides retail and corporate financing services.",
+      "description": "Raya Financing Company provides online services through applications and websites. They provide retail and corporate financing , as well as auto financing. They also offer insurance service.",
+      "website": "https://www.rayafinancing.com/",
+      "foundedYear": 2015,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "101-250",
+      "estimatedRevenueRange": "$10M-$50M",
+      "headquarters": "Dammam, Ash Sharqiyah, Saudi Arabia",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Banking",
+        "Finance",
+        "Financial Services"
+      ],
+      "sectors": [
+        "Financial Services",
+        "Lending and Investments"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "A leasing finance product for companies to acquire vehicles with structured payment plans over a contract period.",
+        "name": "Corporate Leasing Finance"
+      },
+      {
+        "description": "A Sharia-compliant financing product for companies to purchase vehicles with fixed monthly installments over a contract period.",
+        "name": "Corporate Murabaha Finance"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 79996843,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2026-02-18",
+      "lastFundingType": "Debt Financing",
+      "rounds": [
+        {
+          "announcedDate": "2026-02-18",
+          "amount": {
+            "amount": 79996843,
+            "currency": "USD"
+          },
+          "type": "Debt Financing"
+        }
+      ]
+    },
+    "recentNews": {
+      "reportedCount": 3,
+      "includedUniqueCount": 3,
+      "items": [
+        {
+          "date": "2026-02-18",
+          "title": "Debt Financing - Raya Financing"
+        },
+        {
+          "date": "2026-02-18",
+          "publisher": "Zawya.com",
+          "title": "Saudi’s Raya Financing raises $80mln through AT1 sukuk",
+          "url": "https://www.zawya.com/en/economy/islamic-economy/saudis-raya-financing-raises-80mlm-through-at1-sukuk-y9s1fdk4"
+        },
+        {
+          "date": "2026-02-17",
+          "publisher": "SecneNow",
+          "title": "Auto Loans Startup Raya Financing Raises SAR 300M Through AT1 Sukuk",
+          "url": "https://thestartupscene.me/INVESTMENTS/Auto-Loans-Startup-Raya-Financing-Raises-SAR-300M-Through-AT1-Sukuk"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 79996843,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthInsightGeneratedDate": "2026-03-15",
+      "growthChange90Days": -7,
+      "growthScore": 82,
+      "heatChange90Days": -1,
+      "heatScore": 64,
+      "status": "Growing"
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 67.56
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 12.88,
+        "timingEstimatePercent": {
+          "within6Months": 1.3,
+          "months6To11": 0,
+          "months12To24": 0,
+          "beyond24Months": 98.7
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 91.6
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 58.07
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Alinma Bank is a Saudi joint stock company that is created in conformity Royal Decree No. M/15 and Ministerial Resolution No. 42.",
+          "employeeRange": "1,001-5,000",
+          "name": "Alinma Bank",
+          "sharedCategories": [
+            "Banking"
+          ],
+          "sharedSpecialties": [
+            "Business Banking",
+            "Vehicle Financing",
+            "Islamic Finance"
+          ],
+          "similarityScore": 95
+        },
+        {
+          "description": "Al Yusr provides financing services.",
+          "employeeRange": "501-1,000",
+          "name": "Al Yusr",
+          "sharedSpecialties": [
+            "Vehicle Financing",
+            "Auto and Dealer Finance"
+          ],
+          "similarityScore": 94
+        },
+        {
+          "description": "Saudi Awwal Bank offers retail, corporate, investment, and Islamic banking solutions with innovative digital services.",
+          "employeeRange": "1,001-5,000",
+          "name": "Saudi Awwal Bank",
+          "sharedCategories": [
+            "Banking",
+            "Financial Services",
+            "Finance"
+          ],
+          "sharedSpecialties": [
+            "Business Banking",
+            "Islamic Finance"
+          ],
+          "similarityScore": 93
+        },
+        {
+          "description": "Riyad Bank is an arabic financial institution for businesses and individuals.",
+          "employeeRange": "5,001-10,000",
+          "name": "Riyad Bank",
+          "sharedCategories": [
+            "Banking",
+            "Financial Services"
+          ],
+          "sharedSpecialties": [
+            "Business Banking",
+            "Islamic Finance"
+          ],
+          "similarityScore": 91
+        },
+        {
+          "description": "The Saudi Investment Bank is a joint stock company that provides wholesale, retail, and commercial banking products and services.",
+          "employeeRange": "1,001-5,000",
+          "name": "The Saudi Investment Bank",
+          "sharedCategories": [
+            "Banking",
+            "Financial Services"
+          ],
+          "sharedSpecialties": [
+            "Business Banking"
+          ],
+          "similarityScore": 89
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Debt Financing round raised $79,996,843, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 82 (-7 over 90 days) and market heat at 64 (-1).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Alinma Bank, Al Yusr, Saudi Awwal Bank.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

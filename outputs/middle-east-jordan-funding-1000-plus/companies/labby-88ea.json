@@ -1,0 +1,2712 @@
+{
+  "sourceUrl": "https://www.crunchbase.com/organization/labby-88ea",
+  "pageTitle": "labby-88ea",
+  "scrapedAt": "2026-09-01T12:17:45.748Z",
+  "extraction": {
+    "authenticated": true,
+    "method": "curl-cffi-authenticated-entity-fetch-no-browser"
+  },
+  "organization": {
+    "properties": {
+      "facet_ids": [
+        "ai_insight",
+        "company",
+        "key_event",
+        "rank"
+      ],
+      "identifier": {
+        "uuid": "fcec7c42-1856-43ab-acc3-f36df6e988ea",
+        "value": "Labby",
+        "permalink": "labby-88ea",
+        "entity_def_id": "organization"
+      },
+      "short_description": "Labby is creating a digital platform to combine various common services into a single application.",
+      "rank_delta_d90": 9.9,
+      "title": "Labby"
+    },
+    "cards": {
+      "semrush_summary": {
+        "identifier": {
+          "uuid": "fcec7c42-1856-43ab-acc3-f36df6e988ea",
+          "value": "Labby",
+          "permalink": "labby-88ea",
+          "entity_def_id": "organization"
+        }
+      },
+      "key_employee_change_list": [],
+      "apptopia_attribution": {},
+      "diversity_spotlight_investments_headline": {},
+      "apptopia_app_rating_list": [],
+      "funds_summary": {
+        "identifier": {
+          "uuid": "fcec7c42-1856-43ab-acc3-f36df6e988ea",
+          "value": "Labby",
+          "permalink": "labby-88ea",
+          "entity_def_id": "organization"
+        }
+      },
+      "funding_prediction": [],
+      "company_about_fields1": {},
+      "current_advisors_image_list": [],
+      "recommended_search": [
+        {
+          "identifier": {
+            "permalink": "private-europe-middle-east-and-africa-companies",
+            "image_id": "866aae97a23a4c519bdab47ad53cd0f8",
+            "uuid": "6da7f885-f853-42eb-b1a5-423f79b3b878",
+            "entity_def_id": "hub",
+            "value": "Private Europe, Middle East, and Africa (EMEA) Companies (Top 10K)"
+          },
+          "org_identifiers": [
+            {
+              "permalink": "european-investment-bank",
+              "image_id": "866aae97a23a4c519bdab47ad53cd0f8",
+              "uuid": "5cad3164-5946-1b9a-9fa8-815e10cf7db1",
+              "entity_def_id": "organization",
+              "value": "European Investment Bank"
+            },
+            {
+              "permalink": "european-bank-for-reconstruction-and-development-ebrd",
+              "image_id": "f0c4d87327e7401ab555ce2a97628b73",
+              "uuid": "eee223d0-8c2e-3195-820c-f9864460c548",
+              "entity_def_id": "organization",
+              "value": "European Bank for Reconstruction and Development"
+            },
+            {
+              "permalink": "lovable-803a",
+              "image_id": "0b69ba62755441dda73fd1a95d128345",
+              "uuid": "10843a45-04a6-4668-a427-c67f4095803a",
+              "entity_def_id": "organization",
+              "value": "Lovable"
+            },
+            {
+              "permalink": "Ōura",
+              "image_id": "ssh8s1gm7yaej5jltmnv",
+              "uuid": "a687d060-62ee-65e1-ec20-35aa967e36ed",
+              "entity_def_id": "organization",
+              "value": "Oura"
+            },
+            {
+              "permalink": "mistral-ai",
+              "image_id": "a107708d04ba41bf8f368227209efb3d",
+              "uuid": "00e32424-3cc3-4798-8361-78914c212fb0",
+              "entity_def_id": "organization",
+              "value": "Mistral AI"
+            },
+            {
+              "permalink": "bpifrance",
+              "image_id": "xq3r3u6bjurgbd0nausn",
+              "uuid": "d420cb3c-c5c2-df2a-63db-4850847570c8",
+              "entity_def_id": "organization",
+              "value": "Bpifrance"
+            },
+            {
+              "permalink": "nscale",
+              "image_id": "248ba9b2996c41fd93b8b5c600f02374",
+              "uuid": "1f9f554a-d030-4de2-a977-f726c6ef782a",
+              "entity_def_id": "organization",
+              "value": "Nscale"
+            },
+            {
+              "permalink": "nothing-4537",
+              "image_id": "243cfe359ef24bfe8beceeb0d95a18a8",
+              "uuid": "2cf71583-1982-4798-aac0-40efffae4537",
+              "entity_def_id": "organization",
+              "value": "Nothing"
+            }
+          ],
+          "org_funding_total": {
+            "currency": "USD",
+            "value": 1580795301874,
+            "value_usd": 1580795301874
+          },
+          "org_num_investors": 70401,
+          "org_num": 9934,
+          "queries": {
+            "event": [
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "4e8be435-c63a-4aff-8a2f-44a880d9c341"
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "principal.has_event.forward",
+                "query": [
+                  {
+                    "field_id": "facet_ids",
+                    "operator_id": "includes",
+                    "values": [
+                      "company"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "ipo_status",
+                    "operator_id": "includes",
+                    "values": [
+                      "private"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "active"
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ],
+            "organization": [
+              {
+                "field_id": "facet_ids",
+                "operator_id": "includes",
+                "values": [
+                  "company"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "4e8be435-c63a-4aff-8a2f-44a880d9c341"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "ipo_status",
+                "operator_id": "includes",
+                "values": [
+                  "private"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "operating_status",
+                "operator_id": "eq",
+                "values": [
+                  "active"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "rank_org",
+                "operator_id": "lte",
+                "values": [
+                  53000
+                ],
+                "type": "predicate"
+              }
+            ],
+            "person": [
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "4e8be435-c63a-4aff-8a2f-44a880d9c341"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "rank_person",
+                "operator_id": "lte",
+                "values": [
+                  24000
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "organization.has_primary_organization.forward",
+                "query": [
+                  {
+                    "field_id": "facet_ids",
+                    "operator_id": "includes",
+                    "values": [
+                      "company"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "location_identifiers",
+                    "operator_id": "includes",
+                    "values": [
+                      "4e8be435-c63a-4aff-8a2f-44a880d9c341"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "ipo_status",
+                    "operator_id": "includes",
+                    "values": [
+                      "private"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "active"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "rank_org",
+                    "operator_id": "lte",
+                    "values": [
+                      53000
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ]
+          }
+        },
+        {
+          "identifier": {
+            "permalink": "egypt-companies",
+            "image_id": "aa1e4a9f367f4a34a29d5f81de4cb62b",
+            "uuid": "6981993e-cf4d-41ab-bc0f-4b0c47cc73e4",
+            "entity_def_id": "hub",
+            "value": "Egypt Companies (Top 10K)"
+          },
+          "org_identifiers": [
+            {
+              "permalink": "african-export-import-bank",
+              "image_id": "aa1e4a9f367f4a34a29d5f81de4cb62b",
+              "uuid": "971b156a-46e5-c04c-2ae9-d36127a9bd9f",
+              "entity_def_id": "organization",
+              "value": "African Export-Import Bank"
+            },
+            {
+              "permalink": "valu-b635",
+              "image_id": "62a4a956f14d471d837467ca5d2420fb",
+              "uuid": "e586fb36-9a58-436a-bf50-6d451761b635",
+              "entity_def_id": "organization",
+              "value": "valU"
+            },
+            {
+              "permalink": "fincart-8c0d",
+              "image_id": "2157db3af2424b619df39903e68869da",
+              "uuid": "38128808-f1be-480b-813a-77fb6ea68c0d",
+              "entity_def_id": "organization",
+              "value": "Fincart"
+            },
+            {
+              "permalink": "breadfast",
+              "image_id": "jiieid7adccujyaxzs9c",
+              "uuid": "4f10173e-0a2c-4941-889a-b5f2b40172a1",
+              "entity_def_id": "organization",
+              "value": "Breadfast"
+            },
+            {
+              "permalink": "mylerz",
+              "image_id": "qwsmcohr5b2dknonww7t",
+              "uuid": "2b9a44e8-d20d-4cb4-95ed-d8bd7b8cdde0",
+              "entity_def_id": "organization",
+              "value": "Mylerz"
+            },
+            {
+              "permalink": "paymob",
+              "image_id": "lpt5ox5xhjeorf2rryxa",
+              "uuid": "2f6dccc7-f49a-50a6-7975-dc7cc8af53ee",
+              "entity_def_id": "organization",
+              "value": "Paymob"
+            },
+            {
+              "permalink": "banque-misr",
+              "image_id": "wipnxmwkuzc6z1ssqxt4",
+              "uuid": "03625e6a-a87c-4b39-89ea-319e12ec4cc7",
+              "entity_def_id": "organization",
+              "value": "Banque Misr"
+            },
+            {
+              "permalink": "minapharm-pharmaceuticals",
+              "image_id": "iymvuabj8zumjfdt372s",
+              "uuid": "1d1be3d0-642e-47b2-a56d-0a147b6b8081",
+              "entity_def_id": "organization",
+              "value": "Minapharm Pharmaceuticals"
+            }
+          ],
+          "org_funding_total": {
+            "currency": "USD",
+            "value": 27877017420,
+            "value_usd": 27877017420
+          },
+          "org_num_investors": 2376,
+          "org_num": 9945,
+          "queries": {
+            "event": [
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "7d6eef02-5784-2dce-08f7-69705f85e35f"
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "principal.has_event.forward",
+                "query": [
+                  {
+                    "field_id": "facet_ids",
+                    "operator_id": "includes",
+                    "values": [
+                      "company"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "active"
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ],
+            "organization": [
+              {
+                "field_id": "facet_ids",
+                "operator_id": "includes",
+                "values": [
+                  "company"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "7d6eef02-5784-2dce-08f7-69705f85e35f"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "operating_status",
+                "operator_id": "eq",
+                "values": [
+                  "active"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "rank_org",
+                "operator_id": "lte",
+                "values": [
+                  5700000
+                ],
+                "type": "predicate"
+              }
+            ],
+            "person": [
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "7d6eef02-5784-2dce-08f7-69705f85e35f"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "rank_person",
+                "operator_id": "lte",
+                "values": [
+                  1100000
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "organization.has_primary_organization.forward",
+                "query": [
+                  {
+                    "field_id": "facet_ids",
+                    "operator_id": "includes",
+                    "values": [
+                      "company"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "location_identifiers",
+                    "operator_id": "includes",
+                    "values": [
+                      "7d6eef02-5784-2dce-08f7-69705f85e35f"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "active"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "rank_org",
+                    "operator_id": "lte",
+                    "values": [
+                      5700000
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ]
+          }
+        },
+        {
+          "identifier": {
+            "permalink": "middle-east-and-north-africa-companies",
+            "image_id": "kermvpjt6vvcclqvly6k",
+            "uuid": "53cfed49-527f-4c93-bf76-6838d3dcb232",
+            "entity_def_id": "hub",
+            "value": "Middle East and North Africa (MENA) Companies (Top 10K)"
+          },
+          "org_identifiers": [
+            {
+              "permalink": "binance-labs-b05e",
+              "image_id": "kermvpjt6vvcclqvly6k",
+              "uuid": "8b52e412-7d11-4b4d-ae49-3811f29fb05e",
+              "entity_def_id": "organization",
+              "value": "YZi Labs"
+            },
+            {
+              "permalink": "fasset",
+              "image_id": "216886c7d09c49d39cce6277f342d12d",
+              "uuid": "fb8d3cbb-6706-4fda-941f-7add24517f7c",
+              "entity_def_id": "organization",
+              "value": "Fasset"
+            },
+            {
+              "permalink": "african-export-import-bank",
+              "image_id": "aa1e4a9f367f4a34a29d5f81de4cb62b",
+              "uuid": "971b156a-46e5-c04c-2ae9-d36127a9bd9f",
+              "entity_def_id": "organization",
+              "value": "African Export-Import Bank"
+            },
+            {
+              "permalink": "biocatch",
+              "image_id": "eauvaq6djrm4cjktjmxi",
+              "uuid": "516abfe7-ee23-d825-b1e2-144b41ca591e",
+              "entity_def_id": "organization",
+              "value": "BioCatch"
+            },
+            {
+              "permalink": "humain-c7c3",
+              "image_id": "dc960b95a8634d398fb802e43c760504",
+              "uuid": "6bde23ba-59a6-43e2-882e-2fdf96c1c7c3",
+              "entity_def_id": "organization",
+              "value": "HUMAIN"
+            },
+            {
+              "permalink": "omilia",
+              "image_id": "a6e6d6f0223b4e70840705a17f248b9e",
+              "uuid": "49e3e363-63c7-e951-4974-1c79137fcef0",
+              "entity_def_id": "organization",
+              "value": "Omilia"
+            },
+            {
+              "permalink": "team8",
+              "image_id": "jgzvsw4o9vpv30kqv7yg",
+              "uuid": "192acc26-46d6-5961-2a18-2ec462242091",
+              "entity_def_id": "organization",
+              "value": "Team8"
+            },
+            {
+              "permalink": "investcorp-2",
+              "image_id": "v1444307467/wjljtmzfwxmg9xxokd23.png",
+              "uuid": "2f09a625-dfd1-bea9-d16b-0a45158c80c9",
+              "entity_def_id": "organization",
+              "value": "Investcorp"
+            }
+          ],
+          "org_funding_total": {
+            "currency": "USD",
+            "value": 812836644429,
+            "value_usd": 812836644429
+          },
+          "org_num_investors": 26387,
+          "org_num": 9970,
+          "queries": {
+            "event": [
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "8cb7cad4-b7e4-4b28-a496-2ede3720cb19"
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "principal.has_event.forward",
+                "query": [
+                  {
+                    "field_id": "facet_ids",
+                    "operator_id": "includes",
+                    "values": [
+                      "company"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "active"
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ],
+            "organization": [
+              {
+                "field_id": "facet_ids",
+                "operator_id": "includes",
+                "values": [
+                  "company"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "8cb7cad4-b7e4-4b28-a496-2ede3720cb19"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "operating_status",
+                "operator_id": "eq",
+                "values": [
+                  "active"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "rank_org",
+                "operator_id": "lte",
+                "values": [
+                  300000
+                ],
+                "type": "predicate"
+              }
+            ],
+            "person": [
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "8cb7cad4-b7e4-4b28-a496-2ede3720cb19"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "rank_person",
+                "operator_id": "lte",
+                "values": [
+                  72000
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "organization.has_primary_organization.forward",
+                "query": [
+                  {
+                    "field_id": "facet_ids",
+                    "operator_id": "includes",
+                    "values": [
+                      "company"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "location_identifiers",
+                    "operator_id": "includes",
+                    "values": [
+                      "8cb7cad4-b7e4-4b28-a496-2ede3720cb19"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "active"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "rank_org",
+                    "operator_id": "lte",
+                    "values": [
+                      300000
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ]
+          }
+        },
+        {
+          "identifier": {
+            "permalink": "private-middle-east-companies",
+            "image_id": "216886c7d09c49d39cce6277f342d12d",
+            "uuid": "5136cb53-db44-4263-b5b9-272bba20807e",
+            "entity_def_id": "hub",
+            "value": "Private Middle East Companies (Top 10K)"
+          },
+          "org_identifiers": [
+            {
+              "permalink": "fasset",
+              "image_id": "216886c7d09c49d39cce6277f342d12d",
+              "uuid": "fb8d3cbb-6706-4fda-941f-7add24517f7c",
+              "entity_def_id": "organization",
+              "value": "Fasset"
+            },
+            {
+              "permalink": "african-export-import-bank",
+              "image_id": "aa1e4a9f367f4a34a29d5f81de4cb62b",
+              "uuid": "971b156a-46e5-c04c-2ae9-d36127a9bd9f",
+              "entity_def_id": "organization",
+              "value": "African Export-Import Bank"
+            },
+            {
+              "permalink": "biocatch",
+              "image_id": "eauvaq6djrm4cjktjmxi",
+              "uuid": "516abfe7-ee23-d825-b1e2-144b41ca591e",
+              "entity_def_id": "organization",
+              "value": "BioCatch"
+            },
+            {
+              "permalink": "humain-c7c3",
+              "image_id": "dc960b95a8634d398fb802e43c760504",
+              "uuid": "6bde23ba-59a6-43e2-882e-2fdf96c1c7c3",
+              "entity_def_id": "organization",
+              "value": "HUMAIN"
+            },
+            {
+              "permalink": "omilia",
+              "image_id": "a6e6d6f0223b4e70840705a17f248b9e",
+              "uuid": "49e3e363-63c7-e951-4974-1c79137fcef0",
+              "entity_def_id": "organization",
+              "value": "Omilia"
+            },
+            {
+              "permalink": "team8",
+              "image_id": "jgzvsw4o9vpv30kqv7yg",
+              "uuid": "192acc26-46d6-5961-2a18-2ec462242091",
+              "entity_def_id": "organization",
+              "value": "Team8"
+            },
+            {
+              "permalink": "investcorp-2",
+              "image_id": "v1444307467/wjljtmzfwxmg9xxokd23.png",
+              "uuid": "2f09a625-dfd1-bea9-d16b-0a45158c80c9",
+              "entity_def_id": "organization",
+              "value": "Investcorp"
+            },
+            {
+              "permalink": "groundcover",
+              "image_id": "1e72fd70219541fc8c97c87e9faa67c6",
+              "uuid": "6ee7de61-7f3a-4f7c-8fd7-3b8059c41eb6",
+              "entity_def_id": "organization",
+              "value": "Groundcover"
+            }
+          ],
+          "org_funding_total": {
+            "currency": "USD",
+            "value": 421857788275,
+            "value_usd": 421857788275
+          },
+          "org_num_investors": 23611,
+          "org_num": 9950,
+          "queries": {
+            "event": [
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "e0272206-3430-48cb-a5bc-1d4b3eafe15a"
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "principal.has_event.forward",
+                "query": [
+                  {
+                    "field_id": "facet_ids",
+                    "operator_id": "includes",
+                    "values": [
+                      "company"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "ipo_status",
+                    "operator_id": "includes",
+                    "values": [
+                      "private"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "active"
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ],
+            "organization": [
+              {
+                "field_id": "facet_ids",
+                "operator_id": "includes",
+                "values": [
+                  "company"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "e0272206-3430-48cb-a5bc-1d4b3eafe15a"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "ipo_status",
+                "operator_id": "includes",
+                "values": [
+                  "private"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "operating_status",
+                "operator_id": "eq",
+                "values": [
+                  "active"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "rank_org",
+                "operator_id": "lte",
+                "values": [
+                  360000
+                ],
+                "type": "predicate"
+              }
+            ],
+            "person": [
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "e0272206-3430-48cb-a5bc-1d4b3eafe15a"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "rank_person",
+                "operator_id": "lte",
+                "values": [
+                  77000
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "organization.has_primary_organization.forward",
+                "query": [
+                  {
+                    "field_id": "facet_ids",
+                    "operator_id": "includes",
+                    "values": [
+                      "company"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "location_identifiers",
+                    "operator_id": "includes",
+                    "values": [
+                      "e0272206-3430-48cb-a5bc-1d4b3eafe15a"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "ipo_status",
+                    "operator_id": "includes",
+                    "values": [
+                      "private"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "active"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "rank_org",
+                    "operator_id": "lte",
+                    "values": [
+                      360000
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ]
+          }
+        }
+      ],
+      "org_similarity_org_list": [],
+      "investors_summary": {
+        "identifier": {
+          "uuid": "fcec7c42-1856-43ab-acc3-f36df6e988ea",
+          "value": "Labby",
+          "permalink": "labby-88ea",
+          "entity_def_id": "organization"
+        }
+      },
+      "funds_list": [],
+      "alumni_image_list": [],
+      "semrush_overview_headline": {},
+      "frequently_asked_questions_total_funding": {
+        "funding_total": {
+          "value": 10000000,
+          "currency": "USD",
+          "value_usd": 10000000
+        },
+        "identifier": {
+          "uuid": "fcec7c42-1856-43ab-acc3-f36df6e988ea",
+          "value": "Labby",
+          "permalink": "labby-88ea",
+          "entity_def_id": "organization"
+        }
+      },
+      "exits_summary": {
+        "identifier": {
+          "uuid": "fcec7c42-1856-43ab-acc3-f36df6e988ea",
+          "value": "Labby",
+          "permalink": "labby-88ea",
+          "entity_def_id": "organization"
+        }
+      },
+      "partnership_announcements": [],
+      "bombora_surge_list": [],
+      "diversity_spotlight_investments_list": [],
+      "builtwith_tech_used_list": [],
+      "funding_rounds_summary": {
+        "identifier": {
+          "uuid": "fcec7c42-1856-43ab-acc3-f36df6e988ea",
+          "value": "Labby",
+          "permalink": "labby-88ea",
+          "entity_def_id": "organization"
+        },
+        "last_funding_type": "undisclosed",
+        "last_funding_at": "2026-07-22",
+        "funding_total": {
+          "value": 10000000,
+          "currency": "USD",
+          "value_usd": 10000000
+        },
+        "num_funding_rounds": 1
+      },
+      "org_similarity_list": [],
+      "ipo_prediction": [],
+      "acquisitions_summary": {
+        "identifier": {
+          "uuid": "fcec7c42-1856-43ab-acc3-f36df6e988ea",
+          "value": "Labby",
+          "permalink": "labby-88ea",
+          "entity_def_id": "organization"
+        }
+      },
+      "advisors_summary": {
+        "identifier": {
+          "uuid": "fcec7c42-1856-43ab-acc3-f36df6e988ea",
+          "value": "Labby",
+          "permalink": "labby-88ea",
+          "entity_def_id": "organization"
+        }
+      },
+      "acquisitions_list": [],
+      "exits_headline": {},
+      "investments_summary": {
+        "identifier": {
+          "uuid": "fcec7c42-1856-43ab-acc3-f36df6e988ea",
+          "value": "Labby",
+          "permalink": "labby-88ea",
+          "entity_def_id": "organization"
+        }
+      },
+      "acquired_by_fields": {},
+      "research_insight_text_link": {},
+      "acquisition_prediction": [],
+      "sub_organizations_headline": {},
+      "layoff_list": [],
+      "growth_and_heat": {
+        "heat_score_history": {
+          "periods": {
+            "i1": {
+              "values": [
+                46,
+                49,
+                51,
+                54,
+                56,
+                59,
+                61,
+                63,
+                65,
+                66,
+                68,
+                70,
+                72,
+                74,
+                76,
+                78,
+                80,
+                81,
+                78,
+                80,
+                82,
+                84,
+                86,
+                87,
+                89,
+                91,
+                92,
+                94,
+                95,
+                93,
+                93,
+                93,
+                88,
+                89,
+                86,
+                74,
+                55,
+                53,
+                41,
+                24,
+                4
+              ],
+              "interval": 1
+            },
+            "i2": {
+              "values": [
+                46,
+                53,
+                58,
+                62,
+                66,
+                69,
+                73,
+                77,
+                81,
+                79,
+                83,
+                87,
+                90,
+                93,
+                94,
+                93,
+                89,
+                80,
+                54,
+                33,
+                4
+              ],
+              "interval": 2
+            },
+            "i4": {
+              "values": [
+                46,
+                60,
+                67,
+                75,
+                80,
+                85,
+                92,
+                94,
+                84,
+                43,
+                4
+              ],
+              "interval": 4
+            },
+            "i7": {
+              "values": [
+                46,
+                68,
+                79,
+                89,
+                91,
+                42
+              ],
+              "interval": 7
+            },
+            "i18": {
+              "values": [
+                46,
+                87,
+                35
+              ],
+              "interval": 18
+            },
+            "i36": {
+              "values": [
+                46,
+                35
+              ],
+              "interval": 36
+            }
+          }
+        },
+        "growth_score_delta_d90": 13,
+        "growth_score_history": {
+          "periods": {
+            "i1": {
+              "values": [
+                91,
+                91,
+                91,
+                91,
+                91,
+                92,
+                92,
+                92,
+                92,
+                92,
+                92,
+                92,
+                92,
+                92,
+                93,
+                93,
+                93,
+                93,
+                93,
+                93,
+                93,
+                93,
+                93,
+                93,
+                94,
+                94,
+                94,
+                94,
+                94,
+                94,
+                94,
+                94,
+                94,
+                93,
+                93,
+                93,
+                93,
+                92,
+                92,
+                92,
+                91,
+                89,
+                89,
+                88,
+                88,
+                88,
+                88,
+                88,
+                87,
+                87,
+                87,
+                87,
+                87,
+                86,
+                86,
+                86,
+                86,
+                86,
+                85,
+                85,
+                85,
+                85,
+                85,
+                84,
+                84,
+                84,
+                84,
+                84,
+                83,
+                83,
+                83,
+                83,
+                82,
+                82,
+                82,
+                82,
+                82,
+                81,
+                81,
+                81,
+                81,
+                80,
+                80,
+                80,
+                80,
+                79,
+                79,
+                79,
+                79,
+                78
+              ],
+              "interval": 1
+            },
+            "i2": {
+              "values": [
+                91,
+                91,
+                92,
+                92,
+                92,
+                92,
+                92,
+                93,
+                93,
+                93,
+                93,
+                93,
+                94,
+                94,
+                94,
+                94,
+                94,
+                93,
+                93,
+                92,
+                90,
+                89,
+                88,
+                88,
+                87,
+                87,
+                87,
+                86,
+                86,
+                85,
+                85,
+                85,
+                84,
+                84,
+                83,
+                83,
+                82,
+                82,
+                82,
+                81,
+                81,
+                80,
+                80,
+                79,
+                79,
+                78,
+                78,
+                77,
+                77,
+                76,
+                76,
+                75,
+                75,
+                74,
+                73,
+                73,
+                72,
+                72,
+                71,
+                70,
+                70,
+                70,
+                70,
+                70,
+                69,
+                69,
+                69,
+                69,
+                69,
+                69,
+                69,
+                69,
+                69,
+                68,
+                68,
+                68,
+                68,
+                68,
+                68,
+                68,
+                67,
+                67,
+                67,
+                67,
+                67,
+                67,
+                67,
+                66,
+                66,
+                66,
+                66
+              ],
+              "interval": 2
+            },
+            "i4": {
+              "values": [
+                91,
+                92,
+                92,
+                93,
+                93,
+                93,
+                94,
+                94,
+                93,
+                92,
+                89,
+                88,
+                87,
+                86,
+                86,
+                85,
+                84,
+                83,
+                82,
+                81,
+                80,
+                79,
+                78,
+                77,
+                76,
+                75,
+                74,
+                73,
+                72,
+                71,
+                70,
+                70,
+                69,
+                69,
+                69,
+                69,
+                68,
+                68,
+                68,
+                68,
+                67,
+                67,
+                67,
+                66,
+                66,
+                66,
+                65,
+                65,
+                64,
+                64,
+                63,
+                63,
+                62,
+                61,
+                58,
+                30,
+                30,
+                29,
+                29,
+                29,
+                29,
+                29,
+                29,
+                28,
+                28,
+                28,
+                28,
+                28,
+                28,
+                27,
+                27,
+                27,
+                27,
+                27,
+                26,
+                26,
+                26,
+                26,
+                26,
+                25,
+                25,
+                25,
+                25,
+                24,
+                24,
+                24,
+                24,
+                23,
+                23,
+                23,
+                22,
+                22
+              ],
+              "interval": 4
+            },
+            "i7": {
+              "values": [
+                91,
+                92,
+                93,
+                94,
+                94,
+                92,
+                88,
+                87,
+                85,
+                84,
+                82,
+                81,
+                79,
+                77,
+                75,
+                73,
+                71,
+                70,
+                69,
+                69,
+                69,
+                68,
+                68,
+                67,
+                67,
+                66,
+                65,
+                65,
+                64,
+                62,
+                60,
+                42,
+                30,
+                29,
+                29,
+                29,
+                28,
+                28,
+                28,
+                27,
+                27,
+                27,
+                26,
+                26,
+                26,
+                25,
+                25,
+                24,
+                24,
+                23,
+                23,
+                22,
+                22,
+                21,
+                20,
+                19,
+                18,
+                15
+              ],
+              "interval": 7
+            },
+            "i18": {
+              "values": [
+                91,
+                94,
+                89,
+                85,
+                80,
+                76,
+                71,
+                69,
+                68,
+                67,
+                65,
+                62,
+                36,
+                29,
+                28,
+                27,
+                26,
+                26,
+                24,
+                23,
+                22,
+                19,
+                16
+              ],
+              "interval": 18
+            },
+            "i36": {
+              "values": [
+                91,
+                87,
+                78,
+                70,
+                67,
+                64,
+                32,
+                28,
+                26,
+                24,
+                20,
+                16
+              ],
+              "interval": 36
+            }
+          }
+        },
+        "growth_trend_365": {
+          "periods": {
+            "i1": {
+              "values": [
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100
+              ],
+              "interval": 1
+            },
+            "i2": {
+              "values": [
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100
+              ],
+              "interval": 2
+            },
+            "i4": {
+              "values": [
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                75,
+                74,
+                73,
+                73,
+                72,
+                71,
+                71,
+                70,
+                69,
+                69,
+                68,
+                67,
+                66,
+                66,
+                65,
+                64,
+                63,
+                62,
+                62,
+                61,
+                60,
+                59,
+                58,
+                57,
+                56,
+                55,
+                54,
+                53,
+                52,
+                51,
+                50,
+                49,
+                48,
+                46,
+                45,
+                43,
+                42
+              ],
+              "interval": 4
+            },
+            "i7": {
+              "values": [
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                86,
+                74,
+                73,
+                71,
+                70,
+                69,
+                68,
+                66,
+                65,
+                64,
+                62,
+                61,
+                59,
+                58,
+                56,
+                54,
+                52,
+                50,
+                48,
+                46,
+                44,
+                41,
+                38,
+                35,
+                30,
+                24,
+                13
+              ],
+              "interval": 7
+            },
+            "i18": {
+              "values": [
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                80,
+                71,
+                68,
+                65,
+                61,
+                57,
+                52,
+                47,
+                41,
+                31,
+                16
+              ],
+              "interval": 18
+            },
+            "i36": {
+              "values": [
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                75,
+                66,
+                59,
+                50,
+                36,
+                16
+              ],
+              "interval": 36
+            }
+          }
+        },
+        "heat_score": 46,
+        "heat_trend_365": {
+          "periods": {
+            "i1": {
+              "values": [
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100
+              ],
+              "interval": 1
+            },
+            "i2": {
+              "values": [
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100
+              ],
+              "interval": 2
+            },
+            "i4": {
+              "values": [
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100
+              ],
+              "interval": 4
+            },
+            "i7": {
+              "values": [
+                100,
+                100,
+                100,
+                100,
+                100,
+                100
+              ],
+              "interval": 7
+            },
+            "i18": {
+              "values": [
+                100,
+                100,
+                100
+              ],
+              "interval": 18
+            },
+            "i36": {
+              "values": [
+                100,
+                100
+              ],
+              "interval": 36
+            }
+          }
+        },
+        "growth_score": 91,
+        "heat_score_delta_d90": 42
+      },
+      "bombora_summary": {
+        "identifier": {
+          "uuid": "fcec7c42-1856-43ab-acc3-f36df6e988ea",
+          "value": "Labby",
+          "permalink": "labby-88ea",
+          "entity_def_id": "organization"
+        }
+      },
+      "semrush_rank_headline": {},
+      "frequently_asked_questions_latest_funding_round": {
+        "identifier": {
+          "uuid": "fcec7c42-1856-43ab-acc3-f36df6e988ea",
+          "value": "Labby",
+          "permalink": "labby-88ea",
+          "entity_def_id": "organization"
+        },
+        "last_funding_at": "2026-07-22",
+        "last_funding_type": "undisclosed",
+        "num_funding_rounds": 1
+      },
+      "apptopia_app_overview_list_free": [],
+      "contacts": {},
+      "product_launches": [],
+      "alumni_summary": {
+        "identifier": {
+          "uuid": "fcec7c42-1856-43ab-acc3-f36df6e988ea",
+          "value": "Labby",
+          "permalink": "labby-88ea",
+          "entity_def_id": "organization"
+        }
+      },
+      "apptopia_summary": {
+        "identifier": {
+          "uuid": "fcec7c42-1856-43ab-acc3-f36df6e988ea",
+          "value": "Labby",
+          "permalink": "labby-88ea",
+          "entity_def_id": "organization"
+        }
+      },
+      "product_similarity_target_org_list": [],
+      "social_fields": {},
+      "investments_headline": {},
+      "investment_thesis": {
+        "lookup": [],
+        "properties": {
+          "identifier": {
+            "uuid": "fcec7c42-1856-43ab-acc3-f36df6e988ea",
+            "value": "Labby",
+            "permalink": "labby-88ea",
+            "entity_def_id": "organization"
+          }
+        },
+        "data": []
+      },
+      "diversity_spotlight_investments_summary": {
+        "identifier": {
+          "uuid": "fcec7c42-1856-43ab-acc3-f36df6e988ea",
+          "value": "Labby",
+          "permalink": "labby-88ea",
+          "entity_def_id": "organization"
+        }
+      },
+      "contact_fields": {},
+      "growth_prediction": [],
+      "sub_organizations_summary": {
+        "identifier": {
+          "uuid": "fcec7c42-1856-43ab-acc3-f36df6e988ea",
+          "value": "Labby",
+          "permalink": "labby-88ea",
+          "entity_def_id": "organization"
+        }
+      },
+      "overview_description": {
+        "description": "Labby is building a digital platform that will combine several routine services into a single application."
+      },
+      "current_employees_featured_order_field": [],
+      "company_about_fields2": {
+        "ipo_status": "private",
+        "last_funding_type": "undisclosed",
+        "location_identifiers": [
+          {
+            "uuid": "85cf9260-9d50-a31c-7c99-6eb4a720ac54",
+            "value": "Syria",
+            "permalink": "syria-bur-said",
+            "entity_def_id": "location",
+            "location_type": "city"
+          },
+          {
+            "uuid": "a9d95543-7c80-546d-9ac0-8f1fcd216ca3",
+            "value": "Bur Sa'id",
+            "permalink": "bur-said-egypt",
+            "entity_def_id": "location",
+            "location_type": "region"
+          },
+          {
+            "uuid": "7d6eef02-5784-2dce-08f7-69705f85e35f",
+            "value": "Egypt",
+            "permalink": "egypt",
+            "entity_def_id": "location",
+            "location_type": "country"
+          },
+          {
+            "uuid": "5b194c3b-3018-b47d-f611-ab142cdfd74c",
+            "value": "Africa",
+            "permalink": "africa",
+            "entity_def_id": "location",
+            "location_type": "continent"
+          }
+        ],
+        "rank_org_company": 12238
+      },
+      "sub_organizations_image_list": [],
+      "frequently_asked_questions_headquarters_location": {
+        "identifier": {
+          "uuid": "fcec7c42-1856-43ab-acc3-f36df6e988ea",
+          "value": "Labby",
+          "permalink": "labby-88ea",
+          "entity_def_id": "organization"
+        },
+        "location_identifiers": [
+          {
+            "uuid": "85cf9260-9d50-a31c-7c99-6eb4a720ac54",
+            "value": "Syria",
+            "permalink": "syria-bur-said",
+            "entity_def_id": "location",
+            "location_type": "city"
+          },
+          {
+            "uuid": "a9d95543-7c80-546d-9ac0-8f1fcd216ca3",
+            "value": "Bur Sa'id",
+            "permalink": "bur-said-egypt",
+            "entity_def_id": "location",
+            "location_type": "region"
+          },
+          {
+            "uuid": "7d6eef02-5784-2dce-08f7-69705f85e35f",
+            "value": "Egypt",
+            "permalink": "egypt",
+            "entity_def_id": "location",
+            "location_type": "country"
+          },
+          {
+            "uuid": "5b194c3b-3018-b47d-f611-ab142cdfd74c",
+            "value": "Africa",
+            "permalink": "africa",
+            "entity_def_id": "location",
+            "location_type": "continent"
+          }
+        ]
+      },
+      "investors_headline": {},
+      "ipo_summary": {
+        "identifier": {
+          "uuid": "fcec7c42-1856-43ab-acc3-f36df6e988ea",
+          "value": "Labby",
+          "permalink": "labby-88ea",
+          "entity_def_id": "organization"
+        }
+      },
+      "ipqwery_summary": {
+        "identifier": {
+          "uuid": "fcec7c42-1856-43ab-acc3-f36df6e988ea",
+          "value": "Labby",
+          "permalink": "labby-88ea",
+          "entity_def_id": "organization"
+        }
+      },
+      "awards": [],
+      "siftery_product_list": [],
+      "competitors_list": [],
+      "growth_knowledge": {
+        "lookup": [
+          {
+            "press_references": [
+              {
+                "uuid": "365b85fc-2111-49e3-81fc-431830befe15",
+                "value": "Investment momentum continues in MENA amid conflict",
+                "posted_on": "2026-07-25",
+                "publisher": "Arab News",
+                "source_url": "https://www.arabnews.com/node/2652293/business-economy",
+                "entity_def_id": "press_reference"
+              },
+              {
+                "uuid": "4627cc17-7f5e-4f4f-99b9-74e2a3f3c69c",
+                "value": "Syria's startup ecosystem reaches milestone as Labby raises $10 million",
+                "posted_on": "2026-07-21",
+                "publisher": "Wamda",
+                "source_url": "https://www.wamda.com/2026/07/syria-startup-ecosystem-reaches-milestone-labby-raises-10-million",
+                "entity_def_id": "press_reference"
+              },
+              {
+                "uuid": "a208a91c-50e7-491c-aff8-5beef229c89f",
+                "value": "Syria Launches Super App “Labby” with $10 Million Foreign Investment",
+                "posted_on": "2026-07-22",
+                "publisher": "إنت عربي | entARABI",
+                "source_url": "https://entarabi.com/en/2026/07/syria-launches-super-app-labby-with-10-million-foreign-investment/",
+                "entity_def_id": "press_reference"
+              }
+            ],
+            "generated_on": "2026-08-02",
+            "identifier": {
+              "uuid": "8b42f495-6661-48ca-94ca-bc7f61ae4dd6",
+              "value": "Growth Insight 2026-08-02",
+              "entity_def_id": "growth_insight"
+            },
+            "funding_raised": "c200_improving"
+          }
+        ],
+        "properties": {
+          "identifier": {
+            "uuid": "fcec7c42-1856-43ab-acc3-f36df6e988ea",
+            "value": "Labby",
+            "permalink": "labby-88ea",
+            "entity_def_id": "organization"
+          },
+          "growth_insight_indicator": "growing"
+        },
+        "preview_properties": {
+          "growth_insight_description": {
+            "is_present": true,
+            "length": 416
+          },
+          "growth_insight_direction": {
+            "is_present": true
+          }
+        },
+        "data": [
+          {
+            "press_references": [
+              {
+                "uuid": "365b85fc-2111-49e3-81fc-431830befe15",
+                "value": "Investment momentum continues in MENA amid conflict",
+                "posted_on": "2026-07-25",
+                "publisher": "Arab News",
+                "source_url": "https://www.arabnews.com/node/2652293/business-economy",
+                "entity_def_id": "press_reference"
+              },
+              {
+                "uuid": "4627cc17-7f5e-4f4f-99b9-74e2a3f3c69c",
+                "value": "Syria's startup ecosystem reaches milestone as Labby raises $10 million",
+                "posted_on": "2026-07-21",
+                "publisher": "Wamda",
+                "source_url": "https://www.wamda.com/2026/07/syria-startup-ecosystem-reaches-milestone-labby-raises-10-million",
+                "entity_def_id": "press_reference"
+              },
+              {
+                "uuid": "a208a91c-50e7-491c-aff8-5beef229c89f",
+                "value": "Syria Launches Super App “Labby” with $10 Million Foreign Investment",
+                "posted_on": "2026-07-22",
+                "publisher": "إنت عربي | entARABI",
+                "source_url": "https://entarabi.com/en/2026/07/syria-launches-super-app-labby-with-10-million-foreign-investment/",
+                "entity_def_id": "press_reference"
+              }
+            ],
+            "generated_on": "2026-08-02",
+            "identifier": {
+              "uuid": "8b42f495-6661-48ca-94ca-bc7f61ae4dd6",
+              "value": "Growth Insight 2026-08-02",
+              "entity_def_id": "growth_insight"
+            },
+            "funding_raised": "c200_improving"
+          }
+        ]
+      },
+      "overview_fields_extended": {
+        "last_funding_type": "undisclosed",
+        "location_group_identifiers": [
+          {
+            "uuid": "4e8be435-c63a-4aff-8a2f-44a880d9c341",
+            "value": "Europe, Middle East, and Africa (EMEA)",
+            "permalink": "europe-middle-east-africa-emea",
+            "entity_def_id": "location",
+            "location_type": "group"
+          },
+          {
+            "uuid": "e0272206-3430-48cb-a5bc-1d4b3eafe15a",
+            "value": "Middle East",
+            "permalink": "middle-east",
+            "entity_def_id": "location",
+            "location_type": "group"
+          },
+          {
+            "uuid": "8cb7cad4-b7e4-4b28-a496-2ede3720cb19",
+            "value": "Middle East and North Africa (MENA)",
+            "permalink": "middle-east-and-north-africa-mena",
+            "entity_def_id": "location",
+            "location_type": "group"
+          },
+          {
+            "uuid": "994bd431-46d0-448f-8d24-7b259bda176b",
+            "value": "North Africa",
+            "permalink": "north-africa",
+            "entity_def_id": "location",
+            "location_type": "group"
+          },
+          {
+            "uuid": "4e8be435-c63a-4aff-8a2f-44a880d9c341",
+            "value": "Europe, Middle East, and Africa (EMEA)",
+            "permalink": "europe-middle-east-africa-emea",
+            "entity_def_id": "location",
+            "location_type": "group"
+          }
+        ],
+        "operating_status": "active"
+      },
+      "overview_investor_fields": {},
+      "bombora_attribution": {},
+      "semrush_location_list": [],
+      "investors_list": [],
+      "siftery_summary": {
+        "identifier": {
+          "uuid": "fcec7c42-1856-43ab-acc3-f36df6e988ea",
+          "value": "Labby",
+          "permalink": "labby-88ea",
+          "entity_def_id": "organization"
+        }
+      },
+      "acquired_by_summary": {
+        "identifier": {
+          "uuid": "fcec7c42-1856-43ab-acc3-f36df6e988ea",
+          "value": "Labby",
+          "permalink": "labby-88ea",
+          "entity_def_id": "organization"
+        }
+      },
+      "ipo_fields": {},
+      "apptopia_app_overview_list_public": [],
+      "apptopia_sdk_list": [],
+      "trading_view": {},
+      "current_employees_image_list": [],
+      "frequently_asked_questions_investors": {
+        "identifier": {
+          "uuid": "fcec7c42-1856-43ab-acc3-f36df6e988ea",
+          "value": "Labby",
+          "permalink": "labby-88ea",
+          "entity_def_id": "organization"
+        }
+      },
+      "funding_rounds_list": [
+        {
+          "identifier": {
+            "uuid": "9c3245cf-03fe-403a-af1f-eb11018d1532",
+            "value": "Funding Round - Labby",
+            "permalink": "labby-88ea-undisclosed--9c3245cf",
+            "entity_def_id": "funding_round"
+          },
+          "announced_on": "2026-07-22",
+          "money_raised": {
+            "value": 10000000,
+            "currency": "USD",
+            "value_usd": 10000000
+          },
+          "investment_type": "undisclosed"
+        }
+      ],
+      "technology_highlights": {},
+      "funding_rounds_headline": {
+        "funding_total": {
+          "value": 10000000,
+          "currency": "USD",
+          "value_usd": 10000000
+        },
+        "num_funding_rounds": 1
+      },
+      "investments_list": [],
+      "exits_image_list": [],
+      "funds_headline": {},
+      "people_highlights": {},
+      "semrush_attribution": {},
+      "frequently_asked_questions_similar_companies": {
+        "identifier": {
+          "uuid": "fcec7c42-1856-43ab-acc3-f36df6e988ea",
+          "value": "Labby",
+          "permalink": "labby-88ea",
+          "entity_def_id": "organization"
+        }
+      },
+      "semrush_overview": {},
+      "org_category_ranks": {},
+      "current_valuation": [],
+      "legal_proceedings": [],
+      "current_employees_summary": {
+        "identifier": {
+          "uuid": "fcec7c42-1856-43ab-acc3-f36df6e988ea",
+          "value": "Labby",
+          "permalink": "labby-88ea",
+          "entity_def_id": "organization"
+        }
+      },
+      "aberdeen_summary": {
+        "identifier": {
+          "uuid": "fcec7c42-1856-43ab-acc3-f36df6e988ea",
+          "value": "Labby",
+          "permalink": "labby-88ea",
+          "entity_def_id": "organization"
+        }
+      },
+      "offices": [],
+      "overview_timeline": {
+        "count": 9,
+        "entities": [
+          {
+            "uuid": "1a26d3ef-5846-43b2-b5f3-532b84c1ff3c",
+            "properties": {
+              "identifier": {
+                "uuid": "1a26d3ef-5846-43b2-b5f3-532b84c1ff3c",
+                "value": "Tabby and Tamara diverge in Saudi, CMA probes the Kingdom's IPO flops",
+                "entity_def_id": "press_reference"
+              },
+              "entity_def_id": "press_reference",
+              "activity_entities": [
+                {
+                  "uuid": "fcec7c42-1856-43ab-acc3-f36df6e988ea",
+                  "value": "Labby",
+                  "permalink": "labby-88ea",
+                  "entity_def_id": "organization"
+                }
+              ],
+              "activity_properties": {
+                "url": {
+                  "value": "https://www.fwdstart.me/p/tabby-and-tamara-diverge-in-saudi-cma-probes-the-kingdom-s-ipo-flops"
+                },
+                "title": "Tabby and Tamara diverge in Saudi, CMA probes the Kingdom's IPO flops",
+                "author": "Jamie Lane",
+                "publisher": "FWDStart | MENA Startups, Tech News & VC Insights"
+              },
+              "activity_date": "2026-08-14"
+            }
+          },
+          {
+            "uuid": "243a3c87-9ea6-4040-a199-c3961ad1cff6",
+            "properties": {
+              "identifier": {
+                "uuid": "243a3c87-9ea6-4040-a199-c3961ad1cff6",
+                "value": "UAE credit files add Tabby and Tamara, Abhi eyes Karachi listing",
+                "entity_def_id": "press_reference"
+              },
+              "entity_def_id": "press_reference",
+              "activity_entities": [
+                {
+                  "uuid": "fcec7c42-1856-43ab-acc3-f36df6e988ea",
+                  "value": "Labby",
+                  "permalink": "labby-88ea",
+                  "entity_def_id": "organization"
+                }
+              ],
+              "activity_properties": {
+                "url": {
+                  "value": "https://www.fwdstart.me/p/uae-credit-files-add-tabby-and-tamara-abhi-eyes-karachi-listing"
+                },
+                "title": "UAE credit files add Tabby and Tamara, Abhi eyes Karachi listing",
+                "author": "Jamie Lane",
+                "publisher": "FWDStart | MENA Startups, Tech News & VC Insights"
+              },
+              "activity_date": "2026-07-31"
+            }
+          },
+          {
+            "uuid": "d9204f35-3ff3-460c-ab36-24ef8e1aa0e7",
+            "properties": {
+              "identifier": {
+                "uuid": "d9204f35-3ff3-460c-ab36-24ef8e1aa0e7",
+                "value": "MENA Startups Raise $96.1 Million in Two Weeks as Saudi Arabia Leads Fintech Investment",
+                "entity_def_id": "press_reference"
+              },
+              "entity_def_id": "press_reference",
+              "activity_entities": [
+                {
+                  "uuid": "fcec7c42-1856-43ab-acc3-f36df6e988ea",
+                  "value": "Labby",
+                  "permalink": "labby-88ea",
+                  "entity_def_id": "organization"
+                }
+              ],
+              "activity_properties": {
+                "url": {
+                  "value": "https://entarabi.com/en/2026/07/mena-startups-raise-96-1-million-in-two-weeks-as-saudi-arabia-leads-fintech-investment/"
+                },
+                "title": "MENA Startups Raise $96.1 Million in Two Weeks as Saudi Arabia Leads Fintech Investment",
+                "author": "محمد يحي",
+                "publisher": "إنت عربي | entARABI"
+              },
+              "activity_date": "2026-07-28"
+            }
+          },
+          {
+            "uuid": "10551989-999d-4fb7-a5c7-b92d70029052",
+            "properties": {
+              "identifier": {
+                "uuid": "10551989-999d-4fb7-a5c7-b92d70029052",
+                "value": "Syria's Labby raises $10mn from Gulf investors in first foreign tech deal",
+                "entity_def_id": "press_reference"
+              },
+              "entity_def_id": "press_reference",
+              "activity_entities": [
+                {
+                  "uuid": "fcec7c42-1856-43ab-acc3-f36df6e988ea",
+                  "value": "Labby",
+                  "permalink": "labby-88ea",
+                  "entity_def_id": "organization"
+                }
+              ],
+              "activity_properties": {
+                "url": {
+                  "value": "https://www.intellinews.com/syria-s-labby-raises-10mn-from-gulf-investors-in-first-foreign-tech-deal-457167/?source=saudi-arabia"
+                },
+                "title": "Syria's Labby raises $10mn from Gulf investors in first foreign tech deal",
+                "author": "bnm Gulf bureau bnm Gulf bureau",
+                "publisher": "intellinews.com"
+              },
+              "activity_date": "2026-07-27"
+            }
+          },
+          {
+            "uuid": "1d7ca29d-dbd8-4efd-90f4-b0c012f6c5af",
+            "properties": {
+              "identifier": {
+                "uuid": "1d7ca29d-dbd8-4efd-90f4-b0c012f6c5af",
+                "value": "Syria’s super app Labby raises $10 M investment from multiple investors",
+                "entity_def_id": "press_reference"
+              },
+              "entity_def_id": "press_reference",
+              "activity_entities": [
+                {
+                  "uuid": "fcec7c42-1856-43ab-acc3-f36df6e988ea",
+                  "value": "Labby",
+                  "permalink": "labby-88ea",
+                  "entity_def_id": "organization"
+                }
+              ],
+              "activity_properties": {
+                "url": {
+                  "value": "https://incubees.com/syrias-super-app-labby-raises-10-m-investment-from-multiple-investors/"
+                },
+                "title": "Syria’s super app Labby raises $10 M investment from multiple investors",
+                "author": "Ila Dhond",
+                "publisher": "Incubees"
+              },
+              "activity_date": "2026-07-27"
+            }
+          },
+          {
+            "uuid": "365b85fc-2111-49e3-81fc-431830befe15",
+            "properties": {
+              "identifier": {
+                "uuid": "365b85fc-2111-49e3-81fc-431830befe15",
+                "value": "Investment momentum continues in MENA amid conflict",
+                "entity_def_id": "press_reference"
+              },
+              "entity_def_id": "press_reference",
+              "activity_entities": [
+                {
+                  "uuid": "fcec7c42-1856-43ab-acc3-f36df6e988ea",
+                  "value": "Labby",
+                  "permalink": "labby-88ea",
+                  "entity_def_id": "organization"
+                }
+              ],
+              "activity_properties": {
+                "url": {
+                  "value": "https://www.arabnews.com/node/2652293/business-economy"
+                },
+                "title": "Investment momentum continues in MENA amid conflict",
+                "publisher": "Arab News"
+              },
+              "activity_date": "2026-07-25"
+            }
+          },
+          {
+            "uuid": "9c3245cf-03fe-403a-af1f-eb11018d1532",
+            "properties": {
+              "identifier": {
+                "uuid": "9c3245cf-03fe-403a-af1f-eb11018d1532",
+                "value": "Funding Round - Labby",
+                "permalink": "labby-88ea-undisclosed--9c3245cf",
+                "entity_def_id": "funding_round"
+              },
+              "entity_def_id": "funding_round",
+              "activity_entities": [
+                {
+                  "role": "investee",
+                  "uuid": "fcec7c42-1856-43ab-acc3-f36df6e988ea",
+                  "value": "Labby",
+                  "permalink": "labby-88ea",
+                  "entity_def_id": "organization"
+                }
+              ],
+              "activity_properties": {
+                "money_raised": {
+                  "value": 10000000,
+                  "currency": "USD",
+                  "value_usd": 10000000
+                },
+                "investment_type": "undisclosed"
+              },
+              "activity_date": "2026-07-22"
+            }
+          },
+          {
+            "uuid": "a208a91c-50e7-491c-aff8-5beef229c89f",
+            "properties": {
+              "identifier": {
+                "uuid": "a208a91c-50e7-491c-aff8-5beef229c89f",
+                "value": "Syria Launches Super App “Labby” with $10 Million Foreign Investment",
+                "entity_def_id": "press_reference"
+              },
+              "entity_def_id": "press_reference",
+              "activity_entities": [
+                {
+                  "uuid": "fcec7c42-1856-43ab-acc3-f36df6e988ea",
+                  "value": "Labby",
+                  "permalink": "labby-88ea",
+                  "entity_def_id": "organization"
+                }
+              ],
+              "activity_properties": {
+                "url": {
+                  "value": "https://entarabi.com/en/2026/07/syria-launches-super-app-labby-with-10-million-foreign-investment/"
+                },
+                "title": "Syria Launches Super App “Labby” with $10 Million Foreign Investment",
+                "author": "نورهان فؤاد",
+                "publisher": "إنت عربي | entARABI"
+              },
+              "activity_date": "2026-07-22"
+            }
+          },
+          {
+            "uuid": "4627cc17-7f5e-4f4f-99b9-74e2a3f3c69c",
+            "properties": {
+              "identifier": {
+                "uuid": "4627cc17-7f5e-4f4f-99b9-74e2a3f3c69c",
+                "value": "Syria's startup ecosystem reaches milestone as Labby raises $10 million",
+                "entity_def_id": "press_reference"
+              },
+              "entity_def_id": "press_reference",
+              "activity_entities": [
+                {
+                  "uuid": "fcec7c42-1856-43ab-acc3-f36df6e988ea",
+                  "value": "Labby",
+                  "permalink": "labby-88ea",
+                  "entity_def_id": "organization"
+                }
+              ],
+              "activity_properties": {
+                "url": {
+                  "value": "https://www.wamda.com/2026/07/syria-startup-ecosystem-reaches-milestone-labby-raises-10-million"
+                },
+                "title": "Syria's startup ecosystem reaches milestone as Labby raises $10 million",
+                "publisher": "Wamda"
+              },
+              "activity_date": "2026-07-21"
+            }
+          }
+        ]
+      },
+      "company_financials_highlights": {
+        "funding_total": {
+          "value": 10000000,
+          "currency": "USD",
+          "value_usd": 10000000
+        },
+        "num_funding_rounds": 1
+      },
+      "overview_company_fields": {},
+      "private_tags_pill_list": [],
+      "acquisitions_headline": {},
+      "builtwith_summary": {
+        "identifier": {
+          "uuid": "fcec7c42-1856-43ab-acc3-f36df6e988ea",
+          "value": "Labby",
+          "permalink": "labby-88ea",
+          "entity_def_id": "organization"
+        }
+      },
+      "about_short_description": {
+        "short_description": "Labby is creating a digital platform to combine various common services into a single application."
+      },
+      "product": [
+        {
+          "identifier": {
+            "uuid": "8ff0fe3e-fc8c-4512-9987-2cc520f81dba",
+            "value": "Labby",
+            "entity_def_id": "product"
+          },
+          "name": "Labby",
+          "description": "A Syrian super app offering unified ride-hailing, delivery, and other everyday digital services in a single platform."
+        }
+      ],
+      "apptopia_app_headline": {}
+    }
+  }
+}

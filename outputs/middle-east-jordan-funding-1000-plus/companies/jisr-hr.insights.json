@@ -1,0 +1,334 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T12:10:10.125Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T12:10:10.122Z",
+    "url": "https://www.crunchbase.com/organization/jisr-hr"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Jisr HR",
+      "shortDescription": "JisrHR is a Human resource management firm that offers HR solutions, time and attendance, reports, benefits and payroll services.",
+      "website": "https://jisr.net/ar",
+      "foundedYear": 2016,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "101-250",
+      "estimatedRevenueRange": "$1M-$10M",
+      "headquarters": "Riyadh, Ar Riyad, Saudi Arabia",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Bookkeeping and Payroll",
+        "Employee Benefits",
+        "Human Resources"
+      ],
+      "sectors": [
+        "Administrative Services",
+        "Financial Services",
+        "Professional Services"
+      ],
+      "founders": [
+        "Mohammed Akkar"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "A cloud-based system for managing HR operations including hiring, onboarding, payroll, attendance, and compliance tailored for Saudi companies.",
+        "name": "Jisr HR Human Capital Management System"
+      },
+      {
+        "description": "A payroll solution that automates salary calculations, deductions, and payments while ensuring compliance with Saudi wage protection and labor laws.",
+        "name": "Jisr Payroll Management"
+      },
+      {
+        "description": "A system to automate employee attendance, shift scheduling, and compliance with Saudi labor regulations.",
+        "name": "Jisr Time and Attendance Tracking"
+      },
+      {
+        "description": "An integrated recruitment platform that automates job posting, candidate screening, interview scheduling, and hiring workflows.",
+        "name": "Jisr Applicant Tracking System (ATS)"
+      },
+      {
+        "description": "A system to manage employee evaluations, set objectives, and track performance using customizable assessment templates.",
+        "name": "Jisr Employee Performance Management"
+      },
+      {
+        "description": "A platform to manage employee business travel requests, bookings, expense claims, and payments in one integrated system.",
+        "name": "Jisr Business Travel and Expense Management"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 29995145,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 2,
+      "detailedRoundCount": 2,
+      "lastFundingDate": "2023-10-04",
+      "lastFundingType": "Series A",
+      "rounds": [
+        {
+          "announcedDate": "2023-10-04",
+          "amount": {
+            "amount": 29995145,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "Merak Capital"
+          ],
+          "postMoneyValuation": {
+            "amount": 148576271,
+            "currency": "USD"
+          },
+          "type": "Series A"
+        },
+        {
+          "announcedDate": "2019-01-01",
+          "investorCount": 1,
+          "postMoneyValuation": {
+            "amount": 8100383,
+            "currency": "USD"
+          },
+          "type": "Seed"
+        }
+      ],
+      "investors": {
+        "reportedCount": 2,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "Merak Capital",
+            "rounds": [
+              "Series A"
+            ]
+          },
+          {
+            "name": "Oqal",
+            "rounds": [
+              "Seed Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 3,
+      "includedUniqueCount": 3,
+      "items": [
+        {
+          "date": "2026-01-26",
+          "publisher": "Zawya.com",
+          "title": "Jisr’s State of Hiring report shows Saudi hiring momentum as Global Labour Market Conference opens",
+          "url": "https://www.zawya.com/en/press-release/research-and-studies/jisrs-state-of-hiring-report-shows-saudi-hiring-momentum-as-global-labour-market-conference-opens-w934297j"
+        },
+        {
+          "date": "2023-10-04",
+          "title": "Series A - Jisr HR"
+        },
+        {
+          "date": "2019-01-01",
+          "title": "Seed Round - Jisr HR"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 29995145,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "latestToEarliestKnownValuationMultiple": 18.34
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": -2,
+      "growthScore": 88,
+      "heatChange90Days": 1,
+      "heatScore": 74
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 95.23
+      },
+      "funding": {
+        "generatedDate": "2026-06-20",
+        "probabilityPercent": 94.43,
+        "timingEstimatePercent": {
+          "within6Months": 6.21,
+          "months6To11": 0,
+          "months12To24": 0,
+          "beyond24Months": 93.79
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 95.57
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 4.04
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Paradox is an AI company that helps companies capture and screen candidates, improve conversions, and answer all candidate questions.",
+          "employeeRange": "501-1,000",
+          "name": "Paradox",
+          "sharedCategories": [
+            "Human Resources"
+          ],
+          "sharedSpecialties": [
+            "Onboarding Automation",
+            "Workflow Automation",
+            "Interview Scheduling Software",
+            "Digital Candidate Engagement"
+          ],
+          "similarityScore": 100
+        },
+        {
+          "description": "Gusto is an HR and payroll platform that simplifies complex tasks, empowering businesses to focus on what matters most.",
+          "employeeRange": "5,001-10,000",
+          "name": "Gusto",
+          "sharedCategories": [
+            "Employee Benefits",
+            "Human Resources",
+            "Bookkeeping and Payroll"
+          ],
+          "sharedSpecialties": [
+            "Health Benefits Administration",
+            "Payroll Administration",
+            "Onboarding Automation",
+            "Time and Attendance Management",
+            "Human Capital Management (HCM) Software",
+            "Mass Payouts and Bulk Disbursements"
+          ],
+          "similarityScore": 92.02
+        },
+        {
+          "description": "Grayscale is an AI-powered employee engagement platform that enables recruiters to hire, onboard, and retain hourly workers.",
+          "employeeRange": "11-50",
+          "name": "Grayscale",
+          "sharedCategories": [
+            "Human Resources"
+          ],
+          "sharedSpecialties": [
+            "Onboarding Automation",
+            "Interview Scheduling Software",
+            "Human Capital Management (HCM) Software",
+            "Digital Candidate Engagement"
+          ],
+          "similarityScore": 85.644
+        },
+        {
+          "description": "isolved is an employee experience leader, providing intuitive, people-first HCM technology.",
+          "employeeRange": "1,001-5,000",
+          "name": "isolved",
+          "sharedCategories": [
+            "Employee Benefits",
+            "Human Resources"
+          ],
+          "sharedSpecialties": [
+            "Health Benefits Administration",
+            "Payroll Administration",
+            "Employee Surveys",
+            "Onboarding Automation",
+            "Time and Attendance Management",
+            "Human Capital Management (HCM) Software"
+          ],
+          "similarityScore": 80.643
+        },
+        {
+          "description": "Mindtrip is an AI travel assistant that creates personalised itineraries, recommends activities and stays, and organises trips.",
+          "employeeRange": "11-50",
+          "name": "Mindtrip",
+          "sharedSpecialties": [
+            "Expense Management"
+          ],
+          "similarityScore": 75.798
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Series A round raised $29,995,145, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $8,100,383 to $148,576,271, a 18.34x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 88 (-2 over 90 days) and market heat at 74 (+1).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Paradox, Gusto, Grayscale.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

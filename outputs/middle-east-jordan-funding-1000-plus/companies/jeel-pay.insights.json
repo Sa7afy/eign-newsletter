@@ -1,0 +1,327 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T12:09:38.638Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T12:09:38.636Z",
+    "url": "https://www.crunchbase.com/organization/jeel-pay"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Jeel Pay",
+      "shortDescription": "Jeel Pay is a fintech company developing payment and collection solutions for educational institutions.",
+      "website": "https://jeel.co/",
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "51-100",
+      "headquarters": "Riyadh, Ar Riyad, Saudi Arabia",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Apps",
+        "Artificial Intelligence (AI)",
+        "Data Mining",
+        "FinTech",
+        "Machine Learning",
+        "Payments"
+      ],
+      "sectors": [
+        "Apps",
+        "Artificial Intelligence (AI)",
+        "Data and Analytics",
+        "Financial Services",
+        "Information Technology",
+        "Payments",
+        "Science and Engineering",
+        "Software"
+      ],
+      "founders": [
+        "Badr Aldugaish",
+        "Faisal Alhussayen",
+        "Mohammed Alkhodir"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "A service allowing students and families to pay educational fees in up to 12 monthly installments without interest or late fees.",
+        "name": "Tuition Fee Installment Service"
+      },
+      {
+        "description": "A platform for educational institutions to track and manage student installment payment requests and receive tuition payments in advance from Jeel Pay.",
+        "name": "Institution Payment Collection Platform"
+      },
+      {
+        "description": "An independent Shariah committee ensures that Jeel Pay's financial services comply with Islamic Sharia principles through ongoing review and guidance.",
+        "name": "Sharia Compliance Advisory"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 36656396,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 2,
+      "detailedRoundCount": 2,
+      "lastFundingDate": "2026-01-14",
+      "lastFundingType": "Debt Financing",
+      "rounds": [
+        {
+          "announcedDate": "2026-01-14",
+          "amount": {
+            "amount": 29997000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "Jadwa Investments"
+          ],
+          "type": "Debt Financing"
+        },
+        {
+          "announcedDate": "2025-01-06",
+          "amount": {
+            "amount": 6659396,
+            "currency": "USD"
+          },
+          "investorCount": 2,
+          "leadInvestors": [
+            "Joa Capital"
+          ],
+          "postMoneyValuation": {
+            "amount": 37511405,
+            "currency": "USD"
+          },
+          "type": "Seed"
+        }
+      ],
+      "investors": {
+        "reportedCount": 3,
+        "visibleNames": [
+          {
+            "name": "Aljazira Capital",
+            "rounds": [
+              "Seed Round"
+            ]
+          },
+          {
+            "isLead": true,
+            "name": "Jadwa Investments",
+            "rounds": [
+              "Debt Financing"
+            ]
+          },
+          {
+            "isLead": true,
+            "name": "Joa Capital",
+            "rounds": [
+              "Seed Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 5,
+      "includedUniqueCount": 4,
+      "items": [
+        {
+          "date": "2026-01-14",
+          "title": "Debt Financing - Jeel Pay"
+        },
+        {
+          "date": "2025-01-23",
+          "publisher": "Fintechnews Middle East",
+          "title": "6 Saudi Fintech Startups to Watch in 2025",
+          "url": "https://fintechnews.ae/23756/saudiarabia/6-saudi-fintech-startups-to-watch-in-2025/"
+        },
+        {
+          "date": "2025-01-06",
+          "publisher": "SecneNow",
+          "title": "Saudi Startup Jeel Pay Secures $6.7 Million in Pre-Series A Funding",
+          "url": "https://thestartupscene.me/INVESTMENTS/Saudi-Startup-Jeel-Pay-Secures-6-7-Million-in-Pre-Series-A-Funding"
+        },
+        {
+          "date": "2025-01-06",
+          "title": "Seed Round - Jeel Pay"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 2,
+    "knownDetailedFundingAmount": {
+      "amount": 36656396,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 81.83,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthInsightGeneratedDate": "2025-02-13",
+      "growthChange90Days": 18,
+      "growthScore": 71,
+      "heatChange90Days": -2,
+      "heatScore": 64,
+      "status": "Growing"
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2025-05-20",
+        "probabilityPercent": 16.76
+      },
+      "funding": {
+        "generatedDate": "2025-10-04",
+        "probabilityPercent": 94.04,
+        "timingEstimatePercent": {
+          "within6Months": 100,
+          "months6To11": 0,
+          "months12To24": 0,
+          "beyond24Months": 0
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 96.05
+      },
+      "ipo": {
+        "generatedDate": "2025-05-25",
+        "probabilityPercent": 0.47
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Mundimex is an ecological engineering firm that offers monopolarmagnetic fluid treatment and chemical-free water softening services.",
+          "employeeRange": "1-10",
+          "name": "Mundimex",
+          "similarityScore": 94
+        },
+        {
+          "description": "Flywire is a payments enablement and software company that simplifies complex payments for its clients and their customers.",
+          "employeeRange": "1,001-5,000",
+          "name": "Flywire",
+          "sharedCategories": [
+            "FinTech",
+            "Payments"
+          ],
+          "sharedSpecialties": [
+            "Payment Processing",
+            "Bill Payment Services",
+            "Payment Orchestration Platforms",
+            "Payment Analytics and Dashboard"
+          ],
+          "similarityScore": 93
+        },
+        {
+          "description": "FACTS is the provider of tuition payment plans for private and parochial K-12 schools as well as colleges and universities.",
+          "employeeRange": "251-500",
+          "name": "FACTS Management Company",
+          "sharedCategories": [
+            "Payments"
+          ],
+          "sharedSpecialties": [
+            "Payment Processing",
+            "Student Financial Aid",
+            "Recurring Billing and Subscription Management"
+          ],
+          "similarityScore": 92
+        },
+        {
+          "description": "Blackbaud is a provider of software and services designed for non-profit organizations enabling them to build strong relationships and more.",
+          "employeeRange": "1,001-5,000",
+          "name": "Blackbaud",
+          "similarityScore": 88
+        },
+        {
+          "description": "Toucan Technology Group is a computer support & services firm offers IT services includes web design, online marketing, desktop support.",
+          "employeeRange": "1-10",
+          "name": "Toucan Tech Group",
+          "similarityScore": 86
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Debt Financing round raised $29,997,000, or 81.83% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $37,511,405 to $37,511,405, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 71 (+18 over 90 days) and market heat at 64 (-2).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Mundimex, Flywire, FACTS Management Company.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "issues": [
+      {
+        "severity": "low",
+        "finding": "Crunchbase reports 5 timeline items but exposes 4 unique items in this payload.",
+        "impact": "Recent news is a partial sample, not a complete history."
+      }
+    ],
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

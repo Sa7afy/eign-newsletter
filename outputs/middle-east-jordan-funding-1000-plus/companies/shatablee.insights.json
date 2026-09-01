@@ -1,0 +1,221 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T13:22:07.555Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T13:22:07.554Z",
+    "url": "https://www.crunchbase.com/organization/shatablee"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Shatablee",
+      "shortDescription": "Shatablee is a digital interior design & build platform tackling the diverse finishing problems in the Egyptian Market.",
+      "description": "Shatablee is a digital interior design & build platform tackling the diverse finishing problems in the Egyptian Market.",
+      "website": "https://www.shatablee.com/",
+      "foundedYear": 2021,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "101-250",
+      "headquarters": "Cairo, Al Qahirah, Egypt",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Middle East",
+        "Middle East and North Africa (MENA)",
+        "North Africa"
+      ],
+      "industries": [
+        "Building Material",
+        "Customer Service",
+        "Interior Design"
+      ],
+      "sectors": [
+        "Design",
+        "Professional Services",
+        "Real Estate"
+      ],
+      "founders": [
+        "Mostafa Amer"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 1200000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2022-03-09",
+      "lastFundingType": "Seed",
+      "rounds": [
+        {
+          "announcedDate": "2022-03-09",
+          "amount": {
+            "amount": 1200000,
+            "currency": "USD"
+          },
+          "postMoneyValuation": {
+            "amount": 8466660,
+            "currency": "USD"
+          },
+          "type": "Seed"
+        }
+      ]
+    },
+    "recentNews": {
+      "reportedCount": 2,
+      "includedUniqueCount": 2,
+      "items": [
+        {
+          "date": "2022-03-10",
+          "publisher": "Tech Moran",
+          "title": "Egyptian Home Renovation Startup Shatablee raises $1.2 million for its interior design platform.",
+          "url": "https://techmoran.com/2022/03/09/egyptian-home-renovation-startup-shatablee-raises-1-2-million-for-its-interior-design-platform/"
+        },
+        {
+          "date": "2022-03-09",
+          "title": "Seed Round - Shatablee"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 1200000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": 0,
+      "growthScore": 66,
+      "heatChange90Days": -11,
+      "heatScore": 24
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 38.75
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 26.09,
+        "timingEstimatePercent": {
+          "within6Months": 13.81,
+          "months6To11": 11.91,
+          "months12To24": 19.1,
+          "beyond24Months": 24.73
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 89.01
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 50.33
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Al Mawan is an online platform that offers booking, ordering, paying for, and delivering ready-mix concrete.",
+          "employeeRange": "1-10",
+          "name": "Al Mawwan",
+          "sharedCategories": [
+            "Building Material"
+          ],
+          "similarityScore": 95
+        },
+        {
+          "description": "EFreshli is an online interior design firm",
+          "employeeRange": "11-50",
+          "name": "EFreshli",
+          "sharedCategories": [
+            "Interior Design"
+          ],
+          "similarityScore": 93
+        },
+        {
+          "description": "LinkedIn is a professional networking site that allows users to create business connections, search for jobs, and find potential clients.",
+          "employeeRange": "1-10",
+          "name": "LinkedIn Corporation",
+          "similarityScore": 78
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Seed round raised $1,200,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $8,466,660 to $8,466,660, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 66 (+0 over 90 days) and market heat at 24 (-11).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Al Mawwan, EFreshli, LinkedIn Corporation.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

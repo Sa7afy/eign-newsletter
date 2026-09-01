@@ -1,0 +1,187 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T11:03:17.513Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T11:03:17.511Z",
+    "url": "https://www.crunchbase.com/organization/books-com-eg"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Books.com.eg",
+      "shortDescription": "Books.com.eg sells Arabic books online for customers worldwide.",
+      "description": "Books.com.eg is the World's Leading Arabic Bookstore\r\nBased in Cairo, Egypt.. Ships Worldwide.",
+      "website": "https://www.books.com/",
+      "foundedYear": 1998,
+      "operatingStatus": "Closed",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "1-10",
+      "headquarters": "Cairo, Al Qahirah, Egypt",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Middle East",
+        "Middle East and North Africa (MENA)",
+        "North Africa"
+      ],
+      "industries": [
+        "Books",
+        "E-Commerce",
+        "Internet",
+        "Publishing",
+        "Retail"
+      ],
+      "sectors": [
+        "Commerce and Shopping",
+        "Content and Publishing",
+        "Information Technology",
+        "Media and Entertainment"
+      ],
+      "founders": [
+        "Khaled Imam",
+        "Mostafa Abolnasr"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 120000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2012-02-01",
+      "lastFundingType": "Seed",
+      "rounds": [
+        {
+          "announcedDate": "2012-02-01",
+          "amount": {
+            "amount": 120000,
+            "currency": "USD"
+          },
+          "type": "Seed"
+        }
+      ]
+    },
+    "recentNews": {
+      "reportedCount": 2,
+      "includedUniqueCount": 2,
+      "items": [
+        {
+          "date": "2012-02-01",
+          "title": "Seed Round - Books.com.eg"
+        },
+        {
+          "date": "2012-01-04",
+          "publisher": "Facebook",
+          "title": "Facebook",
+          "url": "http://www.facebook.com/books.com.eg"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 120000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "heatChange90Days": 8,
+      "heatScore": 24
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Jamalon is an online bookstore in the Middle East offering Arabic and English titles with home delivery and customized payment methods.",
+          "employeeRange": "11-50",
+          "name": "Jamalon",
+          "sharedCategories": [
+            "E-Commerce",
+            "Retail"
+          ],
+          "similarityScore": 95
+        },
+        {
+          "description": "Diwan providing custom solutions and consultation work in the fields of Arabization, software development, and educational technology.",
+          "employeeRange": "1-10",
+          "name": "Diwan Software",
+          "similarityScore": 90
+        },
+        {
+          "description": "Bookshop is an online bookstore with a mission to financially support local, independent bookstores.",
+          "employeeRange": "11-50",
+          "name": "Bookshop",
+          "similarityScore": 86
+        },
+        {
+          "description": "The American University in Cairo Press publishes and sells books on Middle Eastern studies, literature, and culture.",
+          "employeeRange": "101-250",
+          "name": "The American University in Cairo Press",
+          "sharedCategories": [
+            "Books",
+            "Publishing"
+          ],
+          "similarityScore": 85
+        },
+        {
+          "description": "Book Depository is an online book retail company.",
+          "employeeRange": "11-50",
+          "name": "Bookdepository",
+          "sharedCategories": [
+            "E-Commerce",
+            "Books",
+            "Retail"
+          ],
+          "similarityScore": 82
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Seed round raised $120,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Jamalon, Diwan Software, Bookshop.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

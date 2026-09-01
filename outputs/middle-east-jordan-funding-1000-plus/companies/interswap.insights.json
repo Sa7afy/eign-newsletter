@@ -1,0 +1,351 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T12:06:09.858Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T12:06:09.856Z",
+    "url": "https://www.crunchbase.com/organization/interswap"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "InterSwap",
+      "shortDescription": "InterSwap Labs offers cross-chain native asset swaps and unified liquidity on the Axelar network.",
+      "description": "InterSwap Labs enables secure and seamless swaps of native assets across multiple blockchain networks with a single transaction, eliminating the need for intermediary chains or bridges. It offers bridgeless liquidity unification and transportation across EVM, Cosmos, Solana, and Bitcoin. Built on the Axelar network, InterSwap Labs is the first fully composable native asset cross-chain Automated Market Maker (AMM) with unified liquidity.",
+      "website": "https://interswap.io/",
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "1-10",
+      "estimatedRevenueRange": "Less than $1M",
+      "headquarters": "Dubai, United Arab Emirates",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Apps",
+        "Blockchain",
+        "Information Technology",
+        "Security",
+        "Software Engineering"
+      ],
+      "sectors": [
+        "Apps",
+        "Blockchain and Cryptocurrency",
+        "Information Technology",
+        "Privacy and Security",
+        "Science and Engineering",
+        "Software"
+      ],
+      "founders": [
+        "Konstantin Rmz"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "A decentralized protocol enabling seamless cross-chain liquidity access and movement without bridging, using AI for routing and management.",
+        "name": "AI Powered Bridgeless Liquidity Unification Layer"
+      },
+      {
+        "description": "A feature enabling swift cross-chain order fulfillment within seconds using Axelar-powered intents.",
+        "name": "Express Swaps"
+      },
+      {
+        "description": "An advanced liquidity incentive model that rewards liquidity providers across chains.",
+        "name": "Options Liquidity Mining (OLM)"
+      },
+      {
+        "description": "Smart contracts enabling bridgeless native asset movement across ecosystems with permissionless pools and MEV protection.",
+        "name": "Cross Chain Pools"
+      },
+      {
+        "description": "A service allowing dApps to integrate multi-chain token support and expand single-chain AMMs to cross-chain AMMs.",
+        "name": "Multichain dApp Integration"
+      },
+      {
+        "description": "A service to improve capital efficiency and expand market availability for lending protocols across chains.",
+        "name": "Lending Protocol Enhancement"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 2400000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2025-03-05",
+      "lastFundingType": "Seed",
+      "rounds": [
+        {
+          "announcedDate": "2025-03-05",
+          "amount": {
+            "amount": 2400000,
+            "currency": "USD"
+          },
+          "investorCount": 7,
+          "postMoneyValuation": {
+            "amount": 15059864,
+            "currency": "USD"
+          },
+          "type": "Seed"
+        }
+      ],
+      "investors": {
+        "reportedCount": 7,
+        "visibleNames": [
+          {
+            "name": "Absoluta Digital",
+            "rounds": [
+              "Seed Round"
+            ]
+          },
+          {
+            "name": "Axelar Foundation",
+            "rounds": [
+              "Seed Round"
+            ]
+          },
+          {
+            "name": "Blocmates",
+            "rounds": [
+              "Seed Round"
+            ]
+          },
+          {
+            "name": "Castrum Capital",
+            "rounds": [
+              "Seed Round"
+            ]
+          },
+          {
+            "name": "CSP DAO",
+            "rounds": [
+              "Seed Round"
+            ]
+          },
+          {
+            "name": "IBC",
+            "rounds": [
+              "Seed Round"
+            ]
+          },
+          {
+            "name": "Insolvent capital",
+            "rounds": [
+              "Seed Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 1,
+      "includedUniqueCount": 1,
+      "items": [
+        {
+          "date": "2025-03-05",
+          "title": "Seed Round - InterSwap"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 2400000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": -2,
+      "growthScore": 87,
+      "heatChange90Days": -3,
+      "heatScore": 77
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 65.88
+      },
+      "funding": {
+        "generatedDate": "2026-06-20",
+        "probabilityPercent": 79.48,
+        "timingEstimatePercent": {
+          "within6Months": 99.53,
+          "months6To11": 0,
+          "months12To24": 0,
+          "beyond24Months": 0.47
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 89.49
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 3.81
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Squid is a router protocol that connects users and developers with cross-chain liquidity that offers swapping any token between blockchains.",
+          "employeeRange": "11-50",
+          "name": "Squid",
+          "sharedCategories": [
+            "Blockchain",
+            "Apps"
+          ],
+          "sharedSpecialties": [
+            "Decentralized Exchanges",
+            "NFT Marketplaces",
+            "Tokenization Platforms",
+            "Crypto Custody and Wallets",
+            "Cross-Chain Bridges"
+          ],
+          "similarityScore": 97
+        },
+        {
+          "description": "The execution and liquidity layer for on-chain finance. For apps, institutions, and agents. One API across every chain and vertical.",
+          "employeeRange": "101-250",
+          "name": "LI.FI",
+          "sharedCategories": [
+            "Blockchain",
+            "Information Technology"
+          ],
+          "sharedSpecialties": [
+            "Trading APIs and FIX Tools",
+            "Decentralized Exchanges",
+            "Tokenization Platforms",
+            "Crypto Custody and Wallets",
+            "Market Making Services",
+            "Cross-Chain Bridges"
+          ],
+          "similarityScore": 93
+        },
+        {
+          "description": "Across Protocol is a blockchain transaction chain provider.",
+          "employeeRange": "11-50",
+          "name": "Across Protocol",
+          "sharedCategories": [
+            "Blockchain"
+          ],
+          "sharedSpecialties": [
+            "Tokenization Platforms",
+            "Crypto Custody and Wallets",
+            "Cross-Chain Bridges"
+          ],
+          "similarityScore": 92
+        },
+        {
+          "description": "Chainflip is a decentralized automated market maker-based protocol.",
+          "employeeRange": "11-50",
+          "name": "Chainflip",
+          "sharedCategories": [
+            "Blockchain"
+          ],
+          "sharedSpecialties": [
+            "Trading APIs and FIX Tools",
+            "Decentralized Exchanges",
+            "Crypto Custody and Wallets",
+            "Market Making Services",
+            "Liquidity and Risk Management",
+            "Cross-Chain Bridges"
+          ],
+          "similarityScore": 89
+        },
+        {
+          "description": "deBridge is a cross-chain interoperability and liquidity transfer protocol that allows decentralized transfer of assets between blockchains.",
+          "employeeRange": "1-10",
+          "name": "deBridge Finance",
+          "sharedCategories": [
+            "Blockchain"
+          ],
+          "sharedSpecialties": [
+            "NFT Marketplaces",
+            "Tokenization Platforms",
+            "Integration Platforms",
+            "Cross-Chain Bridges"
+          ],
+          "similarityScore": 88
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Seed round raised $2,400,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $15,059,864 to $15,059,864, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 87 (-2 over 90 days) and market heat at 77 (-3).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Squid, LI.FI, Across Protocol.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

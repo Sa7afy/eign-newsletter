@@ -1,0 +1,243 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T11:04:40.392Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T11:04:40.390Z",
+    "url": "https://www.crunchbase.com/organization/brc-group-of-companies"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "BRC Group of Companies",
+      "shortDescription": "BRC Group of Companies offers engineering solutions for infrastructure investments.",
+      "description": "BRC Group of Companies provides infrastructure engineering solutions. It is a metallurgical product supplier, offering everything from epoxy-coated steel reinforcement solutions to crash barrier anti-ram steel fencing solutions. It has been rapidly and consistently expanding its product range to meet the needs of customers from various fields.",
+      "website": "http://www.brc.com.sa/",
+      "foundedYear": 1974,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "251-500",
+      "estimatedRevenueRange": "$50M-$100M",
+      "headquarters": "Jeddah, Makkah, Saudi Arabia",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Construction",
+        "Industrial Engineering",
+        "Manufacturing",
+        "Wholesale"
+      ],
+      "sectors": [
+        "Commerce and Shopping",
+        "Manufacturing",
+        "Real Estate",
+        "Science and Engineering"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "Steel materials including deformed bars, welded wire mesh, and blockmesh used in construction and infrastructure projects.",
+        "name": "Steel Products"
+      },
+      {
+        "description": "Protective epoxy coating applied to steel products to enhance durability and resistance to corrosion.",
+        "name": "Epoxy Coating"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 32000000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2014-01-01",
+      "lastFundingType": "Series C",
+      "rounds": [
+        {
+          "announcedDate": "2014-01-01",
+          "amount": {
+            "amount": 32000000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "Swicorp"
+          ],
+          "type": "Series C"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "Swicorp",
+            "rounds": [
+              "Series C"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 1,
+      "includedUniqueCount": 1,
+      "items": [
+        {
+          "date": "2014-01-01",
+          "title": "Series C - BRC Group of Companies"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 32000000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": 0,
+      "growthScore": 37,
+      "heatChange90Days": -5,
+      "heatScore": 12
+    },
+    "modelPredictions": {
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 98
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Conares engages in manufacturing and sales of steel products such as steel rebars, color coated products & pipes for different industries.",
+          "employeeRange": "501-1,000",
+          "name": "Conares",
+          "sharedCategories": [
+            "Manufacturing"
+          ],
+          "sharedSpecialties": [
+            "Steel Logistics",
+            "Reinforcing Steel (Rebar)",
+            "Construction Reinforcement Mesh"
+          ],
+          "similarityScore": 93
+        },
+        {
+          "description": "Saudi Iron and Steel Company (Hadeed) manufactures iron and steel products for the local construction, automotive, utility, renewables.",
+          "employeeRange": "1-10",
+          "name": "Saudi Iron and Steel Company (Hadeed)",
+          "sharedCategories": [
+            "Manufacturing"
+          ],
+          "sharedSpecialties": [
+            "Steel Logistics",
+            "Reinforcing Steel (Rebar)",
+            "Construction Reinforcement Mesh"
+          ],
+          "similarityScore": 92
+        },
+        {
+          "description": "The Reinforced Earth Company is a civil engineering company providing engineering,planning, and surveying services.",
+          "employeeRange": "251-500",
+          "name": "The Reinforced Earth Company - USA",
+          "sharedSpecialties": [
+            "Infrastructure Construction",
+            "Precast Concrete Manufacturing",
+            "Heavy Civil and Bridge Construction",
+            "Structural Engineering"
+          ],
+          "similarityScore": 86
+        },
+        {
+          "description": "Saudi Steel Pipe is the manufacturer of induction welded pipes.",
+          "employeeRange": "501-1,000",
+          "name": "Saudi Steel Pipe",
+          "sharedCategories": [
+            "Industrial Engineering",
+            "Manufacturing"
+          ],
+          "sharedSpecialties": [
+            "Steel Logistics"
+          ],
+          "similarityScore": 84
+        },
+        {
+          "description": "ArcelorMittal Tubular Products is a manufacturing company that produces and supplies pipes and tubes.",
+          "employeeRange": "101-250",
+          "name": "ArcelorMittal Tubular Products",
+          "sharedCategories": [
+            "Manufacturing"
+          ],
+          "similarityScore": 83
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Series C round raised $32,000,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 37 (+0 over 90 days) and market heat at 12 (-5).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Conares, Saudi Iron and Steel Company (Hadeed), The Reinforced Earth Company - USA.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

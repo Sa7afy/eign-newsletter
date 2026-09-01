@@ -1,0 +1,228 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T13:44:46.687Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T13:44:46.685Z",
+    "url": "https://www.crunchbase.com/organization/thya-technology"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Thya Technology",
+      "shortDescription": "Thya Technology is an online platform delivering AI-based computer vision as a service.",
+      "description": "Thya Technology is an online platform delivering AI-based computer vision as a service.",
+      "website": "https://www.thya-technology.com/",
+      "foundedYear": 2021,
+      "operatingStatus": "Closed",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "1-10",
+      "headquarters": "Makkah, Saudi Arabia",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Artificial Intelligence (AI)",
+        "Information Technology"
+      ],
+      "sectors": [
+        "Artificial Intelligence (AI)",
+        "Data and Analytics",
+        "Information Technology",
+        "Science and Engineering",
+        "Software"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "A no-code online platform that enables the creation of custom detection models for analyzing images without requiring programming skills.",
+        "name": "AI-based Computer Vision Platform"
+      },
+      {
+        "description": "Facilitates the development of tailored detection models to identify, count, and monitor objects or characteristics within images.",
+        "name": "Custom Detection Models"
+      },
+      {
+        "description": "Provides tools for annotating images, training detection models, and deploying these models, all within a unified platform.",
+        "name": "Annotation, Training, and Deployment Tools"
+      },
+      {
+        "description": "Offers APIs for integration and supports versioning of models to facilitate updates and management of deployed models.",
+        "name": "APIs and Model Versioning"
+      },
+      {
+        "description": "Allows users to download and deploy their custom-trained models on various devices or platforms.",
+        "name": "Model Download and Deployment"
+      },
+      {
+        "description": "Features a marketplace where users can sell or share their datasets and AI models, receiving royalties for cloned projects.",
+        "name": "Marketplace for Datasets and AI Models"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 100000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 2,
+      "detailedRoundCount": 2,
+      "lastFundingDate": "2022-03-08",
+      "lastFundingType": "Pre Seed",
+      "rounds": [
+        {
+          "announcedDate": "2022-03-08",
+          "amount": {
+            "amount": 100000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "Taqadam"
+          ],
+          "type": "Pre Seed"
+        },
+        {
+          "announcedDate": "2021-01-01",
+          "investorCount": 1,
+          "type": "Pre Seed"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "Taqadam",
+            "rounds": [
+              "Pre Seed Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 2,
+      "includedUniqueCount": 2,
+      "items": [
+        {
+          "date": "2022-03-08",
+          "title": "Pre Seed Round - Thya Technology"
+        },
+        {
+          "date": "2021-01-01",
+          "title": "Pre Seed Round - Thya Technology"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 100000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "heatChange90Days": -7,
+      "heatScore": 66
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Roboflow is a developer tool for building computer vision models faster and more accurately.",
+          "employeeRange": "11-50",
+          "name": "Roboflow",
+          "sharedCategories": [
+            "Artificial Intelligence (AI)"
+          ],
+          "similarityScore": 97
+        },
+        {
+          "description": "V7 is a powerful AI training data platform used to produce high-quality image and video data annotations to train computer vision models.",
+          "employeeRange": "51-100",
+          "name": "V7",
+          "sharedCategories": [
+            "Artificial Intelligence (AI)"
+          ],
+          "similarityScore": 95
+        },
+        {
+          "description": "SuperAnnotate is an AI data platform that unifies AI pipeline and simplifies dataset creation, curation, and model evaluation.",
+          "employeeRange": "101-250",
+          "name": "SuperAnnotate",
+          "sharedCategories": [
+            "Artificial Intelligence (AI)"
+          ],
+          "similarityScore": 93
+        },
+        {
+          "description": "Labelbox is the leading data factory for AI teams.",
+          "employeeRange": "101-250",
+          "name": "Labelbox",
+          "sharedCategories": [
+            "Artificial Intelligence (AI)"
+          ],
+          "similarityScore": 91
+        },
+        {
+          "description": "API-first Agentic Document Extraction platform built for accuracy, reliability, and governance at scale.",
+          "employeeRange": "51-100",
+          "name": "LandingAI",
+          "sharedCategories": [
+            "Artificial Intelligence (AI)"
+          ],
+          "similarityScore": 87
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Pre Seed round raised $100,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Roboflow, V7, SuperAnnotate.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

@@ -1,0 +1,220 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T13:11:41.795Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T13:11:41.793Z",
+    "url": "https://www.crunchbase.com/organization/right-farm"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Right Farm",
+      "shortDescription": "Right Farm is a UAE-based B2B agritech platform.",
+      "description": "Right Farm is a UAE-based agritech and B2B food supply-chain company that uses technology and data-driven logistics to connect farms directly with restaurants, hotels, cloud kitchens, retailers, and foodservice businesses. Founded in 2021 and headquartered in Dubai, the company focuses on making fresh produce sourcing simpler, faster, and more sustainable across the Middle East and North Africa (MENA) region.",
+      "website": "https://www.rightfarm.com/",
+      "foundedYear": 2021,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "51-100",
+      "headquarters": "Dubai, United Arab Emirates",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "B2B",
+        "E-Commerce",
+        "Logistics",
+        "Supply Chain Management",
+        "Transportation"
+      ],
+      "sectors": [
+        "Commerce and Shopping",
+        "Other",
+        "Transportation"
+      ],
+      "founders": [
+        "Elie Skaf",
+        "Mazen Mourad",
+        "Mohammad Abu Ajamieh"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 2800000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2022-04-11",
+      "lastFundingType": "Seed",
+      "rounds": [
+        {
+          "announcedDate": "2022-04-11",
+          "amount": {
+            "amount": 2800000,
+            "currency": "USD"
+          },
+          "investorCount": 2,
+          "leadInvestors": [
+            "DisruptAD"
+          ],
+          "postMoneyValuation": {
+            "amount": 18727065,
+            "currency": "USD"
+          },
+          "type": "Seed"
+        }
+      ],
+      "investors": {
+        "reportedCount": 2,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "DisruptAD",
+            "rounds": [
+              "Seed Round"
+            ]
+          },
+          {
+            "name": "Enhance Ventures",
+            "rounds": [
+              "Seed Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 4,
+      "includedUniqueCount": 4,
+      "items": [
+        {
+          "date": "2022-12-22",
+          "publisher": "sme10x.com",
+          "title": "Right Farm partners with The Waste Lab for UAE Sustainability",
+          "url": "http://dlvr.it/SfqWv4"
+        },
+        {
+          "date": "2022-04-11",
+          "title": "Seed Round - Right Farm"
+        },
+        {
+          "date": "2022-04-11",
+          "publisher": "MAGNiTT",
+          "title": "Right Farm raises $2.8M in SEED funding",
+          "url": "https://magnitt.com/news/right-farm-2-8m-seed-53355"
+        },
+        {
+          "date": "2022-04-11",
+          "publisher": "Wamda News",
+          "title": "UAE’s foodtech Right Farm raises $2.8 million Seed round",
+          "url": "https://www.wamda.com/2022/04/uae-foodtech-right-farm-raises-2-8-million-seed-round"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 2800000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": 0,
+      "growthScore": 66,
+      "heatChange90Days": -5,
+      "heatScore": 15
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 47.91
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 25.67,
+        "timingEstimatePercent": {
+          "within6Months": 14.24,
+          "months6To11": 12.21,
+          "months12To24": 19.45,
+          "beyond24Months": 24.83
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 94.93
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 37.89
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors."
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Seed round raised $2,800,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $18,727,065 to $18,727,065, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 66 (+0 over 90 days) and market heat at 15 (-5).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

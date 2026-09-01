@@ -1,0 +1,248 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T13:43:29.679Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T13:43:29.677Z",
+    "url": "https://www.crunchbase.com/organization/the-moon-group"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "The Moon Group",
+      "shortDescription": "The Moon Group is business consulting and services founded in 2021 in Dubai.",
+      "description": "The Moon Group is business consulting and services founded in 2021 in Dubai.",
+      "website": "https://moongroup.com/",
+      "foundedYear": 2021,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "51-100",
+      "headquarters": "Dubai, United Arab Emirates",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "founders": [
+        "Carl Runefelt"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "Investment fund providing capital and strategic support to early-stage startups in Web3, blockchain, and artificial intelligence sectors.",
+        "name": "Venture Capital Investment in Web3, Blockchain, and AI Startups"
+      },
+      {
+        "description": "Provision of strategic advice and industry connections to startups in the Web3 and blockchain space to support their growth and development.",
+        "name": "Strategic Guidance and Network Access for Startups"
+      },
+      {
+        "description": "Investment in projects that develop decentralized financial systems to replace or augment traditional finance.",
+        "name": "Investment Focus on Decentralized Finance (DeFi) Projects"
+      },
+      {
+        "description": "Funding projects that create immersive digital experiences using virtual and augmented reality technologies.",
+        "name": "Investment in Metaverse Projects"
+      },
+      {
+        "description": "Funding scalable and secure infrastructure solutions that support decentralized technology integration.",
+        "name": "Investment in Infrastructure for Decentralized Technologies"
+      },
+      {
+        "description": "Funding ventures that develop AI technologies including machine learning and natural language processing for automation and data-driven decision-making.",
+        "name": "Investment in Artificial Intelligence Projects"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 300000000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2021-04-08",
+      "lastFundingType": "Venture round",
+      "rounds": [
+        {
+          "announcedDate": "2021-04-08",
+          "amount": {
+            "amount": 300000000,
+            "currency": "USD"
+          },
+          "postMoneyValuation": {
+            "amount": 1146534441,
+            "currency": "USD"
+          },
+          "type": "Venture round"
+        }
+      ]
+    },
+    "recentNews": {
+      "reportedCount": 1,
+      "includedUniqueCount": 1,
+      "items": [
+        {
+          "date": "2021-04-08",
+          "title": "Venture Round - The Moon Group"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 300000000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": 0,
+      "growthScore": 28,
+      "heatChange90Days": -6,
+      "heatScore": 43
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2025-09-22",
+        "probabilityPercent": 37.17
+      },
+      "growth": {
+        "generatedDate": "2025-01-11",
+        "probabilityPercent": 95.61
+      },
+      "ipo": {
+        "generatedDate": "2025-09-22",
+        "probabilityPercent": 61
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "BlockDAG is a layer1 blockchain company.",
+          "employeeRange": "11-50",
+          "name": "BlockDAG",
+          "sharedSpecialties": [
+            "Smart Contract Auditing",
+            "Blockchain Gaming",
+            "Tokenization Platforms",
+            "Cross-Chain Bridges"
+          ],
+          "similarityScore": 100
+        },
+        {
+          "description": "Avalanche provides a decentralized contracts platform for global finance, with near-instant transaction completion.",
+          "employeeRange": "11-50",
+          "name": "Avalanche",
+          "sharedSpecialties": [
+            "Smart Contract Auditing",
+            "Blockchain Gaming",
+            "Startup Incubators and Accelerators",
+            "NFT Marketplaces",
+            "Tokenization Platforms",
+            "Crypto Custody and Wallets",
+            "Cross-Chain Bridges"
+          ],
+          "similarityScore": 95.444
+        },
+        {
+          "description": "Dragonfly provides capital and strategic support to teams building projects in the cryptocurrency and blockchain ecosystem.",
+          "employeeRange": "501-1,000",
+          "name": "Dragonfly",
+          "similarityScore": 89.851
+        },
+        {
+          "description": "Playground is an early-stage deep tech venture capital firm backing technical and scientific founders",
+          "employeeRange": "11-50",
+          "name": "Playground Global",
+          "similarityScore": 84.386
+        },
+        {
+          "description": "Stan is a blockchain-based social gaming platform for gaming creators, publishers, and communities.",
+          "employeeRange": "11-50",
+          "name": "Stan",
+          "sharedSpecialties": [
+            "Blockchain Gaming",
+            "NFT Marketplaces",
+            "Tokenization Platforms",
+            "Crypto Custody and Wallets"
+          ],
+          "similarityScore": 79.845
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Venture round round raised $300,000,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $1,146,534,441 to $1,146,534,441, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 28 (+0 over 90 days) and market heat at 43 (-6).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include BlockDAG, Avalanche, Dragonfly.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

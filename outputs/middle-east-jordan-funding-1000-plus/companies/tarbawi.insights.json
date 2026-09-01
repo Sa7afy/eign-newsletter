@@ -1,0 +1,243 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T13:38:35.479Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T13:38:35.478Z",
+    "url": "https://www.crunchbase.com/organization/tarbawi"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Tarbawi",
+      "shortDescription": "Tarbawi is an innovative learning platform that aims to revolutionize education through the use of AI in personalized learning.",
+      "description": "Tarbawi is an innovative learning platform that aims to revolutionize education through the use of AI in personalized learning.",
+      "website": "https://www.tarbawi.net/",
+      "foundedYear": 2023,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "1-10",
+      "headquarters": "Doha, Ad Dawhah, Qatar",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Artificial Intelligence (AI)",
+        "Education",
+        "E-Learning"
+      ],
+      "sectors": [
+        "Artificial Intelligence (AI)",
+        "Data and Analytics",
+        "Education",
+        "Science and Engineering",
+        "Software"
+      ],
+      "founders": [
+        "Ibrahim Alzu'bi",
+        "Mutasem Alnajjar"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 41197,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2023-06-22",
+      "lastFundingType": "Non Equity Assistance",
+      "rounds": [
+        {
+          "announcedDate": "2023-06-22",
+          "amount": {
+            "amount": 41197,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "Digital Incubation Center"
+          ],
+          "type": "Non Equity Assistance"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "Digital Incubation Center",
+            "rounds": [
+              "Non Equity Assistance"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 1,
+      "includedUniqueCount": 1,
+      "items": [
+        {
+          "date": "2023-06-22",
+          "title": "Non Equity Assistance - Tarbawi"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 41197,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": -31,
+      "growthScore": 20,
+      "heatChange90Days": -29,
+      "heatScore": 48
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 68.75
+      },
+      "funding": {
+        "generatedDate": "2026-06-20",
+        "probabilityPercent": 8.71,
+        "timingEstimatePercent": {
+          "within6Months": 0.93,
+          "months6To11": 0,
+          "months12To24": 0,
+          "beyond24Months": 99.07
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 61.5
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 58.14
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "SABIS is in the education field that operates schools in 20 countries on five continents in both the private and public sectors.",
+          "employeeRange": "5,001-10,000",
+          "name": "SABIS",
+          "sharedCategories": [
+            "Education"
+          ],
+          "similarityScore": 86
+        },
+        {
+          "description": "CENTURY is the award-winning artificial intelligence teaching and learning platform for schools, colleges and universities.",
+          "employeeRange": "101-250",
+          "name": "CENTURY Tech",
+          "sharedCategories": [
+            "Education",
+            "Artificial Intelligence (AI)",
+            "E-Learning"
+          ],
+          "similarityScore": 85
+        },
+        {
+          "description": "The leading K-12 intelligent adaptive education service provider, SaaS",
+          "employeeRange": "501-1,000",
+          "name": "Squirrel Ai Learning",
+          "sharedCategories": [
+            "Education",
+            "Artificial Intelligence (AI)",
+            "E-Learning"
+          ],
+          "similarityScore": 84
+        },
+        {
+          "description": "Carnegie Learning is a publisher of innovative, research-based math curricula for middle school, high school, and post-secondary.",
+          "employeeRange": "501-1,000",
+          "name": "Carnegie Learning",
+          "sharedCategories": [
+            "Education",
+            "E-Learning"
+          ],
+          "similarityScore": 83
+        },
+        {
+          "description": "Khan Academy is a nonprofit organization that provides a free world class education for anyone, anywhere.",
+          "employeeRange": "251-500",
+          "name": "Khan Academy",
+          "sharedCategories": [
+            "Education",
+            "E-Learning"
+          ],
+          "similarityScore": 82
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Non Equity Assistance round raised $41,197, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 20 (-31 over 90 days) and market heat at 48 (-29).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include SABIS, CENTURY Tech, Squirrel Ai Learning.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

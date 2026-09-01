@@ -1,0 +1,353 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T13:57:52.306Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T13:57:52.303Z",
+    "url": "https://www.crunchbase.com/organization/weavedb-ltd"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "WeaveDB",
+      "shortDescription": "WeaveDB is a decentralized modular database that specializes in user experience for web3 applications and deployment services.",
+      "description": "WeaveDB is a Decentralized Modular Database as a Smart Contract.",
+      "website": "https://weavedb.dev/",
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "1-10",
+      "headquarters": "Abu Dhabi, United Arab Emirates",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Blockchain",
+        "Database",
+        "Smart Contracts",
+        "Web3"
+      ],
+      "sectors": [
+        "Blockchain and Cryptocurrency",
+        "Data and Analytics",
+        "Internet Services",
+        "Software"
+      ],
+      "founders": [
+        "Ahmad Mardeni",
+        "Masakazu Ohno",
+        "Tomoya Nagasawa"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "A decentralized NoSQL database implemented as a smart contract, providing JSON-based queries and cross-chain authentication for web3 applications.",
+        "name": "WeaveDB"
+      },
+      {
+        "description": "A smart contract platform that separates computation from storage, enabling instant transactions and client-side lazy computation.",
+        "name": "Warp"
+      },
+      {
+        "description": "A protocol that processes Arweave transactions instantly and enables dApp developers to pre-pay transaction fees using tokens from multiple blockchains.",
+        "name": "Irys"
+      },
+      {
+        "description": "A language-agnostic JSON utility that enables functional programming logic to be stored and executed within smart contract states.",
+        "name": "FPJSON"
+      },
+      {
+        "description": "Services offering optimized database performance through self-deployment or managed decentralized database nodes.",
+        "name": "Database Node Services"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 900000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2023-01-17",
+      "lastFundingType": "Pre Seed",
+      "rounds": [
+        {
+          "announcedDate": "2023-01-17",
+          "amount": {
+            "amount": 900000,
+            "currency": "USD"
+          },
+          "investorCount": 9,
+          "leadInvestors": [
+            "Permanent Ventures"
+          ],
+          "postMoneyValuation": {
+            "amount": 7312149,
+            "currency": "USD"
+          },
+          "type": "Pre Seed"
+        }
+      ],
+      "investors": {
+        "reportedCount": 9,
+        "visibleNames": [
+          {
+            "name": "Arweave",
+            "rounds": [
+              "Pre Seed Round"
+            ]
+          },
+          {
+            "name": "CMT Digital",
+            "rounds": [
+              "Pre Seed Round"
+            ]
+          },
+          {
+            "name": "Formless Capital",
+            "rounds": [
+              "Pre Seed Round"
+            ]
+          },
+          {
+            "name": "Hansa Capital",
+            "rounds": [
+              "Pre Seed Round"
+            ]
+          },
+          {
+            "name": "IOSG Ventures",
+            "rounds": [
+              "Pre Seed Round"
+            ]
+          },
+          {
+            "name": "Mask Network",
+            "rounds": [
+              "Pre Seed Round"
+            ]
+          },
+          {
+            "name": "Next Web Capital",
+            "rounds": [
+              "Pre Seed Round"
+            ]
+          },
+          {
+            "isLead": true,
+            "name": "Permanent Ventures",
+            "rounds": [
+              "Pre Seed Round"
+            ]
+          },
+          {
+            "name": "Scott Moore",
+            "rounds": [
+              "Pre Seed Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 2,
+      "includedUniqueCount": 2,
+      "items": [
+        {
+          "date": "2025-07-21",
+          "publisher": "Law.asia",
+          "title": "Combating AI deepfakes: The face of fraud has no IP rights",
+          "url": "https://law.asia/ai-deepfake-legal-response/"
+        },
+        {
+          "date": "2023-01-17",
+          "title": "Pre Seed Round - WeaveDB"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 900000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": 1,
+      "growthScore": 49,
+      "heatChange90Days": -5,
+      "heatScore": 6
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 53.6
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 28.31,
+        "timingEstimatePercent": {
+          "within6Months": 15.89,
+          "months6To11": 13.36,
+          "months12To24": 20.69,
+          "beyond24Months": 25
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 95.24
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 46.17
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "TablelandTableland is a permissionless relational database designed for web3 developers.",
+          "employeeRange": "11-50",
+          "name": "Tableland",
+          "sharedCategories": [
+            "Database",
+            "Web3"
+          ],
+          "sharedSpecialties": [
+            "Database Platform Services",
+            "Decentralized Identity and Document Verification",
+            "Smart Contract Development Frameworks",
+            "API Management"
+          ],
+          "similarityScore": 95
+        },
+        {
+          "description": "Ceramic Network is a provider of protocols for decentralized data applications.",
+          "employeeRange": "1-10",
+          "name": "Ceramic Network",
+          "sharedCategories": [
+            "Database"
+          ],
+          "sharedSpecialties": [
+            "Data Synchronization",
+            "Distributed Data Processing",
+            "Database Platform Services",
+            "Decentralized Identity and Document Verification",
+            "API Management"
+          ],
+          "similarityScore": 88
+        },
+        {
+          "description": "Decentralized cloud computing platform to deploy workloads on CPU and GPU cloud at 85% lower costs than hyperscalers",
+          "employeeRange": "11-50",
+          "name": "Fluence Cloud",
+          "sharedSpecialties": [
+            "Distributed Data Processing",
+            "Smart Contract Development Frameworks"
+          ],
+          "similarityScore": 84
+        },
+        {
+          "description": "3Box is a next-generation framework for managing user data on the internet.",
+          "employeeRange": "11-50",
+          "name": "3Box",
+          "sharedSpecialties": [
+            "Decentralized Identity and Document Verification",
+            "SDK Management",
+            "API Management",
+            "Developer Portals"
+          ],
+          "similarityScore": 82
+        },
+        {
+          "description": "Arweave is an information technology company that specializes in data storage, blockchain, and serverless web.",
+          "employeeRange": "11-50",
+          "name": "Arweave",
+          "sharedCategories": [
+            "Blockchain"
+          ],
+          "sharedSpecialties": [
+            "Decentralized Identity and Document Verification",
+            "Object Storage"
+          ],
+          "similarityScore": 79
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Pre Seed round raised $900,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $7,312,149 to $7,312,149, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 49 (+1 over 90 days) and market heat at 6 (-5).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Tableland, Ceramic Network, Fluence Cloud.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

@@ -1,0 +1,239 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T11:54:45.613Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T11:54:45.611Z",
+    "url": "https://www.crunchbase.com/organization/guzturk-home"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Guzturk Home",
+      "shortDescription": "guzturk is direct-to-consumer digital native furniture and homeware brand in the MENA region",
+      "description": "guzturk is a direct-to-cosumer digital native furniture and homeware brand in MENA. We partner with artisans from all over the world to create and curate simple, modern, unique, affordable products and make them accessible.",
+      "website": "https://www.guzturk.com/",
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "51-100",
+      "headquarters": "Cairo, Al Qahirah, Egypt",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Middle East",
+        "Middle East and North Africa (MENA)",
+        "North Africa"
+      ],
+      "industries": [
+        "E-Commerce",
+        "E-Commerce Platforms",
+        "Furniture",
+        "Home Decor",
+        "Manufacturing",
+        "Property Management",
+        "Retail"
+      ],
+      "sectors": [
+        "Commerce and Shopping",
+        "Consumer Goods",
+        "Internet Services",
+        "Manufacturing",
+        "Real Estate"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 500000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2025-01-01",
+      "lastFundingType": "Pre Seed",
+      "rounds": [
+        {
+          "announcedDate": "2025-01-01",
+          "amount": {
+            "amount": 500000,
+            "currency": "USD"
+          },
+          "postMoneyValuation": {
+            "amount": 850000,
+            "currency": "USD"
+          },
+          "type": "Pre Seed"
+        }
+      ]
+    },
+    "recentNews": {
+      "reportedCount": 1,
+      "includedUniqueCount": 1,
+      "items": [
+        {
+          "date": "2025-01-01",
+          "title": "Pre Seed Round - Guzturk Home"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 500000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": 4,
+      "growthScore": 53,
+      "heatChange90Days": -6,
+      "heatScore": 67
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 26.72
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 65.53,
+        "timingEstimatePercent": {
+          "within6Months": 97.71,
+          "months6To11": 0,
+          "months12To24": 0,
+          "beyond24Months": 2.29
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 74.92
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 4.9
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "IKEA Systems offers a wide range of well-designed, functional home furnishing products.",
+          "employeeRange": "10,001+",
+          "name": "IKEA",
+          "sharedCategories": [
+            "Furniture",
+            "Retail",
+            "Home Decor"
+          ],
+          "similarityScore": 97
+        },
+        {
+          "description": "BoConcept was established in 1952 and has a long heritage as a Danish furniture brand.",
+          "employeeRange": "1,001-5,000",
+          "name": "BoConcept",
+          "sharedCategories": [
+            "Furniture"
+          ],
+          "similarityScore": 93
+        },
+        {
+          "description": "THE One is a provider of luxury home goods and furniture at a bargain price.",
+          "employeeRange": "501-1,000",
+          "name": "TheOne Technology Group",
+          "similarityScore": 92
+        },
+        {
+          "description": "West Elm is an upscale retail store that features contemporary furniture designs and other housewares.",
+          "employeeRange": "1,001-5,000",
+          "name": "West Elm",
+          "sharedCategories": [
+            "Furniture",
+            "Home Decor"
+          ],
+          "similarityScore": 87
+        },
+        {
+          "description": "Pottery Barn focuses on customer service while creating products with innovative designs.",
+          "employeeRange": "10,001+",
+          "name": "Pottery Barn",
+          "sharedCategories": [
+            "Home Decor",
+            "Manufacturing"
+          ],
+          "similarityScore": 83
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Pre Seed round raised $500,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $850,000 to $850,000, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 53 (+4 over 90 days) and market heat at 67 (-6).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include IKEA, BoConcept, TheOne Technology Group.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

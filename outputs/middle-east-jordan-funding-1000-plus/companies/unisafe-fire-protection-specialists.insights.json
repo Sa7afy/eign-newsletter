@@ -1,0 +1,184 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T13:50:30.341Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T13:50:30.339Z",
+    "url": "https://www.crunchbase.com/organization/unisafe-fire-protection-specialists"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Unisafe Fire Protection Specialists",
+      "shortDescription": "Unisafe Fire Protection Specialists a managed engineering company, provides maintenance and field support services.",
+      "description": "Unisafe Fire Protection Specialists LLC, a managed engineering company, provides maintenance and field support services.",
+      "website": "http://www.unisafedxb.com/",
+      "foundedYear": 1995,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "501-1,000",
+      "headquarters": "Dubai, United Arab Emirates",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Security"
+      ],
+      "sectors": [
+        "Privacy and Security"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "Provides ongoing maintenance and support for fire protection systems to ensure operational readiness and compliance.",
+        "name": "Maintenance Services"
+      },
+      {
+        "description": "Offers on-site technical support and assistance for fire protection systems and equipment.",
+        "name": "Field Support Services"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 5391871,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2007-05-22",
+      "lastFundingType": "Undisclosed",
+      "rounds": [
+        {
+          "announcedDate": "2007-05-22",
+          "amount": {
+            "amount": 5391871,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "type": "Undisclosed"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "name": "Zicom",
+            "rounds": [
+              "Funding Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 1,
+      "includedUniqueCount": 1,
+      "items": [
+        {
+          "date": "2007-05-22",
+          "title": "Funding Round - Unisafe Fire Protection Specialists"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 5391871,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": 3,
+      "growthScore": 84,
+      "heatChange90Days": -10,
+      "heatScore": 42
+    },
+    "modelPredictions": {
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 95.5
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Firefly is a Swedish supplier of spark detection, fire and dust explosion protection systems.",
+          "employeeRange": "101-250",
+          "name": "Firefly AB",
+          "sharedSpecialties": [
+            "Fire and Life Safety Management",
+            "Alarm Systems",
+            "Gas and Fire Detection Systems",
+            "Fire Protection Services",
+            "Fire Sprinkler Services"
+          ],
+          "similarityScore": 100
+        },
+        {
+          "description": "TrioLight is a facilities support services company that offers fire and safety services.",
+          "employeeRange": "11-50",
+          "name": "TrioLight",
+          "sharedSpecialties": [
+            "Fire and Life Safety Management",
+            "Fire Risk Assessment and Fire Safety Consulting",
+            "Fire Protection Services",
+            "Fire Sprinkler Services",
+            "Facilities Maintenance",
+            "Building Commissioning"
+          ],
+          "similarityScore": 87.5
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Undisclosed round raised $5,391,871, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 84 (+3 over 90 days) and market heat at 42 (-10).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

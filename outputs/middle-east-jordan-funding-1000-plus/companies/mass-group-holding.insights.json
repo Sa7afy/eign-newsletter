@@ -1,0 +1,270 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T12:27:46.735Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T12:27:46.733Z",
+    "url": "https://www.crunchbase.com/organization/mass-group-holding"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Mass Group Holding",
+      "shortDescription": "Mass Group Holding Ltd. produces power, cement, steel, iron, and fertilizer, and invests in renewable energy projects.",
+      "website": "https://www.massgroupholding.com/",
+      "foundedYear": 1994,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "1,001-5,000",
+      "estimatedRevenueRange": "$10M-$50M",
+      "headquarters": "Amman, Jordan",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Energy",
+        "Industrial",
+        "Power Grid"
+      ],
+      "sectors": [
+        "Energy",
+        "Manufacturing"
+      ],
+      "founders": [
+        "Ahmed Saleh"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "Production of electrical power with a capacity of approximately 10,880 MW using a Build, Own, and Operate (B.O.O) model.",
+        "name": "Power Generation"
+      },
+      {
+        "description": "Manufacture of iron and steel products with an annual production capacity of 1.25 million tons.",
+        "name": "Iron and Steel Production"
+      },
+      {
+        "description": "Manufacture of cement with an annual production capacity of approximately 8 million tons.",
+        "name": "Cement Production"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 500000000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2026-01-06",
+      "lastFundingType": "Debt Financing",
+      "rounds": [
+        {
+          "announcedDate": "2026-01-06",
+          "amount": {
+            "amount": 500000000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "Emirates Islamic"
+          ],
+          "type": "Debt Financing"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "Emirates Islamic",
+            "rounds": [
+              "Debt Financing"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 3,
+      "includedUniqueCount": 3,
+      "items": [
+        {
+          "date": "2026-01-06",
+          "publisher": "Zawya.com",
+          "title": "Emirates Islamic provides $500mln structured financing to Mass Group Holding",
+          "url": "https://www.zawya.com/en/press-release/companies-news/emirates-islamic-provides-500mln-structured-financing-to-mass-group-holding-lybkyygb"
+        },
+        {
+          "date": "2026-01-06",
+          "publisher": "Zawya.com",
+          "title": "Emirates Islamic provides $500mln funding for Romania power project",
+          "url": "https://www.zawya.com/en/business/banking-and-insurance/emirates-islamic-provides-500mln-funding-for-romania-power-project-c8ssnyrw"
+        },
+        {
+          "date": "2026-01-06",
+          "title": "Debt Financing - Mass Group Holding"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 500000000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthInsightGeneratedDate": "2026-01-25",
+      "growthChange90Days": -5,
+      "growthScore": 56,
+      "heatChange90Days": 4,
+      "heatScore": 62,
+      "status": "Growing"
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-12",
+        "probabilityPercent": 35
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 5.09,
+        "timingEstimatePercent": {
+          "within6Months": 0.07,
+          "months6To11": 0,
+          "months12To24": 0,
+          "beyond24Months": 99.93
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 95.62
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 74.22
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Lucky Cement manufactures and exports quality cement to several enterprises.",
+          "employeeRange": "1,001-5,000",
+          "name": "Lucky Cement",
+          "sharedSpecialties": [
+            "Cement Plant Engineering",
+            "Cement and Concrete"
+          ],
+          "similarityScore": 97
+        },
+        {
+          "description": "DG Khan Cement manufactures cement on a large scale using dry process technology.",
+          "employeeRange": "1,001-5,000",
+          "name": "DG Khan Cement",
+          "sharedCategories": [
+            "Industrial"
+          ],
+          "sharedSpecialties": [
+            "Refractory Materials and Services",
+            "Cement Plant Engineering",
+            "Cement and Concrete"
+          ],
+          "similarityScore": 95
+        },
+        {
+          "description": "Attock Cement is a cement manufacturing company.",
+          "employeeRange": "501-1,000",
+          "name": "Attock Cement Pakistan",
+          "sharedSpecialties": [
+            "Refractory Materials and Services",
+            "Cement Plant Engineering",
+            "Cement and Concrete"
+          ],
+          "similarityScore": 91
+        },
+        {
+          "description": "Cherat Cement engages in the manufacturing, marketing and sale of clinker and cement.",
+          "employeeRange": "501-1,000",
+          "name": "Cherat Cement",
+          "sharedSpecialties": [
+            "Refractory Materials and Services",
+            "Cement Plant Engineering",
+            "Cement and Concrete"
+          ],
+          "similarityScore": 76
+        },
+        {
+          "description": "Hub Power is an independent power producer company.",
+          "employeeRange": "501-1,000",
+          "name": "Hubco",
+          "sharedCategories": [
+            "Energy"
+          ],
+          "similarityScore": 75
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Debt Financing round raised $500,000,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 56 (-5 over 90 days) and market heat at 62 (+4).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Lucky Cement, DG Khan Cement, Attock Cement Pakistan.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

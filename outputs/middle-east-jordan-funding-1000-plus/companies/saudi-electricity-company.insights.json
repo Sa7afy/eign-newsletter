@@ -1,0 +1,542 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T13:17:34.966Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T13:17:34.964Z",
+    "url": "https://www.crunchbase.com/organization/saudi-electricity-company"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Saudi Energy",
+      "shortDescription": "Saudi Electricity Company (SEC abbreviated or SECO) is a Saudi Arabian power company headquartered in Riyadh.",
+      "description": "Saudi Energy is an electric utility company that is engaged in power generation, transmission, and distribution. It supplies electricity to residential, commercial, industrial, and government customers and provides customer services, grid operations, and electricity consumption and energy management support.",
+      "website": "https://www.se.com.sa/en",
+      "foundedYear": 2000,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Public",
+      "companyType": "For profit",
+      "employeeRange": "10,001+",
+      "estimatedRevenueRange": "$10B+",
+      "headquarters": "Riyadh, Ar Riyad, Saudi Arabia",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Consumer Electronics",
+        "Electronics",
+        "Energy"
+      ],
+      "sectors": [
+        "Consumer Electronics",
+        "Energy",
+        "Hardware"
+      ],
+      "founders": [
+        "Khalid Bin Hamad Al-Ghonon"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "Production of electrical power through various energy sources to supply the national grid.",
+        "name": "Electricity Generation"
+      },
+      {
+        "description": "High-voltage transmission of electricity from power plants to distribution networks across Saudi Arabia.",
+        "name": "Electricity Transmission"
+      },
+      {
+        "description": "Delivery of electrical power from transmission substations to end consumers including homes and businesses.",
+        "name": "Electricity Distribution"
+      },
+      {
+        "description": "Services related to electricity subscription, billing, and customer support for electricity consumers.",
+        "name": "Customer Services"
+      },
+      {
+        "description": "Mechanism for reporting electrical safety issues, equipment hazards, and other related incidents.",
+        "name": "Safety and Incident Reporting"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 24580418976,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 8,
+      "detailedRoundCount": 8,
+      "lastFundingDate": "2026-08-24",
+      "lastFundingType": "Post IPO Debt",
+      "rounds": [
+        {
+          "announcedDate": "2026-08-24",
+          "amount": {
+            "amount": 3000000000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "Bpifrance"
+          ],
+          "type": "Post IPO Debt"
+        },
+        {
+          "announcedDate": "2026-07-27",
+          "amount": {
+            "amount": 4215932596,
+            "currency": "USD"
+          },
+          "investorCount": 7,
+          "type": "Post IPO Debt"
+        },
+        {
+          "announcedDate": "2026-02-11",
+          "amount": {
+            "amount": 4265741854,
+            "currency": "USD"
+          },
+          "investorCount": 7,
+          "type": "Post IPO Debt"
+        },
+        {
+          "announcedDate": "2025-12-15",
+          "amount": {
+            "amount": 1500000000,
+            "currency": "USD"
+          },
+          "investorCount": 13,
+          "type": "Post IPO Debt"
+        },
+        {
+          "announcedDate": "2024-12-13",
+          "amount": {
+            "amount": 3600000000,
+            "currency": "USD"
+          },
+          "investorCount": 13,
+          "type": "Post IPO Debt"
+        },
+        {
+          "announcedDate": "2024-08-25",
+          "amount": {
+            "amount": 4000000000,
+            "currency": "USD"
+          },
+          "investorCount": 15,
+          "type": "Post IPO Debt"
+        },
+        {
+          "announcedDate": "2024-05-07",
+          "amount": {
+            "amount": 1000000000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "Saudi National Bank"
+          ],
+          "type": "Post IPO Debt"
+        },
+        {
+          "announcedDate": "2023-10-24",
+          "amount": {
+            "amount": 2998744526,
+            "currency": "USD"
+          },
+          "investorCount": 4,
+          "type": "Post IPO Debt"
+        }
+      ],
+      "investors": {
+        "reportedCount": 41,
+        "visibleNames": [
+          {
+            "name": "Al-Rajhi Bank",
+            "rounds": [
+              "Post-IPO Debt"
+            ]
+          },
+          {
+            "name": "Arab National Bank",
+            "rounds": [
+              "Post-IPO Debt"
+            ]
+          },
+          {
+            "name": "Banque Saudi Fransi",
+            "rounds": [
+              "Post-IPO Debt"
+            ]
+          },
+          {
+            "isLead": true,
+            "name": "Bpifrance",
+            "rounds": [
+              "Post-IPO Debt"
+            ]
+          },
+          {
+            "name": "HSBC"
+          },
+          {
+            "name": "Riyad Bank",
+            "rounds": [
+              "Post-IPO Debt"
+            ]
+          },
+          {
+            "name": "Santander"
+          },
+          {
+            "name": "Saudi Awwal Bank",
+            "rounds": [
+              "Post-IPO Debt"
+            ]
+          },
+          {
+            "name": "Saudi National Bank",
+            "rounds": [
+              "Post-IPO Debt"
+            ]
+          },
+          {
+            "name": "Standard Chartered Bank"
+          },
+          {
+            "name": "State Bank of India"
+          },
+          {
+            "name": "The Saudi Investment Bank",
+            "rounds": [
+              "Post-IPO Debt"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 192,
+      "includedUniqueCount": 10,
+      "items": [
+        {
+          "date": "2026-08-27",
+          "publisher": "Asharq Al-Awsat",
+          "title": "Behind the Sun and Wind, Saudi Arabia Invests in 'Stored Energy'",
+          "url": "https://english.aawsat.com/business/5311389-behind-sun-and-wind-saudi-arabia-invests-stored-energy"
+        },
+        {
+          "date": "2026-08-25",
+          "publisher": "Asharq Al-Awsat",
+          "title": "Saudi Energy, Bpifrance Sign Cooperation Agreement for Project Financing",
+          "url": "https://english.aawsat.com/business/5310796-saudi-energy-bpifrance-sign-cooperation-agreement-project-financing"
+        },
+        {
+          "date": "2026-08-24",
+          "title": "Post-IPO Debt - Saudi Energy"
+        },
+        {
+          "date": "2026-08-23",
+          "publisher": "eyeofriyadh.com",
+          "title": "Principal Buyer signs 4 battery storage deals worth SAR 4.4B",
+          "url": "https://www.eyeofriyadh.com/news/details/principal-buyer-signs-4-battery-storage-deals-worth-sar-4-4b"
+        },
+        {
+          "date": "2026-08-23",
+          "publisher": "Arab News",
+          "title": "Saudi Arabia signs $1.16bn battery storage deals for 2 GW",
+          "url": "https://www.arabnews.com/node/2655593/business-economy"
+        },
+        {
+          "date": "2026-08-23",
+          "publisher": "TradingView",
+          "title": "Saudi Energy Signs Storage Services Agreement For Kahafah Battery Energy Storage System ISP",
+          "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN44J00B:0-saudi-energy-signs-storage-services-agreement-for-kahafah-battery-energy-storage-system-isp/"
+        },
+        {
+          "date": "2026-08-21",
+          "publisher": "Power Technology",
+          "title": "Saudi Power Procurement signs four BESS agreements worth $1.16bn",
+          "url": "https://www.power-technology.com/news/saudi-power-procurement-four-bess-agreements/"
+        },
+        {
+          "date": "2026-07-29",
+          "publisher": "Arab News",
+          "title": "Closing Bell: Saudi main index falls 1.25% to 10,544",
+          "url": "https://www.arabnews.com/node/2652706/business-economy"
+        },
+        {
+          "date": "2026-07-29",
+          "publisher": "Asharq Al-Awsat",
+          "title": "Saudi Energy Secures $4Bn Murabaha Financing Facility to Support Operations",
+          "url": "https://english.aawsat.com/business/5301140-saudi-energy-secures-4bn-murabaha-financing-facility-support-operations"
+        },
+        {
+          "date": "2026-07-29",
+          "publisher": "eyeofriyadh.com",
+          "title": "Saudi Energy signs SAR 15.8B financing facility with 7 banks",
+          "url": "https://www.eyeofriyadh.com/news/details/saudi-energy-signs-sar-15-8b-financing-facility-with-7-banks"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 8,
+    "knownDetailedFundingAmount": {
+      "amount": 24580418976,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 12.2
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "reportedPartnerships": {
+      "note": "Provider event summaries with linked sources; not independently verified.",
+      "items": [
+        {
+          "date": "2026-08-23",
+          "description": "Saudi Energy signed a storage services agreement with Saudi Electricity Company for the Kahafah battery energy storage system.",
+          "sources": [
+            {
+              "date": "2026-08-23",
+              "publisher": "TradingView",
+              "title": "Saudi Energy Signs Storage Services Agreement For Kahafah Battery Energy Storage System ISP",
+              "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN44J00B:0-saudi-energy-signs-storage-services-agreement-for-kahafah-battery-energy-storage-system-isp/"
+            }
+          ]
+        },
+        {
+          "date": "2026-04-14",
+          "description": "Saudi Energy and Kraken Technologies signed definitive agreements for a strategic partnership and joint venture in Riyadh, making the JV the exclusive reseller of Kraken’s AI-powered utility operating system across MENA and reserving rights to deploy it for 11.5 million SE customer accounts.",
+          "sources": [
+            {
+              "date": "2026-04-14",
+              "publisher": "Newswire",
+              "title": "SE and Kraken Establish Joint Venture to Accelerate Digital Transformation of Utilities and Support the Energy Transition in MENA",
+              "url": "https://www.newswire.com/news/se-and-kraken-establish-joint-venture-to-accelerate-digital-22763686"
+            }
+          ]
+        },
+        {
+          "date": "2026-01-22",
+          "description": "Saudi Electricity Company signed a 25-year Energy Conversion Agreement with Saudi Power Procurement Company for power offtake from the Rabigh 1 Expansion CCGT plant.",
+          "sources": [
+            {
+              "date": "2026-01-22",
+              "publisher": "Zawya.com",
+              "title": "Saudi Electricity seals ECA deal for $1.4bln Rabigh 1 power plant expansion",
+              "url": "https://www.zawya.com/en/business/energy/saudi-electricity-seals-eca-deal-for-14bln-rabigh-1-power-plant-expansion-ypqrj0ek"
+            }
+          ]
+        },
+        {
+          "date": "2025-12-07",
+          "description": "Saudi Electricity Company entered a tri-party strategic MoU with Bpifrance and GE Vernova to facilitate up to $3 billion in financing for advanced energy and grid projects supporting Saudi Arabia’s clean energy transition.",
+          "sources": [
+            {
+              "date": "2025-12-07",
+              "publisher": "Zawya.com",
+              "title": "SEC, GE Vernova, Bpifrance sign $3bln pact to boost energy projects",
+              "url": "https://www.zawya.com/en/business/energy/sec-ge-vernova-bpifrance-sign-3bln-pact-to-boost-energy-projects-c7hbq3ns"
+            }
+          ]
+        },
+        {
+          "date": "2025-10-27",
+          "description": "Saudi Electricity Company signed SAR12.8 billion ($3.4B) power purchase agreements with Saudi Power Procurement Company for two Riyadh CCGT plants (PP13 and PP14, 1,678 MW each; 3,356 MW total), including 21-year ownership and operation terms with financial impact starting 2025.",
+          "sources": [
+            {
+              "date": "2025-10-27",
+              "publisher": "Zawya.com",
+              "title": "Saudi Electricity inks $3.4bln deals for two CCGT power plants",
+              "url": "https://www.zawya.com/en/economy/gcc/saudi-electricity-inks-34bln-deals-for-two-ccgt-power-plants-ffbm1zwl"
+            }
+          ]
+        },
+        {
+          "date": "2025-09-18",
+          "description": "Saudi Electricity Company and NTPC signed a strategic MoU to establish a joint venture for power plant services in the Middle East, covering O&M, upgrades, procurement, engineering, project management, and R&D collaboration.",
+          "sources": [
+            {
+              "date": "2025-09-20",
+              "publisher": "eyeofriyadh.com",
+              "title": "SEC signs MoU with India’s NTPC to establish power plant services company",
+              "url": "https://www.eyeofriyadh.com/news/details/sec-signs-mou-with-india-s-ntpc-to-establish-power-plant-services-company"
+            }
+          ]
+        },
+        {
+          "date": "2025-02-20",
+          "description": "Power purchase agreement for a gas-fired power plant.",
+          "sources": [
+            {
+              "date": "2025-02-20",
+              "publisher": "MarketScreener",
+              "title": "Saudi Electricity Signs SAR13 Billion Power Purchase Agreement for Gas-fired Power Plant",
+              "url": "https://www.marketscreener.com/quote/stock/SAUDI-ELECTRICITY-COMPANY-6498101/news/Saudi-Electricity-Signs-SAR13-Billion-Power-Purchase-Agreement-for-Gas-fired-Power-Plant-49111231/"
+            }
+          ]
+        },
+        {
+          "date": "2024-11-19",
+          "description": "Saudi Electricity Company, Acwa Power, and Kepco signed a $4 billion Power Purchase Agreement with Saudi Power Procurement Company for two power generation projects in Saudi Arabia.",
+          "sources": [
+            {
+              "date": "2024-11-19",
+              "publisher": "Zawya.com",
+              "title": "SEC, Acwa Power, Kepco sign $4bln Saudi power purchase deal",
+              "url": "https://www.zawya.com/en/economy/gcc/sec-acwa-power-kepco-sign-4bln-saudi-power-purchase-deal-hg4v6mso"
+            }
+          ]
+        }
+      ]
+    },
+    "crunchbaseMomentum": {
+      "growthInsightGeneratedDate": "2026-07-26",
+      "growthChange90Days": -7,
+      "growthScore": 75,
+      "heatChange90Days": 15,
+      "heatScore": 87,
+      "status": "Growing"
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2025-09-22",
+        "probabilityPercent": 0.03
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "ACWA Power is a developer, investor, co-owner and operator of a portfolio of power generation and renewable energy.",
+          "employeeRange": "1,001-5,000",
+          "name": "ACWA Power",
+          "sharedCategories": [
+            "Energy"
+          ],
+          "sharedSpecialties": [
+            "Renewable Energy Engineering",
+            "Grid Interconnection Equipment",
+            "Energy Monitoring and Metering",
+            "Electric Utilities and Cooperatives",
+            "Power Distribution and Switchgear"
+          ],
+          "similarityScore": 100
+        },
+        {
+          "description": "ASTRA LIL-ISTITHMAR operates and manages various companies from the real estate, health care, agriculture, chemical, and steel sectors.",
+          "employeeRange": "1,001-5,000",
+          "name": "ASTRA LIL-ISTITHMAR LTD. CO.",
+          "similarityScore": 87.594
+        },
+        {
+          "description": "Nexif Energy manages and invests in businesses in the renewable energy and power generation sectors.",
+          "employeeRange": "51-100",
+          "name": "Nexif Energy Management Pte. Ltd.",
+          "sharedCategories": [
+            "Energy"
+          ],
+          "sharedSpecialties": [
+            "Renewable Energy Engineering",
+            "Grid Interconnection Equipment",
+            "Electric Utilities and Cooperatives"
+          ],
+          "similarityScore": 83.082
+        },
+        {
+          "description": "MAXpower Group provides Efficient Power Solutions, Gas-Fired Power Solutions, and IPP, BOOT, BOO.",
+          "employeeRange": "501-1,000",
+          "name": "MAXpower Group",
+          "sharedCategories": [
+            "Energy"
+          ],
+          "sharedSpecialties": [
+            "Renewable Energy Engineering",
+            "Grid Interconnection Equipment",
+            "Power Distribution and Switchgear"
+          ],
+          "similarityScore": 78.5
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Post IPO Debt round raised $3,000,000,000, or 12.2% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 75 (-7 over 90 days) and market heat at 87 (+15).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Strategic repositioning and listing coverage shape the current narrative",
+      "statement": "Saudi Energy has a recent strategic-positioning change; 1 recent unique news titles explicitly contain the English terms IPO or listing.",
+      "implication": "Their timing coincides with increased visibility in the loaded news and Crunchbase momentum signals, but the data does not establish causation.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.company.formerName",
+        "facts.recentNews",
+        "providerSignals.crunchbaseMomentum"
+      ],
+      "caveats": [
+        "The causal link to Crunchbase momentum is an inference from timing, not a disclosed company metric."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include ACWA Power, ASTRA LIL-ISTITHMAR LTD. CO., Nexif Energy Management Pte. Ltd..",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "issues": [
+      {
+        "severity": "low",
+        "finding": "Crunchbase reports 192 timeline items but exposes 10 unique items in this payload.",
+        "impact": "Recent news is a partial sample, not a complete history."
+      }
+    ],
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

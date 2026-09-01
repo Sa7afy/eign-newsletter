@@ -1,0 +1,299 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T12:12:01.673Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T12:12:01.671Z",
+    "url": "https://www.crunchbase.com/organization/kandil-glass"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Kandil Glass",
+      "shortDescription": "Kandil Industries Group manufactures steel, glass, spare parts, and industrial machinery, and trades in office furniture and equipment.",
+      "description": "Kandil Industries Group is a manufacturing company that specializes in the production of steel, glass, spare parts, and industrial machinery. The company's product range includes flat steel sheets, glass containers such as jars, bottles, cups, mugs, tumblers, bowls, tea saucers, and vases. Kandil Industries Group also has a history in the trading of office furniture and equipment. Additionally, the company has a presence in the fields of mining and geology, showcasing its diverse industrial expertise.",
+      "website": "https://www.kandilglass.com/",
+      "foundedYear": 1865,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "501-1,000",
+      "estimatedRevenueRange": "$1M-$10M",
+      "headquarters": "Cairo, Al Qahirah, Egypt",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Middle East",
+        "Middle East and North Africa (MENA)",
+        "North Africa"
+      ],
+      "industries": [
+        "Industrial",
+        "Manufacturing",
+        "Wholesale"
+      ],
+      "sectors": [
+        "Commerce and Shopping",
+        "Manufacturing"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "Glass containers including jars, bottles, and cups designed for storing soft drinks, juices, and various food items such as honey, jam, and sauces.",
+        "name": "Glass Containers for Food and Beverages"
+      },
+      {
+        "description": "Glass drink-ware items such as mugs, tumblers, and cups intended for beverage consumption.",
+        "name": "Drink-Ware Products"
+      },
+      {
+        "description": "Glass containers designed specifically for pharmaceutical products packaging.",
+        "name": "Pharmaceutical Glass Containers"
+      },
+      {
+        "description": "Glass containers designed for packaging cosmetic products.",
+        "name": "Cosmetics Glass Containers"
+      },
+      {
+        "description": "A 370ml medium-shaped glass jar used for preserving condiments and food products like mayonnaise, mustard, chili sauce, jam, and honey.",
+        "name": "Glass Jars (Example: Jar 370ml STD-Medium)"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 26530000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2026-02-15",
+      "lastFundingType": "Debt Financing",
+      "rounds": [
+        {
+          "announcedDate": "2026-02-15",
+          "amount": {
+            "amount": 26530000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "Banque du Caire"
+          ],
+          "type": "Debt Financing"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "Banque du Caire",
+            "rounds": [
+              "Debt Financing"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 3,
+      "includedUniqueCount": 3,
+      "items": [
+        {
+          "date": "2026-02-15",
+          "publisher": "Zawya.com",
+          "title": "Egypt: Banque du Caire inks financing agreement with Kandil Glass for new plant in Suez",
+          "url": "https://www.zawya.com/en/economy/north-africa/egypt-banque-du-caire-inks-financing-agreement-with-kandil-glass-for-new-plant-in-suez-vihap9zs"
+        },
+        {
+          "date": "2026-02-15",
+          "title": "Debt Financing - Kandil Glass"
+        },
+        {
+          "date": "2026-02-15",
+          "publisher": "Daily Star Egypt",
+          "title": "Banque du Caire signs $16.7m financing deal with Kandil Glass to fund Suez expansion",
+          "url": "https://www.dailynewsegypt.com/2026/02/15/banque-du-caire-signs-16-7m-financing-deal-with-kandil-glass-to-fund-suez-expansion/"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 26530000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthInsightGeneratedDate": "2026-03-15",
+      "growthChange90Days": -13,
+      "growthScore": 65,
+      "heatChange90Days": -7,
+      "heatScore": 59,
+      "status": "Growing"
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 31.64
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 34.74,
+        "timingEstimatePercent": {
+          "within6Months": 0.19,
+          "months6To11": 0,
+          "months12To24": 0,
+          "beyond24Months": 99.81
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 94.57
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 28.5
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "VETROPACK is a glass packaging manufacturer.",
+          "employeeRange": "1,001-5,000",
+          "name": "VETROPACK",
+          "sharedCategories": [
+            "Manufacturing"
+          ],
+          "sharedSpecialties": [
+            "Industrial Containers and Packaging",
+            "Drinkware and Water Bottles",
+            "Bottled Water",
+            "Glass and Glazing"
+          ],
+          "similarityScore": 95
+        },
+        {
+          "description": "Stoelzle is a produces packaging glass for pharma, perfumes and cosmetics, spirits and small glasses for food and beverage.",
+          "employeeRange": "1,001-5,000",
+          "name": "Stölzle",
+          "sharedCategories": [
+            "Manufacturing"
+          ],
+          "sharedSpecialties": [
+            "Packaging and Dispensers",
+            "Industrial Containers and Packaging",
+            "Drinkware and Water Bottles",
+            "Caps and Closures"
+          ],
+          "similarityScore": 94
+        },
+        {
+          "description": "Ardagh Group manufactures metal and glass packaging solutions for various industries worldwide.",
+          "employeeRange": "10,001+",
+          "name": "Ardagh Group",
+          "sharedCategories": [
+            "Manufacturing"
+          ],
+          "sharedSpecialties": [
+            "Packaging and Dispensers",
+            "Industrial Containers and Packaging",
+            "Bottled Water",
+            "Packaging and Filling Machinery",
+            "Caps and Closures"
+          ],
+          "similarityScore": 93
+        },
+        {
+          "description": "Verallia is a global glassmaking player providing innovative and eco-friendly solutions to your food and beverage packaging.",
+          "employeeRange": "10,001+",
+          "name": "Verallia",
+          "sharedCategories": [
+            "Manufacturing"
+          ],
+          "sharedSpecialties": [
+            "Industrial Containers and Packaging",
+            "Drinkware and Water Bottles",
+            "Bottled Water",
+            "Glass and Glazing",
+            "Packaging and Filling Machinery"
+          ],
+          "similarityScore": 91
+        },
+        {
+          "description": "O-I Glass is a glass container manufacturer and a partner for various food and beverage brands.",
+          "employeeRange": "10,001+",
+          "name": "O-I Glass",
+          "sharedCategories": [
+            "Manufacturing"
+          ],
+          "sharedSpecialties": [
+            "Packaging and Dispensers",
+            "Industrial Containers and Packaging",
+            "Glass and Glazing",
+            "Packaging and Filling Machinery"
+          ],
+          "similarityScore": 89
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Debt Financing round raised $26,530,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 65 (-13 over 90 days) and market heat at 59 (-7).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include VETROPACK, Stölzle, Ardagh Group.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

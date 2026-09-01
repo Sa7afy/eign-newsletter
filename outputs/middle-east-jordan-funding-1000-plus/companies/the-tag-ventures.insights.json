@@ -1,0 +1,176 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T13:44:02.650Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T13:44:02.648Z",
+    "url": "https://www.crunchbase.com/organization/the-tag-ventures"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "The Tag Ventures",
+      "shortDescription": "Tag Ventures aims to be the go-to facilitator for technology-driven companies across a wide range.",
+      "description": "Tag Ventures aims to be the go-to facilitator for technology-driven companies across a wide range of markets, including Healthcare, Education, Retail/Consumer, Real Estate, Hospitality, and Food & Agriculture. The firm is stage-agnostic and works with everyone from early-stage companies looking to raise as little as $500,000 to established companies valued at north of $100 million.",
+      "website": "https://www.thetagventures.com/",
+      "operatingStatus": "Closed",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "51-100",
+      "headquarters": "Dubai, United Arab Emirates",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Consulting",
+        "Financial Services",
+        "Health Care",
+        "Information Technology",
+        "Internet"
+      ],
+      "sectors": [
+        "Financial Services",
+        "Health Care",
+        "Information Technology",
+        "Professional Services"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 750000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 2,
+      "detailedRoundCount": 2,
+      "lastFundingDate": "2022-05-03",
+      "lastFundingType": "Pre Seed",
+      "rounds": [
+        {
+          "announcedDate": "2022-05-03",
+          "amount": {
+            "amount": 500000,
+            "currency": "USD"
+          },
+          "postMoneyValuation": {
+            "amount": 3500000,
+            "currency": "USD"
+          },
+          "type": "Pre Seed"
+        },
+        {
+          "announcedDate": "2022-01-03",
+          "amount": {
+            "amount": 250000,
+            "currency": "USD"
+          },
+          "postMoneyValuation": {
+            "amount": 1750000,
+            "currency": "USD"
+          },
+          "type": "Seed"
+        }
+      ]
+    },
+    "recentNews": {
+      "reportedCount": 2,
+      "includedUniqueCount": 2,
+      "items": [
+        {
+          "date": "2022-05-03",
+          "title": "Pre Seed Round - The Tag Ventures"
+        },
+        {
+          "date": "2022-01-03",
+          "title": "Seed Round - The Tag Ventures"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 2,
+    "knownDetailedFundingAmount": {
+      "amount": 750000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 66.67,
+    "latestToEarliestKnownValuationMultiple": 2
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "heatChange90Days": -3,
+      "heatScore": 39
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2025-09-22",
+        "probabilityPercent": 7.46
+      },
+      "funding": {
+        "generatedDate": "2025-09-22",
+        "probabilityPercent": 32.82,
+        "timingEstimatePercent": {
+          "within6Months": 14.98,
+          "months6To11": 12.74,
+          "months12To24": 20.03,
+          "beyond24Months": 24.95
+        }
+      },
+      "growth": {
+        "generatedDate": "2025-09-22",
+        "probabilityPercent": 85.34
+      },
+      "ipo": {
+        "generatedDate": "2025-09-22",
+        "probabilityPercent": 73.31
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors."
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Pre Seed round raised $500,000, or 66.67% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $1,750,000 to $3,500,000, a 2x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

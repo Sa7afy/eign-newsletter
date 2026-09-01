@@ -1,0 +1,135 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T11:26:21.936Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T11:26:21.935Z",
+    "url": "https://www.crunchbase.com/organization/drbridge-2"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "DrBridge",
+      "shortDescription": "DrBridge is a digital healthcare ecosystem that automates out-patient clinics to connecting them to patients,.",
+      "description": "Dr. Bridge is a multifaceted platform designed for medical and dental professionals, building a global community focused on collaboration, knowledge sharing, and continuous professional development. The platform enables practitioners to share clinical cases, exchange expertise with peers, and earn rewards for contributing valuable insights, creating an interactive ecosystem for learning and professional engagement.\n\nIn addition to its community-driven model, Dr. Bridge operates as an e-commerce platform supplying healthcare professionals with products essential for clinical practice. Its offerings include dental care products, facial aesthetic solutions, dermal fillers, and oral hygiene products, supporting practitioners with direct access to specialized clinical supplies.\n\nThe company also delivers educational services through online training programs and courses aimed at helping practitioners enhance their clinical capabilities. With a strong focus on facial aesthetics, filler procedures, and advanced treatment techniques, Dr. Bridge positions itself as a resource for ongoing skill development within the healthcare sector.\n\nComplementing its commerce and education services, the platform provides a comprehensive professional resource hub featuring case reports, product demonstrations, and community discussion forums that encourage peer-to-peer learning and professional networking among medical and dental practitioners worldwide.",
+      "website": "https://www.drbridge.com/",
+      "foundedYear": 2012,
+      "operatingStatus": "Closed",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "1-10",
+      "estimatedRevenueRange": "$1M-$10M",
+      "headquarters": "Cairo, Al Qahirah, Egypt",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Middle East",
+        "Middle East and North Africa (MENA)",
+        "North Africa"
+      ],
+      "industries": [
+        "Health Care",
+        "Health Diagnostics",
+        "Home Health Care"
+      ],
+      "sectors": [
+        "Health Care"
+      ],
+      "founders": [
+        "Ahmed Badr",
+        "Amir Barsoum"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 1300000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2012-03-28",
+      "lastFundingType": "Venture round",
+      "rounds": [
+        {
+          "announcedDate": "2012-03-28",
+          "amount": {
+            "amount": 1300000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "Ideavelopers"
+          ],
+          "type": "Venture round"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "Ideavelopers",
+            "rounds": [
+              "Venture round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 1,
+      "includedUniqueCount": 1,
+      "items": [
+        {
+          "date": "2012-03-28",
+          "title": "Venture Round - DrBridge"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 1300000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "heatChange90Days": -14,
+      "heatScore": 8
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors."
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Venture round round raised $1,300,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

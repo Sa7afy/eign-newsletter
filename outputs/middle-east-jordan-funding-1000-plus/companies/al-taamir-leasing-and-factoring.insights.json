@@ -1,0 +1,149 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T09:08:39.555Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T09:08:39.554Z",
+    "url": "https://www.crunchbase.com/organization/al-taamir-leasing-and-factoring"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Al Taamir for Leasing and Factoring",
+      "shortDescription": "Al Taamir for Leasing and Factoring is providing non-bank leasing and factoring in Egypt.",
+      "description": "Al Taamir for Leasing and Factoring (Aloula) is a prominent Egyptian joint-stock company that provides flexible non-bank financial solutions to businesses.",
+      "website": "https://altaamircorp.com/",
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "employeeRange": "51-100",
+      "headquarters": "6 October City, Al Jizah, Egypt",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Middle East",
+        "Middle East and North Africa (MENA)",
+        "North Africa"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 61025124,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 2,
+      "detailedRoundCount": 2,
+      "lastFundingDate": "2026-06-10",
+      "lastFundingType": "Debt Financing",
+      "rounds": [
+        {
+          "announcedDate": "2026-06-10",
+          "amount": {
+            "amount": 34231607,
+            "currency": "USD"
+          },
+          "type": "Debt Financing"
+        },
+        {
+          "announcedDate": "2025-09-02",
+          "amount": {
+            "amount": 26793517,
+            "currency": "USD"
+          },
+          "type": "Debt Financing"
+        }
+      ]
+    },
+    "recentNews": {
+      "reportedCount": 5,
+      "includedUniqueCount": 5,
+      "items": [
+        {
+          "date": "2026-08-18",
+          "title": "Debt Financing - Tatweer Misr"
+        },
+        {
+          "date": "2026-08-02",
+          "publisher": "Daily Star Egypt",
+          "title": "Al Oula targets EGP 5bn in mortgage financing in 2026, expands liquidity solutions for developers",
+          "url": "https://www.dailynewsegypt.com/2026/08/02/al-oula-targets-egp-5bn-in-mortgage-financing-in-2026-expands-liquidity-solutions-for-developers/"
+        },
+        {
+          "date": "2026-06-10",
+          "publisher": "Daily Star Egypt",
+          "title": "CI Capital completes EGP 1.77bn securitisation issuance for Al Oula",
+          "url": "https://www.dailynewsegypt.com/2026/06/10/ci-capital-completes-egp-1-77bn-securitisation-issuance-for-al-oula/"
+        },
+        {
+          "date": "2026-06-10",
+          "title": "Debt Financing - Al Taamir for Leasing and Factoring"
+        },
+        {
+          "date": "2025-09-02",
+          "title": "Debt Financing - Al Taamir for Leasing and Factoring"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 2,
+    "knownDetailedFundingAmount": {
+      "amount": 61025124,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 56.09
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthInsightGeneratedDate": "2026-08-09",
+      "growthChange90Days": 7,
+      "growthScore": 93,
+      "heatChange90Days": 82,
+      "heatScore": 84,
+      "status": "Growing"
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors."
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Debt Financing round raised $34,231,607, or 56.09% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 93 (+7 over 90 days) and market heat at 84 (+82).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

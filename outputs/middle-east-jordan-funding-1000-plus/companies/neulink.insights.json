@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T12:43:58.311Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T12:43:58.309Z",
+    "url": "https://www.crunchbase.com/organization/neulink"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "neulink",
+      "shortDescription": "neulink is an all-in-one platform that streamlines operations, simplifies workflows and automates essential tasks.",
+      "description": "At neulink, we are building a platform that streamlines operations, simplifies workflows, and automates essential tasks for pharmacists. It can seamlessly manage patients sales, inventory, and insurance claims through our interface.",
+      "website": "https://neulink.cloud/",
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "1-10",
+      "headquarters": "Dubai, United Arab Emirates",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "B2B",
+        "Health Care",
+        "Software"
+      ],
+      "sectors": [
+        "Health Care",
+        "Other",
+        "Software"
+      ],
+      "founders": [
+        "Mahmoud Suliman"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "A platform for healthcare organizations to manage workflows and patient care.",
+        "name": "Cloud-Based Software"
+      },
+      {
+        "description": "Customizable dashboards for monitoring and managing healthcare operations.",
+        "name": "Relevant Dashboards"
+      },
+      {
+        "description": "Features designed to minimize the time required to complete tasks.",
+        "name": "Reduced CTA"
+      },
+      {
+        "description": "Regular updates to ensure the software includes the latest features and security.",
+        "name": "Frequent Updates"
+      },
+      {
+        "description": "Dedicated support for healthcare employees with specific requests.",
+        "name": "Priority Support"
+      },
+      {
+        "description": "Secure single sign-on using company credentials for personnel.",
+        "name": "Domain Base SSO"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 25000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 2,
+      "detailedRoundCount": 2,
+      "lastFundingDate": "2025-02-17",
+      "lastFundingType": "Pre Seed",
+      "rounds": [
+        {
+          "announcedDate": "2025-02-17",
+          "investorCount": 1,
+          "leadInvestors": [
+            "Orbit Ventures"
+          ],
+          "postMoneyValuation": {
+            "amount": 4369257,
+            "currency": "USD"
+          },
+          "type": "Pre Seed"
+        },
+        {
+          "announcedDate": "2023-11-21",
+          "amount": {
+            "amount": 25000,
+            "currency": "USD"
+          },
+          "type": "Grant"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "Orbit Ventures",
+            "rounds": [
+              "Pre Seed Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 2,
+      "includedUniqueCount": 2,
+      "items": [
+        {
+          "date": "2025-02-17",
+          "title": "Pre Seed Round - neulink"
+        },
+        {
+          "date": "2023-11-21",
+          "title": "Grant - neulink"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 25000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "grantFunding": {
+      "amount": {
+        "amount": 25000,
+        "currency": "USD"
+      },
+      "disclosedRoundCount": 1,
+      "shareOfTotalPercent": 100
+    },
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": -3,
+      "growthScore": 44,
+      "heatChange90Days": -11,
+      "heatScore": 65
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 34.29
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 54.13,
+        "timingEstimatePercent": {
+          "within6Months": 99.28,
+          "months6To11": 0.04,
+          "months12To24": 0,
+          "beyond24Months": 0.68
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-13",
+        "probabilityPercent": 95.31
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 3.83
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "NetSuite is cloud computing company dedicated to delivering business applications over the internet.",
+          "employeeRange": "10,001+",
+          "name": "NetSuite",
+          "sharedCategories": [
+            "Software"
+          ],
+          "similarityScore": 97
+        },
+        {
+          "description": "Zoho is an IT company that offers cloud-based software for CRM, project management, finance, and human resource services.",
+          "employeeRange": "10,001+",
+          "name": "Zoho",
+          "sharedCategories": [
+            "Software"
+          ],
+          "similarityScore": 95
+        },
+        {
+          "description": "Monday.com is a work operating system where organizations of any size can create processes to manage every aspect of their work.",
+          "employeeRange": "1,001-5,000",
+          "name": "monday.com",
+          "similarityScore": 93
+        },
+        {
+          "description": "Smartsheet is a cloud-based work management platform that empowers collaboration, drives better decision-making, and accelerates innovation.",
+          "employeeRange": "1,001-5,000",
+          "name": "Smartsheet",
+          "sharedCategories": [
+            "Software"
+          ],
+          "similarityScore": 91
+        },
+        {
+          "description": "Airtable is a cloud-based work management platform that combines databases, workflows, automations, and AI tools in a shared workspace.",
+          "employeeRange": "501-1,000",
+          "name": "Airtable",
+          "sharedCategories": [
+            "Software"
+          ],
+          "similarityScore": 89
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Meaningful non-dilutive funding",
+      "statement": "1 disclosed grants total $25,000, representing 100% of reported funding.",
+      "implication": "The grants reduce the share of reported financing attributed to equity or notes, although their restrictions and milestone requirements need separate verification.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.grantFunding"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $4,369,257 to $4,369,257, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 44 (-3 over 90 days) and market heat at 65 (-11).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include NetSuite, Zoho, monday.com.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

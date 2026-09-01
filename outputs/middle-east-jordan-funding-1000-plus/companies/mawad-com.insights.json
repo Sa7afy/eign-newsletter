@@ -1,0 +1,257 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T12:28:35.609Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T12:28:35.607Z",
+    "url": "https://www.crunchbase.com/organization/mawad-com"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Mawad.com",
+      "shortDescription": "Digitalized Marketplace to Empower your Construction Business",
+      "website": "https://www.mawad.com/",
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "11-50",
+      "headquarters": "Riyad, Ar Riyad, Saudi Arabia",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "E-Commerce Platforms"
+      ],
+      "sectors": [
+        "Commerce and Shopping",
+        "Internet Services"
+      ],
+      "founders": [
+        "Tariq Alsahli"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "An online platform offering a wide range of construction and finishing materials for building projects.",
+        "name": "Construction Materials Marketplace"
+      },
+      {
+        "description": "A selection of water-related products including water filters, pumps, and storage tanks for residential and commercial use.",
+        "name": "Water Solutions Products"
+      },
+      {
+        "description": "A range of hand tools, power tools, and accessories for construction and maintenance tasks.",
+        "name": "Tools and Equipment"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 200000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2022-04-05",
+      "lastFundingType": "Pre Seed",
+      "rounds": [
+        {
+          "announcedDate": "2022-04-05",
+          "amount": {
+            "amount": 200000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "postMoneyValuation": {
+            "amount": 1595503,
+            "currency": "USD"
+          },
+          "type": "Pre Seed"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "name": "Tariq Alsahli",
+            "rounds": [
+              "Pre Seed Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 1,
+      "includedUniqueCount": 1,
+      "items": [
+        {
+          "date": "2022-04-05",
+          "title": "Pre Seed Round - Mawad.com"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 200000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": -3,
+      "growthScore": 70,
+      "heatChange90Days": -29,
+      "heatScore": 55
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 46.78
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 24.99,
+        "timingEstimatePercent": {
+          "within6Months": 14.44,
+          "months6To11": 12.36,
+          "months12To24": 19.62,
+          "beyond24Months": 24.87
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 63.79
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 48.11
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Maqsam is MENA's friendliest cloud communication suite for SMBs and Enterprises.",
+          "employeeRange": "11-50",
+          "name": "Maqsam",
+          "similarityScore": 94
+        },
+        {
+          "description": "Material Bank provides sample materials for design professionals and brands in the architecture and design industry.",
+          "employeeRange": "251-500",
+          "name": "Material Bank",
+          "sharedSpecialties": [
+            "Building Materials Marketplace",
+            "Multivendor Marketplace Platforms"
+          ],
+          "similarityScore": 91
+        },
+        {
+          "description": "Buildzoom is a construction project consultancy that provides building renovation services using data and analysis processes.",
+          "employeeRange": "51-100",
+          "name": "BuildZoom",
+          "similarityScore": 85
+        },
+        {
+          "description": "Alibaba.com  is a global e-commerce platform that connects buyers and suppliers around the world.",
+          "employeeRange": "10,001+",
+          "name": "Alibaba.com",
+          "sharedCategories": [
+            "E-Commerce Platforms"
+          ],
+          "sharedSpecialties": [
+            "B2B E-Commerce Platforms",
+            "Multivendor Marketplace Platforms"
+          ],
+          "similarityScore": 83
+        },
+        {
+          "description": "Tradeling is MENA’s dominant e-marketplace that focuses on business-to-business (B2B) transactions.",
+          "employeeRange": "251-500",
+          "name": "Tradeling",
+          "sharedSpecialties": [
+            "B2B E-Commerce Platforms",
+            "Multivendor Marketplace Platforms"
+          ],
+          "similarityScore": 81
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Pre Seed round raised $200,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $1,595,503 to $1,595,503, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 70 (-3 over 90 days) and market heat at 55 (-29).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Maqsam, Material Bank, BuildZoom.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

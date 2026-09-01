@@ -1,0 +1,153 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T12:00:21.279Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T12:00:21.278Z",
+    "url": "https://www.crunchbase.com/organization/how-many-days-until-ramadan"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "How Many Days Until Ramadan",
+      "shortDescription": "How Many Days Until Ramadan is your go-to real-time countdown tool for the holy month of Ramadan.",
+      "description": "How Many Days Until Ramadan is the most accurate and easy-to-use Ramadan countdown website, designed for Muslims around the world who want to stay spiritually prepared and well-organized ahead of the holy month.\nRamadan — the ninth month of the Islamic lunar calendar — is a sacred time of fasting, prayer, Quran recitation, self-reflection, and increased acts of worship. As the Islamic calendar shifts approximately 10 days earlier each year on the Gregorian calendar, knowing the exact date of Ramadan's arrival can sometimes be confusing. That's exactly why we built this tool.\nOur live countdown timer shows you precisely how many days until Ramadan, broken down into days, hours, minutes, and even seconds — all adjusted to your local timezone. As soon as official moon sighting announcements are made by recognized authorities in your region, our countdown updates instantly to reflect the confirmed start date.\nWhat makes us different:\n\nReal-time, timezone-aware countdown\nSwitches to \"days remaining in Ramadan\" once the month begins\nHighlights the final 10 nights (Laylatul Qadr period)\nCovers Ramadan dates from 2025 all the way to future years\nClean, distraction-free, mobile-friendly interface\n\nWhether you're a Muslim planning your Ramadan goals, a family coordinating Iftar gatherings, or simply someone curious about when Ramadan begins — HowManyDaysUntilRamadan.com gives you the answer instantly, every time.\nStart counting down. Start preparing. Ramadan is closer than you think.",
+      "website": "https://howmanydaysuntilramadan.com/",
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "Nonprofit",
+      "employeeRange": "1-10",
+      "headquarters": "Mecca, Makkah, Saudi Arabia",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Content Creators",
+        "Education"
+      ],
+      "sectors": [
+        "Content and Publishing",
+        "Education",
+        "Media and Entertainment"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 1200,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2026-04-20",
+      "lastFundingType": "Seed",
+      "rounds": [
+        {
+          "announcedDate": "2026-04-20",
+          "amount": {
+            "amount": 1200,
+            "currency": "USD"
+          },
+          "postMoneyValuation": {
+            "amount": 171200,
+            "currency": "USD"
+          },
+          "type": "Seed"
+        }
+      ]
+    },
+    "recentNews": {
+      "reportedCount": 1,
+      "includedUniqueCount": 1,
+      "items": [
+        {
+          "date": "2026-04-20",
+          "title": "Seed Round - How Many Days Until Ramadan"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 1200,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": 0,
+      "growthScore": 90,
+      "heatChange90Days": -24,
+      "heatScore": 48
+    },
+    "modelPredictions": {
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 91.47
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors."
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Seed round raised $1,200, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $171,200 to $171,200, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 90 (+0 over 90 days) and market heat at 48 (-24).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

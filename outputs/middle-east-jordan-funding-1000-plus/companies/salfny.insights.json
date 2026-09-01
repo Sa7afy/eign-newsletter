@@ -1,0 +1,174 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T13:16:07.355Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T13:16:07.353Z",
+    "url": "https://www.crunchbase.com/organization/salfny"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Salfny",
+      "shortDescription": "Salfny is a peer to peer online rental marketplace. Make money by lending your stuff to others.",
+      "description": "Salfny.com is a peer to peer online rental marketplace. Salfny allows you, both private and professional, to rent or lend any type of property belonging to you, which you don't use very much in your daily life.\n\nYou don't have to buy a product for a one-time need, Salfny offers a solution to rent near to home, the stuff of any kind. Need a roof box for a weekend, a sound or disguise for an evening, or even a gardening tool, just open Salfny.com and enter the desired object and the place of your search!\n\nWho doesn’t own belongings like a bike, a skateboard, a camera and video gear, party furniture, a mower, a barbecue, a scooter, a baby stroller, textbooks, sporting goods, ladders, musical instruments, consumer electronics - absolutely anything. Most of us have all kinds of this stuff sitting around collecting dust and doing nothing, instead, we could be renting it out making money from it, just open Salfny.com and list all your dormant stuff for rent.\n\nYou can now make money from the things you have and save money on the things you want and need. Salfny will help you to cut down on the overall use of resources and make the best use of your stuff. There's a social green aspect as well because sharing things — even with strangers we have just met online — allows us to make meaningful social connections.\n\nAt Salfny, our mission is to promote peer-to-peer renting as opposed to buying as a new, sustainable and community-driven way of consuming. By reusing, and renting we can save natural resources from the growing consumption that occurs in the era we live in.",
+      "website": "https://www.salfny.com/",
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "1-10",
+      "estimatedRevenueRange": "$1M-$10M",
+      "headquarters": "Cairo, Al Qahirah, Egypt",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Middle East",
+        "Middle East and North Africa (MENA)",
+        "North Africa"
+      ],
+      "industries": [
+        "Collaborative Consumption",
+        "E-Commerce",
+        "Rental"
+      ],
+      "sectors": [
+        "Commerce and Shopping",
+        "Other"
+      ],
+      "founders": [
+        "Kareem Khaled",
+        "Mohammad Abdallah"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 10000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2017-01-01",
+      "lastFundingType": "Non Equity Assistance",
+      "rounds": [
+        {
+          "announcedDate": "2017-01-01",
+          "amount": {
+            "amount": 10000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "TIEC Incubation"
+          ],
+          "type": "Non Equity Assistance"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "TIEC Incubation",
+            "rounds": [
+              "Non Equity Assistance"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 1,
+      "includedUniqueCount": 1,
+      "items": [
+        {
+          "date": "2017-01-01",
+          "title": "Non Equity Assistance - Salfny"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 10000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": 1,
+      "growthScore": 49,
+      "heatChange90Days": -6,
+      "heatScore": 35
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 0
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 0,
+        "timingEstimatePercent": {
+          "within6Months": 0,
+          "months6To11": 0,
+          "months12To24": 0,
+          "beyond24Months": 0
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 82.98
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 0
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors."
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Non Equity Assistance round raised $10,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 49 (+1 over 90 days) and market heat at 35 (-6).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

@@ -1,0 +1,301 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T11:02:45.923Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T11:02:45.919Z",
+    "url": "https://www.crunchbase.com/organization/bonbell"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Bonbell",
+      "shortDescription": "Bonbell provides a safe and contactless food experience where you can navigate a digital menu, place your order, and easily pay your bill.",
+      "description": "Bonbell is a mobile app that provides a safe and contactless food experience where you can navigate a digital menu, place your order, and easily pay your bill with multiple options.",
+      "website": "https://bonbell.net/",
+      "foundedYear": 2022,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "11-50",
+      "headquarters": "Cairo, Al Qahirah, Egypt",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Middle East",
+        "Middle East and North Africa (MENA)",
+        "North Africa"
+      ],
+      "industries": [
+        "Made to Order",
+        "Mobile",
+        "Mobile Apps",
+        "Restaurants"
+      ],
+      "sectors": [
+        "Apps",
+        "Commerce and Shopping",
+        "Food and Beverage",
+        "Mobile",
+        "Software"
+      ],
+      "founders": [
+        "Doaa Hameed"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "A software-as-a-service platform enabling contactless food ordering and payment through digital menus.",
+        "name": "Bonbell SAAS"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 470000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2022-08-11",
+      "lastFundingType": "Angel",
+      "rounds": [
+        {
+          "announcedDate": "2022-08-11",
+          "amount": {
+            "amount": 470000,
+            "currency": "USD"
+          },
+          "postMoneyValuation": {
+            "amount": 2791845,
+            "currency": "USD"
+          },
+          "type": "Angel"
+        }
+      ]
+    },
+    "recentNews": {
+      "reportedCount": 3,
+      "includedUniqueCount": 3,
+      "items": [
+        {
+          "date": "2022-10-07",
+          "publisher": "AFN",
+          "title": "Meet the founder: How Doaa Abdel Hameed pivoted her food delivery startup to a “super-app”",
+          "url": "https://agfundernews.com/doaa-abdel-hameed-talks-on-egypts-bonbell-pivot-from-food-services-to-a-multi-service-consumer-app"
+        },
+        {
+          "date": "2022-08-16",
+          "publisher": "Disrupt Africa",
+          "title": "Egyptian food delivery startup Bonbell raises $350k funding round",
+          "url": "https://disrupt-africa.com/2022/08/16/egyptian-food-delivery-startup-bonbell-raises-350k-funding-round/"
+        },
+        {
+          "date": "2022-08-11",
+          "title": "Angel Round - Bonbell"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 470000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": 0,
+      "growthScore": 65,
+      "heatChange90Days": 2,
+      "heatScore": 32
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 43.9
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 30.57,
+        "timingEstimatePercent": {
+          "within6Months": 13.49,
+          "months6To11": 11.67,
+          "months12To24": 18.83,
+          "beyond24Months": 24.64
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 90.69
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 50.88
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "QR Code ordering platform for bars and pubs.",
+          "employeeRange": "1-10",
+          "name": "Orderli",
+          "sharedCategories": [
+            "Restaurants"
+          ],
+          "sharedSpecialties": [
+            "QR Code Management",
+            "Digital Menu and QR Ordering",
+            "QR Code Payments",
+            "Table Ordering and Waitstaff Apps",
+            "Restaurant and Hospitality POS Systems",
+            "Kitchen Display Systems (KDS)"
+          ],
+          "similarityScore": 97
+        },
+        {
+          "description": "Kontactless is a software development firm that develops mobile solutions for digital menus, ordering, and payments for restaurants.",
+          "employeeRange": "11-50",
+          "name": "Kontactless",
+          "sharedCategories": [
+            "Mobile Apps"
+          ],
+          "sharedSpecialties": [
+            "QR Code Management",
+            "Payment Terminals",
+            "Digital Menu and QR Ordering",
+            "QR Code Payments",
+            "Restaurant Reporting and Analytics",
+            "Table Ordering and Waitstaff Apps",
+            "Online Ordering for Restaurants",
+            "Restaurant and Hospitality POS Systems",
+            "Kitchen Display Systems (KDS)"
+          ],
+          "similarityScore": 93
+        },
+        {
+          "description": "UpMenu is an online food ordering system that supports sales in restaurants by integrating menu on native websites and mobile applications.",
+          "employeeRange": "11-50",
+          "name": "UpMenu.com",
+          "sharedCategories": [
+            "Restaurants",
+            "Mobile Apps"
+          ],
+          "sharedSpecialties": [
+            "Click and Collect",
+            "Digital Menu and QR Ordering",
+            "Restaurant Reporting and Analytics",
+            "Online Ordering for Restaurants",
+            "Restaurant and Hospitality POS Systems",
+            "Kitchen Display Systems (KDS)"
+          ],
+          "similarityScore": 92
+        },
+        {
+          "description": "OrderUp empowers dinners to order and pay for their meals directly from their mobile browser.",
+          "employeeRange": "1-10",
+          "name": "OrderUp",
+          "sharedSpecialties": [
+            "Click and Collect",
+            "Digital Menu and QR Ordering",
+            "QR Code Payments",
+            "Restaurant Reporting and Analytics",
+            "Table Ordering and Waitstaff Apps",
+            "Online Ordering for Restaurants",
+            "Restaurant and Hospitality POS Systems",
+            "Kitchen Display Systems (KDS)"
+          ],
+          "similarityScore": 89
+        },
+        {
+          "description": "TabSquare offers F&B digital ordering systems using AI to make personalised menu recommendations and boost revenues for restaurants.",
+          "employeeRange": "101-250",
+          "name": "TabSquare",
+          "sharedCategories": [
+            "Restaurants"
+          ],
+          "sharedSpecialties": [
+            "QR Code Management",
+            "Digital Menu and QR Ordering",
+            "Restaurant Reporting and Analytics",
+            "Table Ordering and Waitstaff Apps",
+            "Online Ordering for Restaurants",
+            "Restaurant and Hospitality POS Systems",
+            "Kitchen Display Systems (KDS)"
+          ],
+          "similarityScore": 87
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Angel round raised $470,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $2,791,845 to $2,791,845, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 65 (+0 over 90 days) and market heat at 32 (+2).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Orderli, Kontactless, UpMenu.com.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

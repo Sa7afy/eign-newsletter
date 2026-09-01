@@ -1,0 +1,244 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T12:21:35.746Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T12:21:35.744Z",
+    "url": "https://www.crunchbase.com/organization/lomina-ai"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Lomina.ai",
+      "shortDescription": "Lomina.ai solves the problem of creating and selling personalized merchandise for micro-influencers.",
+      "description": "Lomina.ai solves the problem of creating and selling personalized merchandise for micro-influencers.",
+      "website": "https://lomina.ai/",
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "11-50",
+      "headquarters": "Abu Dhabi, United Arab Emirates",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Artificial Intelligence (AI)",
+        "Information Technology",
+        "Software Engineering"
+      ],
+      "sectors": [
+        "Artificial Intelligence (AI)",
+        "Data and Analytics",
+        "Information Technology",
+        "Science and Engineering",
+        "Software"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "A platform that enables micro-influencers to design, produce, and sell personalized merchandise, transforming their influence into tangible products.",
+        "name": "AI Tech Platform"
+      },
+      {
+        "description": "A service for investors, suppliers, and designers to partner with Lomina.ai, focusing on shared success and mutual growth in influencer merchandising.",
+        "name": "Collaborative Platform"
+      },
+      {
+        "description": "A comprehensive service managing the entire process from design to logistics, ensuring streamlined operations for merchandise creation.",
+        "name": "Full-Service Operations"
+      },
+      {
+        "description": "Analytics and insights service to help influencers and partners make informed decisions and optimize their merchandising strategies.",
+        "name": "Data-Driven Insights"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 500000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2024-10-18",
+      "lastFundingType": "Pre Seed",
+      "rounds": [
+        {
+          "announcedDate": "2024-10-18",
+          "amount": {
+            "amount": 500000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "DeepMinds"
+          ],
+          "type": "Pre Seed"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "DeepMinds",
+            "rounds": [
+              "Pre Seed Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 1,
+      "includedUniqueCount": 1,
+      "items": [
+        {
+          "date": "2024-10-18",
+          "title": "Pre Seed Round - Lomina.ai"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 500000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": -3,
+      "growthScore": 84,
+      "heatChange90Days": 5,
+      "heatScore": 52
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 5
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 90.48
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 0
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Fourthwall is all about artists, it is a service that allows creators to easily create their website where fans can help target them.",
+          "employeeRange": "11-50",
+          "name": "Fourthwall",
+          "sharedSpecialties": [
+            "Creator Commerce Platforms",
+            "Creator Branding",
+            "Social Commerce Platforms"
+          ],
+          "similarityScore": 97
+        },
+        {
+          "description": "Printful is a print-on-demand drop shipping and fulfillment company that helps people turn their ideas into brands and products.",
+          "employeeRange": "1,001-5,000",
+          "name": "Printful",
+          "sharedSpecialties": [
+            "Company Store Platforms"
+          ],
+          "similarityScore": 93
+        },
+        {
+          "description": "Spring Technology is a staffing and recruiting firm specializing in IT and Telecommunications recruitment.",
+          "employeeRange": "501-1,000",
+          "name": "Spring Technology",
+          "sharedCategories": [
+            "Information Technology"
+          ],
+          "similarityScore": 92
+        },
+        {
+          "description": "Printify is a platform that connects e-commerce merchants, marketplaces and print on demand dropshipping producers.",
+          "employeeRange": "501-1,000",
+          "name": "Printify",
+          "sharedSpecialties": [
+            "Creator Commerce Platforms"
+          ],
+          "similarityScore": 91
+        },
+        {
+          "description": "Spreadshop is an online shop system that allows its users to create and sell custom merchandise on your own online shop for free.",
+          "employeeRange": "11-50",
+          "name": "Spreadshop",
+          "sharedSpecialties": [
+            "Company Store Platforms",
+            "Creator Commerce Platforms",
+            "Social Commerce Platforms"
+          ],
+          "similarityScore": 89
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Pre Seed round raised $500,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 84 (-3 over 90 days) and market heat at 52 (+5).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Fourthwall, Printful, Spring Technology.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

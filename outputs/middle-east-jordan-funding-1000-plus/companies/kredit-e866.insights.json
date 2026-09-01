@@ -1,0 +1,260 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T12:17:03.509Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T12:17:03.507Z",
+    "url": "https://www.crunchbase.com/organization/kredit-e866"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Kredit",
+      "shortDescription": "Kredit, assists small and medium-sized businesses.",
+      "description": "Kredit is one of the financing arms in GB Capital and supports small and medium-sized businesses through its specialized finance division Since they are seen as important and having a beneficial impact on the Egyptian economy, the organization has a strategic focus on this market.",
+      "website": "https://www.kredit.com.eg/en",
+      "foundedYear": 2023,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "101-250",
+      "estimatedRevenueRange": "Less than $1M",
+      "headquarters": "Cairo, Al Qahirah, Egypt",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Middle East",
+        "Middle East and North Africa (MENA)",
+        "North Africa"
+      ],
+      "industries": [
+        "Finance",
+        "Financial Services",
+        "Small and Medium Businesses"
+      ],
+      "sectors": [
+        "Financial Services",
+        "Other"
+      ],
+      "founders": [
+        "Ahmed Emam"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 3095086,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 2,
+      "detailedRoundCount": 2,
+      "lastFundingDate": "2024-10-13",
+      "lastFundingType": "Debt Financing",
+      "rounds": [
+        {
+          "announcedDate": "2024-10-13",
+          "amount": {
+            "amount": 2060260,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "Banque du Caire"
+          ],
+          "type": "Debt Financing"
+        },
+        {
+          "announcedDate": "2024-09-29",
+          "amount": {
+            "amount": 1034826,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "National Bank of Egypt"
+          ],
+          "type": "Debt Financing"
+        }
+      ],
+      "investors": {
+        "reportedCount": 2,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "Banque du Caire",
+            "rounds": [
+              "Debt Financing"
+            ]
+          },
+          {
+            "isLead": true,
+            "name": "National Bank of Egypt",
+            "rounds": [
+              "Debt Financing"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 2,
+      "includedUniqueCount": 2,
+      "items": [
+        {
+          "date": "2024-10-13",
+          "title": "Debt Financing - Kredit"
+        },
+        {
+          "date": "2024-09-29",
+          "title": "Debt Financing - Kredit"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 2,
+    "knownDetailedFundingAmount": {
+      "amount": 3095086,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 66.57
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": -4,
+      "growthScore": 82,
+      "heatChange90Days": -11,
+      "heatScore": 2
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 28.09
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 35.95,
+        "timingEstimatePercent": {
+          "within6Months": 20.46,
+          "months6To11": 0.03,
+          "months12To24": 0,
+          "beyond24Months": 79.51
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 95.19
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 4.28
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "CIB is a financial service company that strives to provide superior financial solutions to meet all customers’ needs.",
+          "employeeRange": "5,001-10,000",
+          "name": "Commercial International Bank",
+          "sharedCategories": [
+            "Financial Services",
+            "Finance"
+          ],
+          "similarityScore": 94
+        },
+        {
+          "description": "National Bank of Egypt is a commercial bank that provides financial products and services.",
+          "employeeRange": "10,001+",
+          "name": "National Bank of Egypt",
+          "sharedCategories": [
+            "Financial Services",
+            "Finance"
+          ],
+          "similarityScore": 92
+        },
+        {
+          "description": "MNT-Halan is a microfinance lending and payments platform that provides financial services to businesses.",
+          "employeeRange": "10,001+",
+          "name": "MNT-Halan",
+          "sharedCategories": [
+            "Financial Services"
+          ],
+          "similarityScore": 87
+        },
+        {
+          "description": "Qatar National Bank Alahli is an Egyptian financial organization that offers investment and commercial banking services.",
+          "employeeRange": "5,001-10,000",
+          "name": "Qatar National Bank Alahli",
+          "sharedCategories": [
+            "Financial Services"
+          ],
+          "similarityScore": 87
+        },
+        {
+          "description": "valU is a fintech company that provides buy now, pay later, and customized financial solutions.",
+          "employeeRange": "501-1,000",
+          "name": "valU",
+          "sharedCategories": [
+            "Financial Services",
+            "Finance"
+          ],
+          "similarityScore": 85
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Debt Financing round raised $2,060,260, or 66.57% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 82 (-4 over 90 days) and market heat at 2 (-11).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Commercial International Bank, National Bank of Egypt, MNT-Halan.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

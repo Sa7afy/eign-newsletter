@@ -1,0 +1,278 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T13:44:36.290Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T13:44:36.287Z",
+    "url": "https://www.crunchbase.com/organization/thobi"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Thobi",
+      "shortDescription": "Thobi is an online retailer of traditional Saudi clothes.",
+      "description": "Thobi describes itself as a “smart thobe tailor”, allowing its customers to order custom-made thobes online. Its propriety technology enables its customers to take accurate calculations of their body measurements remotely.",
+      "website": "https://thobi.sa/",
+      "foundedYear": 2017,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "1-10",
+      "estimatedRevenueRange": "Less than $1M",
+      "headquarters": "Riyadh, Ar Riyad, Saudi Arabia",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "E-Commerce",
+        "Predictive Analytics",
+        "Retail",
+        "Textiles"
+      ],
+      "sectors": [
+        "Artificial Intelligence (AI)",
+        "Commerce and Shopping",
+        "Data and Analytics",
+        "Manufacturing",
+        "Software"
+      ],
+      "founders": [
+        "Abdulmajeed Alresaini",
+        "Khalid Abanami"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "Online retail of traditional Saudi garments for men, women, and children.",
+        "name": "Traditional Saudi Clothes"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 666390,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2020-07-13",
+      "lastFundingType": "Seed",
+      "rounds": [
+        {
+          "announcedDate": "2020-07-13",
+          "amount": {
+            "amount": 666390,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "ABN Ventures"
+          ],
+          "postMoneyValuation": {
+            "amount": 3502838,
+            "currency": "USD"
+          },
+          "type": "Seed"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "ABN Ventures",
+            "rounds": [
+              "Seed Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 1,
+      "includedUniqueCount": 1,
+      "items": [
+        {
+          "date": "2020-07-13",
+          "title": "Seed Round - Thobi"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 666390,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": 24,
+      "growthScore": 69,
+      "heatChange90Days": 11,
+      "heatScore": 24
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 0
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 13.08,
+        "timingEstimatePercent": {
+          "within6Months": 15.14,
+          "months6To11": 12.84,
+          "months12To24": 20.15,
+          "beyond24Months": 24.97
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 90.2
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 0
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Lomar is a Retail Apparel and Fashion brand that makes classic and contemporary comfort attires.",
+          "employeeRange": "51-100",
+          "name": "Lomar",
+          "sharedCategories": [
+            "Retail"
+          ],
+          "sharedSpecialties": [
+            "Ethnic Wear",
+            "Women's Fashion",
+            "Menswear",
+            "Ceremonial and Regalia"
+          ],
+          "similarityScore": 95
+        },
+        {
+          "description": "Retailer of Islamic & modest clothing for Men, Women & Children",
+          "employeeRange": "1-10",
+          "name": "Alhannah Islamic Clothing",
+          "sharedCategories": [
+            "Retail"
+          ],
+          "sharedSpecialties": [
+            "Modest Fashion",
+            "Ethnic Wear",
+            "Women's Fashion",
+            "Hijab and Headscarves",
+            "Menswear"
+          ],
+          "similarityScore": 91
+        },
+        {
+          "description": "Modanisa is an online fashion retailer specializing in modest apparel for women, offering a variety of brands and designs.",
+          "employeeRange": "501-1,000",
+          "name": "Modanisa",
+          "sharedCategories": [
+            "E-Commerce",
+            "Retail"
+          ],
+          "sharedSpecialties": [
+            "Bridal and Wedding Fashion",
+            "Modest Fashion",
+            "Ethnic Wear",
+            "Women's Fashion",
+            "Hijab and Headscarves"
+          ],
+          "similarityScore": 89
+        },
+        {
+          "description": "Umm Al Qura provides real estate development and construction for urban and investment real estate landscapes.",
+          "employeeRange": "101-250",
+          "name": "Umm Al Qura",
+          "similarityScore": 85
+        },
+        {
+          "description": "Naseej is a knowledge solution and service provider for knowledge management, knowledge consultancy, and information resources.",
+          "employeeRange": "501-1,000",
+          "name": "Naseej",
+          "similarityScore": 85
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Seed round raised $666,390, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $3,502,838 to $3,502,838, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 69 (+24 over 90 days) and market heat at 24 (+11).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Lomar, Alhannah Islamic Clothing, Modanisa.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

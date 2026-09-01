@@ -1,0 +1,181 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T13:31:50.507Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T13:31:50.505Z",
+    "url": "https://www.crunchbase.com/organization/startups-galaxy"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Startups Galaxy",
+      "shortDescription": "The platform growing startups with the top verified marketing Experts and tools.",
+      "description": "Startups Galaxy is martech platform focusing on growth through top Experts matched through the startup profile.  We match 2 or more experts depending on the milestones selected for each startup. We use our data to select the best, reducing time founders spend searching, hiring and wasting costs and time on freelancers, consultants or hires.\n\nCurrent Products:\n\n1 - Experts Matchmaking\n- SEO Experts\n- Data Experts\n- Analytics Experts\n- Social Media Experts\n- Performance Ads Experts\n- Growth Marketing Experts\n- Content Experts\n- Conversion Experts\n\n2- Startup Projects (Beta Launching July 2021)\n\n\n3- Resources Hub (PDFs, Ebooks, Case Studies)\n\n\n4- Deals (Up to $1 million on discounts on tools)",
+      "website": "https://startupsgalaxy.com/",
+      "foundedYear": 2019,
+      "operatingStatus": "Closed",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "11-50",
+      "estimatedRevenueRange": "$1M-$10M",
+      "headquarters": "Cairo, Al Qahirah, Egypt",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Middle East",
+        "Middle East and North Africa (MENA)",
+        "North Africa"
+      ],
+      "industries": [
+        "Analytics",
+        "Digital Marketing",
+        "E-Commerce",
+        "Information Technology",
+        "Internet",
+        "Marketing",
+        "Software"
+      ],
+      "sectors": [
+        "Commerce and Shopping",
+        "Data and Analytics",
+        "Information Technology",
+        "Sales and Marketing",
+        "Software"
+      ],
+      "founders": [
+        "Ahmed Mostafa",
+        "Nono Ghannam"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 225000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 2,
+      "detailedRoundCount": 2,
+      "lastFundingDate": "2021-04-11",
+      "lastFundingType": "Seed",
+      "rounds": [
+        {
+          "announcedDate": "2021-04-11",
+          "amount": {
+            "amount": 100000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "type": "Seed"
+        },
+        {
+          "announcedDate": "2021-01-01",
+          "amount": {
+            "amount": 125000,
+            "currency": "USD"
+          },
+          "type": "Seed"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "name": "Falak Business Hub",
+            "rounds": [
+              "Seed Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 3,
+      "includedUniqueCount": 3,
+      "items": [
+        {
+          "date": "2021-04-11",
+          "title": "Seed Round - Startups Galaxy"
+        },
+        {
+          "date": "2021-01-01",
+          "title": "Seed Round - Startups Galaxy"
+        },
+        {
+          "date": "2020-12-30",
+          "publisher": "Startups Galaxy Staff",
+          "title": "Wrapped 2020: the Startups Galaxy Edition",
+          "url": "https://blog.startupsgalaxy.com/wrapped-2020-the-startups-galaxy-edition/"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 2,
+    "knownDetailedFundingAmount": {
+      "amount": 225000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 44.44
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "heatChange90Days": -3,
+      "heatScore": 53
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2025-08-09",
+        "probabilityPercent": 13.34
+      },
+      "funding": {
+        "generatedDate": "2025-08-09",
+        "probabilityPercent": 26.42,
+        "timingEstimatePercent": {
+          "within6Months": 14.06,
+          "months6To11": 12.08,
+          "months12To24": 19.31,
+          "beyond24Months": 24.79
+        }
+      },
+      "growth": {
+        "generatedDate": "2025-01-11",
+        "probabilityPercent": 90.07
+      },
+      "ipo": {
+        "generatedDate": "2025-08-09",
+        "probabilityPercent": 0.6
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors."
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Seed round raised $100,000, or 44.44% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

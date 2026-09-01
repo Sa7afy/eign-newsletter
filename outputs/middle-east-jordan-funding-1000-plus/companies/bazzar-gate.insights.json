@@ -1,0 +1,245 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T10:58:15.069Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T10:58:15.067Z",
+    "url": "https://www.crunchbase.com/organization/bazzar-gate"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Bazzar Gate",
+      "shortDescription": "Bazzar Gate provides a one-stop-shop drop-shipping e-commerce platform that includes a delivery system, banking system, and payment gateway.",
+      "description": "Bazzar Gate provides a one-stop-shop drop-shipping e-commerce platform that includes a delivery system, banking system, and payment gateway.",
+      "website": "https://www.bazzargate.com/",
+      "foundedYear": 2020,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "11-50",
+      "headquarters": "Sharq Hawalli, Al Kuwayt, Kuwait",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Retail",
+        "Shopping"
+      ],
+      "sectors": [
+        "Commerce and Shopping"
+      ],
+      "founders": [
+        "Mohammad AlMutawaa"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "A service that manages product storage and delivery, including order management, to facilitate efficient shipping and inventory control.",
+        "name": "Product Storage and Delivery Service"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 1000000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2024-09-26",
+      "lastFundingType": "Seed",
+      "rounds": [
+        {
+          "announcedDate": "2024-09-26",
+          "amount": {
+            "amount": 1000000,
+            "currency": "USD"
+          },
+          "postMoneyValuation": {
+            "amount": 9424025,
+            "currency": "USD"
+          },
+          "type": "Seed"
+        }
+      ]
+    },
+    "recentNews": {
+      "reportedCount": 2,
+      "includedUniqueCount": 2,
+      "items": [
+        {
+          "date": "2024-09-29",
+          "publisher": "Wamda News",
+          "title": "Kuwait’s Bazzar Gate secures $1 million investment",
+          "url": "https://www.wamda.com/2024/09/kuwait-bazzar-gate-secures-1-million-investment"
+        },
+        {
+          "date": "2024-09-26",
+          "title": "Seed Round - Bazzar Gate"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 1000000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": -1,
+      "growthScore": 85,
+      "heatChange90Days": 6,
+      "heatScore": 13
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 30.84
+      },
+      "funding": {
+        "generatedDate": "2026-06-20",
+        "probabilityPercent": 89.94,
+        "timingEstimatePercent": {
+          "within6Months": 99.95,
+          "months6To11": 0,
+          "months12To24": 0,
+          "beyond24Months": 0.05
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 72.29
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 4.3
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Transglobal Express has been providing door-to-door courier services and air and sea freight forwarding services for over 20 years.",
+          "employeeRange": "101-250",
+          "name": "Transglobal Express",
+          "sharedSpecialties": [
+            "Fulfillment Services",
+            "Package Forwarding"
+          ],
+          "similarityScore": 100
+        },
+        {
+          "description": "We offer fully flexible fulfilment solutions, powered by our human-centric operational excellence and unique technology.",
+          "employeeRange": "251-500",
+          "name": "Huboo",
+          "sharedSpecialties": [
+            "Last Mile Delivery",
+            "Fulfillment Services",
+            "Order and Inventory Management",
+            "Warehouse Management Systems",
+            "Marketplace Integration",
+            "Fulfillment and Warehousing"
+          ],
+          "similarityScore": 95.358
+        },
+        {
+          "description": "Flight Logistics Group is an art shipping company that offers delivery options to clients from sole traders to blue-chip multinationals.",
+          "employeeRange": "11-50",
+          "name": "Flight Logistics Group",
+          "similarityScore": 90.13
+        },
+        {
+          "description": "PCH provides a unique, intelligent, end-to-end product development and supply chain orchestration platform for the world’s best brands.",
+          "employeeRange": "251-500",
+          "name": "PCH International",
+          "sharedSpecialties": [
+            "Fulfillment Services"
+          ],
+          "similarityScore": 85.442
+        },
+        {
+          "description": "Atamgo is an advertising agency that helps Shopify and Shopify Plus merchants build a product brand with various new strategies.",
+          "employeeRange": "11-50",
+          "name": "Atamgo",
+          "similarityScore": 79.821
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Seed round raised $1,000,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $9,424,025 to $9,424,025, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 85 (-1 over 90 days) and market heat at 13 (+6).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Transglobal Express, Huboo, Flight Logistics Group.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

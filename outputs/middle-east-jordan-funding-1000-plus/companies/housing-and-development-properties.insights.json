@@ -1,0 +1,296 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T12:00:03.977Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T12:00:03.975Z",
+    "url": "https://www.crunchbase.com/organization/housing-and-development-properties"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Housing and Development Properties",
+      "shortDescription": "Housing and Development Properties is a real estate agency that offers property development and management services.",
+      "website": "https://hdp.com.eg/",
+      "foundedYear": 2022,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "101-250",
+      "headquarters": "Gîza, Al Jizah, Egypt",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Middle East",
+        "Middle East and North Africa (MENA)",
+        "North Africa"
+      ],
+      "industries": [
+        "Property Development",
+        "Property Management",
+        "Real Estate"
+      ],
+      "sectors": [
+        "Real Estate"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 28852424,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2026-04-20",
+      "lastFundingType": "Debt Financing",
+      "rounds": [
+        {
+          "announcedDate": "2026-04-20",
+          "amount": {
+            "amount": 28852424,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "MIDBANK"
+          ],
+          "type": "Debt Financing"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "MIDBANK",
+            "rounds": [
+              "Debt Financing"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 5,
+      "includedUniqueCount": 5,
+      "items": [
+        {
+          "date": "2026-06-15",
+          "publisher": "Zawya.com",
+          "title": "Egypt: HDP, TULUA pen agreement with Radisson Blu for hotel development at The Island project",
+          "url": "https://www.zawya.com/en/economy/north-africa/egypt-hdp-tulua-pen-agreement-with-radisson-blu-for-hotel-development-at-the-island-project-sdmd17b2"
+        },
+        {
+          "date": "2026-04-21",
+          "publisher": "Zawya.com",
+          "title": "HD Bank’s real estate arm secures $28.9mln financing from MIDBANK",
+          "url": "https://www.zawya.com/en/economy/north-africa/hd-banks-real-estate-arm-secures-289mln-financing-from-midbank-rg1dmuy9"
+        },
+        {
+          "date": "2026-04-20",
+          "title": "Debt Financing - Housing and Development Properties"
+        },
+        {
+          "date": "2025-12-22",
+          "publisher": "Zawya.com",
+          "title": "Egypt: HD Bank’s real estate subsidiary inks cooperation deal with EPower",
+          "url": "https://www.zawya.com/en/economy/north-africa/egypt-hd-banks-real-estate-subsidiary-inks-cooperation-deal-with-epower-cue7vcve"
+        },
+        {
+          "date": "2025-12-21",
+          "publisher": "Daily Star Egypt",
+          "title": "HDP signs agreement with EPower to operate electricity, water networks across its projects",
+          "url": "https://www.dailynewsegypt.com/2025/12/21/hdp-signs-agreement-with-epower-to-operate-electricity-water-networks-across-its-projects/"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 28852424,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "reportedPartnerships": {
+      "note": "Provider event summaries with linked sources; not independently verified.",
+      "items": [
+        {
+          "date": "2026-06-15",
+          "description": "Housing and Development Properties signed a partnership agreement with TULUA Developments and Radisson Blu for the development and operation of a 175-room Radisson Blu-managed hotel within the Blu Stays phase of The Island project on Egypt's North Coast.",
+          "sources": [
+            {
+              "date": "2026-06-15",
+              "publisher": "Zawya.com",
+              "title": "Egypt: HDP, TULUA pen agreement with Radisson Blu for hotel development at The Island project",
+              "url": "https://www.zawya.com/en/economy/north-africa/egypt-hdp-tulua-pen-agreement-with-radisson-blu-for-hotel-development-at-the-island-project-sdmd17b2"
+            }
+          ]
+        },
+        {
+          "date": "2025-12-22",
+          "description": "Housing and Development Properties, the real estate arm of Housing and Development Bank in Egypt, signed a cooperation agreement with EPower under which EPower will manage, operate, and maintain electricity and water networks and related customer billing across HDP developments.",
+          "sources": [
+            {
+              "date": "2025-12-22",
+              "publisher": "Zawya.com",
+              "title": "Egypt: HD Bank’s real estate subsidiary inks cooperation deal with EPower",
+              "url": "https://www.zawya.com/en/economy/north-africa/egypt-hd-banks-real-estate-subsidiary-inks-cooperation-deal-with-epower-cue7vcve"
+            }
+          ]
+        },
+        {
+          "date": "2025-12-01",
+          "description": "Housing and Development Properties signed a cooperation agreement with EPower to manage, operate, and maintain electricity and water networks across its real estate developments.",
+          "sources": [
+            {
+              "date": "2026-04-21",
+              "publisher": "Zawya.com",
+              "title": "HD Bank’s real estate arm secures $28.9mln financing from MIDBANK",
+              "url": "https://www.zawya.com/en/economy/north-africa/hd-banks-real-estate-arm-secures-289mln-financing-from-midbank-rg1dmuy9"
+            }
+          ]
+        }
+      ]
+    },
+    "crunchbaseMomentum": {
+      "growthInsightGeneratedDate": "2026-05-31",
+      "growthChange90Days": -10,
+      "growthScore": 86,
+      "heatChange90Days": -10,
+      "heatScore": 64,
+      "status": "Growing"
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 33.63
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 20.39,
+        "timingEstimatePercent": {
+          "within6Months": 2.37,
+          "months6To11": 0,
+          "months12To24": 0,
+          "beyond24Months": 97.63
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 95.52
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 22.17
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Madinet Masr is a real estate development company.",
+          "employeeRange": "501-1,000",
+          "name": "Madinet Masr",
+          "sharedCategories": [
+            "Real Estate",
+            "Property Management"
+          ],
+          "similarityScore": 95
+        },
+        {
+          "description": "Palm Hills Developments is a real estate investment company developing residential and commercial real estate properties.",
+          "employeeRange": "1,001-5,000",
+          "name": "Palm Hills Developments",
+          "sharedCategories": [
+            "Real Estate"
+          ],
+          "similarityScore": 93
+        },
+        {
+          "description": "Sodic is a real estate development company that provides market awars-winning large scale developments.",
+          "employeeRange": "251-500",
+          "name": "Sodic",
+          "sharedCategories": [
+            "Real Estate"
+          ],
+          "similarityScore": 89
+        },
+        {
+          "description": "Seldar Misr focuses on real estate and hospitality investments in Egypt.",
+          "employeeRange": "501-1,000",
+          "name": "Seldar Misr",
+          "sharedCategories": [
+            "Property Development",
+            "Real Estate"
+          ],
+          "similarityScore": 87
+        },
+        {
+          "description": "El Gouna has a large selection of residential real estate, ranging from turn-key flats to exquisite private villas with waterfront views.",
+          "name": "El Gouna Orascom Development.",
+          "sharedCategories": [
+            "Real Estate"
+          ],
+          "similarityScore": 85
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Debt Financing round raised $28,852,424, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 86 (-10 over 90 days) and market heat at 64 (-10).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Madinet Masr, Palm Hills Developments, Sodic.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

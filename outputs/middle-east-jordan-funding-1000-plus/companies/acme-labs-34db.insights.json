@@ -1,0 +1,274 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T08:58:09.249Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T08:58:09.246Z",
+    "url": "https://www.crunchbase.com/organization/acme-labs-34db"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Acme Labs",
+      "shortDescription": "Acme is a merchant network like Visa, but for loyalty points. Earn points at one merchant and spend them at others with one simple tap.",
+      "description": "What if earning points at one merchant and spending them at others was as easy as using Apple Pay? Meet Acme – an innovative merchant network - similar to Visa, but for loyalty points. Acme simplifies earning and redeeming loyalty points across a wide network merchants to one tap, allowing everyone to earn more.",
+      "website": "https://www.acme.am/",
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "1-10",
+      "estimatedRevenueRange": "Less than $1M",
+      "headquarters": "Dubai, United Arab Emirates",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Blockchain",
+        "Cryptocurrency",
+        "Identity Management"
+      ],
+      "sectors": [
+        "Blockchain and Cryptocurrency",
+        "Financial Services",
+        "Information Technology",
+        "Payments",
+        "Privacy and Security",
+        "Software"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "An intent-based transaction network that simplifies on-chain actions across 14+ blockchain networks into a single user interaction.",
+        "name": "Acme OneTap Intent-Based Network"
+      },
+      {
+        "description": "An API and SDK platform for integrating wallets, on-ramps, EIP-4337 functionality, transaction routing, and intent execution into decentralized applications.",
+        "name": "Acme Developer Platform"
+      },
+      {
+        "description": "A web-based, non-custodial smart wallet for managing digital assets, interacting with DApps, transferring assets, and bridging assets across supported networks.",
+        "name": "Acme Wallet"
+      },
+      {
+        "description": "A blockchain checkout and funding interface that enables users to access wallets, buy digital assets, and fund on-chain transactions using supported payment methods.",
+        "name": "Acme Checkout"
+      },
+      {
+        "description": "A token distribution and trading-link service that lets token communities create shareable purchase links, facilitate trades across supported chains, and receive transaction-based payouts.",
+        "name": "Acme Token Trading and Community Exchange Platform"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 400000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2022-03-30",
+      "lastFundingType": "Seed",
+      "rounds": [
+        {
+          "announcedDate": "2022-03-30",
+          "amount": {
+            "amount": 400000,
+            "currency": "USD"
+          },
+          "investorCount": 2,
+          "leadInvestors": [
+            "HOF Capital"
+          ],
+          "postMoneyValuation": {
+            "amount": 4753528,
+            "currency": "USD"
+          },
+          "type": "Seed"
+        }
+      ],
+      "investors": {
+        "reportedCount": 2,
+        "visibleNames": [
+          {
+            "name": "AlphaGrep",
+            "rounds": [
+              "Seed Round"
+            ]
+          },
+          {
+            "isLead": true,
+            "name": "HOF Capital",
+            "rounds": [
+              "Seed Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 2,
+      "includedUniqueCount": 2,
+      "items": [
+        {
+          "date": "2026-02-25",
+          "publisher": "IndiaTimes",
+          "title": "Former Apple engineers launch new Acme Weather app: 6 features that make it different from others",
+          "url": "https://timesofindia.indiatimes.com/technology/tech-news/former-apple-engineers-launch-new-acme-weather-app-6-features-that-make-it-different-from-others/articleshow/128770083.cms"
+        },
+        {
+          "date": "2022-03-30",
+          "title": "Seed Round - Acme Labs"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 400000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": -5,
+      "growthScore": 79,
+      "heatChange90Days": -14,
+      "heatScore": 49
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 0
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 21.62,
+        "timingEstimatePercent": {
+          "within6Months": 15.77,
+          "months6To11": 13.29,
+          "months12To24": 20.61,
+          "beyond24Months": 25
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 87.76
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 0
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Talon.One enables businesses to manage promotions, loyalty programs, and incentive campaigns through a unified system.",
+          "employeeRange": "251-500",
+          "name": "Talon.One",
+          "similarityScore": 97
+        },
+        {
+          "description": "Punchh is a company providing digital marketing products for brick and mortar retailers, combining AI and machine learning technologies.",
+          "employeeRange": "251-500",
+          "name": "Punchh",
+          "similarityScore": 95
+        },
+        {
+          "description": "Annex Cloud is an Enterprise Focused Customer Loyalty and Retention Platform.",
+          "employeeRange": "251-500",
+          "name": "Annex Cloud",
+          "similarityScore": 91
+        },
+        {
+          "description": "Antavo is the only end-to-end loyalty management software for the complete lifecycle of your loyalty program.",
+          "employeeRange": "101-250",
+          "name": "Antavo AI Loyalty Cloud",
+          "similarityScore": 90
+        },
+        {
+          "description": "Capillary Technologies develops customized and cloud-based customer analytics and marketing platforms.",
+          "employeeRange": "501-1,000",
+          "name": "Capillary Technologies",
+          "sharedSpecialties": [
+            "Coalition Loyalty Programs"
+          ],
+          "similarityScore": 89
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Seed round raised $400,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $4,753,528 to $4,753,528, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 79 (-5 over 90 days) and market heat at 49 (-14).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Talon.One, Punchh, Annex Cloud.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

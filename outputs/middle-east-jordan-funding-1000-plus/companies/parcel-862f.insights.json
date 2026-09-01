@@ -1,0 +1,289 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T12:53:52.643Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T12:53:52.641Z",
+    "url": "https://www.crunchbase.com/organization/parcel-862f"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Parcel",
+      "shortDescription": "Parcel's goal is to make the delivery process fully digital and easier for individuals and small businesses",
+      "description": "Parcel's goal is to make the delivery process fully digital and easier for individuals and small businesses by allowing them to request a driver to deliver their products without regard for monthly costs or distances.",
+      "website": "http://www.tryparcel.com/",
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "11-50",
+      "headquarters": "Manama, Al Manamah, Bahrain",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "B2B",
+        "Delivery",
+        "Food Delivery",
+        "Information Technology",
+        "Logistics",
+        "Mobile Apps",
+        "SaaS",
+        "Software"
+      ],
+      "sectors": [
+        "Apps",
+        "Food and Beverage",
+        "Information Technology",
+        "Mobile",
+        "Other",
+        "Software",
+        "Transportation"
+      ],
+      "founders": [
+        "Ali Dhaif",
+        "Mahmood Dhaif"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "A digital delivery service enabling users to request parcel pickup and delivery within Bahrain via a mobile app or dashboard.",
+        "name": "Parcel Delivery Service"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 1000000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2023-02-23",
+      "lastFundingType": "Seed",
+      "rounds": [
+        {
+          "announcedDate": "2023-02-23",
+          "amount": {
+            "amount": 1000000,
+            "currency": "USD"
+          },
+          "investorCount": 3,
+          "postMoneyValuation": {
+            "amount": 7795481,
+            "currency": "USD"
+          },
+          "type": "Seed"
+        }
+      ],
+      "investors": {
+        "reportedCount": 3,
+        "visibleNames": [
+          {
+            "name": "Abdulla Al-Mutawa",
+            "rounds": [
+              "Seed Round"
+            ]
+          },
+          {
+            "name": "Hope Ventures",
+            "rounds": [
+              "Seed Round"
+            ]
+          },
+          {
+            "name": "Jahez International Company",
+            "rounds": [
+              "Seed Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 1,
+      "includedUniqueCount": 1,
+      "items": [
+        {
+          "date": "2023-02-23",
+          "title": "Seed Round - Parcel"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 1000000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": -2,
+      "growthScore": 33,
+      "heatChange90Days": -4,
+      "heatScore": 49
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 55.58
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 33.59,
+        "timingEstimatePercent": {
+          "within6Months": 14.26,
+          "months6To11": 12.23,
+          "months12To24": 19.47,
+          "beyond24Months": 24.84
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 70.38
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 46.58
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Lalamove is a logistics company that provides on-demand and same-day delivery services.",
+          "employeeRange": "1,001-5,000",
+          "name": "Lalamove",
+          "sharedCategories": [
+            "Delivery",
+            "Logistics"
+          ],
+          "sharedSpecialties": [
+            "Last Mile Delivery",
+            "Expedited and Express Delivery",
+            "Same-Day and On-Demand Courier Services",
+            "Fleet Telematics and GPS Tracking",
+            "Crowdsourced Delivery",
+            "Route Optimization and Fleet Tracking"
+          ],
+          "similarityScore": 97
+        },
+        {
+          "description": "Aramex provides express delivery and freight forwarding services.",
+          "employeeRange": "10,001+",
+          "name": "Aramex International",
+          "sharedCategories": [
+            "Logistics"
+          ],
+          "sharedSpecialties": [
+            "Last Mile Delivery",
+            "Expedited and Express Delivery"
+          ],
+          "similarityScore": 92
+        },
+        {
+          "description": "SMSA Express provides domestic and international express transportation and logistical services.",
+          "employeeRange": "10,001+",
+          "name": "SMSA Express",
+          "sharedCategories": [
+            "Logistics"
+          ],
+          "similarityScore": 91
+        },
+        {
+          "description": "DHL provides international express mail services including logistics services ranging from national and international parcel delivery.",
+          "employeeRange": "10,001+",
+          "name": "DHL",
+          "sharedCategories": [
+            "Logistics"
+          ],
+          "sharedSpecialties": [
+            "Last Mile Delivery",
+            "Expedited and Express Delivery"
+          ],
+          "similarityScore": 90
+        },
+        {
+          "description": "The Central Bank of Bahrain is responsible for maintaining monetary & financial stability in the Kingdom.",
+          "employeeRange": "251-500",
+          "name": "Central Bank of Bahrain",
+          "similarityScore": 85
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Seed round raised $1,000,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $7,795,481 to $7,795,481, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 33 (-2 over 90 days) and market heat at 49 (-4).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Lalamove, Aramex International, SMSA Express.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

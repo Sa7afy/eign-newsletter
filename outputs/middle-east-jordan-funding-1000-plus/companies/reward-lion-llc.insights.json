@@ -1,0 +1,197 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T13:11:17.410Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T13:11:17.408Z",
+    "url": "https://www.crunchbase.com/organization/reward-lion-llc"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "prime linking",
+      "shortDescription": "PrimeLinking is digital marketing software that enables marketers and companies seamlessly manage their social media platforms.",
+      "description": "PrimeLinking is digital marketing software that enables marketers and companies seamlessly manage their social media platforms.",
+      "website": "https://www.primelinking.com/",
+      "operatingStatus": "Closed",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "11-50",
+      "headquarters": "Alexandria, Al Iskandariyah, Egypt",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Middle East",
+        "Middle East and North Africa (MENA)",
+        "North Africa"
+      ],
+      "industries": [
+        "Marketing",
+        "Social Media",
+        "Software"
+      ],
+      "sectors": [
+        "Internet Services",
+        "Media and Entertainment",
+        "Sales and Marketing",
+        "Software"
+      ],
+      "founders": [
+        "Mike ibrahim"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 5000000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2016-01-02",
+      "lastFundingType": "Seed",
+      "rounds": [
+        {
+          "announcedDate": "2016-01-02",
+          "amount": {
+            "amount": 5000000,
+            "currency": "USD"
+          },
+          "postMoneyValuation": {
+            "amount": 7900000,
+            "currency": "USD"
+          },
+          "type": "Seed"
+        }
+      ]
+    },
+    "recentNews": {
+      "reportedCount": 1,
+      "includedUniqueCount": 1,
+      "items": [
+        {
+          "date": "2016-01-02",
+          "title": "Seed Round - prime linking"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 5000000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "heatChange90Days": -3,
+      "heatScore": 11
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Hootsuite is a platform for managing social media presence and analyzing audience engagement.",
+          "employeeRange": "1,001-5,000",
+          "name": "Hootsuite",
+          "similarityScore": 97
+        },
+        {
+          "description": "Buffer is a social media management software startup for growing brands and connecting with their customers.",
+          "employeeRange": "101-250",
+          "name": "Buffer",
+          "sharedCategories": [
+            "Social Media",
+            "Software"
+          ],
+          "similarityScore": 95
+        },
+        {
+          "description": "Sprout Social provides social media engagement, publishing, and analytics for businesses.",
+          "employeeRange": "1,001-5,000",
+          "name": "Sprout Social",
+          "sharedCategories": [
+            "Social Media",
+            "Software"
+          ],
+          "similarityScore": 93
+        },
+        {
+          "description": "AgoraPulse is an affordable, all-in-one, self-service Social Media platform for SMBs and agencies.",
+          "employeeRange": "101-250",
+          "name": "Agorapulse",
+          "sharedCategories": [
+            "Social Media",
+            "Software"
+          ],
+          "similarityScore": 91
+        },
+        {
+          "description": "Later is the world’s first Social Revenue Platform",
+          "employeeRange": "101-250",
+          "name": "Later",
+          "sharedCategories": [
+            "Marketing"
+          ],
+          "similarityScore": 89
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Seed round raised $5,000,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $7,900,000 to $7,900,000, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Hootsuite, Buffer, Sprout Social.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

@@ -1,0 +1,240 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T13:14:54.194Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T13:14:54.192Z",
+    "url": "https://www.crunchbase.com/organization/safeflight"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Safeflight",
+      "shortDescription": "Safeflight, a platform that connects people with medical needs with medical professionals inflight.",
+      "website": "https://www.safeflight.biz/",
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "101-250",
+      "headquarters": "Dubai, United Arab Emirates",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Health Care",
+        "Medical Device",
+        "Online Portals"
+      ],
+      "sectors": [
+        "Health Care",
+        "Internet Services"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 27225,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 2,
+      "detailedRoundCount": 2,
+      "lastFundingDate": "2018-05-01",
+      "lastFundingType": "Pre Seed",
+      "rounds": [
+        {
+          "announcedDate": "2018-05-01",
+          "amount": {
+            "amount": 13613,
+            "currency": "USD"
+          },
+          "type": "Pre Seed"
+        },
+        {
+          "announcedDate": "2018-02-07",
+          "amount": {
+            "amount": 13612,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "Intelak Hub"
+          ],
+          "type": "Grant"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "Intelak Hub",
+            "rounds": [
+              "Grant"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 3,
+      "includedUniqueCount": 3,
+      "items": [
+        {
+          "date": "2018-05-01",
+          "title": "Pre Seed Round - Safeflight"
+        },
+        {
+          "date": "2018-02-07",
+          "title": "Grant - Safeflight"
+        },
+        {
+          "date": "2018-02-07",
+          "publisher": "Wamda",
+          "title": "Dubai Tourism & Commerce Marketing joins the Emirates Group and GE as a principal partner of Intelak",
+          "url": "https://www.wamda.com/memakersge/2018/02/dubai-tourism-commerce-marketing-joins-emirates-group-ge-principal-partner-intelak"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 2,
+    "knownDetailedFundingAmount": {
+      "amount": 27225,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 50,
+    "grantFunding": {
+      "amount": {
+        "amount": 13612,
+        "currency": "USD"
+      },
+      "disclosedRoundCount": 1,
+      "shareOfTotalPercent": 50
+    }
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": 1,
+      "growthScore": 35,
+      "heatChange90Days": -1,
+      "heatScore": 38
+    },
+    "modelPredictions": {
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 94.12
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Air Ambulance Worldwide provides fixed wing air ambulance transportation service.",
+          "employeeRange": "101-250",
+          "name": "Air Ambulance Worldwide",
+          "similarityScore": 95
+        },
+        {
+          "description": "Med Jets by Air Trek is an aeromedical transportation firm that specializes in air ambulance and escort repatriation services.",
+          "employeeRange": "11-50",
+          "name": "Med Jets by Air Trek",
+          "sharedCategories": [
+            "Health Care"
+          ],
+          "similarityScore": 93
+        },
+        {
+          "description": "AirCare International provides flight training services.",
+          "employeeRange": "251-500",
+          "name": "AirCare International",
+          "similarityScore": 89
+        },
+        {
+          "description": "Air Critical Care provides air medical transportation services.",
+          "employeeRange": "101-250",
+          "name": "Air Critical Care",
+          "sharedCategories": [
+            "Health Care"
+          ],
+          "similarityScore": 85
+        },
+        {
+          "description": "AeroCare Medical Transport System is a hospital & health care company offering medical air transport services.",
+          "employeeRange": "101-250",
+          "name": "AeroCare Medical Transport System, Inc",
+          "sharedCategories": [
+            "Health Care"
+          ],
+          "similarityScore": 84
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Pre Seed round raised $13,613, or 50% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Meaningful non-dilutive funding",
+      "statement": "1 disclosed grants total $13,612, representing 50% of reported funding.",
+      "implication": "The grants reduce the share of reported financing attributed to equity or notes, although their restrictions and milestone requirements need separate verification.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.grantFunding"
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 35 (+1 over 90 days) and market heat at 38 (-1).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Air Ambulance Worldwide, Med Jets by Air Trek, AirCare International.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

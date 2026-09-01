@@ -1,0 +1,231 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T13:56:18.606Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T13:56:18.605Z",
+    "url": "https://www.crunchbase.com/organization/waffyapp"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "WaffyApp",
+      "shortDescription": "Escrow payment solution for individuals and small businesses",
+      "description": "Waffy is an online platform that enables users to buy and sell safely via a trusted escrow service. It is the first of its kind in Saudi Arabia and the MENA region.",
+      "website": "https://www.waffyapp.com/",
+      "foundedYear": 2021,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "11-50",
+      "headquarters": "Jeddah, Makkah, Saudi Arabia",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Artificial Intelligence (AI)",
+        "FinTech",
+        "Machine Learning",
+        "Mobile Payments",
+        "Predictive Analytics"
+      ],
+      "sectors": [
+        "Artificial Intelligence (AI)",
+        "Data and Analytics",
+        "Financial Services",
+        "Mobile",
+        "Payments",
+        "Science and Engineering",
+        "Software"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "An escrow payment platform that holds buyer funds securely until product or service delivery is confirmed, protecting both buyers and sellers in transactions.",
+        "name": "WaffyApp Escrow Payment Service"
+      },
+      {
+        "description": "A specialized escrow service for brokers to securely manage client funds and transactions, ensuring protection and transparency for all parties involved.",
+        "name": "WaffyApp Broker Escrow Service"
+      },
+      {
+        "description": "A service enabling secure sale and delivery of digital products by withholding access codes or tickets until payment confirmation.",
+        "name": "WaffyApp Digital Product Sales Support"
+      },
+      {
+        "description": "A service that manages transaction disputes by temporarily holding funds and facilitating communication and resolution between buyers and sellers.",
+        "name": "WaffyApp Dispute Resolution and Transaction Management"
+      },
+      {
+        "description": "Integration of multiple secure payment options including credit cards, Apple Pay, bank transfers, and installment plans to facilitate transactions.",
+        "name": "WaffyApp Payment Methods Integration"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 2100000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 2,
+      "detailedRoundCount": 2,
+      "lastFundingDate": "2023-06-01",
+      "lastFundingType": "Seed",
+      "rounds": [
+        {
+          "announcedDate": "2023-06-01",
+          "amount": {
+            "amount": 2000000,
+            "currency": "USD"
+          },
+          "postMoneyValuation": {
+            "amount": 13564989,
+            "currency": "USD"
+          },
+          "type": "Seed"
+        },
+        {
+          "announcedDate": "2021-10-01",
+          "amount": {
+            "amount": 100000,
+            "currency": "USD"
+          },
+          "postMoneyValuation": {
+            "amount": 2168130,
+            "currency": "USD"
+          },
+          "type": "Pre Seed"
+        }
+      ]
+    },
+    "recentNews": {
+      "reportedCount": 2,
+      "includedUniqueCount": 2,
+      "items": [
+        {
+          "date": "2023-06-01",
+          "title": "Seed Round - WaffyApp"
+        },
+        {
+          "date": "2021-10-01",
+          "title": "Pre Seed Round - WaffyApp"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 2,
+    "knownDetailedFundingAmount": {
+      "amount": 2100000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 95.24,
+    "latestToEarliestKnownValuationMultiple": 6.26
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": -1,
+      "growthScore": 27,
+      "heatChange90Days": -4,
+      "heatScore": 68
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 58.19
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 32.67,
+        "timingEstimatePercent": {
+          "within6Months": 15.71,
+          "months6To11": 13.24,
+          "months12To24": 20.57,
+          "beyond24Months": 25
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 98.1
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 57.65
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Escrow.com arms you with the confidence to buy and sell securely online.",
+          "employeeRange": "11-50",
+          "name": "Escrow.com",
+          "sharedSpecialties": [
+            "Merchant Portal and Escrow Services",
+            "Payment Processing",
+            "Fraud Detection and KYC",
+            "Marketplace Integration"
+          ],
+          "similarityScore": 97
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Seed round raised $2,000,000, or 95.24% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $2,168,130 to $13,564,989, a 6.26x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 27 (-1 over 90 days) and market heat at 68 (-4).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

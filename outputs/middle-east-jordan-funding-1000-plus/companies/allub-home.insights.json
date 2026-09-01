@@ -1,0 +1,181 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T09:10:56.565Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T09:10:56.564Z",
+    "url": "https://www.crunchbase.com/organization/allub-home"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Allub Home",
+      "shortDescription": "Where Property Meets Possibility",
+      "description": "At Allub Home, we believe finding your dream property should be an exciting and seamless experience, whether you’re a developer, an agent, or a homebuyer. We’re a dynamic real estate marketplace designed to bridge the gap between developers, agencies, agents, and consumers, creating a unified platform where the search for property is simple, transparent, and efficient.\n\nFor developers and agencies, Allub Home provides a powerful tool to showcase new projects and existing properties to a broad audience. We offer advanced features to help you present your listings in the best light, connecting you with potential buyers in a competitive market.\n\nFor real estate agents, our platform serves as a comprehensive marketplace, helping you expand your reach and engage with more clients. With our intuitive interface, you can easily manage listings, connect with leads, and close deals faster.\n\nFor homebuyers and renters, Allub Home makes the search for your perfect property easier than ever. With detailed listings, virtual tours, and real-time availability updates, you can explore a wide variety of homes, from new developments to resale properties, all from the comfort of your device.\n\nAt Allub Home, we’re committed to simplifying the real estate journey for everyone involved. Whether you’re looking to sell, buy, or rent, our platform is here to make the process smarter, faster, and more convenient.\n\nWelcome to Allub Home — your trusted partner in the world of real estate.",
+      "website": "https://allubhome.com/",
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "51-100",
+      "headquarters": "Abu Dhabi, United Arab Emirates",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "founders": [
+        "Adeyanju Abiodun Emmanuel"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 13000000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2026-06-17",
+      "lastFundingType": "Series A",
+      "rounds": [
+        {
+          "announcedDate": "2026-06-17",
+          "amount": {
+            "amount": 13000000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "Allubareaka Holdings"
+          ],
+          "postMoneyValuation": {
+            "amount": 48951750,
+            "currency": "USD"
+          },
+          "type": "Series A"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "Allubareaka Holdings",
+            "rounds": [
+              "Series A"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 1,
+      "includedUniqueCount": 1,
+      "items": [
+        {
+          "date": "2026-06-17",
+          "title": "Series A - Allub Home"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 13000000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": 0,
+      "growthScore": 92,
+      "heatChange90Days": 72,
+      "heatScore": 77
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 33.76
+      },
+      "funding": {
+        "generatedDate": "2025-08-09",
+        "probabilityPercent": 91,
+        "timingEstimatePercent": {
+          "within6Months": 99.86,
+          "months6To11": 0,
+          "months12To24": 0,
+          "beyond24Months": 0.14
+        }
+      },
+      "growth": {
+        "generatedDate": "2025-01-11",
+        "probabilityPercent": 96.4
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 4.04
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors."
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Series A round raised $13,000,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $48,951,750 to $48,951,750, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 92 (+0 over 90 days) and market heat at 77 (+72).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

@@ -1,0 +1,196 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T10:54:49.499Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T10:54:49.498Z",
+    "url": "https://www.crunchbase.com/organization/azom"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Azom",
+      "shortDescription": "Azom designs, develops, and sells electronics and computer software.",
+      "description": "Azom designs, develops, and sells electronics and computer software. Azom also connected to artificial intelligence algorithms, whilst developing applications that would improve user experience, such as Azom Care.",
+      "website": "https://www.azom.co/",
+      "foundedYear": 2018,
+      "operatingStatus": "Closed",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "11-50",
+      "estimatedRevenueRange": "$1M-$10M",
+      "headquarters": "Riyadh, Ar Riyad, Saudi Arabia",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Artificial Intelligence (AI)",
+        "Electronics",
+        "Software"
+      ],
+      "sectors": [
+        "Artificial Intelligence (AI)",
+        "Data and Analytics",
+        "Hardware",
+        "Science and Engineering",
+        "Software"
+      ],
+      "founders": [
+        "Mohamad Almunajem"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 9598111,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 2,
+      "detailedRoundCount": 2,
+      "lastFundingDate": "2022-05-12",
+      "lastFundingType": "Venture round",
+      "rounds": [
+        {
+          "announcedDate": "2022-05-12",
+          "investorCount": 1,
+          "leadInvestors": [
+            "China Bridge Capital"
+          ],
+          "type": "Venture round"
+        },
+        {
+          "announcedDate": "2021-02-04",
+          "amount": {
+            "amount": 9598111,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "Assr AlJawal"
+          ],
+          "type": "Series A"
+        }
+      ],
+      "investors": {
+        "reportedCount": 2,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "Assr AlJawal",
+            "rounds": [
+              "Series A"
+            ]
+          },
+          {
+            "isLead": true,
+            "name": "China Bridge Capital",
+            "rounds": [
+              "Venture round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 2,
+      "includedUniqueCount": 2,
+      "items": [
+        {
+          "date": "2022-05-12",
+          "title": "Venture Round - Azom"
+        },
+        {
+          "date": "2021-02-04",
+          "title": "Series A - Azom"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 9598111,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "heatChange90Days": -2,
+      "heatScore": 20
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Sary is a MENAP B2B marketplace connecting small businesses with wholesalers and lenders to procure supply efficiently.",
+          "employeeRange": "251-500",
+          "name": "Sary",
+          "similarityScore": 97
+        },
+        {
+          "description": "Schenker Technologies is a manufacturing company that offers laptop and personal desktop products.",
+          "employeeRange": "101-250",
+          "name": "Schenker Technologies",
+          "similarityScore": 93
+        },
+        {
+          "description": "P C Specialist is computer equipment manufacturer & distributor.",
+          "employeeRange": "101-250",
+          "name": "P C Specialist",
+          "similarityScore": 91
+        },
+        {
+          "description": "Eluktronics is a manufacturer of PC and reseller for other PC brands.",
+          "employeeRange": "1-10",
+          "name": "Eluktronics",
+          "sharedCategories": [
+            "Electronics"
+          ],
+          "similarityScore": 89
+        },
+        {
+          "description": "System76 provides and supports Ubuntu pre-installed laptops, desktops, and servers with a commitment to the ideals of open source software.",
+          "employeeRange": "51-100",
+          "name": "System76",
+          "sharedCategories": [
+            "Software"
+          ],
+          "similarityScore": 87
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Sary, Schenker Technologies, P C Specialist.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

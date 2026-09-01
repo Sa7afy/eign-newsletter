@@ -1,0 +1,310 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T13:30:51.506Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T13:30:51.503Z",
+    "url": "https://www.crunchbase.com/organization/sponix"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Sponix",
+      "shortDescription": "Sponix offers services and solutions that help TV channels, marketers, and broadcasters.",
+      "description": "Sponix is a developer of AI-powered sports technology designed to enhance live sports viewing experiences and optimize commercial opportunities for broadcasters, leagues, and rights holders. The company offers SPov, which provides immersive player point-of-view replays without the need for additional hardware, and SPboard, a virtual advertising solution that seamlessly integrates targeted, region-specific ads into live broadcasts in real time.",
+      "website": "https://sponixtech.com/",
+      "foundedYear": 2020,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "11-50",
+      "headquarters": "Doha, Ad Dawhah, Qatar",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Advertising",
+        "Broadcasting",
+        "Marketing"
+      ],
+      "sectors": [
+        "Advertising",
+        "Media and Entertainment",
+        "Sales and Marketing",
+        "Video"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "A software-based virtual advertising solution that overlays digital ads on sports broadcasts without hardware changes, supporting multi-regional targeting and various sports fields.",
+        "name": "SPboard Virtual Advertisement"
+      },
+      {
+        "description": "A software-only immersive video replay system that creates player and referee point-of-view replays for live sports broadcasts, enhancing fan engagement and sponsorship integration.",
+        "name": "SPov Immersive Replay"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 500788,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 3,
+      "detailedRoundCount": 3,
+      "lastFundingDate": "2024-03-18",
+      "lastFundingType": "Venture round",
+      "rounds": [
+        {
+          "announcedDate": "2024-03-18",
+          "amount": {
+            "amount": 500788,
+            "currency": "USD"
+          },
+          "postMoneyValuation": {
+            "amount": 10261651,
+            "currency": "USD"
+          },
+          "type": "Venture round"
+        },
+        {
+          "announcedDate": "2022-06-22",
+          "investorCount": 1,
+          "postMoneyValuation": {
+            "amount": 11878045,
+            "currency": "USD"
+          },
+          "type": "Series A"
+        },
+        {
+          "announcedDate": "2020-02-25",
+          "investorCount": 1,
+          "leadInvestors": [
+            "Qatar Sportstech"
+          ],
+          "type": "Non Equity Assistance"
+        }
+      ],
+      "investors": {
+        "reportedCount": 2,
+        "visibleNames": [
+          {
+            "name": "Aser Ventures",
+            "rounds": [
+              "Series A"
+            ]
+          },
+          {
+            "isLead": true,
+            "name": "Qatar Sportstech",
+            "rounds": [
+              "Non Equity Assistance"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 5,
+      "includedUniqueCount": 5,
+      "items": [
+        {
+          "date": "2025-10-31",
+          "publisher": "Gulf Times",
+          "title": "MCIT’s Scale Now reports $12.9mn in deals; demonstrates strong market confidence in Qatar’s scale-up ecosystem",
+          "url": "https://www.gulf-times.com/article/714006/business/mcits-scale-now-reports-129mn-in-deals-demonstrates-strong-market-confidence-in-qatars-scale-up-ecosystem"
+        },
+        {
+          "date": "2024-03-18",
+          "title": "Venture Round - Sponix"
+        },
+        {
+          "date": "2022-10-21",
+          "publisher": "Entrepreneur",
+          "title": "Qatar-Based Sponix Tech Is Transforming How People Engage With Largescale Sporting Events",
+          "url": "http://dlvr.it/SbS1g8"
+        },
+        {
+          "date": "2022-06-22",
+          "title": "Series A - Sponix"
+        },
+        {
+          "date": "2020-02-25",
+          "title": "Non Equity Assistance - Sponix"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 500788,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "latestToEarliestKnownValuationMultiple": 0.86
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": -1,
+      "growthScore": 86,
+      "heatChange90Days": -3,
+      "heatScore": 77
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 75.21
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 45.09,
+        "timingEstimatePercent": {
+          "within6Months": 23.89,
+          "months6To11": 0,
+          "months12To24": 0,
+          "beyond24Months": 76.11
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 80.46
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 9.37
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Supponor transforms real world mass-audience TV visible signage into highly targeted virtual brand messaging in sports broadcasting.",
+          "employeeRange": "11-50",
+          "name": "Supponor",
+          "sharedCategories": [
+            "Advertising"
+          ],
+          "similarityScore": 97
+        },
+        {
+          "description": "Vizrt is a software company for real-time 3D graphics, video playout, studio automation, sports analysis, journalist story tools.",
+          "employeeRange": "501-1,000",
+          "name": "Vizrt",
+          "sharedCategories": [
+            "Broadcasting"
+          ],
+          "sharedSpecialties": [
+            "Media Asset Management",
+            "Broadcast and Playout Services",
+            "Virtual Production"
+          ],
+          "similarityScore": 95
+        },
+        {
+          "description": "Singular Live is an advanced interactive live content platform for multi-channel content producers.",
+          "employeeRange": "11-50",
+          "name": "Singular Live",
+          "sharedSpecialties": [
+            "Broadcast and Playout Services"
+          ],
+          "similarityScore": 93
+        },
+        {
+          "description": "Hawk-Eye is a British company that develops vision-processing, video replay, and creative graphical technologies for sports.",
+          "employeeRange": "101-250",
+          "name": "Hawk-Eye Innovations",
+          "sharedSpecialties": [
+            "Video Analytics",
+            "Media Asset Management",
+            "Broadcast and Playout Services",
+            "Audiovisual (AV) Systems Integration",
+            "Virtual Production"
+          ],
+          "similarityScore": 91
+        },
+        {
+          "description": "Sportradar is a supplier of sports and betting-related live data, odds solutions, and fraud detection services.",
+          "employeeRange": "1,001-5,000",
+          "name": "Sportradar",
+          "sharedSpecialties": [
+            "Sponsorship Activation",
+            "Video Analytics",
+            "Broadcast and Playout Services"
+          ],
+          "similarityScore": 89
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Venture round round raised $500,788, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $11,878,045 to $10,261,651, a 0.86x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 86 (-1 over 90 days) and market heat at 77 (-3).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Supponor, Vizrt, Singular Live.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

@@ -1,0 +1,196 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T12:07:02.159Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T12:07:02.158Z",
+    "url": "https://www.crunchbase.com/organization/iown-group"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "iown group",
+      "shortDescription": "iown is an Xbox based clan that participates in competitive Call of Duty gaming.",
+      "description": "iown is an Xbox based clan that participates in competitive Call of Duty gaming. \n\nThe company also features videos for Call of Duty Ghosts, Fifa and Minecraft.",
+      "website": "http://www.iownclan.com/",
+      "operatingStatus": "Closed",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "11-50",
+      "estimatedRevenueRange": "$1M-$10M",
+      "headquarters": "Dubai, United Arab Emirates",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Events",
+        "Gambling",
+        "Gaming"
+      ],
+      "sectors": [
+        "Events",
+        "Gaming"
+      ],
+      "founders": [
+        "Daniel Middleton"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 243813,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 3,
+      "detailedRoundCount": 3,
+      "lastFundingDate": "2016-07-01",
+      "lastFundingType": "Seed",
+      "rounds": [
+        {
+          "announcedDate": "2016-07-01",
+          "amount": {
+            "amount": 39818,
+            "currency": "USD"
+          },
+          "type": "Seed"
+        },
+        {
+          "announcedDate": "2016-03-10",
+          "amount": {
+            "amount": 171422,
+            "currency": "USD"
+          },
+          "type": "Seed"
+        },
+        {
+          "announcedDate": "2013-11-27",
+          "amount": {
+            "amount": 32573,
+            "currency": "USD"
+          },
+          "type": "Seed"
+        }
+      ]
+    },
+    "recentNews": {
+      "reportedCount": 3,
+      "includedUniqueCount": 3,
+      "items": [
+        {
+          "date": "2016-07-01",
+          "title": "Seed Round - iown group"
+        },
+        {
+          "date": "2016-03-10",
+          "title": "Seed Round - iown group"
+        },
+        {
+          "date": "2013-11-27",
+          "title": "Seed Round - iown group"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 3,
+    "knownDetailedFundingAmount": {
+      "amount": 243813,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 16.33
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "heatChange90Days": -43,
+      "heatScore": 1
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "OpTic Gaming is a professional American eSports organization.",
+          "employeeRange": "101-250",
+          "name": "OpTic Gaming",
+          "sharedCategories": [
+            "Gaming"
+          ],
+          "similarityScore": 97
+        },
+        {
+          "description": "FaZe Clan is a gaming organization known for its original content and hyper-engaged global fanbase.",
+          "employeeRange": "101-250",
+          "name": "FaZe Clan",
+          "sharedCategories": [
+            "Gaming"
+          ],
+          "similarityScore": 95
+        },
+        {
+          "description": "100 Thieves is an American e-sports, lifestyle, and apparel brand.",
+          "employeeRange": "101-250",
+          "name": "100 Thieves",
+          "similarityScore": 89
+        },
+        {
+          "description": "Cloud9 is a professional multi-game esports organization that is based in the Los Angeles, California area.",
+          "employeeRange": "11-50",
+          "name": "Cloud9",
+          "sharedCategories": [
+            "Gaming"
+          ],
+          "similarityScore": 83
+        },
+        {
+          "description": "G2 Esports is a world premier esports club representing some of the absolute best players from around the globe.",
+          "employeeRange": "101-250",
+          "name": "G2 Esports",
+          "similarityScore": 79
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Seed round raised $39,818, or 16.33% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include OpTic Gaming, FaZe Clan, 100 Thieves.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

@@ -1,0 +1,185 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T14:00:57.557Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T14:00:57.555Z",
+    "url": "https://www.crunchbase.com/organization/wyld"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Wyld",
+      "shortDescription": "Wyld is the photo & video spreading challenge: create, spread, compete, & win prizes.",
+      "description": "Wyld is a photo & video challenge app where users compete on stories (photos & videos) that disappear when people stop forwarding them to others. It's a story-spreading competition. The community can either push stories forward to others or drop them. Whether it’s mad skills, epic fails, funny bits, or other awesome moments, Wyld invites users to get creative with their stories and compete on pushes to top the ranks. Top stories on Wyld get rewarded with prizes. The app is made available for mobile and can be downloaded and accessed on a variety of mobile devices.",
+      "website": "https://www.getwyld.app/",
+      "operatingStatus": "Closed",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "1-10",
+      "headquarters": "Dubai, United Arab Emirates",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Media and Entertainment",
+        "Mobile Apps",
+        "Photo Sharing",
+        "Social Media",
+        "Video"
+      ],
+      "sectors": [
+        "Apps",
+        "Content and Publishing",
+        "Internet Services",
+        "Media and Entertainment",
+        "Mobile",
+        "Software",
+        "Video"
+      ],
+      "founders": [
+        "Ghaith Fleifel",
+        "Mustafa Chehab",
+        "Riad Chehab"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 75000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2018-04-04",
+      "lastFundingType": "Pre Seed",
+      "rounds": [
+        {
+          "announcedDate": "2018-04-04",
+          "amount": {
+            "amount": 75000,
+            "currency": "USD"
+          },
+          "type": "Pre Seed"
+        }
+      ]
+    },
+    "recentNews": {
+      "reportedCount": 1,
+      "includedUniqueCount": 1,
+      "items": [
+        {
+          "date": "2018-04-04",
+          "title": "Pre Seed Round - Wyld"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 75000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "heatChange90Days": -8,
+      "heatScore": 25
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Bunch is the first app that allows its users to play their favorite games with friends over video chat.",
+          "employeeRange": "11-50",
+          "name": "Bunch",
+          "sharedCategories": [
+            "Mobile Apps"
+          ],
+          "similarityScore": 95
+        },
+        {
+          "description": "TikTok is a short-form video entertainment app and social network platform.",
+          "employeeRange": "10,001+",
+          "name": "TikTok",
+          "sharedCategories": [
+            "Social Media",
+            "Media and Entertainment",
+            "Video"
+          ],
+          "similarityScore": 93
+        },
+        {
+          "description": "Instagram is a free photo-sharing application that enables its users to take photos, apply filters, and share them on social networks.",
+          "employeeRange": "10,001+",
+          "name": "Instagram",
+          "sharedCategories": [
+            "Social Media"
+          ],
+          "similarityScore": 91
+        },
+        {
+          "description": "The all-in-one viral marketing platform to launch your referral programs, sweepstakes, competitions and pre-launch campaigns.",
+          "employeeRange": "1-10",
+          "name": "Viral Loops",
+          "similarityScore": 85
+        },
+        {
+          "description": "Woobox allows brands to increase user engagement by creating promotional apps and customizable tabs for Facebook pages and websites.",
+          "employeeRange": "11-50",
+          "name": "Woobox",
+          "sharedCategories": [
+            "Social Media"
+          ],
+          "similarityScore": 83
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Pre Seed round raised $75,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Bunch, TikTok, Instagram.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

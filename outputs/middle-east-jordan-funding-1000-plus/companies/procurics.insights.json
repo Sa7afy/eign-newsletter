@@ -1,0 +1,286 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T13:00:32.784Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T13:00:32.782Z",
+    "url": "https://www.crunchbase.com/organization/procurics"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Procurics",
+      "shortDescription": "Procurics is a cloud-based procurement and spend management platform.",
+      "description": "Procurics is a cloud-based procurement and spend management platform designed to help businesses streamline purchasing, vendor management, and expense control processes. The platform enables organizations to manage requisitions, purchase orders, supplier relationships, approvals, and spend analysis from a centralized system.",
+      "website": "https://www.procurics.com/",
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "1-10",
+      "estimatedRevenueRange": "Less than $1M",
+      "headquarters": "Dubai, United Arab Emirates",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Enterprise Software",
+        "Procurement",
+        "SaaS",
+        "Software"
+      ],
+      "sectors": [
+        "Software",
+        "Transportation"
+      ],
+      "founders": [
+        "Wael Zeenni"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "A service that uses technology and machine learning to support and augment clients' procurement operations and staff.",
+        "name": "Procurement Outsourcing Service"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 1000000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2012-12-03",
+      "lastFundingType": "Seed",
+      "rounds": [
+        {
+          "announcedDate": "2012-12-03",
+          "amount": {
+            "amount": 1000000,
+            "currency": "USD"
+          },
+          "postMoneyValuation": {
+            "amount": 5216643,
+            "currency": "USD"
+          },
+          "type": "Seed"
+        }
+      ]
+    },
+    "recentNews": {
+      "reportedCount": 1,
+      "includedUniqueCount": 1,
+      "items": [
+        {
+          "date": "2012-12-03",
+          "title": "Seed Round - Procurics"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 1000000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": -2,
+      "growthScore": 78,
+      "heatChange90Days": -12,
+      "heatScore": 16
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 0
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 1.2,
+        "timingEstimatePercent": {
+          "within6Months": 14.7,
+          "months6To11": 12.54,
+          "months12To24": 19.82,
+          "beyond24Months": 24.91
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 86.4
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 0
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "AI-enhanced procurement & AP automation platform for the mid-market. We make it easy for organizations to control spend & save money.",
+          "employeeRange": "101-250",
+          "name": "Procurify",
+          "sharedCategories": [
+            "Procurement",
+            "SaaS",
+            "Software",
+            "Enterprise Software"
+          ],
+          "sharedSpecialties": [
+            "Invoice Processing Automation",
+            "Expense Management",
+            "Procurement and Purchasing Systems"
+          ],
+          "similarityScore": 96
+        },
+        {
+          "description": "Precoro is a provider of cloud-based spend management software for small and mid-size business.",
+          "employeeRange": "51-100",
+          "name": "Precoro",
+          "sharedCategories": [
+            "Procurement",
+            "SaaS",
+            "Software"
+          ],
+          "sharedSpecialties": [
+            "Invoice Processing Automation",
+            "Contract Lifecycle Management (CLM)",
+            "Procurement and Purchasing Systems"
+          ],
+          "similarityScore": 94
+        },
+        {
+          "description": "Coupa is a cloud platform for business spend that offers a fully unified suite of financial applications for business spend management.",
+          "employeeRange": "1,001-5,000",
+          "name": "Coupa",
+          "sharedCategories": [
+            "Procurement",
+            "Software"
+          ],
+          "sharedSpecialties": [
+            "Invoice Processing Automation",
+            "Contract Lifecycle Management (CLM)",
+            "Expense Management",
+            "Supply Chain Visibility Platforms",
+            "Indirect Procurement",
+            "Procurement and Purchasing Systems"
+          ],
+          "similarityScore": 90
+        },
+        {
+          "description": "Jaggaer is SaaS that manages spending, suppliers, contracts, sourcing, shopping, inventory and accounts payable of businesses.",
+          "employeeRange": "1,001-5,000",
+          "name": "Jaggaer",
+          "sharedCategories": [
+            "Procurement",
+            "SaaS",
+            "Software",
+            "Enterprise Software"
+          ],
+          "sharedSpecialties": [
+            "Invoice Processing Automation",
+            "Contract Lifecycle Management (CLM)",
+            "Accounts Payable Services",
+            "Supply Chain Visibility Platforms",
+            "Indirect Procurement",
+            "Procurement and Purchasing Systems"
+          ],
+          "similarityScore": 90
+        },
+        {
+          "description": "Ivalua is a leading provider of cloud-based, AI-powered Spend Management software spanning the complete Source-to-Pay process",
+          "employeeRange": "1,001-5,000",
+          "name": "Ivalua",
+          "sharedCategories": [
+            "Procurement",
+            "SaaS",
+            "Software"
+          ],
+          "sharedSpecialties": [
+            "Contract Lifecycle Management (CLM)",
+            "Accounts Payable Services",
+            "Supply Chain Visibility Platforms",
+            "Indirect Procurement",
+            "Procurement and Purchasing Systems"
+          ],
+          "similarityScore": 88
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Seed round raised $1,000,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $5,216,643 to $5,216,643, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 78 (-2 over 90 days) and market heat at 16 (-12).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Procurify, Precoro, Coupa.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

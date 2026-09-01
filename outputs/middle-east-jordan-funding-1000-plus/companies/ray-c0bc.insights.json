@@ -1,0 +1,218 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T13:07:34.161Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T13:07:34.159Z",
+    "url": "https://www.crunchbase.com/organization/ray-c0bc"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Ray",
+      "shortDescription": "Ray is a power bank sharing service with a network of portable charging stations.",
+      "description": "Ray is a technology startup in the hospitality and IoT sector that provides a power bank sharing network, allowing people to rent portable phone chargers from public locations such as restaurants, cafés, hotels, and entertainment venues.\n\nThe company is based in Dubai, United Arab Emirates and focuses on building a network of smart charging stations where users can quickly rent a portable power bank and return it at another station after use.",
+      "website": "https://stingray.ae/",
+      "foundedYear": 2025,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "1-10",
+      "headquarters": "Dubai, United Arab Emirates",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Battery",
+        "Charging Infrastructure",
+        "Energy",
+        "Power Grid"
+      ],
+      "sectors": [
+        "Energy",
+        "Transportation"
+      ],
+      "founders": [
+        "Igor Kosolap"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 1200000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2026-04-17",
+      "lastFundingType": "Seed",
+      "rounds": [
+        {
+          "announcedDate": "2026-04-17",
+          "amount": {
+            "amount": 1200000,
+            "currency": "USD"
+          },
+          "investorCount": 2,
+          "postMoneyValuation": {
+            "amount": 9924156,
+            "currency": "USD"
+          },
+          "type": "Seed"
+        }
+      ],
+      "investors": {
+        "reportedCount": 2,
+        "visibleNames": [
+          {
+            "name": "Meyrambek Abelkasov",
+            "rounds": [
+              "Seed Round"
+            ]
+          },
+          {
+            "name": "Serik Uspanov",
+            "rounds": [
+              "Seed Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 5,
+      "includedUniqueCount": 5,
+      "items": [
+        {
+          "date": "2026-05-14",
+          "title": "JetCharge acquired by Ray"
+        },
+        {
+          "date": "2026-05-14",
+          "publisher": "Zawya.com",
+          "title": "Ray acquires JetCharge to consolidate the Dubai powerbank-sharing market",
+          "url": "https://www.zawya.com/en/press-release/companies-news/ray-acquires-jetcharge-to-consolidate-the-dubai-powerbank-sharing-market-hhyqpqeg"
+        },
+        {
+          "date": "2026-04-25",
+          "publisher": "Arab News",
+          "title": "Startup Wrap: MENA startups draw capital as AI bets continue to accelerate",
+          "url": "https://www.arabnews.com/node/2641205/business-economy"
+        },
+        {
+          "date": "2026-04-20",
+          "publisher": "إنت عربي | entARABI",
+          "title": "Ray Raises $1.2M in Seed Round to Expand Portable Charging Network Across the GCC",
+          "url": "https://entarabi.com/en/2026/04/ray-raises-1-2m-in-seed-round-to-expand-portable-charging-network-across-the-gcc/"
+        },
+        {
+          "date": "2026-04-17",
+          "title": "Seed Round - Ray"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 1200000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthInsightGeneratedDate": "2026-06-28",
+      "growthChange90Days": -5,
+      "growthScore": 88,
+      "heatChange90Days": -45,
+      "heatScore": 39,
+      "status": "Growing"
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 66.73
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 93.67,
+        "timingEstimatePercent": {
+          "within6Months": 100,
+          "months6To11": 0,
+          "months12To24": 0,
+          "beyond24Months": 0
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 95.8
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 18.28
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors."
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Seed round raised $1,200,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $9,924,156 to $9,924,156, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 88 (-5 over 90 days) and market heat at 39 (-45).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

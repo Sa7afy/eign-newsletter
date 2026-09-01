@@ -1,0 +1,243 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T11:05:18.122Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T11:05:18.120Z",
+    "url": "https://www.crunchbase.com/organization/brotinni"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Brotinni",
+      "shortDescription": "Brotinni is a food tech and dark butcher solutions startup.",
+      "description": "Brotinni is a food tech and dark butcher solutions startup bringing innovation to the meat industry,",
+      "website": "http://www.brotinni.com/",
+      "foundedYear": 2020,
+      "operatingStatus": "Closed",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "51-100",
+      "headquarters": "Gîza, Al Jizah, Egypt",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Middle East",
+        "Middle East and North Africa (MENA)",
+        "North Africa"
+      ],
+      "industries": [
+        "Food and Beverage"
+      ],
+      "sectors": [
+        "Food and Beverage"
+      ],
+      "founders": [
+        "Dalia abou Omar"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 600000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 2,
+      "detailedRoundCount": 2,
+      "lastFundingDate": "2024-09-09",
+      "lastFundingType": "Venture round",
+      "rounds": [
+        {
+          "announcedDate": "2024-09-09",
+          "investorCount": 1,
+          "leadInvestors": [
+            "Entlaq Holding"
+          ],
+          "type": "Venture round"
+        },
+        {
+          "announcedDate": "2022-11-07",
+          "amount": {
+            "amount": 600000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "Innlife Investments"
+          ],
+          "type": "Seed"
+        }
+      ],
+      "investors": {
+        "reportedCount": 2,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "Entlaq Holding",
+            "rounds": [
+              "Venture round"
+            ]
+          },
+          {
+            "isLead": true,
+            "name": "Innlife Investments",
+            "rounds": [
+              "Seed Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 6,
+      "includedUniqueCount": 6,
+      "items": [
+        {
+          "date": "2024-09-13",
+          "publisher": "Incubees",
+          "title": "Egyptian food-tech startup Brotinni secured expansion funding",
+          "url": "https://incubees.com/egyptian-food-tech-startup-brotinni-secured-expansion-funding/"
+        },
+        {
+          "date": "2024-09-09",
+          "title": "Venture Round - Brotinni"
+        },
+        {
+          "date": "2022-11-08",
+          "publisher": "MAGNiTT",
+          "title": "Brotinni raises $600K SEED",
+          "url": "https://magnitt.com/news/brotinni-600k-seed-53745"
+        },
+        {
+          "date": "2022-11-07",
+          "title": "Seed Round - Brotinni"
+        },
+        {
+          "date": "2022-11-07",
+          "publisher": "Wamda News",
+          "title": "Egyptian foodtech Brotinni raises $600,000 Seed to expand “dark butcher’s” network",
+          "url": "https://www.wamda.com/2022/11/egyptian-foodtech-brotinni-raises-600000-seed-expand-dark-butchers-network"
+        },
+        {
+          "date": "2022-11-07",
+          "publisher": "Techloy",
+          "title": "Egyptian Foodtech startup, Brotinni raises $600K led by Innlife investments",
+          "url": "https://zpr.io/ayajcW7HR7GE"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 600000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "heatChange90Days": -6,
+      "heatScore": 8
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2025-10-04",
+        "probabilityPercent": 27.48
+      },
+      "funding": {
+        "generatedDate": "2025-10-04",
+        "probabilityPercent": 93.17,
+        "timingEstimatePercent": {
+          "within6Months": 100,
+          "months6To11": 0,
+          "months12To24": 0,
+          "beyond24Months": 0
+        }
+      },
+      "growth": {
+        "generatedDate": "2025-10-04",
+        "probabilityPercent": 95.03
+      },
+      "ipo": {
+        "generatedDate": "2025-10-04",
+        "probabilityPercent": 4.68
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Leading direct-to-consumer brand delivering high-quality proteins to consumers' doors.",
+          "employeeRange": "101-250",
+          "name": "ButcherBox",
+          "sharedCategories": [
+            "Food and Beverage"
+          ],
+          "similarityScore": 97
+        },
+        {
+          "description": "Crowd Cow works with small family farms to let users choose their cow and their cut.",
+          "employeeRange": "51-100",
+          "name": "Crowd Cow",
+          "sharedCategories": [
+            "Food and Beverage"
+          ],
+          "similarityScore": 95
+        },
+        {
+          "description": "Rastelli Foods Group is a meat-processing company that specializes in both fresh and frozen meats.",
+          "employeeRange": "1-10",
+          "name": "Rastelli’s",
+          "sharedCategories": [
+            "Food and Beverage"
+          ],
+          "similarityScore": 93
+        },
+        {
+          "description": "SNAKE RIVER FARMS is dedicated to delivering & maintaining the highest quality meat products so that your eating experiences are memorable.",
+          "employeeRange": "11-50",
+          "name": "Snake River Farms",
+          "similarityScore": 89
+        },
+        {
+          "description": "The Kansas City Steak Company is a provder of steaks and steak gift baskets.",
+          "employeeRange": "101-250",
+          "name": "The Kansas City Steak Company",
+          "sharedCategories": [
+            "Food and Beverage"
+          ],
+          "similarityScore": 88
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include ButcherBox, Crowd Cow, Rastelli’s.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

@@ -1,0 +1,299 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T11:52:29.831Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T11:52:29.828Z",
+    "url": "https://www.crunchbase.com/organization/gooo-delivery"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Goooo Delivery",
+      "shortDescription": "Goooo Delivery is a delivery platform connecting users with local merchants and runners for food, grocery, and everyday deliveries.",
+      "description": "Gooo Delivery is an on-demand delivery company that provides point-to-point delivery services in several Egyptian cities, including Cairo, Giza, and Tanta, via an app that allows users to order food, medication, and groceries. To protect the rights of all parties, the app connects users with verified independent runners who are supervised by the app.",
+      "website": "https://goooapp.com/",
+      "foundedYear": 2020,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "11-50",
+      "headquarters": "Gîza, Al Jizah, Egypt",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Middle East",
+        "Middle East and North Africa (MENA)",
+        "North Africa"
+      ],
+      "industries": [
+        "Apps",
+        "Food Delivery",
+        "Software"
+      ],
+      "sectors": [
+        "Apps",
+        "Food and Beverage",
+        "Software",
+        "Transportation"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "A mobile app that connects users with delivery service providers to purchase and deliver various items across Egypt.",
+        "name": "GOOO Delivery Mobile Application"
+      },
+      {
+        "description": "Independent delivery agents registered on the app who fulfill purchase and delivery requests based on user-selected offers.",
+        "name": "GOOO Runners Service"
+      },
+      {
+        "description": "A system that allows delivery agents to submit competitive price offers for fulfilling delivery requests, enabling users to choose the most suitable option.",
+        "name": "Delivery Bidding System"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 5000000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2022-05-26",
+      "lastFundingType": "Pre Seed",
+      "rounds": [
+        {
+          "announcedDate": "2022-05-26",
+          "amount": {
+            "amount": 5000000,
+            "currency": "USD"
+          },
+          "postMoneyValuation": {
+            "amount": 21444672,
+            "currency": "USD"
+          },
+          "type": "Pre Seed"
+        }
+      ]
+    },
+    "recentNews": {
+      "reportedCount": 3,
+      "includedUniqueCount": 3,
+      "items": [
+        {
+          "date": "2022-05-27",
+          "publisher": "Tech Moran",
+          "title": "Egyptian on-demand delivery startup Gooo Delivery raises pre-Seed round for expansion.",
+          "url": "https://techmoran.com/2022/05/26/egyptian-on-demand-delivery-startup-gooo-delivery-raises-pre-seed-round-for-expansion/"
+        },
+        {
+          "date": "2022-05-26",
+          "title": "Pre Seed Round - Goooo Delivery"
+        },
+        {
+          "date": "2022-05-26",
+          "publisher": "Wamda News",
+          "title": "Gooo Delivery raises pre-Seed round",
+          "url": "https://www.wamda.com/2022/05/gooo-delivery-raises-pre-seed-round"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 5000000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": 2,
+      "growthScore": 34,
+      "heatChange90Days": 1,
+      "heatScore": 29
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 39.02
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 23.87,
+        "timingEstimatePercent": {
+          "within6Months": 15.34,
+          "months6To11": 12.98,
+          "months12To24": 20.3,
+          "beyond24Months": 24.98
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 73.76
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 52.55
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Talabat is a global online food ordering and delivery marketplace family delivery.",
+          "employeeRange": "5,001-10,000",
+          "name": "Talabat",
+          "sharedCategories": [
+            "Food Delivery"
+          ],
+          "similarityScore": 97
+        },
+        {
+          "description": "Mrsool is a delivery platform that provides a wide fleet of registered on-demand courier service.",
+          "employeeRange": "251-500",
+          "name": "Mrsool",
+          "sharedCategories": [
+            "Food Delivery",
+            "Apps",
+            "Software"
+          ],
+          "sharedSpecialties": [
+            "Last Mile Delivery",
+            "Same-Day and On-Demand Courier Services",
+            "Food Delivery Marketplace",
+            "Grocery Delivery",
+            "Pharmacy Delivery Services",
+            "Hyperlocal Shopping Apps",
+            "Quick Commerce and Instant Delivery",
+            "Crowdsourced Delivery"
+          ],
+          "similarityScore": 95
+        },
+        {
+          "description": "Glovo is a courier service that purchases, picks up, and delivers products ordered through its mobile application.",
+          "employeeRange": "1,001-5,000",
+          "name": "Glovo",
+          "sharedCategories": [
+            "Food Delivery"
+          ],
+          "sharedSpecialties": [
+            "Last Mile Delivery",
+            "Same-Day and On-Demand Courier Services",
+            "Food Delivery Marketplace",
+            "Grocery Delivery",
+            "Hyperlocal Shopping Apps",
+            "Quick Commerce and Instant Delivery",
+            "E-Commerce Mobile Apps",
+            "Crowdsourced Delivery",
+            "Route Optimization and Fleet Tracking"
+          ],
+          "similarityScore": 93
+        },
+        {
+          "description": "InstaShop is an online marketplace for supermarkets, pharmacies, pet shops, and other businesses.",
+          "employeeRange": "501-1,000",
+          "name": "InstaShop",
+          "sharedSpecialties": [
+            "Last Mile Delivery",
+            "Food Delivery Marketplace",
+            "Grocery Delivery",
+            "Hyperlocal Shopping Apps",
+            "Quick Commerce and Instant Delivery",
+            "Instant Grocery Delivery",
+            "E-Commerce Mobile Apps",
+            "Crowdsourced Delivery"
+          ],
+          "similarityScore": 91
+        },
+        {
+          "description": "Breadfast delivers household essentials, bakeries, groceries, fruits, veggies, and more than 3,000 items in minutes.",
+          "employeeRange": "501-1,000",
+          "name": "Breadfast",
+          "sharedCategories": [
+            "Food Delivery"
+          ],
+          "sharedSpecialties": [
+            "Last Mile Delivery",
+            "Same-Day and On-Demand Courier Services",
+            "Grocery Delivery",
+            "Hyperlocal Shopping Apps",
+            "Quick Commerce and Instant Delivery",
+            "E-Commerce Mobile Apps",
+            "Route Optimization and Fleet Tracking"
+          ],
+          "similarityScore": 89
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Pre Seed round raised $5,000,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $21,444,672 to $21,444,672, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 34 (+2 over 90 days) and market heat at 29 (+1).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Talabat, Mrsool, Glovo.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

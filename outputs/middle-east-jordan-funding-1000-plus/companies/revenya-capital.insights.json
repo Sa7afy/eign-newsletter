@@ -1,0 +1,301 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T13:10:56.614Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T13:10:56.612Z",
+    "url": "https://www.crunchbase.com/organization/revenya-capital"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Revenya Capital",
+      "shortDescription": "Revenya Capital is capable of delivering rapid, data-driven financing decisions.",
+      "description": "Revenya Capital, providing revenue-based financing to tech startups in MENA.",
+      "website": "https://www.revenya.com/",
+      "foundedYear": 2024,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "1-10",
+      "headquarters": "Riyadh, Ar Riyad, Saudi Arabia",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Artificial Intelligence (AI)",
+        "Finance",
+        "Financial Services"
+      ],
+      "sectors": [
+        "Artificial Intelligence (AI)",
+        "Data and Analytics",
+        "Financial Services",
+        "Science and Engineering",
+        "Software"
+      ],
+      "founders": [
+        "Ahmad Takatkah"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "A financing option where companies receive capital in exchange for a percentage of future monthly revenue, with repayments varying based on revenue performance.",
+        "name": "Revenue-Based Financing (RBF)"
+      },
+      {
+        "description": "An AI/ML-driven system that analyzes company data to assess financial health, revenue stability, growth potential, and risk profile for financing decisions.",
+        "name": "AI-Powered Financial Data Analysis and Decisioning"
+      },
+      {
+        "description": "Financing with repayments based on a percentage of monthly revenue and adaptable terms that evolve with the company's growth and revenue patterns.",
+        "name": "Flexible Repayment and Dynamic Financing Terms"
+      },
+      {
+        "description": "A dashboard providing real-time insights and predictions on a startup’s financial health using AI analytics.",
+        "name": "Insightful AI-Powered Dashboard"
+      },
+      {
+        "description": "Financing solutions that comply with Islamic Shariah principles, ensuring ethical investment practices.",
+        "name": "Shariah Compliant Financing"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 2000000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 2,
+      "detailedRoundCount": 2,
+      "lastFundingDate": "2024-11-05",
+      "lastFundingType": "Seed",
+      "rounds": [
+        {
+          "announcedDate": "2024-11-05",
+          "investorCount": 1,
+          "leadInvestors": [
+            "Arzan Financial Group"
+          ],
+          "type": "Debt Financing"
+        },
+        {
+          "announcedDate": "2024-11-05",
+          "amount": {
+            "amount": 2000000,
+            "currency": "USD"
+          },
+          "investorCount": 2,
+          "postMoneyValuation": {
+            "amount": 12911309,
+            "currency": "USD"
+          },
+          "type": "Seed"
+        }
+      ],
+      "investors": {
+        "reportedCount": 2,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "Arzan Financial Group",
+            "rounds": [
+              "Seed Round",
+              "Debt Financing"
+            ]
+          },
+          {
+            "name": "Arzan Venture Capital",
+            "rounds": [
+              "Seed Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 2,
+      "includedUniqueCount": 2,
+      "items": [
+        {
+          "date": "2024-11-05",
+          "title": "Debt Financing - Revenya Capital"
+        },
+        {
+          "date": "2024-11-05",
+          "title": "Seed Round - Revenya Capital"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 2000000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": -3,
+      "growthScore": 82,
+      "heatChange90Days": -1,
+      "heatScore": 14
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 95.16
+      },
+      "funding": {
+        "generatedDate": "2026-06-20",
+        "probabilityPercent": 89.27,
+        "timingEstimatePercent": {
+          "within6Months": 99.81,
+          "months6To11": 0,
+          "months12To24": 0,
+          "beyond24Months": 0.19
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 87.81
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 3.98
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Pipe is a global trading platform for recurring revenue streams.",
+          "employeeRange": "101-250",
+          "name": "Pipe",
+          "sharedCategories": [
+            "Financial Services",
+            "Finance"
+          ],
+          "sharedSpecialties": [
+            "Working Capital Loans",
+            "Revenue-Based Financing",
+            "Recurring Billing and Subscription Management"
+          ],
+          "similarityScore": 97
+        },
+        {
+          "description": "Capchase is a fintech company that provides AI-driven vendor financing and B2B buy-now-pay-later tools.",
+          "employeeRange": "101-250",
+          "name": "Capchase",
+          "sharedCategories": [
+            "Financial Services",
+            "Artificial Intelligence (AI)"
+          ],
+          "sharedSpecialties": [
+            "Cash Flow Management",
+            "Revenue-Based Financing",
+            "Recurring Billing and Subscription Management",
+            "Payment Analytics and Dashboard"
+          ],
+          "similarityScore": 95
+        },
+        {
+          "description": "Founderpath helps SaaS founders get capital without having to raise equity.",
+          "employeeRange": "1-10",
+          "name": "Founderpath",
+          "sharedCategories": [
+            "Financial Services",
+            "Finance"
+          ],
+          "sharedSpecialties": [
+            "Working Capital Loans",
+            "Loan Management Systems",
+            "Cash Flow Management",
+            "Revenue-Based Financing",
+            "Alternative Credit Data and Scoring"
+          ],
+          "similarityScore": 93
+        },
+        {
+          "description": "Lighter Capital offers tech entrepreneurs with access to non-dilutive financing to help grow their companies without giving up equity.",
+          "employeeRange": "11-50",
+          "name": "Lighter Capital",
+          "sharedCategories": [
+            "Financial Services"
+          ],
+          "similarityScore": 91
+        },
+        {
+          "description": "Decathlon Capital Partners is a leading provider of growth capital for established companies.",
+          "employeeRange": "1-10",
+          "name": "Decathlon Capital Partners",
+          "sharedCategories": [
+            "Financial Services"
+          ],
+          "similarityScore": 89
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $12,911,309 to $12,911,309, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 82 (-3 over 90 days) and market heat at 14 (-1).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Pipe, Capchase, Founderpath.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

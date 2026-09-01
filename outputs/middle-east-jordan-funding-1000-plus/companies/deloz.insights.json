@@ -1,0 +1,267 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T11:22:17.271Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T11:22:17.268Z",
+    "url": "https://www.crunchbase.com/organization/deloz"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Deloz",
+      "shortDescription": "Deloz is a sales automation platform that helps companies to streamline their sales process and globally scale their businesses.",
+      "description": "Deloz is a sales and marketing SaaS platform for companies to organize their entire sales process . The platform helps users to build long term relationships with their customers by remembering each and every detail of their interaction.",
+      "website": "https://deloz.io/",
+      "operatingStatus": "Closed",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "11-50",
+      "estimatedRevenueRange": "Less than $1M",
+      "headquarters": "Dubai, United Arab Emirates",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Marketing",
+        "Sales Automation",
+        "Software"
+      ],
+      "sectors": [
+        "Sales and Marketing",
+        "Software"
+      ],
+      "founders": [
+        "Farooq A Rahim",
+        "Vyshakh Nair"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "A platform that manages the entire sales cycle including lead collection, follow-up, automated emails, conversion, and customer retention.",
+        "name": "Sales Automation Platform"
+      },
+      {
+        "description": "A VOIP calling service providing local phone numbers in over 150 countries to facilitate global business communication.",
+        "name": "VOIP Calling with Local Numbers"
+      },
+      {
+        "description": "A shared email inbox that allows real-time visibility and assignment of sales-related communications among team members.",
+        "name": "Shared Inbox"
+      },
+      {
+        "description": "A tool to set rules for sending periodic and scheduled emails to nurture leads and maintain customer relationships.",
+        "name": "Email Workflow Automation"
+      },
+      {
+        "description": "A system to monitor sales activities, track representative performance, and analyze sales data for decision-making.",
+        "name": "Sales Activity and Performance Tracking"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 1100000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 2,
+      "detailedRoundCount": 2,
+      "lastFundingDate": "2017-04-05",
+      "lastFundingType": "Series A",
+      "rounds": [
+        {
+          "announcedDate": "2017-04-05",
+          "amount": {
+            "amount": 1000000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "SandLayer Ventures"
+          ],
+          "postMoneyValuation": {
+            "amount": 6093287,
+            "currency": "USD"
+          },
+          "type": "Series A"
+        },
+        {
+          "announcedDate": "2016-12-25",
+          "amount": {
+            "amount": 100000,
+            "currency": "USD"
+          },
+          "investorCount": 2,
+          "leadInvestors": [
+            "Farooq A Rahim"
+          ],
+          "postMoneyValuation": {
+            "amount": 1074336,
+            "currency": "USD"
+          },
+          "type": "Seed"
+        }
+      ],
+      "investors": {
+        "reportedCount": 3,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "Farooq A Rahim",
+            "rounds": [
+              "Seed Round"
+            ]
+          },
+          {
+            "isLead": true,
+            "name": "SandLayer Ventures",
+            "rounds": [
+              "Series A"
+            ]
+          },
+          {
+            "name": "Vyshakh Nair",
+            "rounds": [
+              "Seed Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 2,
+      "includedUniqueCount": 2,
+      "items": [
+        {
+          "date": "2017-04-05",
+          "title": "Series A - Deloz"
+        },
+        {
+          "date": "2016-12-25",
+          "title": "Seed Round - Deloz"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 2,
+    "knownDetailedFundingAmount": {
+      "amount": 1100000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 90.91,
+    "latestToEarliestKnownValuationMultiple": 5.67
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "heatChange90Days": -10,
+      "heatScore": 54
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Outreach is a sales engagement platform that uses AI for predictive analytics as it relates to sales.",
+          "employeeRange": "501-1,000",
+          "name": "Outreach",
+          "similarityScore": 97
+        },
+        {
+          "description": "Our industry-leading Revenue Orchestration Platform uses purpose-built AI to help teams prioritize and take action on what matters most.",
+          "employeeRange": "501-1,000",
+          "name": "Salesloft",
+          "sharedCategories": [
+            "Sales Automation"
+          ],
+          "similarityScore": 95
+        },
+        {
+          "description": "Reply is the leading AI-powered sales engagement platform that automates multichannel touchpoints throughout the sales process.",
+          "employeeRange": "51-100",
+          "name": "Reply.io",
+          "sharedCategories": [
+            "Sales Automation",
+            "Software"
+          ],
+          "similarityScore": 91
+        },
+        {
+          "description": "Building the industry’s first fully agentic GTM platform, transforming how revenue teams execute",
+          "employeeRange": "501-1,000",
+          "name": "Apollo.io",
+          "sharedCategories": [
+            "Sales Automation",
+            "Software"
+          ],
+          "similarityScore": 90
+        },
+        {
+          "description": "Mixmax is a sales engagement platform that helps sales and customer success teams accelerate revenue at every stage of the customer journey.",
+          "employeeRange": "101-250",
+          "name": "Mixmax",
+          "sharedCategories": [
+            "Software"
+          ],
+          "similarityScore": 89
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Series A round raised $1,000,000, or 90.91% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $1,074,336 to $6,093,287, a 5.67x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Outreach, Salesloft, Reply.io.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

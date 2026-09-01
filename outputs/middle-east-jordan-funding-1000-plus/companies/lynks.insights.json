@@ -1,0 +1,184 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T12:22:53.158Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T12:22:53.156Z",
+    "url": "https://www.crunchbase.com/organization/lynks"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Lynks",
+      "shortDescription": "Lynks Inc. provides browsing solutions for various online stores for clients in Egypt.",
+      "description": "Lynks is an e-commerce company that makes high demand products accessible to people in developing countries.",
+      "website": "https://www.lynks.com/",
+      "foundedYear": 2014,
+      "operatingStatus": "Closed",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "51-100",
+      "estimatedRevenueRange": "Less than $1M",
+      "headquarters": "Alexandria, Al Iskandariyah, Egypt",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Middle East",
+        "Middle East and North Africa (MENA)",
+        "North Africa"
+      ],
+      "industries": [
+        "E-Commerce",
+        "Online Auctions",
+        "Shipping",
+        "Shopping"
+      ],
+      "sectors": [
+        "Commerce and Shopping",
+        "Transportation"
+      ],
+      "founders": [
+        "Mohamed Ezzat",
+        "Moustafa Eid"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 240000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 2,
+      "detailedRoundCount": 2,
+      "lastFundingDate": "2017-03-02",
+      "lastFundingType": "Pre Seed",
+      "rounds": [
+        {
+          "announcedDate": "2017-03-02",
+          "amount": {
+            "amount": 120000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "NFX"
+          ],
+          "type": "Pre Seed"
+        },
+        {
+          "announcedDate": "2016-03-22",
+          "amount": {
+            "amount": 120000,
+            "currency": "USD"
+          },
+          "investorCount": 2,
+          "type": "Seed"
+        }
+      ],
+      "investors": {
+        "reportedCount": 3,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "NFX",
+            "rounds": [
+              "Pre Seed Round"
+            ]
+          },
+          {
+            "name": "Plug and Play",
+            "rounds": [
+              "Seed Round"
+            ]
+          },
+          {
+            "name": "Y Combinator",
+            "rounds": [
+              "Seed Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 3,
+      "includedUniqueCount": 3,
+      "items": [
+        {
+          "date": "2023-12-07",
+          "publisher": "globallegalchronicle.com",
+          "title": "Bundl Technologies’ Acquisition of Lynks Logistics",
+          "url": "https://globallegalchronicle.com/bundl-technologies-acquisition-of-lynks-logistics/"
+        },
+        {
+          "date": "2017-03-02",
+          "title": "Pre Seed Round - Lynks"
+        },
+        {
+          "date": "2016-03-22",
+          "title": "Seed Round - Lynks"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 2,
+    "knownDetailedFundingAmount": {
+      "amount": 240000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 50
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "heatChange90Days": -8,
+      "heatScore": 33
+    },
+    "modelPredictions": {
+      "funding": {
+        "generatedDate": "2025-12-06",
+        "probabilityPercent": 5.14,
+        "timingEstimatePercent": {
+          "within6Months": 15.38,
+          "months6To11": 13.01,
+          "months12To24": 20.33,
+          "beyond24Months": 24.98
+        }
+      },
+      "growth": {
+        "generatedDate": "2025-12-06",
+        "probabilityPercent": 95.23
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors."
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Pre Seed round raised $120,000, or 50% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

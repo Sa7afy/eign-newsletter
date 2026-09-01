@@ -1,0 +1,224 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T12:39:41.622Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T12:39:41.620Z",
+    "url": "https://www.crunchbase.com/organization/mystery-bag"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Mystery Bag",
+      "shortDescription": "Mystery Bag offers a digital solution to reduce food waste and unsold inventory through smart redistribution.",
+      "website": "https://mysterybag.app/",
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "1-10",
+      "headquarters": "Gîza, Al Jizah, Egypt",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Middle East",
+        "Middle East and North Africa (MENA)",
+        "North Africa"
+      ],
+      "industries": [
+        "Artificial Intelligence (AI)",
+        "Business Intelligence",
+        "Digital Signage"
+      ],
+      "sectors": [
+        "Artificial Intelligence (AI)",
+        "Data and Analytics",
+        "Sales and Marketing",
+        "Science and Engineering",
+        "Software"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 9888,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2025-08-07",
+      "lastFundingType": "Non Equity Assistance",
+      "rounds": [
+        {
+          "announcedDate": "2025-08-07",
+          "amount": {
+            "amount": 9888,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "Technology Innovation and Entrepreneurship Center"
+          ],
+          "type": "Non Equity Assistance"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "Technology Innovation and Entrepreneurship Center",
+            "rounds": [
+              "Non Equity Assistance"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 4,
+      "includedUniqueCount": 4,
+      "items": [
+        {
+          "date": "2025-09-01",
+          "publisher": "Techgist Africa | Africa Leading Tech News, Reviews and Tips",
+          "title": "Egypt’s Start IT Programme Welcomes Eight Innovative Startups in 47th Cohort",
+          "url": "https://techgistafrica.com/middle-east-and-africa/egypts-start-it-programme-welcomes-eight-innovative-startups-in-47th-cohort/"
+        },
+        {
+          "date": "2025-08-21",
+          "publisher": "AllAfrica.com",
+          "title": "Egypt: Eight Startups Join Egypt's Flagship Start It Incubation Programme",
+          "url": "https://allafrica.com/stories/202508210625.html"
+        },
+        {
+          "date": "2025-08-21",
+          "publisher": "Disrupt Africa",
+          "title": "8 Egyptian startups selected for latest Flagship Start IT programme",
+          "url": "https://disruptafrica.com/2025/08/21/8-egyptian-startups-selected-for-latest-flagship-start-it-programme/"
+        },
+        {
+          "date": "2025-08-07",
+          "title": "Non Equity Assistance - Mystery Bag"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 9888,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": 1,
+      "growthScore": 51,
+      "heatChange90Days": -9,
+      "heatScore": 24
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 28.69
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 87.89
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 15.72
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Too Good To Go is a platform to save surplus food and no food waste.",
+          "employeeRange": "1,001-5,000",
+          "name": "Too Good To Go",
+          "similarityScore": 97
+        },
+        {
+          "description": "Grab before it's too late!",
+          "employeeRange": "11-50",
+          "name": "Foodsi",
+          "similarityScore": 89
+        },
+        {
+          "description": "We provide retailers and shoppers an affordable, simple solution to feed families, not landfills.",
+          "employeeRange": "51-100",
+          "name": "Flashfood",
+          "similarityScore": 87
+        },
+        {
+          "description": "Goodie Bag helps to connect customers to local shops by providing a marketplace solution for surplus food.",
+          "employeeRange": "1-10",
+          "name": "Goodie Bag",
+          "similarityScore": 86
+        },
+        {
+          "description": "Olio is a mobile application that provides waste management services.",
+          "employeeRange": "51-100",
+          "name": "Olio",
+          "similarityScore": 85
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Non Equity Assistance round raised $9,888, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 51 (+1 over 90 days) and market heat at 24 (-9).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Too Good To Go, Foodsi, Flashfood.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

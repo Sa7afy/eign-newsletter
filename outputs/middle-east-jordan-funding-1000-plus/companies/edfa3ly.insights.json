@@ -1,0 +1,194 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T11:29:24.742Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T11:29:24.741Z",
+    "url": "https://www.crunchbase.com/organization/edfa3ly"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Edfa3ly",
+      "shortDescription": "Edfa3ly is an e-commerce retailer that enables shoppers from the Middle East and Africa to order anything they please from U.S.",
+      "description": "Edfa3ly.com is a personal shopper offering its customers to shop from any US Store/website, and have their ordered items shipped right to their doorstep in the case of physical merchandise, or downloaded to their computer in the case of any software.",
+      "website": "https://www.edfa3ly.com/",
+      "foundedYear": 2011,
+      "operatingStatus": "Closed",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "51-100",
+      "estimatedRevenueRange": "Less than $1M",
+      "headquarters": "Cairo, Al Qahirah, Egypt",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Middle East",
+        "Middle East and North Africa (MENA)",
+        "North Africa"
+      ],
+      "industries": [
+        "E-Commerce",
+        "Facilities Support Services",
+        "Shopping"
+      ],
+      "sectors": [
+        "Administrative Services",
+        "Commerce and Shopping"
+      ],
+      "founders": [
+        "Ahmed Habashy",
+        "Mohamed Attya",
+        "Mohammad Hesham Shalaby"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 1750000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 4,
+      "detailedRoundCount": 4,
+      "lastFundingDate": "2017-02-05",
+      "lastFundingType": "Series B",
+      "rounds": [
+        {
+          "announcedDate": "2017-02-05",
+          "amount": {
+            "amount": 1000000,
+            "currency": "USD"
+          },
+          "investorCount": 3,
+          "leadInvestors": [
+            "500 Global"
+          ],
+          "type": "Series B"
+        },
+        {
+          "announcedDate": "2017-01-01",
+          "amount": {
+            "amount": 600000,
+            "currency": "USD"
+          },
+          "type": "Convertible note"
+        },
+        {
+          "announcedDate": "2013-08-12",
+          "investorCount": 2,
+          "type": "Series A"
+        },
+        {
+          "announcedDate": "2013-05-31",
+          "amount": {
+            "amount": 150000,
+            "currency": "USD"
+          },
+          "type": "Seed"
+        }
+      ],
+      "investors": {
+        "reportedCount": 5,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "500 Global",
+            "rounds": [
+              "Series B"
+            ]
+          },
+          {
+            "name": "ACE & Company",
+            "rounds": [
+              "Series B"
+            ]
+          },
+          {
+            "name": "Endure Capital",
+            "rounds": [
+              "Series A"
+            ]
+          },
+          {
+            "name": "Tamkeen",
+            "rounds": [
+              "Series B"
+            ]
+          },
+          {
+            "name": "Tamkeen Capital",
+            "rounds": [
+              "Series A"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 4,
+      "includedUniqueCount": 4,
+      "items": [
+        {
+          "date": "2017-02-05",
+          "title": "Series B - Edfa3ly"
+        },
+        {
+          "date": "2017-01-01",
+          "title": "Convertible Note - Edfa3ly"
+        },
+        {
+          "date": "2013-08-12",
+          "title": "Series A - Edfa3ly"
+        },
+        {
+          "date": "2013-05-31",
+          "title": "Seed Round - Edfa3ly"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 3,
+    "knownDetailedFundingAmount": {
+      "amount": 1750000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 57.14
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "heatChange90Days": -5,
+      "heatScore": 39
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors."
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Series B round raised $1,000,000, or 57.14% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

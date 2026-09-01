@@ -1,0 +1,2848 @@
+{
+  "sourceUrl": "https://www.crunchbase.com/organization/smart-balloon",
+  "pageTitle": "smart-balloon",
+  "scrapedAt": "2026-09-01T13:26:40.964Z",
+  "extraction": {
+    "authenticated": true,
+    "method": "curl-cffi-authenticated-entity-fetch-no-browser"
+  },
+  "organization": {
+    "properties": {
+      "facet_ids": [
+        "builtwith",
+        "company",
+        "rank",
+        "siftery"
+      ],
+      "identifier": {
+        "uuid": "2634853c-b180-b67c-1642-ee2de7316ca8",
+        "value": "Smart Balloon",
+        "image_id": "v1397186460/d4b82a1f1776c9663874d348c2625658.png",
+        "permalink": "smart-balloon",
+        "entity_def_id": "organization"
+      },
+      "category_groups": [
+        {
+          "uuid": "02a6e7d3-36d8-8fcb-c284-c4db17e268c1",
+          "value": "Gaming",
+          "permalink": "gaming-02a6",
+          "entity_def_id": "category_group"
+        }
+      ],
+      "short_description": "Smart Balloon was a games company.",
+      "investor_identifiers": [
+        {
+          "uuid": "b5d0d7dd-cfc2-4c56-9ed4-847db73f8cee",
+          "value": "Union Square Ventures",
+          "image_id": "m55dmtzuaacwuqc2lmug",
+          "permalink": "union-square-ventures",
+          "entity_def_id": "organization"
+        }
+      ],
+      "rank_delta_d90": 0.1,
+      "title": "Smart Balloon"
+    },
+    "cards": {
+      "semrush_summary": {
+        "identifier": {
+          "uuid": "2634853c-b180-b67c-1642-ee2de7316ca8",
+          "value": "Smart Balloon",
+          "image_id": "v1397186460/d4b82a1f1776c9663874d348c2625658.png",
+          "permalink": "smart-balloon",
+          "entity_def_id": "organization"
+        }
+      },
+      "key_employee_change_list": [],
+      "apptopia_attribution": {},
+      "diversity_spotlight_investments_headline": {},
+      "apptopia_app_rating_list": [],
+      "funds_summary": {
+        "identifier": {
+          "uuid": "2634853c-b180-b67c-1642-ee2de7316ca8",
+          "value": "Smart Balloon",
+          "image_id": "v1397186460/d4b82a1f1776c9663874d348c2625658.png",
+          "permalink": "smart-balloon",
+          "entity_def_id": "organization"
+        }
+      },
+      "funding_prediction": [],
+      "company_about_fields1": {},
+      "current_advisors_image_list": [],
+      "recommended_search": [
+        {
+          "identifier": {
+            "permalink": "closed-video-games-companies",
+            "image_id": "oywpnwctkoccwwqlsctj",
+            "uuid": "a8765a42-25a9-44f6-9958-26880e07e707",
+            "entity_def_id": "hub",
+            "value": "Closed Video Games Companies"
+          },
+          "org_identifiers": [
+            {
+              "permalink": "lowkey-2a15",
+              "image_id": "oywpnwctkoccwwqlsctj",
+              "uuid": "75923603-1bb6-40f5-a206-e74f275c2a15",
+              "entity_def_id": "organization",
+              "value": "Lowkey"
+            },
+            {
+              "permalink": "caffeine",
+              "image_id": "rozmldmuwtywf1atbj3p",
+              "uuid": "84108f13-c1fd-0b9e-3afa-154843a7392e",
+              "entity_def_id": "organization",
+              "value": "Caffeine"
+            },
+            {
+              "permalink": "maximum-games",
+              "image_id": "v1418878244/duvdzrb18iczdzo2i9jm.png",
+              "uuid": "d3a62d67-8180-1c5c-90b7-74c88be8ecd5",
+              "entity_def_id": "organization",
+              "value": "Maximum Games"
+            },
+            {
+              "permalink": "lifeforce-games",
+              "image_id": "uno9tojb4rgxmyhv3nqt",
+              "uuid": "fe6461cd-6409-43e5-b801-c419ae312d97",
+              "entity_def_id": "organization",
+              "value": "LifeForce Games"
+            },
+            {
+              "permalink": "redbox",
+              "image_id": "v1397187688/bbe223d0593a8e3fb8c1b82796468611.jpg",
+              "uuid": "8d990460-9b18-6438-8a75-8168f0c3b3f2",
+              "entity_def_id": "organization",
+              "value": "Redbox"
+            },
+            {
+              "permalink": "ziva-dynamics",
+              "image_id": "zhhr2ngny5vfjln4qtda",
+              "uuid": "0aa847ed-cd2b-1780-8797-d3dbac395b40",
+              "entity_def_id": "organization",
+              "value": "Ziva Dynamics"
+            },
+            {
+              "permalink": "vindex",
+              "image_id": "axpmtznqctvjj6tsnyng",
+              "uuid": "978bd8fc-361d-4366-a0f5-6a3531eca71f",
+              "entity_def_id": "organization",
+              "value": "Vindex"
+            },
+            {
+              "permalink": "tlm-partners-inc",
+              "image_id": "kpvfwoswgvdtx6y9ccyw",
+              "uuid": "310cf164-ee61-40e2-8594-c914cfef1002",
+              "entity_def_id": "organization",
+              "value": "TLM Partners"
+            }
+          ],
+          "org_funding_total": {
+            "currency": "USD",
+            "value": 4317672061,
+            "value_usd": 4317672061
+          },
+          "org_num_investors": 1352,
+          "org_num": 1684,
+          "queries": {
+            "event": [
+              {
+                "field_id": "categories",
+                "operator_id": "includes",
+                "values": [
+                  "dabab6af-bf12-00ca-b185-85cead095097"
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "principal.has_event.forward",
+                "query": [
+                  {
+                    "field_id": "facet_ids",
+                    "operator_id": "includes",
+                    "values": [
+                      "company"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "closed"
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ],
+            "organization": [
+              {
+                "field_id": "facet_ids",
+                "operator_id": "includes",
+                "values": [
+                  "company"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "categories",
+                "operator_id": "includes",
+                "values": [
+                  "dabab6af-bf12-00ca-b185-85cead095097"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "operating_status",
+                "operator_id": "eq",
+                "values": [
+                  "closed"
+                ],
+                "type": "predicate"
+              }
+            ],
+            "person": [
+              {
+                "collection_id": "organization.has_primary_organization.forward",
+                "query": [
+                  {
+                    "field_id": "facet_ids",
+                    "operator_id": "includes",
+                    "values": [
+                      "company"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "categories",
+                    "operator_id": "includes",
+                    "values": [
+                      "dabab6af-bf12-00ca-b185-85cead095097"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "closed"
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ]
+          }
+        },
+        {
+          "identifier": {
+            "permalink": "union-square-ventures-portfolio-companies",
+            "image_id": "m55dmtzuaacwuqc2lmug",
+            "uuid": "7f6025c5-650d-439a-a773-4b9795179cf7",
+            "entity_def_id": "hub",
+            "value": "Union Square Ventures Portfolio Companies"
+          },
+          "org_identifiers": [
+            {
+              "permalink": "stripe",
+              "image_id": "82700c1a09d149ef87c707c065d73317",
+              "uuid": "6f83ddd7-d637-61f8-06b2-438a0037605f",
+              "entity_def_id": "organization",
+              "value": "Stripe"
+            },
+            {
+              "permalink": "suno-279f",
+              "image_id": "292782fb29c64d878218799bdc3aa7c7",
+              "uuid": "0b9d551e-c67a-4eed-9ede-caa17010279f",
+              "entity_def_id": "organization",
+              "value": "Suno"
+            },
+            {
+              "permalink": "generalist-ai",
+              "image_id": "2cae867c7e734bdbae55b01334cca8a3",
+              "uuid": "4fc1f9bd-255b-402f-97dd-8887d02ef771",
+              "entity_def_id": "organization",
+              "value": "Generalist AI"
+            },
+            {
+              "permalink": "soundcloud",
+              "image_id": "v1503466939/frxpcdzbq1ghiddnnvh9.png",
+              "uuid": "19ca49d2-abcc-2aab-5056-b281800fbd4e",
+              "entity_def_id": "organization",
+              "value": "SoundCloud"
+            },
+            {
+              "permalink": "fomo-ac27",
+              "image_id": "45bd5caeaa204488acbdd9fa8b7a0b20",
+              "uuid": "23a25e07-c8ac-4f2a-aa5a-0c07f34eac27",
+              "entity_def_id": "organization",
+              "value": "fomo"
+            },
+            {
+              "permalink": "hailo-technologies",
+              "image_id": "a54fad4770eb4dc9b6061b323db1e4a5",
+              "uuid": "d5de3727-60b0-4ddd-904d-b93297993496",
+              "entity_def_id": "organization",
+              "value": "Hailo"
+            },
+            {
+              "permalink": "duck-duck-go",
+              "image_id": "v1409630385/bpegl8zp6c81euikfx7j.png",
+              "uuid": "29023897-a26e-4c49-3e1f-0456a2b786e1",
+              "entity_def_id": "organization",
+              "value": "DuckDuckGo"
+            },
+            {
+              "permalink": "radiant",
+              "image_id": "hjhlq03umn6qhnike3cp",
+              "uuid": "a827d09c-2524-45ee-8587-5057e7ba9c3a",
+              "entity_def_id": "organization",
+              "value": "Radiant"
+            }
+          ],
+          "org_funding_total": {
+            "currency": "USD",
+            "value": 70918666020,
+            "value_usd": 70918666020
+          },
+          "org_num_investors": 4374,
+          "org_num": 264,
+          "queries": {
+            "event": [
+              {
+                "collection_id": "principal.has_event.forward",
+                "query": [
+                  {
+                    "field_id": "identifier",
+                    "operator_id": "includes",
+                    "values": [
+                      "b5d0d7dd-cfc2-4c56-9ed4-847db73f8cee"
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ],
+            "organization": [
+              {
+                "collection_id": "principal.has_investor.forward",
+                "query": [
+                  {
+                    "field_id": "identifier",
+                    "operator_id": "includes",
+                    "values": [
+                      "b5d0d7dd-cfc2-4c56-9ed4-847db73f8cee"
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ],
+            "person": [
+              {
+                "collection_id": "organization.has_primary_organization.forward",
+                "query": [
+                  {
+                    "collection_id": "principal.has_investor.forward",
+                    "query": [
+                      {
+                        "field_id": "identifier",
+                        "operator_id": "includes",
+                        "values": [
+                          "b5d0d7dd-cfc2-4c56-9ed4-847db73f8cee"
+                        ],
+                        "type": "predicate"
+                      }
+                    ],
+                    "type": "sub_query"
+                  }
+                ],
+                "type": "sub_query"
+              },
+              {
+                "field_id": "rank_person",
+                "operator_id": "lte",
+                "values": [
+                  680000
+                ],
+                "type": "predicate"
+              }
+            ]
+          }
+        },
+        {
+          "identifier": {
+            "permalink": "closed-europe-middle-east-and-africa-gaming-companies",
+            "image_id": "lwyt8xc83fijfepkr3bc",
+            "uuid": "70c117bb-8880-4aae-8cdb-c42ae48f526b",
+            "entity_def_id": "hub",
+            "value": "Closed Europe, Middle East, and Africa (EMEA) Gaming Companies"
+          },
+          "org_identifiers": [
+            {
+              "permalink": "beyondplay",
+              "image_id": "lwyt8xc83fijfepkr3bc",
+              "uuid": "25382830-0324-4766-a916-a42057cd6bf5",
+              "entity_def_id": "organization",
+              "value": "BeyondPlay"
+            },
+            {
+              "permalink": "gamenet",
+              "image_id": "ysxbdj1pvmahpoow1qex",
+              "uuid": "880e3ff7-49be-4148-a291-59c4cf622ad9",
+              "entity_def_id": "organization",
+              "value": "Gamenet"
+            },
+            {
+              "permalink": "anagog",
+              "image_id": "dy4myvvhiyoqlkq4w6i4",
+              "uuid": "81297d80-111c-4c2f-e0d6-899206c51262",
+              "entity_def_id": "organization",
+              "value": "Anagog"
+            },
+            {
+              "permalink": "powder-cb6a",
+              "image_id": "hokzode1bqfpzztsintv",
+              "uuid": "cb283ca6-08e7-4f66-b822-0ed80275cb6a",
+              "entity_def_id": "organization",
+              "value": "Powder"
+            },
+            {
+              "permalink": "duedil",
+              "image_id": "c1c614045cf54c62b8f73625979a71e0",
+              "uuid": "2cc8c396-eeb9-9cc3-be04-22c86c19335d",
+              "entity_def_id": "organization",
+              "value": "FullCircl"
+            },
+            {
+              "permalink": "space-ape",
+              "image_id": "kpzfsriztp1zuwf48feb",
+              "uuid": "f09a51b6-388e-5724-f32c-b19192f5eba7",
+              "entity_def_id": "organization",
+              "value": "Space Ape"
+            },
+            {
+              "permalink": "kryptomon",
+              "image_id": "c3d022t8btumsnlwvdna",
+              "uuid": "3bfc5a63-4cfe-4938-9928-73bb05d7f8ce",
+              "entity_def_id": "organization",
+              "value": "Kryptomon"
+            },
+            {
+              "permalink": "1xbet",
+              "image_id": "x7jmvvjocmcie6onmpjq",
+              "uuid": "8fcc048e-a21e-4a32-a25e-1e4418a1c3f6",
+              "entity_def_id": "organization",
+              "value": "1xBet"
+            }
+          ],
+          "org_funding_total": {
+            "currency": "USD",
+            "value": 2019131459,
+            "value_usd": 2019131459
+          },
+          "org_num_investors": 721,
+          "org_num": 949,
+          "queries": {
+            "event": [
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "4e8be435-c63a-4aff-8a2f-44a880d9c341"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "categories",
+                "operator_id": "includes",
+                "values": [
+                  "dd1ef133-8ee8-088c-bbe1-bdf22241358f"
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "principal.has_event.forward",
+                "query": [
+                  {
+                    "field_id": "facet_ids",
+                    "operator_id": "includes",
+                    "values": [
+                      "company"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "closed"
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ],
+            "organization": [
+              {
+                "field_id": "facet_ids",
+                "operator_id": "includes",
+                "values": [
+                  "company"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "4e8be435-c63a-4aff-8a2f-44a880d9c341"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "categories",
+                "operator_id": "includes",
+                "values": [
+                  "dd1ef133-8ee8-088c-bbe1-bdf22241358f"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "operating_status",
+                "operator_id": "eq",
+                "values": [
+                  "closed"
+                ],
+                "type": "predicate"
+              }
+            ],
+            "person": [
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "4e8be435-c63a-4aff-8a2f-44a880d9c341"
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "organization.has_primary_organization.forward",
+                "query": [
+                  {
+                    "field_id": "facet_ids",
+                    "operator_id": "includes",
+                    "values": [
+                      "company"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "location_identifiers",
+                    "operator_id": "includes",
+                    "values": [
+                      "4e8be435-c63a-4aff-8a2f-44a880d9c341"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "categories",
+                    "operator_id": "includes",
+                    "values": [
+                      "dd1ef133-8ee8-088c-bbe1-bdf22241358f"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "closed"
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ]
+          }
+        },
+        {
+          "identifier": {
+            "permalink": "closed-middle-east-and-north-africa-companies",
+            "image_id": "zvwrwp9pquwdyvucpvab",
+            "uuid": "66074af4-13fc-43dd-9460-2b0969c8afcd",
+            "entity_def_id": "hub",
+            "value": "Closed Middle East and North Africa (MENA) Companies"
+          },
+          "org_identifiers": [
+            {
+              "permalink": "aim-security",
+              "image_id": "zvwrwp9pquwdyvucpvab",
+              "uuid": "e75e8060-e042-46cb-b849-5a4014779185",
+              "entity_def_id": "organization",
+              "value": "Aim Security"
+            },
+            {
+              "permalink": "future-meat-technologies",
+              "image_id": "as8z7iqnkhmj9g7cwr7w",
+              "uuid": "ff2eedf4-9f69-4426-a52c-dc1e4a874a09",
+              "entity_def_id": "organization",
+              "value": "Believer Meats"
+            },
+            {
+              "permalink": "vulcan-cyber",
+              "image_id": "0f5e4d9bcd424f348edfee948d980139",
+              "uuid": "18b59b98-9e94-4b72-a5fd-f534217a266c",
+              "entity_def_id": "organization",
+              "value": "Vulcan Cyber"
+            },
+            {
+              "permalink": "sam-seamless-network",
+              "image_id": "rbldk6cvkuspaf3525mj",
+              "uuid": "d4eed887-6cd3-8af2-4b0a-3312a911678b",
+              "entity_def_id": "organization",
+              "value": "SAM Seamless Network"
+            },
+            {
+              "permalink": "perimeter-81",
+              "image_id": "fnykxpmwhyqjqfku8se8",
+              "uuid": "ad22a2a6-015d-4ff1-9516-f517cedebeee",
+              "entity_def_id": "organization",
+              "value": "Perimeter 81"
+            },
+            {
+              "permalink": "hellenic-bank",
+              "image_id": "v1488695598/d87zcrgpbesqz9oxlcke.png",
+              "uuid": "543102bd-9f07-aecf-5d89-2c08b2e4262f",
+              "entity_def_id": "organization",
+              "value": "Hellenic Bank"
+            },
+            {
+              "permalink": "guardicore",
+              "image_id": "f7ca7gms3i1xyzh3dwlz",
+              "uuid": "ef649444-dbfa-3c62-5bd3-1f1e856d0655",
+              "entity_def_id": "organization",
+              "value": "Guardicore"
+            },
+            {
+              "permalink": "fetchr",
+              "image_id": "v1433852729/qh0qghi4vyltapyyczlu.png",
+              "uuid": "cd8e3e9d-309c-60a2-2a88-8e4e4e629cc2",
+              "entity_def_id": "organization",
+              "value": "Fetchr"
+            }
+          ],
+          "org_funding_total": {
+            "currency": "USD",
+            "value": 13738889294,
+            "value_usd": 13738889294
+          },
+          "org_num_investors": 3918,
+          "org_num": 8148,
+          "queries": {
+            "event": [
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "8cb7cad4-b7e4-4b28-a496-2ede3720cb19"
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "principal.has_event.forward",
+                "query": [
+                  {
+                    "field_id": "facet_ids",
+                    "operator_id": "includes",
+                    "values": [
+                      "company"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "closed"
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ],
+            "organization": [
+              {
+                "field_id": "facet_ids",
+                "operator_id": "includes",
+                "values": [
+                  "company"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "8cb7cad4-b7e4-4b28-a496-2ede3720cb19"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "operating_status",
+                "operator_id": "eq",
+                "values": [
+                  "closed"
+                ],
+                "type": "predicate"
+              }
+            ],
+            "person": [
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "8cb7cad4-b7e4-4b28-a496-2ede3720cb19"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "rank_person",
+                "operator_id": "lte",
+                "values": [
+                  990000
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "organization.has_primary_organization.forward",
+                "query": [
+                  {
+                    "field_id": "facet_ids",
+                    "operator_id": "includes",
+                    "values": [
+                      "company"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "location_identifiers",
+                    "operator_id": "includes",
+                    "values": [
+                      "8cb7cad4-b7e4-4b28-a496-2ede3720cb19"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "closed"
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ]
+          }
+        }
+      ],
+      "org_similarity_org_list": [],
+      "investors_summary": {
+        "identifier": {
+          "uuid": "2634853c-b180-b67c-1642-ee2de7316ca8",
+          "value": "Smart Balloon",
+          "image_id": "v1397186460/d4b82a1f1776c9663874d348c2625658.png",
+          "permalink": "smart-balloon",
+          "entity_def_id": "organization"
+        },
+        "num_investors": 1
+      },
+      "funds_list": [],
+      "alumni_image_list": [],
+      "semrush_overview_headline": {},
+      "frequently_asked_questions_total_funding": {
+        "funding_total": {
+          "value": 3650000,
+          "currency": "USD",
+          "value_usd": 3650000
+        },
+        "identifier": {
+          "uuid": "2634853c-b180-b67c-1642-ee2de7316ca8",
+          "value": "Smart Balloon",
+          "image_id": "v1397186460/d4b82a1f1776c9663874d348c2625658.png",
+          "permalink": "smart-balloon",
+          "entity_def_id": "organization"
+        }
+      },
+      "exits_summary": {
+        "identifier": {
+          "uuid": "2634853c-b180-b67c-1642-ee2de7316ca8",
+          "value": "Smart Balloon",
+          "image_id": "v1397186460/d4b82a1f1776c9663874d348c2625658.png",
+          "permalink": "smart-balloon",
+          "entity_def_id": "organization"
+        }
+      },
+      "partnership_announcements": [],
+      "bombora_surge_list": [],
+      "diversity_spotlight_investments_list": [],
+      "builtwith_tech_used_list": [
+        {
+          "identifier": {
+            "uuid": "33e2515b-e834-4cef-a725-09a565e92395",
+            "value": "Google Tag Manager",
+            "entity_def_id": "builtwith_technology"
+          },
+          "technology_category": [
+            "widgets"
+          ],
+          "num_companies_using": 999928
+        },
+        {
+          "identifier": {
+            "uuid": "35fb33ce-1695-49d3-9de5-1f1fd5660f01",
+            "value": "Cloudflare",
+            "entity_def_id": "builtwith_technology"
+          },
+          "technology_category": [
+            "cdn"
+          ],
+          "num_companies_using": 850099
+        },
+        {
+          "identifier": {
+            "uuid": "e29377fa-f41b-4cc0-849c-62f7b9e1a977",
+            "value": "Google Analytics",
+            "entity_def_id": "builtwith_technology"
+          },
+          "technology_category": [
+            "analytics"
+          ],
+          "num_companies_using": 845938
+        },
+        {
+          "identifier": {
+            "uuid": "70f4762f-11eb-48f1-8d0e-2ebdaca5f9e4",
+            "value": "Cloudflare CDN",
+            "entity_def_id": "builtwith_technology"
+          },
+          "technology_category": [
+            "cdn"
+          ],
+          "num_companies_using": 840521
+        },
+        {
+          "identifier": {
+            "uuid": "cf3e732d-2ada-4f4e-94af-faa2edb426d5",
+            "value": "IPv6",
+            "entity_def_id": "builtwith_technology"
+          },
+          "technology_category": [
+            "server"
+          ],
+          "num_companies_using": 837012
+        },
+        {
+          "identifier": {
+            "uuid": "a9807f1f-c58b-4b60-8b9c-838c9f390574",
+            "value": "Font Awesome",
+            "entity_def_id": "builtwith_technology"
+          },
+          "technology_category": [
+            "widgets"
+          ],
+          "num_companies_using": 741564
+        },
+        {
+          "identifier": {
+            "uuid": "c6faf6a9-f13e-454c-ad5d-523e68c10954",
+            "value": "Global Site Tag",
+            "entity_def_id": "builtwith_technology"
+          },
+          "technology_category": [
+            "analytics"
+          ],
+          "num_companies_using": 737754
+        },
+        {
+          "identifier": {
+            "uuid": "c835bffa-b6fd-4981-8779-cf31fc97b979",
+            "value": "US Privacy User Signal Mechanism",
+            "entity_def_id": "builtwith_technology"
+          },
+          "technology_category": [
+            "widgets"
+          ],
+          "num_companies_using": 626981
+        },
+        {
+          "identifier": {
+            "uuid": "56a2fc16-7838-4e6b-b2ec-18e470eed9b9",
+            "value": "DoubleClick.Net",
+            "entity_def_id": "builtwith_technology"
+          },
+          "technology_category": [
+            "ads"
+          ],
+          "num_companies_using": 622696
+        },
+        {
+          "identifier": {
+            "uuid": "34028a4a-aa8a-42d8-ba28-12a56b89664f",
+            "value": "Cloudflare Network Error Logging",
+            "entity_def_id": "builtwith_technology"
+          },
+          "technology_category": [
+            "hosting"
+          ],
+          "num_companies_using": 480042
+        }
+      ],
+      "funding_rounds_summary": {
+        "identifier": {
+          "uuid": "2634853c-b180-b67c-1642-ee2de7316ca8",
+          "value": "Smart Balloon",
+          "image_id": "v1397186460/d4b82a1f1776c9663874d348c2625658.png",
+          "permalink": "smart-balloon",
+          "entity_def_id": "organization"
+        },
+        "last_funding_type": "series_unknown",
+        "last_funding_at": "2010-06-23",
+        "funding_total": {
+          "value": 3650000,
+          "currency": "USD",
+          "value_usd": 3650000
+        },
+        "num_funding_rounds": 2
+      },
+      "org_similarity_list": [],
+      "ipo_prediction": [],
+      "acquisitions_summary": {
+        "identifier": {
+          "uuid": "2634853c-b180-b67c-1642-ee2de7316ca8",
+          "value": "Smart Balloon",
+          "image_id": "v1397186460/d4b82a1f1776c9663874d348c2625658.png",
+          "permalink": "smart-balloon",
+          "entity_def_id": "organization"
+        }
+      },
+      "advisors_summary": {
+        "identifier": {
+          "uuid": "2634853c-b180-b67c-1642-ee2de7316ca8",
+          "value": "Smart Balloon",
+          "image_id": "v1397186460/d4b82a1f1776c9663874d348c2625658.png",
+          "permalink": "smart-balloon",
+          "entity_def_id": "organization"
+        }
+      },
+      "acquisitions_list": [],
+      "exits_headline": {},
+      "investments_summary": {
+        "identifier": {
+          "uuid": "2634853c-b180-b67c-1642-ee2de7316ca8",
+          "value": "Smart Balloon",
+          "image_id": "v1397186460/d4b82a1f1776c9663874d348c2625658.png",
+          "permalink": "smart-balloon",
+          "entity_def_id": "organization"
+        }
+      },
+      "acquired_by_fields": {},
+      "research_insight_text_link": {},
+      "acquisition_prediction": [],
+      "sub_organizations_headline": {},
+      "layoff_list": [],
+      "growth_and_heat": {
+        "heat_score": 11,
+        "heat_score_delta_d90": -3,
+        "heat_score_history": {
+          "periods": {
+            "i1": {
+              "values": [
+                11,
+                11,
+                11,
+                12,
+                12,
+                12,
+                12,
+                12,
+                12,
+                12,
+                12,
+                12,
+                12,
+                12,
+                13,
+                13,
+                13,
+                13,
+                13,
+                13,
+                13,
+                13,
+                13,
+                13,
+                13,
+                13,
+                12,
+                12,
+                12,
+                12,
+                12,
+                12,
+                12,
+                12,
+                12,
+                12,
+                12,
+                12,
+                13,
+                13,
+                13,
+                13,
+                13,
+                13,
+                13,
+                13,
+                13,
+                13,
+                13,
+                13,
+                13,
+                13,
+                14,
+                14,
+                14,
+                14,
+                14,
+                14,
+                8,
+                9,
+                9,
+                9,
+                9,
+                9,
+                9,
+                9,
+                9,
+                9,
+                10,
+                10,
+                10,
+                10,
+                10,
+                11,
+                11,
+                11,
+                11,
+                12,
+                12,
+                12,
+                12,
+                12,
+                13,
+                13,
+                13,
+                13,
+                13,
+                14,
+                14,
+                14
+              ],
+              "interval": 1
+            },
+            "i2": {
+              "values": [
+                11,
+                12,
+                12,
+                12,
+                12,
+                12,
+                12,
+                13,
+                13,
+                13,
+                13,
+                13,
+                13,
+                12,
+                12,
+                12,
+                12,
+                12,
+                12,
+                13,
+                13,
+                13,
+                13,
+                13,
+                13,
+                13,
+                14,
+                14,
+                14,
+                9,
+                9,
+                9,
+                9,
+                9,
+                10,
+                10,
+                11,
+                11,
+                12,
+                12,
+                12,
+                13,
+                13,
+                14,
+                14,
+                14,
+                15,
+                15,
+                16,
+                16,
+                16,
+                17,
+                17,
+                17,
+                18,
+                18,
+                18,
+                19,
+                19,
+                20,
+                20,
+                21,
+                21,
+                18,
+                16,
+                16,
+                16,
+                17,
+                17,
+                18,
+                18,
+                18,
+                19,
+                19,
+                19,
+                20,
+                20,
+                21,
+                21,
+                22,
+                22,
+                23,
+                23,
+                24,
+                24,
+                25,
+                26,
+                26,
+                22,
+                22,
+                23
+              ],
+              "interval": 2
+            },
+            "i4": {
+              "values": [
+                11,
+                12,
+                12,
+                13,
+                13,
+                13,
+                13,
+                12,
+                12,
+                13,
+                13,
+                13,
+                13,
+                14,
+                11,
+                9,
+                9,
+                10,
+                11,
+                12,
+                13,
+                13,
+                14,
+                15,
+                16,
+                16,
+                17,
+                18,
+                19,
+                19,
+                20,
+                20,
+                16,
+                17,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                22,
+                23,
+                24,
+                25,
+                26,
+                26,
+                27,
+                28,
+                26,
+                24,
+                25,
+                25,
+                19,
+                20,
+                21,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                29,
+                27,
+                27,
+                28,
+                29,
+                28,
+                29,
+                31,
+                32,
+                33,
+                34,
+                34,
+                33,
+                34,
+                35,
+                35,
+                34,
+                30,
+                28,
+                21,
+                19,
+                15,
+                16,
+                18,
+                20,
+                21
+              ],
+              "interval": 4
+            },
+            "i7": {
+              "values": [
+                11,
+                12,
+                13,
+                13,
+                12,
+                13,
+                13,
+                14,
+                10,
+                9,
+                11,
+                12,
+                14,
+                15,
+                16,
+                18,
+                19,
+                20,
+                16,
+                17,
+                18,
+                20,
+                21,
+                23,
+                25,
+                23,
+                24,
+                25,
+                26,
+                28,
+                24,
+                25,
+                19,
+                21,
+                22,
+                23,
+                25,
+                27,
+                28,
+                28,
+                28,
+                29,
+                32,
+                33,
+                34,
+                34,
+                35,
+                31,
+                25,
+                18,
+                16,
+                19,
+                22,
+                25,
+                27,
+                30,
+                32,
+                34,
+                36,
+                34,
+                31,
+                33,
+                33,
+                34,
+                27,
+                24,
+                27,
+                25,
+                27,
+                29,
+                31,
+                32,
+                32,
+                33,
+                20,
+                18,
+                15,
+                17,
+                18,
+                20,
+                18,
+                19,
+                22,
+                25,
+                27,
+                29,
+                29,
+                30,
+                32,
+                32,
+                24,
+                25,
+                27,
+                29,
+                31,
+                33,
+                26,
+                18,
+                19,
+                19,
+                21,
+                20,
+                23,
+                25,
+                26
+              ],
+              "interval": 7
+            },
+            "i18": {
+              "values": [
+                11,
+                12,
+                13,
+                10,
+                12,
+                16,
+                19,
+                17,
+                20,
+                24,
+                24,
+                26,
+                22,
+                22,
+                27,
+                27,
+                32,
+                34,
+                30,
+                17,
+                23,
+                29,
+                35,
+                32,
+                33,
+                26,
+                26,
+                31,
+                30,
+                17,
+                18,
+                19,
+                25,
+                29,
+                31,
+                25,
+                30,
+                26,
+                19,
+                21,
+                26,
+                28,
+                15,
+                15,
+                18,
+                19,
+                18,
+                9,
+                4,
+                4,
+                9,
+                13,
+                11,
+                5,
+                8,
+                9,
+                10,
+                11,
+                13,
+                11,
+                9,
+                12,
+                12,
+                15,
+                16,
+                11,
+                14,
+                21,
+                24,
+                26,
+                26,
+                29,
+                28,
+                28,
+                31,
+                30,
+                19,
+                18,
+                22,
+                28,
+                33,
+                30,
+                20,
+                24,
+                27,
+                19,
+                12,
+                11,
+                12,
+                14,
+                15,
+                20,
+                15,
+                4,
+                9,
+                14,
+                18,
+                13,
+                14,
+                16,
+                18,
+                14
+              ],
+              "interval": 18
+            },
+            "i36": {
+              "values": [
+                11,
+                12,
+                14,
+                18,
+                22,
+                25,
+                22,
+                27,
+                33,
+                24,
+                26,
+                34,
+                29,
+                29,
+                24,
+                18,
+                27,
+                28,
+                28,
+                20,
+                27,
+                15,
+                18,
+                13,
+                4,
+                11,
+                8,
+                9,
+                10,
+                12,
+                11,
+                13,
+                13,
+                17,
+                25,
+                27,
+                28,
+                30,
+                19,
+                25,
+                31,
+                22,
+                23,
+                11,
+                13,
+                18,
+                10,
+                11,
+                16,
+                15,
+                16,
+                11,
+                17,
+                18,
+                22,
+                19,
+                23,
+                19,
+                22,
+                25,
+                28,
+                22,
+                29,
+                56,
+                62,
+                57,
+                60,
+                68,
+                65,
+                66,
+                68,
+                69,
+                70,
+                66,
+                63,
+                71,
+                74,
+                77,
+                82,
+                80,
+                78,
+                79,
+                84,
+                88,
+                86,
+                85,
+                76,
+                74,
+                78,
+                86,
+                86,
+                88,
+                84,
+                80,
+                88,
+                91,
+                85,
+                72,
+                64,
+                45,
+                45,
+                45
+              ],
+              "interval": 36
+            }
+          }
+        },
+        "heat_trend_365": {
+          "periods": {
+            "i1": {
+              "values": [
+                -28,
+                -29,
+                -30,
+                -30,
+                -31,
+                -31,
+                -32,
+                -32,
+                -33,
+                -33,
+                -34,
+                -34,
+                -35,
+                -35,
+                -35,
+                -36,
+                -36,
+                -36,
+                -37,
+                -37,
+                -37,
+                -38,
+                -38,
+                -38,
+                -39,
+                -39,
+                -43,
+                -44,
+                -44,
+                -44,
+                -44,
+                -44,
+                -45,
+                -45,
+                -45,
+                -45,
+                -46,
+                -46,
+                -46,
+                -46,
+                -46,
+                -46,
+                -47,
+                -47,
+                -47,
+                -47,
+                -47,
+                -47,
+                -46,
+                -44,
+                -44,
+                -42,
+                -42,
+                -43,
+                -43,
+                -37,
+                -37,
+                -38,
+                -50,
+                -51,
+                -51,
+                -51,
+                -51,
+                -51,
+                -51,
+                -51,
+                -51,
+                -51,
+                -51,
+                -51,
+                -48,
+                -48,
+                -48,
+                -48,
+                -47,
+                -47,
+                -47,
+                -47,
+                -47,
+                -47,
+                -47,
+                -46,
+                -40,
+                -40,
+                -40,
+                -40,
+                -28,
+                -28,
+                -28,
+                -28
+              ],
+              "interval": 1
+            },
+            "i2": {
+              "values": [
+                -28,
+                -30,
+                -31,
+                -32,
+                -33,
+                -34,
+                -35,
+                -35,
+                -36,
+                -37,
+                -37,
+                -38,
+                -39,
+                -43,
+                -44,
+                -44,
+                -45,
+                -45,
+                -46,
+                -46,
+                -46,
+                -47,
+                -47,
+                -47,
+                -45,
+                -43,
+                -42,
+                -40,
+                -37,
+                -50,
+                -51,
+                -51,
+                -51,
+                -51,
+                -51,
+                -48,
+                -48,
+                -47,
+                -47,
+                -47,
+                -46,
+                -40,
+                -40,
+                -28,
+                -28,
+                -28,
+                -24,
+                -25,
+                -26,
+                -26,
+                -27,
+                -26,
+                -20,
+                -21,
+                -20,
+                -19,
+                -20,
+                -20,
+                -21,
+                -21,
+                -21,
+                -21,
+                -21,
+                -28,
+                -35,
+                -35,
+                -35,
+                -34,
+                -33,
+                -33,
+                -31,
+                -31,
+                -31,
+                -31,
+                -31,
+                -28,
+                -28,
+                10,
+                10,
+                10,
+                10,
+                10,
+                22,
+                32,
+                33,
+                33,
+                33,
+                34,
+                17,
+                17,
+                17
+              ],
+              "interval": 2
+            },
+            "i4": {
+              "values": [
+                -28,
+                -31,
+                -33,
+                -35,
+                -36,
+                -38,
+                -41,
+                -44,
+                -45,
+                -46,
+                -46,
+                -47,
+                -44,
+                -41,
+                -44,
+                -51,
+                -51,
+                -49,
+                -47,
+                -47,
+                -43,
+                -34,
+                -28,
+                -24,
+                -26,
+                -27,
+                -21,
+                -19,
+                -20,
+                -21,
+                -21,
+                -25,
+                -35,
+                -34,
+                -33,
+                -31,
+                -31,
+                -29,
+                -9,
+                10,
+                10,
+                27,
+                33,
+                33,
+                17,
+                16,
+                16,
+                16,
+                16,
+                30,
+                33,
+                28,
+                14,
+                3,
+                0,
+                -2,
+                -20,
+                -21,
+                -20,
+                -17,
+                -17,
+                -17,
+                -17,
+                -15,
+                -13,
+                -10,
+                8,
+                10,
+                4,
+                5,
+                3,
+                -2,
+                -1,
+                0,
+                1,
+                2,
+                1,
+                16,
+                48,
+                53,
+                53,
+                51,
+                43,
+                28,
+                18,
+                5,
+                -5,
+                -19,
+                -20,
+                -18,
+                -16,
+                -14
+              ],
+              "interval": 4
+            },
+            "i7": {
+              "values": [
+                -28,
+                -34,
+                -36,
+                -40,
+                -44,
+                -46,
+                -47,
+                -42,
+                -47,
+                -51,
+                -48,
+                -45,
+                -31,
+                -26,
+                -26,
+                -20,
+                -21,
+                -21,
+                -33,
+                -34,
+                -31,
+                -29,
+                10,
+                20,
+                33,
+                19,
+                16,
+                16,
+                31,
+                27,
+                4,
+                -1,
+                -20,
+                -19,
+                -17,
+                -17,
+                -14,
+                -8,
+                11,
+                5,
+                1,
+                -1,
+                1,
+                1,
+                29,
+                53,
+                51,
+                34,
+                12,
+                -7,
+                -20,
+                -17,
+                -11,
+                -5,
+                1,
+                3,
+                59,
+                88,
+                88,
+                73,
+                47,
+                45,
+                51,
+                43,
+                23,
+                24,
+                25,
+                16,
+                54,
+                81,
+                92,
+                100,
+                100,
+                100,
+                98,
+                79,
+                45,
+                38,
+                35,
+                32,
+                18,
+                24,
+                42,
+                57,
+                96,
+                100,
+                100,
+                100,
+                97,
+                88,
+                68,
+                92,
+                87,
+                79,
+                73,
+                96,
+                64,
+                22,
+                20,
+                18,
+                31,
+                64,
+                68,
+                70,
+                70
+              ],
+              "interval": 7
+            },
+            "i18": {
+              "values": [
+                -28,
+                -41,
+                -45,
+                -48,
+                -41,
+                -25,
+                -20,
+                -33,
+                -12,
+                26,
+                17,
+                21,
+                -12,
+                -17,
+                -5,
+                3,
+                1,
+                38,
+                31,
+                -13,
+                -10,
+                10,
+                88,
+                54,
+                45,
+                24,
+                42,
+                93,
+                100,
+                67,
+                35,
+                24,
+                66,
+                100,
+                94,
+                82,
+                77,
+                65,
+                19,
+                58,
+                69,
+                57,
+                12,
+                -2,
+                11,
+                34,
+                8,
+                -37,
+                -53,
+                -56,
+                -45,
+                -39,
+                -39,
+                -57,
+                -51,
+                -44,
+                -25,
+                -27,
+                -27,
+                -43,
+                -51,
+                -33,
+                -26,
+                -27,
+                -27,
+                -17,
+                14,
+                40,
+                40,
+                45,
+                29,
+                31,
+                70,
+                100,
+                87,
+                52,
+                6,
+                21,
+                24,
+                38,
+                53,
+                58,
+                48,
+                41,
+                30,
+                4,
+                -18,
+                -26,
+                -27,
+                -20,
+                -9,
+                0,
+                -22,
+                -52,
+                -32,
+                -11,
+                -9,
+                -29,
+                -27,
+                -27,
+                -27,
+                -32
+              ],
+              "interval": 18
+            },
+            "i36": {
+              "values": [
+                -28,
+                -47,
+                -33,
+                -27,
+                7,
+                19,
+                -14,
+                -1,
+                19,
+                9,
+                0,
+                71,
+                35,
+                67,
+                83,
+                30,
+                83,
+                88,
+                71,
+                38,
+                63,
+                5,
+                23,
+                -14,
+                -55,
+                -42,
+                -48,
+                -48,
+                -26,
+                -35,
+                -42,
+                -27,
+                -22,
+                27,
+                43,
+                30,
+                85,
+                69,
+                14,
+                31,
+                55,
+                45,
+                17,
+                -22,
+                -24,
+                -4,
+                -37,
+                -21,
+                -19,
+                -27,
+                -28,
+                -30,
+                -32,
+                -54,
+                -53,
+                -53,
+                -52,
+                -60,
+                -55,
+                -52,
+                -49,
+                -58,
+                -48,
+                -12,
+                -3,
+                -17,
+                -16,
+                -10,
+                -17,
+                -14,
+                -11,
+                -11,
+                -14,
+                -22,
+                -23,
+                -13,
+                -1,
+                3,
+                3,
+                -7,
+                -7,
+                -9,
+                3,
+                6,
+                -2,
+                -5,
+                -7,
+                4,
+                26,
+                72,
+                70,
+                73,
+                65,
+                59,
+                73,
+                77,
+                67,
+                45,
+                32,
+                -1,
+                -1,
+                0
+              ],
+              "interval": 36
+            }
+          }
+        }
+      },
+      "bombora_summary": {
+        "identifier": {
+          "uuid": "2634853c-b180-b67c-1642-ee2de7316ca8",
+          "value": "Smart Balloon",
+          "image_id": "v1397186460/d4b82a1f1776c9663874d348c2625658.png",
+          "permalink": "smart-balloon",
+          "entity_def_id": "organization"
+        }
+      },
+      "semrush_rank_headline": {},
+      "frequently_asked_questions_latest_funding_round": {
+        "identifier": {
+          "uuid": "2634853c-b180-b67c-1642-ee2de7316ca8",
+          "value": "Smart Balloon",
+          "image_id": "v1397186460/d4b82a1f1776c9663874d348c2625658.png",
+          "permalink": "smart-balloon",
+          "entity_def_id": "organization"
+        },
+        "last_funding_at": "2010-06-23",
+        "last_funding_type": "series_unknown",
+        "num_funding_rounds": 2
+      },
+      "apptopia_app_overview_list_free": [],
+      "contacts": {},
+      "product_launches": [],
+      "alumni_summary": {
+        "identifier": {
+          "uuid": "2634853c-b180-b67c-1642-ee2de7316ca8",
+          "value": "Smart Balloon",
+          "image_id": "v1397186460/d4b82a1f1776c9663874d348c2625658.png",
+          "permalink": "smart-balloon",
+          "entity_def_id": "organization"
+        }
+      },
+      "apptopia_summary": {
+        "identifier": {
+          "uuid": "2634853c-b180-b67c-1642-ee2de7316ca8",
+          "value": "Smart Balloon",
+          "image_id": "v1397186460/d4b82a1f1776c9663874d348c2625658.png",
+          "permalink": "smart-balloon",
+          "entity_def_id": "organization"
+        }
+      },
+      "product_similarity_target_org_list": [],
+      "social_fields": {},
+      "investments_headline": {},
+      "investment_thesis": {
+        "lookup": [],
+        "properties": {
+          "identifier": {
+            "uuid": "2634853c-b180-b67c-1642-ee2de7316ca8",
+            "value": "Smart Balloon",
+            "image_id": "v1397186460/d4b82a1f1776c9663874d348c2625658.png",
+            "permalink": "smart-balloon",
+            "entity_def_id": "organization"
+          }
+        },
+        "data": []
+      },
+      "diversity_spotlight_investments_summary": {
+        "identifier": {
+          "uuid": "2634853c-b180-b67c-1642-ee2de7316ca8",
+          "value": "Smart Balloon",
+          "image_id": "v1397186460/d4b82a1f1776c9663874d348c2625658.png",
+          "permalink": "smart-balloon",
+          "entity_def_id": "organization"
+        }
+      },
+      "contact_fields": {
+        "contact_email": "info@smartballoon.com"
+      },
+      "growth_prediction": [],
+      "sub_organizations_summary": {
+        "identifier": {
+          "uuid": "2634853c-b180-b67c-1642-ee2de7316ca8",
+          "value": "Smart Balloon",
+          "image_id": "v1397186460/d4b82a1f1776c9663874d348c2625658.png",
+          "permalink": "smart-balloon",
+          "entity_def_id": "organization"
+        }
+      },
+      "overview_description": {
+        "description": "Smart Balloon  is a games company."
+      },
+      "current_employees_featured_order_field": [],
+      "company_about_fields2": {
+        "website": {
+          "value": "https://www.smartballoon.com"
+        },
+        "ipo_status": "private",
+        "num_employees_enum": "c_00001_00010",
+        "last_funding_type": "series_unknown",
+        "location_identifiers": [
+          {
+            "uuid": "18c3f473-94ab-7b11-47dd-26769797c485",
+            "value": "Amman",
+            "permalink": "amman-amman",
+            "entity_def_id": "location",
+            "location_type": "city"
+          },
+          {
+            "uuid": "36dd1e53-bc8a-4bf2-771a-7611036b3ebc",
+            "value": "Amman",
+            "permalink": "amman-jordan",
+            "entity_def_id": "location",
+            "location_type": "region"
+          },
+          {
+            "uuid": "e5fffa67-5dbb-56cb-27e1-23f8b09b59ba",
+            "value": "Jordan",
+            "permalink": "jordan",
+            "entity_def_id": "location",
+            "location_type": "country"
+          },
+          {
+            "uuid": "b41404d2-8ecc-caf5-1268-8fdd3afe73ee",
+            "value": "Asia",
+            "permalink": "asia",
+            "entity_def_id": "location",
+            "location_type": "continent"
+          }
+        ],
+        "rank_org_company": 3615554
+      },
+      "sub_organizations_image_list": [],
+      "frequently_asked_questions_headquarters_location": {
+        "identifier": {
+          "uuid": "2634853c-b180-b67c-1642-ee2de7316ca8",
+          "value": "Smart Balloon",
+          "image_id": "v1397186460/d4b82a1f1776c9663874d348c2625658.png",
+          "permalink": "smart-balloon",
+          "entity_def_id": "organization"
+        },
+        "location_identifiers": [
+          {
+            "uuid": "18c3f473-94ab-7b11-47dd-26769797c485",
+            "value": "Amman",
+            "permalink": "amman-amman",
+            "entity_def_id": "location",
+            "location_type": "city"
+          },
+          {
+            "uuid": "36dd1e53-bc8a-4bf2-771a-7611036b3ebc",
+            "value": "Amman",
+            "permalink": "amman-jordan",
+            "entity_def_id": "location",
+            "location_type": "region"
+          },
+          {
+            "uuid": "e5fffa67-5dbb-56cb-27e1-23f8b09b59ba",
+            "value": "Jordan",
+            "permalink": "jordan",
+            "entity_def_id": "location",
+            "location_type": "country"
+          },
+          {
+            "uuid": "b41404d2-8ecc-caf5-1268-8fdd3afe73ee",
+            "value": "Asia",
+            "permalink": "asia",
+            "entity_def_id": "location",
+            "location_type": "continent"
+          }
+        ]
+      },
+      "investors_headline": {
+        "num_investors": 1
+      },
+      "ipo_summary": {
+        "identifier": {
+          "uuid": "2634853c-b180-b67c-1642-ee2de7316ca8",
+          "value": "Smart Balloon",
+          "image_id": "v1397186460/d4b82a1f1776c9663874d348c2625658.png",
+          "permalink": "smart-balloon",
+          "entity_def_id": "organization"
+        }
+      },
+      "ipqwery_summary": {
+        "identifier": {
+          "uuid": "2634853c-b180-b67c-1642-ee2de7316ca8",
+          "value": "Smart Balloon",
+          "image_id": "v1397186460/d4b82a1f1776c9663874d348c2625658.png",
+          "permalink": "smart-balloon",
+          "entity_def_id": "organization"
+        }
+      },
+      "awards": [],
+      "siftery_product_list": [
+        {
+          "product_identifier": {
+            "uuid": "44fbb3b4-e7da-4a08-b981-83f46b8b2f01",
+            "value": "HTML5",
+            "image_id": "siftery/siftery_logo_prNc7nA_qm8_k5",
+            "entity_def_id": "siftery_product"
+          },
+          "identifier": {
+            "uuid": "d68d6620-7cbf-4836-a08c-72e608757eeb"
+          },
+          "uuid": "d68d6620-7cbf-4836-a08c-72e608757eeb",
+          "product_num_customers": 439507,
+          "status": "not_using"
+        },
+        {
+          "uuid": "1b065ad4-a52e-4172-b142-94859c09e46b",
+          "product_identifier": {
+            "uuid": "221a85e8-bc96-4a75-9697-616c0f975ec4",
+            "value": "Cloudflare CDN",
+            "image_id": "siftery/siftery_logo_prriDM_9iGIX-y",
+            "entity_def_id": "siftery_product"
+          },
+          "status": "using",
+          "identifier": {
+            "uuid": "1b065ad4-a52e-4172-b142-94859c09e46b"
+          }
+        },
+        {
+          "uuid": "2272b465-c5f9-4018-b711-948cc268051c",
+          "product_identifier": {
+            "uuid": "271c7ba1-800b-4b39-a5b9-9ef46225755a",
+            "value": "Comodo PositiveSSL Certificates",
+            "image_id": "siftery/siftery_logo_prd0f3rMC3oGiV",
+            "entity_def_id": "siftery_product"
+          },
+          "status": "using",
+          "identifier": {
+            "uuid": "2272b465-c5f9-4018-b711-948cc268051c"
+          }
+        },
+        {
+          "uuid": "842243d2-5686-4bdf-a58f-13413924065f",
+          "product_identifier": {
+            "uuid": "77840218-830a-466c-a035-7c3c7676ebd9",
+            "value": "Google Analytics",
+            "image_id": "siftery/siftery_logo_prchiZeMpgVrUy",
+            "entity_def_id": "siftery_product"
+          },
+          "status": "using",
+          "identifier": {
+            "uuid": "842243d2-5686-4bdf-a58f-13413924065f"
+          }
+        },
+        {
+          "uuid": "c7decca7-1816-4a07-a03b-611558f70e7e",
+          "product_identifier": {
+            "uuid": "d2c329f1-bdbb-4ded-b9cf-4b5dc6903030",
+            "value": "GoDaddy Premium DNS",
+            "image_id": "siftery/siftery_logo_prTuEtFH0RfSai",
+            "entity_def_id": "siftery_product"
+          },
+          "status": "not_using",
+          "identifier": {
+            "uuid": "c7decca7-1816-4a07-a03b-611558f70e7e"
+          }
+        },
+        {
+          "uuid": "cfea79ae-37d1-46f5-8480-52c4ded83767",
+          "product_identifier": {
+            "uuid": "89cec21b-759d-48a8-aa73-74132e1a6fd0",
+            "value": "Apache Server",
+            "image_id": "siftery/siftery_logo_prvrxOhb1ru2BC",
+            "entity_def_id": "siftery_product"
+          },
+          "status": "not_using",
+          "identifier": {
+            "uuid": "cfea79ae-37d1-46f5-8480-52c4ded83767"
+          }
+        },
+        {
+          "uuid": "f9c3a343-6bdd-4716-98b8-6cd2e701efa1",
+          "product_identifier": {
+            "uuid": "d50e90bf-6165-4df9-aa0d-c87ef00f9002",
+            "value": "Google Fonts",
+            "image_id": "siftery/siftery_logo_preFJ8BUpXArcN",
+            "entity_def_id": "siftery_product"
+          },
+          "status": "not_using",
+          "identifier": {
+            "uuid": "f9c3a343-6bdd-4716-98b8-6cd2e701efa1"
+          }
+        },
+        {
+          "uuid": "fd817807-0fd2-46f5-8eea-21fb45db7688",
+          "product_identifier": {
+            "uuid": "805f03a3-ee62-4c9e-8457-1a5f564b8239",
+            "value": "jQuery",
+            "image_id": "siftery/siftery_logo_prViuoE4t3fDhh",
+            "entity_def_id": "siftery_product"
+          },
+          "status": "not_using",
+          "identifier": {
+            "uuid": "fd817807-0fd2-46f5-8eea-21fb45db7688"
+          }
+        },
+        {
+          "uuid": "ff3cc4e8-3028-4154-97bb-3bae64a0a83e",
+          "product_identifier": {
+            "uuid": "62619f24-cf53-4f93-abd7-cb9716cbd7ca",
+            "value": "F5 NGINX",
+            "image_id": "siftery/siftery_logo_pr2-mGB9xhBg6F",
+            "entity_def_id": "siftery_product"
+          },
+          "status": "using",
+          "identifier": {
+            "uuid": "ff3cc4e8-3028-4154-97bb-3bae64a0a83e"
+          }
+        }
+      ],
+      "competitors_list": [],
+      "growth_knowledge": {
+        "lookup": [],
+        "properties": {
+          "identifier": {
+            "uuid": "2634853c-b180-b67c-1642-ee2de7316ca8",
+            "value": "Smart Balloon",
+            "image_id": "v1397186460/d4b82a1f1776c9663874d348c2625658.png",
+            "permalink": "smart-balloon",
+            "entity_def_id": "organization"
+          }
+        },
+        "data": []
+      },
+      "overview_fields_extended": {
+        "location_group_identifiers": [
+          {
+            "uuid": "4e8be435-c63a-4aff-8a2f-44a880d9c341",
+            "value": "Europe, Middle East, and Africa (EMEA)",
+            "permalink": "europe-middle-east-africa-emea",
+            "entity_def_id": "location",
+            "location_type": "group"
+          },
+          {
+            "uuid": "e0272206-3430-48cb-a5bc-1d4b3eafe15a",
+            "value": "Middle East",
+            "permalink": "middle-east",
+            "entity_def_id": "location",
+            "location_type": "group"
+          },
+          {
+            "uuid": "8cb7cad4-b7e4-4b28-a496-2ede3720cb19",
+            "value": "Middle East and North Africa (MENA)",
+            "permalink": "middle-east-and-north-africa-mena",
+            "entity_def_id": "location",
+            "location_type": "group"
+          }
+        ],
+        "founded_on": {
+          "value": "2009-01-01",
+          "precision": "year"
+        },
+        "operating_status": "closed",
+        "closed_on": {
+          "value": "2011-12-01",
+          "precision": "day"
+        },
+        "legal_name": "Smart Balloon Inc.",
+        "last_funding_type": "series_unknown",
+        "categories": [
+          {
+            "uuid": "af922a55-ff56-771a-b9b5-06c1284ef0c8",
+            "value": "Gamification",
+            "image_id": "b10ec8c63bf34adbab2ced24531eba13",
+            "permalink": "gamification-af92",
+            "entity_def_id": "category"
+          },
+          {
+            "uuid": "dd1ef133-8ee8-088c-bbe1-bdf22241358f",
+            "value": "Gaming",
+            "image_id": "86268c2b0c3f4ba69b2110597fed2d75",
+            "permalink": "gaming",
+            "entity_def_id": "category"
+          },
+          {
+            "uuid": "dabab6af-bf12-00ca-b185-85cead095097",
+            "value": "Video Games",
+            "image_id": "6deb3472d637478fa54c3a3037c3e0b1",
+            "permalink": "video-games",
+            "entity_def_id": "category"
+          }
+        ]
+      },
+      "overview_investor_fields": {},
+      "bombora_attribution": {},
+      "semrush_location_list": [],
+      "investors_list": [
+        {
+          "identifier": {
+            "uuid": "e0f9d202-823e-eeb2-5592-860fe9f85fbf",
+            "value": "Union Square Ventures investment in Venture Round - Smart Balloon",
+            "permalink": "union-square-ventures-invested-in-smart-balloon-series-unknown--2d9e3f69--e0f9d202",
+            "entity_def_id": "investment"
+          },
+          "funding_round_identifier": {
+            "uuid": "2d9e3f69-9f28-f89a-d681-3d53c8b582d8",
+            "value": "Venture Round - Smart Balloon",
+            "image_id": "v1397186460/d4b82a1f1776c9663874d348c2625658.png",
+            "permalink": "smart-balloon-series-unknown--2d9e3f69",
+            "entity_def_id": "funding_round"
+          },
+          "investor_identifier": {
+            "uuid": "b5d0d7dd-cfc2-4c56-9ed4-847db73f8cee",
+            "value": "Union Square Ventures",
+            "image_id": "m55dmtzuaacwuqc2lmug",
+            "permalink": "union-square-ventures",
+            "entity_def_id": "organization"
+          }
+        }
+      ],
+      "siftery_summary": {
+        "identifier": {
+          "uuid": "2634853c-b180-b67c-1642-ee2de7316ca8",
+          "value": "Smart Balloon",
+          "image_id": "v1397186460/d4b82a1f1776c9663874d348c2625658.png",
+          "permalink": "smart-balloon",
+          "entity_def_id": "organization"
+        },
+        "siftery_num_products": 5
+      },
+      "acquired_by_summary": {
+        "identifier": {
+          "uuid": "2634853c-b180-b67c-1642-ee2de7316ca8",
+          "value": "Smart Balloon",
+          "image_id": "v1397186460/d4b82a1f1776c9663874d348c2625658.png",
+          "permalink": "smart-balloon",
+          "entity_def_id": "organization"
+        }
+      },
+      "ipo_fields": {},
+      "apptopia_app_overview_list_public": [],
+      "apptopia_sdk_list": [],
+      "trading_view": {},
+      "current_employees_image_list": [],
+      "frequently_asked_questions_investors": {
+        "identifier": {
+          "uuid": "2634853c-b180-b67c-1642-ee2de7316ca8",
+          "value": "Smart Balloon",
+          "image_id": "v1397186460/d4b82a1f1776c9663874d348c2625658.png",
+          "permalink": "smart-balloon",
+          "entity_def_id": "organization"
+        },
+        "num_investors": 1
+      },
+      "funding_rounds_list": [
+        {
+          "identifier": {
+            "uuid": "2d9e3f69-9f28-f89a-d681-3d53c8b582d8",
+            "value": "Venture Round - Smart Balloon",
+            "image_id": "v1397186460/d4b82a1f1776c9663874d348c2625658.png",
+            "permalink": "smart-balloon-series-unknown--2d9e3f69",
+            "entity_def_id": "funding_round"
+          },
+          "announced_on": "2010-06-23",
+          "money_raised": {
+            "value": 3000000,
+            "currency": "USD",
+            "value_usd": 3000000
+          },
+          "num_investors": 1,
+          "investment_type": "series_unknown"
+        },
+        {
+          "identifier": {
+            "uuid": "27b0876f-1627-f9ec-bd8e-e17602d16ba1",
+            "value": "Venture Round - Smart Balloon",
+            "image_id": "v1397186460/d4b82a1f1776c9663874d348c2625658.png",
+            "permalink": "smart-balloon-series-unknown--27b0876f",
+            "entity_def_id": "funding_round"
+          },
+          "announced_on": "2009-05-15",
+          "money_raised": {
+            "value": 650000,
+            "currency": "USD",
+            "value_usd": 650000
+          },
+          "investment_type": "series_unknown"
+        }
+      ],
+      "technology_highlights": {
+        "builtwith_num_technologies_used": 26,
+        "siftery_num_products": 5
+      },
+      "funding_rounds_headline": {
+        "funding_total": {
+          "value": 3650000,
+          "currency": "USD",
+          "value_usd": 3650000
+        },
+        "num_funding_rounds": 2
+      },
+      "investments_list": [],
+      "exits_image_list": [],
+      "funds_headline": {},
+      "people_highlights": {},
+      "semrush_attribution": {},
+      "frequently_asked_questions_similar_companies": {
+        "identifier": {
+          "uuid": "2634853c-b180-b67c-1642-ee2de7316ca8",
+          "value": "Smart Balloon",
+          "image_id": "v1397186460/d4b82a1f1776c9663874d348c2625658.png",
+          "permalink": "smart-balloon",
+          "entity_def_id": "organization"
+        }
+      },
+      "semrush_overview": {},
+      "org_category_ranks": {
+        "category_ranks": {
+          "af922a55-ff56-771a-b9b5-06c1284ef0c8": {
+            "rank": 2122,
+            "count": 3710,
+            "pv_rank": 2159
+          },
+          "dabab6af-bf12-00ca-b185-85cead095097": {
+            "rank": 11529,
+            "count": 18933,
+            "pv_rank": 11710
+          },
+          "dd1ef133-8ee8-088c-bbe1-bdf22241358f": {
+            "rank": 23905,
+            "count": 40251,
+            "pv_rank": 24301
+          }
+        }
+      },
+      "current_valuation": [],
+      "legal_proceedings": [],
+      "current_employees_summary": {
+        "identifier": {
+          "uuid": "2634853c-b180-b67c-1642-ee2de7316ca8",
+          "value": "Smart Balloon",
+          "image_id": "v1397186460/d4b82a1f1776c9663874d348c2625658.png",
+          "permalink": "smart-balloon",
+          "entity_def_id": "organization"
+        }
+      },
+      "aberdeen_summary": {
+        "identifier": {
+          "uuid": "2634853c-b180-b67c-1642-ee2de7316ca8",
+          "value": "Smart Balloon",
+          "image_id": "v1397186460/d4b82a1f1776c9663874d348c2625658.png",
+          "permalink": "smart-balloon",
+          "entity_def_id": "organization"
+        }
+      },
+      "offices": [],
+      "overview_timeline": {
+        "count": 2,
+        "entities": [
+          {
+            "uuid": "2d9e3f69-9f28-f89a-d681-3d53c8b582d8",
+            "properties": {
+              "identifier": {
+                "uuid": "2d9e3f69-9f28-f89a-d681-3d53c8b582d8",
+                "value": "Venture Round - Smart Balloon",
+                "image_id": "v1397186460/d4b82a1f1776c9663874d348c2625658.png",
+                "permalink": "smart-balloon-series-unknown--2d9e3f69",
+                "entity_def_id": "funding_round"
+              },
+              "entity_def_id": "funding_round",
+              "activity_entities": [
+                {
+                  "role": "investee",
+                  "uuid": "2634853c-b180-b67c-1642-ee2de7316ca8",
+                  "value": "Smart Balloon",
+                  "image_id": "v1397186460/d4b82a1f1776c9663874d348c2625658.png",
+                  "permalink": "smart-balloon",
+                  "entity_def_id": "organization"
+                },
+                {
+                  "role": "investor",
+                  "uuid": "b5d0d7dd-cfc2-4c56-9ed4-847db73f8cee",
+                  "value": "Union Square Ventures",
+                  "image_id": "m55dmtzuaacwuqc2lmug",
+                  "permalink": "union-square-ventures",
+                  "entity_def_id": "organization"
+                }
+              ],
+              "activity_properties": {
+                "money_raised": {
+                  "value": 3000000,
+                  "currency": "USD",
+                  "value_usd": 3000000
+                },
+                "investment_type": "series_unknown"
+              },
+              "activity_date": "2010-06-23"
+            }
+          },
+          {
+            "uuid": "27b0876f-1627-f9ec-bd8e-e17602d16ba1",
+            "properties": {
+              "identifier": {
+                "uuid": "27b0876f-1627-f9ec-bd8e-e17602d16ba1",
+                "value": "Venture Round - Smart Balloon",
+                "image_id": "v1397186460/d4b82a1f1776c9663874d348c2625658.png",
+                "permalink": "smart-balloon-series-unknown--27b0876f",
+                "entity_def_id": "funding_round"
+              },
+              "entity_def_id": "funding_round",
+              "activity_entities": [
+                {
+                  "role": "investee",
+                  "uuid": "2634853c-b180-b67c-1642-ee2de7316ca8",
+                  "value": "Smart Balloon",
+                  "image_id": "v1397186460/d4b82a1f1776c9663874d348c2625658.png",
+                  "permalink": "smart-balloon",
+                  "entity_def_id": "organization"
+                }
+              ],
+              "activity_properties": {
+                "money_raised": {
+                  "value": 650000,
+                  "currency": "USD",
+                  "value_usd": 650000
+                },
+                "investment_type": "series_unknown"
+              },
+              "activity_date": "2009-05-15"
+            }
+          }
+        ]
+      },
+      "company_financials_highlights": {
+        "funding_total": {
+          "value": 3650000,
+          "currency": "USD",
+          "value_usd": 3650000
+        },
+        "num_funding_rounds": 2,
+        "num_investors": 1
+      },
+      "overview_company_fields": {
+        "company_type": "for_profit"
+      },
+      "private_tags_pill_list": [],
+      "acquisitions_headline": {},
+      "builtwith_summary": {
+        "builtwith_num_technologies_used": 26,
+        "identifier": {
+          "uuid": "2634853c-b180-b67c-1642-ee2de7316ca8",
+          "value": "Smart Balloon",
+          "image_id": "v1397186460/d4b82a1f1776c9663874d348c2625658.png",
+          "permalink": "smart-balloon",
+          "entity_def_id": "organization"
+        }
+      },
+      "about_short_description": {
+        "short_description": "Smart Balloon was a games company."
+      },
+      "product": [],
+      "apptopia_app_headline": {}
+    }
+  }
+}

@@ -1,0 +1,212 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T13:47:36.140Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T13:47:36.139Z",
+    "url": "https://www.crunchbase.com/organization/trmem"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Trmem",
+      "shortDescription": "Trmem is the first Saudi platform connecting contractors and engineers with clients, making construction and renovation faster and easier.",
+      "description": "Trmem is the first Saudi digital platform that brings together contractors, engineers, and clients in one integrated marketplace for construction, renovation, and interior design projects.\n\nThe platform empowers clients to easily find, compare, and hire qualified professionals across multiple specialties — from home renovations and annex building to full-scale construction. With its contractor evaluation system, professional tiering, and verified directory, Trmem ensures trust and transparency in every project.\n\nFor contractors and engineers, Trmem provides access to a continuous stream of projects, enabling them to grow their business, build their reputation, and reach new clients. The platform also offers value-added services, including maintenance contract management, partnerships with suppliers, and subscription-based professional tools.\n\nBy digitizing and simplifying the renovation and construction process, Trmem is transforming the Saudi construction market, making it faster, more transparent, and more efficient for both clients and professionals.",
+      "website": "https://www.trmem.com/",
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "11-50",
+      "headquarters": "Riyadh, Ar Riyad, Saudi Arabia",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Building Material",
+        "Construction",
+        "PropTech"
+      ],
+      "sectors": [
+        "Real Estate"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 500000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2025-07-23",
+      "lastFundingType": "Pre Seed",
+      "rounds": [
+        {
+          "announcedDate": "2025-07-23",
+          "amount": {
+            "amount": 500000,
+            "currency": "USD"
+          },
+          "postMoneyValuation": {
+            "amount": 4842844,
+            "currency": "USD"
+          },
+          "type": "Pre Seed"
+        }
+      ]
+    },
+    "recentNews": {
+      "reportedCount": 1,
+      "includedUniqueCount": 1,
+      "items": [
+        {
+          "date": "2025-07-23",
+          "title": "Pre Seed Round - Trmem"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 500000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": 0,
+      "growthScore": 46,
+      "heatChange90Days": -9,
+      "heatScore": 69
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-29",
+        "probabilityPercent": 5
+      },
+      "funding": {
+        "generatedDate": "2026-08-29",
+        "probabilityPercent": 65.96,
+        "timingEstimatePercent": {
+          "within6Months": 99.99,
+          "months6To11": 0,
+          "months12To24": 0,
+          "beyond24Months": 0
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-29",
+        "probabilityPercent": 93.27
+      },
+      "ipo": {
+        "generatedDate": "2026-08-29",
+        "probabilityPercent": 0
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Umm Al Qura provides real estate development and construction for urban and investment real estate landscapes.",
+          "employeeRange": "101-250",
+          "name": "Umm Al Qura",
+          "similarityScore": 85
+        },
+        {
+          "description": "Public Investment Fund is the sovereign wealth fund of Saudi Arabia, managing and investing government assets to diversify the economy.",
+          "employeeRange": "1,001-5,000",
+          "name": "Public Investment Fund",
+          "similarityScore": 85
+        },
+        {
+          "description": "Ventures ONSITE is business management consulting company.",
+          "employeeRange": "101-250",
+          "name": "Ventures ONSITE",
+          "sharedCategories": [
+            "Construction"
+          ],
+          "similarityScore": 83
+        },
+        {
+          "description": "Upwork is a human and AI-powered freelance marketplace to hire top talent.",
+          "employeeRange": "1-10",
+          "name": "Upwork Global, Inc.",
+          "similarityScore": 75
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Pre Seed round raised $500,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $4,842,844 to $4,842,844, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 46 (+0 over 90 days) and market heat at 69 (-9).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Umm Al Qura, Public Investment Fund, Ventures ONSITE.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

@@ -1,0 +1,240 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T12:02:47.703Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T12:02:47.701Z",
+    "url": "https://www.crunchbase.com/organization/idf3"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "IDF3 Crypto Inc.",
+      "shortDescription": "A middle-eastern-focused DeFi startup with a mission to democratize access to the metaverse and trade of digital assets.",
+      "description": "A middle-eastern-focused DeFi startup with a mission to democratize access to the metaverse and trade of digital assets.",
+      "website": "http://www.idf3.com/",
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "1-10",
+      "estimatedRevenueRange": "Less than $1M",
+      "headquarters": "Dubai, United Arab Emirates",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Blockchain",
+        "Metaverse",
+        "Mobile Payments"
+      ],
+      "sectors": [
+        "Blockchain and Cryptocurrency",
+        "Financial Services",
+        "Media and Entertainment",
+        "Mobile",
+        "Payments",
+        "Software"
+      ],
+      "founders": [
+        "Bandar Alsharfi",
+        "Mohanad Fors"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 50000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2019-03-01",
+      "lastFundingType": "Pre Seed",
+      "rounds": [
+        {
+          "announcedDate": "2019-03-01",
+          "amount": {
+            "amount": 50000,
+            "currency": "USD"
+          },
+          "postMoneyValuation": {
+            "amount": 7050000,
+            "currency": "USD"
+          },
+          "type": "Pre Seed"
+        }
+      ]
+    },
+    "recentNews": {
+      "reportedCount": 1,
+      "includedUniqueCount": 1,
+      "items": [
+        {
+          "date": "2019-03-01",
+          "title": "Pre Seed Round - IDF3 Crypto Inc."
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 50000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": -3,
+      "growthScore": 82,
+      "heatChange90Days": -7,
+      "heatScore": 7
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 0
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 8.17,
+        "timingEstimatePercent": {
+          "within6Months": 15.22,
+          "months6To11": 12.9,
+          "months12To24": 20.21,
+          "beyond24Months": 24.97
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 87.66
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 0
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Animoca Brands is a metaverse and gaming company focused on driving digital property rights through NFTs.",
+          "employeeRange": "501-1,000",
+          "name": "Animoca Brands",
+          "sharedCategories": [
+            "Blockchain",
+            "Metaverse"
+          ],
+          "similarityScore": 90
+        },
+        {
+          "description": "The Sandbox develops a decentralized gaming platform that leverages non-fungible tokens and blockchain technology.",
+          "employeeRange": "101-250",
+          "name": "The Sandbox",
+          "sharedCategories": [
+            "Blockchain",
+            "Metaverse"
+          ],
+          "similarityScore": 88
+        },
+        {
+          "description": "Decentraland is a virtual reality platform that allows users to explore the metaverse and experience novelty.",
+          "employeeRange": "51-100",
+          "name": "Decentraland",
+          "sharedCategories": [
+            "Blockchain",
+            "Metaverse"
+          ],
+          "similarityScore": 86
+        },
+        {
+          "description": "Gala Biotech is Greek for milk, and the company's original mission is to produce pharmaceutical proteins in the milk of transgenic cows.",
+          "employeeRange": "1-10",
+          "name": "Gala Biotech",
+          "similarityScore": 84
+        },
+        {
+          "description": "Myria is a blockchain gaming platform that combines a gaming platform with applications, tools, and scaling infrastructure.",
+          "employeeRange": "51-100",
+          "name": "Myria",
+          "sharedCategories": [
+            "Blockchain"
+          ],
+          "similarityScore": 82
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Pre Seed round raised $50,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $7,050,000 to $7,050,000, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 82 (-3 over 90 days) and market heat at 7 (-7).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Animoca Brands, The Sandbox, Decentraland.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

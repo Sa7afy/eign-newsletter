@@ -1,0 +1,236 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T09:18:05.761Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T09:18:05.759Z",
+    "url": "https://www.crunchbase.com/organization/astravalle"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "AstraValle",
+      "shortDescription": "AstraValle is a independent game studio that develops video games",
+      "description": "AstraValle is a independent game studio that develops video games",
+      "website": "https://www.astravalle.com/",
+      "foundedYear": 2023,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "employeeRange": "1-10",
+      "headquarters": "Riyadh, Ar Riyad, Saudi Arabia",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Gaming",
+        "Video Games"
+      ],
+      "sectors": [
+        "Gaming"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 300000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2025-08-15",
+      "lastFundingType": "Pre Seed",
+      "rounds": [
+        {
+          "announcedDate": "2025-08-15",
+          "amount": {
+            "amount": 300000,
+            "currency": "USD"
+          },
+          "investorCount": 2,
+          "leadInvestors": [
+            "Exel by Merak"
+          ],
+          "postMoneyValuation": {
+            "amount": 3615255,
+            "currency": "USD"
+          },
+          "type": "Pre Seed"
+        }
+      ],
+      "investors": {
+        "reportedCount": 2,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "Exel by Merak",
+            "rounds": [
+              "Pre Seed Round"
+            ]
+          },
+          {
+            "name": "GameFounders",
+            "rounds": [
+              "Pre Seed Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 1,
+      "includedUniqueCount": 1,
+      "items": [
+        {
+          "date": "2025-08-15",
+          "title": "Pre Seed Round - AstraValle"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 300000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": 0,
+      "growthScore": 87,
+      "heatChange90Days": 4,
+      "heatScore": 63
+    },
+    "modelPredictions": {
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 87.26
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Supergiant Games develops video games and sells t-shirts, art prints, ringtones, CDs, USB flash drives, and soundtracks related to them.",
+          "employeeRange": "11-50",
+          "name": "Supergiant Games",
+          "sharedCategories": [
+            "Video Games",
+            "Gaming"
+          ],
+          "similarityScore": 97
+        },
+        {
+          "description": "Playdead is an independent game developer and publisher based in Copenhagen, Denmark.",
+          "employeeRange": "11-50",
+          "name": "Playdead",
+          "sharedCategories": [
+            "Video Games",
+            "Gaming"
+          ],
+          "similarityScore": 95
+        },
+        {
+          "description": "Team Cherry is a games developer team.",
+          "employeeRange": "1-10",
+          "name": "Team Cherry",
+          "sharedCategories": [
+            "Video Games"
+          ],
+          "similarityScore": 93
+        },
+        {
+          "description": "Motion Twin has been making free browser and mobile games since 2001.",
+          "employeeRange": "1-10",
+          "name": "Motion twin",
+          "sharedCategories": [
+            "Gaming"
+          ],
+          "similarityScore": 91
+        },
+        {
+          "description": "Klei is a video game studio it has developed and published games for a bunch of different platforms.",
+          "employeeRange": "11-50",
+          "name": "Klei Entertainment",
+          "sharedCategories": [
+            "Video Games",
+            "Gaming"
+          ],
+          "similarityScore": 83
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Pre Seed round raised $300,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $3,615,255 to $3,615,255, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 87 (+0 over 90 days) and market heat at 63 (+4).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Supergiant Games, Playdead, Team Cherry.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

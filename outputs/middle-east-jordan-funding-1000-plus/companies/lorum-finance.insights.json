@@ -1,0 +1,328 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T12:22:00.529Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T12:22:00.526Z",
+    "url": "https://www.crunchbase.com/organization/lorum-finance"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Lorum Finance",
+      "shortDescription": "Lorum is a financial infrastructure platform designed mainly for businesses, fintechs, and platforms.",
+      "description": "Lorum provides multi-currency clearing infrastructure for regulated platforms and financial institutions operating across multiple markets. The product connects directly to major and local payment rails, allowing institutions to clear and settle funds without building local entities or maintaining fragmented correspondent banking relationships.\n\nThrough a single API and ledger, clients run operational and client-money account structures across currencies, with regulated, segregated accounts and virtual IBANs issued in the end customer’s name where supported. This enables predictable settlement finality, improved fund security, and clearer ownership of balances across jurisdictions.",
+      "website": "https://www.lorum.com/",
+      "foundedYear": 2023,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "51-100",
+      "headquarters": "Dubai, United Arab Emirates",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Banking",
+        "Finance",
+        "FinTech",
+        "SaaS"
+      ],
+      "sectors": [
+        "Financial Services",
+        "Lending and Investments",
+        "Software"
+      ],
+      "founders": [
+        "George Davis",
+        "James Smith",
+        "Maximilian von Both"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "A yield-bearing extension to Lorum's cash management suite that lets institutional clients earn returns on operational cash balances alongside clearing, custody, and FX through a single API.",
+        "name": "Yield Rails yield-bearing capability"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 8600000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 2,
+      "detailedRoundCount": 2,
+      "lastFundingDate": "2025-04-03",
+      "lastFundingType": "Seed",
+      "rounds": [
+        {
+          "announcedDate": "2025-04-03",
+          "amount": {
+            "amount": 6600000,
+            "currency": "USD"
+          },
+          "investorCount": 5,
+          "postMoneyValuation": {
+            "amount": 35630254,
+            "currency": "USD"
+          },
+          "type": "Seed"
+        },
+        {
+          "announcedDate": "2023-02-01",
+          "amount": {
+            "amount": 2000000,
+            "currency": "USD"
+          },
+          "investorCount": 2,
+          "postMoneyValuation": {
+            "amount": 12243096,
+            "currency": "USD"
+          },
+          "type": "Seed"
+        }
+      ],
+      "investors": {
+        "reportedCount": 7,
+        "visibleNames": [
+          {
+            "name": "Alter Global",
+            "rounds": [
+              "Seed Round"
+            ]
+          },
+          {
+            "name": "Flourish Ventures",
+            "rounds": [
+              "Seed Round"
+            ]
+          },
+          {
+            "name": "George Makhoul",
+            "rounds": [
+              "Seed Round"
+            ]
+          },
+          {
+            "name": "NorthOne Ventures",
+            "rounds": [
+              "Seed Round"
+            ]
+          },
+          {
+            "name": "Olugbenga Agboola",
+            "rounds": [
+              "Seed Round"
+            ]
+          },
+          {
+            "name": "Raba Partnership",
+            "rounds": [
+              "Seed Round"
+            ]
+          },
+          {
+            "name": "Shorooq Partners",
+            "rounds": [
+              "Seed Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 4,
+      "includedUniqueCount": 4,
+      "items": [
+        {
+          "date": "2026-07-07",
+          "publisher": "Financial IT",
+          "title": "Lorum Appoints Dr. Hartwig Gerhartinger as Chief Legal, Risk and Compliance Officer",
+          "url": "https://financialit.net/news/people-moves/lorum-appoints-dr-hartwig-gerhartinger-chief-legal-risk-and-compliance-officer"
+        },
+        {
+          "date": "2026-06-12",
+          "publisher": "The Fintech Times",
+          "title": "Building a ‘New-Age BNY’: Lorum Launches Yield Rails to Capture Underserved Mid-Market Treasury Flows",
+          "url": "https://thefintechtimes.com/building-a-new-age-bny-lorum-launches-yield-rails-to-capture-underserved-mid-market-treasury-flows/"
+        },
+        {
+          "date": "2025-04-03",
+          "title": "Seed Round - Lorum Finance"
+        },
+        {
+          "date": "2023-02-01",
+          "title": "Seed Round - Lorum Finance"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 2,
+    "knownDetailedFundingAmount": {
+      "amount": 8600000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 76.74,
+    "latestToEarliestKnownValuationMultiple": 2.91
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": -3,
+      "growthScore": 82,
+      "heatChange90Days": 16,
+      "heatScore": 84
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 32.21
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 93.88,
+        "timingEstimatePercent": {
+          "within6Months": 99.93,
+          "months6To11": 0.07,
+          "months12To24": 0,
+          "beyond24Months": 0
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 95.79
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 3.99
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Banking Circle offers its Members the capability to make and receive cross-border transfers in seconds at a low cost.",
+          "employeeRange": "501-1,000",
+          "name": "Banking Circle",
+          "sharedCategories": [
+            "Banking",
+            "FinTech"
+          ],
+          "similarityScore": 97
+        },
+        {
+          "description": "Clear Junction Ltd is a FCA regulated financial institution, transforming the future of payments for PSPs, marketplaces and banks.",
+          "employeeRange": "101-250",
+          "name": "Clear Junction",
+          "sharedCategories": [
+            "Banking",
+            "Finance",
+            "FinTech"
+          ],
+          "similarityScore": 95
+        },
+        {
+          "description": "Currencycloud specializes in a fully cloud-based platform for B2B cross-border payments.",
+          "employeeRange": "501-1,000",
+          "name": "Currencycloud",
+          "sharedCategories": [
+            "FinTech"
+          ],
+          "similarityScore": 93
+        },
+        {
+          "description": "Modern Treasury offers a payment operations platform to simplify and modernize business payments.",
+          "employeeRange": "101-250",
+          "name": "Modern Treasury",
+          "sharedCategories": [
+            "Banking",
+            "Finance",
+            "FinTech"
+          ],
+          "similarityScore": 91
+        },
+        {
+          "description": "BVNK provides APIs that enable businesses to send, receive, store, and convert fiat and digital currencies.",
+          "employeeRange": "251-500",
+          "name": "BVNK",
+          "sharedCategories": [
+            "Banking",
+            "FinTech"
+          ],
+          "similarityScore": 89
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Seed round raised $6,600,000, or 76.74% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $12,243,096 to $35,630,254, a 2.91x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 82 (-3 over 90 days) and market heat at 84 (+16).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Banking Circle, Clear Junction, Currencycloud.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T12:53:42.191Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T12:53:42.190Z",
+    "url": "https://www.crunchbase.com/organization/paper-hunter"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Paper Hunter",
+      "shortDescription": "Paper Hunter is a Business-to-Business e-marketing platform for Middle East and Sub-Sahara Africa enabling business development",
+      "description": "Paper Hunter is a Business-to-Business e-marketing platform for Middle East and Sub-Sahara Africa enabling business development while encouraging online buying and selling in the region. \r\n\r\nPaper Hunter customers are businesses looking to enter new markets and drive sales revenues. They promote special sales and new product information that focuses on developing business and revenues for their partners in and around Middle East and Sub-Sahara Africa.\r\n\r\nServices they offer are:\r\n\r\n1) Online Digital Marketing\r\nThey serve as affiliate for their partners when they market their products and services via targeted advertising to prospects in these ‘new markets’ convert them to leads and facilitate closing deals. Their Online Digital Marketing services includes but not limited to: \r\nEmail Marketing, Social Media Marketing & Mobile Marketing\r\n\r\n2) Hot Lead Generation\r\nTheir lead generation  program is unrivalled in creating hot leads. Using their unique system, businesses in Middle East and Sub-Sahara Africa can be rest assured that they can create more relevant leads for them than anyone else in the region while they focus on growing their business. Each campaign with them runs for thirty (30) days and they always follow up on leads with calls to qualify them for conversion daily. Their Hot Leads Generation programs include:\r\nEGuru & QLead\r\n\r\n3) Procurement and BPO services\r\nAs a regional leader in profit maximization and business growth services, whether businesses are searching for ways to reduce costs, grow revenue, need to improve their best practices, need sourcing or any other business need they can help! Their services include:\r\nCost Reduction, Procurement, Financial Services.\r\n\r\n4) Professional Sourcing Services\r\nThey understand that for a business transaction to happen buyers require a trustworthy and competent supplier.  Their service SourcingPro lets buyers submit requests, they source and verify suppliers, and they compare supplier quotations and let the buyers finalize the transaction with the best quotation in and around the Middle East and Sub-Sahara Africa region.\r\n\r\n5) Dubai Agent Services\r\nThey understand not all business have the resources to open Free Zone companies or branch offices in Dubai or keep an employee on payroll to follow-up with orders and shipments. They also understand it is difficult establishing trust with suppliers when not physically present and ensure goods and services match invoice in quantity and quality as in RFQ. Their local agency services fulfill just these needs and serve as their guarantee to their partners to the quality of their services. As a local agent, they also promote discount offers for their partners and inform them of relevant deals for buyers and sellers in Middle East and Sub-Sahara Africa",
+      "website": "http://www.paper-hunter.com/",
+      "operatingStatus": "Closed",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "1-10",
+      "estimatedRevenueRange": "$1M-$10M",
+      "headquarters": "Dubai, United Arab Emirates",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "B2B",
+        "Digital Media",
+        "E-Commerce",
+        "E-Commerce Platforms",
+        "Marketing Automation",
+        "Mobile"
+      ],
+      "sectors": [
+        "Commerce and Shopping",
+        "Internet Services",
+        "Media and Entertainment",
+        "Mobile",
+        "Other",
+        "Sales and Marketing",
+        "Software"
+      ],
+      "founders": [
+        "Bissong Joben"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 2000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2014-05-02",
+      "lastFundingType": "Undisclosed",
+      "rounds": [
+        {
+          "announcedDate": "2014-05-02",
+          "amount": {
+            "amount": 2000,
+            "currency": "USD"
+          },
+          "type": "Undisclosed"
+        }
+      ]
+    },
+    "recentNews": {
+      "reportedCount": 1,
+      "includedUniqueCount": 1,
+      "items": [
+        {
+          "date": "2014-05-02",
+          "title": "Funding Round - Paper Hunter"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 2000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors."
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Undisclosed round raised $2,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

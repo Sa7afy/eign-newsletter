@@ -1,0 +1,257 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T12:57:32.244Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T12:57:32.243Z",
+    "url": "https://www.crunchbase.com/organization/plastus"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Plastic",
+      "shortDescription": "Plastic produces and sells PHA bioplastics products.",
+      "description": "Plastus offers products that are created using the fermentation process of bacteria with an environmentally friendly carbon source. They convert organic waste into bioplastics, which are produced through the fermentation process of bacteria. Their integration into PHA’s should lead to a decrease in fossil fuel use and significantly reduce carbon emissions.",
+      "website": "https://www.theplastus.com/",
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "1-10",
+      "headquarters": "Khobar, Ash Sharqiyah, Saudi Arabia",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Biotechnology",
+        "Manufacturing",
+        "Plastics and Rubber Manufacturing"
+      ],
+      "sectors": [
+        "Biotechnology",
+        "Manufacturing",
+        "Science and Engineering"
+      ],
+      "founders": [
+        "Nouf Alhazmi"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 100000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 2,
+      "detailedRoundCount": 2,
+      "lastFundingDate": "2023-03-02",
+      "lastFundingType": "Non Equity Assistance",
+      "rounds": [
+        {
+          "announcedDate": "2023-03-02",
+          "amount": {
+            "amount": 100000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "type": "Non Equity Assistance"
+        },
+        {
+          "announcedDate": "2022-01-01",
+          "investorCount": 1,
+          "postMoneyValuation": {
+            "amount": 2602197,
+            "currency": "USD"
+          },
+          "type": "Pre Seed"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "name": "Taqadam",
+            "rounds": [
+              "Non Equity Assistance",
+              "Pre Seed Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 2,
+      "includedUniqueCount": 2,
+      "items": [
+        {
+          "date": "2023-03-02",
+          "title": "Non Equity Assistance - Plastic"
+        },
+        {
+          "date": "2022-01-01",
+          "title": "Pre Seed Round - Plastic"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 100000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": 0,
+      "growthScore": 64,
+      "heatChange90Days": -11,
+      "heatScore": 64
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 44.78
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 29.83,
+        "timingEstimatePercent": {
+          "within6Months": 15.77,
+          "months6To11": 13.28,
+          "months12To24": 20.61,
+          "beyond24Months": 25
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 82.38
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 46.12
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Danimer Scientific is a biotechnology company that makes bioplastics used in disposable container coatings, packaging, and other products.",
+          "employeeRange": "101-250",
+          "name": "Danimer Scientific",
+          "sharedCategories": [
+            "Biotechnology",
+            "Plastics and Rubber Manufacturing"
+          ],
+          "similarityScore": 97
+        },
+        {
+          "description": "CJ BIOMATERIALS, Inc. develops biopolymers and bio-based chemicals, focusing on sustainable solutions like biodegradable PHA.",
+          "employeeRange": "51-100",
+          "name": "CJ Biomaterials",
+          "sharedCategories": [
+            "Biotechnology",
+            "Manufacturing"
+          ],
+          "similarityScore": 95
+        },
+        {
+          "description": "Bluepha is a biomanufacturing and material innovation company providing breakthrough products with competitive differentiation.",
+          "employeeRange": "101-250",
+          "name": "Bluepha",
+          "sharedCategories": [
+            "Biotechnology",
+            "Manufacturing"
+          ],
+          "similarityScore": 93
+        },
+        {
+          "description": "Kaneka Corporation is a manufacturer of chemicals and pharmaceutical products for food ingredients and electronic materials.",
+          "employeeRange": "10,001+",
+          "name": "Kaneka",
+          "sharedCategories": [
+            "Manufacturing"
+          ],
+          "similarityScore": 89
+        },
+        {
+          "description": "NatureWorks, a cleantech company, manufactures low carbon footprint biopolymers from renewable resources.",
+          "employeeRange": "501-1,000",
+          "name": "NatureWorks",
+          "similarityScore": 81
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Non Equity Assistance round raised $100,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $2,602,197 to $2,602,197, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 64 (+0 over 90 days) and market heat at 64 (-11).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Danimer Scientific, CJ Biomaterials, Bluepha.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

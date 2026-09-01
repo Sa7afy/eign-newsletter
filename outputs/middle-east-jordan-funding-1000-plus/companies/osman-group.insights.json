@@ -1,0 +1,283 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T12:52:15.570Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T12:52:15.568Z",
+    "url": "https://www.crunchbase.com/organization/osman-group"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Osman Group",
+      "shortDescription": "Osman Group is an industrial firm that provides construction, building materials, gypsum products, insulation, and trading services.",
+      "description": "Osman Group is an industrial firm that provides construction, building materials, gypsum products, insulation, and trading services. As a business organization, its aim is to assist a diverse range of corporate and government businesses, particularly in the Middle East, as well as the worldwide community. They seek to maximize customer happiness by providing technology that is adapted to their needs.",
+      "website": "http://www.osman.net/og/index.php",
+      "foundedYear": 1974,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "5,001-10,000",
+      "estimatedRevenueRange": "$1M-$10M",
+      "headquarters": "Gîza, Al Jizah, Egypt",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Middle East",
+        "Middle East and North Africa (MENA)",
+        "North Africa"
+      ],
+      "industries": [
+        "Construction",
+        "Consulting",
+        "Marketing"
+      ],
+      "sectors": [
+        "Professional Services",
+        "Real Estate",
+        "Sales and Marketing"
+      ],
+      "founders": [
+        "Hossam Hassaballah"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "Services related to building and infrastructure development including project management and execution.",
+        "name": "Construction Services"
+      },
+      {
+        "description": "Supply of raw and processed materials used in construction such as cement, aggregates, and steel.",
+        "name": "Building Materials"
+      },
+      {
+        "description": "Manufacture and supply of gypsum-based products used for interior walls, ceilings, and decorative elements.",
+        "name": "Gypsum Products"
+      },
+      {
+        "description": "Products designed to reduce heat transfer and improve energy efficiency in buildings.",
+        "name": "Insulation Materials"
+      },
+      {
+        "description": "Provision of trading and supply chain services for construction-related products and materials.",
+        "name": "Trading Services"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 15000000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2021-03-05",
+      "lastFundingType": "Series A",
+      "rounds": [
+        {
+          "announcedDate": "2021-03-05",
+          "amount": {
+            "amount": 15000000,
+            "currency": "USD"
+          },
+          "investorCount": 2,
+          "leadInvestors": [
+            "Hossam Hassaballah",
+            "The Black Tulip Organization"
+          ],
+          "postMoneyValuation": {
+            "amount": 50000000,
+            "currency": "USD"
+          },
+          "type": "Series A"
+        }
+      ],
+      "investors": {
+        "reportedCount": 2,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "Hossam Hassaballah",
+            "rounds": [
+              "Series A"
+            ]
+          },
+          {
+            "isLead": true,
+            "name": "The Black Tulip Organization",
+            "rounds": [
+              "Series A"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 2,
+      "includedUniqueCount": 2,
+      "items": [
+        {
+          "date": "2023-07-10",
+          "publisher": "Yahoo Finance",
+          "title": "Gypsum Board Market to grow by USD 15,865.52 million from ...",
+          "url": "https://finance.yahoo.com/news/gypsum-board-market-grow-usd-141500056.html"
+        },
+        {
+          "date": "2021-03-05",
+          "title": "Series A - Osman Group"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 15000000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthInsightGeneratedDate": "2023-12-20",
+      "growthChange90Days": -1,
+      "growthScore": 62,
+      "heatChange90Days": -14,
+      "heatScore": 50,
+      "status": "Growing"
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2025-04-27",
+        "probabilityPercent": 81.67
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 75.18
+      },
+      "ipo": {
+        "generatedDate": "2025-05-07",
+        "probabilityPercent": 4
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Knauf Group operates as a manufacturer of building materials.",
+          "employeeRange": "10,001+",
+          "name": "Knauf Group",
+          "sharedSpecialties": [
+            "Building Envelope Materials",
+            "Drywall Installation",
+            "Sustainable Insulation Materials"
+          ],
+          "similarityScore": 94
+        },
+        {
+          "description": "Saint-Gobain is a manufacturer and distributor of building materials for the construction and industrial markets.",
+          "employeeRange": "10,001+",
+          "name": "Saint-Gobain",
+          "sharedCategories": [
+            "Construction"
+          ],
+          "sharedSpecialties": [
+            "Procurement and Supply Services",
+            "Building Envelope Materials",
+            "Sustainable Insulation Materials"
+          ],
+          "similarityScore": 93
+        },
+        {
+          "description": "USG is a manufacturing company that produces gypsum wallboard, joint compound and a vast array of related products for the construction.",
+          "employeeRange": "5,001-10,000",
+          "name": "USG",
+          "sharedSpecialties": [
+            "Building Envelope Materials",
+            "Waterproofing Materials"
+          ],
+          "similarityScore": 92
+        },
+        {
+          "description": "Holcim is a building materials and aggregates company.",
+          "employeeRange": "10,001+",
+          "name": "Holcim",
+          "similarityScore": 88
+        },
+        {
+          "description": "Nippon Paint provides innovative solutions in the paint and coatings industry.",
+          "employeeRange": "5,001-10,000",
+          "name": "Nippon Paint (HK)",
+          "similarityScore": 83
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Series A round raised $15,000,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $50,000,000 to $50,000,000, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 62 (-1 over 90 days) and market heat at 50 (-14).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Knauf Group, Saint-Gobain, USG.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

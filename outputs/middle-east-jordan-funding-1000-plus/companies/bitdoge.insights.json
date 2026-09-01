@@ -1,0 +1,170 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T11:00:54.150Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T11:00:54.149Z",
+    "url": "https://www.crunchbase.com/organization/bitdoge"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "BitDoge",
+      "shortDescription": "BitDoge is a project incorporating meme tokens with AI chatbots in the Bitcoin ecosystem.",
+      "description": "BitDoge is a meme-based cryptocurrency project that blends the community-driven and humorous appeal popularized by Dogecoin-inspired digital assets with branding and concepts associated with the security and reliability of the Bitcoin ecosystem.\n\nThe project positions itself as a fun yet utility-oriented cryptocurrency, aiming to attract both meme coin enthusiasts and users interested in blockchain-based digital assets with strong community engagement. By referencing Bitcoin’s reputation for stability and security, BitDoge seeks to differentiate itself within the highly competitive meme cryptocurrency market.\n\nLike many meme cryptocurrencies, BitDoge’s growth strategy likely relies on community participation, social media engagement, viral marketing, and ecosystem development. Its value proposition centers on combining entertainment, online culture, and decentralized finance concepts to build an active and loyal user base.",
+      "website": "https://bitdoge.io/",
+      "foundedYear": 2024,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "headquarters": "Dubai, United Arab Emirates",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Artificial Intelligence (AI)",
+        "Bitcoin",
+        "Blockchain"
+      ],
+      "sectors": [
+        "Artificial Intelligence (AI)",
+        "Blockchain and Cryptocurrency",
+        "Data and Analytics",
+        "Financial Services",
+        "Payments",
+        "Science and Engineering",
+        "Software"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 718000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 2,
+      "detailedRoundCount": 2,
+      "lastFundingDate": "2024-07-04",
+      "lastFundingType": "Initial Coin Offering",
+      "rounds": [
+        {
+          "announcedDate": "2024-07-04",
+          "amount": {
+            "amount": 415000,
+            "currency": "USD"
+          },
+          "type": "Initial Coin Offering"
+        },
+        {
+          "announcedDate": "2024-06-01",
+          "amount": {
+            "amount": 303000,
+            "currency": "USD"
+          },
+          "type": "Initial Coin Offering"
+        }
+      ]
+    },
+    "recentNews": {
+      "reportedCount": 2,
+      "includedUniqueCount": 2,
+      "items": [
+        {
+          "date": "2024-07-04",
+          "title": "Initial Coin Offering - BitDoge"
+        },
+        {
+          "date": "2024-06-01",
+          "title": "Initial Coin Offering - BitDoge"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 2,
+    "knownDetailedFundingAmount": {
+      "amount": 718000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 57.8
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": -7,
+      "growthScore": 40,
+      "heatChange90Days": -20,
+      "heatScore": 72
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 68.35
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 47.59,
+        "timingEstimatePercent": {
+          "within6Months": 9.8,
+          "months6To11": 0.02,
+          "months12To24": 0,
+          "beyond24Months": 90.18
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-05-19",
+        "probabilityPercent": 95.25
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 4.75
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors."
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Initial Coin Offering round raised $415,000, or 57.8% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 40 (-7 over 90 days) and market heat at 72 (-20).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

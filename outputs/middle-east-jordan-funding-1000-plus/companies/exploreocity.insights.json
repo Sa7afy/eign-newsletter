@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T11:38:11.457Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T11:38:11.456Z",
+    "url": "https://www.crunchbase.com/organization/exploreocity"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Exploreocity",
+      "shortDescription": "Exploreocity is a travel inspiration and trip planner powered by AI that inspires travelers, helps them plan better and assist them.",
+      "description": "Exploreocity brings together local travel inspiration from all around the world to inspire travelers to explore various cultures, cities and countries.\n\nExploreocity also helps you plan efficiently with our trip planner that creates a personalized trip plan which you could modify, share and collaborate with fellow travelers. You can carry this plan with you on your trip and it will assist you throughout your journey. It provides you a quick and easy system to book flights, hotels, activities, in-destination transport and many other travel services based on your plan. \n\nOur vision is to make travel quick, efficient and fun.",
+      "website": "https://www.exploreocity.com/",
+      "foundedYear": 2018,
+      "operatingStatus": "Closed",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "1-10",
+      "headquarters": "Dubai, United Arab Emirates",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "founders": [
+        "Aboo Backer",
+        "Karthik Prathapachandran"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 100000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 2,
+      "detailedRoundCount": 2,
+      "lastFundingDate": "2018-09-01",
+      "lastFundingType": "Seed",
+      "rounds": [
+        {
+          "announcedDate": "2018-09-01",
+          "type": "Seed"
+        },
+        {
+          "announcedDate": "2018-01-01",
+          "amount": {
+            "amount": 100000,
+            "currency": "USD"
+          },
+          "type": "Angel"
+        }
+      ]
+    },
+    "recentNews": {
+      "reportedCount": 2,
+      "includedUniqueCount": 2,
+      "items": [
+        {
+          "date": "2018-09-01",
+          "title": "Seed Round - Exploreocity"
+        },
+        {
+          "date": "2018-01-01",
+          "title": "Angel Round - Exploreocity"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 100000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "heatChange90Days": -9,
+      "heatScore": 1
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors."
+    }
+  },
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

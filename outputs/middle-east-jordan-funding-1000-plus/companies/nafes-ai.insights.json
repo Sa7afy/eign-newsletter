@@ -1,0 +1,244 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T12:40:37.091Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T12:40:37.090Z",
+    "url": "https://www.crunchbase.com/organization/nafes-ai"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Nafes AI",
+      "shortDescription": "Nafes AI provides bid analytics and management services to support businesses in managing bids.",
+      "description": "Nafes AI offers digital-based tools and insights to assist businesses in managing the competition process. The company helps employees and business owners streamline operations, reduce effort, and improve performance. It focuses on supporting small and medium-sized enterprises to help them access opportunities and increase revenue. It aims to contribute to the overall growth of the economy by enhancing the competitive environment and promoting economic progress.",
+      "website": "https://nafes.ai/",
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "11-50",
+      "headquarters": "Riyadh, Ar Riyad, Saudi Arabia",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Software"
+      ],
+      "sectors": [
+        "Software"
+      ],
+      "founders": [
+        "Odai Masharqa"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "An AI-driven platform for managing and analyzing business bid opportunities in Saudi Arabia.",
+        "name": "Nafes AI Platform"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 1500000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2024-10-25",
+      "lastFundingType": "Pre Seed",
+      "rounds": [
+        {
+          "announcedDate": "2024-10-25",
+          "amount": {
+            "amount": 1500000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "postMoneyValuation": {
+            "amount": 9239165,
+            "currency": "USD"
+          },
+          "type": "Pre Seed"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "name": "Propeller Inc.",
+            "rounds": [
+              "Pre Seed Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 1,
+      "includedUniqueCount": 1,
+      "items": [
+        {
+          "date": "2024-10-25",
+          "title": "Pre Seed Round - Nafes AI"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 1500000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": -3,
+      "growthScore": 86,
+      "heatChange90Days": -3,
+      "heatScore": 80
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 95.1
+      },
+      "funding": {
+        "generatedDate": "2026-06-20",
+        "probabilityPercent": 93.67,
+        "timingEstimatePercent": {
+          "within6Months": 99.19,
+          "months6To11": 0,
+          "months12To24": 0,
+          "beyond24Months": 0.8
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 92.98
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 3.83
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "AI-enhanced procurement & AP automation platform for the mid-market. We make it easy for organizations to control spend & save money.",
+          "employeeRange": "101-250",
+          "name": "Procurify",
+          "sharedCategories": [
+            "Software"
+          ],
+          "sharedSpecialties": [
+            "Intelligent Document Processing",
+            "Document AI",
+            "Procurement and Purchasing Systems"
+          ],
+          "similarityScore": 86
+        },
+        {
+          "description": "Coupa is a cloud platform for business spend that offers a fully unified suite of financial applications for business spend management.",
+          "employeeRange": "1,001-5,000",
+          "name": "Coupa",
+          "sharedCategories": [
+            "Software"
+          ],
+          "sharedSpecialties": [
+            "Contract Lifecycle Management (CLM)",
+            "Procurement and Purchasing Systems"
+          ],
+          "similarityScore": 84
+        },
+        {
+          "description": "Jaggaer is SaaS that manages spending, suppliers, contracts, sourcing, shopping, inventory and accounts payable of businesses.",
+          "employeeRange": "1,001-5,000",
+          "name": "Jaggaer",
+          "sharedCategories": [
+            "Software"
+          ],
+          "sharedSpecialties": [
+            "Contract Lifecycle Management (CLM)",
+            "Procurement and Purchasing Systems"
+          ],
+          "similarityScore": 82
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Pre Seed round raised $1,500,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $9,239,165 to $9,239,165, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 86 (-3 over 90 days) and market heat at 80 (-3).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Procurify, Coupa, Jaggaer.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

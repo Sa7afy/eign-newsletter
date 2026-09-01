@@ -1,0 +1,230 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T11:22:27.711Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T11:22:27.709Z",
+    "url": "https://www.crunchbase.com/organization/denarii-cash"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Denarii Cash",
+      "shortDescription": "Denarii Cash is a fintech and digital payments platform focused on cross-border money transfers and blockchain-based payment services.",
+      "description": "Denarii Cash is a financial technology company that develops mobile payment and remittance solutions using blockchain infrastructure and digital wallet systems. The platform provides peer-to-peer money transfers, cryptocurrency wallet services, fiat-to-crypto conversion, bill payments, and cross-border remittance tools through mobile applications and payment integrations.",
+      "website": "https://denarii.cash/",
+      "foundedYear": 2017,
+      "operatingStatus": "Closed",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "1-10",
+      "estimatedRevenueRange": "Less than $1M",
+      "headquarters": "Dubai, United Arab Emirates",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Apps",
+        "Blockchain",
+        "FinTech"
+      ],
+      "sectors": [
+        "Apps",
+        "Blockchain and Cryptocurrency",
+        "Financial Services",
+        "Software"
+      ],
+      "founders": [
+        "Jon Santillan"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 100000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 4,
+      "detailedRoundCount": 4,
+      "lastFundingDate": "2021-01-01",
+      "lastFundingType": "Venture round",
+      "rounds": [
+        {
+          "announcedDate": "2021-01-01",
+          "investorCount": 1,
+          "postMoneyValuation": {
+            "amount": 4491046,
+            "currency": "USD"
+          },
+          "type": "Venture round"
+        },
+        {
+          "announcedDate": "2020-01-01",
+          "investorCount": 1,
+          "postMoneyValuation": {
+            "amount": 4358808,
+            "currency": "USD"
+          },
+          "type": "Venture round"
+        },
+        {
+          "announcedDate": "2019-04-26",
+          "amount": {
+            "amount": 100000,
+            "currency": "USD"
+          },
+          "investorCount": 2,
+          "type": "Seed"
+        },
+        {
+          "announcedDate": "2019-02-08",
+          "investorCount": 2,
+          "leadInvestors": [
+            "Misk 500 MENA Accelerator"
+          ],
+          "postMoneyValuation": {
+            "amount": 2898728,
+            "currency": "USD"
+          },
+          "type": "Seed"
+        }
+      ],
+      "investors": {
+        "reportedCount": 6,
+        "visibleNames": [
+          {
+            "name": "500 Global",
+            "rounds": [
+              "Seed Round"
+            ]
+          },
+          {
+            "name": "Foxmont Capital Partners",
+            "rounds": [
+              "Venture round"
+            ]
+          },
+          {
+            "name": "Merak Capital",
+            "rounds": [
+              "Venture round"
+            ]
+          },
+          {
+            "isLead": true,
+            "name": "Misk 500 MENA Accelerator",
+            "rounds": [
+              "Seed Round"
+            ]
+          },
+          {
+            "name": "Musaab Hakami",
+            "rounds": [
+              "Seed Round"
+            ]
+          },
+          {
+            "name": "Oqal",
+            "rounds": [
+              "Seed Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 7,
+      "includedUniqueCount": 7,
+      "items": [
+        {
+          "date": "2022-07-01",
+          "title": "Denarii Cash acquired by Careem"
+        },
+        {
+          "date": "2021-01-01",
+          "title": "Venture Round - Denarii Cash"
+        },
+        {
+          "date": "2020-08-06",
+          "publisher": "MAGNiTT",
+          "title": "Denarii Cash expands network and extends services for UAE expatriates",
+          "url": "http://ow.ly/Kp3n50ATaiy"
+        },
+        {
+          "date": "2020-07-31",
+          "publisher": "FinTech Futures",
+          "title": "UAE’s remittance fintech Denarii Cash expands beyond Middle East",
+          "url": "https://www.fintechfutures.com/2020/07/uaes-remittance-fintech-denarii-cash-expands-beyond-middle-east/"
+        },
+        {
+          "date": "2020-01-01",
+          "title": "Venture Round - Denarii Cash"
+        },
+        {
+          "date": "2019-04-26",
+          "title": "Seed Round - Denarii Cash"
+        },
+        {
+          "date": "2019-02-08",
+          "title": "Seed Round - Denarii Cash"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 100000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1.55
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "heatChange90Days": -5,
+      "heatScore": 54
+    },
+    "modelPredictions": {
+      "growth": {
+        "generatedDate": "2026-06-22",
+        "probabilityPercent": 92.73
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors."
+    }
+  },
+  "insights": [
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $2,898,728 to $4,491,046, a 1.55x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

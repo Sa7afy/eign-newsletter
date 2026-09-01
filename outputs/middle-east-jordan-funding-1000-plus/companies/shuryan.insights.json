@@ -1,0 +1,270 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T13:23:35.735Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T13:23:35.734Z",
+    "url": "https://www.crunchbase.com/organization/shuryan"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Shuryan",
+      "shortDescription": "Shuryan is a smart application that is designed to assist in locating information about doctors across various specialties.",
+      "description": "Shuryan is a mobile application designed to assist users in locating information about doctors across various specialties and locations. It facilitates the scheduling and management of appointments, allowing users to view their reservations at any time. Additionally, it provides a paperless system that securely archives health reports for patients, ensuring data protection.",
+      "website": "https://shuryan.com/",
+      "foundedYear": 2016,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "1-10",
+      "headquarters": "Shibîn El-kôm, Al Minufiyah, Egypt",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Middle East",
+        "Middle East and North Africa (MENA)",
+        "North Africa"
+      ],
+      "industries": [
+        "Apps",
+        "Health Care",
+        "Medical",
+        "Mobile Apps",
+        "Reservations"
+      ],
+      "sectors": [
+        "Apps",
+        "Commerce and Shopping",
+        "Events",
+        "Health Care",
+        "Mobile",
+        "Software"
+      ],
+      "founders": [
+        "Abdelrahman Osama Awad",
+        "Mohamed Abdelfattah",
+        "Mohamed Tarek Salama"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 11000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2017-09-18",
+      "lastFundingType": "Pre Seed",
+      "rounds": [
+        {
+          "announcedDate": "2017-09-18",
+          "amount": {
+            "amount": 11000,
+            "currency": "USD"
+          },
+          "investorCount": 2,
+          "leadInvestors": [
+            "FasterCapital"
+          ],
+          "postMoneyValuation": {
+            "amount": 148239,
+            "currency": "USD"
+          },
+          "type": "Pre Seed"
+        }
+      ],
+      "investors": {
+        "reportedCount": 2,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "FasterCapital",
+            "rounds": [
+              "Pre Seed Round"
+            ]
+          },
+          {
+            "name": "Hesham Zreik",
+            "rounds": [
+              "Pre Seed Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 1,
+      "includedUniqueCount": 1,
+      "items": [
+        {
+          "date": "2017-09-18",
+          "title": "Pre Seed Round - Shuryan"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 11000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": 0,
+      "growthScore": 43,
+      "heatChange90Days": -19,
+      "heatScore": 41
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 13.88
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 6.5,
+        "timingEstimatePercent": {
+          "within6Months": 14.01,
+          "months6To11": 12.05,
+          "months12To24": 19.27,
+          "beyond24Months": 24.78
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 75.37
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 25.93
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "The world’s most advanced platform for helping patients find better care, faster.",
+          "employeeRange": "11-50",
+          "name": "MediFind",
+          "sharedCategories": [
+            "Health Care"
+          ],
+          "similarityScore": 97
+        },
+        {
+          "description": "Curofy is a medical networking app that enables communication between doctors.",
+          "employeeRange": "11-50",
+          "name": "Curofy",
+          "sharedCategories": [
+            "Health Care",
+            "Medical"
+          ],
+          "similarityScore": 93
+        },
+        {
+          "description": "MD.com empowers and connects patients and doctors.",
+          "employeeRange": "11-50",
+          "name": "MD.Com",
+          "sharedCategories": [
+            "Health Care",
+            "Medical"
+          ],
+          "similarityScore": 89
+        },
+        {
+          "description": "Healthgrades is the leading online resource for comprehensive information about physicians and hospitals.",
+          "employeeRange": "501-1,000",
+          "name": "Healthgrades",
+          "sharedCategories": [
+            "Health Care",
+            "Medical"
+          ],
+          "similarityScore": 87
+        },
+        {
+          "description": "Zocdoc is a digital marketplace company that connects healthcare patients and doctors.",
+          "employeeRange": "1,001-5,000",
+          "name": "Zocdoc",
+          "sharedCategories": [
+            "Health Care",
+            "Mobile Apps",
+            "Medical"
+          ],
+          "similarityScore": 83
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Pre Seed round raised $11,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $148,239 to $148,239, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 43 (+0 over 90 days) and market heat at 41 (-19).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include MediFind, Curofy, MD.Com.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

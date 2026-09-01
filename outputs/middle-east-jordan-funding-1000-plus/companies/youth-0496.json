@@ -1,0 +1,3267 @@
+{
+  "sourceUrl": "https://www.crunchbase.com/organization/youth-0496",
+  "pageTitle": "youth-0496",
+  "scrapedAt": "2026-09-01T14:03:59.705Z",
+  "extraction": {
+    "authenticated": true,
+    "method": "curl-cffi-authenticated-entity-fetch-no-browser"
+  },
+  "organization": {
+    "properties": {
+      "facet_ids": [
+        "aberdeen",
+        "ai_insight",
+        "company",
+        "rank"
+      ],
+      "identifier": {
+        "uuid": "c6019631-8faa-4c24-b818-1f3dd7ca0496",
+        "value": "Youth",
+        "permalink": "youth-0496",
+        "entity_def_id": "organization"
+      },
+      "category_groups": [
+        {
+          "uuid": "26833aa6-0585-2aa7-8c69-63b4b14727c5",
+          "value": "Apps",
+          "permalink": "apps-2683",
+          "entity_def_id": "category_group"
+        },
+        {
+          "uuid": "85b6bca9-930a-11bc-a608-a513b76fb637",
+          "value": "Software",
+          "permalink": "software-85b6",
+          "entity_def_id": "category_group"
+        }
+      ],
+      "short_description": "Youth offers exclusive discounts for students.",
+      "rank_delta_d90": 1.1,
+      "title": "Youth"
+    },
+    "cards": {
+      "semrush_summary": {
+        "identifier": {
+          "uuid": "c6019631-8faa-4c24-b818-1f3dd7ca0496",
+          "value": "Youth",
+          "permalink": "youth-0496",
+          "entity_def_id": "organization"
+        }
+      },
+      "key_employee_change_list": [],
+      "apptopia_attribution": {},
+      "diversity_spotlight_investments_headline": {},
+      "apptopia_app_rating_list": [],
+      "funds_summary": {
+        "identifier": {
+          "uuid": "c6019631-8faa-4c24-b818-1f3dd7ca0496",
+          "value": "Youth",
+          "permalink": "youth-0496",
+          "entity_def_id": "organization"
+        }
+      },
+      "funding_prediction": [],
+      "company_about_fields1": {},
+      "current_advisors_image_list": [],
+      "recommended_search": [
+        {
+          "identifier": {
+            "permalink": "middle-east-companies",
+            "image_id": "216886c7d09c49d39cce6277f342d12d",
+            "uuid": "b1a51423-31c6-471b-aad4-59abd1d6f6ca",
+            "entity_def_id": "hub",
+            "value": "Middle East Companies (Top 10K)"
+          },
+          "org_identifiers": [
+            {
+              "permalink": "fasset",
+              "image_id": "216886c7d09c49d39cce6277f342d12d",
+              "uuid": "fb8d3cbb-6706-4fda-941f-7add24517f7c",
+              "entity_def_id": "organization",
+              "value": "Fasset"
+            },
+            {
+              "permalink": "biocatch",
+              "image_id": "eauvaq6djrm4cjktjmxi",
+              "uuid": "516abfe7-ee23-d825-b1e2-144b41ca591e",
+              "entity_def_id": "organization",
+              "value": "BioCatch"
+            },
+            {
+              "permalink": "african-export-import-bank",
+              "image_id": "aa1e4a9f367f4a34a29d5f81de4cb62b",
+              "uuid": "971b156a-46e5-c04c-2ae9-d36127a9bd9f",
+              "entity_def_id": "organization",
+              "value": "African Export-Import Bank"
+            },
+            {
+              "permalink": "humain-c7c3",
+              "image_id": "dc960b95a8634d398fb802e43c760504",
+              "uuid": "6bde23ba-59a6-43e2-882e-2fdf96c1c7c3",
+              "entity_def_id": "organization",
+              "value": "HUMAIN"
+            },
+            {
+              "permalink": "omilia",
+              "image_id": "a6e6d6f0223b4e70840705a17f248b9e",
+              "uuid": "49e3e363-63c7-e951-4974-1c79137fcef0",
+              "entity_def_id": "organization",
+              "value": "Omilia"
+            },
+            {
+              "permalink": "team8",
+              "image_id": "jgzvsw4o9vpv30kqv7yg",
+              "uuid": "192acc26-46d6-5961-2a18-2ec462242091",
+              "entity_def_id": "organization",
+              "value": "Team8"
+            },
+            {
+              "permalink": "investcorp-2",
+              "image_id": "v1444307467/wjljtmzfwxmg9xxokd23.png",
+              "uuid": "2f09a625-dfd1-bea9-d16b-0a45158c80c9",
+              "entity_def_id": "organization",
+              "value": "Investcorp"
+            },
+            {
+              "permalink": "remepy-healthcare",
+              "image_id": "hrzg28gqupnfqskstkis",
+              "uuid": "b4f69efc-f8c1-4584-820d-d75632eb8b22",
+              "entity_def_id": "organization",
+              "value": "Remepy"
+            }
+          ],
+          "org_funding_total": {
+            "currency": "USD",
+            "value": 774895588752,
+            "value_usd": 774895588752
+          },
+          "org_num_investors": 24830,
+          "org_num": 9760,
+          "queries": {
+            "event": [
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "e0272206-3430-48cb-a5bc-1d4b3eafe15a"
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "principal.has_event.forward",
+                "query": [
+                  {
+                    "field_id": "facet_ids",
+                    "operator_id": "includes",
+                    "values": [
+                      "company"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "active"
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ],
+            "organization": [
+              {
+                "field_id": "facet_ids",
+                "operator_id": "includes",
+                "values": [
+                  "company"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "e0272206-3430-48cb-a5bc-1d4b3eafe15a"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "operating_status",
+                "operator_id": "eq",
+                "values": [
+                  "active"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "rank_org",
+                "operator_id": "lte",
+                "values": [
+                  330000
+                ],
+                "type": "predicate"
+              }
+            ],
+            "person": [
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "e0272206-3430-48cb-a5bc-1d4b3eafe15a"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "rank_person",
+                "operator_id": "lte",
+                "values": [
+                  72000
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "organization.has_primary_organization.forward",
+                "query": [
+                  {
+                    "field_id": "facet_ids",
+                    "operator_id": "includes",
+                    "values": [
+                      "company"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "location_identifiers",
+                    "operator_id": "includes",
+                    "values": [
+                      "e0272206-3430-48cb-a5bc-1d4b3eafe15a"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "active"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "rank_org",
+                    "operator_id": "lte",
+                    "values": [
+                      330000
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ]
+          }
+        },
+        {
+          "identifier": {
+            "permalink": "africa-apps-companies",
+            "image_id": "mi4p9sglslh0wsqoymfj",
+            "uuid": "b1735808-a9d5-4ad5-a737-af708bc47547",
+            "entity_def_id": "hub",
+            "value": "Africa Apps Companies"
+          },
+          "org_identifiers": [
+            {
+              "permalink": "djamo",
+              "image_id": "mi4p9sglslh0wsqoymfj",
+              "uuid": "a373f15a-c53b-42a6-a59d-d67d2ae99e27",
+              "entity_def_id": "organization",
+              "value": "Djamo"
+            },
+            {
+              "permalink": "sahl",
+              "image_id": "i3d4bwwbka402acvm79v",
+              "uuid": "4a6b62f4-c3b7-4e04-b06e-f7c3bf0b79c0",
+              "entity_def_id": "organization",
+              "value": "Sahl"
+            },
+            {
+              "permalink": "gozem",
+              "image_id": "eeyqipzijwldsqqysyzn",
+              "uuid": "0a5d9a82-b708-428a-8dec-ba5e87ce622e",
+              "entity_def_id": "organization",
+              "value": "Gozem"
+            },
+            {
+              "permalink": "wamly",
+              "image_id": "zzbhhjhbi9vvibnarlkz",
+              "uuid": "48b0b650-1ba5-4ea8-9a63-6c13d84b6212",
+              "entity_def_id": "organization",
+              "value": "wamly"
+            },
+            {
+              "permalink": "sparkle-3c68",
+              "image_id": "yw0p0yelix9wtyp9jznk",
+              "uuid": "86a70006-f106-4df6-b340-10989e0c3c68",
+              "entity_def_id": "organization",
+              "value": "Sparkle"
+            },
+            {
+              "permalink": "jambo-5265",
+              "image_id": "4882c7c4e814447d92aeb53b6931f38d",
+              "uuid": "6bdc9fe3-2350-4d0c-937a-ad99ddcb5265",
+              "entity_def_id": "organization",
+              "value": "Jambo"
+            },
+            {
+              "permalink": "zuri-health",
+              "image_id": "qdqfzf1thhvvgqa7sunq",
+              "uuid": "770f1c62-5fdd-4486-9b9f-2af1a069a1c1",
+              "entity_def_id": "organization",
+              "value": "Zuri Health"
+            },
+            {
+              "permalink": "vendease",
+              "image_id": "iogvhg7eqqm8226zwmxl",
+              "uuid": "c57638c1-6cda-4efc-98af-813706310af1",
+              "entity_def_id": "organization",
+              "value": "Vendease"
+            }
+          ],
+          "org_funding_total": {
+            "currency": "USD",
+            "value": 595251102,
+            "value_usd": 595251102
+          },
+          "org_num_investors": 671,
+          "org_num": 1223,
+          "queries": {
+            "event": [
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "5b194c3b-3018-b47d-f611-ab142cdfd74c"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "categories",
+                "operator_id": "includes",
+                "values": [
+                  "af333248-9c7e-50c5-168a-e91b86595a17"
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "principal.has_event.forward",
+                "query": [
+                  {
+                    "field_id": "facet_ids",
+                    "operator_id": "includes",
+                    "values": [
+                      "company"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "active"
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ],
+            "organization": [
+              {
+                "field_id": "facet_ids",
+                "operator_id": "includes",
+                "values": [
+                  "company"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "5b194c3b-3018-b47d-f611-ab142cdfd74c"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "categories",
+                "operator_id": "includes",
+                "values": [
+                  "af333248-9c7e-50c5-168a-e91b86595a17"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "operating_status",
+                "operator_id": "eq",
+                "values": [
+                  "active"
+                ],
+                "type": "predicate"
+              }
+            ],
+            "person": [
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "5b194c3b-3018-b47d-f611-ab142cdfd74c"
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "organization.has_primary_organization.forward",
+                "query": [
+                  {
+                    "field_id": "facet_ids",
+                    "operator_id": "includes",
+                    "values": [
+                      "company"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "location_identifiers",
+                    "operator_id": "includes",
+                    "values": [
+                      "5b194c3b-3018-b47d-f611-ab142cdfd74c"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "categories",
+                    "operator_id": "includes",
+                    "values": [
+                      "af333248-9c7e-50c5-168a-e91b86595a17"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "active"
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ]
+          }
+        },
+        {
+          "identifier": {
+            "permalink": "cairo-companies",
+            "image_id": "aa1e4a9f367f4a34a29d5f81de4cb62b",
+            "uuid": "ab93eb38-90af-49de-83cc-23f72ccf52c8",
+            "entity_def_id": "hub",
+            "value": "Cairo Companies"
+          },
+          "org_identifiers": [
+            {
+              "permalink": "african-export-import-bank",
+              "image_id": "aa1e4a9f367f4a34a29d5f81de4cb62b",
+              "uuid": "971b156a-46e5-c04c-2ae9-d36127a9bd9f",
+              "entity_def_id": "organization",
+              "value": "African Export-Import Bank"
+            },
+            {
+              "permalink": "fincart-8c0d",
+              "image_id": "2157db3af2424b619df39903e68869da",
+              "uuid": "38128808-f1be-480b-813a-77fb6ea68c0d",
+              "entity_def_id": "organization",
+              "value": "Fincart"
+            },
+            {
+              "permalink": "breadfast",
+              "image_id": "jiieid7adccujyaxzs9c",
+              "uuid": "4f10173e-0a2c-4941-889a-b5f2b40172a1",
+              "entity_def_id": "organization",
+              "value": "Breadfast"
+            },
+            {
+              "permalink": "mylerz",
+              "image_id": "qwsmcohr5b2dknonww7t",
+              "uuid": "2b9a44e8-d20d-4cb4-95ed-d8bd7b8cdde0",
+              "entity_def_id": "organization",
+              "value": "Mylerz"
+            },
+            {
+              "permalink": "paymob",
+              "image_id": "lpt5ox5xhjeorf2rryxa",
+              "uuid": "2f6dccc7-f49a-50a6-7975-dc7cc8af53ee",
+              "entity_def_id": "organization",
+              "value": "Paymob"
+            },
+            {
+              "permalink": "banque-misr",
+              "image_id": "wipnxmwkuzc6z1ssqxt4",
+              "uuid": "03625e6a-a87c-4b39-89ea-319e12ec4cc7",
+              "entity_def_id": "organization",
+              "value": "Banque Misr"
+            },
+            {
+              "permalink": "minapharm-pharmaceuticals",
+              "image_id": "iymvuabj8zumjfdt372s",
+              "uuid": "1d1be3d0-642e-47b2-a56d-0a147b6b8081",
+              "entity_def_id": "organization",
+              "value": "Minapharm Pharmaceuticals"
+            },
+            {
+              "permalink": "al-ahly-sabbour",
+              "image_id": "pvzetdm5lud2kqgbjlph",
+              "uuid": "cb1751f1-e13b-47fe-ac0b-1a88bc6709ff",
+              "entity_def_id": "organization",
+              "value": "Al Ahly Sabbour"
+            }
+          ],
+          "org_funding_total": {
+            "currency": "USD",
+            "value": 22533485130,
+            "value_usd": 22533485130
+          },
+          "org_num_investors": 1896,
+          "org_num": 6024,
+          "queries": {
+            "event": [
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "f5de654e-be69-318e-90b9-96abc102f5e1"
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "principal.has_event.forward",
+                "query": [
+                  {
+                    "field_id": "facet_ids",
+                    "operator_id": "includes",
+                    "values": [
+                      "company"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "active"
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ],
+            "organization": [
+              {
+                "field_id": "facet_ids",
+                "operator_id": "includes",
+                "values": [
+                  "company"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "f5de654e-be69-318e-90b9-96abc102f5e1"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "operating_status",
+                "operator_id": "eq",
+                "values": [
+                  "active"
+                ],
+                "type": "predicate"
+              }
+            ],
+            "person": [
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "f5de654e-be69-318e-90b9-96abc102f5e1"
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "organization.has_primary_organization.forward",
+                "query": [
+                  {
+                    "field_id": "facet_ids",
+                    "operator_id": "includes",
+                    "values": [
+                      "company"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "location_identifiers",
+                    "operator_id": "includes",
+                    "values": [
+                      "f5de654e-be69-318e-90b9-96abc102f5e1"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "active"
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ]
+          }
+        },
+        {
+          "identifier": {
+            "permalink": "middle-east-apps-companies",
+            "image_id": "nxd2el6buqjhqmkqn0ut",
+            "uuid": "aa1f39fd-aa4e-41de-b16b-148b0764ea10",
+            "entity_def_id": "hub",
+            "value": "Middle East Apps Companies"
+          },
+          "org_identifiers": [
+            {
+              "permalink": "indriver",
+              "image_id": "nxd2el6buqjhqmkqn0ut",
+              "uuid": "20169451-f5c8-ba7c-d899-049610885497",
+              "entity_def_id": "organization",
+              "value": "inDrive"
+            },
+            {
+              "permalink": "ninja-f734",
+              "image_id": "tcwavlezmxnbnv2q32aq",
+              "uuid": "9ef8f063-024c-4767-a439-cfe1a4c1f734",
+              "entity_def_id": "organization",
+              "value": "Ninja"
+            },
+            {
+              "permalink": "komodor",
+              "image_id": "tjbtyt96wuyfymcb9uta",
+              "uuid": "d22d399a-69cb-430d-9b49-5878b2b80977",
+              "entity_def_id": "organization",
+              "value": "Komodor"
+            },
+            {
+              "permalink": "moment-91df",
+              "image_id": "cc9ef120273a46869ecc420dc36ddcc5",
+              "uuid": "d32ee31e-bcd5-4c0b-a8d7-9a27f2d291df",
+              "entity_def_id": "organization",
+              "value": "Moment"
+            },
+            {
+              "permalink": "jahez",
+              "image_id": "g4iyywrb78vxczxe8cyr",
+              "uuid": "ce0fe270-6b6e-4817-a419-095860d2dbe7",
+              "entity_def_id": "organization",
+              "value": "Jahez International Company"
+            },
+            {
+              "permalink": "calo",
+              "image_id": "dgvvp9tluvfgzijmnmjd",
+              "uuid": "42b55311-e4f3-4aba-b75c-1e153a4ca9c2",
+              "entity_def_id": "organization",
+              "value": "Calo"
+            },
+            {
+              "permalink": "shortical",
+              "image_id": "7dbfcbc617bd4bce9913d1fce04b86f9",
+              "uuid": "cdc58b4d-177d-48d5-91d9-d9ea2c8012a3",
+              "entity_def_id": "organization",
+              "value": "Shortical"
+            },
+            {
+              "permalink": "commercial-bank-of-dubai",
+              "image_id": "v1484137538/yv3kncbufghagugz9l9r.png",
+              "uuid": "55c538c6-da99-201f-1b45-65c938cfd4dd",
+              "entity_def_id": "organization",
+              "value": "Commercial Bank of Dubai"
+            }
+          ],
+          "org_funding_total": {
+            "currency": "USD",
+            "value": 4993903050,
+            "value_usd": 4993903050
+          },
+          "org_num_investors": 1203,
+          "org_num": 2132,
+          "queries": {
+            "event": [
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "e0272206-3430-48cb-a5bc-1d4b3eafe15a"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "categories",
+                "operator_id": "includes",
+                "values": [
+                  "af333248-9c7e-50c5-168a-e91b86595a17"
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "principal.has_event.forward",
+                "query": [
+                  {
+                    "field_id": "facet_ids",
+                    "operator_id": "includes",
+                    "values": [
+                      "company"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "active"
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ],
+            "organization": [
+              {
+                "field_id": "facet_ids",
+                "operator_id": "includes",
+                "values": [
+                  "company"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "e0272206-3430-48cb-a5bc-1d4b3eafe15a"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "categories",
+                "operator_id": "includes",
+                "values": [
+                  "af333248-9c7e-50c5-168a-e91b86595a17"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "operating_status",
+                "operator_id": "eq",
+                "values": [
+                  "active"
+                ],
+                "type": "predicate"
+              }
+            ],
+            "person": [
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "e0272206-3430-48cb-a5bc-1d4b3eafe15a"
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "organization.has_primary_organization.forward",
+                "query": [
+                  {
+                    "field_id": "facet_ids",
+                    "operator_id": "includes",
+                    "values": [
+                      "company"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "location_identifiers",
+                    "operator_id": "includes",
+                    "values": [
+                      "e0272206-3430-48cb-a5bc-1d4b3eafe15a"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "categories",
+                    "operator_id": "includes",
+                    "values": [
+                      "af333248-9c7e-50c5-168a-e91b86595a17"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "active"
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ]
+          }
+        }
+      ],
+      "org_similarity_org_list": [],
+      "investors_summary": {
+        "identifier": {
+          "uuid": "c6019631-8faa-4c24-b818-1f3dd7ca0496",
+          "value": "Youth",
+          "permalink": "youth-0496",
+          "entity_def_id": "organization"
+        }
+      },
+      "funds_list": [],
+      "alumni_image_list": [],
+      "semrush_overview_headline": {},
+      "frequently_asked_questions_total_funding": {
+        "funding_total": {
+          "value": 1000000,
+          "currency": "EGP",
+          "value_usd": 20023
+        },
+        "identifier": {
+          "uuid": "c6019631-8faa-4c24-b818-1f3dd7ca0496",
+          "value": "Youth",
+          "permalink": "youth-0496",
+          "entity_def_id": "organization"
+        }
+      },
+      "exits_summary": {
+        "identifier": {
+          "uuid": "c6019631-8faa-4c24-b818-1f3dd7ca0496",
+          "value": "Youth",
+          "permalink": "youth-0496",
+          "entity_def_id": "organization"
+        }
+      },
+      "partnership_announcements": [],
+      "bombora_surge_list": [],
+      "diversity_spotlight_investments_list": [],
+      "builtwith_tech_used_list": [],
+      "funding_rounds_summary": {
+        "identifier": {
+          "uuid": "c6019631-8faa-4c24-b818-1f3dd7ca0496",
+          "value": "Youth",
+          "permalink": "youth-0496",
+          "entity_def_id": "organization"
+        },
+        "last_funding_type": "grant",
+        "last_funding_at": "2024-12-06",
+        "funding_total": {
+          "value": 1000000,
+          "currency": "EGP",
+          "value_usd": 20023
+        },
+        "num_funding_rounds": 1
+      },
+      "org_similarity_list": [],
+      "ipo_prediction": [
+        {
+          "generated_on": "2026-08-24",
+          "identifier": {
+            "uuid": "2e839d43-0e4c-43ce-83ee-713563c4fcf7",
+            "value": "IPO Prediction 2026-08-24",
+            "image_id": "ec09d2b58fe048cf85168ff0060450a8",
+            "entity_def_id": "ipo_prediction"
+          },
+          "media_sentiment": "c200_evidence_present",
+          "probability_score": 0.00001,
+          "created_at": "2026-07-16T03:30:46Z",
+          "updated_at": "2026-08-24T20:40:54Z",
+          "probability_tier": "p500_negative_high"
+        }
+      ],
+      "acquisitions_summary": {
+        "identifier": {
+          "uuid": "c6019631-8faa-4c24-b818-1f3dd7ca0496",
+          "value": "Youth",
+          "permalink": "youth-0496",
+          "entity_def_id": "organization"
+        }
+      },
+      "advisors_summary": {
+        "identifier": {
+          "uuid": "c6019631-8faa-4c24-b818-1f3dd7ca0496",
+          "value": "Youth",
+          "permalink": "youth-0496",
+          "entity_def_id": "organization"
+        }
+      },
+      "acquisitions_list": [],
+      "exits_headline": {},
+      "investments_summary": {
+        "identifier": {
+          "uuid": "c6019631-8faa-4c24-b818-1f3dd7ca0496",
+          "value": "Youth",
+          "permalink": "youth-0496",
+          "entity_def_id": "organization"
+        }
+      },
+      "acquired_by_fields": {},
+      "research_insight_text_link": {},
+      "acquisition_prediction": [
+        {
+          "generated_on": "2026-08-24",
+          "identifier": {
+            "uuid": "f4b787ff-34bc-44cc-8172-8329b898e2ee",
+            "value": "Acquisition Prediction 2026-08-24",
+            "image_id": "ec09d2b58fe048cf85168ff0060450a8",
+            "entity_def_id": "acquisition_prediction"
+          },
+          "probability_score": 0.05,
+          "created_at": "2026-07-08T23:21:57Z",
+          "updated_at": "2026-08-24T21:22:02Z",
+          "probability_tier": "p400_negative_low"
+        }
+      ],
+      "sub_organizations_headline": {},
+      "layoff_list": [],
+      "growth_and_heat": {
+        "heat_score_history": {
+          "periods": {
+            "i1": {
+              "values": [
+                47,
+                47,
+                48,
+                48,
+                48,
+                49,
+                49,
+                35,
+                35,
+                35,
+                35,
+                35,
+                35,
+                36,
+                36,
+                36,
+                36,
+                36,
+                37,
+                36,
+                37,
+                37,
+                37,
+                37,
+                37,
+                37,
+                37,
+                38,
+                38,
+                38,
+                38,
+                38,
+                39,
+                39,
+                39,
+                39,
+                39,
+                39,
+                39,
+                40,
+                40,
+                40,
+                40,
+                40,
+                41,
+                41,
+                41,
+                41,
+                41,
+                41,
+                41,
+                41,
+                41,
+                42,
+                41,
+                41,
+                41,
+                41,
+                41,
+                41,
+                41,
+                42,
+                42,
+                42,
+                42,
+                42,
+                42,
+                42,
+                42,
+                42,
+                43,
+                43,
+                43,
+                43,
+                43,
+                43,
+                44,
+                44,
+                44,
+                44,
+                44,
+                44,
+                44,
+                45,
+                45,
+                45,
+                45,
+                45,
+                45,
+                45
+              ],
+              "interval": 1
+            },
+            "i2": {
+              "values": [
+                47,
+                48,
+                49,
+                42,
+                35,
+                35,
+                36,
+                36,
+                36,
+                37,
+                37,
+                37,
+                37,
+                38,
+                38,
+                38,
+                39,
+                39,
+                39,
+                40,
+                40,
+                40,
+                41,
+                41,
+                41,
+                41,
+                42,
+                41,
+                41,
+                41,
+                42,
+                42,
+                42,
+                42,
+                42,
+                43,
+                43,
+                43,
+                44,
+                44,
+                44,
+                45,
+                45,
+                45,
+                45,
+                46,
+                46,
+                46,
+                46,
+                47,
+                47,
+                47,
+                48,
+                48,
+                48,
+                48,
+                49,
+                49,
+                49,
+                49,
+                50,
+                50,
+                50,
+                50,
+                50,
+                51,
+                52,
+                53,
+                55,
+                56,
+                57,
+                58,
+                59,
+                59,
+                60,
+                62,
+                63,
+                64,
+                66,
+                67,
+                68,
+                69,
+                71,
+                72,
+                73,
+                75,
+                76,
+                77,
+                79,
+                80,
+                82
+              ],
+              "interval": 2
+            },
+            "i4": {
+              "values": [
+                47,
+                45,
+                35,
+                36,
+                36,
+                37,
+                37,
+                38,
+                39,
+                39,
+                40,
+                41,
+                41,
+                41,
+                41,
+                42,
+                42,
+                43,
+                43,
+                44,
+                44,
+                45,
+                46,
+                46,
+                47,
+                47,
+                48,
+                48,
+                49,
+                49,
+                50,
+                50,
+                51,
+                52,
+                55,
+                58,
+                59,
+                61,
+                64,
+                66,
+                68,
+                71,
+                74,
+                76,
+                79,
+                83,
+                85,
+                88,
+                82,
+                83,
+                86,
+                88,
+                85,
+                87,
+                90,
+                90,
+                89,
+                87,
+                89,
+                72,
+                61,
+                63,
+                63,
+                64,
+                66,
+                67,
+                68,
+                60,
+                47,
+                49,
+                52,
+                54,
+                52,
+                51,
+                53,
+                45,
+                45,
+                46,
+                45,
+                46,
+                46,
+                42,
+                26,
+                18,
+                23,
+                29,
+                33,
+                36,
+                39,
+                42,
+                44,
+                46
+              ],
+              "interval": 4
+            },
+            "i7": {
+              "values": [
+                47,
+                35,
+                36,
+                37,
+                38,
+                39,
+                41,
+                41,
+                41,
+                42,
+                43,
+                44,
+                45,
+                46,
+                47,
+                48,
+                49,
+                50,
+                50,
+                54,
+                58,
+                61,
+                66,
+                70,
+                75,
+                79,
+                85,
+                85,
+                84,
+                86,
+                87,
+                90,
+                88,
+                86,
+                62,
+                63,
+                65,
+                67,
+                60,
+                48,
+                53,
+                52,
+                52,
+                44,
+                45,
+                45,
+                42,
+                21,
+                25,
+                33,
+                39,
+                43,
+                48,
+                49,
+                48,
+                49,
+                26,
+                13,
+                15,
+                17,
+                4,
+                4,
+                5,
+                7,
+                11,
+                17,
+                21,
+                24,
+                27,
+                30,
+                33,
+                35,
+                21,
+                11,
+                15,
+                18,
+                21,
+                24,
+                27,
+                30,
+                33,
+                30,
+                36,
+                50,
+                61,
+                71,
+                80,
+                84,
+                91,
+                87,
+                26
+              ],
+              "interval": 7
+            },
+            "i18": {
+              "values": [
+                47,
+                38,
+                40,
+                42,
+                44,
+                47,
+                49,
+                53,
+                63,
+                74,
+                84,
+                86,
+                89,
+                67,
+                66,
+                50,
+                50,
+                46,
+                27,
+                36,
+                48,
+                45,
+                15,
+                8,
+                6,
+                17,
+                26,
+                33,
+                16,
+                19,
+                27,
+                31,
+                50,
+                76,
+                88,
+                26
+              ],
+              "interval": 18
+            },
+            "i36": {
+              "values": [
+                47,
+                41,
+                45,
+                51,
+                69,
+                85,
+                78,
+                58,
+                48,
+                32,
+                46,
+                11,
+                11,
+                30,
+                17,
+                29,
+                63,
+                79
+              ],
+              "interval": 36
+            }
+          }
+        },
+        "growth_score_delta_d90": -3,
+        "growth_score_history": {
+          "periods": {
+            "i1": {
+              "values": [
+                48,
+                48,
+                48,
+                48,
+                49,
+                49,
+                49,
+                48,
+                48,
+                48,
+                48,
+                48,
+                48,
+                48,
+                48,
+                48,
+                48,
+                48,
+                48,
+                48,
+                48,
+                48,
+                49,
+                49,
+                49,
+                49,
+                49,
+                49,
+                49,
+                49,
+                49,
+                49,
+                49,
+                49,
+                49,
+                49,
+                49,
+                49,
+                49,
+                49,
+                49,
+                49,
+                49,
+                49,
+                50,
+                50,
+                50,
+                50,
+                50,
+                50,
+                50,
+                50,
+                50,
+                50,
+                50,
+                50,
+                50,
+                50,
+                50,
+                50,
+                50,
+                50,
+                50,
+                50,
+                50,
+                50,
+                50,
+                50,
+                50,
+                50,
+                50,
+                50,
+                50,
+                50,
+                50,
+                50,
+                50,
+                50,
+                51,
+                51,
+                51,
+                51,
+                51,
+                51,
+                51,
+                51,
+                51,
+                51,
+                51,
+                51
+              ],
+              "interval": 1
+            },
+            "i2": {
+              "values": [
+                48,
+                48,
+                49,
+                49,
+                48,
+                48,
+                48,
+                48,
+                48,
+                48,
+                48,
+                49,
+                49,
+                49,
+                49,
+                49,
+                49,
+                49,
+                49,
+                49,
+                49,
+                49,
+                50,
+                50,
+                50,
+                50,
+                50,
+                50,
+                50,
+                50,
+                50,
+                50,
+                50,
+                50,
+                50,
+                50,
+                50,
+                50,
+                50,
+                51,
+                51,
+                51,
+                51,
+                51,
+                51,
+                51,
+                51,
+                51,
+                51,
+                52,
+                52,
+                52,
+                52,
+                52,
+                52,
+                53,
+                53,
+                53,
+                53,
+                53,
+                54,
+                54,
+                54,
+                54,
+                54,
+                55,
+                55,
+                55,
+                55,
+                56,
+                56,
+                56,
+                56,
+                57,
+                57,
+                57,
+                57,
+                58,
+                58,
+                58,
+                58,
+                58,
+                59,
+                59,
+                59,
+                59,
+                60,
+                60,
+                60,
+                60,
+                61
+              ],
+              "interval": 2
+            },
+            "i4": {
+              "values": [
+                48,
+                49,
+                48,
+                48,
+                48,
+                49,
+                49,
+                49,
+                49,
+                49,
+                49,
+                50,
+                50,
+                50,
+                50,
+                50,
+                50,
+                50,
+                50,
+                51,
+                51,
+                51,
+                51,
+                51,
+                51,
+                52,
+                52,
+                53,
+                53,
+                53,
+                54,
+                54,
+                54,
+                55,
+                55,
+                56,
+                56,
+                57,
+                57,
+                58,
+                58,
+                59,
+                59,
+                60,
+                60,
+                61,
+                61,
+                62,
+                62,
+                63,
+                64,
+                65,
+                67,
+                75,
+                92,
+                92,
+                92,
+                92,
+                93,
+                92,
+                92,
+                92,
+                92,
+                92,
+                93,
+                93,
+                93,
+                93,
+                92,
+                92,
+                93,
+                93,
+                93,
+                93,
+                93,
+                92,
+                92,
+                92,
+                92,
+                91,
+                91,
+                91,
+                89,
+                89,
+                88,
+                88,
+                88,
+                87,
+                87,
+                86,
+                85,
+                85
+              ],
+              "interval": 4
+            },
+            "i7": {
+              "values": [
+                48,
+                48,
+                48,
+                49,
+                49,
+                49,
+                50,
+                50,
+                50,
+                50,
+                50,
+                51,
+                51,
+                51,
+                52,
+                52,
+                53,
+                54,
+                54,
+                55,
+                56,
+                57,
+                58,
+                59,
+                59,
+                60,
+                61,
+                62,
+                63,
+                65,
+                75,
+                92,
+                92,
+                93,
+                92,
+                92,
+                92,
+                93,
+                93,
+                92,
+                93,
+                93,
+                93,
+                92,
+                92,
+                91,
+                91,
+                89,
+                88,
+                88,
+                87,
+                86,
+                85,
+                82,
+                63,
+                60,
+                59,
+                59,
+                59,
+                59,
+                58,
+                59,
+                59,
+                59,
+                59,
+                60,
+                60,
+                60,
+                61,
+                61,
+                61,
+                62,
+                61,
+                60,
+                61,
+                61,
+                61,
+                61,
+                62,
+                62,
+                62,
+                62,
+                63,
+                63,
+                64,
+                64,
+                64,
+                64,
+                65,
+                65,
+                62,
+                62,
+                61,
+                61,
+                61,
+                60,
+                60,
+                59,
+                59,
+                59,
+                58,
+                58,
+                57,
+                57,
+                57
+              ],
+              "interval": 7
+            },
+            "i18": {
+              "values": [
+                48,
+                49,
+                50,
+                50,
+                51,
+                52,
+                53,
+                55,
+                57,
+                59,
+                62,
+                67,
+                92,
+                92,
+                93,
+                92,
+                93,
+                92,
+                89,
+                87,
+                84,
+                61,
+                59,
+                59,
+                59,
+                60,
+                61,
+                61,
+                61,
+                61,
+                62,
+                62,
+                63,
+                64,
+                65,
+                62,
+                61,
+                60,
+                59,
+                58,
+                57,
+                55,
+                54,
+                51,
+                48,
+                29,
+                26,
+                25,
+                24,
+                23,
+                22,
+                20,
+                19,
+                17,
+                14,
+                9
+              ],
+              "interval": 18
+            },
+            "i36": {
+              "values": [
+                48,
+                50,
+                51,
+                54,
+                58,
+                64,
+                92,
+                93,
+                92,
+                88,
+                73,
+                59,
+                59,
+                61,
+                61,
+                62,
+                64,
+                63,
+                60,
+                58,
+                56,
+                52,
+                38,
+                25,
+                23,
+                21,
+                18,
+                13
+              ],
+              "interval": 36
+            }
+          }
+        },
+        "growth_trend_365": {
+          "periods": {
+            "i1": {
+              "values": [
+                -40,
+                -40,
+                -40,
+                -40,
+                -39,
+                -39,
+                -39,
+                -40,
+                -39,
+                -39,
+                -39,
+                -38,
+                -37,
+                -36,
+                -18,
+                -18,
+                -18,
+                -18,
+                -18,
+                -18,
+                -18,
+                -18,
+                -18,
+                -18,
+                -18,
+                -18,
+                -18,
+                -17,
+                -16,
+                -16,
+                -16,
+                -16,
+                -16,
+                -15,
+                -15,
+                -15,
+                -15,
+                -15,
+                -15,
+                -14,
+                -14,
+                -14,
+                -14,
+                -14,
+                -14,
+                -14,
+                -14,
+                -14,
+                -14,
+                -14,
+                -14,
+                -14,
+                -14,
+                -14,
+                -14,
+                -13,
+                -13,
+                -13,
+                -13,
+                -13,
+                -13,
+                -13,
+                -13,
+                -13,
+                -13,
+                -13,
+                -13,
+                -13,
+                -13,
+                -13,
+                -13,
+                -13,
+                -13,
+                -13,
+                -13,
+                -13,
+                -13,
+                -13,
+                -13,
+                -13,
+                -13,
+                -13,
+                -13,
+                -13,
+                -13,
+                -13,
+                -13,
+                -13,
+                -13,
+                -13
+              ],
+              "interval": 1
+            },
+            "i2": {
+              "values": [
+                -40,
+                -40,
+                -39,
+                -39,
+                -39,
+                -38,
+                -36,
+                -18,
+                -18,
+                -18,
+                -18,
+                -18,
+                -18,
+                -17,
+                -16,
+                -16,
+                -15,
+                -15,
+                -15,
+                -14,
+                -14,
+                -14,
+                -14,
+                -14,
+                -14,
+                -14,
+                -14,
+                -13,
+                -13,
+                -13,
+                -13,
+                -13,
+                -13,
+                -13,
+                -13,
+                -13,
+                -13,
+                -13,
+                -13,
+                -13,
+                -13,
+                -13,
+                -13,
+                -13,
+                -13,
+                -13,
+                -13,
+                -13,
+                -13,
+                -13,
+                -13,
+                -13,
+                -12,
+                -12,
+                -12,
+                -12,
+                -12,
+                -11,
+                -11,
+                -11,
+                -11,
+                -11,
+                -11,
+                -10,
+                -10,
+                -10,
+                -10,
+                -10,
+                -9,
+                -8,
+                -7,
+                -7,
+                -7,
+                -5,
+                -5,
+                -5,
+                -5,
+                -4,
+                -4,
+                -4,
+                -4,
+                -4,
+                -3,
+                -3,
+                -3,
+                -3,
+                -3,
+                -2,
+                -2,
+                -2,
+                -1
+              ],
+              "interval": 2
+            },
+            "i4": {
+              "values": [
+                -40,
+                -39,
+                -39,
+                -27,
+                -18,
+                -18,
+                -18,
+                -16,
+                -15,
+                -15,
+                -14,
+                -14,
+                -14,
+                -14,
+                -13,
+                -13,
+                -13,
+                -13,
+                -13,
+                -13,
+                -13,
+                -13,
+                -13,
+                -13,
+                -13,
+                -13,
+                -12,
+                -12,
+                -12,
+                -11,
+                -11,
+                -10,
+                -10,
+                -10,
+                -9,
+                -7,
+                -6,
+                -5,
+                -5,
+                -4,
+                -4,
+                -3,
+                -3,
+                -2,
+                -2,
+                -1,
+                -1,
+                0,
+                0,
+                1,
+                2,
+                4,
+                6,
+                18,
+                42,
+                42,
+                41,
+                41,
+                41,
+                39,
+                38,
+                39,
+                39,
+                39,
+                39,
+                40,
+                43,
+                45,
+                45,
+                46,
+                46,
+                47,
+                47,
+                48,
+                48,
+                48,
+                48,
+                48,
+                48,
+                49,
+                49,
+                49,
+                47,
+                46,
+                47,
+                47,
+                47,
+                47,
+                47,
+                46,
+                45,
+                45
+              ],
+              "interval": 4
+            },
+            "i7": {
+              "values": [
+                -40,
+                -38,
+                -18,
+                -18,
+                -16,
+                -15,
+                -14,
+                -14,
+                -13,
+                -13,
+                -13,
+                -13,
+                -13,
+                -13,
+                -13,
+                -12,
+                -11,
+                -11,
+                -10,
+                -9,
+                -7,
+                -5,
+                -4,
+                -4,
+                -3,
+                -2,
+                -1,
+                0,
+                1,
+                4,
+                18,
+                42,
+                41,
+                40,
+                38,
+                39,
+                39,
+                40,
+                45,
+                45,
+                46,
+                47,
+                48,
+                48,
+                48,
+                49,
+                49,
+                46,
+                47,
+                47,
+                47,
+                46,
+                45,
+                43,
+                13,
+                10,
+                9,
+                9,
+                11,
+                13,
+                14,
+                16,
+                20,
+                30,
+                98,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100
+              ],
+              "interval": 7
+            },
+            "i18": {
+              "values": [
+                -40,
+                -17,
+                -14,
+                -13,
+                -13,
+                -13,
+                -11,
+                -9,
+                -5,
+                -3,
+                0,
+                7,
+                41,
+                39,
+                41,
+                46,
+                48,
+                49,
+                47,
+                47,
+                44,
+                11,
+                10,
+                14,
+                32,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                98,
+                76,
+                39
+              ],
+              "interval": 18
+            },
+            "i36": {
+              "values": [
+                -40,
+                -14,
+                -13,
+                -10,
+                -4,
+                3,
+                40,
+                43,
+                48,
+                47,
+                27,
+                12,
+                66,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                99,
+                65
+              ],
+              "interval": 36
+            }
+          }
+        },
+        "heat_score": 47,
+        "heat_trend_365": {
+          "periods": {
+            "i1": {
+              "values": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                -1,
+                -1,
+                -9,
+                -9,
+                -10,
+                -8,
+                -6,
+                -6,
+                -6,
+                -6,
+                -7,
+                -7,
+                -7,
+                -7,
+                -7,
+                -7,
+                -8,
+                -8,
+                -6,
+                -6,
+                -6,
+                -7,
+                -4,
+                5,
+                5,
+                11,
+                12,
+                12,
+                20,
+                20,
+                20,
+                20,
+                20,
+                19,
+                19,
+                19,
+                19,
+                19,
+                19,
+                19,
+                18,
+                18,
+                18,
+                18,
+                18,
+                17,
+                17,
+                17,
+                17,
+                17,
+                30,
+                30,
+                30,
+                30,
+                30,
+                30,
+                30,
+                30,
+                29,
+                29,
+                29,
+                29,
+                29,
+                29,
+                29,
+                29,
+                29,
+                30,
+                30,
+                30,
+                30,
+                30,
+                30,
+                30,
+                29,
+                28,
+                28,
+                27,
+                27,
+                26,
+                26,
+                25,
+                24,
+                24,
+                23
+              ],
+              "interval": 1
+            },
+            "i2": {
+              "values": [
+                0,
+                0,
+                0,
+                -5,
+                -9,
+                -7,
+                -6,
+                -6,
+                -7,
+                -7,
+                -7,
+                -7,
+                -6,
+                -5,
+                5,
+                12,
+                16,
+                20,
+                20,
+                19,
+                19,
+                19,
+                19,
+                18,
+                18,
+                17,
+                17,
+                24,
+                30,
+                30,
+                30,
+                30,
+                29,
+                29,
+                29,
+                29,
+                30,
+                30,
+                30,
+                30,
+                28,
+                27,
+                26,
+                25,
+                24,
+                23,
+                21,
+                20,
+                19,
+                19,
+                18,
+                17,
+                17,
+                17,
+                16,
+                15,
+                15,
+                14,
+                14,
+                13,
+                13,
+                12,
+                12,
+                12,
+                11,
+                11,
+                11,
+                11,
+                12,
+                19,
+                25,
+                25,
+                26,
+                38,
+                37,
+                37,
+                37,
+                37,
+                37,
+                36,
+                36,
+                36,
+                36,
+                36,
+                36,
+                36,
+                37,
+                37,
+                37,
+                37,
+                38
+              ],
+              "interval": 2
+            },
+            "i4": {
+              "values": [
+                0,
+                -3,
+                -8,
+                -6,
+                -7,
+                -7,
+                -6,
+                8,
+                18,
+                20,
+                19,
+                18,
+                18,
+                20,
+                30,
+                30,
+                29,
+                29,
+                30,
+                30,
+                28,
+                25,
+                23,
+                21,
+                19,
+                17,
+                17,
+                16,
+                15,
+                14,
+                13,
+                12,
+                11,
+                11,
+                15,
+                25,
+                32,
+                37,
+                37,
+                36,
+                36,
+                36,
+                36,
+                37,
+                37,
+                38,
+                38,
+                38,
+                33,
+                32,
+                33,
+                38,
+                35,
+                30,
+                25,
+                20,
+                16,
+                11,
+                9,
+                -2,
+                -10,
+                -10,
+                -11,
+                -13,
+                -11,
+                -10,
+                24,
+                45,
+                35,
+                37,
+                39,
+                41,
+                40,
+                38,
+                40,
+                33,
+                34,
+                35,
+                34,
+                34,
+                35,
+                31,
+                19,
+                13,
+                17,
+                21,
+                24,
+                26,
+                29,
+                31,
+                33,
+                35
+              ],
+              "interval": 4
+            },
+            "i7": {
+              "values": [
+                0,
+                -8,
+                -7,
+                -6,
+                12,
+                19,
+                18,
+                19,
+                30,
+                29,
+                30,
+                28,
+                24,
+                20,
+                18,
+                16,
+                14,
+                12,
+                11,
+                13,
+                27,
+                37,
+                36,
+                36,
+                36,
+                37,
+                38,
+                35,
+                32,
+                38,
+                30,
+                22,
+                14,
+                7,
+                -9,
+                -11,
+                -12,
+                -9,
+                46,
+                36,
+                40,
+                39,
+                39,
+                33,
+                34,
+                34,
+                31,
+                15,
+                18,
+                24,
+                29,
+                32,
+                36,
+                37,
+                36,
+                37,
+                19,
+                8,
+                10,
+                11,
+                1,
+                1,
+                2,
+                3,
+                7,
+                11,
+                15,
+                17,
+                19,
+                22,
+                24,
+                26,
+                15,
+                6,
+                10,
+                12,
+                15,
+                17,
+                19,
+                22,
+                24,
+                22,
+                27,
+                37,
+                47,
+                54,
+                61,
+                65,
+                70,
+                68,
+                19
+              ],
+              "interval": 7
+            },
+            "i18": {
+              "values": [
+                0,
+                2,
+                18,
+                29,
+                28,
+                19,
+                14,
+                15,
+                36,
+                36,
+                36,
+                34,
+                17,
+                -7,
+                3,
+                38,
+                37,
+                34,
+                20,
+                27,
+                36,
+                33,
+                10,
+                4,
+                3,
+                11,
+                19,
+                25,
+                10,
+                13,
+                19,
+                23,
+                38,
+                58,
+                68,
+                19
+              ],
+              "interval": 18
+            },
+            "i36": {
+              "values": [
+                0,
+                24,
+                23,
+                14,
+                36,
+                35,
+                5,
+                21,
+                36,
+                23,
+                35,
+                7,
+                7,
+                22,
+                12,
+                21,
+                48,
+                61
+              ],
+              "interval": 36
+            }
+          }
+        },
+        "growth_score": 48,
+        "heat_score_delta_d90": 2
+      },
+      "bombora_summary": {
+        "identifier": {
+          "uuid": "c6019631-8faa-4c24-b818-1f3dd7ca0496",
+          "value": "Youth",
+          "permalink": "youth-0496",
+          "entity_def_id": "organization"
+        }
+      },
+      "semrush_rank_headline": {},
+      "frequently_asked_questions_latest_funding_round": {
+        "identifier": {
+          "uuid": "c6019631-8faa-4c24-b818-1f3dd7ca0496",
+          "value": "Youth",
+          "permalink": "youth-0496",
+          "entity_def_id": "organization"
+        },
+        "last_funding_at": "2024-12-06",
+        "last_funding_type": "grant",
+        "num_funding_rounds": 1
+      },
+      "apptopia_app_overview_list_free": [],
+      "contacts": {},
+      "product_launches": [],
+      "alumni_summary": {
+        "identifier": {
+          "uuid": "c6019631-8faa-4c24-b818-1f3dd7ca0496",
+          "value": "Youth",
+          "permalink": "youth-0496",
+          "entity_def_id": "organization"
+        }
+      },
+      "apptopia_summary": {
+        "identifier": {
+          "uuid": "c6019631-8faa-4c24-b818-1f3dd7ca0496",
+          "value": "Youth",
+          "permalink": "youth-0496",
+          "entity_def_id": "organization"
+        }
+      },
+      "product_similarity_target_org_list": [],
+      "social_fields": {},
+      "investments_headline": {},
+      "investment_thesis": {
+        "lookup": [],
+        "properties": {
+          "identifier": {
+            "uuid": "c6019631-8faa-4c24-b818-1f3dd7ca0496",
+            "value": "Youth",
+            "permalink": "youth-0496",
+            "entity_def_id": "organization"
+          }
+        },
+        "data": []
+      },
+      "diversity_spotlight_investments_summary": {
+        "identifier": {
+          "uuid": "c6019631-8faa-4c24-b818-1f3dd7ca0496",
+          "value": "Youth",
+          "permalink": "youth-0496",
+          "entity_def_id": "organization"
+        }
+      },
+      "contact_fields": {},
+      "growth_prediction": [
+        {
+          "generated_on": "2026-08-24",
+          "identifier": {
+            "uuid": "2446363a-9527-42b9-be23-8b46a0012b08",
+            "value": "Growth Prediction 2026-08-24",
+            "image_id": "ec09d2b58fe048cf85168ff0060450a8",
+            "entity_def_id": "growth_prediction"
+          },
+          "probability_score": 0.9156,
+          "created_at": "2026-07-09T14:03:14Z",
+          "updated_at": "2026-08-25T00:34:15Z",
+          "probability_tier": "p200_positive_low"
+        }
+      ],
+      "sub_organizations_summary": {
+        "identifier": {
+          "uuid": "c6019631-8faa-4c24-b818-1f3dd7ca0496",
+          "value": "Youth",
+          "permalink": "youth-0496",
+          "entity_def_id": "organization"
+        }
+      },
+      "overview_description": {
+        "description": "Youth offers exclusive discounts for students."
+      },
+      "current_employees_featured_order_field": [],
+      "company_about_fields2": {
+        "ipo_status": "private",
+        "last_funding_type": "grant",
+        "location_identifiers": [
+          {
+            "uuid": "f5de654e-be69-318e-90b9-96abc102f5e1",
+            "value": "Cairo",
+            "permalink": "cairo-al-qahirah",
+            "entity_def_id": "location",
+            "location_type": "city"
+          },
+          {
+            "uuid": "73fc0c82-c43d-8035-0da0-6245c0c96245",
+            "value": "Al Qahirah",
+            "permalink": "al-qahirah-egypt",
+            "entity_def_id": "location",
+            "location_type": "region"
+          },
+          {
+            "uuid": "7d6eef02-5784-2dce-08f7-69705f85e35f",
+            "value": "Egypt",
+            "permalink": "egypt",
+            "entity_def_id": "location",
+            "location_type": "country"
+          },
+          {
+            "uuid": "5b194c3b-3018-b47d-f611-ab142cdfd74c",
+            "value": "Africa",
+            "permalink": "africa",
+            "entity_def_id": "location",
+            "location_type": "continent"
+          }
+        ],
+        "rank_org_company": 197671
+      },
+      "sub_organizations_image_list": [],
+      "frequently_asked_questions_headquarters_location": {
+        "identifier": {
+          "uuid": "c6019631-8faa-4c24-b818-1f3dd7ca0496",
+          "value": "Youth",
+          "permalink": "youth-0496",
+          "entity_def_id": "organization"
+        },
+        "location_identifiers": [
+          {
+            "uuid": "f5de654e-be69-318e-90b9-96abc102f5e1",
+            "value": "Cairo",
+            "permalink": "cairo-al-qahirah",
+            "entity_def_id": "location",
+            "location_type": "city"
+          },
+          {
+            "uuid": "73fc0c82-c43d-8035-0da0-6245c0c96245",
+            "value": "Al Qahirah",
+            "permalink": "al-qahirah-egypt",
+            "entity_def_id": "location",
+            "location_type": "region"
+          },
+          {
+            "uuid": "7d6eef02-5784-2dce-08f7-69705f85e35f",
+            "value": "Egypt",
+            "permalink": "egypt",
+            "entity_def_id": "location",
+            "location_type": "country"
+          },
+          {
+            "uuid": "5b194c3b-3018-b47d-f611-ab142cdfd74c",
+            "value": "Africa",
+            "permalink": "africa",
+            "entity_def_id": "location",
+            "location_type": "continent"
+          }
+        ]
+      },
+      "investors_headline": {},
+      "ipo_summary": {
+        "identifier": {
+          "uuid": "c6019631-8faa-4c24-b818-1f3dd7ca0496",
+          "value": "Youth",
+          "permalink": "youth-0496",
+          "entity_def_id": "organization"
+        }
+      },
+      "ipqwery_summary": {
+        "identifier": {
+          "uuid": "c6019631-8faa-4c24-b818-1f3dd7ca0496",
+          "value": "Youth",
+          "permalink": "youth-0496",
+          "entity_def_id": "organization"
+        }
+      },
+      "awards": [],
+      "siftery_product_list": [],
+      "competitors_list": [],
+      "growth_knowledge": {
+        "lookup": [],
+        "properties": {
+          "identifier": {
+            "uuid": "c6019631-8faa-4c24-b818-1f3dd7ca0496",
+            "value": "Youth",
+            "permalink": "youth-0496",
+            "entity_def_id": "organization"
+          }
+        },
+        "data": []
+      },
+      "overview_fields_extended": {
+        "categories": [
+          {
+            "uuid": "af333248-9c7e-50c5-168a-e91b86595a17",
+            "value": "Apps",
+            "image_id": "ec09d2b58fe048cf85168ff0060450a8",
+            "permalink": "apps",
+            "entity_def_id": "category"
+          }
+        ],
+        "last_funding_type": "grant",
+        "location_group_identifiers": [
+          {
+            "uuid": "4e8be435-c63a-4aff-8a2f-44a880d9c341",
+            "value": "Europe, Middle East, and Africa (EMEA)",
+            "permalink": "europe-middle-east-africa-emea",
+            "entity_def_id": "location",
+            "location_type": "group"
+          },
+          {
+            "uuid": "e0272206-3430-48cb-a5bc-1d4b3eafe15a",
+            "value": "Middle East",
+            "permalink": "middle-east",
+            "entity_def_id": "location",
+            "location_type": "group"
+          },
+          {
+            "uuid": "8cb7cad4-b7e4-4b28-a496-2ede3720cb19",
+            "value": "Middle East and North Africa (MENA)",
+            "permalink": "middle-east-and-north-africa-mena",
+            "entity_def_id": "location",
+            "location_type": "group"
+          },
+          {
+            "uuid": "994bd431-46d0-448f-8d24-7b259bda176b",
+            "value": "North Africa",
+            "permalink": "north-africa",
+            "entity_def_id": "location",
+            "location_type": "group"
+          },
+          {
+            "uuid": "4e8be435-c63a-4aff-8a2f-44a880d9c341",
+            "value": "Europe, Middle East, and Africa (EMEA)",
+            "permalink": "europe-middle-east-africa-emea",
+            "entity_def_id": "location",
+            "location_type": "group"
+          }
+        ],
+        "operating_status": "active"
+      },
+      "overview_investor_fields": {},
+      "bombora_attribution": {},
+      "semrush_location_list": [],
+      "investors_list": [],
+      "siftery_summary": {
+        "identifier": {
+          "uuid": "c6019631-8faa-4c24-b818-1f3dd7ca0496",
+          "value": "Youth",
+          "permalink": "youth-0496",
+          "entity_def_id": "organization"
+        }
+      },
+      "acquired_by_summary": {
+        "identifier": {
+          "uuid": "c6019631-8faa-4c24-b818-1f3dd7ca0496",
+          "value": "Youth",
+          "permalink": "youth-0496",
+          "entity_def_id": "organization"
+        }
+      },
+      "ipo_fields": {},
+      "apptopia_app_overview_list_public": [],
+      "apptopia_sdk_list": [],
+      "trading_view": {},
+      "current_employees_image_list": [],
+      "frequently_asked_questions_investors": {
+        "identifier": {
+          "uuid": "c6019631-8faa-4c24-b818-1f3dd7ca0496",
+          "value": "Youth",
+          "permalink": "youth-0496",
+          "entity_def_id": "organization"
+        }
+      },
+      "funding_rounds_list": [
+        {
+          "identifier": {
+            "uuid": "a80f78b1-32a9-41e3-884e-88a2f43873b1",
+            "value": "Grant - Youth",
+            "permalink": "youth-0496-grant--a80f78b1",
+            "entity_def_id": "funding_round"
+          },
+          "announced_on": "2024-12-06",
+          "money_raised": {
+            "value": 1000000,
+            "currency": "EGP",
+            "value_usd": 20023
+          },
+          "investment_type": "grant"
+        }
+      ],
+      "technology_highlights": {},
+      "funding_rounds_headline": {
+        "funding_total": {
+          "value": 1000000,
+          "currency": "EGP",
+          "value_usd": 20023
+        },
+        "num_funding_rounds": 1
+      },
+      "investments_list": [],
+      "exits_image_list": [],
+      "funds_headline": {},
+      "people_highlights": {},
+      "semrush_attribution": {},
+      "frequently_asked_questions_similar_companies": {
+        "identifier": {
+          "uuid": "c6019631-8faa-4c24-b818-1f3dd7ca0496",
+          "value": "Youth",
+          "permalink": "youth-0496",
+          "entity_def_id": "organization"
+        }
+      },
+      "semrush_overview": {},
+      "org_category_ranks": {
+        "category_ranks": {
+          "af333248-9c7e-50c5-168a-e91b86595a17": {
+            "rank": 5569,
+            "count": 68959,
+            "pv_rank": 8313
+          }
+        }
+      },
+      "current_valuation": [],
+      "legal_proceedings": [],
+      "current_employees_summary": {
+        "identifier": {
+          "uuid": "c6019631-8faa-4c24-b818-1f3dd7ca0496",
+          "value": "Youth",
+          "permalink": "youth-0496",
+          "entity_def_id": "organization"
+        }
+      },
+      "aberdeen_summary": {
+        "aberdeen_site_it_spend": {
+          "value": 8826792,
+          "currency": "USD",
+          "value_usd": 8826792
+        },
+        "identifier": {
+          "uuid": "c6019631-8faa-4c24-b818-1f3dd7ca0496",
+          "value": "Youth",
+          "permalink": "youth-0496",
+          "entity_def_id": "organization"
+        }
+      },
+      "offices": [],
+      "overview_timeline": {
+        "count": 1,
+        "entities": [
+          {
+            "uuid": "a80f78b1-32a9-41e3-884e-88a2f43873b1",
+            "properties": {
+              "identifier": {
+                "uuid": "a80f78b1-32a9-41e3-884e-88a2f43873b1",
+                "value": "Grant - Youth",
+                "permalink": "youth-0496-grant--a80f78b1",
+                "entity_def_id": "funding_round"
+              },
+              "entity_def_id": "funding_round",
+              "activity_entities": [
+                {
+                  "role": "investee",
+                  "uuid": "c6019631-8faa-4c24-b818-1f3dd7ca0496",
+                  "value": "Youth",
+                  "permalink": "youth-0496",
+                  "entity_def_id": "organization"
+                }
+              ],
+              "activity_properties": {
+                "money_raised": {
+                  "value": 1000000,
+                  "currency": "EGP",
+                  "value_usd": 20023
+                },
+                "investment_type": "grant"
+              },
+              "activity_date": "2024-12-06"
+            }
+          }
+        ]
+      },
+      "company_financials_highlights": {
+        "funding_total": {
+          "value": 1000000,
+          "currency": "EGP",
+          "value_usd": 20023
+        },
+        "num_funding_rounds": 1
+      },
+      "overview_company_fields": {
+        "company_type": "for_profit"
+      },
+      "private_tags_pill_list": [],
+      "acquisitions_headline": {},
+      "builtwith_summary": {
+        "identifier": {
+          "uuid": "c6019631-8faa-4c24-b818-1f3dd7ca0496",
+          "value": "Youth",
+          "permalink": "youth-0496",
+          "entity_def_id": "organization"
+        }
+      },
+      "about_short_description": {
+        "short_description": "Youth offers exclusive discounts for students."
+      },
+      "product": [],
+      "apptopia_app_headline": {}
+    }
+  }
+}

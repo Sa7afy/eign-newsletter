@@ -1,0 +1,2856 @@
+{
+  "sourceUrl": "https://www.crunchbase.com/organization/saer-games",
+  "pageTitle": "saer-games",
+  "scrapedAt": "2026-09-01T13:14:47.329Z",
+  "extraction": {
+    "authenticated": true,
+    "method": "curl-cffi-authenticated-entity-fetch-no-browser"
+  },
+  "organization": {
+    "properties": {
+      "facet_ids": [
+        "aberdeen",
+        "company",
+        "rank"
+      ],
+      "identifier": {
+        "uuid": "9e98919c-a10e-4027-81b3-45f487688ece",
+        "value": "Saer Games",
+        "image_id": "1ba17b87d9654d158d454e63699a7bd4",
+        "permalink": "saer-games",
+        "entity_def_id": "organization"
+      },
+      "short_description": "Saer Games is a gaming company.",
+      "investor_identifiers": [
+        {
+          "uuid": "a1fef703-f2a7-49e8-b98d-33638e90fe05",
+          "value": "Exel by Merak",
+          "image_id": "2064c080c80045fca433d9e39525b92f",
+          "permalink": "exel-by-merak",
+          "entity_def_id": "organization"
+        }
+      ],
+      "rank_delta_d90": 0,
+      "title": "Saer Games"
+    },
+    "cards": {
+      "semrush_summary": {
+        "identifier": {
+          "uuid": "9e98919c-a10e-4027-81b3-45f487688ece",
+          "value": "Saer Games",
+          "image_id": "1ba17b87d9654d158d454e63699a7bd4",
+          "permalink": "saer-games",
+          "entity_def_id": "organization"
+        }
+      },
+      "key_employee_change_list": [],
+      "apptopia_attribution": {},
+      "diversity_spotlight_investments_headline": {},
+      "apptopia_app_rating_list": [],
+      "funds_summary": {
+        "identifier": {
+          "uuid": "9e98919c-a10e-4027-81b3-45f487688ece",
+          "value": "Saer Games",
+          "image_id": "1ba17b87d9654d158d454e63699a7bd4",
+          "permalink": "saer-games",
+          "entity_def_id": "organization"
+        }
+      },
+      "funding_prediction": [],
+      "company_about_fields1": {},
+      "current_advisors_image_list": [],
+      "recommended_search": [
+        {
+          "identifier": {
+            "permalink": "private-jeddah-companies",
+            "image_id": "akgg9l8xjkriomnckbqi",
+            "uuid": "87ca5696-81ea-46f1-b4be-011305b99dc6",
+            "entity_def_id": "hub",
+            "value": "Private Jeddah Companies"
+          },
+          "org_identifiers": [
+            {
+              "permalink": "icd-ps",
+              "image_id": "akgg9l8xjkriomnckbqi",
+              "uuid": "5b0cb7ea-ff06-537e-2337-afdcaa26a138",
+              "entity_def_id": "organization",
+              "value": "ICD-PS"
+            },
+            {
+              "permalink": "majestic-mind-games",
+              "image_id": "3af7e994a8534788a1e25b2240b81fc8",
+              "uuid": "0a8b35ce-52fe-46b3-bec6-61b245acb27b",
+              "entity_def_id": "organization",
+              "value": "Majestic Mind Games"
+            },
+            {
+              "permalink": "islamic-development-bank",
+              "image_id": "v1397178600/fb7eea4ba62192b29182387930188f4f.png",
+              "uuid": "e38c6574-437f-aa32-d7d7-5d0558ecb0ea",
+              "entity_def_id": "organization",
+              "value": "Islamic Development Bank"
+            },
+            {
+              "permalink": "saudi-german-hospital",
+              "image_id": "wdytcjvcndaqgpdestsp",
+              "uuid": "3b6aa02e-f50c-4c53-9e64-4ceee7736019",
+              "entity_def_id": "organization",
+              "value": "Saudi German Hospital"
+            },
+            {
+              "permalink": "modern-mills-company",
+              "image_id": "8672eb5fabb84942b1eb1f6e50707830",
+              "uuid": "80bd48bf-140c-4f21-974d-e5d44f359c5b",
+              "entity_def_id": "organization",
+              "value": "Modern Mills Company"
+            },
+            {
+              "permalink": "saudi-expatriates",
+              "image_id": "plijpeek7dswlw99japk",
+              "uuid": "cb9476cf-89ee-7b40-0772-a8e87237a21c",
+              "entity_def_id": "organization",
+              "value": "SAUDI EXPATRIATES"
+            },
+            {
+              "permalink": "jamjoom-pharma",
+              "image_id": "q8dihebgxuwpclk7cndc",
+              "uuid": "fb04f5e5-c359-4738-931f-51f32b9a23ae",
+              "entity_def_id": "organization",
+              "value": "Jamjoom Pharma"
+            },
+            {
+              "permalink": "resal",
+              "image_id": "xeffshrebukmpcwgchy9",
+              "uuid": "da61d7d9-25cb-6ef7-f497-ef93cd95df31",
+              "entity_def_id": "organization",
+              "value": "Resal"
+            }
+          ],
+          "org_funding_total": {
+            "currency": "USD",
+            "value": 10291738582,
+            "value_usd": 10291738582
+          },
+          "org_num_investors": 240,
+          "org_num": 2603,
+          "queries": {
+            "event": [
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "78f06c5e-ca43-923c-8983-3c7841510ac6"
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "principal.has_event.forward",
+                "query": [
+                  {
+                    "field_id": "facet_ids",
+                    "operator_id": "includes",
+                    "values": [
+                      "company"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "ipo_status",
+                    "operator_id": "includes",
+                    "values": [
+                      "private"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "active"
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ],
+            "organization": [
+              {
+                "field_id": "facet_ids",
+                "operator_id": "includes",
+                "values": [
+                  "company"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "78f06c5e-ca43-923c-8983-3c7841510ac6"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "ipo_status",
+                "operator_id": "includes",
+                "values": [
+                  "private"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "operating_status",
+                "operator_id": "eq",
+                "values": [
+                  "active"
+                ],
+                "type": "predicate"
+              }
+            ],
+            "person": [
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "78f06c5e-ca43-923c-8983-3c7841510ac6"
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "organization.has_primary_organization.forward",
+                "query": [
+                  {
+                    "field_id": "facet_ids",
+                    "operator_id": "includes",
+                    "values": [
+                      "company"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "location_identifiers",
+                    "operator_id": "includes",
+                    "values": [
+                      "78f06c5e-ca43-923c-8983-3c7841510ac6"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "ipo_status",
+                    "operator_id": "includes",
+                    "values": [
+                      "private"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "active"
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ]
+          }
+        },
+        {
+          "identifier": {
+            "permalink": "private-saudi-arabia-companies",
+            "image_id": "dc960b95a8634d398fb802e43c760504",
+            "uuid": "6ad3c918-39dc-4451-8c1a-5534b4a8764f",
+            "entity_def_id": "hub",
+            "value": "Private Saudi Arabia Companies (Top 10K)"
+          },
+          "org_identifiers": [
+            {
+              "permalink": "humain-c7c3",
+              "image_id": "dc960b95a8634d398fb802e43c760504",
+              "uuid": "6bde23ba-59a6-43e2-882e-2fdf96c1c7c3",
+              "entity_def_id": "organization",
+              "value": "HUMAIN"
+            },
+            {
+              "permalink": "aila-a6e1",
+              "image_id": "710c1bdcc944473395943d44b58eb7bb",
+              "uuid": "55e3c4b4-7408-4306-99e4-bb3c02d0a6e1",
+              "entity_def_id": "organization",
+              "value": "AILA"
+            },
+            {
+              "permalink": "riyadh-air",
+              "image_id": "c2219fb5e93b488287630d7981e565bd",
+              "uuid": "c4ba0df9-a8b8-4efa-bfa8-c1088fd49b29",
+              "entity_def_id": "organization",
+              "value": "Riyadh Air"
+            },
+            {
+              "permalink": "mozn",
+              "image_id": "j0qr4qgwopwwz4lxq04n",
+              "uuid": "7287b03f-94ca-4482-83b4-80791f4f72b6",
+              "entity_def_id": "organization",
+              "value": "Mozn"
+            },
+            {
+              "permalink": "lahint-company",
+              "image_id": "qw2tz7m5kpopjgoesyqz",
+              "uuid": "cd27ae34-fb6d-4ba5-9df6-c9de8bd9c042",
+              "entity_def_id": "organization",
+              "value": "Lahint Company"
+            },
+            {
+              "permalink": "noon-2",
+              "image_id": "v1489551950/otlmiam3myrpkucstrdy.png",
+              "uuid": "2cf8d0bb-78bc-9a31-7bed-4c0e3711e3e5",
+              "entity_def_id": "organization",
+              "value": "Noon"
+            },
+            {
+              "permalink": "diriyah-company",
+              "image_id": "ffe181ded71e4476b79bc87e4561f5f1",
+              "uuid": "84ab5113-2fd7-423c-81e3-826fb77fbf09",
+              "entity_def_id": "organization",
+              "value": "Diriyah Company"
+            },
+            {
+              "permalink": "desaisiv",
+              "image_id": "bg6s5qyul5sw8acpxy0b",
+              "uuid": "724496f6-05b9-4e27-80c3-dcd370892176",
+              "entity_def_id": "organization",
+              "value": "DESAISIV"
+            }
+          ],
+          "org_funding_total": {
+            "currency": "USD",
+            "value": 147214346799,
+            "value_usd": 147214346799
+          },
+          "org_num_investors": 2230,
+          "org_num": 9872,
+          "queries": {
+            "event": [
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "2c205931-d55b-569b-0fdf-957f2f062bf3"
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "principal.has_event.forward",
+                "query": [
+                  {
+                    "field_id": "facet_ids",
+                    "operator_id": "includes",
+                    "values": [
+                      "company"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "ipo_status",
+                    "operator_id": "includes",
+                    "values": [
+                      "private"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "active"
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ],
+            "organization": [
+              {
+                "field_id": "facet_ids",
+                "operator_id": "includes",
+                "values": [
+                  "company"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "2c205931-d55b-569b-0fdf-957f2f062bf3"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "ipo_status",
+                "operator_id": "includes",
+                "values": [
+                  "private"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "operating_status",
+                "operator_id": "eq",
+                "values": [
+                  "active"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "rank_org",
+                "operator_id": "lte",
+                "values": [
+                  4400000
+                ],
+                "type": "predicate"
+              }
+            ],
+            "person": [
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "2c205931-d55b-569b-0fdf-957f2f062bf3"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "rank_person",
+                "operator_id": "lte",
+                "values": [
+                  880000
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "organization.has_primary_organization.forward",
+                "query": [
+                  {
+                    "field_id": "facet_ids",
+                    "operator_id": "includes",
+                    "values": [
+                      "company"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "location_identifiers",
+                    "operator_id": "includes",
+                    "values": [
+                      "2c205931-d55b-569b-0fdf-957f2f062bf3"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "ipo_status",
+                    "operator_id": "includes",
+                    "values": [
+                      "private"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "active"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "rank_org",
+                    "operator_id": "lte",
+                    "values": [
+                      4400000
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ]
+          }
+        },
+        {
+          "identifier": {
+            "permalink": "exel-by-merak-portfolio-companies",
+            "image_id": "2064c080c80045fca433d9e39525b92f",
+            "uuid": "f1f09602-c251-4963-a9d5-16ec3776e2f3",
+            "entity_def_id": "hub",
+            "value": "Exel by Merak Portfolio Companies"
+          },
+          "org_identifiers": [
+            {
+              "permalink": "copa-fantasy",
+              "image_id": "fd340e4ef5fc482eb1745117ec3f2a36",
+              "uuid": "cdabb093-8586-45bd-a17e-ea903d925d39",
+              "entity_def_id": "organization",
+              "value": "Copa Fantasy"
+            },
+            {
+              "permalink": "classy-games-studios",
+              "image_id": "d6db4c71532b43b6ad429e9d985221f3",
+              "uuid": "8fd9cc9e-7252-42f2-9cc4-8905b4aaa6bf",
+              "entity_def_id": "organization",
+              "value": "Classy Games"
+            },
+            {
+              "permalink": "cakebyte",
+              "image_id": "i18zy9g38wbiglxefo8n",
+              "uuid": "c7553f3e-992a-42d4-bd1d-b9a1cea0cb9d",
+              "entity_def_id": "organization",
+              "value": "Cakebyte"
+            },
+            {
+              "permalink": "hyena-hon",
+              "image_id": "d1aceab1371847a2b60dbe387e74738d",
+              "uuid": "7a49f637-c431-4a92-baad-769148aef038",
+              "entity_def_id": "organization",
+              "value": "Hyena Hon"
+            },
+            {
+              "permalink": "superbullet-studios",
+              "image_id": "56087ad445344dc59c2691815cb6c161",
+              "uuid": "5b988b1d-a3db-47ab-a102-713de1ab2db1",
+              "entity_def_id": "organization",
+              "value": "Superbullet Studios"
+            },
+            {
+              "permalink": "fitnot",
+              "image_id": "qpimrxx4agbrkt33n8ts",
+              "uuid": "a54196d4-1509-4abc-b3d7-a17cc5c74dcc",
+              "entity_def_id": "organization",
+              "value": "FitNot"
+            },
+            {
+              "permalink": "dynamic-box-studio",
+              "image_id": "vblqcs1i6zhyhfqoxrds",
+              "uuid": "d836dd91-ec40-4da0-8040-561cd96f3a78",
+              "entity_def_id": "organization",
+              "value": "Dynamic Box"
+            },
+            {
+              "permalink": "evlnu-gameworks",
+              "image_id": "b165632bdfeb4bd792fc3c5e87d8f263",
+              "uuid": "6e9c7e8f-5937-4915-8fee-557bbe86cb8d",
+              "entity_def_id": "organization",
+              "value": "Evlnu GameWorks"
+            }
+          ],
+          "org_funding_total": {
+            "currency": "USD",
+            "value": 11279664,
+            "value_usd": 11279664
+          },
+          "org_num_investors": 40,
+          "org_num": 35,
+          "queries": {
+            "event": [
+              {
+                "collection_id": "principal.has_event.forward",
+                "query": [
+                  {
+                    "field_id": "identifier",
+                    "operator_id": "includes",
+                    "values": [
+                      "a1fef703-f2a7-49e8-b98d-33638e90fe05"
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ],
+            "organization": [
+              {
+                "collection_id": "principal.has_investor.forward",
+                "query": [
+                  {
+                    "field_id": "identifier",
+                    "operator_id": "includes",
+                    "values": [
+                      "a1fef703-f2a7-49e8-b98d-33638e90fe05"
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ],
+            "person": [
+              {
+                "collection_id": "organization.has_primary_organization.forward",
+                "query": [
+                  {
+                    "collection_id": "principal.has_investor.forward",
+                    "query": [
+                      {
+                        "field_id": "identifier",
+                        "operator_id": "includes",
+                        "values": [
+                          "a1fef703-f2a7-49e8-b98d-33638e90fe05"
+                        ],
+                        "type": "predicate"
+                      }
+                    ],
+                    "type": "sub_query"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ]
+          }
+        },
+        {
+          "identifier": {
+            "permalink": "saudi-arabia-companies",
+            "image_id": "dc960b95a8634d398fb802e43c760504",
+            "uuid": "62423e64-d198-4ffc-be8e-ef63a51777ae",
+            "entity_def_id": "hub",
+            "value": "Saudi Arabia Companies (Top 10K)"
+          },
+          "org_identifiers": [
+            {
+              "permalink": "humain-c7c3",
+              "image_id": "dc960b95a8634d398fb802e43c760504",
+              "uuid": "6bde23ba-59a6-43e2-882e-2fdf96c1c7c3",
+              "entity_def_id": "organization",
+              "value": "HUMAIN"
+            },
+            {
+              "permalink": "aila-a6e1",
+              "image_id": "710c1bdcc944473395943d44b58eb7bb",
+              "uuid": "55e3c4b4-7408-4306-99e4-bb3c02d0a6e1",
+              "entity_def_id": "organization",
+              "value": "AILA"
+            },
+            {
+              "permalink": "sal-d6f6",
+              "image_id": "ktrk4gnfsntxpypikjhe",
+              "uuid": "f986e75a-8334-48f4-a8b2-e3f159bed6f6",
+              "entity_def_id": "organization",
+              "value": "SAL"
+            },
+            {
+              "permalink": "riyadh-air",
+              "image_id": "c2219fb5e93b488287630d7981e565bd",
+              "uuid": "c4ba0df9-a8b8-4efa-bfa8-c1088fd49b29",
+              "entity_def_id": "organization",
+              "value": "Riyadh Air"
+            },
+            {
+              "permalink": "mozn",
+              "image_id": "j0qr4qgwopwwz4lxq04n",
+              "uuid": "7287b03f-94ca-4482-83b4-80791f4f72b6",
+              "entity_def_id": "organization",
+              "value": "Mozn"
+            },
+            {
+              "permalink": "lahint-company",
+              "image_id": "qw2tz7m5kpopjgoesyqz",
+              "uuid": "cd27ae34-fb6d-4ba5-9df6-c9de8bd9c042",
+              "entity_def_id": "organization",
+              "value": "Lahint Company"
+            },
+            {
+              "permalink": "noon-2",
+              "image_id": "v1489551950/otlmiam3myrpkucstrdy.png",
+              "uuid": "2cf8d0bb-78bc-9a31-7bed-4c0e3711e3e5",
+              "entity_def_id": "organization",
+              "value": "Noon"
+            },
+            {
+              "permalink": "diriyah-company",
+              "image_id": "ffe181ded71e4476b79bc87e4561f5f1",
+              "uuid": "84ab5113-2fd7-423c-81e3-826fb77fbf09",
+              "entity_def_id": "organization",
+              "value": "Diriyah Company"
+            }
+          ],
+          "org_funding_total": {
+            "currency": "USD",
+            "value": 262751673760,
+            "value_usd": 262751673760
+          },
+          "org_num_investors": 2489,
+          "org_num": 9920,
+          "queries": {
+            "event": [
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "2c205931-d55b-569b-0fdf-957f2f062bf3"
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "principal.has_event.forward",
+                "query": [
+                  {
+                    "field_id": "facet_ids",
+                    "operator_id": "includes",
+                    "values": [
+                      "company"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "active"
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ],
+            "organization": [
+              {
+                "field_id": "facet_ids",
+                "operator_id": "includes",
+                "values": [
+                  "company"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "2c205931-d55b-569b-0fdf-957f2f062bf3"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "operating_status",
+                "operator_id": "eq",
+                "values": [
+                  "active"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "rank_org",
+                "operator_id": "lte",
+                "values": [
+                  4300000
+                ],
+                "type": "predicate"
+              }
+            ],
+            "person": [
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "2c205931-d55b-569b-0fdf-957f2f062bf3"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "rank_person",
+                "operator_id": "lte",
+                "values": [
+                  750000
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "organization.has_primary_organization.forward",
+                "query": [
+                  {
+                    "field_id": "facet_ids",
+                    "operator_id": "includes",
+                    "values": [
+                      "company"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "location_identifiers",
+                    "operator_id": "includes",
+                    "values": [
+                      "2c205931-d55b-569b-0fdf-957f2f062bf3"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "active"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "rank_org",
+                    "operator_id": "lte",
+                    "values": [
+                      4300000
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ]
+          }
+        }
+      ],
+      "org_similarity_org_list": [],
+      "investors_summary": {
+        "identifier": {
+          "uuid": "9e98919c-a10e-4027-81b3-45f487688ece",
+          "value": "Saer Games",
+          "image_id": "1ba17b87d9654d158d454e63699a7bd4",
+          "permalink": "saer-games",
+          "entity_def_id": "organization"
+        },
+        "num_investors": 1
+      },
+      "funds_list": [],
+      "alumni_image_list": [],
+      "semrush_overview_headline": {},
+      "frequently_asked_questions_total_funding": {
+        "funding_total": {
+          "value": 300000,
+          "currency": "USD",
+          "value_usd": 300000
+        },
+        "identifier": {
+          "uuid": "9e98919c-a10e-4027-81b3-45f487688ece",
+          "value": "Saer Games",
+          "image_id": "1ba17b87d9654d158d454e63699a7bd4",
+          "permalink": "saer-games",
+          "entity_def_id": "organization"
+        }
+      },
+      "exits_summary": {
+        "identifier": {
+          "uuid": "9e98919c-a10e-4027-81b3-45f487688ece",
+          "value": "Saer Games",
+          "image_id": "1ba17b87d9654d158d454e63699a7bd4",
+          "permalink": "saer-games",
+          "entity_def_id": "organization"
+        }
+      },
+      "partnership_announcements": [],
+      "bombora_surge_list": [],
+      "diversity_spotlight_investments_list": [],
+      "builtwith_tech_used_list": [],
+      "funding_rounds_summary": {
+        "identifier": {
+          "uuid": "9e98919c-a10e-4027-81b3-45f487688ece",
+          "value": "Saer Games",
+          "image_id": "1ba17b87d9654d158d454e63699a7bd4",
+          "permalink": "saer-games",
+          "entity_def_id": "organization"
+        },
+        "last_funding_type": "series_unknown",
+        "last_funding_at": "2026-02-13",
+        "funding_total": {
+          "value": 300000,
+          "currency": "USD",
+          "value_usd": 300000
+        },
+        "num_funding_rounds": 1
+      },
+      "org_similarity_list": [],
+      "ipo_prediction": [],
+      "acquisitions_summary": {
+        "identifier": {
+          "uuid": "9e98919c-a10e-4027-81b3-45f487688ece",
+          "value": "Saer Games",
+          "image_id": "1ba17b87d9654d158d454e63699a7bd4",
+          "permalink": "saer-games",
+          "entity_def_id": "organization"
+        }
+      },
+      "advisors_summary": {
+        "identifier": {
+          "uuid": "9e98919c-a10e-4027-81b3-45f487688ece",
+          "value": "Saer Games",
+          "image_id": "1ba17b87d9654d158d454e63699a7bd4",
+          "permalink": "saer-games",
+          "entity_def_id": "organization"
+        }
+      },
+      "acquisitions_list": [],
+      "exits_headline": {},
+      "investments_summary": {
+        "identifier": {
+          "uuid": "9e98919c-a10e-4027-81b3-45f487688ece",
+          "value": "Saer Games",
+          "image_id": "1ba17b87d9654d158d454e63699a7bd4",
+          "permalink": "saer-games",
+          "entity_def_id": "organization"
+        }
+      },
+      "acquired_by_fields": {},
+      "research_insight_text_link": {},
+      "acquisition_prediction": [],
+      "sub_organizations_headline": {},
+      "layoff_list": [],
+      "growth_and_heat": {
+        "heat_score_history": {
+          "periods": {
+            "i1": {
+              "values": [
+                14,
+                14,
+                14,
+                14,
+                14,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                16,
+                16,
+                16,
+                16,
+                16,
+                16,
+                16,
+                16,
+                16,
+                17,
+                17,
+                17,
+                17,
+                17,
+                17,
+                17,
+                17,
+                17,
+                18,
+                18,
+                18,
+                18,
+                18,
+                18,
+                18,
+                18,
+                18,
+                18,
+                19,
+                19,
+                19,
+                19,
+                19,
+                19,
+                19,
+                19,
+                19,
+                20,
+                20,
+                20,
+                20,
+                20,
+                20,
+                20,
+                20,
+                20,
+                20,
+                21,
+                21,
+                21,
+                21,
+                21,
+                21,
+                21,
+                21,
+                21,
+                21,
+                21,
+                22,
+                22,
+                22,
+                22,
+                22,
+                22,
+                22,
+                22,
+                22,
+                22,
+                23,
+                23,
+                23,
+                23,
+                23,
+                23,
+                23,
+                23,
+                23
+              ],
+              "interval": 1
+            },
+            "i2": {
+              "values": [
+                14,
+                14,
+                15,
+                15,
+                15,
+                15,
+                16,
+                16,
+                16,
+                16,
+                16,
+                17,
+                17,
+                17,
+                17,
+                18,
+                18,
+                18,
+                18,
+                18,
+                19,
+                19,
+                19,
+                19,
+                19,
+                20,
+                20,
+                20,
+                20,
+                20,
+                21,
+                21,
+                21,
+                21,
+                21,
+                22,
+                22,
+                22,
+                22,
+                22,
+                23,
+                23,
+                23,
+                23,
+                23,
+                23,
+                24,
+                24,
+                24,
+                24,
+                25,
+                26,
+                28,
+                29,
+                30,
+                32,
+                33,
+                35,
+                37,
+                39,
+                41,
+                44,
+                47,
+                49,
+                52,
+                54,
+                55,
+                57,
+                59,
+                60,
+                63,
+                67,
+                70,
+                74,
+                77,
+                80,
+                83,
+                86,
+                89,
+                91,
+                90,
+                82,
+                84,
+                87,
+                89,
+                91,
+                91,
+                86,
+                88,
+                79,
+                64
+              ],
+              "interval": 2
+            },
+            "i4": {
+              "values": [
+                14,
+                15,
+                15,
+                16,
+                16,
+                17,
+                17,
+                17,
+                18,
+                18,
+                19,
+                19,
+                20,
+                20,
+                20,
+                21,
+                21,
+                21,
+                22,
+                22,
+                23,
+                23,
+                23,
+                24,
+                24,
+                26,
+                28,
+                31,
+                34,
+                38,
+                43,
+                48,
+                53,
+                56,
+                59,
+                65,
+                72,
+                78,
+                84,
+                90,
+                86,
+                85,
+                90,
+                88,
+                83,
+                46,
+                3,
+                6,
+                8,
+                10
+              ],
+              "interval": 4
+            },
+            "i7": {
+              "values": [
+                14,
+                15,
+                16,
+                17,
+                18,
+                18,
+                19,
+                20,
+                20,
+                21,
+                22,
+                22,
+                23,
+                24,
+                25,
+                30,
+                35,
+                43,
+                52,
+                58,
+                67,
+                79,
+                88,
+                85,
+                89,
+                78,
+                11,
+                7,
+                10
+              ],
+              "interval": 7
+            },
+            "i18": {
+              "values": [
+                14,
+                17,
+                19,
+                21,
+                23,
+                25,
+                37,
+                57,
+                82,
+                86,
+                15,
+                11
+              ],
+              "interval": 18
+            },
+            "i36": {
+              "values": [
+                14,
+                20,
+                24,
+                47,
+                84,
+                15
+              ],
+              "interval": 36
+            }
+          }
+        },
+        "growth_score_delta_d90": -2,
+        "growth_score_history": {
+          "periods": {
+            "i1": {
+              "values": [
+                86,
+                86,
+                86,
+                86,
+                86,
+                86,
+                86,
+                86,
+                86,
+                86,
+                86,
+                86,
+                86,
+                86,
+                86,
+                86,
+                86,
+                86,
+                86,
+                86,
+                86,
+                86,
+                86,
+                86,
+                86,
+                86,
+                86,
+                86,
+                86,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                88,
+                88,
+                88,
+                88,
+                88,
+                88,
+                88,
+                88,
+                88,
+                88,
+                88,
+                88,
+                88
+              ],
+              "interval": 1
+            },
+            "i2": {
+              "values": [
+                86,
+                86,
+                86,
+                86,
+                86,
+                86,
+                86,
+                86,
+                86,
+                86,
+                86,
+                86,
+                86,
+                86,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                88,
+                88,
+                88,
+                88,
+                88,
+                88,
+                88,
+                88,
+                88,
+                88,
+                88,
+                88,
+                88,
+                88,
+                88,
+                88,
+                89,
+                89,
+                89,
+                89,
+                89,
+                89,
+                90,
+                90,
+                90,
+                90,
+                91,
+                91,
+                91,
+                91,
+                91,
+                91,
+                91,
+                92,
+                92,
+                92,
+                92,
+                92,
+                92,
+                92,
+                92,
+                93,
+                92,
+                92,
+                92,
+                92,
+                93,
+                93,
+                93,
+                92,
+                92,
+                92,
+                92
+              ],
+              "interval": 2
+            },
+            "i4": {
+              "values": [
+                86,
+                86,
+                86,
+                86,
+                86,
+                86,
+                86,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                88,
+                88,
+                88,
+                88,
+                88,
+                88,
+                88,
+                88,
+                89,
+                89,
+                89,
+                90,
+                90,
+                91,
+                91,
+                91,
+                92,
+                92,
+                92,
+                92,
+                92,
+                92,
+                92,
+                93,
+                92,
+                92,
+                91,
+                90,
+                90,
+                90,
+                90,
+                90,
+                90,
+                89,
+                89,
+                89,
+                89,
+                88,
+                88,
+                88,
+                88,
+                87,
+                87,
+                87,
+                86,
+                86,
+                86,
+                86,
+                85,
+                85,
+                85,
+                84,
+                84,
+                84,
+                83,
+                83,
+                83,
+                82,
+                82,
+                82,
+                81,
+                81,
+                80,
+                80,
+                79,
+                79,
+                78,
+                78,
+                77,
+                76,
+                75,
+                75,
+                74
+              ],
+              "interval": 4
+            },
+            "i7": {
+              "values": [
+                86,
+                86,
+                86,
+                86,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                87,
+                88,
+                88,
+                88,
+                88,
+                89,
+                89,
+                90,
+                91,
+                91,
+                92,
+                92,
+                92,
+                92,
+                93,
+                92,
+                90,
+                90,
+                90,
+                89,
+                89,
+                89,
+                88,
+                88,
+                87,
+                87,
+                86,
+                86,
+                85,
+                85,
+                84,
+                84,
+                83,
+                82,
+                82,
+                81,
+                80,
+                79,
+                78,
+                77,
+                76,
+                75,
+                73,
+                69,
+                41,
+                37,
+                37,
+                36,
+                36,
+                35,
+                35,
+                34,
+                34,
+                33,
+                33,
+                32,
+                32,
+                31,
+                31,
+                30,
+                29,
+                29,
+                28,
+                27,
+                26,
+                25,
+                24,
+                23,
+                21,
+                18,
+                15
+              ],
+              "interval": 7
+            },
+            "i18": {
+              "values": [
+                86,
+                86,
+                87,
+                87,
+                88,
+                88,
+                89,
+                91,
+                92,
+                92,
+                90,
+                89,
+                88,
+                87,
+                86,
+                85,
+                83,
+                81,
+                79,
+                77,
+                72,
+                39,
+                36,
+                35,
+                34,
+                32,
+                31,
+                29,
+                27,
+                25,
+                21,
+                16
+              ],
+              "interval": 18
+            },
+            "i36": {
+              "values": [
+                86,
+                87,
+                88,
+                90,
+                92,
+                90,
+                88,
+                85,
+                82,
+                78,
+                55,
+                35,
+                33,
+                30,
+                26,
+                20
+              ],
+              "interval": 36
+            }
+          }
+        },
+        "growth_trend_365": {
+          "periods": {
+            "i1": {
+              "values": [
+                14,
+                15,
+                15,
+                16,
+                16,
+                17,
+                18,
+                18,
+                19,
+                20,
+                22,
+                23,
+                26,
+                30,
+                97,
+                97,
+                97,
+                98,
+                98,
+                98,
+                98,
+                99,
+                99,
+                99,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100
+              ],
+              "interval": 1
+            },
+            "i2": {
+              "values": [
+                14,
+                16,
+                17,
+                18,
+                20,
+                23,
+                28,
+                97,
+                98,
+                98,
+                99,
+                99,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100
+              ],
+              "interval": 2
+            },
+            "i4": {
+              "values": [
+                14,
+                17,
+                21,
+                63,
+                98,
+                99,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100
+              ],
+              "interval": 4
+            },
+            "i7": {
+              "values": [
+                14,
+                23,
+                98,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                98,
+                96,
+                94,
+                92,
+                89,
+                87,
+                84,
+                82,
+                79,
+                76,
+                73,
+                69,
+                66,
+                61,
+                57,
+                51,
+                44,
+                32,
+                16
+              ],
+              "interval": 7
+            },
+            "i18": {
+              "values": [
+                14,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                97,
+                92,
+                85,
+                78,
+                70,
+                60,
+                43,
+                20
+              ],
+              "interval": 18
+            },
+            "i36": {
+              "values": [
+                14,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                94,
+                82,
+                65,
+                38
+              ],
+              "interval": 36
+            }
+          }
+        },
+        "heat_score": 14,
+        "heat_trend_365": {
+          "periods": {
+            "i1": {
+              "values": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                5,
+                5,
+                5,
+                5,
+                5,
+                5,
+                5,
+                5,
+                5,
+                5,
+                5,
+                5,
+                5,
+                5,
+                5,
+                5,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                7,
+                7,
+                7,
+                7,
+                7,
+                7,
+                7,
+                7,
+                7,
+                7,
+                7,
+                7,
+                7,
+                7
+              ],
+              "interval": 1
+            },
+            "i2": {
+              "values": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                5,
+                5,
+                5,
+                5,
+                5,
+                5,
+                5,
+                5,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                7,
+                7,
+                7,
+                7,
+                7,
+                7,
+                7,
+                7,
+                8,
+                8,
+                8,
+                8,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                13,
+                15,
+                16,
+                17,
+                19,
+                21,
+                22,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                33,
+                35,
+                37,
+                39,
+                41,
+                43,
+                45,
+                47,
+                48,
+                50,
+                49,
+                44,
+                45,
+                47,
+                48,
+                50,
+                50,
+                46,
+                48,
+                42,
+                33
+              ],
+              "interval": 2
+            },
+            "i4": {
+              "values": [
+                2,
+                2,
+                2,
+                3,
+                3,
+                3,
+                3,
+                4,
+                4,
+                4,
+                4,
+                5,
+                5,
+                5,
+                5,
+                6,
+                6,
+                6,
+                6,
+                7,
+                7,
+                7,
+                7,
+                8,
+                8,
+                9,
+                11,
+                12,
+                14,
+                16,
+                20,
+                23,
+                25,
+                28,
+                30,
+                34,
+                38,
+                42,
+                46,
+                49,
+                46,
+                46,
+                49,
+                48,
+                45,
+                22,
+                -5,
+                -3,
+                -2,
+                -1
+              ],
+              "interval": 4
+            },
+            "i7": {
+              "values": [
+                2,
+                2,
+                3,
+                3,
+                4,
+                4,
+                5,
+                5,
+                6,
+                6,
+                6,
+                7,
+                7,
+                8,
+                9,
+                11,
+                15,
+                20,
+                25,
+                29,
+                35,
+                42,
+                48,
+                46,
+                49,
+                42,
+                -1,
+                -3,
+                -1
+              ],
+              "interval": 7
+            },
+            "i18": {
+              "values": [
+                2,
+                3,
+                5,
+                6,
+                7,
+                9,
+                16,
+                28,
+                44,
+                46,
+                2,
+                0
+              ],
+              "interval": 18
+            },
+            "i36": {
+              "values": [
+                2,
+                5,
+                8,
+                22,
+                45,
+                2
+              ],
+              "interval": 36
+            }
+          }
+        },
+        "growth_score": 86,
+        "heat_score_delta_d90": -9
+      },
+      "bombora_summary": {
+        "identifier": {
+          "uuid": "9e98919c-a10e-4027-81b3-45f487688ece",
+          "value": "Saer Games",
+          "image_id": "1ba17b87d9654d158d454e63699a7bd4",
+          "permalink": "saer-games",
+          "entity_def_id": "organization"
+        }
+      },
+      "semrush_rank_headline": {},
+      "frequently_asked_questions_latest_funding_round": {
+        "identifier": {
+          "uuid": "9e98919c-a10e-4027-81b3-45f487688ece",
+          "value": "Saer Games",
+          "image_id": "1ba17b87d9654d158d454e63699a7bd4",
+          "permalink": "saer-games",
+          "entity_def_id": "organization"
+        },
+        "last_funding_at": "2026-02-13",
+        "last_funding_type": "series_unknown",
+        "num_funding_rounds": 1
+      },
+      "apptopia_app_overview_list_free": [],
+      "contacts": {},
+      "product_launches": [],
+      "alumni_summary": {
+        "identifier": {
+          "uuid": "9e98919c-a10e-4027-81b3-45f487688ece",
+          "value": "Saer Games",
+          "image_id": "1ba17b87d9654d158d454e63699a7bd4",
+          "permalink": "saer-games",
+          "entity_def_id": "organization"
+        }
+      },
+      "apptopia_summary": {
+        "identifier": {
+          "uuid": "9e98919c-a10e-4027-81b3-45f487688ece",
+          "value": "Saer Games",
+          "image_id": "1ba17b87d9654d158d454e63699a7bd4",
+          "permalink": "saer-games",
+          "entity_def_id": "organization"
+        }
+      },
+      "product_similarity_target_org_list": [],
+      "social_fields": {
+        "linkedin": {
+          "value": "https://www.linkedin.com/company/saer-games/"
+        }
+      },
+      "investments_headline": {},
+      "investment_thesis": {
+        "lookup": [],
+        "properties": {
+          "identifier": {
+            "uuid": "9e98919c-a10e-4027-81b3-45f487688ece",
+            "value": "Saer Games",
+            "image_id": "1ba17b87d9654d158d454e63699a7bd4",
+            "permalink": "saer-games",
+            "entity_def_id": "organization"
+          }
+        },
+        "data": []
+      },
+      "diversity_spotlight_investments_summary": {
+        "identifier": {
+          "uuid": "9e98919c-a10e-4027-81b3-45f487688ece",
+          "value": "Saer Games",
+          "image_id": "1ba17b87d9654d158d454e63699a7bd4",
+          "permalink": "saer-games",
+          "entity_def_id": "organization"
+        }
+      },
+      "contact_fields": {},
+      "growth_prediction": [],
+      "sub_organizations_summary": {
+        "identifier": {
+          "uuid": "9e98919c-a10e-4027-81b3-45f487688ece",
+          "value": "Saer Games",
+          "image_id": "1ba17b87d9654d158d454e63699a7bd4",
+          "permalink": "saer-games",
+          "entity_def_id": "organization"
+        }
+      },
+      "overview_description": {
+        "description": "Saer Games is a gaming company."
+      },
+      "current_employees_featured_order_field": [],
+      "company_about_fields2": {
+        "ipo_status": "private",
+        "last_funding_type": "series_unknown",
+        "location_identifiers": [
+          {
+            "uuid": "78f06c5e-ca43-923c-8983-3c7841510ac6",
+            "value": "Jeddah",
+            "permalink": "jeddah-makkah",
+            "entity_def_id": "location",
+            "location_type": "city"
+          },
+          {
+            "uuid": "3f261f40-093a-2a17-8183-65ee671c43c8",
+            "value": "Makkah",
+            "permalink": "makkah-saudi-arabia",
+            "entity_def_id": "location",
+            "location_type": "region"
+          },
+          {
+            "uuid": "2c205931-d55b-569b-0fdf-957f2f062bf3",
+            "value": "Saudi Arabia",
+            "permalink": "saudi-arabia",
+            "entity_def_id": "location",
+            "location_type": "country"
+          },
+          {
+            "uuid": "b41404d2-8ecc-caf5-1268-8fdd3afe73ee",
+            "value": "Asia",
+            "permalink": "asia",
+            "entity_def_id": "location",
+            "location_type": "continent"
+          }
+        ],
+        "rank_org_company": 231086
+      },
+      "sub_organizations_image_list": [],
+      "frequently_asked_questions_headquarters_location": {
+        "identifier": {
+          "uuid": "9e98919c-a10e-4027-81b3-45f487688ece",
+          "value": "Saer Games",
+          "image_id": "1ba17b87d9654d158d454e63699a7bd4",
+          "permalink": "saer-games",
+          "entity_def_id": "organization"
+        },
+        "location_identifiers": [
+          {
+            "uuid": "78f06c5e-ca43-923c-8983-3c7841510ac6",
+            "value": "Jeddah",
+            "permalink": "jeddah-makkah",
+            "entity_def_id": "location",
+            "location_type": "city"
+          },
+          {
+            "uuid": "3f261f40-093a-2a17-8183-65ee671c43c8",
+            "value": "Makkah",
+            "permalink": "makkah-saudi-arabia",
+            "entity_def_id": "location",
+            "location_type": "region"
+          },
+          {
+            "uuid": "2c205931-d55b-569b-0fdf-957f2f062bf3",
+            "value": "Saudi Arabia",
+            "permalink": "saudi-arabia",
+            "entity_def_id": "location",
+            "location_type": "country"
+          },
+          {
+            "uuid": "b41404d2-8ecc-caf5-1268-8fdd3afe73ee",
+            "value": "Asia",
+            "permalink": "asia",
+            "entity_def_id": "location",
+            "location_type": "continent"
+          }
+        ]
+      },
+      "investors_headline": {
+        "num_investors": 1,
+        "num_lead_investors": 1
+      },
+      "ipo_summary": {
+        "identifier": {
+          "uuid": "9e98919c-a10e-4027-81b3-45f487688ece",
+          "value": "Saer Games",
+          "image_id": "1ba17b87d9654d158d454e63699a7bd4",
+          "permalink": "saer-games",
+          "entity_def_id": "organization"
+        }
+      },
+      "ipqwery_summary": {
+        "identifier": {
+          "uuid": "9e98919c-a10e-4027-81b3-45f487688ece",
+          "value": "Saer Games",
+          "image_id": "1ba17b87d9654d158d454e63699a7bd4",
+          "permalink": "saer-games",
+          "entity_def_id": "organization"
+        }
+      },
+      "awards": [],
+      "siftery_product_list": [],
+      "competitors_list": [],
+      "growth_knowledge": {
+        "lookup": [],
+        "properties": {
+          "identifier": {
+            "uuid": "9e98919c-a10e-4027-81b3-45f487688ece",
+            "value": "Saer Games",
+            "image_id": "1ba17b87d9654d158d454e63699a7bd4",
+            "permalink": "saer-games",
+            "entity_def_id": "organization"
+          }
+        },
+        "data": []
+      },
+      "overview_fields_extended": {
+        "last_funding_type": "series_unknown",
+        "location_group_identifiers": [
+          {
+            "uuid": "4e8be435-c63a-4aff-8a2f-44a880d9c341",
+            "value": "Europe, Middle East, and Africa (EMEA)",
+            "permalink": "europe-middle-east-africa-emea",
+            "entity_def_id": "location",
+            "location_type": "group"
+          },
+          {
+            "uuid": "c4365698-c7c5-44b0-b33a-7d13900e5be2",
+            "value": "Gulf Cooperation Council (GCC)",
+            "permalink": "gulf-cooperation-council",
+            "entity_def_id": "location",
+            "location_type": "group"
+          },
+          {
+            "uuid": "e0272206-3430-48cb-a5bc-1d4b3eafe15a",
+            "value": "Middle East",
+            "permalink": "middle-east",
+            "entity_def_id": "location",
+            "location_type": "group"
+          },
+          {
+            "uuid": "8cb7cad4-b7e4-4b28-a496-2ede3720cb19",
+            "value": "Middle East and North Africa (MENA)",
+            "permalink": "middle-east-and-north-africa-mena",
+            "entity_def_id": "location",
+            "location_type": "group"
+          }
+        ],
+        "operating_status": "active"
+      },
+      "overview_investor_fields": {},
+      "bombora_attribution": {},
+      "semrush_location_list": [],
+      "investors_list": [
+        {
+          "is_lead_investor": true,
+          "identifier": {
+            "uuid": "ab52fada-8176-45e0-a4a0-210f3a9a9092",
+            "value": "Exel by Merak investment in Venture Round - Saer Games",
+            "permalink": "exel-by-merak-invested-in-saer-games-series-unknown--42088123--ab52fada",
+            "entity_def_id": "investment"
+          },
+          "funding_round_identifier": {
+            "uuid": "42088123-c5ea-4d6b-9d8e-c15ccf9a0ba7",
+            "value": "Venture Round - Saer Games",
+            "image_id": "1ba17b87d9654d158d454e63699a7bd4",
+            "permalink": "saer-games-series-unknown--42088123",
+            "entity_def_id": "funding_round"
+          },
+          "investor_identifier": {
+            "uuid": "a1fef703-f2a7-49e8-b98d-33638e90fe05",
+            "value": "Exel by Merak",
+            "image_id": "2064c080c80045fca433d9e39525b92f",
+            "permalink": "exel-by-merak",
+            "entity_def_id": "organization"
+          }
+        }
+      ],
+      "siftery_summary": {
+        "identifier": {
+          "uuid": "9e98919c-a10e-4027-81b3-45f487688ece",
+          "value": "Saer Games",
+          "image_id": "1ba17b87d9654d158d454e63699a7bd4",
+          "permalink": "saer-games",
+          "entity_def_id": "organization"
+        }
+      },
+      "acquired_by_summary": {
+        "identifier": {
+          "uuid": "9e98919c-a10e-4027-81b3-45f487688ece",
+          "value": "Saer Games",
+          "image_id": "1ba17b87d9654d158d454e63699a7bd4",
+          "permalink": "saer-games",
+          "entity_def_id": "organization"
+        }
+      },
+      "ipo_fields": {},
+      "apptopia_app_overview_list_public": [],
+      "apptopia_sdk_list": [],
+      "trading_view": {},
+      "current_employees_image_list": [],
+      "frequently_asked_questions_investors": {
+        "identifier": {
+          "uuid": "9e98919c-a10e-4027-81b3-45f487688ece",
+          "value": "Saer Games",
+          "image_id": "1ba17b87d9654d158d454e63699a7bd4",
+          "permalink": "saer-games",
+          "entity_def_id": "organization"
+        },
+        "num_investors": 1
+      },
+      "funding_rounds_list": [
+        {
+          "identifier": {
+            "uuid": "42088123-c5ea-4d6b-9d8e-c15ccf9a0ba7",
+            "value": "Venture Round - Saer Games",
+            "image_id": "1ba17b87d9654d158d454e63699a7bd4",
+            "permalink": "saer-games-series-unknown--42088123",
+            "entity_def_id": "funding_round"
+          },
+          "announced_on": "2026-02-13",
+          "money_raised": {
+            "value": 300000,
+            "currency": "USD",
+            "value_usd": 300000
+          },
+          "num_investors": 1,
+          "investment_type": "series_unknown",
+          "lead_investor_identifiers": [
+            {
+              "uuid": "a1fef703-f2a7-49e8-b98d-33638e90fe05",
+              "value": "Exel by Merak",
+              "image_id": "2064c080c80045fca433d9e39525b92f",
+              "permalink": "exel-by-merak",
+              "entity_def_id": "organization"
+            }
+          ]
+        }
+      ],
+      "technology_highlights": {},
+      "funding_rounds_headline": {
+        "funding_total": {
+          "value": 300000,
+          "currency": "USD",
+          "value_usd": 300000
+        },
+        "num_funding_rounds": 1
+      },
+      "investments_list": [],
+      "exits_image_list": [],
+      "funds_headline": {},
+      "people_highlights": {},
+      "semrush_attribution": {},
+      "frequently_asked_questions_similar_companies": {
+        "identifier": {
+          "uuid": "9e98919c-a10e-4027-81b3-45f487688ece",
+          "value": "Saer Games",
+          "image_id": "1ba17b87d9654d158d454e63699a7bd4",
+          "permalink": "saer-games",
+          "entity_def_id": "organization"
+        }
+      },
+      "semrush_overview": {},
+      "org_category_ranks": {},
+      "current_valuation": [],
+      "legal_proceedings": [],
+      "current_employees_summary": {
+        "identifier": {
+          "uuid": "9e98919c-a10e-4027-81b3-45f487688ece",
+          "value": "Saer Games",
+          "image_id": "1ba17b87d9654d158d454e63699a7bd4",
+          "permalink": "saer-games",
+          "entity_def_id": "organization"
+        }
+      },
+      "aberdeen_summary": {
+        "aberdeen_site_it_spend": {
+          "value": 8826792,
+          "currency": "USD",
+          "value_usd": 8826792
+        },
+        "identifier": {
+          "uuid": "9e98919c-a10e-4027-81b3-45f487688ece",
+          "value": "Saer Games",
+          "image_id": "1ba17b87d9654d158d454e63699a7bd4",
+          "permalink": "saer-games",
+          "entity_def_id": "organization"
+        }
+      },
+      "offices": [],
+      "overview_timeline": {
+        "count": 1,
+        "entities": [
+          {
+            "uuid": "42088123-c5ea-4d6b-9d8e-c15ccf9a0ba7",
+            "properties": {
+              "identifier": {
+                "uuid": "42088123-c5ea-4d6b-9d8e-c15ccf9a0ba7",
+                "value": "Venture Round - Saer Games",
+                "image_id": "1ba17b87d9654d158d454e63699a7bd4",
+                "permalink": "saer-games-series-unknown--42088123",
+                "entity_def_id": "funding_round"
+              },
+              "entity_def_id": "funding_round",
+              "activity_entities": [
+                {
+                  "role": "investor",
+                  "uuid": "a1fef703-f2a7-49e8-b98d-33638e90fe05",
+                  "value": "Exel by Merak",
+                  "image_id": "2064c080c80045fca433d9e39525b92f",
+                  "permalink": "exel-by-merak",
+                  "entity_def_id": "organization"
+                },
+                {
+                  "role": "investee",
+                  "uuid": "9e98919c-a10e-4027-81b3-45f487688ece",
+                  "value": "Saer Games",
+                  "image_id": "1ba17b87d9654d158d454e63699a7bd4",
+                  "permalink": "saer-games",
+                  "entity_def_id": "organization"
+                }
+              ],
+              "activity_properties": {
+                "money_raised": {
+                  "value": 300000,
+                  "currency": "USD",
+                  "value_usd": 300000
+                },
+                "investment_type": "series_unknown"
+              },
+              "activity_date": "2026-02-13"
+            }
+          }
+        ]
+      },
+      "company_financials_highlights": {
+        "funding_total": {
+          "value": 300000,
+          "currency": "USD",
+          "value_usd": 300000
+        },
+        "num_funding_rounds": 1,
+        "num_investors": 1,
+        "num_lead_investors": 1
+      },
+      "overview_company_fields": {},
+      "private_tags_pill_list": [],
+      "acquisitions_headline": {},
+      "builtwith_summary": {
+        "identifier": {
+          "uuid": "9e98919c-a10e-4027-81b3-45f487688ece",
+          "value": "Saer Games",
+          "image_id": "1ba17b87d9654d158d454e63699a7bd4",
+          "permalink": "saer-games",
+          "entity_def_id": "organization"
+        }
+      },
+      "about_short_description": {
+        "short_description": "Saer Games is a gaming company."
+      },
+      "product": [],
+      "apptopia_app_headline": {}
+    }
+  }
+}

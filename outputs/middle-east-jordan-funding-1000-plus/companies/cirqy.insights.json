@@ -1,0 +1,178 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T11:11:46.629Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T11:11:46.627Z",
+    "url": "https://www.crunchbase.com/organization/cirqy"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "CIRQY",
+      "shortDescription": "CIRQY is a social marketplace for discovering freshly-made local design in the Middle East.",
+      "description": "CIRQY is a social marketplace for discovering freshly-made local design in the Middle East; Art, Accessories, Apparel, Home Décor, Stationery and more!\r\n\r\nCIRQY brings you the kind of fun, creative design that will add something different to your everyday life and allow you to express yourself differently. On CIRQY you can follow your friends and discover things together; buying, sharing, recommending and collecting your favorite items from your favorite independent artists and designers.\r\n\r\nWe dream of one day becoming the top online destination for design in the Middle East; inspiring people’s everyday lives, and helping them connect over their interests more often.",
+      "website": "http://www.cirqy.com/",
+      "operatingStatus": "Closed",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "1-10",
+      "estimatedRevenueRange": "Less than $1M",
+      "headquarters": "Cairo, Al Qahirah, Egypt",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Middle East",
+        "Middle East and North Africa (MENA)",
+        "North Africa"
+      ],
+      "industries": [
+        "E-Commerce",
+        "Fashion",
+        "Lifestyle",
+        "Marketplace",
+        "Social",
+        "Social Media"
+      ],
+      "sectors": [
+        "Clothing and Apparel",
+        "Commerce and Shopping",
+        "Community and Lifestyle",
+        "Design",
+        "Internet Services",
+        "Media and Entertainment"
+      ],
+      "founders": [
+        "Kareem El-Shaffei",
+        "Mostafa Talaat"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 12000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2012-09-01",
+      "lastFundingType": "Seed",
+      "rounds": [
+        {
+          "announcedDate": "2012-09-01",
+          "amount": {
+            "amount": 12000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "postMoneyValuation": {
+            "amount": 92000,
+            "currency": "USD"
+          },
+          "type": "Seed"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "name": "F6 Ventures",
+            "rounds": [
+              "Seed Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 1,
+      "includedUniqueCount": 1,
+      "items": [
+        {
+          "date": "2012-09-01",
+          "title": "Seed Round - CIRQY"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 12000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "heatChange90Days": -8,
+      "heatScore": 1
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "The Giving Movement is an online store that sells sustainable activewear and streetwear clothing.",
+          "employeeRange": "101-250",
+          "name": "The Giving Movement",
+          "sharedCategories": [
+            "E-Commerce",
+            "Fashion"
+          ],
+          "similarityScore": 77
+        },
+        {
+          "description": "Boutiqaat offers cosmetics and beauty products for women in the Middle East.",
+          "employeeRange": "501-1,000",
+          "name": "Boutiqaat",
+          "sharedCategories": [
+            "E-Commerce",
+            "Fashion"
+          ],
+          "similarityScore": 69
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Seed round raised $12,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $92,000 to $92,000, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

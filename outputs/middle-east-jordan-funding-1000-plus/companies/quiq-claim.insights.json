@@ -1,0 +1,293 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T13:05:14.796Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T13:05:14.793Z",
+    "url": "https://www.crunchbase.com/organization/quiq-claim"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Quiq Claim",
+      "shortDescription": "Quiq Claim is a financial service company.",
+      "description": "Quiq Claim is a fintech peer-to-peer settlement and investment platform, catering to the medical insurance industry. It supports the insurance provider to have a full transaction overview and lower logistics and paperwork.",
+      "website": "https://quiqclaim.com/",
+      "foundedYear": 2019,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "11-50",
+      "estimatedRevenueRange": "Less than $1M",
+      "headquarters": "Amman, Jordan",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Financial Services",
+        "FinTech",
+        "Payments"
+      ],
+      "sectors": [
+        "Financial Services",
+        "Payments"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "A service that allows healthcare providers to finance their claims immediately on the day they are made.",
+        "name": "Finance Claims on Day Zero"
+      },
+      {
+        "description": "A service enabling users to select investors for financing claims with guaranteed returns within 30 days and minimal risk.",
+        "name": "Choose Investors"
+      },
+      {
+        "description": "A service that allows users to select insurance options to support claim financing and reduce associated costs.",
+        "name": "Choose Insurance"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 115000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 2,
+      "detailedRoundCount": 2,
+      "lastFundingDate": "2022-07-15",
+      "lastFundingType": "Pre Seed",
+      "rounds": [
+        {
+          "announcedDate": "2022-07-15",
+          "amount": {
+            "amount": 115000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "F6 Ventures"
+          ],
+          "postMoneyValuation": {
+            "amount": 2186230,
+            "currency": "USD"
+          },
+          "type": "Pre Seed"
+        },
+        {
+          "announcedDate": "2021-02-01",
+          "investorCount": 2,
+          "postMoneyValuation": {
+            "amount": 3565602,
+            "currency": "USD"
+          },
+          "type": "Pre Seed"
+        }
+      ],
+      "investors": {
+        "reportedCount": 3,
+        "visibleNames": [
+          {
+            "name": "ChangeLabs",
+            "rounds": [
+              "Pre Seed Round"
+            ]
+          },
+          {
+            "isLead": true,
+            "name": "F6 Ventures",
+            "rounds": [
+              "Pre Seed Round"
+            ]
+          },
+          {
+            "name": "Taqadam",
+            "rounds": [
+              "Pre Seed Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 2,
+      "includedUniqueCount": 2,
+      "items": [
+        {
+          "date": "2022-07-15",
+          "title": "Pre Seed Round - Quiq Claim"
+        },
+        {
+          "date": "2021-02-01",
+          "title": "Pre Seed Round - Quiq Claim"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 115000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "latestToEarliestKnownValuationMultiple": 0.61
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": 35,
+      "growthScore": 71,
+      "heatChange90Days": -9,
+      "heatScore": 61
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 0
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 21.89,
+        "timingEstimatePercent": {
+          "within6Months": 16.67,
+          "months6To11": 13.89,
+          "months12To24": 21.22,
+          "beyond24Months": 24.97
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 80.19
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 0
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Briq is a financial automation platform that utilizes artificial intelligence to automate finances in construction.",
+          "employeeRange": "101-250",
+          "name": "Briq",
+          "sharedCategories": [
+            "Financial Services",
+            "FinTech"
+          ],
+          "similarityScore": 90
+        },
+        {
+          "description": "RevSpring is a provider of revenue cycle technology services offering data analytics, multi-channel customer communications.",
+          "employeeRange": "251-500",
+          "name": "RevSpring",
+          "sharedSpecialties": [
+            "Revenue Cycle Management",
+            "Healthcare Financing"
+          ],
+          "similarityScore": 88
+        },
+        {
+          "description": "RVO Health develops, operates and manages various health care focused brands and companies.",
+          "employeeRange": "1,001-5,000",
+          "name": "RVO Health",
+          "similarityScore": 86
+        },
+        {
+          "description": "Taulia is a FinTech startup that provides working capital management and electronic invoicing services for supply chain companies.",
+          "employeeRange": "101-250",
+          "name": "Taulia",
+          "sharedCategories": [
+            "Financial Services",
+            "FinTech"
+          ],
+          "sharedSpecialties": [
+            "Invoice Factoring"
+          ],
+          "similarityScore": 84
+        },
+        {
+          "description": "Established in 2003, PrimeRevenue is the global leader in working capital and B2B payment solutions.",
+          "employeeRange": "101-250",
+          "name": "PrimeRevenue",
+          "sharedCategories": [
+            "Financial Services"
+          ],
+          "sharedSpecialties": [
+            "Invoice Factoring"
+          ],
+          "similarityScore": 82
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Pre Seed round raised $115,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $3,565,602 to $2,186,230, a 0.61x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 71 (+35 over 90 days) and market heat at 61 (-9).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Briq, RevSpring, RVO Health.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

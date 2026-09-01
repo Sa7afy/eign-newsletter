@@ -1,0 +1,317 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T11:15:47.890Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T11:15:47.887Z",
+    "url": "https://www.crunchbase.com/organization/connect-to-fit"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "CONNECT TO FIT",
+      "shortDescription": "Hybrid Cloud-based fitness managment software.",
+      "description": "CONNECT TO FIT is the hybrid cloud-based fitness management software for gyms, studios and fitness trainers.",
+      "website": "https://www.connecttofit.com/",
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "1-10",
+      "headquarters": "Amman, Jordan",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Fitness",
+        "Software"
+      ],
+      "sectors": [
+        "Software",
+        "Sports"
+      ],
+      "founders": [
+        "Salah Haddad"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "A feature that allows businesses to accept payments online with a processing fee.",
+        "name": "Online Payments"
+      },
+      {
+        "description": "A service that supports an unlimited number of members for a business.",
+        "name": "Unlimited Members"
+      },
+      {
+        "description": "An application for members to manage their fitness activities and schedules.",
+        "name": "Member's App"
+      },
+      {
+        "description": "A service that allows unlimited staff members to log in and manage the business.",
+        "name": "Unlimited Staff Logins"
+      },
+      {
+        "description": "Support service provided to assist customers with their inquiries and issues.",
+        "name": "Customer Support"
+      },
+      {
+        "description": "A service to help new users quickly set up and start using the platform.",
+        "name": "Easy and Fast Onboarding"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 80000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 2,
+      "detailedRoundCount": 2,
+      "lastFundingDate": "2022-05-01",
+      "lastFundingType": "Pre Seed",
+      "rounds": [
+        {
+          "announcedDate": "2022-05-01",
+          "amount": {
+            "amount": 80000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "Beyond Capital"
+          ],
+          "postMoneyValuation": {
+            "amount": 2302507,
+            "currency": "USD"
+          },
+          "type": "Pre Seed"
+        },
+        {
+          "announcedDate": "2019-07-01",
+          "postMoneyValuation": {
+            "amount": 977895,
+            "currency": "USD"
+          },
+          "type": "Private Equity"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "Beyond Capital",
+            "rounds": [
+              "Pre Seed Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 3,
+      "includedUniqueCount": 3,
+      "items": [
+        {
+          "date": "2022-05-01",
+          "title": "Pre Seed Round - CONNECT TO FIT"
+        },
+        {
+          "date": "2019-12-29",
+          "publisher": "Jordan Times",
+          "title": "Mercy Corps, iPARK launch social business incubator ‘Generation Impact’",
+          "url": "http://jordantimes.com/news/local/mercy-corps-ipark-launch-social-business-incubator-%E2%80%98generation-impact%E2%80%99"
+        },
+        {
+          "date": "2019-07-01",
+          "title": "Private Equity Round - CONNECT TO FIT"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 80000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "latestToEarliestKnownValuationMultiple": 2.35
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": 40,
+      "growthScore": 74,
+      "heatChange90Days": -8,
+      "heatScore": 67
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 48.16
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 24.1,
+        "timingEstimatePercent": {
+          "within6Months": 15.02,
+          "months6To11": 12.76,
+          "months12To24": 20.06,
+          "beyond24Months": 24.95
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 84.28
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 40.9
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Mindbody is a wellness experience platform that allows clients to find and engage with fitness, beauty, and integrative health services.",
+          "employeeRange": "1,001-5,000",
+          "name": "Mindbody",
+          "sharedCategories": [
+            "Fitness",
+            "Software"
+          ],
+          "sharedSpecialties": [
+            "Fitness Centers and Gym Memberships"
+          ],
+          "similarityScore": 97
+        },
+        {
+          "description": "Zen Planner's all-in-one fitness business software provides everything you need to turn your passion into a successful business.",
+          "employeeRange": "51-100",
+          "name": "Zen Planner",
+          "sharedCategories": [
+            "Fitness",
+            "Software"
+          ],
+          "sharedSpecialties": [
+            "Fitness Centers and Gym Memberships",
+            "Fitness Clubs and Group Classes"
+          ],
+          "similarityScore": 95
+        },
+        {
+          "description": "PushPress is a vertical B2B SaaS company that offers a gym management software serving SMB boutique fitness studios market.",
+          "employeeRange": "101-250",
+          "name": "PushPress",
+          "sharedCategories": [
+            "Fitness",
+            "Software"
+          ],
+          "sharedSpecialties": [
+            "Gym and Fitness Access Control",
+            "Fitness Centers and Gym Memberships",
+            "Fitness Clubs and Group Classes"
+          ],
+          "similarityScore": 93
+        },
+        {
+          "description": "Mariana Tek offers a true enterprise business management platform that is driven by a world-class API.",
+          "employeeRange": "11-50",
+          "name": "Mariana Tek",
+          "sharedCategories": [
+            "Fitness"
+          ],
+          "sharedSpecialties": [
+            "Fitness Centers and Gym Memberships",
+            "Fitness Clubs and Group Classes"
+          ],
+          "similarityScore": 89
+        },
+        {
+          "description": "Glofox is an all in one management system that is powering the future of fitness",
+          "employeeRange": "101-250",
+          "name": "Glofox",
+          "sharedCategories": [
+            "Fitness",
+            "Software"
+          ],
+          "sharedSpecialties": [
+            "Gym and Fitness Access Control",
+            "Fitness Centers and Gym Memberships",
+            "Fitness Clubs and Group Classes"
+          ],
+          "similarityScore": 88
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Pre Seed round raised $80,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $977,895 to $2,302,507, a 2.35x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 74 (+40 over 90 days) and market heat at 67 (-8).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Mindbody, Zen Planner, PushPress.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

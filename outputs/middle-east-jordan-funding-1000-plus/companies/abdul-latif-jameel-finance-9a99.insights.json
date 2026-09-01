@@ -1,0 +1,265 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T08:57:04.772Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T08:57:04.770Z",
+    "url": "https://www.crunchbase.com/organization/abdul-latif-jameel-finance-9a99"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Abdul Latif Jameel Finance",
+      "shortDescription": "Abdul Latif Jameel Finance provides financial services for car spare parts, car maintenance, and car insurance.",
+      "website": "https://aljfinance.com.eg/",
+      "foundedYear": 1999,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "51-100",
+      "headquarters": "Cairo, Al Qahirah, Egypt",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Middle East",
+        "Middle East and North Africa (MENA)",
+        "North Africa"
+      ],
+      "industries": [
+        "Automotive",
+        "Finance",
+        "Financial Services",
+        "Insurance",
+        "Lending"
+      ],
+      "sectors": [
+        "Financial Services",
+        "Transportation"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "A financing service that allows customers to pay for car insurance in installments over a period of up to one year without a down payment.",
+        "name": "Car Insurance Financing Program"
+      },
+      {
+        "description": "A financing service enabling customers to pay for car maintenance services in installments up to one year, with no down payment required.",
+        "name": "Car Maintenance Financing Program"
+      },
+      {
+        "description": "A financing service that allows customers to purchase car spare parts through installment payments, supporting vehicle reliability and safety.",
+        "name": "Car Spare Parts Financing Program"
+      },
+      {
+        "description": "A financing program designed to support the purchase of electric vehicles with flexible payment terms and a minimum down payment requirement.",
+        "name": "Electric Vehicle Financing Program"
+      },
+      {
+        "description": "A digital loyalty program offering customers discounts and special benefits through a rewards system.",
+        "name": "Jameel Rewards Loyalty Program"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 10002011,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2025-05-18",
+      "lastFundingType": "Debt Financing",
+      "rounds": [
+        {
+          "announcedDate": "2025-05-18",
+          "amount": {
+            "amount": 10002011,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "Beltone Holding"
+          ],
+          "type": "Debt Financing"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "Beltone Holding",
+            "rounds": [
+              "Debt Financing"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 1,
+      "includedUniqueCount": 1,
+      "items": [
+        {
+          "date": "2025-05-18",
+          "title": "Debt Financing - Abdul Latif Jameel Finance"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 10002011,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": -1,
+      "growthScore": 87,
+      "heatChange90Days": -5,
+      "heatScore": 61
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 29.91
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 9.16,
+        "timingEstimatePercent": {
+          "within6Months": 0.87,
+          "months6To11": 0,
+          "months12To24": 0,
+          "beyond24Months": 99.13
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 95.71
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 4.8
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "valU is a fintech company that provides buy now, pay later, and customized financial solutions.",
+          "employeeRange": "501-1,000",
+          "name": "valU",
+          "sharedCategories": [
+            "Financial Services",
+            "Finance"
+          ],
+          "similarityScore": 95
+        },
+        {
+          "description": "Contact is the first specialized consumer financing company in Egypt.",
+          "employeeRange": "1,001-5,000",
+          "name": "Contact",
+          "sharedCategories": [
+            "Financial Services",
+            "Insurance"
+          ],
+          "sharedSpecialties": [
+            "Vehicle Financing"
+          ],
+          "similarityScore": 94
+        },
+        {
+          "description": "MNT-Halan is a microfinance lending and payments platform that provides financial services to businesses.",
+          "employeeRange": "10,001+",
+          "name": "MNT-Halan",
+          "sharedCategories": [
+            "Financial Services"
+          ],
+          "sharedSpecialties": [
+            "Vehicle Financing"
+          ],
+          "similarityScore": 93
+        },
+        {
+          "description": "Souhoola is an application that provides an array of loans, accounting, financial, payments, and installment services.",
+          "employeeRange": "101-250",
+          "name": "Souhoola",
+          "sharedCategories": [
+            "Financial Services"
+          ],
+          "similarityScore": 89
+        },
+        {
+          "description": "SKY Finance provides finance and insurance products, vehicle finance, consumer goods finance, and education financing..",
+          "employeeRange": "51-100",
+          "name": "SKY Finance",
+          "sharedCategories": [
+            "Financial Services",
+            "Finance"
+          ],
+          "sharedSpecialties": [
+            "Vehicle Financing"
+          ],
+          "similarityScore": 87
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Debt Financing round raised $10,002,011, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 87 (-1 over 90 days) and market heat at 61 (-5).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include valU, Contact, MNT-Halan.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

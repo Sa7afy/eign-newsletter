@@ -1,0 +1,234 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T11:25:33.936Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T11:25:33.934Z",
+    "url": "https://www.crunchbase.com/organization/dolphinuz"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Dolphinuz",
+      "shortDescription": "Your #1 destination for authentic creator stories shaping the economy in Dubai & the GCC",
+      "description": "Your #1 destination for authentic creator stories shaping the economy in Dubai & the GCC",
+      "website": "https://dolphinuz.com/",
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "1-10",
+      "headquarters": "Dubai, United Arab Emirates",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Advertising",
+        "Advertising Platforms",
+        "Marketing"
+      ],
+      "sectors": [
+        "Advertising",
+        "Sales and Marketing"
+      ],
+      "founders": [
+        "JASSIM SAUDI",
+        "Mo khaldi"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 250000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2018-01-01",
+      "lastFundingType": "Pre Seed",
+      "rounds": [
+        {
+          "announcedDate": "2018-01-01",
+          "amount": {
+            "amount": 250000,
+            "currency": "USD"
+          },
+          "postMoneyValuation": {
+            "amount": 2094373,
+            "currency": "USD"
+          },
+          "type": "Pre Seed"
+        }
+      ]
+    },
+    "recentNews": {
+      "reportedCount": 1,
+      "includedUniqueCount": 1,
+      "items": [
+        {
+          "date": "2018-01-01",
+          "title": "Pre Seed Round - Dolphinuz"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 250000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": -1,
+      "growthScore": 33,
+      "heatChange90Days": -12,
+      "heatScore": 73
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 22.45
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 8.07,
+        "timingEstimatePercent": {
+          "within6Months": 13.38,
+          "months6To11": 11.59,
+          "months12To24": 18.73,
+          "beyond24Months": 24.6
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 85.16
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 15.71
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Upfluence is a smarter influencer marketing platform that helps brands and agencies scaling influencer marketing worldwide.",
+          "employeeRange": "101-250",
+          "name": "Upfluence",
+          "sharedCategories": [
+            "Advertising"
+          ],
+          "similarityScore": 97
+        },
+        {
+          "description": "All-in-one influencer influencer marketing platform",
+          "employeeRange": "51-100",
+          "name": "HypeAuditor",
+          "similarityScore": 95
+        },
+        {
+          "description": "The most completed AI-powered Influencer Marketing platform for worldwide brands and agencies.",
+          "employeeRange": "51-100",
+          "name": "Influencity",
+          "sharedCategories": [
+            "Marketing",
+            "Advertising",
+            "Advertising Platforms"
+          ],
+          "similarityScore": 93
+        },
+        {
+          "description": "Traackr is an influencer marketing platform providing discovery, campaign management and performance measurement.",
+          "employeeRange": "101-250",
+          "name": "Traackr",
+          "sharedCategories": [
+            "Advertising"
+          ],
+          "similarityScore": 91
+        },
+        {
+          "description": "Later is the world’s first Social Revenue Platform",
+          "employeeRange": "101-250",
+          "name": "Later",
+          "sharedCategories": [
+            "Marketing"
+          ],
+          "similarityScore": 89
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Pre Seed round raised $250,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $2,094,373 to $2,094,373, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 33 (-1 over 90 days) and market heat at 73 (-12).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Upfluence, HypeAuditor, Influencity.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

@@ -1,0 +1,289 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T13:11:38.402Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T13:11:38.400Z",
+    "url": "https://www.crunchbase.com/organization/right-calories"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Right Calories",
+      "shortDescription": "Right Calories is a Bahraini health-conscious restaurant that provides exactly calculated nutrition and affordable meals",
+      "description": "Right Calories is a Bahraini health-conscious restaurant that provides exactly calculated nutrition and affordable meals through various options such as A La Carte, meal planning and prep, and catering.",
+      "website": "https://www.rightcalories.com/",
+      "foundedYear": 2018,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "11-50",
+      "headquarters": "Sitrah, Bahrain",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Food and Beverage",
+        "Restaurants"
+      ],
+      "sectors": [
+        "Food and Beverage"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "A variety of main dishes including Tenderloin Beef Steak with Mashed Potato, Portobello Mushroom Chicken, Buffalo Shish Tawook with Lemon Rice, Sesame Chicken with Brown Rice, and Grilled Salmon with Jasmine Rice.",
+        "name": "Main Dishes"
+      },
+      {
+        "description": "A selection of salads such as Mixed Berries Quinoa Salad, Grilled Chicken Halloumi Salad, and Caesar Salad with Crispy Baked Chicken.",
+        "name": "Salads"
+      },
+      {
+        "description": "Various appetizers including Yellow Lentil with Peppers and Crispy Tortilla.",
+        "name": "Appetizers"
+      },
+      {
+        "description": "Whole wheat pizzas including Margherita, Chicken Tandoori, Grilled Vegetable, Black Beef, Mixed Mushroom, and Pepperoni.",
+        "name": "Pizzas"
+      },
+      {
+        "description": "Different burger options like Baked Crispy Chicken Burger and Chicken Sliders with Potato Wedges.",
+        "name": "Burgers"
+      },
+      {
+        "description": "Sandwiches such as Pepper Roasted Chicken Sandwich, Chicken Mushroom Quesadilla, and Baked Shawarma with Ranch Sauce.",
+        "name": "Sandwiches"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 265000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2024-02-14",
+      "lastFundingType": "Venture round",
+      "rounds": [
+        {
+          "announcedDate": "2024-02-14",
+          "amount": {
+            "amount": 265000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "Hope Ventures"
+          ],
+          "postMoneyValuation": {
+            "amount": 2548928,
+            "currency": "USD"
+          },
+          "type": "Venture round"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "Hope Ventures",
+            "rounds": [
+              "Venture round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 3,
+      "includedUniqueCount": 3,
+      "items": [
+        {
+          "date": "2024-02-18",
+          "title": "Right Calories, Motolines raise $347000 investment during Beban TV show",
+          "url": "https://www.wamda.com/2024/02/right-calories-motolines-raise-347000-investment-beban-tv"
+        },
+        {
+          "date": "2024-02-18",
+          "title": "Right Calories, Motolines Raise USD347K investment in Beban TV show",
+          "url": "https://waya.media/right-calories-motolines-raise-usd347k-investment-in-beban-tv-show/"
+        },
+        {
+          "date": "2024-02-14",
+          "title": "Venture Round - Right Calories"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 265000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthInsightGeneratedDate": "2024-03-03",
+      "growthChange90Days": -1,
+      "growthScore": 68,
+      "heatChange90Days": -7,
+      "heatScore": 16,
+      "status": "Growing"
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2025-05-07",
+        "probabilityPercent": 40.12
+      },
+      "funding": {
+        "generatedDate": "2026-03-28",
+        "probabilityPercent": 87.33,
+        "timingEstimatePercent": {
+          "within6Months": 61.12,
+          "months6To11": 0,
+          "months12To24": 0,
+          "beyond24Months": 38.88
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 67.08
+      },
+      "ipo": {
+        "generatedDate": "2025-05-07",
+        "probabilityPercent": 8.02
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Calo is a D2C foodtech startup that serves personalized meal subscriptions by matching users with chef-cooked meals.",
+          "employeeRange": "1,001-5,000",
+          "name": "Calo",
+          "sharedCategories": [
+            "Food and Beverage"
+          ],
+          "sharedSpecialties": [
+            "Home Delivered Meals",
+            "Nutrition and Dietetics",
+            "Dietitian and Health-Focused Meal Delivery"
+          ],
+          "similarityScore": 97
+        },
+        {
+          "description": "Foodonclick.com provides a food delivery service in the region MENA.",
+          "employeeRange": "11-50",
+          "name": "Foodonclick.com",
+          "sharedSpecialties": [
+            "Home Delivered Meals"
+          ],
+          "similarityScore": 92
+        },
+        {
+          "description": "Eatwell Farm is a producer and supplier of organic fruits and vegetables.",
+          "employeeRange": "11-50",
+          "name": "Eatwell Farm",
+          "sharedCategories": [
+            "Food and Beverage"
+          ],
+          "similarityScore": 86
+        },
+        {
+          "description": "Dieture offers personalized diet plans and healthy meal subscriptions with dietitian support to help users manage nutrition and reach goals.",
+          "employeeRange": "101-250",
+          "name": "Dieture",
+          "sharedSpecialties": [
+            "Home Delivered Meals",
+            "Dietitian and Health-Focused Meal Delivery",
+            "Nutritional Counseling",
+            "Weight Management"
+          ],
+          "similarityScore": 85
+        },
+        {
+          "description": "ULUU is an ocean material that replaces plastic and actively benefits the world.",
+          "employeeRange": "11-50",
+          "name": "ULUU",
+          "similarityScore": 84
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Venture round round raised $265,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $2,548,928 to $2,548,928, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 68 (-1 over 90 days) and market heat at 16 (-7).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Calo, Foodonclick.com, Eatwell Farm.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

@@ -1,0 +1,230 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T11:56:26.684Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T11:56:26.682Z",
+    "url": "https://www.crunchbase.com/organization/hashdoc"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Hashdoc",
+      "shortDescription": "Social library of professional documents",
+      "description": "Hashdoc is a new kind of professional knowledge base aimed to help consultants and industry professionals find and share useful digital resources.\r\n\r\nThey're growing a community of subject matter experts and a platform to help you find business documentation, project deliverables, templates, presentations, white-papers, forms and more, all rated and improved by like-minded communities.",
+      "website": "https://www.hashdoc.com/",
+      "foundedYear": 2011,
+      "operatingStatus": "Closed",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "1-10",
+      "estimatedRevenueRange": "Less than $1M",
+      "headquarters": "Amman, Jordan",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Communities",
+        "Consulting",
+        "Content",
+        "Education",
+        "Information Technology",
+        "Internet",
+        "Knowledge Management"
+      ],
+      "sectors": [
+        "Administrative Services",
+        "Community and Lifestyle",
+        "Education",
+        "Information Technology",
+        "Media and Entertainment",
+        "Professional Services"
+      ],
+      "founders": [
+        "Tarek Koudsi"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 521000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 3,
+      "detailedRoundCount": 3,
+      "lastFundingDate": "2015-10-01",
+      "lastFundingType": "Seed",
+      "rounds": [
+        {
+          "announcedDate": "2015-10-01",
+          "amount": {
+            "amount": 300000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "type": "Seed"
+        },
+        {
+          "announcedDate": "2012-12-05",
+          "amount": {
+            "amount": 190000,
+            "currency": "USD"
+          },
+          "type": "Seed"
+        },
+        {
+          "announcedDate": "2011-07-01",
+          "amount": {
+            "amount": 31000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "type": "Seed"
+        }
+      ],
+      "investors": {
+        "reportedCount": 2,
+        "visibleNames": [
+          {
+            "name": "Oasis500",
+            "rounds": [
+              "Seed Round"
+            ]
+          },
+          {
+            "name": "Silicon Badia",
+            "rounds": [
+              "Seed Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 5,
+      "includedUniqueCount": 5,
+      "items": [
+        {
+          "date": "2015-10-01",
+          "title": "Seed Round - Hashdoc"
+        },
+        {
+          "date": "2013-01-23",
+          "publisher": "Wamda News (MENA)",
+          "title": "A Look at Oasis500's 5th Angel Event",
+          "url": "http://www.wamda.com/2012/07/a-look-at-the-oasis500-5th-angel-event-are-accelerators-doing-their-job"
+        },
+        {
+          "date": "2013-01-23",
+          "publisher": "Wamda News (MENA)",
+          "title": "Jordan's Hashdoc Goes for a Global Market",
+          "url": "http://www.wamda.com/2012/11/jordan-s-hashdoc-goes-for-a-global-market"
+        },
+        {
+          "date": "2012-12-05",
+          "title": "Seed Round - Hashdoc"
+        },
+        {
+          "date": "2011-07-01",
+          "title": "Seed Round - Hashdoc"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 3,
+    "knownDetailedFundingAmount": {
+      "amount": 521000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 57.58
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "heatChange90Days": 0,
+      "heatScore": 11
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "iManage provides work product management solutions.",
+          "employeeRange": "1,001-5,000",
+          "name": "iManage",
+          "similarityScore": 95
+        },
+        {
+          "description": "Dropbox DocSend is a secure document sharing and tracking solution that helps companies share business-critical documents with ease.",
+          "employeeRange": "51-100",
+          "name": "Dropbox DocSend",
+          "similarityScore": 94
+        },
+        {
+          "description": "All-in-one document automation platform for Salesforce and HubSpot — management, AI, generation and sharing.",
+          "employeeRange": "11-50",
+          "name": "CloudFiles",
+          "similarityScore": 93
+        },
+        {
+          "description": "Virtual Data Room Software",
+          "employeeRange": "1-10",
+          "name": "Ellty",
+          "similarityScore": 91
+        },
+        {
+          "description": "Lightserve, a security software company, offers virtual data rooms and file-sharing repositories for the protection of valuable documents.",
+          "employeeRange": "11-50",
+          "name": "Lightserve",
+          "sharedCategories": [
+            "Internet",
+            "Information Technology"
+          ],
+          "similarityScore": 89
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Seed round raised $300,000, or 57.58% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include iManage, Dropbox DocSend, CloudFiles.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

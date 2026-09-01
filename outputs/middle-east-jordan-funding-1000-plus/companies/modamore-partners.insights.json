@@ -1,0 +1,284 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T12:35:00.813Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T12:35:00.810Z",
+    "url": "https://www.crunchbase.com/organization/modamore-partners"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "MODAMORE & PARTNERS",
+      "shortDescription": "MODAMORE & PARTNERS provides a marketing solutions and customized luxury loyalty program for interacting with multi luxury brands.",
+      "website": "https://www.modamore-partners.com/",
+      "foundedYear": 2012,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "1-10",
+      "estimatedRevenueRange": "$1M-$10M",
+      "headquarters": "Dubai, United Arab Emirates",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Brand Marketing",
+        "Business Development",
+        "Customer Service",
+        "Marketing"
+      ],
+      "sectors": [
+        "Professional Services",
+        "Sales and Marketing"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "A tailored loyalty program designed for interaction among multiple luxury brands to engage customers.",
+        "name": "Customized Luxury Loyalty Program"
+      },
+      {
+        "description": "Services providing creative design solutions for decorative paints, wall and floor fashion, and unique interior embellishments.",
+        "name": "Creative Designer Services"
+      },
+      {
+        "description": "Design and supply of decorative lighting including crystal chandeliers, stand lights, ceiling lights, and street lights.",
+        "name": "Decorative Lighting Solutions"
+      },
+      {
+        "description": "End-to-end project management from concept to realization for bespoke client projects.",
+        "name": "Project Management Services"
+      },
+      {
+        "description": "Consulting services offering tailored business strategies and marketing solutions for luxury brands and partners.",
+        "name": "Business Development and Marketing Solutions"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 1000000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2021-05-22",
+      "lastFundingType": "Series A",
+      "rounds": [
+        {
+          "announcedDate": "2021-05-22",
+          "amount": {
+            "amount": 1000000,
+            "currency": "USD"
+          },
+          "investorCount": 2,
+          "postMoneyValuation": {
+            "amount": 7635020,
+            "currency": "USD"
+          },
+          "type": "Series A"
+        }
+      ],
+      "investors": {
+        "reportedCount": 2,
+        "visibleNames": [
+          {
+            "name": "FasterCapital",
+            "rounds": [
+              "Series A"
+            ]
+          },
+          {
+            "name": "Hesham Zreik",
+            "rounds": [
+              "Series A"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 1,
+      "includedUniqueCount": 1,
+      "items": [
+        {
+          "date": "2021-05-22",
+          "title": "Series A - MODAMORE & PARTNERS"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 1000000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": 34,
+      "growthScore": 72,
+      "heatChange90Days": -14,
+      "heatScore": 51
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 0
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 20.76,
+        "timingEstimatePercent": {
+          "within6Months": 13.72,
+          "months6To11": 11.84,
+          "months12To24": 19.02,
+          "beyond24Months": 24.71
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 83.68
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 0
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Bond is a global customer engagement agency that specializes in building brand loyalty for the world’s most influential and valuable brands.",
+          "employeeRange": "501-1,000",
+          "name": "Bond Brand Loyalty",
+          "sharedCategories": [
+            "Marketing"
+          ],
+          "sharedSpecialties": [
+            "Retail Clienteling"
+          ],
+          "similarityScore": 94
+        },
+        {
+          "description": "Talon.One enables businesses to manage promotions, loyalty programs, and incentive campaigns through a unified system.",
+          "employeeRange": "251-500",
+          "name": "Talon.One",
+          "sharedCategories": [
+            "Business Development",
+            "Marketing"
+          ],
+          "sharedSpecialties": [
+            "Retail Clienteling",
+            "Paid Loyalty Programs"
+          ],
+          "similarityScore": 93
+        },
+        {
+          "description": "Antavo is the only end-to-end loyalty management software for the complete lifecycle of your loyalty program.",
+          "employeeRange": "101-250",
+          "name": "Antavo AI Loyalty Cloud",
+          "sharedCategories": [
+            "Marketing"
+          ],
+          "sharedSpecialties": [
+            "Paid Loyalty Programs"
+          ],
+          "similarityScore": 92
+        },
+        {
+          "description": "Annex Cloud is an Enterprise Focused Customer Loyalty and Retention Platform.",
+          "employeeRange": "251-500",
+          "name": "Annex Cloud",
+          "sharedCategories": [
+            "Marketing"
+          ],
+          "sharedSpecialties": [
+            "Paid Loyalty Programs"
+          ],
+          "similarityScore": 89
+        },
+        {
+          "description": "Salesforce is a cloud-based software company that provides customer relationship management software and applications.",
+          "employeeRange": "10,001+",
+          "name": "Salesforce",
+          "similarityScore": 88
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Series A round raised $1,000,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $7,635,020 to $7,635,020, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 72 (+34 over 90 days) and market heat at 51 (-14).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Bond Brand Loyalty, Talon.One, Antavo AI Loyalty Cloud.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

@@ -1,0 +1,253 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T13:42:15.027Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T13:42:15.025Z",
+    "url": "https://www.crunchbase.com/organization/the-architect-d652"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "The Architect",
+      "shortDescription": "The Architect is a design company that creates beautiful and functional spaces.",
+      "description": "The Architect is a design company that creates beautiful and functional spaces.\n\nAt The Architect, they work on improving the customer experience in interior work for spaces of various sizes. They also guarantee high-quality execution according to the client's budget.\n\nThey work to save the customer's time and effort by providing an integrated platform for working on home spaces seamlessly.",
+      "website": "https://www.the-architect.com/ar/home",
+      "foundedYear": 2021,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "1-10",
+      "headquarters": "Khobar, Ash Sharqiyah, Saudi Arabia",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Product Design"
+      ],
+      "sectors": [
+        "Design"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "A service providing interior design and execution for residential spaces, including detailed plans and furniture layout.",
+        "name": "Interior Design and Implementation Service"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 133336,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2023-05-30",
+      "lastFundingType": "Pre Seed",
+      "rounds": [
+        {
+          "announcedDate": "2023-05-30",
+          "amount": {
+            "amount": 133336,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "F6 Ventures"
+          ],
+          "postMoneyValuation": {
+            "amount": 1409801,
+            "currency": "USD"
+          },
+          "type": "Pre Seed"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "F6 Ventures",
+            "rounds": [
+              "Pre Seed Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 1,
+      "includedUniqueCount": 1,
+      "items": [
+        {
+          "date": "2023-05-30",
+          "title": "Pre Seed Round - The Architect"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 133336,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": 0,
+      "growthScore": 28,
+      "heatChange90Days": -13,
+      "heatScore": 55
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 56.57
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 34.89,
+        "timingEstimatePercent": {
+          "within6Months": 14.84,
+          "months6To11": 12.64,
+          "months12To24": 19.93,
+          "beyond24Months": 24.93
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 57.65
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 57.77
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "LW Design Group provides diverse design processes in engineering, architecture, and interior design with international expansion strategy.",
+          "employeeRange": "251-500",
+          "name": "LW Design Group",
+          "similarityScore": 95
+        },
+        {
+          "description": "Architect One is an architectural firm that provides interior design, space planning, site design, and master planning services.",
+          "employeeRange": "11-50",
+          "name": "Architect One",
+          "sharedSpecialties": [
+            "Lighting Design and Installation",
+            "Architectural Design Services",
+            "Architectural Visualization"
+          ],
+          "similarityScore": 91
+        },
+        {
+          "description": "Marketplace for professional architecture, interior design, decoration and landscape design services online.",
+          "employeeRange": "1-10",
+          "name": "Archsplace",
+          "sharedSpecialties": [
+            "Architectural Design Services",
+            "Architectural Visualization"
+          ],
+          "similarityScore": 89
+        },
+        {
+          "description": "Houzz is an online platform for home remodeling, architecture, interior design, decorating, landscaping, and home improvement.",
+          "employeeRange": "1,001-5,000",
+          "name": "Houzz",
+          "sharedSpecialties": [
+            "Kitchen and Bath Design",
+            "Home Renovation and Addition Services",
+            "Architectural Visualization"
+          ],
+          "similarityScore": 87
+        },
+        {
+          "description": "Livspace is an interior and renovation company offering design solutions for homes and offices.",
+          "employeeRange": "1,001-5,000",
+          "name": "Livspace",
+          "sharedSpecialties": [
+            "Kitchen and Bath Design"
+          ],
+          "similarityScore": 85
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Pre Seed round raised $133,336, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $1,409,801 to $1,409,801, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 28 (+0 over 90 days) and market heat at 55 (-13).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include LW Design Group, Architect One, Archsplace.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

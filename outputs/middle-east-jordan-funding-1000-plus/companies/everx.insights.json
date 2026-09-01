@@ -1,0 +1,289 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T11:37:22.995Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T11:37:22.992Z",
+    "url": "https://www.crunchbase.com/organization/everx"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "EverX",
+      "shortDescription": "EverX is a blockchain software company that develops Web3 infrastructure, decentralized applications, and tools for the everscale network.",
+      "description": "EverX is a blockchain technology company focused on developing infrastructure, tools, and decentralized applications for Web3 ecosystems. The company is known for its work on the Everscale blockchain, including protocol development, smart contract tools, and validator solutions. Its products and services support developers, enterprises, and blockchain communities working on scalable decentralized applications, digital asset platforms, and distributed network technologies.",
+      "website": "https://everx.dev/",
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "101-250",
+      "headquarters": "Dubai, United Arab Emirates",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Information Technology",
+        "Internet",
+        "Network Security"
+      ],
+      "sectors": [
+        "Information Technology",
+        "Privacy and Security"
+      ],
+      "founders": [
+        "Dmitry Malyugin",
+        "Pavel Prigolovko"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "A validator node software written in Rust that validates transactions and commits new blocks on the Everscale blockchain using a Proof-of-Stake consensus mechanism.",
+        "name": "Evernode Core"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 7000000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 2,
+      "detailedRoundCount": 2,
+      "lastFundingDate": "2021-04-01",
+      "lastFundingType": "Venture round",
+      "rounds": [
+        {
+          "announcedDate": "2021-04-01",
+          "amount": {
+            "amount": 6000000,
+            "currency": "USD"
+          },
+          "postMoneyValuation": {
+            "amount": 38414296,
+            "currency": "USD"
+          },
+          "type": "Venture round"
+        },
+        {
+          "announcedDate": "2020-02-01",
+          "amount": {
+            "amount": 1000000,
+            "currency": "USD"
+          },
+          "postMoneyValuation": {
+            "amount": 7453127,
+            "currency": "USD"
+          },
+          "type": "Seed"
+        }
+      ]
+    },
+    "recentNews": {
+      "reportedCount": 3,
+      "includedUniqueCount": 3,
+      "items": [
+        {
+          "date": "2025-08-13",
+          "publisher": "PharmiWeb",
+          "title": "global refurbished ultrasound devices market",
+          "url": "https://www.pharmiweb.com/press-release/2025-08-13/global-refurbished-ultrasound-devices-market-to-grow-at-8-cagr-driven-by-cost-and-demand-by-2030"
+        },
+        {
+          "date": "2021-04-01",
+          "title": "Venture Round - EverX"
+        },
+        {
+          "date": "2020-02-01",
+          "title": "Seed Round - EverX"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 2,
+    "knownDetailedFundingAmount": {
+      "amount": 7000000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 85.71,
+    "latestToEarliestKnownValuationMultiple": 5.15
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": -2,
+      "growthScore": 65,
+      "heatChange90Days": -18,
+      "heatScore": 66
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 41.85
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 19.37,
+        "timingEstimatePercent": {
+          "within6Months": 13.94,
+          "months6To11": 11.99,
+          "months12To24": 19.21,
+          "beyond24Months": 24.76
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 95.09
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 27.81
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Everstake is the biggest decentralized staking provider in the blockchain industry, trusted by 735,000 users",
+          "employeeRange": "101-250",
+          "name": "Everstake",
+          "sharedCategories": [
+            "Network Security"
+          ],
+          "sharedSpecialties": [
+            "Staking Services",
+            "Smart Contract Development Frameworks",
+            "Cross-Chain Bridges",
+            "SDK Management"
+          ],
+          "similarityScore": 97
+        },
+        {
+          "description": "Broxus is a blockchain platform that offers a bridge, SWAP, wallet, explorer, and API.",
+          "employeeRange": "51-100",
+          "name": "Broxus",
+          "sharedSpecialties": [
+            "Smart Contract Development Frameworks",
+            "Cross-Chain Bridges"
+          ],
+          "similarityScore": 93
+        },
+        {
+          "description": "Everscale is a new and unique blockchain design that is capable of processing millions of transactions per second.",
+          "employeeRange": "101-250",
+          "name": "Everscale",
+          "sharedSpecialties": [
+            "Staking Services",
+            "Smart Contract Development Frameworks",
+            "Cross-Chain Bridges",
+            "Developer Portals"
+          ],
+          "similarityScore": 92
+        },
+        {
+          "description": "TON Labs is a core developer of the Free TON blockchain protocol and TON OS (operating system).",
+          "employeeRange": "51-100",
+          "name": "TON Labs",
+          "sharedCategories": [
+            "Information Technology"
+          ],
+          "sharedSpecialties": [
+            "Developer Documentation Platforms",
+            "Smart Contract Development Frameworks",
+            "Cross-Chain Bridges",
+            "SDK Management",
+            "Open Source Governance",
+            "Internal Developer Platforms",
+            "Developer Portals"
+          ],
+          "similarityScore": 89
+        },
+        {
+          "description": "GitHub is a software company that offers code hosting services that allow developers to build software for open-source and private projects.",
+          "employeeRange": "1,001-5,000",
+          "name": "GitHub",
+          "sharedCategories": [
+            "Internet"
+          ],
+          "sharedSpecialties": [
+            "CI/CD (Continuous Integration / Continuous Delivery)",
+            "Developer Documentation Platforms",
+            "Open Source Security",
+            "Open Source Governance",
+            "Internal Developer Platforms"
+          ],
+          "similarityScore": 85
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Venture round round raised $6,000,000, or 85.71% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $7,453,127 to $38,414,296, a 5.15x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 65 (-2 over 90 days) and market heat at 66 (-18).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Everstake, Broxus, Everscale.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

@@ -1,0 +1,304 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T12:05:42.313Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T12:05:42.311Z",
+    "url": "https://www.crunchbase.com/organization/interel-2"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "INTEREL",
+      "shortDescription": "INTEREL is a technology company that develops smart building and hospitality automation solutions.",
+      "description": "INTEREL is a technology company that develops smart building and hospitality automation solutions. Founded in 2010 and headquartered in Dubai, the company focuses on connecting devices, systems, and people through Internet-of-Things (IoT) infrastructure to create more efficient and sustainable buildings.",
+      "website": "https://interel.com/",
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "51-100",
+      "estimatedRevenueRange": "$10M-$50M",
+      "headquarters": "Dubai, United Arab Emirates",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "CleanTech",
+        "Energy Efficiency",
+        "Energy Management",
+        "Green Building",
+        "GreenTech",
+        "Information Technology",
+        "Internet of Things",
+        "Smart Building",
+        "Software"
+      ],
+      "sectors": [
+        "Energy",
+        "Information Technology",
+        "Internet Services",
+        "Real Estate",
+        "Software",
+        "Sustainability"
+      ],
+      "founders": [
+        "Florian Gallini"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "A smart thermostat that manages energy consumption in buildings by integrating sensors and property management systems to optimize heating and cooling.",
+        "name": "EOS Smart Thermostat"
+      },
+      {
+        "description": "A centralized system for managing guest room energy consumption and services across properties or portfolios in the hospitality and cruise line industries.",
+        "name": "INTEREL Guest Room Management System (GRMS)"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 12028209,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2017-09-07",
+      "lastFundingType": "Private Equity",
+      "rounds": [
+        {
+          "announcedDate": "2017-09-07",
+          "amount": {
+            "amount": 12028209,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "Jolt Capital"
+          ],
+          "postMoneyValuation": {
+            "amount": 52197526,
+            "currency": "USD"
+          },
+          "type": "Private Equity"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "Jolt Capital",
+            "rounds": [
+              "Private Equity Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 1,
+      "includedUniqueCount": 1,
+      "items": [
+        {
+          "date": "2017-09-07",
+          "title": "Private Equity Round - INTEREL"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 12028209,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": 0,
+      "growthScore": 23,
+      "heatChange90Days": -14,
+      "heatScore": 49
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 0
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 5.23,
+        "timingEstimatePercent": {
+          "within6Months": 14.98,
+          "months6To11": 12.74,
+          "months12To24": 20.04,
+          "beyond24Months": 24.95
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 94.21
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 0
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Honeywell is a technology and manufacturing company that produces products for the automation, aviation, and energy transition industries.",
+          "employeeRange": "10,001+",
+          "name": "Honeywell",
+          "sharedCategories": [
+            "Information Technology"
+          ],
+          "sharedSpecialties": [
+            "Building Automation Systems",
+            "Smart Building Analytics"
+          ],
+          "similarityScore": 97
+        },
+        {
+          "description": "Johnson Controls provides thermal management solutions, mission-critical building systems, and automation infrastructure.",
+          "employeeRange": "10,001+",
+          "name": "Johnson Controls",
+          "sharedCategories": [
+            "Energy Management",
+            "Smart Building",
+            "Information Technology"
+          ],
+          "sharedSpecialties": [
+            "Building Automation Systems",
+            "Energy Monitoring and Metering",
+            "Energy Performance and Efficiency Services",
+            "Smart Building Analytics",
+            "Building Optimization"
+          ],
+          "similarityScore": 91
+        },
+        {
+          "description": "Distech Controls is an energy management solutions company providing management technologies and services for buildings.",
+          "employeeRange": "251-500",
+          "name": "Distech Controls",
+          "sharedCategories": [
+            "Energy Management",
+            "Software",
+            "Information Technology"
+          ],
+          "sharedSpecialties": [
+            "Property Management Software",
+            "Building Automation Systems",
+            "Building Automation Maintenance",
+            "Energy Monitoring and Metering",
+            "Smart Building Analytics",
+            "Building Optimization"
+          ],
+          "similarityScore": 91
+        },
+        {
+          "description": "Delta Controls is a global leader in Building Automation Systems (BAS), with over 300 distributors.",
+          "employeeRange": "251-500",
+          "name": "Delta Controls",
+          "sharedCategories": [
+            "Software"
+          ],
+          "sharedSpecialties": [
+            "Building Automation Systems",
+            "Building Automation Maintenance",
+            "Smart Building Analytics",
+            "Building Optimization"
+          ],
+          "similarityScore": 89
+        },
+        {
+          "description": "Schneider Electric specializes in the digital transformation of energy management and automation.",
+          "employeeRange": "10,001+",
+          "name": "Schneider Electric",
+          "sharedCategories": [
+            "Energy Management",
+            "Information Technology"
+          ],
+          "sharedSpecialties": [
+            "Energy Monitoring and Metering"
+          ],
+          "similarityScore": 89
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Private Equity round raised $12,028,209, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $52,197,526 to $52,197,526, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 23 (+0 over 90 days) and market heat at 49 (-14).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Honeywell, Johnson Controls, Distech Controls.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

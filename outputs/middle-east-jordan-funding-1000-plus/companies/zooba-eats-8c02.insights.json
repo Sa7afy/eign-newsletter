@@ -1,0 +1,210 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T14:07:29.864Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T14:07:29.863Z",
+    "url": "https://www.crunchbase.com/organization/zooba-eats-8c02"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Zooba Eats Inc.",
+      "shortDescription": "Egyptian street food restaurant brand",
+      "description": "We're Zooba from Cairo, Egypt. We serve authentic contemporary Egyptian street food in Cairo, New York City and across the Middle East. We exist to positively represent our country's street culture through our brand of local hospitality and responsible food sourcing while we work on becoming a more sustainable company.",
+      "website": "https://www.zoobaeats.com/",
+      "foundedYear": 2012,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "501-1,000",
+      "headquarters": "Cairo, Al Qahirah, Egypt",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Middle East",
+        "Middle East and North Africa (MENA)",
+        "North Africa"
+      ],
+      "industries": [
+        "Food and Beverage",
+        "Restaurants"
+      ],
+      "sectors": [
+        "Food and Beverage"
+      ],
+      "founders": [
+        "Christopher Khalifa",
+        "Mostafa Rafaey"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "A restaurant service offering traditional Egyptian street food dishes to customers.",
+        "name": "Egyptian Street Food Restaurant Service"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 4000000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2018-12-07",
+      "lastFundingType": "Series A",
+      "rounds": [
+        {
+          "announcedDate": "2018-12-07",
+          "amount": {
+            "amount": 4000000,
+            "currency": "USD"
+          },
+          "postMoneyValuation": {
+            "amount": 21643656,
+            "currency": "USD"
+          },
+          "type": "Series A"
+        }
+      ]
+    },
+    "recentNews": {
+      "reportedCount": 1,
+      "includedUniqueCount": 1,
+      "items": [
+        {
+          "date": "2018-12-07",
+          "title": "Series A - Zooba Eats Inc."
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 4000000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": -3,
+      "growthScore": 60,
+      "heatChange90Days": -1,
+      "heatScore": 59
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 19.67
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 8.54,
+        "timingEstimatePercent": {
+          "within6Months": 14.55,
+          "months6To11": 12.44,
+          "months12To24": 19.71,
+          "beyond24Months": 24.89
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 93.64
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 28.05
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Felfela is a cafe and restaurant chain that provides dining experiences, fast food and beverages, and online delivery services.",
+          "name": "Felfela",
+          "sharedCategories": [
+            "Food and Beverage",
+            "Restaurants"
+          ],
+          "sharedSpecialties": [
+            "Restaurants and Cafes",
+            "Home Delivered Meals",
+            "Casual Dining",
+            "Quick Service Restaurants",
+            "Online Ordering for Restaurants"
+          ],
+          "similarityScore": 93
+        },
+        {
+          "description": "EL Abd Patisserie produces and sells cakes, pastries, donuts, and desserts through retail stores and online platforms.",
+          "employeeRange": "501-1,000",
+          "name": "EL Abd Patisserie",
+          "sharedCategories": [
+            "Food and Beverage"
+          ],
+          "sharedSpecialties": [
+            "Online Ordering for Restaurants"
+          ],
+          "similarityScore": 74
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Series A round raised $4,000,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $21,643,656 to $21,643,656, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 60 (-3 over 90 days) and market heat at 59 (-1).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

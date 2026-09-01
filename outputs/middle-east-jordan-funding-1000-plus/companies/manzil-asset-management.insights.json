@@ -1,0 +1,243 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T12:26:40.481Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T12:26:40.479Z",
+    "url": "https://www.crunchbase.com/organization/manzil-asset-management"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Manzil Asset Management",
+      "shortDescription": "Manzil Asset Management helps investors grow wealth through Dubai's real estate investment, sales, and expert property management.",
+      "website": "https://manzil.am/",
+      "foundedYear": 2022,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "11-50",
+      "headquarters": "Dubai, United Arab Emirates",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Property Management",
+        "Real Estate",
+        "Real Estate Brokerage",
+        "Real Estate Investment"
+      ],
+      "sectors": [
+        "Financial Services",
+        "Real Estate"
+      ],
+      "founders": [
+        "Saagar Panchal"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 54458816,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2025-08-22",
+      "lastFundingType": "Undisclosed",
+      "rounds": [
+        {
+          "announcedDate": "2025-08-22",
+          "amount": {
+            "amount": 54458816,
+            "currency": "USD"
+          },
+          "postMoneyValuation": {
+            "amount": 241077818,
+            "currency": "USD"
+          },
+          "type": "Undisclosed"
+        }
+      ]
+    },
+    "recentNews": {
+      "reportedCount": 2,
+      "includedUniqueCount": 2,
+      "items": [
+        {
+          "date": "2025-08-22",
+          "title": "Funding Round - Manzil Asset Management"
+        },
+        {
+          "date": "2025-08-22",
+          "publisher": "IndiaTimes",
+          "title": "Manzil Asset Management secures over Rs 475 crore from Indian investors",
+          "url": "https://economictimes.indiatimes.com/industry/services/property-/-cstruction/manzil-asset-management-secures-over-rs-475-crore-from-indian-investors/articleshow/123457694.cms"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 54458816,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthInsightGeneratedDate": "2025-08-25",
+      "growthChange90Days": -2,
+      "growthScore": 52,
+      "heatChange90Days": -11,
+      "heatScore": 53,
+      "status": "Growing"
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2025-12-13",
+        "probabilityPercent": 35
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 57.58,
+        "timingEstimatePercent": {
+          "within6Months": 99.78,
+          "months6To11": 0.19,
+          "months12To24": 0,
+          "beyond24Months": 0.03
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-02-24",
+        "probabilityPercent": 95.73
+      },
+      "ipo": {
+        "generatedDate": "2025-12-13",
+        "probabilityPercent": 35
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "fäm Properties is a real estate company which provides services for residential and commercial properties in Dubai.",
+          "employeeRange": "501-1,000",
+          "name": "fäm Properties",
+          "sharedCategories": [
+            "Real Estate"
+          ],
+          "similarityScore": 97
+        },
+        {
+          "description": "Allsopp & Allsopp is a family founded property services company.",
+          "employeeRange": "251-500",
+          "name": "Allsopp & Allsopp",
+          "sharedCategories": [
+            "Real Estate"
+          ],
+          "similarityScore": 95
+        },
+        {
+          "description": "Ax Capital is a real estate agency that offers consulting, buying, selling, and property management services.",
+          "employeeRange": "501-1,000",
+          "name": "Ax Capital",
+          "sharedCategories": [
+            "Real Estate",
+            "Property Management"
+          ],
+          "similarityScore": 93
+        },
+        {
+          "description": "Driven Properties is a real estate company.",
+          "employeeRange": "501-1,000",
+          "name": "Driven Properties",
+          "sharedCategories": [
+            "Real Estate Investment",
+            "Real Estate",
+            "Property Management"
+          ],
+          "similarityScore": 87
+        },
+        {
+          "description": "Espace Real Estate provides Real Estate Agency Property Services.",
+          "employeeRange": "101-250",
+          "name": "Espace Real Estate",
+          "similarityScore": 85
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Undisclosed round raised $54,458,816, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $241,077,818 to $241,077,818, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 52 (-2 over 90 days) and market heat at 53 (-11).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include fäm Properties, Allsopp & Allsopp, Ax Capital.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

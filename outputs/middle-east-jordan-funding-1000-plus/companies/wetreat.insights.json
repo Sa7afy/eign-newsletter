@@ -1,0 +1,226 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T13:59:12.180Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T13:59:12.178Z",
+    "url": "https://www.crunchbase.com/organization/wetreat"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "weTreat",
+      "shortDescription": "weTreat provides healthcare services app that connects healthcare providers with patients for books appointment, services etc",
+      "website": "https://www.wetreat.app/",
+      "foundedYear": 2022,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "1-10",
+      "headquarters": "Doha, Ad Dawhah, Qatar",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Apps",
+        "Health Care",
+        "Information Services",
+        "Software"
+      ],
+      "sectors": [
+        "Apps",
+        "Health Care",
+        "Information Technology",
+        "Software"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 27462,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2022-10-30",
+      "lastFundingType": "Non Equity Assistance",
+      "rounds": [
+        {
+          "announcedDate": "2022-10-30",
+          "amount": {
+            "amount": 27462,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "Digital Incubation Center"
+          ],
+          "type": "Non Equity Assistance"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "Digital Incubation Center",
+            "rounds": [
+              "Non Equity Assistance"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 1,
+      "includedUniqueCount": 1,
+      "items": [
+        {
+          "date": "2022-10-30",
+          "title": "Non Equity Assistance - weTreat"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 27462,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": 1,
+      "growthScore": 76,
+      "heatChange90Days": -3,
+      "heatScore": 75
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 61.92
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 72.52
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 49.97
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Zocdoc is a digital marketplace company that connects healthcare patients and doctors.",
+          "employeeRange": "1,001-5,000",
+          "name": "Zocdoc",
+          "sharedCategories": [
+            "Health Care"
+          ],
+          "similarityScore": 97
+        },
+        {
+          "description": "Vosita is an application that allows patients to find providers and book telehealth, telemedicine, and virtual visits.",
+          "employeeRange": "11-50",
+          "name": "Vosita",
+          "sharedCategories": [
+            "Health Care",
+            "Apps"
+          ],
+          "similarityScore": 95
+        },
+        {
+          "description": "Transforming healthcare through communication by making it accessible, modern, and personal.",
+          "employeeRange": "251-500",
+          "name": "Solutionreach",
+          "sharedCategories": [
+            "Health Care",
+            "Software"
+          ],
+          "similarityScore": 93
+        },
+        {
+          "description": "India’s Exclusive Home Doctor App!",
+          "employeeRange": "11-50",
+          "name": "Treat at Home",
+          "sharedCategories": [
+            "Health Care",
+            "Apps"
+          ],
+          "similarityScore": 89
+        },
+        {
+          "description": "Healthgrades is the leading online resource for comprehensive information about physicians and hospitals.",
+          "employeeRange": "501-1,000",
+          "name": "Healthgrades",
+          "sharedCategories": [
+            "Health Care",
+            "Information Services"
+          ],
+          "similarityScore": 87
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Non Equity Assistance round raised $27,462, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 76 (+1 over 90 days) and market heat at 75 (-3).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Zocdoc, Vosita, Solutionreach.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

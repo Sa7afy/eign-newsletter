@@ -1,0 +1,440 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T09:00:53.746Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T09:00:53.742Z",
+    "url": "https://www.crunchbase.com/organization/ahoy-holding-ltd"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "AHOY Holding",
+      "shortDescription": "SaaS, PaaS, e-commerce solutions, logistics, lastmile, mobility, spatial planning, IoT",
+      "description": "AHOY is a provider for e-commerce and retail covering 100% of the UAE and serving more areas than any other provider; with plans to expand to the region soon. Ahoy extends well over being just a “last-mile” service boasting a myriad of geo-location solutions, payment solutions, IoT hardware that we developed and use every day, and very soon an e-store solution to each of our Merchants in addition to other solutions for them such as returns and subscriptions management and analytics. \n\nWe believe we are the world’s most advanced and efficient mobility optimization technology bringing our own take on what is considered as mere theories such as “the traveling salesman problem” and “ACO (Ant Colony Organization)” into practice.\n\nWe have been disrupting the market in the UAE, with amazing growth, proven scalability and increasing demand from our foothold customer segment (e-commerce and retail) and we are here to stay, expand and grow with an innovative set of solutions that made us win many e-commerce as well as brick-and-mortar retail companies over with a 100% retention and 9/10 conversion rate.",
+      "website": "https://www.theahoyapp.com/",
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "51-100",
+      "estimatedRevenueRange": "$1M-$10M",
+      "headquarters": "Dubai, United Arab Emirates",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Delivery Service",
+        "E-Commerce",
+        "Geospatial",
+        "Logistics",
+        "Payments",
+        "Same Day Delivery"
+      ],
+      "sectors": [
+        "Commerce and Shopping",
+        "Data and Analytics",
+        "Financial Services",
+        "Navigation and Mapping",
+        "Payments",
+        "Transportation"
+      ],
+      "founders": [
+        "Adel Samer",
+        "Gerard Sansoni",
+        "Jamil Shinawi"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "A PaaS platform for managing first, middle, and last-mile logistics operations with automation and resource optimization.",
+        "name": "COMET"
+      },
+      {
+        "description": "An API providing walking and driving directions with real-time traffic data and customizable routing options.",
+        "name": "AB Routing API"
+      },
+      {
+        "description": "An API that optimizes routes with multiple stops, considering time windows, vehicle capacity, and traffic conditions.",
+        "name": "Multi-Stop Routing API"
+      },
+      {
+        "description": "A software development kit for integrating customizable maps and turn-by-turn navigation into mobile apps.",
+        "name": "AhoyMaps SDK"
+      },
+      {
+        "description": "An API to analyze and optimize service coverage areas using transport modes, travel times, and demographic data.",
+        "name": "Coverage API"
+      },
+      {
+        "description": "A PaaS platform offering remote check-in and door-to-door luggage handling services for air travelers.",
+        "name": "Fly+"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 23749000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 6,
+      "detailedRoundCount": 6,
+      "lastFundingDate": "2022-03-07",
+      "lastFundingType": "Venture round",
+      "rounds": [
+        {
+          "announcedDate": "2022-03-07",
+          "amount": {
+            "amount": 20000000,
+            "currency": "USD"
+          },
+          "postMoneyValuation": {
+            "amount": 129456296,
+            "currency": "USD"
+          },
+          "type": "Venture round"
+        },
+        {
+          "announcedDate": "2020-11-30",
+          "amount": {
+            "amount": 2200000,
+            "currency": "USD"
+          },
+          "postMoneyValuation": {
+            "amount": 19288264,
+            "currency": "USD"
+          },
+          "type": "Seed"
+        },
+        {
+          "announcedDate": "2020-09-23",
+          "amount": {
+            "amount": 285000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "type": "Convertible note"
+        },
+        {
+          "announcedDate": "2020-03-01",
+          "amount": {
+            "amount": 715000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "type": "Convertible note"
+        },
+        {
+          "announcedDate": "2018-10-01",
+          "amount": {
+            "amount": 299000,
+            "currency": "USD"
+          },
+          "investorCount": 2,
+          "postMoneyValuation": {
+            "amount": 2799000,
+            "currency": "USD"
+          },
+          "type": "Debt Financing"
+        },
+        {
+          "announcedDate": "2018-10-01",
+          "amount": {
+            "amount": 250000,
+            "currency": "USD"
+          },
+          "investorCount": 2,
+          "postMoneyValuation": {
+            "amount": 2750000,
+            "currency": "USD"
+          },
+          "type": "Angel"
+        }
+      ],
+      "investors": {
+        "reportedCount": 5,
+        "visibleNames": [
+          {
+            "name": "omar bajarash",
+            "rounds": [
+              "Angel Round"
+            ]
+          },
+          {
+            "name": "Omar Bajarash",
+            "rounds": [
+              "Debt Financing"
+            ]
+          },
+          {
+            "name": "Prosper global",
+            "rounds": [
+              "Convertible Note"
+            ]
+          },
+          {
+            "name": "Yahya Bajarash",
+            "rounds": [
+              "Debt Financing",
+              "Angel Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 16,
+      "includedUniqueCount": 10,
+      "items": [
+        {
+          "date": "2025-02-14",
+          "title": "Seed Round - Qme solutions"
+        },
+        {
+          "date": "2024-01-20",
+          "publisher": "crunch/DUBAI – Dubai's StartUPs and people - The media about startups and people in Dubai",
+          "title": "Dubai’s Secret Tech Entrepreneur Club",
+          "url": "https://crunchdubai.com/inside-%f0%9f%87%a6%f0%9f%87%aa-dubais-secret-tech-entrepreneur-club-%f0%9f%a6%84-exclusive-access%f0%9f%a4%91-alex-bychkov/"
+        },
+        {
+          "date": "2023-11-09",
+          "publisher": "bantgo.ae",
+          "title": "BANTgo Partners with AHOY to Turbocharge its Recycling and Logistical Operations",
+          "url": "https://bantgo.ae/index.php/bantgo-partners-with-ahoy-to-turbocharge-its-recycling-and-logistical-operations/"
+        },
+        {
+          "date": "2023-10-20",
+          "publisher": "crunch/DUBAI – Dubai's StartUPs and people - The media about startups and people in Dubai",
+          "title": "Dubai Generative AI Assembly: IaaS AHOY.technology Exclusive Jamil Shinawi About Generative AI Alliance",
+          "url": "https://crunchdubai.com/dubai-generative-ai-assembly-iaas-ahoy-technology-exclusive-jamil-shinawi-about-generative-ai-alliance/"
+        },
+        {
+          "date": "2023-10-05",
+          "publisher": "crunch/DUBAI – Dubai's StartUPs and people - The media about startups and people in Dubai",
+          "title": "The Next Big Thing By 24SIX9",
+          "url": "https://crunchdubai.com/the-next-big-thing-by-24six9/"
+        },
+        {
+          "date": "2023-10-01",
+          "publisher": "linkedin.com",
+          "title": "Glocal's first investors, Top 10 TiE. New Technology and Self-Development. Expanding my business approach.",
+          "url": "https://www.linkedin.com/pulse/glocals-first-investors-top-10-tie-new-technology-expanding-nayda/?trackingId=HdICUZEvS0C4I2KhT3CBXA%3D%3D"
+        },
+        {
+          "date": "2023-09-02",
+          "publisher": "linkedin.com",
+          "title": "24SIX9’s Post",
+          "url": "https://www.linkedin.com/posts/24six9_24six9-demo-day-rit-dubai-activity-7008758531214471168-CT38"
+        },
+        {
+          "date": "2022-03-07",
+          "title": "Venture Round - AHOY Holding"
+        },
+        {
+          "date": "2020-11-30",
+          "title": "Seed Round - AHOY Holding"
+        },
+        {
+          "date": "2020-09-23",
+          "title": "Convertible Note - AHOY Holding"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 6,
+    "knownDetailedFundingAmount": {
+      "amount": 23749000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 84.21,
+    "latestToEarliestKnownValuationMultiple": 46.25
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": -2,
+      "growthScore": 64,
+      "heatChange90Days": -3,
+      "heatScore": 69
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 0
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 23.46,
+        "timingEstimatePercent": {
+          "within6Months": 14.8,
+          "months6To11": 12.61,
+          "months12To24": 19.9,
+          "beyond24Months": 24.93
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 95.4
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 0
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Mapbox develops a location data platform for mobile and web applications.",
+          "employeeRange": "501-1,000",
+          "name": "Mapbox",
+          "sharedCategories": [
+            "Logistics"
+          ],
+          "sharedSpecialties": [
+            "Location Intelligence Services",
+            "Fleet Telematics and GPS Tracking",
+            "Fleet Navigation Systems",
+            "Route Optimization and Fleet Tracking"
+          ],
+          "similarityScore": 100
+        },
+        {
+          "description": "Onfleet is a technology company that develops last-mile delivery management software.",
+          "employeeRange": "51-100",
+          "name": "Onfleet",
+          "sharedCategories": [
+            "Logistics",
+            "Same Day Delivery"
+          ],
+          "sharedSpecialties": [
+            "Last Mile Delivery",
+            "Fleet Management Software",
+            "Supply Chain Visibility Platforms",
+            "Logistics Software",
+            "Route Optimization",
+            "Fleet Telematics and GPS Tracking",
+            "Route Optimization and Fleet Tracking"
+          ],
+          "similarityScore": 95
+        },
+        {
+          "description": "OptimoRoute plans and optimizes routes and schedules for deliveries and mobile workforce.",
+          "employeeRange": "51-100",
+          "name": "OptimoRoute",
+          "sharedCategories": [
+            "Logistics"
+          ],
+          "sharedSpecialties": [
+            "Last Mile Delivery",
+            "Fleet Management Software",
+            "Route Optimization",
+            "Fleet Telematics and GPS Tracking",
+            "Fleet Navigation Systems",
+            "Route Optimization and Fleet Tracking"
+          ],
+          "similarityScore": 95
+        },
+        {
+          "description": "Bringg manages and unifies last mile delivery, empowering enterprises to manage and grow the delivery capacity.",
+          "employeeRange": "101-250",
+          "name": "Bringg",
+          "sharedSpecialties": [
+            "Last Mile Delivery",
+            "Fleet Management Software",
+            "Supply Chain Visibility Platforms",
+            "Logistics Software",
+            "Fleet Telematics and GPS Tracking",
+            "Route Optimization and Fleet Tracking"
+          ],
+          "similarityScore": 93
+        },
+        {
+          "description": "Elm offer a wide range of ready-made and customized digital solutions in many areas.",
+          "employeeRange": "1,001-5,000",
+          "name": "Elm",
+          "sharedSpecialties": [
+            "Fleet Management Software"
+          ],
+          "similarityScore": 88.441
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Venture round round raised $20,000,000, or 84.21% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $2,799,000 to $129,456,296, a 46.25x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 64 (-2 over 90 days) and market heat at 69 (-3).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Mapbox, Onfleet, OptimoRoute.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "issues": [
+      {
+        "severity": "low",
+        "finding": "Crunchbase reports 16 timeline items but exposes 10 unique items in this payload.",
+        "impact": "Recent news is a partial sample, not a complete history."
+      }
+    ],
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

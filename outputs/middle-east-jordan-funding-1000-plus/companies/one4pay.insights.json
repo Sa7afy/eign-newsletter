@@ -1,0 +1,253 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T12:49:45.913Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T12:49:45.911Z",
+    "url": "https://www.crunchbase.com/organization/one4pay"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "One4pay",
+      "shortDescription": "Payment service provider",
+      "description": "Payment Service Provider with easy integration and quick service using the latest development technology.",
+      "website": "https://www.one4pay.com/",
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "11-50",
+      "headquarters": "Riyadh, Ar Riyad, Saudi Arabia",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Financial Services",
+        "Mobile Payments",
+        "Payments"
+      ],
+      "sectors": [
+        "Financial Services",
+        "Mobile",
+        "Payments",
+        "Software"
+      ],
+      "founders": [
+        "Ali Hammadi",
+        "Sam Al Khafaji"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 222000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2021-12-30",
+      "lastFundingType": "Pre Seed",
+      "rounds": [
+        {
+          "announcedDate": "2021-12-30",
+          "amount": {
+            "amount": 222000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "postMoneyValuation": {
+            "amount": 1332000,
+            "currency": "USD"
+          },
+          "type": "Pre Seed"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "name": "AMASS Investments",
+            "rounds": [
+              "Pre Seed Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 1,
+      "includedUniqueCount": 1,
+      "items": [
+        {
+          "date": "2021-12-30",
+          "title": "Pre Seed Round - One4pay"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 222000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": 32,
+      "growthScore": 73,
+      "heatChange90Days": -5,
+      "heatScore": 47
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 44.13
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 20.38,
+        "timingEstimatePercent": {
+          "within6Months": 15.53,
+          "months6To11": 13.12,
+          "months12To24": 20.44,
+          "beyond24Months": 24.99
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 85.21
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 45.48
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Razorpay is a platform that enables businesses to accept, process, and disburse payments.",
+          "employeeRange": "1,001-5,000",
+          "name": "Razorpay",
+          "sharedCategories": [
+            "Financial Services",
+            "Payments"
+          ],
+          "similarityScore": 97
+        },
+        {
+          "description": "Cashfree Payments is a fintech company that provides payment processing, payouts, and API banking solutions for businesses.",
+          "employeeRange": "501-1,000",
+          "name": "Cashfree Payments",
+          "sharedCategories": [
+            "Mobile Payments",
+            "Financial Services",
+            "Payments"
+          ],
+          "similarityScore": 95
+        },
+        {
+          "description": "PayU provides payment solutions and financial services globally, supporting 150+ payment methods.",
+          "employeeRange": "1,001-5,000",
+          "name": "PayU",
+          "sharedCategories": [
+            "Payments"
+          ],
+          "similarityScore": 93
+        },
+        {
+          "description": "All the Avenues solutions – CCAvenue, ResAvenue, EventAvenue and HotelsAvenue are designed and created exclusively for Avenues using three",
+          "employeeRange": "1-10",
+          "name": "CCAvenue",
+          "sharedCategories": [
+            "Financial Services"
+          ],
+          "similarityScore": 91
+        },
+        {
+          "description": "Instamojo is the one-stop D2CTech platform company that provides D2C brands everything they need to start and scale their businesses online.",
+          "employeeRange": "51-100",
+          "name": "Instamojo",
+          "sharedCategories": [
+            "Financial Services",
+            "Payments"
+          ],
+          "similarityScore": 87
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Pre Seed round raised $222,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $1,332,000 to $1,332,000, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 73 (+32 over 90 days) and market heat at 47 (-5).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Razorpay, Cashfree Payments, PayU.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

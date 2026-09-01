@@ -1,0 +1,262 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T13:33:17.548Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T13:33:17.546Z",
+    "url": "https://www.crunchbase.com/organization/stylenow"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "StyleNow",
+      "shortDescription": "StyleNow features a mobile-based application that allows its clients to create a reservation anytime.",
+      "description": "StyleNow is a beauty and services company that features a mobile-based application that allows its clients to create a reservation anytime. It specializes in providing hair treatment, nail art, makeup, and waxing.\n\nThe company was founded in 2018 and headquartered in Giza, Egypt.",
+      "website": "https://www.stylenow.me/",
+      "foundedYear": 2018,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "101-250",
+      "headquarters": "Gîza, Al Jizah, Egypt",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Middle East",
+        "Middle East and North Africa (MENA)",
+        "North Africa"
+      ],
+      "founders": [
+        "Nat Ekeiman",
+        "Omar Mansour",
+        "Sherif Olama"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "A mobile app that enables clients to create and manage reservations at any time.",
+        "name": "StyleNow Mobile Reservation Application"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 170000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 2,
+      "detailedRoundCount": 2,
+      "lastFundingDate": "2019-10-13",
+      "lastFundingType": "Seed",
+      "rounds": [
+        {
+          "announcedDate": "2019-10-13",
+          "amount": {
+            "amount": 50000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "postMoneyValuation": {
+            "amount": 870556,
+            "currency": "USD"
+          },
+          "type": "Seed"
+        },
+        {
+          "announcedDate": "2019-01-01",
+          "amount": {
+            "amount": 120000,
+            "currency": "USD"
+          },
+          "postMoneyValuation": {
+            "amount": 605555,
+            "currency": "USD"
+          },
+          "type": "Angel"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "name": "500 Global",
+            "rounds": [
+              "Seed Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 2,
+      "includedUniqueCount": 2,
+      "items": [
+        {
+          "date": "2019-10-13",
+          "title": "Seed Round - StyleNow"
+        },
+        {
+          "date": "2019-01-01",
+          "title": "Angel Round - StyleNow"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 2,
+    "knownDetailedFundingAmount": {
+      "amount": 170000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 29.41,
+    "latestToEarliestKnownValuationMultiple": 1.44
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": -1,
+      "growthScore": 22,
+      "heatChange90Days": -13,
+      "heatScore": 46
+    },
+    "modelPredictions": {
+      "growth": {
+        "generatedDate": "2025-01-11",
+        "probabilityPercent": 95.51
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Fresha is a marketplace platform that allows users to find beauty, wellness, and self-care services nearby.",
+          "employeeRange": "251-500",
+          "name": "Fresha",
+          "sharedSpecialties": [
+            "Local Listings",
+            "Spa and Wellness Services",
+            "Online Appointment Scheduling",
+            "Salon and Spa Management Software",
+            "Appointment Scheduling"
+          ],
+          "similarityScore": 94
+        },
+        {
+          "description": "Booksy is a booking platform that links local customers with professionals in the beauty, wellness, and health industries.",
+          "employeeRange": "501-1,000",
+          "name": "Booksy",
+          "sharedSpecialties": [
+            "Local Listings",
+            "Spa and Wellness Services",
+            "Online Appointment Scheduling",
+            "Appointment Scheduling and Reminder Services",
+            "Professional Beauty",
+            "Salon and Spa Management Software",
+            "Appointment Scheduling"
+          ],
+          "similarityScore": 93
+        },
+        {
+          "description": "Square is a technology company with a focus on financial services.",
+          "employeeRange": "10,001+",
+          "name": "Square",
+          "sharedSpecialties": [
+            "Appointment Scheduling"
+          ],
+          "similarityScore": 91
+        },
+        {
+          "description": "SimplyBook.me is an outstanding online scheduling solution for small, medium and large sized businesses of all types.",
+          "employeeRange": "11-50",
+          "name": "SimplyBook.me",
+          "sharedSpecialties": [
+            "Local Listings",
+            "Online Appointment Scheduling",
+            "Appointment Scheduling and Reminder Services",
+            "Resource Scheduling Software",
+            "Salon and Spa Management Software",
+            "Appointment Scheduling"
+          ],
+          "similarityScore": 90
+        },
+        {
+          "description": "Mangomint offers salon and spa software for appointment and client management.",
+          "employeeRange": "101-250",
+          "name": "Mangomint",
+          "sharedSpecialties": [
+            "Local Listings",
+            "Online Appointment Scheduling",
+            "Salon and Spa Management Software",
+            "Appointment Scheduling"
+          ],
+          "similarityScore": 90
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Seed round raised $50,000, or 29.41% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $605,555 to $870,556, a 1.44x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 22 (-1 over 90 days) and market heat at 46 (-13).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Fresha, Booksy, Square.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

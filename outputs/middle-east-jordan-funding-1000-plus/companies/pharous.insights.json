@@ -1,0 +1,302 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T12:56:08.791Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T12:56:08.788Z",
+    "url": "https://www.crunchbase.com/organization/pharous"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Pharous",
+      "shortDescription": "Pharous is an IT company that provides UX design, web hosting, quality assurance, mobile, and web application development services.",
+      "website": "https://www.pharous.com/",
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "11-50",
+      "headquarters": "Alexandria, Al Iskandariyah, Egypt",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Middle East",
+        "Middle East and North Africa (MENA)",
+        "North Africa"
+      ],
+      "industries": [
+        "Information Technology",
+        "Quality Assurance",
+        "Software",
+        "Web Development"
+      ],
+      "sectors": [
+        "Information Technology",
+        "Professional Services",
+        "Software"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "Services focused on designing user interfaces and experiences for digital products to improve usability and user satisfaction.",
+        "name": "UX Design Services"
+      },
+      {
+        "description": "Provision of server space and infrastructure to host websites and web applications, ensuring accessibility and uptime.",
+        "name": "Web Hosting Services"
+      },
+      {
+        "description": "Testing and validation services to ensure software products meet specified requirements and function correctly.",
+        "name": "Quality Assurance Services"
+      },
+      {
+        "description": "Development of software applications designed to run on mobile devices such as smartphones and tablets.",
+        "name": "Mobile Application Development"
+      },
+      {
+        "description": "Creation of interactive software applications that run on web browsers to support business processes and user interactions.",
+        "name": "Web Application Development"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 120000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 3,
+      "detailedRoundCount": 3,
+      "lastFundingDate": "2020-03-01",
+      "lastFundingType": "Seed",
+      "rounds": [
+        {
+          "announcedDate": "2020-03-01",
+          "amount": {
+            "amount": 60000,
+            "currency": "USD"
+          },
+          "postMoneyValuation": {
+            "amount": 476844,
+            "currency": "USD"
+          },
+          "type": "Seed"
+        },
+        {
+          "announcedDate": "2019-01-01",
+          "amount": {
+            "amount": 10000,
+            "currency": "USD"
+          },
+          "postMoneyValuation": {
+            "amount": 321539,
+            "currency": "USD"
+          },
+          "type": "Pre Seed"
+        },
+        {
+          "announcedDate": "2018-06-01",
+          "amount": {
+            "amount": 50000,
+            "currency": "USD"
+          },
+          "postMoneyValuation": {
+            "amount": 278883,
+            "currency": "USD"
+          },
+          "type": "Pre Seed"
+        }
+      ]
+    },
+    "recentNews": {
+      "reportedCount": 3,
+      "includedUniqueCount": 3,
+      "items": [
+        {
+          "date": "2020-03-01",
+          "title": "Seed Round - Pharous"
+        },
+        {
+          "date": "2019-01-01",
+          "title": "Pre Seed Round - Pharous"
+        },
+        {
+          "date": "2018-06-01",
+          "title": "Pre Seed Round - Pharous"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 3,
+    "knownDetailedFundingAmount": {
+      "amount": 120000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 50,
+    "latestToEarliestKnownValuationMultiple": 1.71
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": 0,
+      "growthScore": 64,
+      "heatChange90Days": -5,
+      "heatScore": 67
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 25.23
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 13.12,
+        "timingEstimatePercent": {
+          "within6Months": 14.32,
+          "months6To11": 12.27,
+          "months12To24": 19.52,
+          "beyond24Months": 24.85
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 88.97
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 36.88
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Webtual is a web and software development company that offers IT and enterprise solutions.",
+          "employeeRange": "11-50",
+          "name": "Webtual",
+          "sharedCategories": [
+            "Web Development",
+            "Information Technology"
+          ],
+          "sharedSpecialties": [
+            "Quality Assurance Testing"
+          ],
+          "similarityScore": 93
+        },
+        {
+          "description": "BairesDev is your partner for precise, rapid outsourced software development.",
+          "employeeRange": "1,001-5,000",
+          "name": "BairesDev LLC",
+          "sharedCategories": [
+            "Web Development",
+            "Software"
+          ],
+          "sharedSpecialties": [
+            "Quality Assurance Testing",
+            "Frontend Development",
+            "Backend Development"
+          ],
+          "similarityScore": 88
+        },
+        {
+          "description": "A digital business consultancy bridging strategy and execution.",
+          "employeeRange": "101-250",
+          "name": "Nerdery",
+          "sharedCategories": [
+            "Web Development",
+            "Information Technology"
+          ],
+          "similarityScore": 86
+        },
+        {
+          "description": "DevSquad builds relationships with our clients continuously improves their software and SaaS sales.",
+          "employeeRange": "51-100",
+          "name": "DevSquad",
+          "sharedCategories": [
+            "Software"
+          ],
+          "sharedSpecialties": [
+            "Quality Assurance Testing",
+            "Backend Development"
+          ],
+          "similarityScore": 84
+        },
+        {
+          "description": "thoughtbot is a consulting firm that offers end-to-end web and mobile product development services.",
+          "employeeRange": "101-250",
+          "name": "thoughtbot",
+          "sharedCategories": [
+            "Web Development",
+            "Software"
+          ],
+          "similarityScore": 82
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Seed round raised $60,000, or 50% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $278,883 to $476,844, a 1.71x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 64 (+0 over 90 days) and market heat at 67 (-5).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Webtual, BairesDev LLC, Nerdery.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

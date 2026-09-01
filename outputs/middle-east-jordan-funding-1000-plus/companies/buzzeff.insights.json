@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T11:06:40.505Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T11:06:40.503Z",
+    "url": "https://www.crunchbase.com/organization/buzzeff"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "BUZZEFF",
+      "shortDescription": "BUZZEFF, a managed services company, broadcasts online video advertising that helps brands to improve their reach of targeted audiences",
+      "description": "BUZZEFF MEA is a regional video advertising specialist based in Dubai, Casablanca and Riyadh. With a team of 20 members, buzzeff is, daily, connecting brands to relevant audiences within relevant premium publishers. Over 400 brands have trusted Buzzeff already and benefited from a premium reach inventory, contextually relevant, brand safe and native advertising stream at a competitive costing models.",
+      "website": "http://www.buzzeff.com/",
+      "operatingStatus": "Closed",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "11-50",
+      "headquarters": "Dubai, United Arab Emirates",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Advertising",
+        "Internet",
+        "Internet of Things",
+        "Marketing",
+        "Native Advertising",
+        "Video"
+      ],
+      "sectors": [
+        "Advertising",
+        "Information Technology",
+        "Internet Services",
+        "Media and Entertainment",
+        "Sales and Marketing",
+        "Video"
+      ],
+      "founders": [
+        "Jerome Mouthon"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 1200000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2012-08-21",
+      "lastFundingType": "Venture round",
+      "rounds": [
+        {
+          "announcedDate": "2012-08-21",
+          "amount": {
+            "amount": 1200000,
+            "currency": "USD"
+          },
+          "type": "Venture round"
+        }
+      ]
+    },
+    "recentNews": {
+      "reportedCount": 3,
+      "includedUniqueCount": 3,
+      "items": [
+        {
+          "date": "2020-09-13",
+          "publisher": "mailchi.mp",
+          "title": "Startup U: Tips on pitching a startup to investors",
+          "url": "https://mailchi.mp/15a019d5a3b9/kickstarter-launch-a-night-at-the-drive-in-startup-u-on-pitching-otn-vol-1-6"
+        },
+        {
+          "date": "2019-02-07",
+          "title": "BUZZEFF acquired by Teads"
+        },
+        {
+          "date": "2012-08-21",
+          "title": "Venture Round - BUZZEFF"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 1200000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "heatChange90Days": -2,
+      "heatScore": 15
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors."
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Venture round round raised $1,200,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

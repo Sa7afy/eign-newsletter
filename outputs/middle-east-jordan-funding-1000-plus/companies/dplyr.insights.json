@@ -1,0 +1,312 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T11:26:04.917Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T11:26:04.913Z",
+    "url": "https://www.crunchbase.com/organization/dplyr"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "DPLYR",
+      "shortDescription": "DPLYR helps developers have an easier DevOps experience.",
+      "description": "DPLYR makes deploying web apps easier. No matter what is the technology and database you're using we got you covered. With a click of a button, you will have your project deployed on world-class machines ready for use.",
+      "website": "https://dplyr.dev/",
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "11-50",
+      "estimatedRevenueRange": "Less than $1M",
+      "headquarters": "Cairo, Al Qahirah, Egypt",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Middle East",
+        "Middle East and North Africa (MENA)",
+        "North Africa"
+      ],
+      "industries": [
+        "Cloud Infrastructure",
+        "Developer Platform",
+        "Developer Tools",
+        "DevOps",
+        "SaaS",
+        "Software"
+      ],
+      "sectors": [
+        "Information Technology",
+        "Internet Services",
+        "Software"
+      ],
+      "founders": [
+        "Ahmed Gamal"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "A platform designed to simplify and streamline the DevOps process for developers by automating deployment and infrastructure management.",
+        "name": "DPLYR DevOps Platform"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 13866,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 2,
+      "detailedRoundCount": 2,
+      "lastFundingDate": "2020-05-01",
+      "lastFundingType": "Pre Seed",
+      "rounds": [
+        {
+          "announcedDate": "2020-05-01",
+          "amount": {
+            "amount": 12866,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "Ari Goldstein"
+          ],
+          "postMoneyValuation": {
+            "amount": 167590,
+            "currency": "USD"
+          },
+          "type": "Pre Seed"
+        },
+        {
+          "announcedDate": "2019-04-01",
+          "amount": {
+            "amount": 1000,
+            "currency": "USD"
+          },
+          "postMoneyValuation": {
+            "amount": 104205,
+            "currency": "USD"
+          },
+          "type": "Pre Seed"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "Ari Goldstein",
+            "rounds": [
+              "Pre Seed Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 2,
+      "includedUniqueCount": 2,
+      "items": [
+        {
+          "date": "2020-05-01",
+          "title": "Pre Seed Round - DPLYR"
+        },
+        {
+          "date": "2019-04-01",
+          "title": "Pre Seed Round - DPLYR"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 2,
+    "knownDetailedFundingAmount": {
+      "amount": 13866,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 92.79,
+    "latestToEarliestKnownValuationMultiple": 1.61
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": 0,
+      "growthScore": 71,
+      "heatChange90Days": -6,
+      "heatScore": 43
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 0
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 12.65,
+        "timingEstimatePercent": {
+          "within6Months": 14.92,
+          "months6To11": 12.69,
+          "months12To24": 19.99,
+          "beyond24Months": 24.94
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 88.61
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 0
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Northflank is a developer platform that automates deployments across cloud infrastructures.",
+          "employeeRange": "11-50",
+          "name": "Northflank",
+          "sharedCategories": [
+            "Software",
+            "Developer Platform"
+          ],
+          "sharedSpecialties": [
+            "Application Runtime Platforms",
+            "Container and Kubernetes Platform Services",
+            "CI/CD Platform",
+            "Log Management",
+            "Infrastructure as Code",
+            "Internal Developer Platforms"
+          ],
+          "similarityScore": 97
+        },
+        {
+          "description": "Render provides a unified cloud for developers and teams to host all their applications, databases, and websites.",
+          "employeeRange": "101-250",
+          "name": "Render",
+          "sharedCategories": [
+            "Cloud Infrastructure",
+            "Software"
+          ],
+          "sharedSpecialties": [
+            "Application Runtime Platforms",
+            "Container and Kubernetes Platform Services",
+            "Infrastructure as Code"
+          ],
+          "similarityScore": 93
+        },
+        {
+          "description": "Heroku is a platform as a service (PaaS) that provides services to create, run, and scale web and mobile apps.",
+          "employeeRange": "51-100",
+          "name": "Heroku",
+          "sharedCategories": [
+            "SaaS",
+            "Software"
+          ],
+          "sharedSpecialties": [
+            "Application Runtime Platforms",
+            "CI/CD Platform",
+            "Log Management"
+          ],
+          "similarityScore": 91
+        },
+        {
+          "description": "Vercel is a developer platform that provides cloud infrastructure services for the web.",
+          "employeeRange": "1,001-5,000",
+          "name": "Vercel",
+          "sharedCategories": [
+            "Cloud Infrastructure",
+            "DevOps",
+            "Software",
+            "Developer Platform"
+          ],
+          "sharedSpecialties": [
+            "Application Runtime Platforms",
+            "CI/CD Platform",
+            "Integration Platforms",
+            "Internal Developer Platforms"
+          ],
+          "similarityScore": 87
+        },
+        {
+          "description": "DigitalOcean provides a cloud platform to deploy, manage, and scale applications of any size.",
+          "employeeRange": "1,001-5,000",
+          "name": "DigitalOcean",
+          "sharedCategories": [
+            "SaaS",
+            "DevOps"
+          ],
+          "sharedSpecialties": [
+            "Application Runtime Platforms",
+            "Container and Kubernetes Platform Services"
+          ],
+          "similarityScore": 86
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Pre Seed round raised $12,866, or 92.79% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $104,205 to $167,590, a 1.61x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 71 (+0 over 90 days) and market heat at 43 (-6).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Northflank, Render, Heroku.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

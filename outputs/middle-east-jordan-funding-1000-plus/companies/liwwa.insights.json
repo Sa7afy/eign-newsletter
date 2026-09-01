@@ -1,0 +1,489 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T12:20:46.517Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T12:20:46.514Z",
+    "url": "https://www.crunchbase.com/organization/liwwa"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "liwwa",
+      "shortDescription": "Liwwa is a peer-to-peer lending network that connects investors and small businesses through smart business loans.",
+      "description": "Liwwa connects small businesses in need of capital with people who want to invest in them. \n\nThe company’s peer-to-peer lease-to-own model addresses the capital access and interest-free investor return opportunities. Liwwa conducts in-house reviews of a small business's creditability and enables them to pay a monthly fee to investors. Founded in 2013, Liwwa raised seed funding with DASH Ventures, al Etihad, and MENA Venture Investments, which it plans to use to hire several new team members, including an underwriting team and to support a new product offering.",
+      "website": "https://www.liwwa.com/",
+      "foundedYear": 2013,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "51-100",
+      "estimatedRevenueRange": "$10M-$50M",
+      "headquarters": "Amman, Jordan",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Financial Services",
+        "FinTech",
+        "Lending"
+      ],
+      "sectors": [
+        "Financial Services"
+      ],
+      "founders": [
+        "Ahmed Moor",
+        "Samer Atiani"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "A Sharia-compliant loan financing business purchases through local or international invoices using a cost-plus financing structure without interest.",
+        "name": "Murabaha Loan"
+      },
+      {
+        "description": "A loan providing working capital based on a business’s proven sales via point-of-sale (POS) machine transaction data.",
+        "name": "Merchant Cash Advance"
+      },
+      {
+        "description": "A financing service where businesses receive immediate cash by discounting future-dated checks or invoices from their customers.",
+        "name": "Factoring (Invoice and Check Discounting)"
+      },
+      {
+        "description": "A loan designed to finance day-to-day business expenses such as payroll, rent, and operational costs for SMEs.",
+        "name": "Working Capital Loan"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 36600000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 8,
+      "detailedRoundCount": 8,
+      "lastFundingDate": "2024-05-15",
+      "lastFundingType": "Debt Financing",
+      "rounds": [
+        {
+          "announcedDate": "2024-05-15",
+          "amount": {
+            "amount": 5000000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "U.S. International Development Finance Corp"
+          ],
+          "type": "Debt Financing"
+        },
+        {
+          "announcedDate": "2022-09-09",
+          "amount": {
+            "amount": 14000000,
+            "currency": "USD"
+          },
+          "investorCount": 6,
+          "type": "Debt Financing"
+        },
+        {
+          "announcedDate": "2022-09-09",
+          "amount": {
+            "amount": 4500000,
+            "currency": "USD"
+          },
+          "investorCount": 5,
+          "postMoneyValuation": {
+            "amount": 32853604,
+            "currency": "USD"
+          },
+          "type": "Series B"
+        },
+        {
+          "announcedDate": "2019-12-17",
+          "amount": {
+            "amount": 6000000,
+            "currency": "USD"
+          },
+          "investorCount": 7,
+          "leadInvestors": [
+            "FMO"
+          ],
+          "postMoneyValuation": {
+            "amount": 32108045,
+            "currency": "USD"
+          },
+          "type": "Series A"
+        },
+        {
+          "announcedDate": "2018-02-28",
+          "amount": {
+            "amount": 2300000,
+            "currency": "USD"
+          },
+          "investorCount": 7,
+          "leadInvestors": [
+            "FMO",
+            "Silicon Badia"
+          ],
+          "postMoneyValuation": {
+            "amount": 14304388,
+            "currency": "USD"
+          },
+          "type": "Series A"
+        },
+        {
+          "announcedDate": "2017-03-27",
+          "amount": {
+            "amount": 2000000,
+            "currency": "USD"
+          },
+          "investorCount": 2,
+          "leadInvestors": [
+            "Silicon Badia"
+          ],
+          "postMoneyValuation": {
+            "amount": 11657930,
+            "currency": "USD"
+          },
+          "type": "Seed"
+        },
+        {
+          "announcedDate": "2016-04-06",
+          "amount": {
+            "amount": 2300000,
+            "currency": "USD"
+          },
+          "investorCount": 3,
+          "leadInvestors": [
+            "Silicon Badia"
+          ],
+          "postMoneyValuation": {
+            "amount": 8910806,
+            "currency": "USD"
+          },
+          "type": "Seed"
+        },
+        {
+          "announcedDate": "2015-03-01",
+          "amount": {
+            "amount": 500000,
+            "currency": "USD"
+          },
+          "investorCount": 2,
+          "leadInvestors": [
+            "DASH Ventures"
+          ],
+          "postMoneyValuation": {
+            "amount": 3468853,
+            "currency": "USD"
+          },
+          "type": "Seed"
+        }
+      ],
+      "investors": {
+        "reportedCount": 17,
+        "visibleNames": [
+          {
+            "name": "500 Global"
+          },
+          {
+            "name": "Bank al Etihad",
+            "rounds": [
+              "Series B",
+              "Debt Financing"
+            ]
+          },
+          {
+            "name": "Capital Bank Group",
+            "rounds": [
+              "Debt Financing"
+            ]
+          },
+          {
+            "name": "Edgo VC",
+            "rounds": [
+              "Series B"
+            ]
+          },
+          {
+            "name": "FMO",
+            "rounds": [
+              "Series B"
+            ]
+          },
+          {
+            "name": "Jordan Kuwait Bank",
+            "rounds": [
+              "Debt Financing"
+            ]
+          },
+          {
+            "name": "KFW DEG",
+            "rounds": [
+              "Series B"
+            ]
+          },
+          {
+            "name": "Proparco"
+          },
+          {
+            "name": "Triodos Bank NV",
+            "rounds": [
+              "Debt Financing"
+            ]
+          },
+          {
+            "name": "Triple Jump",
+            "rounds": [
+              "Debt Financing"
+            ]
+          },
+          {
+            "isLead": true,
+            "name": "U.S. International Development Finance Corp",
+            "rounds": [
+              "Debt Financing"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 20,
+      "includedUniqueCount": 6,
+      "items": [
+        {
+          "date": "2026-06-17",
+          "publisher": "SecneNow",
+          "title": "Startups Shifting How People Bank & Access Public Services in Jordan",
+          "url": "https://thestartupscene.me/MenaEcosystems/Startups-Shifting-How-People-Bank-Access-Public-Services-in-Jordan"
+        },
+        {
+          "date": "2024-05-27",
+          "publisher": "Wamda",
+          "title": "Jordan's liwwa secures $5 million loan from DFC",
+          "url": "https://www.wamda.com/2024/05/jordan-liwwa-secures-5-million-loan-dfc"
+        },
+        {
+          "date": "2024-05-21",
+          "publisher": "Fintech News Middle East",
+          "title": "Liwwa Secures $5 Million Loan From DFC to Enhance SME Fintech Support in Jordan",
+          "url": "https://fintechnews.ae/21332/fintechjordan/liwwa-secures-5-million-loan-from-dfc-to-enhance-sme-fintech-support-in-jordan/"
+        },
+        {
+          "date": "2024-05-15",
+          "title": "Debt Financing - liwwa"
+        },
+        {
+          "date": "2022-09-12",
+          "publisher": "FinTech Futures",
+          "title": "P2P lender liwwa raises $18.5m in equity and debt",
+          "url": "https://fintechfutures.com/2022/09/p2p-lender-liwwa-raises-18-5m-in-equity-and-debt/"
+        },
+        {
+          "date": "2022-09-09",
+          "publisher": "magnitt.com",
+          "title": "Jordan’s liwwa raises $18.5M Pre-Series B",
+          "url": "https://magnitt.com/news/liwwa-18-5m-pre-series-b-53654"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 8,
+    "knownDetailedFundingAmount": {
+      "amount": 36600000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 13.66,
+    "latestToEarliestKnownValuationMultiple": 9.47
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthInsightGeneratedDate": "2026-06-21",
+      "growthChange90Days": -1,
+      "growthScore": 67,
+      "heatChange90Days": -3,
+      "heatScore": 37,
+      "status": "Growing"
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 32.71
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 36.07,
+        "timingEstimatePercent": {
+          "within6Months": 63.21,
+          "months6To11": 0,
+          "months12To24": 0,
+          "beyond24Months": 36.79
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 65.49
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 11.41
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "IFS Capital offers commercial finance services.",
+          "employeeRange": "51-100",
+          "name": "IFS Capital",
+          "sharedCategories": [
+            "Financial Services"
+          ],
+          "sharedSpecialties": [
+            "Working Capital Loans",
+            "Invoice Factoring",
+            "Supply Chain Finance"
+          ],
+          "similarityScore": 100
+        },
+        {
+          "description": "Beehive is a UAE-based fintech and digital SME financing platform.",
+          "employeeRange": "1-10",
+          "name": "Beehive",
+          "sharedCategories": [
+            "Lending",
+            "Financial Services",
+            "FinTech"
+          ],
+          "sharedSpecialties": [
+            "Debt Crowdfunding",
+            "Working Capital Loans",
+            "Invoice Factoring"
+          ],
+          "similarityScore": 96
+        },
+        {
+          "description": "Expanding your firm presents both benefits and problems, making financial planning crucial.",
+          "employeeRange": "11-50",
+          "name": "OP Consulting",
+          "sharedSpecialties": [
+            "Working Capital Loans",
+            "Invoice Factoring",
+            "Supply Chain Finance"
+          ],
+          "similarityScore": 94.017
+        },
+        {
+          "description": "Sanadcom specializes in financing small and medium enterprises and provides non-financial services.",
+          "employeeRange": "51-100",
+          "name": "Sanadcom",
+          "sharedCategories": [
+            "Financial Services"
+          ],
+          "sharedSpecialties": [
+            "Working Capital Loans",
+            "Invoice Factoring",
+            "Purchase Order Financing",
+            "Business Lines of Credit",
+            "Supply Chain Finance",
+            "Merchant Cash Advance"
+          ],
+          "similarityScore": 88.958
+        },
+        {
+          "description": "Ondeck is a technology-enabled financial platform that provides loan financing to small and medium-sized businesses.",
+          "employeeRange": "251-500",
+          "name": "OnDeck",
+          "sharedCategories": [
+            "Financial Services",
+            "FinTech"
+          ],
+          "sharedSpecialties": [
+            "Working Capital Loans",
+            "Business Lines of Credit"
+          ],
+          "similarityScore": 88
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Debt Financing round raised $5,000,000, or 13.66% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $3,468,853 to $32,853,604, a 9.47x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 67 (-1 over 90 days) and market heat at 37 (-3).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include IFS Capital, Beehive, OP Consulting.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "issues": [
+      {
+        "severity": "low",
+        "finding": "Crunchbase reports 20 timeline items but exposes 6 unique items in this payload.",
+        "impact": "Recent news is a partial sample, not a complete history."
+      }
+    ],
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

@@ -1,0 +1,229 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T12:34:32.895Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T12:34:32.893Z",
+    "url": "https://www.crunchbase.com/organization/mo-men-group"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Mo'men Group",
+      "shortDescription": "Mo'men Group operates Egypt's largest independent chain of quick service restaurants under its household brand name.",
+      "description": "You won’t travel far in Egypt without seeing a Mo’men restaurant.\r\n\r\nThe business was founded by the Mo'men Family in 1988. Mo'men operates Egypt's largest independent chain of quick service restaurants under its household brand name. It is also one of the leading producers of branded frozen foods and ready meals under its proprietary label Three Chefs. It is seen as a home-grown champion in the Egyptian market offering a blend of local taste and culture with international branding and quality. The frozen food sector is also becoming ever more popular as part of the growth of the modern retail sector.\r\n\r\nActis invested in Mo’men in 2008 and – working in partnership with the family – undertook a period of rapid change. The team adopted corporate governance structures familiar to listed companies; a professional management team was appointed, production capacity doubled and new restaurants opened both in Egypt and abroad. The business also achieved significant operational milestones in health and safety standards and corporate governance.",
+      "website": "http://www.momen-chain.com/",
+      "foundedYear": 1988,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "5,001-10,000",
+      "estimatedRevenueRange": "$1M-$10M",
+      "headquarters": "Cairo, Al Qahirah, Egypt",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Middle East",
+        "Middle East and North Africa (MENA)",
+        "North Africa"
+      ],
+      "industries": [
+        "Food and Beverage",
+        "Hospitality",
+        "Restaurants"
+      ],
+      "sectors": [
+        "Food and Beverage",
+        "Travel and Tourism"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "Mo'men Group operates a chain of quick service restaurants in Egypt, offering a variety of fast food options under its brand name.",
+        "name": "Quick Service Restaurants"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 48500000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2008-07-30",
+      "lastFundingType": "Private Equity",
+      "rounds": [
+        {
+          "announcedDate": "2008-07-30",
+          "amount": {
+            "amount": 48500000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "Actis"
+          ],
+          "type": "Private Equity"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "Actis",
+            "rounds": [
+              "Private Equity Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 1,
+      "includedUniqueCount": 1,
+      "items": [
+        {
+          "date": "2008-07-30",
+          "title": "Private Equity Round - Mo'men Group"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 48500000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": -2,
+      "growthScore": 79,
+      "heatChange90Days": -16,
+      "heatScore": 2
+    },
+    "modelPredictions": {
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 74.51
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "SUBWAY is a fast food restaurant franchise that sells submarine sandwiches and salads.",
+          "employeeRange": "10,001+",
+          "name": "Subway",
+          "sharedCategories": [
+            "Food and Beverage",
+            "Restaurants"
+          ],
+          "sharedSpecialties": [
+            "Home Delivered Meals",
+            "Franchise Retail",
+            "Quick Service Restaurants",
+            "Restaurant Gift Cards"
+          ],
+          "similarityScore": 90
+        },
+        {
+          "description": "Manousheh offers traditional Lebanese flatbreads and street foods, focusing on authentic flavors and freshly baked goods.",
+          "employeeRange": "11-50",
+          "name": "Manousheh",
+          "sharedCategories": [
+            "Food and Beverage",
+            "Restaurants"
+          ],
+          "similarityScore": 87
+        },
+        {
+          "description": "valU is a fintech company that provides buy now, pay later, and customized financial solutions.",
+          "employeeRange": "501-1,000",
+          "name": "valU",
+          "similarityScore": 85
+        },
+        {
+          "description": "Cilantro Specialty Foods is a coffee shop that makes and sells breakfast items, paninis, sandwiches, and roasted coffee.",
+          "employeeRange": "11-50",
+          "name": "Cilantro Specialty Foods",
+          "sharedCategories": [
+            "Food and Beverage",
+            "Restaurants"
+          ],
+          "similarityScore": 82
+        },
+        {
+          "description": "PAUL Bakery, Patisserie, Café, and Restaurant provide bread pastries, and coffee.",
+          "employeeRange": "11-50",
+          "name": "Paul Bakery Patisserie Café & Restaurant",
+          "sharedCategories": [
+            "Food and Beverage"
+          ],
+          "sharedSpecialties": [
+            "Home Delivered Meals",
+            "Franchise Retail"
+          ],
+          "similarityScore": 80
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Private Equity round raised $48,500,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 79 (-2 over 90 days) and market heat at 2 (-16).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Subway, Manousheh, valU.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

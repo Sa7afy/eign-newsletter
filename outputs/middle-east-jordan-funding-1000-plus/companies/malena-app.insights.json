@@ -1,0 +1,208 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T12:25:55.269Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T12:25:55.267Z",
+    "url": "https://www.crunchbase.com/organization/malena-app"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Malena App",
+      "shortDescription": "Malena App operates a mobile booking platform that connects users with aesthetic, cosmetic, and dental service providers.",
+      "description": "The First and Only Platform for Aesthetic , Cosmetic and Dental Booking. Download Today on the App or Play Store.",
+      "website": "https://malenaapp.com/",
+      "operatingStatus": "Closed",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "1-10",
+      "headquarters": "Dubai, United Arab Emirates",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "E-Commerce",
+        "E-Commerce Platforms"
+      ],
+      "sectors": [
+        "Commerce and Shopping",
+        "Internet Services"
+      ],
+      "founders": [
+        "Marwa Al Mansoori"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 23615,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 2,
+      "detailedRoundCount": 2,
+      "lastFundingDate": "2018-11-21",
+      "lastFundingType": "Grant",
+      "rounds": [
+        {
+          "announcedDate": "2018-11-21",
+          "amount": {
+            "amount": 5000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "type": "Grant"
+        },
+        {
+          "announcedDate": "2018-11-01",
+          "amount": {
+            "amount": 18615,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "type": "Seed"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "name": "Sheraa Sharjah",
+            "rounds": [
+              "Grant",
+              "Seed Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 2,
+      "includedUniqueCount": 2,
+      "items": [
+        {
+          "date": "2018-11-21",
+          "title": "Grant - Malena App"
+        },
+        {
+          "date": "2018-11-01",
+          "title": "Seed Round - Malena App"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 2,
+    "knownDetailedFundingAmount": {
+      "amount": 23615,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 21.17,
+    "grantFunding": {
+      "amount": {
+        "amount": 5000,
+        "currency": "USD"
+      },
+      "disclosedRoundCount": 1,
+      "shareOfTotalPercent": 21.17
+    }
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "heatChange90Days": -5,
+      "heatScore": 47
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Booksy is a booking platform that links local customers with professionals in the beauty, wellness, and health industries.",
+          "employeeRange": "501-1,000",
+          "name": "Booksy",
+          "similarityScore": 97
+        },
+        {
+          "description": "Fresha is a marketplace platform that allows users to find beauty, wellness, and self-care services nearby.",
+          "employeeRange": "251-500",
+          "name": "Fresha",
+          "similarityScore": 95
+        },
+        {
+          "description": "Yocale is a local appointment engine that brings consumers and businesses together in every neighbourhood.",
+          "employeeRange": "11-50",
+          "name": "Yocale",
+          "similarityScore": 93
+        },
+        {
+          "description": "Mindbody is a wellness experience platform that allows clients to find and engage with fitness, beauty, and integrative health services.",
+          "employeeRange": "1,001-5,000",
+          "name": "Mindbody",
+          "similarityScore": 91
+        },
+        {
+          "description": "Treatwell is Europe’s leading beauty booking platform, connecting 75k+ salons with users through 24/7 marketplace and SaaS management tools.",
+          "employeeRange": "501-1,000",
+          "name": "Treatwell",
+          "sharedCategories": [
+            "E-Commerce"
+          ],
+          "similarityScore": 89
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Grant round raised $5,000, or 21.17% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Meaningful non-dilutive funding",
+      "statement": "1 disclosed grants total $5,000, representing 21.17% of reported funding.",
+      "implication": "The grants reduce the share of reported financing attributed to equity or notes, although their restrictions and milestone requirements need separate verification.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.grantFunding"
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Booksy, Fresha, Yocale.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

@@ -1,0 +1,240 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T11:55:55.553Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T11:55:55.551Z",
+    "url": "https://www.crunchbase.com/organization/happy-human-7754"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Happy Human",
+      "shortDescription": "Happy Human is an AI-Powered employee retention & engagement platform for companies in the MENA region.",
+      "description": "Happy Human is an AI-Powered employee retention & engagement platform that helps organizations increase their workforce engagement, performance and retention.",
+      "website": "https://www.happyhuman.io/",
+      "foundedYear": 2021,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "1-10",
+      "headquarters": "Riyadh, Ar Riyad, Saudi Arabia",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Artificial Intelligence (AI)",
+        "Employee Benefits",
+        "Human Resources",
+        "SaaS"
+      ],
+      "sectors": [
+        "Administrative Services",
+        "Artificial Intelligence (AI)",
+        "Data and Analytics",
+        "Science and Engineering",
+        "Software"
+      ],
+      "founders": [
+        "Belal El Borno"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 50000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2022-11-22",
+      "lastFundingType": "Pre Seed",
+      "rounds": [
+        {
+          "announcedDate": "2022-11-22",
+          "amount": {
+            "amount": 50000,
+            "currency": "USD"
+          },
+          "postMoneyValuation": {
+            "amount": 727339,
+            "currency": "USD"
+          },
+          "type": "Pre Seed"
+        }
+      ]
+    },
+    "recentNews": {
+      "reportedCount": 1,
+      "includedUniqueCount": 1,
+      "items": [
+        {
+          "date": "2022-11-22",
+          "title": "Pre Seed Round - Happy Human"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 50000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": 0,
+      "growthScore": 68,
+      "heatChange90Days": -7,
+      "heatScore": 71
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 51.82
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 25.09,
+        "timingEstimatePercent": {
+          "within6Months": 16.62,
+          "months6To11": 13.86,
+          "months12To24": 21.19,
+          "beyond24Months": 24.97
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 88.23
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 53.09
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Culture Amp is an employee analytics platform that specializes in staff surveying and analytics.",
+          "employeeRange": "501-1,000",
+          "name": "Culture Amp",
+          "sharedCategories": [
+            "SaaS",
+            "Human Resources"
+          ],
+          "similarityScore": 96
+        },
+        {
+          "description": "The most holistic Employee Experience Platform built for the modern workplace.",
+          "employeeRange": "101-250",
+          "name": "WorkTango",
+          "sharedCategories": [
+            "Employee Benefits",
+            "SaaS",
+            "Human Resources"
+          ],
+          "similarityScore": 94
+        },
+        {
+          "description": "Qualtrics is a single system of record for all experience data, managing customer, product, employee, and brand experiences on one platform.",
+          "employeeRange": "5,001-10,000",
+          "name": "Qualtrics",
+          "sharedCategories": [
+            "SaaS"
+          ],
+          "similarityScore": 90
+        },
+        {
+          "description": "Enabling people and organizations to thrive",
+          "employeeRange": "251-500",
+          "name": "Perceptyx",
+          "similarityScore": 88
+        },
+        {
+          "description": "Lattice is a people success platform that help business leaders develop engaged, high-performing employees, and winning cultures.",
+          "employeeRange": "501-1,000",
+          "name": "Lattice",
+          "sharedCategories": [
+            "Human Resources",
+            "Artificial Intelligence (AI)"
+          ],
+          "similarityScore": 88
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Pre Seed round raised $50,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $727,339 to $727,339, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 68 (+0 over 90 days) and market heat at 71 (-7).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Culture Amp, WorkTango, Qualtrics.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

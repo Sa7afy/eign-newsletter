@@ -1,0 +1,167 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T13:31:08.800Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T13:31:08.799Z",
+    "url": "https://www.crunchbase.com/organization/sprii"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Sprii",
+      "shortDescription": "Sprii specializes in providing products for mums to help them bloom during their pregnancy.",
+      "description": "Sprii specializes in providing products for mums to help them bloom during their pregnancy. Stock up on baby essentials, kit themselves out for pre-natal Yoga, or create fun family moments together in the kitchen, Sprii is the shopping destination loved and trusted by mums all over the Middle East.\n\nIt was founded in 2014 and headquartered in Dubai, Dubai.",
+      "website": "https://www.sprii.ae/en/",
+      "foundedYear": 2014,
+      "operatingStatus": "Closed",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "101-250",
+      "headquarters": "Dubai, United Arab Emirates",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "E-Commerce",
+        "Internet",
+        "Online Portals"
+      ],
+      "sectors": [
+        "Commerce and Shopping",
+        "Information Technology",
+        "Internet Services"
+      ],
+      "founders": [
+        "Sarah Jones"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 12600000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 3,
+      "detailedRoundCount": 3,
+      "lastFundingDate": "2019-06-24",
+      "lastFundingType": "Series A",
+      "rounds": [
+        {
+          "announcedDate": "2019-06-24",
+          "amount": {
+            "amount": 8500000,
+            "currency": "USD"
+          },
+          "type": "Series A"
+        },
+        {
+          "announcedDate": "2016-11-01",
+          "amount": {
+            "amount": 3000000,
+            "currency": "USD"
+          },
+          "type": "Venture round"
+        },
+        {
+          "announcedDate": "2015-09-01",
+          "amount": {
+            "amount": 1100000,
+            "currency": "USD"
+          },
+          "type": "Seed"
+        }
+      ]
+    },
+    "recentNews": {
+      "reportedCount": 7,
+      "includedUniqueCount": 7,
+      "items": [
+        {
+          "date": "2026-06-18",
+          "publisher": "TechJuice",
+          "title": "Meta Expands Livestream Shopping Tools",
+          "url": "https://www.techjuice.pk/meta-livestream-shopping-tools-affiliate-virtual-cards/"
+        },
+        {
+          "date": "2026-06-17",
+          "publisher": "Social Media Today",
+          "title": "Meta updates its livestream shopping tools",
+          "url": "https://www.socialmediatoday.com/news/meta-updates-its-livestream-shopping-tools/823223/"
+        },
+        {
+          "date": "2025-11-04",
+          "publisher": "Prolific North",
+          "title": "‘Exciting new chapter’ as The Embryo Group expands with launch of new social commerce agency",
+          "url": "https://www.prolificnorth.co.uk/news/exciting-new-chapter-as-the-embryo-group-expands-with-launch-of-new-social-commerce-agency/"
+        },
+        {
+          "date": "2024-10-09",
+          "publisher": "Business Live",
+          "title": "Live shopping revolution: Sprii expands to UK with backing from Topshop's new owners",
+          "url": "https://www.business-live.co.uk/retail-consumer/live-shopping-revolution-sprii-expands-30104963"
+        },
+        {
+          "date": "2019-06-24",
+          "title": "Series A - Sprii"
+        },
+        {
+          "date": "2016-11-01",
+          "title": "Venture Round - Sprii"
+        },
+        {
+          "date": "2015-09-01",
+          "title": "Seed Round - Sprii"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 3,
+    "knownDetailedFundingAmount": {
+      "amount": 12600000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 67.46
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "heatChange90Days": -10,
+      "heatScore": 59
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors."
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Series A round raised $8,500,000, or 67.46% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

@@ -1,0 +1,344 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T11:51:37.710Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T11:51:37.708Z",
+    "url": "https://www.crunchbase.com/organization/go-rise"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Go Rise",
+      "shortDescription": "Go Rise is a fintech platform focused on empowering migrant workers with accessible and inclusive financial services.",
+      "description": "Go Rise is a fintech platform focused on empowering migrant workers with accessible and inclusive financial services. The company aims to help migrants manage finances across both their home and host countries through a single digital platform.\n\nThe platform offers services such as digital bank accounts, insurance, investments, and “pay later” financial solutions in partnership with regulated financial institutions. GoRise is designed to give migrant workers greater control over their income, savings, and long-term financial growth rather than relying solely on traditional remittance services.",
+      "website": "https://www.gorise.co/",
+      "foundedYear": 2016,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "11-50",
+      "estimatedRevenueRange": "$1M-$10M",
+      "headquarters": "Dubai, United Arab Emirates",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Financial Services"
+      ],
+      "sectors": [
+        "Financial Services"
+      ],
+      "founders": [
+        "Mandeep Singh",
+        "Milind Singh",
+        "Padmini Gupta"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "A bank account with no minimum balance or minimum salary requirements, designed for migrants in the UAE to save and manage money.",
+        "name": "Bank Account"
+      },
+      {
+        "description": "Insurance products developed in partnership with Axa to help migrants protect their dependents and secure their financial future.",
+        "name": "Insurance"
+      },
+      {
+        "description": "Financial health check and investment guidance to help migrants start a long-term journey of financial growth and resilience.",
+        "name": "Investment"
+      },
+      {
+        "description": "A buy now, pay later installment loan service allowing migrants to purchase goods and services with flexible repayment terms.",
+        "name": "Buy with rise (Pay Later)"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 2109530,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 2,
+      "detailedRoundCount": 2,
+      "lastFundingDate": "2020-03-23",
+      "lastFundingType": "Venture round",
+      "rounds": [
+        {
+          "announcedDate": "2020-03-23",
+          "amount": {
+            "amount": 2100000,
+            "currency": "USD"
+          },
+          "investorCount": 6,
+          "leadInvestors": [
+            "Middle East Venture Partners (MEVP)"
+          ],
+          "postMoneyValuation": {
+            "amount": 13138129,
+            "currency": "USD"
+          },
+          "type": "Venture round"
+        },
+        {
+          "announcedDate": "2017-09-01",
+          "amount": {
+            "amount": 9530,
+            "currency": "USD"
+          },
+          "type": "Grant"
+        }
+      ],
+      "investors": {
+        "reportedCount": 6,
+        "visibleNames": [
+          {
+            "name": "500 Global",
+            "rounds": [
+              "Venture round"
+            ]
+          },
+          {
+            "name": "Dubai International Financial Centre (DIFC)",
+            "rounds": [
+              "Venture round"
+            ]
+          },
+          {
+            "name": "Khwarizmi Ventures",
+            "rounds": [
+              "Venture round"
+            ]
+          },
+          {
+            "isLead": true,
+            "name": "Middle East Venture Partners (MEVP)",
+            "rounds": [
+              "Venture round"
+            ]
+          },
+          {
+            "name": "MS&AD Ventures",
+            "rounds": [
+              "Venture round"
+            ]
+          },
+          {
+            "name": "Phoenician VC",
+            "rounds": [
+              "Venture round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 2,
+      "includedUniqueCount": 2,
+      "items": [
+        {
+          "date": "2020-03-23",
+          "title": "Venture Round - Go Rise"
+        },
+        {
+          "date": "2017-09-01",
+          "title": "Grant - Go Rise"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 2,
+    "knownDetailedFundingAmount": {
+      "amount": 2109530,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 99.55,
+    "grantFunding": {
+      "amount": {
+        "amount": 9530,
+        "currency": "USD"
+      },
+      "disclosedRoundCount": 1,
+      "shareOfTotalPercent": 0.45
+    },
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": 0,
+      "growthScore": 68,
+      "heatChange90Days": -7,
+      "heatScore": 64
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 0
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 14.34,
+        "timingEstimatePercent": {
+          "within6Months": 13.86,
+          "months6To11": 11.94,
+          "months12To24": 19.14,
+          "beyond24Months": 24.74
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 79.62
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 0
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "NOW Money offers digital payroll and mobile banking services focused on financial inclusion.",
+          "employeeRange": "51-100",
+          "name": "NOW Money",
+          "sharedCategories": [
+            "Financial Services"
+          ],
+          "sharedSpecialties": [
+            "International and Multi-Currency Accounts",
+            "Mobile Banking",
+            "International Money Transfer"
+          ],
+          "similarityScore": 97
+        },
+        {
+          "description": "Zolve is a neo-banking platform that provides financial products to consumers.",
+          "employeeRange": "101-250",
+          "name": "Zolve",
+          "sharedCategories": [
+            "Financial Services"
+          ],
+          "sharedSpecialties": [
+            "International and Multi-Currency Accounts",
+            "Mobile Banking",
+            "International Money Transfer"
+          ],
+          "similarityScore": 93
+        },
+        {
+          "description": "Payit is a mobile digital wallet solution app that provides money transfer, cash out, and pay bills services.",
+          "employeeRange": "10,001+",
+          "name": "Payit",
+          "sharedCategories": [
+            "Financial Services"
+          ],
+          "sharedSpecialties": [
+            "International Money Transfer"
+          ],
+          "similarityScore": 91
+        },
+        {
+          "description": "Deem Finance is a finance company that offers cash-up credit cards, miles-up credit cards, and personal loan solutions and services.",
+          "employeeRange": "501-1,000",
+          "name": "Deem Finance",
+          "sharedCategories": [
+            "Financial Services"
+          ],
+          "similarityScore": 89
+        },
+        {
+          "description": "Digital lifestyle banking",
+          "employeeRange": "10,001+",
+          "name": "Liv.",
+          "sharedSpecialties": [
+            "Personal Finance Management (PFM) Platforms",
+            "Mobile Banking",
+            "International Money Transfer"
+          ],
+          "similarityScore": 87
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Venture round round raised $2,100,000, or 99.55% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Meaningful non-dilutive funding",
+      "statement": "1 disclosed grants total $9,530, representing 0.45% of reported funding.",
+      "implication": "The grants reduce the share of reported financing attributed to equity or notes, although their restrictions and milestone requirements need separate verification.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.grantFunding"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $13,138,129 to $13,138,129, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 68 (+0 over 90 days) and market heat at 64 (-7).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include NOW Money, Zolve, Payit.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

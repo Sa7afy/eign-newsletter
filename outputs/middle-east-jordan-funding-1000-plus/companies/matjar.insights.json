@@ -1,0 +1,146 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T12:28:18.167Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T12:28:18.166Z",
+    "url": "https://www.crunchbase.com/organization/matjar"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Matjar",
+      "shortDescription": "Matjar is a unique e-commerce site that is aiming to provide the best prices in market along with the best experience.",
+      "description": "Matjar.ae is the a unique e-commerce site that seeks to disrupt consumer exploitation. Working in providing best deals with experience dipped in awesomeness.",
+      "website": "http://matjar.ae/",
+      "foundedYear": 2014,
+      "operatingStatus": "Closed",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "1-10",
+      "estimatedRevenueRange": "Less than $1M",
+      "headquarters": "Dubai, United Arab Emirates",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "E-Commerce",
+        "Marketing",
+        "Retail"
+      ],
+      "sectors": [
+        "Commerce and Shopping",
+        "Sales and Marketing"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "Matjar offers domain names for sale, including the domain matjar.ae, with options to buy immediately or make an offer.",
+        "name": "Domain Name Sales"
+      },
+      {
+        "description": "A program that safeguards buyers during domain name purchases by monitoring transactions and offering refunds if sellers fail to deliver.",
+        "name": "Buyer Protection Program"
+      },
+      {
+        "description": "A service that facilitates the transfer of domain ownership quickly and securely, with most transfers completed within 24 hours.",
+        "name": "Domain Ownership Transfer Service"
+      },
+      {
+        "description": "Matjar supports multiple payment options through the Adyen platform, including bank wire payments with a discount.",
+        "name": "Payment Processing via Adyen"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 100000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2014-01-01",
+      "lastFundingType": "Seed",
+      "rounds": [
+        {
+          "announcedDate": "2014-01-01",
+          "amount": {
+            "amount": 100000,
+            "currency": "USD"
+          },
+          "type": "Seed"
+        }
+      ]
+    },
+    "recentNews": {
+      "reportedCount": 1,
+      "includedUniqueCount": 1,
+      "items": [
+        {
+          "date": "2014-01-01",
+          "title": "Seed Round - Matjar"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 100000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "modelPredictions": {
+      "funding": {
+        "generatedDate": "2025-10-25",
+        "probabilityPercent": 3.29,
+        "timingEstimatePercent": {
+          "within6Months": 13.28,
+          "months6To11": 11.51,
+          "months12To24": 18.64,
+          "beyond24Months": 24.57
+        }
+      },
+      "growth": {
+        "generatedDate": "2025-10-25",
+        "probabilityPercent": 84.45
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors."
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Seed round raised $100,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

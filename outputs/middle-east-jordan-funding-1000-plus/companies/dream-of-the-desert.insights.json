@@ -1,0 +1,206 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T11:26:28.866Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T11:26:28.864Z",
+    "url": "https://www.crunchbase.com/organization/dream-of-the-desert"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Dream of the Desert",
+      "shortDescription": "Dream of the Desert designs ultra luxury train.",
+      "description": "Dream of the Desert designs ultra luxury train.",
+      "website": "https://www.dreamofthedesert.com/",
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "headquarters": "Riyadh, Ar Riyad, Saudi Arabia",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Railroad",
+        "Transportation"
+      ],
+      "sectors": [
+        "Transportation"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 84922785,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 2,
+      "detailedRoundCount": 2,
+      "lastFundingDate": "2025-12-23",
+      "lastFundingType": "Undisclosed",
+      "rounds": [
+        {
+          "announcedDate": "2025-12-23",
+          "amount": {
+            "amount": 41281909,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "Tourism Development Fund"
+          ],
+          "type": "Debt Financing"
+        },
+        {
+          "announcedDate": "2025-12-23",
+          "amount": {
+            "amount": 43640876,
+            "currency": "USD"
+          },
+          "investorCount": 2,
+          "leadInvestors": [
+            "Arsenale Group"
+          ],
+          "type": "Undisclosed"
+        }
+      ],
+      "investors": {
+        "reportedCount": 3,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "Arsenale Group",
+            "rounds": [
+              "Funding Round"
+            ]
+          },
+          {
+            "name": "SIMEST",
+            "rounds": [
+              "Funding Round"
+            ]
+          },
+          {
+            "isLead": true,
+            "name": "Tourism Development Fund",
+            "rounds": [
+              "Debt Financing"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 7,
+      "includedUniqueCount": 7,
+      "items": [
+        {
+          "date": "2026-05-16",
+          "publisher": "Eat ‘N Stays",
+          "title": "Dream of the Desert Establishes Riyadh HQ, Enters Delivery",
+          "url": "https://eatnstays.com/dream-of-the-desert-establishes-riyadh-hq-enters-delivery/"
+        },
+        {
+          "date": "2026-05-14",
+          "publisher": "Zawya.com",
+          "title": "Dream of the Desert opens Riyadh HQ, appoints GM",
+          "url": "https://www.zawya.com/en/economy/gcc/dream-of-the-desert-opens-riyadh-hq-appoints-gm-chfcj3le"
+        },
+        {
+          "date": "2026-05-13",
+          "publisher": "LogisticsGulf",
+          "title": "Dream of the Desert establishes Riyadh headquarters, marking entry into delivery phase",
+          "url": "https://logisticsgulf.com/2026/05/dream-of-the-desert-establishes-riyadh-headquarters-marking-entry-into-delivery-phase/"
+        },
+        {
+          "date": "2026-05-13",
+          "publisher": "Zawya.com",
+          "title": "Dream of the desert establishes Riyadh headquarters, marking entry into delivery phase",
+          "url": "https://www.zawya.com/en/press-release/companies-news/dream-of-the-desert-establishes-riyadh-headquarters-marking-entry-into-delivery-phase-mkny2a19"
+        },
+        {
+          "date": "2026-05-13",
+          "publisher": "Zawya.com",
+          "title": "Dream of the Desert establishes Riyadh headquarters, marking entry into delivery phase",
+          "url": "https://www.zawya.com/en/press-release/companies-news/dream-of-the-desert-establishes-riyadh-headquarters-marking-entry-into-delivery-phase-q64jrx10"
+        },
+        {
+          "date": "2025-12-23",
+          "title": "Debt Financing - Dream of the Desert"
+        },
+        {
+          "date": "2025-12-23",
+          "title": "Funding Round - Dream of the Desert"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 2,
+    "knownDetailedFundingAmount": {
+      "amount": 84922785,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 48.61
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": -4,
+      "growthScore": 90,
+      "heatChange90Days": -48,
+      "heatScore": 34
+    },
+    "modelPredictions": {
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 88.97
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors."
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Debt Financing round raised $41,281,909, or 48.61% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 90 (-4 over 90 days) and market heat at 34 (-48).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

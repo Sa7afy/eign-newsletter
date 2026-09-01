@@ -1,0 +1,278 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T13:18:55.148Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T13:18:55.146Z",
+    "url": "https://www.crunchbase.com/organization/science-street"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Science Street",
+      "shortDescription": "Science Street a platform for promoting science literacy",
+      "description": "Science Street a platform for promoting science literacy",
+      "website": "https://www.thesciencestreet.com/",
+      "foundedYear": 2017,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "51-100",
+      "headquarters": "Sharjah, United Arab Emirates",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Education",
+        "Events",
+        "Training"
+      ],
+      "sectors": [
+        "Education",
+        "Events"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "Theatrical presentations demonstrating scientific experiments and principles to engage audiences with basic educational concepts.",
+        "name": "Science Shows"
+      },
+      {
+        "description": "Seasonal camps offering hands-on learning in STEM, robotics, and programming for students to apply knowledge in practical settings.",
+        "name": "STEM Camps"
+      },
+      {
+        "description": "Events designed to educate the public about the importance and impact of science in everyday life.",
+        "name": "Awareness Campaigns"
+      },
+      {
+        "description": "A mobile science laboratory that delivers hands-on science education to students, especially in underserved areas.",
+        "name": "Science Bus"
+      },
+      {
+        "description": "Events featuring a variety of STEM activities, games, and exhibits designed to educate and engage people of all ages.",
+        "name": "STEM Carnivals"
+      },
+      {
+        "description": "Educational initiatives focused on teaching and applying science, technology, engineering, and mathematics concepts through curricula and kits.",
+        "name": "STEM Programs"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 600000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2024-06-06",
+      "lastFundingType": "Non Equity Assistance",
+      "rounds": [
+        {
+          "announcedDate": "2024-06-06",
+          "amount": {
+            "amount": 600000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "Edventures"
+          ],
+          "type": "Non Equity Assistance"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "Edventures",
+            "rounds": [
+              "Non Equity Assistance"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 1,
+      "includedUniqueCount": 1,
+      "items": [
+        {
+          "date": "2024-06-06",
+          "title": "Non Equity Assistance - Science Street"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 600000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": -2,
+      "growthScore": 52,
+      "heatChange90Days": -7,
+      "heatScore": 56
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 78.95
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 6.6,
+        "timingEstimatePercent": {
+          "within6Months": 0.41,
+          "months6To11": 0,
+          "months12To24": 0,
+          "beyond24Months": 99.59
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 61.86
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 15.07
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Science4Us is an digital elementary science curriculum provider.",
+          "employeeRange": "11-50",
+          "name": "Science4Us",
+          "sharedCategories": [
+            "Education"
+          ],
+          "sharedSpecialties": [
+            "Educational Games",
+            "STEAM Education"
+          ],
+          "similarityScore": 97
+        },
+        {
+          "description": "Mystery Science features ready-to-teach multimedia science and STEM lessons for K-5 students.",
+          "employeeRange": "11-50",
+          "name": "Mystery Science",
+          "sharedCategories": [
+            "Education"
+          ],
+          "sharedSpecialties": [
+            "Engineering Education",
+            "STEAM Education",
+            "K-12 Curriculum and School Programs"
+          ],
+          "similarityScore": 95
+        },
+        {
+          "description": "Generation Genius is a science teaching resource produced in partnership with the National Science Teachers Association.",
+          "employeeRange": "51-100",
+          "name": "Generation Genius",
+          "sharedSpecialties": [
+            "Educational Games",
+            "STEAM Education",
+            "K-12 Curriculum and School Programs"
+          ],
+          "similarityScore": 93
+        },
+        {
+          "description": "Discovery Education offers standards-aligned digital curriculum resources and engaging content for K-12 classrooms.",
+          "employeeRange": "501-1,000",
+          "name": "Discovery Education",
+          "sharedCategories": [
+            "Education"
+          ],
+          "sharedSpecialties": [
+            "Educational Games",
+            "STEAM Education",
+            "K-12 Curriculum and School Programs",
+            "XR and Immersive Learning"
+          ],
+          "similarityScore": 91
+        },
+        {
+          "description": "BrainPOP is a digital educational content creator that supports teachers and engages students.",
+          "employeeRange": "251-500",
+          "name": "BrainPOP",
+          "sharedCategories": [
+            "Education"
+          ],
+          "sharedSpecialties": [
+            "Educational Games",
+            "STEAM Education",
+            "K-12 Curriculum and School Programs"
+          ],
+          "similarityScore": 89
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Non Equity Assistance round raised $600,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 52 (-2 over 90 days) and market heat at 56 (-7).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Science4Us, Mystery Science, Generation Genius.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

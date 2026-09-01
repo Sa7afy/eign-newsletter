@@ -1,0 +1,217 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T12:40:50.941Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T12:40:50.939Z",
+    "url": "https://www.crunchbase.com/organization/nala-ai"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Nala",
+      "shortDescription": "Nala is a digital health company with the mission of simplifying healthcare access.",
+      "description": "Nala is a growing digital health service. Founded as one of the private enterprises that contribute to finding solutions to the challenges of Vision 2030, following an initiative by the National Digital Transformation Unit and the Saudi Ministry of Health. All of Nala's doctors are licensed by the Saudi Commission for Health Specialties.",
+      "website": "https://nala.ai/",
+      "operatingStatus": "Closed",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "11-50",
+      "headquarters": "Riyadh, Ar Riyad, Saudi Arabia",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Health Care",
+        "Predictive Analytics",
+        "Wellness"
+      ],
+      "sectors": [
+        "Artificial Intelligence (AI)",
+        "Data and Analytics",
+        "Health Care",
+        "Software"
+      ],
+      "founders": [
+        "Othman Abahussein"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 1000000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2019-11-11",
+      "lastFundingType": "Seed",
+      "rounds": [
+        {
+          "announcedDate": "2019-11-11",
+          "amount": {
+            "amount": 1000000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "AlAraby Investment"
+          ],
+          "postMoneyValuation": {
+            "amount": 6020995,
+            "currency": "USD"
+          },
+          "type": "Seed"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "AlAraby Investment",
+            "rounds": [
+              "Seed Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 2,
+      "includedUniqueCount": 2,
+      "items": [
+        {
+          "date": "2023-05-30",
+          "title": "Nala acquired by Integrative Health"
+        },
+        {
+          "date": "2019-11-11",
+          "title": "Seed Round - Nala"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 1000000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "heatChange90Days": -19,
+      "heatScore": 2
+    },
+    "modelPredictions": {
+      "growth": {
+        "generatedDate": "2026-05-09",
+        "probabilityPercent": 92.34
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Altibbi is the Largest Digital Health platform in the Arab World, including 1.5M pages of medical content and a 24/7 telehealth service.",
+          "employeeRange": "101-250",
+          "name": "Altibbi",
+          "sharedCategories": [
+            "Health Care"
+          ],
+          "similarityScore": 97
+        },
+        {
+          "description": "Vezeeta provides patients with a digital healthcare booking platform and management software.",
+          "employeeRange": "251-500",
+          "name": "Vezeeta",
+          "sharedCategories": [
+            "Health Care"
+          ],
+          "similarityScore": 95
+        },
+        {
+          "description": "Yaqoot is an E-commerce software operating platform.",
+          "employeeRange": "11-50",
+          "name": "Yaqoot",
+          "similarityScore": 93
+        },
+        {
+          "description": "HOMAGE turns back the clock with shout outs to eclectic moments",
+          "employeeRange": "1-10",
+          "name": "Homage",
+          "similarityScore": 91
+        },
+        {
+          "description": "Halodoc is a health-tech platform that connects patients with doctors, insurance, labs, and pharmacies.",
+          "employeeRange": "1,001-5,000",
+          "name": "Halodoc",
+          "sharedCategories": [
+            "Health Care"
+          ],
+          "similarityScore": 87
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Seed round raised $1,000,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $6,020,995 to $6,020,995, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Altibbi, Vezeeta, Yaqoot.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

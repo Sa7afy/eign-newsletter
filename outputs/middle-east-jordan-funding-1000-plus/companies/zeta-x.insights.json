@@ -1,0 +1,292 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T14:06:34.458Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T14:06:34.456Z",
+    "url": "https://www.crunchbase.com/organization/zeta-x"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "XLab Research",
+      "shortDescription": "XLAB Research builds AI, machine learning, blockchain, data analysis, and application development services.",
+      "description": "A company interested in artificial intelligence and has several projects in the financial markets, design and programming and is considered a holding company on several projects",
+      "website": "https://www.xlabresearch.com/",
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "51-100",
+      "headquarters": "Jufair, Al Manamah, Bahrain",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Artificial Intelligence (AI)",
+        "Cloud Computing",
+        "Hedge Funds",
+        "Machine Learning"
+      ],
+      "sectors": [
+        "Artificial Intelligence (AI)",
+        "Data and Analytics",
+        "Financial Services",
+        "Information Technology",
+        "Internet Services",
+        "Lending and Investments",
+        "Science and Engineering",
+        "Software"
+      ],
+      "founders": [
+        "Turki Alsadoon",
+        "Yasir Ammar"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "Service for developing AI, machine learning, and natural language processing applications tailored to client projects.",
+        "name": "Artificial Intelligence and Machine Learning Application Building Service"
+      },
+      {
+        "description": "Development of blockchain-based applications and decentralized apps on networks like Ethereum, Binance Chain, and Solana.",
+        "name": "Blockchain and Decentralized Applications (DApps) Development"
+      },
+      {
+        "description": "Services for analyzing complex data sets and creating automated trading systems for financial markets.",
+        "name": "Data Analysis and Automated Trading Systems"
+      },
+      {
+        "description": "Development of full applications, programs, scripts, websites, and games based on client ideas.",
+        "name": "Application, Program, Script, and Website Development"
+      },
+      {
+        "description": "AI-based tools designed to assist in screening and early detection of cancers using imaging and blood tests.",
+        "name": "AI Tools for Early Cancer Detection"
+      },
+      {
+        "description": "Data labeling service for autonomous driving systems to identify and classify complex and irregular driving scenarios.",
+        "name": "Auto Reg Drive Detections Data Labeling Service"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 13800000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 2,
+      "detailedRoundCount": 2,
+      "lastFundingDate": "2020-01-03",
+      "lastFundingType": "Series A",
+      "rounds": [
+        {
+          "announcedDate": "2020-01-03",
+          "amount": {
+            "amount": 5800000,
+            "currency": "USD"
+          },
+          "type": "Series A"
+        },
+        {
+          "announcedDate": "2020-01-01",
+          "amount": {
+            "amount": 8000000,
+            "currency": "USD"
+          },
+          "postMoneyValuation": {
+            "amount": 16000000,
+            "currency": "USD"
+          },
+          "type": "Series B"
+        }
+      ]
+    },
+    "recentNews": {
+      "reportedCount": 2,
+      "includedUniqueCount": 2,
+      "items": [
+        {
+          "date": "2020-01-03",
+          "title": "Series A - XLab Research"
+        },
+        {
+          "date": "2020-01-01",
+          "title": "Series B - XLab Research"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 2,
+    "knownDetailedFundingAmount": {
+      "amount": 13800000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 42.03,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": 0,
+      "growthScore": 59,
+      "heatChange90Days": -6,
+      "heatScore": 45
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 33.47
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 9.93,
+        "timingEstimatePercent": {
+          "within6Months": 15.77,
+          "months6To11": 13.28,
+          "months12To24": 20.61,
+          "beyond24Months": 25
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 81.71
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 20.69
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "[x]cube LABS offer a range of digital solutions, from ideation and strategy to execution and product engineering.",
+          "employeeRange": "501-1,000",
+          "name": "[x]cube LABS",
+          "sharedSpecialties": [
+            "MLOps"
+          ],
+          "similarityScore": 95
+        },
+        {
+          "description": "SoluLab Inc is leading Mobile and Website development & Blockchain Development company, started by ex principal software architect of Citrix",
+          "employeeRange": "251-500",
+          "name": "SoluLab Inc",
+          "sharedSpecialties": [
+            "MLOps",
+            "Decentralized Exchanges",
+            "NFT Marketplaces",
+            "Crypto Custody and Wallets",
+            "Smart Contract Development Frameworks"
+          ],
+          "similarityScore": 94
+        },
+        {
+          "description": "Innovating with AI, Crafting Future-Ready Solutions, Driving Business Transformation",
+          "employeeRange": "501-1,000",
+          "name": "OpenXcell",
+          "sharedCategories": [
+            "Machine Learning",
+            "Artificial Intelligence (AI)"
+          ],
+          "sharedSpecialties": [
+            "Diagnostic Imaging"
+          ],
+          "similarityScore": 93
+        },
+        {
+          "description": "We are tech service company. Our primary focus is Software & Product development, FinTech, EdTech. We are certified AWS partner.",
+          "employeeRange": "101-250",
+          "name": "Geniusee",
+          "sharedCategories": [
+            "Artificial Intelligence (AI)"
+          ],
+          "similarityScore": 89
+        },
+        {
+          "description": "LeewayHertz is an AI-focused software development company empowering businesses with robust and scalable AI solutions.",
+          "employeeRange": "101-250",
+          "name": "LeewayHertz Technologies",
+          "sharedCategories": [
+            "Cloud Computing"
+          ],
+          "sharedSpecialties": [
+            "Decentralized Exchanges",
+            "Smart Contract Development Frameworks"
+          ],
+          "similarityScore": 88
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Series A round raised $5,800,000, or 42.03% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $16,000,000 to $16,000,000, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 59 (+0 over 90 days) and market heat at 45 (-6).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include [x]cube LABS, SoluLab Inc, OpenXcell.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

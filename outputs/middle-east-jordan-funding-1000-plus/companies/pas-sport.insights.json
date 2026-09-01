@@ -1,0 +1,171 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T12:54:03.101Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T12:54:03.100Z",
+    "url": "https://www.crunchbase.com/organization/pas-sport"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "pas-sport",
+      "shortDescription": "Online platform connecting athletes in the MENA region with international sports scholarships",
+      "description": "pas-sport, is changing the sports industry in the Middle East by introducing the opportunity of sports scholarships to all the talented athletes. Our mission is to ensure talented athletes in the region maximize their athletic and academic potential, regardless of socioeconomic status, by receiving financial and educational support to access opportunities they would not have pursued or perhaps afforded – namely a United States college education through a sports scholarship.We aim to develop our product and service mix in order to continue supporting athletes throughout their full athletic lifecycle –from their junior sporting years all the way to their professional career.",
+      "website": "https://www.passportathlete.com/",
+      "operatingStatus": "Closed",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "1-10",
+      "estimatedRevenueRange": "$1M-$10M",
+      "headquarters": "Cairo, Al Qahirah, Egypt",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Middle East",
+        "Middle East and North Africa (MENA)",
+        "North Africa"
+      ],
+      "industries": [
+        "College Recruiting",
+        "EdTech",
+        "Education",
+        "Internet",
+        "Sports"
+      ],
+      "sectors": [
+        "Administrative Services",
+        "Education",
+        "Information Technology",
+        "Software",
+        "Sports"
+      ],
+      "founders": [
+        "Nada Zaher",
+        "Youssef Hammoud"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "A digital platform that connects athletes in the MENA region with opportunities for international sports scholarships.",
+        "name": "Online Platform Connecting Athletes with International Sports Scholarships"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 30000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 2,
+      "detailedRoundCount": 2,
+      "lastFundingDate": "2019-11-01",
+      "lastFundingType": "Pre Seed",
+      "rounds": [
+        {
+          "announcedDate": "2019-11-01",
+          "type": "Pre Seed"
+        },
+        {
+          "announcedDate": "2019-04-17",
+          "amount": {
+            "amount": 30000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "type": "Pre Seed"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "name": "Falak Startups",
+            "rounds": [
+              "Pre Seed Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 2,
+      "includedUniqueCount": 2,
+      "items": [
+        {
+          "date": "2019-11-01",
+          "title": "Pre Seed Round - pas-sport"
+        },
+        {
+          "date": "2019-04-17",
+          "title": "Pre Seed Round - pas-sport"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 30000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "heatChange90Days": -16,
+      "heatScore": 28
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2024-10-21",
+        "probabilityPercent": 3.7
+      },
+      "funding": {
+        "generatedDate": "2025-10-25",
+        "probabilityPercent": 15.12,
+        "timingEstimatePercent": {
+          "within6Months": 14.41,
+          "months6To11": 12.34,
+          "months12To24": 19.59,
+          "beyond24Months": 24.87
+        }
+      },
+      "growth": {
+        "generatedDate": "2025-10-25",
+        "probabilityPercent": 89.64
+      },
+      "ipo": {
+        "generatedDate": "2024-10-21",
+        "probabilityPercent": 0
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Smarthlete is a college sports recruitment network for prospective student-athletes.",
+          "employeeRange": "1-10",
+          "name": "Smarthlete",
+          "sharedCategories": [
+            "Sports"
+          ],
+          "similarityScore": 89
+        }
+      ]
+    }
+  },
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

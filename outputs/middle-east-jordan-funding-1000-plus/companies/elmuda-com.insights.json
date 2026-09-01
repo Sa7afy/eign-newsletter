@@ -1,0 +1,201 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T11:32:45.506Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T11:32:45.504Z",
+    "url": "https://www.crunchbase.com/organization/elmuda-com"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Elmuda",
+      "shortDescription": "Elmuda.com is the Middle East's premier online luxury fashion destination for the modern women.",
+      "description": "Elmuda.com is the Middle East's premier online luxury fashion destination for the modern women. Designed to suit the fast, glamorous life, their collections focus on limited edition items featuring the latest trends. With just one click and unrivaled access to the hottest looks of the season from global esteemed labels, they offer their valuable customers exactly what they want. This online platform unites fashion lovers with more than 150 brands around the world, where they can buy unique pieces from London to LA, Berlin to Bucharest, Paris to Milan.",
+      "website": "http://www.elmuda.com/",
+      "foundedYear": 2014,
+      "operatingStatus": "Closed",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "1-10",
+      "estimatedRevenueRange": "Less than $1M",
+      "headquarters": "Amman, Jordan",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "E-Commerce",
+        "Fashion",
+        "Information Technology",
+        "Retail"
+      ],
+      "sectors": [
+        "Clothing and Apparel",
+        "Commerce and Shopping",
+        "Design",
+        "Information Technology"
+      ],
+      "founders": [
+        "Badea Jaber",
+        "Ruba Abdulhadi"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 31000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2014-11-01",
+      "lastFundingType": "Seed",
+      "rounds": [
+        {
+          "announcedDate": "2014-11-01",
+          "amount": {
+            "amount": 31000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "type": "Seed"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "name": "Oasis500",
+            "rounds": [
+              "Seed Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 1,
+      "includedUniqueCount": 1,
+      "items": [
+        {
+          "date": "2014-11-01",
+          "title": "Seed Round - Elmuda"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 31000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "heatChange90Days": -15,
+      "heatScore": 5
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Net-a-porter.com is an online luxury fashion retailer.",
+          "employeeRange": "1,001-5,000",
+          "name": "Net-a-porter.com",
+          "sharedCategories": [
+            "E-Commerce",
+            "Fashion"
+          ],
+          "similarityScore": 94
+        },
+        {
+          "description": "Farfetch is a global marketplace for the luxury fashion industry.",
+          "employeeRange": "1,001-5,000",
+          "name": "Farfetch",
+          "sharedCategories": [
+            "E-Commerce",
+            "Retail",
+            "Fashion"
+          ],
+          "similarityScore": 93
+        },
+        {
+          "description": "mytheresa.com is an online store that offers women's luxury and designer fashion products.",
+          "employeeRange": "501-1,000",
+          "name": "mytheresa.com",
+          "sharedCategories": [
+            "E-Commerce",
+            "Fashion"
+          ],
+          "similarityScore": 92
+        },
+        {
+          "description": "SSENSE is an online platform that offers a range of luxury designer clothing for men and women.",
+          "employeeRange": "1,001-5,000",
+          "name": "SSENSE",
+          "sharedCategories": [
+            "E-Commerce",
+            "Retail",
+            "Fashion"
+          ],
+          "similarityScore": 91
+        },
+        {
+          "description": "Harrods is an upmarket department store located on Brompton Road in Knightsbridge, in the Royal Borough of Kensington and Chelsea, London.",
+          "employeeRange": "1,001-5,000",
+          "name": "Harrods",
+          "sharedCategories": [
+            "Retail",
+            "Fashion"
+          ],
+          "similarityScore": 89
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Seed round raised $31,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Net-a-porter.com, Farfetch, mytheresa.com.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

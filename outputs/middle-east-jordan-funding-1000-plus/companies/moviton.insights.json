@@ -1,0 +1,216 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T12:36:51.610Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T12:36:51.608Z",
+    "url": "https://www.crunchbase.com/organization/moviton"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "MovitOn",
+      "shortDescription": "MovitOn is a Web3-based peer-to-peer delivery and travelers’ marketplace platform.",
+      "description": "MovitOn is a Web3-based peer-to-peer delivery and travelers’ marketplace platform that aims to connect senders with travelers and couriers for faster and more affordable global deliveries. The platform combines blockchain technology, smart contracts, and AI-driven logistics tools to facilitate cross-border delivery of documents, electronics, medical items, valuables, and other packages.",
+      "website": "https://www.moviton.com/",
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "1-10",
+      "headquarters": "Dubai, United Arab Emirates",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Bitcoin",
+        "Cryptocurrency"
+      ],
+      "sectors": [
+        "Blockchain and Cryptocurrency",
+        "Financial Services",
+        "Payments",
+        "Software"
+      ],
+      "founders": [
+        "Erik Tleubeck"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 2000000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2026-03-25",
+      "lastFundingType": "Initial Coin Offering",
+      "rounds": [
+        {
+          "announcedDate": "2026-03-25",
+          "amount": {
+            "amount": 2000000,
+            "currency": "USD"
+          },
+          "type": "Initial Coin Offering"
+        }
+      ]
+    },
+    "recentNews": {
+      "reportedCount": 5,
+      "includedUniqueCount": 5,
+      "items": [
+        {
+          "date": "2026-05-15",
+          "publisher": "Tech.eu",
+          "title": "Isomorphic Labs lands $2.1B, Keel's post-neobank pivot, and Poland's software evolution",
+          "url": "https://tech.eu/2026/05/15/isomorphic-labs-lands-2-1b-keel-s-post-neobank-pivot-and-poland-s-software-evolution/"
+        },
+        {
+          "date": "2026-05-13",
+          "publisher": "Tech.eu",
+          "title": "Glocalzone acquired by MovitOn to expand decentralised logistics network",
+          "url": "https://tech.eu/2026/05/13/glocalzone-acquired-by-moviton-to-expand-decentralised-logistics-network/"
+        },
+        {
+          "date": "2026-05-13",
+          "publisher": "Tech.eu",
+          "title": "Recursive Superintelligence emerges from stealth with $650M raise",
+          "url": "https://tech.eu/2026/05/13/recursive-superintelligence-emerges-from-stealth-with-650m-raise/"
+        },
+        {
+          "date": "2026-05-13",
+          "title": "Glocalzone acquired by MovitOn"
+        },
+        {
+          "date": "2026-03-25",
+          "title": "Initial Coin Offering - MovitOn"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 2000000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthInsightGeneratedDate": "2026-05-17",
+      "growthChange90Days": -10,
+      "growthScore": 73,
+      "heatChange90Days": -54,
+      "heatScore": 29,
+      "status": "Growing"
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 28.5
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 95.96
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 65.77
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Roadie puts unused space in passenger vehicles to work by connecting people with items to send with drivers heading in the right direction.",
+          "employeeRange": "251-500",
+          "name": "Roadie",
+          "similarityScore": 97
+        },
+        {
+          "description": "CitizenShipper is a provider of online shipping services used to connect shipping customers with couriers and transport providers.",
+          "employeeRange": "11-50",
+          "name": "CitizenShipper",
+          "similarityScore": 95
+        },
+        {
+          "description": "Uber Freight is the logistics arm of Uber that helps truck drivers connect with shipping companies.",
+          "employeeRange": "1,001-5,000",
+          "name": "Uber Freight",
+          "similarityScore": 93
+        },
+        {
+          "description": "Uber develops, markets, and operates a ride-sharing mobile application that allows consumers to submit a trip request.",
+          "employeeRange": "10,001+",
+          "name": "Uber",
+          "similarityScore": 88
+        },
+        {
+          "description": "Shipt is a grocery delivery service that lets members order groceries and alcohol from their local store for delivery right to their door.",
+          "employeeRange": "1,001-5,000",
+          "name": "Shipt",
+          "similarityScore": 87
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Initial Coin Offering round raised $2,000,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 73 (-10 over 90 days) and market heat at 29 (-54).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Roadie, CitizenShipper, Uber Freight.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

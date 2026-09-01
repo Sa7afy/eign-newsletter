@@ -1,0 +1,328 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T12:56:22.615Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T12:56:22.613Z",
+    "url": "https://www.crunchbase.com/organization/pi-flow"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Pi Flow",
+      "shortDescription": "Pi Flow operates as an accounting services provider.",
+      "description": "Pi Flow operates as an accounting services provider. Pi Flow is a dedicated Virtual accounting team that offers bookkeeping services and strives to enhance the quality of our client's books.",
+      "website": "https://piflow.net/",
+      "foundedYear": 2017,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "11-50",
+      "headquarters": "Jeddah, Makkah, Saudi Arabia",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Accounting",
+        "Bookkeeping and Payroll"
+      ],
+      "sectors": [
+        "Financial Services",
+        "Professional Services"
+      ],
+      "founders": [
+        "Mohammed Al-Raddadi",
+        "Walid Merdad"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "Tiered accounting service packages tailored to company size and transaction volume, including bookkeeping, financial reporting, tax preparation, and monthly financial meetings.",
+        "name": "Accounting Packages"
+      },
+      {
+        "description": "Service to accurately prepare and upload financial statements to the Saudi Ministry of Commerce's Qawaem platform.",
+        "name": "Financial Statement Filing Service"
+      },
+      {
+        "description": "Service to prepare and evaluate the chart of accounts for accurate financial record-keeping.",
+        "name": "Accounting Tree Setup and Review"
+      },
+      {
+        "description": "Preparation of financial reports for past periods, ranging from one month up to two years.",
+        "name": "Financial Reporting Preparation"
+      },
+      {
+        "description": "A six-hour workshop focused on building financial models for startups and businesses.",
+        "name": "Financial Modeling Workshop"
+      },
+      {
+        "description": "A six-hour workshop teaching product pricing strategies and techniques.",
+        "name": "Product Pricing Workshop"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 39840,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 2,
+      "detailedRoundCount": 2,
+      "lastFundingDate": "2020-08-17",
+      "lastFundingType": "Seed",
+      "rounds": [
+        {
+          "announcedDate": "2020-08-17",
+          "investorCount": 2,
+          "leadInvestors": [
+            "Saudi Venture Capital"
+          ],
+          "postMoneyValuation": {
+            "amount": 3595781,
+            "currency": "USD"
+          },
+          "type": "Seed"
+        },
+        {
+          "announcedDate": "2020-03-31",
+          "amount": {
+            "amount": 39840,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "type": "Non Equity Assistance"
+        }
+      ],
+      "investors": {
+        "reportedCount": 3,
+        "visibleNames": [
+          {
+            "name": "Oqal",
+            "rounds": [
+              "Seed Round"
+            ]
+          },
+          {
+            "isLead": true,
+            "name": "Saudi Venture Capital",
+            "rounds": [
+              "Seed Round"
+            ]
+          },
+          {
+            "name": "Taqadam",
+            "rounds": [
+              "Non Equity Assistance"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 4,
+      "includedUniqueCount": 4,
+      "items": [
+        {
+          "date": "2020-08-24",
+          "publisher": "Wamda News",
+          "title": "Pi Flow closes first round of funding",
+          "url": "https://wamda.com/2020/08/pi-flow-closes-round-funding"
+        },
+        {
+          "date": "2020-08-22",
+          "publisher": "LAFFAZ",
+          "title": "Saudi’s Pi Flow raises undisclosed funds from SVC",
+          "url": "https://laffaz.com/saudis-pi-flow-raises-undisclosed-funds-from-svc/"
+        },
+        {
+          "date": "2020-08-17",
+          "title": "Seed Round - Pi Flow"
+        },
+        {
+          "date": "2020-03-31",
+          "title": "Non Equity Assistance - Pi Flow"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 39840,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": 32,
+      "growthScore": 69,
+      "heatChange90Days": -9,
+      "heatScore": 42
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 35.84
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 14.88,
+        "timingEstimatePercent": {
+          "within6Months": 14.46,
+          "months6To11": 12.37,
+          "months12To24": 19.63,
+          "beyond24Months": 24.87
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 97.74
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 35.22
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Decimal is a technology platform for the accounting operations of small-and-medium-sized businesses.",
+          "employeeRange": "1-10",
+          "name": "Decimal",
+          "sharedCategories": [
+            "Bookkeeping and Payroll",
+            "Accounting"
+          ],
+          "sharedSpecialties": [
+            "Accounts Receivable and Payable Services"
+          ],
+          "similarityScore": 95
+        },
+        {
+          "description": "Pilot is a platform that offers bookkeeping, tax, and CFO services for growing businesses.",
+          "employeeRange": "251-500",
+          "name": "Pilot",
+          "sharedCategories": [
+            "Bookkeeping and Payroll",
+            "Accounting"
+          ],
+          "sharedSpecialties": [
+            "Fractional CFO Services",
+            "Accounting and Financial Reporting",
+            "Reconciliation Services",
+            "Tax Preparation Services",
+            "Accounts Receivable and Payable Services",
+            "Outsourced Controller Services"
+          ],
+          "similarityScore": 91
+        },
+        {
+          "description": "Licensed CPA Firm that offers professional bookkeeping, consulting, & tax preparation services to small businesses across the United States.",
+          "employeeRange": "1-10",
+          "name": "Aced Accounting",
+          "sharedCategories": [
+            "Bookkeeping and Payroll",
+            "Accounting"
+          ],
+          "sharedSpecialties": [
+            "Tax Preparation Services",
+            "Accounts Receivable and Payable Services",
+            "Outsourced Controller Services"
+          ],
+          "similarityScore": 91
+        },
+        {
+          "description": "We at whiz consulting provide online bookkeeping services at low costs. Our list of extensive services includes accounting, bookkeeping etc.",
+          "employeeRange": "101-250",
+          "name": "WHIZ CONSULTING PRIVATE LIMITED",
+          "sharedCategories": [
+            "Bookkeeping and Payroll"
+          ],
+          "sharedSpecialties": [
+            "Reconciliation Services",
+            "Accounts Receivable and Payable Services",
+            "Outsourced Controller Services",
+            "Bank Reconciliation"
+          ],
+          "similarityScore": 90
+        },
+        {
+          "description": "An intelligent bookkeeping automation platform powered by human-assisted AI, purpose built for accounting professionals.",
+          "employeeRange": "251-500",
+          "name": "Botkeeper",
+          "sharedCategories": [
+            "Bookkeeping and Payroll",
+            "Accounting"
+          ],
+          "sharedSpecialties": [
+            "Accounts Receivable and Payable Services",
+            "Bank Reconciliation"
+          ],
+          "similarityScore": 89
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $3,595,781 to $3,595,781, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 69 (+32 over 90 days) and market heat at 42 (-9).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Decimal, Pilot, Aced Accounting.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

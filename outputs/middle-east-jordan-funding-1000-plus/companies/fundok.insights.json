@@ -1,0 +1,336 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T11:47:45.286Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T11:47:45.283Z",
+    "url": "https://www.crunchbase.com/organization/fundok"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "FunDok",
+      "shortDescription": "Guest Experience Management Platform for Short Term Rental Operators / limited service hotels and their Guests",
+      "description": "Fundok is a cloud based guest experience management platform that targets the fast growing market of short term rentals. \nFundok platform enriches travelers experience by providing them with relevant and localized information about their destination as well as access to a suite of services such as food delivery, grocery, bookings and reservations, as well as essential information on their apartment and area.\nFunDok platform enables short term rental operators to enhance their guest's experience by building loyalty, diversifying their revenue and differentiating from competitors.",
+      "website": "https://www.fundok.io/",
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "1-10",
+      "estimatedRevenueRange": "Less than $1M",
+      "headquarters": "Dubai, United Arab Emirates",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Hospitality",
+        "Information Technology",
+        "SaaS",
+        "Tourism",
+        "Travel"
+      ],
+      "sectors": [
+        "Information Technology",
+        "Software",
+        "Travel and Tourism"
+      ],
+      "founders": [
+        "Ahmed Hamad",
+        "Bassel Kabbabe",
+        "Mohamed Nassar"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "A digital platform for enhancing guest-host interactions, offering insights, and enabling service upselling.",
+        "name": "Guest Experience Management Solution"
+      },
+      {
+        "description": "Includes seamless communication, data analytics, revenue diversification, and a dashboard for managing guest stays.",
+        "name": "Operator Services"
+      },
+      {
+        "description": "Provides guests with information on apartments, city events, tours, area info, and booking services for laundry, baggage storage, food, and groceries.",
+        "name": "Guest Services"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 123612,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 2,
+      "detailedRoundCount": 2,
+      "lastFundingDate": "2020-10-01",
+      "lastFundingType": "Pre Seed",
+      "rounds": [
+        {
+          "announcedDate": "2020-10-01",
+          "amount": {
+            "amount": 110000,
+            "currency": "USD"
+          },
+          "investorCount": 2,
+          "postMoneyValuation": {
+            "amount": 1473664,
+            "currency": "USD"
+          },
+          "type": "Pre Seed"
+        },
+        {
+          "announcedDate": "2020-10-01",
+          "amount": {
+            "amount": 13612,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "Intelak Hub"
+          ],
+          "type": "Grant"
+        }
+      ],
+      "investors": {
+        "reportedCount": 3,
+        "visibleNames": [
+          {
+            "name": "Falak Startups",
+            "rounds": [
+              "Pre Seed Round"
+            ]
+          },
+          {
+            "isLead": true,
+            "name": "Intelak Hub",
+            "rounds": [
+              "Grant"
+            ]
+          },
+          {
+            "name": "Wamda Capital",
+            "rounds": [
+              "Pre Seed Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 3,
+      "includedUniqueCount": 3,
+      "items": [
+        {
+          "date": "2020-10-01",
+          "title": "Grant - FunDok"
+        },
+        {
+          "date": "2020-10-01",
+          "title": "Pre Seed Round - FunDok"
+        },
+        {
+          "date": "2020-01-16",
+          "publisher": "MAGNiTT",
+          "title": "Wamda X second cohort launches with 13 promising startups",
+          "url": "https://magnitt.com/news/51426/wamda-x-second-cohort-launches-with-13-promising-startups"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 2,
+    "knownDetailedFundingAmount": {
+      "amount": 123612,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 88.99,
+    "grantFunding": {
+      "amount": {
+        "amount": 13612,
+        "currency": "USD"
+      },
+      "disclosedRoundCount": 1,
+      "shareOfTotalPercent": 11.01
+    },
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": 0,
+      "growthScore": 63,
+      "heatChange90Days": -6,
+      "heatScore": 66
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 0
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 14.54,
+        "timingEstimatePercent": {
+          "within6Months": 14.9,
+          "months6To11": 12.68,
+          "months12To24": 19.98,
+          "beyond24Months": 24.94
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 83.15
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 0
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Duve is an end-to-end guest management system helping hoteliers achieve a personalized and contactless guest experience & upsell services.",
+          "employeeRange": "101-250",
+          "name": "Duve",
+          "sharedCategories": [
+            "Travel",
+            "Hospitality"
+          ],
+          "sharedSpecialties": [
+            "Vacation Rental Channel Management"
+          ],
+          "similarityScore": 97
+        },
+        {
+          "description": "Guesty’s advanced technology optimizes, automates, and streamlines every aspect of managing a hospitality business, all from one platform.",
+          "employeeRange": "501-1,000",
+          "name": "Guesty",
+          "sharedCategories": [
+            "Information Technology",
+            "Hospitality"
+          ],
+          "sharedSpecialties": [
+            "Vacation Rental Channel Management"
+          ],
+          "similarityScore": 93
+        },
+        {
+          "description": "Hostaway is a technology company that provides a platform for property management, focusing on bookings and guest communication.",
+          "employeeRange": "101-250",
+          "name": "Hostaway",
+          "sharedSpecialties": [
+            "Property Marketing and Media",
+            "Vacation Rental Channel Management"
+          ],
+          "similarityScore": 91
+        },
+        {
+          "description": "Hospitable.com automates the management of short-term rentals, directly on booking channels.",
+          "employeeRange": "101-250",
+          "name": "Hospitable.com",
+          "sharedCategories": [
+            "Hospitality"
+          ],
+          "sharedSpecialties": [
+            "Vacation Rental Channel Management",
+            "Travel Reporting and Analytics"
+          ],
+          "similarityScore": 86
+        },
+        {
+          "description": "Touch Stay enables vacation rental managers to create custom trip content for guests to access via their smartphone, tablet, or PC.",
+          "employeeRange": "1-10",
+          "name": "Touch Stay",
+          "sharedCategories": [
+            "Travel"
+          ],
+          "sharedSpecialties": [
+            "Search Engine Reputation Management (SERM)",
+            "Travel Reporting and Analytics"
+          ],
+          "similarityScore": 83
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Pre Seed round raised $110,000, or 88.99% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Meaningful non-dilutive funding",
+      "statement": "1 disclosed grants total $13,612, representing 11.01% of reported funding.",
+      "implication": "The grants reduce the share of reported financing attributed to equity or notes, although their restrictions and milestone requirements need separate verification.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.grantFunding"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $1,473,664 to $1,473,664, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 63 (+0 over 90 days) and market heat at 66 (-6).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Duve, Guesty, Hostaway.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

@@ -1,0 +1,235 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T13:57:03.810Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T13:57:03.808Z",
+    "url": "https://www.crunchbase.com/organization/wasco-lab"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "WASCO LAB",
+      "shortDescription": "WASCO LAB provides hardware and software solutions for municipalities and private waste collection companies",
+      "website": "http://wascolabs.com/",
+      "foundedYear": 2018,
+      "operatingStatus": "Closed",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "1-10",
+      "headquarters": "Manama, Al Manamah, Bahrain",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "CleanTech",
+        "Data Visualization",
+        "Internet of Things",
+        "Logistics",
+        "Software",
+        "Waste Management"
+      ],
+      "sectors": [
+        "Data and Analytics",
+        "Design",
+        "Information Technology",
+        "Internet Services",
+        "Software",
+        "Sustainability",
+        "Transportation"
+      ],
+      "founders": [
+        "Gulnar Absalamova",
+        "Orkhan Aslanov"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 53000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 2,
+      "detailedRoundCount": 2,
+      "lastFundingDate": "2019-11-28",
+      "lastFundingType": "Pre Seed",
+      "rounds": [
+        {
+          "announcedDate": "2019-11-28",
+          "amount": {
+            "amount": 53000,
+            "currency": "USD"
+          },
+          "investorCount": 2,
+          "leadInvestors": [
+            "Brinc",
+            "Tamkeen"
+          ],
+          "type": "Pre Seed"
+        },
+        {
+          "announcedDate": "2019-07-05",
+          "investorCount": 1,
+          "type": "Grant"
+        }
+      ],
+      "investors": {
+        "reportedCount": 3,
+        "visibleNames": [
+          {
+            "name": "BP p.l.c.",
+            "rounds": [
+              "Grant"
+            ]
+          },
+          {
+            "isLead": true,
+            "name": "Brinc",
+            "rounds": [
+              "Pre Seed Round"
+            ]
+          },
+          {
+            "isLead": true,
+            "name": "Tamkeen",
+            "rounds": [
+              "Pre Seed Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 2,
+      "includedUniqueCount": 2,
+      "items": [
+        {
+          "date": "2019-11-28",
+          "title": "Pre Seed Round - WASCO LAB"
+        },
+        {
+          "date": "2019-07-05",
+          "title": "Grant - WASCO LAB"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 53000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "grantFunding": {
+      "amount": {
+        "amount": 0,
+        "currency": "USD"
+      },
+      "disclosedRoundCount": 1
+    }
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "heatChange90Days": -7,
+      "heatScore": 46
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Sensoneo is a provider of enterprise-grade smart waste management solutions for cities and businesses",
+          "employeeRange": "51-100",
+          "name": "Sensoneo",
+          "sharedCategories": [
+            "Waste Management",
+            "Internet of Things"
+          ],
+          "similarityScore": 97
+        },
+        {
+          "description": "Ecube Labs develops smart waste management solutions and remote monitoring tools.",
+          "employeeRange": "11-50",
+          "name": "Ecube Labs",
+          "sharedCategories": [
+            "Waste Management",
+            "Internet of Things"
+          ],
+          "similarityScore": 95
+        },
+        {
+          "description": "OnePlus Systems Inc. is an Illinois-based manufacturer of container fullness and control systems.",
+          "employeeRange": "51-100",
+          "name": "OnePlus Systems",
+          "sharedCategories": [
+            "Software",
+            "Waste Management"
+          ],
+          "similarityScore": 93
+        },
+        {
+          "description": "Bigbelly transforms the way organizations manage waste & recycling, while saving time, fuel and money and beautifying their public space.",
+          "employeeRange": "51-100",
+          "name": "Bigbelly",
+          "sharedCategories": [
+            "Waste Management"
+          ],
+          "similarityScore": 91
+        },
+        {
+          "description": "Evreka designs digitized and end-to-end waste management solutions with a focus on operational excellence in the waste management industry.",
+          "employeeRange": "51-100",
+          "name": "Evreka",
+          "sharedCategories": [
+            "Waste Management"
+          ],
+          "similarityScore": 89
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Pre Seed round raised $53,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Sensoneo, Ecube Labs, OnePlus Systems.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

@@ -1,0 +1,241 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T14:06:13.667Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T14:06:13.666Z",
+    "url": "https://www.crunchbase.com/organization/zerek-technologies"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Zerek Technologies",
+      "shortDescription": "Zerek Technologies is an IoT and safety tech company that focuses on workplace safety.",
+      "website": "https://zerektech.com/",
+      "operatingStatus": "Closed",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "1-10",
+      "estimatedRevenueRange": "Less than $1M",
+      "headquarters": "Manama, Al Manamah, Bahrain",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Enterprise Software",
+        "Internet of Things",
+        "Life Science"
+      ],
+      "sectors": [
+        "Biotechnology",
+        "Information Technology",
+        "Internet Services",
+        "Science and Engineering",
+        "Software"
+      ],
+      "founders": [
+        "Amit Singh",
+        "Pratik Jani",
+        "Yogesh Borhade"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 55650,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2018-11-30",
+      "lastFundingType": "Seed",
+      "rounds": [
+        {
+          "announcedDate": "2018-11-30",
+          "amount": {
+            "amount": 55650,
+            "currency": "USD"
+          },
+          "investorCount": 2,
+          "leadInvestors": [
+            "Tamkeen"
+          ],
+          "postMoneyValuation": {
+            "amount": 511761,
+            "currency": "USD"
+          },
+          "type": "Seed"
+        }
+      ],
+      "investors": {
+        "reportedCount": 2,
+        "visibleNames": [
+          {
+            "name": "Brinc",
+            "rounds": [
+              "Seed Round"
+            ]
+          },
+          {
+            "isLead": true,
+            "name": "Tamkeen",
+            "rounds": [
+              "Seed Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 1,
+      "includedUniqueCount": 1,
+      "items": [
+        {
+          "date": "2018-11-30",
+          "title": "Seed Round - Zerek Technologies"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 55650,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "heatChange90Days": -17,
+      "heatScore": 67
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-04-18",
+        "probabilityPercent": 0
+      },
+      "funding": {
+        "generatedDate": "2026-04-18",
+        "probabilityPercent": 9.43,
+        "timingEstimatePercent": {
+          "within6Months": 14.59,
+          "months6To11": 12.46,
+          "months12To24": 19.73,
+          "beyond24Months": 24.9
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-04-18",
+        "probabilityPercent": 73.3
+      },
+      "ipo": {
+        "generatedDate": "2026-04-18",
+        "probabilityPercent": 0
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Trio Mobil develops solutions to prevent accidents and improve efficiency in industrial operations to achieve the zero accident goal.",
+          "employeeRange": "251-500",
+          "name": "Trio Mobil",
+          "sharedCategories": [
+            "Enterprise Software",
+            "Internet of Things"
+          ],
+          "similarityScore": 97
+        },
+        {
+          "description": "Triax Technologies delivers a connected IoT worksite platform for construction, energy, and heavy industrial environments.",
+          "employeeRange": "11-50",
+          "name": "Triax Technologies",
+          "sharedCategories": [
+            "Internet of Things"
+          ],
+          "similarityScore": 95
+        },
+        {
+          "description": "electronic labels, Bluetooth Module, Bluetooth Beacon, Bluetooth Sensor, Bluetooth &WiFi/Ethernet Gateway, Manufacturer., IOT solutions",
+          "employeeRange": "251-500",
+          "name": "Minew",
+          "sharedCategories": [
+            "Internet of Things"
+          ],
+          "similarityScore": 91
+        },
+        {
+          "description": "Zyter is a fast-growing provider of digital health products that enhance interoperability",
+          "employeeRange": "101-250",
+          "name": "Zyter|TruCare",
+          "similarityScore": 90
+        },
+        {
+          "description": "Blackline Safety is a global leader in connected safety technology with a hardware-enabled software-as-a-service (HeSaaS) business model.",
+          "employeeRange": "251-500",
+          "name": "Blackline Safety",
+          "similarityScore": 89
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Seed round raised $55,650, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $511,761 to $511,761, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Trio Mobil, Triax Technologies, Minew.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

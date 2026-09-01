@@ -1,0 +1,261 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T12:36:16.996Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T12:36:16.994Z",
+    "url": "https://www.crunchbase.com/organization/mosawer-net"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Mosawer.net",
+      "shortDescription": "Mosawer.net is a commercial photography comprehensive that helps photographers and videographers to efficiently manage their workflow.",
+      "description": "MOSAWER.NET is a commercial photography comprehensive that helps photographers and videographers to efficiently manage their workflow by providing them with the tools and exposure they need to significantly grow their businesses, enabling them to focus on what they do best.",
+      "website": "https://www.mosawer.net/",
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "1-10",
+      "headquarters": "Gîza, Al Jizah, Egypt",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Middle East",
+        "Middle East and North Africa (MENA)",
+        "North Africa"
+      ],
+      "industries": [
+        "Advertising Platforms",
+        "Photography",
+        "Scheduling"
+      ],
+      "sectors": [
+        "Advertising",
+        "Content and Publishing",
+        "Media and Entertainment",
+        "Software"
+      ],
+      "founders": [
+        "Mina William",
+        "Mohab Elmandouh",
+        "Mohamed Basha"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 28000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 2,
+      "detailedRoundCount": 2,
+      "lastFundingDate": "2018-05-15",
+      "lastFundingType": "Seed",
+      "rounds": [
+        {
+          "announcedDate": "2018-05-15",
+          "amount": {
+            "amount": 28000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "F6 Ventures"
+          ],
+          "postMoneyValuation": {
+            "amount": 499625,
+            "currency": "USD"
+          },
+          "type": "Seed"
+        },
+        {
+          "announcedDate": "2017-08-06",
+          "investorCount": 1,
+          "leadInvestors": [
+            "Technology Innovation and Entrepreneurship Center"
+          ],
+          "type": "Non Equity Assistance"
+        }
+      ],
+      "investors": {
+        "reportedCount": 2,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "F6 Ventures",
+            "rounds": [
+              "Seed Round"
+            ]
+          },
+          {
+            "isLead": true,
+            "name": "Technology Innovation and Entrepreneurship Center",
+            "rounds": [
+              "Non Equity Assistance"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 2,
+      "includedUniqueCount": 2,
+      "items": [
+        {
+          "date": "2018-05-15",
+          "title": "Seed Round - Mosawer.net"
+        },
+        {
+          "date": "2017-08-06",
+          "title": "Non Equity Assistance - Mosawer.net"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 28000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": 0,
+      "growthScore": 38,
+      "heatChange90Days": -11,
+      "heatScore": 35
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 17.02
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 10.73,
+        "timingEstimatePercent": {
+          "within6Months": 12.45,
+          "months6To11": 10.9,
+          "months12To24": 17.9,
+          "beyond24Months": 24.23
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 84.25
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 27.73
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Pixieset is a Vancouver based company that provides software solutions for professional photographers.",
+          "employeeRange": "101-250",
+          "name": "Pixieset",
+          "similarityScore": 97
+        },
+        {
+          "description": "Studio Ninja is a photography business management application for photographers.",
+          "employeeRange": "11-50",
+          "name": "Studio Ninja",
+          "similarityScore": 95
+        },
+        {
+          "description": "HoneyBook is the leading AI-powered business management platform for service-based entrepreneurs.",
+          "employeeRange": "251-500",
+          "name": "HoneyBook",
+          "similarityScore": 91
+        },
+        {
+          "description": "17hats is the complete system that helps automate, organize, and optimize small business management for freelancers and entrepreneurs.",
+          "employeeRange": "11-50",
+          "name": "17hats",
+          "similarityScore": 89
+        },
+        {
+          "description": "Dubsado is a business management solution.",
+          "employeeRange": "51-100",
+          "name": "Dubsado",
+          "sharedCategories": [
+            "Scheduling"
+          ],
+          "similarityScore": 87
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Seed round raised $28,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $499,625 to $499,625, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 38 (+0 over 90 days) and market heat at 35 (-11).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Pixieset, Studio Ninja, HoneyBook.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

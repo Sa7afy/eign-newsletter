@@ -1,0 +1,316 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T13:03:05.681Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T13:03:05.679Z",
+    "url": "https://www.crunchbase.com/organization/qawafel"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Qawafel",
+      "shortDescription": "Qawafel is an online marketplace that offers food products.",
+      "description": "Qawafel Company for E-Marketing is an electronic platform for the exchange of perishable food products between shops and producers. It is a platform for e-commerce for food suppliers and retailers.",
+      "website": "https://qawafel.sa/",
+      "foundedYear": 2020,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "11-50",
+      "estimatedRevenueRange": "Less than $1M",
+      "headquarters": "Riyadh, Ar Riyad, Saudi Arabia",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "B2B",
+        "E-Commerce",
+        "Internet",
+        "Marketplace",
+        "Retail",
+        "Wholesale"
+      ],
+      "sectors": [
+        "Commerce and Shopping",
+        "Information Technology",
+        "Other"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "An online platform connecting wholesale food suppliers with retail stores, enabling bulk buying and selling of food products.",
+        "name": "Qawafel Marketplace"
+      },
+      {
+        "description": "A logistics service offering multiple shipping options through a network of partners to deliver products efficiently across Saudi Arabia.",
+        "name": "Qawafel Logistics"
+      },
+      {
+        "description": "A digital toolset for retailers to manage their online stores, including inventory, product marketing, and sales margin tracking.",
+        "name": "Qawafel Store Management"
+      },
+      {
+        "description": "A suite of integrated solutions for wholesale business management, including product, team, and customer management, as well as billing and reporting.",
+        "name": "Qawafel Business Solutions"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 3000000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 2,
+      "detailedRoundCount": 2,
+      "lastFundingDate": "2024-01-01",
+      "lastFundingType": "Venture round",
+      "rounds": [
+        {
+          "announcedDate": "2024-01-01",
+          "investorCount": 1,
+          "postMoneyValuation": {
+            "amount": 23318791,
+            "currency": "USD"
+          },
+          "type": "Venture round"
+        },
+        {
+          "announcedDate": "2022-03-13",
+          "amount": {
+            "amount": 3000000,
+            "currency": "USD"
+          },
+          "investorCount": 3,
+          "leadInvestors": [
+            "Alsayed Sons",
+            "Alsayer Group",
+            "Khwarizmi Ventures"
+          ],
+          "postMoneyValuation": {
+            "amount": 17370260,
+            "currency": "USD"
+          },
+          "type": "Seed"
+        }
+      ],
+      "investors": {
+        "reportedCount": 4,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "Alsayed Sons",
+            "rounds": [
+              "Seed Round"
+            ]
+          },
+          {
+            "isLead": true,
+            "name": "Alsayer Group",
+            "rounds": [
+              "Seed Round"
+            ]
+          },
+          {
+            "isLead": true,
+            "name": "Khwarizmi Ventures",
+            "rounds": [
+              "Seed Round"
+            ]
+          },
+          {
+            "name": "SHARE Investment",
+            "rounds": [
+              "Venture round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 3,
+      "includedUniqueCount": 3,
+      "items": [
+        {
+          "date": "2024-01-01",
+          "title": "Venture Round - Qawafel"
+        },
+        {
+          "date": "2022-03-13",
+          "title": "Seed Round - Qawafel"
+        },
+        {
+          "date": "2022-03-13",
+          "publisher": "Wamda News",
+          "title": "Saudi Qawafel raises $3 million Seed round",
+          "url": "https://www.wamda.com/2022/03/saudi-qawafel-raises-3-million-seed-round"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 3000000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1.34
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": -2,
+      "growthScore": 29,
+      "heatChange90Days": -6,
+      "heatScore": 55
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 95.26
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 36.82,
+        "timingEstimatePercent": {
+          "within6Months": 5.38,
+          "months6To11": 0,
+          "months12To24": 0,
+          "beyond24Months": 94.62
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 95
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 4.41
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Dropshipping marketplace that connects Retailers who want to grow their catalog & AOV to DTC Suppliers who want to find new sales channels.",
+          "employeeRange": "1,001-5,000",
+          "name": "Carro",
+          "sharedCategories": [
+            "E-Commerce",
+            "Marketplace",
+            "Retail"
+          ],
+          "sharedSpecialties": [
+            "Marketplace Management",
+            "B2B E-Commerce Platforms",
+            "Multivendor Marketplace Platforms"
+          ],
+          "similarityScore": 100
+        },
+        {
+          "description": "Sary is a MENAP B2B marketplace connecting small businesses with wholesalers and lenders to procure supply efficiently.",
+          "employeeRange": "251-500",
+          "name": "Sary",
+          "sharedCategories": [
+            "E-Commerce",
+            "Marketplace",
+            "Wholesale",
+            "B2B"
+          ],
+          "sharedSpecialties": [
+            "FMCG Distribution",
+            "Marketplace Management",
+            "B2B E-Commerce Platforms",
+            "Multivendor Marketplace Platforms"
+          ],
+          "similarityScore": 94
+        },
+        {
+          "description": "The first Dropshipping platform of Saudi Arabia. It offers products, storage, packaging, and shipping.",
+          "employeeRange": "51-100",
+          "name": "M5azn",
+          "sharedCategories": [
+            "E-Commerce"
+          ],
+          "sharedSpecialties": [
+            "Warehouse Management Systems"
+          ],
+          "similarityScore": 89.163
+        },
+        {
+          "description": "Elmenus is an online food discovery platform that provides its users with digitized restaurant menus from food carts to hotel restaurants.",
+          "employeeRange": "101-250",
+          "name": "elmenus",
+          "similarityScore": 88
+        },
+        {
+          "description": "Bosta is a logistics and technology company that provides next-day delivery and fast transfer services to e-commerce businesses.",
+          "employeeRange": "11-50",
+          "name": "Bosta",
+          "sharedCategories": [
+            "E-Commerce"
+          ],
+          "similarityScore": 86
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $17,370,260 to $23,318,791, a 1.34x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 29 (-2 over 90 days) and market heat at 55 (-6).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Carro, Sary, M5azn.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

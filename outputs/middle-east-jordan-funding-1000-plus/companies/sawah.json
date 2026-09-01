@@ -1,0 +1,5132 @@
+{
+  "sourceUrl": "https://www.crunchbase.com/organization/sawah",
+  "pageTitle": "sawah",
+  "scrapedAt": "2026-09-01T13:18:16.842Z",
+  "extraction": {
+    "authenticated": true,
+    "method": "curl-cffi-authenticated-entity-fetch-no-browser"
+  },
+  "organization": {
+    "properties": {
+      "facet_ids": [
+        "ai_insight",
+        "builtwith",
+        "company",
+        "rank",
+        "semrush"
+      ],
+      "identifier": {
+        "uuid": "10b38ae0-c530-4609-b22f-d91a3b77c66b",
+        "value": "Sawah",
+        "image_id": "nnwrhpbpof0nsjhflrse",
+        "permalink": "sawah",
+        "entity_def_id": "organization"
+      },
+      "short_description": "Sawah is an application-based platform that provides local tour guides to travelers.",
+      "rank_delta_d90": 1.9,
+      "title": "Sawah"
+    },
+    "cards": {
+      "semrush_summary": {
+        "identifier": {
+          "uuid": "10b38ae0-c530-4609-b22f-d91a3b77c66b",
+          "value": "Sawah",
+          "image_id": "nnwrhpbpof0nsjhflrse",
+          "permalink": "sawah",
+          "entity_def_id": "organization"
+        },
+        "semrush_global_rank": 23581055,
+        "semrush_visits_latest_month": 61
+      },
+      "key_employee_change_list": [],
+      "apptopia_attribution": {},
+      "diversity_spotlight_investments_headline": {},
+      "apptopia_app_rating_list": [],
+      "funds_summary": {
+        "identifier": {
+          "uuid": "10b38ae0-c530-4609-b22f-d91a3b77c66b",
+          "value": "Sawah",
+          "image_id": "nnwrhpbpof0nsjhflrse",
+          "permalink": "sawah",
+          "entity_def_id": "organization"
+        }
+      },
+      "funding_prediction": [],
+      "company_about_fields1": {},
+      "current_advisors_image_list": [],
+      "recommended_search": [
+        {
+          "identifier": {
+            "permalink": "asia-seed-stage-companies-less-than-1m-in-revenue",
+            "image_id": "nyjk8u4ujc6zjrq0sbqg",
+            "uuid": "a2a8881b-91d3-45b8-9123-656e47b31c96",
+            "entity_def_id": "hub",
+            "value": "Asia Seed Stage Companies With Less Than $1M in Revenue"
+          },
+          "org_identifiers": [
+            {
+              "permalink": "sivi-ai",
+              "image_id": "nyjk8u4ujc6zjrq0sbqg",
+              "uuid": "c6c4f509-e02b-4bca-aea4-513025478abf",
+              "entity_def_id": "organization",
+              "value": "Sivi AI"
+            },
+            {
+              "permalink": "hir-infotech-private-limited",
+              "image_id": "k3dgnspbckpajn1xrsho",
+              "uuid": "9884bf72-2123-44fc-9bf3-7e0f9e1b39de",
+              "entity_def_id": "organization",
+              "value": "Hir Infotech"
+            },
+            {
+              "permalink": "mowito",
+              "image_id": "xdwpr1hkmuzux9zhoksu",
+              "uuid": "28aaf6b4-0a1a-4a86-9ef4-281299ec4237",
+              "entity_def_id": "organization",
+              "value": "Mowito"
+            },
+            {
+              "permalink": "arrowhead-ddc0",
+              "image_id": "ae16cc0872714d69beddb8f9a9435f50",
+              "uuid": "c293c60e-dec2-401e-91fd-12789f42ddc0",
+              "entity_def_id": "organization",
+              "value": "Arrowhead"
+            },
+            {
+              "permalink": "codepresso",
+              "image_id": "c9d10f867ca547f1b9b353df5f84c030",
+              "uuid": "4ce43f11-ef79-4a59-a5a3-5715a6a6dc88",
+              "entity_def_id": "organization",
+              "value": "Codepresso"
+            },
+            {
+              "permalink": "gabit-ef43",
+              "image_id": "c5mcfiyjwtzffkxiiqn4",
+              "uuid": "eda7e7ee-fa65-4365-9c4c-324850e3ef43",
+              "entity_def_id": "organization",
+              "value": "Gabit"
+            },
+            {
+              "permalink": "1crowd",
+              "image_id": "v1457571037/nsm4mvftxj9rthqdyw6h.png",
+              "uuid": "c4c89f5d-7dbb-f81a-ce7d-ff0571a7bd35",
+              "entity_def_id": "organization",
+              "value": "1Crowd"
+            },
+            {
+              "permalink": "pints",
+              "image_id": "xnt6qhuqghss56elz0vm",
+              "uuid": "83cb5bc5-0bad-4570-9544-80ee42ae2bc0",
+              "entity_def_id": "organization",
+              "value": "Pints AI"
+            }
+          ],
+          "org_funding_total": {
+            "currency": "USD",
+            "value": 1723309298,
+            "value_usd": 1723309298
+          },
+          "org_num_investors": 7621,
+          "org_num": 3243,
+          "queries": {
+            "event": [
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "b41404d2-8ecc-caf5-1268-8fdd3afe73ee"
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "principal.has_event.forward",
+                "query": [
+                  {
+                    "field_id": "facet_ids",
+                    "operator_id": "includes",
+                    "values": [
+                      "company"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "revenue_range",
+                    "operator_id": "includes",
+                    "values": [
+                      "r_00000000"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "funding_stage",
+                    "operator_id": "eq",
+                    "values": [
+                      "seed"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "active"
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ],
+            "organization": [
+              {
+                "field_id": "facet_ids",
+                "operator_id": "includes",
+                "values": [
+                  "company"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "b41404d2-8ecc-caf5-1268-8fdd3afe73ee"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "revenue_range",
+                "operator_id": "includes",
+                "values": [
+                  "r_00000000"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "funding_stage",
+                "operator_id": "eq",
+                "values": [
+                  "seed"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "operating_status",
+                "operator_id": "eq",
+                "values": [
+                  "active"
+                ],
+                "type": "predicate"
+              }
+            ],
+            "person": [
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "b41404d2-8ecc-caf5-1268-8fdd3afe73ee"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "rank_person",
+                "operator_id": "lte",
+                "values": [
+                  700000
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "organization.has_primary_organization.forward",
+                "query": [
+                  {
+                    "field_id": "facet_ids",
+                    "operator_id": "includes",
+                    "values": [
+                      "company"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "location_identifiers",
+                    "operator_id": "includes",
+                    "values": [
+                      "b41404d2-8ecc-caf5-1268-8fdd3afe73ee"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "revenue_range",
+                    "operator_id": "includes",
+                    "values": [
+                      "r_00000000"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "funding_stage",
+                    "operator_id": "eq",
+                    "values": [
+                      "seed"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "active"
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ]
+          }
+        },
+        {
+          "identifier": {
+            "permalink": "middle-east-and-north-africa-startups",
+            "image_id": "216886c7d09c49d39cce6277f342d12d",
+            "uuid": "a0785fc0-8a25-4339-9828-f169b6ba1982",
+            "entity_def_id": "hub",
+            "value": "Middle East and North Africa (MENA) Startups"
+          },
+          "org_identifiers": [
+            {
+              "permalink": "fasset",
+              "image_id": "216886c7d09c49d39cce6277f342d12d",
+              "uuid": "fb8d3cbb-6706-4fda-941f-7add24517f7c",
+              "entity_def_id": "organization",
+              "value": "Fasset"
+            },
+            {
+              "permalink": "omilia",
+              "image_id": "a6e6d6f0223b4e70840705a17f248b9e",
+              "uuid": "49e3e363-63c7-e951-4974-1c79137fcef0",
+              "entity_def_id": "organization",
+              "value": "Omilia"
+            },
+            {
+              "permalink": "groundcover",
+              "image_id": "1e72fd70219541fc8c97c87e9faa67c6",
+              "uuid": "6ee7de61-7f3a-4f7c-8fd7-3b8059c41eb6",
+              "entity_def_id": "organization",
+              "value": "Groundcover"
+            },
+            {
+              "permalink": "remepy-healthcare",
+              "image_id": "hrzg28gqupnfqskstkis",
+              "uuid": "b4f69efc-f8c1-4584-820d-d75632eb8b22",
+              "entity_def_id": "organization",
+              "value": "Remepy"
+            },
+            {
+              "permalink": "sum-substance",
+              "image_id": "dzkqy2t2ow6tsuenwjyt",
+              "uuid": "e2c268e2-6f14-4349-abbc-8f2ad3928ac3",
+              "entity_def_id": "organization",
+              "value": "Sumsub"
+            },
+            {
+              "permalink": "quanthealth-f6d1",
+              "image_id": "39d7c7c39a5e48b68871189a7e929112",
+              "uuid": "d9491487-14f3-433d-94b7-1b75881ff6d1",
+              "entity_def_id": "organization",
+              "value": "QuantHealth"
+            },
+            {
+              "permalink": "hush-security",
+              "image_id": "2e33696f80c345a48582a428f6144bef",
+              "uuid": "470a1eac-b652-4fbf-970a-01638b9d4f2b",
+              "entity_def_id": "organization",
+              "value": "Hush Security"
+            },
+            {
+              "permalink": "aidoc",
+              "image_id": "010c4922ce0842869e11601a4e9eae90",
+              "uuid": "c50a4b0c-8c71-4249-6ed7-4a376f2c1831",
+              "entity_def_id": "organization",
+              "value": "Aidoc"
+            }
+          ],
+          "org_funding_total": {
+            "currency": "USD",
+            "value": 57200857975,
+            "value_usd": 57200857975
+          },
+          "org_num_investors": 20062,
+          "org_num": 7857,
+          "queries": {
+            "event": [
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "8cb7cad4-b7e4-4b28-a496-2ede3720cb19"
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "principal.has_event.forward",
+                "query": [
+                  {
+                    "field_id": "funding_stage",
+                    "operator_id": "includes",
+                    "values": [
+                      "seed",
+                      "early_stage_venture",
+                      "late_stage_venture"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "active"
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ],
+            "organization": [
+              {
+                "field_id": "funding_stage",
+                "operator_id": "includes",
+                "values": [
+                  "seed",
+                  "early_stage_venture",
+                  "late_stage_venture"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "8cb7cad4-b7e4-4b28-a496-2ede3720cb19"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "operating_status",
+                "operator_id": "eq",
+                "values": [
+                  "active"
+                ],
+                "type": "predicate"
+              }
+            ],
+            "person": [
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "8cb7cad4-b7e4-4b28-a496-2ede3720cb19"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "rank_person",
+                "operator_id": "lte",
+                "values": [
+                  160000
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "organization.has_primary_organization.forward",
+                "query": [
+                  {
+                    "field_id": "funding_stage",
+                    "operator_id": "includes",
+                    "values": [
+                      "seed",
+                      "early_stage_venture",
+                      "late_stage_venture"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "location_identifiers",
+                    "operator_id": "includes",
+                    "values": [
+                      "8cb7cad4-b7e4-4b28-a496-2ede3720cb19"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "active"
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ]
+          }
+        },
+        {
+          "identifier": {
+            "permalink": "gulf-cooperation-council-companies-less-than-500m-in-revenue",
+            "image_id": "v1444307467/wjljtmzfwxmg9xxokd23.png",
+            "uuid": "a056bdfa-d79e-4a3d-b3b0-91bdbfa77ce2",
+            "entity_def_id": "hub",
+            "value": "Gulf Cooperation Council (GCC) Companies With Less Than $500M in Revenue (Top 10K)"
+          },
+          "org_identifiers": [
+            {
+              "permalink": "investcorp-2",
+              "image_id": "v1444307467/wjljtmzfwxmg9xxokd23.png",
+              "uuid": "2f09a625-dfd1-bea9-d16b-0a45158c80c9",
+              "entity_def_id": "organization",
+              "value": "Investcorp"
+            },
+            {
+              "permalink": "masdar-abu-dhabi-future-energy-company",
+              "image_id": "jcx27u7bl3ql8jco2dng",
+              "uuid": "6277c63a-1dc8-a7b5-f900-5c392c026afd",
+              "entity_def_id": "organization",
+              "value": "Masdar"
+            },
+            {
+              "permalink": "a1r-water",
+              "image_id": "1e483de797a14b9fb5fdf94635ca739c",
+              "uuid": "ce65cd3e-1f1a-41c6-a966-87f53b1d8789",
+              "entity_def_id": "organization",
+              "value": "A1R WATER"
+            },
+            {
+              "permalink": "careem",
+              "image_id": "89cebfad73fa4d1da5101b16a8eb7d5e",
+              "uuid": "8044fef3-7107-8de4-9564-ab7ecf80eae4",
+              "entity_def_id": "organization",
+              "value": "Careem"
+            },
+            {
+              "permalink": "sal-d6f6",
+              "image_id": "ktrk4gnfsntxpypikjhe",
+              "uuid": "f986e75a-8334-48f4-a8b2-e3f159bed6f6",
+              "entity_def_id": "organization",
+              "value": "SAL"
+            },
+            {
+              "permalink": "riyadh-air",
+              "image_id": "c2219fb5e93b488287630d7981e565bd",
+              "uuid": "c4ba0df9-a8b8-4efa-bfa8-c1088fd49b29",
+              "entity_def_id": "organization",
+              "value": "Riyadh Air"
+            },
+            {
+              "permalink": "mozn",
+              "image_id": "j0qr4qgwopwwz4lxq04n",
+              "uuid": "7287b03f-94ca-4482-83b4-80791f4f72b6",
+              "entity_def_id": "organization",
+              "value": "Mozn"
+            },
+            {
+              "permalink": "rain-bh",
+              "image_id": "l5hrxcnhuujyhb2numhj",
+              "uuid": "b7edfd22-8c2f-48ec-bff1-b29aeb3ca3cf",
+              "entity_def_id": "organization",
+              "value": "Rain"
+            }
+          ],
+          "org_funding_total": {
+            "currency": "USD",
+            "value": 127470448931,
+            "value_usd": 127470448931
+          },
+          "org_num_investors": 4476,
+          "org_num": 9561,
+          "queries": {
+            "event": [
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "c4365698-c7c5-44b0-b33a-7d13900e5be2"
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "principal.has_event.forward",
+                "query": [
+                  {
+                    "field_id": "facet_ids",
+                    "operator_id": "includes",
+                    "values": [
+                      "company"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "revenue_range",
+                    "operator_id": "includes",
+                    "values": [
+                      "r_00000000",
+                      "r_00001000",
+                      "r_00010000",
+                      "r_00050000",
+                      "r_00100000"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "active"
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ],
+            "organization": [
+              {
+                "field_id": "facet_ids",
+                "operator_id": "includes",
+                "values": [
+                  "company"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "c4365698-c7c5-44b0-b33a-7d13900e5be2"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "revenue_range",
+                "operator_id": "includes",
+                "values": [
+                  "r_00000000",
+                  "r_00001000",
+                  "r_00010000",
+                  "r_00050000",
+                  "r_00100000"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "operating_status",
+                "operator_id": "eq",
+                "values": [
+                  "active"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "rank_org",
+                "operator_id": "lte",
+                "values": [
+                  1300000
+                ],
+                "type": "predicate"
+              }
+            ],
+            "person": [
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "c4365698-c7c5-44b0-b33a-7d13900e5be2"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "rank_person",
+                "operator_id": "lte",
+                "values": [
+                  160000
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "organization.has_primary_organization.forward",
+                "query": [
+                  {
+                    "field_id": "facet_ids",
+                    "operator_id": "includes",
+                    "values": [
+                      "company"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "location_identifiers",
+                    "operator_id": "includes",
+                    "values": [
+                      "c4365698-c7c5-44b0-b33a-7d13900e5be2"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "revenue_range",
+                    "operator_id": "includes",
+                    "values": [
+                      "r_00000000",
+                      "r_00001000",
+                      "r_00010000",
+                      "r_00050000",
+                      "r_00100000"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "active"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "rank_org",
+                    "operator_id": "lte",
+                    "values": [
+                      1300000
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ]
+          }
+        },
+        {
+          "identifier": {
+            "permalink": "saudi-arabia-startups",
+            "image_id": "710c1bdcc944473395943d44b58eb7bb",
+            "uuid": "98d139a6-5a1d-4f3f-b687-a7f1ceb062b0",
+            "entity_def_id": "hub",
+            "value": "Saudi Arabia Startups"
+          },
+          "org_identifiers": [
+            {
+              "permalink": "aila-a6e1",
+              "image_id": "710c1bdcc944473395943d44b58eb7bb",
+              "uuid": "55e3c4b4-7408-4306-99e4-bb3c02d0a6e1",
+              "entity_def_id": "organization",
+              "value": "AILA"
+            },
+            {
+              "permalink": "lahint-company",
+              "image_id": "qw2tz7m5kpopjgoesyqz",
+              "uuid": "cd27ae34-fb6d-4ba5-9df6-c9de8bd9c042",
+              "entity_def_id": "organization",
+              "value": "Lahint Company"
+            },
+            {
+              "permalink": "trukker",
+              "image_id": "gpnbfx8jb7uhlf8ojn2j",
+              "uuid": "3f1ef3da-ed90-5163-1ff1-2bc26d9c586b",
+              "entity_def_id": "organization",
+              "value": "TruKKer"
+            },
+            {
+              "permalink": "lean",
+              "image_id": "58b2bc49557f409baab021675119b45b",
+              "uuid": "78dbae20-ba02-4ed5-9df6-1efff5e8edfd",
+              "entity_def_id": "organization",
+              "value": "Lean Technologies"
+            },
+            {
+              "permalink": "think-ai-18b7",
+              "image_id": "aa39398804ce425799a2361dd0525803",
+              "uuid": "19d00bd7-62a8-42e1-91bb-72dbad4518b7",
+              "entity_def_id": "organization",
+              "value": "Think AI"
+            },
+            {
+              "permalink": "raff",
+              "image_id": "944c69427be7429d853757a3a1c97429",
+              "uuid": "03a29cfe-cd21-44f8-8200-25d71c9b4bc4",
+              "entity_def_id": "organization",
+              "value": "Raff"
+            },
+            {
+              "permalink": "tabby",
+              "image_id": "q0fhei9xjrtcy0k4a0hz",
+              "uuid": "ca1d5b46-d509-466c-9d6b-7cb7f6af4c2e",
+              "entity_def_id": "organization",
+              "value": "Tabby"
+            },
+            {
+              "permalink": "fitting",
+              "image_id": "a8a8904e243b4a68bf80311c8e55c0bf",
+              "uuid": "92cda9fb-b789-4950-8450-b6a4b8627961",
+              "entity_def_id": "organization",
+              "value": "Fitting"
+            }
+          ],
+          "org_funding_total": {
+            "currency": "USD",
+            "value": 10000781292,
+            "value_usd": 10000781292
+          },
+          "org_num_investors": 1651,
+          "org_num": 714,
+          "queries": {
+            "event": [
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "2c205931-d55b-569b-0fdf-957f2f062bf3"
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "principal.has_event.forward",
+                "query": [
+                  {
+                    "field_id": "funding_stage",
+                    "operator_id": "includes",
+                    "values": [
+                      "seed",
+                      "early_stage_venture",
+                      "late_stage_venture"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "active"
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ],
+            "organization": [
+              {
+                "field_id": "funding_stage",
+                "operator_id": "includes",
+                "values": [
+                  "seed",
+                  "early_stage_venture",
+                  "late_stage_venture"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "2c205931-d55b-569b-0fdf-957f2f062bf3"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "operating_status",
+                "operator_id": "eq",
+                "values": [
+                  "active"
+                ],
+                "type": "predicate"
+              }
+            ],
+            "person": [
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "2c205931-d55b-569b-0fdf-957f2f062bf3"
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "organization.has_primary_organization.forward",
+                "query": [
+                  {
+                    "field_id": "funding_stage",
+                    "operator_id": "includes",
+                    "values": [
+                      "seed",
+                      "early_stage_venture",
+                      "late_stage_venture"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "location_identifiers",
+                    "operator_id": "includes",
+                    "values": [
+                      "2c205931-d55b-569b-0fdf-957f2f062bf3"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "active"
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ]
+          }
+        }
+      ],
+      "org_similarity_org_list": [
+        {
+          "identifier": {
+            "uuid": "0faa8f94-4c78-6b53-eb96-a269c7d20e2a",
+            "value": "Backpackr",
+            "image_id": "v1400762982/kwo85kimf81r47es3czi.png",
+            "permalink": "backpackr-2",
+            "entity_def_id": "organization"
+          }
+        },
+        {
+          "identifier": {
+            "uuid": "7a2ef835-0e0b-4cbe-91f9-03fa1ac4b711",
+            "value": "Overlap",
+            "image_id": "buyvjpndh1yzddselpdy",
+            "permalink": "overlap-b711",
+            "entity_def_id": "organization"
+          }
+        },
+        {
+          "identifier": {
+            "uuid": "de8fa8c6-f80d-486d-b5c3-a1b810c8d5e5",
+            "value": "AnyWay Guides",
+            "image_id": "ydp8c4j3xbbjoywlixtk",
+            "permalink": "anyway-guides",
+            "entity_def_id": "organization"
+          }
+        }
+      ],
+      "investors_summary": {
+        "identifier": {
+          "uuid": "10b38ae0-c530-4609-b22f-d91a3b77c66b",
+          "value": "Sawah",
+          "image_id": "nnwrhpbpof0nsjhflrse",
+          "permalink": "sawah",
+          "entity_def_id": "organization"
+        }
+      },
+      "funds_list": [],
+      "alumni_image_list": [],
+      "semrush_overview_headline": {
+        "semrush_global_rank": 23581055
+      },
+      "frequently_asked_questions_total_funding": {
+        "funding_total": {
+          "value": 533000,
+          "currency": "USD",
+          "value_usd": 533000
+        },
+        "identifier": {
+          "uuid": "10b38ae0-c530-4609-b22f-d91a3b77c66b",
+          "value": "Sawah",
+          "image_id": "nnwrhpbpof0nsjhflrse",
+          "permalink": "sawah",
+          "entity_def_id": "organization"
+        }
+      },
+      "exits_summary": {
+        "identifier": {
+          "uuid": "10b38ae0-c530-4609-b22f-d91a3b77c66b",
+          "value": "Sawah",
+          "image_id": "nnwrhpbpof0nsjhflrse",
+          "permalink": "sawah",
+          "entity_def_id": "organization"
+        }
+      },
+      "partnership_announcements": [],
+      "bombora_surge_list": [],
+      "diversity_spotlight_investments_list": [],
+      "builtwith_tech_used_list": [
+        {
+          "identifier": {
+            "uuid": "33e2515b-e834-4cef-a725-09a565e92395",
+            "value": "Google Tag Manager",
+            "entity_def_id": "builtwith_technology"
+          },
+          "technology_category": [
+            "widgets"
+          ],
+          "num_companies_using": 999928
+        },
+        {
+          "identifier": {
+            "uuid": "35207635-a977-41c8-ad7e-e1a761e27ee9",
+            "value": "Google Font API",
+            "entity_def_id": "builtwith_technology"
+          },
+          "technology_category": [
+            "widgets"
+          ],
+          "num_companies_using": 995917
+        },
+        {
+          "identifier": {
+            "uuid": "35fb33ce-1695-49d3-9de5-1f1fd5660f01",
+            "value": "Cloudflare",
+            "entity_def_id": "builtwith_technology"
+          },
+          "technology_category": [
+            "cdn"
+          ],
+          "num_companies_using": 850099
+        },
+        {
+          "identifier": {
+            "uuid": "e29377fa-f41b-4cc0-849c-62f7b9e1a977",
+            "value": "Google Analytics",
+            "entity_def_id": "builtwith_technology"
+          },
+          "technology_category": [
+            "analytics"
+          ],
+          "num_companies_using": 845938
+        },
+        {
+          "identifier": {
+            "uuid": "70f4762f-11eb-48f1-8d0e-2ebdaca5f9e4",
+            "value": "Cloudflare CDN",
+            "entity_def_id": "builtwith_technology"
+          },
+          "technology_category": [
+            "cdn"
+          ],
+          "num_companies_using": 840521
+        },
+        {
+          "identifier": {
+            "uuid": "cf3e732d-2ada-4f4e-94af-faa2edb426d5",
+            "value": "IPv6",
+            "entity_def_id": "builtwith_technology"
+          },
+          "technology_category": [
+            "server"
+          ],
+          "num_companies_using": 837012
+        },
+        {
+          "identifier": {
+            "uuid": "a9807f1f-c58b-4b60-8b9c-838c9f390574",
+            "value": "Font Awesome",
+            "entity_def_id": "builtwith_technology"
+          },
+          "technology_category": [
+            "widgets"
+          ],
+          "num_companies_using": 741564
+        },
+        {
+          "identifier": {
+            "uuid": "c6faf6a9-f13e-454c-ad5d-523e68c10954",
+            "value": "Global Site Tag",
+            "entity_def_id": "builtwith_technology"
+          },
+          "technology_category": [
+            "analytics"
+          ],
+          "num_companies_using": 737754
+        },
+        {
+          "identifier": {
+            "uuid": "34028a4a-aa8a-42d8-ba28-12a56b89664f",
+            "value": "Cloudflare Network Error Logging",
+            "entity_def_id": "builtwith_technology"
+          },
+          "technology_category": [
+            "hosting"
+          ],
+          "num_companies_using": 480042
+        },
+        {
+          "identifier": {
+            "uuid": "5ba219c3-617b-402a-8ddd-10af8bf8ecd8",
+            "value": "Cloudflare Hosting",
+            "entity_def_id": "builtwith_technology"
+          },
+          "technology_category": [
+            "hosting"
+          ],
+          "num_companies_using": 473628
+        }
+      ],
+      "funding_rounds_summary": {
+        "identifier": {
+          "uuid": "10b38ae0-c530-4609-b22f-d91a3b77c66b",
+          "value": "Sawah",
+          "image_id": "nnwrhpbpof0nsjhflrse",
+          "permalink": "sawah",
+          "entity_def_id": "organization"
+        },
+        "last_funding_type": "seed",
+        "last_funding_at": "2019-01-01",
+        "funding_total": {
+          "value": 533000,
+          "currency": "USD",
+          "value_usd": 533000
+        },
+        "num_funding_rounds": 1
+      },
+      "org_similarity_list": [
+        {
+          "source": {
+            "uuid": "10b38ae0-c530-4609-b22f-d91a3b77c66b",
+            "value": "Sawah",
+            "image_id": "nnwrhpbpof0nsjhflrse",
+            "permalink": "sawah",
+            "entity_def_id": "organization"
+          },
+          "identifier": {
+            "uuid": "e895d99c-32f4-4738-933d-5a7b0ea1fcea",
+            "value": "Sawah competes with Backpackr",
+            "entity_def_id": "org_similarity"
+          },
+          "source_revenue_range": "r_00000000",
+          "source_locations": [
+            {
+              "uuid": "54e9bc1a-c83b-6231-7fd6-36b8db81ff4c",
+              "value": "Riyadh",
+              "permalink": "riyadh-ar-riyad",
+              "entity_def_id": "location",
+              "location_type": "city"
+            },
+            {
+              "uuid": "acd31494-95eb-3a8e-d64f-faa43d348c35",
+              "value": "Ar Riyad",
+              "permalink": "ar-riyad-saudi-arabia",
+              "entity_def_id": "location",
+              "location_type": "region"
+            },
+            {
+              "uuid": "2c205931-d55b-569b-0fdf-957f2f062bf3",
+              "value": "Saudi Arabia",
+              "permalink": "saudi-arabia",
+              "entity_def_id": "location",
+              "location_type": "country"
+            },
+            {
+              "uuid": "b41404d2-8ecc-caf5-1268-8fdd3afe73ee",
+              "value": "Asia",
+              "permalink": "asia",
+              "entity_def_id": "location",
+              "location_type": "continent"
+            }
+          ],
+          "score": 100,
+          "target_micro_categories": [
+            {
+              "uuid": "58a14643-e5e0-4f4c-9ca7-c0a0ef667098",
+              "value": "Activities and Recreation",
+              "permalink": "activities-and-recreation",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "a62f7ecc-9f75-4423-a6f8-24982d658ef7",
+              "value": "Community Events",
+              "permalink": "community-events",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "222345f1-8f62-49df-aecc-8a9a57aa0401",
+              "value": "Community Platforms",
+              "permalink": "community-platforms",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "51e54c25-7d62-4b1a-be37-21332cd7b8bd",
+              "value": "Hostels and Shared Social Lodging",
+              "permalink": "hostels-and-shared-social-lodging",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "8de63190-d34c-411e-92cd-839c42fb6793",
+              "value": "Local Event Listings",
+              "permalink": "local-event-listings",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "dcfbb081-1df8-41cd-b052-d3d3788c8b0a",
+              "value": "Outdoor Adventure Experiences",
+              "permalink": "outdoor-adventure-experiences",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "4e612017-39c7-4a92-9487-a88bb0f462b9",
+              "value": "Photo Community Platforms",
+              "permalink": "photo-community-platforms",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "1b298ed0-69b8-4889-afd0-25135bc7cb62",
+              "value": "Social Feed Aggregators",
+              "permalink": "social-feed-aggregators",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "e3a31f45-3d3a-4d75-9ba3-1cb5995c1af0",
+              "value": "Travel Reporting and Analytics",
+              "permalink": "travel-reporting-and-analytics",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "53163f22-dc77-452d-a4cf-528265efe1f5",
+              "value": "Travel Review Platforms",
+              "permalink": "travel-review-platforms",
+              "entity_def_id": "micro_category"
+            }
+          ],
+          "target_locations": [
+            {
+              "uuid": "66c3654d-1457-1b2e-5d24-a7d40c6da46e",
+              "value": "Vancouver",
+              "permalink": "vancouver-british-columbia",
+              "entity_def_id": "location",
+              "location_type": "city"
+            },
+            {
+              "uuid": "7eaa0072-5485-a02b-26f4-cc2df1ea8f34",
+              "value": "British Columbia",
+              "permalink": "british-columbia-canada",
+              "entity_def_id": "location",
+              "location_type": "region"
+            },
+            {
+              "uuid": "1b3d6217-ec76-1b13-c47a-aca49b466a2c",
+              "value": "Canada",
+              "permalink": "canada",
+              "entity_def_id": "location",
+              "location_type": "country"
+            },
+            {
+              "uuid": "b25caef9-a1b8-3a5d-6232-93b2dfb6a1d1",
+              "value": "North America",
+              "permalink": "north-america",
+              "entity_def_id": "location",
+              "location_type": "continent"
+            }
+          ],
+          "target_short_description": "Backpackr is a social mobile app connecting like-minded travellers around the globe!",
+          "target_categories": [
+            {
+              "uuid": "af333248-9c7e-50c5-168a-e91b86595a17",
+              "value": "Apps",
+              "image_id": "ec09d2b58fe048cf85168ff0060450a8",
+              "permalink": "apps",
+              "entity_def_id": "category"
+            },
+            {
+              "uuid": "e907cf2a-842d-8a30-a0b1-07d9de4a8178",
+              "value": "Mobile",
+              "image_id": "ac06fb52ea564db6a103fa2435492f3d",
+              "permalink": "mobile",
+              "entity_def_id": "category"
+            }
+          ],
+          "source_num_employees_enum": "c_00011_00050",
+          "source_short_description": "Sawah is an application-based platform that provides local tour guides to travelers.",
+          "target": {
+            "uuid": "0faa8f94-4c78-6b53-eb96-a269c7d20e2a",
+            "value": "Backpackr",
+            "image_id": "v1400762982/kwo85kimf81r47es3czi.png",
+            "permalink": "backpackr-2",
+            "entity_def_id": "organization"
+          },
+          "target_revenue_range": "r_00000000",
+          "target_num_employees_enum": "c_00001_00010",
+          "target_category_groups": [
+            {
+              "uuid": "26833aa6-0585-2aa7-8c69-63b4b14727c5",
+              "value": "Apps",
+              "permalink": "apps-2683",
+              "entity_def_id": "category_group"
+            },
+            {
+              "uuid": "ec09d1af-e88f-6a8d-1db8-1dd5e3d49ea0",
+              "value": "Mobile",
+              "permalink": "mobile-ec09",
+              "entity_def_id": "category_group"
+            },
+            {
+              "uuid": "85b6bca9-930a-11bc-a608-a513b76fb637",
+              "value": "Software",
+              "permalink": "software-85b6",
+              "entity_def_id": "category_group"
+            }
+          ],
+          "source_micro_categories": [
+            {
+              "uuid": "58a14643-e5e0-4f4c-9ca7-c0a0ef667098",
+              "value": "Activities and Recreation",
+              "permalink": "activities-and-recreation",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "951d5745-219c-43c0-8bb1-b9a90fb769ca",
+              "value": "Adventure Tours",
+              "permalink": "adventure-tours-69ca",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "7bb20ed7-973d-4467-97ff-0a0aed621220",
+              "value": "Concierge Guides",
+              "permalink": "concierge-guides",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "6ccbe3b4-7103-4b2d-af7f-b4d2cf01db5c",
+              "value": "Culinary and Food Tourism",
+              "permalink": "culinary-and-food-tourism",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "8e540c83-a428-45b1-ba8d-98119808854b",
+              "value": "Cultural and Educational Tours",
+              "permalink": "cultural-and-educational-tours",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "b5cba614-3f1e-46d1-9c42-738ffc422eed",
+              "value": "Custom Vacation and Tour Planning",
+              "permalink": "custom-vacation-and-tour-planning",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "dbb0e4db-b3bf-417e-9284-c4ff073ad115",
+              "value": "Event Reservations",
+              "permalink": "event-reservations",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "02320e82-81b3-4764-a28b-c3af82cdfc52",
+              "value": "Local Listings",
+              "permalink": "local-listings",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "d63b3f6c-f3cc-4ac2-8f6a-d444aabb9a25",
+              "value": "Themed and Special Interest Tours",
+              "permalink": "themed-and-special-interest-tours",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "eed74254-ddb0-4a3f-9273-c706349229b9",
+              "value": "Tour Packages",
+              "permalink": "tour-packages",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "b5b9b145-08ae-487a-ae1a-5a887a712e1e",
+              "value": "Trekking and Hiking Tours",
+              "permalink": "trekking-and-hiking-tours",
+              "entity_def_id": "micro_category"
+            }
+          ],
+          "source_location_groups": [
+            {
+              "uuid": "4e8be435-c63a-4aff-8a2f-44a880d9c341",
+              "value": "Europe, Middle East, and Africa (EMEA)",
+              "permalink": "europe-middle-east-africa-emea",
+              "entity_def_id": "location",
+              "location_type": "group"
+            },
+            {
+              "uuid": "c4365698-c7c5-44b0-b33a-7d13900e5be2",
+              "value": "Gulf Cooperation Council (GCC)",
+              "permalink": "gulf-cooperation-council",
+              "entity_def_id": "location",
+              "location_type": "group"
+            },
+            {
+              "uuid": "e0272206-3430-48cb-a5bc-1d4b3eafe15a",
+              "value": "Middle East",
+              "permalink": "middle-east",
+              "entity_def_id": "location",
+              "location_type": "group"
+            },
+            {
+              "uuid": "8cb7cad4-b7e4-4b28-a496-2ede3720cb19",
+              "value": "Middle East and North Africa (MENA)",
+              "permalink": "middle-east-and-north-africa-mena",
+              "entity_def_id": "location",
+              "location_type": "group"
+            }
+          ]
+        },
+        {
+          "target_num_contacts": 1,
+          "source": {
+            "uuid": "10b38ae0-c530-4609-b22f-d91a3b77c66b",
+            "value": "Sawah",
+            "image_id": "nnwrhpbpof0nsjhflrse",
+            "permalink": "sawah",
+            "entity_def_id": "organization"
+          },
+          "identifier": {
+            "uuid": "8bbabd3e-6a52-4f25-99f8-5491e1cbd5e1",
+            "value": "Sawah competes with Overlap",
+            "entity_def_id": "org_similarity"
+          },
+          "source_revenue_range": "r_00000000",
+          "source_locations": [
+            {
+              "uuid": "54e9bc1a-c83b-6231-7fd6-36b8db81ff4c",
+              "value": "Riyadh",
+              "permalink": "riyadh-ar-riyad",
+              "entity_def_id": "location",
+              "location_type": "city"
+            },
+            {
+              "uuid": "acd31494-95eb-3a8e-d64f-faa43d348c35",
+              "value": "Ar Riyad",
+              "permalink": "ar-riyad-saudi-arabia",
+              "entity_def_id": "location",
+              "location_type": "region"
+            },
+            {
+              "uuid": "2c205931-d55b-569b-0fdf-957f2f062bf3",
+              "value": "Saudi Arabia",
+              "permalink": "saudi-arabia",
+              "entity_def_id": "location",
+              "location_type": "country"
+            },
+            {
+              "uuid": "b41404d2-8ecc-caf5-1268-8fdd3afe73ee",
+              "value": "Asia",
+              "permalink": "asia",
+              "entity_def_id": "location",
+              "location_type": "continent"
+            }
+          ],
+          "score": 95.419,
+          "target_short_description": "Overlap is a travel assistance mobile app.",
+          "target_categories": [
+            {
+              "uuid": "c08b5441-a05b-9777-b7a6-012728caddd9",
+              "value": "Software",
+              "image_id": "f137af6adb1a4170908597d523483c13",
+              "permalink": "software",
+              "entity_def_id": "category"
+            },
+            {
+              "uuid": "8672f521-ce9a-e851-adff-c35d2441a0ad",
+              "value": "Travel",
+              "image_id": "a6a6e9a41aa44c11af80dfffe5720c96",
+              "permalink": "travel",
+              "entity_def_id": "category"
+            }
+          ],
+          "source_num_employees_enum": "c_00011_00050",
+          "source_short_description": "Sawah is an application-based platform that provides local tour guides to travelers.",
+          "target": {
+            "uuid": "7a2ef835-0e0b-4cbe-91f9-03fa1ac4b711",
+            "value": "Overlap",
+            "image_id": "buyvjpndh1yzddselpdy",
+            "permalink": "overlap-b711",
+            "entity_def_id": "organization"
+          },
+          "target_num_employees_enum": "c_00001_00010",
+          "target_category_groups": [
+            {
+              "uuid": "85b6bca9-930a-11bc-a608-a513b76fb637",
+              "value": "Software",
+              "permalink": "software-85b6",
+              "entity_def_id": "category_group"
+            },
+            {
+              "uuid": "2c1d0b56-8f0e-4d94-a102-53d32a969d35",
+              "value": "Travel and Tourism",
+              "permalink": "travel-and-tourism",
+              "entity_def_id": "category_group"
+            }
+          ],
+          "source_micro_categories": [
+            {
+              "uuid": "58a14643-e5e0-4f4c-9ca7-c0a0ef667098",
+              "value": "Activities and Recreation",
+              "permalink": "activities-and-recreation",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "951d5745-219c-43c0-8bb1-b9a90fb769ca",
+              "value": "Adventure Tours",
+              "permalink": "adventure-tours-69ca",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "7bb20ed7-973d-4467-97ff-0a0aed621220",
+              "value": "Concierge Guides",
+              "permalink": "concierge-guides",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "6ccbe3b4-7103-4b2d-af7f-b4d2cf01db5c",
+              "value": "Culinary and Food Tourism",
+              "permalink": "culinary-and-food-tourism",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "8e540c83-a428-45b1-ba8d-98119808854b",
+              "value": "Cultural and Educational Tours",
+              "permalink": "cultural-and-educational-tours",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "b5cba614-3f1e-46d1-9c42-738ffc422eed",
+              "value": "Custom Vacation and Tour Planning",
+              "permalink": "custom-vacation-and-tour-planning",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "dbb0e4db-b3bf-417e-9284-c4ff073ad115",
+              "value": "Event Reservations",
+              "permalink": "event-reservations",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "02320e82-81b3-4764-a28b-c3af82cdfc52",
+              "value": "Local Listings",
+              "permalink": "local-listings",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "d63b3f6c-f3cc-4ac2-8f6a-d444aabb9a25",
+              "value": "Themed and Special Interest Tours",
+              "permalink": "themed-and-special-interest-tours",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "eed74254-ddb0-4a3f-9273-c706349229b9",
+              "value": "Tour Packages",
+              "permalink": "tour-packages",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "b5b9b145-08ae-487a-ae1a-5a887a712e1e",
+              "value": "Trekking and Hiking Tours",
+              "permalink": "trekking-and-hiking-tours",
+              "entity_def_id": "micro_category"
+            }
+          ],
+          "source_location_groups": [
+            {
+              "uuid": "4e8be435-c63a-4aff-8a2f-44a880d9c341",
+              "value": "Europe, Middle East, and Africa (EMEA)",
+              "permalink": "europe-middle-east-africa-emea",
+              "entity_def_id": "location",
+              "location_type": "group"
+            },
+            {
+              "uuid": "c4365698-c7c5-44b0-b33a-7d13900e5be2",
+              "value": "Gulf Cooperation Council (GCC)",
+              "permalink": "gulf-cooperation-council",
+              "entity_def_id": "location",
+              "location_type": "group"
+            },
+            {
+              "uuid": "e0272206-3430-48cb-a5bc-1d4b3eafe15a",
+              "value": "Middle East",
+              "permalink": "middle-east",
+              "entity_def_id": "location",
+              "location_type": "group"
+            },
+            {
+              "uuid": "8cb7cad4-b7e4-4b28-a496-2ede3720cb19",
+              "value": "Middle East and North Africa (MENA)",
+              "permalink": "middle-east-and-north-africa-mena",
+              "entity_def_id": "location",
+              "location_type": "group"
+            }
+          ]
+        },
+        {
+          "source": {
+            "uuid": "10b38ae0-c530-4609-b22f-d91a3b77c66b",
+            "value": "Sawah",
+            "image_id": "nnwrhpbpof0nsjhflrse",
+            "permalink": "sawah",
+            "entity_def_id": "organization"
+          },
+          "identifier": {
+            "uuid": "a96c25d3-e37d-48bb-88ba-4b2d9dfb638f",
+            "value": "Sawah competes with AnyWay Guides",
+            "entity_def_id": "org_similarity"
+          },
+          "source_revenue_range": "r_00000000",
+          "source_locations": [
+            {
+              "uuid": "54e9bc1a-c83b-6231-7fd6-36b8db81ff4c",
+              "value": "Riyadh",
+              "permalink": "riyadh-ar-riyad",
+              "entity_def_id": "location",
+              "location_type": "city"
+            },
+            {
+              "uuid": "acd31494-95eb-3a8e-d64f-faa43d348c35",
+              "value": "Ar Riyad",
+              "permalink": "ar-riyad-saudi-arabia",
+              "entity_def_id": "location",
+              "location_type": "region"
+            },
+            {
+              "uuid": "2c205931-d55b-569b-0fdf-957f2f062bf3",
+              "value": "Saudi Arabia",
+              "permalink": "saudi-arabia",
+              "entity_def_id": "location",
+              "location_type": "country"
+            },
+            {
+              "uuid": "b41404d2-8ecc-caf5-1268-8fdd3afe73ee",
+              "value": "Asia",
+              "permalink": "asia",
+              "entity_def_id": "location",
+              "location_type": "continent"
+            }
+          ],
+          "score": 90.592,
+          "target_micro_categories": [
+            {
+              "uuid": "9ca155c0-4ea6-40dc-9862-4ad34ffb3237",
+              "value": "Audio Narrative & Immersive Storytelling",
+              "permalink": "audio-narrative-immersive-storytelling",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "7b16d1f7-866b-4196-a567-0e94ae0c76bf",
+              "value": "Bespoke Guides",
+              "permalink": "bespoke-guides",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "7bb20ed7-973d-4467-97ff-0a0aed621220",
+              "value": "Concierge Guides",
+              "permalink": "concierge-guides",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "2f505d2c-a637-4366-8e51-0d1c05ea4992",
+              "value": "Creator Commerce Platforms",
+              "permalink": "creator-commerce-platforms",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "37841672-b761-49fb-9b88-96e6b064379f",
+              "value": "Outdoor and Trail Mapping",
+              "permalink": "outdoor-and-trail-mapping",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "4e612017-39c7-4a92-9487-a88bb0f462b9",
+              "value": "Photo Community Platforms",
+              "permalink": "photo-community-platforms",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "aee0a351-682b-41f1-ae1b-2f1d1dd9b5b5",
+              "value": "Recurring Billing and Subscription Management",
+              "permalink": "recurring-billing-and-subscription-management",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "e3a31f45-3d3a-4d75-9ba3-1cb5995c1af0",
+              "value": "Travel Reporting and Analytics",
+              "permalink": "travel-reporting-and-analytics",
+              "entity_def_id": "micro_category"
+            }
+          ],
+          "target_locations": [
+            {
+              "uuid": "2ec549ac-3a15-b61d-7982-2e12b711da20",
+              "value": "Agios Athanasios",
+              "permalink": "agios-athanasios-limassol",
+              "entity_def_id": "location",
+              "location_type": "city"
+            },
+            {
+              "uuid": "8692b4ce-841c-8420-e049-fb0cc6986ac1",
+              "value": "Limassol",
+              "permalink": "limassol-cyprus",
+              "entity_def_id": "location",
+              "location_type": "region"
+            },
+            {
+              "uuid": "afc127ba-1877-fd20-b204-fee4513b1c4e",
+              "value": "Cyprus",
+              "permalink": "cyprus",
+              "entity_def_id": "location",
+              "location_type": "country"
+            },
+            {
+              "uuid": "6106f5dc-823e-5da8-40d7-51612c0b2c4e",
+              "value": "Europe",
+              "permalink": "europe",
+              "entity_def_id": "location",
+              "location_type": "continent"
+            }
+          ],
+          "target_short_description": "AnyWay Guides operates an online platform for travelers and tourists.",
+          "target_categories": [
+            {
+              "uuid": "d2cf7cf9-fb76-9f92-8ee0-c49154efa98e",
+              "value": "Mapping Services",
+              "image_id": "2fe646a48b6a410d8074d4360dfd04ce",
+              "permalink": "mapping-services",
+              "entity_def_id": "category"
+            },
+            {
+              "uuid": "78f709ae-d8fb-cd28-218a-f090789f628f",
+              "value": "Mobile Apps",
+              "image_id": "5d6e8733e81547d9b5c2beb7cdff60bc",
+              "permalink": "mobile-apps",
+              "entity_def_id": "category"
+            },
+            {
+              "uuid": "d495dc9c-0b00-c157-a254-e350f573d61e",
+              "value": "Navigation",
+              "image_id": "be65687e532642c6a351bb25059112b4",
+              "permalink": "navigation",
+              "entity_def_id": "category"
+            },
+            {
+              "uuid": "5ca011af-31fe-335c-6866-ff8b635bb2f8",
+              "value": "Tourism",
+              "image_id": "32ed290bb32b4ba093afc48f5e31f28f",
+              "permalink": "tourism",
+              "entity_def_id": "category"
+            },
+            {
+              "uuid": "8672f521-ce9a-e851-adff-c35d2441a0ad",
+              "value": "Travel",
+              "image_id": "a6a6e9a41aa44c11af80dfffe5720c96",
+              "permalink": "travel",
+              "entity_def_id": "category"
+            }
+          ],
+          "source_num_employees_enum": "c_00011_00050",
+          "target": {
+            "uuid": "de8fa8c6-f80d-486d-b5c3-a1b810c8d5e5",
+            "value": "AnyWay Guides",
+            "image_id": "ydp8c4j3xbbjoywlixtk",
+            "permalink": "anyway-guides",
+            "entity_def_id": "organization"
+          },
+          "target_category_groups": [
+            {
+              "uuid": "26833aa6-0585-2aa7-8c69-63b4b14727c5",
+              "value": "Apps",
+              "permalink": "apps-2683",
+              "entity_def_id": "category_group"
+            },
+            {
+              "uuid": "ec09d1af-e88f-6a8d-1db8-1dd5e3d49ea0",
+              "value": "Mobile",
+              "permalink": "mobile-ec09",
+              "entity_def_id": "category_group"
+            },
+            {
+              "uuid": "436a9799-0ec0-1a40-172e-d9508d85f29c",
+              "value": "Navigation and Mapping",
+              "permalink": "navigation-and-mapping",
+              "entity_def_id": "category_group"
+            },
+            {
+              "uuid": "85b6bca9-930a-11bc-a608-a513b76fb637",
+              "value": "Software",
+              "permalink": "software-85b6",
+              "entity_def_id": "category_group"
+            },
+            {
+              "uuid": "2c1d0b56-8f0e-4d94-a102-53d32a969d35",
+              "value": "Travel and Tourism",
+              "permalink": "travel-and-tourism",
+              "entity_def_id": "category_group"
+            }
+          ],
+          "target_location_groups": [
+            {
+              "uuid": "19e3ce8a-100d-44d8-89d7-8ca1be67361f",
+              "value": "European Union (EU)",
+              "permalink": "european-union-eu",
+              "entity_def_id": "location",
+              "location_type": "group"
+            },
+            {
+              "uuid": "4e8be435-c63a-4aff-8a2f-44a880d9c341",
+              "value": "Europe, Middle East, and Africa (EMEA)",
+              "permalink": "europe-middle-east-africa-emea",
+              "entity_def_id": "location",
+              "location_type": "group"
+            },
+            {
+              "uuid": "e0272206-3430-48cb-a5bc-1d4b3eafe15a",
+              "value": "Middle East",
+              "permalink": "middle-east",
+              "entity_def_id": "location",
+              "location_type": "group"
+            },
+            {
+              "uuid": "8cb7cad4-b7e4-4b28-a496-2ede3720cb19",
+              "value": "Middle East and North Africa (MENA)",
+              "permalink": "middle-east-and-north-africa-mena",
+              "entity_def_id": "location",
+              "location_type": "group"
+            },
+            {
+              "uuid": "4e8be435-c63a-4aff-8a2f-44a880d9c341",
+              "value": "Europe, Middle East, and Africa (EMEA)",
+              "permalink": "europe-middle-east-africa-emea",
+              "entity_def_id": "location",
+              "location_type": "group"
+            }
+          ],
+          "source_short_description": "Sawah is an application-based platform that provides local tour guides to travelers.",
+          "source_micro_categories": [
+            {
+              "uuid": "58a14643-e5e0-4f4c-9ca7-c0a0ef667098",
+              "value": "Activities and Recreation",
+              "permalink": "activities-and-recreation",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "951d5745-219c-43c0-8bb1-b9a90fb769ca",
+              "value": "Adventure Tours",
+              "permalink": "adventure-tours-69ca",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "7bb20ed7-973d-4467-97ff-0a0aed621220",
+              "value": "Concierge Guides",
+              "permalink": "concierge-guides",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "6ccbe3b4-7103-4b2d-af7f-b4d2cf01db5c",
+              "value": "Culinary and Food Tourism",
+              "permalink": "culinary-and-food-tourism",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "8e540c83-a428-45b1-ba8d-98119808854b",
+              "value": "Cultural and Educational Tours",
+              "permalink": "cultural-and-educational-tours",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "b5cba614-3f1e-46d1-9c42-738ffc422eed",
+              "value": "Custom Vacation and Tour Planning",
+              "permalink": "custom-vacation-and-tour-planning",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "dbb0e4db-b3bf-417e-9284-c4ff073ad115",
+              "value": "Event Reservations",
+              "permalink": "event-reservations",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "02320e82-81b3-4764-a28b-c3af82cdfc52",
+              "value": "Local Listings",
+              "permalink": "local-listings",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "d63b3f6c-f3cc-4ac2-8f6a-d444aabb9a25",
+              "value": "Themed and Special Interest Tours",
+              "permalink": "themed-and-special-interest-tours",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "eed74254-ddb0-4a3f-9273-c706349229b9",
+              "value": "Tour Packages",
+              "permalink": "tour-packages",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "b5b9b145-08ae-487a-ae1a-5a887a712e1e",
+              "value": "Trekking and Hiking Tours",
+              "permalink": "trekking-and-hiking-tours",
+              "entity_def_id": "micro_category"
+            }
+          ],
+          "source_location_groups": [
+            {
+              "uuid": "4e8be435-c63a-4aff-8a2f-44a880d9c341",
+              "value": "Europe, Middle East, and Africa (EMEA)",
+              "permalink": "europe-middle-east-africa-emea",
+              "entity_def_id": "location",
+              "location_type": "group"
+            },
+            {
+              "uuid": "c4365698-c7c5-44b0-b33a-7d13900e5be2",
+              "value": "Gulf Cooperation Council (GCC)",
+              "permalink": "gulf-cooperation-council",
+              "entity_def_id": "location",
+              "location_type": "group"
+            },
+            {
+              "uuid": "e0272206-3430-48cb-a5bc-1d4b3eafe15a",
+              "value": "Middle East",
+              "permalink": "middle-east",
+              "entity_def_id": "location",
+              "location_type": "group"
+            },
+            {
+              "uuid": "8cb7cad4-b7e4-4b28-a496-2ede3720cb19",
+              "value": "Middle East and North Africa (MENA)",
+              "permalink": "middle-east-and-north-africa-mena",
+              "entity_def_id": "location",
+              "location_type": "group"
+            }
+          ]
+        }
+      ],
+      "ipo_prediction": [],
+      "acquisitions_summary": {
+        "identifier": {
+          "uuid": "10b38ae0-c530-4609-b22f-d91a3b77c66b",
+          "value": "Sawah",
+          "image_id": "nnwrhpbpof0nsjhflrse",
+          "permalink": "sawah",
+          "entity_def_id": "organization"
+        }
+      },
+      "advisors_summary": {
+        "identifier": {
+          "uuid": "10b38ae0-c530-4609-b22f-d91a3b77c66b",
+          "value": "Sawah",
+          "image_id": "nnwrhpbpof0nsjhflrse",
+          "permalink": "sawah",
+          "entity_def_id": "organization"
+        }
+      },
+      "acquisitions_list": [],
+      "exits_headline": {},
+      "investments_summary": {
+        "identifier": {
+          "uuid": "10b38ae0-c530-4609-b22f-d91a3b77c66b",
+          "value": "Sawah",
+          "image_id": "nnwrhpbpof0nsjhflrse",
+          "permalink": "sawah",
+          "entity_def_id": "organization"
+        }
+      },
+      "acquired_by_fields": {},
+      "research_insight_text_link": {},
+      "acquisition_prediction": [],
+      "sub_organizations_headline": {},
+      "layoff_list": [],
+      "growth_and_heat": {
+        "heat_score_history": {
+          "periods": {
+            "i1": {
+              "values": [
+                56,
+                56,
+                57,
+                57,
+                58,
+                58,
+                58,
+                59,
+                59,
+                59,
+                60,
+                60,
+                60,
+                61,
+                61,
+                61,
+                52,
+                53,
+                53,
+                53,
+                54,
+                54,
+                54,
+                55,
+                55,
+                55,
+                42,
+                42,
+                42,
+                42,
+                42,
+                42,
+                42,
+                43,
+                43,
+                43,
+                43,
+                43,
+                43,
+                44,
+                44,
+                44,
+                44,
+                44,
+                44,
+                45,
+                45,
+                45,
+                45,
+                45,
+                45,
+                46,
+                46,
+                46,
+                46,
+                46,
+                47,
+                47,
+                47,
+                43,
+                43,
+                43,
+                43,
+                43,
+                44,
+                44,
+                44,
+                44,
+                44,
+                44,
+                45,
+                45,
+                45,
+                45,
+                45,
+                46,
+                45,
+                45,
+                46,
+                46,
+                46,
+                46,
+                46,
+                46,
+                47,
+                47,
+                47,
+                47,
+                47,
+                47
+              ],
+              "interval": 1
+            },
+            "i2": {
+              "values": [
+                56,
+                57,
+                58,
+                59,
+                59,
+                60,
+                61,
+                61,
+                53,
+                53,
+                54,
+                55,
+                55,
+                42,
+                42,
+                42,
+                43,
+                43,
+                43,
+                44,
+                44,
+                44,
+                45,
+                45,
+                45,
+                46,
+                46,
+                46,
+                47,
+                45,
+                43,
+                43,
+                44,
+                44,
+                44,
+                45,
+                45,
+                46,
+                45,
+                46,
+                46,
+                46,
+                47,
+                47,
+                47,
+                48,
+                48,
+                48,
+                48,
+                48,
+                49,
+                49,
+                44,
+                44,
+                44,
+                44,
+                43,
+                43,
+                44,
+                44,
+                44,
+                44,
+                45,
+                42,
+                42,
+                42,
+                43,
+                43,
+                43,
+                44,
+                44,
+                45,
+                46,
+                46,
+                47,
+                48,
+                48,
+                49,
+                50,
+                51,
+                51,
+                52,
+                53,
+                53,
+                54,
+                54,
+                55,
+                56,
+                56,
+                57,
+                58
+              ],
+              "interval": 2
+            },
+            "i4": {
+              "values": [
+                56,
+                58,
+                60,
+                61,
+                53,
+                54,
+                49,
+                42,
+                43,
+                43,
+                44,
+                45,
+                45,
+                46,
+                46,
+                43,
+                44,
+                45,
+                45,
+                46,
+                46,
+                47,
+                47,
+                48,
+                48,
+                49,
+                44,
+                44,
+                43,
+                44,
+                44,
+                44,
+                42,
+                43,
+                43,
+                44,
+                46,
+                47,
+                49,
+                50,
+                52,
+                53,
+                54,
+                55,
+                57,
+                59,
+                60,
+                62,
+                63,
+                65,
+                59,
+                58,
+                59,
+                60,
+                58,
+                59,
+                61,
+                62,
+                63,
+                54,
+                56,
+                57,
+                60,
+                58,
+                59,
+                61,
+                63,
+                66,
+                68,
+                71,
+                74,
+                71,
+                72,
+                75,
+                77,
+                79,
+                77,
+                77,
+                76,
+                78,
+                80,
+                81,
+                73,
+                70,
+                66,
+                64,
+                64,
+                62,
+                64,
+                65,
+                64,
+                66
+              ],
+              "interval": 4
+            },
+            "i7": {
+              "values": [
+                56,
+                60,
+                55,
+                51,
+                42,
+                43,
+                45,
+                46,
+                45,
+                44,
+                45,
+                46,
+                47,
+                48,
+                48,
+                44,
+                43,
+                44,
+                42,
+                43,
+                45,
+                47,
+                50,
+                52,
+                54,
+                57,
+                60,
+                62,
+                62,
+                58,
+                59,
+                59,
+                61,
+                60,
+                55,
+                59,
+                58,
+                61,
+                65,
+                70,
+                72,
+                72,
+                76,
+                78,
+                76,
+                78,
+                79,
+                71,
+                65,
+                63,
+                63,
+                64,
+                64,
+                69,
+                70,
+                70,
+                70,
+                73,
+                76,
+                73,
+                57,
+                54,
+                58,
+                61,
+                65,
+                67,
+                69,
+                67,
+                70,
+                74,
+                77,
+                77,
+                79,
+                82,
+                67,
+                70,
+                70,
+                71,
+                53,
+                46,
+                46,
+                49,
+                52,
+                57,
+                62,
+                65,
+                68,
+                72,
+                74,
+                72,
+                66,
+                63,
+                68,
+                73,
+                76,
+                76,
+                79,
+                73,
+                76,
+                68,
+                62,
+                60,
+                62,
+                64,
+                62
+              ],
+              "interval": 7
+            },
+            "i18": {
+              "values": [
+                56,
+                48,
+                45,
+                45,
+                46,
+                47,
+                44,
+                43,
+                48,
+                54,
+                61,
+                60,
+                60,
+                57,
+                61,
+                70,
+                76,
+                77,
+                71,
+                63,
+                66,
+                70,
+                74,
+                62,
+                59,
+                67,
+                69,
+                77,
+                77,
+                70,
+                57,
+                48,
+                57,
+                67,
+                73,
+                65,
+                74,
+                76,
+                71,
+                61,
+                60,
+                56,
+                65,
+                66,
+                58,
+                53,
+                45,
+                40,
+                46,
+                53,
+                57,
+                63,
+                67,
+                62,
+                69,
+                70,
+                73,
+                64,
+                58,
+                59,
+                62,
+                61,
+                69,
+                72,
+                76,
+                67,
+                61,
+                63,
+                68,
+                74,
+                73,
+                78,
+                84,
+                79,
+                72,
+                71,
+                63,
+                65,
+                68,
+                66,
+                75,
+                81,
+                87,
+                64,
+                64,
+                61,
+                64,
+                67,
+                72,
+                66,
+                66,
+                69,
+                74,
+                68,
+                74,
+                76,
+                75,
+                72,
+                65,
+                39,
+                43,
+                49
+              ],
+              "interval": 18
+            },
+            "i36": {
+              "values": [
+                56,
+                45,
+                47,
+                43,
+                51,
+                60,
+                59,
+                66,
+                76,
+                67,
+                68,
+                68,
+                63,
+                73,
+                74,
+                52,
+                62,
+                69,
+                75,
+                66,
+                58,
+                66,
+                56,
+                42,
+                50,
+                60,
+                65,
+                69,
+                69,
+                59,
+                62,
+                71,
+                72,
+                62,
+                71,
+                75,
+                81,
+                71,
+                64,
+                67,
+                78,
+                75,
+                62,
+                66,
+                69,
+                67,
+                71,
+                75,
+                73,
+                52,
+                47,
+                58,
+                58,
+                57,
+                62,
+                63,
+                69,
+                16,
+                1,
+                1,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                3,
+                3,
+                3,
+                13,
+                32
+              ],
+              "interval": 36
+            }
+          }
+        },
+        "growth_score_delta_d90": 0,
+        "growth_score_history": {
+          "periods": {
+            "i1": {
+              "values": [
+                23,
+                23,
+                23,
+                23,
+                23,
+                23,
+                23,
+                23,
+                23,
+                23,
+                23,
+                23,
+                23,
+                23,
+                23,
+                23,
+                23,
+                23,
+                23,
+                23,
+                23,
+                23,
+                23,
+                23,
+                23,
+                23,
+                22,
+                22,
+                22,
+                22,
+                22,
+                22,
+                22,
+                22,
+                22,
+                22,
+                22,
+                22,
+                22,
+                22,
+                22,
+                22,
+                22,
+                22,
+                22,
+                22,
+                22,
+                22,
+                22,
+                22,
+                22,
+                22,
+                22,
+                22,
+                23,
+                23,
+                23,
+                23,
+                23,
+                23,
+                23,
+                23,
+                23,
+                23,
+                23,
+                23,
+                23,
+                23,
+                23,
+                23,
+                23,
+                23,
+                23,
+                23,
+                23,
+                23,
+                23,
+                23,
+                23,
+                23,
+                23,
+                23,
+                23,
+                23,
+                23,
+                23,
+                23,
+                23,
+                23,
+                23
+              ],
+              "interval": 1
+            },
+            "i2": {
+              "values": [
+                23,
+                23,
+                23,
+                23,
+                23,
+                23,
+                23,
+                23,
+                23,
+                23,
+                23,
+                23,
+                23,
+                22,
+                22,
+                22,
+                22,
+                22,
+                22,
+                22,
+                22,
+                22,
+                22,
+                22,
+                22,
+                22,
+                22,
+                23,
+                23,
+                23,
+                23,
+                23,
+                23,
+                23,
+                23,
+                23,
+                23,
+                23,
+                23,
+                23,
+                23,
+                23,
+                23,
+                23,
+                23,
+                23,
+                23,
+                23,
+                23,
+                23,
+                23,
+                23,
+                23,
+                23,
+                23,
+                23,
+                24,
+                24,
+                24,
+                24,
+                24,
+                24,
+                24,
+                24,
+                24,
+                24,
+                24,
+                24,
+                24,
+                24,
+                24,
+                24,
+                24,
+                24,
+                24,
+                24,
+                24,
+                24,
+                25,
+                25,
+                25,
+                25,
+                25,
+                25,
+                25,
+                25,
+                25,
+                25,
+                25,
+                25,
+                25
+              ],
+              "interval": 2
+            },
+            "i4": {
+              "values": [
+                23,
+                23,
+                23,
+                23,
+                23,
+                23,
+                23,
+                22,
+                22,
+                22,
+                22,
+                22,
+                22,
+                23,
+                23,
+                23,
+                23,
+                23,
+                23,
+                23,
+                23,
+                23,
+                23,
+                23,
+                23,
+                23,
+                23,
+                23,
+                24,
+                24,
+                24,
+                24,
+                24,
+                24,
+                24,
+                24,
+                24,
+                24,
+                24,
+                25,
+                25,
+                25,
+                25,
+                25,
+                25,
+                25,
+                26,
+                26,
+                26,
+                26,
+                25,
+                25,
+                25,
+                26,
+                26,
+                26,
+                26,
+                26,
+                26,
+                25,
+                26,
+                26,
+                26,
+                26,
+                26,
+                27,
+                27,
+                27,
+                27,
+                28,
+                28,
+                28,
+                28,
+                28,
+                28,
+                29,
+                29,
+                29,
+                29,
+                29,
+                29,
+                29,
+                29,
+                29,
+                28,
+                29,
+                28,
+                28,
+                28,
+                29,
+                28,
+                29
+              ],
+              "interval": 4
+            },
+            "i7": {
+              "values": [
+                23,
+                23,
+                23,
+                23,
+                22,
+                22,
+                22,
+                22,
+                23,
+                23,
+                23,
+                23,
+                23,
+                23,
+                23,
+                23,
+                24,
+                24,
+                24,
+                24,
+                24,
+                24,
+                25,
+                25,
+                25,
+                25,
+                26,
+                26,
+                26,
+                25,
+                26,
+                26,
+                26,
+                26,
+                25,
+                26,
+                26,
+                27,
+                27,
+                28,
+                28,
+                28,
+                28,
+                29,
+                28,
+                29,
+                29,
+                29,
+                28,
+                28,
+                28,
+                28,
+                29,
+                29,
+                29,
+                29,
+                29,
+                30,
+                30,
+                30,
+                28,
+                28,
+                28,
+                29,
+                29,
+                29,
+                29,
+                44,
+                60,
+                62,
+                64,
+                65,
+                66,
+                66,
+                66,
+                66,
+                67,
+                67,
+                66,
+                65,
+                65,
+                66,
+                67,
+                67,
+                68,
+                68,
+                68,
+                68,
+                68,
+                68,
+                67,
+                67,
+                67,
+                67,
+                67,
+                67,
+                67,
+                65,
+                65,
+                63,
+                61,
+                45,
+                30,
+                30,
+                30
+              ],
+              "interval": 7
+            },
+            "i18": {
+              "values": [
+                23,
+                22,
+                22,
+                23,
+                23,
+                23,
+                24,
+                24,
+                24,
+                25,
+                26,
+                25,
+                26,
+                26,
+                27,
+                28,
+                28,
+                29,
+                29,
+                28,
+                29,
+                29,
+                30,
+                29,
+                28,
+                29,
+                52,
+                64,
+                66,
+                66,
+                66,
+                66,
+                67,
+                68,
+                68,
+                67,
+                67,
+                66,
+                64,
+                44,
+                30,
+                30,
+                31,
+                31,
+                30,
+                30,
+                29,
+                29,
+                30,
+                30,
+                31,
+                31,
+                32,
+                31,
+                32,
+                32,
+                32,
+                32,
+                31,
+                31,
+                31,
+                31,
+                32,
+                32,
+                33,
+                32,
+                31,
+                32,
+                32,
+                33,
+                33,
+                33,
+                34,
+                34,
+                33,
+                33,
+                32,
+                33,
+                33,
+                32,
+                33,
+                34,
+                34,
+                32,
+                32,
+                32,
+                32,
+                33,
+                33,
+                32,
+                32,
+                33,
+                33,
+                33,
+                39,
+                64,
+                67,
+                69,
+                69,
+                68,
+                69,
+                70
+              ],
+              "interval": 18
+            },
+            "i36": {
+              "values": [
+                23,
+                23,
+                23,
+                24,
+                25,
+                26,
+                26,
+                27,
+                29,
+                28,
+                29,
+                29,
+                29,
+                58,
+                66,
+                66,
+                68,
+                68,
+                67,
+                54,
+                30,
+                31,
+                30,
+                29,
+                30,
+                31,
+                31,
+                32,
+                32,
+                31,
+                31,
+                32,
+                33,
+                32,
+                32,
+                33,
+                34,
+                33,
+                32,
+                33,
+                34,
+                33,
+                32,
+                33,
+                33,
+                33,
+                33,
+                51,
+                68,
+                69,
+                70,
+                72,
+                72,
+                73,
+                74,
+                75,
+                76,
+                74,
+                75,
+                76,
+                77,
+                79,
+                80,
+                81,
+                82,
+                83,
+                84,
+                85,
+                86,
+                86,
+                87,
+                88,
+                89,
+                90,
+                90,
+                91,
+                92,
+                92,
+                91,
+                89,
+                86,
+                82,
+                67,
+                37,
+                35,
+                32,
+                28,
+                22
+              ],
+              "interval": 36
+            }
+          }
+        },
+        "growth_trend_365": {
+          "periods": {
+            "i1": {
+              "values": [
+                -14,
+                -14,
+                -14,
+                -14,
+                -14,
+                -14,
+                -14,
+                -14,
+                -14,
+                -14,
+                -14,
+                -14,
+                -14,
+                -13,
+                -13,
+                -13,
+                -15,
+                -15,
+                -15,
+                -15,
+                -15,
+                -15,
+                -15,
+                -15,
+                -15,
+                -15,
+                -17,
+                -17,
+                -17,
+                -17,
+                -17,
+                -17,
+                -17,
+                -17,
+                -17,
+                -17,
+                -17,
+                -17,
+                -17,
+                -17,
+                -17,
+                -17,
+                -17,
+                -17,
+                -17,
+                -17,
+                -17,
+                -17,
+                -17,
+                -17,
+                -17,
+                -17,
+                -17,
+                -16,
+                -15,
+                -15,
+                -15,
+                -14,
+                -12,
+                -12,
+                -12,
+                -12,
+                -12,
+                -12,
+                -12,
+                -12,
+                -12,
+                -12,
+                -12,
+                -13,
+                -13,
+                -13,
+                -13,
+                -13,
+                -13,
+                -13,
+                -13,
+                -13,
+                -13,
+                -13,
+                -13,
+                -13,
+                -13,
+                -13,
+                -13,
+                -13,
+                -14,
+                -14,
+                -14,
+                -14
+              ],
+              "interval": 1
+            },
+            "i2": {
+              "values": [
+                -14,
+                -14,
+                -14,
+                -14,
+                -14,
+                -14,
+                -13,
+                -13,
+                -15,
+                -15,
+                -15,
+                -15,
+                -15,
+                -17,
+                -17,
+                -17,
+                -17,
+                -17,
+                -17,
+                -17,
+                -17,
+                -17,
+                -17,
+                -17,
+                -17,
+                -17,
+                -16,
+                -15,
+                -14,
+                -12,
+                -12,
+                -12,
+                -12,
+                -12,
+                -12,
+                -13,
+                -13,
+                -13,
+                -13,
+                -13,
+                -13,
+                -13,
+                -13,
+                -14,
+                -14,
+                -14,
+                -14,
+                -13,
+                -13,
+                -14,
+                -14,
+                -13,
+                -14,
+                -29,
+                -46,
+                -48,
+                -49,
+                -50,
+                -50,
+                -50,
+                -51,
+                -51,
+                -51,
+                -52,
+                -52,
+                -52,
+                -52,
+                -52,
+                -52,
+                -52,
+                -52,
+                -53,
+                -53,
+                -53,
+                -53,
+                -53,
+                -52,
+                -52,
+                -52,
+                -52,
+                -52,
+                -52,
+                -52,
+                -52,
+                -52,
+                -52,
+                -52,
+                -52,
+                -52,
+                -52,
+                -52
+              ],
+              "interval": 2
+            },
+            "i4": {
+              "values": [
+                -14,
+                -14,
+                -14,
+                -13,
+                -15,
+                -15,
+                -16,
+                -17,
+                -17,
+                -17,
+                -17,
+                -17,
+                -17,
+                -16,
+                -13,
+                -12,
+                -12,
+                -13,
+                -13,
+                -13,
+                -13,
+                -13,
+                -14,
+                -14,
+                -14,
+                -14,
+                -21,
+                -47,
+                -49,
+                -50,
+                -51,
+                -51,
+                -52,
+                -52,
+                -52,
+                -53,
+                -53,
+                -53,
+                -52,
+                -52,
+                -52,
+                -52,
+                -52,
+                -52,
+                -52,
+                -51,
+                -50,
+                -50,
+                -50,
+                -50,
+                -51,
+                -51,
+                -51,
+                -51,
+                -51,
+                -51,
+                -51,
+                -51,
+                -51,
+                -52,
+                -52,
+                -52,
+                -52,
+                -51,
+                -51,
+                -51,
+                -51,
+                -49,
+                -49,
+                -49,
+                -49,
+                -49,
+                -49,
+                -48,
+                -48,
+                -47,
+                -48,
+                -47,
+                -47,
+                -46,
+                -46,
+                -46,
+                -45,
+                -44,
+                -43,
+                -42,
+                -21,
+                -4,
+                -4,
+                -4,
+                -3,
+                -3
+              ],
+              "interval": 4
+            },
+            "i7": {
+              "values": [
+                -14,
+                -14,
+                -14,
+                -16,
+                -17,
+                -17,
+                -17,
+                -16,
+                -13,
+                -12,
+                -13,
+                -13,
+                -14,
+                -14,
+                -14,
+                -37,
+                -50,
+                -51,
+                -52,
+                -52,
+                -53,
+                -53,
+                -52,
+                -52,
+                -52,
+                -52,
+                -50,
+                -50,
+                -50,
+                -51,
+                -51,
+                -51,
+                -51,
+                -51,
+                -52,
+                -52,
+                -51,
+                -51,
+                -50,
+                -49,
+                -49,
+                -49,
+                -48,
+                -48,
+                -47,
+                -46,
+                -46,
+                -45,
+                -43,
+                -19,
+                -4,
+                -4,
+                -3,
+                -1,
+                -2,
+                -2,
+                -3,
+                -3,
+                -2,
+                -3,
+                -6,
+                -5,
+                -5,
+                -4,
+                -3,
+                -2,
+                0,
+                34,
+                71,
+                79,
+                81,
+                82,
+                83,
+                84,
+                81,
+                81,
+                82,
+                82,
+                79,
+                76,
+                76,
+                76,
+                76,
+                79,
+                83,
+                82,
+                82,
+                80,
+                79,
+                79,
+                78,
+                77,
+                76,
+                75,
+                77,
+                79,
+                77,
+                77,
+                76,
+                71,
+                67,
+                31,
+                -3,
+                -2,
+                -3
+              ],
+              "interval": 7
+            },
+            "i18": {
+              "values": [
+                -14,
+                -16,
+                -17,
+                -13,
+                -13,
+                -15,
+                -50,
+                -52,
+                -52,
+                -52,
+                -50,
+                -51,
+                -51,
+                -52,
+                -51,
+                -49,
+                -48,
+                -47,
+                -44,
+                -12,
+                -2,
+                -2,
+                -3,
+                -5,
+                -4,
+                -2,
+                54,
+                81,
+                83,
+                82,
+                79,
+                76,
+                79,
+                82,
+                79,
+                77,
+                76,
+                77,
+                74,
+                29,
+                -3,
+                -3,
+                -3,
+                -3,
+                -5,
+                -4,
+                -4,
+                -6,
+                -6,
+                -5,
+                -5,
+                -5,
+                -5,
+                -5,
+                -3,
+                -2,
+                1,
+                -2,
+                -3,
+                -4,
+                -4,
+                -6,
+                -4,
+                1,
+                1,
+                0,
+                -3,
+                -2,
+                -2,
+                0,
+                1,
+                1,
+                2,
+                2,
+                -18,
+                -41,
+                -44,
+                -44,
+                -44,
+                -44,
+                -44,
+                -44,
+                -43,
+                -46,
+                -46,
+                -47,
+                -47,
+                -47,
+                -47,
+                -48,
+                -48,
+                -48,
+                -48,
+                -48,
+                -40,
+                -11,
+                -8,
+                -7,
+                -8,
+                -9,
+                -9,
+                -8
+              ],
+              "interval": 18
+            },
+            "i36": {
+              "values": [
+                -14,
+                -15,
+                -14,
+                -51,
+                -52,
+                -51,
+                -51,
+                -50,
+                -47,
+                -28,
+                -2,
+                -4,
+                -3,
+                67,
+                82,
+                78,
+                81,
+                78,
+                77,
+                52,
+                -3,
+                -3,
+                -5,
+                -5,
+                -6,
+                -5,
+                -5,
+                -2,
+                -1,
+                -3,
+                -5,
+                -2,
+                0,
+                -2,
+                -1,
+                1,
+                2,
+                -30,
+                -44,
+                -44,
+                -44,
+                -45,
+                -47,
+                -47,
+                -47,
+                -48,
+                -48,
+                -26,
+                -8,
+                -8,
+                -8,
+                -7,
+                -8,
+                -9,
+                -8,
+                -8,
+                -8,
+                -11,
+                -11,
+                -10,
+                -10,
+                -9,
+                -9,
+                -9,
+                -8,
+                -8,
+                -8,
+                -7,
+                -5,
+                -2,
+                2,
+                7,
+                46,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                98,
+                90,
+                78,
+                64,
+                40
+              ],
+              "interval": 36
+            }
+          }
+        },
+        "heat_score": 56,
+        "heat_trend_365": {
+          "periods": {
+            "i1": {
+              "values": [
+                -4,
+                -4,
+                -5,
+                -5,
+                -5,
+                -5,
+                -6,
+                -6,
+                -6,
+                -6,
+                -6,
+                -6,
+                -6,
+                -5,
+                -5,
+                -5,
+                -11,
+                -11,
+                -11,
+                -11,
+                -11,
+                -10,
+                -10,
+                -10,
+                -10,
+                -10,
+                -17,
+                -17,
+                -18,
+                -18,
+                -18,
+                -18,
+                -18,
+                -18,
+                -18,
+                -18,
+                -19,
+                -19,
+                -19,
+                -19,
+                -19,
+                -19,
+                -19,
+                -19,
+                -19,
+                -19,
+                -20,
+                -18,
+                -19,
+                -19,
+                -19,
+                -18,
+                -18,
+                -16,
+                -13,
+                -13,
+                -13,
+                -11,
+                -3,
+                -6,
+                -6,
+                -7,
+                -7,
+                -7,
+                -7,
+                -7,
+                -7,
+                -8,
+                -8,
+                -8,
+                -8,
+                -8,
+                -9,
+                -9,
+                -9,
+                -9,
+                -10,
+                -10,
+                -10,
+                -11,
+                -11,
+                -11,
+                -11,
+                -11,
+                -11,
+                -12,
+                -12,
+                -12,
+                -12,
+                -12
+              ],
+              "interval": 1
+            },
+            "i2": {
+              "values": [
+                -4,
+                -5,
+                -5,
+                -6,
+                -6,
+                -6,
+                -5,
+                -5,
+                -11,
+                -11,
+                -10,
+                -10,
+                -10,
+                -17,
+                -18,
+                -18,
+                -18,
+                -18,
+                -19,
+                -19,
+                -19,
+                -19,
+                -19,
+                -19,
+                -19,
+                -18,
+                -17,
+                -13,
+                -12,
+                -4,
+                -6,
+                -7,
+                -7,
+                -7,
+                -8,
+                -8,
+                -9,
+                -9,
+                -10,
+                -10,
+                -11,
+                -11,
+                -11,
+                -12,
+                -12,
+                -12,
+                -13,
+                -12,
+                -12,
+                -13,
+                -13,
+                -13,
+                -16,
+                -14,
+                -14,
+                -15,
+                -17,
+                -17,
+                -18,
+                -18,
+                -18,
+                -19,
+                -19,
+                -21,
+                -21,
+                -21,
+                -21,
+                -20,
+                -20,
+                -21,
+                -21,
+                -21,
+                -21,
+                -21,
+                -21,
+                -20,
+                -15,
+                -11,
+                -11,
+                -11,
+                -12,
+                -12,
+                -12,
+                -12,
+                -10,
+                -9,
+                -9,
+                -9,
+                -9,
+                -9,
+                -9
+              ],
+              "interval": 2
+            },
+            "i4": {
+              "values": [
+                -4,
+                -5,
+                -6,
+                -5,
+                -11,
+                -10,
+                -13,
+                -18,
+                -18,
+                -19,
+                -19,
+                -19,
+                -19,
+                -15,
+                -8,
+                -7,
+                -7,
+                -8,
+                -9,
+                -10,
+                -11,
+                -12,
+                -12,
+                -12,
+                -12,
+                -13,
+                -15,
+                -15,
+                -17,
+                -18,
+                -18,
+                -20,
+                -21,
+                -20,
+                -20,
+                -21,
+                -21,
+                -21,
+                -13,
+                -11,
+                -12,
+                -12,
+                -10,
+                -9,
+                -9,
+                -4,
+                11,
+                12,
+                13,
+                14,
+                9,
+                7,
+                6,
+                5,
+                1,
+                0,
+                -1,
+                -1,
+                -1,
+                -8,
+                -9,
+                -9,
+                -8,
+                -10,
+                -9,
+                -7,
+                -6,
+                4,
+                4,
+                4,
+                3,
+                0,
+                -1,
+                0,
+                0,
+                2,
+                0,
+                -1,
+                0,
+                3,
+                3,
+                3,
+                0,
+                5,
+                3,
+                3,
+                3,
+                0,
+                0,
+                0,
+                1,
+                2
+              ],
+              "interval": 4
+            },
+            "i7": {
+              "values": [
+                -4,
+                -6,
+                -9,
+                -12,
+                -18,
+                -19,
+                -19,
+                -17,
+                -8,
+                -7,
+                -9,
+                -11,
+                -12,
+                -12,
+                -14,
+                -15,
+                -17,
+                -19,
+                -21,
+                -20,
+                -21,
+                -19,
+                -11,
+                -12,
+                -9,
+                -9,
+                8,
+                13,
+                12,
+                7,
+                5,
+                0,
+                -1,
+                -3,
+                -9,
+                -8,
+                -10,
+                -7,
+                1,
+                4,
+                2,
+                -1,
+                0,
+                1,
+                -1,
+                3,
+                2,
+                3,
+                3,
+                2,
+                0,
+                1,
+                5,
+                13,
+                10,
+                7,
+                5,
+                4,
+                5,
+                3,
+                -4,
+                -2,
+                -1,
+                3,
+                4,
+                14,
+                20,
+                17,
+                20,
+                28,
+                28,
+                25,
+                25,
+                24,
+                11,
+                11,
+                11,
+                9,
+                -3,
+                -10,
+                -11,
+                -12,
+                -11,
+                -6,
+                2,
+                2,
+                3,
+                3,
+                2,
+                1,
+                -2,
+                -4,
+                -2,
+                -1,
+                3,
+                10,
+                9,
+                10,
+                13,
+                6,
+                3,
+                0,
+                0,
+                1,
+                -1
+              ],
+              "interval": 7
+            },
+            "i18": {
+              "values": [
+                -4,
+                -14,
+                -19,
+                -8,
+                -11,
+                -13,
+                -17,
+                -21,
+                -16,
+                -10,
+                9,
+                7,
+                0,
+                -8,
+                -7,
+                3,
+                0,
+                1,
+                3,
+                1,
+                7,
+                8,
+                5,
+                -1,
+                1,
+                14,
+                20,
+                27,
+                22,
+                11,
+                -1,
+                -11,
+                -5,
+                3,
+                1,
+                -3,
+                1,
+                9,
+                9,
+                1,
+                -2,
+                -4,
+                -3,
+                -5,
+                -10,
+                -8,
+                -11,
+                -16,
+                -15,
+                -13,
+                -10,
+                -10,
+                -9,
+                -9,
+                -2,
+                1,
+                7,
+                -1,
+                -5,
+                -7,
+                -8,
+                -13,
+                -8,
+                8,
+                7,
+                5,
+                -3,
+                -3,
+                -2,
+                5,
+                5,
+                4,
+                7,
+                7,
+                -2,
+                -4,
+                -6,
+                -4,
+                8,
+                21,
+                23,
+                19,
+                22,
+                2,
+                6,
+                0,
+                6,
+                7,
+                6,
+                3,
+                3,
+                -1,
+                1,
+                5,
+                59,
+                84,
+                83,
+                79,
+                71,
+                43,
+                46,
+                53
+              ],
+              "interval": 18
+            },
+            "i36": {
+              "values": [
+                -4,
+                -13,
+                -12,
+                -19,
+                -13,
+                8,
+                -4,
+                -2,
+                1,
+                2,
+                7,
+                2,
+                7,
+                24,
+                16,
+                -6,
+                -1,
+                -1,
+                5,
+                5,
+                -3,
+                -4,
+                -9,
+                -13,
+                -14,
+                -10,
+                -9,
+                -1,
+                3,
+                -6,
+                -11,
+                0,
+                6,
+                -3,
+                2,
+                5,
+                7,
+                -3,
+                -5,
+                15,
+                21,
+                12,
+                3,
+                7,
+                5,
+                1,
+                3,
+                72,
+                81,
+                57,
+                51,
+                63,
+                63,
+                61,
+                68,
+                68,
+                75,
+                16,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -13,
+                -27,
+                -29,
+                -29,
+                -29,
+                -29,
+                -29,
+                -29,
+                -29,
+                -29,
+                -21,
+                -5
+              ],
+              "interval": 36
+            }
+          }
+        },
+        "growth_score": 23,
+        "heat_score_delta_d90": 9
+      },
+      "bombora_summary": {
+        "identifier": {
+          "uuid": "10b38ae0-c530-4609-b22f-d91a3b77c66b",
+          "value": "Sawah",
+          "image_id": "nnwrhpbpof0nsjhflrse",
+          "permalink": "sawah",
+          "entity_def_id": "organization"
+        }
+      },
+      "semrush_rank_headline": {
+        "semrush_visits_latest_month": 61
+      },
+      "frequently_asked_questions_latest_funding_round": {
+        "identifier": {
+          "uuid": "10b38ae0-c530-4609-b22f-d91a3b77c66b",
+          "value": "Sawah",
+          "image_id": "nnwrhpbpof0nsjhflrse",
+          "permalink": "sawah",
+          "entity_def_id": "organization"
+        },
+        "last_funding_at": "2019-01-01",
+        "last_funding_type": "seed",
+        "num_funding_rounds": 1
+      },
+      "apptopia_app_overview_list_free": [],
+      "contacts": {},
+      "product_launches": [],
+      "alumni_summary": {
+        "identifier": {
+          "uuid": "10b38ae0-c530-4609-b22f-d91a3b77c66b",
+          "value": "Sawah",
+          "image_id": "nnwrhpbpof0nsjhflrse",
+          "permalink": "sawah",
+          "entity_def_id": "organization"
+        }
+      },
+      "apptopia_summary": {
+        "identifier": {
+          "uuid": "10b38ae0-c530-4609-b22f-d91a3b77c66b",
+          "value": "Sawah",
+          "image_id": "nnwrhpbpof0nsjhflrse",
+          "permalink": "sawah",
+          "entity_def_id": "organization"
+        }
+      },
+      "product_similarity_target_org_list": [
+        {
+          "source": {
+            "uuid": "6c26f490-6e41-4ff8-8acd-3be5ea556fb3",
+            "value": "Sawah Application",
+            "entity_def_id": "product"
+          },
+          "identifier": {
+            "uuid": "2780a98f-b200-4d81-a505-ae507825f4fb",
+            "value": "Sawah Application is similar to AnyWay Guides Platform",
+            "entity_def_id": "product_similarity"
+          },
+          "target": {
+            "uuid": "bd98bfab-ed74-4d4d-b151-e2d3d94c2886",
+            "value": "AnyWay Guides Platform",
+            "entity_def_id": "product"
+          },
+          "target_organization": {
+            "uuid": "de8fa8c6-f80d-486d-b5c3-a1b810c8d5e5",
+            "value": "AnyWay Guides",
+            "image_id": "ydp8c4j3xbbjoywlixtk",
+            "permalink": "anyway-guides",
+            "entity_def_id": "organization"
+          }
+        },
+        {
+          "source": {
+            "uuid": "6c26f490-6e41-4ff8-8acd-3be5ea556fb3",
+            "value": "Sawah Application",
+            "entity_def_id": "product"
+          },
+          "identifier": {
+            "uuid": "b89fd9c8-1652-414d-9e38-ce75b135b7f9",
+            "value": "Sawah Application is similar to Backpackr Social Mobile App",
+            "entity_def_id": "product_similarity"
+          },
+          "target": {
+            "uuid": "82efbbe5-d1a9-4ead-901d-d21dd5855c1d",
+            "value": "Backpackr Social Mobile App",
+            "entity_def_id": "product"
+          },
+          "target_organization": {
+            "uuid": "0faa8f94-4c78-6b53-eb96-a269c7d20e2a",
+            "value": "Backpackr",
+            "image_id": "v1400762982/kwo85kimf81r47es3czi.png",
+            "permalink": "backpackr-2",
+            "entity_def_id": "organization"
+          }
+        },
+        {
+          "source": {
+            "uuid": "6c26f490-6e41-4ff8-8acd-3be5ea556fb3",
+            "value": "Sawah Application",
+            "entity_def_id": "product"
+          },
+          "identifier": {
+            "uuid": "1e223b79-9a07-48d1-a03f-16827bfdb365",
+            "value": "Sawah Application is similar to Nomad Maps",
+            "entity_def_id": "product_similarity"
+          },
+          "target": {
+            "uuid": "7b0f9078-c5c2-4962-9f25-bf985e0c130d",
+            "value": "Nomad Maps",
+            "entity_def_id": "product"
+          },
+          "target_organization": {
+            "uuid": "7a2ef835-0e0b-4cbe-91f9-03fa1ac4b711",
+            "value": "Overlap",
+            "image_id": "buyvjpndh1yzddselpdy",
+            "permalink": "overlap-b711",
+            "entity_def_id": "organization"
+          }
+        }
+      ],
+      "social_fields": {
+        "linkedin": {
+          "value": "https://www.linkedin.com/company/sawah-i-%D8%B3%D9%88%D8%A7%D8%AD/"
+        }
+      },
+      "investments_headline": {},
+      "investment_thesis": {
+        "lookup": [],
+        "properties": {
+          "identifier": {
+            "uuid": "10b38ae0-c530-4609-b22f-d91a3b77c66b",
+            "value": "Sawah",
+            "image_id": "nnwrhpbpof0nsjhflrse",
+            "permalink": "sawah",
+            "entity_def_id": "organization"
+          }
+        },
+        "data": []
+      },
+      "diversity_spotlight_investments_summary": {
+        "identifier": {
+          "uuid": "10b38ae0-c530-4609-b22f-d91a3b77c66b",
+          "value": "Sawah",
+          "image_id": "nnwrhpbpof0nsjhflrse",
+          "permalink": "sawah",
+          "entity_def_id": "organization"
+        }
+      },
+      "contact_fields": {},
+      "growth_prediction": [
+        {
+          "generated_on": "2024-12-19",
+          "identifier": {
+            "uuid": "aafa1a7b-ff18-4741-b976-4395871f67f2",
+            "value": "Growth Prediction 2024-12-19",
+            "entity_def_id": "growth_prediction"
+          },
+          "probability_score": 0.9553,
+          "created_at": "2024-12-19T19:23:06Z",
+          "updated_at": "2024-12-19T19:23:06Z",
+          "probability_tier": "p100_positive_high"
+        }
+      ],
+      "sub_organizations_summary": {
+        "identifier": {
+          "uuid": "10b38ae0-c530-4609-b22f-d91a3b77c66b",
+          "value": "Sawah",
+          "image_id": "nnwrhpbpof0nsjhflrse",
+          "permalink": "sawah",
+          "entity_def_id": "organization"
+        }
+      },
+      "overview_description": {
+        "description": "Sawah is a technology platform that offers tourist guides for Arab and Gulf families. They provide programs and options suitable for the family by nominating some distinctive places. In addition, they allow their users to share their favorite places in addition to their evaluations of other places."
+      },
+      "current_employees_featured_order_field": [],
+      "company_about_fields2": {
+        "website": {
+          "value": "https://sawahapp.com/"
+        },
+        "ipo_status": "private",
+        "num_employees_enum": "c_00011_00050",
+        "last_funding_type": "seed",
+        "location_identifiers": [
+          {
+            "uuid": "54e9bc1a-c83b-6231-7fd6-36b8db81ff4c",
+            "value": "Riyadh",
+            "permalink": "riyadh-ar-riyad",
+            "entity_def_id": "location",
+            "location_type": "city"
+          },
+          {
+            "uuid": "acd31494-95eb-3a8e-d64f-faa43d348c35",
+            "value": "Ar Riyad",
+            "permalink": "ar-riyad-saudi-arabia",
+            "entity_def_id": "location",
+            "location_type": "region"
+          },
+          {
+            "uuid": "2c205931-d55b-569b-0fdf-957f2f062bf3",
+            "value": "Saudi Arabia",
+            "permalink": "saudi-arabia",
+            "entity_def_id": "location",
+            "location_type": "country"
+          },
+          {
+            "uuid": "b41404d2-8ecc-caf5-1268-8fdd3afe73ee",
+            "value": "Asia",
+            "permalink": "asia",
+            "entity_def_id": "location",
+            "location_type": "continent"
+          }
+        ],
+        "rank_org_company": 192181
+      },
+      "sub_organizations_image_list": [],
+      "frequently_asked_questions_headquarters_location": {
+        "identifier": {
+          "uuid": "10b38ae0-c530-4609-b22f-d91a3b77c66b",
+          "value": "Sawah",
+          "image_id": "nnwrhpbpof0nsjhflrse",
+          "permalink": "sawah",
+          "entity_def_id": "organization"
+        },
+        "location_identifiers": [
+          {
+            "uuid": "54e9bc1a-c83b-6231-7fd6-36b8db81ff4c",
+            "value": "Riyadh",
+            "permalink": "riyadh-ar-riyad",
+            "entity_def_id": "location",
+            "location_type": "city"
+          },
+          {
+            "uuid": "acd31494-95eb-3a8e-d64f-faa43d348c35",
+            "value": "Ar Riyad",
+            "permalink": "ar-riyad-saudi-arabia",
+            "entity_def_id": "location",
+            "location_type": "region"
+          },
+          {
+            "uuid": "2c205931-d55b-569b-0fdf-957f2f062bf3",
+            "value": "Saudi Arabia",
+            "permalink": "saudi-arabia",
+            "entity_def_id": "location",
+            "location_type": "country"
+          },
+          {
+            "uuid": "b41404d2-8ecc-caf5-1268-8fdd3afe73ee",
+            "value": "Asia",
+            "permalink": "asia",
+            "entity_def_id": "location",
+            "location_type": "continent"
+          }
+        ]
+      },
+      "investors_headline": {},
+      "ipo_summary": {
+        "identifier": {
+          "uuid": "10b38ae0-c530-4609-b22f-d91a3b77c66b",
+          "value": "Sawah",
+          "image_id": "nnwrhpbpof0nsjhflrse",
+          "permalink": "sawah",
+          "entity_def_id": "organization"
+        }
+      },
+      "ipqwery_summary": {
+        "identifier": {
+          "uuid": "10b38ae0-c530-4609-b22f-d91a3b77c66b",
+          "value": "Sawah",
+          "image_id": "nnwrhpbpof0nsjhflrse",
+          "permalink": "sawah",
+          "entity_def_id": "organization"
+        }
+      },
+      "awards": [],
+      "siftery_product_list": [],
+      "competitors_list": [
+        {
+          "identifier": {
+            "uuid": "e895d99c-32f4-4738-933d-5a7b0ea1fcea",
+            "value": "Sawah competes with Backpackr",
+            "entity_def_id": "org_similarity"
+          },
+          "featured_category_overlap": [
+            {
+              "uuid": "58a14643-e5e0-4f4c-9ca7-c0a0ef667098",
+              "value": "Activities and Recreation",
+              "permalink": "activities-and-recreation",
+              "entity_def_id": "micro_category"
+            }
+          ],
+          "score": 100,
+          "target_locations": [
+            {
+              "uuid": "66c3654d-1457-1b2e-5d24-a7d40c6da46e",
+              "value": "Vancouver",
+              "permalink": "vancouver-british-columbia",
+              "entity_def_id": "location",
+              "location_type": "city"
+            },
+            {
+              "uuid": "7eaa0072-5485-a02b-26f4-cc2df1ea8f34",
+              "value": "British Columbia",
+              "permalink": "british-columbia-canada",
+              "entity_def_id": "location",
+              "location_type": "region"
+            },
+            {
+              "uuid": "1b3d6217-ec76-1b13-c47a-aca49b466a2c",
+              "value": "Canada",
+              "permalink": "canada",
+              "entity_def_id": "location",
+              "location_type": "country"
+            },
+            {
+              "uuid": "b25caef9-a1b8-3a5d-6232-93b2dfb6a1d1",
+              "value": "North America",
+              "permalink": "north-america",
+              "entity_def_id": "location",
+              "location_type": "continent"
+            }
+          ],
+          "target_short_description": "Backpackr is a social mobile app connecting like-minded travellers around the globe!",
+          "target_categories": [
+            {
+              "uuid": "af333248-9c7e-50c5-168a-e91b86595a17",
+              "value": "Apps",
+              "image_id": "ec09d2b58fe048cf85168ff0060450a8",
+              "permalink": "apps",
+              "entity_def_id": "category"
+            },
+            {
+              "uuid": "e907cf2a-842d-8a30-a0b1-07d9de4a8178",
+              "value": "Mobile",
+              "image_id": "ac06fb52ea564db6a103fa2435492f3d",
+              "permalink": "mobile",
+              "entity_def_id": "category"
+            }
+          ],
+          "target": {
+            "uuid": "0faa8f94-4c78-6b53-eb96-a269c7d20e2a",
+            "value": "Backpackr",
+            "image_id": "v1400762982/kwo85kimf81r47es3czi.png",
+            "permalink": "backpackr-2",
+            "entity_def_id": "organization"
+          },
+          "target_revenue_range": "r_00000000",
+          "micro_category_overlap": [
+            {
+              "uuid": "58a14643-e5e0-4f4c-9ca7-c0a0ef667098",
+              "value": "Activities and Recreation",
+              "permalink": "activities-and-recreation",
+              "entity_def_id": "micro_category"
+            }
+          ],
+          "target_num_employees_enum": "c_00001_00010"
+        },
+        {
+          "target_num_contacts": 1,
+          "identifier": {
+            "uuid": "8bbabd3e-6a52-4f25-99f8-5491e1cbd5e1",
+            "value": "Sawah competes with Overlap",
+            "entity_def_id": "org_similarity"
+          },
+          "score": 95.419,
+          "target_short_description": "Overlap is a travel assistance mobile app.",
+          "target_categories": [
+            {
+              "uuid": "c08b5441-a05b-9777-b7a6-012728caddd9",
+              "value": "Software",
+              "image_id": "f137af6adb1a4170908597d523483c13",
+              "permalink": "software",
+              "entity_def_id": "category"
+            },
+            {
+              "uuid": "8672f521-ce9a-e851-adff-c35d2441a0ad",
+              "value": "Travel",
+              "image_id": "a6a6e9a41aa44c11af80dfffe5720c96",
+              "permalink": "travel",
+              "entity_def_id": "category"
+            }
+          ],
+          "target": {
+            "uuid": "7a2ef835-0e0b-4cbe-91f9-03fa1ac4b711",
+            "value": "Overlap",
+            "image_id": "buyvjpndh1yzddselpdy",
+            "permalink": "overlap-b711",
+            "entity_def_id": "organization"
+          },
+          "target_num_employees_enum": "c_00001_00010"
+        },
+        {
+          "identifier": {
+            "uuid": "a96c25d3-e37d-48bb-88ba-4b2d9dfb638f",
+            "value": "Sawah competes with AnyWay Guides",
+            "entity_def_id": "org_similarity"
+          },
+          "featured_category_overlap": [
+            {
+              "uuid": "7bb20ed7-973d-4467-97ff-0a0aed621220",
+              "value": "Concierge Guides",
+              "permalink": "concierge-guides",
+              "entity_def_id": "micro_category"
+            }
+          ],
+          "score": 90.592,
+          "target_locations": [
+            {
+              "uuid": "2ec549ac-3a15-b61d-7982-2e12b711da20",
+              "value": "Agios Athanasios",
+              "permalink": "agios-athanasios-limassol",
+              "entity_def_id": "location",
+              "location_type": "city"
+            },
+            {
+              "uuid": "8692b4ce-841c-8420-e049-fb0cc6986ac1",
+              "value": "Limassol",
+              "permalink": "limassol-cyprus",
+              "entity_def_id": "location",
+              "location_type": "region"
+            },
+            {
+              "uuid": "afc127ba-1877-fd20-b204-fee4513b1c4e",
+              "value": "Cyprus",
+              "permalink": "cyprus",
+              "entity_def_id": "location",
+              "location_type": "country"
+            },
+            {
+              "uuid": "6106f5dc-823e-5da8-40d7-51612c0b2c4e",
+              "value": "Europe",
+              "permalink": "europe",
+              "entity_def_id": "location",
+              "location_type": "continent"
+            }
+          ],
+          "target_short_description": "AnyWay Guides operates an online platform for travelers and tourists.",
+          "target_categories": [
+            {
+              "uuid": "d2cf7cf9-fb76-9f92-8ee0-c49154efa98e",
+              "value": "Mapping Services",
+              "image_id": "2fe646a48b6a410d8074d4360dfd04ce",
+              "permalink": "mapping-services",
+              "entity_def_id": "category"
+            },
+            {
+              "uuid": "78f709ae-d8fb-cd28-218a-f090789f628f",
+              "value": "Mobile Apps",
+              "image_id": "5d6e8733e81547d9b5c2beb7cdff60bc",
+              "permalink": "mobile-apps",
+              "entity_def_id": "category"
+            },
+            {
+              "uuid": "d495dc9c-0b00-c157-a254-e350f573d61e",
+              "value": "Navigation",
+              "image_id": "be65687e532642c6a351bb25059112b4",
+              "permalink": "navigation",
+              "entity_def_id": "category"
+            },
+            {
+              "uuid": "5ca011af-31fe-335c-6866-ff8b635bb2f8",
+              "value": "Tourism",
+              "image_id": "32ed290bb32b4ba093afc48f5e31f28f",
+              "permalink": "tourism",
+              "entity_def_id": "category"
+            },
+            {
+              "uuid": "8672f521-ce9a-e851-adff-c35d2441a0ad",
+              "value": "Travel",
+              "image_id": "a6a6e9a41aa44c11af80dfffe5720c96",
+              "permalink": "travel",
+              "entity_def_id": "category"
+            }
+          ],
+          "target_location_groups": [
+            {
+              "uuid": "19e3ce8a-100d-44d8-89d7-8ca1be67361f",
+              "value": "European Union (EU)",
+              "permalink": "european-union-eu",
+              "entity_def_id": "location",
+              "location_type": "group"
+            },
+            {
+              "uuid": "4e8be435-c63a-4aff-8a2f-44a880d9c341",
+              "value": "Europe, Middle East, and Africa (EMEA)",
+              "permalink": "europe-middle-east-africa-emea",
+              "entity_def_id": "location",
+              "location_type": "group"
+            },
+            {
+              "uuid": "e0272206-3430-48cb-a5bc-1d4b3eafe15a",
+              "value": "Middle East",
+              "permalink": "middle-east",
+              "entity_def_id": "location",
+              "location_type": "group"
+            },
+            {
+              "uuid": "8cb7cad4-b7e4-4b28-a496-2ede3720cb19",
+              "value": "Middle East and North Africa (MENA)",
+              "permalink": "middle-east-and-north-africa-mena",
+              "entity_def_id": "location",
+              "location_type": "group"
+            },
+            {
+              "uuid": "4e8be435-c63a-4aff-8a2f-44a880d9c341",
+              "value": "Europe, Middle East, and Africa (EMEA)",
+              "permalink": "europe-middle-east-africa-emea",
+              "entity_def_id": "location",
+              "location_type": "group"
+            }
+          ],
+          "target": {
+            "uuid": "de8fa8c6-f80d-486d-b5c3-a1b810c8d5e5",
+            "value": "AnyWay Guides",
+            "image_id": "ydp8c4j3xbbjoywlixtk",
+            "permalink": "anyway-guides",
+            "entity_def_id": "organization"
+          },
+          "micro_category_overlap": [
+            {
+              "uuid": "7bb20ed7-973d-4467-97ff-0a0aed621220",
+              "value": "Concierge Guides",
+              "permalink": "concierge-guides",
+              "entity_def_id": "micro_category"
+            }
+          ]
+        }
+      ],
+      "growth_knowledge": {
+        "lookup": [],
+        "properties": {
+          "identifier": {
+            "uuid": "10b38ae0-c530-4609-b22f-d91a3b77c66b",
+            "value": "Sawah",
+            "image_id": "nnwrhpbpof0nsjhflrse",
+            "permalink": "sawah",
+            "entity_def_id": "organization"
+          }
+        },
+        "data": []
+      },
+      "overview_fields_extended": {
+        "location_group_identifiers": [
+          {
+            "uuid": "4e8be435-c63a-4aff-8a2f-44a880d9c341",
+            "value": "Europe, Middle East, and Africa (EMEA)",
+            "permalink": "europe-middle-east-africa-emea",
+            "entity_def_id": "location",
+            "location_type": "group"
+          },
+          {
+            "uuid": "c4365698-c7c5-44b0-b33a-7d13900e5be2",
+            "value": "Gulf Cooperation Council (GCC)",
+            "permalink": "gulf-cooperation-council",
+            "entity_def_id": "location",
+            "location_type": "group"
+          },
+          {
+            "uuid": "e0272206-3430-48cb-a5bc-1d4b3eafe15a",
+            "value": "Middle East",
+            "permalink": "middle-east",
+            "entity_def_id": "location",
+            "location_type": "group"
+          },
+          {
+            "uuid": "8cb7cad4-b7e4-4b28-a496-2ede3720cb19",
+            "value": "Middle East and North Africa (MENA)",
+            "permalink": "middle-east-and-north-africa-mena",
+            "entity_def_id": "location",
+            "location_type": "group"
+          }
+        ],
+        "founded_on": {
+          "value": "2016-01-01",
+          "precision": "year"
+        },
+        "founder_identifiers": [
+          {
+            "uuid": "0a0dbc83-c260-4934-b8be-9d94e9307774",
+            "value": "Yasser AlAhmed",
+            "image_id": "ldxzo6zbxyx2cwaiypy8",
+            "permalink": "yasser-alahmed",
+            "entity_def_id": "person"
+          }
+        ],
+        "revenue_range": "r_00000000",
+        "operating_status": "active",
+        "last_funding_type": "seed"
+      },
+      "overview_investor_fields": {},
+      "bombora_attribution": {},
+      "semrush_location_list": [
+        {
+          "identifier": {
+            "uuid": "d5b111b5-3351-404d-93bf-2f3f913ce936"
+          },
+          "uuid": "d5b111b5-3351-404d-93bf-2f3f913ce936",
+          "rank": 937343,
+          "location_identifiers": [
+            {
+              "uuid": "ea487e37-15cf-a2f7-3ea6-77f44bf0f977",
+              "value": "Pakistan",
+              "permalink": "pakistan",
+              "entity_def_id": "location"
+            },
+            {
+              "uuid": "b41404d2-8ecc-caf5-1268-8fdd3afe73ee",
+              "value": "Asia",
+              "permalink": "asia",
+              "entity_def_id": "location"
+            }
+          ],
+          "visits_pct": 1
+        }
+      ],
+      "investors_list": [],
+      "siftery_summary": {
+        "identifier": {
+          "uuid": "10b38ae0-c530-4609-b22f-d91a3b77c66b",
+          "value": "Sawah",
+          "image_id": "nnwrhpbpof0nsjhflrse",
+          "permalink": "sawah",
+          "entity_def_id": "organization"
+        }
+      },
+      "acquired_by_summary": {
+        "identifier": {
+          "uuid": "10b38ae0-c530-4609-b22f-d91a3b77c66b",
+          "value": "Sawah",
+          "image_id": "nnwrhpbpof0nsjhflrse",
+          "permalink": "sawah",
+          "entity_def_id": "organization"
+        }
+      },
+      "ipo_fields": {},
+      "apptopia_app_overview_list_public": [],
+      "apptopia_sdk_list": [],
+      "trading_view": {},
+      "current_employees_image_list": [],
+      "frequently_asked_questions_investors": {
+        "identifier": {
+          "uuid": "10b38ae0-c530-4609-b22f-d91a3b77c66b",
+          "value": "Sawah",
+          "image_id": "nnwrhpbpof0nsjhflrse",
+          "permalink": "sawah",
+          "entity_def_id": "organization"
+        }
+      },
+      "funding_rounds_list": [
+        {
+          "identifier": {
+            "uuid": "565aca7a-d77e-4ef8-a43b-43035d9c8f7d",
+            "value": "Seed Round - Sawah",
+            "image_id": "nnwrhpbpof0nsjhflrse",
+            "permalink": "sawah-seed--565aca7a",
+            "entity_def_id": "funding_round"
+          },
+          "announced_on": "2019-01-01",
+          "money_raised": {
+            "value": 533000,
+            "currency": "USD",
+            "value_usd": 533000
+          },
+          "post_money_valuation": {
+            "value": 3158201,
+            "currency": "USD",
+            "value_usd": 3158202
+          },
+          "investment_type": "seed"
+        }
+      ],
+      "technology_highlights": {
+        "builtwith_num_technologies_used": 20,
+        "semrush_visits_latest_month": 61
+      },
+      "funding_rounds_headline": {
+        "funding_total": {
+          "value": 533000,
+          "currency": "USD",
+          "value_usd": 533000
+        },
+        "num_funding_rounds": 1
+      },
+      "investments_list": [],
+      "exits_image_list": [],
+      "funds_headline": {},
+      "people_highlights": {},
+      "semrush_attribution": {
+        "semrush_last_updated": "2026-06-18"
+      },
+      "frequently_asked_questions_similar_companies": {
+        "identifier": {
+          "uuid": "10b38ae0-c530-4609-b22f-d91a3b77c66b",
+          "value": "Sawah",
+          "image_id": "nnwrhpbpof0nsjhflrse",
+          "permalink": "sawah",
+          "entity_def_id": "organization"
+        }
+      },
+      "semrush_overview": {
+        "semrush_bounce_rate": 1,
+        "semrush_visit_duration": 0,
+        "semrush_visit_pageviews": 1
+      },
+      "org_category_ranks": {},
+      "current_valuation": [],
+      "legal_proceedings": [],
+      "current_employees_summary": {
+        "identifier": {
+          "uuid": "10b38ae0-c530-4609-b22f-d91a3b77c66b",
+          "value": "Sawah",
+          "image_id": "nnwrhpbpof0nsjhflrse",
+          "permalink": "sawah",
+          "entity_def_id": "organization"
+        }
+      },
+      "aberdeen_summary": {
+        "identifier": {
+          "uuid": "10b38ae0-c530-4609-b22f-d91a3b77c66b",
+          "value": "Sawah",
+          "image_id": "nnwrhpbpof0nsjhflrse",
+          "permalink": "sawah",
+          "entity_def_id": "organization"
+        }
+      },
+      "offices": [],
+      "overview_timeline": {
+        "count": 1,
+        "entities": [
+          {
+            "uuid": "565aca7a-d77e-4ef8-a43b-43035d9c8f7d",
+            "properties": {
+              "identifier": {
+                "uuid": "565aca7a-d77e-4ef8-a43b-43035d9c8f7d",
+                "value": "Seed Round - Sawah",
+                "image_id": "nnwrhpbpof0nsjhflrse",
+                "permalink": "sawah-seed--565aca7a",
+                "entity_def_id": "funding_round"
+              },
+              "entity_def_id": "funding_round",
+              "activity_entities": [
+                {
+                  "role": "investee",
+                  "uuid": "10b38ae0-c530-4609-b22f-d91a3b77c66b",
+                  "value": "Sawah",
+                  "image_id": "nnwrhpbpof0nsjhflrse",
+                  "permalink": "sawah",
+                  "entity_def_id": "organization"
+                }
+              ],
+              "activity_properties": {
+                "money_raised": {
+                  "value": 533000,
+                  "currency": "USD",
+                  "value_usd": 533000
+                },
+                "investment_type": "seed"
+              },
+              "activity_date": "2019-01-01"
+            }
+          }
+        ]
+      },
+      "company_financials_highlights": {
+        "funding_total": {
+          "value": 533000,
+          "currency": "USD",
+          "value_usd": 533000
+        },
+        "num_funding_rounds": 1
+      },
+      "overview_company_fields": {
+        "company_type": "for_profit"
+      },
+      "private_tags_pill_list": [],
+      "acquisitions_headline": {},
+      "builtwith_summary": {
+        "builtwith_num_technologies_used": 20,
+        "identifier": {
+          "uuid": "10b38ae0-c530-4609-b22f-d91a3b77c66b",
+          "value": "Sawah",
+          "image_id": "nnwrhpbpof0nsjhflrse",
+          "permalink": "sawah",
+          "entity_def_id": "organization"
+        }
+      },
+      "about_short_description": {
+        "short_description": "Sawah is an application-based platform that provides local tour guides to travelers."
+      },
+      "product": [
+        {
+          "identifier": {
+            "uuid": "6c26f490-6e41-4ff8-8acd-3be5ea556fb3",
+            "value": "Sawah Application",
+            "entity_def_id": "product"
+          },
+          "name": "Sawah Application",
+          "description": "A mobile platform connecting travelers with local tour guides for personalized city exploration."
+        }
+      ],
+      "apptopia_app_headline": {}
+    }
+  }
+}

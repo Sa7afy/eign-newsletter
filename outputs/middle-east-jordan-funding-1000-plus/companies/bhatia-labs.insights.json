@@ -1,0 +1,276 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T10:59:48.352Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T10:59:48.349Z",
+    "url": "https://www.crunchbase.com/organization/bhatia-labs"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Bhatia Labs",
+      "shortDescription": "Bhatia Labs offers affordable productized services, platforms, and infrastructure to individuals, startups, and businesses.",
+      "description": "Bhatia Labs provides productized services, platforms and infrastructure at affordable costs to individuals, startups and businesses all over the world.",
+      "website": "https://bhatialabs.com/",
+      "foundedYear": 2019,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "1-10",
+      "estimatedRevenueRange": "Less than $1M",
+      "headquarters": "Dubai, United Arab Emirates",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Information Services",
+        "Information Technology",
+        "Internet"
+      ],
+      "sectors": [
+        "Information Technology"
+      ],
+      "founders": [
+        "Dushyant Bhatia"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "A platform facilitating connections between clients and remote digital marketing teams or freelancers.",
+        "name": "DesignOye"
+      },
+      {
+        "description": "A marketplace offering over 500,000 graphic design resources, noted as the largest in the Middle East.",
+        "name": "DesignOye Assets Marketplace"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 651636,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 2,
+      "detailedRoundCount": 2,
+      "lastFundingDate": "2022-07-04",
+      "lastFundingType": "Seed",
+      "rounds": [
+        {
+          "announcedDate": "2022-07-04",
+          "amount": {
+            "amount": 405372,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "Eureeca"
+          ],
+          "postMoneyValuation": {
+            "amount": 4703587,
+            "currency": "USD"
+          },
+          "type": "Seed"
+        },
+        {
+          "announcedDate": "2021-01-01",
+          "amount": {
+            "amount": 246264,
+            "currency": "USD"
+          },
+          "type": "Equity Crowdfunding"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "Eureeca",
+            "rounds": [
+              "Seed Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 2,
+      "includedUniqueCount": 2,
+      "items": [
+        {
+          "date": "2022-07-04",
+          "title": "Seed Round - Bhatia Labs"
+        },
+        {
+          "date": "2021-01-01",
+          "title": "Equity Crowdfunding - Bhatia Labs"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 2,
+    "knownDetailedFundingAmount": {
+      "amount": 651636,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 62.21,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": 29,
+      "growthScore": 69,
+      "heatChange90Days": -6,
+      "heatScore": 53
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 0
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 28.07,
+        "timingEstimatePercent": {
+          "within6Months": 14.05,
+          "months6To11": 12.08,
+          "months12To24": 19.3,
+          "beyond24Months": 24.79
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 85.17
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 0
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "MarketerHire is the future of work: a diverse, fully-remote team of full-time employees and freelancers.",
+          "employeeRange": "101-250",
+          "name": "MarketerHire",
+          "sharedSpecialties": [
+            "Virtual Talent Agencies",
+            "Freelance and Flexible Staffing"
+          ],
+          "similarityScore": 97
+        },
+        {
+          "description": "Toptal is a network of talent in business, design, and technology that enables companies to scale their teams, on demand.",
+          "employeeRange": "1,001-5,000",
+          "name": "Toptal",
+          "sharedSpecialties": [
+            "Freelance and Flexible Staffing"
+          ],
+          "similarityScore": 95
+        },
+        {
+          "description": "Outsized is a digital platform that offers project and contract roles for freelancers posted by clients from consulting firms.",
+          "employeeRange": "11-50",
+          "name": "Outsized",
+          "sharedSpecialties": [
+            "Freelance and Flexible Staffing"
+          ],
+          "similarityScore": 91
+        },
+        {
+          "description": "Fiverr is a freelance services center that offers a marketplace for creative and professional services.",
+          "employeeRange": "1-10",
+          "name": "Fiverr",
+          "sharedSpecialties": [
+            "Freelance Design",
+            "Freelance and Flexible Staffing"
+          ],
+          "similarityScore": 90
+        },
+        {
+          "description": "Upwork is a human and AI-powered freelance marketplace to hire top talent.",
+          "employeeRange": "1-10",
+          "name": "Upwork Global, Inc.",
+          "sharedSpecialties": [
+            "Freelance Design",
+            "Freelance and Flexible Staffing"
+          ],
+          "similarityScore": 89
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Seed round raised $405,372, or 62.21% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $4,703,587 to $4,703,587, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 69 (+29 over 90 days) and market heat at 53 (-6).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include MarketerHire, Toptal, Outsized.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

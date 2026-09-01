@@ -1,0 +1,171 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T12:59:51.026Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T12:59:51.024Z",
+    "url": "https://www.crunchbase.com/organization/presentationtube"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "PresentationTube",
+      "shortDescription": "PresentationTube offers a desktop presentation recorder and video-sharing platform for teachers, students, and business professionals.",
+      "description": "Produce and share online video presentations\r\n\r\nPresentationTube offers a desktop presentation recorder and video sharing platform to help teachers, students and business professionals easily produce and share professional and quality video presentations. The recorder allows presenters to narrate and annotate PowerPoint slides and synchronize a variety of essential visual aids, including webcam footage, whiteboard, drawing board, and web browser. The platform integrates the recorded video and scrollable slide thumbnails, allowing the audience to move to the respective video content and control both the time and progress of video presentation.",
+      "website": "http://presentationtube.com/",
+      "foundedYear": 2013,
+      "operatingStatus": "Closed",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "1-10",
+      "estimatedRevenueRange": "$1M-$10M",
+      "headquarters": "Muscat, Masqat, Oman",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Education",
+        "Video"
+      ],
+      "sectors": [
+        "Education",
+        "Media and Entertainment",
+        "Video"
+      ],
+      "founders": [
+        "Alaa Sadik"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "A desktop application for recording presentations with video and audio for educational and professional use.",
+        "name": "PresentationTube Desktop Recorder"
+      },
+      {
+        "description": "An online platform for uploading, sharing, and managing recorded presentation videos.",
+        "name": "PresentationTube Video Sharing Platform"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 10000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2013-09-07",
+      "lastFundingType": "Grant",
+      "rounds": [
+        {
+          "announcedDate": "2013-09-07",
+          "amount": {
+            "amount": 10000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "type": "Grant"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "name": "Internet Society",
+            "rounds": [
+              "Grant"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 2,
+      "includedUniqueCount": 2,
+      "items": [
+        {
+          "date": "2014-01-08",
+          "publisher": "Killer Startups",
+          "title": "PresentationTube From Dr. Alaa Sadik Revamps Presentations To Fit The Modern Age",
+          "url": "http://www.killerstartups.com/rising-startup-stars/interview-with-startup-founder-dr-alaa-sadik-presentationtube/"
+        },
+        {
+          "date": "2013-09-07",
+          "title": "Grant - PresentationTube"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 10000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "grantFunding": {
+      "amount": {
+        "amount": 10000,
+        "currency": "USD"
+      },
+      "disclosedRoundCount": 1,
+      "shareOfTotalPercent": 100
+    }
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "heatChange90Days": -9,
+      "heatScore": 9
+    },
+    "modelPredictions": {
+      "growth": {
+        "generatedDate": "2025-10-11",
+        "probabilityPercent": 66.39
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors."
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Grant round raised $10,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Meaningful non-dilutive funding",
+      "statement": "1 disclosed grants total $10,000, representing 100% of reported funding.",
+      "implication": "The grants reduce the share of reported financing attributed to equity or notes, although their restrictions and milestone requirements need separate verification.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.grantFunding"
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

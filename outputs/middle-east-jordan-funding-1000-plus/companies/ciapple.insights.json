@@ -1,0 +1,187 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T11:11:22.466Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T11:11:22.464Z",
+    "url": "https://www.crunchbase.com/organization/ciapple"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Ciapple",
+      "shortDescription": "Ciapple develops intelligent targeted advertisement solutions and provides knowledge about customers' shopping trends.",
+      "description": "Small to Medium Enterprises (SME) in this competitive market, are facing some challenges in retaining profitable customers and utilize their advertising budget to be more targeted. One of the available high cost solutions is hiring full time data mining and marketing analysis experts, buying expensive enterprise solution and train them how to use, integrate, and customize it to the company’s actual needs. Another solution with less cost but also less quality, is hiring conventional business consultants to perform manual data analysis is not really applicable for such type of huge and complex natural of the data. One of our recent client is Bayt.com that are now gaining such business intelligence insights.\n\nCiapple services include extracting knowledge from the collected data about our client’s customers using high-quality and easy knowledge machines that best match these companies’ requirements . This extracted knowledge from the hidden patterns in their any type of database could excitably develop the business and getting bigger market share by retaining customers, targeted advertizing, cross-selling, enhance user experience and other strategic business decisions. Ciapple team who combines business and technology experts in data mining and business intelligence offer this high end service in many formats like configured in-house solutions, web applications, and ready-made products for customer retentions & cross-selling, and consulting-like marketing analysis service with very affordable value-centric price. Ciapple offers high quality business insights, as enabler tools, in a format and a price that SME would prefer to have.",
+      "website": "http://ciapple.com/",
+      "operatingStatus": "Closed",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "1-10",
+      "estimatedRevenueRange": "Less than $1M",
+      "headquarters": "Amman, Jordan",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Analytics",
+        "Business Intelligence",
+        "Data Mining",
+        "Knowledge Management",
+        "Small and Medium Businesses",
+        "Software"
+      ],
+      "sectors": [
+        "Administrative Services",
+        "Data and Analytics",
+        "Information Technology",
+        "Other",
+        "Software"
+      ],
+      "founders": [
+        "Hussein AL-NATSHEH"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 21000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2009-06-09",
+      "lastFundingType": "Seed",
+      "rounds": [
+        {
+          "announcedDate": "2009-06-09",
+          "amount": {
+            "amount": 21000,
+            "currency": "USD"
+          },
+          "type": "Seed"
+        }
+      ]
+    },
+    "recentNews": {
+      "reportedCount": 1,
+      "includedUniqueCount": 1,
+      "items": [
+        {
+          "date": "2009-06-09",
+          "title": "Seed Round - Ciapple"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 21000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "heatChange90Days": 1,
+      "heatScore": 31
+    },
+    "modelPredictions": {
+      "growth": {
+        "generatedDate": "2025-04-06",
+        "probabilityPercent": 82.21
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "AdAdapted is a digital engagement and insights platform for CPG brands and agencies.",
+          "employeeRange": "101-250",
+          "name": "AdAdapted",
+          "sharedCategories": [
+            "Analytics",
+            "Software"
+          ],
+          "similarityScore": 97
+        },
+        {
+          "description": "Epsilon is an all-encompassing global marketing company, a leader in creating connections between people and brands.",
+          "employeeRange": "5,001-10,000",
+          "name": "Epsilon",
+          "similarityScore": 95
+        },
+        {
+          "description": "LiveRamp aspires to make it safe and easy for companies to use data effectively.",
+          "employeeRange": "1,001-5,000",
+          "name": "LiveRamp",
+          "sharedCategories": [
+            "Analytics"
+          ],
+          "similarityScore": 93
+        },
+        {
+          "description": "Audigent is a next-generation DMP and a first-of-a-kind \"data agency\" comprised of exclusive entertainment, sports, and lifestyle audiences.",
+          "employeeRange": "51-100",
+          "name": "AuDIGENT",
+          "sharedCategories": [
+            "Analytics"
+          ],
+          "similarityScore": 91
+        },
+        {
+          "description": "The Trade Desk is an online demand-side platform that provides buying tools for digital media buyers.",
+          "employeeRange": "1,001-5,000",
+          "name": "The Trade Desk",
+          "sharedCategories": [
+            "Software"
+          ],
+          "similarityScore": 89
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Seed round raised $21,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include AdAdapted, Epsilon, LiveRamp.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

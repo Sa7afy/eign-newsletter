@@ -1,0 +1,144 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T13:31:22.730Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T13:31:22.729Z",
+    "url": "https://www.crunchbase.com/organization/spycraft"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Spycraft",
+      "shortDescription": "SpyCraft is an AI native creative intelligence platform that helps D2C brands and marketing teams find their next winning creative.",
+      "description": "Got it. Let me widen the frame from \"find the winning ad\" to running the whole creative marketing loop, which is what the feature set actually supports.\nSpyCraft is an AI native creative intelligence platform for D2C brands, performance marketing agencies, and paid media teams. It powers the entire creative marketing workflow, from competitive research and performance analysis through to brief generation and AI creative production, giving teams one place to plan, analyse, and act on their creative.\nThe platform connects to a brand's Meta ad account and tags every creative across 14 axes, correlating creative elements with performance so teams can see what actually drives results. It tracks competitors daily, breaking down every active competitor ad by strategy, format, and messaging, and keeps a team's own creatives organised in a searchable, tagged library with performance attached to every asset. It catches creative fatigue early, before CPA spikes and performance tanks, and surfaces clear reports on what is winning, what is dying, and what is still untested.\nWhen it is time to create, SpyCraft generates structured briefs and ready to use prompts, with brand kit baked in, that feed directly into AI creative tools like Kling and Higgsfield. Teams can also chat with the platform in plain English to analyse creative, compare competitors, and surface patterns on demand. SpyCraft does not replace the creative team. It gives them the intelligence layer they have been missing, so every creative decision is grounded in real performance data and competitive intelligence rather than guesswork.",
+      "website": "https://www.spycraft.co/",
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "employeeRange": "1-10",
+      "headquarters": "Dubai, United Arab Emirates",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Marketing Automation"
+      ],
+      "sectors": [
+        "Sales and Marketing",
+        "Software"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 131000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2026-02-01",
+      "lastFundingType": "Pre Seed",
+      "rounds": [
+        {
+          "announcedDate": "2026-02-01",
+          "amount": {
+            "amount": 131000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "type": "Pre Seed"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "name": "Ravi Bahety",
+            "rounds": [
+              "Pre Seed Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 1,
+      "includedUniqueCount": 1,
+      "items": [
+        {
+          "date": "2026-02-01",
+          "title": "Pre Seed Round - Spycraft"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 131000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": 5,
+      "growthScore": 92,
+      "heatChange90Days": 83,
+      "heatScore": 84
+    },
+    "modelPredictions": {
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 81
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors."
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Pre Seed round raised $131,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 92 (+5 over 90 days) and market heat at 84 (+83).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

@@ -1,0 +1,261 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T12:50:34.500Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T12:50:34.498Z",
+    "url": "https://www.crunchbase.com/organization/openfarming-462f"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "OpenFarming",
+      "shortDescription": "OpenFarming.Earth is an AI-powered food distribution and supply-chain platform.",
+      "description": "OpenFarming.Earth is an AI-powered food distribution and supply-chain platform focused on helping food distributors automate order aggregation, inventory management, demand forecasting, routing, and payment workflows. The company mainly targets distributors, wholesalers, restaurants, hotels, and grocery supply chains in the Middle East.",
+      "website": "https://openfarming.earth/",
+      "foundedYear": 2025,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "1-10",
+      "headquarters": "Dubai, United Arab Emirates",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Agriculture",
+        "Artificial Intelligence (AI)",
+        "Food and Beverage",
+        "Food Processing",
+        "Operating Systems"
+      ],
+      "sectors": [
+        "Agriculture and Farming",
+        "Artificial Intelligence (AI)",
+        "Data and Analytics",
+        "Food and Beverage",
+        "Platforms",
+        "Science and Engineering",
+        "Software"
+      ],
+      "founders": [
+        "Mohib Hassan",
+        "Mustafa Zaffer"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 220000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2025-09-08",
+      "lastFundingType": "Pre Seed",
+      "rounds": [
+        {
+          "announcedDate": "2025-09-08",
+          "amount": {
+            "amount": 220000,
+            "currency": "USD"
+          },
+          "investorCount": 2,
+          "leadInvestors": [
+            "HP Spring Studios",
+            "Techstars"
+          ],
+          "postMoneyValuation": {
+            "amount": 2820755,
+            "currency": "USD"
+          },
+          "type": "Pre Seed"
+        }
+      ],
+      "investors": {
+        "reportedCount": 2,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "HP Spring Studios",
+            "rounds": [
+              "Pre Seed Round"
+            ]
+          },
+          {
+            "isLead": true,
+            "name": "Techstars",
+            "rounds": [
+              "Pre Seed Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 1,
+      "includedUniqueCount": 1,
+      "items": [
+        {
+          "date": "2025-09-08",
+          "title": "Pre Seed Round - OpenFarming"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 220000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": 1,
+      "growthScore": 55,
+      "heatChange90Days": -1,
+      "heatScore": 70
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 5
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 93.89,
+        "timingEstimatePercent": {
+          "within6Months": 99.95,
+          "months6To11": 0.05,
+          "months12To24": 0,
+          "beyond24Months": 0.01
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 92.83
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 0
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "RELEX Solutions offers a unified AI-based platform that enhances supply chain and retail planning.",
+          "employeeRange": "1,001-5,000",
+          "name": "RELEX Solutions",
+          "sharedCategories": [
+            "Artificial Intelligence (AI)"
+          ],
+          "similarityScore": 95
+        },
+        {
+          "description": "Blue Yonder is the leading provider of cloud-based predictive applications for retail.",
+          "employeeRange": "5,001-10,000",
+          "name": "Blue Yonder",
+          "sharedCategories": [
+            "Artificial Intelligence (AI)"
+          ],
+          "similarityScore": 93
+        },
+        {
+          "description": "O9 Solutions is a cloud-based business management platform powering digital transformations of integrated planning and operations.",
+          "employeeRange": "1,001-5,000",
+          "name": "o9 Solutions",
+          "sharedCategories": [
+            "Artificial Intelligence (AI)"
+          ],
+          "similarityScore": 91
+        },
+        {
+          "description": "e2open is an enterprise platform that offers supply chain management solutions.",
+          "employeeRange": "1,001-5,000",
+          "name": "e2open",
+          "similarityScore": 88
+        },
+        {
+          "description": "Kinaxis is a leading provider of cloud-based subscription software.",
+          "employeeRange": "1,001-5,000",
+          "name": "Kinaxis",
+          "similarityScore": 88
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Pre Seed round raised $220,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $2,820,755 to $2,820,755, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 55 (+1 over 90 days) and market heat at 70 (-1).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include RELEX Solutions, Blue Yonder, o9 Solutions.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

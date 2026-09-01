@@ -1,0 +1,231 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T13:43:41.661Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T13:43:41.659Z",
+    "url": "https://www.crunchbase.com/organization/the-pantry-delivery-co-llc"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "The Pantry Delivery Co LLC",
+      "shortDescription": "Unlock your workplace pantry- The Pantry is an affordable solutions for SME's to unlock simple menus for their team at the workplace.",
+      "description": "Unlock your workplace pantry- The Pantry is an affordable solutions for SME's to unlock simple menus for their team at the workplace.\n\nWe're building the pantry of the future.\n\nCompletely digital, community shared and served through a centralized dark kitchen, super fast.",
+      "website": "https://thepantry.app/",
+      "foundedYear": 2019,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "1-10",
+      "headquarters": "Dubai, United Arab Emirates",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Food and Beverage",
+        "SaaS"
+      ],
+      "sectors": [
+        "Food and Beverage",
+        "Software"
+      ],
+      "founders": [
+        "Omar Khaled Bushnaq"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 60000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2020-10-25",
+      "lastFundingType": "Pre Seed",
+      "rounds": [
+        {
+          "announcedDate": "2020-10-25",
+          "amount": {
+            "amount": 60000,
+            "currency": "USD"
+          },
+          "postMoneyValuation": {
+            "amount": 1060000,
+            "currency": "USD"
+          },
+          "type": "Pre Seed"
+        }
+      ]
+    },
+    "recentNews": {
+      "reportedCount": 1,
+      "includedUniqueCount": 1,
+      "items": [
+        {
+          "date": "2020-10-25",
+          "title": "Pre Seed Round - The Pantry Delivery Co LLC"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 60000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": 1,
+      "growthScore": 74,
+      "heatChange90Days": -1,
+      "heatScore": 66
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 36.23
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 13.54,
+        "timingEstimatePercent": {
+          "within6Months": 15.57,
+          "months6To11": 13.14,
+          "months12To24": 20.47,
+          "beyond24Months": 24.99
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 84.27
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 28.42
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Crafty is a leading national provider of office food and beverage programs powered through an innovative, centralized platform.",
+          "employeeRange": "1-10",
+          "name": "Crafty",
+          "sharedCategories": [
+            "Food and Beverage"
+          ],
+          "similarityScore": 96
+        },
+        {
+          "description": "Fooda is a food technology platform that connects restaurants to people while at work.",
+          "employeeRange": "101-250",
+          "name": "Fooda",
+          "sharedCategories": [
+            "Food and Beverage"
+          ],
+          "similarityScore": 93
+        },
+        {
+          "description": "Bartesian is a premium cocktail maker using capsules that contain the real, premium ingredients for on-demand, perfectly crafted cocktails.",
+          "employeeRange": "11-50",
+          "name": "Bartesian",
+          "sharedCategories": [
+            "Food and Beverage"
+          ],
+          "similarityScore": 86
+        },
+        {
+          "description": "Canteen is a national vending machine operating company offering vending, office coffee service and dining services.",
+          "employeeRange": "10,001+",
+          "name": "Canteen, NA",
+          "sharedCategories": [
+            "Food and Beverage"
+          ],
+          "similarityScore": 85
+        },
+        {
+          "description": "Seventh Generation produces and distributes safe household products including disinfectants, soaps, and personal care products.",
+          "employeeRange": "51-100",
+          "name": "Seventh Generation",
+          "similarityScore": 82
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Pre Seed round raised $60,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $1,060,000 to $1,060,000, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 74 (+1 over 90 days) and market heat at 66 (-1).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Crafty, Fooda, Bartesian.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

@@ -1,0 +1,284 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T11:26:56.630Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T11:26:56.628Z",
+    "url": "https://www.crunchbase.com/organization/drop-e7a7"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Drop",
+      "shortDescription": "Your All-In-One Car App.",
+      "description": "We're on a mission to revolutionize the car ownership experience by providing people with digital auto-solutions that are convenient, eco-friendly, and comprehensive.",
+      "website": "https://drop-eg.com/",
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "1-10",
+      "estimatedRevenueRange": "Less than $1M",
+      "headquarters": "Cairo, Al Qahirah, Egypt",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Middle East",
+        "Middle East and North Africa (MENA)",
+        "North Africa"
+      ],
+      "industries": [
+        "Automotive",
+        "Information Technology",
+        "Internet",
+        "SaaS",
+        "Software",
+        "Web Development"
+      ],
+      "sectors": [
+        "Information Technology",
+        "Software",
+        "Transportation"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "A mobile application that provides digital solutions for car owners including services like car wash, repairs, and maintenance.",
+        "name": "All-In-One Car App"
+      },
+      {
+        "description": "A service that cleans car engines using steam and degreasing chemicals to remove dirt without damaging engine components.",
+        "name": "Engine Cleaning Service"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 43173,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 2,
+      "detailedRoundCount": 2,
+      "lastFundingDate": "2023-08-25",
+      "lastFundingType": "Private Equity",
+      "rounds": [
+        {
+          "announcedDate": "2023-08-25",
+          "amount": {
+            "amount": 32363,
+            "currency": "USD"
+          },
+          "postMoneyValuation": {
+            "amount": 5032363,
+            "currency": "USD"
+          },
+          "type": "Private Equity"
+        },
+        {
+          "announcedDate": "2022-05-01",
+          "amount": {
+            "amount": 10810,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "postMoneyValuation": {
+            "amount": 5010810,
+            "currency": "USD"
+          },
+          "type": "Grant"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "name": "Academy of Scientific Research and Technology",
+            "rounds": [
+              "Grant"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 2,
+      "includedUniqueCount": 2,
+      "items": [
+        {
+          "date": "2023-08-25",
+          "title": "Private Equity Round - Drop"
+        },
+        {
+          "date": "2022-05-01",
+          "title": "Grant - Drop"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 2,
+    "knownDetailedFundingAmount": {
+      "amount": 43173,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 74.96,
+    "grantFunding": {
+      "amount": {
+        "amount": 10810,
+        "currency": "USD"
+      },
+      "disclosedRoundCount": 1,
+      "shareOfTotalPercent": 25.04
+    },
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": -31,
+      "growthScore": 52,
+      "heatChange90Days": 2,
+      "heatScore": 50
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 29.63
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 18.18,
+        "timingEstimatePercent": {
+          "within6Months": 0.02,
+          "months6To11": 0,
+          "months12To24": 0,
+          "beyond24Months": 99.98
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 84.91
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 4.78
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "MySyara is a platform that delivers car servicing solutions to the customer and provides supply chain solutions to the workshop.",
+          "employeeRange": "51-100",
+          "name": "MySyara",
+          "sharedCategories": [
+            "Automotive",
+            "Information Technology"
+          ],
+          "similarityScore": 81
+        },
+        {
+          "description": "Careem is a super app providing ride-hailing, food delivery, and digital payment services.",
+          "employeeRange": "1,001-5,000",
+          "name": "Careem",
+          "similarityScore": 79
+        },
+        {
+          "description": "Woow isn’t just another social app -it’s the first AI-moderated, bot-free social network built to scale human creativity.",
+          "employeeRange": "1-10",
+          "name": "WOOW Social Media",
+          "similarityScore": 79
+        },
+        {
+          "description": "Lucidity Insights is a market research and intelligence platform focused on digital economies and technology trends.",
+          "employeeRange": "11-50",
+          "name": "Lucidity Insights",
+          "similarityScore": 77
+        },
+        {
+          "description": "Swvl offers an app that allows customers to book fixed rate rides on buses and vans in their network.",
+          "employeeRange": "251-500",
+          "name": "Swvl",
+          "sharedCategories": [
+            "Internet"
+          ],
+          "similarityScore": 75
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Private Equity round raised $32,363, or 74.96% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Meaningful non-dilutive funding",
+      "statement": "1 disclosed grants total $10,810, representing 25.04% of reported funding.",
+      "implication": "The grants reduce the share of reported financing attributed to equity or notes, although their restrictions and milestone requirements need separate verification.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.grantFunding"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $5,010,810 to $5,032,363, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 52 (-31 over 90 days) and market heat at 50 (+2).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include MySyara, Careem, WOOW Social Media.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

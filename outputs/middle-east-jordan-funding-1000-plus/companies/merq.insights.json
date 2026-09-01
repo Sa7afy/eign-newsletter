@@ -1,0 +1,313 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T12:31:39.761Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T12:31:39.758Z",
+    "url": "https://www.crunchbase.com/organization/merq"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "MerQ",
+      "shortDescription": "Artificial intelligence startup specialized in developing cognitive chatbots in the form of virtual assistants in financial sector.",
+      "description": "Offering better communication for businesses and individuals through Artificial intelligence solutions and chatbots, therefore MerQ was established. \n\nMerQ is an Artificial intelligence startup specialized in developing cognitive chatbots in the form of virtual assistants.  MerQ aims to make these virtual assistants support audience 24/7, answer their inquiries, reduce cost and save people's time.",
+      "website": "http://merq.ai/",
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "11-50",
+      "estimatedRevenueRange": "Less than $1M",
+      "headquarters": "Ismailia, Al Isma'iliyah, Egypt",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Middle East",
+        "Middle East and North Africa (MENA)",
+        "North Africa"
+      ],
+      "industries": [
+        "Artificial Intelligence (AI)",
+        "Chatbot",
+        "Machine Learning"
+      ],
+      "sectors": [
+        "Artificial Intelligence (AI)",
+        "Data and Analytics",
+        "Science and Engineering",
+        "Software"
+      ],
+      "founders": [
+        "Waleed Ghalwash"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "A platform to build and manage virtual assistants for conversational business across multiple channels.",
+        "name": "Enterprise Virtual Assistant Platform"
+      },
+      {
+        "description": "AI-powered chatbots specialized for financial services, including credit card, loan, e-wallet, and account assistance.",
+        "name": "Financial Virtual Assistants"
+      },
+      {
+        "description": "A conversational interface for WhatsApp that supports voice, rich media, keyword recognition, and a numbering system.",
+        "name": "WhatsApp for Business Integration"
+      },
+      {
+        "description": "AI-driven analysis tools for deeper understanding of user intents and customer segmentation based on business needs.",
+        "name": "Cognitive Knowledge and Insights Segmentation"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 800000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 2,
+      "detailedRoundCount": 2,
+      "lastFundingDate": "2019-12-01",
+      "lastFundingType": "Non Equity Assistance",
+      "rounds": [
+        {
+          "announcedDate": "2019-12-01",
+          "investorCount": 1,
+          "type": "Non Equity Assistance"
+        },
+        {
+          "announcedDate": "2019-04-14",
+          "amount": {
+            "amount": 800000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "Ahmed Kamal Selim"
+          ],
+          "postMoneyValuation": {
+            "amount": 3628483,
+            "currency": "USD"
+          },
+          "type": "Seed"
+        }
+      ],
+      "investors": {
+        "reportedCount": 2,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "Ahmed Kamal Selim",
+            "rounds": [
+              "Seed Round"
+            ]
+          },
+          {
+            "name": "AUC Venture Lab",
+            "rounds": [
+              "Non Equity Assistance"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 4,
+      "includedUniqueCount": 4,
+      "items": [
+        {
+          "date": "2025-07-24",
+          "publisher": "Mexico Business",
+          "title": "International Business: The Enduring Power of Human Connection",
+          "url": "https://mexicobusiness.news/mobility/news/international-business-enduring-power-human-connection"
+        },
+        {
+          "date": "2019-12-01",
+          "title": "Non Equity Assistance - MerQ"
+        },
+        {
+          "date": "2019-06-10",
+          "publisher": "Disrupt Africa",
+          "title": "Egyptian startup MerQ wants to widen applications of AI within fintech",
+          "url": "http://disrupt-africa.com/2019/06/egyptian-startup-merq-wants-to-widen-applications-of-ai-within-fintech/"
+        },
+        {
+          "date": "2019-04-14",
+          "title": "Seed Round - MerQ"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 800000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": -2,
+      "growthScore": 55,
+      "heatChange90Days": -5,
+      "heatScore": 53
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 0
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 9.38,
+        "timingEstimatePercent": {
+          "within6Months": 15.93,
+          "months6To11": 13.39,
+          "months12To24": 20.72,
+          "beyond24Months": 25
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 82.86
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 0
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Kasisto's enables financial institutions to service, engage, and acquire customers.",
+          "employeeRange": "11-50",
+          "name": "Kasisto",
+          "sharedCategories": [
+            "Artificial Intelligence (AI)"
+          ],
+          "sharedSpecialties": [
+            "Knowledge Management",
+            "AI Chatbots and Virtual Assistants"
+          ],
+          "similarityScore": 97
+        },
+        {
+          "description": "Personetics is a provider of data-driven personalization and customer engagement tools for banks and financial services companies.",
+          "employeeRange": "251-500",
+          "name": "Personetics",
+          "sharedSpecialties": [
+            "Financial Marketing and Customer Analytics"
+          ],
+          "similarityScore": 94
+        },
+        {
+          "description": "Kore.ai powers governed, secure enterprise AI—building & orchestrating multi-agent systems across CX and workplace productivity at scale",
+          "employeeRange": "501-1,000",
+          "name": "Kore.ai",
+          "sharedCategories": [
+            "Machine Learning",
+            "Artificial Intelligence (AI)",
+            "Chatbot"
+          ],
+          "sharedSpecialties": [
+            "Knowledge Management",
+            "Live Chat and Omnichannel Messaging",
+            "AI Chatbots and Virtual Assistants"
+          ],
+          "similarityScore": 91
+        },
+        {
+          "description": "Cognigy is an enterprise conversational AI platform designed to automate customer and employee support processes.",
+          "employeeRange": "251-500",
+          "name": "Cognigy",
+          "sharedCategories": [
+            "Artificial Intelligence (AI)",
+            "Chatbot"
+          ],
+          "sharedSpecialties": [
+            "Knowledge Management",
+            "Live Chat and Omnichannel Messaging",
+            "Call and Voice AI Analytics",
+            "Customer Support Agents",
+            "AI Chatbots and Virtual Assistants",
+            "Speech-to-Text",
+            "Text-to-Speech and Voice Synthesis"
+          ],
+          "similarityScore": 90
+        },
+        {
+          "description": "Boost.ai is a Scandinavian software company that specializes in conversational artificial intelligence (AI).",
+          "employeeRange": "101-250",
+          "name": "Boost AI",
+          "sharedCategories": [
+            "Machine Learning",
+            "Artificial Intelligence (AI)"
+          ],
+          "sharedSpecialties": [
+            "Live Chat and Omnichannel Messaging",
+            "Customer Support Agents",
+            "AI Chatbots and Virtual Assistants"
+          ],
+          "similarityScore": 87
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $3,628,483 to $3,628,483, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 55 (-2 over 90 days) and market heat at 53 (-5).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Kasisto, Personetics, Kore.ai.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

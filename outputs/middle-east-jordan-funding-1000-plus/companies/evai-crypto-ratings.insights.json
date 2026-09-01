@@ -1,0 +1,269 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T11:37:05.605Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T11:37:05.603Z",
+    "url": "https://www.crunchbase.com/organization/evai-crypto-ratings"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Evai Analytics",
+      "shortDescription": "Evai Analytics is a crypto valuation platform that provides information about investment strategies for crypto assets.",
+      "description": "Evai is a fintech and Web3 analytics platform that provides AI-driven cryptocurrency ratings, portfolio analysis, and market intelligence tools for digital assets. Founded in 2019, the company focuses on evaluating crypto assets using machine learning models, liquidity metrics, and risk analysis to help users assess market performance and volatility. Its platform offers ratings, trading insights, and portfolio optimization tools covering cryptocurrencies, DeFi assets, and related blockchain markets. The company also developed the EV token ecosystem tied to platform features and community participation.",
+      "website": "https://evai.io/",
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "11-50",
+      "estimatedRevenueRange": "$1M-$10M",
+      "headquarters": "Dubai, United Arab Emirates",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Cryptocurrency",
+        "Financial Services",
+        "Information Services"
+      ],
+      "sectors": [
+        "Blockchain and Cryptocurrency",
+        "Financial Services",
+        "Information Technology",
+        "Payments",
+        "Software"
+      ],
+      "founders": [
+        "Matthew Dixon"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "A system that ranks cryptocurrencies from AAA to D based on their suitability for inclusion in optimal investment portfolios using AI-driven analysis of market factors.",
+        "name": "Evai Crypto Rating"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 1000000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2021-11-01",
+      "lastFundingType": "Seed",
+      "rounds": [
+        {
+          "announcedDate": "2021-11-01",
+          "amount": {
+            "amount": 1000000,
+            "currency": "USD"
+          },
+          "postMoneyValuation": {
+            "amount": 9740127,
+            "currency": "USD"
+          },
+          "type": "Seed"
+        }
+      ]
+    },
+    "recentNews": {
+      "reportedCount": 1,
+      "includedUniqueCount": 1,
+      "items": [
+        {
+          "date": "2021-11-01",
+          "title": "Seed Round - Evai Analytics"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 1000000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": -2,
+      "growthScore": 70,
+      "heatChange90Days": -27,
+      "heatScore": 65
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 0
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 18.79,
+        "timingEstimatePercent": {
+          "within6Months": 15.76,
+          "months6To11": 13.27,
+          "months12To24": 20.6,
+          "beyond24Months": 25
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 84.75
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 0
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Weiss Ratings focuses to directs consumers and business professionals towards safe banking, insurance and investment options.",
+          "employeeRange": "11-50",
+          "name": "Weiss Ratings",
+          "sharedCategories": [
+            "Financial Services"
+          ],
+          "sharedSpecialties": [
+            "Market Data and Economic Calendars",
+            "Market Data and Research"
+          ],
+          "similarityScore": 97
+        },
+        {
+          "description": "TokenInsight is dedicated towards providing accurate data and ratings for cryptocurrency projects.",
+          "employeeRange": "11-50",
+          "name": "TokenInsight",
+          "sharedCategories": [
+            "Financial Services",
+            "Cryptocurrency"
+          ],
+          "sharedSpecialties": [
+            "Market Data and Economic Calendars",
+            "Market Data and Research",
+            "Big Data Analytics"
+          ],
+          "similarityScore": 95
+        },
+        {
+          "description": "CoinGecko provides a data platform, digital currency prices, and fundamental analysis of the cryptocurrency market.",
+          "employeeRange": "101-250",
+          "name": "CoinGecko",
+          "sharedCategories": [
+            "Cryptocurrency"
+          ],
+          "sharedSpecialties": [
+            "Market Data and Economic Calendars",
+            "Market Data and Research",
+            "Dashboarding and Embedded Analytics"
+          ],
+          "similarityScore": 93
+        },
+        {
+          "description": "CoinMarketCap provides transparent data to the cryptocurrency community, enabling users to form conclusions and interpretations.",
+          "employeeRange": "101-250",
+          "name": "CoinMarketCap",
+          "sharedCategories": [
+            "Financial Services",
+            "Cryptocurrency",
+            "Information Services"
+          ],
+          "sharedSpecialties": [
+            "Market Data and Economic Calendars",
+            "Market Data and Research"
+          ],
+          "similarityScore": 91
+        },
+        {
+          "description": "Social media impacts markets. Gain an edge with access to real-time social and market data.",
+          "employeeRange": "11-50",
+          "name": "LunarCrush",
+          "sharedCategories": [
+            "Cryptocurrency",
+            "Information Services"
+          ],
+          "sharedSpecialties": [
+            "Market Data and Research"
+          ],
+          "similarityScore": 89
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Seed round raised $1,000,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $9,740,127 to $9,740,127, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 70 (-2 over 90 days) and market heat at 65 (-27).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Weiss Ratings, TokenInsight, CoinGecko.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

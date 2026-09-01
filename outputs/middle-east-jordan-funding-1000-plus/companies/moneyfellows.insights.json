@@ -1,0 +1,509 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T12:35:49.451Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T12:35:49.449Z",
+    "url": "https://www.crunchbase.com/organization/moneyfellows"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Money Fellows",
+      "shortDescription": "MoneyFellows is a collaborative money management and lending platform digitizing ROSCAs offering users competitive financial solutions.",
+      "description": "Money Fellows is a financial technology company that offers digitized money circles, also known as rotating savings and credit associations (ROSCAs). Through its mobile application, users can join money circles with flexible durations of 6, 10, or 12 months. Participants make regular contributions and receive payouts according to a predetermined schedule. The platform supports various payment methods, including the Money Fellows Card, credit/debit cards, pre-paid cards, bank transfers, Fawry, and e-wallets. Users can participate in multiple circles simultaneously, with payouts up to 1,200,000 EGP. The service includes features such as cashback on payouts and discounts on pay-ins. Money Fellows operates under the supervision of the Central Bank of Egypt's Regulatory Sandbox and collaborates with Banque Misr to monitor transactions and user payouts.",
+      "website": "https://moneyfellows.com/",
+      "foundedYear": 2018,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "101-250",
+      "estimatedRevenueRange": "$50M-$100M",
+      "headquarters": "Cairo, Al Qahirah, Egypt",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Middle East",
+        "Middle East and North Africa (MENA)",
+        "North Africa"
+      ],
+      "industries": [
+        "Credit",
+        "Financial Services",
+        "FinTech"
+      ],
+      "sectors": [
+        "Financial Services",
+        "Lending and Investments"
+      ],
+      "founders": [
+        "Adham Badr",
+        "Ahmed Wadi"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "A digital ROSCA service that lets users make fixed monthly payments and receive the pooled amount in a selected sequence. Circles support 6-, 10-, or 12-month terms and payouts of up to 1,200,000 EGP.",
+        "name": "Money Fellows Money Circles"
+      },
+      {
+        "description": "A mobile financial platform for joining and managing Money Circles and accessing personal financing tools. It supports registration, identity and financial verification, circle selection, scheduled payments, payout management, and multiple payment methods.",
+        "name": "Money Fellows App"
+      },
+      {
+        "description": "A payment card offered within the Money Fellows platform for making payments and receiving or accessing funds associated with its financial services.",
+        "name": "Money Fellows Card"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 61616260,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 10,
+      "detailedRoundCount": 10,
+      "lastFundingDate": "2025-05-04",
+      "lastFundingType": "Series C",
+      "rounds": [
+        {
+          "announcedDate": "2025-05-04",
+          "amount": {
+            "amount": 13000000,
+            "currency": "USD"
+          },
+          "investorCount": 4,
+          "leadInvestors": [
+            "Al Mada Ventures",
+            "Nclude"
+          ],
+          "postMoneyValuation": {
+            "amount": 124350099,
+            "currency": "USD"
+          },
+          "type": "Series C"
+        },
+        {
+          "announcedDate": "2023-07-24",
+          "amount": {
+            "amount": 4000000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "Arzan Venture Capital"
+          ],
+          "postMoneyValuation": {
+            "amount": 80798746,
+            "currency": "USD"
+          },
+          "type": "Venture round"
+        },
+        {
+          "announcedDate": "2023-06-01",
+          "amount": {
+            "amount": 2500000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "type": "Venture round"
+        },
+        {
+          "announcedDate": "2022-10-30",
+          "amount": {
+            "amount": 31000000,
+            "currency": "USD"
+          },
+          "investorCount": 10,
+          "leadInvestors": [
+            "Arzan Venture Capital",
+            "CommerzVentures",
+            "Middle East Venture Partners (MEVP)"
+          ],
+          "postMoneyValuation": {
+            "amount": 157294815,
+            "currency": "USD"
+          },
+          "type": "Series B"
+        },
+        {
+          "announcedDate": "2021-05-01",
+          "amount": {
+            "amount": 5500000,
+            "currency": "USD"
+          },
+          "postMoneyValuation": {
+            "amount": 42232874,
+            "currency": "USD"
+          },
+          "type": "Series A"
+        },
+        {
+          "announcedDate": "2020-06-22",
+          "amount": {
+            "amount": 4000000,
+            "currency": "USD"
+          },
+          "investorCount": 2,
+          "leadInvestors": [
+            "Partech Ventures",
+            "Sawari Ventures"
+          ],
+          "postMoneyValuation": {
+            "amount": 24481008,
+            "currency": "USD"
+          },
+          "type": "Series A"
+        },
+        {
+          "announcedDate": "2019-08-04",
+          "amount": {
+            "amount": 1000000,
+            "currency": "USD"
+          },
+          "investorCount": 3,
+          "leadInvestors": [
+            "500 Global",
+            "Dubai Angel Investors"
+          ],
+          "postMoneyValuation": {
+            "amount": 8820886,
+            "currency": "USD"
+          },
+          "type": "Seed"
+        },
+        {
+          "announcedDate": "2018-01-10",
+          "amount": {
+            "amount": 600000,
+            "currency": "USD"
+          },
+          "investorCount": 2,
+          "leadInvestors": [
+            "500 Global",
+            "Dubai Angel Investors"
+          ],
+          "postMoneyValuation": {
+            "amount": 5275661,
+            "currency": "USD"
+          },
+          "type": "Seed"
+        },
+        {
+          "announcedDate": "2016-12-14",
+          "investorCount": 2,
+          "type": "Non Equity Assistance"
+        },
+        {
+          "announcedDate": "2015-07-19",
+          "amount": {
+            "amount": 16260,
+            "currency": "USD"
+          },
+          "investorCount": 2,
+          "postMoneyValuation": {
+            "amount": 405672,
+            "currency": "USD"
+          },
+          "type": "Pre Seed"
+        }
+      ],
+      "investors": {
+        "reportedCount": 21,
+        "visibleNames": [
+          {
+            "name": "500 Global"
+          },
+          {
+            "isLead": true,
+            "name": "Al Mada Ventures",
+            "rounds": [
+              "Series C"
+            ]
+          },
+          {
+            "isLead": true,
+            "name": "Arzan Venture Capital",
+            "rounds": [
+              "Venture round"
+            ]
+          },
+          {
+            "name": "British International Investment",
+            "rounds": [
+              "Venture round"
+            ]
+          },
+          {
+            "name": "CommerzVentures",
+            "rounds": [
+              "Series C"
+            ]
+          },
+          {
+            "name": "Endeavor Catalyst",
+            "rounds": [
+              "Series B"
+            ]
+          },
+          {
+            "isLead": true,
+            "name": "Middle East Venture Partners (MEVP)",
+            "rounds": [
+              "Series B"
+            ]
+          },
+          {
+            "name": "National Investments Company",
+            "rounds": [
+              "Series B"
+            ]
+          },
+          {
+            "isLead": true,
+            "name": "Nclude",
+            "rounds": [
+              "Series C"
+            ]
+          },
+          {
+            "name": "P1 Ventures"
+          },
+          {
+            "name": "Partech",
+            "rounds": [
+              "Series C"
+            ]
+          },
+          {
+            "name": "Sawari Ventures",
+            "rounds": [
+              "Series B"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 87,
+      "includedUniqueCount": 10,
+      "items": [
+        {
+          "date": "2026-06-30",
+          "publisher": "Zawya.com",
+          "title": "Money Fellows CEO Ahmed Wadi honored as company named among Egypt’s top startups",
+          "url": "https://www.zawya.com/en/press-release/companies-news/money-fellows-ceo-ahmed-wadi-honored-as-company-named-among-egypts-top-startups-v6qss1u7"
+        },
+        {
+          "date": "2026-04-12",
+          "publisher": "TradingView",
+          "title": "ZAWYA: Wafacash and Money Fellows launch a strategic partnership at GITEX Africa to digitize Daret",
+          "url": "https://www.tradingview.com/news/reuters.com,2026-04-12:newsml_Zaw5DYM4b:0-zawya-wafacash-and-money-fellows-launch-a-strategic-partnership-at-gitex-africa-to-digitize-daret/"
+        },
+        {
+          "date": "2026-04-11",
+          "publisher": "SecneNow",
+          "title": "Money Fellows Expands to Morocco to Digitise Traditional Daret Savings",
+          "url": "https://thestartupscene.me/MenaEcosystems/Money-Fellows-Expands-to-Morocco-to-Digitise-Traditional-Daret-Savings"
+        },
+        {
+          "date": "2026-04-11",
+          "publisher": "Zawya.com",
+          "title": "Wafacash and Money Fellows launch a strategic partnership at GITEX Africa to digitize Daret",
+          "url": "https://www.zawya.com/en/press-release/companies-news/wafacash-and-money-fellows-launch-a-strategic-partnership-at-gitex-africa-to-digitize-daret-ybqfzpee"
+        },
+        {
+          "date": "2026-03-30",
+          "publisher": "SecneNow",
+          "title": "Money Fellows: Bringing Egypt's Traditional Gameya to the Digital Age",
+          "url": "https://thestartupscene.me/In-Depth/Money-Fellows-Bringing-Egypt-s-Traditional-Gameya-to-the-Digital-Age"
+        },
+        {
+          "date": "2025-12-26",
+          "publisher": "SecneNow",
+          "title": "Egypt’s 10 Most Explosive Startup Deals of 2025",
+          "url": "https://thestartupscene.me/MenaEcosystems/Egypt-s-10-Most-Explosive-Startup-Deals-of-2025"
+        },
+        {
+          "date": "2025-10-23",
+          "publisher": "Zawya.com",
+          "title": "Egypt: Money Fellows reaches $1.5bln in total transaction value",
+          "url": "https://www.zawya.com/en/economy/north-africa/egypt-money-fellows-reaches-15bln-in-total-transaction-value-cn90y5t8"
+        },
+        {
+          "date": "2025-10-21",
+          "publisher": "Zawya.com",
+          "title": "Egypt's Money Fellows logs $1.5bln transactions",
+          "url": "https://www.zawya.com/en/business/fintech/egypts-money-fellows-logs-15bln-transactions-ew2p6l70"
+        },
+        {
+          "date": "2025-10-21",
+          "publisher": "FF News | Fintech Finance",
+          "title": "Money Fellows Achieves $1.5 Billion in Transactions, Leading the Journey from “Traditional Rotating Savings” to Digital Financial Empowerment",
+          "url": "https://ffnews.com/newsarticle/fintech/money-fellows-achieves-1-5-billion-in-transactions-leading-the-journey-from-traditional-rotating-savings-to-digital-financial-empowerment/"
+        },
+        {
+          "date": "2025-10-20",
+          "publisher": "Zawya.com",
+          "title": "Egypt’s fintech firm Money Fellows hits $1.5bln in transactions",
+          "url": "https://www.zawya.com/en/business/fintech/egypts-fintech-firm-money-fellows-hits-15bln-in-transactions-bj9fbr1m"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 9,
+    "knownDetailedFundingAmount": {
+      "amount": 61616260,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 21.1,
+    "latestToEarliestKnownValuationMultiple": 306.53
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "reportedPartnerships": {
+      "note": "Provider event summaries with linked sources; not independently verified.",
+      "items": [
+        {
+          "date": "2025-01-09",
+          "sources": [
+            {
+              "date": "2025-01-09",
+              "publisher": "The Fintech Times",
+              "title": "Money Fellows Improves Payment Functionality With Network International Integration",
+              "url": "https://thefintechtimes.com/money-fellows-improves-payment-functionality-with-network-international-integration/"
+            }
+          ]
+        },
+        {
+          "date": "2025-01-01",
+          "description": "Money Fellows entered a partnership with Banque Misr to issue and support a proprietary prepaid card, deepening its integration with Egypt’s formal banking system.",
+          "sources": [
+            {
+              "date": "2026-03-30",
+              "publisher": "SecneNow",
+              "title": "Money Fellows: Bringing Egypt's Traditional Gameya to the Digital Age",
+              "url": "https://thestartupscene.me/In-Depth/Money-Fellows-Bringing-Egypt-s-Traditional-Gameya-to-the-Digital-Age"
+            }
+          ]
+        }
+      ]
+    },
+    "crunchbaseMomentum": {
+      "growthInsightGeneratedDate": "2026-05-03",
+      "growthChange90Days": -12,
+      "growthScore": 63,
+      "heatChange90Days": 1,
+      "heatScore": 47,
+      "status": "Growing"
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 27.88
+      },
+      "funding": {
+        "generatedDate": "2026-04-11",
+        "probabilityPercent": 92.4,
+        "timingEstimatePercent": {
+          "within6Months": 99.98,
+          "months6To11": 0,
+          "months12To24": 0,
+          "beyond24Months": 0.02
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 89.62
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 24.16
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "valU is a fintech company that provides buy now, pay later, and customized financial solutions.",
+          "employeeRange": "501-1,000",
+          "name": "valU",
+          "sharedCategories": [
+            "Financial Services",
+            "FinTech"
+          ],
+          "sharedSpecialties": [
+            "Account Verification and KYC"
+          ],
+          "similarityScore": 91
+        },
+        {
+          "description": "Breadfast delivers household essentials, bakeries, groceries, fruits, veggies, and more than 3,000 items in minutes.",
+          "employeeRange": "501-1,000",
+          "name": "Breadfast",
+          "similarityScore": 84
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Series C round raised $13,000,000, or 21.1% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $405,672 to $124,350,099, a 306.53x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 63 (-12 over 90 days) and market heat at 47 (+1).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "issues": [
+      {
+        "severity": "low",
+        "finding": "Crunchbase reports 87 timeline items but exposes 10 unique items in this payload.",
+        "impact": "Recent news is a partial sample, not a complete history."
+      }
+    ],
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

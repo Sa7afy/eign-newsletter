@@ -1,0 +1,176 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T11:14:28.838Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T11:14:28.836Z",
+    "url": "https://www.crunchbase.com/organization/coinlancer"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "CoinLancer",
+      "shortDescription": "A blockchain platform for effective freelancing and secure peer-to-peer exchanges.",
+      "description": "Coinlancer is a decentralized job market built on Ethereum platform, which empowers burgeoning freelancers and clients from across the globe. The traditional ways of freelancing don’t seem to work anymore. Same principles, unexplained account suspensions, unaddressed or prolonged disputes often leave you exhausted.",
+      "website": "https://www.coinlancer.io/",
+      "foundedYear": 2017,
+      "operatingStatus": "Closed",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "11-50",
+      "headquarters": "Al Ajman, Ajman, United Arab Emirates",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Internet",
+        "Internet of Things",
+        "Peer to Peer"
+      ],
+      "sectors": [
+        "Information Technology",
+        "Internet Services",
+        "Other"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 12000000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2017-10-30",
+      "lastFundingType": "Initial Coin Offering",
+      "rounds": [
+        {
+          "announcedDate": "2017-10-30",
+          "amount": {
+            "amount": 12000000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "type": "Initial Coin Offering"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "name": "James Sowers",
+            "rounds": [
+              "Initial Coin Offering"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 1,
+      "includedUniqueCount": 1,
+      "items": [
+        {
+          "date": "2017-10-30",
+          "title": "Initial Coin Offering - CoinLancer"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 12000000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "heatChange90Days": -8,
+      "heatScore": 19
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Upwork is a human and AI-powered freelance marketplace to hire top talent.",
+          "employeeRange": "1-10",
+          "name": "Upwork Global, Inc.",
+          "sharedCategories": [
+            "Peer to Peer"
+          ],
+          "similarityScore": 98
+        },
+        {
+          "description": "Fiverr is a freelance services center that offers a marketplace for creative and professional services.",
+          "employeeRange": "1-10",
+          "name": "Fiverr",
+          "similarityScore": 95
+        },
+        {
+          "description": "Freelancer is a freelancing and crowdsourcing marketplace to hire freelancers and find freelance jobs online.",
+          "employeeRange": "251-500",
+          "name": "Freelancer Technology",
+          "similarityScore": 92
+        },
+        {
+          "description": "PeoplePerHour is a marketplace connecting small businesses and freelancers.",
+          "employeeRange": "51-100",
+          "name": "PeoplePerHour",
+          "similarityScore": 91
+        },
+        {
+          "description": "Guru is an online marketplace allowing businesses to find support from freelancers worldwide.",
+          "employeeRange": "11-50",
+          "name": "Guru",
+          "similarityScore": 89
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Initial Coin Offering round raised $12,000,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Upwork Global, Inc., Fiverr, Freelancer Technology.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

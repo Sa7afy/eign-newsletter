@@ -1,0 +1,171 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T10:59:37.987Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T10:59:37.985Z",
+    "url": "https://www.crunchbase.com/organization/bezz-x"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Bezz X",
+      "shortDescription": "BezzX a B2B e-commerce platform connecting wholesalers and supplies to owners restaurants, cafe, hotel and retailers.",
+      "description": "BezzX a B2B e-commerce platform connecting wholesalers and supplies to owners restaurants, cafe, hotel and retailers. and an operating system for delivery-centric restaurants and cloud kitchens. As restaurants rely more and more on online ordering, we automate the entire process from order generation to delivery in a seamless and efficient manner that reduces operating costs and collapses the delivery time. So we do a little technological innovation by providing product accessories And facilitate the process of purchasing products through the phone app. Out of the box we give our clients incredible tools to successfully navigate this transformation.",
+      "website": "https://bezzx.site/",
+      "foundedYear": 2018,
+      "operatingStatus": "Closed",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "headquarters": "Cairo, Al Qahirah, Egypt",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Middle East",
+        "Middle East and North Africa (MENA)",
+        "North Africa"
+      ],
+      "industries": [
+        "Apps",
+        "E-Commerce",
+        "Food and Beverage"
+      ],
+      "sectors": [
+        "Apps",
+        "Commerce and Shopping",
+        "Food and Beverage",
+        "Software"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 100000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2018-01-01",
+      "lastFundingType": "Pre Seed",
+      "rounds": [
+        {
+          "announcedDate": "2018-01-01",
+          "amount": {
+            "amount": 100000,
+            "currency": "USD"
+          },
+          "type": "Pre Seed"
+        }
+      ]
+    },
+    "recentNews": {
+      "reportedCount": 1,
+      "includedUniqueCount": 1,
+      "items": [
+        {
+          "date": "2018-01-01",
+          "title": "Pre Seed Round - Bezz X"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 100000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "heatChange90Days": 3,
+      "heatScore": 50
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "SeeBiz is a SaaS company that provides e-commerce, inventory management system, and B2B wholesale business management solutions.",
+          "employeeRange": "101-250",
+          "name": "SeeBiz",
+          "sharedCategories": [
+            "E-Commerce"
+          ],
+          "similarityScore": 97
+        },
+        {
+          "description": "Udaan is an eB2B platform that connects retailers, wholesalers, and manufacturers to solve core trade problems across various industries.",
+          "employeeRange": "1,001-5,000",
+          "name": "Udaan",
+          "sharedCategories": [
+            "E-Commerce"
+          ],
+          "similarityScore": 95
+        },
+        {
+          "description": "UCLIQ provides tools for tracking, smartlinks, and antifraud, optimizing affiliate marketing for networks and advertisers.",
+          "employeeRange": "11-50",
+          "name": "UCLIQ",
+          "similarityScore": 93
+        },
+        {
+          "description": "QWIPO is a Technology based B2B Marketplace connecting manufacturers, sellers and business retailers.",
+          "employeeRange": "51-100",
+          "name": "QWIPO",
+          "sharedCategories": [
+            "E-Commerce",
+            "Apps"
+          ],
+          "similarityScore": 89
+        },
+        {
+          "description": "BlueCart is a web and mobile platform built to modernize the eCommerce and wholesale procurement process for buyers and sellers.",
+          "employeeRange": "51-100",
+          "name": "BlueCart",
+          "similarityScore": 87
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Pre Seed round raised $100,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include SeeBiz, Udaan, UCLIQ.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

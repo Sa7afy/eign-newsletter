@@ -1,0 +1,275 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T12:42:07.203Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T12:42:07.201Z",
+    "url": "https://www.crunchbase.com/organization/national-development-fund-ff82"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "National Development Fund",
+      "shortDescription": "National Development Fund is a non-profit organization that promotes sustainable development and strengthens the private sector.",
+      "website": "https://ndf.gov.sa/en/home/",
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "Nonprofit",
+      "employeeRange": "251-500",
+      "headquarters": "Riyadh, Ar Riyad, Saudi Arabia",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Government",
+        "Non Profit",
+        "Social Assistance"
+      ],
+      "sectors": [
+        "Government and Military",
+        "Social Impact"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 1333200724,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2025-07-08",
+      "lastFundingType": "Debt Financing",
+      "rounds": [
+        {
+          "announcedDate": "2025-07-08",
+          "amount": {
+            "amount": 1333200724,
+            "currency": "USD"
+          },
+          "investorCount": 2,
+          "leadInvestors": [
+            "Al-Rajhi Bank"
+          ],
+          "type": "Debt Financing"
+        }
+      ],
+      "investors": {
+        "reportedCount": 2,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "Al-Rajhi Bank",
+            "rounds": [
+              "Debt Financing"
+            ]
+          },
+          {
+            "name": "Arab National Bank",
+            "rounds": [
+              "Debt Financing"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 14,
+      "includedUniqueCount": 10,
+      "items": [
+        {
+          "date": "2026-08-26",
+          "publisher": "startupresearcher.com",
+          "title": "Saudi Arabia Commits $112 Million to Boost Gaming and Esports Sector",
+          "url": "https://www.startupresearcher.com/news/saudi-arabia-commits-usd112-million-to-boost-gaming-and-esports-sector"
+        },
+        {
+          "date": "2026-07-17",
+          "publisher": "PocketGamer.biz",
+          "title": "Saudi-based mobile games studio Floaty raises $1m investment round",
+          "url": "https://www.pocketgamer.biz/saudi-based-mobile-games-studio-floaty-raises-1m-investment-round/"
+        },
+        {
+          "date": "2026-06-10",
+          "publisher": "Iraqi News",
+          "title": "Iraqi PM to visit Washington to boost economic cooperation",
+          "url": "https://www.iraqinews.com/iraq/iraqi-pm-to-visit-washington-to-boost-economic-cooperation/"
+        },
+        {
+          "date": "2026-03-31",
+          "publisher": "PR TIMES",
+          "title": "「コーポレート アクセラレーター」モデルで加速する、デジタルヘルスの社会実装",
+          "url": "https://prtimes.jp/main/html/rd/p/000000020.000150871.html"
+        },
+        {
+          "date": "2026-01-07",
+          "publisher": "AsiaTechDaily - Asia's Leading Tech and Startup Media Platform",
+          "title": "AppWorks Closes $165M Fund IV With a Sharper Focus on Web3 and AI in Asia",
+          "url": "https://asiatechdaily.com/appworks-closes-165m-fund-iv-with-a-sharper-focus-on-web3-and-ai-in-asia/"
+        },
+        {
+          "date": "2026-01-07",
+          "publisher": "TNGlobal",
+          "title": "AppWorks closes Fund IV to lift total funds raised to $386M",
+          "url": "https://technode.global/2026/01/07/appworks-closes-fund-iv-to-lift-total-funds-raised-to-386m/"
+        },
+        {
+          "date": "2026-01-06",
+          "publisher": "DealStreetAsia",
+          "title": "Taiwan's AppWorks raises $165m for Fund IV, less than half of initial target",
+          "url": "https://www.dealstreetasia.com/stories/taiwans-appworks-fund-iv-468364/"
+        },
+        {
+          "date": "2025-12-17",
+          "publisher": "semafor.com",
+          "title": "Saudi’s development fund plans bond debut",
+          "url": "https://www.semafor.com/article/12/17/2025/saudis-development-fund-plans-bond-debut"
+        },
+        {
+          "date": "2025-12-11",
+          "publisher": "City A.M.",
+          "title": "Momentum 25 and the reality of Saudi Arabia’s mega-projects",
+          "url": "https://www.cityam.com/momentum-25-and-the-reality-of-saudi-arabias-mega-projects/"
+        },
+        {
+          "date": "2025-12-11",
+          "publisher": "Zawya.com",
+          "title": "Saudi Arabia advances sustainable development with nearly $1.6bln in 45 agreements at MOMENTUM 2025",
+          "url": "https://www.zawya.com/en/business/investment/saudi-arabia-advances-sustainable-development-with-nearly-16bln-in-45-agreements-at-momentum-2025-wumy67m3"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 1333200724,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "reportedPartnerships": {
+      "note": "Provider event summaries with linked sources; not independently verified.",
+      "items": [
+        {
+          "date": "2025-12-11",
+          "description": "Saudi Arabia's National Development Fund has partnered with Northern Trust as custodian for SAR 60bn in assets, signalling efforts to professionalise its operations and attract institutional financial services.",
+          "sources": [
+            {
+              "date": "2025-12-11",
+              "publisher": "City A.M.",
+              "title": "Momentum 25 and the reality of Saudi Arabia’s mega-projects",
+              "url": "https://www.cityam.com/momentum-25-and-the-reality-of-saudi-arabias-mega-projects/"
+            }
+          ]
+        }
+      ]
+    },
+    "crunchbaseMomentum": {
+      "growthChange90Days": -6,
+      "growthScore": 76,
+      "heatChange90Days": 1,
+      "heatScore": 47
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Real Estate Development Fund offers funding and loans for residential and commercial development services.",
+          "employeeRange": "1,001-5,000",
+          "name": "Real Estate Development Fund",
+          "similarityScore": 95
+        },
+        {
+          "description": "SIDF enhances ecosystem competitiveness and investment attractiveness by providing financial and non-financial offerings.",
+          "employeeRange": "501-1,000",
+          "name": "Saudi Industrial Development Fund (SIDF)",
+          "similarityScore": 94
+        },
+        {
+          "description": "Saudi Fund for Development finances development projects via soft loans and grants.",
+          "employeeRange": "251-500",
+          "name": "Saudi Fund for Development",
+          "similarityScore": 93
+        },
+        {
+          "description": "Misk Foundation discover, develop and empower Saudi youth to become active participants in the future economy.",
+          "employeeRange": "51-100",
+          "name": "Misk Foundation",
+          "similarityScore": 87
+        },
+        {
+          "description": "Riyad Bank is an arabic financial institution for businesses and individuals.",
+          "employeeRange": "5,001-10,000",
+          "name": "Riyad Bank",
+          "similarityScore": 85
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Debt Financing round raised $1,333,200,724, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 76 (-6 over 90 days) and market heat at 47 (+1).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Real Estate Development Fund, Saudi Industrial Development Fund (SIDF), Saudi Fund for Development.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "issues": [
+      {
+        "severity": "low",
+        "finding": "Crunchbase reports 14 timeline items but exposes 10 unique items in this payload.",
+        "impact": "Recent news is a partial sample, not a complete history."
+      }
+    ],
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

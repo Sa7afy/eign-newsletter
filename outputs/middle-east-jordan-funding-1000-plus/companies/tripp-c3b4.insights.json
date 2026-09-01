@@ -1,0 +1,238 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T13:47:22.436Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T13:47:22.434Z",
+    "url": "https://www.crunchbase.com/organization/tripp-c3b4"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Tripp",
+      "shortDescription": "Community-based travel planner and rewards platform.",
+      "website": "https://www.trippcard.com/",
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "1-10",
+      "headquarters": "Abu Dhabi, United Arab Emirates",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Consumer Reviews"
+      ],
+      "sectors": [
+        "Commerce and Shopping"
+      ],
+      "founders": [
+        "Reem Al Junaibi"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "A platform that allows travelers to plan trips, discover local tips, share experiences, and earn rewards through community engagement.",
+        "name": "Community-based Trip Planner and Rewards App"
+      },
+      {
+        "description": "A service for businesses to list themselves, attract relevant customers, and offer rewards to encourage loyalty and word-of-mouth promotion.",
+        "name": "Business Listing and Customer Engagement Platform"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 250000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2022-06-20",
+      "lastFundingType": "Pre Seed",
+      "rounds": [
+        {
+          "announcedDate": "2022-06-20",
+          "amount": {
+            "amount": 250000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "postMoneyValuation": {
+            "amount": 2247792,
+            "currency": "USD"
+          },
+          "type": "Pre Seed"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "name": "Newchip Accelerator",
+            "rounds": [
+              "Pre Seed Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 1,
+      "includedUniqueCount": 1,
+      "items": [
+        {
+          "date": "2022-06-20",
+          "title": "Pre Seed Round - Tripp"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 250000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": 35,
+      "growthScore": 74,
+      "heatChange90Days": -28,
+      "heatScore": 28
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 48.42
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 25.09,
+        "timingEstimatePercent": {
+          "within6Months": 15.07,
+          "months6To11": 12.8,
+          "months12To24": 20.1,
+          "beyond24Months": 24.96
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 88.55
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 40.72
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "myLike revolutionizes the hospitality and travel industry by connecting them with their customers through personalized experiences",
+          "employeeRange": "1-10",
+          "name": "myLike",
+          "sharedSpecialties": [
+            "Local Listings",
+            "Hospitality Marketing"
+          ],
+          "similarityScore": 100
+        },
+        {
+          "description": "Mobile App Company Developing Pin Traveler, a Travel Tracking & Journaling App",
+          "employeeRange": "1-10",
+          "name": "Pin Traveler LLC",
+          "sharedSpecialties": [
+            "Local Listings",
+            "Travel Reporting and Analytics"
+          ],
+          "similarityScore": 95.228
+        },
+        {
+          "description": "Traverous is a social platform for travelers. It enables a traveler to relive and share the travel experiences in a rejuvenating manner",
+          "employeeRange": "1-10",
+          "name": "Traverous",
+          "sharedSpecialties": [
+            "Community Platforms",
+            "Custom Vacation and Tour Planning",
+            "Travel Reporting and Analytics"
+          ],
+          "similarityScore": 89.305
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Pre Seed round raised $250,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $2,247,792 to $2,247,792, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 74 (+35 over 90 days) and market heat at 28 (-28).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include myLike, Pin Traveler LLC, Traverous.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

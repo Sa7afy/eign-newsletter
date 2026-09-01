@@ -1,0 +1,5488 @@
+{
+  "sourceUrl": "https://www.crunchbase.com/organization/armstrong-3031",
+  "pageTitle": "armstrong-3031",
+  "scrapedAt": "2026-09-01T09:16:46.460Z",
+  "extraction": {
+    "authenticated": true,
+    "method": "curl-cffi-authenticated-entity-fetch-no-browser"
+  },
+  "organization": {
+    "properties": {
+      "facet_ids": [
+        "ai_insight",
+        "bombora",
+        "builtwith",
+        "company",
+        "contact",
+        "key_event",
+        "rank",
+        "semrush"
+      ],
+      "identifier": {
+        "uuid": "5554fd65-5f2a-4194-81ad-744b06073031",
+        "value": "Armstrong",
+        "image_id": "e3be36c79f9146309b52490cc498d7d2",
+        "permalink": "armstrong-3031",
+        "entity_def_id": "organization"
+      },
+      "short_description": "Armstrong is an interactive STEM e-learning platform that delivers the most interactive way for education.",
+      "investor_identifiers": [
+        {
+          "uuid": "eaf67514-1b18-4cff-84f9-a9ec0cba6b96",
+          "value": "Edventures",
+          "image_id": "gfgqq6uaruhzf29poytv",
+          "permalink": "edventures-6b96",
+          "entity_def_id": "organization"
+        }
+      ],
+      "rank_delta_d90": -1.4,
+      "title": "Armstrong"
+    },
+    "cards": {
+      "semrush_summary": {
+        "identifier": {
+          "uuid": "5554fd65-5f2a-4194-81ad-744b06073031",
+          "value": "Armstrong",
+          "image_id": "e3be36c79f9146309b52490cc498d7d2",
+          "permalink": "armstrong-3031",
+          "entity_def_id": "organization"
+        },
+        "semrush_global_rank": 9090142,
+        "semrush_visits_latest_month": 661
+      },
+      "key_employee_change_list": [],
+      "apptopia_attribution": {},
+      "diversity_spotlight_investments_headline": {},
+      "apptopia_app_rating_list": [],
+      "funds_summary": {
+        "identifier": {
+          "uuid": "5554fd65-5f2a-4194-81ad-744b06073031",
+          "value": "Armstrong",
+          "image_id": "e3be36c79f9146309b52490cc498d7d2",
+          "permalink": "armstrong-3031",
+          "entity_def_id": "organization"
+        }
+      },
+      "funding_prediction": [],
+      "company_about_fields1": {},
+      "current_advisors_image_list": [],
+      "recommended_search": [
+        {
+          "identifier": {
+            "permalink": "private-egypt-companies",
+            "image_id": "aa1e4a9f367f4a34a29d5f81de4cb62b",
+            "uuid": "d1cc6006-0569-4670-a6e2-b07c5b9e70f1",
+            "entity_def_id": "hub",
+            "value": "Private Egypt Companies (Top 10K)"
+          },
+          "org_identifiers": [
+            {
+              "permalink": "african-export-import-bank",
+              "image_id": "aa1e4a9f367f4a34a29d5f81de4cb62b",
+              "uuid": "971b156a-46e5-c04c-2ae9-d36127a9bd9f",
+              "entity_def_id": "organization",
+              "value": "African Export-Import Bank"
+            },
+            {
+              "permalink": "fincart-8c0d",
+              "image_id": "2157db3af2424b619df39903e68869da",
+              "uuid": "38128808-f1be-480b-813a-77fb6ea68c0d",
+              "entity_def_id": "organization",
+              "value": "Fincart"
+            },
+            {
+              "permalink": "breadfast",
+              "image_id": "jiieid7adccujyaxzs9c",
+              "uuid": "4f10173e-0a2c-4941-889a-b5f2b40172a1",
+              "entity_def_id": "organization",
+              "value": "Breadfast"
+            },
+            {
+              "permalink": "mylerz",
+              "image_id": "qwsmcohr5b2dknonww7t",
+              "uuid": "2b9a44e8-d20d-4cb4-95ed-d8bd7b8cdde0",
+              "entity_def_id": "organization",
+              "value": "Mylerz"
+            },
+            {
+              "permalink": "paymob",
+              "image_id": "lpt5ox5xhjeorf2rryxa",
+              "uuid": "2f6dccc7-f49a-50a6-7975-dc7cc8af53ee",
+              "entity_def_id": "organization",
+              "value": "Paymob"
+            },
+            {
+              "permalink": "banque-misr",
+              "image_id": "wipnxmwkuzc6z1ssqxt4",
+              "uuid": "03625e6a-a87c-4b39-89ea-319e12ec4cc7",
+              "entity_def_id": "organization",
+              "value": "Banque Misr"
+            },
+            {
+              "permalink": "minapharm-pharmaceuticals",
+              "image_id": "iymvuabj8zumjfdt372s",
+              "uuid": "1d1be3d0-642e-47b2-a56d-0a147b6b8081",
+              "entity_def_id": "organization",
+              "value": "Minapharm Pharmaceuticals"
+            },
+            {
+              "permalink": "al-ahly-sabbour",
+              "image_id": "pvzetdm5lud2kqgbjlph",
+              "uuid": "cb1751f1-e13b-47fe-ac0b-1a88bc6709ff",
+              "entity_def_id": "organization",
+              "value": "Al Ahly Sabbour"
+            }
+          ],
+          "org_funding_total": {
+            "currency": "USD",
+            "value": 22412048134,
+            "value_usd": 22412048134
+          },
+          "org_num_investors": 2304,
+          "org_num": 9986,
+          "queries": {
+            "event": [
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "7d6eef02-5784-2dce-08f7-69705f85e35f"
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "principal.has_event.forward",
+                "query": [
+                  {
+                    "field_id": "facet_ids",
+                    "operator_id": "includes",
+                    "values": [
+                      "company"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "ipo_status",
+                    "operator_id": "includes",
+                    "values": [
+                      "private"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "active"
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ],
+            "organization": [
+              {
+                "field_id": "facet_ids",
+                "operator_id": "includes",
+                "values": [
+                  "company"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "7d6eef02-5784-2dce-08f7-69705f85e35f"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "ipo_status",
+                "operator_id": "includes",
+                "values": [
+                  "private"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "operating_status",
+                "operator_id": "eq",
+                "values": [
+                  "active"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "rank_org",
+                "operator_id": "lte",
+                "values": [
+                  6000000
+                ],
+                "type": "predicate"
+              }
+            ],
+            "person": [
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "7d6eef02-5784-2dce-08f7-69705f85e35f"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "rank_person",
+                "operator_id": "lte",
+                "values": [
+                  1200000
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "organization.has_primary_organization.forward",
+                "query": [
+                  {
+                    "field_id": "facet_ids",
+                    "operator_id": "includes",
+                    "values": [
+                      "company"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "location_identifiers",
+                    "operator_id": "includes",
+                    "values": [
+                      "7d6eef02-5784-2dce-08f7-69705f85e35f"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "ipo_status",
+                    "operator_id": "includes",
+                    "values": [
+                      "private"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "active"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "rank_org",
+                    "operator_id": "lte",
+                    "values": [
+                      6000000
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ]
+          }
+        },
+        {
+          "identifier": {
+            "permalink": "private-cairo-companies",
+            "image_id": "aa1e4a9f367f4a34a29d5f81de4cb62b",
+            "uuid": "cf0458ec-d822-4a96-8262-36823c9392eb",
+            "entity_def_id": "hub",
+            "value": "Private Cairo Companies"
+          },
+          "org_identifiers": [
+            {
+              "permalink": "african-export-import-bank",
+              "image_id": "aa1e4a9f367f4a34a29d5f81de4cb62b",
+              "uuid": "971b156a-46e5-c04c-2ae9-d36127a9bd9f",
+              "entity_def_id": "organization",
+              "value": "African Export-Import Bank"
+            },
+            {
+              "permalink": "fincart-8c0d",
+              "image_id": "2157db3af2424b619df39903e68869da",
+              "uuid": "38128808-f1be-480b-813a-77fb6ea68c0d",
+              "entity_def_id": "organization",
+              "value": "Fincart"
+            },
+            {
+              "permalink": "breadfast",
+              "image_id": "jiieid7adccujyaxzs9c",
+              "uuid": "4f10173e-0a2c-4941-889a-b5f2b40172a1",
+              "entity_def_id": "organization",
+              "value": "Breadfast"
+            },
+            {
+              "permalink": "mylerz",
+              "image_id": "qwsmcohr5b2dknonww7t",
+              "uuid": "2b9a44e8-d20d-4cb4-95ed-d8bd7b8cdde0",
+              "entity_def_id": "organization",
+              "value": "Mylerz"
+            },
+            {
+              "permalink": "paymob",
+              "image_id": "lpt5ox5xhjeorf2rryxa",
+              "uuid": "2f6dccc7-f49a-50a6-7975-dc7cc8af53ee",
+              "entity_def_id": "organization",
+              "value": "Paymob"
+            },
+            {
+              "permalink": "banque-misr",
+              "image_id": "wipnxmwkuzc6z1ssqxt4",
+              "uuid": "03625e6a-a87c-4b39-89ea-319e12ec4cc7",
+              "entity_def_id": "organization",
+              "value": "Banque Misr"
+            },
+            {
+              "permalink": "minapharm-pharmaceuticals",
+              "image_id": "iymvuabj8zumjfdt372s",
+              "uuid": "1d1be3d0-642e-47b2-a56d-0a147b6b8081",
+              "entity_def_id": "organization",
+              "value": "Minapharm Pharmaceuticals"
+            },
+            {
+              "permalink": "al-ahly-sabbour",
+              "image_id": "pvzetdm5lud2kqgbjlph",
+              "uuid": "cb1751f1-e13b-47fe-ac0b-1a88bc6709ff",
+              "entity_def_id": "organization",
+              "value": "Al Ahly Sabbour"
+            }
+          ],
+          "org_funding_total": {
+            "currency": "USD",
+            "value": 18898365927,
+            "value_usd": 18898365927
+          },
+          "org_num_investors": 1857,
+          "org_num": 5931,
+          "queries": {
+            "event": [
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "f5de654e-be69-318e-90b9-96abc102f5e1"
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "principal.has_event.forward",
+                "query": [
+                  {
+                    "field_id": "facet_ids",
+                    "operator_id": "includes",
+                    "values": [
+                      "company"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "ipo_status",
+                    "operator_id": "includes",
+                    "values": [
+                      "private"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "active"
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ],
+            "organization": [
+              {
+                "field_id": "facet_ids",
+                "operator_id": "includes",
+                "values": [
+                  "company"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "f5de654e-be69-318e-90b9-96abc102f5e1"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "ipo_status",
+                "operator_id": "includes",
+                "values": [
+                  "private"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "operating_status",
+                "operator_id": "eq",
+                "values": [
+                  "active"
+                ],
+                "type": "predicate"
+              }
+            ],
+            "person": [
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "f5de654e-be69-318e-90b9-96abc102f5e1"
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "organization.has_primary_organization.forward",
+                "query": [
+                  {
+                    "field_id": "facet_ids",
+                    "operator_id": "includes",
+                    "values": [
+                      "company"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "location_identifiers",
+                    "operator_id": "includes",
+                    "values": [
+                      "f5de654e-be69-318e-90b9-96abc102f5e1"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "ipo_status",
+                    "operator_id": "includes",
+                    "values": [
+                      "private"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "active"
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ]
+          }
+        },
+        {
+          "identifier": {
+            "permalink": "africa-companies",
+            "image_id": "aba2428ec3c04f7084e0bcd2c718d4c2",
+            "uuid": "c8419bb8-3a74-47c1-97e2-3e77446e0dc6",
+            "entity_def_id": "hub",
+            "value": "Africa Companies (Top 10K)"
+          },
+          "org_identifiers": [
+            {
+              "permalink": "terrahaptix",
+              "image_id": "aba2428ec3c04f7084e0bcd2c718d4c2",
+              "uuid": "13490870-45cc-4537-b2ee-1e40f1f195d3",
+              "entity_def_id": "organization",
+              "value": "Terra Industries"
+            },
+            {
+              "permalink": "okx",
+              "image_id": "cwhjmlab2f1zdvdmygyn",
+              "uuid": "b01fba71-658e-4cf3-8b33-7f01fc710245",
+              "entity_def_id": "organization",
+              "value": "OKX"
+            },
+            {
+              "permalink": "african-development-bank",
+              "image_id": "4f98cdf018a14d57a2d2efca7b1d45ea",
+              "uuid": "d85bbe29-d925-648e-5057-63e9a32a9f41",
+              "entity_def_id": "organization",
+              "value": "African Development Bank"
+            },
+            {
+              "permalink": "african-export-import-bank",
+              "image_id": "aa1e4a9f367f4a34a29d5f81de4cb62b",
+              "uuid": "971b156a-46e5-c04c-2ae9-d36127a9bd9f",
+              "entity_def_id": "organization",
+              "value": "African Export-Import Bank"
+            },
+            {
+              "permalink": "moove-io",
+              "image_id": "a4382d1c9d544304a3da94f03931cebc",
+              "uuid": "5cdc52c3-9f6f-45b3-9036-0aabbb1de332",
+              "entity_def_id": "organization",
+              "value": "Moove"
+            },
+            {
+              "permalink": "africa-finance-corporation",
+              "image_id": "olocztuqq78ijh5717go",
+              "uuid": "2778a9c2-73ca-1da7-ff94-044d877b181b",
+              "entity_def_id": "organization",
+              "value": "Africa Finance Corporation"
+            },
+            {
+              "permalink": "dangote-petroleum-refinery",
+              "image_id": "a258fda3bbb140409360e10cd12de3be",
+              "uuid": "488bf970-6701-49e4-ac8c-c7c3ba9766d0",
+              "entity_def_id": "organization",
+              "value": "Dangote Petroleum Refinery"
+            },
+            {
+              "permalink": "paystack",
+              "image_id": "v1482999816/uph74pwwijksr7hybwzj.png",
+              "uuid": "2f99323e-72cf-b5d9-d06c-700590ec039f",
+              "entity_def_id": "organization",
+              "value": "Paystack"
+            }
+          ],
+          "org_funding_total": {
+            "currency": "USD",
+            "value": 211600642662,
+            "value_usd": 211600642662
+          },
+          "org_num_investors": 13938,
+          "org_num": 9925,
+          "queries": {
+            "event": [
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "5b194c3b-3018-b47d-f611-ab142cdfd74c"
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "principal.has_event.forward",
+                "query": [
+                  {
+                    "field_id": "facet_ids",
+                    "operator_id": "includes",
+                    "values": [
+                      "company"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "active"
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ],
+            "organization": [
+              {
+                "field_id": "facet_ids",
+                "operator_id": "includes",
+                "values": [
+                  "company"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "5b194c3b-3018-b47d-f611-ab142cdfd74c"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "operating_status",
+                "operator_id": "eq",
+                "values": [
+                  "active"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "rank_org",
+                "operator_id": "lte",
+                "values": [
+                  710000
+                ],
+                "type": "predicate"
+              }
+            ],
+            "person": [
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "5b194c3b-3018-b47d-f611-ab142cdfd74c"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "rank_person",
+                "operator_id": "lte",
+                "values": [
+                  210000
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "organization.has_primary_organization.forward",
+                "query": [
+                  {
+                    "field_id": "facet_ids",
+                    "operator_id": "includes",
+                    "values": [
+                      "company"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "location_identifiers",
+                    "operator_id": "includes",
+                    "values": [
+                      "5b194c3b-3018-b47d-f611-ab142cdfd74c"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "active"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "rank_org",
+                    "operator_id": "lte",
+                    "values": [
+                      710000
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ]
+          }
+        },
+        {
+          "identifier": {
+            "permalink": "private-middle-east-and-north-africa-companies",
+            "image_id": "kermvpjt6vvcclqvly6k",
+            "uuid": "c20881b7-c355-4af0-88c8-9f400b003658",
+            "entity_def_id": "hub",
+            "value": "Private Middle East and North Africa (MENA) Companies (Top 10K)"
+          },
+          "org_identifiers": [
+            {
+              "permalink": "binance-labs-b05e",
+              "image_id": "kermvpjt6vvcclqvly6k",
+              "uuid": "8b52e412-7d11-4b4d-ae49-3811f29fb05e",
+              "entity_def_id": "organization",
+              "value": "YZi Labs"
+            },
+            {
+              "permalink": "fasset",
+              "image_id": "216886c7d09c49d39cce6277f342d12d",
+              "uuid": "fb8d3cbb-6706-4fda-941f-7add24517f7c",
+              "entity_def_id": "organization",
+              "value": "Fasset"
+            },
+            {
+              "permalink": "african-export-import-bank",
+              "image_id": "aa1e4a9f367f4a34a29d5f81de4cb62b",
+              "uuid": "971b156a-46e5-c04c-2ae9-d36127a9bd9f",
+              "entity_def_id": "organization",
+              "value": "African Export-Import Bank"
+            },
+            {
+              "permalink": "biocatch",
+              "image_id": "eauvaq6djrm4cjktjmxi",
+              "uuid": "516abfe7-ee23-d825-b1e2-144b41ca591e",
+              "entity_def_id": "organization",
+              "value": "BioCatch"
+            },
+            {
+              "permalink": "humain-c7c3",
+              "image_id": "dc960b95a8634d398fb802e43c760504",
+              "uuid": "6bde23ba-59a6-43e2-882e-2fdf96c1c7c3",
+              "entity_def_id": "organization",
+              "value": "HUMAIN"
+            },
+            {
+              "permalink": "omilia",
+              "image_id": "a6e6d6f0223b4e70840705a17f248b9e",
+              "uuid": "49e3e363-63c7-e951-4974-1c79137fcef0",
+              "entity_def_id": "organization",
+              "value": "Omilia"
+            },
+            {
+              "permalink": "team8",
+              "image_id": "jgzvsw4o9vpv30kqv7yg",
+              "uuid": "192acc26-46d6-5961-2a18-2ec462242091",
+              "entity_def_id": "organization",
+              "value": "Team8"
+            },
+            {
+              "permalink": "investcorp-2",
+              "image_id": "v1444307467/wjljtmzfwxmg9xxokd23.png",
+              "uuid": "2f09a625-dfd1-bea9-d16b-0a45158c80c9",
+              "entity_def_id": "organization",
+              "value": "Investcorp"
+            }
+          ],
+          "org_funding_total": {
+            "currency": "USD",
+            "value": 455660454580,
+            "value_usd": 455660454580
+          },
+          "org_num_investors": 25058,
+          "org_num": 9884,
+          "queries": {
+            "event": [
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "8cb7cad4-b7e4-4b28-a496-2ede3720cb19"
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "principal.has_event.forward",
+                "query": [
+                  {
+                    "field_id": "facet_ids",
+                    "operator_id": "includes",
+                    "values": [
+                      "company"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "ipo_status",
+                    "operator_id": "includes",
+                    "values": [
+                      "private"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "active"
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ],
+            "organization": [
+              {
+                "field_id": "facet_ids",
+                "operator_id": "includes",
+                "values": [
+                  "company"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "8cb7cad4-b7e4-4b28-a496-2ede3720cb19"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "ipo_status",
+                "operator_id": "includes",
+                "values": [
+                  "private"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "operating_status",
+                "operator_id": "eq",
+                "values": [
+                  "active"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "rank_org",
+                "operator_id": "lte",
+                "values": [
+                  320000
+                ],
+                "type": "predicate"
+              }
+            ],
+            "person": [
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "8cb7cad4-b7e4-4b28-a496-2ede3720cb19"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "rank_person",
+                "operator_id": "lte",
+                "values": [
+                  77000
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "organization.has_primary_organization.forward",
+                "query": [
+                  {
+                    "field_id": "facet_ids",
+                    "operator_id": "includes",
+                    "values": [
+                      "company"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "location_identifiers",
+                    "operator_id": "includes",
+                    "values": [
+                      "8cb7cad4-b7e4-4b28-a496-2ede3720cb19"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "ipo_status",
+                    "operator_id": "includes",
+                    "values": [
+                      "private"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "active"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "rank_org",
+                    "operator_id": "lte",
+                    "values": [
+                      320000
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ]
+          }
+        }
+      ],
+      "org_similarity_org_list": [
+        {
+          "identifier": {
+            "uuid": "bb0e8d70-1444-e1be-bfee-f9e3d09f093d",
+            "value": "Brilliant.org",
+            "image_id": "v1397188105/5e74dd8f1825ba19e0c34d7c9de960b3.png",
+            "permalink": "brilliant-org",
+            "entity_def_id": "organization"
+          }
+        },
+        {
+          "identifier": {
+            "uuid": "3ed3c920-345f-4939-808d-b23784292a3f",
+            "value": "RoboCraft",
+            "image_id": "ngqemqd3jxiezeixeqcx",
+            "permalink": "robocraft-2a3f",
+            "entity_def_id": "organization"
+          }
+        },
+        {
+          "identifier": {
+            "uuid": "135c66d7-357c-4431-91d4-312e6c39317f",
+            "value": "Poly Notes hub",
+            "image_id": "dd26d13477a148d5bcb933e9253539fb",
+            "permalink": "poly-notes-hub",
+            "entity_def_id": "organization"
+          }
+        }
+      ],
+      "investors_summary": {
+        "identifier": {
+          "uuid": "5554fd65-5f2a-4194-81ad-744b06073031",
+          "value": "Armstrong",
+          "image_id": "e3be36c79f9146309b52490cc498d7d2",
+          "permalink": "armstrong-3031",
+          "entity_def_id": "organization"
+        },
+        "num_investors": 1
+      },
+      "funds_list": [],
+      "alumni_image_list": [],
+      "semrush_overview_headline": {
+        "semrush_global_rank": 9090142,
+        "semrush_global_rank_mom_pct": 0.0645974525951178
+      },
+      "frequently_asked_questions_total_funding": {
+        "funding_total": {
+          "value": 60000,
+          "currency": "USD",
+          "value_usd": 60000
+        },
+        "identifier": {
+          "uuid": "5554fd65-5f2a-4194-81ad-744b06073031",
+          "value": "Armstrong",
+          "image_id": "e3be36c79f9146309b52490cc498d7d2",
+          "permalink": "armstrong-3031",
+          "entity_def_id": "organization"
+        }
+      },
+      "exits_summary": {
+        "identifier": {
+          "uuid": "5554fd65-5f2a-4194-81ad-744b06073031",
+          "value": "Armstrong",
+          "image_id": "e3be36c79f9146309b52490cc498d7d2",
+          "permalink": "armstrong-3031",
+          "entity_def_id": "organization"
+        }
+      },
+      "partnership_announcements": [],
+      "bombora_surge_list": [
+        {
+          "identifier": {
+            "uuid": "ed8febab-b81e-4aa6-a45c-4874abb53db3"
+          },
+          "surge_score": 73,
+          "surge_wow_growth": -0.0875,
+          "category": "technology",
+          "topic_identifier": {
+            "uuid": "2147c453-c954-4c55-b667-48468aeeda65",
+            "value": "Amazon (AMZN)",
+            "entity_def_id": "bombora_topic"
+          },
+          "uuid": "ed8febab-b81e-4aa6-a45c-4874abb53db3",
+          "weeks_surging": 5
+        },
+        {
+          "identifier": {
+            "uuid": "4f2f1529-8d7a-4301-a5e6-9df845b2592f"
+          },
+          "surge_score": 70,
+          "surge_wow_growth": -0.102564102564103,
+          "category": "trend",
+          "topic_identifier": {
+            "uuid": "a31da832-829d-42a9-ad55-0daf5e0e6814",
+            "value": "Robodogs",
+            "entity_def_id": "bombora_topic"
+          },
+          "uuid": "4f2f1529-8d7a-4301-a5e6-9df845b2592f",
+          "weeks_surging": 3
+        },
+        {
+          "identifier": {
+            "uuid": "b38de925-1496-4272-8cfb-d9bd5acb6d54"
+          },
+          "surge_score": 70,
+          "surge_wow_growth": -0.102564102564103,
+          "category": "dev_ops",
+          "topic_identifier": {
+            "uuid": "63736cf8-fbc1-42a3-92a3-abea2a4fa386",
+            "value": "Microfiche Scanning",
+            "entity_def_id": "bombora_topic"
+          },
+          "uuid": "b38de925-1496-4272-8cfb-d9bd5acb6d54",
+          "weeks_surging": 3
+        },
+        {
+          "identifier": {
+            "uuid": "5cf4b7a5-3e1b-494b-a7a3-e6d6ed0135b8"
+          },
+          "surge_score": 69,
+          "surge_wow_growth": -0.126582278481013,
+          "category": "hiring_training",
+          "topic_identifier": {
+            "uuid": "7e54ce23-6511-473f-b127-c57117fc4982",
+            "value": "Cryptocurrency Recruitment",
+            "entity_def_id": "bombora_topic"
+          },
+          "uuid": "5cf4b7a5-3e1b-494b-a7a3-e6d6ed0135b8",
+          "weeks_surging": 3
+        },
+        {
+          "identifier": {
+            "uuid": "c9ac4216-4686-44e3-aa55-2a28107d8f43"
+          },
+          "surge_score": 68,
+          "category": "media_ad",
+          "topic_identifier": {
+            "uuid": "2f1eb753-0293-4bcb-9722-e47f72ff0390",
+            "value": "Space.com",
+            "entity_def_id": "bombora_topic"
+          },
+          "uuid": "c9ac4216-4686-44e3-aa55-2a28107d8f43",
+          "weeks_surging": 1
+        },
+        {
+          "identifier": {
+            "uuid": "917f05a1-8b5c-42cc-8061-5bc76665bc12"
+          },
+          "surge_score": 67,
+          "surge_wow_growth": 0,
+          "category": "trend",
+          "topic_identifier": {
+            "uuid": "35ab2997-12cf-41aa-9ea5-9d0eda5dc23b",
+            "value": "Immersive Avatars",
+            "entity_def_id": "bombora_topic"
+          },
+          "uuid": "917f05a1-8b5c-42cc-8061-5bc76665bc12",
+          "weeks_surging": 3
+        },
+        {
+          "identifier": {
+            "uuid": "ff697bdd-0a8f-400b-9a77-3e1fb8f404e8"
+          },
+          "surge_score": 67,
+          "surge_wow_growth": -0.0821917808219178,
+          "category": "hiring_training",
+          "topic_identifier": {
+            "uuid": "fadb1d97-fc7f-444f-955f-3c95915707ae",
+            "value": "Adaptive Learning",
+            "entity_def_id": "bombora_topic"
+          },
+          "uuid": "ff697bdd-0a8f-400b-9a77-3e1fb8f404e8",
+          "weeks_surging": 3
+        }
+      ],
+      "diversity_spotlight_investments_list": [],
+      "builtwith_tech_used_list": [
+        {
+          "identifier": {
+            "uuid": "2f6cffdd-6438-400e-9512-692a21e184d8",
+            "value": "IPhone / Mobile Compatible",
+            "entity_def_id": "builtwith_technology"
+          },
+          "technology_category": [
+            "mobile"
+          ],
+          "num_companies_using": 999984
+        },
+        {
+          "identifier": {
+            "uuid": "983394a8-d4ee-4af3-89ba-ae3a204dc982",
+            "value": "Viewport Meta",
+            "entity_def_id": "builtwith_technology"
+          },
+          "technology_category": [
+            "mobile"
+          ],
+          "num_companies_using": 999984
+        },
+        {
+          "identifier": {
+            "uuid": "799c9bbf-c24f-44f5-abb6-4a4f95f0e962",
+            "value": "SSL by Default",
+            "entity_def_id": "builtwith_technology"
+          },
+          "technology_category": [
+            "ssl"
+          ],
+          "num_companies_using": 999983
+        },
+        {
+          "identifier": {
+            "uuid": "28654445-17a4-4667-8a53-4560f6143e57",
+            "value": "SPF",
+            "entity_def_id": "builtwith_technology"
+          },
+          "technology_category": [
+            "mx"
+          ],
+          "num_companies_using": 999981
+        },
+        {
+          "identifier": {
+            "uuid": "80f8e82c-6c70-417f-ad1c-6293d1f60968",
+            "value": "DMARC",
+            "entity_def_id": "builtwith_technology"
+          },
+          "technology_category": [
+            "mx"
+          ],
+          "num_companies_using": 999919
+        },
+        {
+          "identifier": {
+            "uuid": "35fb33ce-1695-49d3-9de5-1f1fd5660f01",
+            "value": "Cloudflare",
+            "entity_def_id": "builtwith_technology"
+          },
+          "technology_category": [
+            "cdn"
+          ],
+          "num_companies_using": 850099
+        },
+        {
+          "identifier": {
+            "uuid": "70f4762f-11eb-48f1-8d0e-2ebdaca5f9e4",
+            "value": "Cloudflare CDN",
+            "entity_def_id": "builtwith_technology"
+          },
+          "technology_category": [
+            "cdn"
+          ],
+          "num_companies_using": 840521
+        },
+        {
+          "identifier": {
+            "uuid": "cf3e732d-2ada-4f4e-94af-faa2edb426d5",
+            "value": "IPv6",
+            "entity_def_id": "builtwith_technology"
+          },
+          "technology_category": [
+            "server"
+          ],
+          "num_companies_using": 837015
+        },
+        {
+          "identifier": {
+            "uuid": "35e7543b-145d-4c62-a8d1-e1a2a59970ae",
+            "value": "Microsoft Exchange Online",
+            "entity_def_id": "builtwith_technology"
+          },
+          "technology_category": [
+            "mx"
+          ],
+          "num_companies_using": 793080
+        },
+        {
+          "identifier": {
+            "uuid": "196ff5d1-efb2-45ab-8493-4d4a1be91262",
+            "value": "Office 365 Mail",
+            "entity_def_id": "builtwith_technology"
+          },
+          "technology_category": [
+            "mx"
+          ],
+          "num_companies_using": 771685
+        }
+      ],
+      "funding_rounds_summary": {
+        "identifier": {
+          "uuid": "5554fd65-5f2a-4194-81ad-744b06073031",
+          "value": "Armstrong",
+          "image_id": "e3be36c79f9146309b52490cc498d7d2",
+          "permalink": "armstrong-3031",
+          "entity_def_id": "organization"
+        },
+        "last_funding_type": "non_equity_assistance",
+        "last_funding_at": "2024-06-06",
+        "funding_total": {
+          "value": 60000,
+          "currency": "USD",
+          "value_usd": 60000
+        },
+        "num_funding_rounds": 1
+      },
+      "org_similarity_list": [
+        {
+          "target_num_contacts": 89,
+          "source": {
+            "uuid": "5554fd65-5f2a-4194-81ad-744b06073031",
+            "value": "Armstrong",
+            "image_id": "e3be36c79f9146309b52490cc498d7d2",
+            "permalink": "armstrong-3031",
+            "entity_def_id": "organization"
+          },
+          "source_locations": [
+            {
+              "uuid": "f5de654e-be69-318e-90b9-96abc102f5e1",
+              "value": "Cairo",
+              "permalink": "cairo-al-qahirah",
+              "entity_def_id": "location",
+              "location_type": "city"
+            },
+            {
+              "uuid": "73fc0c82-c43d-8035-0da0-6245c0c96245",
+              "value": "Al Qahirah",
+              "permalink": "al-qahirah-egypt",
+              "entity_def_id": "location",
+              "location_type": "region"
+            },
+            {
+              "uuid": "7d6eef02-5784-2dce-08f7-69705f85e35f",
+              "value": "Egypt",
+              "permalink": "egypt",
+              "entity_def_id": "location",
+              "location_type": "country"
+            },
+            {
+              "uuid": "5b194c3b-3018-b47d-f611-ab142cdfd74c",
+              "value": "Africa",
+              "permalink": "africa",
+              "entity_def_id": "location",
+              "location_type": "continent"
+            }
+          ],
+          "score": 100,
+          "target_micro_categories": [
+            {
+              "uuid": "ea3e668c-176f-492d-9997-8d8c3abbda02",
+              "value": "Adult Education",
+              "permalink": "adult-education",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "d0da4480-0bf1-47fd-b91a-ab4c5af40ce0",
+              "value": "Coding Education",
+              "permalink": "coding-education",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "0418d094-f344-4faf-9162-cb95a7930db8",
+              "value": "Data Science",
+              "permalink": "data-science-0db8",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "8c71de31-3956-46cd-9eca-1438ec0c6c1a",
+              "value": "Educational Games",
+              "permalink": "educational-games",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "63451510-fd65-4384-b7c0-27e42a013687",
+              "value": "E-Learning Content Development",
+              "permalink": "e-learning-content-development",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "e444035f-6825-4779-b78d-87afbf55e4d5",
+              "value": "Learning Analytics and Training Evaluation",
+              "permalink": "learning-analytics-and-training-evaluation",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "e878660c-4a3d-4d7a-be51-b97a1549c83b",
+              "value": "Online Assessment Platforms",
+              "permalink": "online-assessment-platforms",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "30d1db8e-3150-4298-9b42-f703ef025b13",
+              "value": "Programming Courses",
+              "permalink": "programming-courses",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "c1826ff0-b990-4caa-b35b-89990a28e1bc",
+              "value": "STEAM Education",
+              "permalink": "steam-education-e1bc",
+              "entity_def_id": "micro_category"
+            }
+          ],
+          "target_locations": [
+            {
+              "uuid": "528f5e3c-90d1-1111-5d1c-2e4ff979d58e",
+              "value": "San Francisco",
+              "permalink": "san-francisco-california",
+              "entity_def_id": "location",
+              "location_type": "city"
+            },
+            {
+              "uuid": "eb879a83-c91a-121e-0bb8-829782dbcf04",
+              "value": "California",
+              "permalink": "california-united-states",
+              "entity_def_id": "location",
+              "location_type": "region"
+            },
+            {
+              "uuid": "f110fca2-1055-99f6-996d-011c198b3928",
+              "value": "United States",
+              "permalink": "united-states",
+              "entity_def_id": "location",
+              "location_type": "country"
+            },
+            {
+              "uuid": "b25caef9-a1b8-3a5d-6232-93b2dfb6a1d1",
+              "value": "North America",
+              "permalink": "north-america",
+              "entity_def_id": "location",
+              "location_type": "continent"
+            }
+          ],
+          "target_short_description": "Brilliant delivers digital interactive STEM learning experiences to students, professionals, and lifelong learners around the world.",
+          "target_categories": [
+            {
+              "uuid": "025caab7-3e54-98f0-061c-73e7af159cd1",
+              "value": "Education",
+              "image_id": "c67889dbff324d9f841fd6d5ad35a4a2",
+              "permalink": "education",
+              "entity_def_id": "category"
+            },
+            {
+              "uuid": "e89057d0-4221-b6cd-8a26-dc846f371d56",
+              "value": "E-Learning",
+              "image_id": "be98ca56e38b4155820d89123ffc9022",
+              "permalink": "e-learning",
+              "entity_def_id": "category"
+            },
+            {
+              "uuid": "2772a539-e636-09dc-30dc-b1a7deb98d0e",
+              "value": "Internet",
+              "image_id": "920e060f0da2433f86a0848520dad911",
+              "permalink": "internet",
+              "entity_def_id": "category"
+            },
+            {
+              "uuid": "e8804a82-8603-d2e1-c3b5-d241dd8030b9",
+              "value": "Tutoring",
+              "image_id": "a764822c84944acdaa2f563279c4da3c",
+              "permalink": "tutoring",
+              "entity_def_id": "category"
+            }
+          ],
+          "source_num_employees_enum": "c_00051_00100",
+          "target": {
+            "uuid": "bb0e8d70-1444-e1be-bfee-f9e3d09f093d",
+            "value": "Brilliant.org",
+            "image_id": "v1397188105/5e74dd8f1825ba19e0c34d7c9de960b3.png",
+            "permalink": "brilliant-org",
+            "entity_def_id": "organization"
+          },
+          "target_revenue_range": "r_00000000",
+          "target_num_employees_enum": "c_00101_00250",
+          "target_category_groups": [
+            {
+              "uuid": "c9b57410-b164-3b0c-314d-05015ff1378a",
+              "value": "Education",
+              "permalink": "education-c9b5",
+              "entity_def_id": "category_group"
+            },
+            {
+              "uuid": "4fe3f3ac-e522-5889-7477-c1b6d6663710",
+              "value": "Information Technology",
+              "permalink": "information-technology-4fe3",
+              "entity_def_id": "category_group"
+            },
+            {
+              "uuid": "85b6bca9-930a-11bc-a608-a513b76fb637",
+              "value": "Software",
+              "permalink": "software-85b6",
+              "entity_def_id": "category_group"
+            }
+          ],
+          "source_num_contacts": 3,
+          "identifier": {
+            "uuid": "06edb4d6-3186-4c24-aad8-b59a45036d43",
+            "value": "Armstrong competes with Brilliant.org",
+            "entity_def_id": "org_similarity"
+          },
+          "target_location_groups": [
+            {
+              "uuid": "f79bcf34-5d9e-4a01-837e-f6012edd056c",
+              "value": "San Francisco Bay Area",
+              "permalink": "san-francisco-bay-area-california",
+              "entity_def_id": "location",
+              "location_type": "group"
+            },
+            {
+              "uuid": "cf97b169-46c9-493f-a20f-3fe590824934",
+              "value": "West Coast",
+              "permalink": "west-coast-united-states",
+              "entity_def_id": "location",
+              "location_type": "group"
+            },
+            {
+              "uuid": "f37257c7-3745-42a1-8e07-b7db80a362ac",
+              "value": "Western US",
+              "permalink": "western-united-states",
+              "entity_def_id": "location",
+              "location_type": "group"
+            }
+          ],
+          "source_short_description": "Armstrong is an interactive STEM e-learning platform that delivers the most interactive way for education.",
+          "source_micro_categories": [
+            {
+              "uuid": "d0da4480-0bf1-47fd-b91a-ab4c5af40ce0",
+              "value": "Coding Education",
+              "permalink": "coding-education",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "14b6397a-42d5-4789-bb74-4c8a300ab574",
+              "value": "Curriculum Management and Mapping Software",
+              "permalink": "curriculum-management-and-mapping-software",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "c495f641-8903-489b-8fc0-831796e16307",
+              "value": "Digital Credentialing",
+              "permalink": "digital-credentialing",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "63451510-fd65-4384-b7c0-27e42a013687",
+              "value": "E-Learning Content Development",
+              "permalink": "e-learning-content-development",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "9d180f50-28dc-4963-9ed9-f4a438655b8f",
+              "value": "Embedded Development Boards and Modules",
+              "permalink": "embedded-development-boards-and-modules",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "94376996-f7b3-4333-823b-93bc8bbb2a65",
+              "value": "Engineering Education",
+              "permalink": "engineering-education",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "c710ae0e-0ca6-4f55-bcd5-238951c5f1da",
+              "value": "K-12 Curriculum and School Programs",
+              "permalink": "k-12-curriculum-and-school-programs",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "e444035f-6825-4779-b78d-87afbf55e4d5",
+              "value": "Learning Analytics and Training Evaluation",
+              "permalink": "learning-analytics-and-training-evaluation",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "c95720fa-3c52-484b-ba69-8e5e8512a9a6",
+              "value": "Learning Management Systems (LMS)",
+              "permalink": "learning-management-systems-lms",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "30d1db8e-3150-4298-9b42-f703ef025b13",
+              "value": "Programming Courses",
+              "permalink": "programming-courses",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "c1826ff0-b990-4caa-b35b-89990a28e1bc",
+              "value": "STEAM Education",
+              "permalink": "steam-education-e1bc",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "157727f5-61b4-4325-8263-d5d6d6b3b7b7",
+              "value": "Toys and Educational Play",
+              "permalink": "toys-and-educational-play",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "851df5b9-5e79-4450-bd6f-5606f60ac828",
+              "value": "Training Simulators",
+              "permalink": "training-simulators",
+              "entity_def_id": "micro_category"
+            }
+          ],
+          "source_location_groups": [
+            {
+              "uuid": "4e8be435-c63a-4aff-8a2f-44a880d9c341",
+              "value": "Europe, Middle East, and Africa (EMEA)",
+              "permalink": "europe-middle-east-africa-emea",
+              "entity_def_id": "location",
+              "location_type": "group"
+            },
+            {
+              "uuid": "e0272206-3430-48cb-a5bc-1d4b3eafe15a",
+              "value": "Middle East",
+              "permalink": "middle-east",
+              "entity_def_id": "location",
+              "location_type": "group"
+            },
+            {
+              "uuid": "8cb7cad4-b7e4-4b28-a496-2ede3720cb19",
+              "value": "Middle East and North Africa (MENA)",
+              "permalink": "middle-east-and-north-africa-mena",
+              "entity_def_id": "location",
+              "location_type": "group"
+            },
+            {
+              "uuid": "994bd431-46d0-448f-8d24-7b259bda176b",
+              "value": "North Africa",
+              "permalink": "north-africa",
+              "entity_def_id": "location",
+              "location_type": "group"
+            },
+            {
+              "uuid": "4e8be435-c63a-4aff-8a2f-44a880d9c341",
+              "value": "Europe, Middle East, and Africa (EMEA)",
+              "permalink": "europe-middle-east-africa-emea",
+              "entity_def_id": "location",
+              "location_type": "group"
+            }
+          ]
+        },
+        {
+          "source": {
+            "uuid": "5554fd65-5f2a-4194-81ad-744b06073031",
+            "value": "Armstrong",
+            "image_id": "e3be36c79f9146309b52490cc498d7d2",
+            "permalink": "armstrong-3031",
+            "entity_def_id": "organization"
+          },
+          "source_locations": [
+            {
+              "uuid": "f5de654e-be69-318e-90b9-96abc102f5e1",
+              "value": "Cairo",
+              "permalink": "cairo-al-qahirah",
+              "entity_def_id": "location",
+              "location_type": "city"
+            },
+            {
+              "uuid": "73fc0c82-c43d-8035-0da0-6245c0c96245",
+              "value": "Al Qahirah",
+              "permalink": "al-qahirah-egypt",
+              "entity_def_id": "location",
+              "location_type": "region"
+            },
+            {
+              "uuid": "7d6eef02-5784-2dce-08f7-69705f85e35f",
+              "value": "Egypt",
+              "permalink": "egypt",
+              "entity_def_id": "location",
+              "location_type": "country"
+            },
+            {
+              "uuid": "5b194c3b-3018-b47d-f611-ab142cdfd74c",
+              "value": "Africa",
+              "permalink": "africa",
+              "entity_def_id": "location",
+              "location_type": "continent"
+            }
+          ],
+          "score": 92.364,
+          "target_locations": [
+            {
+              "uuid": "e0c0852a-6ecf-c824-a029-6da930150222",
+              "value": "Maliara",
+              "permalink": "maliara-west-bengal",
+              "entity_def_id": "location",
+              "location_type": "city"
+            },
+            {
+              "uuid": "6d7ba680-2cc3-4fa7-e205-71c781a5a14b",
+              "value": "West Bengal",
+              "permalink": "west-bengal-india",
+              "entity_def_id": "location",
+              "location_type": "region"
+            },
+            {
+              "uuid": "44048bf7-db64-0d7a-db20-fd3c1ebf47b0",
+              "value": "India",
+              "permalink": "india",
+              "entity_def_id": "location",
+              "location_type": "country"
+            },
+            {
+              "uuid": "b41404d2-8ecc-caf5-1268-8fdd3afe73ee",
+              "value": "Asia",
+              "permalink": "asia",
+              "entity_def_id": "location",
+              "location_type": "continent"
+            }
+          ],
+          "target_short_description": "Diploma and Degree Engineering Notes Website.",
+          "target_categories": [
+            {
+              "uuid": "025caab7-3e54-98f0-061c-73e7af159cd1",
+              "value": "Education",
+              "image_id": "c67889dbff324d9f841fd6d5ad35a4a2",
+              "permalink": "education",
+              "entity_def_id": "category"
+            },
+            {
+              "uuid": "6dab555a-c4f3-dc69-4250-e1e530475197",
+              "value": "STEM Education",
+              "image_id": "9aff2085ecde4df1a528233ff9467535",
+              "permalink": "stem-education",
+              "entity_def_id": "category"
+            }
+          ],
+          "source_num_employees_enum": "c_00051_00100",
+          "target": {
+            "uuid": "135c66d7-357c-4431-91d4-312e6c39317f",
+            "value": "Poly Notes hub",
+            "image_id": "dd26d13477a148d5bcb933e9253539fb",
+            "permalink": "poly-notes-hub",
+            "entity_def_id": "organization"
+          },
+          "target_num_employees_enum": "c_00001_00010",
+          "target_category_groups": [
+            {
+              "uuid": "c9b57410-b164-3b0c-314d-05015ff1378a",
+              "value": "Education",
+              "permalink": "education-c9b5",
+              "entity_def_id": "category_group"
+            },
+            {
+              "uuid": "285e29fc-8f70-bf00-1749-9e94158f64f4",
+              "value": "Science and Engineering",
+              "permalink": "science-and-engineering",
+              "entity_def_id": "category_group"
+            }
+          ],
+          "source_num_contacts": 3,
+          "identifier": {
+            "uuid": "6ce096e0-a110-415e-9f87-5e9b79514632",
+            "value": "Armstrong competes with Poly Notes hub",
+            "entity_def_id": "org_similarity"
+          },
+          "target_location_groups": [
+            {
+              "uuid": "2d80faa6-8493-4565-887f-f18b0b9f7d03",
+              "value": "Asia-Pacific (APAC)",
+              "permalink": "asia-pacific",
+              "entity_def_id": "location",
+              "location_type": "group"
+            }
+          ],
+          "source_short_description": "Armstrong is an interactive STEM e-learning platform that delivers the most interactive way for education.",
+          "source_micro_categories": [
+            {
+              "uuid": "d0da4480-0bf1-47fd-b91a-ab4c5af40ce0",
+              "value": "Coding Education",
+              "permalink": "coding-education",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "14b6397a-42d5-4789-bb74-4c8a300ab574",
+              "value": "Curriculum Management and Mapping Software",
+              "permalink": "curriculum-management-and-mapping-software",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "c495f641-8903-489b-8fc0-831796e16307",
+              "value": "Digital Credentialing",
+              "permalink": "digital-credentialing",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "63451510-fd65-4384-b7c0-27e42a013687",
+              "value": "E-Learning Content Development",
+              "permalink": "e-learning-content-development",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "9d180f50-28dc-4963-9ed9-f4a438655b8f",
+              "value": "Embedded Development Boards and Modules",
+              "permalink": "embedded-development-boards-and-modules",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "94376996-f7b3-4333-823b-93bc8bbb2a65",
+              "value": "Engineering Education",
+              "permalink": "engineering-education",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "c710ae0e-0ca6-4f55-bcd5-238951c5f1da",
+              "value": "K-12 Curriculum and School Programs",
+              "permalink": "k-12-curriculum-and-school-programs",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "e444035f-6825-4779-b78d-87afbf55e4d5",
+              "value": "Learning Analytics and Training Evaluation",
+              "permalink": "learning-analytics-and-training-evaluation",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "c95720fa-3c52-484b-ba69-8e5e8512a9a6",
+              "value": "Learning Management Systems (LMS)",
+              "permalink": "learning-management-systems-lms",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "30d1db8e-3150-4298-9b42-f703ef025b13",
+              "value": "Programming Courses",
+              "permalink": "programming-courses",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "c1826ff0-b990-4caa-b35b-89990a28e1bc",
+              "value": "STEAM Education",
+              "permalink": "steam-education-e1bc",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "157727f5-61b4-4325-8263-d5d6d6b3b7b7",
+              "value": "Toys and Educational Play",
+              "permalink": "toys-and-educational-play",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "851df5b9-5e79-4450-bd6f-5606f60ac828",
+              "value": "Training Simulators",
+              "permalink": "training-simulators",
+              "entity_def_id": "micro_category"
+            }
+          ],
+          "source_location_groups": [
+            {
+              "uuid": "4e8be435-c63a-4aff-8a2f-44a880d9c341",
+              "value": "Europe, Middle East, and Africa (EMEA)",
+              "permalink": "europe-middle-east-africa-emea",
+              "entity_def_id": "location",
+              "location_type": "group"
+            },
+            {
+              "uuid": "e0272206-3430-48cb-a5bc-1d4b3eafe15a",
+              "value": "Middle East",
+              "permalink": "middle-east",
+              "entity_def_id": "location",
+              "location_type": "group"
+            },
+            {
+              "uuid": "8cb7cad4-b7e4-4b28-a496-2ede3720cb19",
+              "value": "Middle East and North Africa (MENA)",
+              "permalink": "middle-east-and-north-africa-mena",
+              "entity_def_id": "location",
+              "location_type": "group"
+            },
+            {
+              "uuid": "994bd431-46d0-448f-8d24-7b259bda176b",
+              "value": "North Africa",
+              "permalink": "north-africa",
+              "entity_def_id": "location",
+              "location_type": "group"
+            },
+            {
+              "uuid": "4e8be435-c63a-4aff-8a2f-44a880d9c341",
+              "value": "Europe, Middle East, and Africa (EMEA)",
+              "permalink": "europe-middle-east-africa-emea",
+              "entity_def_id": "location",
+              "location_type": "group"
+            }
+          ]
+        },
+        {
+          "source": {
+            "uuid": "5554fd65-5f2a-4194-81ad-744b06073031",
+            "value": "Armstrong",
+            "image_id": "e3be36c79f9146309b52490cc498d7d2",
+            "permalink": "armstrong-3031",
+            "entity_def_id": "organization"
+          },
+          "source_locations": [
+            {
+              "uuid": "f5de654e-be69-318e-90b9-96abc102f5e1",
+              "value": "Cairo",
+              "permalink": "cairo-al-qahirah",
+              "entity_def_id": "location",
+              "location_type": "city"
+            },
+            {
+              "uuid": "73fc0c82-c43d-8035-0da0-6245c0c96245",
+              "value": "Al Qahirah",
+              "permalink": "al-qahirah-egypt",
+              "entity_def_id": "location",
+              "location_type": "region"
+            },
+            {
+              "uuid": "7d6eef02-5784-2dce-08f7-69705f85e35f",
+              "value": "Egypt",
+              "permalink": "egypt",
+              "entity_def_id": "location",
+              "location_type": "country"
+            },
+            {
+              "uuid": "5b194c3b-3018-b47d-f611-ab142cdfd74c",
+              "value": "Africa",
+              "permalink": "africa",
+              "entity_def_id": "location",
+              "location_type": "continent"
+            }
+          ],
+          "score": 87.807,
+          "target_micro_categories": [
+            {
+              "uuid": "62a997f3-4dbc-4f1d-b0b5-703c29337c9d",
+              "value": "Embedded Development",
+              "permalink": "embedded-development",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "9d180f50-28dc-4963-9ed9-f4a438655b8f",
+              "value": "Embedded Development Boards and Modules",
+              "permalink": "embedded-development-boards-and-modules",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "81fa7e3a-6fb4-4a31-9c85-69bc954445a8",
+              "value": "Machine Vision and Inspection Systems",
+              "permalink": "machine-vision-and-inspection-systems",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "9000ce0a-603b-404c-984c-d81b978de2ba",
+              "value": "Mechatronics",
+              "permalink": "mechatronics-e2ba",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "9c8013bb-9524-4de8-94b0-7fa439871f95",
+              "value": "Microcontrollers",
+              "permalink": "microcontrollers",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "0ceec897-f134-454a-8e78-7be7679721c6",
+              "value": "Object Detection",
+              "permalink": "object-detection",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "cdaf707b-1ae9-4a11-bcc0-8bc6e895e22c",
+              "value": "Pose Estimation",
+              "permalink": "pose-estimation",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "22d16171-7767-48ef-9d3c-867a0680a45a",
+              "value": "Remote Control Devices",
+              "permalink": "remote-control-devices",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "f94e53f3-f8ca-4dc6-a011-75d09b07094c",
+              "value": "Robotics",
+              "permalink": "robotics-094c",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "4f22c425-ba00-4742-9313-973493bf06b6",
+              "value": "Routers and Cellular Gateways",
+              "permalink": "routers-and-cellular-gateways",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "789c3f15-2848-4480-ad18-f97d51f22b02",
+              "value": "Serial Device Servers",
+              "permalink": "serial-device-servers",
+              "entity_def_id": "micro_category"
+            }
+          ],
+          "target_short_description": "R&D in robotics, computer vision, AI, ML.",
+          "target_categories": [
+            {
+              "uuid": "c4d8caf3-5fe7-359b-f9f2-2d708378e4ee",
+              "value": "Artificial Intelligence (AI)",
+              "image_id": "930c72a5a7b544999596ac1c0dc8b549",
+              "permalink": "artificial-intelligence",
+              "entity_def_id": "category"
+            },
+            {
+              "uuid": "a69e7c2b-5a12-d999-e85e-a0da5f05b3d3",
+              "value": "Computer Vision",
+              "image_id": "21e6f0e137444bdd8bc26833b0eb3c40",
+              "permalink": "computer-vision",
+              "entity_def_id": "category"
+            },
+            {
+              "uuid": "5ea0cdb7-c9a6-47fc-50f8-c9b0fac04863",
+              "value": "Machine Learning",
+              "image_id": "e83f580a280f48f39d789180bce8c2d9",
+              "permalink": "machine-learning",
+              "entity_def_id": "category"
+            },
+            {
+              "uuid": "421943ef-50ae-c811-470e-c66a0323cf0d",
+              "value": "Robotics",
+              "image_id": "5a6dd6f7b5d2486fae705f1de137ce80",
+              "permalink": "robotics",
+              "entity_def_id": "category"
+            }
+          ],
+          "source_num_employees_enum": "c_00051_00100",
+          "source_short_description": "Armstrong is an interactive STEM e-learning platform that delivers the most interactive way for education.",
+          "target": {
+            "uuid": "3ed3c920-345f-4939-808d-b23784292a3f",
+            "value": "RoboCraft",
+            "image_id": "ngqemqd3jxiezeixeqcx",
+            "permalink": "robocraft-2a3f",
+            "entity_def_id": "organization"
+          },
+          "target_num_employees_enum": "c_00001_00010",
+          "target_category_groups": [
+            {
+              "uuid": "e5514a50-8200-7f6b-de87-b07990670800",
+              "value": "Artificial Intelligence (AI)",
+              "permalink": "artificial-intelligence-e551",
+              "entity_def_id": "category_group"
+            },
+            {
+              "uuid": "701eef4f-18c1-4aff-b550-caf732cd575f",
+              "value": "Data and Analytics",
+              "permalink": "data-and-analytics",
+              "entity_def_id": "category_group"
+            },
+            {
+              "uuid": "2e6eafef-f310-ba60-d932-62f866a87779",
+              "value": "Hardware",
+              "permalink": "hardware-2e6e",
+              "entity_def_id": "category_group"
+            },
+            {
+              "uuid": "285e29fc-8f70-bf00-1749-9e94158f64f4",
+              "value": "Science and Engineering",
+              "permalink": "science-and-engineering",
+              "entity_def_id": "category_group"
+            },
+            {
+              "uuid": "85b6bca9-930a-11bc-a608-a513b76fb637",
+              "value": "Software",
+              "permalink": "software-85b6",
+              "entity_def_id": "category_group"
+            }
+          ],
+          "source_num_contacts": 3,
+          "identifier": {
+            "uuid": "8c5ad2ed-9856-4174-a188-6485c205591a",
+            "value": "Armstrong competes with RoboCraft",
+            "entity_def_id": "org_similarity"
+          },
+          "source_micro_categories": [
+            {
+              "uuid": "d0da4480-0bf1-47fd-b91a-ab4c5af40ce0",
+              "value": "Coding Education",
+              "permalink": "coding-education",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "14b6397a-42d5-4789-bb74-4c8a300ab574",
+              "value": "Curriculum Management and Mapping Software",
+              "permalink": "curriculum-management-and-mapping-software",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "c495f641-8903-489b-8fc0-831796e16307",
+              "value": "Digital Credentialing",
+              "permalink": "digital-credentialing",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "63451510-fd65-4384-b7c0-27e42a013687",
+              "value": "E-Learning Content Development",
+              "permalink": "e-learning-content-development",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "9d180f50-28dc-4963-9ed9-f4a438655b8f",
+              "value": "Embedded Development Boards and Modules",
+              "permalink": "embedded-development-boards-and-modules",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "94376996-f7b3-4333-823b-93bc8bbb2a65",
+              "value": "Engineering Education",
+              "permalink": "engineering-education",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "c710ae0e-0ca6-4f55-bcd5-238951c5f1da",
+              "value": "K-12 Curriculum and School Programs",
+              "permalink": "k-12-curriculum-and-school-programs",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "e444035f-6825-4779-b78d-87afbf55e4d5",
+              "value": "Learning Analytics and Training Evaluation",
+              "permalink": "learning-analytics-and-training-evaluation",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "c95720fa-3c52-484b-ba69-8e5e8512a9a6",
+              "value": "Learning Management Systems (LMS)",
+              "permalink": "learning-management-systems-lms",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "30d1db8e-3150-4298-9b42-f703ef025b13",
+              "value": "Programming Courses",
+              "permalink": "programming-courses",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "c1826ff0-b990-4caa-b35b-89990a28e1bc",
+              "value": "STEAM Education",
+              "permalink": "steam-education-e1bc",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "157727f5-61b4-4325-8263-d5d6d6b3b7b7",
+              "value": "Toys and Educational Play",
+              "permalink": "toys-and-educational-play",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "851df5b9-5e79-4450-bd6f-5606f60ac828",
+              "value": "Training Simulators",
+              "permalink": "training-simulators",
+              "entity_def_id": "micro_category"
+            }
+          ],
+          "source_location_groups": [
+            {
+              "uuid": "4e8be435-c63a-4aff-8a2f-44a880d9c341",
+              "value": "Europe, Middle East, and Africa (EMEA)",
+              "permalink": "europe-middle-east-africa-emea",
+              "entity_def_id": "location",
+              "location_type": "group"
+            },
+            {
+              "uuid": "e0272206-3430-48cb-a5bc-1d4b3eafe15a",
+              "value": "Middle East",
+              "permalink": "middle-east",
+              "entity_def_id": "location",
+              "location_type": "group"
+            },
+            {
+              "uuid": "8cb7cad4-b7e4-4b28-a496-2ede3720cb19",
+              "value": "Middle East and North Africa (MENA)",
+              "permalink": "middle-east-and-north-africa-mena",
+              "entity_def_id": "location",
+              "location_type": "group"
+            },
+            {
+              "uuid": "994bd431-46d0-448f-8d24-7b259bda176b",
+              "value": "North Africa",
+              "permalink": "north-africa",
+              "entity_def_id": "location",
+              "location_type": "group"
+            },
+            {
+              "uuid": "4e8be435-c63a-4aff-8a2f-44a880d9c341",
+              "value": "Europe, Middle East, and Africa (EMEA)",
+              "permalink": "europe-middle-east-africa-emea",
+              "entity_def_id": "location",
+              "location_type": "group"
+            }
+          ]
+        }
+      ],
+      "ipo_prediction": [
+        {
+          "generated_on": "2025-09-22",
+          "identifier": {
+            "uuid": "e7b3a804-4bce-447b-9476-a30c51474942",
+            "value": "IPO Prediction 2025-09-22",
+            "entity_def_id": "ipo_prediction"
+          },
+          "probability_score": 0.6042,
+          "created_at": "2025-09-22T22:53:57Z",
+          "updated_at": "2025-09-22T22:53:57Z",
+          "probability_tier": "p300_neutral"
+        }
+      ],
+      "acquisitions_summary": {
+        "identifier": {
+          "uuid": "5554fd65-5f2a-4194-81ad-744b06073031",
+          "value": "Armstrong",
+          "image_id": "e3be36c79f9146309b52490cc498d7d2",
+          "permalink": "armstrong-3031",
+          "entity_def_id": "organization"
+        }
+      },
+      "advisors_summary": {
+        "identifier": {
+          "uuid": "5554fd65-5f2a-4194-81ad-744b06073031",
+          "value": "Armstrong",
+          "image_id": "e3be36c79f9146309b52490cc498d7d2",
+          "permalink": "armstrong-3031",
+          "entity_def_id": "organization"
+        }
+      },
+      "acquisitions_list": [],
+      "exits_headline": {},
+      "investments_summary": {
+        "identifier": {
+          "uuid": "5554fd65-5f2a-4194-81ad-744b06073031",
+          "value": "Armstrong",
+          "image_id": "e3be36c79f9146309b52490cc498d7d2",
+          "permalink": "armstrong-3031",
+          "entity_def_id": "organization"
+        }
+      },
+      "acquired_by_fields": {},
+      "research_insight_text_link": {},
+      "acquisition_prediction": [
+        {
+          "generated_on": "2025-09-22",
+          "identifier": {
+            "uuid": "58a5cc2f-a81d-41df-aad7-9cbeb65b4a54",
+            "value": "Acquisition Prediction 2025-09-22",
+            "entity_def_id": "acquisition_prediction"
+          },
+          "probability_score": 0.3674,
+          "runway_speculation": {
+            "uuid": "218b8c37-2740-46fb-926b-1826e923290a",
+            "value": "Non Equity Assistance - Armstrong",
+            "image_id": "e3be36c79f9146309b52490cc498d7d2",
+            "permalink": "armstrong-3031-non-equity-assistance--218b8c37",
+            "entity_def_id": "funding_round"
+          },
+          "created_at": "2025-09-22T20:26:10Z",
+          "updated_at": "2025-09-22T20:26:10Z",
+          "probability_tier": "p300_neutral"
+        }
+      ],
+      "sub_organizations_headline": {},
+      "layoff_list": [],
+      "growth_and_heat": {
+        "heat_score_history": {
+          "periods": {
+            "i1": {
+              "values": [
+                38,
+                39,
+                39,
+                39,
+                39,
+                39,
+                39,
+                39,
+                40,
+                40,
+                40,
+                40,
+                40,
+                40,
+                40,
+                41,
+                41,
+                41,
+                41,
+                41,
+                41,
+                42,
+                42,
+                43,
+                43,
+                43,
+                44,
+                44,
+                45,
+                45,
+                46,
+                46,
+                46,
+                47,
+                47,
+                48,
+                48,
+                49,
+                49,
+                49,
+                50,
+                50,
+                50,
+                51,
+                51,
+                52,
+                52,
+                52,
+                53,
+                53,
+                53,
+                54,
+                54,
+                54,
+                55,
+                55,
+                54,
+                54,
+                55,
+                55,
+                55,
+                56,
+                56,
+                56,
+                57,
+                57,
+                57,
+                57,
+                58,
+                58,
+                58,
+                59,
+                59,
+                59,
+                60,
+                60,
+                60,
+                61,
+                61,
+                55,
+                56,
+                57,
+                58,
+                59,
+                59,
+                60,
+                61,
+                62,
+                63,
+                63
+              ],
+              "interval": 1
+            },
+            "i2": {
+              "values": [
+                38,
+                39,
+                39,
+                39,
+                40,
+                40,
+                40,
+                41,
+                41,
+                41,
+                42,
+                43,
+                43,
+                44,
+                45,
+                46,
+                47,
+                48,
+                49,
+                49,
+                50,
+                51,
+                52,
+                52,
+                53,
+                54,
+                54,
+                55,
+                54,
+                55,
+                56,
+                56,
+                57,
+                57,
+                58,
+                59,
+                59,
+                60,
+                61,
+                58,
+                57,
+                59,
+                60,
+                62,
+                63,
+                65,
+                66,
+                68,
+                69,
+                70,
+                72,
+                73,
+                74,
+                75,
+                76,
+                78,
+                79,
+                80,
+                81,
+                82,
+                84,
+                85,
+                85,
+                86,
+                88,
+                89,
+                90,
+                88,
+                89,
+                90,
+                82,
+                79,
+                81,
+                82,
+                84,
+                85,
+                86,
+                87,
+                88,
+                79,
+                80,
+                82,
+                83,
+                78,
+                80,
+                81,
+                83,
+                84,
+                85,
+                87,
+                88
+              ],
+              "interval": 2
+            },
+            "i4": {
+              "values": [
+                38,
+                39,
+                40,
+                40,
+                41,
+                42,
+                44,
+                46,
+                47,
+                49,
+                50,
+                52,
+                53,
+                55,
+                55,
+                56,
+                57,
+                58,
+                60,
+                59,
+                58,
+                61,
+                64,
+                67,
+                69,
+                72,
+                74,
+                77,
+                79,
+                82,
+                84,
+                86,
+                88,
+                89,
+                89,
+                80,
+                81,
+                84,
+                87,
+                83,
+                81,
+                80,
+                80,
+                83,
+                86,
+                89,
+                91,
+                92,
+                93,
+                89,
+                63,
+                55,
+                56,
+                57,
+                56,
+                56,
+                57,
+                56,
+                54,
+                49,
+                50,
+                50,
+                52,
+                53,
+                55,
+                57,
+                56,
+                58,
+                57,
+                59,
+                61,
+                62,
+                64,
+                66,
+                66,
+                67,
+                69,
+                63,
+                63,
+                64,
+                66,
+                66,
+                66,
+                69,
+                70,
+                71,
+                72,
+                73,
+                75,
+                70,
+                70,
+                71
+              ],
+              "interval": 4
+            },
+            "i7": {
+              "values": [
+                38,
+                40,
+                41,
+                43,
+                46,
+                49,
+                52,
+                54,
+                55,
+                57,
+                59,
+                58,
+                62,
+                67,
+                72,
+                76,
+                80,
+                84,
+                88,
+                89,
+                81,
+                84,
+                84,
+                81,
+                81,
+                86,
+                91,
+                92,
+                79,
+                55,
+                57,
+                56,
+                57,
+                52,
+                49,
+                51,
+                54,
+                57,
+                57,
+                58,
+                61,
+                64,
+                66,
+                68,
+                63,
+                64,
+                66,
+                68,
+                70,
+                72,
+                74,
+                70,
+                72,
+                69,
+                71,
+                72,
+                58,
+                54,
+                53,
+                53,
+                48,
+                48,
+                48,
+                49,
+                52,
+                54,
+                53,
+                50,
+                36,
+                6,
+                7,
+                7,
+                8,
+                8,
+                9,
+                9,
+                10,
+                10,
+                11,
+                11,
+                12,
+                12,
+                13,
+                13,
+                13,
+                14,
+                12,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "interval": 7
+            },
+            "i18": {
+              "values": [
+                38,
+                44,
+                51,
+                56,
+                60,
+                70,
+                81,
+                86,
+                83,
+                82,
+                91,
+                61,
+                56,
+                51,
+                56,
+                59,
+                66,
+                64,
+                68,
+                72,
+                71,
+                69,
+                54,
+                49,
+                49,
+                53,
+                37,
+                7,
+                8,
+                10,
+                11,
+                12,
+                13,
+                11,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                5,
+                12,
+                17,
+                20
+              ],
+              "interval": 18
+            },
+            "i36": {
+              "values": [
+                38,
+                54,
+                65,
+                84,
+                83,
+                76,
+                53,
+                57,
+                65,
+                70,
+                70,
+                52,
+                51,
+                22,
+                9,
+                11,
+                12,
+                1,
+                1,
+                1,
+                1,
+                8,
+                18
+              ],
+              "interval": 36
+            }
+          }
+        },
+        "growth_score_delta_d90": -19,
+        "growth_score_history": {
+          "periods": {
+            "i1": {
+              "values": [
+                52,
+                52,
+                52,
+                53,
+                53,
+                53,
+                53,
+                54,
+                54,
+                54,
+                54,
+                55,
+                55,
+                55,
+                55,
+                56,
+                56,
+                56,
+                56,
+                57,
+                57,
+                57,
+                57,
+                58,
+                58,
+                58,
+                58,
+                59,
+                59,
+                59,
+                59,
+                60,
+                60,
+                60,
+                60,
+                61,
+                61,
+                61,
+                61,
+                61,
+                62,
+                62,
+                62,
+                62,
+                63,
+                63,
+                63,
+                63,
+                63,
+                64,
+                64,
+                64,
+                64,
+                64,
+                65,
+                65,
+                65,
+                65,
+                65,
+                66,
+                66,
+                66,
+                66,
+                66,
+                67,
+                67,
+                67,
+                67,
+                67,
+                68,
+                68,
+                68,
+                68,
+                68,
+                68,
+                69,
+                69,
+                69,
+                69,
+                69,
+                69,
+                69,
+                69,
+                70,
+                70,
+                70,
+                70,
+                70,
+                71,
+                71
+              ],
+              "interval": 1
+            },
+            "i2": {
+              "values": [
+                52,
+                53,
+                53,
+                54,
+                54,
+                55,
+                55,
+                56,
+                56,
+                57,
+                57,
+                58,
+                58,
+                59,
+                59,
+                60,
+                60,
+                61,
+                61,
+                61,
+                62,
+                62,
+                63,
+                63,
+                64,
+                64,
+                64,
+                65,
+                65,
+                66,
+                66,
+                66,
+                67,
+                67,
+                68,
+                68,
+                68,
+                69,
+                69,
+                69,
+                69,
+                70,
+                70,
+                70,
+                71,
+                71,
+                72,
+                72,
+                72,
+                73,
+                73,
+                73,
+                74,
+                74,
+                75,
+                75,
+                75,
+                76,
+                76,
+                76,
+                77,
+                77,
+                77,
+                78,
+                78,
+                78,
+                79,
+                79,
+                79,
+                79,
+                79,
+                80,
+                80,
+                80,
+                81,
+                81,
+                81,
+                81,
+                82,
+                82,
+                82,
+                82,
+                83,
+                82,
+                82,
+                83,
+                83,
+                83,
+                83,
+                83,
+                83
+              ],
+              "interval": 2
+            },
+            "i4": {
+              "values": [
+                52,
+                53,
+                54,
+                55,
+                56,
+                57,
+                58,
+                59,
+                60,
+                61,
+                62,
+                63,
+                64,
+                65,
+                65,
+                66,
+                67,
+                68,
+                68,
+                69,
+                69,
+                70,
+                71,
+                72,
+                73,
+                73,
+                74,
+                75,
+                75,
+                76,
+                77,
+                78,
+                78,
+                79,
+                79,
+                79,
+                80,
+                81,
+                81,
+                82,
+                82,
+                82,
+                83,
+                83,
+                83,
+                83,
+                83,
+                82,
+                87,
+                94,
+                95,
+                95,
+                94,
+                94,
+                94,
+                93,
+                92,
+                91,
+                90,
+                88,
+                87,
+                86,
+                85,
+                84,
+                82,
+                81,
+                79,
+                78,
+                78,
+                78,
+                78,
+                78,
+                78,
+                78,
+                78,
+                77,
+                77,
+                77,
+                76,
+                76,
+                76,
+                75,
+                75,
+                74,
+                74,
+                74,
+                73,
+                73,
+                73,
+                72,
+                72,
+                72
+              ],
+              "interval": 4
+            },
+            "i7": {
+              "values": [
+                52,
+                54,
+                56,
+                58,
+                60,
+                61,
+                63,
+                64,
+                66,
+                67,
+                68,
+                69,
+                70,
+                72,
+                73,
+                74,
+                76,
+                77,
+                78,
+                79,
+                80,
+                81,
+                82,
+                82,
+                83,
+                83,
+                83,
+                85,
+                94,
+                95,
+                94,
+                93,
+                92,
+                89,
+                87,
+                85,
+                83,
+                80,
+                78,
+                78,
+                78,
+                78,
+                78,
+                77,
+                77,
+                76,
+                75,
+                75,
+                74,
+                73,
+                73,
+                72,
+                71,
+                70,
+                70,
+                70,
+                71,
+                71,
+                71,
+                71,
+                71,
+                71,
+                72,
+                72,
+                72,
+                72,
+                72,
+                72,
+                71,
+                70,
+                69,
+                68,
+                65,
+                53,
+                52,
+                52,
+                53,
+                53,
+                53,
+                53,
+                54,
+                54,
+                54,
+                55,
+                55,
+                55,
+                55,
+                55,
+                55,
+                55,
+                54,
+                54,
+                54,
+                53,
+                53,
+                53,
+                52,
+                52,
+                51,
+                51,
+                50,
+                50,
+                50,
+                49,
+                49
+              ],
+              "interval": 7
+            },
+            "i18": {
+              "values": [
+                52,
+                59,
+                63,
+                66,
+                69,
+                73,
+                76,
+                79,
+                81,
+                83,
+                85,
+                95,
+                92,
+                87,
+                81,
+                78,
+                78,
+                76,
+                75,
+                73,
+                71,
+                70,
+                71,
+                71,
+                72,
+                72,
+                71,
+                68,
+                57,
+                52,
+                53,
+                54,
+                55,
+                55,
+                55,
+                54,
+                53,
+                52,
+                51,
+                50,
+                49,
+                47,
+                46,
+                44,
+                44,
+                44,
+                44,
+                43,
+                42,
+                42,
+                41,
+                40,
+                39,
+                38,
+                35,
+                23,
+                18,
+                18,
+                17,
+                16,
+                16,
+                15,
+                14,
+                12,
+                11,
+                8
+              ],
+              "interval": 18
+            },
+            "i36": {
+              "values": [
+                52,
+                64,
+                71,
+                77,
+                82,
+                90,
+                89,
+                79,
+                77,
+                74,
+                71,
+                71,
+                72,
+                70,
+                55,
+                54,
+                55,
+                54,
+                53,
+                51,
+                48,
+                45,
+                44,
+                43,
+                42,
+                40,
+                38,
+                29,
+                18,
+                17,
+                15,
+                13,
+                10
+              ],
+              "interval": 36
+            }
+          }
+        },
+        "growth_trend_365": {
+          "periods": {
+            "i1": {
+              "values": [
+                -26,
+                -25,
+                -25,
+                -25,
+                -24,
+                -24,
+                -23,
+                -23,
+                -22,
+                -21,
+                -21,
+                -20,
+                -20,
+                -20,
+                -19,
+                -19,
+                -19,
+                -18,
+                -18,
+                -18,
+                -18,
+                -17,
+                -17,
+                -17,
+                -17,
+                -16,
+                -16,
+                -16,
+                -16,
+                -15,
+                -15,
+                -15,
+                -15,
+                -14,
+                -14,
+                -13,
+                -13,
+                -13,
+                -13,
+                -12,
+                -12,
+                -12,
+                -12,
+                -11,
+                -11,
+                -11,
+                -11,
+                -11,
+                -10,
+                -10,
+                -10,
+                -10,
+                -10,
+                -9,
+                -9,
+                -8,
+                -8,
+                -8,
+                -8,
+                -7,
+                -7,
+                -7,
+                -7,
+                -6,
+                -6,
+                -6,
+                -6,
+                -6,
+                -6,
+                -5,
+                -5,
+                -5,
+                -5,
+                -4,
+                -4,
+                -4,
+                -4,
+                -3,
+                -3,
+                -4,
+                -4,
+                -3,
+                -3,
+                -3,
+                -3,
+                -2,
+                -2,
+                -2,
+                -2,
+                -2
+              ],
+              "interval": 1
+            },
+            "i2": {
+              "values": [
+                -26,
+                -25,
+                -24,
+                -23,
+                -21,
+                -20,
+                -20,
+                -19,
+                -18,
+                -18,
+                -17,
+                -17,
+                -16,
+                -16,
+                -15,
+                -15,
+                -14,
+                -13,
+                -13,
+                -12,
+                -12,
+                -11,
+                -11,
+                -11,
+                -10,
+                -10,
+                -9,
+                -8,
+                -8,
+                -7,
+                -7,
+                -6,
+                -6,
+                -6,
+                -5,
+                -5,
+                -4,
+                -4,
+                -3,
+                -3,
+                -3,
+                -3,
+                -2,
+                -2,
+                -2,
+                -1,
+                -1,
+                0,
+                0,
+                1,
+                1,
+                2,
+                2,
+                3,
+                4,
+                5,
+                5,
+                6,
+                8,
+                9,
+                10,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                15,
+                17,
+                19,
+                20,
+                22,
+                24,
+                38,
+                51,
+                51,
+                51,
+                52,
+                52,
+                52,
+                52,
+                52,
+                53,
+                52,
+                52,
+                52,
+                52,
+                52,
+                53,
+                52,
+                52
+              ],
+              "interval": 2
+            },
+            "i4": {
+              "values": [
+                -26,
+                -23,
+                -21,
+                -19,
+                -18,
+                -17,
+                -16,
+                -15,
+                -14,
+                -13,
+                -12,
+                -11,
+                -10,
+                -9,
+                -8,
+                -7,
+                -6,
+                -5,
+                -4,
+                -3,
+                -3,
+                -2,
+                -1,
+                0,
+                1,
+                2,
+                3,
+                5,
+                6,
+                8,
+                10,
+                11,
+                13,
+                15,
+                18,
+                21,
+                31,
+                51,
+                51,
+                52,
+                52,
+                52,
+                52,
+                52,
+                52,
+                51,
+                50,
+                49,
+                57,
+                69,
+                69,
+                69,
+                68,
+                67,
+                65,
+                64,
+                62,
+                60,
+                57,
+                54,
+                52,
+                51,
+                49,
+                48,
+                46,
+                44,
+                41,
+                41,
+                41,
+                41,
+                42,
+                42,
+                42,
+                42,
+                43,
+                43,
+                43,
+                43,
+                43,
+                43,
+                43,
+                42,
+                42,
+                42,
+                42,
+                42,
+                42,
+                42,
+                42,
+                42,
+                42,
+                43
+              ],
+              "interval": 4
+            },
+            "i7": {
+              "values": [
+                -26,
+                -21,
+                -18,
+                -17,
+                -15,
+                -13,
+                -11,
+                -9,
+                -7,
+                -6,
+                -4,
+                -3,
+                -2,
+                0,
+                1,
+                4,
+                7,
+                10,
+                13,
+                16,
+                22,
+                51,
+                52,
+                52,
+                52,
+                52,
+                50,
+                54,
+                69,
+                68,
+                67,
+                64,
+                61,
+                57,
+                52,
+                50,
+                47,
+                43,
+                41,
+                41,
+                42,
+                42,
+                42,
+                43,
+                43,
+                43,
+                42,
+                42,
+                42,
+                42,
+                42,
+                42,
+                43,
+                42,
+                43,
+                45,
+                47,
+                49,
+                52,
+                54,
+                55,
+                56,
+                56,
+                56,
+                56,
+                57,
+                58,
+                58,
+                57,
+                55,
+                54,
+                52,
+                47,
+                24,
+                22,
+                23,
+                25,
+                26,
+                28,
+                29,
+                31,
+                33,
+                35,
+                37,
+                39,
+                41,
+                44,
+                47,
+                50,
+                57,
+                96,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100
+              ],
+              "interval": 7
+            },
+            "i18": {
+              "values": [
+                -26,
+                -16,
+                -11,
+                -7,
+                -3,
+                1,
+                7,
+                16,
+                47,
+                52,
+                54,
+                68,
+                62,
+                52,
+                44,
+                41,
+                42,
+                43,
+                42,
+                42,
+                42,
+                44,
+                50,
+                55,
+                56,
+                57,
+                57,
+                54,
+                32,
+                24,
+                28,
+                32,
+                37,
+                43,
+                52,
+                98,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                95,
+                82,
+                64,
+                36
+              ],
+              "interval": 18
+            },
+            "i36": {
+              "values": [
+                -26,
+                -9,
+                -1,
+                12,
+                50,
+                61,
+                57,
+                43,
+                43,
+                42,
+                43,
+                53,
+                57,
+                55,
+                28,
+                30,
+                40,
+                75,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                89,
+                54
+              ],
+              "interval": 36
+            }
+          }
+        },
+        "heat_score": 38,
+        "heat_trend_365": {
+          "periods": {
+            "i1": {
+              "values": [
+                -30,
+                -29,
+                -30,
+                -30,
+                -30,
+                -30,
+                -30,
+                -29,
+                -27,
+                -26,
+                -26,
+                -26,
+                -26,
+                -27,
+                -27,
+                -27,
+                -27,
+                -27,
+                -28,
+                -28,
+                -28,
+                -28,
+                -27,
+                -27,
+                -27,
+                -25,
+                -20,
+                -20,
+                -12,
+                -12,
+                -11,
+                -11,
+                -11,
+                -11,
+                -8,
+                -7,
+                -7,
+                -6,
+                -6,
+                -4,
+                -4,
+                -2,
+                -2,
+                -2,
+                -2,
+                -2,
+                -2,
+                -1,
+                -1,
+                -1,
+                -1,
+                0,
+                0,
+                5,
+                7,
+                7,
+                6,
+                6,
+                6,
+                8,
+                11,
+                11,
+                11,
+                11,
+                10,
+                10,
+                10,
+                10,
+                10,
+                10,
+                10,
+                12,
+                12,
+                14,
+                14,
+                14,
+                14,
+                14,
+                14,
+                7,
+                7,
+                8,
+                8,
+                9,
+                9,
+                10,
+                10,
+                11,
+                11,
+                12
+              ],
+              "interval": 1
+            },
+            "i2": {
+              "values": [
+                -30,
+                -30,
+                -30,
+                -29,
+                -26,
+                -26,
+                -26,
+                -27,
+                -27,
+                -28,
+                -28,
+                -27,
+                -26,
+                -20,
+                -12,
+                -11,
+                -11,
+                -7,
+                -6,
+                -5,
+                -3,
+                -2,
+                -2,
+                -1,
+                -1,
+                0,
+                3,
+                7,
+                6,
+                7,
+                11,
+                11,
+                10,
+                10,
+                10,
+                11,
+                13,
+                14,
+                14,
+                11,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                13,
+                14,
+                16,
+                18,
+                20,
+                21,
+                21,
+                22,
+                38,
+                39,
+                39,
+                51,
+                87,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100
+              ],
+              "interval": 2
+            },
+            "i4": {
+              "values": [
+                -30,
+                -30,
+                -26,
+                -27,
+                -27,
+                -27,
+                -23,
+                -11,
+                -9,
+                -6,
+                -2,
+                -2,
+                -1,
+                5,
+                7,
+                11,
+                10,
+                11,
+                14,
+                12,
+                8,
+                10,
+                12,
+                14,
+                17,
+                20,
+                22,
+                38,
+                45,
+                94,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                86,
+                83,
+                84,
+                85,
+                82,
+                82,
+                83,
+                80,
+                76,
+                65,
+                74,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100
+              ],
+              "interval": 4
+            },
+            "i7": {
+              "values": [
+                -30,
+                -27,
+                -27,
+                -25,
+                -11,
+                -5,
+                -2,
+                2,
+                8,
+                10,
+                13,
+                10,
+                11,
+                14,
+                20,
+                31,
+                65,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                95,
+                83,
+                85,
+                82,
+                82,
+                73,
+                75,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                92,
+                82,
+                66,
+                59,
+                54,
+                51,
+                51,
+                54,
+                53,
+                48,
+                25,
+                -24,
+                -23,
+                -22,
+                -22,
+                -21,
+                -20,
+                -19,
+                -18,
+                -18,
+                -17,
+                -16,
+                -15,
+                -15,
+                -14,
+                -13,
+                -13,
+                -12,
+                -15,
+                -33,
+                -33,
+                -33,
+                -33,
+                -33,
+                -33,
+                -33,
+                -33,
+                -33,
+                -33,
+                -33,
+                -33,
+                -33,
+                -33,
+                -33,
+                -33,
+                -33,
+                -33
+              ],
+              "interval": 7
+            },
+            "i18": {
+              "values": [
+                -30,
+                -19,
+                -2,
+                9,
+                11,
+                17,
+                73,
+                100,
+                100,
+                100,
+                100,
+                86,
+                81,
+                84,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                96,
+                69,
+                53,
+                53,
+                27,
+                -23,
+                -21,
+                -19,
+                -17,
+                -15,
+                -13,
+                -16,
+                -33,
+                -33,
+                -33,
+                -33,
+                -33,
+                -33,
+                -33,
+                -33,
+                -27,
+                -16,
+                -7,
+                -1
+              ],
+              "interval": 18
+            },
+            "i36": {
+              "values": [
+                -30,
+                4,
+                14,
+                86,
+                100,
+                93,
+                82,
+                100,
+                100,
+                100,
+                100,
+                83,
+                53,
+                2,
+                -20,
+                -16,
+                -15,
+                -33,
+                -33,
+                -33,
+                -33,
+                -21,
+                -5
+              ],
+              "interval": 36
+            }
+          }
+        },
+        "growth_score": 52,
+        "heat_score_delta_d90": -25
+      },
+      "bombora_summary": {
+        "identifier": {
+          "uuid": "5554fd65-5f2a-4194-81ad-744b06073031",
+          "value": "Armstrong",
+          "image_id": "e3be36c79f9146309b52490cc498d7d2",
+          "permalink": "armstrong-3031",
+          "entity_def_id": "organization"
+        }
+      },
+      "semrush_rank_headline": {
+        "semrush_visits_latest_month": 661,
+        "semrush_visits_mom_pct": 0.0153609831029186
+      },
+      "frequently_asked_questions_latest_funding_round": {
+        "identifier": {
+          "uuid": "5554fd65-5f2a-4194-81ad-744b06073031",
+          "value": "Armstrong",
+          "image_id": "e3be36c79f9146309b52490cc498d7d2",
+          "permalink": "armstrong-3031",
+          "entity_def_id": "organization"
+        },
+        "last_funding_at": "2024-06-06",
+        "last_funding_type": "non_equity_assistance",
+        "num_funding_rounds": 1
+      },
+      "apptopia_app_overview_list_free": [],
+      "contacts": {
+        "num_contact_emails": 2,
+        "num_contact_phones": 1,
+        "num_contacts": 3
+      },
+      "product_launches": [
+        {
+          "press_references": [
+            {
+              "uuid": "93df7f4a-3ea7-41d7-bc45-0f5a400a4f04",
+              "value": "Armstrong Templok Shows Potential For Thermal Energy Storage With Phase Change Materials",
+              "posted_on": "2026-03-27",
+              "publisher": "Clean Technica",
+              "source_url": "https://cleantechnica.com/2026/03/26/armstrong-templok-shows-potential-for-thermal-energy-storage-with-phase-change-materials/",
+              "entity_def_id": "press_reference"
+            }
+          ],
+          "identifier": {
+            "uuid": "82fac7c4-69e8-40f4-9a97-19a2c7305a75",
+            "entity_def_id": "product_launch"
+          },
+          "created_at": "2026-03-27T10:56:35Z",
+          "updated_at": "2026-03-27T10:56:35Z",
+          "description": "Armstrong has introduced Templok ceiling tiles, a new suspended ceiling product integrating phase change material to provide passive thermal energy storage and reduce HVAC energy use.",
+          "key_event_date": "2026-03-27"
+        },
+        {
+          "press_references": [
+            {
+              "uuid": "044ee6a5-11ca-4c22-8ffe-2f690898fb4e",
+              "value": "New High in Protein Marble Cheddar from Armstrong Cheese Earns 2026 Product of the Year Award",
+              "posted_on": "2026-02-12",
+              "publisher": "Canada NewsWire",
+              "source_url": "https://www.newswire.ca/news-releases/new-high-in-protein-marble-cheddar-from-armstrong-cheese-earns-2026-product-of-the-year-award-876654428.html",
+              "entity_def_id": "press_reference"
+            }
+          ],
+          "identifier": {
+            "uuid": "57a80107-89ae-4a2c-b2ca-bc16ece9ba7f",
+            "entity_def_id": "product_launch"
+          },
+          "created_at": "2026-02-12T18:14:51Z",
+          "updated_at": "2026-02-12T18:14:51Z",
+          "description": "Armstrong Cheese has launched a new High in Protein Marble Cheddar Cheese line, available as sticks, shredded, and block formats across major Canadian grocery retailers.",
+          "key_event_date": "2026-02-12"
+        }
+      ],
+      "alumni_summary": {
+        "identifier": {
+          "uuid": "5554fd65-5f2a-4194-81ad-744b06073031",
+          "value": "Armstrong",
+          "image_id": "e3be36c79f9146309b52490cc498d7d2",
+          "permalink": "armstrong-3031",
+          "entity_def_id": "organization"
+        }
+      },
+      "apptopia_summary": {
+        "identifier": {
+          "uuid": "5554fd65-5f2a-4194-81ad-744b06073031",
+          "value": "Armstrong",
+          "image_id": "e3be36c79f9146309b52490cc498d7d2",
+          "permalink": "armstrong-3031",
+          "entity_def_id": "organization"
+        }
+      },
+      "product_similarity_target_org_list": [],
+      "social_fields": {
+        "facebook": {
+          "value": "https://www.facebook.com/Armstrong.courses/"
+        },
+        "linkedin": {
+          "value": "https://www.linkedin.com/company/armstrong-courses/"
+        }
+      },
+      "investments_headline": {},
+      "investment_thesis": {
+        "lookup": [],
+        "properties": {
+          "identifier": {
+            "uuid": "5554fd65-5f2a-4194-81ad-744b06073031",
+            "value": "Armstrong",
+            "image_id": "e3be36c79f9146309b52490cc498d7d2",
+            "permalink": "armstrong-3031",
+            "entity_def_id": "organization"
+          }
+        },
+        "data": []
+      },
+      "diversity_spotlight_investments_summary": {
+        "identifier": {
+          "uuid": "5554fd65-5f2a-4194-81ad-744b06073031",
+          "value": "Armstrong",
+          "image_id": "e3be36c79f9146309b52490cc498d7d2",
+          "permalink": "armstrong-3031",
+          "entity_def_id": "organization"
+        }
+      },
+      "contact_fields": {
+        "contact_email": "help@armstrong.courses",
+        "phone_number": "+20 15 55338637"
+      },
+      "growth_prediction": [],
+      "sub_organizations_summary": {
+        "identifier": {
+          "uuid": "5554fd65-5f2a-4194-81ad-744b06073031",
+          "value": "Armstrong",
+          "image_id": "e3be36c79f9146309b52490cc498d7d2",
+          "permalink": "armstrong-3031",
+          "entity_def_id": "organization"
+        }
+      },
+      "overview_description": {
+        "description": "Armstrong is an interactive STEM e-learning platform that delivers the most interactive way for education."
+      },
+      "current_employees_featured_order_field": [],
+      "company_about_fields2": {
+        "website": {
+          "value": "https://armstrongedu.com/"
+        },
+        "ipo_status": "private",
+        "num_employees_enum": "c_00051_00100",
+        "last_funding_type": "non_equity_assistance",
+        "location_identifiers": [
+          {
+            "uuid": "f5de654e-be69-318e-90b9-96abc102f5e1",
+            "value": "Cairo",
+            "permalink": "cairo-al-qahirah",
+            "entity_def_id": "location",
+            "location_type": "city"
+          },
+          {
+            "uuid": "73fc0c82-c43d-8035-0da0-6245c0c96245",
+            "value": "Al Qahirah",
+            "permalink": "al-qahirah-egypt",
+            "entity_def_id": "location",
+            "location_type": "region"
+          },
+          {
+            "uuid": "7d6eef02-5784-2dce-08f7-69705f85e35f",
+            "value": "Egypt",
+            "permalink": "egypt",
+            "entity_def_id": "location",
+            "location_type": "country"
+          },
+          {
+            "uuid": "5b194c3b-3018-b47d-f611-ab142cdfd74c",
+            "value": "Africa",
+            "permalink": "africa",
+            "entity_def_id": "location",
+            "location_type": "continent"
+          }
+        ],
+        "rank_org_company": 190886
+      },
+      "sub_organizations_image_list": [],
+      "frequently_asked_questions_headquarters_location": {
+        "identifier": {
+          "uuid": "5554fd65-5f2a-4194-81ad-744b06073031",
+          "value": "Armstrong",
+          "image_id": "e3be36c79f9146309b52490cc498d7d2",
+          "permalink": "armstrong-3031",
+          "entity_def_id": "organization"
+        },
+        "location_identifiers": [
+          {
+            "uuid": "f5de654e-be69-318e-90b9-96abc102f5e1",
+            "value": "Cairo",
+            "permalink": "cairo-al-qahirah",
+            "entity_def_id": "location",
+            "location_type": "city"
+          },
+          {
+            "uuid": "73fc0c82-c43d-8035-0da0-6245c0c96245",
+            "value": "Al Qahirah",
+            "permalink": "al-qahirah-egypt",
+            "entity_def_id": "location",
+            "location_type": "region"
+          },
+          {
+            "uuid": "7d6eef02-5784-2dce-08f7-69705f85e35f",
+            "value": "Egypt",
+            "permalink": "egypt",
+            "entity_def_id": "location",
+            "location_type": "country"
+          },
+          {
+            "uuid": "5b194c3b-3018-b47d-f611-ab142cdfd74c",
+            "value": "Africa",
+            "permalink": "africa",
+            "entity_def_id": "location",
+            "location_type": "continent"
+          }
+        ]
+      },
+      "investors_headline": {
+        "num_investors": 1,
+        "num_lead_investors": 1
+      },
+      "ipo_summary": {
+        "identifier": {
+          "uuid": "5554fd65-5f2a-4194-81ad-744b06073031",
+          "value": "Armstrong",
+          "image_id": "e3be36c79f9146309b52490cc498d7d2",
+          "permalink": "armstrong-3031",
+          "entity_def_id": "organization"
+        }
+      },
+      "ipqwery_summary": {
+        "identifier": {
+          "uuid": "5554fd65-5f2a-4194-81ad-744b06073031",
+          "value": "Armstrong",
+          "image_id": "e3be36c79f9146309b52490cc498d7d2",
+          "permalink": "armstrong-3031",
+          "entity_def_id": "organization"
+        }
+      },
+      "awards": [
+        {
+          "press_references": [
+            {
+              "uuid": "044ee6a5-11ca-4c22-8ffe-2f690898fb4e",
+              "value": "New High in Protein Marble Cheddar from Armstrong Cheese Earns 2026 Product of the Year Award",
+              "posted_on": "2026-02-12",
+              "publisher": "Canada NewsWire",
+              "source_url": "https://www.newswire.ca/news-releases/new-high-in-protein-marble-cheddar-from-armstrong-cheese-earns-2026-product-of-the-year-award-876654428.html",
+              "entity_def_id": "press_reference"
+            }
+          ],
+          "identifier": {
+            "uuid": "5420677d-b874-4fd8-9fc0-b25647fb5206",
+            "value": "2026 Product of the Year - Cheese Category",
+            "entity_def_id": "award"
+          },
+          "created_at": "2026-02-12T18:14:51Z",
+          "updated_at": "2026-02-12T18:14:51Z",
+          "description": "Armstrong Cheese's new High in Protein Marble Cheddar Cheese was named 2026 Product of the Year in the Cheese Category by Kantar based on a national consumer survey.",
+          "key_event_date": "2026-02-12"
+        },
+        {
+          "press_references": [
+            {
+              "uuid": "856d637a-c4de-4deb-af1a-a3fa171a8c59",
+              "value": "OnePoint BFG Welcomes Armstrong & Sinoff Financial, Deepening Its Planning-Led Model for Complex Client Needs",
+              "posted_on": "2026-04-13",
+              "publisher": "Morningstar.com",
+              "source_url": "https://www.morningstar.com/news/business-wire/20260413608797/onepoint-bfg-welcomes-armstrong-sinoff-financial-deepening-its-planning-led-model-for-complex-client-needs",
+              "entity_def_id": "press_reference",
+              "thumbnail_url": "https://cts.businesswire.com/ct/CT?id=bwnews&sty=20260413608797r1&sid=mstr3&distro=nx&lang=en"
+            }
+          ],
+          "identifier": {
+            "uuid": "17990515-3f20-4988-ac8f-211cfe1ea31e",
+            "value": "Forbes Best-In-State Wealth Management Teams",
+            "entity_def_id": "award"
+          },
+          "created_at": "2026-04-13T15:09:04Z",
+          "updated_at": "2026-04-13T15:09:04Z",
+          "description": "Armstrong & Sinoff Financial was named to the Forbes Best-In-State Wealth Management Teams list in both 2025 and 2026, recognizing its high-touch, integrated approach to financial planning for clients.",
+          "key_event_date": "2025-01-01"
+        }
+      ],
+      "siftery_product_list": [],
+      "competitors_list": [
+        {
+          "target_num_contacts": 89,
+          "identifier": {
+            "uuid": "06edb4d6-3186-4c24-aad8-b59a45036d43",
+            "value": "Armstrong competes with Brilliant.org",
+            "entity_def_id": "org_similarity"
+          },
+          "featured_category_overlap": [
+            {
+              "uuid": "30d1db8e-3150-4298-9b42-f703ef025b13",
+              "value": "Programming Courses",
+              "permalink": "programming-courses",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "63451510-fd65-4384-b7c0-27e42a013687",
+              "value": "E-Learning Content Development",
+              "permalink": "e-learning-content-development",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "c1826ff0-b990-4caa-b35b-89990a28e1bc",
+              "value": "STEAM Education",
+              "permalink": "steam-education-e1bc",
+              "entity_def_id": "micro_category"
+            }
+          ],
+          "score": 100,
+          "target_locations": [
+            {
+              "uuid": "528f5e3c-90d1-1111-5d1c-2e4ff979d58e",
+              "value": "San Francisco",
+              "permalink": "san-francisco-california",
+              "entity_def_id": "location",
+              "location_type": "city"
+            },
+            {
+              "uuid": "eb879a83-c91a-121e-0bb8-829782dbcf04",
+              "value": "California",
+              "permalink": "california-united-states",
+              "entity_def_id": "location",
+              "location_type": "region"
+            },
+            {
+              "uuid": "f110fca2-1055-99f6-996d-011c198b3928",
+              "value": "United States",
+              "permalink": "united-states",
+              "entity_def_id": "location",
+              "location_type": "country"
+            },
+            {
+              "uuid": "b25caef9-a1b8-3a5d-6232-93b2dfb6a1d1",
+              "value": "North America",
+              "permalink": "north-america",
+              "entity_def_id": "location",
+              "location_type": "continent"
+            }
+          ],
+          "target_short_description": "Brilliant delivers digital interactive STEM learning experiences to students, professionals, and lifelong learners around the world.",
+          "target_categories": [
+            {
+              "uuid": "025caab7-3e54-98f0-061c-73e7af159cd1",
+              "value": "Education",
+              "image_id": "c67889dbff324d9f841fd6d5ad35a4a2",
+              "permalink": "education",
+              "entity_def_id": "category"
+            },
+            {
+              "uuid": "e89057d0-4221-b6cd-8a26-dc846f371d56",
+              "value": "E-Learning",
+              "image_id": "be98ca56e38b4155820d89123ffc9022",
+              "permalink": "e-learning",
+              "entity_def_id": "category"
+            },
+            {
+              "uuid": "2772a539-e636-09dc-30dc-b1a7deb98d0e",
+              "value": "Internet",
+              "image_id": "920e060f0da2433f86a0848520dad911",
+              "permalink": "internet",
+              "entity_def_id": "category"
+            },
+            {
+              "uuid": "e8804a82-8603-d2e1-c3b5-d241dd8030b9",
+              "value": "Tutoring",
+              "image_id": "a764822c84944acdaa2f563279c4da3c",
+              "permalink": "tutoring",
+              "entity_def_id": "category"
+            }
+          ],
+          "target_location_groups": [
+            {
+              "uuid": "f79bcf34-5d9e-4a01-837e-f6012edd056c",
+              "value": "San Francisco Bay Area",
+              "permalink": "san-francisco-bay-area-california",
+              "entity_def_id": "location",
+              "location_type": "group"
+            },
+            {
+              "uuid": "cf97b169-46c9-493f-a20f-3fe590824934",
+              "value": "West Coast",
+              "permalink": "west-coast-united-states",
+              "entity_def_id": "location",
+              "location_type": "group"
+            },
+            {
+              "uuid": "f37257c7-3745-42a1-8e07-b7db80a362ac",
+              "value": "Western US",
+              "permalink": "western-united-states",
+              "entity_def_id": "location",
+              "location_type": "group"
+            }
+          ],
+          "target": {
+            "uuid": "bb0e8d70-1444-e1be-bfee-f9e3d09f093d",
+            "value": "Brilliant.org",
+            "image_id": "v1397188105/5e74dd8f1825ba19e0c34d7c9de960b3.png",
+            "permalink": "brilliant-org",
+            "entity_def_id": "organization"
+          },
+          "target_revenue_range": "r_00000000",
+          "micro_category_overlap": [
+            {
+              "uuid": "30d1db8e-3150-4298-9b42-f703ef025b13",
+              "value": "Programming Courses",
+              "permalink": "programming-courses",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "63451510-fd65-4384-b7c0-27e42a013687",
+              "value": "E-Learning Content Development",
+              "permalink": "e-learning-content-development",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "c1826ff0-b990-4caa-b35b-89990a28e1bc",
+              "value": "STEAM Education",
+              "permalink": "steam-education-e1bc",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "d0da4480-0bf1-47fd-b91a-ab4c5af40ce0",
+              "value": "Coding Education",
+              "permalink": "coding-education",
+              "entity_def_id": "micro_category"
+            },
+            {
+              "uuid": "e444035f-6825-4779-b78d-87afbf55e4d5",
+              "value": "Learning Analytics and Training Evaluation",
+              "permalink": "learning-analytics-and-training-evaluation",
+              "entity_def_id": "micro_category"
+            }
+          ],
+          "target_num_employees_enum": "c_00101_00250"
+        },
+        {
+          "identifier": {
+            "uuid": "6ce096e0-a110-415e-9f87-5e9b79514632",
+            "value": "Armstrong competes with Poly Notes hub",
+            "entity_def_id": "org_similarity"
+          },
+          "score": 92.364,
+          "target_locations": [
+            {
+              "uuid": "e0c0852a-6ecf-c824-a029-6da930150222",
+              "value": "Maliara",
+              "permalink": "maliara-west-bengal",
+              "entity_def_id": "location",
+              "location_type": "city"
+            },
+            {
+              "uuid": "6d7ba680-2cc3-4fa7-e205-71c781a5a14b",
+              "value": "West Bengal",
+              "permalink": "west-bengal-india",
+              "entity_def_id": "location",
+              "location_type": "region"
+            },
+            {
+              "uuid": "44048bf7-db64-0d7a-db20-fd3c1ebf47b0",
+              "value": "India",
+              "permalink": "india",
+              "entity_def_id": "location",
+              "location_type": "country"
+            },
+            {
+              "uuid": "b41404d2-8ecc-caf5-1268-8fdd3afe73ee",
+              "value": "Asia",
+              "permalink": "asia",
+              "entity_def_id": "location",
+              "location_type": "continent"
+            }
+          ],
+          "target_short_description": "Diploma and Degree Engineering Notes Website.",
+          "target_categories": [
+            {
+              "uuid": "025caab7-3e54-98f0-061c-73e7af159cd1",
+              "value": "Education",
+              "image_id": "c67889dbff324d9f841fd6d5ad35a4a2",
+              "permalink": "education",
+              "entity_def_id": "category"
+            },
+            {
+              "uuid": "6dab555a-c4f3-dc69-4250-e1e530475197",
+              "value": "STEM Education",
+              "image_id": "9aff2085ecde4df1a528233ff9467535",
+              "permalink": "stem-education",
+              "entity_def_id": "category"
+            }
+          ],
+          "target_location_groups": [
+            {
+              "uuid": "2d80faa6-8493-4565-887f-f18b0b9f7d03",
+              "value": "Asia-Pacific (APAC)",
+              "permalink": "asia-pacific",
+              "entity_def_id": "location",
+              "location_type": "group"
+            }
+          ],
+          "target": {
+            "uuid": "135c66d7-357c-4431-91d4-312e6c39317f",
+            "value": "Poly Notes hub",
+            "image_id": "dd26d13477a148d5bcb933e9253539fb",
+            "permalink": "poly-notes-hub",
+            "entity_def_id": "organization"
+          },
+          "target_num_employees_enum": "c_00001_00010"
+        },
+        {
+          "identifier": {
+            "uuid": "8c5ad2ed-9856-4174-a188-6485c205591a",
+            "value": "Armstrong competes with RoboCraft",
+            "entity_def_id": "org_similarity"
+          },
+          "featured_category_overlap": [
+            {
+              "uuid": "9d180f50-28dc-4963-9ed9-f4a438655b8f",
+              "value": "Embedded Development Boards and Modules",
+              "permalink": "embedded-development-boards-and-modules",
+              "entity_def_id": "micro_category"
+            }
+          ],
+          "score": 87.807,
+          "target_short_description": "R&D in robotics, computer vision, AI, ML.",
+          "target_categories": [
+            {
+              "uuid": "c4d8caf3-5fe7-359b-f9f2-2d708378e4ee",
+              "value": "Artificial Intelligence (AI)",
+              "image_id": "930c72a5a7b544999596ac1c0dc8b549",
+              "permalink": "artificial-intelligence",
+              "entity_def_id": "category"
+            },
+            {
+              "uuid": "a69e7c2b-5a12-d999-e85e-a0da5f05b3d3",
+              "value": "Computer Vision",
+              "image_id": "21e6f0e137444bdd8bc26833b0eb3c40",
+              "permalink": "computer-vision",
+              "entity_def_id": "category"
+            },
+            {
+              "uuid": "5ea0cdb7-c9a6-47fc-50f8-c9b0fac04863",
+              "value": "Machine Learning",
+              "image_id": "e83f580a280f48f39d789180bce8c2d9",
+              "permalink": "machine-learning",
+              "entity_def_id": "category"
+            },
+            {
+              "uuid": "421943ef-50ae-c811-470e-c66a0323cf0d",
+              "value": "Robotics",
+              "image_id": "5a6dd6f7b5d2486fae705f1de137ce80",
+              "permalink": "robotics",
+              "entity_def_id": "category"
+            }
+          ],
+          "target": {
+            "uuid": "3ed3c920-345f-4939-808d-b23784292a3f",
+            "value": "RoboCraft",
+            "image_id": "ngqemqd3jxiezeixeqcx",
+            "permalink": "robocraft-2a3f",
+            "entity_def_id": "organization"
+          },
+          "micro_category_overlap": [
+            {
+              "uuid": "9d180f50-28dc-4963-9ed9-f4a438655b8f",
+              "value": "Embedded Development Boards and Modules",
+              "permalink": "embedded-development-boards-and-modules",
+              "entity_def_id": "micro_category"
+            }
+          ],
+          "target_num_employees_enum": "c_00001_00010"
+        }
+      ],
+      "growth_knowledge": {
+        "lookup": [
+          {
+            "press_references": [
+              {
+                "uuid": "171effaf-47d6-4310-83a1-dcdb56cb10d5",
+                "value": "Armstrong Milling Acquires Ontario-Based Essex Topcrop Sales Ltd",
+                "posted_on": "2026-02-12",
+                "publisher": "Pet Age",
+                "source_url": "https://www.petage.com/armstrong-milling-acquires-ontario-based-essex-topcrop-sales-ltd/",
+                "entity_def_id": "press_reference"
+              },
+              {
+                "uuid": "cc43d0fe-32f6-47ab-ab15-ae90d2c4e9a1",
+                "value": "Armstrong cuts deal to acquire MCTV",
+                "posted_on": "2026-02-17",
+                "publisher": "lightreading",
+                "source_url": "https://www.lightreading.com/cable-technology/armstrong-cuts-deal-to-acquire-mctv",
+                "entity_def_id": "press_reference"
+              },
+              {
+                "uuid": "87509504-fa85-4f5b-932a-59caed4266e5",
+                "value": "Armstrong Group moves to acquire Ohio-based telecommunications firm MCTV",
+                "posted_on": "2026-02-18",
+                "publisher": "Bizjournals.com Feed (2025-11-12 15:43:17)",
+                "source_url": "https://www.bizjournals.com/pittsburgh/news/2026/02/18/armstrong-will-acquire-ohio-based.html?ana=brss_5647",
+                "entity_def_id": "press_reference"
+              }
+            ],
+            "generated_on": "2026-03-08",
+            "identifier": {
+              "uuid": "f187abf2-e021-47c1-bcf8-6fe1a58a40f7",
+              "value": "Growth Insight 2026-03-08",
+              "entity_def_id": "growth_insight"
+            },
+            "mergers_acquisitions": "c200_improving",
+            "customers": "c200_improving"
+          }
+        ],
+        "properties": {
+          "identifier": {
+            "uuid": "5554fd65-5f2a-4194-81ad-744b06073031",
+            "value": "Armstrong",
+            "image_id": "e3be36c79f9146309b52490cc498d7d2",
+            "permalink": "armstrong-3031",
+            "entity_def_id": "organization"
+          },
+          "growth_insight_indicator": "growing"
+        },
+        "preview_properties": {
+          "growth_insight_description": {
+            "is_present": true,
+            "length": 507
+          },
+          "growth_insight_direction": {
+            "is_present": true
+          }
+        },
+        "data": [
+          {
+            "press_references": [
+              {
+                "uuid": "171effaf-47d6-4310-83a1-dcdb56cb10d5",
+                "value": "Armstrong Milling Acquires Ontario-Based Essex Topcrop Sales Ltd",
+                "posted_on": "2026-02-12",
+                "publisher": "Pet Age",
+                "source_url": "https://www.petage.com/armstrong-milling-acquires-ontario-based-essex-topcrop-sales-ltd/",
+                "entity_def_id": "press_reference"
+              },
+              {
+                "uuid": "cc43d0fe-32f6-47ab-ab15-ae90d2c4e9a1",
+                "value": "Armstrong cuts deal to acquire MCTV",
+                "posted_on": "2026-02-17",
+                "publisher": "lightreading",
+                "source_url": "https://www.lightreading.com/cable-technology/armstrong-cuts-deal-to-acquire-mctv",
+                "entity_def_id": "press_reference"
+              },
+              {
+                "uuid": "87509504-fa85-4f5b-932a-59caed4266e5",
+                "value": "Armstrong Group moves to acquire Ohio-based telecommunications firm MCTV",
+                "posted_on": "2026-02-18",
+                "publisher": "Bizjournals.com Feed (2025-11-12 15:43:17)",
+                "source_url": "https://www.bizjournals.com/pittsburgh/news/2026/02/18/armstrong-will-acquire-ohio-based.html?ana=brss_5647",
+                "entity_def_id": "press_reference"
+              }
+            ],
+            "generated_on": "2026-03-08",
+            "identifier": {
+              "uuid": "f187abf2-e021-47c1-bcf8-6fe1a58a40f7",
+              "value": "Growth Insight 2026-03-08",
+              "entity_def_id": "growth_insight"
+            },
+            "mergers_acquisitions": "c200_improving",
+            "customers": "c200_improving"
+          }
+        ]
+      },
+      "overview_fields_extended": {
+        "location_group_identifiers": [
+          {
+            "uuid": "4e8be435-c63a-4aff-8a2f-44a880d9c341",
+            "value": "Europe, Middle East, and Africa (EMEA)",
+            "permalink": "europe-middle-east-africa-emea",
+            "entity_def_id": "location",
+            "location_type": "group"
+          },
+          {
+            "uuid": "e0272206-3430-48cb-a5bc-1d4b3eafe15a",
+            "value": "Middle East",
+            "permalink": "middle-east",
+            "entity_def_id": "location",
+            "location_type": "group"
+          },
+          {
+            "uuid": "8cb7cad4-b7e4-4b28-a496-2ede3720cb19",
+            "value": "Middle East and North Africa (MENA)",
+            "permalink": "middle-east-and-north-africa-mena",
+            "entity_def_id": "location",
+            "location_type": "group"
+          },
+          {
+            "uuid": "994bd431-46d0-448f-8d24-7b259bda176b",
+            "value": "North Africa",
+            "permalink": "north-africa",
+            "entity_def_id": "location",
+            "location_type": "group"
+          },
+          {
+            "uuid": "4e8be435-c63a-4aff-8a2f-44a880d9c341",
+            "value": "Europe, Middle East, and Africa (EMEA)",
+            "permalink": "europe-middle-east-africa-emea",
+            "entity_def_id": "location",
+            "location_type": "group"
+          }
+        ],
+        "founded_on": {
+          "value": "2022-01-01",
+          "precision": "year"
+        },
+        "operating_status": "active",
+        "last_funding_type": "non_equity_assistance",
+        "legal_name": "Armstrong LLC"
+      },
+      "overview_investor_fields": {},
+      "bombora_attribution": {
+        "bombora_last_updated": "2026-08-23"
+      },
+      "semrush_location_list": [
+        {
+          "identifier": {
+            "uuid": "be0dfe35-01e5-476d-b6dc-db809196d556"
+          },
+          "uuid": "be0dfe35-01e5-476d-b6dc-db809196d556",
+          "rank": 1428672,
+          "location_identifiers": [
+            {
+              "uuid": "6085b4bf-b18a-1763-a04e-fdde3f6aba94",
+              "value": "Germany",
+              "permalink": "germany",
+              "entity_def_id": "location"
+            },
+            {
+              "uuid": "6106f5dc-823e-5da8-40d7-51612c0b2c4e",
+              "value": "Europe",
+              "permalink": "europe",
+              "entity_def_id": "location"
+            }
+          ],
+          "visits_pct": 0.453125
+        },
+        {
+          "identifier": {
+            "uuid": "55f7b2bb-b0e3-45c9-89dd-61de3145a2cf"
+          },
+          "visits_mom_pct": -0.608294930875576,
+          "uuid": "55f7b2bb-b0e3-45c9-89dd-61de3145a2cf",
+          "rank": 170603,
+          "rank_mom_pct": 0.497384450646866,
+          "location_identifiers": [
+            {
+              "uuid": "7d6eef02-5784-2dce-08f7-69705f85e35f",
+              "value": "Egypt",
+              "permalink": "egypt",
+              "entity_def_id": "location"
+            },
+            {
+              "uuid": "5b194c3b-3018-b47d-f611-ab142cdfd74c",
+              "value": "Africa",
+              "permalink": "africa",
+              "entity_def_id": "location"
+            }
+          ],
+          "visits_pct": 0.385779122541604
+        },
+        {
+          "identifier": {
+            "uuid": "80d0e5a2-a7dd-4fc5-aa13-732e4864bde9"
+          },
+          "uuid": "80d0e5a2-a7dd-4fc5-aa13-732e4864bde9",
+          "rank": 1114944,
+          "location_identifiers": [
+            {
+              "uuid": "e2781ac6-611b-376a-fc7d-ddec670c3d94",
+              "value": "Japan",
+              "permalink": "japan",
+              "entity_def_id": "location"
+            },
+            {
+              "uuid": "b41404d2-8ecc-caf5-1268-8fdd3afe73ee",
+              "value": "Asia",
+              "permalink": "asia",
+              "entity_def_id": "location"
+            }
+          ],
+          "visits_pct": 0.27231467473525
+        },
+        {
+          "identifier": {
+            "uuid": "86c9541e-41ec-4ec0-81e0-11d2cc171f50"
+          },
+          "uuid": "86c9541e-41ec-4ec0-81e0-11d2cc171f50",
+          "rank": 163255,
+          "location_identifiers": [
+            {
+              "uuid": "2c205931-d55b-569b-0fdf-957f2f062bf3",
+              "value": "Saudi Arabia",
+              "permalink": "saudi-arabia",
+              "entity_def_id": "location"
+            },
+            {
+              "uuid": "b41404d2-8ecc-caf5-1268-8fdd3afe73ee",
+              "value": "Asia",
+              "permalink": "asia",
+              "entity_def_id": "location"
+            }
+          ],
+          "visits_pct": 0.237518910741301
+        },
+        {
+          "identifier": {
+            "uuid": "fd1a195b-5827-4f5f-ae6b-7da900f8c8d4"
+          },
+          "uuid": "fd1a195b-5827-4f5f-ae6b-7da900f8c8d4",
+          "rank": 702207,
+          "location_identifiers": [
+            {
+              "uuid": "4abbf906-6e8c-0c01-e56b-0e41d56bbfca",
+              "value": "Nigeria",
+              "permalink": "nigeria",
+              "entity_def_id": "location"
+            },
+            {
+              "uuid": "5b194c3b-3018-b47d-f611-ab142cdfd74c",
+              "value": "Africa",
+              "permalink": "africa",
+              "entity_def_id": "location"
+            }
+          ],
+          "visits_pct": 0.104387291981846
+        }
+      ],
+      "investors_list": [
+        {
+          "is_lead_investor": true,
+          "identifier": {
+            "uuid": "2119962d-e2b7-48a3-a5bc-5a5de73e951a",
+            "value": "Edventures investment in Non Equity Assistance - Armstrong",
+            "permalink": "edventures-6b96-invested-in-armstrong-3031-non-equity-assistance--218b8c37--2119962d",
+            "entity_def_id": "investment"
+          },
+          "funding_round_identifier": {
+            "uuid": "218b8c37-2740-46fb-926b-1826e923290a",
+            "value": "Non Equity Assistance - Armstrong",
+            "image_id": "e3be36c79f9146309b52490cc498d7d2",
+            "permalink": "armstrong-3031-non-equity-assistance--218b8c37",
+            "entity_def_id": "funding_round"
+          },
+          "investor_identifier": {
+            "uuid": "eaf67514-1b18-4cff-84f9-a9ec0cba6b96",
+            "value": "Edventures",
+            "image_id": "gfgqq6uaruhzf29poytv",
+            "permalink": "edventures-6b96",
+            "entity_def_id": "organization"
+          }
+        }
+      ],
+      "siftery_summary": {
+        "identifier": {
+          "uuid": "5554fd65-5f2a-4194-81ad-744b06073031",
+          "value": "Armstrong",
+          "image_id": "e3be36c79f9146309b52490cc498d7d2",
+          "permalink": "armstrong-3031",
+          "entity_def_id": "organization"
+        }
+      },
+      "acquired_by_summary": {
+        "identifier": {
+          "uuid": "5554fd65-5f2a-4194-81ad-744b06073031",
+          "value": "Armstrong",
+          "image_id": "e3be36c79f9146309b52490cc498d7d2",
+          "permalink": "armstrong-3031",
+          "entity_def_id": "organization"
+        }
+      },
+      "ipo_fields": {},
+      "apptopia_app_overview_list_public": [],
+      "apptopia_sdk_list": [],
+      "trading_view": {},
+      "current_employees_image_list": [],
+      "frequently_asked_questions_investors": {
+        "identifier": {
+          "uuid": "5554fd65-5f2a-4194-81ad-744b06073031",
+          "value": "Armstrong",
+          "image_id": "e3be36c79f9146309b52490cc498d7d2",
+          "permalink": "armstrong-3031",
+          "entity_def_id": "organization"
+        },
+        "num_investors": 1
+      },
+      "funding_rounds_list": [
+        {
+          "identifier": {
+            "uuid": "218b8c37-2740-46fb-926b-1826e923290a",
+            "value": "Non Equity Assistance - Armstrong",
+            "image_id": "e3be36c79f9146309b52490cc498d7d2",
+            "permalink": "armstrong-3031-non-equity-assistance--218b8c37",
+            "entity_def_id": "funding_round"
+          },
+          "announced_on": "2024-06-06",
+          "money_raised": {
+            "value": 60000,
+            "currency": "USD",
+            "value_usd": 60000
+          },
+          "num_investors": 1,
+          "investment_type": "non_equity_assistance",
+          "lead_investor_identifiers": [
+            {
+              "uuid": "eaf67514-1b18-4cff-84f9-a9ec0cba6b96",
+              "value": "Edventures",
+              "image_id": "gfgqq6uaruhzf29poytv",
+              "permalink": "edventures-6b96",
+              "entity_def_id": "organization"
+            }
+          ]
+        }
+      ],
+      "technology_highlights": {
+        "builtwith_num_technologies_used": 43,
+        "semrush_visits_latest_month": 661,
+        "semrush_visits_mom_pct": 0.0153609831029186
+      },
+      "funding_rounds_headline": {
+        "funding_total": {
+          "value": 60000,
+          "currency": "USD",
+          "value_usd": 60000
+        },
+        "num_funding_rounds": 1
+      },
+      "investments_list": [],
+      "exits_image_list": [],
+      "funds_headline": {},
+      "people_highlights": {
+        "num_contacts": 3
+      },
+      "semrush_attribution": {
+        "semrush_last_updated": "2026-08-24"
+      },
+      "frequently_asked_questions_similar_companies": {
+        "identifier": {
+          "uuid": "5554fd65-5f2a-4194-81ad-744b06073031",
+          "value": "Armstrong",
+          "image_id": "e3be36c79f9146309b52490cc498d7d2",
+          "permalink": "armstrong-3031",
+          "entity_def_id": "organization"
+        }
+      },
+      "semrush_overview": {
+        "semrush_visit_duration_mom_pct": 10.1555555555556,
+        "semrush_visit_pageview_mom_pct": 0.290342392138799,
+        "semrush_visit_pageviews": 1.6808,
+        "semrush_bounce_rate": 0.7201,
+        "semrush_visit_duration": 502,
+        "semrush_bounce_rate_mom_pct": -0.22893243387943
+      },
+      "org_category_ranks": {},
+      "current_valuation": [],
+      "legal_proceedings": [],
+      "current_employees_summary": {
+        "identifier": {
+          "uuid": "5554fd65-5f2a-4194-81ad-744b06073031",
+          "value": "Armstrong",
+          "image_id": "e3be36c79f9146309b52490cc498d7d2",
+          "permalink": "armstrong-3031",
+          "entity_def_id": "organization"
+        }
+      },
+      "aberdeen_summary": {
+        "identifier": {
+          "uuid": "5554fd65-5f2a-4194-81ad-744b06073031",
+          "value": "Armstrong",
+          "image_id": "e3be36c79f9146309b52490cc498d7d2",
+          "permalink": "armstrong-3031",
+          "entity_def_id": "organization"
+        }
+      },
+      "offices": [],
+      "overview_timeline": {
+        "count": 14,
+        "entities": [
+          {
+            "uuid": "856d637a-c4de-4deb-af1a-a3fa171a8c59",
+            "properties": {
+              "identifier": {
+                "uuid": "856d637a-c4de-4deb-af1a-a3fa171a8c59",
+                "value": "OnePoint BFG Welcomes Armstrong & Sinoff Financial, Deepening Its Planning-Led Model for Complex Client Needs",
+                "entity_def_id": "press_reference"
+              },
+              "entity_def_id": "press_reference",
+              "activity_entities": [
+                {
+                  "uuid": "5554fd65-5f2a-4194-81ad-744b06073031",
+                  "value": "Armstrong",
+                  "image_id": "e3be36c79f9146309b52490cc498d7d2",
+                  "permalink": "armstrong-3031",
+                  "entity_def_id": "organization"
+                }
+              ],
+              "activity_properties": {
+                "url": {
+                  "value": "https://www.morningstar.com/news/business-wire/20260413608797/onepoint-bfg-welcomes-armstrong-sinoff-financial-deepening-its-planning-led-model-for-complex-client-needs"
+                },
+                "title": "OnePoint BFG Welcomes Armstrong & Sinoff Financial, Deepening Its Planning-Led Model for Complex Client Needs",
+                "publisher": "Morningstar.com",
+                "thumbnail_url": "https://cts.businesswire.com/ct/CT?id=bwnews&sty=20260413608797r1&sid=mstr3&distro=nx&lang=en"
+              },
+              "activity_date": "2026-04-13"
+            }
+          },
+          {
+            "uuid": "92b6c321-3c9a-4e37-ac5c-38526cde960a",
+            "properties": {
+              "identifier": {
+                "uuid": "92b6c321-3c9a-4e37-ac5c-38526cde960a",
+                "value": "OnePoint snags another Northwestern Mutual breakaway, eyes Orlando as regional hub",
+                "entity_def_id": "press_reference"
+              },
+              "entity_def_id": "press_reference",
+              "activity_entities": [
+                {
+                  "uuid": "5554fd65-5f2a-4194-81ad-744b06073031",
+                  "value": "Armstrong",
+                  "image_id": "e3be36c79f9146309b52490cc498d7d2",
+                  "permalink": "armstrong-3031",
+                  "entity_def_id": "organization"
+                }
+              ],
+              "activity_properties": {
+                "url": {
+                  "value": "https://www.investmentnews.com/ria-news/onepoint-snags-another-northwestern-mutual-breakaway-eyes-orlando-as-regional-hub/266121"
+                },
+                "title": "OnePoint snags another Northwestern Mutual breakaway, eyes Orlando as regional hub",
+                "author": "Andrew Cohen",
+                "publisher": "Investment News",
+                "thumbnail_url": "https://cdn-res.keymedia.com/cdn-cgi/image/w=1374,h=824,f=auto/https://cdn-res.keymedia.com/cms/images/in/andr_639116932042316146.jpg"
+              },
+              "activity_date": "2026-04-13"
+            }
+          },
+          {
+            "uuid": "93df7f4a-3ea7-41d7-bc45-0f5a400a4f04",
+            "properties": {
+              "identifier": {
+                "uuid": "93df7f4a-3ea7-41d7-bc45-0f5a400a4f04",
+                "value": "Armstrong Templok Shows Potential For Thermal Energy Storage With Phase Change Materials",
+                "entity_def_id": "press_reference"
+              },
+              "entity_def_id": "press_reference",
+              "activity_entities": [
+                {
+                  "uuid": "5554fd65-5f2a-4194-81ad-744b06073031",
+                  "value": "Armstrong",
+                  "image_id": "e3be36c79f9146309b52490cc498d7d2",
+                  "permalink": "armstrong-3031",
+                  "entity_def_id": "organization"
+                }
+              ],
+              "activity_properties": {
+                "url": {
+                  "value": "https://cleantechnica.com/2026/03/26/armstrong-templok-shows-potential-for-thermal-energy-storage-with-phase-change-materials/"
+                },
+                "title": "Armstrong Templok Shows Potential For Thermal Energy Storage With Phase Change Materials",
+                "author": "Larry Evans",
+                "publisher": "Clean Technica"
+              },
+              "activity_date": "2026-03-27"
+            }
+          },
+          {
+            "uuid": "ab4f483d-ac9a-4e68-822a-e8598549587d",
+            "properties": {
+              "identifier": {
+                "uuid": "ab4f483d-ac9a-4e68-822a-e8598549587d",
+                "value": "Armstrong World reports Q4 adjusted EPS 1.61 , consensus $1.68",
+                "entity_def_id": "press_reference"
+              },
+              "entity_def_id": "press_reference",
+              "activity_entities": [
+                {
+                  "uuid": "5554fd65-5f2a-4194-81ad-744b06073031",
+                  "value": "Armstrong",
+                  "image_id": "e3be36c79f9146309b52490cc498d7d2",
+                  "permalink": "armstrong-3031",
+                  "entity_def_id": "organization"
+                }
+              ],
+              "activity_properties": {
+                "url": {
+                  "value": "https://pro.thefly.com/AWI"
+                },
+                "title": "Armstrong World reports Q4 adjusted EPS 1.61 , consensus $1.68",
+                "publisher": "legacy.thefly.com"
+              },
+              "activity_date": "2026-02-24"
+            }
+          },
+          {
+            "uuid": "87509504-fa85-4f5b-932a-59caed4266e5",
+            "properties": {
+              "identifier": {
+                "uuid": "87509504-fa85-4f5b-932a-59caed4266e5",
+                "value": "Armstrong Group moves to acquire Ohio-based telecommunications firm MCTV",
+                "entity_def_id": "press_reference"
+              },
+              "entity_def_id": "press_reference",
+              "activity_entities": [
+                {
+                  "uuid": "5554fd65-5f2a-4194-81ad-744b06073031",
+                  "value": "Armstrong",
+                  "image_id": "e3be36c79f9146309b52490cc498d7d2",
+                  "permalink": "armstrong-3031",
+                  "entity_def_id": "organization"
+                }
+              ],
+              "activity_properties": {
+                "url": {
+                  "value": "https://www.bizjournals.com/pittsburgh/news/2026/02/18/armstrong-will-acquire-ohio-based.html?ana=brss_5647"
+                },
+                "title": "Armstrong Group moves to acquire Ohio-based telecommunications firm MCTV",
+                "publisher": "Bizjournals.com Feed (2025-11-12 15:43:17)"
+              },
+              "activity_date": "2026-02-18"
+            }
+          },
+          {
+            "uuid": "cc43d0fe-32f6-47ab-ab15-ae90d2c4e9a1",
+            "properties": {
+              "identifier": {
+                "uuid": "cc43d0fe-32f6-47ab-ab15-ae90d2c4e9a1",
+                "value": "Armstrong cuts deal to acquire MCTV",
+                "entity_def_id": "press_reference"
+              },
+              "entity_def_id": "press_reference",
+              "activity_entities": [
+                {
+                  "uuid": "5554fd65-5f2a-4194-81ad-744b06073031",
+                  "value": "Armstrong",
+                  "image_id": "e3be36c79f9146309b52490cc498d7d2",
+                  "permalink": "armstrong-3031",
+                  "entity_def_id": "organization"
+                }
+              ],
+              "activity_properties": {
+                "url": {
+                  "value": "https://www.lightreading.com/cable-technology/armstrong-cuts-deal-to-acquire-mctv"
+                },
+                "title": "Armstrong cuts deal to acquire MCTV",
+                "publisher": "lightreading"
+              },
+              "activity_date": "2026-02-17"
+            }
+          },
+          {
+            "uuid": "044ee6a5-11ca-4c22-8ffe-2f690898fb4e",
+            "properties": {
+              "identifier": {
+                "uuid": "044ee6a5-11ca-4c22-8ffe-2f690898fb4e",
+                "value": "New High in Protein Marble Cheddar from Armstrong Cheese Earns 2026 Product of the Year Award",
+                "entity_def_id": "press_reference"
+              },
+              "entity_def_id": "press_reference",
+              "activity_entities": [
+                {
+                  "uuid": "5554fd65-5f2a-4194-81ad-744b06073031",
+                  "value": "Armstrong",
+                  "image_id": "e3be36c79f9146309b52490cc498d7d2",
+                  "permalink": "armstrong-3031",
+                  "entity_def_id": "organization"
+                }
+              ],
+              "activity_properties": {
+                "url": {
+                  "value": "https://www.newswire.ca/news-releases/new-high-in-protein-marble-cheddar-from-armstrong-cheese-earns-2026-product-of-the-year-award-876654428.html"
+                },
+                "title": "New High in Protein Marble Cheddar from Armstrong Cheese Earns 2026 Product of the Year Award",
+                "author": "Armstrong Cheese",
+                "publisher": "Canada NewsWire"
+              },
+              "activity_date": "2026-02-12"
+            }
+          },
+          {
+            "uuid": "171effaf-47d6-4310-83a1-dcdb56cb10d5",
+            "properties": {
+              "identifier": {
+                "uuid": "171effaf-47d6-4310-83a1-dcdb56cb10d5",
+                "value": "Armstrong Milling Acquires Ontario-Based Essex Topcrop Sales Ltd",
+                "entity_def_id": "press_reference"
+              },
+              "entity_def_id": "press_reference",
+              "activity_entities": [
+                {
+                  "uuid": "5554fd65-5f2a-4194-81ad-744b06073031",
+                  "value": "Armstrong",
+                  "image_id": "e3be36c79f9146309b52490cc498d7d2",
+                  "permalink": "armstrong-3031",
+                  "entity_def_id": "organization"
+                }
+              ],
+              "activity_properties": {
+                "url": {
+                  "value": "https://www.petage.com/armstrong-milling-acquires-ontario-based-essex-topcrop-sales-ltd/"
+                },
+                "title": "Armstrong Milling Acquires Ontario-Based Essex Topcrop Sales Ltd",
+                "author": "Glenn Polyn",
+                "publisher": "Pet Age"
+              },
+              "activity_date": "2026-02-12"
+            }
+          },
+          {
+            "uuid": "26a8780b-c3fd-438a-b27f-a2869af0eef6",
+            "properties": {
+              "identifier": {
+                "uuid": "26a8780b-c3fd-438a-b27f-a2869af0eef6",
+                "value": "Building materials supplier Armstrong beats Q3 sales estimates, raises guidance",
+                "entity_def_id": "press_reference"
+              },
+              "entity_def_id": "press_reference",
+              "activity_entities": [
+                {
+                  "uuid": "5554fd65-5f2a-4194-81ad-744b06073031",
+                  "value": "Armstrong",
+                  "image_id": "e3be36c79f9146309b52490cc498d7d2",
+                  "permalink": "armstrong-3031",
+                  "entity_def_id": "organization"
+                }
+              ],
+              "activity_properties": {
+                "url": {
+                  "value": "https://www.marketscreener.com/news/building-materials-supplier-armstrong-beats-q3-sales-estimates-raises-guidance-ce7d5ddcd880f324"
+                },
+                "title": "Building materials supplier Armstrong beats Q3 sales estimates, raises guidance",
+                "author": "Reuters",
+                "publisher": "MarketScreener"
+              },
+              "activity_date": "2025-10-28"
+            }
+          },
+          {
+            "uuid": "2d1417b4-5b6d-469d-ae2d-d87f8ce7fba8",
+            "properties": {
+              "identifier": {
+                "uuid": "2d1417b4-5b6d-469d-ae2d-d87f8ce7fba8",
+                "value": "Klaar Lands $5M in Series A Round & Launches in the U.S., Introducing a New Era of HR & Performance Management",
+                "entity_def_id": "press_reference"
+              },
+              "entity_def_id": "press_reference",
+              "activity_entities": [
+                {
+                  "uuid": "5554fd65-5f2a-4194-81ad-744b06073031",
+                  "value": "Armstrong",
+                  "image_id": "e3be36c79f9146309b52490cc498d7d2",
+                  "permalink": "armstrong-3031",
+                  "entity_def_id": "organization"
+                }
+              ],
+              "activity_properties": {
+                "url": {
+                  "value": "https://techrseries.com/hr/klaar-lands-5m-in-series-a-round-launches-in-the-u-s-introducing-a-new-era-of-hr-performance-management/"
+                },
+                "title": "Klaar Lands $5M in Series A Round & Launches in the U.S., Introducing a New Era of HR & Performance Management",
+                "author": "PR Newswire",
+                "publisher": "TecHR",
+                "thumbnail_url": "https://techrseries.com/hr/klaar-lands-5m-in-series-a-round-launches-in-the-u-s-introducing-a-new-era-of-hr-performance-management/"
+              },
+              "activity_date": "2025-09-10"
+            }
+          }
+        ]
+      },
+      "company_financials_highlights": {
+        "funding_total": {
+          "value": 60000,
+          "currency": "USD",
+          "value_usd": 60000
+        },
+        "num_funding_rounds": 1,
+        "num_investors": 1,
+        "num_lead_investors": 1
+      },
+      "overview_company_fields": {},
+      "private_tags_pill_list": [],
+      "acquisitions_headline": {},
+      "builtwith_summary": {
+        "builtwith_num_technologies_used": 43,
+        "identifier": {
+          "uuid": "5554fd65-5f2a-4194-81ad-744b06073031",
+          "value": "Armstrong",
+          "image_id": "e3be36c79f9146309b52490cc498d7d2",
+          "permalink": "armstrong-3031",
+          "entity_def_id": "organization"
+        }
+      },
+      "about_short_description": {
+        "short_description": "Armstrong is an interactive STEM e-learning platform that delivers the most interactive way for education."
+      },
+      "product": [
+        {
+          "identifier": {
+            "uuid": "90007d96-e32a-4fe4-9346-1c561c84c1aa",
+            "value": "Armstrong Online K-12 STEM Learning Platform",
+            "entity_def_id": "product"
+          },
+          "name": "Armstrong Online K-12 STEM Learning Platform",
+          "description": "A bilingual online learning platform for children ages 4–18 offering interactive programming, science, robotics, artificial intelligence, and STEM courses through projects, experiments, quizzes, and guided learning paths."
+        },
+        {
+          "identifier": {
+            "uuid": "b9f6bd75-fc28-413f-b140-5366a7654bf6",
+            "value": "Armstrong School STEM Program",
+            "entity_def_id": "product"
+          },
+          "name": "Armstrong School STEM Program",
+          "description": "A school-delivered K-12 STEM program combining programming and science curricula with STEM lab equipment, teacher training, bilingual learning materials, and AI-powered student progress tracking."
+        }
+      ],
+      "apptopia_app_headline": {}
+    }
+  }
+}

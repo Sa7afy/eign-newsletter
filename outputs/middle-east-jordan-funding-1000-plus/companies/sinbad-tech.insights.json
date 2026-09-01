@@ -1,0 +1,297 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T13:24:52.324Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T13:24:52.322Z",
+    "url": "https://www.crunchbase.com/organization/sinbad-tech"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Sinbad Tech",
+      "shortDescription": "Sinbad Tech is a fintech company that provides artificial intelligence and investment management services.",
+      "website": "https://sindbad.tech/",
+      "foundedYear": 2013,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "11-50",
+      "headquarters": "Riyadh, Ar Riyad, Saudi Arabia",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Artificial Intelligence (AI)",
+        "Financial Services",
+        "FinTech",
+        "Mobile Apps"
+      ],
+      "sectors": [
+        "Apps",
+        "Artificial Intelligence (AI)",
+        "Data and Analytics",
+        "Financial Services",
+        "Mobile",
+        "Science and Engineering",
+        "Software"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "Cloud-based automated trading bots that execute buy and sell orders on stock markets using AI algorithms, operating 24/7 without user intervention.",
+        "name": "Sindbad.Tech Trading Bots"
+      },
+      {
+        "description": "A predictive analytics service using big data to forecast market trends and protect investment capital by signaling market rises and declines weeks in advance.",
+        "name": "Capital Protection Signal"
+      },
+      {
+        "description": "A system that uses 20 years of historical market data to evaluate the performance and accuracy of trading strategies and algorithms.",
+        "name": "Backtesting Platform"
+      },
+      {
+        "description": "Mobile app available on iOS and Android that provides access to trading bots, daily reports, and user interaction with automated trading services.",
+        "name": "Sindbad.Tech Mobile Application"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 4798525,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2025-09-17",
+      "lastFundingType": "Seed",
+      "rounds": [
+        {
+          "announcedDate": "2025-09-17",
+          "amount": {
+            "amount": 4798525,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "AlKhabeer Capital"
+          ],
+          "postMoneyValuation": {
+            "amount": 26282815,
+            "currency": "USD"
+          },
+          "type": "Seed"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "AlKhabeer Capital",
+            "rounds": [
+              "Seed Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 1,
+      "includedUniqueCount": 1,
+      "items": [
+        {
+          "date": "2025-09-17",
+          "title": "Seed Round - Sinbad Tech"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 4798525,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": -1,
+      "growthScore": 88,
+      "heatChange90Days": -7,
+      "heatScore": 68
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 95.28
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 64.98,
+        "timingEstimatePercent": {
+          "within6Months": 99.97,
+          "months6To11": 0,
+          "months12To24": 0,
+          "beyond24Months": 0.03
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 95.62
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 4.6
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Trade Ideas provides idea generation technology and real-time risk management analytics to investors.",
+          "employeeRange": "11-50",
+          "name": "Trade Ideas",
+          "sharedSpecialties": [
+            "Market Data and Economic Calendars",
+            "Execution Management Systems",
+            "Market Data and Research",
+            "Algorithmic Trading and Order Management",
+            "Trading APIs and FIX Tools",
+            "Risk and Margin Management Platforms"
+          ],
+          "similarityScore": 97
+        },
+        {
+          "description": "Tickeron operates as a web-based interactive financial marketplace.",
+          "employeeRange": "11-50",
+          "name": "Tickeron",
+          "sharedCategories": [
+            "Financial Services",
+            "Artificial Intelligence (AI)"
+          ],
+          "sharedSpecialties": [
+            "Market Data and Economic Calendars",
+            "Execution Management Systems",
+            "Market Data and Research",
+            "Robo-Advisory and Automated Investing",
+            "Algorithmic Trading and Order Management",
+            "Trading APIs and FIX Tools"
+          ],
+          "similarityScore": 95
+        },
+        {
+          "description": "EToro is a social trading and investment network that allows users to trade currencies, commodities, indices, crypto assets, and stocks.",
+          "employeeRange": "1,001-5,000",
+          "name": "eToro",
+          "sharedCategories": [
+            "Financial Services",
+            "FinTech"
+          ],
+          "sharedSpecialties": [
+            "Market Data and Economic Calendars",
+            "Market Data and Research",
+            "Robo-Advisory and Automated Investing",
+            "Trading APIs and FIX Tools"
+          ],
+          "similarityScore": 93
+        },
+        {
+          "description": "TrendSpider is software that is used to make technical analysis with scanners, charts, analyses, automation and backtesting services.",
+          "employeeRange": "11-50",
+          "name": "TrendSpider",
+          "similarityScore": 91
+        },
+        {
+          "description": "QuantConnect is a trading platform that provides infrastructure to design and market trading ideas.",
+          "employeeRange": "11-50",
+          "name": "QuantConnect",
+          "sharedCategories": [
+            "FinTech"
+          ],
+          "sharedSpecialties": [
+            "Market Data and Economic Calendars",
+            "Execution Management Systems",
+            "Market Data and Research",
+            "Algorithmic Trading and Order Management",
+            "Trading APIs and FIX Tools",
+            "Risk and Margin Management Platforms"
+          ],
+          "similarityScore": 89
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Seed round raised $4,798,525, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $26,282,815 to $26,282,815, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 88 (-1 over 90 days) and market heat at 68 (-7).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Trade Ideas, Tickeron, eToro.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

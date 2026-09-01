@@ -1,0 +1,224 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T12:19:13.918Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T12:19:13.917Z",
+    "url": "https://www.crunchbase.com/organization/legends-gaming"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Legends Gaming",
+      "shortDescription": "Legends Gaming is a e-gaming marketplace.",
+      "description": "Legends Gaming develops its own e-sports products and sells them directly to its users.",
+      "website": "https://legendsgaming.net/",
+      "foundedYear": 2018,
+      "operatingStatus": "Closed",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "1-10",
+      "headquarters": "Riyadh, Ar Riyad, Saudi Arabia",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Gaming",
+        "Information Services",
+        "Online Games"
+      ],
+      "sectors": [
+        "Gaming",
+        "Information Technology"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 1199663,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2022-01-25",
+      "lastFundingType": "Equity Crowdfunding",
+      "rounds": [
+        {
+          "announcedDate": "2022-01-25",
+          "amount": {
+            "amount": 1199663,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "Scopeer"
+          ],
+          "postMoneyValuation": {
+            "amount": 3465694,
+            "currency": "USD"
+          },
+          "type": "Equity Crowdfunding"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "Scopeer",
+            "rounds": [
+              "Equity Crowdfunding"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 1,
+      "includedUniqueCount": 1,
+      "items": [
+        {
+          "date": "2022-01-25",
+          "title": "Equity Crowdfunding - Legends Gaming"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 1199663,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "heatChange90Days": -21,
+      "heatScore": 16
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2025-09-22",
+        "probabilityPercent": 60.13
+      },
+      "funding": {
+        "generatedDate": "2025-10-11",
+        "probabilityPercent": 30.09,
+        "timingEstimatePercent": {
+          "within6Months": 14.75,
+          "months6To11": 12.57,
+          "months12To24": 19.85,
+          "beyond24Months": 24.92
+        }
+      },
+      "growth": {
+        "generatedDate": "2025-10-11",
+        "probabilityPercent": 80.58
+      },
+      "ipo": {
+        "generatedDate": "2025-09-22",
+        "probabilityPercent": 3.4
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "PlayerAuctions is an online platform for gamers to buy and sell digital assets such as game currency, accounts and power leveling services.",
+          "employeeRange": "51-100",
+          "name": "PlayerAuctions",
+          "sharedCategories": [
+            "Online Games",
+            "Gaming"
+          ],
+          "similarityScore": 91
+        },
+        {
+          "description": "Gameflip is creating the commerce engine for the gaming Metaverse",
+          "employeeRange": "11-50",
+          "name": "Gameflip",
+          "similarityScore": 89
+        },
+        {
+          "description": "G2G is a digital platform that renders marketing solutions for gamers to purchase and sell gaming-related items.",
+          "employeeRange": "51-100",
+          "name": "G2G",
+          "similarityScore": 87
+        },
+        {
+          "description": "Eneba is an online platform that offers a marketplace for digital games across various categories.",
+          "employeeRange": "251-500",
+          "name": "Eneba",
+          "sharedCategories": [
+            "Online Games"
+          ],
+          "similarityScore": 85
+        },
+        {
+          "description": "LootBar operates a global game trading platform for discounted game top-ups, game currency, items, and digital app credits.",
+          "name": "LootBar",
+          "similarityScore": 81
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Equity Crowdfunding round raised $1,199,663, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $3,465,694 to $3,465,694, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include PlayerAuctions, Gameflip, G2G.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

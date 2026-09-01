@@ -1,0 +1,559 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T11:44:20.384Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T11:44:20.381Z",
+    "url": "https://www.crunchbase.com/organization/flare-networks-417a"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Flare Network",
+      "shortDescription": "Flare is a powerful new layer 1 blockchain built for secure decentralized connectivity with other chains and real world data sources.",
+      "description": "Flare is a powerful new blockchain with the first consensus protocol for external data. Decentralized applications on Flare can therefore trustlessly acquire and use information from other blockchains and real world data sources, solving the oracle problem and opening the door to a new era of utility.\n\n> Fast, decentralized and fully-insured bridges can connect smart contract chains multilaterally, unifying rather than fragmenting liquidity.\n\n> Non-smart contract assets such as BTC, XRP and DOGE can be brought on to Flare, and put to work earning yield in DeFi.\n\n> Full cross-chain composability enables decentralized applications to use the value, liquidity and information of multiple blockchains via a single deployment on Flare.\n\n> Seamless decentralized integration with Web2 data powers trustless use of real world data sources in Web3 dapps.",
+      "website": "https://flare.network/",
+      "foundedYear": 2019,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "51-100",
+      "estimatedRevenueRange": "$1M-$10M",
+      "headquarters": "Dubai, United Arab Emirates",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Blockchain",
+        "Web3"
+      ],
+      "sectors": [
+        "Blockchain and Cryptocurrency",
+        "Internet Services"
+      ],
+      "founders": [
+        "Hugo Philion",
+        "Naïri Usher",
+        "Sean Rowan"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "An EVM-compatible Layer 1 blockchain for decentralized applications that require on-chain access to external blockchain events, price data, and real-world APIs.",
+        "name": "Flare Network"
+      },
+      {
+        "description": "A blockchain-integrated data attestation service that enables decentralized applications to verify events from external blockchains and real-world APIs.",
+        "name": "Flare Data Connector"
+      },
+      {
+        "description": "A decentralized oracle that supplies blockchain applications with regularly updated price feeds through data providers and Flare smart contracts.",
+        "name": "Flare Time Series Oracle"
+      },
+      {
+        "description": "A Flare protocol for representing and using assets from external blockchain networks in Flare-based applications, including use cases associated with XRP, Bitcoin, and Dogecoin.",
+        "name": "FAssets"
+      },
+      {
+        "description": "A participation service for organizations that validate Flare blocks and provide data to the network’s enshrined protocols in exchange for FLR rewards and applicable fees.",
+        "name": "Flare Infrastructure Provider Program"
+      },
+      {
+        "description": "A web-based interface for interacting with Flare accounts, including FLR wrapping, rewards claims, delegation, staking, and governance participation.",
+        "name": "Flare Portal"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 46300000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 4,
+      "detailedRoundCount": 4,
+      "lastFundingDate": "2024-02-23",
+      "lastFundingType": "Venture round",
+      "rounds": [
+        {
+          "announcedDate": "2024-02-23",
+          "amount": {
+            "amount": 35000000,
+            "currency": "USD"
+          },
+          "investorCount": 2,
+          "postMoneyValuation": {
+            "amount": 248270914,
+            "currency": "USD"
+          },
+          "type": "Venture round"
+        },
+        {
+          "announcedDate": "2021-06-08",
+          "amount": {
+            "amount": 11300000,
+            "currency": "USD"
+          },
+          "investorCount": 19,
+          "leadInvestors": [
+            "Kenetic"
+          ],
+          "postMoneyValuation": {
+            "amount": 65808348,
+            "currency": "USD"
+          },
+          "type": "Seed"
+        },
+        {
+          "announcedDate": "2020-11-10",
+          "investorCount": 1,
+          "leadInvestors": [
+            "Syntax Capital"
+          ],
+          "postMoneyValuation": {
+            "amount": 11797208,
+            "currency": "USD"
+          },
+          "type": "Seed"
+        },
+        {
+          "announcedDate": "2019-11-06",
+          "investorCount": 1,
+          "leadInvestors": [
+            "Xpring"
+          ],
+          "postMoneyValuation": {
+            "amount": 4630304,
+            "currency": "USD"
+          },
+          "type": "Seed"
+        }
+      ],
+      "investors": {
+        "reportedCount": 21,
+        "visibleNames": [
+          {
+            "name": "Backend Capital"
+          },
+          {
+            "name": "Borderless Capital"
+          },
+          {
+            "name": "Charlie Lee",
+            "rounds": [
+              "Seed Round"
+            ]
+          },
+          {
+            "name": "CoinFund",
+            "rounds": [
+              "Seed Round"
+            ]
+          },
+          {
+            "name": "Digital Currency Group"
+          },
+          {
+            "name": "Do Kwon",
+            "rounds": [
+              "Seed Round"
+            ]
+          },
+          {
+            "name": "Gate Labs",
+            "rounds": [
+              "Seed Round"
+            ]
+          },
+          {
+            "name": "Genesis Capital",
+            "rounds": [
+              "Seed Round"
+            ]
+          },
+          {
+            "name": "Kenetic",
+            "rounds": [
+              "Venture round"
+            ]
+          },
+          {
+            "name": "LD Capital",
+            "rounds": [
+              "Seed Round"
+            ]
+          },
+          {
+            "name": "New Form Capital"
+          },
+          {
+            "name": "Syntax Capital",
+            "rounds": [
+              "Venture round"
+            ]
+          },
+          {
+            "name": "Wave Digital Assets",
+            "rounds": [
+              "Seed Round"
+            ]
+          },
+          {
+            "name": "ZB.COM",
+            "rounds": [
+              "Seed Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 142,
+      "includedUniqueCount": 10,
+      "items": [
+        {
+          "date": "2026-07-30",
+          "publisher": "Decrypt",
+          "title": "Fake Flare Network Staking Site Drained $8.5M in XRP: Seoul Police",
+          "url": "https://decrypt.co/374696/fake-flare-network-staking-site-drained-8-5m-in-xrp-seoul-police"
+        },
+        {
+          "date": "2026-06-06",
+          "publisher": "Bitcoin News",
+          "title": "Spectra Rolls $4.88M Into New XRP Yield Market as Flare Keeps Liquidity Intact",
+          "url": "https://news.bitcoin.com/spectra-rolls-4-88m-into-new-xrp-yield-market-as-flare-keeps-liquidity-intact/"
+        },
+        {
+          "date": "2026-05-31",
+          "publisher": "TradingView",
+          "title": "Flare to Offer StXRP Yield Opportunities on Spectra Until June 3",
+          "url": "https://www.tradingview.com/news/coindar:eceb7b087094b:0-flare-to-offer-stxrp-yield-opportunities-on-spectra-until-june-3/"
+        },
+        {
+          "date": "2026-05-06",
+          "publisher": "Benzinga.com",
+          "title": "XRP,ADA Are Breaking Out, But One CEO Is Not Convinced",
+          "url": "https://www.benzinga.com/crypto/cryptocurrency/26/05/52343266/xrpada-are-breaking-out-but-one-ceo-is-not-convinced"
+        },
+        {
+          "date": "2026-03-26",
+          "publisher": "Bitcoin News",
+          "title": "Firelight Hits 50 Million XRP Milestone as DeFi Protection Demand Surges",
+          "url": "https://news.bitcoin.com/firelight-hits-50-million-xrp-milestone-as-defi-protection-demand-surges/"
+        },
+        {
+          "date": "2026-03-23",
+          "publisher": "Bitcoin News",
+          "title": "Phổ biến nhất",
+          "url": "https://news.bitcoin.com/vi/"
+        },
+        {
+          "date": "2026-02-04",
+          "publisher": "Benzinga.com",
+          "title": "XRP Down 18% In A Week: What Is Going On?",
+          "url": "https://www.benzinga.com/crypto/cryptocurrency/26/02/50379661/xrp-down-18-in-a-week-what-is-going-on"
+        },
+        {
+          "date": "2026-01-08",
+          "publisher": "Ventureburn",
+          "title": "Flare Launches First XRP Spot Exposure on Hyperliquid",
+          "url": "https://ventureburn.com/flare-launches-first-xrp-spot-exposure-on-hyperliquid/"
+        },
+        {
+          "date": "2026-01-07",
+          "publisher": "The Block",
+          "title": "The Daily: Ripple confirms no IPO plans, Flare unlocks XRP spot exposure on Hyperliquid, and more",
+          "url": "https://www.theblock.co/post/384689/the-daily-ripple-confirms-no-ipo-plans-flare-unlocks-xrp-spot-exposure-on-hyperliquid-and-more"
+        },
+        {
+          "date": "2026-01-07",
+          "publisher": "TradingView",
+          "title": "The Daily: Ripple confirms no IPO plans, Flare unlocks XRP spot exposure on Hyperliquid, and more",
+          "url": "https://www.tradingview.com/news/the_block:d4eb326e8094b:0-the-daily-ripple-confirms-no-ipo-plans-flare-unlocks-xrp-spot-exposure-on-hyperliquid-and-more/"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 2,
+    "knownDetailedFundingAmount": {
+      "amount": 46300000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 75.59,
+    "latestToEarliestKnownValuationMultiple": 53.62
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "reportedPartnerships": {
+      "note": "Provider event summaries with linked sources; not independently verified.",
+      "items": [
+        {
+          "date": "2026-06-06",
+          "description": "Flare, IoTrust, Squid Router, Doppler, and Banxa have formed the XRP Alliance, a collaborative initiative running a retail onboarding campaign that lets users deposit directly into the MXRPY XRP yield vault via D’CENT hardware wallets with gasless transactions and a shared $40,000 reward pool.",
+          "sources": [
+            {
+              "date": "2026-06-06",
+              "publisher": "Bitcoin News",
+              "title": "Spectra Rolls $4.88M Into New XRP Yield Market as Flare Keeps Liquidity Intact",
+              "url": "https://news.bitcoin.com/spectra-rolls-4-88m-into-new-xrp-yield-market-as-flare-keeps-liquidity-intact/"
+            }
+          ]
+        },
+        {
+          "date": "2026-03-23",
+          "description": "Flare Network and Xaman have formed a partnership to expand DeFi access for XRP holders via the XRPFi offering.",
+          "sources": [
+            {
+              "date": "2026-03-23",
+              "publisher": "Bitcoin News",
+              "title": "Phổ biến nhất",
+              "url": "https://news.bitcoin.com/vi/"
+            }
+          ]
+        },
+        {
+          "date": "2026-02-04",
+          "description": "Flare Network announced a new integration partnership with Morpho to provide a modular lending and borrowing framework for XRP and related assets, expanding DeFi utility for FXRP holders.",
+          "sources": [
+            {
+              "date": "2026-02-04",
+              "publisher": "Benzinga.com",
+              "title": "XRP Down 18% In A Week: What Is Going On?",
+              "url": "https://www.benzinga.com/crypto/cryptocurrency/26/02/50379661/xrp-down-18-in-a-week-what-is-going-on"
+            }
+          ]
+        },
+        {
+          "date": "2025-12-26",
+          "description": "Flare Network partnered with Upshift and Clearstar to launch earnXRP, an on-chain XRP yield vault product for XRP holders.",
+          "sources": [
+            {
+              "date": "2025-12-26",
+              "publisher": "TradingView",
+              "title": "Flare Launches New Way For XRP Investors To Earn",
+              "url": "https://www.tradingview.com/news/newsbtc:0c8d2812d094b:0-flare-launches-new-way-for-xrp-investors-to-earn/"
+            }
+          ]
+        }
+      ]
+    },
+    "crunchbaseMomentum": {
+      "growthInsightGeneratedDate": "2026-05-17",
+      "growthChange90Days": -11,
+      "growthScore": 84,
+      "heatChange90Days": -10,
+      "heatScore": 60,
+      "status": "Growing"
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 90.22
+      },
+      "funding": {
+        "generatedDate": "2026-05-23",
+        "probabilityPercent": 94.94,
+        "timingEstimatePercent": {
+          "within6Months": 97.3,
+          "months6To11": 0,
+          "months12To24": 0,
+          "beyond24Months": 2.7
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 90.08
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 4.88
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "World Liberty Financial is a decentralized finance protocol offering cryptocurrency solutions and services.",
+          "employeeRange": "11-50",
+          "name": "World Liberty Financial",
+          "sharedCategories": [
+            "Blockchain",
+            "Web3"
+          ],
+          "sharedSpecialties": [
+            "Stablecoin Issuance and Management",
+            "Tokenization Platforms",
+            "Crypto Custody and Wallets",
+            "Cross-Chain Bridges"
+          ],
+          "similarityScore": 100
+        },
+        {
+          "description": "BitGo is a digital asset trust and security company that provides custody, financial services, and core infrastructure for investors.",
+          "employeeRange": "101-250",
+          "name": "BitGo",
+          "sharedCategories": [
+            "Blockchain"
+          ],
+          "sharedSpecialties": [
+            "Staking Services",
+            "Tokenization Platforms",
+            "Crypto Custody and Wallets"
+          ],
+          "similarityScore": 95.483
+        },
+        {
+          "description": "Chainlink is a web3 services platform that connects people, businesses, and data to the blockchain.",
+          "employeeRange": "501-1,000",
+          "name": "Chainlink",
+          "sharedCategories": [
+            "Blockchain",
+            "Web3"
+          ],
+          "sharedSpecialties": [
+            "Market Data and Research",
+            "Stablecoin Issuance and Management",
+            "Tokenization Platforms",
+            "Crypto Custody and Wallets",
+            "Smart Contract Development Frameworks",
+            "Cross-Chain Bridges"
+          ],
+          "similarityScore": 90.748
+        },
+        {
+          "description": "Polygon is a platform for Ethereum scaling and infrastructure development.",
+          "employeeRange": "1-10",
+          "name": "Polygon",
+          "sharedCategories": [
+            "Blockchain",
+            "Web3"
+          ],
+          "sharedSpecialties": [
+            "API Integration",
+            "Staking Services",
+            "Tokenization Platforms",
+            "Smart Contract Development Frameworks",
+            "Cross-Chain Bridges"
+          ],
+          "similarityScore": 86.189
+        },
+        {
+          "description": "Stellar Development Foundation supports the development and growth of Stellar, a blockchain network that connects financial infrastructure.",
+          "employeeRange": "101-250",
+          "name": "Stellar Development Foundation",
+          "sharedCategories": [
+            "Blockchain"
+          ],
+          "sharedSpecialties": [
+            "Stablecoin Issuance and Management",
+            "Smart Contract Development Frameworks"
+          ],
+          "similarityScore": 81.545
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Venture round round raised $35,000,000, or 75.59% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $4,630,304 to $248,270,914, a 53.62x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 84 (-11 over 90 days) and market heat at 60 (-10).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Strategic repositioning and listing coverage shape the current narrative",
+      "statement": "Flare Network has a recent strategic-positioning change; 2 recent unique news titles explicitly contain the English terms IPO or listing.",
+      "implication": "Their timing coincides with increased visibility in the loaded news and Crunchbase momentum signals, but the data does not establish causation.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.company.formerName",
+        "facts.recentNews",
+        "providerSignals.crunchbaseMomentum"
+      ],
+      "caveats": [
+        "The causal link to Crunchbase momentum is an inference from timing, not a disclosed company metric."
+      ]
+    },
+    {
+      "title": "IPO intent and modeled likelihood conflict",
+      "statement": "Recent headline metadata discusses an IPO or listing, while Crunchbase’s model assigns a 4.88% IPO probability.",
+      "implication": "Publicly discussed intent should not be treated as proof of execution; the conflict is a useful diligence flag for verifying filing status, timing, and exchange readiness.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.recentNews",
+        "providerSignals.modelPredictions.ipo"
+      ],
+      "caveats": [
+        "The prediction is an opaque model output and may lag current company plans."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include World Liberty Financial, BitGo, Chainlink.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "issues": [
+      {
+        "severity": "low",
+        "finding": "Crunchbase reports 142 timeline items but exposes 10 unique items in this payload.",
+        "impact": "Recent news is a partial sample, not a complete history."
+      }
+    ],
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

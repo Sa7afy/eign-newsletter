@@ -1,0 +1,202 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T09:07:06.804Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T09:07:06.803Z",
+    "url": "https://www.crunchbase.com/organization/aklabaity"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Aklabaity",
+      "shortDescription": "Aklabaity is a peer to peer dining platform for selling home made food.",
+      "description": "Aklabaity is a peer to peer dining platform for selling home made food.",
+      "website": "https://www.aklabaity.com/",
+      "operatingStatus": "Closed",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "1-10",
+      "headquarters": "Cairo, Al Qahirah, Egypt",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Middle East",
+        "Middle East and North Africa (MENA)",
+        "North Africa"
+      ],
+      "industries": [
+        "E-Commerce",
+        "Food and Beverage",
+        "Internet"
+      ],
+      "sectors": [
+        "Commerce and Shopping",
+        "Food and Beverage",
+        "Information Technology"
+      ],
+      "founders": [
+        "Shereen Ahmed"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 100000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 2,
+      "detailedRoundCount": 2,
+      "lastFundingDate": "2018-10-01",
+      "lastFundingType": "Pre Seed",
+      "rounds": [
+        {
+          "announcedDate": "2018-10-01",
+          "amount": {
+            "amount": 100000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "Savour Ventures"
+          ],
+          "type": "Pre Seed"
+        },
+        {
+          "announcedDate": "2016-09-20",
+          "type": "Non Equity Assistance"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "Savour Ventures",
+            "rounds": [
+              "Pre Seed Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 2,
+      "includedUniqueCount": 2,
+      "items": [
+        {
+          "date": "2018-10-01",
+          "title": "Pre Seed Round - Aklabaity"
+        },
+        {
+          "date": "2016-09-20",
+          "title": "Non Equity Assistance - Aklabaity"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 100000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "heatChange90Days": -8,
+      "heatScore": 61
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Shef is a homemade food marketplace that helps cooks make an income by cooking and selling food to their communities.",
+          "employeeRange": "101-250",
+          "name": "Shef",
+          "sharedCategories": [
+            "Food and Beverage"
+          ],
+          "similarityScore": 97
+        },
+        {
+          "description": "CookUnity is a meal subscription and delivery platform that connects private chefs with consumers.",
+          "employeeRange": "501-1,000",
+          "name": "CookUnity",
+          "sharedCategories": [
+            "Food and Beverage"
+          ],
+          "similarityScore": 95
+        },
+        {
+          "description": "EatWith is a community that invites people to dine in homes, connect with hosts, share stories and enjoy homemade cuisine.",
+          "employeeRange": "11-50",
+          "name": "EatWith",
+          "sharedCategories": [
+            "Food and Beverage"
+          ],
+          "similarityScore": 93
+        },
+        {
+          "description": "Yummy.com develops online solutions to improve life, including delivery in about 30 minutes and pick up in 10.",
+          "employeeRange": "101-250",
+          "name": "Yummy.com",
+          "sharedCategories": [
+            "E-Commerce"
+          ],
+          "similarityScore": 88
+        },
+        {
+          "description": "500chow connects local chefs with customers for homemade meal delivery, operating daily from 8am to 10pm.",
+          "employeeRange": "11-50",
+          "name": "500chow",
+          "sharedCategories": [
+            "Food and Beverage"
+          ],
+          "similarityScore": 87
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Pre Seed round raised $100,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Shef, CookUnity, EatWith.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

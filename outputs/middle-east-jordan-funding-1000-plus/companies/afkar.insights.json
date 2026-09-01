@@ -1,0 +1,285 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T08:59:59.062Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T08:59:59.060Z",
+    "url": "https://www.crunchbase.com/organization/afkar"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Afkarlab",
+      "shortDescription": "Afkarlab is a continuous user research platform that helps product teams gain insights.",
+      "description": "Afkar is a continuous user research platform that helps product teams gain insights.",
+      "website": "https://afkarlab.com/",
+      "foundedYear": 2023,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "1-10",
+      "headquarters": "Riyadh, Ar Riyad, Saudi Arabia",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Information Technology"
+      ],
+      "sectors": [
+        "Information Technology"
+      ],
+      "founders": [
+        "Mohmmed Alwakid"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "A cloud-based platform designed to conduct ongoing user research, enabling product teams to gather insights from real users to improve product experience.",
+        "name": "Afkar Continuous User Research Platform"
+      },
+      {
+        "description": "A service to identify and recruit users matching specific demographic and behavioral criteria for user research and testing.",
+        "name": "User Targeting and Participant Recruitment"
+      },
+      {
+        "description": "A feature to design, deploy, and manage user tests that assess product usability and user experience.",
+        "name": "User Testing and Test Plan Management"
+      },
+      {
+        "description": "An AI-powered toolset for analyzing user feedback, sentiment, and behavior to generate actionable insights and reports.",
+        "name": "AI-Driven Analysis and Reporting"
+      },
+      {
+        "description": "Expert advisory services to assist product teams throughout the user research and product development process.",
+        "name": "Consultation and Product Development Support"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 50000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2023-01-01",
+      "lastFundingType": "Non Equity Assistance",
+      "rounds": [
+        {
+          "announcedDate": "2023-01-01",
+          "amount": {
+            "amount": 50000,
+            "currency": "USD"
+          },
+          "type": "Non Equity Assistance"
+        }
+      ]
+    },
+    "recentNews": {
+      "reportedCount": 1,
+      "includedUniqueCount": 1,
+      "items": [
+        {
+          "date": "2023-01-01",
+          "title": "Non Equity Assistance - Afkarlab"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 50000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": 2,
+      "growthScore": 25,
+      "heatChange90Days": 4,
+      "heatScore": 67
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 68.44
+      },
+      "funding": {
+        "generatedDate": "2025-12-27",
+        "probabilityPercent": 35,
+        "timingEstimatePercent": {
+          "within6Months": 0.08,
+          "months6To11": 0,
+          "months12To24": 0,
+          "beyond24Months": 99.92
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 88.99
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 63.07
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "UserTesting is an on-demand human insight platform designed to improve customer insights.",
+          "employeeRange": "501-1,000",
+          "name": "UserTesting",
+          "sharedSpecialties": [
+            "Remote Usability Testing",
+            "Prototype Testing",
+            "Product Analytics",
+            "Survey Platforms",
+            "User Feedback Management",
+            "Participant Recruitment and Panel Management",
+            "Unmoderated Usability Testing",
+            "Product and Concept Testing",
+            "Moderated Usability Testing",
+            "UX Research"
+          ],
+          "similarityScore": 97
+        },
+        {
+          "description": "Maze is the continuous product discovery platform for user-centric teams.",
+          "employeeRange": "101-250",
+          "name": "Maze",
+          "sharedSpecialties": [
+            "Remote Usability Testing",
+            "Prototype Testing",
+            "Product Analytics",
+            "User Feedback Management",
+            "Participant Recruitment and Panel Management",
+            "Unmoderated Usability Testing",
+            "Product and Concept Testing",
+            "Moderated Usability Testing",
+            "UX Research"
+          ],
+          "similarityScore": 95
+        },
+        {
+          "description": "Lyssna is a user research platform that provides moderated, unmoderated testing and recruitment services.",
+          "employeeRange": "11-50",
+          "name": "Lyssna",
+          "sharedCategories": [
+            "Information Technology"
+          ],
+          "sharedSpecialties": [
+            "Remote Usability Testing",
+            "Prototype Testing",
+            "Survey Platforms",
+            "User Feedback Management",
+            "Participant Recruitment and Panel Management",
+            "Unmoderated Usability Testing",
+            "Product and Concept Testing",
+            "Moderated Usability Testing",
+            "Market Research Data Collection",
+            "UX Research"
+          ],
+          "similarityScore": 93
+        },
+        {
+          "description": "Great Question is a customer research platform designed to automate research tasks and gain consumer insights.",
+          "employeeRange": "51-100",
+          "name": "Great Question",
+          "sharedCategories": [
+            "Information Technology"
+          ],
+          "sharedSpecialties": [
+            "Remote Usability Testing",
+            "Prototype Testing",
+            "Survey Platforms",
+            "User Feedback Management",
+            "Participant Recruitment and Panel Management",
+            "Unmoderated Usability Testing",
+            "Product and Concept Testing",
+            "Moderated Usability Testing",
+            "UX Research"
+          ],
+          "similarityScore": 91
+        },
+        {
+          "description": "Sprig is an online platform that provides in-product surveys and usability test power research services with cutting-edge technology.",
+          "employeeRange": "101-250",
+          "name": "Sprig",
+          "sharedSpecialties": [
+            "Remote Usability Testing",
+            "Product Analytics",
+            "Survey Platforms",
+            "User Feedback Management",
+            "Participant Recruitment and Panel Management",
+            "Unmoderated Usability Testing",
+            "Product and Concept Testing",
+            "Moderated Usability Testing",
+            "Market Research Data Collection",
+            "UX Research"
+          ],
+          "similarityScore": 89
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Non Equity Assistance round raised $50,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 25 (+2 over 90 days) and market heat at 67 (+4).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include UserTesting, Maze, Lyssna.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

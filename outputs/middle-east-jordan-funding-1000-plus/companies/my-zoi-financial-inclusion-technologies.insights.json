@@ -1,0 +1,287 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T12:39:06.981Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T12:39:06.979Z",
+    "url": "https://www.crunchbase.com/organization/my-zoi-financial-inclusion-technologies"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "MyZoi",
+      "shortDescription": "MyZoi is a financial company that provide financial inclusion for banked and unbanked firms.",
+      "description": "myZoi is a fintech company focused on financial inclusion for underbanked workers, offering digital payroll solutions, remittances, and financial literacy tools. It enables employers to pay salaries digitally while helping employees access secure wallets, lower-cost money transfers, and better financial management services. The platform is designed to improve access to banking services, reduce transaction costs, and support migrant workers and their families with more transparent, efficient, and accessible financial systems.",
+      "website": "https://www.myzoi.com/",
+      "foundedYear": 2022,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "101-250",
+      "estimatedRevenueRange": "$1M-$10M",
+      "headquarters": "Abu Dhabi, United Arab Emirates",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Consulting",
+        "Finance",
+        "Financial Services"
+      ],
+      "sectors": [
+        "Financial Services",
+        "Professional Services"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "A digital wallet that allows users to store electronic money and perform various financial transactions through the myZoi Mobile App.",
+        "name": "myZoi Digital Wallet"
+      },
+      {
+        "description": "A mobile application designed to run on various mobile operating systems, providing access to myZoi's financial services.",
+        "name": "myZoi Mobile App"
+      },
+      {
+        "description": "A prepaid or debit card issued by myZoi, enabling users to withdraw money from their digital accounts at selected ATMs or make purchases at accepted locations.",
+        "name": "myZoi Debit Card"
+      },
+      {
+        "description": "A service that allows users to transfer money from their myZoi account to a beneficiary.",
+        "name": "Fund Transfer"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 14000000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2023-09-05",
+      "lastFundingType": "Venture round",
+      "rounds": [
+        {
+          "announcedDate": "2023-09-05",
+          "amount": {
+            "amount": 14000000,
+            "currency": "USD"
+          },
+          "investorCount": 2,
+          "leadInvestors": [
+            "SBI Group",
+            "SC Ventures"
+          ],
+          "postMoneyValuation": {
+            "amount": 84895691,
+            "currency": "USD"
+          },
+          "type": "Venture round"
+        }
+      ],
+      "investors": {
+        "reportedCount": 2,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "SBI Group",
+            "rounds": [
+              "Venture round"
+            ]
+          },
+          {
+            "isLead": true,
+            "name": "SC Ventures",
+            "rounds": [
+              "Venture round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 1,
+      "includedUniqueCount": 1,
+      "items": [
+        {
+          "date": "2023-09-05",
+          "title": "Venture Round - MyZoi"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 14000000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": -7,
+      "growthScore": 82,
+      "heatChange90Days": 0,
+      "heatScore": 62
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 95.17
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 12.24,
+        "timingEstimatePercent": {
+          "within6Months": 26.01,
+          "months6To11": 0,
+          "months12To24": 0,
+          "beyond24Months": 73.99
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 95.1
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 7.43
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "AAvance is a fintech platform that promotes financial inclusion with a digital wallet and Visa debit card.",
+          "employeeRange": "1-10",
+          "name": "AAvance",
+          "sharedCategories": [
+            "Financial Services"
+          ],
+          "sharedSpecialties": [
+            "Peer-to-Peer (P2P) Payment Services",
+            "Digital Microfinance",
+            "International Money Transfer"
+          ],
+          "similarityScore": 97
+        },
+        {
+          "description": "PagaPhone SmartPay offers money transfer and remittance collection services between the US and Mexico via the PagaCel Wallet.",
+          "employeeRange": "1-10",
+          "name": "PagaPhone SmartPay",
+          "sharedCategories": [
+            "Financial Services"
+          ],
+          "sharedSpecialties": [
+            "International Money Transfer"
+          ],
+          "similarityScore": 95
+        },
+        {
+          "description": "A mobile digital wallet app for in person, iOS/Android apps or online payments. Allows borderless international & local remittance",
+          "employeeRange": "1-10",
+          "name": "TaybullPay",
+          "sharedSpecialties": [
+            "Peer-to-Peer (P2P) Payment Services",
+            "International Money Transfer"
+          ],
+          "similarityScore": 93
+        },
+        {
+          "description": "Momo specializes in designing and manufacturing custom steering alloy wheels, tuning, and motorsport accessories.",
+          "employeeRange": "11-50",
+          "name": "Momo",
+          "similarityScore": 85
+        },
+        {
+          "description": "Wave Mobile Money provides an app-based financial solution to save, transfer, and borrow money.",
+          "employeeRange": "1,001-5,000",
+          "name": "Wave Mobile Money",
+          "sharedCategories": [
+            "Financial Services"
+          ],
+          "sharedSpecialties": [
+            "Peer-to-Peer (P2P) Payment Services",
+            "Digital Microfinance",
+            "International Money Transfer",
+            "USSD Services"
+          ],
+          "similarityScore": 84
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Venture round round raised $14,000,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $84,895,691 to $84,895,691, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 82 (-7 over 90 days) and market heat at 62 (+0).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include AAvance, PagaPhone SmartPay, TaybullPay.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

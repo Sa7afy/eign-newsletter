@@ -1,0 +1,321 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T09:19:11.003Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T09:19:11.001Z",
+    "url": "https://www.crunchbase.com/organization/aura-finance-6368"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Aura Finance",
+      "shortDescription": "Aura Finance provides financing options such as partial financing and flexible repayments, invoice discounting services.",
+      "description": "Aura Finance is a provider of trade SME credit software that offers to view, generate, and manage transactions, allows the import of transactions from other tools, and automates the lending process to minimize the cost-to-serve for SME lenders.",
+      "website": "https://aurafinance.me/",
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "11-50",
+      "headquarters": "Dubai, United Arab Emirates",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "B2B",
+        "Financial Services",
+        "FinTech",
+        "Software"
+      ],
+      "sectors": [
+        "Financial Services",
+        "Other",
+        "Software"
+      ],
+      "founders": [
+        "Shahrukh Ghazali"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "A financing service that advances funds against unpaid B2B invoices, allowing businesses to access immediate cash flow while retaining control over collections.",
+        "name": "Invoice Discounting"
+      },
+      {
+        "description": "A financing option offering partial funding of invoices with repayment terms tailored to the business's cash flow and payment cycles.",
+        "name": "Flexible Repayment Financing"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 360000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 3,
+      "detailedRoundCount": 3,
+      "lastFundingDate": "2025-04-30",
+      "lastFundingType": "Seed",
+      "rounds": [
+        {
+          "announcedDate": "2025-04-30",
+          "investorCount": 1,
+          "postMoneyValuation": {
+            "amount": 7633073,
+            "currency": "USD"
+          },
+          "type": "Seed"
+        },
+        {
+          "announcedDate": "2025-01-29",
+          "investorCount": 1,
+          "leadInvestors": [
+            "Mohammed Bin Rashid Innovation Fund (MBRIF)"
+          ],
+          "type": "Non Equity Assistance"
+        },
+        {
+          "announcedDate": "2023-06-01",
+          "amount": {
+            "amount": 360000,
+            "currency": "USD"
+          },
+          "postMoneyValuation": {
+            "amount": 4572172,
+            "currency": "USD"
+          },
+          "type": "Venture round"
+        }
+      ],
+      "investors": {
+        "reportedCount": 2,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "Mohammed Bin Rashid Innovation Fund (MBRIF)",
+            "rounds": [
+              "Non Equity Assistance"
+            ]
+          },
+          {
+            "name": "Oraseya Capital",
+            "rounds": [
+              "Seed Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 3,
+      "includedUniqueCount": 3,
+      "items": [
+        {
+          "date": "2025-04-30",
+          "title": "Seed Round - Aura Finance"
+        },
+        {
+          "date": "2025-01-29",
+          "title": "Non Equity Assistance - Aura Finance"
+        },
+        {
+          "date": "2023-06-01",
+          "title": "Venture Round - Aura Finance"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 360000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1.67
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": -2,
+      "growthScore": 33,
+      "heatChange90Days": -1,
+      "heatScore": 85
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 69.66
+      },
+      "funding": {
+        "generatedDate": "2026-06-20",
+        "probabilityPercent": 86.45,
+        "timingEstimatePercent": {
+          "within6Months": 99.86,
+          "months6To11": 0,
+          "months12To24": 0,
+          "beyond24Months": 0.14
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 95.42
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 3.83
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Comfi is an embedded finance platform that helps SMEs unlock working capital by getting paid upfront for their outstanding B2B invoices.",
+          "employeeRange": "11-50",
+          "name": "Comfi.ai",
+          "sharedCategories": [
+            "Financial Services",
+            "B2B",
+            "FinTech"
+          ],
+          "sharedSpecialties": [
+            "Working Capital Loans",
+            "Invoice Factoring",
+            "Accounts Receivable and Payable Services",
+            "Purchase Order Financing",
+            "Accounts Receivable Management",
+            "Inventory and Procurement Finance",
+            "Supply Chain Finance"
+          ],
+          "similarityScore": 95
+        },
+        {
+          "description": "Fincobox is a funding platform that offers invoice discounting, revenue, and inventory finance services.",
+          "employeeRange": "1-10",
+          "name": "Fincobox",
+          "sharedCategories": [
+            "Financial Services"
+          ],
+          "sharedSpecialties": [
+            "Working Capital Loans",
+            "Invoice Factoring",
+            "Accounts Receivable and Payable Services",
+            "Purchase Order Financing",
+            "Vendor Financing",
+            "Accounts Receivable Management",
+            "Inventory and Procurement Finance",
+            "Business Lines of Credit",
+            "Supply Chain Finance"
+          ],
+          "similarityScore": 93
+        },
+        {
+          "description": "Tradewind is a finance organization that provides liquidity for international small- and middle-market enterprises.",
+          "employeeRange": "101-250",
+          "name": "Tradewind",
+          "sharedCategories": [
+            "Financial Services",
+            "FinTech"
+          ],
+          "sharedSpecialties": [
+            "Invoice Factoring",
+            "Accounts Receivable and Payable Services",
+            "Purchase Order Financing",
+            "Vendor Financing",
+            "Inventory and Procurement Finance",
+            "Supply Chain Finance"
+          ],
+          "similarityScore": 86
+        },
+        {
+          "description": "Sonovate solves cash flow and admin headaches for users and suppliers of global contingent workforce solutions.",
+          "employeeRange": "101-250",
+          "name": "Sonovate",
+          "sharedCategories": [
+            "Financial Services",
+            "B2B",
+            "FinTech"
+          ],
+          "sharedSpecialties": [
+            "Invoice Factoring",
+            "Cash Flow Management",
+            "Accounts Receivable and Payable Services"
+          ],
+          "similarityScore": 85
+        },
+        {
+          "description": "A world leading fintech, Raistone enables the financing of billions of dollars in B2B transactions every year.",
+          "employeeRange": "11-50",
+          "name": "Raistone",
+          "sharedCategories": [
+            "Financial Services",
+            "FinTech"
+          ],
+          "sharedSpecialties": [
+            "Invoice Factoring",
+            "Accounts Receivable and Payable Services",
+            "Supply Chain Finance"
+          ],
+          "similarityScore": 79
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $4,572,172 to $7,633,073, a 1.67x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 33 (-2 over 90 days) and market heat at 85 (-1).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Comfi.ai, Fincobox, Tradewind.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

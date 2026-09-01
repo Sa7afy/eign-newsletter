@@ -1,0 +1,168 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T11:41:34.589Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T11:41:34.587Z",
+    "url": "https://www.crunchbase.com/organization/fibr-labs"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Fibr Labs",
+      "shortDescription": "Fibr Labs offers an application that makes instant connections.",
+      "description": "Fibr Labs offers an application that makes instant connections.\n\nFibr has been conceptualized bearing in mind one single goal: Making the right connections instantly. Its product is a combination of novel technology and noble objective has already become an integral part of the lives of many. Having spread across continents, even right this moment Fibr has been making right connections, solving problems, saving time, and satisfying both the consumers and service providers across the globe.\n\nThe company was founded in 2017 and based in Dubai, United Arab Emirates.",
+      "website": "http://www.fibrlabs.com/",
+      "operatingStatus": "Closed",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "11-50",
+      "headquarters": "Dubai, United Arab Emirates",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Apps",
+        "Consumer Lending",
+        "Mobile Apps"
+      ],
+      "sectors": [
+        "Apps",
+        "Financial Services",
+        "Lending and Investments",
+        "Mobile",
+        "Software"
+      ],
+      "founders": [
+        "Kashif Khan"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "Service offering the purchase of domain names with ownership rights transferred to the buyer upon completion of the sale.",
+        "name": "Domain Name Sales"
+      },
+      {
+        "description": "A financing option allowing customers to pay for domain names in monthly installments with zero percent interest.",
+        "name": "Domain Name Payment Plans"
+      },
+      {
+        "description": "A service that hides the personal ownership information of a domain from public Whois records.",
+        "name": "WhoIs Privacy Protection"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 176962,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2017-09-06",
+      "lastFundingType": "Seed",
+      "rounds": [
+        {
+          "announcedDate": "2017-09-06",
+          "amount": {
+            "amount": 176962,
+            "currency": "USD"
+          },
+          "postMoneyValuation": {
+            "amount": 3176962,
+            "currency": "USD"
+          },
+          "type": "Seed"
+        }
+      ]
+    },
+    "recentNews": {
+      "reportedCount": 1,
+      "includedUniqueCount": 1,
+      "items": [
+        {
+          "date": "2017-09-06",
+          "title": "Seed Round - Fibr Labs"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 176962,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "heatChange90Days": -20,
+      "heatScore": 41
+    },
+    "modelPredictions": {
+      "funding": {
+        "generatedDate": "2025-11-15",
+        "probabilityPercent": 7.52,
+        "timingEstimatePercent": {
+          "within6Months": 14.42,
+          "months6To11": 12.34,
+          "months12To24": 19.6,
+          "beyond24Months": 24.87
+        }
+      },
+      "growth": {
+        "generatedDate": "2025-11-15",
+        "probabilityPercent": 74.75
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors."
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Seed round raised $176,962, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $3,176,962 to $3,176,962, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

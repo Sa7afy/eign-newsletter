@@ -1,0 +1,223 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T14:03:36.784Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T14:03:36.784Z",
+    "url": "https://www.crunchbase.com/organization/youcalc"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "YouCalc",
+      "shortDescription": "YouCalc is a growing library of free calculators for real-life questions",
+      "description": "YouCalc is a free online collection of instant calculators designed to meet all sorts of everyday requirements, such as those relating to money, math, health, dates, cooking, and construction. \nEach of the tools works directly in your browser, gives you immediate answers, and is available in ten languages. \nIt offers complete right-to-left support for Arabic and Urdu, and amounts are shown in your local currency.",
+      "website": "http://www.youcalc.com/",
+      "operatingStatus": "Closed",
+      "ownershipStatus": "Private",
+      "employeeRange": "1-10",
+      "estimatedRevenueRange": "$1M-$10M",
+      "headquarters": "Dubai, United Arab Emirates",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Consumer Software",
+        "Software",
+        "Web Apps"
+      ],
+      "sectors": [
+        "Apps",
+        "Software"
+      ],
+      "founders": [
+        "Saeed Hussein"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "An online platform offering analytics applications for CRM, sales, marketing, support, and project management to analyze and visualize business data.",
+        "name": "Youcalc Analytics Applications"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 3840000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 3,
+      "detailedRoundCount": 3,
+      "lastFundingDate": "2008-01-01",
+      "lastFundingType": "Series A",
+      "rounds": [
+        {
+          "announcedDate": "2008-01-01",
+          "amount": {
+            "amount": 2200000,
+            "currency": "USD"
+          },
+          "type": "Series A"
+        },
+        {
+          "announcedDate": "2007-02-01",
+          "amount": {
+            "amount": 1200000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "type": "Seed"
+        },
+        {
+          "announcedDate": "2003-06-01",
+          "amount": {
+            "amount": 440000,
+            "currency": "USD"
+          },
+          "type": "Seed"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "name": "Heartcore Capital",
+            "rounds": [
+              "Seed Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 4,
+      "includedUniqueCount": 4,
+      "items": [
+        {
+          "date": "2010-10-17",
+          "title": "YouCalc acquired by SuccessFactors"
+        },
+        {
+          "date": "2008-01-01",
+          "title": "Series A - YouCalc"
+        },
+        {
+          "date": "2007-02-01",
+          "title": "Seed Round - YouCalc"
+        },
+        {
+          "date": "2003-06-01",
+          "title": "Seed Round - YouCalc"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 3,
+    "knownDetailedFundingAmount": {
+      "amount": 3840000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 57.29
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "heatChange90Days": 60,
+      "heatScore": 85
+    },
+    "modelPredictions": {
+      "growth": {
+        "generatedDate": "2026-04-26",
+        "probabilityPercent": 62.16
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Looker is a an enterprise platform for business intelligence, data applications, and embedded analytics.",
+          "employeeRange": "501-1,000",
+          "name": "Looker",
+          "similarityScore": 91
+        },
+        {
+          "description": "Tableau helps global organizations unleash the power of their most valuable assets: their data and their people.",
+          "employeeRange": "1,001-5,000",
+          "name": "Tableau",
+          "sharedCategories": [
+            "Software"
+          ],
+          "similarityScore": 90
+        },
+        {
+          "description": "Domo designs and delivers an executive management platform as a service to help executives manage business.",
+          "employeeRange": "501-1,000",
+          "name": "Domo",
+          "sharedCategories": [
+            "Software"
+          ],
+          "similarityScore": 89
+        },
+        {
+          "description": "Qlik is a data analytics platform that helps businesses make better decisions through advanced data integration, quality, and analytics.",
+          "employeeRange": "1,001-5,000",
+          "name": "Qlik",
+          "sharedCategories": [
+            "Software"
+          ],
+          "similarityScore": 89
+        },
+        {
+          "description": "Microsoft provides computer software, consumer electronics, cloud computing platforms, and digital enterprise systems.",
+          "employeeRange": "11-50",
+          "name": "Microsoft",
+          "similarityScore": 88
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Series A round raised $2,200,000, or 57.29% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Looker, Tableau, Domo.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

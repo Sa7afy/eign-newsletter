@@ -1,0 +1,178 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T13:54:44.909Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T13:54:44.907Z",
+    "url": "https://www.crunchbase.com/organization/vimpto"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Vimpto",
+      "shortDescription": "Vimpto is a decentralized community marketing platform built on the blockchain.",
+      "description": "Vimpto is a decentralized community marketing platform based on the blockchain. It also needs the voxel design from Minecraft, but ports these builds to the unity engine so it can get around Minecraft's constraints. They give their users the freedom to explore, interact, play, earn, invest, and construct.",
+      "website": "https://vimpto.com/",
+      "foundedYear": 2022,
+      "operatingStatus": "Closed",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "1-10",
+      "headquarters": "Dubai, United Arab Emirates",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Blockchain",
+        "Gaming",
+        "Marketing"
+      ],
+      "sectors": [
+        "Blockchain and Cryptocurrency",
+        "Gaming",
+        "Sales and Marketing"
+      ],
+      "founders": [
+        "Daniel Bedward",
+        "Jonathan Bullough"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "A service that manages client acquisition campaigns for a flat monthly fee without requiring contracts.",
+        "name": "Full-Service Campaign"
+      },
+      {
+        "description": "Project management service that integrates directly with the client's CRM for efficient lead management.",
+        "name": "Seamless Project Management"
+      },
+      {
+        "description": "Service that inputs leads directly into the client's customer relationship management system.",
+        "name": "Direct Lead Feed into CRM"
+      },
+      {
+        "description": "Access to senior-level professionals for campaign management and execution.",
+        "name": "Exclusive Senior-Level Talent"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 650000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2022-01-19",
+      "lastFundingType": "Seed",
+      "rounds": [
+        {
+          "announcedDate": "2022-01-19",
+          "amount": {
+            "amount": 650000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "Timeless Ventures"
+          ],
+          "type": "Seed"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "Timeless Ventures",
+            "rounds": [
+              "Seed Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 1,
+      "includedUniqueCount": 1,
+      "items": [
+        {
+          "date": "2022-01-19",
+          "title": "Seed Round - Vimpto"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 650000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "heatChange90Days": -18,
+      "heatScore": 16
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2025-09-22",
+        "probabilityPercent": 91.61
+      },
+      "funding": {
+        "generatedDate": "2025-10-18",
+        "probabilityPercent": 31.67,
+        "timingEstimatePercent": {
+          "within6Months": 14.04,
+          "months6To11": 12.07,
+          "months12To24": 19.29,
+          "beyond24Months": 24.79
+        }
+      },
+      "growth": {
+        "generatedDate": "2025-10-18",
+        "probabilityPercent": 79.54
+      },
+      "ipo": {
+        "generatedDate": "2025-09-22",
+        "probabilityPercent": 0.43
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors."
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Seed round raised $650,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

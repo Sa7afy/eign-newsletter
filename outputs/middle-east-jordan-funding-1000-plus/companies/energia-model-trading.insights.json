@@ -1,0 +1,316 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T11:34:33.233Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T11:34:33.231Z",
+    "url": "https://www.crunchbase.com/organization/energia-model-trading"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Energia Model Trading",
+      "shortDescription": "Energia Model Trading & Contracting is a Saudi energy rental business.",
+      "description": "Energia Model Trading & Contracting is a Saudi energy rental business.",
+      "website": "http://www.energiaksa.com/",
+      "foundedYear": 2011,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "251-500",
+      "headquarters": "Al-jubail, Ash Sharqiyah, Saudi Arabia",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Energy",
+        "Real Estate",
+        "Renewable Energy"
+      ],
+      "sectors": [
+        "Energy",
+        "Real Estate",
+        "Sustainability"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "Rental service providing diesel generators ranging from small to multi-megawatt capacities for temporary power supply in various settings.",
+        "name": "Generator Rentals"
+      },
+      {
+        "description": "Rental of HVAC and temperature control equipment including air handling units and chillers for maintaining optimal climate conditions.",
+        "name": "Cooling Solutions"
+      },
+      {
+        "description": "Comprehensive electrical maintenance, construction project management, and turnkey power plant solutions tailored to industrial and commercial needs.",
+        "name": "Electrical and Construction Services"
+      },
+      {
+        "description": "Integrated event support including power rentals, cooling systems, tents, cabins, and consultation services for various event types.",
+        "name": "Event Solutions"
+      },
+      {
+        "description": "Modular solar energy system designed for efficient, scalable power generation in industrial and remote site applications.",
+        "name": "Solar Fold PV System"
+      },
+      {
+        "description": "Modular battery storage units that store excess energy for use during peak demand, enhancing grid stability and reducing costs.",
+        "name": "Battery Energy Storage System (BESS)"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 19958077,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 2,
+      "detailedRoundCount": 2,
+      "lastFundingDate": "2022-07-25",
+      "lastFundingType": "Non Equity Assistance",
+      "rounds": [
+        {
+          "announcedDate": "2022-07-25",
+          "amount": {
+            "amount": 19958077,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "Ruya Partners"
+          ],
+          "type": "Non Equity Assistance"
+        },
+        {
+          "announcedDate": "2018-03-05",
+          "investorCount": 1,
+          "postMoneyValuation": {
+            "amount": 17014746,
+            "currency": "USD"
+          },
+          "type": "Private Equity"
+        }
+      ],
+      "investors": {
+        "reportedCount": 2,
+        "visibleNames": [
+          {
+            "name": "NBK Capital Partners",
+            "rounds": [
+              "Private Equity Round"
+            ]
+          },
+          {
+            "isLead": true,
+            "name": "Ruya Partners",
+            "rounds": [
+              "Non Equity Assistance"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 2,
+      "includedUniqueCount": 2,
+      "items": [
+        {
+          "date": "2022-07-25",
+          "title": "Non Equity Assistance - Energia Model Trading"
+        },
+        {
+          "date": "2018-03-05",
+          "title": "Private Equity Round - Energia Model Trading"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 19958077,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": 0,
+      "growthScore": 67,
+      "heatChange90Days": -4,
+      "heatScore": 68
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 19.22
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 25.02,
+        "timingEstimatePercent": {
+          "within6Months": 15.42,
+          "months6To11": 13.04,
+          "months12To24": 20.36,
+          "beyond24Months": 24.99
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 50.9
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 13.48
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "APR Energy specializes in the deployment of turnkey power generation solutions, and the sale of kilowatt-hours to its global customers.",
+          "employeeRange": "501-1,000",
+          "name": "APR Energy",
+          "sharedCategories": [
+            "Energy"
+          ],
+          "sharedSpecialties": [
+            "Diesel Generators",
+            "Temporary Power and Electrical Services",
+            "Backup Generator Installation and Service",
+            "Generator Maintenance and Repair",
+            "Temporary Site and Modular Facilities",
+            "Generator Rental and Sales"
+          ],
+          "similarityScore": 95
+        },
+        {
+          "description": "Aggreko Energy Transition Solutions is a provider of mobile modular power, temperature control, and energy storage solutions.",
+          "employeeRange": "5,001-10,000",
+          "name": "Aggreko Energy Transition Solutions",
+          "sharedCategories": [
+            "Energy",
+            "Renewable Energy"
+          ],
+          "sharedSpecialties": [
+            "Diesel Generators",
+            "Battery Energy Storage Systems",
+            "Temporary Power and Electrical Services",
+            "Equipment Rental Software",
+            "Generator Maintenance and Repair",
+            "Generator Rental and Sales"
+          ],
+          "similarityScore": 94
+        },
+        {
+          "description": "The largest design-build specialty electrical contractor in North America.",
+          "employeeRange": "11-50",
+          "name": "Modular Power Solutions",
+          "sharedSpecialties": [
+            "Modular and Portable Buildings",
+            "Temporary Site and Modular Facilities",
+            "Electrical Project Management"
+          ],
+          "similarityScore": 93
+        },
+        {
+          "description": "United Rentals operates as an equipment rental company that provides rental equipment and tools for industrial and construction companies.",
+          "employeeRange": "10,001+",
+          "name": "United Rentals",
+          "sharedSpecialties": [
+            "Temporary Power and Electrical Services",
+            "Equipment Rental Software",
+            "Temporary Site and Modular Facilities",
+            "Generator Rental and Sales"
+          ],
+          "similarityScore": 91
+        },
+        {
+          "description": "Herc Rentals is an equipment-rental firm that provides tools, services, and solutions.",
+          "employeeRange": "10,001+",
+          "name": "Herc Rentals",
+          "sharedSpecialties": [
+            "Temporary Power and Electrical Services",
+            "Equipment Rental Software",
+            "Event Rentals",
+            "Generator Rental and Sales",
+            "HVAC Rental and Outdoor Heating"
+          ],
+          "similarityScore": 89
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Non Equity Assistance round raised $19,958,077, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $17,014,746 to $17,014,746, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 67 (+0 over 90 days) and market heat at 68 (-4).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include APR Energy, Aggreko Energy Transition Solutions, Modular Power Solutions.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

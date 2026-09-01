@@ -1,0 +1,346 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T13:35:20.972Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T13:35:20.969Z",
+    "url": "https://www.crunchbase.com/organization/sympl-4045"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Sympl",
+      "shortDescription": "Sympl is a company that provides buy now pay later service.",
+      "description": "Sympl is a fintech company that provides a save now, pay later service that enables merchants to sell directly to consumers on short-term, interest-free payment plans. It provides customers with more options at the checkout and encourages customers to save, manage their cash flow more effectively, and better match their income and expenditure without sacrificing their lifestyle. Sympl enables customers to better manage their expenses and save money by making three, four, or five payments on a weekly, biweekly, or monthly basis with no interest, hidden fees, or application process.",
+      "website": "https://sympl.ai/",
+      "foundedYear": 2021,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "51-100",
+      "estimatedRevenueRange": "$1M-$10M",
+      "headquarters": "Cairo, Al Qahirah, Egypt",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Middle East",
+        "Middle East and North Africa (MENA)",
+        "North Africa"
+      ],
+      "industries": [
+        "Consulting",
+        "Finance",
+        "Financial Services"
+      ],
+      "sectors": [
+        "Financial Services",
+        "Professional Services"
+      ],
+      "founders": [
+        "Karim Tawfik",
+        "Mohamed El-Shabrawy El-Feky",
+        "Yasmine Mohamed Henna"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "A payment solution allowing customers to purchase products and pay in 3 to 5 interest-free installments over weekly, bi-weekly, or monthly periods without an application process.",
+        "name": "Sympl Buy Now Pay Later Service"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 6000000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 3,
+      "detailedRoundCount": 3,
+      "lastFundingDate": "2024-02-14",
+      "lastFundingType": "Non Equity Assistance",
+      "rounds": [
+        {
+          "announcedDate": "2024-02-14",
+          "investorCount": 1,
+          "leadInvestors": [
+            "Visa Accelerator"
+          ],
+          "type": "Non Equity Assistance"
+        },
+        {
+          "announcedDate": "2021-12-09",
+          "amount": {
+            "amount": 6000000,
+            "currency": "USD"
+          },
+          "investorCount": 3,
+          "leadInvestors": [
+            "BECO Capital"
+          ],
+          "postMoneyValuation": {
+            "amount": 25575225,
+            "currency": "USD"
+          },
+          "type": "Seed"
+        },
+        {
+          "announcedDate": "2021-10-17",
+          "investorCount": 1,
+          "leadInvestors": [
+            "A15"
+          ],
+          "postMoneyValuation": {
+            "amount": 7004953,
+            "currency": "USD"
+          },
+          "type": "Seed"
+        }
+      ],
+      "investors": {
+        "reportedCount": 4,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "A15",
+            "rounds": [
+              "Seed Round"
+            ]
+          },
+          {
+            "isLead": true,
+            "name": "BECO Capital",
+            "rounds": [
+              "Seed Round"
+            ]
+          },
+          {
+            "name": "Global Ventures",
+            "rounds": [
+              "Seed Round"
+            ]
+          },
+          {
+            "isLead": true,
+            "name": "Visa Accelerator",
+            "rounds": [
+              "Non Equity Assistance"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 4,
+      "includedUniqueCount": 4,
+      "items": [
+        {
+          "date": "2025-04-24",
+          "publisher": "Zawya.com",
+          "title": "Egypt’s Digital Issuing Revolution – Apple Tokenisation Drives Interest",
+          "url": "https://www.zawya.com/en/economy/north-africa/egypts-digital-issuing-revolution-apple-tokenisation-drives-interest-hbaiwq6n"
+        },
+        {
+          "date": "2024-02-14",
+          "title": "Non Equity Assistance - Sympl"
+        },
+        {
+          "date": "2021-12-09",
+          "title": "Seed Round - Sympl"
+        },
+        {
+          "date": "2021-10-17",
+          "title": "Seed Round - Sympl"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 6000000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestToEarliestKnownValuationMultiple": 3.65
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": -2,
+      "growthScore": 23,
+      "heatChange90Days": -6,
+      "heatScore": 64
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 29.5
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 35.17,
+        "timingEstimatePercent": {
+          "within6Months": 4.03,
+          "months6To11": 0,
+          "months12To24": 0,
+          "beyond24Months": 95.97
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 93.38
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 3.99
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "valU is a fintech company that provides buy now, pay later, and customized financial solutions.",
+          "employeeRange": "501-1,000",
+          "name": "valU",
+          "sharedCategories": [
+            "Financial Services",
+            "Finance"
+          ],
+          "sharedSpecialties": [
+            "Payment Processing",
+            "Loan Management Systems",
+            "Payment Facilitation (PayFac) Infrastructure",
+            "Loan Payment Services",
+            "Merchant Services",
+            "Payment Analytics and Dashboard"
+          ],
+          "similarityScore": 100
+        },
+        {
+          "description": "Klarna is a global digital bank and flexible payments provider.",
+          "employeeRange": "1,001-5,000",
+          "name": "Klarna",
+          "sharedCategories": [
+            "Financial Services"
+          ],
+          "sharedSpecialties": [
+            "Alternative Payment Methods",
+            "Payment Processing",
+            "Merchant Services",
+            "Payment Cards",
+            "Payment Orchestration Platforms"
+          ],
+          "similarityScore": 96
+        },
+        {
+          "description": "Affirm is a financial technology services company that offers installment loans to consumers at the point of sale.",
+          "employeeRange": "1,001-5,000",
+          "name": "Affirm",
+          "sharedCategories": [
+            "Financial Services"
+          ],
+          "sharedSpecialties": [
+            "Payment Processing",
+            "Loan Management Systems",
+            "Payment Facilitation (PayFac) Infrastructure",
+            "Merchant Services",
+            "Payment Cards",
+            "Payment Gateway Services",
+            "Payment Analytics and Dashboard"
+          ],
+          "similarityScore": 95.296
+        },
+        {
+          "description": "Afterpay allows shoppers to receive products immediately and pay in four simple installments over a short period of time.",
+          "employeeRange": "501-1,000",
+          "name": "Afterpay",
+          "sharedSpecialties": [
+            "Alternative Payment Methods",
+            "Payment Processing",
+            "Payment Facilitation (PayFac) Infrastructure",
+            "Merchant Services",
+            "Payment Cards",
+            "Payment Orchestration Platforms",
+            "Payment Gateway Services",
+            "Payment Analytics and Dashboard",
+            "E-Commerce Mobile Apps"
+          ],
+          "similarityScore": 95
+        },
+        {
+          "description": "Zip is an online payments technology provider that offers consumers credit options for online shopping.",
+          "employeeRange": "501-1,000",
+          "name": "Zip",
+          "sharedCategories": [
+            "Financial Services",
+            "Finance"
+          ],
+          "sharedSpecialties": [
+            "Alternative Payment Methods",
+            "Payment Processing",
+            "Loan Management Systems",
+            "Loan Payment Services",
+            "Merchant Services",
+            "Payment Cards",
+            "Payment Orchestration Platforms",
+            "Payment Gateway Services"
+          ],
+          "similarityScore": 90
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $7,004,953 to $25,575,225, a 3.65x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 23 (-2 over 90 days) and market heat at 64 (-6).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include valU, Klarna, Affirm.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

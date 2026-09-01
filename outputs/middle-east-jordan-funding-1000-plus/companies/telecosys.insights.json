@@ -1,0 +1,205 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T13:40:55.360Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T13:40:55.358Z",
+    "url": "https://www.crunchbase.com/organization/telecosys"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Telecosys",
+      "shortDescription": "Telecosys is a software products and solutions provider empowering tech-based service providers, including telecom, internet, and more.",
+      "description": "Telecosys is a software products and solutions provider empowering tech-based service providers, including telecom, internet, cable TV, and cloud-based service providers by offering Next Generation and Greenfield solutions. This joint stock company has been founded by a group of telecom and IT experts of more than 10-year experience. It has a team that delivers innovation based around experience.\r\n\r\n\r\nTelecosys was founded in 2014 and is headquartered in Egypt. The company is funded by Sawari Ventures, a venture capital firm in the Middle East and North Africa.",
+      "website": "http://telecosys.com/",
+      "foundedYear": 2014,
+      "operatingStatus": "Closed",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "11-50",
+      "estimatedRevenueRange": "$1M-$10M",
+      "headquarters": "Gîza, Al Jizah, Egypt",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Middle East",
+        "Middle East and North Africa (MENA)",
+        "North Africa"
+      ],
+      "industries": [
+        "Information Technology",
+        "Internet",
+        "Software"
+      ],
+      "sectors": [
+        "Information Technology",
+        "Software"
+      ],
+      "founders": [
+        "Mohamed Esmat",
+        "Shady Elborai"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 15000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2014-01-01",
+      "lastFundingType": "Seed",
+      "rounds": [
+        {
+          "announcedDate": "2014-01-01",
+          "amount": {
+            "amount": 15000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "type": "Seed"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "name": "F6 Ventures",
+            "rounds": [
+              "Seed Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 4,
+      "includedUniqueCount": 4,
+      "items": [
+        {
+          "date": "2024-05-11",
+          "publisher": "Business Recorder",
+          "title": "Telecos agree to start blocking SIMs of non-filers",
+          "url": "https://www.brecorder.com/news/40302918"
+        },
+        {
+          "date": "2021-01-02",
+          "publisher": "Business Standard India",
+          "title": "Telecom, pharma on revival path as businesses limp back to pre-Covid levels",
+          "url": "https://mybs.in/2ZbBuwa"
+        },
+        {
+          "date": "2020-09-28",
+          "publisher": "Chetenet",
+          "title": "System down should not have prevented NCBA from offering prompt customer service",
+          "url": "https://chetenet.com/2020/09/28/system-down-should-not-have-prevented-ncba-from-offering-prompt-customer-service/"
+        },
+        {
+          "date": "2014-01-01",
+          "title": "Seed Round - Telecosys"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 15000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "heatChange90Days": -14,
+      "heatScore": 2
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Tecnotree Corporation is a telecommunications company, which develops and supplies messaging and charging solutions for operators",
+          "employeeRange": "1,001-5,000",
+          "name": "Tecnotree",
+          "sharedCategories": [
+            "Internet",
+            "Information Technology"
+          ],
+          "similarityScore": 94
+        },
+        {
+          "description": "Mavenir is a provider of cloud-native network infrastructure that develops multimedia communications and information processing software.",
+          "employeeRange": "5,001-10,000",
+          "name": "Mavenir",
+          "similarityScore": 91
+        },
+        {
+          "description": "Amdocs is a developer and provider of customer experience systems for communications, media, and entertainment industries.",
+          "employeeRange": "10,001+",
+          "name": "Amdocs",
+          "sharedCategories": [
+            "Software"
+          ],
+          "similarityScore": 88
+        },
+        {
+          "description": "Oracle is an integrated cloud application and platform services that sells a range of enterprise information technology solutions.",
+          "employeeRange": "10,001+",
+          "name": "Oracle",
+          "sharedCategories": [
+            "Software"
+          ],
+          "similarityScore": 88
+        },
+        {
+          "description": "TEOCO Corporation offers network cost optimization solutions for communications service consulting.",
+          "employeeRange": "1,001-5,000",
+          "name": "TEOCO Corporation",
+          "similarityScore": 86
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Seed round raised $15,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Tecnotree, Mavenir, Amdocs.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

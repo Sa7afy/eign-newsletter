@@ -1,0 +1,263 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T12:33:58.267Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T12:33:58.264Z",
+    "url": "https://www.crunchbase.com/organization/mivors"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "mivors",
+      "shortDescription": "Largest Managed Services Provider for saas solutions in Middle East",
+      "description": "On the 4th of Aug 2016, mivors Cloud solution was incorporated in Cairo by a vision to be the largest industry specific managed cloud provider for saas solutions in Middle East.",
+      "website": "http://www.mivors.com/",
+      "foundedYear": 2016,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "11-50",
+      "headquarters": "Cairo, Al Qahirah, Egypt",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Middle East",
+        "Middle East and North Africa (MENA)",
+        "North Africa"
+      ],
+      "industries": [
+        "Enterprise Software",
+        "PaaS",
+        "SaaS",
+        "Software"
+      ],
+      "sectors": [
+        "Information Technology",
+        "Software"
+      ],
+      "founders": [
+        "Ahmed Elazab"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "A cloud-based financial management system for automating and managing financial processes.",
+        "name": "Oracle Financials Cloud"
+      },
+      {
+        "description": "A cloud platform for managing human capital processes including HR, payroll, and talent management.",
+        "name": "Oracle HCM Cloud"
+      },
+      {
+        "description": "A cloud solution for managing supply chain operations including procurement, logistics, and inventory.",
+        "name": "Oracle SCM Cloud"
+      },
+      {
+        "description": "A cloud platform for managing customer experience including sales, marketing, and service operations.",
+        "name": "Oracle CX Cloud"
+      },
+      {
+        "description": "A cloud-based enterprise performance management and business intelligence platform for financial planning and reporting.",
+        "name": "Oracle BI/EPM Cloud"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 350000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 2,
+      "detailedRoundCount": 2,
+      "lastFundingDate": "2019-08-01",
+      "lastFundingType": "Seed",
+      "rounds": [
+        {
+          "announcedDate": "2019-08-01",
+          "postMoneyValuation": {
+            "amount": 2581093,
+            "currency": "USD"
+          },
+          "type": "Seed"
+        },
+        {
+          "announcedDate": "2016-08-01",
+          "amount": {
+            "amount": 350000,
+            "currency": "USD"
+          },
+          "postMoneyValuation": {
+            "amount": 1623603,
+            "currency": "USD"
+          },
+          "type": "Seed"
+        }
+      ]
+    },
+    "recentNews": {
+      "reportedCount": 2,
+      "includedUniqueCount": 2,
+      "items": [
+        {
+          "date": "2019-08-01",
+          "title": "Seed Round - mivors"
+        },
+        {
+          "date": "2016-08-01",
+          "title": "Seed Round - mivors"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 350000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1.59
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": -2,
+      "growthScore": 37,
+      "heatChange90Days": -58,
+      "heatScore": 1
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 22.26
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 10.83,
+        "timingEstimatePercent": {
+          "within6Months": 14.38,
+          "months6To11": 12.31,
+          "months12To24": 19.57,
+          "beyond24Months": 24.86
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 94.11
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 33.68
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "KPMG is a network of independent member firms offering audit, tax, and advisory services.",
+          "employeeRange": "10,001+",
+          "name": "KPMG",
+          "similarityScore": 94
+        },
+        {
+          "description": "Wipro is a technology services and consulting company focused on building solutions that address clients’ digital transformation needs.",
+          "employeeRange": "10,001+",
+          "name": "Wipro",
+          "sharedCategories": [
+            "Software"
+          ],
+          "sharedSpecialties": [
+            "Cloud Operations and FinOps",
+            "ERP Consulting"
+          ],
+          "similarityScore": 92
+        },
+        {
+          "description": "Jade is a trusted IT services partner for global enterprises to accelerate their digital transformation journey.",
+          "employeeRange": "1,001-5,000",
+          "name": "Jade Global",
+          "sharedCategories": [
+            "Software"
+          ],
+          "sharedSpecialties": [
+            "Cloud Operations and FinOps",
+            "Application Managed Services (AMS)"
+          ],
+          "similarityScore": 91
+        },
+        {
+          "description": "PwC is a tax and legal, deals and consulting firm.",
+          "employeeRange": "10,001+",
+          "name": "PwC",
+          "similarityScore": 90
+        },
+        {
+          "description": "Aspire Systems is a leading global technology service provider",
+          "employeeRange": "5,001-10,000",
+          "name": "Aspire Systems",
+          "sharedCategories": [
+            "Software"
+          ],
+          "sharedSpecialties": [
+            "Cloud Operations and FinOps"
+          ],
+          "similarityScore": 88
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $1,623,603 to $2,581,093, a 1.59x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 37 (-2 over 90 days) and market heat at 1 (-58).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include KPMG, Wipro, Jade Global.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

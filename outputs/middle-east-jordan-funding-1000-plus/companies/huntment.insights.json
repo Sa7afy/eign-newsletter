@@ -1,0 +1,263 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T12:01:03.270Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T12:01:03.268Z",
+    "url": "https://www.crunchbase.com/organization/huntment"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "HuntMent",
+      "shortDescription": "Platform for Entrepreneurs, Businesses, Franchise Businesses, Investors, Brokers and Advisors to Connect Easily and instantly.",
+      "description": "Entrepreneurs can Connect with Investors for Start up Investment,\nBusiness Owners can Connect with Buyers and Investors for Selling Full/Partial Stake of Business,\nFranchise Business can Connect with Investors for Selling Franchise across the World,\nInvestors can Connect with Businesses, Entrepreneurs, Franchise etc with respect to Industry and Location,\nBrokers/Advisors can Connect with their clients and connections easily.  \n\nTerms and Conditions apply under Shariah Compliance*",
+      "website": "https://www.huntment.com/",
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "1-10",
+      "headquarters": "Dubai, United Arab Emirates",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Business Development",
+        "Small and Medium Businesses",
+        "Venture Capital"
+      ],
+      "sectors": [
+        "Financial Services",
+        "Lending and Investments",
+        "Other",
+        "Professional Services"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "A digital platform that facilitates instant connections among entrepreneurs, businesses, franchise businesses, investors, brokers, and advisors.",
+        "name": "Platform for Entrepreneurs, Businesses, Franchise Businesses, Investors, Brokers and Advisors to Connect"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 27226,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2022-01-01",
+      "lastFundingType": "Pre Seed",
+      "rounds": [
+        {
+          "announcedDate": "2022-01-01",
+          "amount": {
+            "amount": 27226,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "Abdullah Aljaberi"
+          ],
+          "postMoneyValuation": {
+            "amount": 2749796,
+            "currency": "USD"
+          },
+          "type": "Pre Seed"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "Abdullah Aljaberi",
+            "rounds": [
+              "Pre Seed Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 1,
+      "includedUniqueCount": 1,
+      "items": [
+        {
+          "date": "2022-01-01",
+          "title": "Pre Seed Round - HuntMent"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 27226,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": 43,
+      "growthScore": 77,
+      "heatChange90Days": -8,
+      "heatScore": 44
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 63.91
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 19.89,
+        "timingEstimatePercent": {
+          "within6Months": 15.77,
+          "months6To11": 13.28,
+          "months12To24": 20.61,
+          "beyond24Months": 25
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 87.14
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 51.95
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "FranConnect is the #1 provider of Franchise Management Systems with the most comprehensive franchising solution on the Planet!",
+          "employeeRange": "501-1,000",
+          "name": "FranConnect",
+          "sharedSpecialties": [
+            "Franchising Consulting"
+          ],
+          "similarityScore": 97
+        },
+        {
+          "description": "Directory of Franchise Opportunities",
+          "employeeRange": "11-50",
+          "name": "Franchise Gator",
+          "sharedCategories": [
+            "Business Development"
+          ],
+          "sharedSpecialties": [
+            "Franchise Marketing",
+            "Business Brokerage",
+            "Business Formation and Incorporation",
+            "Franchising Consulting",
+            "Franchise Financing"
+          ],
+          "similarityScore": 89
+        },
+        {
+          "description": "BizBuySell.com is an online listings of business opportunities and resources to assist with buying and selling.",
+          "employeeRange": "101-250",
+          "name": "BizBuySell.com",
+          "sharedSpecialties": [
+            "Franchise Marketing",
+            "Business Brokerage"
+          ],
+          "similarityScore": 84
+        },
+        {
+          "description": "SMB is a financial management company that offers tools and services to simplify accounting, invoicing, and expense tracking.",
+          "employeeRange": "1-10",
+          "name": "SMB",
+          "sharedSpecialties": [
+            "Business Brokerage"
+          ],
+          "similarityScore": 82
+        },
+        {
+          "description": "BusinessesForSale.com - The world's largest marketplace of 56,141 businesses for sale.",
+          "employeeRange": "11-50",
+          "name": "BusinessesForSale.com",
+          "sharedSpecialties": [
+            "Business Brokerage"
+          ],
+          "similarityScore": 80
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Pre Seed round raised $27,226, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $2,749,796 to $2,749,796, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 77 (+43 over 90 days) and market heat at 44 (-8).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include FranConnect, Franchise Gator, BizBuySell.com.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

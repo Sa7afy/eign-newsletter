@@ -1,0 +1,343 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T11:57:04.471Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T11:57:04.468Z",
+    "url": "https://www.crunchbase.com/organization/healnostic"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "HealNOSTiC",
+      "shortDescription": "HealNOSTiC is a PaaS health-tech startup that provides health awareness, health education & tailored wellness services using deep tech.",
+      "website": "http://www.healnostic.org/",
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "1-10",
+      "estimatedRevenueRange": "Less than $1M",
+      "headquarters": "Cairo, Al Qahirah, Egypt",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Middle East",
+        "Middle East and North Africa (MENA)",
+        "North Africa"
+      ],
+      "industries": [
+        "Health Care",
+        "PaaS",
+        "Pharmaceutical",
+        "Therapeutics",
+        "Training",
+        "Wellness"
+      ],
+      "sectors": [
+        "Education",
+        "Health Care",
+        "Information Technology",
+        "Software"
+      ],
+      "founders": [
+        "Raghda Mousa",
+        "Soha Kamal Eldein"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "A web application providing 24/7 access to clinical pharmacist consultations and medication wellness services.",
+        "name": "Medication Wellness & Consultations Web App"
+      },
+      {
+        "description": "Programs delivering health education and awareness to various societal sectors through interactive and published content.",
+        "name": "Health Awareness Sessions, Webinars, Workshops, and Publications"
+      },
+      {
+        "description": "Mobile applications designed to provide tailored wellness programs and medication information using current technology.",
+        "name": "Wellness Mobile Applications"
+      },
+      {
+        "description": "Educational programs offering accredited continuous learning in health-related fields in partnership with international organizations.",
+        "name": "Accredited Continuous Education Programs"
+      },
+      {
+        "description": "A bilingual monthly e-magazine providing health awareness and clinical pharmacy information to the public and healthcare providers.",
+        "name": "PharmaPress Egypt E-Magazine"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 425000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 3,
+      "detailedRoundCount": 3,
+      "lastFundingDate": "2023-03-01",
+      "lastFundingType": "Pre Seed",
+      "rounds": [
+        {
+          "announcedDate": "2023-03-01",
+          "amount": {
+            "amount": 300000,
+            "currency": "USD"
+          },
+          "postMoneyValuation": {
+            "amount": 2300000,
+            "currency": "USD"
+          },
+          "type": "Pre Seed"
+        },
+        {
+          "announcedDate": "2022-05-30",
+          "amount": {
+            "amount": 5000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "type": "Grant"
+        },
+        {
+          "announcedDate": "2020-09-15",
+          "amount": {
+            "amount": 120000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "Microsoft for Startups"
+          ],
+          "type": "Grant"
+        }
+      ],
+      "investors": {
+        "reportedCount": 2,
+        "visibleNames": [
+          {
+            "name": "Amazon Web Services",
+            "rounds": [
+              "Grant"
+            ]
+          },
+          {
+            "isLead": true,
+            "name": "Microsoft for Startups",
+            "rounds": [
+              "Grant"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 3,
+      "includedUniqueCount": 3,
+      "items": [
+        {
+          "date": "2023-03-01",
+          "title": "Pre Seed Round - HealNOSTiC"
+        },
+        {
+          "date": "2022-05-30",
+          "title": "Grant - HealNOSTiC"
+        },
+        {
+          "date": "2020-09-15",
+          "title": "Grant - HealNOSTiC"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 3,
+    "knownDetailedFundingAmount": {
+      "amount": 425000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 70.59,
+    "grantFunding": {
+      "amount": {
+        "amount": 125000,
+        "currency": "USD"
+      },
+      "disclosedRoundCount": 2,
+      "shareOfTotalPercent": 29.41
+    },
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": 1,
+      "growthScore": 61,
+      "heatChange90Days": -3,
+      "heatScore": 59
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 0
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 31.78,
+        "timingEstimatePercent": {
+          "within6Months": 14.99,
+          "months6To11": 12.75,
+          "months12To24": 20.05,
+          "beyond24Months": 24.95
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 89.48
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 0
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Teladoc is a Teladoc Health brand, connects people to the right care when they need it most.",
+          "employeeRange": "5,001-10,000",
+          "name": "Teladoc",
+          "sharedCategories": [
+            "Health Care"
+          ],
+          "sharedSpecialties": [
+            "Patient Engagement Platforms",
+            "Online Appointment Scheduling"
+          ],
+          "similarityScore": 94
+        },
+        {
+          "description": "Walgreens is a pharmacy, health, and wellness service center that offers trained infusion nurses and pharmacists to treat patients.",
+          "employeeRange": "10,001+",
+          "name": "Walgreens",
+          "sharedCategories": [
+            "Pharmaceutical",
+            "Health Care"
+          ],
+          "sharedSpecialties": [
+            "Patient Engagement Platforms",
+            "Personal Health Record (PHR) Apps"
+          ],
+          "similarityScore": 93
+        },
+        {
+          "description": "MayoClinic is a nonprofit medical practice and medical research group focused on integrated health care, education, and research.",
+          "employeeRange": "10,001+",
+          "name": "Mayo Clinic",
+          "sharedCategories": [
+            "Health Care",
+            "Wellness"
+          ],
+          "similarityScore": 91
+        },
+        {
+          "description": "Cleveland Clinic is a non-profit medical center that combines clinical and hospital care with research and education.",
+          "employeeRange": "10,001+",
+          "name": "Cleveland Clinic",
+          "sharedCategories": [
+            "Health Care"
+          ],
+          "similarityScore": 89
+        },
+        {
+          "description": "PillPack is a full-service pharmacy that sorts medication by dose and offers door-to-door delivery.",
+          "employeeRange": "251-500",
+          "name": "PillPack",
+          "sharedCategories": [
+            "Pharmaceutical",
+            "Health Care"
+          ],
+          "sharedSpecialties": [
+            "Patient Engagement Platforms",
+            "Pharmacy Software",
+            "Medication Management"
+          ],
+          "similarityScore": 87
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Pre Seed round raised $300,000, or 70.59% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Meaningful non-dilutive funding",
+      "statement": "2 disclosed grants total $125,000, representing 29.41% of reported funding.",
+      "implication": "The grants reduce the share of reported financing attributed to equity or notes, although their restrictions and milestone requirements need separate verification.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.grantFunding"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $2,300,000 to $2,300,000, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 61 (+1 over 90 days) and market heat at 59 (-3).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Teladoc, Walgreens, Mayo Clinic.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

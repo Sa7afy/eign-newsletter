@@ -1,0 +1,338 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T13:14:04.836Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T13:14:04.834Z",
+    "url": "https://www.crunchbase.com/organization/rydezilla"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Rydezilla",
+      "shortDescription": "Rydezilla provides a digital platform and mobile app for vehicle rentals and fleet management systems.",
+      "description": "Rydezilla is a Dubai-based mobility technology company specializing in digital car rental solutions, vehicle booking services, and fleet management software. Founded in 2017, the platform enables users to rent cars, motorcycles, and other vehicles through a seamless mobile and web-based experience. Rydezilla also provides SaaS tools for rental companies, including booking automation, fleet tracking, branch management, and customer service support. The company operates primarily in the Middle East and has expanded through partnerships such as its collaboration with Udrive Bahrain to enhance digital car rental accessibility in the region.",
+      "website": "https://rydezilla.com/",
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "1-10",
+      "headquarters": "Dubai, United Arab Emirates",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Automotive",
+        "Mobile Apps",
+        "Rental",
+        "SaaS"
+      ],
+      "sectors": [
+        "Apps",
+        "Commerce and Shopping",
+        "Mobile",
+        "Software",
+        "Transportation"
+      ],
+      "founders": [
+        "Maabad Said"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "A cloud-based platform that connects users with vehicle rental offices and sellers for searching, booking, and listing vehicles.",
+        "name": "Rydezilla Platform"
+      },
+      {
+        "description": "A mobile application for vehicle dealers to list and manage their rental vehicles and bookings on the Rydezilla platform.",
+        "name": "Rydezilla Dealer App"
+      },
+      {
+        "description": "A cloud-hosted system for fleet owners to add vehicles, track locations, monitor expenses, and manage rental operations.",
+        "name": "Cloud-based Vehicle Management System"
+      },
+      {
+        "description": "An online service that allows users to search, select, and book rental vehicles with options for extras and payment through the Rydezilla Platform.",
+        "name": "Online Car Rental Booking Service"
+      },
+      {
+        "description": "A platform feature allowing individuals and dealers to post and advertise vehicles for sale or rent, visible to other users.",
+        "name": "Vehicle Listing and Classifieds Service"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 275000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 2,
+      "detailedRoundCount": 2,
+      "lastFundingDate": "2023-11-01",
+      "lastFundingType": "Private Equity",
+      "rounds": [
+        {
+          "announcedDate": "2023-11-01",
+          "amount": {
+            "amount": 25000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "Mohamed Bukhari"
+          ],
+          "postMoneyValuation": {
+            "amount": 1646097,
+            "currency": "USD"
+          },
+          "type": "Private Equity"
+        },
+        {
+          "announcedDate": "2023-07-01",
+          "amount": {
+            "amount": 250000,
+            "currency": "USD"
+          },
+          "investorCount": 2,
+          "leadInvestors": [
+            "Maabad Said",
+            "Mohamed Abdelgadir"
+          ],
+          "postMoneyValuation": {
+            "amount": 1750000,
+            "currency": "USD"
+          },
+          "type": "Private Equity"
+        }
+      ],
+      "investors": {
+        "reportedCount": 3,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "Maabad Said",
+            "rounds": [
+              "Private Equity Round"
+            ]
+          },
+          {
+            "isLead": true,
+            "name": "Mohamed Abdelgadir",
+            "rounds": [
+              "Private Equity Round"
+            ]
+          },
+          {
+            "isLead": true,
+            "name": "Mohamed Bukhari",
+            "rounds": [
+              "Private Equity Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 3,
+      "includedUniqueCount": 3,
+      "items": [
+        {
+          "date": "2023-11-01",
+          "title": "Private Equity Round - Rydezilla"
+        },
+        {
+          "date": "2023-07-01",
+          "title": "Private Equity Round - Rydezilla"
+        },
+        {
+          "date": "2023-06-07",
+          "publisher": "Middle East News 247",
+          "title": "Rydezilla Partners with Udrive Bahrain to Redefine Car Rental Experience",
+          "url": "https://menews247.com/rydezilla-partners-with-udrive-bahrain-to-redefine-car-rental-experience/"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 2,
+    "knownDetailedFundingAmount": {
+      "amount": 275000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 9.09,
+    "latestToEarliestKnownValuationMultiple": 0.94
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": -7,
+      "growthScore": 44,
+      "heatChange90Days": -11,
+      "heatScore": 70
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 93.83
+      },
+      "funding": {
+        "generatedDate": "2026-08-13",
+        "probabilityPercent": 39.28,
+        "timingEstimatePercent": {
+          "within6Months": 32.68,
+          "months6To11": 0,
+          "months12To24": 0,
+          "beyond24Months": 67.32
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 84.56
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 4.8
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Rent Centric offers on-demand self-service vehicle rental and car sharing technology to clients worldwide.",
+          "employeeRange": "1-10",
+          "name": "Rent Centric",
+          "sharedCategories": [
+            "Mobile Apps"
+          ],
+          "sharedSpecialties": [
+            "Peer-to-Peer Car Sharing",
+            "Fleet Management Software",
+            "Vehicle Inspection and Damage Assessment",
+            "Online Rental and Billing",
+            "Fleet Telematics and GPS Tracking"
+          ],
+          "similarityScore": 97
+        },
+        {
+          "description": "HQ Rental Software offers the most complete and user-friendly rental software on the web.",
+          "employeeRange": "1-10",
+          "name": "HQ Rental Software",
+          "sharedSpecialties": [
+            "Peer-to-Peer Car Sharing",
+            "Fleet Management Software",
+            "Vehicle Inspection and Damage Assessment",
+            "Online Rental and Billing",
+            "Fleet Telematics and GPS Tracking",
+            "Route Optimization and Fleet Tracking"
+          ],
+          "similarityScore": 95
+        },
+        {
+          "description": "RentSyst offers online software solution services for the car rental business.",
+          "employeeRange": "1-10",
+          "name": "RentSyst",
+          "sharedSpecialties": [
+            "Peer-to-Peer Car Sharing",
+            "Fleet Management Software",
+            "Vehicle Inspection and Damage Assessment",
+            "Online Rental and Billing",
+            "Fleet Telematics and GPS Tracking"
+          ],
+          "similarityScore": 93
+        },
+        {
+          "description": "Voyager is a Demurrage & Operations Management platform that helps bulk charterers reduce cost, risk, and complexity on their voyages.",
+          "employeeRange": "11-50",
+          "name": "Voyager Portal",
+          "sharedCategories": [
+            "SaaS"
+          ],
+          "similarityScore": 91
+        },
+        {
+          "description": "MCS is the supplier of innovative hire software solutions to rental companies.",
+          "employeeRange": "51-100",
+          "name": "MCS Rental Software",
+          "sharedCategories": [
+            "Rental"
+          ],
+          "sharedSpecialties": [
+            "Fleet Management Software",
+            "Online Rental and Billing",
+            "Fleet Telematics and GPS Tracking"
+          ],
+          "similarityScore": 89
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Private Equity round raised $25,000, or 9.09% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $1,750,000 to $1,646,097, a 0.94x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 44 (-7 over 90 days) and market heat at 70 (-11).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Rent Centric, HQ Rental Software, RentSyst.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

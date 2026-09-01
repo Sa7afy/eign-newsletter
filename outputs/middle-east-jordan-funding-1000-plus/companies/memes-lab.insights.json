@@ -1,0 +1,339 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T12:30:51.367Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T12:30:51.365Z",
+    "url": "https://www.crunchbase.com/organization/memes-lab"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "LAB",
+      "shortDescription": "The social layer of trading. Trade together, win together — tokens and tokenized stocks, right from your pocket.",
+      "description": "LAB is a social crypto trading app built for both casual investors and active traders. It lets users hold, swap, and send Ethereum, Solana, USDT, BNB, and 100+ other tokens, alongside tokenized stocks and Robinhood Chain assets, all from one mobile app. \nLAB combines social features - follow other traders, compare performance on leaderboards, and chat inside the app - with practical trading tools like real-time portfolio tracking, and flexible staking with reward boosts for active users. \nWhether someone's buying their first token or actively trading tokenized stocks and crypto, LAB is designed to make investing social, simple, and rewarding.",
+      "website": "https://lab.pro/",
+      "foundedYear": 2024,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "11-50",
+      "headquarters": "Dubai, United Arab Emirates",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Blockchain",
+        "Cryptocurrency",
+        "Web3"
+      ],
+      "sectors": [
+        "Blockchain and Cryptocurrency",
+        "Financial Services",
+        "Internet Services",
+        "Payments",
+        "Software"
+      ],
+      "founders": [
+        "Vova Sadkov"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "A multi-chain trading infrastructure platform designed to facilitate trading across various blockchain networks.",
+        "name": "LAB"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 3800000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 2,
+      "detailedRoundCount": 2,
+      "lastFundingDate": "2025-09-30",
+      "lastFundingType": "Equity Crowdfunding",
+      "rounds": [
+        {
+          "announcedDate": "2025-09-30",
+          "amount": {
+            "amount": 1500000,
+            "currency": "USD"
+          },
+          "type": "Equity Crowdfunding"
+        },
+        {
+          "announcedDate": "2025-02-24",
+          "amount": {
+            "amount": 2300000,
+            "currency": "USD"
+          },
+          "investorCount": 9,
+          "leadInvestors": [
+            "Lemniscap"
+          ],
+          "postMoneyValuation": {
+            "amount": 25951563,
+            "currency": "USD"
+          },
+          "type": "Seed"
+        }
+      ],
+      "investors": {
+        "reportedCount": 9,
+        "visibleNames": [
+          {
+            "name": "Amber Group",
+            "rounds": [
+              "Seed Round"
+            ]
+          },
+          {
+            "name": "Animoca Brands",
+            "rounds": [
+              "Seed Round"
+            ]
+          },
+          {
+            "name": "Castrum Capital",
+            "rounds": [
+              "Seed Round"
+            ]
+          },
+          {
+            "name": "GSR",
+            "rounds": [
+              "Seed Round"
+            ]
+          },
+          {
+            "name": "KuCoin Ventures",
+            "rounds": [
+              "Seed Round"
+            ]
+          },
+          {
+            "isLead": true,
+            "name": "Lemniscap",
+            "rounds": [
+              "Seed Round"
+            ]
+          },
+          {
+            "name": "Mirana",
+            "rounds": [
+              "Seed Round"
+            ]
+          },
+          {
+            "name": "OKX Ventures",
+            "rounds": [
+              "Seed Round"
+            ]
+          },
+          {
+            "name": "tvm ventures",
+            "rounds": [
+              "Seed Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 2,
+      "includedUniqueCount": 2,
+      "items": [
+        {
+          "date": "2025-09-30",
+          "title": "Equity Crowdfunding - LAB"
+        },
+        {
+          "date": "2025-02-24",
+          "title": "Seed Round - LAB"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 2,
+    "knownDetailedFundingAmount": {
+      "amount": 3800000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 39.47,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": 23,
+      "growthScore": 93,
+      "heatChange90Days": -20,
+      "heatScore": 15
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 32.5
+      },
+      "funding": {
+        "generatedDate": "2026-06-20",
+        "probabilityPercent": 87.06,
+        "timingEstimatePercent": {
+          "within6Months": 99.96,
+          "months6To11": 0,
+          "months12To24": 0,
+          "beyond24Months": 0.04
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 95.16
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 3.92
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Blum is a decentralized exchange platform.",
+          "employeeRange": "1-10",
+          "name": "Blum",
+          "sharedCategories": [
+            "Cryptocurrency"
+          ],
+          "sharedSpecialties": [
+            "Market Data and Economic Calendars",
+            "Cryptocurrency Exchanges",
+            "Decentralized Exchanges",
+            "Tokenization Platforms",
+            "Crypto Custody and Wallets",
+            "Cross-Chain Bridges"
+          ],
+          "similarityScore": 93
+        },
+        {
+          "description": "STON.fi is a decentralized TON platform delivering secure swaps, farming rewards, and efficient crypto trading solutions.",
+          "employeeRange": "101-250",
+          "name": "STON.fi",
+          "sharedCategories": [
+            "Blockchain",
+            "Cryptocurrency",
+            "Web3"
+          ],
+          "sharedSpecialties": [
+            "Staking Services",
+            "Decentralized Exchanges",
+            "Tokenization Platforms",
+            "Decentralized Autonomous Organizations (DAO) Platforms",
+            "Cross-Chain Bridges"
+          ],
+          "similarityScore": 89
+        },
+        {
+          "description": "DEXTools is necessary to access subscription tiers and benefit from unlocking all of the features of the DEXT ecosystem.",
+          "employeeRange": "11-50",
+          "name": "DEXTools",
+          "sharedCategories": [
+            "Blockchain",
+            "Cryptocurrency"
+          ],
+          "sharedSpecialties": [
+            "Market Data and Economic Calendars",
+            "Cryptocurrency Exchanges",
+            "Trading APIs and FIX Tools",
+            "Decentralized Exchanges"
+          ],
+          "similarityScore": 83
+        },
+        {
+          "description": "Real-time blockchain analytics",
+          "employeeRange": "1-10",
+          "name": "DEX Screener",
+          "sharedCategories": [
+            "Blockchain",
+            "Cryptocurrency"
+          ],
+          "sharedSpecialties": [
+            "Decentralized Exchanges"
+          ],
+          "similarityScore": 81
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Equity Crowdfunding round raised $1,500,000, or 39.47% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $25,951,563 to $25,951,563, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 93 (+23 over 90 days) and market heat at 15 (-20).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Blum, STON.fi, DEXTools.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

@@ -1,0 +1,217 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T11:56:47.364Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T11:56:47.363Z",
+    "url": "https://www.crunchbase.com/organization/hawkeye-b3e2"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Hawkeye",
+      "shortDescription": "Hawkeye help farmers in the early detection of plant diseases using drone scanning service.",
+      "description": "Hawkeye, help farmers in the early detection of plant diseases using drone scanning service. Using in-house designed and manufactured drones, Hawkeye provides the Agricultural engineer with vegetation indices, thermal maps, and a bird-eye view for the farms to allow more accurate decision-making regarding resource usage and plant disease prevention. The solution also helps in determining the optimal needs of each crop segment from water, fertilizers & pesticides.",
+      "foundedYear": 2018,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "headquarters": "Cairo, Al Qahirah, Egypt",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Middle East",
+        "Middle East and North Africa (MENA)",
+        "North Africa"
+      ],
+      "industries": [
+        "Aerospace",
+        "Agriculture",
+        "Robotics"
+      ],
+      "sectors": [
+        "Agriculture and Farming",
+        "Hardware",
+        "Science and Engineering"
+      ],
+      "founders": [
+        "Ahmad Al-Sebae"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 5000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2018-01-01",
+      "lastFundingType": "Pre Seed",
+      "rounds": [
+        {
+          "announcedDate": "2018-01-01",
+          "amount": {
+            "amount": 5000,
+            "currency": "USD"
+          },
+          "postMoneyValuation": {
+            "amount": 68761,
+            "currency": "USD"
+          },
+          "type": "Pre Seed"
+        }
+      ]
+    },
+    "recentNews": {
+      "reportedCount": 5,
+      "includedUniqueCount": 5,
+      "items": [
+        {
+          "date": "2026-05-07",
+          "publisher": "TradingView",
+          "title": "Space analytics firm HawkEye valued at $3.15 billion as shares rise in NYSE debut",
+          "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L4N41K1PO:0-space-analytics-firm-hawkeye-valued-at-3-15-billion-as-shares-rise-in-nyse-debut/"
+        },
+        {
+          "date": "2026-04-27",
+          "publisher": "Yahoo Finance",
+          "title": "Space analytics firm HawkEye targets $2.4 billion valuation in US IPO",
+          "url": "https://finance.yahoo.com/news/space-analytics-firm-hawkeye-targets-110833744.html"
+        },
+        {
+          "date": "2026-04-10",
+          "publisher": "Yahoo Finance",
+          "title": "Space analytics firm HawkEye's revenue jumped 74% in 2025, US IPO filing shows",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/space-analytics-firm-hawkeyes-revenue-143823992.html"
+        },
+        {
+          "date": "2025-07-30",
+          "publisher": "Newsfile",
+          "title": "HawkEye(TM) Launches in Atlanta to Equip FinTech Founders with a Modern Growth Platform",
+          "url": "https://www.newsfilecorp.com/release/259975/HawkEyeTM-Launches-in-Atlanta-to-Equip-FinTech-Founders-with-a-Modern-Growth-Platform"
+        },
+        {
+          "date": "2018-01-01",
+          "title": "Pre Seed Round - Hawkeye"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 5000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthInsightGeneratedDate": "2026-05-24",
+      "growthChange90Days": -16,
+      "growthScore": 66,
+      "heatChange90Days": -20,
+      "heatScore": 54,
+      "status": "Growing"
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 14.95
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 86.41
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 27.27
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors."
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Pre Seed round raised $5,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $68,761 to $68,761, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 66 (-16 over 90 days) and market heat at 54 (-20).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Strategic repositioning and listing coverage shape the current narrative",
+      "statement": "Hawkeye has a recent strategic-positioning change; 2 recent unique news titles explicitly contain the English terms IPO or listing.",
+      "implication": "Their timing coincides with increased visibility in the loaded news and Crunchbase momentum signals, but the data does not establish causation.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.company.formerName",
+        "facts.recentNews",
+        "providerSignals.crunchbaseMomentum"
+      ],
+      "caveats": [
+        "The causal link to Crunchbase momentum is an inference from timing, not a disclosed company metric."
+      ]
+    },
+    {
+      "title": "IPO intent and modeled likelihood conflict",
+      "statement": "Recent headline metadata discusses an IPO or listing, while Crunchbase’s model assigns a 27.27% IPO probability.",
+      "implication": "Publicly discussed intent should not be treated as proof of execution; the conflict is a useful diligence flag for verifying filing status, timing, and exchange readiness.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.recentNews",
+        "providerSignals.modelPredictions.ipo"
+      ],
+      "caveats": [
+        "The prediction is an opaque model output and may lag current company plans."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

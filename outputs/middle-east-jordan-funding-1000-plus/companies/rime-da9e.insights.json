@@ -1,0 +1,183 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T13:11:55.909Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T13:11:55.907Z",
+    "url": "https://www.crunchbase.com/organization/rime-da9e"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "RIME",
+      "shortDescription": "A specialized Saudi company providing AI driven solutions, integrated with branch monitors and IoT. Utilizing AI agents",
+      "website": "https://rime.sa/en",
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "employeeRange": "11-50",
+      "headquarters": "Riyadh, Ar Riyad, Saudi Arabia",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 2000000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 2,
+      "detailedRoundCount": 2,
+      "lastFundingDate": "2026-08-04",
+      "lastFundingType": "Seed",
+      "rounds": [
+        {
+          "announcedDate": "2026-08-04",
+          "amount": {
+            "amount": 2000000,
+            "currency": "USD"
+          },
+          "investorCount": 3,
+          "leadInvestors": [
+            "SEEDRA Ventures"
+          ],
+          "type": "Seed"
+        },
+        {
+          "announcedDate": "2024-03-01",
+          "investorCount": 1,
+          "leadInvestors": [
+            "SEEDRA Ventures"
+          ],
+          "type": "Pre Seed"
+        }
+      ],
+      "investors": {
+        "reportedCount": 3,
+        "visibleNames": [
+          {
+            "name": "Athla Capital Management",
+            "rounds": [
+              "Seed Round"
+            ]
+          },
+          {
+            "isLead": true,
+            "name": "SEEDRA Ventures",
+            "rounds": [
+              "Seed Round",
+              "Pre Seed Round"
+            ]
+          },
+          {
+            "name": "Unity Investments",
+            "rounds": [
+              "Seed Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 6,
+      "includedUniqueCount": 6,
+      "items": [
+        {
+          "date": "2026-08-27",
+          "publisher": "FinSMEs",
+          "title": "Rime Raises Over $2M in Seed Funding",
+          "url": "https://www.finsmes.com/2026/08/rime-raises-over-2m-in-seed-funding.html"
+        },
+        {
+          "date": "2026-08-08",
+          "publisher": "Arab News",
+          "title": "Startup wrap — Saudi Arabia leads MENA investments in July",
+          "url": "https://www.arabnews.com/node/2653864/business-economy"
+        },
+        {
+          "date": "2026-08-07",
+          "publisher": "FWDStart | MENA Startups, Tech News & VC Insights",
+          "title": "Mubadala makes Moove a unicorn, Careem hands Uber a widening loss",
+          "url": "https://www.fwdstart.me/p/mubadala-makes-moove-a-unicorn-careem-hands-uber-a-widening-loss"
+        },
+        {
+          "date": "2026-08-07",
+          "publisher": "Lucidity Insights",
+          "title": "Saudi Physical AI Startup Rime Raises More Than $2M Seed Round to Scale AI Platform",
+          "url": "https://lucidityinsights.com/news/rime-raises-more-than-2m-seed-round"
+        },
+        {
+          "date": "2026-08-04",
+          "title": "Seed Round - RIME"
+        },
+        {
+          "date": "2024-03-01",
+          "title": "Pre Seed Round - RIME"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 2000000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": 6,
+      "growthScore": 92,
+      "heatChange90Days": 90,
+      "heatScore": 90
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors."
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Seed round raised $2,000,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 92 (+6 over 90 days) and market heat at 90 (+90).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

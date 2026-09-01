@@ -1,0 +1,245 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T12:12:08.550Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T12:12:08.548Z",
+    "url": "https://www.crunchbase.com/organization/kara-3542"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Kara",
+      "shortDescription": "Kara is a DaaS platform that rents out consumer electronic devices to businesses.",
+      "description": "Kara is a DaaS platform that rents out consumer electronic devices to businesses.",
+      "website": "https://rentkara.com/",
+      "foundedYear": 2022,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "11-50",
+      "headquarters": "Riyadh, Ar Riyad, Saudi Arabia",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Information Services",
+        "Rental",
+        "Service Industry"
+      ],
+      "sectors": [
+        "Commerce and Shopping",
+        "Information Technology",
+        "Other"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 585815,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2023-03-14",
+      "lastFundingType": "Pre Seed",
+      "rounds": [
+        {
+          "announcedDate": "2023-03-14",
+          "amount": {
+            "amount": 585815,
+            "currency": "USD"
+          },
+          "investorCount": 2,
+          "leadInvestors": [
+            "Falak Business Hub",
+            "Lean Node"
+          ],
+          "postMoneyValuation": {
+            "amount": 3605194,
+            "currency": "USD"
+          },
+          "type": "Pre Seed"
+        }
+      ],
+      "investors": {
+        "reportedCount": 2,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "Falak Business Hub",
+            "rounds": [
+              "Pre Seed Round"
+            ]
+          },
+          {
+            "isLead": true,
+            "name": "Lean Node",
+            "rounds": [
+              "Pre Seed Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 1,
+      "includedUniqueCount": 1,
+      "items": [
+        {
+          "date": "2023-03-14",
+          "title": "Pre Seed Round - Kara"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 585815,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": 2,
+      "growthScore": 60,
+      "heatChange90Days": 17,
+      "heatScore": 30
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 54.94
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 32.08,
+        "timingEstimatePercent": {
+          "within6Months": 15.03,
+          "months6To11": 12.77,
+          "months12To24": 20.07,
+          "beyond24Months": 24.95
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 95.51
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 56.16
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Grover offers technology subscriptions that enable customers to rent tech products on a monthly basis instead of purchasing them.",
+          "employeeRange": "251-500",
+          "name": "Grover",
+          "sharedCategories": [
+            "Rental"
+          ],
+          "similarityScore": 97
+        },
+        {
+          "description": "Renta Computer specializes in short term events and projects.",
+          "employeeRange": "11-50",
+          "name": "Rentacomputercom",
+          "similarityScore": 95
+        },
+        {
+          "description": "Industry leaders in providing residential and commercial rental furniture.",
+          "employeeRange": "1,001-5,000",
+          "name": "CORT",
+          "similarityScore": 93
+        },
+        {
+          "description": "Meeting Tomorrow is the leading full-service AV & event technology partner to Fortune 500 companies, agencies and associations.",
+          "employeeRange": "51-100",
+          "name": "Meeting Tomorrow",
+          "similarityScore": 91
+        },
+        {
+          "description": "COMPUTATIONAL PHYSICS is a research firm dealing with scientific research on the radiation properties of the Earth's atmosphere.",
+          "employeeRange": "11-50",
+          "name": "COMPUTATIONAL PHYSICS",
+          "similarityScore": 83
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Pre Seed round raised $585,815, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $3,605,194 to $3,605,194, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 60 (+2 over 90 days) and market heat at 30 (+17).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Grover, Rentacomputercom, CORT.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

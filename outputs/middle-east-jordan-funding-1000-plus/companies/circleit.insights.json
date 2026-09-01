@@ -1,0 +1,158 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T11:11:39.767Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T11:11:39.767Z",
+    "url": "https://www.crunchbase.com/organization/circleit"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "GH-UAE",
+      "shortDescription": "Holding Company",
+      "operatingStatus": "Closed",
+      "ownershipStatus": "Private",
+      "estimatedRevenueRange": "$1M-$10M",
+      "headquarters": "Dubai, United Arab Emirates",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "founders": [
+        "Mo Ali"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 1000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 2,
+      "detailedRoundCount": 2,
+      "lastFundingDate": "2022-06-01",
+      "lastFundingType": "Undisclosed",
+      "rounds": [
+        {
+          "announcedDate": "2022-06-01",
+          "type": "Undisclosed"
+        },
+        {
+          "announcedDate": "2010-01-01",
+          "amount": {
+            "amount": 1000,
+            "currency": "USD"
+          },
+          "type": "Pre Seed"
+        }
+      ]
+    },
+    "recentNews": {
+      "reportedCount": 298,
+      "includedUniqueCount": 10,
+      "items": [
+        {
+          "date": "2022-12-10",
+          "publisher": "BARTHENS",
+          "title": "Ride out Tough Times With These Marketing Strategies",
+          "url": "https://barthens.com/ride-out-tough-times-with-these-marketing-strategies/"
+        },
+        {
+          "date": "2022-12-10",
+          "publisher": "STRONG INDIA NEWS",
+          "title": "Four Marketing Strategies for Riding out a Consumer Recession – CMSWire",
+          "url": "https://strongindianews.com/2022/12/10/four-marketing-strategies-for-riding-out-a-consumer-recession-cmswire/"
+        },
+        {
+          "date": "2022-12-09",
+          "publisher": "CMSWire.com",
+          "title": "4 Marketing Strategies for Riding Out a Consumer Recession",
+          "url": "https://www.cmswire.com/digital-marketing/four-marketing-strategies-for-riding-out-a-consumer-recession/"
+        },
+        {
+          "date": "2022-12-03",
+          "publisher": "VSuvo - Web Design Agency",
+          "title": "Issa Rae’s Hoorae Media Partners With Walmart’s ‘Black & Unlimited’ Digital Development Program, Announces Inaugural Class of Creators – Variety",
+          "url": "https://freelanceperfect.com/what-you-need-to-know-about-reddit-marketing-cmswire/"
+        },
+        {
+          "date": "2022-12-03",
+          "publisher": "VSuvo - Web Design Agency",
+          "title": "Deciding on the Best Social Media Platforms for Customer Connection – CMSWire",
+          "url": "https://vsuvo.com/deciding-on-the-best-social-media-platforms-for-customer-connection-cmswire/"
+        },
+        {
+          "date": "2022-12-03",
+          "publisher": "VSuvo - Web Design Agency",
+          "title": "What You Need to Know About Reddit Marketing – CMSWire",
+          "url": "https://vsuvo.com/what-you-need-to-know-about-reddit-marketing-cmswire/"
+        },
+        {
+          "date": "2022-12-03",
+          "publisher": "KongKon - Professional Freelancer",
+          "title": "What You Need to Know About Reddit Marketing – CMSWire - KongKon",
+          "url": "https://freelancerkongkon.com/what-you-need-to-know-about-reddit-marketing-cmswire/"
+        },
+        {
+          "date": "2022-12-02",
+          "publisher": "letstalkabout.cx",
+          "title": "What You Need to Know About Reddit Marketing",
+          "url": "https://www.letstalkabout.cx/what-you-need-to-know-about-reddit-marketing/"
+        },
+        {
+          "date": "2022-12-02",
+          "publisher": "Nightlife",
+          "title": "What You Need to Know About Reddit Marketing – CMSWire",
+          "url": "https://vsay.in/what-you-need-to-know-about-reddit-marketing-cmswire/"
+        },
+        {
+          "date": "2022-12-01",
+          "publisher": "Tech by Abhi",
+          "title": "Using ROAS to Maximize Your Limited Ad Dollars – Destination CRM",
+          "url": "https://techbyabhi.com/using-roas-to-maximize-your-limited-ad-dollars-destination-crm/"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 1000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "heatChange90Days": 0,
+      "heatScore": 5
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors."
+    }
+  },
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "issues": [
+      {
+        "severity": "low",
+        "finding": "Crunchbase reports 298 timeline items but exposes 10 unique items in this payload.",
+        "impact": "Recent news is a partial sample, not a complete history."
+      }
+    ],
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

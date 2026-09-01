@@ -1,0 +1,162 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T12:18:49.341Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T12:18:49.339Z",
+    "url": "https://www.crunchbase.com/organization/leavelo"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Leavelo",
+      "shortDescription": "Online Travel Company",
+      "description": "Leavelo is a niche marketplace for customized exquisite holiday packages. Travelers can customize their trip from select 5 star holdidays based on the type of trip they want to plan such as family trips, group trips, solo trips & more.",
+      "operatingStatus": "Closed",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "11-50",
+      "headquarters": "Dubai, United Arab Emirates",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Tourism",
+        "Tour Operator"
+      ],
+      "sectors": [
+        "Travel and Tourism"
+      ],
+      "founders": [
+        "Jennifer Luken",
+        "Mike Balara"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 375727,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 3,
+      "detailedRoundCount": 3,
+      "lastFundingDate": "2017-07-01",
+      "lastFundingType": "Angel",
+      "rounds": [
+        {
+          "announcedDate": "2017-07-01",
+          "amount": {
+            "amount": 35000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "type": "Angel"
+        },
+        {
+          "announcedDate": "2016-02-02",
+          "amount": {
+            "amount": 88247,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "type": "Pre Seed"
+        },
+        {
+          "announcedDate": "2015-10-03",
+          "amount": {
+            "amount": 252480,
+            "currency": "USD"
+          },
+          "type": "Pre Seed"
+        }
+      ],
+      "investors": {
+        "reportedCount": 2,
+        "visibleNames": [
+          {
+            "name": "ASISH DASH",
+            "rounds": [
+              "Angel Round"
+            ]
+          },
+          {
+            "name": "Lauren Verrette",
+            "rounds": [
+              "Pre Seed Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 4,
+      "includedUniqueCount": 4,
+      "items": [
+        {
+          "date": "2022-12-05",
+          "title": "Leavelo acquired by Trip Ka Baap"
+        },
+        {
+          "date": "2017-07-01",
+          "title": "Angel Round - Leavelo"
+        },
+        {
+          "date": "2016-02-02",
+          "title": "Pre Seed Round - Leavelo"
+        },
+        {
+          "date": "2015-10-03",
+          "title": "Pre Seed Round - Leavelo"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 3,
+    "knownDetailedFundingAmount": {
+      "amount": 375727,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 9.32
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "heatChange90Days": -14,
+      "heatScore": 5
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors."
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Angel round raised $35,000, or 9.32% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

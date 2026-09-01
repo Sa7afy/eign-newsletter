@@ -1,0 +1,239 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T13:00:57.297Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T13:00:57.295Z",
+    "url": "https://www.crunchbase.com/organization/project-hajar"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Project Hajar",
+      "shortDescription": "Project Hajar is an integrated direct air capture and mineralization (DACM) project.",
+      "description": "Project Hajar is an integrated direct air capture and mineralization (DACM) project by MZT and 44.01, situated in Oman.",
+      "website": "https://www.project-hajar.com/",
+      "foundedYear": 2022,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "11-50",
+      "headquarters": "Muscat, Masqat, Oman",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Carbon Capture",
+        "Environmental Consulting"
+      ],
+      "sectors": [
+        "Professional Services",
+        "Sustainability"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 1000000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2022-04-22",
+      "lastFundingType": "Grant",
+      "rounds": [
+        {
+          "announcedDate": "2022-04-22",
+          "amount": {
+            "amount": 1000000,
+            "currency": "USD"
+          },
+          "investorCount": 2,
+          "type": "Grant"
+        }
+      ],
+      "investors": {
+        "reportedCount": 2,
+        "visibleNames": [
+          {
+            "name": "Musk Foundation",
+            "rounds": [
+              "Grant"
+            ]
+          },
+          {
+            "name": "XPRIZE",
+            "rounds": [
+              "Grant"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 1,
+      "includedUniqueCount": 1,
+      "items": [
+        {
+          "date": "2022-04-22",
+          "title": "Grant - Project Hajar"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 1000000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "grantFunding": {
+      "amount": {
+        "amount": 1000000,
+        "currency": "USD"
+      },
+      "disclosedRoundCount": 1,
+      "shareOfTotalPercent": 100
+    }
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": -1,
+      "growthScore": 63,
+      "heatChange90Days": -21,
+      "heatScore": 39
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 61.92
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 56.69
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 49.97
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Climeworks provides carbon removal solutions using direct air capture (DAC) technology to eliminate CO₂ directly from the atmosphere.",
+          "employeeRange": "251-500",
+          "name": "Climeworks",
+          "sharedCategories": [
+            "Carbon Capture"
+          ],
+          "similarityScore": 97
+        },
+        {
+          "description": "Heirloom is a provider of direct air capture technology to enhance the natural process of CO2 absorption from the atmosphere.",
+          "employeeRange": "1-10",
+          "name": "Heirloom",
+          "sharedCategories": [
+            "Carbon Capture"
+          ],
+          "similarityScore": 95
+        },
+        {
+          "description": "Carbon Engineering uses technology to capture carbon dioxide from the atmosphere and convert it into transportation fuels.",
+          "employeeRange": "101-250",
+          "name": "Carbon Engineering",
+          "sharedCategories": [
+            "Carbon Capture"
+          ],
+          "similarityScore": 93
+        },
+        {
+          "description": "AirCapture develops an on site and modular direct air capture technology.",
+          "employeeRange": "11-50",
+          "name": "AirCapture",
+          "sharedCategories": [
+            "Carbon Capture"
+          ],
+          "similarityScore": 89
+        },
+        {
+          "description": "Mission Zero is an Electrochemical that removes carbon dioxide from the air and concentrates it for a variety of sequestration pathways.",
+          "employeeRange": "11-50",
+          "name": "Mission Zero",
+          "sharedCategories": [
+            "Carbon Capture"
+          ],
+          "similarityScore": 88
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Grant round raised $1,000,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Meaningful non-dilutive funding",
+      "statement": "1 disclosed grants total $1,000,000, representing 100% of reported funding.",
+      "implication": "The grants reduce the share of reported financing attributed to equity or notes, although their restrictions and milestone requirements need separate verification.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.grantFunding"
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 63 (-1 over 90 days) and market heat at 39 (-21).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Climeworks, Heirloom, Carbon Engineering.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

@@ -1,0 +1,303 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T12:55:06.122Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T12:55:06.120Z",
+    "url": "https://www.crunchbase.com/organization/pegasus-intelligence"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Pegasus Intelligence",
+      "shortDescription": "Pegasus Intelligence is a company that offers signals intelligence and cyber intelligence solutions to Government and Military clients.",
+      "description": "Pegasus Intelligence is a UAE-based defence and cybersecurity company specialising in signals intelligence (SIGINT), cyber intelligence (CYBINT), surveillance technologies, and advanced security solutions for government, military, and law enforcement agencies. The company focuses on delivering intelligence-driven capabilities designed for modern C5ISR (Command, Control, Communications, Computers, Cyber, Intelligence, Surveillance, and Reconnaissance) operations.",
+      "website": "https://www.pegasusintelligence.com/",
+      "foundedYear": 2008,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "11-50",
+      "headquarters": "Abu Dhabi, United Arab Emirates",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Cyber Security",
+        "Manufacturing",
+        "Military",
+        "National Security"
+      ],
+      "sectors": [
+        "Government and Military",
+        "Information Technology",
+        "Manufacturing",
+        "Privacy and Security"
+      ],
+      "founders": [
+        "Andrew Grunstein"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "A medium-sized semi-autonomous amphibious unmanned ground vehicle designed for combat and logistics missions with autonomous navigation and multiple payload options.",
+        "name": "A.A.S.P. UGV Amphibious Assault Support Platform"
+      },
+      {
+        "description": "A medium-sized semi-autonomous unmanned ground vehicle for combat and logistics missions with autonomous navigation and multiple payload options.",
+        "name": "M.A.P.S UGV"
+      },
+      {
+        "description": "A small unmanned ground vehicle designed for reconnaissance, defile clearing, and intelligence gathering with autonomous and remote control capabilities.",
+        "name": "Ranger UGV"
+      },
+      {
+        "description": "An autonomous unmanned ground vehicle designed to deliver mine consumables and conduct swarm attacks on high-value targets.",
+        "name": "Sapper UGV"
+      },
+      {
+        "description": "A 24/7 real-time RF detection system for identifying wireless eavesdropping devices and preventing wireless hacking.",
+        "name": "Pegasus Smart-D"
+      },
+      {
+        "description": "Training courses and advisory services on human intelligence source handling, operational security, surveillance, analysis, and related skills.",
+        "name": "HUMINT Training and Services"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 16000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2023-12-08",
+      "lastFundingType": "Grant",
+      "rounds": [
+        {
+          "announcedDate": "2023-12-08",
+          "amount": {
+            "amount": 16000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "NASA"
+          ],
+          "type": "Grant"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "NASA",
+            "rounds": [
+              "Grant"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 1,
+      "includedUniqueCount": 1,
+      "items": [
+        {
+          "date": "2023-12-08",
+          "title": "Grant - Pegasus Intelligence"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 16000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "grantFunding": {
+      "amount": {
+        "amount": 16000,
+        "currency": "USD"
+      },
+      "disclosedRoundCount": 1,
+      "shareOfTotalPercent": 100
+    }
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": -4,
+      "growthScore": 36,
+      "heatChange90Days": -10,
+      "heatScore": 60
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 92.16
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 6.9,
+        "timingEstimatePercent": {
+          "within6Months": 0.37,
+          "months6To11": 0,
+          "months12To24": 0,
+          "beyond24Months": 99.63
+        }
+      },
+      "growth": {
+        "generatedDate": "2025-01-11",
+        "probabilityPercent": 95.35
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 12.63
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "L3Harris Technologies provides platform management system solutions for armed forces.",
+          "employeeRange": "10,001+",
+          "name": "L3Harris Technologies",
+          "sharedCategories": [
+            "National Security"
+          ],
+          "sharedSpecialties": [
+            "Drone Platforms and Payload Systems",
+            "Counter-Drone Systems",
+            "Intelligence, Surveillance and Reconnaissance (ISR)",
+            "Electronic Warfare Systems",
+            "Defense Engineering and Systems Integration"
+          ],
+          "similarityScore": 97
+        },
+        {
+          "description": "Rohde & Schwarz is an independent manufacturer of test and measurement equipment for mobile radios, radiocommunications, TV Broadcasting.",
+          "employeeRange": "10,001+",
+          "name": "Rohde & Schwarz",
+          "sharedCategories": [
+            "Cyber Security",
+            "Manufacturing"
+          ],
+          "sharedSpecialties": [
+            "Electronic Warfare Systems"
+          ],
+          "similarityScore": 95
+        },
+        {
+          "description": "Elbit Systems develops, manufactures, and integrates defense electronics and electro-optic systems for customers.",
+          "employeeRange": "10,001+",
+          "name": "Elbit Systems",
+          "sharedCategories": [
+            "Military",
+            "Manufacturing"
+          ],
+          "sharedSpecialties": [
+            "Counter-Drone Systems",
+            "Intelligence, Surveillance and Reconnaissance (ISR)",
+            "Electronic Warfare Systems",
+            "Cyber Threat Intelligence",
+            "Defense Engineering and Systems Integration",
+            "Military Simulation and Training"
+          ],
+          "similarityScore": 93
+        },
+        {
+          "description": "NSO Group develops Cyber Intelligence tools for Governments use only",
+          "employeeRange": "501-1,000",
+          "name": "NSO Group",
+          "sharedCategories": [
+            "Cyber Security",
+            "National Security"
+          ],
+          "sharedSpecialties": [
+            "Counter-Drone Systems",
+            "Cyber Threat Intelligence",
+            "Lawful Interception and Surveillance"
+          ],
+          "similarityScore": 87
+        },
+        {
+          "description": "Cellebrite offers mobile data transfer and mobile forensics solutions.",
+          "employeeRange": "1,001-5,000",
+          "name": "Cellebrite",
+          "similarityScore": 85
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Grant round raised $16,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Meaningful non-dilutive funding",
+      "statement": "1 disclosed grants total $16,000, representing 100% of reported funding.",
+      "implication": "The grants reduce the share of reported financing attributed to equity or notes, although their restrictions and milestone requirements need separate verification.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.grantFunding"
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 36 (-4 over 90 days) and market heat at 60 (-10).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include L3Harris Technologies, Rohde & Schwarz, Elbit Systems.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

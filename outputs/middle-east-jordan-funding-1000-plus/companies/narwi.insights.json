@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T12:41:32.489Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T12:41:32.488Z",
+    "url": "https://www.crunchbase.com/organization/narwi"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Narwi",
+      "shortDescription": "Narwi is the world’s first online micro-giving platform created for Arabs by Arabs.",
+      "description": "Narwi is the world’s first online micro-giving platform created for Arabs by Arabs.\r\n\r\nNarwi is Arabic for “to tell a story,” as well as “to nourish.” We tell the stories of ambitious young men and women from throughout the region with different backgrounds, aspirations, and needs. Our mission is to connect these young Arab micro-entrepreneurs with capital and knowledge, mobilized through the crowd, which enables them to grow sustainable businesses and create jobs for others. \r\n\r\nYoung entrepreneurs in the Arab region face huge challenges in getting financing and support for their businesses. Narwi works to connect young entrepreneurs with local banks, microfinance institutions and other organizations on the ground, who can provide the support they need to help take their startup projects to the next level. \r\n\r\nNarwi provides an easy-to use, transparent and reliable Web platform that allows potential donors throughout the world to choose which young Arab entrepreneurs they want to fund.",
+      "website": "http://www.narwi.org/",
+      "operatingStatus": "Closed",
+      "ownershipStatus": "Private",
+      "companyType": "Nonprofit",
+      "employeeRange": "1-10",
+      "estimatedRevenueRange": "$1M-$10M",
+      "headquarters": "Doha, Ad Dawhah, Qatar",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Internet",
+        "Non Profit"
+      ],
+      "sectors": [
+        "Information Technology",
+        "Social Impact"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 8700000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2018-07-27",
+      "lastFundingType": "Undisclosed",
+      "rounds": [
+        {
+          "announcedDate": "2018-07-27",
+          "amount": {
+            "amount": 8700000,
+            "currency": "USD"
+          },
+          "type": "Undisclosed"
+        }
+      ]
+    },
+    "recentNews": {
+      "reportedCount": 1,
+      "includedUniqueCount": 1,
+      "items": [
+        {
+          "date": "2018-07-27",
+          "title": "Funding Round - Narwi"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 8700000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "heatChange90Days": 2,
+      "heatScore": 52
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors."
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Undisclosed round raised $8,700,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

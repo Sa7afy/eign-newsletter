@@ -1,0 +1,657 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T13:52:42.653Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T13:52:42.649Z",
+    "url": "https://www.crunchbase.com/organization/valu-b635"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "valU",
+      "shortDescription": "valU is a fintech company that provides buy now, pay later, and customized financial solutions.",
+      "description": "valU is a fintech company that offers businesses and customers financial solutions that include buy now and pay later options. They also provided customizable finance plans for home appliances, electronics, furniture, and solar solutions.",
+      "website": "https://www.valu.com.eg/",
+      "foundedYear": 2017,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Public",
+      "companyType": "For profit",
+      "employeeRange": "501-1,000",
+      "estimatedRevenueRange": "$10M-$50M",
+      "headquarters": "Gîza, Al Jizah, Egypt",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Middle East",
+        "Middle East and North Africa (MENA)",
+        "North Africa"
+      ],
+      "industries": [
+        "Consumer Lending",
+        "Finance",
+        "Financial Services",
+        "FinTech",
+        "Information Technology",
+        "Payments",
+        "Software"
+      ],
+      "sectors": [
+        "Financial Services",
+        "Information Technology",
+        "Lending and Investments",
+        "Payments",
+        "Software"
+      ],
+      "founders": [
+        "Ahmed Hashem",
+        "Ahmed Osama",
+        "Walid Hassouna"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "A financial service allowing customers to purchase products immediately and pay for them in installments over time.",
+        "name": "Buy Now, Pay Later"
+      },
+      {
+        "description": "Tailored financial products designed to meet specific customer needs and preferences.",
+        "name": "Customized Financial Solutions"
+      },
+      {
+        "description": "In-app service offering instant large-ticket financing from EGP 1 million using only a national ID.",
+        "name": "Instant large-ticket financing via Valu app"
+      },
+      {
+        "description": "A loyalty program that grants Valu users instant cashback on eligible financed transactions across its ecosystem in Egypt.",
+        "name": "Valu instant cashback loyalty program"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 257345181,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 12,
+      "detailedRoundCount": 10,
+      "lastFundingDate": "2026-08-17",
+      "lastFundingType": "Post IPO Debt",
+      "rounds": [
+        {
+          "announcedDate": "2026-08-17",
+          "amount": {
+            "amount": 19992243,
+            "currency": "USD"
+          },
+          "type": "Post IPO Debt"
+        },
+        {
+          "announcedDate": "2026-06-30",
+          "amount": {
+            "amount": 15124626,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "Al Ahly Pharos"
+          ],
+          "type": "Post IPO Debt"
+        },
+        {
+          "announcedDate": "2026-06-16",
+          "amount": {
+            "amount": 11972229,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "European Bank for Reconstruction and Development"
+          ],
+          "type": "Post IPO Debt"
+        },
+        {
+          "announcedDate": "2026-01-15",
+          "amount": {
+            "amount": 63417305,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "National Bank of Egypt"
+          ],
+          "type": "Post IPO Debt"
+        },
+        {
+          "announcedDate": "2025-12-18",
+          "amount": {
+            "amount": 23153654,
+            "currency": "USD"
+          },
+          "type": "Post IPO Debt"
+        },
+        {
+          "announcedDate": "2025-11-16",
+          "amount": {
+            "amount": 15627412,
+            "currency": "USD"
+          },
+          "type": "Post IPO Debt"
+        },
+        {
+          "announcedDate": "2025-10-05",
+          "amount": {
+            "amount": 22879933,
+            "currency": "USD"
+          },
+          "type": "Post IPO Debt"
+        },
+        {
+          "announcedDate": "2025-08-19",
+          "amount": {
+            "amount": 9507516,
+            "currency": "USD"
+          },
+          "type": "Post IPO Debt"
+        },
+        {
+          "announcedDate": "2025-06-29",
+          "amount": {
+            "amount": 17291153,
+            "currency": "USD"
+          },
+          "investorCount": 2,
+          "leadInvestors": [
+            "Bank ABC",
+            "Industrial Development Bank of Egypt"
+          ],
+          "type": "Post IPO Debt"
+        },
+        {
+          "announcedDate": "2025-05-22",
+          "amount": {
+            "amount": 27000000,
+            "currency": "USD"
+          },
+          "investorCount": 2,
+          "leadInvestors": [
+            "Sanabil",
+            "The Saudi Investment Bank"
+          ],
+          "type": "Private Equity"
+        }
+      ],
+      "investors": {
+        "reportedCount": 12,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "Al Ahli Bank of Kuwait",
+            "rounds": [
+              "Debt Financing"
+            ]
+          },
+          {
+            "isLead": true,
+            "name": "Al Ahly Pharos",
+            "rounds": [
+              "Post-IPO Debt"
+            ]
+          },
+          {
+            "isLead": true,
+            "name": "Bank ABC",
+            "rounds": [
+              "Post-IPO Debt",
+              "Debt Financing"
+            ]
+          },
+          {
+            "isLead": true,
+            "name": "European Bank for Reconstruction and Development",
+            "rounds": [
+              "Post-IPO Debt"
+            ]
+          },
+          {
+            "name": "Fawaz Abdulaziz Alhokair",
+            "rounds": [
+              "Venture round"
+            ]
+          },
+          {
+            "isLead": true,
+            "name": "Industrial Development Bank of Egypt",
+            "rounds": [
+              "Post-IPO Debt"
+            ]
+          },
+          {
+            "isLead": true,
+            "name": "National Bank of Egypt",
+            "rounds": [
+              "Post-IPO Debt"
+            ]
+          },
+          {
+            "isLead": true,
+            "name": "Sanabil",
+            "rounds": [
+              "Private Equity Round"
+            ]
+          },
+          {
+            "isLead": true,
+            "name": "The Saudi Investment Bank",
+            "rounds": [
+              "Private Equity Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 182,
+      "includedUniqueCount": 10,
+      "items": [
+        {
+          "date": "2026-08-17",
+          "title": "Post-IPO Debt - valU"
+        },
+        {
+          "date": "2026-08-14",
+          "publisher": "FWDStart | MENA Startups, Tech News & VC Insights",
+          "title": "Tabby and Tamara diverge in Saudi, CMA probes the Kingdom's IPO flops",
+          "url": "https://www.fwdstart.me/p/tabby-and-tamara-diverge-in-saudi-cma-probes-the-kingdom-s-ipo-flops"
+        },
+        {
+          "date": "2026-08-12",
+          "publisher": "TechAfrica News",
+          "title": "Valu and IKEA Egypt Renew Partnership with Exclusive Flexible Payment Offering",
+          "url": "https://techafricanews.com/2026/08/12/valu-and-ikea-egypt-renew-partnership-with-exclusive-flexible-payment-offering/"
+        },
+        {
+          "date": "2026-08-08",
+          "publisher": "Arab News",
+          "title": "How MENA’s homegrown platforms are democratizing access to finance",
+          "url": "https://www.arabnews.com/node/2653859/business-economy"
+        },
+        {
+          "date": "2026-07-20",
+          "publisher": "TechAfrica News",
+          "title": "Valu Expands Travel Fintech Offering Through Strategic Partnership with Wego",
+          "url": "https://techafricanews.com/2026/07/20/valu-expands-travel-fintech-offering-through-strategic-partnership-with-wego/"
+        },
+        {
+          "date": "2026-07-13",
+          "publisher": "Zawya.com",
+          "title": "Vaiu introduces instant cashback loyalty program for payments",
+          "url": "https://www.zawya.com/en/economy/north-africa/vaiu-introduces-instant-cashback-loyalty-program-for-payments-ksuovx4d"
+        },
+        {
+          "date": "2026-07-13",
+          "publisher": "TechAfrica News",
+          "title": "Valu Launches Egypt’s First Instant Cashback Loyalty Programme for Payments",
+          "url": "https://techafricanews.com/2026/07/13/valu-launches-egypts-first-instant-cashback-loyalty-programme-for-payments/"
+        },
+        {
+          "date": "2026-07-12",
+          "publisher": "Zawya.com",
+          "title": "Valu launches Egypt’s first instant cashback loyalty program, redefining rewards for everyday spending",
+          "url": "https://www.zawya.com/en/press-release/companies-news/valu-launches-egypts-first-instant-cashback-loyalty-program-redefining-rewards-for-everyday-spending-lpad9pxr"
+        },
+        {
+          "date": "2026-07-12",
+          "publisher": "SecneNow",
+          "title": "Fintech Valu Launches Egypt’s First Instant Cashback Loyalty Programme",
+          "url": "https://thestartupscene.me/MenaEcosystems/Fintech-Valu-Launches-Egypt-s-First-Instant-Cashback-Loyalty-Programme"
+        },
+        {
+          "date": "2026-07-12",
+          "publisher": "TradingView",
+          "title": "ZAWYA: Valu launches Egypt’s first instant cashback loyalty program, redefining rewards for everyday spending",
+          "url": "https://www.tradingview.com/news/reuters.com,2026-07-12:newsml_ZawJHHjf:0-zawya-valu-launches-egypt-s-first-instant-cashback-loyalty-program-redefining-rewards-for-everyday-spending/"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 10,
+    "knownDetailedFundingAmount": {
+      "amount": 225966071,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 87.81,
+    "unattributedFundingAmount": {
+      "amount": 31379110,
+      "currency": "USD"
+    },
+    "latestRoundShareOfTotalPercent": 7.77
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "reportedPartnerships": {
+      "note": "Provider event summaries with linked sources; not independently verified.",
+      "items": [
+        {
+          "date": "2026-07-20",
+          "description": "Valu and Wego formed a strategic partnership integrating Valu’s flexible financing into Wego’s travel marketplace in Egypt, enabling travelers to pay for flights and accommodation via installment plans of up to 60 months.",
+          "sources": [
+            {
+              "date": "2026-07-20",
+              "publisher": "TechAfrica News",
+              "title": "Valu Expands Travel Fintech Offering Through Strategic Partnership with Wego",
+              "url": "https://techafricanews.com/2026/07/20/valu-expands-travel-fintech-offering-through-strategic-partnership-with-wego/"
+            }
+          ]
+        },
+        {
+          "date": "2026-06-10",
+          "description": "Valu Jordan and Network International Jordan have signed a strategic partnership to integrate Valu's buy now, pay later services across Network International’s merchant network in Jordan, enabling BNPL at physical and online points of sale via NI’s POS terminals and QR-based digital flows.",
+          "sources": [
+            {
+              "date": "2026-06-10",
+              "publisher": "Zawya.com",
+              "title": "Valu Jordan and Network International Jordan launch strategic partnership to expand \"Buy Now, Pay Later\" solutions",
+              "url": "https://www.zawya.com/en/press-release/companies-news/valu-jordan-and-network-international-jordan-launch-strategic-partnership-to-expand-buy-now-pay-later-solutions-dnj0t6h5"
+            }
+          ]
+        },
+        {
+          "date": "2026-04-27",
+          "description": "Valu and Dubai Phone entered a new partnership to integrate Valu’s BNPL financing and fully digital onboarding into the Dubai Phone mobile app, enabling instant, paperless account activation and embedded financing at checkout for customers in Egypt.",
+          "sources": [
+            {
+              "date": "2026-04-27",
+              "publisher": "Zawya.com",
+              "title": "Valu enables seamless digital onboarding on Dubai Phone App, expanding access to instant BNPL services in Egypt",
+              "url": "https://www.zawya.com/en/press-release/companies-news/valu-enables-seamless-digital-onboarding-on-dubai-phone-app-expanding-access-to-instant-bnpl-services-in-egypt-wqkkm4zk"
+            }
+          ]
+        },
+        {
+          "date": "2026-03-09",
+          "description": "Valu formed a new sponsorship partnership with Newgiza Sports Club to support and sponsor NGSC’s water polo teams, aligning Valu’s brand with athlete development and Egyptian sports growth.",
+          "sources": [
+            {
+              "date": "2026-03-09",
+              "publisher": "Zawya.com",
+              "title": "Valu partners with Newgiza Sports Club to support their water polo teams",
+              "url": "https://www.zawya.com/en/press-release/companies-news/valu-partners-with-newgiza-sports-club-to-support-their-water-polo-teams-uylm7o5v"
+            }
+          ]
+        },
+        {
+          "date": "2026-01-27",
+          "description": "Valu and Voltة announced a strategic partnership to offer flexible financing plans for Voltة’s locally manufactured neighborhood electric vehicles in Egypt.",
+          "sources": [
+            {
+              "date": "2026-01-27",
+              "publisher": "Zawya.com",
+              "title": "Valu partners with Voltة to make locally manufactured green neighborhood EVs accessible in Egypt",
+              "url": "https://www.zawya.com/en/press-release/companies-news/valu-partners-with-volt-to-make-locally-manufactured-green-neighborhood-evs-accessible-in-egypt-ytiklbda"
+            }
+          ]
+        },
+        {
+          "date": "2025-12-07",
+          "description": "Valu and TimeOut Sports & Entertainment formed a strategic partnership to let Egyptian fans buy FIFA World Cup 2026 hospitality packages using Valu-powered installment payment plans.",
+          "sources": [
+            {
+              "date": "2025-12-07",
+              "publisher": "Zawya.com",
+              "title": "Valu and TimeOut Sports & Entertainment partner to offer exclusive FIFA World Cup 2026 hospitality packages",
+              "url": "https://www.zawya.com/en/press-release/companies-news/valu-and-timeout-sports-and-entertainment-partner-to-offer-exclusive-fifa-world-cup-2026-hospitality-packages-gzh7kf4y"
+            }
+          ]
+        },
+        {
+          "date": "2025-10-27",
+          "description": "Valu renewed its partnership with Amazon Egypt to expand embedded financing options for Amazon.eg shoppers, signaling an enhanced BNPL offering.",
+          "sources": [
+            {
+              "date": "2025-10-27",
+              "publisher": "Zawya.com",
+              "title": "Valu renews partnership with Amazon Egypt to expand seamless financing solutions",
+              "url": "https://www.zawya.com/en/economy/north-africa/valu-renews-partnership-with-amazon-egypt-to-expand-seamless-financing-solutions-slhjpfkd"
+            }
+          ]
+        },
+        {
+          "date": "2025-09-17",
+          "description": "Valu and e-commerce marketplace noon announced a partnership to launch Egypt’s first licensed BNPL digital onboarding within noon’s app under the FRA FinTech License, enabling instant eKYC and e-signature signup at checkout.",
+          "sources": [
+            {
+              "date": "2025-09-17",
+              "publisher": "TechAfrica News",
+              "title": "Valu and noon Launch Egypt’s First Licensed Digital Onboarding for BNPL Payments",
+              "url": "https://techafricanews.com/2025/09/17/valu-and-noon-launch-egypts-first-licensed-digital-onboarding-for-bnpl-payments/"
+            }
+          ]
+        },
+        {
+          "date": "2025-07-10",
+          "description": "Valu has announced new partnerships with local merchants and financial institutions in Jordan to support the launch of its BNPL services.",
+          "sources": [
+            {
+              "date": "2025-07-10",
+              "publisher": "SecneNow",
+              "title": "ValU Secures CBOJ Nod to Launch BNPL Services in Jordan",
+              "url": "https://thestartupscene.me/INVESTMENTS/ValU-Secures-CBOJ-Nod-to-Launch-BNPL-Services-in-Jordan"
+            }
+          ]
+        }
+      ]
+    },
+    "crunchbaseMomentum": {
+      "growthInsightGeneratedDate": "2026-08-09",
+      "growthChange90Days": -7,
+      "growthScore": 87,
+      "heatChange90Days": -4,
+      "heatScore": 80,
+      "status": "Growing"
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2025-09-22",
+        "probabilityPercent": 0.03
+      },
+      "funding": {
+        "generatedDate": "2025-05-25",
+        "probabilityPercent": 68.3,
+        "timingEstimatePercent": {
+          "within6Months": 14.88,
+          "months6To11": 12.67,
+          "months12To24": 19.96,
+          "beyond24Months": 24.94
+        }
+      },
+      "growth": {
+        "generatedDate": "2025-07-03",
+        "probabilityPercent": 93.98
+      },
+      "ipo": {
+        "generatedDate": "2025-05-20",
+        "probabilityPercent": 11.99
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Paymob is a digital payments enabler for emerging markets, helping small and large enterprises accept payments online and in-store.",
+          "employeeRange": "1,001-5,000",
+          "name": "Paymob",
+          "sharedCategories": [
+            "Financial Services",
+            "FinTech",
+            "Payments"
+          ],
+          "sharedSpecialties": [
+            "Payment Processing",
+            "Banking-as-a-Service (BaaS)",
+            "Payment Facilitation (PayFac) Infrastructure",
+            "Loan Payment Services",
+            "Payment Analytics and Dashboard"
+          ],
+          "similarityScore": 100
+        },
+        {
+          "description": "Kashier is a payment management platform for commerce and retail businesses that provide tools used for running a business.",
+          "employeeRange": "101-250",
+          "name": "Kashier",
+          "sharedCategories": [
+            "Financial Services",
+            "Software",
+            "FinTech",
+            "Payments"
+          ],
+          "sharedSpecialties": [
+            "Payment Processing",
+            "Loan Payment Services",
+            "Merchant Services",
+            "Payment Analytics and Dashboard"
+          ],
+          "similarityScore": 95.067
+        },
+        {
+          "description": "Lucky provides a fintech application that combines credit, cashback rewards, and payment-related services into one digital platform.",
+          "employeeRange": "251-500",
+          "name": "Lucky",
+          "sharedCategories": [
+            "Financial Services",
+            "FinTech",
+            "Payments"
+          ],
+          "similarityScore": 90.564
+        },
+        {
+          "description": "Rayashop is an eCommerce website that retails and distributes consumer electronic goods with the best prices and quality.",
+          "employeeRange": "101-250",
+          "name": "Rayashop",
+          "sharedCategories": [
+            "Payments"
+          ],
+          "similarityScore": 85.996
+        },
+        {
+          "description": "Splitit is a payment method solution enabling customers to pay for purchases with an existing credit card.",
+          "employeeRange": "51-100",
+          "name": "Splitit",
+          "sharedCategories": [
+            "Financial Services",
+            "Finance",
+            "FinTech",
+            "Payments"
+          ],
+          "sharedSpecialties": [
+            "Payment Processing",
+            "Payment Facilitation (PayFac) Infrastructure",
+            "Merchant Services",
+            "Payment Fraud Detection",
+            "Payment Analytics and Dashboard"
+          ],
+          "similarityScore": 81.467
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Post IPO Debt round raised $19,992,243, or 7.77% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ],
+      "caveats": [
+        "Crunchbase reports 12 rounds but provides 10 detailed rows."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 87 (-7 over 90 days) and market heat at 80 (-4).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Strategic repositioning and listing coverage shape the current narrative",
+      "statement": "valU has a recent strategic-positioning change; 2 recent unique news titles explicitly contain the English terms IPO or listing.",
+      "implication": "Their timing coincides with increased visibility in the loaded news and Crunchbase momentum signals, but the data does not establish causation.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.company.formerName",
+        "facts.recentNews",
+        "providerSignals.crunchbaseMomentum"
+      ],
+      "caveats": [
+        "The causal link to Crunchbase momentum is an inference from timing, not a disclosed company metric."
+      ]
+    },
+    {
+      "title": "IPO intent and modeled likelihood conflict",
+      "statement": "Recent headline metadata discusses an IPO or listing, while Crunchbase’s model assigns a 11.99% IPO probability.",
+      "implication": "Publicly discussed intent should not be treated as proof of execution; the conflict is a useful diligence flag for verifying filing status, timing, and exchange readiness.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.recentNews",
+        "providerSignals.modelPredictions.ipo"
+      ],
+      "caveats": [
+        "The prediction is an opaque model output and may lag current company plans."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Paymob, Kashier, Lucky.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "issues": [
+      {
+        "severity": "medium",
+        "finding": "Crunchbase reports 12 funding rounds but supplies 10 detailed rows.",
+        "impact": "The detailed round history is incomplete."
+      },
+      {
+        "severity": "medium",
+        "finding": "Disclosed detailed amounts total $225,966,071, leaving $31,379,110 of reported funding unattributed.",
+        "impact": "Do not invent or assign the missing amount to a round."
+      },
+      {
+        "severity": "low",
+        "finding": "Crunchbase reports 182 timeline items but exposes 10 unique items in this payload.",
+        "impact": "Recent news is a partial sample, not a complete history."
+      }
+    ],
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

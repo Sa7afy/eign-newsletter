@@ -1,0 +1,275 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T13:44:29.379Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T13:44:29.377Z",
+    "url": "https://www.crunchbase.com/organization/thirty-sleeps"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Thirty Sleeps",
+      "shortDescription": "Thirty Sleeps is a digital platform with a human touch, facilitating long-stay accommodation (30+ nights) for B2C, B2B and B2B2C guests.",
+      "description": "Thirty Sleeps is a hospitality and travel services company that operates a digital platform focused on extended-stay accommodation for periods of 30 nights or more. Its platform connects individuals, remote workers, business travelers, relocating employees, and corporate clients with hotels, serviced apartments, villas, and other furnished accommodation providers across the UAE and selected regional markets.",
+      "website": "https://www.thirtysleeps.com/",
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "1-10",
+      "headquarters": "Dubai, United Arab Emirates",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Hospitality",
+        "Marketplace",
+        "Software",
+        "Travel"
+      ],
+      "sectors": [
+        "Commerce and Shopping",
+        "Software",
+        "Travel and Tourism"
+      ],
+      "founders": [
+        "Osama Shawky"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "A platform facilitating booking of long-term stays (30+ nights) in hotels, serviced apartments, and villas across UAE.",
+        "name": "Long-Stay Accommodation Booking Service"
+      },
+      {
+        "description": "A service providing personalized support and assistance for guests during their long-term stay bookings.",
+        "name": "Personalized Concierge Service"
+      },
+      {
+        "description": "A curated network of hotels, serviced apartments, and villas partnered with Thirty Sleeps for long-term stay offerings.",
+        "name": "Accommodation Partner Network"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 280000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2023-05-01",
+      "lastFundingType": "Seed",
+      "rounds": [
+        {
+          "announcedDate": "2023-05-01",
+          "amount": {
+            "amount": 280000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "Nexa Digital"
+          ],
+          "postMoneyValuation": {
+            "amount": 18451874,
+            "currency": "USD"
+          },
+          "type": "Seed"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "Nexa Digital",
+            "rounds": [
+              "Seed Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 2,
+      "includedUniqueCount": 2,
+      "items": [
+        {
+          "date": "2023-07-11",
+          "publisher": "crunch/DUBAI – Dubai's StartUPs and people - The media about startups and people in Dubai",
+          "title": "Thirty Sleeps: NEW Lovely Way To Long-Stay Experience And AMAZED $USD 1.5 MILLION!",
+          "url": "https://crunchdubai.com/thirty-sleeps/"
+        },
+        {
+          "date": "2023-05-01",
+          "title": "Seed Round - Thirty Sleeps"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 280000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": -1,
+      "growthScore": 20,
+      "heatChange90Days": -5,
+      "heatScore": 77
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 57.59
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 36.95,
+        "timingEstimatePercent": {
+          "within6Months": 13.78,
+          "months6To11": 11.88,
+          "months12To24": 19.07,
+          "beyond24Months": 24.72
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 86.5
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 48.29
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Habyt is a housing company that simplifies housing access with digital-first solutions for tenants and landlords.",
+          "employeeRange": "251-500",
+          "name": "Habyt",
+          "sharedSpecialties": [
+            "Coliving and Serviced Residences",
+            "Apartment Rentals"
+          ],
+          "similarityScore": 95
+        },
+        {
+          "description": "Landing is a membership-based network that offers a subscription model for the apartment rental experience.",
+          "employeeRange": "251-500",
+          "name": "Landing",
+          "sharedSpecialties": [
+            "Coliving and Serviced Residences",
+            "Apartment Rentals",
+            "Property Search and Listing Services",
+            "Corporate Travel Management"
+          ],
+          "similarityScore": 93
+        },
+        {
+          "description": "Ohmyhome is a proptech marketplace for housing transactions, connecting homeowners to home seekers directly.",
+          "employeeRange": "51-100",
+          "name": "Ohmyhome",
+          "sharedCategories": [
+            "Marketplace"
+          ],
+          "sharedSpecialties": [
+            "Property Search and Listing Services"
+          ],
+          "similarityScore": 91
+        },
+        {
+          "description": "RentRemote is a SaaS company that offers a platform designed for remote working professionals looking for furnished rentals.",
+          "employeeRange": "1-10",
+          "name": "Rent Remote",
+          "sharedCategories": [
+            "Software"
+          ],
+          "sharedSpecialties": [
+            "Coliving and Serviced Residences",
+            "Apartment Rentals",
+            "Property Search and Listing Services"
+          ],
+          "similarityScore": 89
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Seed round raised $280,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $18,451,874 to $18,451,874, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 20 (-1 over 90 days) and market heat at 77 (-5).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Habyt, Landing, Ohmyhome.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

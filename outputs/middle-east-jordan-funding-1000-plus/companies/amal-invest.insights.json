@@ -1,0 +1,313 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T09:12:08.344Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T09:12:08.342Z",
+    "url": "https://www.crunchbase.com/organization/amal-invest"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Amal Invest",
+      "shortDescription": "Amal Invest is a fintech company that offers an investing app for ethical investors.",
+      "description": "Amal Invest is an investing app for Muslims that is built for ethical investors. \n\nIt was founded in 2021 and is located in Manama, Capital Governorate, Bahrain.",
+      "website": "https://amalinvest.com/",
+      "foundedYear": 2021,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "1-10",
+      "headquarters": "Manama, Al Manamah, Bahrain",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Apps",
+        "Finance",
+        "Financial Services"
+      ],
+      "sectors": [
+        "Apps",
+        "Financial Services",
+        "Software"
+      ],
+      "founders": [
+        "Yazin Alirhayim"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "A Shariah-compliant investment fund aimed at long-term capital growth over three or more years with medium risk.",
+        "name": "Grow Fund"
+      },
+      {
+        "description": "A Shariah-compliant investment fund focused on providing steady income with lower risk and less volatility.",
+        "name": "Save Fund"
+      },
+      {
+        "description": "A service that automatically screens and filters investment funds and stocks to ensure compliance with Shariah law and ethical criteria.",
+        "name": "Shariah-Compliant Fund Screening and Filtering Service"
+      },
+      {
+        "description": "Access to Shariah-compliant versions of over 100,000 investment funds, including ETFs and mutual funds, filtered for Islamic compliance.",
+        "name": "Halal-Filtered Fund Access"
+      },
+      {
+        "description": "A Shariah-compliant trading tool integrated with Interactive Brokers accounts for real-time compliance monitoring and automated portfolio purification.",
+        "name": "Amal Invest for Interactive Brokers (IBKR) Integration"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 500000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2022-03-22",
+      "lastFundingType": "Pre Seed",
+      "rounds": [
+        {
+          "announcedDate": "2022-03-22",
+          "amount": {
+            "amount": 500000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "Y Combinator"
+          ],
+          "postMoneyValuation": {
+            "amount": 4745244,
+            "currency": "USD"
+          },
+          "type": "Pre Seed"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "Y Combinator",
+            "rounds": [
+              "Pre Seed Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 2,
+      "includedUniqueCount": 2,
+      "items": [
+        {
+          "date": "2024-01-15",
+          "publisher": "Bangkok Post",
+          "title": "Amal Group Invests THB11 Billion in \"Gardens of Eden\"",
+          "url": "https://www.bangkokpost.com/thailand/pr/2724340/amal-group-invests-thb11-billion-in-gardens-of-eden"
+        },
+        {
+          "date": "2022-03-22",
+          "title": "Pre Seed Round - Amal Invest"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 500000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthInsightGeneratedDate": "2024-06-30",
+      "growthChange90Days": 1,
+      "growthScore": 55,
+      "heatChange90Days": -5,
+      "heatScore": 72,
+      "status": "Growing"
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 46.8
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 22.13,
+        "timingEstimatePercent": {
+          "within6Months": 15.48,
+          "months6To11": 13.08,
+          "months12To24": 20.41,
+          "beyond24Months": 24.99
+        }
+      },
+      "growth": {
+        "generatedDate": "2025-12-06",
+        "probabilityPercent": 86.47
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 39.49
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Zoya is the #1 halal investing app. Discover Shariah-compliant stocks and ETFs, track your portfolio, and calculate zakat all in one place.",
+          "employeeRange": "1-10",
+          "name": "Zoya",
+          "sharedCategories": [
+            "Financial Services"
+          ],
+          "sharedSpecialties": [
+            "Personal Finance Management (PFM) Platforms",
+            "Compliance Automation",
+            "Responsible Investing",
+            "Trading APIs and FIX Tools",
+            "Islamic Finance"
+          ],
+          "similarityScore": 97
+        },
+        {
+          "description": "Musaffa is a Shariah-compliant (Halal) investment and trading platform that allows Muslims globally to buy and sell stocks and ETFs.",
+          "employeeRange": "11-50",
+          "name": "Musaffa",
+          "sharedCategories": [
+            "Financial Services",
+            "Finance"
+          ],
+          "sharedSpecialties": [
+            "Robo-Advisory and Automated Investing",
+            "Personal Finance Management (PFM) Platforms",
+            "Islamic Finance",
+            "ETF Management"
+          ],
+          "similarityScore": 95
+        },
+        {
+          "description": "Islamicly provides an app-based stock screener for halal equity investments. It features real-time information, market updates,trade alerts.",
+          "employeeRange": "101-250",
+          "name": "Islamicly",
+          "sharedCategories": [
+            "Financial Services"
+          ],
+          "sharedSpecialties": [
+            "Robo-Advisory and Automated Investing",
+            "Personal Finance Management (PFM) Platforms",
+            "Trading APIs and FIX Tools",
+            "Islamic Finance"
+          ],
+          "similarityScore": 93
+        },
+        {
+          "description": "Wahed is an online Halal investing platform that focuses on financial inclusion through accessible, affordable, and values-based investing.",
+          "employeeRange": "101-250",
+          "name": "Wahed",
+          "sharedCategories": [
+            "Financial Services"
+          ],
+          "sharedSpecialties": [
+            "Robo-Advisory and Automated Investing",
+            "Responsible Investing",
+            "Islamic Finance",
+            "ETF Management"
+          ],
+          "similarityScore": 91
+        },
+        {
+          "description": "SP Funds is a financial exchange company that helps investors achieve investment goals.",
+          "employeeRange": "11-50",
+          "name": "SP Funds",
+          "sharedCategories": [
+            "Financial Services"
+          ],
+          "sharedSpecialties": [
+            "Responsible Investing",
+            "Islamic Finance",
+            "ETF Management"
+          ],
+          "similarityScore": 89
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Pre Seed round raised $500,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $4,745,244 to $4,745,244, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 55 (+1 over 90 days) and market heat at 72 (-5).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Zoya, Musaffa, Islamicly.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

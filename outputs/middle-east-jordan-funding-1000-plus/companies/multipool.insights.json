@@ -1,0 +1,340 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T12:38:07.896Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T12:38:07.894Z",
+    "url": "https://www.crunchbase.com/organization/multipool"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Multipool",
+      "shortDescription": "Multipool is a cutting-edge DEX transforming the trading landscape for RWAs and cryptocurrencies.",
+      "description": "Multipool is a cutting-edge DEX transforming the trading landscape for RWAs and cryptocurrencies. It is designed for fairness and equality, featuring a fully decentralized on-chain order book, deep liquidity through dynamic bracket pools, and utilizing on-chain compliance tools.",
+      "website": "https://www.multipool.finance/",
+      "foundedYear": 2023,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "estimatedRevenueRange": "Less than $1M",
+      "headquarters": "Dubai, United Arab Emirates",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Blockchain",
+        "Cryptocurrency",
+        "FinTech",
+        "Trading Platform"
+      ],
+      "sectors": [
+        "Blockchain and Cryptocurrency",
+        "Financial Services",
+        "Lending and Investments",
+        "Payments",
+        "Software"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "An on-chain order book system that manages over 1 billion orders and cancellations per tick price, enhanced by dynamic bracket pools to improve market liquidity.",
+        "name": "Fully Trustless On-Chain Order Book"
+      },
+      {
+        "description": "A decentralized marketplace enabling fully on-chain trading of real-world assets (RWAs) alongside cryptocurrencies.",
+        "name": "Global Real World Asset Marketplace"
+      },
+      {
+        "description": "A decentralized peer-to-peer lending service facilitating direct lending transactions without intermediaries.",
+        "name": "P2P Repo Lending"
+      },
+      {
+        "description": "An auction mechanism designed to execute trades without causing price impact, ensuring optimal trade execution.",
+        "name": "Zero Price Impact Auctions"
+      },
+      {
+        "description": "A decentralized protocol enabling transparent and secure quote requests for trades without intermediaries.",
+        "name": "Trustless RFQs (Request for Quotes)"
+      },
+      {
+        "description": "A feature that protects trades from front-running and other malicious Miner Extractable Value (MEV) activities.",
+        "name": "MEV Bot Protection"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 650000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 2,
+      "detailedRoundCount": 2,
+      "lastFundingDate": "2024-07-23",
+      "lastFundingType": "Corporate Round",
+      "rounds": [
+        {
+          "announcedDate": "2024-07-23",
+          "investorCount": 1,
+          "leadInvestors": [
+            "Kronos Research"
+          ],
+          "type": "Corporate Round"
+        },
+        {
+          "announcedDate": "2024-05-15",
+          "amount": {
+            "amount": 650000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "NXGEN"
+          ],
+          "postMoneyValuation": {
+            "amount": 11230869,
+            "currency": "USD"
+          },
+          "type": "Venture round"
+        }
+      ],
+      "investors": {
+        "reportedCount": 2,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "Kronos Research",
+            "rounds": [
+              "Corporate Round"
+            ]
+          },
+          {
+            "isLead": true,
+            "name": "NXGEN",
+            "rounds": [
+              "Venture round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 6,
+      "includedUniqueCount": 6,
+      "items": [
+        {
+          "date": "2024-07-23",
+          "title": "Corporate Round - Multipool"
+        },
+        {
+          "date": "2024-07-16",
+          "publisher": "Coinspeaker",
+          "title": "Multipool Enters Strategic Partnership with Tokinvest Delivering Next-Level Tokenized Real-World Asset Trading",
+          "url": "https://www.coinspeaker.com/multipool-enters-strategic-partnership-with-tokinvest/"
+        },
+        {
+          "date": "2024-05-27",
+          "publisher": "Coinspeaker",
+          "title": "Multipool Sells Out Fjord Foundry LBP",
+          "url": "https://www.coinspeaker.com/multipool-sells-out-fjord-foundry-lbp/"
+        },
+        {
+          "date": "2024-05-23",
+          "publisher": "TechStartups",
+          "title": "Multipool Enters Partnership with Mobilum Offering Users Fiat to DeFi On/Off Ramp",
+          "url": "https://techstartups.com/2024/05/23/multipool-enters-partnership-with-mobilum-offering-users-fiat-to-defi-on-off-ramp/"
+        },
+        {
+          "date": "2024-05-21",
+          "publisher": "TechStartups",
+          "title": "Multipool Partners with BSO Enabling Ultra-fast Low Latency Trading",
+          "url": "https://techstartups.com/2024/05/21/multipool-partners-with-bso-enabling-ultra-fast-low-latency-trading/"
+        },
+        {
+          "date": "2024-05-15",
+          "title": "Venture Round - Multipool"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 650000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": -4,
+      "growthScore": 50,
+      "heatChange90Days": -19,
+      "heatScore": 8
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 85.14
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 62.86,
+        "timingEstimatePercent": {
+          "within6Months": 95.09,
+          "months6To11": 0,
+          "months12To24": 0,
+          "beyond24Months": 4.91
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-06-22",
+        "probabilityPercent": 78.5
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 4.56
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Vertex Protocol is a decentralized FX trading platform.",
+          "employeeRange": "11-50",
+          "name": "Vertex Protocol",
+          "sharedCategories": [
+            "Trading Platform",
+            "Cryptocurrency"
+          ],
+          "sharedSpecialties": [
+            "Execution Management Systems",
+            "Algorithmic Trading and Order Management",
+            "Crypto-Backed Lending",
+            "Decentralized Exchanges",
+            "Market Making Services"
+          ],
+          "similarityScore": 95
+        },
+        {
+          "description": "dYdX Trading Inc. develops a decentralized exchange platform for trading crypto perpetual contracts and derivatives.",
+          "employeeRange": "51-100",
+          "name": "dYdX Trading",
+          "sharedCategories": [
+            "Blockchain",
+            "Trading Platform",
+            "Cryptocurrency",
+            "FinTech"
+          ],
+          "sharedSpecialties": [
+            "Execution Management Systems",
+            "Algorithmic Trading and Order Management",
+            "Decentralized Exchanges",
+            "Tokenization Platforms"
+          ],
+          "similarityScore": 94
+        },
+        {
+          "description": "Universal ZK Settlement Layer that makes any exchange Provable",
+          "employeeRange": "11-50",
+          "name": "Hashflow",
+          "sharedCategories": [
+            "Trading Platform",
+            "Cryptocurrency"
+          ],
+          "sharedSpecialties": [
+            "Smart Contract Auditing",
+            "Decentralized Exchanges",
+            "Tokenization Platforms",
+            "Market Making Services"
+          ],
+          "similarityScore": 89
+        },
+        {
+          "description": "GMX is a decentralized perpetual exchange.",
+          "name": "GMX",
+          "sharedCategories": [
+            "Trading Platform"
+          ],
+          "similarityScore": 87
+        },
+        {
+          "description": "Orderly Network is a next generation trading infrastructure.",
+          "employeeRange": "11-50",
+          "name": "Orderly Network",
+          "sharedCategories": [
+            "Blockchain",
+            "Cryptocurrency"
+          ],
+          "sharedSpecialties": [
+            "Execution Management Systems",
+            "Algorithmic Trading and Order Management",
+            "Trading APIs and FIX Tools",
+            "Decentralized Exchanges",
+            "Market Making Services"
+          ],
+          "similarityScore": 85
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $11,230,869 to $11,230,869, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 50 (-4 over 90 days) and market heat at 8 (-19).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Vertex Protocol, dYdX Trading, Hashflow.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

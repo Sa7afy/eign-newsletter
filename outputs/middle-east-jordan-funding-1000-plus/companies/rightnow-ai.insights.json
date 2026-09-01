@@ -1,0 +1,291 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T13:11:45.368Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T13:11:45.366Z",
+    "url": "https://www.crunchbase.com/organization/rightnow-ai"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "RightNow",
+      "shortDescription": "Research Lab Enabling Model-Hardware Co-Design at Scale",
+      "description": "We build the tools that close the gap between AI models and the hardware they run on, giving engineers and enterprises the infrastructure to go from model to optimized production inference faster.",
+      "website": "https://www.rightnowai.co/",
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "1-10",
+      "headquarters": "Amman, Jordan",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "AI Infrastructure",
+        "Developer Tools"
+      ],
+      "sectors": [
+        "Artificial Intelligence (AI)",
+        "Software"
+      ],
+      "founders": [
+        "Osama Jaber"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "A platform that automatically profiles, detects bottlenecks, and optimizes CUDA kernels to improve GPU performance across major NVIDIA architectures.",
+        "name": "RightNow AI CUDA Kernel Generation and Optimization Platform"
+      },
+      {
+        "description": "A cloud-based service that profiles CUDA kernels on serverless GPUs to identify performance bottlenecks without requiring local GPU hardware.",
+        "name": "Serverless GPU Profiling Service"
+      },
+      {
+        "description": "A feature that allows users to generate high-performance CUDA kernels using simple natural language prompts without requiring deep CUDA expertise.",
+        "name": "Natural Language CUDA Kernel Generation"
+      },
+      {
+        "description": "Tools integrated into the platform to measure and scale CUDA kernel performance during inference and benchmark GPU code efficiency.",
+        "name": "Inference-Time Scaling and Performance Benchmarking"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 540000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2026-05-21",
+      "lastFundingType": "Seed",
+      "rounds": [
+        {
+          "announcedDate": "2026-05-21",
+          "amount": {
+            "amount": 540000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "Y Combinator"
+          ],
+          "postMoneyValuation": {
+            "amount": 5085785,
+            "currency": "USD"
+          },
+          "type": "Seed"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "Y Combinator",
+            "rounds": [
+              "Seed Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 1,
+      "includedUniqueCount": 1,
+      "items": [
+        {
+          "date": "2026-05-21",
+          "title": "Seed Round - RightNow"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 540000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": -2,
+      "growthScore": 92,
+      "heatChange90Days": -19,
+      "heatScore": 75
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 5
+      },
+      "funding": {
+        "generatedDate": "2026-06-20",
+        "probabilityPercent": 94.11,
+        "timingEstimatePercent": {
+          "within6Months": 99.92,
+          "months6To11": 0,
+          "months12To24": 0,
+          "beyond24Months": 0.08
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 95.7
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 0
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "GitHub is a software company that offers code hosting services that allow developers to build software for open-source and private projects.",
+          "employeeRange": "1,001-5,000",
+          "name": "GitHub",
+          "sharedCategories": [
+            "Developer Tools"
+          ],
+          "sharedSpecialties": [
+            "Code Generation"
+          ],
+          "similarityScore": 91
+        },
+        {
+          "description": "NVIDIA designs graphics processing units and accelerated computing hardware for AI and high-performance computing applications.",
+          "employeeRange": "10,001+",
+          "name": "NVIDIA",
+          "sharedCategories": [
+            "AI Infrastructure"
+          ],
+          "sharedSpecialties": [
+            "GPU and AI Infrastructure",
+            "GPU Cloud Infrastructure",
+            "High Performance Computing",
+            "MLOps",
+            "AI Inference",
+            "Data Center GPUs",
+            "GPU Accelerators",
+            "Distributed Training"
+          ],
+          "similarityScore": 89
+        },
+        {
+          "description": "TensorWave is an AMD-exclusive cloud platform that leverages AMD Instinct GPUs and ROCm for high-performance AI workloads.",
+          "employeeRange": "101-250",
+          "name": "TensorWave",
+          "sharedCategories": [
+            "AI Infrastructure"
+          ],
+          "sharedSpecialties": [
+            "GPU Cloud Infrastructure",
+            "High Performance Computing",
+            "AI Inference",
+            "Data Center GPUs",
+            "Distributed Training"
+          ],
+          "similarityScore": 89
+        },
+        {
+          "description": "Apache Software Foundation provides organizational, legal and financial support for Apache open-source software projects.",
+          "employeeRange": "1-10",
+          "name": "The Apache Software Foundation",
+          "similarityScore": 85
+        },
+        {
+          "description": "Anyscale develops a distributed computing platform that enables organizations to manage distributed workloads at scale.",
+          "employeeRange": "251-500",
+          "name": "Anyscale",
+          "sharedCategories": [
+            "AI Infrastructure"
+          ],
+          "sharedSpecialties": [
+            "GPU Cloud Infrastructure",
+            "High Performance Computing",
+            "MLOps",
+            "AI Inference",
+            "AI Model Evaluation",
+            "Distributed Training"
+          ],
+          "similarityScore": 83
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Seed round raised $540,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $5,085,785 to $5,085,785, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 92 (-2 over 90 days) and market heat at 75 (-19).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include GitHub, NVIDIA, TensorWave.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

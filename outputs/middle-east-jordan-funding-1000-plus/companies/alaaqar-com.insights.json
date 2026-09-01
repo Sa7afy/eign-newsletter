@@ -1,0 +1,223 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T09:09:03.466Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T09:09:03.465Z",
+    "url": "https://www.crunchbase.com/organization/alaaqar-com"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "alaaqar.com",
+      "shortDescription": "Real Estate Consultancy Platform",
+      "description": "Real Estate Technology Platform, found to ease real estate transactions",
+      "website": "https://www.alaaqar.com/",
+      "operatingStatus": "Closed",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "101-250",
+      "headquarters": "Abu Dhabi, United Arab Emirates",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Consulting",
+        "PropTech",
+        "Real Estate"
+      ],
+      "sectors": [
+        "Professional Services",
+        "Real Estate"
+      ],
+      "founders": [
+        "Shehab Taha"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "A platform utilizing AI to match users with real estate options based on their needs, streamlining the search process for buyers, tenants, and sellers.",
+        "name": "AI-supported search engine"
+      },
+      {
+        "description": "Provides guidance and insights on the UAE real estate market, leveraging over 20 years of industry experience to assist clients in making informed property decisions.",
+        "name": "Real estate advisory services"
+      },
+      {
+        "description": "Offers a mobile app for iOS and Android devices, allowing users to access real estate services and information on the go.",
+        "name": "Mobile application"
+      },
+      {
+        "description": "An advanced feature offering personalized recommendations and expert guidance to users for their real estate inquiries.",
+        "name": "REEMA"
+      },
+      {
+        "description": "Intelligent search filters designed to refine property search results according to user preferences and criteria.",
+        "name": "Smart Filters"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 100000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2023-01-01",
+      "lastFundingType": "Pre Seed",
+      "rounds": [
+        {
+          "announcedDate": "2023-01-01",
+          "amount": {
+            "amount": 100000,
+            "currency": "USD"
+          },
+          "type": "Pre Seed"
+        }
+      ]
+    },
+    "recentNews": {
+      "reportedCount": 1,
+      "includedUniqueCount": 1,
+      "items": [
+        {
+          "date": "2023-01-01",
+          "title": "Pre Seed Round - alaaqar.com"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 100000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "heatChange90Days": 1,
+      "heatScore": 43
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2025-12-06",
+        "probabilityPercent": 95.08
+      },
+      "funding": {
+        "generatedDate": "2025-12-06",
+        "probabilityPercent": 7.05,
+        "timingEstimatePercent": {
+          "within6Months": 0.45,
+          "months6To11": 0,
+          "months12To24": 0,
+          "beyond24Months": 99.55
+        }
+      },
+      "growth": {
+        "generatedDate": "2025-12-06",
+        "probabilityPercent": 92.94
+      },
+      "ipo": {
+        "generatedDate": "2025-12-06",
+        "probabilityPercent": 4.57
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "PropQA uses AI to match users with Dubai properties based on what users actually want. Buy, sell, or invest — faster.",
+          "employeeRange": "11-50",
+          "name": "PropQA",
+          "sharedCategories": [
+            "Real Estate"
+          ],
+          "similarityScore": 97
+        },
+        {
+          "description": "Bayut.com is a property portal and real estate company.",
+          "employeeRange": "251-500",
+          "name": "Bayut",
+          "sharedCategories": [
+            "Real Estate"
+          ],
+          "similarityScore": 87
+        },
+        {
+          "description": "dubizzle is an online platform that enables individuals to sell, buy, or find products in their cities.",
+          "employeeRange": "501-1,000",
+          "name": "dubizzle",
+          "sharedCategories": [
+            "Real Estate"
+          ],
+          "similarityScore": 85
+        },
+        {
+          "description": "UAE's new home for buying, selling and renting property. A portal with a difference, it hosts an extensive selection of properties.",
+          "employeeRange": "11-50",
+          "name": "Houza",
+          "sharedCategories": [
+            "Real Estate"
+          ],
+          "similarityScore": 83
+        },
+        {
+          "description": "Browse through a huge list of apartments, villas, townhouses, penthouses, offices available for sale or rent in Dubai and Abu Dhabi.",
+          "employeeRange": "11-50",
+          "name": "ZoomProperty - UAE's Best Real Estate Property Portal",
+          "sharedCategories": [
+            "Real Estate"
+          ],
+          "similarityScore": 78
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Pre Seed round raised $100,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include PropQA, Bayut, dubizzle.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

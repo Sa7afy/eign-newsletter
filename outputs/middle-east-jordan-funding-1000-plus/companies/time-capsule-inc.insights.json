@@ -1,0 +1,285 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T13:45:00.446Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T13:45:00.444Z",
+    "url": "https://www.crunchbase.com/organization/time-capsule-inc"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Time Capsule",
+      "shortDescription": "Time Capsule is a software company that designs an application for digital time capsules for individuals, companies, and organizations.",
+      "description": "Time Capsule is a service that creates digital time capsules. It focuses on keeping individuals' and organizations' memories. Its aim is digital immortality by reminding about events, weddings, and tours. It is a software company that designs an application for digital time capsules for individuals, companies, and organizations.",
+      "website": "https://www.capstime.com/",
+      "foundedYear": 2022,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "11-50",
+      "headquarters": "Dubai, United Arab Emirates",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Media and Entertainment",
+        "Mobile Apps",
+        "Productivity Tools",
+        "SaaS",
+        "Social Network"
+      ],
+      "sectors": [
+        "Apps",
+        "Internet Services",
+        "Media and Entertainment",
+        "Mobile",
+        "Software"
+      ],
+      "founders": [
+        "Alexander Mokrushin",
+        "Anatoly Pichugin",
+        "Ivan Bezsalii"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "A digital time capsule application that allows users to store and preserve photos, videos, and memories securely for up to 100 years.",
+        "name": "TIME CAPSULE App"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 578640,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 4,
+      "detailedRoundCount": 4,
+      "lastFundingDate": "2022-01-03",
+      "lastFundingType": "Seed",
+      "rounds": [
+        {
+          "announcedDate": "2022-01-03",
+          "amount": {
+            "amount": 371800,
+            "currency": "USD"
+          },
+          "postMoneyValuation": {
+            "amount": 1871800,
+            "currency": "USD"
+          },
+          "type": "Seed"
+        },
+        {
+          "announcedDate": "2021-09-01",
+          "amount": {
+            "amount": 128200,
+            "currency": "USD"
+          },
+          "postMoneyValuation": {
+            "amount": 628200,
+            "currency": "USD"
+          },
+          "type": "Seed"
+        },
+        {
+          "announcedDate": "2020-06-01",
+          "amount": {
+            "amount": 45530,
+            "currency": "USD"
+          },
+          "postMoneyValuation": {
+            "amount": 145530,
+            "currency": "USD"
+          },
+          "type": "Pre Seed"
+        },
+        {
+          "announcedDate": "2020-05-01",
+          "amount": {
+            "amount": 33110,
+            "currency": "USD"
+          },
+          "postMoneyValuation": {
+            "amount": 83110,
+            "currency": "USD"
+          },
+          "type": "Pre Seed"
+        }
+      ]
+    },
+    "recentNews": {
+      "reportedCount": 4,
+      "includedUniqueCount": 4,
+      "items": [
+        {
+          "date": "2022-01-03",
+          "title": "Seed Round - Time Capsule"
+        },
+        {
+          "date": "2021-09-01",
+          "title": "Seed Round - Time Capsule"
+        },
+        {
+          "date": "2020-06-01",
+          "title": "Pre Seed Round - Time Capsule"
+        },
+        {
+          "date": "2020-05-01",
+          "title": "Pre Seed Round - Time Capsule"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 4,
+    "knownDetailedFundingAmount": {
+      "amount": 578640,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 64.25,
+    "latestToEarliestKnownValuationMultiple": 22.52
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": 29,
+      "growthScore": 65,
+      "heatChange90Days": -18,
+      "heatScore": 9
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 45.92
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 26.44,
+        "timingEstimatePercent": {
+          "within6Months": 13.2,
+          "months6To11": 11.46,
+          "months12To24": 18.58,
+          "beyond24Months": 24.54
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 85.69
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 35.82
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Timehop offers Nimbus, a mobile, and in-app header bidding solution.",
+          "employeeRange": "11-50",
+          "name": "Timehop",
+          "sharedSpecialties": [
+            "Object Storage",
+            "Media Asset Management",
+            "Image Hosting"
+          ],
+          "similarityScore": 79
+        },
+        {
+          "description": "Woow isn’t just another social app -it’s the first AI-moderated, bot-free social network built to scale human creativity.",
+          "employeeRange": "1-10",
+          "name": "WOOW Social Media",
+          "sharedSpecialties": [
+            "Media Asset Management"
+          ],
+          "similarityScore": 77
+        },
+        {
+          "description": "iMemories offers an internet-based service that allows its consumers to share their photos and videos across multiple consumer platforms.",
+          "employeeRange": "101-250",
+          "name": "iMemories",
+          "sharedSpecialties": [
+            "Photo Community Platforms",
+            "Data Archiving",
+            "Media Asset Management",
+            "Secure File Sync and Sharing",
+            "Photo Scanning and Digitization",
+            "Image Hosting"
+          ],
+          "similarityScore": 77
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Seed round raised $371,800, or 64.25% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $83,110 to $1,871,800, a 22.52x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 65 (+29 over 90 days) and market heat at 9 (-18).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Timehop, WOOW Social Media, iMemories.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

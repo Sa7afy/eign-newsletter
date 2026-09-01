@@ -1,0 +1,190 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T09:08:01.360Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T09:08:01.359Z",
+    "url": "https://www.crunchbase.com/organization/al-majed-oud"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Al Majed Oud",
+      "shortDescription": "Al Majed Oud provides financial results, reports, presentations and essential resoutrces to take investment decisions for company's growth.",
+      "description": "Al Majed Oud provides financial results, reports, presentations and essential resoutrces to take investment decisions for company's growth.",
+      "website": "https://investors.almajed4oud.com/",
+      "foundedYear": 1956,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Public",
+      "companyType": "For profit",
+      "employeeRange": "1,001-5,000",
+      "headquarters": "Riyadh, Ar Riyad, Saudi Arabia",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Finance",
+        "Information Services"
+      ],
+      "sectors": [
+        "Financial Services",
+        "Information Technology"
+      ],
+      "founders": [
+        "Ali bin Al Majed"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 53326721,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2025-10-16",
+      "lastFundingType": "Post IPO Debt",
+      "rounds": [
+        {
+          "announcedDate": "2025-10-16",
+          "amount": {
+            "amount": 53326721,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "Al-Rajhi Bank"
+          ],
+          "type": "Post IPO Debt"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "Al-Rajhi Bank",
+            "rounds": [
+              "Post-IPO Debt"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 6,
+      "includedUniqueCount": 6,
+      "items": [
+        {
+          "date": "2026-06-14",
+          "publisher": "TradingView",
+          "title": "Al Majed For Oud Updates On MOU To Buy Al Safa Pharmaceuticals",
+          "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN42K0N0:0-al-majed-for-oud-updates-on-mou-to-buy-al-safa-pharmaceuticals/"
+        },
+        {
+          "date": "2025-11-02",
+          "publisher": "eyeofriyadh.com",
+          "title": "Saudi Arabia to Host Landmark Innovation Driven Water Sustainability Conference in Jeddah, Under the Patronage of HRH Prince Khalid Al-Faisal",
+          "url": "https://www.eyeofriyadh.com/news/details/wesam-medical-holding-company-signs-a-strategic-memorandum-of-understanding-with-mclaren-health-care-to-establish-a-specialized-hematology-and-oncology-hospital-in-the-kingdom-of-saudi-arabia%3E"
+        },
+        {
+          "date": "2025-10-23",
+          "publisher": "Zawya.com",
+          "title": "SAUDI ARABIA",
+          "url": "https://www.zawya.com/en/economy/islamic-economy/saudi-arabia-uae-issuers-represented-68-of-total-esg-sukuk-issuance-in-9m-2025-ele3i657"
+        },
+        {
+          "date": "2025-10-21",
+          "publisher": "Arab News",
+          "title": "Closing Bell: Saudi main index closes in red at 11,546",
+          "url": "https://www.arabnews.com/node/2619683/business-economy"
+        },
+        {
+          "date": "2025-10-16",
+          "title": "Post-IPO Debt - Al Majed Oud"
+        },
+        {
+          "date": "2024-10-01",
+          "title": "4165"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 53326721,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": 2,
+      "growthScore": 94,
+      "heatChange90Days": -5,
+      "heatScore": 56
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors."
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Post IPO Debt round raised $53,326,721, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 94 (+2 over 90 days) and market heat at 56 (-5).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Strategic repositioning and listing coverage shape the current narrative",
+      "statement": "Al Majed Oud has a recent strategic-positioning change; 1 recent unique news titles explicitly contain the English terms IPO or listing.",
+      "implication": "Their timing coincides with increased visibility in the loaded news and Crunchbase momentum signals, but the data does not establish causation.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.company.formerName",
+        "facts.recentNews",
+        "providerSignals.crunchbaseMomentum"
+      ],
+      "caveats": [
+        "The causal link to Crunchbase momentum is an inference from timing, not a disclosed company metric."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

@@ -1,0 +1,178 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T09:13:58.011Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T09:13:58.009Z",
+    "url": "https://www.crunchbase.com/organization/aqaba-digital-hub"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Aqaba Digital Hub",
+      "shortDescription": "ADH is the owner and operator of Jordan's biggest hyperscaler grade carrier-neutral Tier III data center.",
+      "description": "ADH connects clouds, carriers, and businesses throughout Jordan, the MENA region, and beyond with AI-ready infrastructure designed for speed, scale, and security.",
+      "website": "https://adh.jo/",
+      "foundedYear": 2013,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "employeeRange": "101-250",
+      "headquarters": "Qatar, Al Aqabah, Jordan",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 14104372,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2026-05-07",
+      "lastFundingType": "Debt Financing",
+      "rounds": [
+        {
+          "announcedDate": "2026-05-07",
+          "amount": {
+            "amount": 14104372,
+            "currency": "USD"
+          },
+          "investorCount": 2,
+          "leadInvestors": [
+            "European Bank for Reconstruction and Development"
+          ],
+          "type": "Debt Financing"
+        }
+      ],
+      "investors": {
+        "reportedCount": 2,
+        "visibleNames": [
+          {
+            "name": "Capital Bank Group",
+            "rounds": [
+              "Debt Financing"
+            ]
+          },
+          {
+            "isLead": true,
+            "name": "European Bank for Reconstruction and Development",
+            "rounds": [
+              "Debt Financing"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 4,
+      "includedUniqueCount": 4,
+      "items": [
+        {
+          "date": "2026-05-22",
+          "publisher": "thefastmode.com",
+          "title": "Sparkle Signs MoU with NaiTel and iLevant to Advance GreenMed Europe–Asia Corridor",
+          "url": "https://www.thefastmode.com/technology-solutions/48578-sparkle-signs-mou-with-naitel-and-ilevant-to-advance-greenmed-europe-asia-corridor"
+        },
+        {
+          "date": "2026-05-14",
+          "publisher": "Logistics",
+          "title": "Trukker secures USD 300mn facility to scale regional freight network",
+          "url": "https://enterpriseam.com/logistics/2026/05/14/trukker-secures-usd-300mn-facility-to-scale-regional-freight-network/"
+        },
+        {
+          "date": "2026-05-11",
+          "publisher": "TechAfrica News",
+          "title": "EU and EBRD Strengthen Jordan’s Digital Infrastructure with Major Investment in Aqaba Digital Hub",
+          "url": "https://techafricanews.com/2026/05/11/eu-and-ebrd-strengthen-jordans-digital-infrastructure-with-major-investment-in-aqaba-digital-hub/"
+        },
+        {
+          "date": "2026-05-07",
+          "title": "Debt Financing - Aqaba Digital Hub"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 14104372,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "reportedPartnerships": {
+      "note": "Provider event summaries with linked sources; not independently verified.",
+      "items": [
+        {
+          "date": "2026-05-11",
+          "description": "Aqaba Digital Hub entered into a new strategic collaboration with the European Bank for Reconstruction and Development, the European Union and Capital Bank of Jordan around a major financing package to expand its digital infrastructure and skills initiatives in Jordan.",
+          "sources": [
+            {
+              "date": "2026-05-11",
+              "publisher": "TechAfrica News",
+              "title": "EU and EBRD Strengthen Jordan’s Digital Infrastructure with Major Investment in Aqaba Digital Hub",
+              "url": "https://techafricanews.com/2026/05/11/eu-and-ebrd-strengthen-jordans-digital-infrastructure-with-major-investment-in-aqaba-digital-hub/"
+            }
+          ]
+        }
+      ]
+    },
+    "crunchbaseMomentum": {
+      "growthInsightGeneratedDate": "2026-05-17",
+      "growthChange90Days": -12,
+      "growthScore": 81,
+      "heatChange90Days": -53,
+      "heatScore": 33,
+      "status": "Growing"
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors."
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Debt Financing round raised $14,104,372, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 81 (-12 over 90 days) and market heat at 33 (-53).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

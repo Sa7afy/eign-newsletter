@@ -1,0 +1,211 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T12:29:38.458Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T12:29:38.457Z",
+    "url": "https://www.crunchbase.com/organization/mdd"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "MDD",
+      "shortDescription": "MDD focus on difficulties in the corporate sector's supply chain and procurement market.",
+      "description": "MDD focuses on difficulties in the corporate sector's supply chain and procurement market. The system combines financial technology with supply chain and procurement management, covering the complete process from order initiation to financing, sourcing, and payment.",
+      "website": "https://en.mdd.sa/",
+      "foundedYear": 2019,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "11-50",
+      "headquarters": "Riyadh, Ar Riyad, Saudi Arabia",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Logistics",
+        "Management Consulting",
+        "Supply Chain Management",
+        "Transportation"
+      ],
+      "sectors": [
+        "Professional Services",
+        "Transportation"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "A digital tool for managing procurement processes with governance features included.",
+        "name": "Interactive Platform and Smart App"
+      },
+      {
+        "description": "A tool providing detailed insights into business spending related to procurement.",
+        "name": "Smart Dashboard"
+      },
+      {
+        "description": "A feature allowing businesses to make purchases and payments through the platform.",
+        "name": "Credit Wallet"
+      },
+      {
+        "description": "Offering a range of products and services for various sectors.",
+        "name": "Procurement Services"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 1300000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2024-05-16",
+      "lastFundingType": "Series A",
+      "rounds": [
+        {
+          "announcedDate": "2024-05-16",
+          "amount": {
+            "amount": 1300000,
+            "currency": "USD"
+          },
+          "postMoneyValuation": {
+            "amount": 26000000,
+            "currency": "USD"
+          },
+          "type": "Series A"
+        }
+      ]
+    },
+    "recentNews": {
+      "reportedCount": 4,
+      "includedUniqueCount": 4,
+      "items": [
+        {
+          "date": "2024-06-03",
+          "publisher": "Gulf Times",
+          "title": "MDD in Guinness World Records for ‘Largest Underground Car Park'",
+          "url": "https://www.gulf-times.com/article/683988/qatar/mdd-in-guinness-world-records-for-largest-underground-car-park"
+        },
+        {
+          "date": "2024-05-17",
+          "publisher": "Wamda",
+          "title": "MDD closes Series A round for 5% stake",
+          "url": "https://www.wamda.com/2024/05/mdd-raises-series-round-5-stake"
+        },
+        {
+          "date": "2024-05-16",
+          "title": "Series A - MDD"
+        },
+        {
+          "date": "2024-02-26",
+          "publisher": "RTE.ie",
+          "title": "ESRI estimates strong MDD growth of 3.7% in December",
+          "url": "https://www.rte.ie/news/business/2024/0226/1434492-esris-nowcast-survey/"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 1300000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthInsightGeneratedDate": "2024-07-24",
+      "growthChange90Days": -1,
+      "growthScore": 41,
+      "heatChange90Days": -6,
+      "heatScore": 56,
+      "status": "Growing"
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2025-05-07",
+        "probabilityPercent": 1.91
+      },
+      "funding": {
+        "generatedDate": "2025-10-04",
+        "probabilityPercent": 80.52,
+        "timingEstimatePercent": {
+          "within6Months": 99.94,
+          "months6To11": 0,
+          "months12To24": 0,
+          "beyond24Months": 0.06
+        }
+      },
+      "growth": {
+        "generatedDate": "2025-05-11",
+        "probabilityPercent": 96.2
+      },
+      "ipo": {
+        "generatedDate": "2025-05-07",
+        "probabilityPercent": 63.6
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors."
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Series A round raised $1,300,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $26,000,000 to $26,000,000, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 41 (-1 over 90 days) and market heat at 56 (-6).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

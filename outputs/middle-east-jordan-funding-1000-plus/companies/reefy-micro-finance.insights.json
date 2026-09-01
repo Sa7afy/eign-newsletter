@@ -1,0 +1,320 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T13:08:54.140Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T13:08:54.138Z",
+    "url": "https://www.crunchbase.com/organization/reefy-micro-finance"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Reefy Micro-Finance",
+      "shortDescription": "Reefy Microfinance is a financial company that provides loans to MSMEs owned by young entrepreneurs.",
+      "description": "Reefy Microfinance is a financial company that provides loans to MSMEs owned by young entrepreneurs.",
+      "website": "https://reefy.net/",
+      "foundedYear": 2007,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "501-1,000",
+      "estimatedRevenueRange": "$1M-$10M",
+      "headquarters": "El-gîza, Al Jizah, Egypt",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Middle East",
+        "Middle East and North Africa (MENA)",
+        "North Africa"
+      ],
+      "industries": [
+        "Finance",
+        "Financial Services",
+        "Micro Lending"
+      ],
+      "sectors": [
+        "Financial Services",
+        "Lending and Investments"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "Loans provided to micro, small, and medium enterprises (MSMEs) to support their growth and expansion.",
+        "name": "Microfinance Loans for MSMEs"
+      },
+      {
+        "description": "Specialized financing options aimed at supporting female entrepreneurs to start or expand their businesses.",
+        "name": "Financing for Women Entrepreneurs"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 35847252,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 4,
+      "detailedRoundCount": 4,
+      "lastFundingDate": "2025-12-16",
+      "lastFundingType": "Debt Financing",
+      "rounds": [
+        {
+          "announcedDate": "2025-12-16",
+          "amount": {
+            "amount": 6331719,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "MSMEDA - The Micro, Small, and Medium Enterprises Development Agency"
+          ],
+          "type": "Debt Financing"
+        },
+        {
+          "announcedDate": "2024-11-06",
+          "amount": {
+            "amount": 17953285,
+            "currency": "USD"
+          },
+          "type": "Debt Financing"
+        },
+        {
+          "announcedDate": "2023-08-23",
+          "amount": {
+            "amount": 6473351,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "European Bank for Reconstruction and Development"
+          ],
+          "type": "Debt Financing"
+        },
+        {
+          "announcedDate": "2021-10-19",
+          "amount": {
+            "amount": 5088897,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "European Bank for Reconstruction and Development"
+          ],
+          "type": "Debt Financing"
+        }
+      ],
+      "investors": {
+        "reportedCount": 2,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "European Bank for Reconstruction and Development",
+            "rounds": [
+              "Debt Financing"
+            ]
+          },
+          {
+            "isLead": true,
+            "name": "MSMEDA - The Micro, Small, and Medium Enterprises Development Agency",
+            "rounds": [
+              "Debt Financing"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 12,
+      "includedUniqueCount": 6,
+      "items": [
+        {
+          "date": "2025-12-16",
+          "title": "Debt Financing - Reefy Micro-Finance"
+        },
+        {
+          "date": "2024-11-06",
+          "title": "Debt Financing - Reefy Micro-Finance"
+        },
+        {
+          "date": "2023-12-06",
+          "publisher": "Daily News Egypt",
+          "title": "Reefy's revenues surpass EGP 1bn mark in 9M 2023 ...",
+          "url": "https://www.dailynewsegypt.com/2023/12/05/reefys-revenues-surpass-egp-1bn-mark-in-9m-2023/"
+        },
+        {
+          "date": "2023-10-26",
+          "title": "Banque Misr signs a cooperation protocol with Reefy Company to provide financial and non-financial services to ...",
+          "url": "https://www.banquemisr.com/en/Home/ABOUT-US/News/Reefy-signing"
+        },
+        {
+          "date": "2023-08-23",
+          "publisher": "European Bank for Reconstruction and Development (EBRD)",
+          "title": "EBRD and EU support young entrepreneurs in Egypt",
+          "url": "https://www.ebrd.com/news/2023/ebrd-and-eu-support-young-entrepreneurs-in-egypt.html"
+        },
+        {
+          "date": "2023-08-23",
+          "title": "Debt Financing - Reefy Micro-Finance"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 4,
+    "knownDetailedFundingAmount": {
+      "amount": 35847252,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 17.66
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthInsightGeneratedDate": "2024-05-18",
+      "growthChange90Days": -1,
+      "growthScore": 56,
+      "heatChange90Days": -6,
+      "heatScore": 46,
+      "status": "Growing"
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2025-05-07",
+        "probabilityPercent": 49.27
+      },
+      "funding": {
+        "generatedDate": "2025-10-11",
+        "probabilityPercent": 9.68,
+        "timingEstimatePercent": {
+          "within6Months": 1.24,
+          "months6To11": 0,
+          "months12To24": 0,
+          "beyond24Months": 98.76
+        }
+      },
+      "growth": {
+        "generatedDate": "2025-05-11",
+        "probabilityPercent": 86.22
+      },
+      "ipo": {
+        "generatedDate": "2025-05-07",
+        "probabilityPercent": 29.68
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Tameer is a real estate agency that specializes in buying, selling, property development, and construction services.",
+          "employeeRange": "101-250",
+          "name": "Tameer",
+          "similarityScore": 94
+        },
+        {
+          "description": "Central Bank of Egypt is a banking institution that offers financial services.",
+          "employeeRange": "1,001-5,000",
+          "name": "Central Bank of Egypt",
+          "sharedCategories": [
+            "Financial Services",
+            "Finance"
+          ],
+          "similarityScore": 85
+        },
+        {
+          "description": "Banque Misr is a banking organization that offers accounts, deposits, loans, taxes, auctions, and bidding services.",
+          "employeeRange": "10,001+",
+          "name": "Banque Misr",
+          "sharedCategories": [
+            "Financial Services",
+            "Finance"
+          ],
+          "similarityScore": 85
+        },
+        {
+          "description": "Qatar National Bank Alahli is an Egyptian financial organization that offers investment and commercial banking services.",
+          "employeeRange": "5,001-10,000",
+          "name": "Qatar National Bank Alahli",
+          "sharedCategories": [
+            "Financial Services"
+          ],
+          "similarityScore": 83
+        },
+        {
+          "description": "Tanmeyah is a fast-growing financial services provider with a focus on low income groups, both businesses and individuals, of the society.",
+          "employeeRange": "5,001-10,000",
+          "name": "Tanmeyah",
+          "sharedCategories": [
+            "Micro Lending",
+            "Financial Services"
+          ],
+          "sharedSpecialties": [
+            "Digital Microfinance",
+            "Working Capital Loans",
+            "Microfinance and Women's Microloans",
+            "Business Lines of Credit"
+          ],
+          "similarityScore": 79
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Debt Financing round raised $6,331,719, or 17.66% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 56 (-1 over 90 days) and market heat at 46 (-6).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Tameer, Central Bank of Egypt, Banque Misr.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "issues": [
+      {
+        "severity": "low",
+        "finding": "Crunchbase reports 12 timeline items but exposes 6 unique items in this payload.",
+        "impact": "Recent news is a partial sample, not a complete history."
+      }
+    ],
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

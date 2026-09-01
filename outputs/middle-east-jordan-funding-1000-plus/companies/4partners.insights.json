@@ -1,0 +1,312 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T08:48:29.915Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T08:48:29.889Z",
+    "url": "https://www.crunchbase.com/organization/4partners"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "4Partners",
+      "shortDescription": "4Partners is a cross-border dropshipping and e-commerce platform.",
+      "description": "4Partners enables users to start and scale online businesses without holding inventory or managing shipping operations. The platform gives access to millions of branded products across categories such as fashion, footwear, electronics, cosmetics, home décor, jewellery, and kids’ products.",
+      "website": "https://4partners.io/en",
+      "foundedYear": 2023,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "51-100",
+      "headquarters": "Dubai, United Arab Emirates",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "E-Commerce",
+        "Enterprise Software",
+        "Marketplace"
+      ],
+      "sectors": [
+        "Commerce and Shopping",
+        "Software"
+      ],
+      "founders": [
+        "Ustin Savilov"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "A service that enables selling products without upfront inventory, handling procurement, storage, and delivery directly from suppliers to customers worldwide.",
+        "name": "Dropshipping Service"
+      },
+      {
+        "description": "A ready-to-use online store solution preloaded with product catalog, payment processing, and automated logistics for quick launch of e-commerce business.",
+        "name": "Turnkey Online Store"
+      },
+      {
+        "description": "A comprehensive catalog containing millions of products from hundreds of suppliers and thousands of brands across diverse categories for dropshipping.",
+        "name": "Product Catalog"
+      },
+      {
+        "description": "An API service that synchronizes 4Partners' product catalog and order processing with external e-commerce platforms in real time.",
+        "name": "API Integration"
+      },
+      {
+        "description": "A content management system designed for managing online stores with multi-language support, payment processing, and sales analytics.",
+        "name": "4P CMS (Content Management System)"
+      },
+      {
+        "description": "A collection of guides, courses, scripts, and community forums to assist dropshippers and online store owners in launching and growing their businesses.",
+        "name": "Educational Resources and Community Support"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 3600000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2024-10-10",
+      "lastFundingType": "Undisclosed",
+      "rounds": [
+        {
+          "announcedDate": "2024-10-10",
+          "amount": {
+            "amount": 3600000,
+            "currency": "USD"
+          },
+          "postMoneyValuation": {
+            "amount": 25001572,
+            "currency": "USD"
+          },
+          "type": "Undisclosed"
+        }
+      ]
+    },
+    "recentNews": {
+      "reportedCount": 4,
+      "includedUniqueCount": 4,
+      "items": [
+        {
+          "date": "2024-10-10",
+          "publisher": "TradingView",
+          "title": "PRESSR: 4Partners secures $3.6mln to address the surge in mobile and cross-border e-commerce",
+          "url": "https://www.tradingview.com/news/reuters.com,2024-10-10:newsml_Zaw2hMTXh:0-pressr-4partners-secures-3-6mln-to-address-the-surge-in-mobile-and-cross-border-e-commerce/"
+        },
+        {
+          "date": "2024-10-10",
+          "title": "Funding Round - 4Partners"
+        },
+        {
+          "date": "2024-10-09",
+          "publisher": "Arab Business",
+          "title": "Dubai-based dropshipping service firm 4Partners secures $3.6mn in latest funding round",
+          "url": "https://www.arabianbusiness.com/money/corporate/funding/dubai-based-dropshipping-service-firm-4partners-secures-3-6mn-in-latest-funding-round"
+        },
+        {
+          "date": "2024-10-09",
+          "publisher": "Wamda News",
+          "title": "4Partners secures $3.6 million to enhance regional expansion plans",
+          "url": "https://www.wamda.com/2024/10/4partners-secures-3-6-million-enhance-regional-expansion-plans"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 3600000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": -4,
+      "growthScore": 57,
+      "heatChange90Days": -12,
+      "heatScore": 8
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 79.17
+      },
+      "funding": {
+        "generatedDate": "2026-06-20",
+        "probabilityPercent": 92.74,
+        "timingEstimatePercent": {
+          "within6Months": 99.77,
+          "months6To11": 0,
+          "months12To24": 0,
+          "beyond24Months": 0.23
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 84.64
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 4.46
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Dropshipping marketplace serving 500,000 monthly active merchants",
+          "employeeRange": "51-100",
+          "name": "Spocket",
+          "sharedCategories": [
+            "E-Commerce",
+            "Marketplace"
+          ],
+          "sharedSpecialties": [
+            "Fulfillment Services",
+            "API Integration",
+            "Order and Inventory Management",
+            "Marketplace Integration",
+            "E-Commerce Operations Management"
+          ],
+          "similarityScore": 97
+        },
+        {
+          "description": "Modalyst is a dropshipping platform for e-commerce businesses.",
+          "employeeRange": "11-50",
+          "name": "Modalyst",
+          "sharedCategories": [
+            "E-Commerce"
+          ],
+          "sharedSpecialties": [
+            "Fulfillment Services",
+            "Product Information Management (PIM)",
+            "Order and Inventory Management",
+            "E-Commerce Hosting and Optimization",
+            "Marketplace Integration",
+            "E-Commerce Operations Management"
+          ],
+          "similarityScore": 95
+        },
+        {
+          "description": "EPROLO is a dropshipping platform offering product sourcing, branding, and supply chain services for ecommerce businesses.",
+          "employeeRange": "51-100",
+          "name": "EPROLO",
+          "sharedSpecialties": [
+            "Order and Inventory Management",
+            "International and E‑commerce Fulfillment",
+            "Marketplace Integration",
+            "E-Commerce Operations Management"
+          ],
+          "similarityScore": 93
+        },
+        {
+          "description": "Syncee is a premium dropshipping and wholesale marketplace where online stores connect to sell each other's products.",
+          "employeeRange": "11-50",
+          "name": "Syncee",
+          "sharedCategories": [
+            "E-Commerce",
+            "Marketplace"
+          ],
+          "sharedSpecialties": [
+            "Fulfillment Services",
+            "API Integration",
+            "Order and Inventory Management",
+            "Marketplace Integration",
+            "E-Commerce Operations Management"
+          ],
+          "similarityScore": 91
+        },
+        {
+          "description": "All in one dropshipping platform that automated the entire dropshipping process, products finding, import, orders fulfilment & more",
+          "employeeRange": "101-250",
+          "name": "AutoDS",
+          "sharedCategories": [
+            "E-Commerce"
+          ],
+          "sharedSpecialties": [
+            "Fulfillment Services",
+            "Order and Inventory Management",
+            "Marketplace Integration",
+            "E-Commerce Operations Management"
+          ],
+          "similarityScore": 89
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Undisclosed round raised $3,600,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $25,001,572 to $25,001,572, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 57 (-4 over 90 days) and market heat at 8 (-12).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Spocket, Modalyst, EPROLO.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

@@ -1,0 +1,292 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T11:43:52.651Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T11:43:52.650Z",
+    "url": "https://www.crunchbase.com/organization/fitticoin"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "FittiCoin",
+      "shortDescription": "FittiCoin is a manufacturing company.",
+      "description": "FittiCoin app tracks your steps and your body activity, and converts these steps to coins. You can use these coins to get rewards, offers and hot deals from our amazing partners who are keen to support healthy and fitness lifestyle.",
+      "website": "http://www.fitticoin.com/",
+      "foundedYear": 2018,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "1-10",
+      "estimatedRevenueRange": "$1M-$10M",
+      "headquarters": "Amman, Jordan",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Fitness",
+        "Health Care",
+        "Manufacturing",
+        "Wellness"
+      ],
+      "sectors": [
+        "Health Care",
+        "Manufacturing",
+        "Sports"
+      ],
+      "founders": [
+        "Hakam Shami",
+        "Watheq Saffarini"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "A mobile app that tracks users' steps and converts them into FittiCoins, which can be redeemed for discounts and offers from partner merchants.",
+        "name": "FittiCoin Application"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 100000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 2,
+      "detailedRoundCount": 2,
+      "lastFundingDate": "2020-06-02",
+      "lastFundingType": "Pre Seed",
+      "rounds": [
+        {
+          "announcedDate": "2020-06-02",
+          "investorCount": 1,
+          "postMoneyValuation": {
+            "amount": 1914119,
+            "currency": "USD"
+          },
+          "type": "Pre Seed"
+        },
+        {
+          "announcedDate": "2019-10-24",
+          "amount": {
+            "amount": 100000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "Oasis500"
+          ],
+          "postMoneyValuation": {
+            "amount": 1038388,
+            "currency": "USD"
+          },
+          "type": "Pre Seed"
+        }
+      ],
+      "investors": {
+        "reportedCount": 2,
+        "visibleNames": [
+          {
+            "name": "Arzan Venture Capital",
+            "rounds": [
+              "Pre Seed Round"
+            ]
+          },
+          {
+            "isLead": true,
+            "name": "Oasis500",
+            "rounds": [
+              "Pre Seed Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 2,
+      "includedUniqueCount": 2,
+      "items": [
+        {
+          "date": "2020-06-02",
+          "title": "Pre Seed Round - FittiCoin"
+        },
+        {
+          "date": "2019-10-24",
+          "title": "Pre Seed Round - FittiCoin"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 100000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1.84
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": -3,
+      "growthScore": 26,
+      "heatChange90Days": -24,
+      "heatScore": 32
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 0
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 13.21,
+        "timingEstimatePercent": {
+          "within6Months": 14.82,
+          "months6To11": 12.62,
+          "months12To24": 19.91,
+          "beyond24Months": 24.93
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 65.47
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 0
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Fitness rewards app, fitness app",
+          "employeeRange": "1-10",
+          "name": "Fitze India",
+          "sharedSpecialties": [
+            "Fitness and Wellness Programs",
+            "Gamified Fitness",
+            "Habit and Wellbeing Tools",
+            "Digital Coupon Wallets"
+          ],
+          "similarityScore": 100
+        },
+        {
+          "description": "Sweatcoin is a digital currency backed by economic value of physical movement.",
+          "employeeRange": "51-100",
+          "name": "Sweatcoin",
+          "sharedSpecialties": [
+            "Fitness and Wellness Programs",
+            "Gamified Fitness",
+            "Habit and Wellbeing Tools",
+            "Digital Coupon Wallets",
+            "Coalition Loyalty Programs"
+          ],
+          "similarityScore": 98
+        },
+        {
+          "description": "Money Walk is a novel pedometer program that allows users to earn money simply by walking.",
+          "employeeRange": "11-50",
+          "name": "Money Walk",
+          "sharedCategories": [
+            "Health Care",
+            "Wellness"
+          ],
+          "sharedSpecialties": [
+            "Gamified Fitness",
+            "Habit and Wellbeing Tools",
+            "Digital Coupon Wallets",
+            "Coalition Loyalty Programs"
+          ],
+          "similarityScore": 95.387
+        },
+        {
+          "description": "iTrainer is an fitness APP providing personalized workout and nutrition plans tailored to each user's unique goals, abilities, and schedule.",
+          "employeeRange": "1-10",
+          "name": "iTrainer",
+          "sharedCategories": [
+            "Fitness",
+            "Wellness"
+          ],
+          "sharedSpecialties": [
+            "Fitness and Wellness Programs",
+            "Gamified Fitness",
+            "Personal Training",
+            "At-Home Fitness",
+            "Weight Management"
+          ],
+          "similarityScore": 90.332
+        },
+        {
+          "description": "Charity Miles is an independent and private company that believe that a small group of committed people can change the world.",
+          "employeeRange": "1-10",
+          "name": "Charity Miles",
+          "sharedCategories": [
+            "Health Care"
+          ],
+          "sharedSpecialties": [
+            "Gamified Fitness"
+          ],
+          "similarityScore": 88
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $1,038,388 to $1,914,119, a 1.84x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 26 (-3 over 90 days) and market heat at 32 (-24).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Fitze India, Sweatcoin, Money Walk.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

@@ -1,0 +1,217 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T11:41:31.006Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T11:41:31.005Z",
+    "url": "https://www.crunchbase.com/organization/ffbots"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "FFbots",
+      "shortDescription": "FFB-1 is a remotely operated robot with autonomous navigation capabilities designed to assist fire-fighters.",
+      "description": "FFbots is a Dubai-based robotics and defense technology company specializing in the development of remotely operated firefighting and rescue robots. Founded in 2021, the company focuses on enhancing firefighter safety and improving emergency response efficiency through autonomous and AI-enabled robotic systems. FFbots designs, manufactures, and assembles its robots locally in the UAE, supporting the region’s vision for advanced industrial and defense technologies. The company’s robotic solutions are built for hazardous environments such as industrial fires, oil and gas facilities, chemical plants, warehouses, tunnels, and civil defense operations. Its product lineup includes the Wabel firefighting robots, FW8000 high-capacity fire suppression robot, and IRON-500 rescue robot, all designed to operate remotely in dangerous conditions while carrying firefighting equipment, extinguishing agents, cameras, and thermal monitoring systems",
+      "website": "https://www.ffbots.com/",
+      "foundedYear": 2021,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "11-50",
+      "headquarters": "Dubai, United Arab Emirates",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Manufacturing",
+        "Public Safety",
+        "Robotics"
+      ],
+      "sectors": [
+        "Government and Military",
+        "Hardware",
+        "Manufacturing",
+        "Science and Engineering"
+      ],
+      "founders": [
+        "Mohammed Islam"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "A remotely operated firefighting robot using CO2 agent with autonomous navigation and wireless control up to 1000 meters.",
+        "name": "FFB-CO2"
+      },
+      {
+        "description": "A firefighting robot using foam and water with a flow rate of 8000 LPM and wireless control up to 500 meters.",
+        "name": "FFB-FW8000"
+      },
+      {
+        "description": "A firefighting robot using foam and water with a flow rate of 4000 LPM and wireless control up to 500 meters.",
+        "name": "FFB-FW4000"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 1500000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2024-02-01",
+      "lastFundingType": "Angel",
+      "rounds": [
+        {
+          "announcedDate": "2024-02-01",
+          "amount": {
+            "amount": 1500000,
+            "currency": "USD"
+          },
+          "postMoneyValuation": {
+            "amount": 9704438,
+            "currency": "USD"
+          },
+          "type": "Angel"
+        }
+      ]
+    },
+    "recentNews": {
+      "reportedCount": 1,
+      "includedUniqueCount": 1,
+      "items": [
+        {
+          "date": "2024-02-01",
+          "title": "Angel Round - FFbots"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 1500000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": -3,
+      "growthScore": 66,
+      "heatChange90Days": -3,
+      "heatScore": 83
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 33.42
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 42.85,
+        "timingEstimatePercent": {
+          "within6Months": 49.54,
+          "months6To11": 0.02,
+          "months12To24": 0,
+          "beyond24Months": 50.44
+        }
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 8.2
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "dblitz provides product development services that identify concepts, design prototypes, and support manufacturing and market launch.",
+          "employeeRange": "11-50",
+          "name": "dblitz",
+          "sharedCategories": [
+            "Robotics",
+            "Manufacturing"
+          ],
+          "sharedSpecialties": [
+            "Autonomous Mobile Robots (AMRs)",
+            "Robotics"
+          ],
+          "similarityScore": 100
+        },
+        {
+          "description": "Realisator Robotics has develops and sells the FUMO ™ inspection and search engine.",
+          "employeeRange": "1-10",
+          "name": "Realisator Robotics",
+          "sharedSpecialties": [
+            "Fire and Life Safety Management",
+            "Emergency and Lone Worker Safety",
+            "Hazardous Materials Response",
+            "Fire and Emergency Services",
+            "Autonomous Mobile Robots (AMRs)",
+            "Robotics"
+          ],
+          "similarityScore": 87.5
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Angel round raised $1,500,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $9,704,438 to $9,704,438, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 66 (-3 over 90 days) and market heat at 83 (-3).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

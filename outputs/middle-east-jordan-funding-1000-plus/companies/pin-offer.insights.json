@@ -1,0 +1,194 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T12:56:50.571Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T12:56:50.569Z",
+    "url": "https://www.crunchbase.com/organization/pin-offer"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Pin-Offer",
+      "shortDescription": "Pinoffer is a analytics platform that helps stores increase sales by creating geo-retargeted ads on platforms like Facebook and Google.",
+      "website": "http://pin-offer.com/",
+      "foundedYear": 2014,
+      "operatingStatus": "Closed",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "1-10",
+      "headquarters": "Riyadh, Ar Riyad, Saudi Arabia",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Advertising",
+        "Analytics",
+        "Apps"
+      ],
+      "sectors": [
+        "Advertising",
+        "Apps",
+        "Data and Analytics",
+        "Sales and Marketing",
+        "Software"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 640000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 2,
+      "detailedRoundCount": 2,
+      "lastFundingDate": "2020-03-23",
+      "lastFundingType": "Seed",
+      "rounds": [
+        {
+          "announcedDate": "2020-03-23",
+          "investorCount": 1,
+          "type": "Seed"
+        },
+        {
+          "announcedDate": "2019-01-01",
+          "amount": {
+            "amount": 640000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "type": "Seed"
+        }
+      ],
+      "investors": {
+        "reportedCount": 2,
+        "visibleNames": [
+          {
+            "name": "500 Global",
+            "rounds": [
+              "Seed Round"
+            ]
+          },
+          {
+            "name": "Oqal",
+            "rounds": [
+              "Seed Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 2,
+      "includedUniqueCount": 2,
+      "items": [
+        {
+          "date": "2020-03-23",
+          "title": "Seed Round - Pin-Offer"
+        },
+        {
+          "date": "2019-01-01",
+          "title": "Seed Round - Pin-Offer"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 640000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "heatChange90Days": -15,
+      "heatScore": 41
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Adsquare is the global audience & location intelligence company transforming data-driven marketing.",
+          "employeeRange": "101-250",
+          "name": "Adsquare",
+          "sharedCategories": [
+            "Analytics"
+          ],
+          "similarityScore": 90
+        },
+        {
+          "description": "Blis is a platform for advertising that provides customized performance and targeting without depending on personal information.",
+          "employeeRange": "251-500",
+          "name": "Blis",
+          "sharedCategories": [
+            "Advertising"
+          ],
+          "similarityScore": 89
+        },
+        {
+          "description": "GroundTruth, the leading location technology company that drives results with real-world data.",
+          "employeeRange": "251-500",
+          "name": "GroundTruth",
+          "sharedCategories": [
+            "Advertising",
+            "Analytics"
+          ],
+          "similarityScore": 88
+        },
+        {
+          "description": "Reveal Mobile provides location-based marketing, analytics, and attribution for agencies, brands, media companies, and app publishers.",
+          "employeeRange": "11-50",
+          "name": "Reveal Mobile",
+          "sharedCategories": [
+            "Analytics",
+            "Apps"
+          ],
+          "similarityScore": 86
+        },
+        {
+          "description": "Street Fight is an industry publication and events business focused on delivering editorially-driven products and services.",
+          "employeeRange": "11-50",
+          "name": "Street Fight",
+          "sharedCategories": [
+            "Advertising"
+          ],
+          "similarityScore": 84
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Adsquare, Blis, GroundTruth.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

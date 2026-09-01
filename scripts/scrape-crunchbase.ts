@@ -1,4 +1,4 @@
-import { execFile } from 'node:child_process'
+import { spawn, type ChildProcessWithoutNullStreams } from 'node:child_process'
 import { mkdir, readFile, rename, writeFile } from 'node:fs/promises'
 import { dirname, resolve } from 'node:path'
 import {
@@ -20,6 +20,7 @@ type CliOptions = {
   manifestPath: string
   maxAttempts: number
   outputPath?: string
+  outputDir: string
   rateLimitDelayMs: number
   requestedUrl: string
   requestDelayMs: number
@@ -106,6 +107,7 @@ function usage() {
 Options:
   -o, --output <path>   JSON output path
       --input <path>    Ordered JSON array of Crunchbase organization URLs
+      --output-dir <path> Directory for batch raw/insights files (default: outputs/crunchbase)
       --manifest <path> Batch checkpoint path (default: outputs/crunchbase/manifest.json)
       --failed <path>   Retry queue path (default: outputs/crunchbase/failed.json)
       --max-attempts <n> Attempts per company per run (default: 3)
@@ -114,7 +116,7 @@ Options:
       --retry-delay <ms> Delay between attempts (default: 5000)
       --start <number>  First 1-based input index to process (default: 1)
       --limit <number>  Maximum number of input entries to consider
-      --keep-open       Leave the Brave tab open after scraping
+      --keep-open       Deprecated; GUI-free mode never opens a browser tab
       --timeout <ms>    Page timeout in milliseconds (default: 90000)
   -h, --help            Show this help
 
@@ -124,10 +126,8 @@ Examples:
   pnpm scrape:crunchbase https://www.crunchbase.com/organization/stripe -o outputs/crunchbase/stripe.json
   pnpm scrape:crunchbase --input "valid links.json" --limit 10
 
-The script uses the currently running, logged-in Brave Browser session on macOS.
-It never reads or writes browser cookies, profile files, or local storage, and it
-does not export session, user, or authentication data. It checks only whether the
-page reports that the current browser session is logged in.`
+The script uses a GUI-free Chrome-compatible HTTP session authenticated from the
+local Brave cookie store. It never opens, navigates, or focuses a browser tab.`
 }
 
 function requireValue(args: string[], index: number, flag: string) {
@@ -142,6 +142,7 @@ function parseArgs(args: string[]): CliOptions {
   let requestedUrl = DEFAULT_URL
   let outputPath: string | undefined
   let inputPath: string | undefined
+  let outputDir = 'outputs/crunchbase'
   let manifestPath = 'outputs/crunchbase/manifest.json'
   let failedPath = 'outputs/crunchbase/failed.json'
   let maxAttempts = 3
@@ -176,6 +177,12 @@ function parseArgs(args: string[]): CliOptions {
 
     if (argument === '--input') {
       inputPath = requireValue(args, index, argument)
+      index += 1
+      continue
+    }
+
+    if (argument === '--output-dir') {
+      outputDir = requireValue(args, index, argument)
       index += 1
       continue
     }
@@ -265,6 +272,7 @@ function parseArgs(args: string[]): CliOptions {
     manifestPath: resolve(manifestPath),
     maxAttempts,
     outputPath,
+    outputDir: resolve(outputDir),
     rateLimitDelayMs,
     requestedUrl,
     requestDelayMs,
@@ -279,6 +287,7 @@ function parseTarget(
   outputPath?: string,
   keepOpen = false,
   timeoutMs = 90_000,
+  outputDir = 'outputs/crunchbase',
 ): ScrapeOptions {
   const parsedUrl = new URL(requestedUrl)
   if (
@@ -300,7 +309,7 @@ function parseTarget(
   return {
     keepOpen,
     outputPath: resolve(
-      outputPath ?? `outputs/crunchbase/${safeFilename}.json`,
+      outputPath ?? `${outputDir}/${safeFilename}.json`,
     ),
     slug,
     timeoutMs,
@@ -409,122 +418,198 @@ function buildExtractor(slug: string) {
   })()`
 }
 
+function organizationEndpoint(slug: string) {
+  const fieldIds = [
+    'identifier',
+    'layout_id',
+    'facet_ids',
+    'title',
+    'short_description',
+    'is_locked',
+    'category_groups',
+    'rank_delta_d90',
+    'investor_identifiers',
+  ]
+  const cardIds = [
+    'competitors_list',
+    'product_similarity_target_org_list',
+    'org_similarity_org_list',
+    'current_employees_summary',
+    'advisors_summary',
+    'alumni_summary',
+    'recommended_search',
+    'current_valuation',
+  ]
+  return (
+    `/v4/data/entities/organizations/${encodeURIComponent(slug)}` +
+    `?field_ids=${encodeURIComponent(JSON.stringify(fieldIds))}` +
+    `&card_ids=${encodeURIComponent(JSON.stringify(cardIds))}` +
+    '&layout_mode=view_v3'
+  )
+}
+
+function buildDirectExtractor(slug: string) {
+  const endpoint = organizationEndpoint(slug)
+
+  return `(() => {
+    const errorPrefix = ${JSON.stringify(ERROR_PREFIX)};
+    const endpoint = ${JSON.stringify(endpoint)};
+    const stateElement = document.querySelector('script#ng-state[type="application/json"]');
+    if (!stateElement?.textContent) {
+      return errorPrefix + 'Stationary Crunchbase page state is unavailable';
+    }
+    const state = JSON.parse(stateElement.textContent);
+    const loggedInState = state.InitialAuthState?.loggedInState;
+    if (loggedInState !== 'logged-in') {
+      return errorPrefix + 'The stationary Brave tab is not logged in to Crunchbase';
+    }
+
+    const request = new XMLHttpRequest();
+    request.open('GET', endpoint, false);
+    request.send();
+    if (
+      request.status === 429 ||
+      (request.status === 403 && /error\\s*1015|you are being rate limited/i.test(request.responseText))
+    ) {
+      return errorPrefix + 'Crunchbase rate limit detected while loading organization data';
+    }
+    if (request.status !== 200) {
+      return errorPrefix + 'Organization data request failed with HTTP ' + request.status;
+    }
+
+    const organization = JSON.parse(request.responseText);
+    const canonicalSlug = organization.properties?.identifier?.permalink;
+    return JSON.stringify({
+      sourceUrl: 'https://www.crunchbase.com/organization/' + encodeURIComponent(canonicalSlug || ${JSON.stringify(slug)}),
+      pageTitle: organization.properties?.identifier?.value || canonicalSlug || ${JSON.stringify(slug)},
+      scrapedAt: new Date().toISOString(),
+      extraction: {
+        method: 'brave-apple-events-entity-fetch-no-navigation',
+        authenticated: true,
+      },
+      organization,
+    });
+  })()`
+}
+
 const appleScript = String.raw`
 on run argv
-  set targetURL to item 1 of argv
-  set extractionJavascript to item 2 of argv
-  set keepOpenFlag to item 3 of argv
-  set pollCount to (item 4 of argv) as integer
+  set extractionJavascript to item 1 of argv
   set scraperMarker to "__CODEX_CRUNCHBASE_SCRAPER__"
-  set scraperMarkerURL to "data:text/html,%3Ctitle%3E__CODEX_CRUNCHBASE_SCRAPER__%3C%2Ftitle%3E"
   set targetTab to missing value
-  set targetWindow to missing value
-  set didCreateTab to false
-  set lastResult to "${WAIT_PREFIX}Page has not finished loading"
 
-  try
-    tell application "Brave Browser"
+  tell application "Brave Browser"
+    repeat with candidateWindow in windows
+      repeat with candidateTab in tabs of candidateWindow
+        set isScraperTab to false
+        if title of candidateTab is scraperMarker then set isScraperTab to true
+        if URL of candidateTab contains "#" & scraperMarker then set isScraperTab to true
+        try
+          if (execute candidateTab javascript "window.name") is scraperMarker then set isScraperTab to true
+        end try
+        if isScraperTab then
+          set targetTab to candidateTab
+          exit repeat
+        end if
+      end repeat
+      if targetTab is not missing value then exit repeat
+    end repeat
+
+    if targetTab is missing value then
       repeat with candidateWindow in windows
         repeat with candidateTab in tabs of candidateWindow
-          if title of candidateTab is scraperMarker then
-            set targetWindow to candidateWindow
+          if URL of candidateTab starts with "https://www.crunchbase.com/" then
+            set targetTab to candidateTab
             exit repeat
           end if
         end repeat
-        if targetWindow is not missing value then exit repeat
+        if targetTab is not missing value then exit repeat
       end repeat
-
-      if targetWindow is missing value then
-        set targetWindow to make new window
-        set URL of active tab of targetWindow to scraperMarkerURL
-        delay 0.25
-      end if
-
-      set index of targetWindow to (count of windows)
-
-      set targetTab to make new tab at end of tabs of targetWindow with properties {URL:targetURL}
-      set didCreateTab to true
-      set index of targetWindow to (count of windows)
-
-      repeat pollCount times
-        if (loading of targetTab) is false then
-          try
-            set lastResult to execute targetTab javascript extractionJavascript
-            if lastResult is missing value then
-              set lastResult to "${WAIT_PREFIX}Browser returned no value while page state was changing"
-            end if
-          on error scriptError
-            if scriptError contains "Allow JavaScript from Apple Events" then
-              set lastResult to "${ERROR_PREFIX}" & scriptError
-            else
-              set lastResult to "${WAIT_PREFIX}" & scriptError
-            end if
-          end try
-
-          if lastResult starts with "${ERROR_PREFIX}" then
-            error lastResult
-          end if
-
-          if lastResult does not start with "${WAIT_PREFIX}" then
-            if keepOpenFlag is not "true" then
-              close targetTab
-              set index of targetWindow to (count of windows)
-              set didCreateTab to false
-            end if
-            return lastResult
-          end if
-        end if
-
-        delay 0.25
-      end repeat
-
-      error "Timed out waiting for Crunchbase data. Last result: " & lastResult
-    end tell
-  on error errorMessage number errorNumber
-    if didCreateTab and keepOpenFlag is not "true" then
-      try
-        tell application "Brave Browser"
-          close targetTab
-          set index of targetWindow to (count of windows)
-        end tell
-      end try
     end if
-    error errorMessage number errorNumber
-  end try
+
+    if targetTab is missing value then error "No authenticated Crunchbase tab is available for focus-safe scraping"
+    execute targetTab javascript "window.name='" & scraperMarker & "';'ok'"
+    return execute targetTab javascript extractionJavascript
+  end tell
 end run
 `
 
-function runInBrowser(options: ScrapeOptions) {
-  const extractor = buildExtractor(options.slug)
-  const pollCount = String(Math.ceil(options.timeoutMs / 250))
+const HTTP_PYTHON =
+  '/Users/sa7afy/.cache/eign-crunchbase-http-venv/bin/python'
+const HTTP_HELPER = resolve('scripts/lib/crunchbase-http.py')
+let httpWorker: ChildProcessWithoutNullStreams | undefined
+let httpBuffer = ''
+let pendingHttpResponse:
+  | { reject: (error: Error) => void; resolve: (value: string) => void }
+  | undefined
 
-  return new Promise<string>((resolvePromise, rejectPromise) => {
-    execFile(
-      '/usr/bin/osascript',
-      [
-        '-e',
-        appleScript,
-        options.url,
-        extractor,
-        String(options.keepOpen),
-        pollCount,
-      ],
-      {
-        encoding: 'utf8',
-        maxBuffer: 32 * 1024 * 1024,
-        timeout: options.timeoutMs + 10_000,
-      },
-      (error, stdout, stderr) => {
-        if (error) {
-          const details = stderr.trim() || error.message
-          rejectPromise(new Error(`Brave Browser automation failed: ${details}`))
-          return
-        }
-
-        resolvePromise(stdout.trim())
-      },
-    )
+function getHttpWorker() {
+  if (httpWorker && !httpWorker.killed) return httpWorker
+  httpWorker = spawn(HTTP_PYTHON, [HTTP_HELPER, '--worker'], {
+    cwd: process.cwd(),
+    stdio: ['pipe', 'pipe', 'pipe'],
   })
+  httpWorker.stdout.setEncoding('utf8')
+  httpWorker.stdout.on('data', (chunk: string) => {
+    httpBuffer += chunk
+    const newline = httpBuffer.indexOf('\n')
+    if (newline === -1) return
+    const line = httpBuffer.slice(0, newline)
+    httpBuffer = httpBuffer.slice(newline + 1)
+    const pending = pendingHttpResponse
+    pendingHttpResponse = undefined
+    pending?.resolve(line)
+  })
+  httpWorker.once('exit', (code) => {
+    const pending = pendingHttpResponse
+    pendingHttpResponse = undefined
+    httpWorker = undefined
+    pending?.reject(new Error(`GUI-free Crunchbase worker exited with code ${code}`))
+  })
+  return httpWorker
+}
+
+function requestThroughHttpWorker(endpoint: string) {
+  if (pendingHttpResponse) {
+    throw new Error('GUI-free Crunchbase worker already has an active request')
+  }
+  const worker = getHttpWorker()
+  return new Promise<string>((resolvePromise, rejectPromise) => {
+    pendingHttpResponse = { reject: rejectPromise, resolve: resolvePromise }
+    worker.stdin.write(`${endpoint}\n`)
+  })
+}
+
+function closeHttpWorker() {
+  httpWorker?.stdin.end()
+}
+
+async function runAuthenticatedHttp(options: ScrapeOptions) {
+  const rawResponse = await requestThroughHttpWorker(
+    organizationEndpoint(options.slug),
+  )
+  const response = JSON.parse(rawResponse) as { body: string; status: number }
+  const isCloudflareRateLimit =
+    response.status === 403 &&
+    /error\s*1015|you are being rate limited/i.test(response.body)
+  if (response.status === 429 || isCloudflareRateLimit) {
+    throw new Error('Crunchbase rate limit detected while loading organization data')
+  }
+  if (response.status !== 200) {
+    throw new Error(`Organization data request failed with HTTP ${response.status}`)
+  }
+  const organization = JSON.parse(response.body) as ScrapeResult['organization']
+  const canonicalSlug = organization.properties?.identifier?.permalink
+  return JSON.stringify({
+    sourceUrl: `https://www.crunchbase.com/organization/${encodeURIComponent(canonicalSlug ?? options.slug)}`,
+    pageTitle: canonicalSlug ?? options.slug,
+    scrapedAt: new Date().toISOString(),
+    extraction: {
+      authenticated: true,
+      method: 'curl-cffi-authenticated-entity-fetch-no-browser',
+    },
+    organization,
+  } satisfies ScrapeResult)
 }
 
 function validateResult(rawResult: string, expectedSlug: string) {
@@ -533,7 +618,7 @@ function validateResult(rawResult: string, expectedSlug: string) {
   try {
     result = JSON.parse(rawResult) as ScrapeResult
   } catch (error) {
-    throw new Error(`Brave Browser returned invalid JSON: ${String(error)}`)
+    throw new Error(`Crunchbase transport returned invalid JSON: ${String(error)}`)
   }
 
   const identifier = result.organization?.properties?.identifier
@@ -548,16 +633,16 @@ function validateResult(rawResult: string, expectedSlug: string) {
     identifier?.permalink !== canonicalSlug
   ) {
     throw new Error(
-      `Brave Browser returned the wrong organization payload: ${identifier?.permalink ?? 'missing permalink'}`,
+      `Crunchbase returned the wrong organization payload: ${identifier?.permalink ?? 'missing permalink'}`,
     )
   }
 
   if (!result.extraction?.authenticated) {
-    throw new Error('The result was not captured from a confirmed logged-in Brave Browser session')
+    throw new Error('The result was not captured from a confirmed authenticated session')
   }
 
   if (Object.keys(result.organization.cards ?? {}).length === 0) {
-    throw new Error('Brave Browser returned an incomplete organization payload with no data cards')
+    throw new Error('Crunchbase returned an incomplete organization payload with no data cards')
   }
 
   return result
@@ -570,7 +655,7 @@ function insightsPathFor(rawOutputPath: string) {
 }
 
 async function scrapeOrganization(options: ScrapeOptions) {
-  const rawResult = await runInBrowser(options)
+  const rawResult = await runAuthenticatedHttp(options)
   const result = validateResult(rawResult, options.slug)
   const insights = buildCrunchbaseInsights(result)
   assertInsightsAreClean(insights)
@@ -696,17 +781,32 @@ async function loadOrCreateManifest(
     return manifest
   }
 
-  if (
-    manifest.version !== 1 ||
-    manifest.totalLinks !== links.length ||
-    manifest.entries.length !== links.length ||
-    manifest.entries.some(
+  if (manifest.version !== 1) {
+    throw new Error('Unsupported manifest version')
+  }
+
+  const inputMatches =
+    manifest.totalLinks === links.length &&
+    manifest.entries.length === links.length &&
+    manifest.entries.every(
       (entry, offset) =>
-        entry.index !== offset + 1 || entry.requestedUrl !== links[offset],
+        entry.index === offset + 1 && entry.requestedUrl === links[offset],
     )
-  ) {
-    throw new Error(
-      'The existing manifest does not match the ordered input file; use a different --manifest path',
+  if (!inputMatches) {
+    const existingByUrl = new Map(
+      manifest.entries.map((entry) => [entry.requestedUrl, entry]),
+    )
+    const fresh = newManifest(inputPath, links)
+    manifest.entries = fresh.entries.map((entry) => {
+      const existing = existingByUrl.get(entry.requestedUrl)
+      return existing ? { ...existing, index: entry.index } : entry
+    })
+    manifest.inputPath = inputPath
+    manifest.totalLinks = links.length
+    manifest.updatedAt = new Date().toISOString()
+    await writeManifest(manifestPath, manifest)
+    console.log(
+      `Reconciled manifest by URL: ${existingByUrl.size} previous, ${links.length} current`,
     )
   }
   return manifest
@@ -781,6 +881,7 @@ async function runBatch(options: CliOptions) {
       undefined,
       false,
       options.timeoutMs,
+      options.outputDir,
     )
 
     const wasSuccessful = entry.status === 'success'
@@ -912,6 +1013,7 @@ async function main() {
 
   if (options.inputPath) {
     await runBatch(options)
+    closeHttpWorker()
     return
   }
 
@@ -932,11 +1034,13 @@ async function main() {
   console.log(`UUID: ${identifier?.uuid ?? 'not provided'}`)
   console.log(`Cards: ${cardCount}`)
   console.log(
-    `Authenticated Brave Browser session: ${result.extraction.authenticated ? 'yes' : 'not confirmed'}`,
+    `Authenticated Crunchbase session: ${result.extraction.authenticated ? 'yes' : 'not confirmed'}`,
   )
+  closeHttpWorker()
 }
 
 main().catch((error: unknown) => {
+  closeHttpWorker()
   console.error(error instanceof Error ? error.message : String(error))
   process.exitCode = 1
 })

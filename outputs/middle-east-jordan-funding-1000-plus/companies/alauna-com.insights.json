@@ -1,0 +1,178 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T09:09:20.519Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T09:09:20.518Z",
+    "url": "https://www.crunchbase.com/organization/alauna-com"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "alauna.com",
+      "shortDescription": "alauna.com is an auction platform that provides you with flexible ways to acquire and sell products.",
+      "description": "alauna.com is an auction platform that provides you with flexible ways to acquire and sell products. First online auction platform that addresses the challenges of late e-commerce adoption and online payment in the MENA region. alauna solves the problem leveraging SMS existing and saturated (feature) mobile services and carrier-billing for payment and identity authentication.",
+      "website": "http://www.alauna.com/",
+      "operatingStatus": "Closed",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "11-50",
+      "headquarters": "Cairo, Al Qahirah, Egypt",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Middle East",
+        "Middle East and North Africa (MENA)",
+        "North Africa"
+      ],
+      "industries": [
+        "Auctions",
+        "E-Commerce",
+        "Internet",
+        "Shopping"
+      ],
+      "sectors": [
+        "Commerce and Shopping",
+        "Information Technology"
+      ],
+      "founders": [
+        "Abdo Assem",
+        "Sherif Nafie"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 55000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2014-03-01",
+      "lastFundingType": "Angel",
+      "rounds": [
+        {
+          "announcedDate": "2014-03-01",
+          "amount": {
+            "amount": 55000,
+            "currency": "USD"
+          },
+          "type": "Angel"
+        }
+      ]
+    },
+    "recentNews": {
+      "reportedCount": 1,
+      "includedUniqueCount": 1,
+      "items": [
+        {
+          "date": "2014-03-01",
+          "title": "Angel Round - alauna.com"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 55000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "heatChange90Days": -14,
+      "heatScore": 19
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Aucto is an online marketplace for surplus industrial assets.",
+          "employeeRange": "11-50",
+          "name": "Aucto",
+          "sharedCategories": [
+            "E-Commerce"
+          ],
+          "similarityScore": 97
+        },
+        {
+          "description": "Proxibid connects buyers and sellers of highly-valued items",
+          "employeeRange": "101-250",
+          "name": "Proxibid",
+          "sharedCategories": [
+            "E-Commerce"
+          ],
+          "similarityScore": 95
+        },
+        {
+          "description": "Bidspotter organizes live Internet auctions.",
+          "employeeRange": "11-50",
+          "name": "Bidspotter",
+          "sharedCategories": [
+            "Auctions"
+          ],
+          "similarityScore": 93
+        },
+        {
+          "description": "LiveAuctioneers connects millions of collectors and sellers of exceptional antiques, fine arts, jewelry and collectibles.",
+          "employeeRange": "11-50",
+          "name": "LiveAuctioneers",
+          "sharedCategories": [
+            "E-Commerce",
+            "Internet",
+            "Auctions"
+          ],
+          "similarityScore": 91
+        },
+        {
+          "description": "AuctionZip is an online auction marketplace for more than 25,000 professional auctioneers and 14 million auction buyers.",
+          "employeeRange": "51-100",
+          "name": "AuctionZip",
+          "similarityScore": 89
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Angel round raised $55,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Aucto, Proxibid, Bidspotter.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

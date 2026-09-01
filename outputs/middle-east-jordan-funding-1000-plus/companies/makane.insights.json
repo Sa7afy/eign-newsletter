@@ -1,0 +1,283 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T12:24:59.516Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T12:24:59.514Z",
+    "url": "https://www.crunchbase.com/organization/makane"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "MakanE",
+      "shortDescription": "Makane has a specialized team that helps you build your online store and guides you through your e-commerce journey to help you grow.",
+      "description": "Makane has a specialized team that not only helps you build your online store, but guides you through your e-commerce journey to help you grow. The Makane platform doesn’t require any technical expertise and offers payment and shipment integrations.",
+      "website": "https://makane.com/sa-ar",
+      "foundedYear": 2020,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "101-250",
+      "estimatedRevenueRange": "$1M-$10M",
+      "headquarters": "Amman, Jordan",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "E-Commerce",
+        "Software"
+      ],
+      "sectors": [
+        "Commerce and Shopping",
+        "Software"
+      ],
+      "founders": [
+        "Moe Ghashim",
+        "Omar Koudsi"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "A platform that allows users to create and manage their online stores.",
+        "name": "Ecommerce Builder"
+      },
+      {
+        "description": "Systems designed to facilitate sales transactions and manage retail operations efficiently.",
+        "name": "Smart Point of Sale (POS) Systems"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 25000000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2022-02-15",
+      "lastFundingType": "Undisclosed",
+      "rounds": [
+        {
+          "announcedDate": "2022-02-15",
+          "amount": {
+            "amount": 25000000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "postMoneyValuation": {
+            "amount": 148639428,
+            "currency": "USD"
+          },
+          "type": "Undisclosed"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "name": "TQ Ventures",
+            "rounds": [
+              "Funding Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 2,
+      "includedUniqueCount": 2,
+      "items": [
+        {
+          "date": "2023-01-24",
+          "publisher": "WAYA",
+          "title": "Torod, Saudi Arabia’s shipping solution, signs a strategic partnership with Makane",
+          "url": "https://waya.media/torod-saudi-arabias-shipping-solution-signs-a-strategic-partnership-with-makane/"
+        },
+        {
+          "date": "2022-02-15",
+          "title": "Funding Round - MakanE"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 25000000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": -1,
+      "growthScore": 65,
+      "heatChange90Days": -20,
+      "heatScore": 36
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 0
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 25.48,
+        "timingEstimatePercent": {
+          "within6Months": 13.86,
+          "months6To11": 11.94,
+          "months12To24": 19.15,
+          "beyond24Months": 24.74
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 78.26
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 0
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Zid is an eRetail enablement company that enables any retailer to move from traditional retail to modern retail.",
+          "employeeRange": "251-500",
+          "name": "Zid",
+          "sharedCategories": [
+            "E-Commerce"
+          ],
+          "sharedSpecialties": [
+            "Order and Inventory Management",
+            "E-Commerce Hosting and Optimization",
+            "E-Commerce Operations Management",
+            "E-Commerce Marketing"
+          ],
+          "similarityScore": 95
+        },
+        {
+          "description": "Mamba provide a comprehensive training program that focuses on developing fundamental skills, improving physical fitness.",
+          "employeeRange": "1-10",
+          "name": "Mamba Academy",
+          "similarityScore": 91
+        },
+        {
+          "description": "Shopify is a commerce platform that provides tools for businesses to build, manage, and grow online and offline stores.",
+          "employeeRange": "5,001-10,000",
+          "name": "Shopify",
+          "sharedCategories": [
+            "E-Commerce"
+          ],
+          "sharedSpecialties": [
+            "E-Commerce Hosting and Optimization",
+            "Headless Commerce Platforms",
+            "E-Commerce Operations Management",
+            "E-Commerce Mobile Apps"
+          ],
+          "similarityScore": 90
+        },
+        {
+          "description": "Woo develops WooCommerce, the leading open-source ecommerce platform built on WordPress.",
+          "employeeRange": "251-500",
+          "name": "WooCommerce",
+          "sharedCategories": [
+            "E-Commerce",
+            "Software"
+          ],
+          "sharedSpecialties": [
+            "E-Commerce Development",
+            "Order and Inventory Management",
+            "E-Commerce Hosting and Optimization",
+            "E-Commerce Marketing"
+          ],
+          "similarityScore": 85
+        },
+        {
+          "description": "Tap is an online payment system that enables its users to accept payments using global debit and credit cards.",
+          "employeeRange": "1-10",
+          "name": "Tap",
+          "sharedCategories": [
+            "E-Commerce"
+          ],
+          "sharedSpecialties": [
+            "Merchant Services",
+            "Headless Commerce Platforms"
+          ],
+          "similarityScore": 84
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Undisclosed round raised $25,000,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $148,639,428 to $148,639,428, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 65 (-1 over 90 days) and market heat at 36 (-20).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Zid, Mamba Academy, Shopify.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

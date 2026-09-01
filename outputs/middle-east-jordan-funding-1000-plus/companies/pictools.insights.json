@@ -1,0 +1,293 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T12:56:36.542Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T12:56:36.540Z",
+    "url": "https://www.crunchbase.com/organization/pictools"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Pictools",
+      "shortDescription": "PicTools.AI provides AI tools to generate and edit images.",
+      "description": "PicTools.AI is a SaaS platform that makes image generation and photo editing simple with artificial intelligence. Type a prompt to create something new in seconds, or edit your own photos with the same ease. AI filters add styles or transformations that instantly give each picture a fresh look.\n\nFrom removing objects in a photo to restoring old family pictures or adding a new background to portraits, PicTools.AI helps anyone create and edit quickly and naturally. It’s designed for casual users, creators, and businesses who need high-quality visuals without complex software or design skills.",
+      "website": "https://pictools.ai/",
+      "foundedYear": 2024,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "1-10",
+      "headquarters": "Dubai, United Arab Emirates",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Artificial Intelligence (AI)",
+        "Generative AI",
+        "Natural Language Processing",
+        "Photo Editing",
+        "Photography",
+        "Productivity Tools",
+        "SaaS"
+      ],
+      "sectors": [
+        "Artificial Intelligence (AI)",
+        "Content and Publishing",
+        "Data and Analytics",
+        "Media and Entertainment",
+        "Science and Engineering",
+        "Software"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "Generates images from text descriptions using AI, producing realistic or stylized visuals for creative projects.",
+        "name": "AI Image Generator"
+      },
+      {
+        "description": "Automatically removes image backgrounds to create transparent or customizable backgrounds for photos.",
+        "name": "Background Remover"
+      },
+      {
+        "description": "Replaces the background of photos with colors, images, or custom backgrounds using AI.",
+        "name": "Background Changer"
+      },
+      {
+        "description": "Applies AI-powered blur effects to photo backgrounds, keeping the main subject in focus.",
+        "name": "Background Blur Tool"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 30000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2024-03-11",
+      "lastFundingType": "Pre Seed",
+      "rounds": [
+        {
+          "announcedDate": "2024-03-11",
+          "amount": {
+            "amount": 30000,
+            "currency": "USD"
+          },
+          "postMoneyValuation": {
+            "amount": 860076,
+            "currency": "USD"
+          },
+          "type": "Pre Seed"
+        }
+      ]
+    },
+    "recentNews": {
+      "reportedCount": 1,
+      "includedUniqueCount": 1,
+      "items": [
+        {
+          "date": "2024-03-11",
+          "title": "Pre Seed Round - Pictools"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 30000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": -3,
+      "growthScore": 33,
+      "heatChange90Days": 5,
+      "heatScore": 70
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 84.84
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 59.55,
+        "timingEstimatePercent": {
+          "within6Months": 1.96,
+          "months6To11": 0,
+          "months12To24": 0,
+          "beyond24Months": 98.04
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-06-22",
+        "probabilityPercent": 90.03
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 4.45
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Remove.bg removes backgrounds from photos. Automatically.",
+          "employeeRange": "11-50",
+          "name": "Remove.bg",
+          "sharedCategories": [
+            "Artificial Intelligence (AI)"
+          ],
+          "sharedSpecialties": [
+            "Image Tools",
+            "Product Image Editing",
+            "Product Recognition",
+            "Image Segmentation",
+            "AI Image Editors"
+          ],
+          "similarityScore": 97
+        },
+        {
+          "description": "Pixlr provides AI-powered cloud-based design and editing services",
+          "employeeRange": "51-100",
+          "name": "Pixlr",
+          "sharedCategories": [
+            "Photography"
+          ],
+          "sharedSpecialties": [
+            "Image Tools",
+            "Product Image Editing",
+            "Generative and Algorithmic Art",
+            "AI Image Editors"
+          ],
+          "similarityScore": 95
+        },
+        {
+          "description": "Fotor is a multi-platform photo editing tool.",
+          "employeeRange": "11-50",
+          "name": "Fotor",
+          "sharedCategories": [
+            "Photography",
+            "Photo Editing"
+          ],
+          "sharedSpecialties": [
+            "Image Tools",
+            "Product Image Editing",
+            "Generative and Algorithmic Art",
+            "AI Image Editors"
+          ],
+          "similarityScore": 93
+        },
+        {
+          "description": "Canva is an online design and visual communication platform that provides design tools for non-designers.",
+          "employeeRange": "1,001-5,000",
+          "name": "Canva",
+          "sharedCategories": [
+            "Artificial Intelligence (AI)",
+            "Photo Editing"
+          ],
+          "sharedSpecialties": [
+            "Image Tools",
+            "AI Image Editors"
+          ],
+          "similarityScore": 91
+        },
+        {
+          "description": "Photoroom is an AI-enabled image capturing app that offers image retouching, background removal, and batch editing services.",
+          "employeeRange": "11-50",
+          "name": "Photoroom",
+          "sharedCategories": [
+            "Photography",
+            "Generative AI",
+            "Artificial Intelligence (AI)",
+            "Photo Editing"
+          ],
+          "sharedSpecialties": [
+            "Commercial Product Photography",
+            "Image Tools",
+            "Ghost Mannequin Editing",
+            "Product Image Editing",
+            "AI Image Editors"
+          ],
+          "similarityScore": 89
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Pre Seed round raised $30,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $860,076 to $860,076, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 33 (-3 over 90 days) and market heat at 70 (+5).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Remove.bg, Pixlr, Fotor.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

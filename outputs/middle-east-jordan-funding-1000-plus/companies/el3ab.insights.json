@@ -1,0 +1,205 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T11:31:39.661Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T11:31:39.659Z",
+    "url": "https://www.crunchbase.com/organization/el3ab"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "El3ab",
+      "shortDescription": "El3ab is an entertainment gaming portals in Egypt and the Middle East.",
+      "description": "El3ab catered to the gaming market with a selection of Arabic games such as Backgammon and card games mostly played in social settings.",
+      "website": "http://www.el3ab.com/en/home",
+      "foundedYear": 2002,
+      "operatingStatus": "Closed",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "1-10",
+      "estimatedRevenueRange": "Less than $1M",
+      "headquarters": "Cairo, Al Qahirah, Egypt",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Middle East",
+        "Middle East and North Africa (MENA)",
+        "North Africa"
+      ],
+      "industries": [
+        "Gaming",
+        "PC Games",
+        "Video Games"
+      ],
+      "sectors": [
+        "Gaming"
+      ],
+      "founders": [
+        "Assem Emam",
+        "Saher Hassan"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 168476,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 2,
+      "detailedRoundCount": 2,
+      "lastFundingDate": "2017-01-01",
+      "lastFundingType": "Angel",
+      "rounds": [
+        {
+          "announcedDate": "2017-01-01",
+          "amount": {
+            "amount": 55800,
+            "currency": "USD"
+          },
+          "type": "Angel"
+        },
+        {
+          "announcedDate": "2016-10-01",
+          "amount": {
+            "amount": 112676,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "A15"
+          ],
+          "type": "Seed"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "A15",
+            "rounds": [
+              "Seed Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 2,
+      "includedUniqueCount": 2,
+      "items": [
+        {
+          "date": "2017-01-01",
+          "title": "Angel Round - El3ab"
+        },
+        {
+          "date": "2016-10-01",
+          "title": "Seed Round - El3ab"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 2,
+    "knownDetailedFundingAmount": {
+      "amount": 168476,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 33.12
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "heatChange90Days": -15,
+      "heatScore": 12
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Game Power 7 is a video game publisher and developer company.",
+          "employeeRange": "51-100",
+          "name": "Game Power 7",
+          "sharedCategories": [
+            "Video Games"
+          ],
+          "similarityScore": 91
+        },
+        {
+          "description": "Mobile Games Development  Studio & Publisher Founded 2003",
+          "employeeRange": "11-50",
+          "name": "Maysalward",
+          "sharedCategories": [
+            "Gaming"
+          ],
+          "similarityScore": 87
+        },
+        {
+          "description": "Jawaker is the first social card gaming network, hosting the most popular Middle Eastern card games.",
+          "employeeRange": "11-50",
+          "name": "Jawaker",
+          "sharedCategories": [
+            "Video Games",
+            "Gaming"
+          ],
+          "similarityScore": 85
+        },
+        {
+          "description": "VIP Games is an online platform for multiplayer card and board games with social features, daily bonuses, and tournaments across devices.",
+          "name": "VIP Games",
+          "sharedCategories": [
+            "Video Games",
+            "Gaming"
+          ],
+          "similarityScore": 77
+        },
+        {
+          "description": "Aptoide, an independent Android app store that allows developers, OEM, telcos, and integrators to create and manage their own Android store.",
+          "employeeRange": "51-100",
+          "name": "Aptoide",
+          "similarityScore": 74
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Angel round raised $55,800, or 33.12% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Game Power 7, Maysalward, Jawaker.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

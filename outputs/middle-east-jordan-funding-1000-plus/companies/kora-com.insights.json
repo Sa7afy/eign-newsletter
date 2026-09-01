@@ -1,0 +1,250 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T12:16:45.849Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T12:16:45.847Z",
+    "url": "https://www.crunchbase.com/organization/kora-com"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Kora.com",
+      "shortDescription": "Kora.com is a site dedicated to the procurement and providing of information about middle eastern Soccer leagues.",
+      "description": "Kora.com is a digital sports media platform focused primarily on football (soccer) news, live scores, match coverage, and football culture content for audiences in the Middle East and beyond. The platform covers major international leagues, clubs, tournaments, and players, offering multilingual football updates, analysis, and real-time match information.",
+      "website": "http://www.kora.com/",
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "11-50",
+      "estimatedRevenueRange": "$1M-$10M",
+      "headquarters": "Salmiya, Al Kuwayt, Kuwait",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Digital Media",
+        "Sporting Goods",
+        "Sports"
+      ],
+      "sectors": [
+        "Commerce and Shopping",
+        "Media and Entertainment",
+        "Sports"
+      ],
+      "founders": [
+        "Islam Inshassi"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "A website providing comprehensive information about soccer leagues in the Middle East.",
+        "name": "Middle Eastern Soccer Leagues Information Portal"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 183330,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2018-07-31",
+      "lastFundingType": "Equity Crowdfunding",
+      "rounds": [
+        {
+          "announcedDate": "2018-07-31",
+          "amount": {
+            "amount": 183330,
+            "currency": "USD"
+          },
+          "type": "Equity Crowdfunding"
+        }
+      ]
+    },
+    "recentNews": {
+      "reportedCount": 2,
+      "includedUniqueCount": 2,
+      "items": [
+        {
+          "date": "2025-04-28",
+          "publisher": "Geeky Gadgets",
+          "title": "Create Stunning AI Images with ChatGPT Using these 80+ Unique Art Styles",
+          "url": "https://www.geeky-gadgets.com/generate-stunning-images-with-chatgpt/"
+        },
+        {
+          "date": "2018-07-31",
+          "title": "Equity Crowdfunding - Kora.com"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 183330,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": -25,
+      "growthScore": 37,
+      "heatChange90Days": -1,
+      "heatScore": 56
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 0
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 8.86,
+        "timingEstimatePercent": {
+          "within6Months": 13.77,
+          "months6To11": 11.88,
+          "months12To24": 19.07,
+          "beyond24Months": 24.72
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 45.01
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 0
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Kooora is a Dubai-based online sports publisher.",
+          "employeeRange": "101-250",
+          "name": "Kooora",
+          "sharedCategories": [
+            "Sports"
+          ],
+          "sharedSpecialties": [
+            "Multimedia News",
+            "Content Aggregation Services"
+          ],
+          "similarityScore": 95
+        },
+        {
+          "description": "SofaScore is an online portal and mobile application which displays sports related real time scores and statistical data.",
+          "employeeRange": "101-250",
+          "name": "SofaScore",
+          "sharedCategories": [
+            "Sports"
+          ],
+          "sharedSpecialties": [
+            "Sports and Athlete Marketing",
+            "Content Aggregation Services"
+          ],
+          "similarityScore": 89
+        },
+        {
+          "description": "365Scores is a cross-platform application that enables users to create their own personalized sports channel.",
+          "employeeRange": "11-50",
+          "name": "365Scores",
+          "sharedCategories": [
+            "Sports"
+          ],
+          "sharedSpecialties": [
+            "Sports and Athlete Marketing"
+          ],
+          "similarityScore": 85
+        },
+        {
+          "description": "LiveScore offers real-time sports updates and streaming service providers in over 200 countries.",
+          "employeeRange": "101-250",
+          "name": "LiveScore",
+          "sharedCategories": [
+            "Sports"
+          ],
+          "sharedSpecialties": [
+            "Multimedia News",
+            "Content Aggregation Services"
+          ],
+          "similarityScore": 83
+        },
+        {
+          "description": "BeSoccer provides real-time information on soccer results from all the main and secondary competitions.",
+          "employeeRange": "101-250",
+          "name": "BeSoccer - Resultados de Fútbol",
+          "sharedCategories": [
+            "Sports"
+          ],
+          "sharedSpecialties": [
+            "Multimedia News",
+            "Content Aggregation Services",
+            "Newswires & Syndication Services"
+          ],
+          "similarityScore": 78
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Equity Crowdfunding round raised $183,330, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 37 (-25 over 90 days) and market heat at 56 (-1).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Kooora, SofaScore, 365Scores.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

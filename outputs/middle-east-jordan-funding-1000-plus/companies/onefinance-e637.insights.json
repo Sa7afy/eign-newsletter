@@ -1,0 +1,248 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T12:49:52.821Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T12:49:52.819Z",
+    "url": "https://www.crunchbase.com/organization/onefinance-e637"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Onefinance",
+      "shortDescription": "Onefinance is a consumer finance company offering an integrated platform for saving, spending, and growing money.",
+      "description": "Onefinance operates as a consumer finance company. It offers an innovative after pay experience through an integrated consumer financing platform. The company's services aim to enhance financial inclusion and expand consumer finance solutions. Onefinance's platform allows customers to save, spend, and grow their money all in one place. The company also issues a ONE card, which is licensed by Mastercard® International, providing customers with a convenient payment solution.",
+      "website": "https://www.onefinance.com.eg/",
+      "foundedYear": 2022,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "101-250",
+      "headquarters": "Cairo, Al Qahirah, Egypt",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Middle East",
+        "Middle East and North Africa (MENA)",
+        "North Africa"
+      ],
+      "industries": [
+        "Finance",
+        "Financial Services",
+        "Wealth Management"
+      ],
+      "sectors": [
+        "Financial Services"
+      ],
+      "founders": [
+        "Hazim Madany"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "A credit facility up to EGP 8,000,000 that allows customers to finance purchases across various categories with repayment plans up to 7 years.",
+        "name": "ONE Exposure"
+      },
+      {
+        "description": "A payment card linked to ONE Exposure, offering a credit balance up to EGP 600,000 for in-store and online purchases across Egypt.",
+        "name": "ONE Card"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 13341481,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2024-12-25",
+      "lastFundingType": "Debt Financing",
+      "rounds": [
+        {
+          "announcedDate": "2024-12-25",
+          "amount": {
+            "amount": 13341481,
+            "currency": "USD"
+          },
+          "type": "Debt Financing"
+        }
+      ]
+    },
+    "recentNews": {
+      "reportedCount": 1,
+      "includedUniqueCount": 1,
+      "items": [
+        {
+          "date": "2024-12-25",
+          "title": "Debt Financing - Onefinance"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 13341481,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": -1,
+      "growthScore": 88,
+      "heatChange90Days": -3,
+      "heatScore": 69
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 29.41
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 35.05,
+        "timingEstimatePercent": {
+          "within6Months": 3.03,
+          "months6To11": 0.02,
+          "months12To24": 0,
+          "beyond24Months": 96.95
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 95.34
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 4.3
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Halan is a ride-hailing application that provides two and three-wheeler vehicle rides and on-demand logistics.",
+          "employeeRange": "501-1,000",
+          "name": "Halan",
+          "sharedSpecialties": [
+            "Payment Cards",
+            "Savings Accounts"
+          ],
+          "similarityScore": 95
+        },
+        {
+          "description": "Contact is the first specialized consumer financing company in Egypt.",
+          "employeeRange": "1,001-5,000",
+          "name": "Contact",
+          "sharedCategories": [
+            "Financial Services"
+          ],
+          "sharedSpecialties": [
+            "Vehicle Financing",
+            "Mobile Banking",
+            "Savings Accounts",
+            "Personal Loans"
+          ],
+          "similarityScore": 94
+        },
+        {
+          "description": "MNT-Halan is a microfinance lending and payments platform that provides financial services to businesses.",
+          "employeeRange": "10,001+",
+          "name": "MNT-Halan",
+          "sharedCategories": [
+            "Financial Services"
+          ],
+          "sharedSpecialties": [
+            "Vehicle Financing",
+            "Mobile Banking",
+            "Payment Cards"
+          ],
+          "similarityScore": 93
+        },
+        {
+          "description": "CIB is a financial service company that strives to provide superior financial solutions to meet all customers’ needs.",
+          "employeeRange": "5,001-10,000",
+          "name": "Commercial International Bank",
+          "sharedCategories": [
+            "Financial Services",
+            "Finance"
+          ],
+          "sharedSpecialties": [
+            "Mobile Banking",
+            "Payment Cards",
+            "Online Banking"
+          ],
+          "similarityScore": 89
+        },
+        {
+          "description": "Qatar National Bank Alahli is an Egyptian financial organization that offers investment and commercial banking services.",
+          "employeeRange": "5,001-10,000",
+          "name": "Qatar National Bank Alahli",
+          "sharedCategories": [
+            "Financial Services"
+          ],
+          "sharedSpecialties": [
+            "Payment Cards",
+            "Savings Accounts"
+          ],
+          "similarityScore": 85
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Debt Financing round raised $13,341,481, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 88 (-1 over 90 days) and market heat at 69 (-3).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Halan, Contact, MNT-Halan.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

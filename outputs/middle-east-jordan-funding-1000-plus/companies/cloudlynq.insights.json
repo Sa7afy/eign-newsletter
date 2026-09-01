@@ -1,0 +1,195 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T11:13:05.699Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T11:13:05.698Z",
+    "url": "https://www.crunchbase.com/organization/cloudlynq"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "CloudLynq",
+      "shortDescription": "Artificial Intelligence, Cloud Infrastructure, Automation",
+      "description": "At CloudLynq, we're more than just a technology company – we're your partners in digital transformation. Founded with a vision to democratize access to cutting-edge AI and web technologies, we empower businesses across the UAE and beyond to thrive in the digital age. Our team combines deep technical expertise with a genuine understanding of business challenges, allowing us to create solutions that don't just look impressive but deliver measurable results.\n\nWe believe that every business, regardless of size or industry, deserves access to enterprise-level digital solutions. That's why we've built our services to be scalable, affordable, and most importantly, effective. From the bustling restaurants of Abu Dhabi to innovative startups disrupting traditional industries, we've helped countless businesses establish commanding online presences that drive growth and enhance customer engagement.\n\nOur approach goes beyond traditional web development. We integrate artificial intelligence at every level, creating intelligent systems that learn and adapt to your business needs. Whether it's automating routine tasks that drain your team's productivity, implementing smart customer communication systems, or building predictive analytics that give you a competitive edge, we ensure technology works for you, not the other way around.\n\nWhat truly sets us apart is our commitment to long-term partnerships. We don't just deliver a project and disappear – we stay with you as your business evolves, ensuring your digital assets continue to perform optimally as technology advances and market conditions change. Our comprehensive support and maintenance programs mean you're never alone in your digital journey.\n\nAs proud contributors to the UAE's digital ecosystem, we're also the creators of CloudHub, the region's premier hackathon platform that brings together innovators, developers, and visionaries to build tomorrow's solutions.",
+      "website": "https://lynq.ae/",
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "1-10",
+      "headquarters": "Abu Dhabi, United Arab Emirates",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Artificial Intelligence (AI)",
+        "Business Process Automation (BPA)",
+        "Health Care",
+        "Information Technology",
+        "Software",
+        "Web Design",
+        "Web Development"
+      ],
+      "sectors": [
+        "Artificial Intelligence (AI)",
+        "Data and Analytics",
+        "Design",
+        "Health Care",
+        "Information Technology",
+        "Science and Engineering",
+        "Software"
+      ],
+      "founders": [
+        "Mohamed Al Mehairbi"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 4084,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2025-04-25",
+      "lastFundingType": "Grant",
+      "rounds": [
+        {
+          "announcedDate": "2025-04-25",
+          "amount": {
+            "amount": 4084,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "type": "Grant"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "name": "Sandooq Al Watan",
+            "rounds": [
+              "Grant"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 1,
+      "includedUniqueCount": 1,
+      "items": [
+        {
+          "date": "2025-04-25",
+          "title": "Grant - CloudLynq"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 4084,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "grantFunding": {
+      "amount": {
+        "amount": 4084,
+        "currency": "USD"
+      },
+      "disclosedRoundCount": 1,
+      "shareOfTotalPercent": 100
+    }
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": 3,
+      "growthScore": 46,
+      "heatChange90Days": 7,
+      "heatScore": 66
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 81.65
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 63.63,
+        "timingEstimatePercent": {
+          "within6Months": 99.87,
+          "months6To11": 0,
+          "months12To24": 0,
+          "beyond24Months": 0.13
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-13",
+        "probabilityPercent": 95.84
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 4.74
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors."
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Grant round raised $4,084, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Meaningful non-dilutive funding",
+      "statement": "1 disclosed grants total $4,084, representing 100% of reported funding.",
+      "implication": "The grants reduce the share of reported financing attributed to equity or notes, although their restrictions and milestone requirements need separate verification.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.grantFunding"
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 46 (+3 over 90 days) and market heat at 66 (+7).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

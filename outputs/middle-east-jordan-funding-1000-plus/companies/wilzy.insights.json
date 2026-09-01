@@ -1,0 +1,202 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T13:59:54.472Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T13:59:54.471Z",
+    "url": "https://www.crunchbase.com/organization/wilzy"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Wilzy",
+      "shortDescription": "Wilzy provides a unified fintech app for learning about money, planning finances, and investing through guided, AI-supported wealth tools.",
+      "description": "Wilzy offers a unified financial application that combines learning, planning, and investing in one platform. The company provides guided tools that help users understand their financial position, set goals, and build tailored plans. Through the Wilzy app, individuals can access investment products such as stock market access, equity funds, fixed income funds, and Sharia-compliant funds. The platform includes AI-based features for answering financial questions, tracking net worth, and supporting decision-making. Wilzy operates as a regulated brokerage under the Financial Regulatory Authority and is part of Act Financial Group, focusing on digital wealth and trading services delivered via mobile and web channels.",
+      "website": "https://wilzy.com/",
+      "foundedYear": 2025,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "51-100",
+      "headquarters": "New Cairo, Al Qahirah, Egypt",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Middle East",
+        "Middle East and North Africa (MENA)",
+        "North Africa"
+      ],
+      "industries": [
+        "Artificial Intelligence (AI)",
+        "Consumer Applications",
+        "Financial Services",
+        "FinTech",
+        "Mobile",
+        "Personal Finance",
+        "SaaS",
+        "Wealth Management"
+      ],
+      "sectors": [
+        "Apps",
+        "Artificial Intelligence (AI)",
+        "Data and Analytics",
+        "Financial Services",
+        "Mobile",
+        "Science and Engineering",
+        "Software"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "A unified wealth app for learning, planning, and investing with guided tools, AI support, and regulated trading services.",
+        "name": "Wilzy app"
+      },
+      {
+        "description": "An AI-driven financial assistant that answers questions, explains concepts, and supports actions within the Wilzy app.",
+        "name": "ASK WILZY"
+      },
+      {
+        "description": "A set of curated investment options and workflows tailored to user goals and risk preferences in the Wilzy app.",
+        "name": "Guided investments"
+      },
+      {
+        "description": "A net worth tracking dashboard aggregating assets and liabilities with AI-based insights on financial position.",
+        "name": "Track Your Networth"
+      },
+      {
+        "description": "A range of stock, equity fund, fixed income, and Sharia-compliant investment products accessible through the Wilzy app.",
+        "name": "Wilzy investment products"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 1999224,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2026-08-17",
+      "lastFundingType": "Corporate Round",
+      "rounds": [
+        {
+          "announcedDate": "2026-08-17",
+          "amount": {
+            "amount": 1999224,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "E-Finance"
+          ],
+          "postMoneyValuation": {
+            "amount": 24990303,
+            "currency": "USD"
+          },
+          "type": "Corporate Round"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "E-Finance",
+            "rounds": [
+              "Corporate Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 2,
+      "includedUniqueCount": 2,
+      "items": [
+        {
+          "date": "2026-08-18",
+          "publisher": "TechCabal",
+          "title": "👨🏿‍🚀TechCabal Daily – Mega Terra",
+          "url": "https://techcabal.com/2026/08/18/techcabal-daily-mega-terra/"
+        },
+        {
+          "date": "2026-08-17",
+          "title": "Corporate Round - Wilzy"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 1999224,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": 10,
+      "growthScore": 94,
+      "heatScore": 92
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 27.02
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 91.5
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 6.93
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors."
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Corporate Round round raised $1,999,224, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $24,990,303 to $24,990,303, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T12:21:14.874Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T12:21:14.873Z",
+    "url": "https://www.crunchbase.com/organization/locname--gps-address-book"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "LocName",
+      "shortDescription": "LocName offers IT services.",
+      "description": "LocName, short for “Location Name”, is a new global addressing system (GAS) that allows residents/businesses to pick their own address. As it stands today, every country has their own specific addressing system; USA has zip codes, Canada has postal codes, some countries don't even have names for all their streets! The only unified system which is accepted globally is the GPS coordinates system, which is a long stream of numbers that is too hard to memorize, share, and reach. What LocName does is combines these two pieces of information (address details, and GPS coordinates) under one unique, personalized name picked by the users themselves. Our first products are the LocName web and mobile applications that are targeted towards everyday residents and business locations.\r\n\r\nHow the App Works:\r\n\r\nUsers of one of our apps (iOs, Android, or Web) will allow the app to find their current location using GPS. They will then give that location a name, or what we like to call a LocName (users can also edit additional details and privacy settings for their place). Thats all it takes! That place now has a new, memorable address that can be shared with friends and clients looking to reach that location. Users can use GPS navigation to reach any LocName location. By saving a list of favorite friends' places and business locations, users will have an address book of GPS locations accessible to them straight from their pocket.\r\n\r\nThe LocName API\r\n\r\nOur second product is one targeted towards e-commerce websites that will help capture accurate customer location details to help curb the loss in revenue due to human error in inputting faulty address details. Today e-commerce websites experience about 8% of revenue lost from customers entering faulty address information into their systems. Being a multi-billion dollar industry, the loss of total revenue is immense. LocName is currently working on the LocName API which will capture customers' address details as well as their GPS coordinates, doubly confirming each customers location details. Users can choose the enter either piece of information (address details or physical map location) while the other will be automatically filled in based on information from the first field. All information will go through a verification process based on previous successful deliveries to addresses with the same details.\r\n\r\nDelivery Optimizer\r\n\r\nIn the future, LocName will work on a counterpart to the LocName API targeted towards delivery service providers and couriers. By fully integrating LocName's technology into their system, we will be able to cut down delivery times and errors by providing accurate customer locations and information relevant to the delivery process.\r\n\r\n\r\nFeatures:\r\n\r\n-Simplify your address by giving it a unique LocName. \r\n\r\n-Any combination of GPS coordinates can be saved as a LocName. Save any location in the world! \r\n\r\n-Share your unique LocName with your friends and clients by email, text or putting it on your business cards and flyers. \r\n\r\n-Use GPS Navigation to reach yours and others' locations by simply searching the LocName on one of our apps. \r\n\r\n-Create an address book of favourite locations where you can save and access your most used LocNames. \r\n\r\n-Adjust the privacy settings of each one of your LocNames to whether you want it to viewed privately or publicly. \r\n\r\n-Sign in with Facebook to see who of your friends are using LocName and invite those who are not!",
+      "website": "http://www.locname.com/",
+      "operatingStatus": "Closed",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "1-10",
+      "estimatedRevenueRange": "Less than $1M",
+      "headquarters": "Cairo, Al Qahirah, Egypt",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Middle East",
+        "Middle East and North Africa (MENA)",
+        "North Africa"
+      ],
+      "industries": [
+        "Apps",
+        "GPS",
+        "Location Based Services"
+      ],
+      "sectors": [
+        "Apps",
+        "Data and Analytics",
+        "Hardware",
+        "Internet Services",
+        "Navigation and Mapping",
+        "Software"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 15000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2014-01-01",
+      "lastFundingType": "Seed",
+      "rounds": [
+        {
+          "announcedDate": "2014-01-01",
+          "amount": {
+            "amount": 15000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "type": "Seed"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "name": "F6 Ventures",
+            "rounds": [
+              "Seed Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 2,
+      "includedUniqueCount": 2,
+      "items": [
+        {
+          "date": "2022-01-06",
+          "publisher": "NewsBTC",
+          "title": "LOCGame: Why The $LOCG Token Could Be Promising",
+          "url": "https://www.newsbtc.com/news/company/locgame-why-the-locg-token-could-be-promising"
+        },
+        {
+          "date": "2014-01-01",
+          "title": "Seed Round - LocName"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 15000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors."
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Seed round raised $15,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

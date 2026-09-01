@@ -1,0 +1,302 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T13:27:05.238Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T13:27:05.236Z",
+    "url": "https://www.crunchbase.com/organization/smartwti"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "SmartWTI",
+      "shortDescription": "SmartWTI is a provider of Internet of Things and AI solutions that specializes in creating and manufacturing water management solutions.",
+      "description": "SmartWTI is a provider of Internet of Things (IoT) and artificial intelligence (AI) solutions that specializes in creating and manufacturing water management solutions to support IoT.",
+      "website": "https://smartwti.com/",
+      "foundedYear": 2017,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "1-10",
+      "estimatedRevenueRange": "Less than $1M",
+      "headquarters": "Amman, Jordan",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Artificial Intelligence (AI)",
+        "Internet"
+      ],
+      "sectors": [
+        "Artificial Intelligence (AI)",
+        "Data and Analytics",
+        "Information Technology",
+        "Science and Engineering",
+        "Software"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "A system that helps individuals and organizations conserve and manage water by tracking and controlling water consumption and quality, and predicting water consumption using AI algorithms.",
+        "name": "Smart WTI-Water Management Solution"
+      },
+      {
+        "description": "A cloud-based solution for remote equipment monitoring, controlling, and management of water and other liquids using web and mobile applications.",
+        "name": "AI/IoT Cloud-solution"
+      },
+      {
+        "description": "Various sensors for measuring parameters such as dissolved oxygen, temperature, pH, ORP, conductivity, salinity, turbidity, suspended solids, COD, BOD, TOC, SAC254, radar level, temperature, humidity, pressure, luminosity, and ultrasound.",
+        "name": "Sensors"
+      },
+      {
+        "description": "Additional components like GPS modules, Li-ion rechargeable and non-rechargeable batteries, and rigid solar panels.",
+        "name": "Accessories"
+      },
+      {
+        "description": "Solutions for metering, monitoring, and controlling water and oil storage, leak detection, truck management, industrial water management, irrigation, water quality monitoring, wastewater control, water distribution network management, swimming pool measurement, fish farm management, and hydroponics and aquarium management.",
+        "name": "Applications of IoT for Water & Other Liquids Management"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 30538,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 3,
+      "detailedRoundCount": 3,
+      "lastFundingDate": "2026-06-01",
+      "lastFundingType": "Non Equity Assistance",
+      "rounds": [
+        {
+          "announcedDate": "2026-06-01",
+          "investorCount": 1,
+          "leadInvestors": [
+            "AcceliCITY powered by Leading Cities"
+          ],
+          "type": "Non Equity Assistance"
+        },
+        {
+          "announcedDate": "2023-10-18",
+          "amount": {
+            "amount": 10538,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "POESAM"
+          ],
+          "type": "Grant"
+        },
+        {
+          "announcedDate": "2023-06-12",
+          "amount": {
+            "amount": 20000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "PepsiCo Greenhouse Accelerator Program"
+          ],
+          "type": "Grant"
+        }
+      ],
+      "investors": {
+        "reportedCount": 3,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "AcceliCITY powered by Leading Cities",
+            "rounds": [
+              "Non Equity Assistance"
+            ]
+          },
+          {
+            "isLead": true,
+            "name": "PepsiCo Greenhouse Accelerator Program",
+            "rounds": [
+              "Grant"
+            ]
+          },
+          {
+            "isLead": true,
+            "name": "POESAM",
+            "rounds": [
+              "Grant"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 3,
+      "includedUniqueCount": 3,
+      "items": [
+        {
+          "date": "2026-06-01",
+          "title": "Non Equity Assistance - SmartWTI"
+        },
+        {
+          "date": "2023-10-18",
+          "title": "Grant - SmartWTI"
+        },
+        {
+          "date": "2023-06-12",
+          "title": "Grant - SmartWTI"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 2,
+    "knownDetailedFundingAmount": {
+      "amount": 30538,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "grantFunding": {
+      "amount": {
+        "amount": 30538,
+        "currency": "USD"
+      },
+      "disclosedRoundCount": 2,
+      "shareOfTotalPercent": 100
+    }
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": -4,
+      "growthScore": 63,
+      "heatChange90Days": -40,
+      "heatScore": 47
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 33.31
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 14.11,
+        "timingEstimatePercent": {
+          "within6Months": 0.26,
+          "months6To11": 0,
+          "months12To24": 0,
+          "beyond24Months": 99.74
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 95.47
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 4.5
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Kamstrup is a world leading supplier of intelligent energy and water metering solutions.",
+          "employeeRange": "1,001-5,000",
+          "name": "Kamstrup",
+          "sharedSpecialties": [
+            "Smart Water Metering",
+            "IoT Analytics"
+          ],
+          "similarityScore": 97
+        },
+        {
+          "description": "Sensus is a helps a wide range of public service providers Company.",
+          "employeeRange": "1,001-5,000",
+          "name": "Sensus",
+          "similarityScore": 93
+        },
+        {
+          "description": "Xylem is a large global water technology provider, enabling customers to transport, treat, test, and efficiently use water.",
+          "employeeRange": "10,001+",
+          "name": "Xylem",
+          "sharedSpecialties": [
+            "Smart Water Metering",
+            "Water Supply and Distribution"
+          ],
+          "similarityScore": 92
+        },
+        {
+          "description": "Badger Meter is a manufacturer and marketer of flow measurement and control products, serving water utilities, municipalities and",
+          "employeeRange": "1,001-5,000",
+          "name": "Badger Meter",
+          "sharedSpecialties": [
+            "Water Leak Detection",
+            "Water Metering and Irrigation Components",
+            "IoT Device and Gateway Management",
+            "Smart Water Metering",
+            "IoT Analytics"
+          ],
+          "similarityScore": 91
+        },
+        {
+          "description": "Itron is a technology company that offers products and services on energy and water resource management.",
+          "employeeRange": "5,001-10,000",
+          "name": "Itron",
+          "similarityScore": 89
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Meaningful non-dilutive funding",
+      "statement": "2 disclosed grants total $30,538, representing 100% of reported funding.",
+      "implication": "The grants reduce the share of reported financing attributed to equity or notes, although their restrictions and milestone requirements need separate verification.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.grantFunding"
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 63 (-4 over 90 days) and market heat at 47 (-40).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Kamstrup, Sensus, Xylem.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

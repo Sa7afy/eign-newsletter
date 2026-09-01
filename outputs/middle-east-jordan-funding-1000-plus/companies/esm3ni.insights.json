@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T11:36:24.174Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T11:36:24.172Z",
+    "url": "https://www.crunchbase.com/organization/esm3ni"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Esm3ni",
+      "shortDescription": "Esm3ni rehabilitates children with cochlear implants and hearing impaired cognitively as independent children.",
+      "description": "Esm3ni rehabilitates children facing cochlear and hearing impaired linguistically, cognitively, cognitively, and academically, highlighting their talents and giving them the self-confidence to build an independent life of their own.",
+      "website": "http://esm3ni.com/",
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "headquarters": "Cairo, Al Qahirah, Egypt",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Middle East",
+        "Middle East and North Africa (MENA)",
+        "North Africa"
+      ],
+      "industries": [
+        "Education",
+        "Recreation",
+        "Rehabilitation"
+      ],
+      "sectors": [
+        "Community and Lifestyle",
+        "Education",
+        "Health Care"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 4084,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2017-02-28",
+      "lastFundingType": "Angel",
+      "rounds": [
+        {
+          "announcedDate": "2017-02-28",
+          "amount": {
+            "amount": 4084,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "type": "Angel"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "name": "Sheraa Sharjah",
+            "rounds": [
+              "Angel Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 2,
+      "includedUniqueCount": 2,
+      "items": [
+        {
+          "date": "2024-06-25",
+          "publisher": "Business Wire",
+          "title": "EvolutionaryScale Launches with ESM3: A Milestone AI Model for Biology",
+          "url": "https://www.businesswire.com/news/home/20240625717839/en/EvolutionaryScale-Launches-with-ESM3-A-Milestone-AI-Model-for-Biology"
+        },
+        {
+          "date": "2017-02-28",
+          "title": "Angel Round - Esm3ni"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 4084,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": 5,
+      "growthScore": 10,
+      "heatChange90Days": -17,
+      "heatScore": 36
+    },
+    "modelPredictions": {
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 84.46
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "As the only pediatric colorectal and pelvic reconstructive program in the nation.",
+          "employeeRange": "5,001-10,000",
+          "name": "Children's National Hospital",
+          "similarityScore": 92
+        },
+        {
+          "description": "The Children's Hospital of Philadelphia offers hospital devoted exclusively to caring for children.",
+          "employeeRange": "10,001+",
+          "name": "The Children's Hospital of Philadelphia",
+          "similarityScore": 91
+        },
+        {
+          "description": "Seattle Children’s is a Non-profit organisation.",
+          "employeeRange": "10,001+",
+          "name": "Seattle Children’s",
+          "similarityScore": 90
+        },
+        {
+          "description": "Cincinnati Children’s, a nonprofit academic medical center.",
+          "employeeRange": "10,001+",
+          "name": "Cincinnati Children’s",
+          "similarityScore": 88
+        },
+        {
+          "description": "Boston Children's Hospital provides surgical, radiological examination, and clinical and cancer research services.",
+          "employeeRange": "10,001+",
+          "name": "Boston Children's Hospital",
+          "similarityScore": 83
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Angel round raised $4,084, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 10 (+5 over 90 days) and market heat at 36 (-17).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Children's National Hospital, The Children's Hospital of Philadelphia, Seattle Children’s.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

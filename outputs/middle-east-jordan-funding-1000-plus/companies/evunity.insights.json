@@ -1,0 +1,260 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T11:37:36.881Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T11:37:36.879Z",
+    "url": "https://www.crunchbase.com/organization/evunity"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "EVUNITY",
+      "shortDescription": "EVUNITY simplifies EV ownership with AI-powered automation for charging, maintenance, parts, and smart energy insights on one app.",
+      "description": "EVUNITY is your ultimate companion for managing electric vehicles (EVs) efficiently and conveniently. Designed to empower EV owners, businesses, and enthusiasts, EVUNITY offers a comprehensive platform that covers every aspect of EV ownership. Whether you're charging at home, navigating public charging networks, or searching for spare parts, EVUNITY brings everything you need into one seamless app.\n\nNow powered by AI automation, EVUNITY takes your EV experience to the next level offering intelligent route planning based on real-time charging availability, predictive maintenance alerts, dynamic energy usage insights, and personalized recommendations. With EVUNITY, managing your EV is not just smart it’s automated, adaptive, and effortless.",
+      "website": "https://evunity.co/",
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "11-50",
+      "headquarters": "Gîza, Al Jizah, Egypt",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Middle East",
+        "Middle East and North Africa (MENA)",
+        "North Africa"
+      ],
+      "industries": [
+        "Manufacturing",
+        "Software"
+      ],
+      "sectors": [
+        "Manufacturing",
+        "Software"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 300000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 2,
+      "detailedRoundCount": 2,
+      "lastFundingDate": "2025-01-15",
+      "lastFundingType": "Seed",
+      "rounds": [
+        {
+          "announcedDate": "2025-01-15",
+          "amount": {
+            "amount": 200000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "postMoneyValuation": {
+            "amount": 700000,
+            "currency": "USD"
+          },
+          "type": "Seed"
+        },
+        {
+          "announcedDate": "2024-01-01",
+          "amount": {
+            "amount": 100000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "Al Foustat"
+          ],
+          "postMoneyValuation": {
+            "amount": 300000,
+            "currency": "USD"
+          },
+          "type": "Pre Seed"
+        }
+      ],
+      "investors": {
+        "reportedCount": 2,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "Al Foustat",
+            "rounds": [
+              "Pre Seed Round"
+            ]
+          },
+          {
+            "name": "Algoriza",
+            "rounds": [
+              "Seed Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 2,
+      "includedUniqueCount": 2,
+      "items": [
+        {
+          "date": "2025-01-15",
+          "title": "Seed Round - EVUNITY"
+        },
+        {
+          "date": "2024-01-01",
+          "title": "Pre Seed Round - EVUNITY"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 2,
+    "knownDetailedFundingAmount": {
+      "amount": 300000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 66.67,
+    "latestToEarliestKnownValuationMultiple": 2.33
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": 4,
+      "growthScore": 46,
+      "heatChange90Days": -8,
+      "heatScore": 58
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 27.42
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 88.28,
+        "timingEstimatePercent": {
+          "within6Months": 98.68,
+          "months6To11": 0,
+          "months12To24": 0,
+          "beyond24Months": 1.32
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 76.57
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 4.36
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Charge HQ is an Solar EV Charging app platform.",
+          "employeeRange": "1-10",
+          "name": "Charge HQ",
+          "similarityScore": 93
+        },
+        {
+          "description": "Ev.energy is a smart charging software platform for electric vehicles to reduce carbon emissions and costs.",
+          "employeeRange": "101-250",
+          "name": "Ev.energy",
+          "sharedCategories": [
+            "Software"
+          ],
+          "similarityScore": 91
+        },
+        {
+          "description": "Track your EV spending! Monitor at-home EV charging costs and gas savings using your exact electricity rates.",
+          "employeeRange": "1-10",
+          "name": "Optiwatt, Inc.",
+          "similarityScore": 84
+        },
+        {
+          "description": "Tesla is an electric vehicle and clean energy company that provides electric cars, solar, and renewable energy solutions.",
+          "employeeRange": "10,001+",
+          "name": "Tesla",
+          "sharedCategories": [
+            "Manufacturing"
+          ],
+          "similarityScore": 81
+        },
+        {
+          "description": "Electrify America provides a network of convenient fast-charging stations to power electric vehicles.",
+          "employeeRange": "101-250",
+          "name": "Electrify America",
+          "similarityScore": 79
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Seed round raised $200,000, or 66.67% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $300,000 to $700,000, a 2.33x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 46 (+4 over 90 days) and market heat at 58 (-8).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Charge HQ, Ev.energy, Optiwatt, Inc..",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

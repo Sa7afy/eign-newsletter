@@ -1,0 +1,251 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T10:58:25.404Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T10:58:25.401Z",
+    "url": "https://www.crunchbase.com/organization/beanboat"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Beanboat",
+      "shortDescription": "Beanboat is an e-Commerce and direct trade platform connecting family-owned coffee farmers in Colombia with consumers around the world.",
+      "description": "Beanboat is an e-commerce platform that bridges the gap between coffee farmers and consumers through an innovation and sustainable business model.",
+      "website": "https://beanboat.com/",
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "1-10",
+      "headquarters": "Manama, Al Manamah, Bahrain",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Agriculture",
+        "E-Commerce",
+        "Food and Beverage"
+      ],
+      "sectors": [
+        "Agriculture and Farming",
+        "Commerce and Shopping",
+        "Food and Beverage"
+      ],
+      "founders": [
+        "Jenan Mohamedi",
+        "John Ciro",
+        "Saleh Sharif",
+        "Zahid Balooshi"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 33000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2019-11-17",
+      "lastFundingType": "Seed",
+      "rounds": [
+        {
+          "announcedDate": "2019-11-17",
+          "amount": {
+            "amount": 33000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "postMoneyValuation": {
+            "amount": 363000,
+            "currency": "USD"
+          },
+          "type": "Seed"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "name": "F6 Ventures",
+            "rounds": [
+              "Seed Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 1,
+      "includedUniqueCount": 1,
+      "items": [
+        {
+          "date": "2019-11-17",
+          "title": "Seed Round - Beanboat"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 33000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": -2,
+      "growthScore": 37,
+      "heatChange90Days": 13,
+      "heatScore": 72
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 32.22
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 11.67,
+        "timingEstimatePercent": {
+          "within6Months": 14.49,
+          "months6To11": 12.39,
+          "months12To24": 19.66,
+          "beyond24Months": 24.88
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 22.49
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 22.91
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Juan Valdez Cafe is a Colombian coffeehouse chain specializes in coffee retail.",
+          "employeeRange": "5,001-10,000",
+          "name": "Juan Valdez Cafe",
+          "sharedCategories": [
+            "Food and Beverage"
+          ],
+          "similarityScore": 94
+        },
+        {
+          "description": "Trade turns coffee drinkers into coffee lovers",
+          "employeeRange": "11-50",
+          "name": "Trade Coffee",
+          "sharedCategories": [
+            "E-Commerce"
+          ],
+          "similarityScore": 91
+        },
+        {
+          "description": "Pact Coffee offers a subscription service that delivers freshly roasted specialty coffee.",
+          "employeeRange": "51-100",
+          "name": "Pact",
+          "sharedCategories": [
+            "Food and Beverage",
+            "E-Commerce"
+          ],
+          "similarityScore": 90
+        },
+        {
+          "description": "We source and ship premium coffee to our subscribers.",
+          "employeeRange": "1-10",
+          "name": "Moustache Coffee Club",
+          "sharedCategories": [
+            "Food and Beverage"
+          ],
+          "similarityScore": 81
+        },
+        {
+          "description": "Devocion is a micro-lot Colombian coffee grown in the regions of Colombia.",
+          "employeeRange": "51-100",
+          "name": "Devocion",
+          "sharedCategories": [
+            "Food and Beverage"
+          ],
+          "similarityScore": 81
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Seed round raised $33,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $363,000 to $363,000, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 37 (-2 over 90 days) and market heat at 72 (+13).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Juan Valdez Cafe, Trade Coffee, Pact.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

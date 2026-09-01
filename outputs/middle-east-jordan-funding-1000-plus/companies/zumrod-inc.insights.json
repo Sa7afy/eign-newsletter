@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T14:07:36.816Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T14:07:36.814Z",
+    "url": "https://www.crunchbase.com/organization/zumrod-inc"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Zumrod Inc.",
+      "shortDescription": "Zumrod Health and  online shopping destination in the Middle East",
+      "description": "ZMROD is a leading Saudi Arabian company, established by a group of business leaders from Saudi Arabia and some Arab countries, whose primary objective is to be the first destination for those seeking cosmetic and health products within the Kingdom and then expand to the entire Arab region.\nZmrod.com was established to be the first Arab platform specialized for Arab women in the Arab world and for all those who wish to experience a rich and sophisticated marketing and pleasant, we make this change through the position of our customers in the first place always and continuously and effortlessly through all the working teams of Zmrod to provide the best experience In the Arab world, and through this hard work of these teams concluded that there is a lack of markets in the areas of health and beauty products and that most markets offer unsafe marketing experiences in terms of payment and delivery and originality of products, so to overcome these obstacles, We aim to provide the best payment methods available and safe and contract with the best shipping companies products in the Arab region, in terms of products, the operations teams of the company always works to find the best offers and prices of products and then displayed and provided on our pages.\nZMROD provides direct support. By registering at ZMRED.com, contact information is provided directly to a customer service agent as a personal assistant who sends you an e-mail and can refer to it and ask for help when facing any problem or if you need any advice or support.",
+      "website": "https://www.zumrod.com/",
+      "foundedYear": 2017,
+      "operatingStatus": "Closed",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "11-50",
+      "estimatedRevenueRange": "Less than $1M",
+      "headquarters": "Jeddah, Makkah, Saudi Arabia",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Beauty",
+        "Online Portals",
+        "Shopping"
+      ],
+      "sectors": [
+        "Commerce and Shopping",
+        "Consumer Goods",
+        "Internet Services"
+      ],
+      "founders": [
+        "Ahmad Al Refae",
+        "Said Hassan"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 250000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2017-01-01",
+      "lastFundingType": "Seed",
+      "rounds": [
+        {
+          "announcedDate": "2017-01-01",
+          "amount": {
+            "amount": 250000,
+            "currency": "USD"
+          },
+          "postMoneyValuation": {
+            "amount": 2750000,
+            "currency": "USD"
+          },
+          "type": "Seed"
+        }
+      ]
+    },
+    "recentNews": {
+      "reportedCount": 1,
+      "includedUniqueCount": 1,
+      "items": [
+        {
+          "date": "2017-01-01",
+          "title": "Seed Round - Zumrod Inc."
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 250000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "heatChange90Days": -17,
+      "heatScore": 19
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Noon is an e-commerce platform and digital marketplace that offers products and services across multiple categories.",
+          "employeeRange": "5,001-10,000",
+          "name": "Noon",
+          "similarityScore": 94
+        },
+        {
+          "description": "Namshi is an online e-commerce site offering footwear and apparel fashion brands.",
+          "employeeRange": "501-1,000",
+          "name": "Namshi",
+          "similarityScore": 92
+        },
+        {
+          "description": "Mumzworld is the largest e-commerce marketplace in the Middle East for all things mother, baby, and child.",
+          "employeeRange": "501-1,000",
+          "name": "Mumzworld",
+          "sharedCategories": [
+            "Shopping",
+            "Online Portals"
+          ],
+          "similarityScore": 86
+        },
+        {
+          "description": "p ĭ ē provides business startup services, strategy development, risk management, marketing strategy, consulting, and automation solutions.",
+          "employeeRange": "11-50",
+          "name": "p ĭ ē",
+          "similarityScore": 84
+        },
+        {
+          "description": "eXtra is an e-commerce store that provides consumer electronics and home appliances services.",
+          "employeeRange": "1,001-5,000",
+          "name": "eXtra",
+          "sharedCategories": [
+            "Shopping"
+          ],
+          "similarityScore": 82
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Seed round raised $250,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $2,750,000 to $2,750,000, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Noon, Namshi, Mumzworld.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

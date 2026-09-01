@@ -1,0 +1,245 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T09:10:15.404Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T09:10:15.402Z",
+    "url": "https://www.crunchbase.com/organization/algameya"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Algameya",
+      "shortDescription": "Algameya is online store offering electronics and accessories original from Turkey at an affordable price.",
+      "description": "Algameya is an online store offering electronics and accessories original from Turkey at an affordable price. The company specialists help customers with order, customization, or design advice. It currently ships to over 50 countries.",
+      "website": "https://algameya.com/",
+      "foundedYear": 2020,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "101-250",
+      "headquarters": "Cairo, Al Qahirah, Egypt",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Middle East",
+        "Middle East and North Africa (MENA)",
+        "North Africa"
+      ],
+      "industries": [
+        "E-Commerce",
+        "Retail"
+      ],
+      "sectors": [
+        "Commerce and Shopping"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "A range of electronic devices and accessories sourced from Turkey, including personal care items, kitchen appliances, and home electronics.",
+        "name": "Electronics and Accessories"
+      },
+      {
+        "description": "Household appliances including refrigerators, freezers, heaters, and fans for domestic use.",
+        "name": "Home Appliances"
+      },
+      {
+        "description": "Kitchen tools and small appliances like juicers, mixers, and cooking utensils for food preparation.",
+        "name": "Kitchenware and Small Goods"
+      },
+      {
+        "description": "Devices for personal grooming and care such as hair dryers, epilators, shavers, and hair brushes.",
+        "name": "Personal Care Devices"
+      },
+      {
+        "description": "Home furniture items including TV stands, shoe racks, and sofas for residential use.",
+        "name": "Furniture and Fixtures"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 100000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2020-01-01",
+      "lastFundingType": "Pre Seed",
+      "rounds": [
+        {
+          "announcedDate": "2020-01-01",
+          "amount": {
+            "amount": 100000,
+            "currency": "USD"
+          },
+          "postMoneyValuation": {
+            "amount": 1048110,
+            "currency": "USD"
+          },
+          "type": "Pre Seed"
+        }
+      ]
+    },
+    "recentNews": {
+      "reportedCount": 1,
+      "includedUniqueCount": 1,
+      "items": [
+        {
+          "date": "2020-01-01",
+          "title": "Pre Seed Round - Algameya"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 100000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": 0,
+      "growthScore": 70,
+      "heatChange90Days": -9,
+      "heatScore": 64
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-29",
+        "probabilityPercent": 23.28
+      },
+      "funding": {
+        "generatedDate": "2026-08-29",
+        "probabilityPercent": 11.01,
+        "timingEstimatePercent": {
+          "within6Months": 15.07,
+          "months6To11": 12.8,
+          "months12To24": 20.1,
+          "beyond24Months": 52.03
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-29",
+        "probabilityPercent": 85.24
+      },
+      "ipo": {
+        "generatedDate": "2026-08-29",
+        "probabilityPercent": 37.33
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Homzmart is an online end-to-end platform that sells home furniture, home décor, lighting, and home supplies.",
+          "employeeRange": "251-500",
+          "name": "Homzmart",
+          "sharedCategories": [
+            "E-Commerce"
+          ],
+          "sharedSpecialties": [
+            "TV and Entertainment Units",
+            "Living Room Furniture"
+          ],
+          "similarityScore": 100
+        },
+        {
+          "description": "El Shenawy is a consumer electronics store that sells cameras, laptops, mobile phones, and electronic devices.",
+          "employeeRange": "51-100",
+          "name": "El Shenawy",
+          "sharedCategories": [
+            "E-Commerce"
+          ],
+          "sharedSpecialties": [
+            "Electric Grooming Appliances"
+          ],
+          "similarityScore": 95.27
+        },
+        {
+          "description": "Aman Store offers appliances, vehicles, mobiles and tablets, electronics, travel, furniture, and flight booking services.",
+          "employeeRange": "11-50",
+          "name": "Aman Store",
+          "sharedCategories": [
+            "Retail"
+          ],
+          "sharedSpecialties": [
+            "Living Room Furniture",
+            "Refrigeration Appliances"
+          ],
+          "similarityScore": 90.296
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Pre Seed round raised $100,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $1,048,110 to $1,048,110, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 70 (+0 over 90 days) and market heat at 64 (-9).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Homzmart, El Shenawy, Aman Store.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

@@ -1,0 +1,426 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T13:51:57.487Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T13:51:57.485Z",
+    "url": "https://www.crunchbase.com/organization/utexo"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Utexo",
+      "shortDescription": "Utexo develops payment infrastructure that enables stablecoin transactions to settle directly on the Bitcoin network.",
+      "description": "Utexo develops payment infrastructure that enables stablecoin transactions to settle directly on the Bitcoin network. The platform provides an API and related tools that allow payment operators, exchanges, wallets, and financial platforms to process USDT transfers through Bitcoin-based rails. Its system integrates technologies such as the Lightning Network and the RGB protocol to support instant settlement, encrypted transaction execution, and predictable transaction costs. Utexo also offers cloud infrastructure and developer tools that manage routing, liquidity, and node operations required for stablecoin payments on Bitcoin. These services allow organizations to integrate Bitcoin-based stablecoin settlement into existing applications without operating or maintaining underlying blockchain infrastructure.",
+      "website": "https://www.utexo.com/",
+      "foundedYear": 2025,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "11-50",
+      "headquarters": "Dubai, United Arab Emirates",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Bitcoin",
+        "Financial Services",
+        "Payments"
+      ],
+      "sectors": [
+        "Blockchain and Cryptocurrency",
+        "Financial Services",
+        "Payments",
+        "Software"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "An API for moving and settling USDT on Bitcoin and Lightning, including payment settlement, BTC<>USDT swaps, and cross-network bridging with configurable fees and confidential execution.",
+        "name": "Utexo API"
+      },
+      {
+        "description": "A managed Lightning Network and RGB infrastructure service for native USDT settlement, BTC<>USDT trading, and yield generation without operating nodes or channels.",
+        "name": "Utexo Cloud"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 7500000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2026-03-06",
+      "lastFundingType": "Seed",
+      "rounds": [
+        {
+          "announcedDate": "2026-03-06",
+          "amount": {
+            "amount": 7500000,
+            "currency": "USD"
+          },
+          "investorCount": 18,
+          "leadInvestors": [
+            "Big Brain Holdings",
+            "Portal Ventures",
+            "Tether"
+          ],
+          "postMoneyValuation": {
+            "amount": 47793411,
+            "currency": "USD"
+          },
+          "type": "Seed"
+        }
+      ],
+      "investors": {
+        "reportedCount": 18,
+        "visibleNames": [
+          {
+            "name": "Alchemy",
+            "rounds": [
+              "Seed Round"
+            ]
+          },
+          {
+            "name": "Arcanum Capital",
+            "rounds": [
+              "Seed Round"
+            ]
+          },
+          {
+            "name": "Auros",
+            "rounds": [
+              "Seed Round"
+            ]
+          },
+          {
+            "name": "Axia8 Ventures",
+            "rounds": [
+              "Seed Round"
+            ]
+          },
+          {
+            "name": "Ethereal Ventures"
+          },
+          {
+            "name": "Franklin Templeton"
+          },
+          {
+            "name": "Gate Ventures",
+            "rounds": [
+              "Seed Round"
+            ]
+          },
+          {
+            "name": "KuCoin"
+          },
+          {
+            "name": "Maven 11 Capital",
+            "rounds": [
+              "Seed Round"
+            ]
+          },
+          {
+            "name": "Paper Ventures",
+            "rounds": [
+              "Seed Round"
+            ]
+          },
+          {
+            "name": "Paul Taylor",
+            "rounds": [
+              "Seed Round"
+            ]
+          },
+          {
+            "name": "Plan B Fund",
+            "rounds": [
+              "Seed Round"
+            ]
+          },
+          {
+            "name": "Sats Ventures",
+            "rounds": [
+              "Seed Round"
+            ]
+          },
+          {
+            "name": "Tether"
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 20,
+      "includedUniqueCount": 10,
+      "items": [
+        {
+          "date": "2026-07-06",
+          "publisher": "Foresight News",
+          "title": "Tether 计划通过 RGB 协议 v0.11.1 在比特币链上原生发行 USDT",
+          "url": "https://foresightnews.pro/news/detail/108138"
+        },
+        {
+          "date": "2026-04-20",
+          "publisher": "The Block",
+          "title": "Tether discloses nearly 2 million-share stake in Bitmain-linked Antalpha",
+          "url": "https://www.theblock.co/post/398101/tether-discloses-2-million-share-stake-bitmain-linked-antalpha-ipo"
+        },
+        {
+          "date": "2026-04-16",
+          "publisher": "PR Newswire",
+          "title": "Utexo and x402 Enable USDT Payments for the Agent Economy with Near-Instant Settlement",
+          "url": "https://www.prnewswire.com/news-releases/utexo-and-x402-enable-usdt-payments-for-the-agent-economy-with-near-instant-settlement-302745083.html"
+        },
+        {
+          "date": "2026-04-16",
+          "publisher": "PR Newswire UK",
+          "title": "Utexo and x402 Enable USDT Payments for the Agent Economy with Near-Instant Settlement",
+          "url": "https://www.prnewswire.co.uk/news-releases/utexo-and-x402-enable-usdt-payments-for-the-agent-economy-with-near-instant-settlement-302745087.html"
+        },
+        {
+          "date": "2026-04-15",
+          "publisher": "Bitcoin News",
+          "title": "Solv Protocol and Utexo Launch Bitcoin-Native Yield Infrastructure",
+          "url": "https://news.bitcoin.com/solv-protocol-and-utexo-launch-bitcoin-native-yield-infrastructure/"
+        },
+        {
+          "date": "2026-04-13",
+          "publisher": "International Business Times",
+          "title": "Lightning Network And The Horn Effect",
+          "url": "https://www.ibtimes.com/lightning-network-horn-effect-3801189"
+        },
+        {
+          "date": "2026-04-01",
+          "publisher": "Paypers",
+          "title": "Concordium, Utexo partner on identity-verified stablecoin payments for gaming and AI agents",
+          "url": "https://thepaypers.com/crypto-web3-and-cbdc/news/concordium-utexo-partner-on-identity-verified-stablecoin-payments-for-gaming-and-ai-agents"
+        },
+        {
+          "date": "2026-03-22",
+          "publisher": "TechMoran",
+          "title": "UAE-Based Blockchain Startup Utexo Raises $7.5M Seed Round Led by Tether",
+          "url": "https://techmoran.com/2026/03/22/uae-based-blockchain-startup-utexo-raises-7-5m-seed-round-led-by-tether/"
+        },
+        {
+          "date": "2026-03-17",
+          "publisher": "Fintech News UAE",
+          "title": "Utexo Secures US$7.5 Million to Expand Stablecoin Payments on Bitcoin",
+          "url": "https://fintechnews.ae/30727/funding/utexo-usd7-5m-stablecoin-bitcoin/"
+        },
+        {
+          "date": "2026-03-16",
+          "publisher": "SecneNow",
+          "title": "Utexo Raises $7.5M in Seed Funding Led by Crypto Platform Tether",
+          "url": "https://thestartupscene.me/INVESTMENTS/Utexo-Raises-7-5M-in-Seed-Funding-Led-by-Crypto-Platform-Tether"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 7500000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "reportedPartnerships": {
+      "note": "Provider event summaries with linked sources; not independently verified.",
+      "items": [
+        {
+          "date": "2026-04-16",
+          "description": "Utexo and x402 entered into a collaboration to integrate Utexo's settlement infrastructure with the x402 payment protocol, enabling USDT-based, near-instant agent-to-agent transactions for autonomous systems and APIs.",
+          "sources": [
+            {
+              "date": "2026-04-16",
+              "publisher": "PR Newswire",
+              "title": "Utexo and x402 Enable USDT Payments for the Agent Economy with Near-Instant Settlement",
+              "url": "https://www.prnewswire.com/news-releases/utexo-and-x402-enable-usdt-payments-for-the-agent-economy-with-near-instant-settlement-302745083.html"
+            }
+          ]
+        },
+        {
+          "date": "2026-02-04",
+          "description": "Utexo has joined CTDG Dev Hub as a new participant, entering a collaborative development environment for experimenting with native USDT transfers on Bitcoin using Lightning Network and RGB.",
+          "sources": [
+            {
+              "date": "2026-02-04",
+              "publisher": "Cointelegraph",
+              "title": "Bitcoin-native USDT protocol joins CTDG Dev Hub",
+              "url": "https://cointelegraph.com/news/bitcoin-native-usdt-protocol-joins-ctdg-dev-hub"
+            }
+          ]
+        }
+      ]
+    },
+    "crunchbaseMomentum": {
+      "growthInsightGeneratedDate": "2026-04-27",
+      "growthChange90Days": -14,
+      "growthScore": 78,
+      "heatChange90Days": -13,
+      "heatScore": 61,
+      "status": "Growing"
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 5
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 61.27,
+        "timingEstimatePercent": {
+          "within6Months": 99.98,
+          "months6To11": 0.02,
+          "months12To24": 0,
+          "beyond24Months": 0
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 95.59
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 0
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Builds payments infrastructure for digital banks, wallets and exchanges, real-time global money movement for Bitcoin, fiat, and stablecoins.",
+          "employeeRange": "101-250",
+          "name": "Lightspark",
+          "sharedCategories": [
+            "Bitcoin",
+            "Payments"
+          ],
+          "similarityScore": 94
+        },
+        {
+          "description": "Enterprise-grade infrastructure for the Lightning Network. Scalability should be as fast and as easy as Lightning itself.",
+          "employeeRange": "11-50",
+          "name": "Voltage",
+          "sharedCategories": [
+            "Bitcoin",
+            "Payments"
+          ],
+          "similarityScore": 93
+        },
+        {
+          "description": "Convert your time into bitcoin",
+          "employeeRange": "1-10",
+          "name": "Zaprite",
+          "sharedCategories": [
+            "Bitcoin",
+            "Financial Services"
+          ],
+          "similarityScore": 88
+        },
+        {
+          "description": "Strike makes Bitcoin useful for everyone. You can buy and sell bitcoin, pay bills, and borrow against your holdings.",
+          "employeeRange": "51-100",
+          "name": "Strike",
+          "sharedCategories": [
+            "Bitcoin",
+            "Payments"
+          ],
+          "similarityScore": 86
+        },
+        {
+          "description": "OpenNode offers accessible way for e-commerce businesses to process bitcoin payments.",
+          "employeeRange": "1-10",
+          "name": "OpenNode",
+          "sharedCategories": [
+            "Bitcoin",
+            "Financial Services"
+          ],
+          "similarityScore": 86
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Seed round raised $7,500,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $47,793,411 to $47,793,411, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 78 (-14 over 90 days) and market heat at 61 (-13).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Lightspark, Voltage, Zaprite.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "issues": [
+      {
+        "severity": "low",
+        "finding": "Crunchbase reports 20 timeline items but exposes 10 unique items in this payload.",
+        "impact": "Recent news is a partial sample, not a complete history."
+      }
+    ],
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

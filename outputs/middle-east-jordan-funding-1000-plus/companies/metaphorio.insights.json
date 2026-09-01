@@ -1,0 +1,221 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T12:31:53.624Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T12:31:53.621Z",
+    "url": "https://www.crunchbase.com/organization/metaphorio"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Metaphorio",
+      "shortDescription": "An online collaboration platform designed for video producers to efficiently manage their productions from A to Z.",
+      "description": "Metaphorio is an online collaboration platform designed by video producers for video producers to help them manage their productions efficiently from A to Z. Over the past 5 years, the founders have been running an online video production agency and decided that there had to be a better, simpler, and less time consuming way to manage projects.",
+      "website": "http://www.metaphorio.com/",
+      "foundedYear": 2014,
+      "operatingStatus": "Closed",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "1-10",
+      "estimatedRevenueRange": "$1M-$10M",
+      "headquarters": "Amman, Jordan",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Collaboration",
+        "Developer Tools",
+        "Digital Media",
+        "SaaS",
+        "Software",
+        "Video"
+      ],
+      "sectors": [
+        "Media and Entertainment",
+        "Other",
+        "Software",
+        "Video"
+      ],
+      "founders": [
+        "Khaled Husseini",
+        "Nadia Husseini",
+        "Waleed Al Qadi"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 15000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2015-09-01",
+      "lastFundingType": "Seed",
+      "rounds": [
+        {
+          "announcedDate": "2015-09-01",
+          "amount": {
+            "amount": 15000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "type": "Seed"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "name": "F6 Ventures",
+            "rounds": [
+              "Seed Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 4,
+      "includedUniqueCount": 4,
+      "items": [
+        {
+          "date": "2021-08-05",
+          "publisher": "The Mac Observer",
+          "title": "Metadata Editor ‘Metapho’ Has a New EXIF Engine",
+          "url": "https://www.macobserver.com/cool-stuff-found/metapho-update-3-6-2/"
+        },
+        {
+          "date": "2016-03-24",
+          "publisher": "Wamda News (MENA)",
+          "title": "Bridging a video gap from Jordan",
+          "url": "http://www.wamda.com/2016/03/bridging-video-gap-from-jordan-metaphorio"
+        },
+        {
+          "date": "2016-02-15",
+          "publisher": "Wamda News (MENA)",
+          "title": "Introducing Flat6Labs' 6 latest UAE startups",
+          "url": "http://www.wamda.com/2016/02/who-are-the-latest-flat6labs-uae-6"
+        },
+        {
+          "date": "2015-09-01",
+          "title": "Seed Round - Metaphorio"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 15000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "heatChange90Days": -3,
+      "heatScore": 9
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Frame.io is a cloud-based video collaboration platform that allows users to upload source media and assets into private workspaces.",
+          "employeeRange": "101-250",
+          "name": "Frame.io",
+          "sharedCategories": [
+            "Video"
+          ],
+          "similarityScore": 97
+        },
+        {
+          "description": "MediaSilo offers a secure cloud-based video sharing platform for creatives",
+          "employeeRange": "11-50",
+          "name": "MediaSilo",
+          "sharedCategories": [
+            "SaaS",
+            "Software",
+            "Video"
+          ],
+          "similarityScore": 95
+        },
+        {
+          "description": "Wipster is a cloud-based platform for reviewing, approving, and collaborating on video production.",
+          "employeeRange": "11-50",
+          "name": "Wipster",
+          "sharedCategories": [
+            "Collaboration",
+            "SaaS",
+            "Software",
+            "Video"
+          ],
+          "similarityScore": 93
+        },
+        {
+          "description": "2Emotion is an online video creation platform for professionals.",
+          "employeeRange": "11-50",
+          "name": "2Emotion",
+          "sharedCategories": [
+            "Software"
+          ],
+          "similarityScore": 89
+        },
+        {
+          "description": "Ziflow is a SaaS company that builds smart tools for creative production teams.",
+          "employeeRange": "11-50",
+          "name": "Ziflow",
+          "sharedCategories": [
+            "SaaS",
+            "Software"
+          ],
+          "similarityScore": 87
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Seed round raised $15,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Frame.io, MediaSilo, Wipster.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

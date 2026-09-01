@@ -1,0 +1,283 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T09:09:48.131Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T09:09:48.128Z",
+    "url": "https://www.crunchbase.com/organization/alef-technology"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Alef Technology",
+      "shortDescription": "Alef Technology provides satellite communication and power solutions to corporate customers.",
+      "description": "ALEF Technology is Afghanistan’s leading broadcast technical services and critical power company, providing turnkey end-to-end communication and power solutions to corporate customers. ALEF employs best of class technology infrastructure including high performance satellite uplink and downlink through a long-term partnership with Abu Dhabi-based satellite services provider YahLive, microwave towers and an interactive voice response hardware platform. ALEF’s clients include Afghanistan’s broadcast media companies, Telecom companies, government entities, banks and educational institutions.",
+      "website": "https://www.aleftechnology.com/",
+      "foundedYear": 2003,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "11-50",
+      "estimatedRevenueRange": "$1M-$10M",
+      "headquarters": "Dubai, United Arab Emirates",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Information and Communications Technology (ICT)",
+        "Information Services",
+        "Information Technology"
+      ],
+      "sectors": [
+        "Information Technology"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "A cloud-based managed service for broadcasting TV channels, handling content scheduling, asset management, graphics, and delivery to satellite and OTT platforms.",
+        "name": "Playout Solutions"
+      },
+      {
+        "description": "Satellite uplink and downlink services for TV and radio channels, including signal encoding, multiplexing, encryption, and modulation across various frequency bands.",
+        "name": "Satellite & Teleport Services"
+      },
+      {
+        "description": "Data center hosting, co-location, disaster recovery, IT equipment supply, software development, cybersecurity, cloud hosting, and content delivery network services.",
+        "name": "Technology Services"
+      },
+      {
+        "description": "Telephony solutions including call center, IVR, SMS, IP PBX, and integrated communication platforms for businesses and broadcasters.",
+        "name": "Telephony and Value-Added Services (VAS)"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 3000000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2017-08-01",
+      "lastFundingType": "Venture round",
+      "rounds": [
+        {
+          "announcedDate": "2017-08-01",
+          "amount": {
+            "amount": 3000000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "Infrontier"
+          ],
+          "postMoneyValuation": {
+            "amount": 14831049,
+            "currency": "USD"
+          },
+          "type": "Venture round"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "Infrontier",
+            "rounds": [
+              "Venture round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 1,
+      "includedUniqueCount": 1,
+      "items": [
+        {
+          "date": "2017-08-01",
+          "title": "Venture Round - Alef Technology"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 3000000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": 1,
+      "growthScore": 33,
+      "heatChange90Days": -4,
+      "heatScore": 60
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 0
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 7.13,
+        "timingEstimatePercent": {
+          "within6Months": 13.39,
+          "months6To11": 11.59,
+          "months12To24": 18.74,
+          "beyond24Months": 24.61
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 82.45
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 0
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Gilat Satellite Networks provides broadband satellite communication (Satcom) network solutions and services worldwide.",
+          "employeeRange": "1,001-5,000",
+          "name": "Gilat Satellite Networks",
+          "sharedSpecialties": [
+            "Satellite Ground Stations",
+            "Satellite Ground Segments",
+            "Satellite Communications"
+          ],
+          "similarityScore": 97
+        },
+        {
+          "description": "Comtech is a prominent technological business in satellite, space, terrestrial, and wireless communications.",
+          "employeeRange": "1,001-5,000",
+          "name": "Comtech",
+          "sharedCategories": [
+            "Information Technology"
+          ],
+          "sharedSpecialties": [
+            "Satellite Ground Stations",
+            "Satellite Ground Segments",
+            "Satellite Communications"
+          ],
+          "similarityScore": 95
+        },
+        {
+          "description": "DataPath designs, manufactures and supports both custom and commercial off-the-shelf communications and IT products.",
+          "employeeRange": "501-1,000",
+          "name": "DataPath",
+          "sharedCategories": [
+            "Information Technology"
+          ],
+          "sharedSpecialties": [
+            "Satellite Ground Segments",
+            "Satellite Communications"
+          ],
+          "similarityScore": 93
+        },
+        {
+          "description": "SpeedCast is a leading satellite telecommunications service provider that offers high-quality managed networks services.",
+          "employeeRange": "1,001-5,000",
+          "name": "SpeedCast",
+          "sharedSpecialties": [
+            "Satellite Ground Stations",
+            "Satellite Ground Segments",
+            "Satellite Communications"
+          ],
+          "similarityScore": 89
+        },
+        {
+          "description": "SES is a communications satellite operator for telecommunications providers, media broadcasters, corporations, and governments.",
+          "employeeRange": "5,001-10,000",
+          "name": "SES",
+          "sharedSpecialties": [
+            "Satellite Ground Stations",
+            "Satellite Ground Segments",
+            "Satellite Communications",
+            "Broadcast and Playout Services",
+            "Broadcast Services"
+          ],
+          "similarityScore": 87
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Venture round round raised $3,000,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $14,831,049 to $14,831,049, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 33 (+1 over 90 days) and market heat at 60 (-4).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Gilat Satellite Networks, Comtech, DataPath.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

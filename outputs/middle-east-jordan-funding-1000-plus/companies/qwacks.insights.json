@@ -1,0 +1,196 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T13:05:32.200Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T13:05:32.199Z",
+    "url": "https://www.crunchbase.com/organization/qwacks"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Qwacks",
+      "shortDescription": "Qwacks offers creative solutions for data-driven companies and game creators.",
+      "description": "Qwacks offers creative solutions to game developers and data-driven organizations.",
+      "website": "https://qwacks.com/",
+      "foundedYear": 2024,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "employeeRange": "1-10",
+      "headquarters": "Riyadh, Ar Riyad, Saudi Arabia",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "founders": [
+        "Abdulrahman Alfozan",
+        "Anas AlSahli"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 479601,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2025-12-08",
+      "lastFundingType": "Pre Seed",
+      "rounds": [
+        {
+          "announcedDate": "2025-12-08",
+          "amount": {
+            "amount": 479601,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "Merak Capital"
+          ],
+          "postMoneyValuation": {
+            "amount": 4252864,
+            "currency": "USD"
+          },
+          "type": "Pre Seed"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "Merak Capital",
+            "rounds": [
+              "Pre Seed Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 7,
+      "includedUniqueCount": 7,
+      "items": [
+        {
+          "date": "2026-07-17",
+          "publisher": "PocketGamer.biz",
+          "title": "Saudi-based mobile games studio Floaty raises $1m investment round",
+          "url": "https://www.pocketgamer.biz/saudi-based-mobile-games-studio-floaty-raises-1m-investment-round/"
+        },
+        {
+          "date": "2025-12-17",
+          "publisher": "Techgist Africa | Africa Leading Tech News, Reviews and Tips",
+          "title": "Saudi Gaming-Tech Startup Qwacks Secures SAR 1.8 Million Pre-Seed Round Led by Merak Capital",
+          "url": "https://techgistafrica.com/funding/saudi-gaming-tech-startup-qwacks-secures-sar-1-8-million-pre-seed-round-led-by-merak-capital/"
+        },
+        {
+          "date": "2025-12-09",
+          "publisher": "SecneNow",
+          "title": "Saudi Gametech Qwacks Raises $480,000 Pre Seed From Merak Capital",
+          "url": "https://thestartupscene.me/INVESTMENTS/Saudi-Gametech-Qwacks-Raises-480-000-Pre-Seed-From-Merak-Capital"
+        },
+        {
+          "date": "2025-12-08",
+          "title": "Pre Seed Round - Qwacks"
+        },
+        {
+          "date": "2025-12-08",
+          "publisher": "Zawya.com",
+          "title": "Saudi gaming startup Qwacks secures funding from Merak Capital",
+          "url": "https://www.zawya.com/en/business/investment/saudi-gaming-startup-qwacks-secures-funding-from-merak-capital-e1gu603h"
+        },
+        {
+          "date": "2025-12-08",
+          "publisher": "PocketGamer.biz",
+          "title": "Qwacks secures $480,000 to advance game development and live ops technology",
+          "url": "https://www.pocketgamer.biz/qwacks-secures-480000-to-advance-game-development-and-live-ops-technology/"
+        },
+        {
+          "date": "2025-12-07",
+          "publisher": "Wamda",
+          "title": "Saudi gametech Qwacks raises $480,000 pre-seed from Merak Capital",
+          "url": "https://www.wamda.com/2025/12/saudi-gametech-qwacks-raises-480000-pre-seed-merak-capital"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 479601,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthInsightGeneratedDate": "2025-12-28",
+      "growthChange90Days": -3,
+      "growthScore": 68,
+      "heatChange90Days": 15,
+      "heatScore": 17,
+      "status": "Growing"
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors."
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Pre Seed round raised $479,601, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $4,252,864 to $4,252,864, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 68 (-3 over 90 days) and market heat at 17 (+15).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

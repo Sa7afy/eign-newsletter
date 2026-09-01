@@ -1,0 +1,190 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T13:58:37.257Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T13:58:37.255Z",
+    "url": "https://www.crunchbase.com/organization/welcome-to-the-world"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Welcome to the World",
+      "shortDescription": "Welcome to the World is a travel-technology platform designed to promote tourism businesses.",
+      "description": "Welcome to the World is a travel-technology platform designed to promote tourism businesses and allow travellers to book directly with hotels, attractions, and service providers without relying on traditional booking aggregators.",
+      "website": "https://www.welcometotheworld.com/",
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "1-10",
+      "estimatedRevenueRange": "Less than $1M",
+      "headquarters": "Dubai, United Arab Emirates",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "founders": [
+        "Stefanie Schachtschabel"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 264000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 2,
+      "detailedRoundCount": 2,
+      "lastFundingDate": "2020-11-01",
+      "lastFundingType": "Pre Seed",
+      "rounds": [
+        {
+          "announcedDate": "2020-11-01",
+          "amount": {
+            "amount": 149500,
+            "currency": "USD"
+          },
+          "postMoneyValuation": {
+            "amount": 2872440,
+            "currency": "USD"
+          },
+          "type": "Pre Seed"
+        },
+        {
+          "announcedDate": "2020-05-01",
+          "amount": {
+            "amount": 114500,
+            "currency": "USD"
+          },
+          "postMoneyValuation": {
+            "amount": 1203676,
+            "currency": "USD"
+          },
+          "type": "Pre Seed"
+        }
+      ]
+    },
+    "recentNews": {
+      "reportedCount": 5,
+      "includedUniqueCount": 5,
+      "items": [
+        {
+          "date": "2026-03-24",
+          "publisher": "B Daily",
+          "title": "PR specialist launches new agency",
+          "url": "https://bdaily.co.uk/articles/2026/03/24/pr-specialist-launches-new-agency"
+        },
+        {
+          "date": "2021-07-05",
+          "publisher": "Hotel News ME",
+          "title": "Travel site ‘Welcome to the World’ expands into Abu Dhabi with new content platform",
+          "url": "https://www.hotelnewsme.com/news/travel-site-welcome-to-the-world-expands-into-abu-dhabi-with-new-content-platform/"
+        },
+        {
+          "date": "2020-12-19",
+          "publisher": "ArabianBusiness.com",
+          "title": "New tourism direct booking initiative launches in Dubai",
+          "url": "https://www.arabianbusiness.com/travel-hospitality/455920-new-tourism-direct-booking-initiative-launches-in-dubai"
+        },
+        {
+          "date": "2020-11-01",
+          "title": "Pre Seed Round - Welcome to the World"
+        },
+        {
+          "date": "2020-05-01",
+          "title": "Pre Seed Round - Welcome to the World"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 2,
+    "knownDetailedFundingAmount": {
+      "amount": 264000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 56.63,
+    "latestToEarliestKnownValuationMultiple": 2.39
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": 33,
+      "growthScore": 33,
+      "heatChange90Days": -17,
+      "heatScore": 31
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2025-09-22",
+        "probabilityPercent": 42.12
+      },
+      "growth": {
+        "generatedDate": "2025-01-11",
+        "probabilityPercent": 95.62
+      },
+      "ipo": {
+        "generatedDate": "2025-09-22",
+        "probabilityPercent": 19.12
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors."
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Pre Seed round raised $149,500, or 56.63% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $1,203,676 to $2,872,440, a 2.39x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 33 (+33 over 90 days) and market heat at 31 (-17).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

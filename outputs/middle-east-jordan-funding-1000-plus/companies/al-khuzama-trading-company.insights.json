@@ -1,0 +1,259 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T09:07:54.487Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T09:07:54.485Z",
+    "url": "https://www.crunchbase.com/organization/al-khuzama-trading-company"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Al Khuzama Trading Company",
+      "shortDescription": "Al Khuzama Trading Company is a hospitality company that provides restaurants, cloud kitchens, catering, and event management solutions.",
+      "description": "Al Khuzama Trading Company stands as a specialist in the hospitality industry, delivering services tailored to meet the demands of both individuals and businesses. Their proficiency encompasses domains such as traditional dining establishments and cloud kitchens, in addition to professional banquet and event catering and management. Furthermore, they offer daily hospitality services to governmental bodies and the private sector, guaranteeing a refined hospitality experience that surpasses client expectations.",
+      "website": "https://www.kuzama.co/",
+      "foundedYear": 2013,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Public",
+      "companyType": "For profit",
+      "employeeRange": "1,001-5,000",
+      "estimatedRevenueRange": "$1M-$10M",
+      "headquarters": "Riyadh, Ar Riyad, Saudi Arabia",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Catering",
+        "Event Management",
+        "Hospitality",
+        "Restaurants"
+      ],
+      "sectors": [
+        "Events",
+        "Food and Beverage",
+        "Media and Entertainment",
+        "Travel and Tourism"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 19962221,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 2,
+      "detailedRoundCount": 2,
+      "lastFundingDate": "2026-08-09",
+      "lastFundingType": "Post IPO Debt",
+      "rounds": [
+        {
+          "announcedDate": "2026-08-09",
+          "amount": {
+            "amount": 10681604,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "Emirates NBD"
+          ],
+          "type": "Post IPO Debt"
+        },
+        {
+          "announcedDate": "2026-06-07",
+          "amount": {
+            "amount": 9280617,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "Al-Rajhi Bank"
+          ],
+          "type": "Post IPO Debt"
+        }
+      ],
+      "investors": {
+        "reportedCount": 2,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "Al-Rajhi Bank",
+            "rounds": [
+              "Post-IPO Debt"
+            ]
+          },
+          {
+            "isLead": true,
+            "name": "Emirates NBD",
+            "rounds": [
+              "Post-IPO Debt"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 4,
+      "includedUniqueCount": 4,
+      "items": [
+        {
+          "date": "2026-08-09",
+          "title": "Post-IPO Debt - Al Khuzama Trading Company"
+        },
+        {
+          "date": "2026-06-07",
+          "title": "Post-IPO Debt - Al Khuzama Trading Company"
+        },
+        {
+          "date": "2026-04-09",
+          "title": "Corporate Round - Unique Food Catering Company"
+        },
+        {
+          "date": "2025-06-04",
+          "title": "9636"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 2,
+    "knownDetailedFundingAmount": {
+      "amount": 19962221,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 53.51
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": 0,
+      "growthScore": 93,
+      "heatChange90Days": 60,
+      "heatScore": 89
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-06-06",
+        "probabilityPercent": 23.58
+      },
+      "growth": {
+        "generatedDate": "2026-06-06",
+        "probabilityPercent": 95.73
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "AWJ Holding Company is a family investment company specializing in real estate and investment.",
+          "employeeRange": "101-250",
+          "name": "AWJ Holding Company",
+          "similarityScore": 94
+        },
+        {
+          "description": "Kudu is a digital learning platform that provides customizable online textbooks integrated with features like auto-graded homework,lectures.",
+          "employeeRange": "11-50",
+          "name": "Kudu",
+          "similarityScore": 93
+        },
+        {
+          "description": "Kitopi is a cloud kitchen startup that provides delivery only services for restaurants.",
+          "employeeRange": "5,001-10,000",
+          "name": "Kitopi",
+          "sharedCategories": [
+            "Restaurants"
+          ],
+          "similarityScore": 87
+        },
+        {
+          "description": "Herfy Food Services has built a restaurant, bakery, and meat processing businesses.",
+          "employeeRange": "5,001-10,000",
+          "name": "Herfy Food Services Co.",
+          "sharedCategories": [
+            "Restaurants"
+          ],
+          "similarityScore": 86
+        },
+        {
+          "description": "Rebel Foods is a foodtech company that operates multiple food brands using a cloud kitchen to deliver food on demand.",
+          "employeeRange": "5,001-10,000",
+          "name": "Rebel Foods",
+          "sharedCategories": [
+            "Restaurants"
+          ],
+          "similarityScore": 79
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Post IPO Debt round raised $10,681,604, or 53.51% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 93 (+0 over 90 days) and market heat at 89 (+60).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Strategic repositioning and listing coverage shape the current narrative",
+      "statement": "Al Khuzama Trading Company has a recent strategic-positioning change; 2 recent unique news titles explicitly contain the English terms IPO or listing.",
+      "implication": "Their timing coincides with increased visibility in the loaded news and Crunchbase momentum signals, but the data does not establish causation.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.company.formerName",
+        "facts.recentNews",
+        "providerSignals.crunchbaseMomentum"
+      ],
+      "caveats": [
+        "The causal link to Crunchbase momentum is an inference from timing, not a disclosed company metric."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include AWJ Holding Company, Kudu, Kitopi.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

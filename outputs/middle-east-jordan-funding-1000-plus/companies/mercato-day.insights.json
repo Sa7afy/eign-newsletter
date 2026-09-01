@@ -1,0 +1,216 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T12:31:22.595Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T12:31:22.593Z",
+    "url": "https://www.crunchbase.com/organization/mercato-day"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Mercato Day",
+      "shortDescription": "Mercato Day is a sports news platform that offers football economics, and live broadcasts.",
+      "description": "Mercato Day is a sports site with news of the transfer market, football economics, and live broadcasts of todays matches. Their transfer match news includes football news, world cup news, statistics and numbers, summer mercato transfers, and golden ball news.",
+      "website": "https://mercatoday.com/",
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "1-10",
+      "estimatedRevenueRange": "Less than $1M",
+      "headquarters": "Amman, Jordan",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "founders": [
+        "Ahmed Maher",
+        "Mahmoud Maher"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "A digital platform providing news coverage on football, including match reports, player updates, and league information.",
+        "name": "Sports News Platform"
+      },
+      {
+        "description": "A service offering analysis and reports on the financial aspects of football clubs, transfers, and market trends.",
+        "name": "Football Economics Coverage"
+      },
+      {
+        "description": "A service that streams live football matches and related sports events to viewers through digital channels.",
+        "name": "Live Broadcasts"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 100000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2020-04-01",
+      "lastFundingType": "Seed",
+      "rounds": [
+        {
+          "announcedDate": "2020-04-01",
+          "amount": {
+            "amount": 100000,
+            "currency": "USD"
+          },
+          "postMoneyValuation": {
+            "amount": 150000,
+            "currency": "USD"
+          },
+          "type": "Seed"
+        }
+      ]
+    },
+    "recentNews": {
+      "reportedCount": 1,
+      "includedUniqueCount": 1,
+      "items": [
+        {
+          "date": "2020-04-01",
+          "title": "Seed Round - Mercato Day"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 100000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": -1,
+      "growthScore": 33,
+      "heatChange90Days": -6,
+      "heatScore": 61
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2025-03-30",
+        "probabilityPercent": 38.32
+      },
+      "growth": {
+        "generatedDate": "2025-01-11",
+        "probabilityPercent": 94.59
+      },
+      "ipo": {
+        "generatedDate": "2025-03-30",
+        "probabilityPercent": 3.45
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Sports Monetize is an online media brand",
+          "employeeRange": "1-10",
+          "name": "Sports Monetize",
+          "sharedSpecialties": [
+            "Financial & Market News",
+            "Business Journalism"
+          ],
+          "similarityScore": 100
+        },
+        {
+          "description": "SportsDias is a football updates platform that provides football news and event updates.",
+          "employeeRange": "11-50",
+          "name": "SportsDias",
+          "sharedSpecialties": [
+            "Digital Newspaper Services",
+            "Multimedia News",
+            "Content Aggregation Services"
+          ],
+          "similarityScore": 94.995
+        },
+        {
+          "description": "Hayters is a sports journalism company that provides football news, interviews, and social media article articles.",
+          "employeeRange": "11-50",
+          "name": "Hayters",
+          "sharedSpecialties": [
+            "Digital Newspaper Services",
+            "Multimedia News"
+          ],
+          "similarityScore": 89.966
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Seed round raised $100,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $150,000 to $150,000, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 33 (-1 over 90 days) and market heat at 61 (-6).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Sports Monetize, SportsDias, Hayters.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

@@ -1,0 +1,269 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T12:32:52.605Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T12:32:52.603Z",
+    "url": "https://www.crunchbase.com/organization/milezmore"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Milezmore",
+      "shortDescription": "Milezmore is a full spectrum of reliable, scalable, and cost-efficient cloud fulfillment and delivery solution.",
+      "description": "Milezmore is a full spectrum of reliable, scalable, and cost-efficient cloud fulfillment and a delivery solution powered by cutting-edge technology.\n\nMilezmore focuses on achieving the highest success rate relying on their seamless operations.",
+      "website": "http://milezmore.com/",
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "501-1,000",
+      "headquarters": "Cairo, Al Qahirah, Egypt",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Middle East",
+        "Middle East and North Africa (MENA)",
+        "North Africa"
+      ],
+      "industries": [
+        "Freight Service",
+        "Information Technology",
+        "Logistics"
+      ],
+      "sectors": [
+        "Information Technology",
+        "Transportation"
+      ],
+      "founders": [
+        "Mohamed Abdulaziz"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 5000000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2022-02-28",
+      "lastFundingType": "Pre Seed",
+      "rounds": [
+        {
+          "announcedDate": "2022-02-28",
+          "amount": {
+            "amount": 5000000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "Brimore"
+          ],
+          "postMoneyValuation": {
+            "amount": 22262104,
+            "currency": "USD"
+          },
+          "type": "Pre Seed"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "Brimore",
+            "rounds": [
+              "Pre Seed Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 4,
+      "includedUniqueCount": 4,
+      "items": [
+        {
+          "date": "2022-03-01",
+          "publisher": "Crunchbase News",
+          "title": "Startup Funding Announcements Slowed Dramatically Following Ukraine Attack",
+          "url": "https://news.crunchbase.com/news/startup-funding-russia-ukraine-attack/"
+        },
+        {
+          "date": "2022-02-28",
+          "title": "Pre Seed Round - Milezmore"
+        },
+        {
+          "date": "2022-02-28",
+          "publisher": "PYMNTS.com",
+          "title": "Milezmore Raises $5M in Pre-Seed Funding",
+          "url": "http://dlvr.it/SKqQML"
+        },
+        {
+          "date": "2022-02-28",
+          "publisher": "Wamda",
+          "title": "Milezmore raises $5 million pre-Seed round from Brimore",
+          "url": "https://www.wamda.com/2022/02/milezmore-raises-5-million-pre-seed-round-brimore"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 5000000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": 0,
+      "growthScore": 63,
+      "heatChange90Days": -12,
+      "heatScore": 2
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 36.92
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 21.01,
+        "timingEstimatePercent": {
+          "within6Months": 15.77,
+          "months6To11": 13.29,
+          "months12To24": 20.61,
+          "beyond24Months": 25
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 89.54
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 50.6
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "ShipBob is a global logistics company that offers an e-commerce fulfillment order platform for direct-to-​consumer brands.",
+          "employeeRange": "1,001-5,000",
+          "name": "ShipBob",
+          "sharedCategories": [
+            "Logistics"
+          ],
+          "similarityScore": 97
+        },
+        {
+          "description": "ShipMonk offers direct-to-consumer fulfillment and technology tools for e-commerce companies.",
+          "employeeRange": "1,001-5,000",
+          "name": "ShipMonk",
+          "sharedCategories": [
+            "Logistics"
+          ],
+          "similarityScore": 95
+        },
+        {
+          "description": "Bigblue is a computer software company that provides delivery experience solutions for customer-centric brands.",
+          "employeeRange": "101-250",
+          "name": "Bigblue",
+          "sharedCategories": [
+            "Logistics",
+            "Information Technology"
+          ],
+          "similarityScore": 93
+        },
+        {
+          "description": "Red Stag Fulfillment offers world-class e-commerce order fulfillment and 3PL services. Reliable. Secure. Fast. Guaranteed.",
+          "employeeRange": "501-1,000",
+          "name": "Red Stag Fulfillment",
+          "sharedCategories": [
+            "Logistics"
+          ],
+          "similarityScore": 89
+        },
+        {
+          "description": "ShipHero is a cloud-based Warehouse Management System (WMS) for 3PLs and eCommerce brands.",
+          "employeeRange": "101-250",
+          "name": "ShipHero",
+          "sharedCategories": [
+            "Logistics"
+          ],
+          "similarityScore": 87
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Pre Seed round raised $5,000,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $22,262,104 to $22,262,104, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 63 (+0 over 90 days) and market heat at 2 (-12).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include ShipBob, ShipMonk, Bigblue.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

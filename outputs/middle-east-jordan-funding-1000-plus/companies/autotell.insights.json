@@ -1,0 +1,190 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T09:19:41.775Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T09:19:41.773Z",
+    "url": "https://www.crunchbase.com/organization/autotell"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Autotell",
+      "shortDescription": "Autotell is a platform to communicate with your car, on road analytics, detecting faults, instant driver advice with AI personal assistant",
+      "description": "Autotell is a platform allows you to communicate with your car in a smarter way, you'll be able to get deep insights on how it performs on road, detecting faults, get instant advice when needed through AI personal assistant and more get instant advice when needed through AI personal assistant and more",
+      "website": "http://autotell.ai/",
+      "operatingStatus": "Closed",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "1-10",
+      "headquarters": "Cairo, Al Qahirah, Egypt",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Middle East",
+        "Middle East and North Africa (MENA)",
+        "North Africa"
+      ],
+      "industries": [
+        "Artificial Intelligence (AI)",
+        "Automotive",
+        "Internet of Things"
+      ],
+      "sectors": [
+        "Artificial Intelligence (AI)",
+        "Data and Analytics",
+        "Information Technology",
+        "Internet Services",
+        "Science and Engineering",
+        "Software",
+        "Transportation"
+      ],
+      "founders": [
+        "Ahmed Essam",
+        "Heba Emam"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 6000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2018-04-01",
+      "lastFundingType": "Pre Seed",
+      "rounds": [
+        {
+          "announcedDate": "2018-04-01",
+          "amount": {
+            "amount": 6000,
+            "currency": "USD"
+          },
+          "type": "Pre Seed"
+        }
+      ]
+    },
+    "recentNews": {
+      "reportedCount": 3,
+      "includedUniqueCount": 3,
+      "items": [
+        {
+          "date": "2018-10-03",
+          "publisher": "TechCrunch",
+          "title": "Here are the companies that pitched in Startup Battlefield MENA",
+          "url": "https://techcrunch.com/2018/10/03/here-are-the-companies-that-pitched-in-startup-battlefield-mena/"
+        },
+        {
+          "date": "2018-10-02",
+          "publisher": "TechCrunch",
+          "title": "We’re kicking off Startup Battlefield MENA, here are the startups and agenda",
+          "url": "https://techcrunch.com/2018/10/02/were-kicking-off-startup-battlefield-mena-here-are-the-startups-and-agenda/"
+        },
+        {
+          "date": "2018-04-01",
+          "title": "Pre Seed Round - Autotell"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 6000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "heatChange90Days": -2,
+      "heatScore": 29
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Cerence is an IT company that offers automakers and mobility OEM.",
+          "employeeRange": "1,001-5,000",
+          "name": "Cerence",
+          "sharedCategories": [
+            "Automotive"
+          ],
+          "similarityScore": 96
+        },
+        {
+          "description": "SoundHound AI provides voice AI solutions for brands and products.",
+          "employeeRange": "501-1,000",
+          "name": "SoundHound",
+          "sharedCategories": [
+            "Automotive",
+            "Artificial Intelligence (AI)"
+          ],
+          "similarityScore": 95
+        },
+        {
+          "description": "Amazon Web Services provides information technology infrastructure services to businesses in the form of web services.",
+          "employeeRange": "10,001+",
+          "name": "Amazon Web Services",
+          "sharedCategories": [
+            "Artificial Intelligence (AI)"
+          ],
+          "similarityScore": 88
+        },
+        {
+          "description": "Google specializes in internet-related services and products, including search, advertising, and software.",
+          "employeeRange": "10,001+",
+          "name": "Google",
+          "similarityScore": 86
+        },
+        {
+          "description": "Mojio is a modular SaaS platform that designs, develops, and delivers connected mobility solutions.",
+          "employeeRange": "51-100",
+          "name": "Mojio",
+          "similarityScore": 85
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Pre Seed round raised $6,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Cerence, SoundHound, Amazon Web Services.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

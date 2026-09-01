@@ -1,0 +1,192 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T11:47:52.246Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T11:47:52.244Z",
+    "url": "https://www.crunchbase.com/organization/fursaaa-group-of-companies"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Fursaaa Play",
+      "shortDescription": "First Digital Scratch & Win App in Kuwait",
+      "description": "Fursaaa Play is a social platform that goes beyond entertainment, visibility and connection between businesses, individuals, friends and family. That’s why we’ve crafted a one-of-a-kind entertainment platform that combines the thrill of scratching with guaranteed Chance to Win.",
+      "website": "https://fursaaa.com/",
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "1-10",
+      "headquarters": "Kuwait, Al Kuwayt",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Information Technology",
+        "Media and Entertainment",
+        "Software"
+      ],
+      "sectors": [
+        "Information Technology",
+        "Media and Entertainment",
+        "Software"
+      ],
+      "founders": [
+        "Duaij Khalifah Abdullah AlMehaiteeb",
+        "Fotouh Mohammad Ashour AlQallaf",
+        "M Dee Iverson",
+        "Sam Godme"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 555234,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 2,
+      "detailedRoundCount": 2,
+      "lastFundingDate": "2025-07-01",
+      "lastFundingType": "Seed",
+      "rounds": [
+        {
+          "announcedDate": "2025-07-01",
+          "postMoneyValuation": {
+            "amount": 550518,
+            "currency": "USD"
+          },
+          "type": "Seed"
+        },
+        {
+          "announcedDate": "2021-12-25",
+          "amount": {
+            "amount": 555234,
+            "currency": "USD"
+          },
+          "postMoneyValuation": {
+            "amount": 1734239,
+            "currency": "USD"
+          },
+          "type": "Pre Seed"
+        }
+      ]
+    },
+    "recentNews": {
+      "reportedCount": 3,
+      "includedUniqueCount": 3,
+      "items": [
+        {
+          "date": "2025-08-03",
+          "publisher": "fursaaa.com",
+          "title": "Fursaaa Play launches Kuwait’s First Digital Scratch-and-Win App with Successful Phygital Campaign at miniBOUNCE",
+          "url": "https://fursaaa.com/fursaaa-minibounce-fursaaa-play-launches-kuwaits-first-digital-scratch-and-win-app-with-a-successful-phygital-campaign-at-minibouncefursaaa-minibounce/"
+        },
+        {
+          "date": "2025-07-01",
+          "title": "Seed Round - Fursaaa Play"
+        },
+        {
+          "date": "2021-12-25",
+          "title": "Pre Seed Round - Fursaaa Play"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 555234,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestToEarliestKnownValuationMultiple": 0.32
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": -2,
+      "growthScore": 76,
+      "heatChange90Days": -11,
+      "heatScore": 39
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 30.71
+      },
+      "funding": {
+        "generatedDate": "2026-06-20",
+        "probabilityPercent": 64.91,
+        "timingEstimatePercent": {
+          "within6Months": 99.97,
+          "months6To11": 0,
+          "months12To24": 0,
+          "beyond24Months": 0.03
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 75.95
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 4.21
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Woow isn’t just another social app -it’s the first AI-moderated, bot-free social network built to scale human creativity.",
+          "employeeRange": "1-10",
+          "name": "WOOW Social Media",
+          "similarityScore": 85
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $1,734,239 to $550,518, a 0.32x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 76 (-2 over 90 days) and market heat at 39 (-11).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

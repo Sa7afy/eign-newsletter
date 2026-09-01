@@ -1,0 +1,178 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T11:59:57.016Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T11:59:57.014Z",
+    "url": "https://www.crunchbase.com/organization/hotelsmap-com"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "hotelsmap.com",
+      "shortDescription": "hotelsmap is a U.A.E.-based company that enables its users to search, compare, and book hotels around the world.",
+      "description": "Search, Compare and booking Hotels on Map",
+      "website": "http://www.hotelsmap.com/",
+      "foundedYear": 2009,
+      "operatingStatus": "Closed",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "1-10",
+      "headquarters": "Dubai, United Arab Emirates",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "E-Commerce",
+        "Enterprise Software",
+        "Internet",
+        "Travel"
+      ],
+      "sectors": [
+        "Commerce and Shopping",
+        "Information Technology",
+        "Software",
+        "Travel and Tourism"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 5000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2009-12-10",
+      "lastFundingType": "Seed",
+      "rounds": [
+        {
+          "announcedDate": "2009-12-10",
+          "amount": {
+            "amount": 5000,
+            "currency": "USD"
+          },
+          "type": "Seed"
+        }
+      ]
+    },
+    "recentNews": {
+      "reportedCount": 1,
+      "includedUniqueCount": 1,
+      "items": [
+        {
+          "date": "2009-12-10",
+          "title": "Seed Round - hotelsmap.com"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 5000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "heatChange90Days": 5,
+      "heatScore": 45
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Booking.com is a digital travel company that helps users to book a flight.",
+          "employeeRange": "10,001+",
+          "name": "Booking.com",
+          "sharedCategories": [
+            "E-Commerce",
+            "Travel"
+          ],
+          "similarityScore": 98
+        },
+        {
+          "description": "Hotels.com provides online hotel booking and reservation services intended to ease the travelling process.",
+          "employeeRange": "1,001-5,000",
+          "name": "Hotels.com",
+          "similarityScore": 97
+        },
+        {
+          "description": "Expedia provides advertising solutions that help inspire, engage, and convert hundreds of millions of travelers.",
+          "employeeRange": "10,001+",
+          "name": "Expedia Group Media Solutions",
+          "sharedCategories": [
+            "Travel"
+          ],
+          "similarityScore": 96
+        },
+        {
+          "description": "Agoda is a digital travel platform that provides access to hotels and holiday properties including flights.",
+          "employeeRange": "5,001-10,000",
+          "name": "Agoda",
+          "sharedCategories": [
+            "E-Commerce",
+            "Travel"
+          ],
+          "similarityScore": 95
+        },
+        {
+          "description": "trivago is an online hotel search platform that compares prices from various hotels on booking sites worldwide.",
+          "employeeRange": "501-1,000",
+          "name": "trivago",
+          "sharedCategories": [
+            "Internet",
+            "Travel"
+          ],
+          "similarityScore": 92
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Seed round raised $5,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Booking.com, Hotels.com, Expedia Group Media Solutions.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

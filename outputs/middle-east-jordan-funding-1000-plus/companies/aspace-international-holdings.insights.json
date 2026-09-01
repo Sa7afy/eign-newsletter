@@ -1,0 +1,203 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T09:17:44.935Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T09:17:44.934Z",
+    "url": "https://www.crunchbase.com/organization/aspace-international-holdings"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Aspace International Holdings",
+      "shortDescription": "Aspace International Holdings engages in commercial space services.",
+      "description": "Aspace International Holdings engages in commercial space services.",
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "employeeRange": "101-250",
+      "headquarters": "Dubai, United Arab Emirates",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Aerospace"
+      ],
+      "sectors": [
+        "Science and Engineering"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 25000000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2024-03-01",
+      "lastFundingType": "Private Equity",
+      "rounds": [
+        {
+          "announcedDate": "2024-03-01",
+          "amount": {
+            "amount": 25000000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "Alpha MBM Investments"
+          ],
+          "postMoneyValuation": {
+            "amount": 500000000,
+            "currency": "USD"
+          },
+          "type": "Private Equity"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "Alpha MBM Investments",
+            "rounds": [
+              "Private Equity Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 6,
+      "includedUniqueCount": 5,
+      "items": [
+        {
+          "date": "2025-08-14",
+          "publisher": "EIN Presswire",
+          "title": "CMEx Leadership Awards to Honor Caribbean Leaders in Tourism, Media and Business",
+          "url": "https://www.einpresswire.com/article/839637020/cmex-leadership-awards-to-honor-caribbean-leaders-in-tourism-media-and-business"
+        },
+        {
+          "date": "2025-04-17",
+          "publisher": "Benzinga.com",
+          "title": "Big Tobacco Wants Chinese Vapes Banned; Will This Stock Go Up In Smoke?",
+          "url": "https://www.benzinga.com/markets/asia/25/04/44864731/big-tobacco-wants-chinese-vapes-banned-will-this-stock-go-up-in-smoke"
+        },
+        {
+          "date": "2024-09-08",
+          "title": "Corporate Round - Cubin"
+        },
+        {
+          "date": "2024-05-13",
+          "publisher": "Gulf News",
+          "title": "Alpha MBM Investments injects $25 million into Aspace International Holdings for space innovation",
+          "url": "https://gulfnews.com/business/corporate-news/alpha-mbm-investments-injects-25-million-into-aspace-international-holdings-for-space-innovation-1.1715601437475"
+        },
+        {
+          "date": "2024-03-01",
+          "title": "Private Equity Round - Aspace International Holdings"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 25000000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthInsightGeneratedDate": "2025-04-21",
+      "growthChange90Days": 15,
+      "growthScore": 72,
+      "heatChange90Days": -9,
+      "heatScore": 26,
+      "status": "Growing"
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2025-07-12",
+        "probabilityPercent": 1.17
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 87.01
+      },
+      "ipo": {
+        "generatedDate": "2025-07-12",
+        "probabilityPercent": 5.61
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors."
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Private Equity round raised $25,000,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $500,000,000 to $500,000,000, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 72 (+15 over 90 days) and market heat at 26 (-9).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "issues": [
+      {
+        "severity": "low",
+        "finding": "Crunchbase reports 6 timeline items but exposes 5 unique items in this payload.",
+        "impact": "Recent news is a partial sample, not a complete history."
+      }
+    ],
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

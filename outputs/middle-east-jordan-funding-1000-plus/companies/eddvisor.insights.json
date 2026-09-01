@@ -1,0 +1,255 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T11:29:17.729Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T11:29:17.726Z",
+    "url": "https://www.crunchbase.com/organization/eddvisor"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Eddy",
+      "shortDescription": "Eddy is a personalized guidance App that help high school students discover themselves and align them with the right career path.",
+      "description": "Eddy is a personalized guidance App with a pre-filled to-do list that helps high school students discover themselves and align them with the right career path.",
+      "website": "https://www.geteddy.app/",
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "1-10",
+      "headquarters": "Dubai, United Arab Emirates",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Education",
+        "Internet"
+      ],
+      "sectors": [
+        "Education",
+        "Information Technology"
+      ],
+      "founders": [
+        "Jazeer Jamal"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "A task management tool that breaks down large tasks into smaller, manageable steps with priority settings and visual cues.",
+        "name": "Smart Lists"
+      },
+      {
+        "description": "A customizable Pomodoro-based timer that helps users maintain focus by managing work and break intervals with distraction blocking.",
+        "name": "Focus Mode"
+      },
+      {
+        "description": "A system to monitor and build habits through customizable templates, streak tracking, and progress visualization.",
+        "name": "Habit Tracker"
+      },
+      {
+        "description": "An analytics tool that provides insights into productivity patterns, task completion rates, and time allocation to optimize workflow.",
+        "name": "Progress Analytics"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 100000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2019-11-01",
+      "lastFundingType": "Pre Seed",
+      "rounds": [
+        {
+          "announcedDate": "2019-11-01",
+          "amount": {
+            "amount": 100000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "postMoneyValuation": {
+            "amount": 1100000,
+            "currency": "USD"
+          },
+          "type": "Pre Seed"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "name": "Jazeer Jamal",
+            "rounds": [
+              "Pre Seed Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 2,
+      "includedUniqueCount": 2,
+      "items": [
+        {
+          "date": "2025-06-06",
+          "publisher": "Billboard",
+          "title": "Belinda’s ‘Indómita’ Album & More Best New Music Latin",
+          "url": "https://www.billboard.com/music/latin/best-new-music-latin-belinda-indomita-album-1235991178/"
+        },
+        {
+          "date": "2019-11-01",
+          "title": "Pre Seed Round - Eddy"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 100000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": -2,
+      "growthScore": 73,
+      "heatChange90Days": -14,
+      "heatScore": 52
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 49.54
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 10.92,
+        "timingEstimatePercent": {
+          "within6Months": 14.81,
+          "months6To11": 12.62,
+          "months12To24": 19.91,
+          "beyond24Months": 24.93
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 91.9
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 35.8
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "AppBlock is a mobile application that lets you block annoying apps & websites,",
+          "employeeRange": "1-10",
+          "name": "AppBlock",
+          "sharedSpecialties": [
+            "Habit and Wellbeing Tools",
+            "Digital Wellbeing"
+          ],
+          "similarityScore": 100
+        },
+        {
+          "description": "Opal is the #1 screen time app. Opal’s mission is to help 1Bn people Focus better day to day, so they can accomplish their dreams.",
+          "employeeRange": "11-50",
+          "name": "Opal",
+          "sharedSpecialties": [
+            "Habit and Wellbeing Tools",
+            "Digital Wellbeing"
+          ],
+          "similarityScore": 92.58
+        },
+        {
+          "description": "The AI native habit tracker.",
+          "employeeRange": "1-10",
+          "name": "HabitGraph",
+          "sharedSpecialties": [
+            "Habit and Wellbeing Tools",
+            "To-Do List Apps",
+            "Digital Wellbeing"
+          ],
+          "similarityScore": 87.439
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Pre Seed round raised $100,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $1,100,000 to $1,100,000, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 73 (-2 over 90 days) and market heat at 52 (-14).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include AppBlock, Opal, HabitGraph.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

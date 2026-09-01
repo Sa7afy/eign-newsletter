@@ -1,0 +1,289 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T13:48:14.664Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T13:48:14.661Z",
+    "url": "https://www.crunchbase.com/organization/tsh-group-of-companies"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "TSH Group of Companies LTD",
+      "shortDescription": "TSH Group of Companies is a trading and development company that offers commercial, hospitality, Events, FM, and freight services.",
+      "website": "https://www.tshgroupofcompanies.com/",
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "501-1,000",
+      "estimatedRevenueRange": "$1M-$10M",
+      "headquarters": "Dubai, United Arab Emirates",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Agriculture",
+        "Energy",
+        "Events",
+        "Freight Service",
+        "Oil and Gas",
+        "Solar",
+        "Supply Chain Management",
+        "Travel",
+        "Water Purification",
+        "Web Hosting"
+      ],
+      "sectors": [
+        "Agriculture and Farming",
+        "Energy",
+        "Events",
+        "Internet Services",
+        "Natural Resources",
+        "Sustainability",
+        "Transportation",
+        "Travel and Tourism"
+      ],
+      "founders": [
+        "Sherif Hamed"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "Services involving the buying and selling of goods for commercial purposes across various sectors.",
+        "name": "Commercial Trading Services"
+      },
+      {
+        "description": "Provision of services related to accommodation, food, and guest management for hospitality businesses.",
+        "name": "Hospitality Services"
+      },
+      {
+        "description": "Planning and management of events including coordination, logistics, and execution for various occasions.",
+        "name": "Events Services"
+      },
+      {
+        "description": "Management and maintenance of buildings and facilities to ensure operational functionality and safety.",
+        "name": "Facilities Management (FM) Services"
+      },
+      {
+        "description": "Transportation and logistics services for the movement of goods by land, sea, or air.",
+        "name": "Freight Services"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 100000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2025-01-15",
+      "lastFundingType": "Pre Seed",
+      "rounds": [
+        {
+          "announcedDate": "2025-01-15",
+          "amount": {
+            "amount": 100000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "Sherif Hamed"
+          ],
+          "postMoneyValuation": {
+            "amount": 3443864,
+            "currency": "USD"
+          },
+          "type": "Pre Seed"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "Sherif Hamed",
+            "rounds": [
+              "Pre Seed Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 1,
+      "includedUniqueCount": 1,
+      "items": [
+        {
+          "date": "2025-01-15",
+          "title": "Pre Seed Round - TSH Group of Companies LTD"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 100000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": -4,
+      "growthScore": 85,
+      "heatChange90Days": -8,
+      "heatScore": 67
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 65.82
+      },
+      "funding": {
+        "generatedDate": "2026-06-20",
+        "probabilityPercent": 93.42,
+        "timingEstimatePercent": {
+          "within6Months": 98.74,
+          "months6To11": 0,
+          "months12To24": 0,
+          "beyond24Months": 1.26
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 86.51
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 24.11
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "The Bidvest Group Limited is an international investment holding company with investments across the foodservice",
+          "employeeRange": "10,001+",
+          "name": "The Bidvest Group",
+          "sharedCategories": [
+            "Supply Chain Management"
+          ],
+          "sharedSpecialties": [
+            "Cargo Handling and Terminal Services",
+            "Third-Party Logistics (3PL)"
+          ],
+          "similarityScore": 94
+        },
+        {
+          "description": "DB Schenker is a supply chain management and logistics solutions, handling everything from logistics to customized shipping solutions.",
+          "employeeRange": "10,001+",
+          "name": "DB Schenker",
+          "sharedCategories": [
+            "Supply Chain Management",
+            "Freight Service"
+          ],
+          "sharedSpecialties": [
+            "Freight Forwarding",
+            "Fulfillment and Warehousing",
+            "Third-Party Logistics (3PL)"
+          ],
+          "similarityScore": 93
+        },
+        {
+          "description": "ISS is a leading workplace experience and facility management company.",
+          "employeeRange": "10,001+",
+          "name": "ISS",
+          "similarityScore": 92
+        },
+        {
+          "description": "Sodexo is now the worldwide leader in Quality of Life services.",
+          "employeeRange": "10,001+",
+          "name": "Sodexo",
+          "similarityScore": 91
+        },
+        {
+          "description": "Target Hospitality is the vertically integrated specialty rental and hospitality services company.",
+          "employeeRange": "501-1,000",
+          "name": "Target Hospitality",
+          "sharedSpecialties": [
+            "Hospitality FF and E Services"
+          ],
+          "similarityScore": 89
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Pre Seed round raised $100,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $3,443,864 to $3,443,864, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 85 (-4 over 90 days) and market heat at 67 (-8).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include The Bidvest Group, DB Schenker, ISS.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

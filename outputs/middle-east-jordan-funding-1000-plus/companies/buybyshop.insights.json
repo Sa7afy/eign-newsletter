@@ -1,0 +1,289 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T11:06:37.077Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T11:06:37.075Z",
+    "url": "https://www.crunchbase.com/organization/buybyshop"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Buybyshop",
+      "shortDescription": "Fintch , BNPL, e-commerce",
+      "description": "Buybyshop has many features that are not professionally found or collected in one platform\nFirstly, it is a wonderful and distinct shopping site with an attractive interface\nIt gives a distinctive and unique shopping experience\nOn the other hand, Buybyshop has great Fintch tools such as BNPL, Installments, permanent and temporary auctions and offers.\nBuybyshop also allows merchants to open their own sales outlets",
+      "website": "https://buybyshop.com/",
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "11-50",
+      "headquarters": "Minya, Al Minya, Egypt",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Middle East",
+        "Middle East and North Africa (MENA)",
+        "North Africa"
+      ],
+      "industries": [
+        "E-Commerce Platforms",
+        "FinTech"
+      ],
+      "sectors": [
+        "Commerce and Shopping",
+        "Financial Services",
+        "Internet Services"
+      ],
+      "founders": [
+        "Muhammad Ali"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "An online marketplace offering a wide range of products including supermarket items, clothing, food, home appliances, health and beauty products, digital software, mobile devices, and computer accessories.",
+        "name": "BuybyShop E-commerce Platform"
+      },
+      {
+        "description": "A financial service enabling customers to purchase products online and pay for them later through various payment plans.",
+        "name": "BuybyShop BNPL (Buy Now Pay Later) Service"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 286000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2024-08-19",
+      "lastFundingType": "Series A",
+      "rounds": [
+        {
+          "announcedDate": "2024-08-19",
+          "amount": {
+            "amount": 286000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "FasterCapital"
+          ],
+          "postMoneyValuation": {
+            "amount": 3278707,
+            "currency": "USD"
+          },
+          "type": "Series A"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "FasterCapital",
+            "rounds": [
+              "Series A"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 1,
+      "includedUniqueCount": 1,
+      "items": [
+        {
+          "date": "2024-08-19",
+          "title": "Series A - Buybyshop"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 286000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": -2,
+      "growthScore": 84,
+      "heatChange90Days": -2,
+      "heatScore": 79
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 27.66
+      },
+      "funding": {
+        "generatedDate": "2026-06-20",
+        "probabilityPercent": 90.45,
+        "timingEstimatePercent": {
+          "within6Months": 98.69,
+          "months6To11": 0,
+          "months12To24": 0,
+          "beyond24Months": 1.31
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 76.32
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 3.85
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Klarna is a global digital bank and flexible payments provider.",
+          "employeeRange": "1,001-5,000",
+          "name": "Klarna",
+          "sharedCategories": [
+            "FinTech"
+          ],
+          "sharedSpecialties": [
+            "Alternative Payment Methods",
+            "Payment Processing",
+            "Merchant Services"
+          ],
+          "similarityScore": 97
+        },
+        {
+          "description": "Afterpay allows shoppers to receive products immediately and pay in four simple installments over a short period of time.",
+          "employeeRange": "501-1,000",
+          "name": "Afterpay",
+          "sharedCategories": [
+            "FinTech"
+          ],
+          "sharedSpecialties": [
+            "Alternative Payment Methods",
+            "Payment Processing",
+            "Merchant Services",
+            "Payment Gateway Services",
+            "E-Commerce Mobile Apps"
+          ],
+          "similarityScore": 95
+        },
+        {
+          "description": "Affirm is a financial technology services company that offers installment loans to consumers at the point of sale.",
+          "employeeRange": "1,001-5,000",
+          "name": "Affirm",
+          "sharedCategories": [
+            "FinTech"
+          ],
+          "sharedSpecialties": [
+            "Payment Processing",
+            "Merchant Services",
+            "Payment Gateway Services"
+          ],
+          "similarityScore": 93
+        },
+        {
+          "description": "Zip is an online payments technology provider that offers consumers credit options for online shopping.",
+          "employeeRange": "501-1,000",
+          "name": "Zip",
+          "sharedCategories": [
+            "FinTech"
+          ],
+          "sharedSpecialties": [
+            "Alternative Payment Methods",
+            "Payment Processing",
+            "Merchant Services",
+            "Payment Gateway Services"
+          ],
+          "similarityScore": 91
+        },
+        {
+          "description": "Sezzle provides a buy now, pay later solution platform.",
+          "employeeRange": "251-500",
+          "name": "Sezzle",
+          "sharedCategories": [
+            "FinTech"
+          ],
+          "sharedSpecialties": [
+            "Payment Processing",
+            "Merchant Services",
+            "Payment Gateway Services",
+            "E-Commerce Mobile Apps"
+          ],
+          "similarityScore": 89
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Series A round raised $286,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $3,278,707 to $3,278,707, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 84 (-2 over 90 days) and market heat at 79 (-2).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Klarna, Afterpay, Affirm.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

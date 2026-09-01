@@ -1,0 +1,235 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T13:31:05.427Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T13:31:05.425Z",
+    "url": "https://www.crunchbase.com/organization/spreadd"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Spreadd",
+      "shortDescription": "Spreadd is a CreatorTech and AdTech SaaS platform that connects brands, marketers, and content creators.",
+      "description": "Spreadd is a CreatorTech and AdTech SaaS platform that connects brands, marketers, and content creators to collaborate on digital marketing campaigns and monetize online content. The platform uses AI-powered tools and analytics to help creators grow their audience, manage brand partnerships, and generate revenue from their content. Founded in 2020 and headquartered in Dubai, United Arab Emirates, Spreadd operates as a technology platform focused on the creator economy, enabling efficient collaboration between influencers and companies.",
+      "website": "https://spreadd.io/",
+      "foundedYear": 2020,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "11-50",
+      "headquarters": "Deira, Dubai, United Arab Emirates",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Advertising Platforms",
+        "Blockchain",
+        "Marketing",
+        "Marketing Automation",
+        "Social Media Advertising",
+        "Software"
+      ],
+      "sectors": [
+        "Advertising",
+        "Blockchain and Cryptocurrency",
+        "Sales and Marketing",
+        "Software"
+      ],
+      "founders": [
+        "Sohil Shah"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "A platform that facilitates decentralized advertising technology operations, enabling ad delivery and management without centralized control.",
+        "name": "Decentralised AdTech Platform"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 90000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2022-02-01",
+      "lastFundingType": "Pre Seed",
+      "rounds": [
+        {
+          "announcedDate": "2022-02-01",
+          "amount": {
+            "amount": 90000,
+            "currency": "USD"
+          },
+          "postMoneyValuation": {
+            "amount": 1400765,
+            "currency": "USD"
+          },
+          "type": "Pre Seed"
+        }
+      ]
+    },
+    "recentNews": {
+      "reportedCount": 1,
+      "includedUniqueCount": 1,
+      "items": [
+        {
+          "date": "2022-02-01",
+          "title": "Pre Seed Round - Spreadd"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 90000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": -1,
+      "growthScore": 74,
+      "heatChange90Days": 1,
+      "heatScore": 77
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 45.69
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 23.67,
+        "timingEstimatePercent": {
+          "within6Months": 14.44,
+          "months6To11": 12.36,
+          "months12To24": 19.62,
+          "beyond24Months": 24.87
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 65.39
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 37.89
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Adshares is a web3 advertising protocol that allows programmatic ads across Metaverse, games, mobile apps, AR/VR, and websites.",
+          "employeeRange": "11-50",
+          "name": "Adshares",
+          "sharedSpecialties": [
+            "Supply-Side Platform",
+            "Ad Fraud Detection and Brand Safety",
+            "Campaign Ad Server",
+            "Open Exchange",
+            "Demand-Side Platform (DSP)"
+          ],
+          "similarityScore": 97
+        },
+        {
+          "description": "Brave Software focuses on increasing browsing speed and safety for users, while growing ad revenue share for content creators.",
+          "employeeRange": "1-10",
+          "name": "Brave",
+          "sharedCategories": [
+            "Blockchain"
+          ],
+          "sharedSpecialties": [
+            "Advertising Automation Platform",
+            "Creator Commerce Platforms",
+            "Ad Fraud Detection and Brand Safety",
+            "Ad Verification"
+          ],
+          "similarityScore": 90
+        },
+        {
+          "description": "arXiv is part of the Cornell University Library and is an online archive of educational documents.",
+          "employeeRange": "1-10",
+          "name": "arXiv",
+          "similarityScore": 83
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Pre Seed round raised $90,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $1,400,765 to $1,400,765, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 74 (-1 over 90 days) and market heat at 77 (+1).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Adshares, Brave, arXiv.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

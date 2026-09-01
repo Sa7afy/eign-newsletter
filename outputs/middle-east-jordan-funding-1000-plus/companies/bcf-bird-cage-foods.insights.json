@@ -1,0 +1,266 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T10:58:18.475Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T10:58:18.472Z",
+    "url": "https://www.crunchbase.com/organization/bcf-bird-cage-foods"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "BCF Bird Cage Foods",
+      "shortDescription": "one of Egypt’s leading companies in food and beverages manufacturing. BCF was founded in 2000 by it’s owner and CEO Eng. Amgad Zahran.",
+      "website": "https://www.bcfegypt.com/",
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "11-50",
+      "headquarters": "Cairo, Al Qahirah, Egypt",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Middle East",
+        "Middle East and North Africa (MENA)",
+        "North Africa"
+      ],
+      "industries": [
+        "Food and Beverage",
+        "Food Processing"
+      ],
+      "sectors": [
+        "Food and Beverage"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "A snack product consisting of small crackers flavored with spicy cheese, packaged for retail sale.",
+        "name": "Mini Crackers With Spicy Cheese"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 15000000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2023-05-05",
+      "lastFundingType": "Series C",
+      "rounds": [
+        {
+          "announcedDate": "2023-05-05",
+          "amount": {
+            "amount": 15000000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "Darahim Investment"
+          ],
+          "postMoneyValuation": {
+            "amount": 45000000,
+            "currency": "USD"
+          },
+          "type": "Series C"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "Darahim Investment",
+            "rounds": [
+              "Series C"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 1,
+      "includedUniqueCount": 1,
+      "items": [
+        {
+          "date": "2023-05-05",
+          "title": "Series C - BCF Bird Cage Foods"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 15000000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": 0,
+      "growthScore": 56,
+      "heatChange90Days": 5,
+      "heatScore": 64
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 49.42
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 33.19,
+        "timingEstimatePercent": {
+          "within6Months": 15.19,
+          "months6To11": 12.88,
+          "months12To24": 20.19,
+          "beyond24Months": 24.97
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 88.71
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 57.17
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Kemet for Natural Food specializes in the production of healthy, natural snack foods.",
+          "employeeRange": "251-500",
+          "name": "Kemet for Natural Food",
+          "sharedCategories": [
+            "Food and Beverage"
+          ],
+          "similarityScore": 97
+        },
+        {
+          "description": "Abu Auf is an organic food company that provides coffee, nuts, dried fruits, oils, and other healthy food products.",
+          "employeeRange": "501-1,000",
+          "name": "Abu Auf",
+          "sharedCategories": [
+            "Food and Beverage"
+          ],
+          "sharedSpecialties": [
+            "Baking Ingredients"
+          ],
+          "similarityScore": 93
+        },
+        {
+          "description": "BiscoMisr is a biscuit manufacturing company specializing in baked goods.",
+          "employeeRange": "1,001-5,000",
+          "name": "BiscoMisr",
+          "sharedCategories": [
+            "Food Processing"
+          ],
+          "similarityScore": 91
+        },
+        {
+          "description": "Munchy is a food processing company that specializes in manufacturing snack foods.",
+          "employeeRange": "1,001-5,000",
+          "name": "Munchy",
+          "sharedCategories": [
+            "Food and Beverage"
+          ],
+          "sharedSpecialties": [
+            "FMCG Distribution",
+            "Packaging and Pallet Wrap",
+            "Convenience Stores",
+            "Food Processing Equipment"
+          ],
+          "similarityScore": 86
+        },
+        {
+          "description": "Egypt Foods is one of the premier Snack manufacturing companies. It is considered a market leader in snacks.",
+          "employeeRange": "5,001-10,000",
+          "name": "Egypt Foods",
+          "sharedCategories": [
+            "Food and Beverage"
+          ],
+          "sharedSpecialties": [
+            "FMCG Distribution",
+            "Cheese Snacks and Puffs",
+            "Food Processing Equipment",
+            "Flexible Packaging Films",
+            "Confectionery and Snack Machinery"
+          ],
+          "similarityScore": 84
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Series C round raised $15,000,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $45,000,000 to $45,000,000, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 56 (+0 over 90 days) and market heat at 64 (+5).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Kemet for Natural Food, Abu Auf, BiscoMisr.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

@@ -1,0 +1,301 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T11:53:08.436Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T11:53:08.434Z",
+    "url": "https://www.crunchbase.com/organization/greener-herd"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Greener Herd",
+      "shortDescription": "Revolutionizing livestock farming with AI-driven solutions for higher yields, sustainability, and reduced emissions.",
+      "description": "Greener Herd is pioneering the future of livestock farming with cutting-edge AI solutions designed to reduce methane emissions, enhance productivity, and promote sustainability. Our app empowers producers with real-time data and actionable insights, helping them optimize animal health, maximize yields, and contribute to global food security. Focused on reducing environmental impact, Greener Herd connects farmers with the tools, resources, and funding they need to grow their operations responsibly. Our mission is to lead a global shift towards more sustainable, efficient, and profitable livestock production.",
+      "website": "https://www.greenerherd.com/",
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "11-50",
+      "headquarters": "Dubai, United Arab Emirates",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Agriculture",
+        "Livestock",
+        "Sustainability"
+      ],
+      "sectors": [
+        "Agriculture and Farming",
+        "Sustainability"
+      ],
+      "founders": [
+        "Alexander Kappes"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "A mobile application for tracking herd performance, health, breeding, nutrition, and emissions to support livestock management.",
+        "name": "Greener Herd Livestock Management App"
+      },
+      {
+        "description": "A service that includes animal tagging, weighing, health assessments, pregnancy checks, vaccinations, and blood tests to register livestock digitally.",
+        "name": "Greener Herd Registration and On-site Services"
+      },
+      {
+        "description": "A collection of detailed feeding guides providing nutritional advice and feed mix examples for different life stages of sheep and goats.",
+        "name": "Nutrition Guides for Sheep and Goats"
+      },
+      {
+        "description": "A feature within the app that estimates and monitors annual methane emissions from livestock and suggests feed adjustments to reduce emissions.",
+        "name": "Methane Emissions Tracking Module"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 120000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 2,
+      "detailedRoundCount": 2,
+      "lastFundingDate": "2024-11-18",
+      "lastFundingType": "Seed",
+      "rounds": [
+        {
+          "announcedDate": "2024-11-18",
+          "postMoneyValuation": {
+            "amount": 8364108,
+            "currency": "USD"
+          },
+          "type": "Seed"
+        },
+        {
+          "announcedDate": "2024-09-09",
+          "amount": {
+            "amount": 120000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "Techstars"
+          ],
+          "postMoneyValuation": {
+            "amount": 3274324,
+            "currency": "USD"
+          },
+          "type": "Pre Seed"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "Techstars",
+            "rounds": [
+              "Pre Seed Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 2,
+      "includedUniqueCount": 2,
+      "items": [
+        {
+          "date": "2024-11-18",
+          "title": "Seed Round - Greener Herd"
+        },
+        {
+          "date": "2024-09-09",
+          "title": "Pre Seed Round - Greener Herd"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 120000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestToEarliestKnownValuationMultiple": 2.55
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": -4,
+      "growthScore": 77,
+      "heatChange90Days": -5,
+      "heatScore": 45
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 73.56
+      },
+      "funding": {
+        "generatedDate": "2026-06-20",
+        "probabilityPercent": 78.87,
+        "timingEstimatePercent": {
+          "within6Months": 99.77,
+          "months6To11": 0,
+          "months12To24": 0,
+          "beyond24Months": 0.23
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 96
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 4.5
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "AgriWebb is a farm and livestock app that helps livestock producers with record keeping, compliance, and productivity.",
+          "employeeRange": "51-100",
+          "name": "AgriWebb",
+          "sharedCategories": [
+            "Livestock"
+          ],
+          "sharedSpecialties": [
+            "Livestock Management Software",
+            "Animal Identification and Tagging",
+            "Livestock Nutrition and Management Tools",
+            "Farm Management Software",
+            "Environmental and ESG Data"
+          ],
+          "similarityScore": 95
+        },
+        {
+          "description": "Herdwatch Limited develops livestock and pasture management software for cattle, sheep, dairy, and ranch operations.",
+          "employeeRange": "51-100",
+          "name": "Herdwatch Limited",
+          "sharedCategories": [
+            "Agriculture"
+          ],
+          "sharedSpecialties": [
+            "Livestock Management Software",
+            "Animal Identification and Tagging",
+            "Livestock Nutrition and Management Tools",
+            "Farm Management Software"
+          ],
+          "similarityScore": 94
+        },
+        {
+          "description": "All-in-one farm and livestock management SaaS software. Plan, manage, track, report and sell online (from seed-to-sale).",
+          "employeeRange": "1-10",
+          "name": "Farmbrite",
+          "sharedCategories": [
+            "Agriculture",
+            "Livestock"
+          ],
+          "sharedSpecialties": [
+            "Livestock Management Software",
+            "Animal Identification and Tagging",
+            "Farm Management Software"
+          ],
+          "similarityScore": 93
+        },
+        {
+          "description": "BoviSync offers a mobile application with advanced reporting on a computer to manage the dairy farm of the user with ease.",
+          "employeeRange": "11-50",
+          "name": "BoviSync",
+          "sharedCategories": [
+            "Agriculture"
+          ],
+          "sharedSpecialties": [
+            "Livestock Veterinary Services",
+            "Livestock Management Software",
+            "Mobile Veterinary Services",
+            "Animal Identification and Tagging",
+            "Livestock Nutrition and Management Tools",
+            "Farm Management Software"
+          ],
+          "similarityScore": 87
+        },
+        {
+          "description": "NAVFARM develops a poultry ERP management software that makes the farm and livestock management efficient, productive, and profitable.",
+          "employeeRange": "11-50",
+          "name": "NAVFARM",
+          "sharedCategories": [
+            "Livestock"
+          ],
+          "sharedSpecialties": [
+            "Livestock Management Software",
+            "Ruminant and Swine Feed Formulations",
+            "Animal Identification and Tagging",
+            "Farm Management Software"
+          ],
+          "similarityScore": 83
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $3,274,324 to $8,364,108, a 2.55x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 77 (-4 over 90 days) and market heat at 45 (-5).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include AgriWebb, Herdwatch Limited, Farmbrite.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

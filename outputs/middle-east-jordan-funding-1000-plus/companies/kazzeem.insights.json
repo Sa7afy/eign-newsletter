@@ -1,0 +1,216 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T12:13:11.419Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T12:13:11.418Z",
+    "url": "https://www.crunchbase.com/organization/kazzeem"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Kazzeem",
+      "shortDescription": "Kazzeem provides home cleaning services.",
+      "description": "Kazzeem is connecting individuals and seeking customers to provide a home cleaning service. And their vision to be number choice for home cleaning services in egypt. For inquiries, their email address, telephone number, and physical address are available on their website.",
+      "website": "http://www.kazzeem.com/",
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "1-10",
+      "headquarters": "Gîza, Al Jizah, Egypt",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Middle East",
+        "Middle East and North Africa (MENA)",
+        "North Africa"
+      ],
+      "industries": [
+        "Consumer",
+        "Home Services"
+      ],
+      "sectors": [
+        "Other",
+        "Real Estate"
+      ],
+      "founders": [
+        "Ibrahim Essam",
+        "Moustapha Abou Kahla"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "A veal T-Bone steak weighing 400 grams, combining two types of meat separated by a T-shaped bone.",
+        "name": "Kalbs T-Bone Steak 400g"
+      },
+      {
+        "description": "A 670 ml squeeze bottle of BBQ sauce designed for burgers, with a sweet, smoky, and spicy flavor.",
+        "name": "BBQ Sauce für Burger 670 ml"
+      },
+      {
+        "description": "A package of four dry-aged ribeye steaks from Austrian heifers, totaling 1,200 grams without bones.",
+        "name": "Kalbin Ribeye dry aged Steaks 1.200g / Entrecote = 4Stk."
+      },
+      {
+        "description": "A whole beef tenderloin from Uruguay weighing approximately 1,800 grams, suitable for 4-6 people.",
+        "name": "Rinder Filet Uruguay im Ganzen 1.800g = 1Stk."
+      },
+      {
+        "description": "A 200-gram filet steak of Wagyu beef from Miyazaki, Japan, graded A5 for marbling and quality.",
+        "name": "Wagyu Beef Japan Filet Steak Miyazaki A5 200 g"
+      },
+      {
+        "description": "Three pork fillets from Austria, totaling 1,600 grams, suitable for roasting or grilling.",
+        "name": "Filets vom Schwein aus Österreich 1.600 g = 3 Stk."
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 30000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2018-06-04",
+      "lastFundingType": "Pre Seed",
+      "rounds": [
+        {
+          "announcedDate": "2018-06-04",
+          "amount": {
+            "amount": 30000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "Falak Startups"
+          ],
+          "postMoneyValuation": {
+            "amount": 396180,
+            "currency": "USD"
+          },
+          "type": "Pre Seed"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "Falak Startups",
+            "rounds": [
+              "Pre Seed Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 1,
+      "includedUniqueCount": 1,
+      "items": [
+        {
+          "date": "2018-06-04",
+          "title": "Pre Seed Round - Kazzeem"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 30000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": 1,
+      "growthScore": 38,
+      "heatChange90Days": -12,
+      "heatScore": 49
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 16.39
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 6.03,
+        "timingEstimatePercent": {
+          "within6Months": 15.5,
+          "months6To11": 13.1,
+          "months12To24": 20.42,
+          "beyond24Months": 24.99
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 66.94
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 29.04
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors."
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Pre Seed round raised $30,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $396,180 to $396,180, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 38 (+1 over 90 days) and market heat at 49 (-12).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

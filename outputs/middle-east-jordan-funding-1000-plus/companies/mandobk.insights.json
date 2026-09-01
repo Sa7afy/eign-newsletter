@@ -1,0 +1,220 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T12:26:22.971Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T12:26:22.969Z",
+    "url": "https://www.crunchbase.com/organization/mandobk"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Mandobk",
+      "shortDescription": "Mandobk is a developer of a delivery platform to provide urban logistics and courier services.",
+      "description": "Mandobk is a delivery platform that provides urban logistics and courier services. They enable consumers to purchase products online and get them delivered to their homes. They offer electronic appliances, mobiles, computers, clothing, and home essentials for delivery.",
+      "website": "https://www.mandobk.com.sa/",
+      "foundedYear": 2019,
+      "operatingStatus": "Closed",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "1-10",
+      "headquarters": "Riyadh, Ar Riyad, Saudi Arabia",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Delivery Service",
+        "Mobile Apps",
+        "Transportation"
+      ],
+      "sectors": [
+        "Apps",
+        "Mobile",
+        "Software",
+        "Transportation"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "A service for delivering meals quickly and efficiently, focusing on quality and convenience.",
+        "name": "Food Delivery"
+      },
+      {
+        "description": "Offers the delivery of parcels with an emphasis on speed and quality assurance, including a tracking system.",
+        "name": "Parcel Delivery"
+      },
+      {
+        "description": "A user-friendly application for restaurants to receive orders, complemented by a dedicated order receiving device for each restaurant.",
+        "name": "Restaurant Application"
+      },
+      {
+        "description": "Allows individuals to register as couriers, facilitating the delivery process.",
+        "name": "Courier Registration"
+      },
+      {
+        "description": "Enables stores to integrate with the platform for efficient delivery services, even if the store is not registered in the app.",
+        "name": "Store Integration"
+      },
+      {
+        "description": "Supports various payment methods for the convenience of users.",
+        "name": "Multiple Payment Methods"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 533065,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2022-02-22",
+      "lastFundingType": "Equity Crowdfunding",
+      "rounds": [
+        {
+          "announcedDate": "2022-02-22",
+          "amount": {
+            "amount": 533065,
+            "currency": "USD"
+          },
+          "type": "Equity Crowdfunding"
+        }
+      ]
+    },
+    "recentNews": {
+      "reportedCount": 1,
+      "includedUniqueCount": 1,
+      "items": [
+        {
+          "date": "2022-02-22",
+          "title": "Equity Crowdfunding - Mandobk"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 533065,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "heatChange90Days": -11,
+      "heatScore": 44
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2025-08-09",
+        "probabilityPercent": 12.5
+      },
+      "funding": {
+        "generatedDate": "2025-08-09",
+        "probabilityPercent": 32.66,
+        "timingEstimatePercent": {
+          "within6Months": 14.73,
+          "months6To11": 12.56,
+          "months12To24": 19.84,
+          "beyond24Months": 24.92
+        }
+      },
+      "growth": {
+        "generatedDate": "2025-01-11",
+        "probabilityPercent": 92.1
+      },
+      "ipo": {
+        "generatedDate": "2025-08-09",
+        "probabilityPercent": 38.47
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Mrsool is a delivery platform that provides a wide fleet of registered on-demand courier service.",
+          "employeeRange": "251-500",
+          "name": "Mrsool",
+          "similarityScore": 97
+        },
+        {
+          "description": "ToYou is a delivery platform that connects users with restaurants, stores, and couriers for on-demand orders.",
+          "employeeRange": "501-1,000",
+          "name": "ToYou",
+          "sharedCategories": [
+            "Delivery Service",
+            "Mobile Apps"
+          ],
+          "similarityScore": 95
+        },
+        {
+          "description": "Jahez is an online food delivery platform, connecting customers with a wide variety of local and international restaurants.",
+          "employeeRange": "501-1,000",
+          "name": "Jahez International Company",
+          "similarityScore": 90
+        },
+        {
+          "description": "Hunger Station is a website that lets users find food deals and specials in Saudi Arabia.",
+          "employeeRange": "501-1,000",
+          "name": "Hungerstation.com",
+          "sharedCategories": [
+            "Delivery Service",
+            "Mobile Apps"
+          ],
+          "similarityScore": 88
+        },
+        {
+          "description": "The Chefz operates as a gourmet food and sweets delivery platform.",
+          "employeeRange": "501-1,000",
+          "name": "The Chefz",
+          "similarityScore": 87
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Equity Crowdfunding round raised $533,065, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Mrsool, ToYou, Jahez International Company.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

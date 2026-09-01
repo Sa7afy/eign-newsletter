@@ -1,0 +1,232 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T11:02:59.884Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T11:02:59.882Z",
+    "url": "https://www.crunchbase.com/organization/book-any-pro"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Book Any Pro",
+      "shortDescription": "Find top professionals, venues & equipment, On Demand.",
+      "description": "BookAnyPro.com - Find top professionals, venues & equipment, On Demand.Whether you need to paint your home, learn a new language, magician for your children's party, BookAnyAct is the easiest and most dependable way to find the right professional",
+      "website": "https://www.bookanypro.com/",
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "1-10",
+      "headquarters": "Dubai, United Arab Emirates",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Events",
+        "Freelance",
+        "Home Services",
+        "Professional Services",
+        "Rental"
+      ],
+      "sectors": [
+        "Commerce and Shopping",
+        "Events",
+        "Professional Services",
+        "Real Estate"
+      ],
+      "founders": [
+        "Ahmed AL-Hassoni"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 20000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2020-06-26",
+      "lastFundingType": "Pre Seed",
+      "rounds": [
+        {
+          "announcedDate": "2020-06-26",
+          "amount": {
+            "amount": 20000,
+            "currency": "USD"
+          },
+          "postMoneyValuation": {
+            "amount": 291490,
+            "currency": "USD"
+          },
+          "type": "Pre Seed"
+        }
+      ]
+    },
+    "recentNews": {
+      "reportedCount": 1,
+      "includedUniqueCount": 1,
+      "items": [
+        {
+          "date": "2020-06-26",
+          "title": "Pre Seed Round - Book Any Pro"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 20000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": 1,
+      "growthScore": 79,
+      "heatChange90Days": 0,
+      "heatScore": 52
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 54.09
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 14.94,
+        "timingEstimatePercent": {
+          "within6Months": 14.12,
+          "months6To11": 12.13,
+          "months12To24": 19.36,
+          "beyond24Months": 24.81
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 81.62
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 40.71
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Peerspace is a peer-to-peer marketplace for booking space for events, meetings, and productions.",
+          "employeeRange": "51-100",
+          "name": "Peerspace",
+          "similarityScore": 95
+        },
+        {
+          "description": "Giggster is set to transform how the filming production industry works.",
+          "employeeRange": "51-100",
+          "name": "Giggster",
+          "similarityScore": 93
+        },
+        {
+          "description": "AI-Powered Global Venue Marketplace",
+          "employeeRange": "101-250",
+          "name": "Tagvenue",
+          "sharedCategories": [
+            "Events"
+          ],
+          "similarityScore": 91
+        },
+        {
+          "description": "Eventective is an all-in-one platform that helps people in the U.S. and Canada pair up with event businesses to pull off the perfect plan.",
+          "employeeRange": "11-50",
+          "name": "Eventective",
+          "sharedCategories": [
+            "Events"
+          ],
+          "similarityScore": 89
+        },
+        {
+          "description": "Cvent is an event management software company who provide a platform to manage in-person, virtual, and hybrid events.",
+          "employeeRange": "5,001-10,000",
+          "name": "Cvent",
+          "sharedCategories": [
+            "Events"
+          ],
+          "similarityScore": 87
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Pre Seed round raised $20,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $291,490 to $291,490, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 79 (+1 over 90 days) and market heat at 52 (+0).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Peerspace, Giggster, Tagvenue.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

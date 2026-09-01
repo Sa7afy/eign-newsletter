@@ -1,0 +1,240 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T14:01:46.709Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T14:01:46.707Z",
+    "url": "https://www.crunchbase.com/organization/xplor-3988"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "XPLOR",
+      "shortDescription": "XPLOR provides map designing, 3D technology, and data services for real estate properties, infrastructure, and interior design.",
+      "description": "XPLOR is a real estate technology company focused on modernizing property discovery and engagement through innovative digital solutions. Founded in 2019 and headquartered in Dubai, the company develops advanced platforms that allow users to explore real estate projects with interactive 3D models, virtual walkthroughs, infrastructure mapping, and detailed project visualizations. Its technology enables developers and property marketers to showcase residential and commercial projects in a more immersive and data-driven way, improving customer engagement and decision-making.",
+      "website": "https://www.xplor.global/",
+      "foundedYear": 2019,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "11-50",
+      "headquarters": "Dubai, United Arab Emirates",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "3D Technology",
+        "Infrastructure",
+        "Mapping Services",
+        "Real Estate"
+      ],
+      "sectors": [
+        "Hardware",
+        "Navigation and Mapping",
+        "Other",
+        "Real Estate",
+        "Software"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 3000000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2021-02-16",
+      "lastFundingType": "Seed",
+      "rounds": [
+        {
+          "announcedDate": "2021-02-16",
+          "amount": {
+            "amount": 3000000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "postMoneyValuation": {
+            "amount": 16186710,
+            "currency": "USD"
+          },
+          "type": "Seed"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "name": "Ayana Holding",
+            "rounds": [
+              "Seed Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 1,
+      "includedUniqueCount": 1,
+      "items": [
+        {
+          "date": "2021-02-16",
+          "title": "Seed Round - XPLOR"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 3000000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": -2,
+      "growthScore": 67,
+      "heatChange90Days": -27,
+      "heatScore": 64
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 39.3
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 18.23,
+        "timingEstimatePercent": {
+          "within6Months": 14.12,
+          "months6To11": 12.12,
+          "months12To24": 19.36,
+          "beyond24Months": 24.81
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 80.91
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 29.17
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Cecilian Partners develops a real estate software platform that simplifies the management of community development.",
+          "employeeRange": "11-50",
+          "name": "Cecilian Partners",
+          "sharedCategories": [
+            "Real Estate",
+            "Mapping Services"
+          ],
+          "similarityScore": 97
+        },
+        {
+          "description": "A spatial intelligence firm.",
+          "employeeRange": "1,001-5,000",
+          "name": "Vantor",
+          "similarityScore": 93
+        },
+        {
+          "description": "Intermap is a provider of software, services, and solutions that help businesses and governments solve their geospatial challenges.",
+          "employeeRange": "51-100",
+          "name": "Intermap Technologies",
+          "similarityScore": 91
+        },
+        {
+          "description": "SuperMap is an innovative GIS platform software and service provider.",
+          "employeeRange": "1,001-5,000",
+          "name": "SuperMap",
+          "similarityScore": 89
+        },
+        {
+          "description": "Matterport digitizes spaces into accurate, immersive 3D digital twins with its all-in-one platform.",
+          "employeeRange": "501-1,000",
+          "name": "Matterport",
+          "sharedCategories": [
+            "3D Technology"
+          ],
+          "similarityScore": 88
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Seed round raised $3,000,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $16,186,710 to $16,186,710, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 67 (-2 over 90 days) and market heat at 64 (-27).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Cecilian Partners, Vantor, Intermap Technologies.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

@@ -1,0 +1,211 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T10:56:00.857Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T10:56:00.856Z",
+    "url": "https://www.crunchbase.com/organization/bait-alkhyata"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Bait Alkhyata",
+      "shortDescription": "Bait Alkhyata is a platform that makes a difference in the lives of women and their communities.",
+      "description": "Bait Alkhyata is a platform that makes a difference in the lives of women and their communities by providing inclusive services that promote social development.",
+      "website": "https://baytalkhyata.com/",
+      "foundedYear": 2019,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "51-100",
+      "headquarters": "Cairo, Al Qahirah, Egypt",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Middle East",
+        "Middle East and North Africa (MENA)",
+        "North Africa"
+      ],
+      "industries": [
+        "Environmental Consulting",
+        "Environmental Engineering",
+        "Social"
+      ],
+      "sectors": [
+        "Community and Lifestyle",
+        "Professional Services",
+        "Science and Engineering",
+        "Sustainability"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "A diploma program combining online theoretical lessons and practical workshops to teach professional skills in abaya design and sewing.",
+        "name": "Comprehensive Fashion Design and Sewing Diploma"
+      },
+      {
+        "description": "A two-month course teaching basic sewing skills, pattern making, and garment construction for casual wear.",
+        "name": "Casual Sewing Diploma"
+      },
+      {
+        "description": "A two-and-a-half-month program covering sewing basics, pattern making, and garment design for various clothing types including children's wear.",
+        "name": "Comprehensive Sewing Diploma"
+      },
+      {
+        "description": "A 12-lecture practical course focused on sewing and finishing various modest clothing items like abayas, khimars, and niqabs.",
+        "name": "Modest Clothing Diploma"
+      },
+      {
+        "description": "A 16-lecture practical course on designing and sewing modest evening dresses with specialized pattern making and finishing techniques.",
+        "name": "Modest Evening Dress Diploma"
+      },
+      {
+        "description": "An intensive course teaching design and sewing of jackets, blazers, and coats with detailed pattern and finishing instruction.",
+        "name": "Jacket and Blazer Diploma"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 600000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2024-06-06",
+      "lastFundingType": "Non Equity Assistance",
+      "rounds": [
+        {
+          "announcedDate": "2024-06-06",
+          "amount": {
+            "amount": 600000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "Edventures"
+          ],
+          "type": "Non Equity Assistance"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "Edventures",
+            "rounds": [
+              "Non Equity Assistance"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 1,
+      "includedUniqueCount": 1,
+      "items": [
+        {
+          "date": "2024-06-06",
+          "title": "Non Equity Assistance - Bait Alkhyata"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 600000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": -2,
+      "growthScore": 53,
+      "heatChange90Days": 5,
+      "heatScore": 66
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 30.44
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 35.17,
+        "timingEstimatePercent": {
+          "within6Months": 0.6,
+          "months6To11": 0,
+          "months12To24": 0,
+          "beyond24Months": 99.39
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 83.45
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 6.5
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Happy Pay is a payment platform that delivers merchants, shoppers, and the planet.",
+          "employeeRange": "11-50",
+          "name": "Happy Pay",
+          "similarityScore": 86
+        },
+        {
+          "description": "Dressmaking Academy offers online video courses for sewing, pattern drafting, and couture dress design.",
+          "name": "Dressmaking Academy",
+          "similarityScore": 75
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Non Equity Assistance round raised $600,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 53 (-2 over 90 days) and market heat at 66 (+5).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

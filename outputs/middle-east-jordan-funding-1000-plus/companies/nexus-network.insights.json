@@ -1,0 +1,335 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T12:44:47.057Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T12:44:47.054Z",
+    "url": "https://www.crunchbase.com/organization/nexus-network"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Nexus Network",
+      "shortDescription": "Nexus Network brings secure yields for idle bridge assets on rollups and EVM chains",
+      "description": "Nexus Network brings secure yields for idle bridge assets. Nexus Network delivers utilises the latest staking technology to offer a non-custodial and transparent way to generate yields for rollups and EVM chains",
+      "website": "https://www.nexusnetwork.live/",
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "1-10",
+      "headquarters": "Dubai, United Arab Emirates",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Blockchain",
+        "Cryptocurrency",
+        "Ethereum"
+      ],
+      "sectors": [
+        "Blockchain and Cryptocurrency",
+        "Financial Services",
+        "Payments",
+        "Software"
+      ],
+      "founders": [
+        "Mayank Raj",
+        "Rohit Aggarwal"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "An optimistic rollup protocol on the Ethereum blockchain designed to enhance scalability and efficiency.",
+        "name": "Nexus Rollup"
+      },
+      {
+        "description": "A service providing secure returns on idle ETH in bridges through non-custodial staking technology.",
+        "name": "Yield Generation"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 1000000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2024-06-12",
+      "lastFundingType": "Pre Seed",
+      "rounds": [
+        {
+          "announcedDate": "2024-06-12",
+          "amount": {
+            "amount": 1000000,
+            "currency": "USD"
+          },
+          "investorCount": 5,
+          "leadInvestors": [
+            "Hashed Emergent"
+          ],
+          "postMoneyValuation": {
+            "amount": 9149677,
+            "currency": "USD"
+          },
+          "type": "Pre Seed"
+        }
+      ],
+      "investors": {
+        "reportedCount": 5,
+        "visibleNames": [
+          {
+            "name": "BreakOrbit",
+            "rounds": [
+              "Pre Seed Round"
+            ]
+          },
+          {
+            "name": "coinIX",
+            "rounds": [
+              "Pre Seed Round"
+            ]
+          },
+          {
+            "name": "Founderheads,",
+            "rounds": [
+              "Pre Seed Round"
+            ]
+          },
+          {
+            "isLead": true,
+            "name": "Hashed Emergent",
+            "rounds": [
+              "Pre Seed Round"
+            ]
+          },
+          {
+            "name": "Mask Network",
+            "rounds": [
+              "Pre Seed Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 4,
+      "includedUniqueCount": 4,
+      "items": [
+        {
+          "date": "2024-06-12",
+          "title": "Pre Seed Round - Nexus Network"
+        },
+        {
+          "date": "2024-06-12",
+          "publisher": "The Business Journals",
+          "title": "Seattle accelerator Spectral to acquire Hong Kong cloud company",
+          "url": "https://www.bizjournals.com/seattle/news/2024/06/12/spectral-capital-seattle-node-nexus-network.html"
+        },
+        {
+          "date": "2024-06-07",
+          "publisher": "PR Newswire",
+          "title": "Node Nexus Network Has Entered into a Pending Acquisition by Spectral Capital Corporation (FCCN)",
+          "url": "https://www.prnewswire.com/news-releases/node-nexus-network-has-entered-into-a-pending-acquisition-by-spectral-capital-corporation-fccn-302167253.html"
+        },
+        {
+          "date": "2024-03-21",
+          "publisher": "PRNewswire",
+          "title": "Node Nexus Network (NNN) Wins Prestigious TADS Award for AI Innovation",
+          "url": "https://www.prnewswire.com/news-releases/node-nexus-network-nnn-wins-prestigious-tads-award-for-ai-innovation-302095376.html"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 1000000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": -2,
+      "growthScore": 52,
+      "heatChange90Days": -4,
+      "heatScore": 62
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 33.21
+      },
+      "funding": {
+        "generatedDate": "2026-08-13",
+        "probabilityPercent": 64.2,
+        "timingEstimatePercent": {
+          "within6Months": 99.82,
+          "months6To11": 0.03,
+          "months12To24": 0,
+          "beyond24Months": 0.15
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 95.42
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 3.93
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Polygon is a platform for Ethereum scaling and infrastructure development.",
+          "employeeRange": "1-10",
+          "name": "Polygon",
+          "sharedCategories": [
+            "Blockchain",
+            "Ethereum"
+          ],
+          "sharedSpecialties": [
+            "Staking Services",
+            "Tokenization Platforms",
+            "Layer 2 Payment Networks",
+            "Cross-Chain Bridges"
+          ],
+          "similarityScore": 97
+        },
+        {
+          "description": "Avail is a team of innovators dedicated to transforming the blockchain world.",
+          "employeeRange": "11-50",
+          "name": "Avail",
+          "sharedCategories": [
+            "Blockchain"
+          ],
+          "sharedSpecialties": [
+            "Staking Services",
+            "Tokenization Platforms",
+            "Layer 2 Payment Networks",
+            "Cross-Chain Bridges"
+          ],
+          "similarityScore": 95
+        },
+        {
+          "description": "Wormhole is a generic cross-chain messaging protocol platform that can use data, assets, and messages from other chains.",
+          "employeeRange": "11-50",
+          "name": "Wormhole",
+          "sharedCategories": [
+            "Blockchain",
+            "Cryptocurrency"
+          ],
+          "sharedSpecialties": [
+            "Tokenization Platforms",
+            "Decentralized Autonomous Organizations (DAO) Platforms",
+            "Cross-Chain Bridges"
+          ],
+          "similarityScore": 91
+        },
+        {
+          "description": "LayerZero Labs is a blockchain messaging protocol developer that allows decentralized applications build across multiple blockchains.",
+          "employeeRange": "51-100",
+          "name": "LayerZero Labs",
+          "sharedCategories": [
+            "Blockchain",
+            "Cryptocurrency"
+          ],
+          "sharedSpecialties": [
+            "Ethereum Analytics Platforms",
+            "Tokenization Platforms",
+            "Cross-Chain Bridges"
+          ],
+          "similarityScore": 90
+        },
+        {
+          "description": "deBridge provides non-custodial cross-chain trading, gasless swaps, and execution infrastructure for DeFi applications and users.",
+          "employeeRange": "11-50",
+          "name": "deBridge",
+          "sharedCategories": [
+            "Blockchain",
+            "Cryptocurrency"
+          ],
+          "sharedSpecialties": [
+            "Smart Contract Auditing",
+            "Cross-Chain Bridges"
+          ],
+          "similarityScore": 89
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Pre Seed round raised $1,000,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $9,149,677 to $9,149,677, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 52 (-2 over 90 days) and market heat at 62 (-4).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Polygon, Avail, Wormhole.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

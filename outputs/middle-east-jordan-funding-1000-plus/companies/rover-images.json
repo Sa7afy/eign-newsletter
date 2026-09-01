@@ -1,0 +1,2508 @@
+{
+  "sourceUrl": "https://www.crunchbase.com/organization/rover-images",
+  "pageTitle": "rover-images",
+  "scrapedAt": "2026-09-01T13:13:16.192Z",
+  "extraction": {
+    "authenticated": true,
+    "method": "curl-cffi-authenticated-entity-fetch-no-browser"
+  },
+  "organization": {
+    "properties": {
+      "facet_ids": [
+        "builtwith",
+        "company",
+        "rank"
+      ],
+      "identifier": {
+        "uuid": "d9a0ec2e-99af-4700-9ade-33567d3c7ab4",
+        "value": "Rover Images",
+        "permalink": "rover-images",
+        "entity_def_id": "organization"
+      },
+      "short_description": "Gaming",
+      "investor_identifiers": [
+        {
+          "uuid": "91e12e72-9e08-d773-87f4-2f8d9030dafb",
+          "value": "Oasis500",
+          "image_id": "v1397184046/ea7593a1e678bee19d77ac92b61103a9.png",
+          "permalink": "oasis-500",
+          "entity_def_id": "organization"
+        }
+      ],
+      "rank_delta_d90": -0.7,
+      "title": "Rover Images"
+    },
+    "cards": {
+      "semrush_summary": {
+        "identifier": {
+          "uuid": "d9a0ec2e-99af-4700-9ade-33567d3c7ab4",
+          "value": "Rover Images",
+          "permalink": "rover-images",
+          "entity_def_id": "organization"
+        }
+      },
+      "key_employee_change_list": [],
+      "apptopia_attribution": {},
+      "diversity_spotlight_investments_headline": {},
+      "apptopia_app_rating_list": [],
+      "funds_summary": {
+        "identifier": {
+          "uuid": "d9a0ec2e-99af-4700-9ade-33567d3c7ab4",
+          "value": "Rover Images",
+          "permalink": "rover-images",
+          "entity_def_id": "organization"
+        }
+      },
+      "funding_prediction": [],
+      "company_about_fields1": {},
+      "current_advisors_image_list": [],
+      "recommended_search": [
+        {
+          "identifier": {
+            "permalink": "startups-that-failed-in-2017",
+            "image_id": "v1397191990/b9cd8a8f656d0a67480b9ae6853eeba4.jpg",
+            "uuid": "9ee66a45-dad5-4b3e-8abb-0463ca7d22d6",
+            "entity_def_id": "hub",
+            "value": "Startups That Failed in 2017"
+          },
+          "org_identifiers": [
+            {
+              "permalink": "nexeption",
+              "image_id": "v1397191990/b9cd8a8f656d0a67480b9ae6853eeba4.jpg",
+              "uuid": "32236cd1-cea0-a1e1-4a2d-8103da4bde60",
+              "entity_def_id": "organization",
+              "value": "NeXeption"
+            },
+            {
+              "permalink": "bioarray-therapeutics",
+              "image_id": "v1507264598/vdteh68ta0oyuzxzs8um.png",
+              "uuid": "9147a1f1-ee57-1516-0b4f-48fc6592b400",
+              "entity_def_id": "organization",
+              "value": "Bioarray Therapeutics"
+            },
+            {
+              "permalink": "mavin",
+              "image_id": "v1421388989/zponfe4a7z6yuh02eunb.png",
+              "uuid": "633aa96d-a556-9255-c67f-69797b9d89ac",
+              "entity_def_id": "organization",
+              "value": "Mavin"
+            },
+            {
+              "permalink": "aura-life",
+              "image_id": "v1430465406/ogrglsf3oj5f90cjxduw.png",
+              "uuid": "be7b9f12-c57c-a916-4989-03dbb84488b3",
+              "entity_def_id": "organization",
+              "value": "AuraLife"
+            },
+            {
+              "permalink": "xueba100-com",
+              "image_id": "ewggzlbprnb5zkosaru8",
+              "uuid": "37eb310f-7ea9-0106-051d-4cb80ace13c7",
+              "entity_def_id": "organization",
+              "value": "Xueba100.com"
+            },
+            {
+              "permalink": "metechi",
+              "image_id": "gn3tq6kiufqcgdtjv0qk",
+              "uuid": "6d1130d4-e4e1-4a52-8e6e-d59399328962",
+              "entity_def_id": "organization",
+              "value": "Metechi"
+            },
+            {
+              "entity_def_id": "organization",
+              "permalink": "torch-4",
+              "uuid": "e18a17c5-8be5-d061-76cb-3c747647c12d",
+              "value": "Torch"
+            },
+            {
+              "permalink": "appuri",
+              "image_id": "v1454452627/gyi5qzxhqxzeuw7wsga9.png",
+              "uuid": "080ea8cb-7e9a-c646-4664-d9e9e7ab4ade",
+              "entity_def_id": "organization",
+              "value": "Appuri"
+            }
+          ],
+          "org_funding_total": {
+            "currency": "USD",
+            "value": 2477997384,
+            "value_usd": 2477997384
+          },
+          "org_num_investors": 1464,
+          "org_num": 837,
+          "queries": {
+            "event": [
+              {
+                "collection_id": "principal.has_event.forward",
+                "query": [
+                  {
+                    "field_id": "funding_stage",
+                    "operator_id": "includes",
+                    "values": [
+                      "seed",
+                      "early_stage_venture",
+                      "late_stage_venture"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "closed_on",
+                    "operator_id": "between",
+                    "values": [
+                      "2017-01-01",
+                      "2017-12-31"
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ],
+            "organization": [
+              {
+                "field_id": "funding_stage",
+                "operator_id": "includes",
+                "values": [
+                  "seed",
+                  "early_stage_venture",
+                  "late_stage_venture"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "closed_on",
+                "operator_id": "between",
+                "values": [
+                  "2017-01-01",
+                  "2017-12-31"
+                ],
+                "type": "predicate"
+              }
+            ],
+            "person": [
+              {
+                "collection_id": "organization.has_primary_organization.forward",
+                "query": [
+                  {
+                    "field_id": "funding_stage",
+                    "operator_id": "includes",
+                    "values": [
+                      "seed",
+                      "early_stage_venture",
+                      "late_stage_venture"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "closed_on",
+                    "operator_id": "between",
+                    "values": [
+                      "2017-01-01",
+                      "2017-12-31"
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ]
+          }
+        },
+        {
+          "identifier": {
+            "permalink": "startups-founded-in-2015-that-failed",
+            "image_id": "j5wmirnahp4ups0q6lu8",
+            "uuid": "7a3694c1-9838-4d06-985a-71836ac42547",
+            "entity_def_id": "hub",
+            "value": "Startups Founded in 2015 That Failed"
+          },
+          "org_identifiers": [
+            {
+              "permalink": "centricient",
+              "image_id": "j5wmirnahp4ups0q6lu8",
+              "uuid": "65da521b-4b76-1f44-1b09-be144e77f6d4",
+              "entity_def_id": "organization",
+              "value": "Quiq"
+            },
+            {
+              "permalink": "modsy-2",
+              "image_id": "v1453748075/sm6i0lrm0gqylts2otnn.png",
+              "uuid": "c1bc7957-1de2-63dd-0280-cb1a8328e5fb",
+              "entity_def_id": "organization",
+              "value": "Modsy"
+            },
+            {
+              "permalink": "fauna",
+              "image_id": "y6a0npiox33lkbjartrd",
+              "uuid": "560176d0-564b-b933-1c94-8fe492e2e7ae",
+              "entity_def_id": "organization",
+              "value": "Fauna"
+            },
+            {
+              "permalink": "iron-ox",
+              "image_id": "yj59kuuxvet01vwvogko",
+              "uuid": "53443059-e1dd-84ff-2b83-e2975a896eb8",
+              "entity_def_id": "organization",
+              "value": "Iron Ox"
+            },
+            {
+              "permalink": "drive-motors",
+              "image_id": "ldmgzrxoaukmkltjfrxr",
+              "uuid": "a96b0234-9f15-ff88-b9b0-f6bdee59a8e8",
+              "entity_def_id": "organization",
+              "value": "Modal"
+            },
+            {
+              "permalink": "zeus-living",
+              "image_id": "pmu9pqspr2cgnyeflyc6",
+              "uuid": "165f4087-c8bd-34d3-3b73-225cf8482396",
+              "entity_def_id": "organization",
+              "value": "Zeus Living"
+            },
+            {
+              "permalink": "getboro",
+              "image_id": "jlncnud4aosipuotzcjr",
+              "uuid": "cf465d4c-97ea-ddcc-388c-e1f942828a55",
+              "entity_def_id": "organization",
+              "value": "Boro"
+            },
+            {
+              "permalink": "fractal-industries-inc",
+              "image_id": "twpyqmuhiw43ewu7yy1w",
+              "uuid": "65e5a47f-b3d9-5617-e13e-e42256986c2a",
+              "entity_def_id": "organization",
+              "value": "QOMPLX"
+            }
+          ],
+          "org_funding_total": {
+            "currency": "USD",
+            "value": 7458890605,
+            "value_usd": 7458890605
+          },
+          "org_num_investors": 4521,
+          "org_num": 2583,
+          "queries": {
+            "event": [
+              {
+                "collection_id": "principal.has_event.forward",
+                "query": [
+                  {
+                    "field_id": "funding_stage",
+                    "operator_id": "includes",
+                    "values": [
+                      "seed",
+                      "early_stage_venture",
+                      "late_stage_venture"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "founded_on",
+                    "operator_id": "between",
+                    "values": [
+                      "2015-01-01",
+                      "2015-12-31"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "closed"
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ],
+            "organization": [
+              {
+                "field_id": "funding_stage",
+                "operator_id": "includes",
+                "values": [
+                  "seed",
+                  "early_stage_venture",
+                  "late_stage_venture"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "founded_on",
+                "operator_id": "between",
+                "values": [
+                  "2015-01-01",
+                  "2015-12-31"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "operating_status",
+                "operator_id": "eq",
+                "values": [
+                  "closed"
+                ],
+                "type": "predicate"
+              }
+            ],
+            "person": [
+              {
+                "field_id": "rank_person",
+                "operator_id": "lte",
+                "values": [
+                  1100000
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "organization.has_primary_organization.forward",
+                "query": [
+                  {
+                    "field_id": "funding_stage",
+                    "operator_id": "includes",
+                    "values": [
+                      "seed",
+                      "early_stage_venture",
+                      "late_stage_venture"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "founded_on",
+                    "operator_id": "between",
+                    "values": [
+                      "2015-01-01",
+                      "2015-12-31"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "closed"
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ]
+          }
+        },
+        {
+          "identifier": {
+            "permalink": "closed-middle-east-and-north-africa-companies",
+            "image_id": "zvwrwp9pquwdyvucpvab",
+            "uuid": "66074af4-13fc-43dd-9460-2b0969c8afcd",
+            "entity_def_id": "hub",
+            "value": "Closed Middle East and North Africa (MENA) Companies"
+          },
+          "org_identifiers": [
+            {
+              "permalink": "aim-security",
+              "image_id": "zvwrwp9pquwdyvucpvab",
+              "uuid": "e75e8060-e042-46cb-b849-5a4014779185",
+              "entity_def_id": "organization",
+              "value": "Aim Security"
+            },
+            {
+              "permalink": "future-meat-technologies",
+              "image_id": "as8z7iqnkhmj9g7cwr7w",
+              "uuid": "ff2eedf4-9f69-4426-a52c-dc1e4a874a09",
+              "entity_def_id": "organization",
+              "value": "Believer Meats"
+            },
+            {
+              "permalink": "vulcan-cyber",
+              "image_id": "0f5e4d9bcd424f348edfee948d980139",
+              "uuid": "18b59b98-9e94-4b72-a5fd-f534217a266c",
+              "entity_def_id": "organization",
+              "value": "Vulcan Cyber"
+            },
+            {
+              "permalink": "sam-seamless-network",
+              "image_id": "rbldk6cvkuspaf3525mj",
+              "uuid": "d4eed887-6cd3-8af2-4b0a-3312a911678b",
+              "entity_def_id": "organization",
+              "value": "SAM Seamless Network"
+            },
+            {
+              "permalink": "perimeter-81",
+              "image_id": "fnykxpmwhyqjqfku8se8",
+              "uuid": "ad22a2a6-015d-4ff1-9516-f517cedebeee",
+              "entity_def_id": "organization",
+              "value": "Perimeter 81"
+            },
+            {
+              "permalink": "hellenic-bank",
+              "image_id": "v1488695598/d87zcrgpbesqz9oxlcke.png",
+              "uuid": "543102bd-9f07-aecf-5d89-2c08b2e4262f",
+              "entity_def_id": "organization",
+              "value": "Hellenic Bank"
+            },
+            {
+              "permalink": "guardicore",
+              "image_id": "f7ca7gms3i1xyzh3dwlz",
+              "uuid": "ef649444-dbfa-3c62-5bd3-1f1e856d0655",
+              "entity_def_id": "organization",
+              "value": "Guardicore"
+            },
+            {
+              "permalink": "fetchr",
+              "image_id": "v1433852729/qh0qghi4vyltapyyczlu.png",
+              "uuid": "cd8e3e9d-309c-60a2-2a88-8e4e4e629cc2",
+              "entity_def_id": "organization",
+              "value": "Fetchr"
+            }
+          ],
+          "org_funding_total": {
+            "currency": "USD",
+            "value": 13738889294,
+            "value_usd": 13738889294
+          },
+          "org_num_investors": 3918,
+          "org_num": 8148,
+          "queries": {
+            "event": [
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "8cb7cad4-b7e4-4b28-a496-2ede3720cb19"
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "principal.has_event.forward",
+                "query": [
+                  {
+                    "field_id": "facet_ids",
+                    "operator_id": "includes",
+                    "values": [
+                      "company"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "closed"
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ],
+            "organization": [
+              {
+                "field_id": "facet_ids",
+                "operator_id": "includes",
+                "values": [
+                  "company"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "8cb7cad4-b7e4-4b28-a496-2ede3720cb19"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "operating_status",
+                "operator_id": "eq",
+                "values": [
+                  "closed"
+                ],
+                "type": "predicate"
+              }
+            ],
+            "person": [
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "8cb7cad4-b7e4-4b28-a496-2ede3720cb19"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "rank_person",
+                "operator_id": "lte",
+                "values": [
+                  990000
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "organization.has_primary_organization.forward",
+                "query": [
+                  {
+                    "field_id": "facet_ids",
+                    "operator_id": "includes",
+                    "values": [
+                      "company"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "location_identifiers",
+                    "operator_id": "includes",
+                    "values": [
+                      "8cb7cad4-b7e4-4b28-a496-2ede3720cb19"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "closed"
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ]
+          }
+        },
+        {
+          "identifier": {
+            "permalink": "closed-middle-east-companies",
+            "image_id": "zvwrwp9pquwdyvucpvab",
+            "uuid": "3e4ffa6e-7ea5-44e9-8a24-ef547503fd9c",
+            "entity_def_id": "hub",
+            "value": "Closed Middle East Companies"
+          },
+          "org_identifiers": [
+            {
+              "permalink": "aim-security",
+              "image_id": "zvwrwp9pquwdyvucpvab",
+              "uuid": "e75e8060-e042-46cb-b849-5a4014779185",
+              "entity_def_id": "organization",
+              "value": "Aim Security"
+            },
+            {
+              "permalink": "future-meat-technologies",
+              "image_id": "as8z7iqnkhmj9g7cwr7w",
+              "uuid": "ff2eedf4-9f69-4426-a52c-dc1e4a874a09",
+              "entity_def_id": "organization",
+              "value": "Believer Meats"
+            },
+            {
+              "permalink": "vulcan-cyber",
+              "image_id": "0f5e4d9bcd424f348edfee948d980139",
+              "uuid": "18b59b98-9e94-4b72-a5fd-f534217a266c",
+              "entity_def_id": "organization",
+              "value": "Vulcan Cyber"
+            },
+            {
+              "permalink": "sam-seamless-network",
+              "image_id": "rbldk6cvkuspaf3525mj",
+              "uuid": "d4eed887-6cd3-8af2-4b0a-3312a911678b",
+              "entity_def_id": "organization",
+              "value": "SAM Seamless Network"
+            },
+            {
+              "permalink": "perimeter-81",
+              "image_id": "fnykxpmwhyqjqfku8se8",
+              "uuid": "ad22a2a6-015d-4ff1-9516-f517cedebeee",
+              "entity_def_id": "organization",
+              "value": "Perimeter 81"
+            },
+            {
+              "permalink": "hellenic-bank",
+              "image_id": "v1488695598/d87zcrgpbesqz9oxlcke.png",
+              "uuid": "543102bd-9f07-aecf-5d89-2c08b2e4262f",
+              "entity_def_id": "organization",
+              "value": "Hellenic Bank"
+            },
+            {
+              "permalink": "guardicore",
+              "image_id": "f7ca7gms3i1xyzh3dwlz",
+              "uuid": "ef649444-dbfa-3c62-5bd3-1f1e856d0655",
+              "entity_def_id": "organization",
+              "value": "Guardicore"
+            },
+            {
+              "permalink": "fetchr",
+              "image_id": "v1433852729/qh0qghi4vyltapyyczlu.png",
+              "uuid": "cd8e3e9d-309c-60a2-2a88-8e4e4e629cc2",
+              "entity_def_id": "organization",
+              "value": "Fetchr"
+            }
+          ],
+          "org_funding_total": {
+            "currency": "USD",
+            "value": 13311530176,
+            "value_usd": 13311530176
+          },
+          "org_num_investors": 3703,
+          "org_num": 7081,
+          "queries": {
+            "event": [
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "e0272206-3430-48cb-a5bc-1d4b3eafe15a"
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "principal.has_event.forward",
+                "query": [
+                  {
+                    "field_id": "facet_ids",
+                    "operator_id": "includes",
+                    "values": [
+                      "company"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "closed"
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ],
+            "organization": [
+              {
+                "field_id": "facet_ids",
+                "operator_id": "includes",
+                "values": [
+                  "company"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "e0272206-3430-48cb-a5bc-1d4b3eafe15a"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "operating_status",
+                "operator_id": "eq",
+                "values": [
+                  "closed"
+                ],
+                "type": "predicate"
+              }
+            ],
+            "person": [
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "e0272206-3430-48cb-a5bc-1d4b3eafe15a"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "rank_person",
+                "operator_id": "lte",
+                "values": [
+                  1000000
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "organization.has_primary_organization.forward",
+                "query": [
+                  {
+                    "field_id": "facet_ids",
+                    "operator_id": "includes",
+                    "values": [
+                      "company"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "location_identifiers",
+                    "operator_id": "includes",
+                    "values": [
+                      "e0272206-3430-48cb-a5bc-1d4b3eafe15a"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "closed"
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ]
+          }
+        }
+      ],
+      "org_similarity_org_list": [],
+      "investors_summary": {
+        "identifier": {
+          "uuid": "d9a0ec2e-99af-4700-9ade-33567d3c7ab4",
+          "value": "Rover Images",
+          "permalink": "rover-images",
+          "entity_def_id": "organization"
+        },
+        "num_investors": 1
+      },
+      "funds_list": [],
+      "alumni_image_list": [],
+      "semrush_overview_headline": {},
+      "frequently_asked_questions_total_funding": {
+        "funding_total": {
+          "value": 31000,
+          "currency": "USD",
+          "value_usd": 31000
+        },
+        "identifier": {
+          "uuid": "d9a0ec2e-99af-4700-9ade-33567d3c7ab4",
+          "value": "Rover Images",
+          "permalink": "rover-images",
+          "entity_def_id": "organization"
+        }
+      },
+      "exits_summary": {
+        "identifier": {
+          "uuid": "d9a0ec2e-99af-4700-9ade-33567d3c7ab4",
+          "value": "Rover Images",
+          "permalink": "rover-images",
+          "entity_def_id": "organization"
+        }
+      },
+      "partnership_announcements": [],
+      "bombora_surge_list": [],
+      "diversity_spotlight_investments_list": [],
+      "builtwith_tech_used_list": [
+        {
+          "identifier": {
+            "uuid": "8598993f-eb6c-404e-a51a-4bd5a62931a5",
+            "value": "Citrix NetScaler",
+            "entity_def_id": "builtwith_technology"
+          },
+          "technology_category": [
+            "web_server"
+          ],
+          "num_companies_using": 14017
+        }
+      ],
+      "funding_rounds_summary": {
+        "identifier": {
+          "uuid": "d9a0ec2e-99af-4700-9ade-33567d3c7ab4",
+          "value": "Rover Images",
+          "permalink": "rover-images",
+          "entity_def_id": "organization"
+        },
+        "last_funding_type": "seed",
+        "last_funding_at": "2015-10-01",
+        "funding_total": {
+          "value": 31000,
+          "currency": "USD",
+          "value_usd": 31000
+        },
+        "num_funding_rounds": 1
+      },
+      "org_similarity_list": [],
+      "ipo_prediction": [],
+      "acquisitions_summary": {
+        "identifier": {
+          "uuid": "d9a0ec2e-99af-4700-9ade-33567d3c7ab4",
+          "value": "Rover Images",
+          "permalink": "rover-images",
+          "entity_def_id": "organization"
+        }
+      },
+      "advisors_summary": {
+        "identifier": {
+          "uuid": "d9a0ec2e-99af-4700-9ade-33567d3c7ab4",
+          "value": "Rover Images",
+          "permalink": "rover-images",
+          "entity_def_id": "organization"
+        }
+      },
+      "acquisitions_list": [],
+      "exits_headline": {},
+      "investments_summary": {
+        "identifier": {
+          "uuid": "d9a0ec2e-99af-4700-9ade-33567d3c7ab4",
+          "value": "Rover Images",
+          "permalink": "rover-images",
+          "entity_def_id": "organization"
+        }
+      },
+      "acquired_by_fields": {},
+      "research_insight_text_link": {},
+      "acquisition_prediction": [],
+      "sub_organizations_headline": {},
+      "layoff_list": [],
+      "growth_and_heat": {
+        "heat_score_history": {
+          "periods": {
+            "i1": {
+              "values": [
+                0,
+                0,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                5,
+                5,
+                5,
+                5,
+                5,
+                5,
+                5,
+                5,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                7,
+                7,
+                7,
+                7,
+                7,
+                7,
+                7,
+                7,
+                7,
+                7,
+                8,
+                8,
+                8,
+                8,
+                8,
+                8,
+                8,
+                8,
+                9,
+                9,
+                9,
+                9,
+                9,
+                9,
+                9,
+                9,
+                10,
+                10,
+                10,
+                10,
+                10,
+                10,
+                10,
+                10,
+                10,
+                10,
+                11,
+                11,
+                11,
+                11,
+                11,
+                11
+              ],
+              "interval": 1
+            },
+            "i2": {
+              "values": [
+                0,
+                1,
+                1,
+                1,
+                2,
+                2,
+                2,
+                2,
+                3,
+                3,
+                3,
+                4,
+                4,
+                4,
+                4,
+                5,
+                5,
+                5,
+                5,
+                6,
+                6,
+                6,
+                6,
+                6,
+                7,
+                7,
+                7,
+                7,
+                7,
+                8,
+                8,
+                8,
+                8,
+                9,
+                9,
+                9,
+                9,
+                10,
+                10,
+                10,
+                10,
+                10,
+                11,
+                11,
+                11,
+                11,
+                12,
+                12,
+                12,
+                12,
+                12,
+                12,
+                13,
+                13,
+                13,
+                13,
+                13,
+                14,
+                14,
+                14,
+                14,
+                14,
+                14,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                16,
+                16,
+                16,
+                16,
+                16,
+                16,
+                17,
+                17,
+                17,
+                17,
+                17,
+                17,
+                17,
+                18,
+                18,
+                18,
+                18,
+                18,
+                18,
+                18,
+                19,
+                19
+              ],
+              "interval": 2
+            },
+            "i4": {
+              "values": [
+                0,
+                1,
+                2,
+                2,
+                3,
+                3,
+                4,
+                4,
+                5,
+                5,
+                6,
+                6,
+                7,
+                7,
+                8,
+                8,
+                9,
+                9,
+                10,
+                10,
+                10,
+                11,
+                11,
+                12,
+                12,
+                12,
+                13,
+                13,
+                14,
+                14,
+                14,
+                15,
+                15,
+                15,
+                16,
+                16,
+                16,
+                16,
+                17,
+                17,
+                17,
+                18,
+                18,
+                18,
+                18,
+                19,
+                19,
+                19,
+                19,
+                20,
+                20,
+                20,
+                20,
+                21,
+                21,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                29,
+                31,
+                33,
+                35,
+                36,
+                39,
+                41,
+                43,
+                44,
+                39,
+                40,
+                42,
+                43,
+                44,
+                42,
+                43,
+                43,
+                43,
+                42,
+                42,
+                38,
+                37,
+                43,
+                54,
+                57,
+                58,
+                60,
+                61,
+                61,
+                62
+              ],
+              "interval": 4
+            },
+            "i7": {
+              "values": [
+                0,
+                2,
+                3,
+                4,
+                5,
+                5,
+                6,
+                7,
+                8,
+                9,
+                9,
+                10,
+                11,
+                12,
+                12,
+                13,
+                14,
+                14,
+                15,
+                15,
+                16,
+                16,
+                17,
+                18,
+                18,
+                18,
+                19,
+                19,
+                20,
+                20,
+                21,
+                21,
+                22,
+                24,
+                26,
+                28,
+                31,
+                35,
+                38,
+                42,
+                42,
+                40,
+                43,
+                43,
+                43,
+                43,
+                41,
+                37,
+                47,
+                56,
+                60,
+                61,
+                60,
+                64,
+                66,
+                68,
+                70,
+                74,
+                77,
+                78,
+                73,
+                67,
+                67,
+                69,
+                65,
+                67,
+                69,
+                68,
+                64,
+                66,
+                67,
+                64,
+                66,
+                66,
+                62,
+                64,
+                65,
+                67,
+                68,
+                70,
+                66,
+                63,
+                68,
+                72,
+                75,
+                78,
+                80,
+                82,
+                85,
+                86,
+                75,
+                75,
+                77,
+                79,
+                81,
+                83,
+                82,
+                78,
+                75,
+                77,
+                74,
+                78,
+                81,
+                84,
+                86
+              ],
+              "interval": 7
+            },
+            "i18": {
+              "values": [
+                0,
+                4,
+                6,
+                8,
+                10,
+                12,
+                14,
+                15,
+                17,
+                18,
+                19,
+                20,
+                22,
+                26,
+                34,
+                41,
+                42,
+                43,
+                41,
+                58,
+                62,
+                68,
+                75,
+                73,
+                68,
+                67,
+                66,
+                66,
+                65,
+                64,
+                68,
+                65,
+                72,
+                79,
+                85,
+                75,
+                80,
+                82,
+                76,
+                78,
+                84,
+                85,
+                74,
+                72,
+                72,
+                70,
+                60,
+                52,
+                53,
+                57,
+                61,
+                65,
+                62,
+                67,
+                68,
+                72,
+                76,
+                76,
+                58,
+                57,
+                62,
+                68,
+                72,
+                73,
+                73,
+                71,
+                60,
+                63,
+                67,
+                72,
+                76,
+                81,
+                83,
+                70,
+                73,
+                76,
+                70,
+                74,
+                80,
+                85,
+                86,
+                68,
+                79,
+                87,
+                89,
+                71,
+                64,
+                58,
+                52,
+                53,
+                55,
+                59,
+                65,
+                66,
+                65,
+                59,
+                62,
+                66,
+                67,
+                61,
+                63,
+                65
+              ],
+              "interval": 18
+            },
+            "i36": {
+              "values": [
+                0,
+                7,
+                11,
+                15,
+                17,
+                20,
+                24,
+                38,
+                42,
+                50,
+                65,
+                74,
+                67,
+                66,
+                64,
+                67,
+                76,
+                80,
+                81,
+                77,
+                84,
+                73,
+                71,
+                56,
+                55,
+                63,
+                65,
+                70,
+                76,
+                58,
+                65,
+                72,
+                72,
+                62,
+                69,
+                79,
+                77,
+                75,
+                72,
+                82,
+                77,
+                83,
+                80,
+                61,
+                52,
+                57,
+                65,
+                62,
+                64,
+                64,
+                65,
+                70,
+                71,
+                68,
+                63,
+                73,
+                55,
+                47,
+                55,
+                54,
+                54,
+                55,
+                58,
+                52,
+                53,
+                57,
+                59,
+                62,
+                65,
+                68,
+                69,
+                74,
+                82,
+                77,
+                77,
+                74,
+                64,
+                65,
+                49,
+                53,
+                47,
+                48,
+                46,
+                43,
+                43,
+                43,
+                44,
+                44,
+                44,
+                44,
+                44,
+                44,
+                44,
+                44,
+                44,
+                44,
+                44,
+                44,
+                44,
+                44,
+                44,
+                44
+              ],
+              "interval": 36
+            }
+          }
+        },
+        "heat_trend_365": {
+          "periods": {
+            "i1": {
+              "values": [
+                -85,
+                -85,
+                -85,
+                -85,
+                -85,
+                -84,
+                -84,
+                -84,
+                -84,
+                -84,
+                -84,
+                -84,
+                -83,
+                -83,
+                -83,
+                -83,
+                -83,
+                -83,
+                -83,
+                -83,
+                -83,
+                -83,
+                -83,
+                -83,
+                -83,
+                -82,
+                -82,
+                -82,
+                -82,
+                -82,
+                -82,
+                -82,
+                -82,
+                -82,
+                -82,
+                -82,
+                -82,
+                -81,
+                -81,
+                -81,
+                -81,
+                -81,
+                -81,
+                -81,
+                -81,
+                -81,
+                -81,
+                -81,
+                -81,
+                -81,
+                -81,
+                -80,
+                -80,
+                -80,
+                -80,
+                -80,
+                -79,
+                -79,
+                -78,
+                -78,
+                -78,
+                -77,
+                -77,
+                -77,
+                -76,
+                -75,
+                -75,
+                -75,
+                -75,
+                -75,
+                -75,
+                -75,
+                -75,
+                -75,
+                -75,
+                -75,
+                -75,
+                -75,
+                -75,
+                -75,
+                -75,
+                -75,
+                -73,
+                -73,
+                -73,
+                -72,
+                -72,
+                -72,
+                -72,
+                -72
+              ],
+              "interval": 1
+            },
+            "i2": {
+              "values": [
+                -85,
+                -85,
+                -84,
+                -84,
+                -84,
+                -84,
+                -83,
+                -83,
+                -83,
+                -83,
+                -83,
+                -83,
+                -82,
+                -82,
+                -82,
+                -82,
+                -82,
+                -82,
+                -81,
+                -81,
+                -81,
+                -81,
+                -81,
+                -81,
+                -81,
+                -80,
+                -80,
+                -80,
+                -79,
+                -78,
+                -77,
+                -77,
+                -75,
+                -75,
+                -75,
+                -75,
+                -75,
+                -75,
+                -75,
+                -75,
+                -75,
+                -73,
+                -72,
+                -72,
+                -72,
+                -72,
+                -72,
+                -72,
+                -72,
+                -72,
+                -72,
+                -72,
+                -72,
+                -70,
+                -70,
+                -68,
+                -68,
+                -68,
+                -68,
+                -68,
+                -68,
+                -68,
+                -68,
+                -68,
+                -68,
+                -66,
+                -65,
+                -65,
+                -65,
+                -65,
+                -66,
+                -66,
+                -66,
+                -66,
+                -66,
+                -64,
+                -62,
+                -62,
+                -62,
+                -62,
+                -62,
+                -62,
+                -63,
+                -63,
+                -63,
+                -63,
+                -63,
+                -63,
+                -63,
+                -63,
+                -63
+              ],
+              "interval": 2
+            },
+            "i4": {
+              "values": [
+                -85,
+                -84,
+                -84,
+                -83,
+                -83,
+                -83,
+                -82,
+                -82,
+                -82,
+                -81,
+                -81,
+                -81,
+                -81,
+                -80,
+                -78,
+                -77,
+                -75,
+                -75,
+                -75,
+                -75,
+                -74,
+                -72,
+                -72,
+                -72,
+                -72,
+                -72,
+                -71,
+                -69,
+                -68,
+                -68,
+                -68,
+                -68,
+                -67,
+                -65,
+                -65,
+                -66,
+                -66,
+                -65,
+                -62,
+                -62,
+                -62,
+                -63,
+                -63,
+                -63,
+                -63,
+                -63,
+                -63,
+                -63,
+                -63,
+                -61,
+                -58,
+                -58,
+                -60,
+                -61,
+                -62,
+                -62,
+                -62,
+                -62,
+                -61,
+                -61,
+                -60,
+                -59,
+                -58,
+                -57,
+                -55,
+                -54,
+                -49,
+                -41,
+                -40,
+                -39,
+                -38,
+                -44,
+                -44,
+                -43,
+                -42,
+                -41,
+                -44,
+                -42,
+                -43,
+                -39,
+                -38,
+                -40,
+                -44,
+                -46,
+                -37,
+                -26,
+                -24,
+                -24,
+                -23,
+                -24,
+                -25,
+                -25
+              ],
+              "interval": 4
+            },
+            "i7": {
+              "values": [
+                -85,
+                -84,
+                -83,
+                -83,
+                -82,
+                -81,
+                -81,
+                -80,
+                -78,
+                -75,
+                -75,
+                -74,
+                -72,
+                -72,
+                -72,
+                -70,
+                -68,
+                -68,
+                -67,
+                -65,
+                -66,
+                -64,
+                -62,
+                -63,
+                -63,
+                -63,
+                -63,
+                -63,
+                -60,
+                -59,
+                -61,
+                -62,
+                -62,
+                -61,
+                -61,
+                -59,
+                -56,
+                -53,
+                -43,
+                -39,
+                -41,
+                -44,
+                -42,
+                -43,
+                -43,
+                -39,
+                -40,
+                -46,
+                -33,
+                -25,
+                -23,
+                -25,
+                -25,
+                -20,
+                -20,
+                -19,
+                -5,
+                2,
+                4,
+                9,
+                -2,
+                -3,
+                -6,
+                -6,
+                -10,
+                2,
+                7,
+                10,
+                18,
+                23,
+                24,
+                17,
+                20,
+                18,
+                9,
+                9,
+                9,
+                9,
+                9,
+                9,
+                1,
+                -2,
+                10,
+                12,
+                13,
+                14,
+                15,
+                19,
+                22,
+                19,
+                3,
+                3,
+                2,
+                2,
+                3,
+                6,
+                13,
+                25,
+                30,
+                32,
+                26,
+                28,
+                30,
+                30,
+                30
+              ],
+              "interval": 7
+            },
+            "i18": {
+              "values": [
+                -85,
+                -82,
+                -81,
+                -77,
+                -74,
+                -72,
+                -68,
+                -66,
+                -64,
+                -63,
+                -63,
+                -59,
+                -62,
+                -60,
+                -52,
+                -40,
+                -43,
+                -41,
+                -40,
+                -24,
+                -23,
+                -17,
+                3,
+                2,
+                -6,
+                0,
+                16,
+                21,
+                17,
+                9,
+                9,
+                1,
+                12,
+                15,
+                21,
+                3,
+                3,
+                14,
+                30,
+                28,
+                28,
+                20,
+                2,
+                0,
+                -1,
+                3,
+                -1,
+                -16,
+                -19,
+                -20,
+                -18,
+                -19,
+                -19,
+                -4,
+                -8,
+                -3,
+                8,
+                0,
+                -25,
+                -30,
+                -20,
+                -3,
+                -10,
+                -16,
+                -12,
+                3,
+                -3,
+                12,
+                24,
+                29,
+                30,
+                29,
+                23,
+                7,
+                12,
+                24,
+                9,
+                10,
+                21,
+                34,
+                30,
+                1,
+                10,
+                24,
+                23,
+                -2,
+                -6,
+                -11,
+                -14,
+                -17,
+                -20,
+                -20,
+                13,
+                38,
+                35,
+                17,
+                13,
+                13,
+                18,
+                15,
+                15,
+                15
+              ],
+              "interval": 18
+            },
+            "i36": {
+              "values": [
+                -85,
+                -79,
+                -73,
+                -67,
+                -63,
+                -61,
+                -61,
+                -46,
+                -42,
+                -32,
+                -20,
+                3,
+                -3,
+                18,
+                13,
+                5,
+                13,
+                12,
+                8,
+                29,
+                24,
+                1,
+                1,
+                -8,
+                -19,
+                -19,
+                -11,
+                -5,
+                4,
+                -27,
+                -12,
+                -13,
+                -4,
+                4,
+                26,
+                29,
+                15,
+                18,
+                9,
+                27,
+                16,
+                17,
+                10,
+                -8,
+                -16,
+                -20,
+                26,
+                26,
+                13,
+                17,
+                15,
+                24,
+                19,
+                29,
+                14,
+                23,
+                -6,
+                -22,
+                -14,
+                -18,
+                -19,
+                -24,
+                -26,
+                -29,
+                -26,
+                -19,
+                -7,
+                -1,
+                29,
+                23,
+                38,
+                46,
+                67,
+                63,
+                63,
+                57,
+                37,
+                39,
+                10,
+                18,
+                7,
+                7,
+                3,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "interval": 36
+            }
+          }
+        }
+      },
+      "bombora_summary": {
+        "identifier": {
+          "uuid": "d9a0ec2e-99af-4700-9ade-33567d3c7ab4",
+          "value": "Rover Images",
+          "permalink": "rover-images",
+          "entity_def_id": "organization"
+        }
+      },
+      "semrush_rank_headline": {},
+      "frequently_asked_questions_latest_funding_round": {
+        "identifier": {
+          "uuid": "d9a0ec2e-99af-4700-9ade-33567d3c7ab4",
+          "value": "Rover Images",
+          "permalink": "rover-images",
+          "entity_def_id": "organization"
+        },
+        "last_funding_at": "2015-10-01",
+        "last_funding_type": "seed",
+        "num_funding_rounds": 1
+      },
+      "apptopia_app_overview_list_free": [],
+      "contacts": {},
+      "product_launches": [],
+      "alumni_summary": {
+        "identifier": {
+          "uuid": "d9a0ec2e-99af-4700-9ade-33567d3c7ab4",
+          "value": "Rover Images",
+          "permalink": "rover-images",
+          "entity_def_id": "organization"
+        }
+      },
+      "apptopia_summary": {
+        "identifier": {
+          "uuid": "d9a0ec2e-99af-4700-9ade-33567d3c7ab4",
+          "value": "Rover Images",
+          "permalink": "rover-images",
+          "entity_def_id": "organization"
+        }
+      },
+      "product_similarity_target_org_list": [],
+      "social_fields": {
+        "twitter": {
+          "value": "https://x.com/roverimages"
+        }
+      },
+      "investments_headline": {},
+      "investment_thesis": {
+        "lookup": [],
+        "properties": {
+          "identifier": {
+            "uuid": "d9a0ec2e-99af-4700-9ade-33567d3c7ab4",
+            "value": "Rover Images",
+            "permalink": "rover-images",
+            "entity_def_id": "organization"
+          }
+        },
+        "data": []
+      },
+      "diversity_spotlight_investments_summary": {
+        "identifier": {
+          "uuid": "d9a0ec2e-99af-4700-9ade-33567d3c7ab4",
+          "value": "Rover Images",
+          "permalink": "rover-images",
+          "entity_def_id": "organization"
+        }
+      },
+      "contact_fields": {},
+      "growth_prediction": [],
+      "sub_organizations_summary": {
+        "identifier": {
+          "uuid": "d9a0ec2e-99af-4700-9ade-33567d3c7ab4",
+          "value": "Rover Images",
+          "permalink": "rover-images",
+          "entity_def_id": "organization"
+        }
+      },
+      "overview_description": {},
+      "current_employees_featured_order_field": [],
+      "company_about_fields2": {
+        "website": {
+          "value": "http://www.roverimages.com/"
+        },
+        "ipo_status": "private",
+        "num_employees_enum": "c_00001_00010",
+        "last_funding_type": "seed",
+        "location_identifiers": [
+          {
+            "uuid": "18c3f473-94ab-7b11-47dd-26769797c485",
+            "value": "Amman",
+            "permalink": "amman-amman",
+            "entity_def_id": "location",
+            "location_type": "city"
+          },
+          {
+            "uuid": "36dd1e53-bc8a-4bf2-771a-7611036b3ebc",
+            "value": "Amman",
+            "permalink": "amman-jordan",
+            "entity_def_id": "location",
+            "location_type": "region"
+          },
+          {
+            "uuid": "e5fffa67-5dbb-56cb-27e1-23f8b09b59ba",
+            "value": "Jordan",
+            "permalink": "jordan",
+            "entity_def_id": "location",
+            "location_type": "country"
+          },
+          {
+            "uuid": "b41404d2-8ecc-caf5-1268-8fdd3afe73ee",
+            "value": "Asia",
+            "permalink": "asia",
+            "entity_def_id": "location",
+            "location_type": "continent"
+          }
+        ],
+        "rank_org_company": 6072350
+      },
+      "sub_organizations_image_list": [],
+      "frequently_asked_questions_headquarters_location": {
+        "identifier": {
+          "uuid": "d9a0ec2e-99af-4700-9ade-33567d3c7ab4",
+          "value": "Rover Images",
+          "permalink": "rover-images",
+          "entity_def_id": "organization"
+        },
+        "location_identifiers": [
+          {
+            "uuid": "18c3f473-94ab-7b11-47dd-26769797c485",
+            "value": "Amman",
+            "permalink": "amman-amman",
+            "entity_def_id": "location",
+            "location_type": "city"
+          },
+          {
+            "uuid": "36dd1e53-bc8a-4bf2-771a-7611036b3ebc",
+            "value": "Amman",
+            "permalink": "amman-jordan",
+            "entity_def_id": "location",
+            "location_type": "region"
+          },
+          {
+            "uuid": "e5fffa67-5dbb-56cb-27e1-23f8b09b59ba",
+            "value": "Jordan",
+            "permalink": "jordan",
+            "entity_def_id": "location",
+            "location_type": "country"
+          },
+          {
+            "uuid": "b41404d2-8ecc-caf5-1268-8fdd3afe73ee",
+            "value": "Asia",
+            "permalink": "asia",
+            "entity_def_id": "location",
+            "location_type": "continent"
+          }
+        ]
+      },
+      "investors_headline": {
+        "num_investors": 1
+      },
+      "ipo_summary": {
+        "identifier": {
+          "uuid": "d9a0ec2e-99af-4700-9ade-33567d3c7ab4",
+          "value": "Rover Images",
+          "permalink": "rover-images",
+          "entity_def_id": "organization"
+        }
+      },
+      "ipqwery_summary": {
+        "identifier": {
+          "uuid": "d9a0ec2e-99af-4700-9ade-33567d3c7ab4",
+          "value": "Rover Images",
+          "permalink": "rover-images",
+          "entity_def_id": "organization"
+        }
+      },
+      "awards": [],
+      "siftery_product_list": [],
+      "competitors_list": [],
+      "growth_knowledge": {
+        "lookup": [],
+        "properties": {
+          "identifier": {
+            "uuid": "d9a0ec2e-99af-4700-9ade-33567d3c7ab4",
+            "value": "Rover Images",
+            "permalink": "rover-images",
+            "entity_def_id": "organization"
+          }
+        },
+        "data": []
+      },
+      "overview_fields_extended": {
+        "location_group_identifiers": [
+          {
+            "uuid": "4e8be435-c63a-4aff-8a2f-44a880d9c341",
+            "value": "Europe, Middle East, and Africa (EMEA)",
+            "permalink": "europe-middle-east-africa-emea",
+            "entity_def_id": "location",
+            "location_type": "group"
+          },
+          {
+            "uuid": "e0272206-3430-48cb-a5bc-1d4b3eafe15a",
+            "value": "Middle East",
+            "permalink": "middle-east",
+            "entity_def_id": "location",
+            "location_type": "group"
+          },
+          {
+            "uuid": "8cb7cad4-b7e4-4b28-a496-2ede3720cb19",
+            "value": "Middle East and North Africa (MENA)",
+            "permalink": "middle-east-and-north-africa-mena",
+            "entity_def_id": "location",
+            "location_type": "group"
+          }
+        ],
+        "founded_on": {
+          "value": "2015-01-01",
+          "precision": "year"
+        },
+        "operating_status": "closed",
+        "closed_on": {
+          "value": "2017-02-01",
+          "precision": "month"
+        },
+        "last_funding_type": "seed"
+      },
+      "overview_investor_fields": {},
+      "bombora_attribution": {},
+      "semrush_location_list": [],
+      "investors_list": [
+        {
+          "identifier": {
+            "uuid": "ed3f6600-cdcb-4614-8c2c-3bfd6f77dc82",
+            "value": "Oasis500 investment in Seed Round - Rover Images",
+            "permalink": "oasis-500-invested-in-rover-images-seed--4154ab72--ed3f6600",
+            "entity_def_id": "investment"
+          },
+          "funding_round_identifier": {
+            "uuid": "4154ab72-9cdd-49f2-ae2d-2257f8710786",
+            "value": "Seed Round - Rover Images",
+            "permalink": "rover-images-seed--4154ab72",
+            "entity_def_id": "funding_round"
+          },
+          "investor_identifier": {
+            "uuid": "91e12e72-9e08-d773-87f4-2f8d9030dafb",
+            "value": "Oasis500",
+            "image_id": "v1397184046/ea7593a1e678bee19d77ac92b61103a9.png",
+            "permalink": "oasis-500",
+            "entity_def_id": "organization"
+          }
+        }
+      ],
+      "siftery_summary": {
+        "identifier": {
+          "uuid": "d9a0ec2e-99af-4700-9ade-33567d3c7ab4",
+          "value": "Rover Images",
+          "permalink": "rover-images",
+          "entity_def_id": "organization"
+        }
+      },
+      "acquired_by_summary": {
+        "identifier": {
+          "uuid": "d9a0ec2e-99af-4700-9ade-33567d3c7ab4",
+          "value": "Rover Images",
+          "permalink": "rover-images",
+          "entity_def_id": "organization"
+        }
+      },
+      "ipo_fields": {},
+      "apptopia_app_overview_list_public": [],
+      "apptopia_sdk_list": [],
+      "trading_view": {},
+      "current_employees_image_list": [],
+      "frequently_asked_questions_investors": {
+        "identifier": {
+          "uuid": "d9a0ec2e-99af-4700-9ade-33567d3c7ab4",
+          "value": "Rover Images",
+          "permalink": "rover-images",
+          "entity_def_id": "organization"
+        },
+        "num_investors": 1
+      },
+      "funding_rounds_list": [
+        {
+          "identifier": {
+            "uuid": "4154ab72-9cdd-49f2-ae2d-2257f8710786",
+            "value": "Seed Round - Rover Images",
+            "permalink": "rover-images-seed--4154ab72",
+            "entity_def_id": "funding_round"
+          },
+          "announced_on": "2015-10-01",
+          "money_raised": {
+            "value": 31000,
+            "currency": "USD",
+            "value_usd": 31000
+          },
+          "num_investors": 1,
+          "investment_type": "seed"
+        }
+      ],
+      "technology_highlights": {
+        "builtwith_num_technologies_used": 1
+      },
+      "funding_rounds_headline": {
+        "funding_total": {
+          "value": 31000,
+          "currency": "USD",
+          "value_usd": 31000
+        },
+        "num_funding_rounds": 1
+      },
+      "investments_list": [],
+      "exits_image_list": [],
+      "funds_headline": {},
+      "people_highlights": {},
+      "semrush_attribution": {},
+      "frequently_asked_questions_similar_companies": {
+        "identifier": {
+          "uuid": "d9a0ec2e-99af-4700-9ade-33567d3c7ab4",
+          "value": "Rover Images",
+          "permalink": "rover-images",
+          "entity_def_id": "organization"
+        }
+      },
+      "semrush_overview": {},
+      "org_category_ranks": {},
+      "current_valuation": [],
+      "legal_proceedings": [],
+      "current_employees_summary": {
+        "identifier": {
+          "uuid": "d9a0ec2e-99af-4700-9ade-33567d3c7ab4",
+          "value": "Rover Images",
+          "permalink": "rover-images",
+          "entity_def_id": "organization"
+        }
+      },
+      "aberdeen_summary": {
+        "identifier": {
+          "uuid": "d9a0ec2e-99af-4700-9ade-33567d3c7ab4",
+          "value": "Rover Images",
+          "permalink": "rover-images",
+          "entity_def_id": "organization"
+        }
+      },
+      "offices": [],
+      "overview_timeline": {
+        "count": 1,
+        "entities": [
+          {
+            "uuid": "4154ab72-9cdd-49f2-ae2d-2257f8710786",
+            "properties": {
+              "identifier": {
+                "uuid": "4154ab72-9cdd-49f2-ae2d-2257f8710786",
+                "value": "Seed Round - Rover Images",
+                "permalink": "rover-images-seed--4154ab72",
+                "entity_def_id": "funding_round"
+              },
+              "entity_def_id": "funding_round",
+              "activity_entities": [
+                {
+                  "role": "investor",
+                  "uuid": "91e12e72-9e08-d773-87f4-2f8d9030dafb",
+                  "value": "Oasis500",
+                  "image_id": "v1397184046/ea7593a1e678bee19d77ac92b61103a9.png",
+                  "permalink": "oasis-500",
+                  "entity_def_id": "organization"
+                },
+                {
+                  "role": "investee",
+                  "uuid": "d9a0ec2e-99af-4700-9ade-33567d3c7ab4",
+                  "value": "Rover Images",
+                  "permalink": "rover-images",
+                  "entity_def_id": "organization"
+                }
+              ],
+              "activity_properties": {
+                "money_raised": {
+                  "value": 31000,
+                  "currency": "USD",
+                  "value_usd": 31000
+                },
+                "investment_type": "seed"
+              },
+              "activity_date": "2015-10-01"
+            }
+          }
+        ]
+      },
+      "company_financials_highlights": {
+        "funding_total": {
+          "value": 31000,
+          "currency": "USD",
+          "value_usd": 31000
+        },
+        "num_funding_rounds": 1,
+        "num_investors": 1
+      },
+      "overview_company_fields": {
+        "company_type": "for_profit"
+      },
+      "private_tags_pill_list": [],
+      "acquisitions_headline": {},
+      "builtwith_summary": {
+        "builtwith_num_technologies_used": 1,
+        "identifier": {
+          "uuid": "d9a0ec2e-99af-4700-9ade-33567d3c7ab4",
+          "value": "Rover Images",
+          "permalink": "rover-images",
+          "entity_def_id": "organization"
+        }
+      },
+      "about_short_description": {
+        "short_description": "Gaming"
+      },
+      "product": [],
+      "apptopia_app_headline": {}
+    }
+  }
+}

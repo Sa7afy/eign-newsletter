@@ -1,0 +1,170 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T12:23:31.654Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T12:23:31.653Z",
+    "url": "https://www.crunchbase.com/organization/mac-for-mobility-manufacturing"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "MAC for Mobility Manufacturing",
+      "shortDescription": "MAC for Mobility Manufacturing, a subsidiary of Mansour Automotive.",
+      "description": "MAC for Mobility Manufacturing, a subsidiary of Mansour Automotive.",
+      "website": "https://almansour.com.eg/",
+      "foundedYear": 1975,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "employeeRange": "501-1,000",
+      "headquarters": "Cairo, Al Qahirah, Egypt",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Middle East",
+        "Middle East and North Africa (MENA)",
+        "North Africa"
+      ],
+      "industries": [
+        "Automotive",
+        "Manufacturing"
+      ],
+      "sectors": [
+        "Manufacturing",
+        "Transportation"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 52039007,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2026-04-19",
+      "lastFundingType": "Debt Financing",
+      "rounds": [
+        {
+          "announcedDate": "2026-04-19",
+          "amount": {
+            "amount": 52039007,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "Banque Misr"
+          ],
+          "type": "Debt Financing"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "Banque Misr",
+            "rounds": [
+              "Debt Financing"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 4,
+      "includedUniqueCount": 4,
+      "items": [
+        {
+          "date": "2026-05-06",
+          "publisher": "EnterpriseAM Egypt",
+          "title": "imports pull further ahead of local assembly in March",
+          "url": "https://enterpriseam.com/egypt/2026/05/06/imports-pull-further-ahead-of-local-assembly-in-march/"
+        },
+        {
+          "date": "2026-04-24",
+          "publisher": "EnterpriseAM Egypt",
+          "title": "What to expect from the new budget",
+          "url": "https://enterpriseam.com/egypt/2026/04/24/what-to-expect-from-the-new-budget/"
+        },
+        {
+          "date": "2026-04-20",
+          "publisher": "Zawya.com",
+          "title": "Egypt: Banque Misr, Mansour Automotive's unit sign $52.19mln loan for car assembly plant",
+          "url": "https://www.zawya.com/en/economy/north-africa/egypt-banque-misr-mansour-automotives-unit-sign-5219mln-loan-for-car-assembly-plant-rtfbhfel"
+        },
+        {
+          "date": "2026-04-19",
+          "title": "Debt Financing - MAC for Mobility Manufacturing"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 52039007,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthInsightGeneratedDate": "2026-05-10",
+      "growthChange90Days": -6,
+      "growthScore": 88,
+      "heatChange90Days": -36,
+      "heatScore": 23,
+      "status": "Growing"
+    },
+    "modelPredictions": {
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 95.03
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors."
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Debt Financing round raised $52,039,007, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 88 (-6 over 90 days) and market heat at 23 (-36).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

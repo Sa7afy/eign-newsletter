@@ -1,0 +1,213 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T08:56:20.849Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T08:56:20.847Z",
+    "url": "https://www.crunchbase.com/organization/a-plus-management-consultation"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "A-Plus Management & Consultation",
+      "shortDescription": "Property Management and Management Consulting",
+      "description": "-Plus Management & Consultation is an independent property management, advisory & consulting, and commercial real estate investment management firm that is actively engaged in the development and operation of mixed-use, retail, entertainment and hospitality projects in Egypt. Since its inception in 2014, it developed and operated over 25 projects in Cairo, Giza, Mansoura, Domiat, Aswan, Minya, Mahalla, Tanta and Hurghada. Fulfilling business owners and investors needs for professional and trustworthy resources in guiding them in achieving the best results in serving the markets needs and in taking advantage of the rapidly changing business climate.\n\nA-Plus specializes in identifying opportunities for commercial, retail and shopping malls that embrace the benefits of mixed use developments. In recent years we have pioneered large and medium sized projects across Egypt.",
+      "website": "http://www.aplus.com.eg/",
+      "foundedYear": 2014,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "251-500",
+      "headquarters": "Gîza, Al Jizah, Egypt",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Middle East",
+        "Middle East and North Africa (MENA)",
+        "North Africa"
+      ],
+      "industries": [
+        "Asset Management",
+        "Facility Management",
+        "Management Consulting",
+        "Property Management",
+        "Real Estate Investment"
+      ],
+      "sectors": [
+        "Financial Services",
+        "Professional Services",
+        "Real Estate"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 565000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 4,
+      "detailedRoundCount": 4,
+      "lastFundingDate": "2018-09-26",
+      "lastFundingType": "Series B",
+      "rounds": [
+        {
+          "announcedDate": "2018-09-26",
+          "postMoneyValuation": {
+            "amount": 7859217,
+            "currency": "USD"
+          },
+          "type": "Series B"
+        },
+        {
+          "announcedDate": "2014-09-01",
+          "amount": {
+            "amount": 140000,
+            "currency": "USD"
+          },
+          "postMoneyValuation": {
+            "amount": 1671611,
+            "currency": "USD"
+          },
+          "type": "Series A"
+        },
+        {
+          "announcedDate": "2014-08-01",
+          "amount": {
+            "amount": 325000,
+            "currency": "USD"
+          },
+          "postMoneyValuation": {
+            "amount": 1305105,
+            "currency": "USD"
+          },
+          "type": "Seed"
+        },
+        {
+          "announcedDate": "2014-05-01",
+          "amount": {
+            "amount": 100000,
+            "currency": "USD"
+          },
+          "postMoneyValuation": {
+            "amount": 575695,
+            "currency": "USD"
+          },
+          "type": "Pre Seed"
+        }
+      ]
+    },
+    "recentNews": {
+      "reportedCount": 5,
+      "includedUniqueCount": 5,
+      "items": [
+        {
+          "date": "2021-01-10",
+          "publisher": "Think Marketing",
+          "title": "“Cairo Eye” The largest observation wheel in Africa to open in 2022",
+          "url": "https://thinkmarketingmagazine.com/cairo-eye-the-largest-observation-wheel-in-africa-to-open-in-2022/"
+        },
+        {
+          "date": "2018-09-26",
+          "title": "Series B - A-Plus Management & Consultation"
+        },
+        {
+          "date": "2014-09-01",
+          "title": "Series A - A-Plus Management & Consultation"
+        },
+        {
+          "date": "2014-08-01",
+          "title": "Seed Round - A-Plus Management & Consultation"
+        },
+        {
+          "date": "2014-05-01",
+          "title": "Pre Seed Round - A-Plus Management & Consultation"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 3,
+    "knownDetailedFundingAmount": {
+      "amount": 565000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestToEarliestKnownValuationMultiple": 13.65
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": -1,
+      "growthScore": 43,
+      "heatChange90Days": -13,
+      "heatScore": 8
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 18.34
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 7.36,
+        "timingEstimatePercent": {
+          "within6Months": 15.01,
+          "months6To11": 12.76,
+          "months12To24": 20.06,
+          "beyond24Months": 24.95
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 71.54
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 26.12
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors."
+    }
+  },
+  "insights": [
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $575,695 to $7,859,217, a 13.65x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 43 (-1 over 90 days) and market heat at 8 (-13).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

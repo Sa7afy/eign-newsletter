@@ -1,0 +1,254 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T10:58:28.806Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T10:58:28.804Z",
+    "url": "https://www.crunchbase.com/organization/beaufond"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Beaufond",
+      "shortDescription": "Beaufond is an distribution and trading company that offers advanced pharmaceutical byproducts through a highly efficient network.",
+      "website": "https://beaufond.com/",
+      "foundedYear": 2009,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "101-250",
+      "estimatedRevenueRange": "$1B-$10B",
+      "headquarters": "Dubai, United Arab Emirates",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Business Development",
+        "Pharmaceutical"
+      ],
+      "sectors": [
+        "Health Care",
+        "Professional Services"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 100000000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2026-05-16",
+      "lastFundingType": "Debt Financing",
+      "rounds": [
+        {
+          "announcedDate": "2026-05-16",
+          "amount": {
+            "amount": 100000000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "First Abu Dhabi Bank"
+          ],
+          "type": "Debt Financing"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "First Abu Dhabi Bank",
+            "rounds": [
+              "Debt Financing"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 2,
+      "includedUniqueCount": 2,
+      "items": [
+        {
+          "date": "2026-05-16",
+          "publisher": "PRLog",
+          "title": "Beaufond Plc Secures Usd 100 Million Line Of Credit From First Abu Dhabi Bank",
+          "url": "https://www.prlog.org/13146219-beaufond-plc-secures-usd-100-million-line-of-credit-from-first-abu-dhabi-bank.html"
+        },
+        {
+          "date": "2026-05-16",
+          "title": "Debt Financing - Beaufond"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 100000000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "reportedPartnerships": {
+      "note": "Provider event summaries with linked sources; not independently verified.",
+      "items": [
+        {
+          "date": "2026-05-16",
+          "description": "Beaufond and First Abu Dhabi Bank entered into a new trade finance relationship centered on a USD 100 million line of credit to support Beaufond’s global pharmaceutical procurement and working capital.",
+          "sources": [
+            {
+              "date": "2026-05-16",
+              "publisher": "PRLog",
+              "title": "Beaufond Plc Secures Usd 100 Million Line Of Credit From First Abu Dhabi Bank",
+              "url": "https://www.prlog.org/13146219-beaufond-plc-secures-usd-100-million-line-of-credit-from-first-abu-dhabi-bank.html"
+            }
+          ]
+        }
+      ]
+    },
+    "crunchbaseMomentum": {
+      "growthInsightGeneratedDate": "2026-07-05",
+      "growthChange90Days": -2,
+      "growthScore": 91,
+      "heatChange90Days": -20,
+      "heatScore": 72,
+      "status": "Growing"
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-05-17",
+        "probabilityPercent": 16.02
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 5.01,
+        "timingEstimatePercent": {
+          "within6Months": 0.75,
+          "months6To11": 0,
+          "months12To24": 0,
+          "beyond24Months": 99.25
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 94.83
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 81.46
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Aurobindo Pharma is an integrated pharma company.",
+          "employeeRange": "10,001+",
+          "name": "Aurobindo Pharma",
+          "sharedCategories": [
+            "Pharmaceutical"
+          ],
+          "similarityScore": 97
+        },
+        {
+          "description": "Hetero is a generic pharmaceutical companies and the world’s largest producer of anti-retroviral drugs for the treatment of HIV/AIDS.",
+          "employeeRange": "10,001+",
+          "name": "Hetero",
+          "sharedCategories": [
+            "Pharmaceutical"
+          ],
+          "similarityScore": 95
+        },
+        {
+          "description": "Sun Pharmaceutical is a pharmaceutical company that provides medicines for patients.",
+          "employeeRange": "10,001+",
+          "name": "Sun Pharmaceutical",
+          "sharedCategories": [
+            "Pharmaceutical"
+          ],
+          "similarityScore": 91
+        },
+        {
+          "description": "Lupin is a fully vertically integrated company with capability in manufacturing and marketing generic pharmaceuticals.",
+          "employeeRange": "10,001+",
+          "name": "Lupin",
+          "sharedCategories": [
+            "Pharmaceutical"
+          ],
+          "similarityScore": 89
+        },
+        {
+          "description": "Divi’s Laboratories Limited (Divi’s), is a pharmaceutical company .",
+          "employeeRange": "10,001+",
+          "name": "Divi's Laboratories",
+          "sharedCategories": [
+            "Pharmaceutical"
+          ],
+          "similarityScore": 87
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Debt Financing round raised $100,000,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 91 (-2 over 90 days) and market heat at 72 (-20).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Aurobindo Pharma, Hetero, Sun Pharmaceutical.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

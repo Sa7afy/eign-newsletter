@@ -1,0 +1,157 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T11:49:07.715Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T11:49:07.713Z",
+    "url": "https://www.crunchbase.com/organization/garage-9481"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Garage",
+      "shortDescription": "Garage provides on-demand car maintenance services.",
+      "description": "Garage provides on-demand car maintenance services, enabling customers to book these services through its mobile app and receive them at their doorstep.",
+      "website": "https://meetgarage.app/",
+      "foundedYear": 2020,
+      "operatingStatus": "Closed",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "1-10",
+      "headquarters": "Khobar, Ash Sharqiyah, Saudi Arabia",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Automotive"
+      ],
+      "sectors": [
+        "Transportation"
+      ],
+      "founders": [
+        "Osama AlSalloum"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 260000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2020-10-22",
+      "lastFundingType": "Angel",
+      "rounds": [
+        {
+          "announcedDate": "2020-10-22",
+          "amount": {
+            "amount": 260000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "type": "Angel"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "name": "Yasser Al-Ghamdi",
+            "rounds": [
+              "Angel Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 6,
+      "includedUniqueCount": 6,
+      "items": [
+        {
+          "date": "2020-10-22",
+          "publisher": "Wamda",
+          "title": "Garage raises $260,000",
+          "url": "https://www.wamda.com/2020/10/garage-raises-260000"
+        },
+        {
+          "date": "2020-10-22",
+          "publisher": "Incubees",
+          "title": "Garage raises USD 260K in first funding round",
+          "url": "https://incubees.com/garage-raises-usd-260k-in-first-funding-round/"
+        },
+        {
+          "date": "2020-10-22",
+          "publisher": "MENAbytes",
+          "title": "Saudi’s Garage raises $260,000 to offer on-demand car maintenance services at your doorstep",
+          "url": "https://www.menabytes.com/garage-260k/"
+        },
+        {
+          "date": "2020-10-22",
+          "publisher": "Dailyhunt",
+          "title": "News Saudi's Garage bags $260K in a Pre-Seed funding round from undisclosed investors",
+          "url": "https://m.dailyhunt.in/news/india/english/laffaz-epaper-laffaz/saudi+s+garage+bags+260k+in+a+pre+seed+funding+round+from+undisclosed+investors-newsid-n224052878"
+        },
+        {
+          "date": "2020-10-22",
+          "publisher": "MAGNiTT",
+          "title": "KSA-based Garage raises $260K in first funding round",
+          "url": "https://magnitt.com/news/garage-260k-funding-52285"
+        },
+        {
+          "date": "2020-10-22",
+          "title": "Angel Round - Garage"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 260000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "heatChange90Days": -6,
+      "heatScore": 2
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors."
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Angel round raised $260,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

@@ -1,0 +1,190 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T11:56:19.718Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T11:56:19.716Z",
+    "url": "https://www.crunchbase.com/organization/hasb"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Hasb",
+      "shortDescription": "Hasb was a Saudi startup that enabled consumers to pay for their online payments and bills in-person at different retail stores.",
+      "description": "Founded in 2017 and based in Khobar - Eastern Province, Hasb was a Saudi startup that enabled consumers to pay for their online payments and bills in-person at different retail stores (Hasb Retail Partners). Our service can be used in different sectors such as e-commerce, telecom, travel, gaming, and utilities.\n\nHasb generates bills for different Billers online. The customer receives a payment slip with a barcode sent via e-mail, SMS, or phone wallet, and takes the payment slip to the nearest Hasb Retail Partner store. Once the barcode is scanned at the cash register, the amount can be paid with cash or any other available payment method. After the payment is made, the order will be automatically confirmed in real time.",
+      "website": "http://hasb.co/",
+      "operatingStatus": "Closed",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "1-10",
+      "headquarters": "Khobar, Ash Sharqiyah, Saudi Arabia",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "E-Commerce",
+        "Internet",
+        "Payments"
+      ],
+      "sectors": [
+        "Commerce and Shopping",
+        "Financial Services",
+        "Information Technology",
+        "Payments"
+      ],
+      "founders": [
+        "Ali Aldamanhori",
+        "Amer Alabbar",
+        "Maan Alzamil"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 879956,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 2,
+      "detailedRoundCount": 2,
+      "lastFundingDate": "2017-10-01",
+      "lastFundingType": "Seed",
+      "rounds": [
+        {
+          "announcedDate": "2017-10-01",
+          "amount": {
+            "amount": 799957,
+            "currency": "USD"
+          },
+          "type": "Seed"
+        },
+        {
+          "announcedDate": "2017-03-01",
+          "amount": {
+            "amount": 79999,
+            "currency": "USD"
+          },
+          "type": "Seed"
+        }
+      ]
+    },
+    "recentNews": {
+      "reportedCount": 2,
+      "includedUniqueCount": 2,
+      "items": [
+        {
+          "date": "2017-10-01",
+          "title": "Seed Round - Hasb"
+        },
+        {
+          "date": "2017-03-01",
+          "title": "Seed Round - Hasb"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 2,
+    "knownDetailedFundingAmount": {
+      "amount": 879956,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 90.91
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "heatChange90Days": -13,
+      "heatScore": 35
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "SADAD facilitates & accelerates various payments to individuals, banks, companies & the government sector, continues to develop new service",
+          "employeeRange": "501-1,000",
+          "name": "SADAD Payment System",
+          "sharedCategories": [
+            "Payments"
+          ],
+          "similarityScore": 94
+        },
+        {
+          "description": "Moyasar is an online payment gateway that provides electronic payment solutions.",
+          "employeeRange": "51-100",
+          "name": "Moyasar",
+          "sharedCategories": [
+            "Payments"
+          ],
+          "similarityScore": 91
+        },
+        {
+          "description": "Fawry is a pioneering Electronic Payment Network, offering financial services to consumers and businesses",
+          "employeeRange": "5,001-10,000",
+          "name": "Fawry",
+          "sharedCategories": [
+            "Payments"
+          ],
+          "similarityScore": 89
+        },
+        {
+          "description": "eFAWATEERcom offers electronic bill payment services, enabling users to pay various bills online securely and efficiently.",
+          "employeeRange": "11-50",
+          "name": "eFAWATEERcom",
+          "similarityScore": 87
+        },
+        {
+          "description": "KNET offers, point of sales, payment gateway, chequebook printing, and ATM services.",
+          "employeeRange": "101-250",
+          "name": "KNET",
+          "sharedCategories": [
+            "Payments"
+          ],
+          "similarityScore": 85
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Seed round raised $799,957, or 90.91% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include SADAD Payment System, Moyasar, Fawry.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

@@ -1,0 +1,218 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T09:18:16.058Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T09:18:16.057Z",
+    "url": "https://www.crunchbase.com/organization/ataa-educational-co"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "ATAA Educational Co",
+      "shortDescription": "ATAA Educational Co is an educational company that provides educational services to students.",
+      "description": "ATAA Educational Co is an educational company that provides educational services to students.",
+      "website": "http://www.ataa.sa/",
+      "foundedYear": 1992,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Public",
+      "companyType": "For profit",
+      "employeeRange": "1,001-5,000",
+      "estimatedRevenueRange": "$100M-$500M",
+      "headquarters": "Riyadh, Ar Riyad, Saudi Arabia",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Education",
+        "Higher Education",
+        "Primary Education",
+        "Secondary Education"
+      ],
+      "sectors": [
+        "Education"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "ATAA Educational Co operates multiple private schools and educational complexes offering K-12 education across various curricula.",
+        "name": "Private Schools and Educational Complexes"
+      },
+      {
+        "description": "ATAA Educational Co provides student transportation services using a fleet of buses to transport students to and from its educational complexes.",
+        "name": "Student Transportation Services"
+      },
+      {
+        "description": "ATAA Educational Co organizes extracurricular activities and enrichment programs including sports, life skills training, and scientific clubs to support student development.",
+        "name": "Extracurricular and Enrichment Programs"
+      },
+      {
+        "description": "ATAA Educational Co acquires and manages private educational institutions to expand its network and improve educational offerings.",
+        "name": "Acquisition and Management of Educational Institutions"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 186473074,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 2,
+      "detailedRoundCount": 2,
+      "lastFundingDate": "2025-01-08",
+      "lastFundingType": "Post IPO Debt",
+      "rounds": [
+        {
+          "announcedDate": "2025-01-08",
+          "amount": {
+            "amount": 50446132,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "Banque Saudi Fransi"
+          ],
+          "type": "Post IPO Debt"
+        },
+        {
+          "announcedDate": "2024-09-09",
+          "amount": {
+            "amount": 136026942,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "The Saudi Investment Bank"
+          ],
+          "type": "Post IPO Debt"
+        }
+      ],
+      "investors": {
+        "reportedCount": 2,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "Banque Saudi Fransi",
+            "rounds": [
+              "Post-IPO Debt"
+            ]
+          },
+          {
+            "isLead": true,
+            "name": "The Saudi Investment Bank",
+            "rounds": [
+              "Post-IPO Debt"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 4,
+      "includedUniqueCount": 4,
+      "items": [
+        {
+          "date": "2025-01-08",
+          "title": "Post-IPO Debt - ATAA Educational Co"
+        },
+        {
+          "date": "2024-09-09",
+          "title": "Post-IPO Debt - ATAA Educational Co"
+        },
+        {
+          "date": "2023-10-29",
+          "publisher": "TradingView",
+          "title": "Ataa Educational FY Dividend Per Share One Riyal And Ten Halalas",
+          "url": "https://www.tradingview.com/news/reuters.com,2023:newsml_FWN3BX5KT:0-ataa-educational-fy-dividend-per-share-one-riyal-and-ten-halalas/"
+        },
+        {
+          "date": "2019-07-31",
+          "title": "4292"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 2,
+    "knownDetailedFundingAmount": {
+      "amount": 186473074,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 27.05
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": -2,
+      "growthScore": 86,
+      "heatChange90Days": -5,
+      "heatScore": 61
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2025-09-22",
+        "probabilityPercent": 0
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors."
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Post IPO Debt round raised $50,446,132, or 27.05% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 86 (-2 over 90 days) and market heat at 61 (-5).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Strategic repositioning and listing coverage shape the current narrative",
+      "statement": "ATAA Educational Co has a recent strategic-positioning change; 2 recent unique news titles explicitly contain the English terms IPO or listing.",
+      "implication": "Their timing coincides with increased visibility in the loaded news and Crunchbase momentum signals, but the data does not establish causation.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.company.formerName",
+        "facts.recentNews",
+        "providerSignals.crunchbaseMomentum"
+      ],
+      "caveats": [
+        "The causal link to Crunchbase momentum is an inference from timing, not a disclosed company metric."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

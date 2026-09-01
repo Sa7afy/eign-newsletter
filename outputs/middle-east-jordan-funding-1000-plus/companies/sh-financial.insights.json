@@ -1,0 +1,319 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T13:21:22.401Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T13:21:22.398Z",
+    "url": "https://www.crunchbase.com/organization/sh-financial"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "SH Financial",
+      "shortDescription": "SH Financial offers a broad spectrum of payment solutions, capital, and digital treasury services.",
+      "description": "Stanhope Financial Group is a digital treasury and payment services company. The other services include capital, digital, and payments. They offer access to all the banking services businesses need in one place, from global payments and treasury management to investments and consulting.",
+      "website": "https://www.sh-financial.com/",
+      "foundedYear": 2020,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "11-50",
+      "estimatedRevenueRange": "$1M-$10M",
+      "headquarters": "Dubai, United Arab Emirates",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Finance",
+        "Financial Services",
+        "FinTech",
+        "Payments"
+      ],
+      "sectors": [
+        "Financial Services",
+        "Payments"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "SH Financial provides international business accounts enabling cross-border payments, transactional FX, IBANs, vIBANs, multi-currency wallets, and VISA card issuance.",
+        "name": "International Business Accounts"
+      },
+      {
+        "description": "SH Capital offers services in capital investment including family office, corporate office, and consulting in wealth & asset management.",
+        "name": "Capital Investment Services"
+      },
+      {
+        "description": "SH Digital provides cryptocurrency liquidity and trading services, operating with a VASP registration in Lithuania and a license in Dubai.",
+        "name": "Cryptocurrency Liquidity and Trading Services"
+      },
+      {
+        "description": "SH Financial issues stablecoins pegged to USD, GBP, and Euros for the travel industry, ensuring transactions are backed by fiat currency in a secure EU regulated bank account.",
+        "name": "Stablecoin Issuance for the Travel Industry"
+      },
+      {
+        "description": "Licensed as an Electronic Money Institute, SH Financial offers banking services tailored for SMEs, regulated institutions, and virtual asset service providers.",
+        "name": "Banking Services for SMEs and Regulated Institutions"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 10000000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2022-05-10",
+      "lastFundingType": "Series A",
+      "rounds": [
+        {
+          "announcedDate": "2022-05-10",
+          "amount": {
+            "amount": 10000000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "Gate Ventures"
+          ],
+          "postMoneyValuation": {
+            "amount": 59876015,
+            "currency": "USD"
+          },
+          "type": "Series A"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "Gate Ventures",
+            "rounds": [
+              "Series A"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 3,
+      "includedUniqueCount": 3,
+      "items": [
+        {
+          "date": "2024-04-11",
+          "publisher": "fintechbaltic.com",
+          "title": "SH Financial - Fintech in Baltic",
+          "url": "https://fintechbaltic.com/fintechs-in-lithuania-directory/fintech/sh-financial/"
+        },
+        {
+          "date": "2023-11-22",
+          "publisher": "ZAWYA",
+          "title": "SH Capital appoints H E Sheikha Moaza Al Maktoum as Chairperson of the Board of Directors",
+          "url": "https://www.zawya.com/en/press-release/people-in-the-news/sh-capital-appoints-h-e-sheikha-moaza-al-maktoum-as-chairperson-of-the-board-of-directors-eda40na3"
+        },
+        {
+          "date": "2022-05-10",
+          "title": "Series A - SH Financial"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 10000000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthInsightGeneratedDate": "2023-12-22",
+      "growthChange90Days": 0,
+      "growthScore": 53,
+      "heatChange90Days": -8,
+      "heatScore": 63,
+      "status": "Growing"
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 0
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 22.51,
+        "timingEstimatePercent": {
+          "within6Months": 15.76,
+          "months6To11": 13.28,
+          "months12To24": 20.6,
+          "beyond24Months": 25
+        }
+      },
+      "growth": {
+        "generatedDate": "2025-05-11",
+        "probabilityPercent": 95.17
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 0
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Airwallex is a global payments and financial platform that provides business accounts, payment solutions, and spend management tools.",
+          "employeeRange": "1,001-5,000",
+          "name": "Airwallex",
+          "sharedCategories": [
+            "Financial Services",
+            "Finance",
+            "FinTech",
+            "Payments"
+          ],
+          "sharedSpecialties": [
+            "Currency Exchange Service",
+            "International and Multi-Currency Accounts",
+            "Banking-as-a-Service (BaaS)"
+          ],
+          "similarityScore": 97
+        },
+        {
+          "description": "Revolut is a financial technology company that offers banking services, money transfers, foreign exchange, and spending analytics.",
+          "employeeRange": "10,001+",
+          "name": "Revolut",
+          "sharedCategories": [
+            "Financial Services",
+            "FinTech"
+          ],
+          "sharedSpecialties": [
+            "Currency Exchange Service",
+            "Cryptocurrency Exchanges",
+            "International and Multi-Currency Accounts"
+          ],
+          "similarityScore": 95
+        },
+        {
+          "description": "Wise is a financial technology company that offers low-cost, fast international money transfers and multi-currency accounts.",
+          "employeeRange": "5,001-10,000",
+          "name": "Wise",
+          "sharedCategories": [
+            "Financial Services",
+            "FinTech",
+            "Payments"
+          ],
+          "sharedSpecialties": [
+            "Currency Exchange Service",
+            "International and Multi-Currency Accounts"
+          ],
+          "similarityScore": 94
+        },
+        {
+          "description": "Banking Circle offers its Members the capability to make and receive cross-border transfers in seconds at a low cost.",
+          "employeeRange": "501-1,000",
+          "name": "Banking Circle",
+          "sharedCategories": [
+            "Financial Services",
+            "FinTech",
+            "Payments"
+          ],
+          "sharedSpecialties": [
+            "Currency Exchange Service",
+            "International and Multi-Currency Accounts",
+            "Banking-as-a-Service (BaaS)"
+          ],
+          "similarityScore": 91
+        },
+        {
+          "description": "Payoneer is a fintech company that provides cross-border payment, business banking, and commerce enablement services for businesses.",
+          "employeeRange": "1,001-5,000",
+          "name": "Payoneer",
+          "sharedCategories": [
+            "Finance",
+            "FinTech",
+            "Payments"
+          ],
+          "sharedSpecialties": [
+            "International and Multi-Currency Accounts",
+            "Banking-as-a-Service (BaaS)"
+          ],
+          "similarityScore": 89
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Series A round raised $10,000,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $59,876,015 to $59,876,015, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 53 (+0 over 90 days) and market heat at 63 (-8).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Airwallex, Revolut, Wise.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

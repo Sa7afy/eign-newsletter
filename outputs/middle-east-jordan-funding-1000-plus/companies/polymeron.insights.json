@@ -1,0 +1,251 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T12:58:59.186Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T12:58:59.184Z",
+    "url": "https://www.crunchbase.com/organization/polymeron"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Polymeron",
+      "shortDescription": "Polymeron develops eco-friendly bio-carbon based materials & biodegradable plastics.",
+      "description": "Polymeron develops eco-friendly bio-carbon based materials & biodegradable plastics using organic waste of local date farms.",
+      "website": "https://polymeron.com/",
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "1-10",
+      "estimatedRevenueRange": "Less than $1M",
+      "headquarters": "Thuwal, Ha'il, Saudi Arabia",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Biotechnology",
+        "Waste Management"
+      ],
+      "sectors": [
+        "Biotechnology",
+        "Science and Engineering",
+        "Sustainability"
+      ],
+      "founders": [
+        "Rodrigo Jimenez"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "Plastic pellets made from agroindustrial date waste designed to be fully biodegradable and compatible with traditional plastic extrusion processes.",
+        "name": "Biodegradable Plastic Pellets"
+      },
+      {
+        "description": "Materials derived from biochar used as a carbon source for biodegradable plastic pellets and bio-organic soil improvers.",
+        "name": "Bio-Carbon Based Materials"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 39840,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2020-03-31",
+      "lastFundingType": "Non Equity Assistance",
+      "rounds": [
+        {
+          "announcedDate": "2020-03-31",
+          "amount": {
+            "amount": 39840,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "type": "Non Equity Assistance"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "name": "Taqadam",
+            "rounds": [
+              "Non Equity Assistance"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 1,
+      "includedUniqueCount": 1,
+      "items": [
+        {
+          "date": "2020-03-31",
+          "title": "Non Equity Assistance - Polymeron"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 39840,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": 0,
+      "growthScore": 76,
+      "heatChange90Days": -8,
+      "heatScore": 54
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2025-03-30",
+        "probabilityPercent": 0.63
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 84.8
+      },
+      "ipo": {
+        "generatedDate": "2025-03-30",
+        "probabilityPercent": 4.97
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "NatureWorks, a cleantech company, manufactures low carbon footprint biopolymers from renewable resources.",
+          "employeeRange": "501-1,000",
+          "name": "NatureWorks",
+          "sharedSpecialties": [
+            "Plastic Extrusion and Profiles",
+            "Bioplastics",
+            "Flexible Packaging Films",
+            "Biodegradable Packaging",
+            "Composting"
+          ],
+          "similarityScore": 97
+        },
+        {
+          "description": "NaturePlast offers polylactic acid and polyhydroxyalkanoate resins and semi-finished products.",
+          "employeeRange": "1-10",
+          "name": "NaturePlast",
+          "sharedCategories": [
+            "Biotechnology"
+          ],
+          "sharedSpecialties": [
+            "Plastic Extrusion and Profiles",
+            "Bioplastics",
+            "Biodegradable Packaging",
+            "Polymer Chemistry",
+            "Composting"
+          ],
+          "similarityScore": 95
+        },
+        {
+          "description": "Bioviron International Limited supplies plant-based compostable films, foams, and thermoformable materials for packaging applications.",
+          "employeeRange": "1-10",
+          "name": "BioViron International",
+          "sharedCategories": [
+            "Biotechnology"
+          ],
+          "similarityScore": 88
+        },
+        {
+          "description": "The World’s most versatile bioplastic. 4 times tougher than standard PLA.",
+          "employeeRange": "1-10",
+          "name": "Floreon",
+          "sharedSpecialties": [
+            "Polymer Additives",
+            "Plastic Extrusion and Profiles",
+            "Bioplastics",
+            "Flexible Packaging Films",
+            "Biodegradable Packaging",
+            "Polymer Chemistry",
+            "Composting"
+          ],
+          "similarityScore": 86
+        },
+        {
+          "description": "FKuR produces bio-based and compostable bioplastics for flexible packaging solutions and technical applications.",
+          "employeeRange": "51-100",
+          "name": "FKuR",
+          "sharedSpecialties": [
+            "Agricultural Films",
+            "Plastic Extrusion and Profiles",
+            "Bioplastics",
+            "Flexible Packaging Films",
+            "Biodegradable Packaging",
+            "Composting"
+          ],
+          "similarityScore": 82
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Non Equity Assistance round raised $39,840, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 76 (+0 over 90 days) and market heat at 54 (-8).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include NatureWorks, NaturePlast, BioViron International.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

@@ -1,0 +1,314 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T13:44:57.054Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T13:44:57.052Z",
+    "url": "https://www.crunchbase.com/organization/tim-hortons-gulf-franchise"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Tim Hortons Gulf Franchise",
+      "shortDescription": "Tim Hortons Gulf Franchise managed by Dubai-based fashion and lifestyle retail conglomerate Apparel Group.",
+      "description": "Tim Hortons Gulf Franchise managed by Dubai-based fashion and lifestyle retail conglomerate Apparel Group.",
+      "website": "https://timhortonsgcc.com/",
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "10,001+",
+      "headquarters": "Dubai, United Arab Emirates",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Apparel",
+        "Fashion",
+        "Franchise",
+        "Lifestyle"
+      ],
+      "sectors": [
+        "Clothing and Apparel",
+        "Community and Lifestyle",
+        "Design",
+        "Other"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "A range of hot drinks made from 100% Premium Arabica Beans including espresso, French Vanilla, lattes, cappuccinos, hot chocolate, and selected teas.",
+        "name": "Hot Beverages"
+      },
+      {
+        "description": "A selection of chilled drinks including iced cappuccinos, iced coffee, iced lattes, iced chocolate, refreshers, juices, and ready-to-drink beverages.",
+        "name": "Cold Beverages"
+      },
+      {
+        "description": "Freshly baked items such as donuts, Timbits, cookies, cakes, croissants, and muffins.",
+        "name": "Baked Goods"
+      },
+      {
+        "description": "A variety of bagels and muffin sandwiches, including options tailored to local tastes such as Halloumi Mint and Turkey Sausage & Egg croissants.",
+        "name": "Breakfast Items"
+      },
+      {
+        "description": "A range of sandwiches including wraps, paninis, croissants, and salads, with options reflecting international and local flavor profiles.",
+        "name": "Sandwiches and More"
+      },
+      {
+        "description": "Packaged versions of Tim Hortons' premium blend and French Vanilla coffee available in cans for at-home consumption.",
+        "name": "Canned Coffee Products"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 50000000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2020-04-08",
+      "lastFundingType": "Private Equity",
+      "rounds": [
+        {
+          "announcedDate": "2020-04-08",
+          "amount": {
+            "amount": 50000000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "Gateway Partners"
+          ],
+          "postMoneyValuation": {
+            "amount": 125000000,
+            "currency": "USD"
+          },
+          "type": "Private Equity"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "Gateway Partners",
+            "rounds": [
+              "Private Equity Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 4,
+      "includedUniqueCount": 4,
+      "items": [
+        {
+          "date": "2025-04-21",
+          "publisher": "Canada NewsWire",
+          "title": "Tim Hortons week-long Smile Cookie campaign returns April 28 with 100% of proceeds from each cookie sold donated to local charities and community groups Français",
+          "url": "https://www.newswire.ca/news-releases/tim-hortons-week-long-smile-cookie-campaign-returns-april-28-with-100-of-proceeds-from-each-cookie-sold-donated-to-local-charities-and-community-groups-814072542.html"
+        },
+        {
+          "date": "2025-04-01",
+          "publisher": "Canada NewsWire",
+          "title": "Tim Hortons unveils an epic new lineup of donuts to celebrate Canada's most iconic and delicious flavours in a way that only Tims can Français",
+          "url": "https://www.newswire.ca/news-releases/tim-hortons-unveils-an-epic-new-lineup-of-donuts-to-celebrate-canada-s-most-iconic-and-delicious-flavours-in-a-way-that-only-tims-can-804844819.html"
+        },
+        {
+          "date": "2025-03-26",
+          "publisher": "Canada NewsWire",
+          "title": "Tim Hortons hops into spring with the return of CADBURY MINI EGGS® Dream Donuts and CADBURY MINI EGGS® Cookies, plus cute NEW bunny-inspired retail merch Français",
+          "url": "https://www.newswire.ca/news-releases/tim-hortons-hops-into-spring-with-the-return-of-cadbury-mini-eggs-r-dream-donuts-and-cadbury-mini-eggs-r-cookies-plus-cute-new-bunny-inspired-retail-merch-867195959.html"
+        },
+        {
+          "date": "2020-04-08",
+          "title": "Private Equity Round - Tim Hortons Gulf Franchise"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 50000000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": 1,
+      "growthScore": 65,
+      "heatChange90Days": 3,
+      "heatScore": 15
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 20.77
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 14.93,
+        "timingEstimatePercent": {
+          "within6Months": 13.68,
+          "months6To11": 11.81,
+          "months12To24": 18.99,
+          "beyond24Months": 24.7
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 87.8
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 10.04
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Dunkin' is the largest coffee and donuts brand in the United States,",
+          "employeeRange": "1,001-5,000",
+          "name": "Dunkin'",
+          "sharedSpecialties": [
+            "Coffee Beans and Blends",
+            "Doughnuts",
+            "Quick Service Restaurants",
+            "Cafés and Coffee Shops",
+            "Sandwich Shops",
+            "Online Ordering for Restaurants"
+          ],
+          "similarityScore": 97
+        },
+        {
+          "description": "Starbucks is a restaurant chain that serves handcrafted ready-to-drink beverages, including coffee, tea, juices, and snack food items.",
+          "employeeRange": "10,001+",
+          "name": "Starbucks",
+          "sharedSpecialties": [
+            "Coffee Beans and Blends",
+            "Cafés and Coffee Shops",
+            "Specialty Baked Goods",
+            "Online Ordering for Restaurants"
+          ],
+          "similarityScore": 95
+        },
+        {
+          "description": "Costa Coffee is a British multinational coffeehouse company headquartered in Dunstable, Bedfordshire.",
+          "employeeRange": "10,001+",
+          "name": "Costa Coffee",
+          "sharedSpecialties": [
+            "Coffee Beans and Blends",
+            "Non-Alcoholic Beverages",
+            "Cafés and Coffee Shops",
+            "Sandwich Shops",
+            "Online Ordering for Restaurants"
+          ],
+          "similarityScore": 93
+        },
+        {
+          "description": "Krispy Kreme is a global retailer of premium-quality sweet treats and is famous for its original glazed doughnut.",
+          "employeeRange": "10,001+",
+          "name": "Krispy Kreme",
+          "sharedSpecialties": [
+            "Corporate and Workplace Catering",
+            "Doughnuts",
+            "Non-Alcoholic Beverages",
+            "Franchise Retail",
+            "Cafés and Coffee Shops"
+          ],
+          "similarityScore": 91
+        },
+        {
+          "description": "Pret A Manger is the retailer of high quality, natural, ready-to-eat sandwiches, salads and drinks.",
+          "employeeRange": "10,001+",
+          "name": "Pret a Manger",
+          "sharedSpecialties": [
+            "Coffee Beans and Blends",
+            "Non-Alcoholic Beverages",
+            "Cafés and Coffee Shops",
+            "Sandwich Shops",
+            "Specialty Baked Goods"
+          ],
+          "similarityScore": 89
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Private Equity round raised $50,000,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $125,000,000 to $125,000,000, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 65 (+1 over 90 days) and market heat at 15 (+3).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Dunkin', Starbucks, Costa Coffee.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

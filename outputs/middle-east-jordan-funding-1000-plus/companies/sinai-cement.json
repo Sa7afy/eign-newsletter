@@ -1,0 +1,4232 @@
+{
+  "sourceUrl": "https://www.crunchbase.com/organization/sinai-cement",
+  "pageTitle": "sinai-cement",
+  "scrapedAt": "2026-09-01T13:24:41.975Z",
+  "extraction": {
+    "authenticated": true,
+    "method": "curl-cffi-authenticated-entity-fetch-no-browser"
+  },
+  "organization": {
+    "properties": {
+      "facet_ids": [
+        "ai_insight",
+        "builtwith",
+        "company",
+        "contact",
+        "key_event",
+        "rank"
+      ],
+      "identifier": {
+        "uuid": "166f929e-e312-4219-b038-4432ce1430f1",
+        "value": "Sinai Cement",
+        "image_id": "xptvsslb9smfwnonamlb",
+        "permalink": "sinai-cement",
+        "entity_def_id": "organization"
+      },
+      "category_groups": [
+        {
+          "uuid": "133d294c-e5d0-2c4f-9acc-aed0ada1fa8a",
+          "value": "Manufacturing",
+          "permalink": "manufacturing-133d",
+          "entity_def_id": "category_group"
+        },
+        {
+          "uuid": "598c79bd-1265-cc6b-4349-13169afd9654",
+          "value": "Real Estate",
+          "permalink": "real-estate-598c",
+          "entity_def_id": "category_group"
+        }
+      ],
+      "short_description": "Sinai Cement is a producer of cement and packing bags.",
+      "rank_delta_d90": -0.1,
+      "title": "Sinai Cement"
+    },
+    "cards": {
+      "semrush_summary": {
+        "identifier": {
+          "uuid": "166f929e-e312-4219-b038-4432ce1430f1",
+          "value": "Sinai Cement",
+          "image_id": "xptvsslb9smfwnonamlb",
+          "permalink": "sinai-cement",
+          "entity_def_id": "organization"
+        }
+      },
+      "key_employee_change_list": [],
+      "apptopia_attribution": {},
+      "diversity_spotlight_investments_headline": {},
+      "apptopia_app_rating_list": [],
+      "funds_summary": {
+        "identifier": {
+          "uuid": "166f929e-e312-4219-b038-4432ce1430f1",
+          "value": "Sinai Cement",
+          "image_id": "xptvsslb9smfwnonamlb",
+          "permalink": "sinai-cement",
+          "entity_def_id": "organization"
+        }
+      },
+      "funding_prediction": [],
+      "company_about_fields1": {},
+      "current_advisors_image_list": [],
+      "recommended_search": [
+        {
+          "identifier": {
+            "permalink": "construction-public-companies-less-than-1b-in-revenue",
+            "image_id": "g2mv4pqpvgmfk5kesdxq",
+            "uuid": "a87b8108-9c20-4b0d-887a-68fe9cbfb849",
+            "entity_def_id": "hub",
+            "value": "Construction Public Companies With Less Than $1B in Revenue"
+          },
+          "org_identifiers": [
+            {
+              "permalink": "acme-solar",
+              "image_id": "g2mv4pqpvgmfk5kesdxq",
+              "uuid": "ad044179-e733-4209-b860-9fcc432d4be2",
+              "entity_def_id": "organization",
+              "value": "ACME Solar"
+            },
+            {
+              "permalink": "horizon-industrial-parks",
+              "image_id": "wwrcjnvsvi2scfaxjery",
+              "uuid": "7ddd961c-f99c-4d69-878a-afbc84a8fd3f",
+              "entity_def_id": "organization",
+              "value": "Horizon Industrial Parks"
+            },
+            {
+              "permalink": "cardinal-infrastructure-group",
+              "image_id": "190649c4990c4810b7492cf83628aa1c",
+              "uuid": "c2c866db-dd68-4167-be52-4cbf97ab923f",
+              "entity_def_id": "organization",
+              "value": "Cardinal Infrastructure Group"
+            },
+            {
+              "permalink": "caliber-3",
+              "image_id": "v1468169382/ctjcoonqzdicgl2su4pq.png",
+              "uuid": "c940e224-0828-9033-015e-5fe645b45c13",
+              "entity_def_id": "organization",
+              "value": "Caliber"
+            },
+            {
+              "permalink": "exyn-technologies",
+              "image_id": "v1487744122/gfwhs7fc68ysxmadqysn.jpg",
+              "uuid": "deb1f082-5f9d-7bbd-7aae-1e4be94bbb7b",
+              "entity_def_id": "organization",
+              "value": "Exyn Technologies"
+            },
+            {
+              "permalink": "betolar",
+              "image_id": "836cb0df3f4a45eebd6daebd77f0b81d",
+              "uuid": "3b0f4143-fd33-4ea3-bf1d-c707db38cc19",
+              "entity_def_id": "organization",
+              "value": "Betolar"
+            },
+            {
+              "permalink": "boxabl",
+              "image_id": "900dc512c8554e90b1c41d9d16ebf283",
+              "uuid": "00a60eaf-a946-449a-8146-f2d836bb1bec",
+              "entity_def_id": "organization",
+              "value": "Boxabl"
+            },
+            {
+              "permalink": "inno-metal-studs-corp",
+              "image_id": "xay9znoao4vkuqi7uh2z",
+              "uuid": "38be694e-aab9-4006-8805-2475387b8b2f",
+              "entity_def_id": "organization",
+              "value": "Inno Holdings"
+            }
+          ],
+          "org_funding_total": {
+            "currency": "USD",
+            "value": 34193629580,
+            "value_usd": 34193629580
+          },
+          "org_num_investors": 427,
+          "org_num": 1312,
+          "queries": {
+            "event": [
+              {
+                "field_id": "categories",
+                "operator_id": "includes",
+                "values": [
+                  "e4d83fbb-33f0-a6f0-1399-a68245e8f8ac"
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "principal.has_event.forward",
+                "query": [
+                  {
+                    "field_id": "facet_ids",
+                    "operator_id": "includes",
+                    "values": [
+                      "company"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "revenue_range",
+                    "operator_id": "includes",
+                    "values": [
+                      "r_00000000",
+                      "r_00001000",
+                      "r_00010000",
+                      "r_00050000",
+                      "r_00100000",
+                      "r_00500000"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "funding_stage",
+                    "operator_id": "eq",
+                    "values": [
+                      "ipo"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "active"
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ],
+            "organization": [
+              {
+                "field_id": "facet_ids",
+                "operator_id": "includes",
+                "values": [
+                  "company"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "categories",
+                "operator_id": "includes",
+                "values": [
+                  "e4d83fbb-33f0-a6f0-1399-a68245e8f8ac"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "revenue_range",
+                "operator_id": "includes",
+                "values": [
+                  "r_00000000",
+                  "r_00001000",
+                  "r_00010000",
+                  "r_00050000",
+                  "r_00100000",
+                  "r_00500000"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "funding_stage",
+                "operator_id": "eq",
+                "values": [
+                  "ipo"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "operating_status",
+                "operator_id": "eq",
+                "values": [
+                  "active"
+                ],
+                "type": "predicate"
+              }
+            ],
+            "person": [
+              {
+                "collection_id": "organization.has_primary_organization.forward",
+                "query": [
+                  {
+                    "field_id": "facet_ids",
+                    "operator_id": "includes",
+                    "values": [
+                      "company"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "categories",
+                    "operator_id": "includes",
+                    "values": [
+                      "e4d83fbb-33f0-a6f0-1399-a68245e8f8ac"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "revenue_range",
+                    "operator_id": "includes",
+                    "values": [
+                      "r_00000000",
+                      "r_00001000",
+                      "r_00010000",
+                      "r_00050000",
+                      "r_00100000",
+                      "r_00500000"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "funding_stage",
+                    "operator_id": "eq",
+                    "values": [
+                      "ipo"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "active"
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ]
+          }
+        },
+        {
+          "identifier": {
+            "permalink": "europe-middle-east-and-africa-public-companies-more-than-50m-in-revenue",
+            "image_id": "c4ca9b3e39294ad8a99a6e0ef0012df8",
+            "uuid": "a666734b-d958-476f-ada0-8f23d9215e59",
+            "entity_def_id": "hub",
+            "value": "Europe, Middle East, and Africa (EMEA) Public Companies With More Than $50M in Revenue"
+          },
+          "org_identifiers": [
+            {
+              "permalink": "nebius-group",
+              "image_id": "c4ca9b3e39294ad8a99a6e0ef0012df8",
+              "uuid": "5d4dd88f-61f5-420a-9507-073552be6adb",
+              "entity_def_id": "organization",
+              "value": "Nebius"
+            },
+            {
+              "permalink": "bending-spoons",
+              "image_id": "djapsgdeinefd654ytga",
+              "uuid": "5b82449e-ff1b-e1fd-da74-2730fc99292b",
+              "entity_def_id": "organization",
+              "value": "Bending Spoons"
+            },
+            {
+              "permalink": "hsbc",
+              "image_id": "ugngue9sjerncfvm8oyf",
+              "uuid": "8ee63939-bd06-6699-f575-dffcecb71daf",
+              "entity_def_id": "organization",
+              "value": "HSBC"
+            },
+            {
+              "permalink": "vertical-aerospace-ltd",
+              "image_id": "5b084f0a08134feba0f715ed09f573e8",
+              "uuid": "affc29ed-7581-40bd-a12e-43943162adad",
+              "entity_def_id": "organization",
+              "value": "Vertical Aerospace"
+            },
+            {
+              "permalink": "eqt-holdings",
+              "image_id": "ydujvmsfxpv9uw4bswek",
+              "uuid": "5113c124-0cd4-6d40-0ba0-8bc6c40de294",
+              "entity_def_id": "organization",
+              "value": "EQT"
+            },
+            {
+              "permalink": "cvc-capital-partners",
+              "image_id": "kfdslb6x9moihjrikzfy",
+              "uuid": "12da71c7-75f6-f7b4-c2d6-d64776da1cd3",
+              "entity_def_id": "organization",
+              "value": "CVC Capital Partners"
+            },
+            {
+              "permalink": "klarna",
+              "image_id": "i7yjhhitbze4kylwmbfy",
+              "uuid": "2cc3a5de-2303-aa00-cd1a-50bd96420392",
+              "entity_def_id": "organization",
+              "value": "Klarna"
+            },
+            {
+              "permalink": "banco-santander",
+              "image_id": "spaqvi7xfg1rcjsj6sfw",
+              "uuid": "24d90ba6-166d-1d57-0013-0a22c48a177d",
+              "entity_def_id": "organization",
+              "value": "Santander"
+            }
+          ],
+          "org_funding_total": {
+            "currency": "USD",
+            "value": 1773008652578,
+            "value_usd": 1773008652578
+          },
+          "org_num_investors": 3790,
+          "org_num": 3095,
+          "queries": {
+            "event": [
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "4e8be435-c63a-4aff-8a2f-44a880d9c341"
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "principal.has_event.forward",
+                "query": [
+                  {
+                    "field_id": "facet_ids",
+                    "operator_id": "includes",
+                    "values": [
+                      "company"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "revenue_range",
+                    "operator_id": "includes",
+                    "values": [
+                      "r_00050000",
+                      "r_00100000",
+                      "r_00500000",
+                      "r_01000000",
+                      "r_10000000"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "funding_stage",
+                    "operator_id": "eq",
+                    "values": [
+                      "ipo"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "active"
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ],
+            "organization": [
+              {
+                "field_id": "facet_ids",
+                "operator_id": "includes",
+                "values": [
+                  "company"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "4e8be435-c63a-4aff-8a2f-44a880d9c341"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "revenue_range",
+                "operator_id": "includes",
+                "values": [
+                  "r_00050000",
+                  "r_00100000",
+                  "r_00500000",
+                  "r_01000000",
+                  "r_10000000"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "funding_stage",
+                "operator_id": "eq",
+                "values": [
+                  "ipo"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "operating_status",
+                "operator_id": "eq",
+                "values": [
+                  "active"
+                ],
+                "type": "predicate"
+              }
+            ],
+            "person": [
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "4e8be435-c63a-4aff-8a2f-44a880d9c341"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "rank_person",
+                "operator_id": "lte",
+                "values": [
+                  100000
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "organization.has_primary_organization.forward",
+                "query": [
+                  {
+                    "field_id": "facet_ids",
+                    "operator_id": "includes",
+                    "values": [
+                      "company"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "location_identifiers",
+                    "operator_id": "includes",
+                    "values": [
+                      "4e8be435-c63a-4aff-8a2f-44a880d9c341"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "revenue_range",
+                    "operator_id": "includes",
+                    "values": [
+                      "r_00050000",
+                      "r_00100000",
+                      "r_00500000",
+                      "r_01000000",
+                      "r_10000000"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "funding_stage",
+                    "operator_id": "eq",
+                    "values": [
+                      "ipo"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "active"
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ]
+          }
+        },
+        {
+          "identifier": {
+            "permalink": "egypt-construction-companies",
+            "image_id": "3a5423c55f944a5db16bb04a9ac78802",
+            "uuid": "a5c4d417-71ab-4a19-a202-2a0a3f69b1ee",
+            "entity_def_id": "hub",
+            "value": "Egypt Construction Companies"
+          },
+          "org_identifiers": [
+            {
+              "permalink": "rawmart",
+              "image_id": "3a5423c55f944a5db16bb04a9ac78802",
+              "uuid": "609598a0-2ac6-4925-b58d-a285a1ba224e",
+              "entity_def_id": "organization",
+              "value": "Rawmart"
+            },
+            {
+              "permalink": "redcon-properties",
+              "image_id": "e583821961c04184a403e945de498a9c",
+              "uuid": "f85120fc-a3b5-438f-8a58-6b2f4aed3347",
+              "entity_def_id": "organization",
+              "value": "Redcon Properties"
+            },
+            {
+              "permalink": "korra-energi",
+              "image_id": "9a84fabafac54355803f0d65926a044c",
+              "uuid": "0ea9add5-6958-41db-94a7-af165b502169",
+              "entity_def_id": "organization",
+              "value": "Korra Energi"
+            },
+            {
+              "permalink": "hassan-allam-holding",
+              "image_id": "mvwnqzzk8qxvukdwj4uy",
+              "uuid": "0a6315f7-c191-46fa-8dad-1347e7483f74",
+              "entity_def_id": "organization",
+              "value": "Hassan Allam Holding"
+            },
+            {
+              "permalink": "petroleum-marine-services",
+              "image_id": "v1493784193/jotmrwmksij2ej0zkua0.png",
+              "uuid": "7e4a202b-35da-5d00-6a30-25bcb1c8e4a2",
+              "entity_def_id": "organization",
+              "value": "Petroleum Marine Services"
+            },
+            {
+              "permalink": "inertia-egypt",
+              "image_id": "jzemknec08ua9x4jyopa",
+              "uuid": "bc10dba7-c382-4ba0-8de7-53e8d2782ec0",
+              "entity_def_id": "organization",
+              "value": "Inertia Egypt"
+            },
+            {
+              "permalink": "layn-55d1",
+              "image_id": "x4fgae7g01p2t7qtki2c",
+              "uuid": "61127ed3-fc96-4795-b1c9-1f745f0055d1",
+              "entity_def_id": "organization",
+              "value": "Layn"
+            },
+            {
+              "permalink": "tilegreen",
+              "image_id": "d516548552f549ab9a4ff446faf8cdcb",
+              "uuid": "bccb8583-ac43-48b1-a9b7-04ca0cea9bd7",
+              "entity_def_id": "organization",
+              "value": "TileGreen"
+            }
+          ],
+          "org_funding_total": {
+            "currency": "USD",
+            "value": 1189262059,
+            "value_usd": 1189262059
+          },
+          "org_num_investors": 37,
+          "org_num": 640,
+          "queries": {
+            "event": [
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "7d6eef02-5784-2dce-08f7-69705f85e35f"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "categories",
+                "operator_id": "includes",
+                "values": [
+                  "e4d83fbb-33f0-a6f0-1399-a68245e8f8ac"
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "principal.has_event.forward",
+                "query": [
+                  {
+                    "field_id": "facet_ids",
+                    "operator_id": "includes",
+                    "values": [
+                      "company"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "active"
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ],
+            "organization": [
+              {
+                "field_id": "facet_ids",
+                "operator_id": "includes",
+                "values": [
+                  "company"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "7d6eef02-5784-2dce-08f7-69705f85e35f"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "categories",
+                "operator_id": "includes",
+                "values": [
+                  "e4d83fbb-33f0-a6f0-1399-a68245e8f8ac"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "operating_status",
+                "operator_id": "eq",
+                "values": [
+                  "active"
+                ],
+                "type": "predicate"
+              }
+            ],
+            "person": [
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "7d6eef02-5784-2dce-08f7-69705f85e35f"
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "organization.has_primary_organization.forward",
+                "query": [
+                  {
+                    "field_id": "facet_ids",
+                    "operator_id": "includes",
+                    "values": [
+                      "company"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "location_identifiers",
+                    "operator_id": "includes",
+                    "values": [
+                      "7d6eef02-5784-2dce-08f7-69705f85e35f"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "categories",
+                    "operator_id": "includes",
+                    "values": [
+                      "e4d83fbb-33f0-a6f0-1399-a68245e8f8ac"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "active"
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ]
+          }
+        },
+        {
+          "identifier": {
+            "permalink": "egypt-companies-less-than-500m-in-revenue",
+            "image_id": "62a4a956f14d471d837467ca5d2420fb",
+            "uuid": "a456f3e6-182a-45cc-ab3c-881e4774be58",
+            "entity_def_id": "hub",
+            "value": "Egypt Companies With Less Than $500M in Revenue"
+          },
+          "org_identifiers": [
+            {
+              "permalink": "valu-b635",
+              "image_id": "62a4a956f14d471d837467ca5d2420fb",
+              "uuid": "e586fb36-9a58-436a-bf50-6d451761b635",
+              "entity_def_id": "organization",
+              "value": "valU"
+            },
+            {
+              "permalink": "fincart-8c0d",
+              "image_id": "2157db3af2424b619df39903e68869da",
+              "uuid": "38128808-f1be-480b-813a-77fb6ea68c0d",
+              "entity_def_id": "organization",
+              "value": "Fincart"
+            },
+            {
+              "permalink": "breadfast",
+              "image_id": "jiieid7adccujyaxzs9c",
+              "uuid": "4f10173e-0a2c-4941-889a-b5f2b40172a1",
+              "entity_def_id": "organization",
+              "value": "Breadfast"
+            },
+            {
+              "permalink": "paymob",
+              "image_id": "lpt5ox5xhjeorf2rryxa",
+              "uuid": "2f6dccc7-f49a-50a6-7975-dc7cc8af53ee",
+              "entity_def_id": "organization",
+              "value": "Paymob"
+            },
+            {
+              "permalink": "banque-misr",
+              "image_id": "wipnxmwkuzc6z1ssqxt4",
+              "uuid": "03625e6a-a87c-4b39-89ea-319e12ec4cc7",
+              "entity_def_id": "organization",
+              "value": "Banque Misr"
+            },
+            {
+              "permalink": "maxab",
+              "image_id": "tvz61sqojgg0b1bpefxr",
+              "uuid": "b16f26f7-599e-4759-9498-b9a73e9babe4",
+              "entity_def_id": "organization",
+              "value": "MaxAB"
+            },
+            {
+              "permalink": "lucky-71d4",
+              "image_id": "8612d80fa26248e78831b6fd7f898860",
+              "uuid": "99067131-4677-4313-a2cf-efc6f1fc71d4",
+              "entity_def_id": "organization",
+              "value": "Lucky"
+            },
+            {
+              "permalink": "blnk-consumer-finance",
+              "image_id": "a0rquwiuyuxufim4zbjh",
+              "uuid": "0a35a4ca-8bb5-4ced-aa51-54a0a810b4a7",
+              "entity_def_id": "organization",
+              "value": "Blnk"
+            }
+          ],
+          "org_funding_total": {
+            "currency": "USD",
+            "value": 12716883388,
+            "value_usd": 12716883388
+          },
+          "org_num_investors": 1517,
+          "org_num": 5074,
+          "queries": {
+            "event": [
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "7d6eef02-5784-2dce-08f7-69705f85e35f"
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "principal.has_event.forward",
+                "query": [
+                  {
+                    "field_id": "facet_ids",
+                    "operator_id": "includes",
+                    "values": [
+                      "company"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "revenue_range",
+                    "operator_id": "includes",
+                    "values": [
+                      "r_00000000",
+                      "r_00001000",
+                      "r_00010000",
+                      "r_00050000",
+                      "r_00100000"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "active"
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ],
+            "organization": [
+              {
+                "field_id": "facet_ids",
+                "operator_id": "includes",
+                "values": [
+                  "company"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "7d6eef02-5784-2dce-08f7-69705f85e35f"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "revenue_range",
+                "operator_id": "includes",
+                "values": [
+                  "r_00000000",
+                  "r_00001000",
+                  "r_00010000",
+                  "r_00050000",
+                  "r_00100000"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "operating_status",
+                "operator_id": "eq",
+                "values": [
+                  "active"
+                ],
+                "type": "predicate"
+              }
+            ],
+            "person": [
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "7d6eef02-5784-2dce-08f7-69705f85e35f"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "rank_person",
+                "operator_id": "lte",
+                "values": [
+                  1900000
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "organization.has_primary_organization.forward",
+                "query": [
+                  {
+                    "field_id": "facet_ids",
+                    "operator_id": "includes",
+                    "values": [
+                      "company"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "location_identifiers",
+                    "operator_id": "includes",
+                    "values": [
+                      "7d6eef02-5784-2dce-08f7-69705f85e35f"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "revenue_range",
+                    "operator_id": "includes",
+                    "values": [
+                      "r_00000000",
+                      "r_00001000",
+                      "r_00010000",
+                      "r_00050000",
+                      "r_00100000"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "active"
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ]
+          }
+        }
+      ],
+      "org_similarity_org_list": [],
+      "investors_summary": {
+        "identifier": {
+          "uuid": "166f929e-e312-4219-b038-4432ce1430f1",
+          "value": "Sinai Cement",
+          "image_id": "xptvsslb9smfwnonamlb",
+          "permalink": "sinai-cement",
+          "entity_def_id": "organization"
+        }
+      },
+      "funds_list": [],
+      "alumni_image_list": [],
+      "semrush_overview_headline": {},
+      "frequently_asked_questions_total_funding": {
+        "funding_total": {
+          "value": 1682007520,
+          "currency": "EGP",
+          "value_usd": 33792962
+        },
+        "identifier": {
+          "uuid": "166f929e-e312-4219-b038-4432ce1430f1",
+          "value": "Sinai Cement",
+          "image_id": "xptvsslb9smfwnonamlb",
+          "permalink": "sinai-cement",
+          "entity_def_id": "organization"
+        }
+      },
+      "exits_summary": {
+        "identifier": {
+          "uuid": "166f929e-e312-4219-b038-4432ce1430f1",
+          "value": "Sinai Cement",
+          "image_id": "xptvsslb9smfwnonamlb",
+          "permalink": "sinai-cement",
+          "entity_def_id": "organization"
+        }
+      },
+      "partnership_announcements": [],
+      "bombora_surge_list": [],
+      "diversity_spotlight_investments_list": [],
+      "builtwith_tech_used_list": [
+        {
+          "identifier": {
+            "uuid": "28654445-17a4-4667-8a53-4560f6143e57",
+            "value": "SPF",
+            "entity_def_id": "builtwith_technology"
+          },
+          "technology_category": [
+            "mx"
+          ],
+          "num_companies_using": 999981
+        },
+        {
+          "identifier": {
+            "uuid": "cf3e732d-2ada-4f4e-94af-faa2edb426d5",
+            "value": "IPv6",
+            "entity_def_id": "builtwith_technology"
+          },
+          "technology_category": [
+            "server"
+          ],
+          "num_companies_using": 837012
+        },
+        {
+          "identifier": {
+            "uuid": "35e7543b-145d-4c62-a8d1-e1a2a59970ae",
+            "value": "Microsoft Exchange Online",
+            "entity_def_id": "builtwith_technology"
+          },
+          "technology_category": [
+            "mx"
+          ],
+          "num_companies_using": 793079
+        },
+        {
+          "identifier": {
+            "uuid": "196ff5d1-efb2-45ab-8493-4d4a1be91262",
+            "value": "Office 365 Mail",
+            "entity_def_id": "builtwith_technology"
+          },
+          "technology_category": [
+            "mx"
+          ],
+          "num_companies_using": 771684
+        },
+        {
+          "identifier": {
+            "uuid": "600e4907-4f7f-434a-9248-aeae7838deba",
+            "value": "French Server Location",
+            "entity_def_id": "builtwith_technology"
+          },
+          "technology_category": [
+            "hosting"
+          ],
+          "num_companies_using": 116700
+        },
+        {
+          "identifier": {
+            "uuid": "98623279-b5c6-40df-9b71-0d834792d24e",
+            "value": "Nameshield",
+            "entity_def_id": "builtwith_technology"
+          },
+          "technology_category": [
+            "ns"
+          ],
+          "num_companies_using": 586
+        }
+      ],
+      "funding_rounds_summary": {
+        "identifier": {
+          "uuid": "166f929e-e312-4219-b038-4432ce1430f1",
+          "value": "Sinai Cement",
+          "image_id": "xptvsslb9smfwnonamlb",
+          "permalink": "sinai-cement",
+          "entity_def_id": "organization"
+        },
+        "last_funding_type": "post_ipo_equity",
+        "last_funding_at": "2025-06-12",
+        "funding_total": {
+          "value": 1682007520,
+          "currency": "EGP",
+          "value_usd": 33792962
+        },
+        "num_funding_rounds": 1
+      },
+      "org_similarity_list": [],
+      "ipo_prediction": [],
+      "acquisitions_summary": {
+        "identifier": {
+          "uuid": "166f929e-e312-4219-b038-4432ce1430f1",
+          "value": "Sinai Cement",
+          "image_id": "xptvsslb9smfwnonamlb",
+          "permalink": "sinai-cement",
+          "entity_def_id": "organization"
+        }
+      },
+      "advisors_summary": {
+        "identifier": {
+          "uuid": "166f929e-e312-4219-b038-4432ce1430f1",
+          "value": "Sinai Cement",
+          "image_id": "xptvsslb9smfwnonamlb",
+          "permalink": "sinai-cement",
+          "entity_def_id": "organization"
+        }
+      },
+      "acquisitions_list": [],
+      "exits_headline": {},
+      "investments_summary": {
+        "identifier": {
+          "uuid": "166f929e-e312-4219-b038-4432ce1430f1",
+          "value": "Sinai Cement",
+          "image_id": "xptvsslb9smfwnonamlb",
+          "permalink": "sinai-cement",
+          "entity_def_id": "organization"
+        }
+      },
+      "acquired_by_fields": {},
+      "research_insight_text_link": {},
+      "acquisition_prediction": [
+        {
+          "generated_on": "2025-09-22",
+          "identifier": {
+            "uuid": "98183298-ed2c-44bb-a624-7cba0eedb718",
+            "value": "Acquisition Prediction 2025-09-22",
+            "image_id": "2e0041cb673f4c938f34eca032fa0327",
+            "entity_def_id": "acquisition_prediction"
+          },
+          "probability_score": 0.00001,
+          "runway_speculation": {
+            "uuid": "ba851a37-02a5-455a-b9fc-dbcae160e3da",
+            "value": "Post-IPO Equity - Sinai Cement",
+            "image_id": "xptvsslb9smfwnonamlb",
+            "permalink": "sinai-cement-post-ipo-equity--ba851a37",
+            "entity_def_id": "funding_round"
+          },
+          "created_at": "2025-09-22T21:52:54Z",
+          "updated_at": "2025-09-22T21:52:54Z",
+          "probability_tier": "p500_negative_high",
+          "growth_insight": {
+            "uuid": "9e263a2e-1e8c-4de3-9516-b4bd3a8672c0",
+            "value": "Growth Insight 2025-08-25",
+            "image_id": "5084654e06b74f8e91be2b078888e701",
+            "entity_def_id": "growth_insight"
+          }
+        }
+      ],
+      "sub_organizations_headline": {},
+      "layoff_list": [],
+      "growth_and_heat": {
+        "heat_score_history": {
+          "periods": {
+            "i1": {
+              "values": [
+                56,
+                56,
+                56,
+                56,
+                56,
+                56,
+                56,
+                56,
+                56,
+                56,
+                56,
+                57,
+                57,
+                57,
+                57,
+                57,
+                57,
+                58,
+                58,
+                58,
+                58,
+                58,
+                58,
+                58,
+                58,
+                57,
+                58,
+                58,
+                58,
+                58,
+                58,
+                58,
+                58,
+                59,
+                59,
+                59,
+                59,
+                59,
+                59,
+                59,
+                59,
+                60,
+                60,
+                60,
+                60,
+                60,
+                60,
+                60,
+                60,
+                60,
+                61,
+                61,
+                61,
+                61,
+                61,
+                61,
+                61,
+                61,
+                62,
+                62,
+                62,
+                62,
+                62,
+                62,
+                62,
+                63,
+                63,
+                63,
+                63,
+                63,
+                63,
+                60,
+                60,
+                60,
+                60,
+                60,
+                60,
+                60,
+                61,
+                61,
+                61,
+                61,
+                61,
+                61,
+                61,
+                62,
+                62,
+                62,
+                62,
+                62
+              ],
+              "interval": 1
+            },
+            "i2": {
+              "values": [
+                56,
+                56,
+                56,
+                56,
+                56,
+                57,
+                57,
+                57,
+                58,
+                58,
+                58,
+                58,
+                58,
+                58,
+                58,
+                58,
+                59,
+                59,
+                59,
+                59,
+                60,
+                60,
+                60,
+                60,
+                60,
+                61,
+                61,
+                61,
+                61,
+                62,
+                62,
+                62,
+                63,
+                63,
+                63,
+                62,
+                60,
+                60,
+                60,
+                61,
+                61,
+                61,
+                62,
+                62,
+                62,
+                63,
+                63,
+                64,
+                64,
+                64,
+                65,
+                65,
+                64,
+                65,
+                65,
+                66,
+                66,
+                66,
+                67,
+                67,
+                66,
+                66,
+                66,
+                67,
+                67,
+                68,
+                68,
+                68,
+                69,
+                69,
+                69,
+                70,
+                68,
+                69,
+                69,
+                69,
+                68,
+                68,
+                69,
+                69,
+                69,
+                70,
+                69,
+                68,
+                69,
+                67,
+                66,
+                64,
+                65,
+                65,
+                65
+              ],
+              "interval": 2
+            },
+            "i4": {
+              "values": [
+                56,
+                56,
+                56,
+                57,
+                58,
+                58,
+                58,
+                58,
+                59,
+                59,
+                60,
+                60,
+                61,
+                61,
+                62,
+                62,
+                63,
+                62,
+                60,
+                61,
+                61,
+                62,
+                63,
+                64,
+                64,
+                65,
+                65,
+                65,
+                66,
+                67,
+                66,
+                67,
+                67,
+                68,
+                69,
+                70,
+                69,
+                69,
+                68,
+                69,
+                69,
+                69,
+                68,
+                65,
+                65,
+                65,
+                66,
+                67,
+                67,
+                68,
+                68,
+                69,
+                66,
+                64,
+                65,
+                65,
+                66,
+                67,
+                68,
+                68,
+                69,
+                69,
+                70,
+                69,
+                69,
+                70,
+                70,
+                71,
+                72,
+                73,
+                71,
+                72,
+                73,
+                73,
+                74,
+                75,
+                75,
+                75,
+                76,
+                76,
+                77,
+                77,
+                77,
+                75,
+                73,
+                74,
+                75,
+                76,
+                77,
+                78,
+                80,
+                80
+              ],
+              "interval": 4
+            },
+            "i7": {
+              "values": [
+                56,
+                56,
+                58,
+                58,
+                58,
+                59,
+                60,
+                61,
+                62,
+                63,
+                60,
+                61,
+                62,
+                64,
+                64,
+                65,
+                66,
+                66,
+                67,
+                69,
+                69,
+                69,
+                69,
+                69,
+                67,
+                65,
+                66,
+                67,
+                68,
+                69,
+                64,
+                65,
+                66,
+                68,
+                69,
+                70,
+                69,
+                70,
+                71,
+                72,
+                72,
+                73,
+                74,
+                75,
+                75,
+                76,
+                77,
+                75,
+                73,
+                75,
+                77,
+                79,
+                80,
+                80,
+                79,
+                81,
+                85,
+                88,
+                88,
+                90,
+                91,
+                89,
+                84,
+                66,
+                24,
+                22,
+                24,
+                24,
+                17,
+                18,
+                18,
+                19,
+                14,
+                14,
+                13,
+                13,
+                8,
+                8,
+                8,
+                5,
+                5,
+                5,
+                6,
+                8,
+                9,
+                10,
+                12,
+                14,
+                16,
+                18,
+                18,
+                16,
+                17,
+                16,
+                12,
+                11,
+                9,
+                9,
+                10,
+                11,
+                10,
+                8,
+                9,
+                9,
+                10
+              ],
+              "interval": 7
+            },
+            "i18": {
+              "values": [
+                56,
+                58,
+                60,
+                62,
+                61,
+                64,
+                66,
+                68,
+                69,
+                67,
+                66,
+                67,
+                66,
+                69,
+                70,
+                72,
+                74,
+                76,
+                75,
+                76,
+                80,
+                81,
+                88,
+                90,
+                71,
+                23,
+                20,
+                18,
+                14,
+                11,
+                7,
+                5,
+                8,
+                12,
+                17,
+                17,
+                14,
+                10,
+                10,
+                9,
+                10,
+                6,
+                8,
+                13,
+                17,
+                15,
+                11,
+                10,
+                11,
+                7,
+                8,
+                10,
+                8,
+                9,
+                12,
+                9,
+                11,
+                10,
+                11,
+                12,
+                14,
+                16,
+                16,
+                18,
+                19,
+                17,
+                14,
+                13,
+                15,
+                15,
+                18,
+                19,
+                17,
+                15,
+                16,
+                13,
+                10,
+                12,
+                11,
+                9,
+                10,
+                8,
+                7,
+                11,
+                14,
+                13,
+                1,
+                2,
+                5,
+                8,
+                8,
+                6,
+                1,
+                1,
+                1,
+                2,
+                3,
+                5,
+                6,
+                6,
+                4,
+                5
+              ],
+              "interval": 18
+            },
+            "i36": {
+              "values": [
+                56,
+                61,
+                63,
+                67,
+                68,
+                67,
+                67,
+                71,
+                75,
+                76,
+                81,
+                89,
+                47,
+                19,
+                12,
+                6,
+                10,
+                17,
+                12,
+                10,
+                8,
+                10,
+                16,
+                10,
+                9,
+                9,
+                9,
+                10,
+                11,
+                12,
+                15,
+                17,
+                18,
+                13,
+                15,
+                18,
+                16,
+                14,
+                11,
+                10,
+                9,
+                9,
+                13,
+                2,
+                7,
+                7,
+                1,
+                2,
+                4,
+                6,
+                5,
+                6
+              ],
+              "interval": 36
+            }
+          }
+        },
+        "growth_score_delta_d90": -1,
+        "growth_score_history": {
+          "periods": {
+            "i1": {
+              "values": [
+                49,
+                49,
+                49,
+                49,
+                49,
+                49,
+                49,
+                49,
+                49,
+                49,
+                49,
+                49,
+                49,
+                49,
+                49,
+                49,
+                49,
+                49,
+                49,
+                49,
+                49,
+                49,
+                49,
+                49,
+                49,
+                49,
+                49,
+                49,
+                49,
+                49,
+                49,
+                49,
+                49,
+                49,
+                49,
+                49,
+                49,
+                49,
+                49,
+                49,
+                49,
+                49,
+                49,
+                49,
+                49,
+                49,
+                49,
+                49,
+                50,
+                50,
+                50,
+                50,
+                50,
+                50,
+                50,
+                50,
+                50,
+                50,
+                50,
+                50,
+                50,
+                50,
+                50,
+                50,
+                50,
+                50,
+                50,
+                50,
+                50,
+                50,
+                50,
+                49,
+                49,
+                50,
+                50,
+                50,
+                50,
+                50,
+                50,
+                50,
+                50,
+                50,
+                50,
+                50,
+                50,
+                50,
+                50,
+                50,
+                50,
+                50
+              ],
+              "interval": 1
+            },
+            "i2": {
+              "values": [
+                49,
+                49,
+                49,
+                49,
+                49,
+                49,
+                49,
+                49,
+                49,
+                49,
+                49,
+                49,
+                49,
+                49,
+                49,
+                49,
+                49,
+                49,
+                49,
+                49,
+                49,
+                49,
+                49,
+                49,
+                50,
+                50,
+                50,
+                50,
+                50,
+                50,
+                50,
+                50,
+                50,
+                50,
+                50,
+                50,
+                50,
+                50,
+                50,
+                50,
+                50,
+                50,
+                50,
+                50,
+                50,
+                50,
+                50,
+                50,
+                50,
+                50,
+                50,
+                50,
+                50,
+                50,
+                50,
+                50,
+                50,
+                50,
+                51,
+                51,
+                51,
+                55,
+                61,
+                62,
+                62,
+                63,
+                63,
+                63,
+                63,
+                64,
+                64,
+                64,
+                64,
+                65,
+                65,
+                65,
+                65,
+                65,
+                65,
+                65,
+                66,
+                66,
+                66,
+                66,
+                66,
+                66,
+                66,
+                66,
+                66,
+                66,
+                66
+              ],
+              "interval": 2
+            },
+            "i4": {
+              "values": [
+                49,
+                49,
+                49,
+                49,
+                49,
+                49,
+                49,
+                49,
+                49,
+                49,
+                49,
+                49,
+                50,
+                50,
+                50,
+                50,
+                50,
+                50,
+                50,
+                50,
+                50,
+                50,
+                50,
+                50,
+                50,
+                50,
+                50,
+                50,
+                50,
+                51,
+                53,
+                61,
+                62,
+                63,
+                63,
+                64,
+                65,
+                65,
+                65,
+                65,
+                66,
+                66,
+                66,
+                66,
+                66,
+                66,
+                67,
+                67,
+                68,
+                68,
+                70,
+                71,
+                72,
+                73,
+                74,
+                75,
+                76,
+                77,
+                78,
+                78,
+                79,
+                80,
+                81,
+                81,
+                82,
+                83,
+                84,
+                85,
+                86,
+                86,
+                87,
+                88,
+                88,
+                89,
+                90,
+                90,
+                91,
+                91,
+                92,
+                92,
+                93,
+                93,
+                93,
+                93,
+                93,
+                94,
+                94,
+                94,
+                95,
+                95,
+                96,
+                96
+              ],
+              "interval": 4
+            },
+            "i7": {
+              "values": [
+                49,
+                49,
+                49,
+                49,
+                49,
+                49,
+                49,
+                50,
+                50,
+                50,
+                50,
+                50,
+                50,
+                50,
+                50,
+                50,
+                50,
+                55,
+                62,
+                63,
+                64,
+                65,
+                65,
+                66,
+                66,
+                66,
+                67,
+                67,
+                69,
+                71,
+                72,
+                74,
+                76,
+                78,
+                79,
+                80,
+                81,
+                83,
+                85,
+                86,
+                87,
+                88,
+                89,
+                90,
+                91,
+                92,
+                93,
+                93,
+                93,
+                94,
+                95,
+                95,
+                96,
+                96,
+                96,
+                95,
+                94,
+                93,
+                92,
+                91,
+                90,
+                88,
+                85,
+                74,
+                70,
+                68,
+                66,
+                64,
+                63,
+                61,
+                60,
+                59,
+                56,
+                54,
+                52,
+                51,
+                51,
+                51,
+                51,
+                50,
+                50,
+                50,
+                50,
+                50,
+                50,
+                49,
+                49,
+                48,
+                47,
+                32,
+                27,
+                27,
+                27,
+                26,
+                26,
+                26,
+                26,
+                26,
+                26,
+                26,
+                26,
+                25,
+                25,
+                25,
+                25
+              ],
+              "interval": 7
+            },
+            "i18": {
+              "values": [
+                49,
+                49,
+                49,
+                50,
+                50,
+                50,
+                52,
+                63,
+                65,
+                66,
+                67,
+                71,
+                75,
+                79,
+                83,
+                86,
+                89,
+                92,
+                93,
+                95,
+                96,
+                95,
+                93,
+                90,
+                79,
+                68,
+                63,
+                60,
+                55,
+                51,
+                51,
+                50,
+                50,
+                49,
+                42,
+                27,
+                26,
+                26,
+                26,
+                25,
+                25,
+                24,
+                23,
+                22,
+                20,
+                1,
+                1,
+                1,
+                1,
+                0,
+                0,
+                1,
+                0,
+                1,
+                1,
+                0,
+                1,
+                0,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                0,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                0,
+                0,
+                0,
+                1,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "interval": 18
+            },
+            "i36": {
+              "values": [
+                49,
+                50,
+                50,
+                58,
+                66,
+                69,
+                77,
+                85,
+                91,
+                94,
+                95,
+                91,
+                74,
+                61,
+                53,
+                50,
+                50,
+                34,
+                26,
+                26,
+                24,
+                23,
+                11,
+                1,
+                1,
+                1,
+                0,
+                1,
+                0,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                0,
+                1,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "interval": 36
+            }
+          }
+        },
+        "growth_trend_365": {
+          "periods": {
+            "i1": {
+              "values": [
+                -49,
+                -49,
+                -49,
+                -49,
+                -49,
+                -49,
+                -49,
+                -49,
+                -49,
+                -49,
+                -49,
+                -49,
+                -49,
+                -49,
+                -49,
+                -49,
+                -49,
+                -49,
+                -49,
+                -49,
+                -48,
+                -48,
+                -48,
+                -48,
+                -48,
+                -48,
+                -48,
+                -48,
+                -48,
+                -48,
+                -48,
+                -48,
+                -48,
+                -47,
+                -47,
+                -47,
+                -47,
+                -47,
+                -47,
+                -47,
+                -47,
+                -47,
+                -47,
+                -47,
+                -46,
+                -46,
+                -46,
+                -46,
+                -46,
+                -46,
+                -46,
+                -46,
+                -46,
+                -45,
+                -45,
+                -45,
+                -45,
+                -45,
+                -45,
+                -45,
+                -44,
+                -44,
+                -44,
+                -44,
+                -43,
+                -43,
+                -43,
+                -43,
+                -43,
+                -42,
+                -42,
+                -42,
+                -42,
+                -42,
+                -41,
+                -41,
+                -40,
+                -32,
+                -32,
+                -32,
+                -31,
+                -31,
+                -31,
+                -30,
+                -30,
+                -30,
+                -29,
+                -29,
+                -28,
+                -28
+              ],
+              "interval": 1
+            },
+            "i2": {
+              "values": [
+                -49,
+                -49,
+                -49,
+                -49,
+                -49,
+                -49,
+                -49,
+                -49,
+                -49,
+                -49,
+                -48,
+                -48,
+                -48,
+                -48,
+                -48,
+                -48,
+                -47,
+                -47,
+                -47,
+                -47,
+                -47,
+                -47,
+                -46,
+                -46,
+                -46,
+                -46,
+                -45,
+                -45,
+                -45,
+                -45,
+                -44,
+                -44,
+                -43,
+                -43,
+                -42,
+                -42,
+                -42,
+                -41,
+                -36,
+                -32,
+                -31,
+                -30,
+                -30,
+                -29,
+                -28,
+                -27,
+                -26,
+                -25,
+                -25,
+                -24,
+                -23,
+                -23,
+                -22,
+                -22,
+                -21,
+                -20,
+                -20,
+                -19,
+                -19,
+                -18,
+                -18,
+                -10,
+                0,
+                3,
+                4,
+                5,
+                7,
+                8,
+                9,
+                11,
+                13,
+                15,
+                16,
+                17,
+                19,
+                21,
+                22,
+                24,
+                26,
+                28,
+                28,
+                29,
+                29,
+                29,
+                29,
+                29,
+                29,
+                29,
+                29,
+                30,
+                30
+              ],
+              "interval": 2
+            },
+            "i4": {
+              "values": [
+                -49,
+                -49,
+                -49,
+                -49,
+                -49,
+                -48,
+                -48,
+                -48,
+                -47,
+                -47,
+                -47,
+                -46,
+                -46,
+                -45,
+                -45,
+                -44,
+                -43,
+                -42,
+                -41,
+                -34,
+                -31,
+                -29,
+                -28,
+                -26,
+                -24,
+                -23,
+                -22,
+                -20,
+                -19,
+                -18,
+                -14,
+                1,
+                4,
+                7,
+                10,
+                14,
+                16,
+                20,
+                23,
+                27,
+                28,
+                29,
+                29,
+                29,
+                29,
+                30,
+                31,
+                32,
+                34,
+                36,
+                38,
+                41,
+                43,
+                45,
+                48,
+                50,
+                52,
+                55,
+                57,
+                60,
+                62,
+                65,
+                68,
+                72,
+                79,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100
+              ],
+              "interval": 4
+            },
+            "i7": {
+              "values": [
+                -49,
+                -49,
+                -49,
+                -48,
+                -48,
+                -47,
+                -46,
+                -46,
+                -45,
+                -43,
+                -41,
+                -31,
+                -29,
+                -26,
+                -23,
+                -21,
+                -19,
+                -11,
+                4,
+                9,
+                14,
+                20,
+                26,
+                29,
+                29,
+                29,
+                31,
+                33,
+                37,
+                41,
+                45,
+                49,
+                53,
+                57,
+                62,
+                67,
+                74,
+                98,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100
+              ],
+              "interval": 7
+            },
+            "i18": {
+              "values": [
+                -49,
+                -48,
+                -46,
+                -44,
+                -33,
+                -24,
+                -16,
+                8,
+                22,
+                29,
+                32,
+                41,
+                52,
+                63,
+                89,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                35,
+                20,
+                -16,
+                -17,
+                -56,
+                -66,
+                -49,
+                -68,
+                -54,
+                -44,
+                -55,
+                -25,
+                -62,
+                -26,
+                -26,
+                0,
+                39,
+                54,
+                -3,
+                -33,
+                -44,
+                44,
+                100,
+                91,
+                41,
+                100,
+                72,
+                0,
+                0,
+                0,
+                0,
+                100,
+                100,
+                77,
+                73,
+                97,
+                77,
+                11,
+                80,
+                100,
+                97,
+                -16,
+                -73,
+                -23,
+                35,
+                32,
+                4,
+                0,
+                0,
+                0,
+                0,
+                -61,
+                -54,
+                -26,
+                -35,
+                -58,
+                -37
+              ],
+              "interval": 18
+            },
+            "i36": {
+              "values": [
+                -49,
+                -45,
+                -29,
+                -4,
+                25,
+                37,
+                57,
+                95,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                68,
+                2,
+                -37,
+                -58,
+                -61,
+                -49,
+                -43,
+                -26,
+                20,
+                26,
+                -38,
+                72,
+                66,
+                86,
+                0,
+                0,
+                100,
+                75,
+                87,
+                46,
+                98,
+                -44,
+                6,
+                18,
+                0,
+                0,
+                -58,
+                -30,
+                -43,
+                -8
+              ],
+              "interval": 36
+            }
+          }
+        },
+        "heat_score": 56,
+        "heat_trend_365": {
+          "periods": {
+            "i1": {
+              "values": [
+                -28,
+                -27,
+                -27,
+                -27,
+                -27,
+                -27,
+                -26,
+                -26,
+                -27,
+                -27,
+                -27,
+                -28,
+                -28,
+                -27,
+                -27,
+                -23,
+                -24,
+                -24,
+                -24,
+                -24,
+                -25,
+                -25,
+                -26,
+                -26,
+                -26,
+                -27,
+                -28,
+                -28,
+                -28,
+                -29,
+                -29,
+                -29,
+                -30,
+                -30,
+                -30,
+                -31,
+                -31,
+                -30,
+                -31,
+                -31,
+                -28,
+                -28,
+                -28,
+                -29,
+                -29,
+                -29,
+                -29,
+                -29,
+                -30,
+                -30,
+                -30,
+                -30,
+                -30,
+                -30,
+                -29,
+                -29,
+                -29,
+                -30,
+                -30,
+                -30,
+                -31,
+                -31,
+                -30,
+                -26,
+                -26,
+                -27,
+                -27,
+                -27,
+                -27,
+                -24,
+                -23,
+                -27,
+                -27,
+                -27,
+                -27,
+                -23,
+                -23,
+                -24,
+                -24,
+                -24,
+                -24,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100
+              ],
+              "interval": 1
+            },
+            "i2": {
+              "values": [
+                -28,
+                -27,
+                -27,
+                -26,
+                -27,
+                -27,
+                -27,
+                -25,
+                -24,
+                -24,
+                -25,
+                -26,
+                -26,
+                -28,
+                -28,
+                -29,
+                -30,
+                -30,
+                -30,
+                -31,
+                -28,
+                -28,
+                -29,
+                -29,
+                -30,
+                -30,
+                -30,
+                -29,
+                -29,
+                -30,
+                -31,
+                -28,
+                -26,
+                -27,
+                -25,
+                -25,
+                -27,
+                -25,
+                -23,
+                -24,
+                38,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100
+              ],
+              "interval": 2
+            },
+            "i4": {
+              "values": [
+                -28,
+                -26,
+                -27,
+                -26,
+                -24,
+                -25,
+                -27,
+                -29,
+                -30,
+                -31,
+                -28,
+                -29,
+                -30,
+                -29,
+                -30,
+                -29,
+                -27,
+                -25,
+                -26,
+                -24,
+                69,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100
+              ],
+              "interval": 4
+            },
+            "i7": {
+              "values": [
+                -28,
+                -27,
+                -24,
+                -27,
+                -29,
+                -30,
+                -29,
+                -30,
+                -30,
+                -26,
+                -25,
+                29,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                81,
+                21,
+                63,
+                75,
+                63,
+                32,
+                39,
+                48,
+                48,
+                18,
+                14,
+                39,
+                57,
+                7,
+                5,
+                -1,
+                -26,
+                -29,
+                -30,
+                -4,
+                1,
+                3,
+                5,
+                10,
+                14,
+                23,
+                46,
+                56,
+                39,
+                34,
+                23,
+                8,
+                4,
+                -7,
+                -13,
+                -8,
+                2,
+                -6,
+                -22,
+                -23,
+                -20,
+                -17
+              ],
+              "interval": 7
+            },
+            "i18": {
+              "values": [
+                -28,
+                -27,
+                -30,
+                -28,
+                38,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                85,
+                55,
+                46,
+                47,
+                18,
+                35,
+                -6,
+                -27,
+                1,
+                8,
+                30,
+                46,
+                17,
+                -5,
+                -4,
+                -19,
+                -21,
+                -42,
+                -36,
+                -21,
+                -2,
+                -10,
+                -5,
+                -19,
+                -20,
+                -36,
+                -42,
+                -30,
+                -36,
+                -24,
+                -17,
+                -12,
+                6,
+                -12,
+                13,
+                16,
+                29,
+                47,
+                54,
+                31,
+                20,
+                43,
+                100,
+                93,
+                69,
+                39,
+                67,
+                96,
+                100,
+                100,
+                100,
+                96,
+                59,
+                54,
+                31,
+                36,
+                45,
+                18,
+                64,
+                100,
+                100,
+                100,
+                25,
+                45,
+                83,
+                100,
+                100,
+                89,
+                19,
+                26,
+                32,
+                38,
+                50,
+                75,
+                95,
+                81,
+                67,
+                82
+              ],
+              "interval": 18
+            },
+            "i36": {
+              "values": [
+                -28,
+                -29,
+                69,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                70,
+                47,
+                26,
+                -17,
+                5,
+                38,
+                6,
+                -11,
+                -31,
+                -28,
+                -6,
+                -12,
+                -28,
+                -36,
+                -30,
+                -15,
+                -3,
+                15,
+                38,
+                43,
+                31,
+                97,
+                54,
+                82,
+                100,
+                98,
+                56,
+                34,
+                31,
+                82,
+                100,
+                35,
+                91,
+                95,
+                23,
+                35,
+                62,
+                88,
+                78,
+                92
+              ],
+              "interval": 36
+            }
+          }
+        },
+        "growth_score": 49,
+        "heat_score_delta_d90": -6
+      },
+      "bombora_summary": {
+        "identifier": {
+          "uuid": "166f929e-e312-4219-b038-4432ce1430f1",
+          "value": "Sinai Cement",
+          "image_id": "xptvsslb9smfwnonamlb",
+          "permalink": "sinai-cement",
+          "entity_def_id": "organization"
+        }
+      },
+      "semrush_rank_headline": {},
+      "frequently_asked_questions_latest_funding_round": {
+        "identifier": {
+          "uuid": "166f929e-e312-4219-b038-4432ce1430f1",
+          "value": "Sinai Cement",
+          "image_id": "xptvsslb9smfwnonamlb",
+          "permalink": "sinai-cement",
+          "entity_def_id": "organization"
+        },
+        "last_funding_at": "2025-06-12",
+        "last_funding_type": "post_ipo_equity",
+        "num_funding_rounds": 1
+      },
+      "apptopia_app_overview_list_free": [],
+      "contacts": {
+        "num_contact_emails": 3,
+        "num_contacts": 3
+      },
+      "product_launches": [],
+      "alumni_summary": {
+        "identifier": {
+          "uuid": "166f929e-e312-4219-b038-4432ce1430f1",
+          "value": "Sinai Cement",
+          "image_id": "xptvsslb9smfwnonamlb",
+          "permalink": "sinai-cement",
+          "entity_def_id": "organization"
+        }
+      },
+      "apptopia_summary": {
+        "identifier": {
+          "uuid": "166f929e-e312-4219-b038-4432ce1430f1",
+          "value": "Sinai Cement",
+          "image_id": "xptvsslb9smfwnonamlb",
+          "permalink": "sinai-cement",
+          "entity_def_id": "organization"
+        }
+      },
+      "product_similarity_target_org_list": [],
+      "social_fields": {
+        "linkedin": {
+          "value": "https://www.linkedin.com/company/sinai-cement-co"
+        }
+      },
+      "investments_headline": {},
+      "investment_thesis": {
+        "lookup": [],
+        "properties": {
+          "identifier": {
+            "uuid": "166f929e-e312-4219-b038-4432ce1430f1",
+            "value": "Sinai Cement",
+            "image_id": "xptvsslb9smfwnonamlb",
+            "permalink": "sinai-cement",
+            "entity_def_id": "organization"
+          }
+        },
+        "data": []
+      },
+      "diversity_spotlight_investments_summary": {
+        "identifier": {
+          "uuid": "166f929e-e312-4219-b038-4432ce1430f1",
+          "value": "Sinai Cement",
+          "image_id": "xptvsslb9smfwnonamlb",
+          "permalink": "sinai-cement",
+          "entity_def_id": "organization"
+        }
+      },
+      "contact_fields": {
+        "contact_email": "rec@sinaicement.com",
+        "phone_number": "+202 27262342"
+      },
+      "growth_prediction": [],
+      "sub_organizations_summary": {
+        "identifier": {
+          "uuid": "166f929e-e312-4219-b038-4432ce1430f1",
+          "value": "Sinai Cement",
+          "image_id": "xptvsslb9smfwnonamlb",
+          "permalink": "sinai-cement",
+          "entity_def_id": "organization"
+        }
+      },
+      "overview_description": {
+        "description": "Sinai Cement is a cement manufacturing company that produces cement packing bags. They provide cement products for residential communities. They produce cement using limestone, clay, and sand raw materials."
+      },
+      "current_employees_featured_order_field": [],
+      "company_about_fields2": {
+        "website": {
+          "value": "https://www.sinaicement.net"
+        },
+        "ipo_status": "public",
+        "num_employees_enum": "c_05001_10000",
+        "last_funding_type": "post_ipo_equity",
+        "location_identifiers": [
+          {
+            "uuid": "f5de654e-be69-318e-90b9-96abc102f5e1",
+            "value": "Cairo",
+            "permalink": "cairo-al-qahirah",
+            "entity_def_id": "location",
+            "location_type": "city"
+          },
+          {
+            "uuid": "73fc0c82-c43d-8035-0da0-6245c0c96245",
+            "value": "Al Qahirah",
+            "permalink": "al-qahirah-egypt",
+            "entity_def_id": "location",
+            "location_type": "region"
+          },
+          {
+            "uuid": "7d6eef02-5784-2dce-08f7-69705f85e35f",
+            "value": "Egypt",
+            "permalink": "egypt",
+            "entity_def_id": "location",
+            "location_type": "country"
+          },
+          {
+            "uuid": "5b194c3b-3018-b47d-f611-ab142cdfd74c",
+            "value": "Africa",
+            "permalink": "africa",
+            "entity_def_id": "location",
+            "location_type": "continent"
+          }
+        ],
+        "rank_org_company": 220639
+      },
+      "sub_organizations_image_list": [],
+      "frequently_asked_questions_headquarters_location": {
+        "identifier": {
+          "uuid": "166f929e-e312-4219-b038-4432ce1430f1",
+          "value": "Sinai Cement",
+          "image_id": "xptvsslb9smfwnonamlb",
+          "permalink": "sinai-cement",
+          "entity_def_id": "organization"
+        },
+        "location_identifiers": [
+          {
+            "uuid": "f5de654e-be69-318e-90b9-96abc102f5e1",
+            "value": "Cairo",
+            "permalink": "cairo-al-qahirah",
+            "entity_def_id": "location",
+            "location_type": "city"
+          },
+          {
+            "uuid": "73fc0c82-c43d-8035-0da0-6245c0c96245",
+            "value": "Al Qahirah",
+            "permalink": "al-qahirah-egypt",
+            "entity_def_id": "location",
+            "location_type": "region"
+          },
+          {
+            "uuid": "7d6eef02-5784-2dce-08f7-69705f85e35f",
+            "value": "Egypt",
+            "permalink": "egypt",
+            "entity_def_id": "location",
+            "location_type": "country"
+          },
+          {
+            "uuid": "5b194c3b-3018-b47d-f611-ab142cdfd74c",
+            "value": "Africa",
+            "permalink": "africa",
+            "entity_def_id": "location",
+            "location_type": "continent"
+          }
+        ]
+      },
+      "investors_headline": {},
+      "ipo_summary": {
+        "identifier": {
+          "uuid": "166f929e-e312-4219-b038-4432ce1430f1",
+          "value": "Sinai Cement",
+          "image_id": "xptvsslb9smfwnonamlb",
+          "permalink": "sinai-cement",
+          "entity_def_id": "organization"
+        },
+        "stock_link": {
+          "label": "EGX:SCEM",
+          "value": "https://www.google.com/finance?q=EGX:SCEM"
+        },
+        "went_public_on": "2000-03-07"
+      },
+      "ipqwery_summary": {
+        "identifier": {
+          "uuid": "166f929e-e312-4219-b038-4432ce1430f1",
+          "value": "Sinai Cement",
+          "image_id": "xptvsslb9smfwnonamlb",
+          "permalink": "sinai-cement",
+          "entity_def_id": "organization"
+        }
+      },
+      "awards": [],
+      "siftery_product_list": [],
+      "competitors_list": [],
+      "growth_knowledge": {
+        "lookup": [
+          {
+            "press_references": [
+              {
+                "uuid": "b0b1a99d-4c29-4291-b6d4-fd65747452b3",
+                "value": "Sinai Cement Company Completes EGP 1.68 Billion Capital Increase",
+                "posted_on": "2025-06-18",
+                "publisher": "globallegalchronicle.com",
+                "source_url": "https://globallegalchronicle.com/sinai-cement-company-completes-egp-1-68-billion-capital-increase/",
+                "entity_def_id": "press_reference",
+                "thumbnail_url": "https://globallegalchronicle.com/sinai-cement-company-completes-egp-1-68-billion-capital-increase/"
+              }
+            ],
+            "generated_on": "2025-08-25",
+            "identifier": {
+              "uuid": "9e263a2e-1e8c-4de3-9516-b4bd3a8672c0",
+              "value": "Growth Insight 2025-08-25",
+              "image_id": "5084654e06b74f8e91be2b078888e701",
+              "entity_def_id": "growth_insight"
+            },
+            "funding_raised": "c200_improving",
+            "finance": "c200_improving"
+          }
+        ],
+        "properties": {
+          "identifier": {
+            "uuid": "166f929e-e312-4219-b038-4432ce1430f1",
+            "value": "Sinai Cement",
+            "image_id": "xptvsslb9smfwnonamlb",
+            "permalink": "sinai-cement",
+            "entity_def_id": "organization"
+          },
+          "growth_insight_indicator": "growing"
+        },
+        "preview_properties": {
+          "growth_insight_description": {
+            "is_present": true,
+            "length": 929
+          },
+          "growth_insight_direction": {
+            "is_present": true
+          }
+        },
+        "data": [
+          {
+            "press_references": [
+              {
+                "uuid": "b0b1a99d-4c29-4291-b6d4-fd65747452b3",
+                "value": "Sinai Cement Company Completes EGP 1.68 Billion Capital Increase",
+                "posted_on": "2025-06-18",
+                "publisher": "globallegalchronicle.com",
+                "source_url": "https://globallegalchronicle.com/sinai-cement-company-completes-egp-1-68-billion-capital-increase/",
+                "entity_def_id": "press_reference",
+                "thumbnail_url": "https://globallegalchronicle.com/sinai-cement-company-completes-egp-1-68-billion-capital-increase/"
+              }
+            ],
+            "generated_on": "2025-08-25",
+            "identifier": {
+              "uuid": "9e263a2e-1e8c-4de3-9516-b4bd3a8672c0",
+              "value": "Growth Insight 2025-08-25",
+              "image_id": "5084654e06b74f8e91be2b078888e701",
+              "entity_def_id": "growth_insight"
+            },
+            "funding_raised": "c200_improving",
+            "finance": "c200_improving"
+          }
+        ]
+      },
+      "overview_fields_extended": {
+        "location_group_identifiers": [
+          {
+            "uuid": "4e8be435-c63a-4aff-8a2f-44a880d9c341",
+            "value": "Europe, Middle East, and Africa (EMEA)",
+            "permalink": "europe-middle-east-africa-emea",
+            "entity_def_id": "location",
+            "location_type": "group"
+          },
+          {
+            "uuid": "e0272206-3430-48cb-a5bc-1d4b3eafe15a",
+            "value": "Middle East",
+            "permalink": "middle-east",
+            "entity_def_id": "location",
+            "location_type": "group"
+          },
+          {
+            "uuid": "8cb7cad4-b7e4-4b28-a496-2ede3720cb19",
+            "value": "Middle East and North Africa (MENA)",
+            "permalink": "middle-east-and-north-africa-mena",
+            "entity_def_id": "location",
+            "location_type": "group"
+          },
+          {
+            "uuid": "994bd431-46d0-448f-8d24-7b259bda176b",
+            "value": "North Africa",
+            "permalink": "north-africa",
+            "entity_def_id": "location",
+            "location_type": "group"
+          },
+          {
+            "uuid": "4e8be435-c63a-4aff-8a2f-44a880d9c341",
+            "value": "Europe, Middle East, and Africa (EMEA)",
+            "permalink": "europe-middle-east-africa-emea",
+            "entity_def_id": "location",
+            "location_type": "group"
+          }
+        ],
+        "founded_on": {
+          "value": "1997-01-01",
+          "precision": "day"
+        },
+        "revenue_range": "r_00100000",
+        "operating_status": "active",
+        "legal_name": "Sinai Cement Company",
+        "last_funding_type": "post_ipo_equity",
+        "categories": [
+          {
+            "uuid": "92c7693b-bb7a-fa14-f760-a89a62c950e1",
+            "value": "Building Material",
+            "image_id": "b5f20bb6123f4862805a747c5fa94215",
+            "permalink": "building-material",
+            "entity_def_id": "category"
+          },
+          {
+            "uuid": "e4d83fbb-33f0-a6f0-1399-a68245e8f8ac",
+            "value": "Construction",
+            "image_id": "2bdf77b7fa3b4a23b8cd4efde324c254",
+            "permalink": "construction",
+            "entity_def_id": "category"
+          },
+          {
+            "uuid": "e811671c-168d-1fd2-36e5-df4e08a09f7c",
+            "value": "Manufacturing",
+            "image_id": "5084654e06b74f8e91be2b078888e701",
+            "permalink": "manufacturing",
+            "entity_def_id": "category"
+          }
+        ]
+      },
+      "overview_investor_fields": {},
+      "bombora_attribution": {},
+      "semrush_location_list": [],
+      "investors_list": [],
+      "siftery_summary": {
+        "identifier": {
+          "uuid": "166f929e-e312-4219-b038-4432ce1430f1",
+          "value": "Sinai Cement",
+          "image_id": "xptvsslb9smfwnonamlb",
+          "permalink": "sinai-cement",
+          "entity_def_id": "organization"
+        }
+      },
+      "acquired_by_summary": {
+        "identifier": {
+          "uuid": "166f929e-e312-4219-b038-4432ce1430f1",
+          "value": "Sinai Cement",
+          "image_id": "xptvsslb9smfwnonamlb",
+          "permalink": "sinai-cement",
+          "entity_def_id": "organization"
+        }
+      },
+      "ipo_fields": {
+        "stock_link": {
+          "label": "EGX:SCEM",
+          "value": "https://www.google.com/finance?q=EGX:SCEM"
+        },
+        "went_public_on": "2000-03-07"
+      },
+      "apptopia_app_overview_list_public": [],
+      "apptopia_sdk_list": [],
+      "trading_view": {},
+      "current_employees_image_list": [],
+      "frequently_asked_questions_investors": {
+        "identifier": {
+          "uuid": "166f929e-e312-4219-b038-4432ce1430f1",
+          "value": "Sinai Cement",
+          "image_id": "xptvsslb9smfwnonamlb",
+          "permalink": "sinai-cement",
+          "entity_def_id": "organization"
+        }
+      },
+      "funding_rounds_list": [
+        {
+          "identifier": {
+            "uuid": "ba851a37-02a5-455a-b9fc-dbcae160e3da",
+            "value": "Post-IPO Equity - Sinai Cement",
+            "image_id": "xptvsslb9smfwnonamlb",
+            "permalink": "sinai-cement-post-ipo-equity--ba851a37",
+            "entity_def_id": "funding_round"
+          },
+          "announced_on": "2025-06-12",
+          "money_raised": {
+            "value": 1682007520,
+            "currency": "EGP",
+            "value_usd": 33792962
+          },
+          "investment_type": "post_ipo_equity"
+        }
+      ],
+      "technology_highlights": {
+        "builtwith_num_technologies_used": 6
+      },
+      "funding_rounds_headline": {
+        "funding_total": {
+          "value": 1682007520,
+          "currency": "EGP",
+          "value_usd": 33792962
+        },
+        "num_funding_rounds": 1
+      },
+      "investments_list": [],
+      "exits_image_list": [],
+      "funds_headline": {},
+      "people_highlights": {
+        "num_contacts": 3
+      },
+      "semrush_attribution": {},
+      "frequently_asked_questions_similar_companies": {
+        "identifier": {
+          "uuid": "166f929e-e312-4219-b038-4432ce1430f1",
+          "value": "Sinai Cement",
+          "image_id": "xptvsslb9smfwnonamlb",
+          "permalink": "sinai-cement",
+          "entity_def_id": "organization"
+        }
+      },
+      "semrush_overview": {},
+      "org_category_ranks": {
+        "category_ranks": {
+          "92c7693b-bb7a-fa14-f760-a89a62c950e1": {
+            "rank": 897,
+            "count": 206082,
+            "pv_rank": 26181
+          },
+          "e4d83fbb-33f0-a6f0-1399-a68245e8f8ac": {
+            "rank": 3302,
+            "count": 408901,
+            "pv_rank": 60529
+          },
+          "e811671c-168d-1fd2-36e5-df4e08a09f7c": {
+            "rank": 17120,
+            "count": 715917,
+            "pv_rank": 155888
+          }
+        }
+      },
+      "current_valuation": [],
+      "legal_proceedings": [],
+      "current_employees_summary": {
+        "identifier": {
+          "uuid": "166f929e-e312-4219-b038-4432ce1430f1",
+          "value": "Sinai Cement",
+          "image_id": "xptvsslb9smfwnonamlb",
+          "permalink": "sinai-cement",
+          "entity_def_id": "organization"
+        }
+      },
+      "aberdeen_summary": {
+        "identifier": {
+          "uuid": "166f929e-e312-4219-b038-4432ce1430f1",
+          "value": "Sinai Cement",
+          "image_id": "xptvsslb9smfwnonamlb",
+          "permalink": "sinai-cement",
+          "entity_def_id": "organization"
+        }
+      },
+      "offices": [],
+      "overview_timeline": {
+        "count": 11,
+        "entities": [
+          {
+            "uuid": "1e0f45ee-552f-4a64-b70e-3396f8e6621b",
+            "properties": {
+              "identifier": {
+                "uuid": "1e0f45ee-552f-4a64-b70e-3396f8e6621b",
+                "value": "Sinai Cement Co Q2 Consol Profit Rises",
+                "entity_def_id": "press_reference"
+              },
+              "entity_def_id": "press_reference",
+              "activity_entities": [
+                {
+                  "uuid": "166f929e-e312-4219-b038-4432ce1430f1",
+                  "value": "Sinai Cement",
+                  "image_id": "xptvsslb9smfwnonamlb",
+                  "permalink": "sinai-cement",
+                  "entity_def_id": "organization"
+                }
+              ],
+              "activity_properties": {
+                "url": {
+                  "value": "https://www.tradingview.com/news/reuters.com,2025:newsml_FWN3U70SM:0-sinai-cement-co-q2-consol-profit-rises/"
+                },
+                "title": "Sinai Cement Co Q2 Consol Profit Rises",
+                "publisher": "Reuters",
+                "thumbnail_url": "https://www.tradingview.com/news/reuters.com,2025:newsml_FWN3U70SM:0-sinai-cement-co-q2-consol-profit-rises/"
+              },
+              "activity_date": "2025-08-17"
+            }
+          },
+          {
+            "uuid": "31d55c3c-9d4f-489b-aca1-8f0ad21f596c",
+            "properties": {
+              "identifier": {
+                "uuid": "31d55c3c-9d4f-489b-aca1-8f0ad21f596c",
+                "value": "Vicat Egypt Submits MTO To Acquire 22.4% Stake Of Sinai Cement- FRA",
+                "entity_def_id": "press_reference"
+              },
+              "entity_def_id": "press_reference",
+              "activity_entities": [
+                {
+                  "uuid": "166f929e-e312-4219-b038-4432ce1430f1",
+                  "value": "Sinai Cement",
+                  "image_id": "xptvsslb9smfwnonamlb",
+                  "permalink": "sinai-cement",
+                  "entity_def_id": "organization"
+                }
+              ],
+              "activity_properties": {
+                "url": {
+                  "value": "https://www.tradingview.com/news/reuters.com,2025:newsml_FWN3TJ1NR:0-vicat-egypt-submits-mto-to-acquire-22-4-stake-of-sinai-cement-fra/"
+                },
+                "title": "Vicat Egypt Submits MTO To Acquire 22.4% Stake Of Sinai Cement- FRA",
+                "publisher": "Reuters"
+              },
+              "activity_date": "2025-07-23"
+            }
+          },
+          {
+            "uuid": "e3aef1df-ecf3-454d-a55c-7e9d6186e8e5",
+            "properties": {
+              "identifier": {
+                "uuid": "e3aef1df-ecf3-454d-a55c-7e9d6186e8e5",
+                "value": "Saudi: City Cement appoints new Chairman, Vice Chairman",
+                "entity_def_id": "press_reference"
+              },
+              "entity_def_id": "press_reference",
+              "activity_entities": [
+                {
+                  "uuid": "166f929e-e312-4219-b038-4432ce1430f1",
+                  "value": "Sinai Cement",
+                  "image_id": "xptvsslb9smfwnonamlb",
+                  "permalink": "sinai-cement",
+                  "entity_def_id": "organization"
+                }
+              ],
+              "activity_properties": {
+                "url": {
+                  "value": "https://www.zawya.com/en/projects/construction/city-cement-appoints-new-chairman-vice-chairman-dz817imz"
+                },
+                "title": "Saudi: City Cement appoints new Chairman, Vice Chairman",
+                "author": "Mubasher",
+                "publisher": "Zawya.com"
+              },
+              "activity_date": "2025-06-24"
+            }
+          },
+          {
+            "uuid": "b0b1a99d-4c29-4291-b6d4-fd65747452b3",
+            "properties": {
+              "identifier": {
+                "uuid": "b0b1a99d-4c29-4291-b6d4-fd65747452b3",
+                "value": "Sinai Cement Company Completes EGP 1.68 Billion Capital Increase",
+                "entity_def_id": "press_reference"
+              },
+              "entity_def_id": "press_reference",
+              "activity_entities": [
+                {
+                  "uuid": "166f929e-e312-4219-b038-4432ce1430f1",
+                  "value": "Sinai Cement",
+                  "image_id": "xptvsslb9smfwnonamlb",
+                  "permalink": "sinai-cement",
+                  "entity_def_id": "organization"
+                }
+              ],
+              "activity_properties": {
+                "url": {
+                  "value": "https://globallegalchronicle.com/sinai-cement-company-completes-egp-1-68-billion-capital-increase/"
+                },
+                "title": "Sinai Cement Company Completes EGP 1.68 Billion Capital Increase",
+                "author": "June 18",
+                "publisher": "globallegalchronicle.com",
+                "thumbnail_url": "https://globallegalchronicle.com/sinai-cement-company-completes-egp-1-68-billion-capital-increase/"
+              },
+              "activity_date": "2025-06-18"
+            }
+          },
+          {
+            "uuid": "ba851a37-02a5-455a-b9fc-dbcae160e3da",
+            "properties": {
+              "identifier": {
+                "uuid": "ba851a37-02a5-455a-b9fc-dbcae160e3da",
+                "value": "Post-IPO Equity - Sinai Cement",
+                "image_id": "xptvsslb9smfwnonamlb",
+                "permalink": "sinai-cement-post-ipo-equity--ba851a37",
+                "entity_def_id": "funding_round"
+              },
+              "entity_def_id": "funding_round",
+              "activity_entities": [
+                {
+                  "role": "investee",
+                  "uuid": "166f929e-e312-4219-b038-4432ce1430f1",
+                  "value": "Sinai Cement",
+                  "image_id": "xptvsslb9smfwnonamlb",
+                  "permalink": "sinai-cement",
+                  "entity_def_id": "organization"
+                }
+              ],
+              "activity_properties": {
+                "money_raised": {
+                  "value": 1682007520,
+                  "currency": "EGP",
+                  "value_usd": 33792962
+                },
+                "investment_type": "post_ipo_equity"
+              },
+              "activity_date": "2025-06-12"
+            }
+          },
+          {
+            "uuid": "65cd68d0-7903-4508-8179-f73a475c3ac1",
+            "properties": {
+              "identifier": {
+                "uuid": "65cd68d0-7903-4508-8179-f73a475c3ac1",
+                "value": "Sinai Cement Q1 Consol Profit EGP 197.3 Million",
+                "entity_def_id": "press_reference"
+              },
+              "entity_def_id": "press_reference",
+              "activity_entities": [
+                {
+                  "uuid": "166f929e-e312-4219-b038-4432ce1430f1",
+                  "value": "Sinai Cement",
+                  "image_id": "xptvsslb9smfwnonamlb",
+                  "permalink": "sinai-cement",
+                  "entity_def_id": "organization"
+                }
+              ],
+              "activity_properties": {
+                "url": {
+                  "value": "https://www.tradingview.com/news/reuters.com,2025:newsml_FWN3RH56V:0-sinai-cement-q1-consol-profit-egp-197-3-million/"
+                },
+                "title": "Sinai Cement Q1 Consol Profit EGP 197.3 Million",
+                "publisher": "Reuters",
+                "thumbnail_url": "https://www.tradingview.com/news/reuters.com,2025:newsml_FWN3RH56V:0-sinai-cement-q1-consol-profit-egp-197-3-million/"
+              },
+              "activity_date": "2025-05-11"
+            }
+          },
+          {
+            "uuid": "ea704a31-4b90-4e25-826f-3cf3fa4bcd33",
+            "properties": {
+              "identifier": {
+                "uuid": "ea704a31-4b90-4e25-826f-3cf3fa4bcd33",
+                "value": "Qassim Cement Q4 Dividend Per Share SAR 0.8",
+                "entity_def_id": "press_reference"
+              },
+              "entity_def_id": "press_reference",
+              "activity_entities": [
+                {
+                  "uuid": "166f929e-e312-4219-b038-4432ce1430f1",
+                  "value": "Sinai Cement",
+                  "image_id": "xptvsslb9smfwnonamlb",
+                  "permalink": "sinai-cement",
+                  "entity_def_id": "organization"
+                }
+              ],
+              "activity_properties": {
+                "url": {
+                  "value": "https://www.tradingview.com/news/reuters.com,2025:newsml_FWN3Q11A9:0-qassim-cement-q4-dividend-per-share-sar-0-8/"
+                },
+                "title": "Qassim Cement Q4 Dividend Per Share SAR 0.8",
+                "publisher": "TradingView"
+              },
+              "activity_date": "2025-03-19"
+            }
+          },
+          {
+            "uuid": "24cb6536-58aa-410a-a20e-8b8a35f6a2b4",
+            "properties": {
+              "identifier": {
+                "uuid": "24cb6536-58aa-410a-a20e-8b8a35f6a2b4",
+                "value": "More news from Dow Jones Newswires",
+                "entity_def_id": "press_reference"
+              },
+              "entity_def_id": "press_reference",
+              "activity_entities": [
+                {
+                  "uuid": "166f929e-e312-4219-b038-4432ce1430f1",
+                  "value": "Sinai Cement",
+                  "image_id": "xptvsslb9smfwnonamlb",
+                  "permalink": "sinai-cement",
+                  "entity_def_id": "organization"
+                }
+              ],
+              "activity_properties": {
+                "url": {
+                  "value": "https://www.tradingview.com/news/DJN_DN20241109001032_20241109001032:0/"
+                },
+                "title": "More news from Dow Jones Newswires",
+                "publisher": "TradingView"
+              },
+              "activity_date": "2024-11-10"
+            }
+          },
+          {
+            "uuid": "bdd99741-a906-404c-8315-6f7b62b63504",
+            "properties": {
+              "identifier": {
+                "uuid": "bdd99741-a906-404c-8315-6f7b62b63504",
+                "value": "Sinai Cement Posts Q1 Consol Profit",
+                "entity_def_id": "press_reference"
+              },
+              "entity_def_id": "press_reference",
+              "activity_entities": [
+                {
+                  "uuid": "166f929e-e312-4219-b038-4432ce1430f1",
+                  "value": "Sinai Cement",
+                  "image_id": "xptvsslb9smfwnonamlb",
+                  "permalink": "sinai-cement",
+                  "entity_def_id": "organization"
+                }
+              ],
+              "activity_properties": {
+                "url": {
+                  "value": "https://www.tradingview.com/news/reuters.com,2024:newsml_FWN3HY13H:0-sinai-cement-posts-q1-consol-profit/"
+                },
+                "title": "Sinai Cement Posts Q1 Consol Profit",
+                "publisher": "TradingView",
+                "thumbnail_url": "https://s.tradingview.com/static/images/illustrations/news-story.jpg"
+              },
+              "activity_date": "2024-06-01"
+            }
+          },
+          {
+            "uuid": "4f0b3235-6f31-4b00-9198-8e9a5f0eca3f",
+            "properties": {
+              "identifier": {
+                "uuid": "4f0b3235-6f31-4b00-9198-8e9a5f0eca3f",
+                "value": "Egypt: Sinai Cement posts lower net losses in Q1-23",
+                "entity_def_id": "press_reference"
+              },
+              "entity_def_id": "press_reference",
+              "activity_entities": [
+                {
+                  "uuid": "166f929e-e312-4219-b038-4432ce1430f1",
+                  "value": "Sinai Cement",
+                  "image_id": "xptvsslb9smfwnonamlb",
+                  "permalink": "sinai-cement",
+                  "entity_def_id": "organization"
+                }
+              ],
+              "activity_properties": {
+                "url": {
+                  "value": "https://www.zawya.com/en/markets/equities/egypt-sinai-cement-posts-lower-net-losses-in-q1-23-oo7u9ofl"
+                },
+                "title": "Egypt: Sinai Cement posts lower net losses in Q1-23",
+                "author": "Staff Writer",
+                "publisher": "Zawya.com",
+                "thumbnail_url": "https://static.zawya.com/view/acePublic/alias/contentid/ZTRiY2YxYWUtYTI1Ny00/42/131207142013cvix-jpg.webp?f=3%3A2&q=0.75&w=3840"
+              },
+              "activity_date": "2023-05-28"
+            }
+          }
+        ]
+      },
+      "company_financials_highlights": {
+        "funding_total": {
+          "value": 1682007520,
+          "currency": "EGP",
+          "value_usd": 33792962
+        },
+        "num_funding_rounds": 1
+      },
+      "overview_company_fields": {
+        "company_type": "for_profit",
+        "stock_link": {
+          "label": "EGX:SCEM",
+          "value": "https://www.google.com/finance?q=EGX:SCEM"
+        }
+      },
+      "private_tags_pill_list": [],
+      "acquisitions_headline": {},
+      "builtwith_summary": {
+        "builtwith_num_technologies_used": 6,
+        "identifier": {
+          "uuid": "166f929e-e312-4219-b038-4432ce1430f1",
+          "value": "Sinai Cement",
+          "image_id": "xptvsslb9smfwnonamlb",
+          "permalink": "sinai-cement",
+          "entity_def_id": "organization"
+        }
+      },
+      "about_short_description": {
+        "short_description": "Sinai Cement is a producer of cement and packing bags."
+      },
+      "product": [
+        {
+          "identifier": {
+            "uuid": "d2060c89-1ba2-486e-ac56-8d0f0b7d8cbc",
+            "value": "Cement Production",
+            "entity_def_id": "product"
+          },
+          "name": "Cement Production",
+          "description": "Manufacture of cement used as a primary construction material for binding and structural purposes."
+        },
+        {
+          "identifier": {
+            "uuid": "ab1bf1a4-9624-4b7a-9a66-dc0df0553d97",
+            "value": "Packing Bags Production",
+            "entity_def_id": "product"
+          },
+          "name": "Packing Bags Production",
+          "description": "Manufacture of packing bags used for packaging and transporting cement and other materials."
+        }
+      ],
+      "apptopia_app_headline": {}
+    }
+  }
+}

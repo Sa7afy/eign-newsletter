@@ -1,0 +1,228 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T12:50:59.073Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T12:50:59.071Z",
+    "url": "https://www.crunchbase.com/organization/optima-6599"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Optima",
+      "shortDescription": "Optima is a learning platform that helps people build data and AI skills through expert-led content and AI tutoring.",
+      "description": "Optima is a learning platform that helps people build data and AI skills through expert-led content and AI tutoring.",
+      "website": "https://optima.io/",
+      "foundedYear": 2023,
+      "operatingStatus": "Closed",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "1-10",
+      "headquarters": "Dubai, United Arab Emirates",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Analytics",
+        "Corporate Training",
+        "E-Learning",
+        "Training"
+      ],
+      "sectors": [
+        "Data and Analytics",
+        "Education",
+        "Software"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 1100000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2024-01-01",
+      "lastFundingType": "Seed",
+      "rounds": [
+        {
+          "announcedDate": "2024-01-01",
+          "amount": {
+            "amount": 1100000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "COTU Ventures"
+          ],
+          "postMoneyValuation": {
+            "amount": 7691279,
+            "currency": "USD"
+          },
+          "type": "Seed"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "COTU Ventures",
+            "rounds": [
+              "Seed Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 2,
+      "includedUniqueCount": 2,
+      "items": [
+        {
+          "date": "2025-11-12",
+          "title": "Optima acquired by DataCamp"
+        },
+        {
+          "date": "2024-01-01",
+          "title": "Seed Round - Optima"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 1100000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "heatChange90Days": -2,
+      "heatScore": 59
+    },
+    "modelPredictions": {
+      "funding": {
+        "generatedDate": "2026-03-28",
+        "probabilityPercent": 62.68,
+        "timingEstimatePercent": {
+          "within6Months": 6.18,
+          "months6To11": 82.07,
+          "months12To24": 0.85,
+          "beyond24Months": 10.91
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-04-18",
+        "probabilityPercent": 95.81
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Codecademy provides an online learning platform that teaches employable digital skills.",
+          "employeeRange": "251-500",
+          "name": "Codecademy",
+          "sharedCategories": [
+            "Training",
+            "E-Learning"
+          ],
+          "similarityScore": 97
+        },
+        {
+          "description": "An educational career website for aspiring business intelligence analysts, data analysts and data scientists.",
+          "employeeRange": "11-50",
+          "name": "365 Data Science",
+          "similarityScore": 95
+        },
+        {
+          "description": "Udacity develops an online learning platform offering programs in artificial intelligence, machine learning, and robotics sector.",
+          "employeeRange": "251-500",
+          "name": "Udacity",
+          "sharedCategories": [
+            "Training",
+            "E-Learning"
+          ],
+          "similarityScore": 91
+        },
+        {
+          "description": "Pluralsight is a technology learning platform for software developers, IT admins, and creative professionals.",
+          "employeeRange": "1,001-5,000",
+          "name": "Pluralsight",
+          "sharedCategories": [
+            "Corporate Training",
+            "E-Learning"
+          ],
+          "similarityScore": 90
+        },
+        {
+          "description": "EdX is a non-profit, open-source enterprise providing free online courses from universities around the world.",
+          "employeeRange": "51-100",
+          "name": "edX",
+          "similarityScore": 88
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Seed round raised $1,100,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $7,691,279 to $7,691,279, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Codecademy, 365 Data Science, Udacity.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

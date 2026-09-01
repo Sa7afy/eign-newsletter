@@ -1,0 +1,261 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T11:15:34.171Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T11:15:34.168Z",
+    "url": "https://www.crunchbase.com/organization/comprando"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Comprando",
+      "shortDescription": "Comprando is an end-to-end online ordering service platform.",
+      "description": "Comprando is an e-commerce platform that allows users to buy consumer products from nearby shops. They provide an optimal environment for virtual shopping by gathering all types of shops in one location.",
+      "website": "http://www.comprando.io/",
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "1-10",
+      "headquarters": "Cairo, Al Qahirah, Egypt",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Middle East",
+        "Middle East and North Africa (MENA)",
+        "North Africa"
+      ],
+      "industries": [
+        "Apps",
+        "E-Commerce",
+        "Internet",
+        "Local Shopping"
+      ],
+      "sectors": [
+        "Apps",
+        "Commerce and Shopping",
+        "Information Technology",
+        "Software"
+      ],
+      "founders": [
+        "Maged Abdel Aziz"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "A feature that allows users to explore and shop from nearby stores through the Comprando mobile application.",
+        "name": "Discover"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 100000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2018-01-01",
+      "lastFundingType": "Angel",
+      "rounds": [
+        {
+          "announcedDate": "2018-01-01",
+          "amount": {
+            "amount": 100000,
+            "currency": "USD"
+          },
+          "postMoneyValuation": {
+            "amount": 803469,
+            "currency": "USD"
+          },
+          "type": "Angel"
+        }
+      ]
+    },
+    "recentNews": {
+      "reportedCount": 1,
+      "includedUniqueCount": 1,
+      "items": [
+        {
+          "date": "2018-01-01",
+          "title": "Angel Round - Comprando"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 100000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": 0,
+      "growthScore": 34,
+      "heatChange90Days": -16,
+      "heatScore": 54
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 17.09
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 7.54,
+        "timingEstimatePercent": {
+          "within6Months": 13.71,
+          "months6To11": 11.83,
+          "months12To24": 19.02,
+          "beyond24Months": 24.7
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 86.81
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 23.46
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "ChowNow helps branded online ordering systems for independent restaurants through the restaurants’ own websites.",
+          "employeeRange": "101-250",
+          "name": "ChowNow",
+          "sharedCategories": [
+            "E-Commerce",
+            "Internet",
+            "Apps"
+          ],
+          "sharedSpecialties": [
+            "Order and Inventory Management",
+            "Curbside Pickup",
+            "Click and Collect"
+          ],
+          "similarityScore": 97
+        },
+        {
+          "description": "Olo is a SaaS digital ordering and delivery platform for restaurant brands.",
+          "employeeRange": "501-1,000",
+          "name": "Olo",
+          "sharedCategories": [
+            "E-Commerce"
+          ],
+          "sharedSpecialties": [
+            "Last Mile Delivery"
+          ],
+          "similarityScore": 95
+        },
+        {
+          "description": "Toast is a point-of-sale and restaurant management platform designed for businesses in the food service and hospitality industry.",
+          "employeeRange": "5,001-10,000",
+          "name": "Toast",
+          "sharedSpecialties": [
+            "Order and Inventory Management",
+            "Curbside Pickup"
+          ],
+          "similarityScore": 93
+        },
+        {
+          "description": "GloriaFood is a provider of restaurant menu and food ordering services.",
+          "employeeRange": "11-50",
+          "name": "GloriaFood",
+          "sharedSpecialties": [
+            "Curbside Pickup",
+            "Click and Collect"
+          ],
+          "similarityScore": 91
+        },
+        {
+          "description": "Menufy offers online and mobile meal ordering capabilities to restaurant customers in thousands of US cities since 2009.",
+          "employeeRange": "51-100",
+          "name": "Menufy",
+          "sharedCategories": [
+            "E-Commerce",
+            "Internet"
+          ],
+          "sharedSpecialties": [
+            "Last Mile Delivery",
+            "Click and Collect",
+            "Crowdsourced Delivery"
+          ],
+          "similarityScore": 89
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Angel round raised $100,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $803,469 to $803,469, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 34 (+0 over 90 days) and market heat at 54 (-16).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include ChowNow, Olo, Toast.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

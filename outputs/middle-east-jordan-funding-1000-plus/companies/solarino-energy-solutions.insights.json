@@ -1,0 +1,236 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T13:28:15.342Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T13:28:15.340Z",
+    "url": "https://www.crunchbase.com/organization/solarino-energy-solutions"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Solarino Energy Solutions",
+      "shortDescription": "Solarino is a solar energy provider that uses blockchain technology to make basic energy services accessible to everyone.",
+      "website": "http://solarino.solar/",
+      "foundedYear": 2018,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "headquarters": "Sharjah, United Arab Emirates",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Blockchain",
+        "Energy",
+        "Solar",
+        "Sustainability"
+      ],
+      "sectors": [
+        "Blockchain and Cryptocurrency",
+        "Energy",
+        "Natural Resources",
+        "Sustainability"
+      ],
+      "founders": [
+        "Yaqoub Alali"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 1089,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2018-10-01",
+      "lastFundingType": "Grant",
+      "rounds": [
+        {
+          "announcedDate": "2018-10-01",
+          "amount": {
+            "amount": 1089,
+            "currency": "USD"
+          },
+          "type": "Grant"
+        }
+      ]
+    },
+    "recentNews": {
+      "reportedCount": 2,
+      "includedUniqueCount": 2,
+      "items": [
+        {
+          "date": "2018-10-23",
+          "publisher": "Zawya.com",
+          "title": "startAD and Khalifa Fund shortlist eight startups for Ibtikari program",
+          "url": "https://www.zawya.com/mena/en/press-releases/story/startAD_and_Khalifa_Fund_shortlist_eight_startups_for_Ibtikari_program-ZAWYA20181023080508/"
+        },
+        {
+          "date": "2018-10-01",
+          "title": "Grant - Solarino Energy Solutions"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 1089,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "grantFunding": {
+      "amount": {
+        "amount": 1089,
+        "currency": "USD"
+      },
+      "disclosedRoundCount": 1,
+      "shareOfTotalPercent": 100
+    }
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": -8,
+      "growthScore": 68,
+      "heatChange90Days": -11,
+      "heatScore": 55
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 40.48
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 83
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 26.65
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Sunrun provides residential solar electricity, storage solutions, and clean energy services to homeowners.",
+          "employeeRange": "10,001+",
+          "name": "Sunrun",
+          "sharedCategories": [
+            "Energy",
+            "Solar"
+          ],
+          "similarityScore": 97
+        },
+        {
+          "description": "Sunnova is an Energy as a Service (EaaS) company that offers residential solar power and energy storage solutions.",
+          "employeeRange": "1,001-5,000",
+          "name": "Sunnova",
+          "sharedCategories": [
+            "Energy",
+            "Solar"
+          ],
+          "similarityScore": 95
+        },
+        {
+          "description": "Freedom Forever provides energy efficiency solutions to optimize solar energy transmission as well as installation and financing services.",
+          "employeeRange": "1,001-5,000",
+          "name": "Freedom Forever",
+          "sharedCategories": [
+            "Energy",
+            "Solar"
+          ],
+          "similarityScore": 93
+        },
+        {
+          "description": "Vivint Solar is a provider of solar solutions and a growing residential solar power providers.",
+          "employeeRange": "1,001-5,000",
+          "name": "Vivint Solar",
+          "sharedCategories": [
+            "Energy",
+            "Solar"
+          ],
+          "similarityScore": 91
+        },
+        {
+          "description": "Palmetto accelerates the clean energy transition with software and financial services that make home electrification easy.",
+          "employeeRange": "251-500",
+          "name": "Palmetto",
+          "sharedCategories": [
+            "Energy"
+          ],
+          "similarityScore": 87
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Grant round raised $1,089, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Meaningful non-dilutive funding",
+      "statement": "1 disclosed grants total $1,089, representing 100% of reported funding.",
+      "implication": "The grants reduce the share of reported financing attributed to equity or notes, although their restrictions and milestone requirements need separate verification.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.grantFunding"
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 68 (-8 over 90 days) and market heat at 55 (-11).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Sunrun, Sunnova, Freedom Forever.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

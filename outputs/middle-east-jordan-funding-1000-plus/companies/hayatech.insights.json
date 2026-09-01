@@ -1,0 +1,217 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T11:56:54.225Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T11:56:54.223Z",
+    "url": "https://www.crunchbase.com/organization/hayatech"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Hayatech",
+      "shortDescription": "Hayatech is a SAAS and connected hardware platform that fosters an ecosystem around wellness through wearables, gamification, and rewards.",
+      "description": "Hayatech is a B2B, SAAS and connected hardware platform that aims to foster an ecosystem around wellness. We empower users to activate a wellness lifestyle, corporates with innovative methods for positively impacting employee productivity and ROI, and wellness brands with a platform to connect with users taking an active role in advancing their own health.",
+      "website": "https://hayatech.me/",
+      "operatingStatus": "Closed",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "1-10",
+      "estimatedRevenueRange": "Less than $1M",
+      "headquarters": "Manama, Al Manamah, Bahrain",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Gamification",
+        "Health Care",
+        "Loyalty Programs",
+        "SaaS",
+        "Wellness"
+      ],
+      "sectors": [
+        "Gaming",
+        "Health Care",
+        "Sales and Marketing",
+        "Software"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 29177,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2019-05-10",
+      "lastFundingType": "Pre Seed",
+      "rounds": [
+        {
+          "announcedDate": "2019-05-10",
+          "amount": {
+            "amount": 29177,
+            "currency": "USD"
+          },
+          "investorCount": 2,
+          "leadInvestors": [
+            "Brinc",
+            "Tamkeen"
+          ],
+          "type": "Pre Seed"
+        }
+      ],
+      "investors": {
+        "reportedCount": 2,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "Brinc",
+            "rounds": [
+              "Pre Seed Round"
+            ]
+          },
+          {
+            "isLead": true,
+            "name": "Tamkeen",
+            "rounds": [
+              "Pre Seed Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 1,
+      "includedUniqueCount": 1,
+      "items": [
+        {
+          "date": "2019-05-10",
+          "title": "Pre Seed Round - Hayatech"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 29177,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "heatChange90Days": -5,
+      "heatScore": 53
+    },
+    "modelPredictions": {
+      "funding": {
+        "generatedDate": "2025-06-11",
+        "probabilityPercent": 14.87,
+        "timingEstimatePercent": {
+          "within6Months": 14.32,
+          "months6To11": 12.27,
+          "months12To24": 19.52,
+          "beyond24Months": 24.85
+        }
+      },
+      "growth": {
+        "generatedDate": "2025-06-11",
+        "probabilityPercent": 65.95
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Vitality encourages individuals to commit to long-term healthy changes in how they live, work, exercise and eat.",
+          "employeeRange": "251-500",
+          "name": "Vitality Group",
+          "sharedCategories": [
+            "Health Care",
+            "Wellness"
+          ],
+          "similarityScore": 97
+        },
+        {
+          "description": "Terryberry is a employee recognition products, programs, and services.",
+          "employeeRange": "51-100",
+          "name": "Terryberry",
+          "similarityScore": 95
+        },
+        {
+          "description": "Personify Health is a software that provides health plan administration, comprehensive health navigation, and holistic well-being solutions.",
+          "employeeRange": "1,001-5,000",
+          "name": "Personify Health",
+          "sharedCategories": [
+            "Health Care"
+          ],
+          "similarityScore": 91
+        },
+        {
+          "description": "Limeade delivers healthy work experiences through immersive employee well-being programs.",
+          "employeeRange": "101-250",
+          "name": "Limeade",
+          "sharedCategories": [
+            "Wellness"
+          ],
+          "similarityScore": 89
+        },
+        {
+          "description": "Employee wellness, reimagined.",
+          "employeeRange": "51-100",
+          "name": "Wellable",
+          "sharedCategories": [
+            "Wellness"
+          ],
+          "similarityScore": 87
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Pre Seed round raised $29,177, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Vitality Group, Terryberry, Personify Health.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

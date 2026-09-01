@@ -1,0 +1,193 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T14:02:00.556Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T14:02:00.554Z",
+    "url": "https://www.crunchbase.com/organization/yaa-food"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Yaa Food",
+      "shortDescription": "Yaa Food is a manufacturing company that specializes in the production and sales of food products in the essential foods category.",
+      "description": "Yaa Food is a manufacturing company that specializes in the production and sale of food products in the essential foods category. The company provides veggies and fruits to restaurants, cafés, cloud kitchens, and people on a daily basis. It allows users to plan orders for freshly made food goods to be delivered on demand.",
+      "website": "https://www.yaafoods.com/",
+      "foundedYear": 2020,
+      "operatingStatus": "Closed",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "11-50",
+      "headquarters": "Riyadh, Ar Riyad, Saudi Arabia",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Food and Beverage",
+        "Food Processing",
+        "Fruit",
+        "Grocery",
+        "Manufacturing"
+      ],
+      "sectors": [
+        "Food and Beverage",
+        "Manufacturing"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 2078893,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2022-03-08",
+      "lastFundingType": "Venture round",
+      "rounds": [
+        {
+          "announcedDate": "2022-03-08",
+          "amount": {
+            "amount": 2078893,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "Tasaru Holding"
+          ],
+          "type": "Venture round"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "Tasaru Holding",
+            "rounds": [
+              "Venture round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 1,
+      "includedUniqueCount": 1,
+      "items": [
+        {
+          "date": "2022-03-08",
+          "title": "Venture Round - Yaa Food"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 2078893,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "heatChange90Days": -16,
+      "heatScore": 34
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "TreeHouse Foods rises above to provide quality food products primarily for the private label and foodservice industries.",
+          "employeeRange": "5,001-10,000",
+          "name": "TreeHouse Foods",
+          "sharedCategories": [
+            "Food and Beverage",
+            "Manufacturing"
+          ],
+          "similarityScore": 97
+        },
+        {
+          "description": "B&G Foods and its subsidiaries manufacture sell and distribute a diversified portfolio of high-quality, shelf-stable foods across.",
+          "employeeRange": "1,001-5,000",
+          "name": "B&G Foods",
+          "similarityScore": 95
+        },
+        {
+          "description": "Conagra Brands is a packaged foods company that offers food products and a variety of other food items.",
+          "employeeRange": "10,001+",
+          "name": "Conagra Brands",
+          "sharedCategories": [
+            "Food and Beverage",
+            "Food Processing"
+          ],
+          "similarityScore": 93
+        },
+        {
+          "description": "Kraft Heinz is a multinational food and beverage company offering a diverse range of condiments, sauces, snacks, cheese, and frozen foods.",
+          "employeeRange": "10,001+",
+          "name": "Kraft Heinz",
+          "sharedCategories": [
+            "Food and Beverage",
+            "Food Processing"
+          ],
+          "similarityScore": 91
+        },
+        {
+          "description": "Post Holdings is a consumer goods company currently operating in the center-of-the-store, active nutrition and private label food",
+          "employeeRange": "10,001+",
+          "name": "Post Holdings",
+          "sharedCategories": [
+            "Food and Beverage"
+          ],
+          "similarityScore": 87
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Venture round round raised $2,078,893, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include TreeHouse Foods, B&G Foods, Conagra Brands.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

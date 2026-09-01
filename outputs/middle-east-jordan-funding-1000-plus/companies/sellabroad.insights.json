@@ -1,0 +1,255 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T13:20:26.660Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T13:20:26.658Z",
+    "url": "https://www.crunchbase.com/organization/sellabroad"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "SellAbroad",
+      "shortDescription": "SellAbroad helps online stores sell in other countries, making shipping easier and helping find more customers.",
+      "website": "https://sellabroad.io/",
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "1-10",
+      "headquarters": "Dubai, United Arab Emirates",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "E-Commerce",
+        "Logistics",
+        "Retail"
+      ],
+      "sectors": [
+        "Commerce and Shopping",
+        "Transportation"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "Calculates and displays the full landed cost including duties, VAT, and taxes at checkout to prevent hidden fees and customs surprises.",
+        "name": "Duty and Tax Calculation at Checkout"
+      },
+      {
+        "description": "Enables acceptance of region-specific payment methods in over 100 countries to accommodate local customer preferences.",
+        "name": "Local Payment Methods Integration"
+      },
+      {
+        "description": "Automatically translates and localizes online store content into over 55 languages, including regional dialects and cultural nuances.",
+        "name": "Storefront Localization"
+      },
+      {
+        "description": "Guides merchants through account setup, payment configuration, tax and duty settings, and storefront localization to enable international sales.",
+        "name": "Global Expansion Onboarding and Configuration"
+      },
+      {
+        "description": "Offers discounted international shipping rates and access to local warehouses to reduce delivery times and costs for global orders.",
+        "name": "Discounted Shipping and Local Warehousing"
+      },
+      {
+        "description": "Provides localized marketing creatives, managed advertising spend, and dedicated marketing management to support global sales growth.",
+        "name": "Marketing and Creative Support"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 180000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2025-02-27",
+      "lastFundingType": "Pre Seed",
+      "rounds": [
+        {
+          "announcedDate": "2025-02-27",
+          "amount": {
+            "amount": 180000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "type": "Pre Seed"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "name": "Antler",
+            "rounds": [
+              "Pre Seed Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 1,
+      "includedUniqueCount": 1,
+      "items": [
+        {
+          "date": "2025-02-27",
+          "title": "Pre Seed Round - SellAbroad"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 180000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": -4,
+      "growthScore": 55,
+      "heatChange90Days": -10,
+      "heatScore": 73
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 5
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 95.2
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 0
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "PayPal is a financial service company that provides online payment solutions to its users worldwide.",
+          "employeeRange": "10,001+",
+          "name": "PayPal",
+          "similarityScore": 100
+        },
+        {
+          "description": "Peach Payments provides payment solutions to online and mobile businesses.",
+          "employeeRange": "101-250",
+          "name": "Peach Payments",
+          "sharedCategories": [
+            "E-Commerce"
+          ],
+          "sharedSpecialties": [
+            "International and Multi-Currency Accounts"
+          ],
+          "similarityScore": 88.017
+        },
+        {
+          "description": "Salasa is a logistics company that offers commerce fulfillment services to help modern retail brands scale with speed and reliability.",
+          "employeeRange": "101-250",
+          "name": "Salasa",
+          "sharedCategories": [
+            "E-Commerce",
+            "Logistics"
+          ],
+          "sharedSpecialties": [
+            "International and E‑commerce Fulfillment",
+            "Customs Brokerage and Clearance",
+            "E-Commerce Operations Management",
+            "Fulfillment and Warehousing"
+          ],
+          "similarityScore": 83.323
+        },
+        {
+          "description": "Gxlocal is a cross-border e-commerce platform connecting global brands with sellers and marketplaces across Turkey, CIS, MENA, and CEE.",
+          "employeeRange": "1-10",
+          "name": "GxLocal",
+          "sharedSpecialties": [
+            "International and E‑commerce Fulfillment",
+            "Translation and Localization Management"
+          ],
+          "similarityScore": 74.086
+        },
+        {
+          "description": "Global-e is cross-border e-commerce enablement platform that helps brands and retailers to deliver purchase experiences to customers.",
+          "employeeRange": "1,001-5,000",
+          "name": "Global-e",
+          "sharedCategories": [
+            "E-Commerce"
+          ],
+          "sharedSpecialties": [
+            "Alternative Payment Methods",
+            "International and Multi-Currency Accounts",
+            "International and E‑commerce Fulfillment",
+            "International Expansion Consulting",
+            "Customs Brokerage and Clearance"
+          ],
+          "similarityScore": 69.553
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Pre Seed round raised $180,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 55 (-4 over 90 days) and market heat at 73 (-10).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include PayPal, Peach Payments, Salasa.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

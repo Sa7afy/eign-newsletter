@@ -1,0 +1,292 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T12:05:24.900Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T12:05:24.899Z",
+    "url": "https://www.crunchbase.com/organization/intellico-inc"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Intellico Inc",
+      "shortDescription": "Intellico is a documentation company that leverages AI and ML technologies to automate the generation of vital documents.",
+      "description": "Intellico is a documentation company that leverages AI and ML technologies to automate the generation of vital documents.\n\nIntellico owns the software product documentation category to start with and scale horizontally to other industries such as tech-enabled, e-commerce, and fintech.\n\nThe company aims to help experts and companies generate industry-driven documents and fill the gaps they might miss.",
+      "website": "http://www.intellico.me/",
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "1-10",
+      "headquarters": "Amman, Jordan",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Artificial Intelligence (AI)",
+        "Product Management",
+        "SaaS"
+      ],
+      "sectors": [
+        "Artificial Intelligence (AI)",
+        "Data and Analytics",
+        "Science and Engineering",
+        "Software"
+      ],
+      "founders": [
+        "Amjed Alsadeq",
+        "Aymen Amerah"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "Uses Gen-AI for knowledge extraction, opportunity identification, and documentation automation.",
+        "name": "Intelligent Business Processing & Specialized AI"
+      },
+      {
+        "description": "Enables product, QA, and development teams to generate and auto-update product documentation using AI.",
+        "name": "B2B SaaS platform"
+      },
+      {
+        "description": "Generates necessary documents for product development lifecycle in a structured format with a central hub for access.",
+        "name": "Documentation Boosted by AI"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 110000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2023-06-01",
+      "lastFundingType": "Pre Seed",
+      "rounds": [
+        {
+          "announcedDate": "2023-06-01",
+          "amount": {
+            "amount": 110000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "postMoneyValuation": {
+            "amount": 1336262,
+            "currency": "USD"
+          },
+          "type": "Pre Seed"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "name": "F6 Ventures",
+            "rounds": [
+              "Pre Seed Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 1,
+      "includedUniqueCount": 1,
+      "items": [
+        {
+          "date": "2023-06-01",
+          "title": "Pre Seed Round - Intellico Inc"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 110000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": -1,
+      "growthScore": 22,
+      "heatChange90Days": -6,
+      "heatScore": 62
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 73.71
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 35.03,
+        "timingEstimatePercent": {
+          "within6Months": 4.37,
+          "months6To11": 0,
+          "months12To24": 0,
+          "beyond24Months": 95.63
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 77.01
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 64.31
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Agentic AI, AI Agents, Compliance Automation, Regulatory Technology, Business Process Automation, Document Intelligence, Enterprise AI",
+          "employeeRange": "11-50",
+          "name": "Docsie.io",
+          "sharedCategories": [
+            "Product Management"
+          ],
+          "sharedSpecialties": [
+            "Document Management Systems",
+            "AI Writing Assistants",
+            "Knowledge Repository Management",
+            "Documentation and Technical Writing",
+            "Enterprise Search"
+          ],
+          "similarityScore": 95
+        },
+        {
+          "description": "Swimm is the only knowledge management and documentation platform built for developers.",
+          "employeeRange": "11-50",
+          "name": "Swimm",
+          "sharedCategories": [
+            "SaaS"
+          ],
+          "sharedSpecialties": [
+            "Knowledge Capture Services",
+            "Developer Documentation Platforms",
+            "Knowledge Repository Management",
+            "Enterprise Search"
+          ],
+          "similarityScore": 91
+        },
+        {
+          "description": "Mintlify develops documentation software for creating, managing, and publishing developer documentation and API references.",
+          "employeeRange": "51-100",
+          "name": "Mintlify",
+          "sharedCategories": [
+            "SaaS",
+            "Artificial Intelligence (AI)"
+          ],
+          "sharedSpecialties": [
+            "AI Writing Assistants",
+            "Developer Documentation Platforms",
+            "Knowledge Repository Management",
+            "Documentation and Technical Writing"
+          ],
+          "similarityScore": 90
+        },
+        {
+          "description": "Archbee is a product documentation platform that provides a docs tool for software teams and products.",
+          "employeeRange": "11-50",
+          "name": "Archbee",
+          "sharedCategories": [
+            "Artificial Intelligence (AI)"
+          ],
+          "sharedSpecialties": [
+            "Developer Documentation Platforms",
+            "Knowledge Repository Management",
+            "Documentation and Technical Writing",
+            "Enterprise Search"
+          ],
+          "similarityScore": 89
+        },
+        {
+          "description": "Knowledge base software, Customer Suppor",
+          "employeeRange": "11-50",
+          "name": "Helpjuice.com",
+          "sharedSpecialties": [
+            "Knowledge Capture Services",
+            "AI Writing Assistants",
+            "Knowledge Repository Management",
+            "Documentation and Technical Writing",
+            "Enterprise Search"
+          ],
+          "similarityScore": 88
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Pre Seed round raised $110,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $1,336,262 to $1,336,262, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 22 (-1 over 90 days) and market heat at 62 (-6).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Docsie.io, Swimm, Mintlify.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

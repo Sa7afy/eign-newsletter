@@ -1,0 +1,261 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T11:13:43.984Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T11:13:43.981Z",
+    "url": "https://www.crunchbase.com/organization/cobonzy"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Cobonzy",
+      "shortDescription": "discounts & offers you van enjoy",
+      "description": "Cobonzy.com is a coupons website at which the users can subscribe for free to get discounts from different businesses by printing the coupon and present it to the merchant when paying their bill.",
+      "website": "http://www.cobonzy.com/",
+      "foundedYear": 2013,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "1-10",
+      "estimatedRevenueRange": "Less than $1M",
+      "headquarters": "Amman, Jordan",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Advertising",
+        "E-Commerce",
+        "Social Media Advertising"
+      ],
+      "sectors": [
+        "Advertising",
+        "Commerce and Shopping",
+        "Sales and Marketing"
+      ],
+      "founders": [
+        "Saad Seddiq"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "A digital platform offering free digital coupons for users to save money on purchases without needing printed coupons.",
+        "name": "Cobonzy Coupons Marketplace"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 145000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2014-02-05",
+      "lastFundingType": "Series A",
+      "rounds": [
+        {
+          "announcedDate": "2014-02-05",
+          "amount": {
+            "amount": 145000,
+            "currency": "USD"
+          },
+          "postMoneyValuation": {
+            "amount": 995000,
+            "currency": "USD"
+          },
+          "type": "Series A"
+        }
+      ]
+    },
+    "recentNews": {
+      "reportedCount": 1,
+      "includedUniqueCount": 1,
+      "items": [
+        {
+          "date": "2014-02-05",
+          "title": "Series A - Cobonzy"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 145000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": 3,
+      "growthScore": 3,
+      "heatChange90Days": 2,
+      "heatScore": 29
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 0
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 2.95,
+        "timingEstimatePercent": {
+          "within6Months": 12.93,
+          "months6To11": 11.26,
+          "months12To24": 18.34,
+          "beyond24Months": 24.44
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 73.73
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 0
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "RetailMeNot is a marketplace for online coupons and deals that operates a portfolio of coupon and deal websites.",
+          "employeeRange": "251-500",
+          "name": "RetailMeNot",
+          "sharedCategories": [
+            "E-Commerce",
+            "Advertising"
+          ],
+          "sharedSpecialties": [
+            "Coupon Browser Extensions",
+            "Digital Coupon Wallets",
+            "Receipt Rebate Apps",
+            "Checkout Coupon Networks",
+            "Coupon Aggregators",
+            "E-Commerce Mobile Apps"
+          ],
+          "similarityScore": 97
+        },
+        {
+          "description": "CouponCabin is an online coupon resource that provides printable, freebie, local and grocery coupons for thousands of merchants.",
+          "employeeRange": "51-100",
+          "name": "CouponCabin",
+          "sharedCategories": [
+            "E-Commerce"
+          ],
+          "similarityScore": 95
+        },
+        {
+          "description": "Honey is a shopping platform that provides access to exclusive savings, deals, rewards, and discovery.",
+          "employeeRange": "251-500",
+          "name": "Honey",
+          "sharedCategories": [
+            "E-Commerce"
+          ],
+          "sharedSpecialties": [
+            "Coupon Browser Extensions",
+            "Card-Linked Offer Platforms",
+            "Digital Coupon Wallets",
+            "Receipt Rebate Apps",
+            "Checkout Coupon Networks",
+            "Coupon Aggregators",
+            "E-Commerce Mobile Apps"
+          ],
+          "similarityScore": 93
+        },
+        {
+          "description": "Groupon is a deal-of-the-day website that offers discounted gift certificates usable at local or national companies.",
+          "employeeRange": "1,001-5,000",
+          "name": "Groupon",
+          "sharedCategories": [
+            "E-Commerce"
+          ],
+          "sharedSpecialties": [
+            "Digital Coupon Wallets",
+            "Local Deals Marketplaces"
+          ],
+          "similarityScore": 91
+        },
+        {
+          "description": "Capital One Shopping is a browser extension that automatically applies coupon codes in one click.",
+          "employeeRange": "11-50",
+          "name": "Capital One Shopping",
+          "similarityScore": 87
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Series A round raised $145,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $995,000 to $995,000, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 3 (+3 over 90 days) and market heat at 29 (+2).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include RetailMeNot, CouponCabin, Honey.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

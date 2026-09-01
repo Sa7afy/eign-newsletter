@@ -1,0 +1,296 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T12:43:40.798Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T12:43:40.796Z",
+    "url": "https://www.crunchbase.com/organization/neric"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "NERIC",
+      "shortDescription": "NERIC is a joint-venture company formed by a group of Egyptian companies in partnership with government to establish a rolling stock plant.",
+      "website": "https://www.neric.com/",
+      "foundedYear": 2020,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "251-500",
+      "estimatedRevenueRange": "$1M-$10M",
+      "headquarters": "Cairo, Al Qahirah, Egypt",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Middle East",
+        "Middle East and North Africa (MENA)",
+        "North Africa"
+      ],
+      "industries": [
+        "Consulting",
+        "Railroad",
+        "Transportation"
+      ],
+      "sectors": [
+        "Professional Services",
+        "Transportation"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "A facility for producing electric rolling stock units including passenger cars, power cars, and freight cars for local and regional markets.",
+        "name": "Rolling Stock Manufacturing Plant"
+      },
+      {
+        "description": "A facility dedicated to the refurbishment and overhaul of existing electric rolling stock units to extend their service life.",
+        "name": "Rolling Stock Rehabilitation Plant"
+      },
+      {
+        "description": "A production facility for manufacturing high-speed train cars designed for long-distance and rapid transit rail services.",
+        "name": "High-Speed Train Car Manufacturing Plant"
+      },
+      {
+        "description": "Maintenance services for rolling stock units provided either at NERIC’s workshops or on-site at the client’s location.",
+        "name": "Maintenance Services"
+      },
+      {
+        "description": "Training programs designed to equip clients with the skills needed to maintain and manage rolling stock fleets effectively.",
+        "name": "Maintenance Training Programs"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 98431397,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2024-12-16",
+      "lastFundingType": "Debt Financing",
+      "rounds": [
+        {
+          "announcedDate": "2024-12-16",
+          "amount": {
+            "amount": 98431397,
+            "currency": "USD"
+          },
+          "type": "Debt Financing"
+        }
+      ]
+    },
+    "recentNews": {
+      "reportedCount": 5,
+      "includedUniqueCount": 5,
+      "items": [
+        {
+          "date": "2026-06-21",
+          "publisher": "Business Today",
+          "title": "Egypt signs four industrial cooperation protocols",
+          "url": "https://www.businesstodayegypt.com/Article/1/7621/Egypt-signs-four-industrial-cooperation-protocols"
+        },
+        {
+          "date": "2026-06-13",
+          "publisher": "Daily Star Egypt",
+          "title": "Egypt upgrades 33 railway workshops, completes 8 new maintenance facilities under network modernization plan",
+          "url": "https://www.dailynewsegypt.com/2026/06/13/egypt-upgrades-33-railway-workshops-completes-8-new-maintenance-facilities-under-network-modernization-plan/"
+        },
+        {
+          "date": "2025-04-14",
+          "publisher": "Zawya.com",
+          "title": "Egypt awards EGP $294mln contract to NERIC for 21 Alexandria Metro trains",
+          "url": "https://www.zawya.com/en/economy/north-africa/egypt-awards-egp-294mln-contract-to-neric-for-21-alexandria-metro-trains-jlenddzc"
+        },
+        {
+          "date": "2024-12-28",
+          "publisher": "Dailynewsegypt",
+          "title": "SEMAF, NERIC partner to manufacture railway, metro trains for local market, export",
+          "url": "https://www.dailynewsegypt.com/2024/12/28/semaf-neric-partner-to-manufacture-railway-metro-trains-for-local-market-export/"
+        },
+        {
+          "date": "2024-12-16",
+          "title": "Debt Financing - NERIC"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 98431397,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthInsightGeneratedDate": "2025-04-21",
+      "growthChange90Days": -3,
+      "growthScore": 85,
+      "heatChange90Days": -1,
+      "heatScore": 71,
+      "status": "Growing"
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 65.91
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 35.02,
+        "timingEstimatePercent": {
+          "within6Months": 0.05,
+          "months6To11": 0,
+          "months12To24": 0,
+          "beyond24Months": 99.95
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 81.73
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 26.94
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Hitachi Rail is a provider of rail solutions across rolling stock, signalling services and turnkey.",
+          "employeeRange": "10,001+",
+          "name": "Hitachi Rail",
+          "sharedCategories": [
+            "Railroad"
+          ],
+          "sharedSpecialties": [
+            "Transit Infrastructure Maintenance",
+            "Rail Maintenance Equipment",
+            "Rolling Stock Maintenance and Leasing",
+            "Railway Technology and Digital Systems",
+            "Railway Construction and Infrastructure"
+          ],
+          "similarityScore": 100
+        },
+        {
+          "description": "Ansaldo Trasporti designs, constructs, installs, and maintains railway and underground transport systems.",
+          "name": "Ansaldo Trasporti",
+          "sharedCategories": [
+            "Railroad",
+            "Transportation"
+          ],
+          "sharedSpecialties": [
+            "Transit Infrastructure Maintenance",
+            "Industrial Maintenance and Retrofits",
+            "Rail Maintenance Equipment",
+            "Rolling Stock Maintenance and Leasing",
+            "Railway Technology and Digital Systems",
+            "Railway Construction and Infrastructure"
+          ],
+          "similarityScore": 95.417
+        },
+        {
+          "description": "CAF is a manufacturer of equipment and components for rail systems.",
+          "employeeRange": "101-250",
+          "name": "CAF",
+          "sharedCategories": [
+            "Railroad",
+            "Transportation"
+          ],
+          "sharedSpecialties": [
+            "Rail Freight and Rail Transport Services",
+            "Rail Maintenance Equipment",
+            "Rolling Stock Maintenance and Leasing",
+            "Railway Technology and Digital Systems",
+            "Railway Construction and Infrastructure"
+          ],
+          "similarityScore": 90.544
+        },
+        {
+          "description": "Grid Solutions serving customers globally and equips 90% of power utilities.",
+          "employeeRange": "10,001+",
+          "name": "ALSTOM Grid",
+          "sharedSpecialties": [
+            "Railway and Traction Switchgear",
+            "Passenger Rail Services",
+            "Transit Infrastructure Maintenance",
+            "Rolling Stock Maintenance and Leasing",
+            "Railway Technology and Digital Systems"
+          ],
+          "similarityScore": 83.67
+        },
+        {
+          "description": "Nippon Sharyo is a railway rolling stock manufacturer company.",
+          "employeeRange": "1,001-5,000",
+          "name": "Nippon Sharyo",
+          "sharedCategories": [
+            "Transportation"
+          ],
+          "sharedSpecialties": [
+            "Rail Freight and Rail Transport Services",
+            "Rail Maintenance Equipment",
+            "Rolling Stock Maintenance and Leasing",
+            "Railway Technology and Digital Systems",
+            "Railway Construction and Infrastructure"
+          ],
+          "similarityScore": 74
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Debt Financing round raised $98,431,397, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 85 (-3 over 90 days) and market heat at 71 (-1).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Hitachi Rail, Ansaldo Trasporti, CAF.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

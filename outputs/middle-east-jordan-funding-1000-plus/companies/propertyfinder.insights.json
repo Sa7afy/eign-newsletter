@@ -1,0 +1,588 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T13:01:21.493Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T13:01:21.490Z",
+    "url": "https://www.crunchbase.com/organization/propertyfinder"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Property Finder",
+      "shortDescription": "Property Finder is a real estate listing platform that allows users to search for rental and sale properties.",
+      "description": "Property Finder is a digital real estate platform in the Middle East and North Africa region, connecting property seekers with verified listings across various markets, including the UAE, Saudi Arabia, Egypt, Qatar, Bahrain, and Turkey. It delivers an online real estate marketplace where users can browse, buy, rent, or invest in residential and commercial properties via its web and mobile applications.\nThe company offers specialized tools for professionals, including myCRM Pro for managing leads and client interactions with API integrations, Data Finder for real-time analytics and market insights, Lead Tracker for monitoring customer engagement and pricing, Mortgage Finder for tailored mortgage guidance, and Online Masterclass for digital education in real estate.",
+      "website": "https://www.propertyfinder.ae/",
+      "foundedYear": 2007,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "1,001-5,000",
+      "headquarters": "Dubai, United Arab Emirates",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Commercial Real Estate",
+        "CRM",
+        "Property Management",
+        "PropTech",
+        "Real Estate",
+        "Rental",
+        "Residential"
+      ],
+      "sectors": [
+        "Commerce and Shopping",
+        "Real Estate",
+        "Sales and Marketing",
+        "Software"
+      ],
+      "founders": [
+        "Michael Lahyani",
+        "Renan Bourdeau"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "An online platform for listing, searching, and managing real estate properties for sale and rent in the MENA region.",
+        "name": "Property Listings Platform"
+      },
+      {
+        "description": "A virtual property viewing service enabling remote, real-time property tours via the Property Finder platform.",
+        "name": "Live Viewings"
+      },
+      {
+        "description": "A credit-based subscription service allowing agents to activate and manage property listings with flexible package options.",
+        "name": "PF Flex"
+      },
+      {
+        "description": "A service offering one-time premium property listing placements to increase visibility on the Property Finder platform.",
+        "name": "Single Use Premium Listing"
+      },
+      {
+        "description": "A service enabling third-party real estate CRM providers to publish property data on Property Finder via XML feeds.",
+        "name": "CRM Integration Service"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 1177000000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 8,
+      "detailedRoundCount": 8,
+      "lastFundingDate": "2026-01-27",
+      "lastFundingType": "Private Equity",
+      "rounds": [
+        {
+          "announcedDate": "2026-01-27",
+          "amount": {
+            "amount": 170000000,
+            "currency": "USD"
+          },
+          "investorCount": 2,
+          "leadInvestors": [
+            "Mubadala"
+          ],
+          "postMoneyValuation": {
+            "amount": 2088120480,
+            "currency": "USD"
+          },
+          "type": "Private Equity"
+        },
+        {
+          "announcedDate": "2025-10-21",
+          "amount": {
+            "amount": 250000000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "Ares Management"
+          ],
+          "type": "Debt Financing"
+        },
+        {
+          "announcedDate": "2025-09-09",
+          "amount": {
+            "amount": 525000000,
+            "currency": "USD"
+          },
+          "investorCount": 2,
+          "leadInvestors": [
+            "Blackstone",
+            "Permira"
+          ],
+          "postMoneyValuation": {
+            "amount": 2000000000,
+            "currency": "USD"
+          },
+          "type": "Private Equity"
+        },
+        {
+          "announcedDate": "2025-09-09",
+          "investorCount": 2,
+          "leadInvestors": [
+            "Blackstone",
+            "Permira"
+          ],
+          "postMoneyValuation": {
+            "amount": 2000000000,
+            "currency": "USD"
+          },
+          "type": "Secondary Market"
+        },
+        {
+          "announcedDate": "2024-05-14",
+          "amount": {
+            "amount": 90000000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "Francisco Partners"
+          ],
+          "type": "Debt Financing"
+        },
+        {
+          "announcedDate": "2018-11-26",
+          "amount": {
+            "amount": 120000000,
+            "currency": "USD"
+          },
+          "investorCount": 4,
+          "leadInvestors": [
+            "General Atlantic"
+          ],
+          "postMoneyValuation": {
+            "amount": 450000000,
+            "currency": "USD"
+          },
+          "type": "Private Equity"
+        },
+        {
+          "announcedDate": "2016-01-01",
+          "amount": {
+            "amount": 20000000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "VNV Global"
+          ],
+          "postMoneyValuation": {
+            "amount": 200000000,
+            "currency": "USD"
+          },
+          "type": "Series B"
+        },
+        {
+          "announcedDate": "2013-02-01",
+          "amount": {
+            "amount": 2000000,
+            "currency": "USD"
+          },
+          "investorCount": 2,
+          "leadInvestors": [
+            "Pegasus Capital"
+          ],
+          "postMoneyValuation": {
+            "amount": 18250000,
+            "currency": "USD"
+          },
+          "type": "Series A"
+        }
+      ],
+      "investors": {
+        "reportedCount": 13,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "Ares Management",
+            "rounds": [
+              "Debt Financing"
+            ]
+          },
+          {
+            "name": "BECO Capital",
+            "rounds": [
+              "Private Equity Round"
+            ]
+          },
+          {
+            "isLead": true,
+            "name": "Blackstone",
+            "rounds": [
+              "Secondary Market",
+              "Private Equity Round"
+            ]
+          },
+          {
+            "name": "Bossa Invest",
+            "rounds": [
+              "Private Equity Round"
+            ]
+          },
+          {
+            "name": "Endeavor Catalyst",
+            "rounds": [
+              "Private Equity Round"
+            ]
+          },
+          {
+            "isLead": true,
+            "name": "Francisco Partners",
+            "rounds": [
+              "Debt Financing"
+            ]
+          },
+          {
+            "name": "General Atlantic"
+          },
+          {
+            "isLead": true,
+            "name": "Mubadala",
+            "rounds": [
+              "Private Equity Round"
+            ]
+          },
+          {
+            "isLead": true,
+            "name": "Permira",
+            "rounds": [
+              "Secondary Market",
+              "Private Equity Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 252,
+      "includedUniqueCount": 10,
+      "items": [
+        {
+          "date": "2026-07-15",
+          "publisher": "Pulse 2.0",
+          "title": "Keyper Raises $11 Million Series A To Expand Monthly Rent Payments Across The UAE",
+          "url": "https://pulse2.com/keyper-raises-11-million-series-a-to-expand-monthly-rent-payments-across-the-uae/"
+        },
+        {
+          "date": "2026-07-14",
+          "publisher": "Incubees",
+          "title": "Proptech Keyper raises $11 M Series A funding to digitise UAE rental market",
+          "url": "https://incubees.com/proptech-keyper-raises-11-m-series-a-funding-to-digitise-uae-rental-market/"
+        },
+        {
+          "date": "2026-07-13",
+          "publisher": "FinSMEs",
+          "title": "Keyper Raises $11M in Series A Funding",
+          "url": "https://www.finsmes.com/2026/07/keyper-raises-11m-in-series-a-funding.html"
+        },
+        {
+          "date": "2026-07-10",
+          "publisher": "FWDStart | MENA Startups, Tech News & VC Insights",
+          "title": "BlueFive backs Kling AI's $3B round, Amazon Now enters Egypt",
+          "url": "https://www.fwdstart.me/p/bluefive-backs-kling-ai-s-3b-round-amazon-now-enters-egypt"
+        },
+        {
+          "date": "2026-07-09",
+          "publisher": "إنت عربي | entARABI",
+          "title": "Keyper Raises $11 Million in Series A Funding Round",
+          "url": "https://entarabi.com/en/2026/07/keyper-raises-11-million-in-series-a-funding-round/"
+        },
+        {
+          "date": "2026-07-09",
+          "title": "Series A - Keyper"
+        },
+        {
+          "date": "2026-07-09",
+          "publisher": "The SaaS News",
+          "title": "Keyper Raises $11M Series A",
+          "url": "https://www.thesaasnews.com/news/keyper-raises-11m-series-a/"
+        },
+        {
+          "date": "2026-07-09",
+          "publisher": "TechMoran",
+          "title": "Keyper Secures $11 Million Led by Speedinvest to Expand UAE Rental Finance Platform",
+          "url": "https://techmoran.com/2026/07/09/keyper-secures-11-million-led-by-speedinvest-to-expand-uae-rental-finance-platform/"
+        },
+        {
+          "date": "2026-07-09",
+          "publisher": "FWDStart | MENA Startups, Tech News & VC Insights",
+          "title": "Keyper raises $11M Series A to expand monthly rent payments in the UAE",
+          "url": "https://www.fwdstart.me/p/keyper-raises-11m-series-a-to-expand-monthly-rent-payments-in-the-uae"
+        },
+        {
+          "date": "2026-07-08",
+          "publisher": "Wamda",
+          "title": "Keyper raises $11 million Series A to digitise UAE rental market",
+          "url": "https://www.wamda.com/2026/07/keyper-raises-11-million-series-digitise-uae-rental-market"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 7,
+    "knownDetailedFundingAmount": {
+      "amount": 1177000000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 14.44,
+    "latestToEarliestKnownValuationMultiple": 114.42
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "reportedPartnerships": {
+      "note": "Provider event summaries with linked sources; not independently verified.",
+      "items": [
+        {
+          "date": "2025-11-13",
+          "description": "Property Finder and Keyper announced a partnership to enable a 'rent now, pay monthly' option for Property Finder users in the UAE.",
+          "sources": [
+            {
+              "date": "2025-11-13",
+              "publisher": "Zawya.com",
+              "title": "Property Finder and Keyper announce partnership to bring rent now, pay monthly to Property Finder users",
+              "url": "https://www.zawya.com/en/press-release/companies-news/property-finder-and-keyper-announce-partnership-to-bring-rent-now-pay-monthly-to-property-finder-users-wv80c3hi"
+            }
+          ]
+        },
+        {
+          "date": "2025-07-07",
+          "description": "Property Finder has announced a new partnership with the Abu Dhabi Real Estate Centre (ADREC) to launch agent training initiatives supporting the upcoming Madhmoun platform, Abu Dhabi's first Multiple Listing Service (MLS).",
+          "sources": [
+            {
+              "date": "2025-07-07",
+              "publisher": "Zawya.com",
+              "title": "Property Finder partners with the Abu Dhabi Real Estate Centre, ahead of Madhmoun launch",
+              "url": "https://www.zawya.com/en/press-release/companies-news/property-finder-partners-with-the-abu-dhabi-real-estate-centre-ahead-of-madhmoun-launch-as0roeai"
+            }
+          ]
+        },
+        {
+          "date": "2025-03-09",
+          "description": "Property Finder has partnered with Women Choice to launch the third edition of the SheForShe mentorship and development program, starting in September.",
+          "sources": [
+            {
+              "date": "2025-03-09",
+              "publisher": "AIM Group",
+              "title": "Property Finder partners with Women Choice on SheForShe mentor program",
+              "url": "https://aimgroup.com/2025/03/09/property-finder-partners-with-women-choice-on-sheforshe-mentor-program/"
+            }
+          ]
+        },
+        {
+          "date": "2025-01-01",
+          "description": "Property Finder has formed a strategic partnership with proptech platform Keyper to enable automated monthly rent instalments in the UAE, supporting Dubai's shift toward flexible rental payment structures.",
+          "sources": [
+            {
+              "date": "2026-06-25",
+              "publisher": "Gulf News",
+              "title": "How Dubai’s new ‘Flexi Rent’ scheme saves tenants money upfront",
+              "url": "https://gulfnews.com/living-in-uae/housing/how-dubais-new-flexi-rent-scheme-saves-tenants-money-upfront-1.500586162"
+            }
+          ]
+        },
+        {
+          "date": "2025-01-01",
+          "description": "Property Finder entered into a partnership with UAE-based firm Keyper in 2025 to enable tenants to pay rent in monthly instalments.",
+          "sources": [
+            {
+              "date": "2026-01-30",
+              "publisher": "Gulf News",
+              "title": "How to pay rent in Dubai: Top 3 payment methods for tenants",
+              "url": "https://gulfnews.com/living-in-uae/housing/how-to-pay-rent-in-dubai-top-3-payment-methods-for-tenants-1.500425918"
+            }
+          ]
+        }
+      ]
+    },
+    "crunchbaseMomentum": {
+      "growthInsightGeneratedDate": "2026-07-05",
+      "growthChange90Days": -13,
+      "growthScore": 83,
+      "heatChange90Days": -3,
+      "heatScore": 57,
+      "status": "Growing"
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-13",
+        "probabilityPercent": 95.04
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 58.61,
+        "timingEstimatePercent": {
+          "within6Months": 99.92,
+          "months6To11": 0.08,
+          "months12To24": 0,
+          "beyond24Months": 0
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 95.78
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 71.85
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "The AI-powered property advisor",
+          "employeeRange": "1-10",
+          "name": "RealReports",
+          "sharedCategories": [
+            "Real Estate"
+          ],
+          "sharedSpecialties": [
+            "Real Estate Websites and IDX Solutions",
+            "Property Marketing and Media",
+            "Real Estate CRM and Agent Platforms"
+          ],
+          "similarityScore": 100
+        },
+        {
+          "description": "Matterport digitizes spaces into accurate, immersive 3D digital twins with its all-in-one platform.",
+          "employeeRange": "501-1,000",
+          "name": "Matterport",
+          "sharedCategories": [
+            "PropTech"
+          ],
+          "sharedSpecialties": [
+            "Property Marketing and Media",
+            "Virtual Property Tours"
+          ],
+          "similarityScore": 94.428
+        },
+        {
+          "description": "Build Modern Real Estate website",
+          "employeeRange": "1-10",
+          "name": "Saqan",
+          "sharedCategories": [
+            "Real Estate"
+          ],
+          "sharedSpecialties": [
+            "Real Estate Websites and IDX Solutions",
+            "Property Search and Listing Services",
+            "Real Estate CRM and Agent Platforms"
+          ],
+          "similarityScore": 87.509
+        },
+        {
+          "description": "Viewit is a proptech platform that provides video-based real estate listing tools and digital property discovery services.",
+          "employeeRange": "1-10",
+          "name": "Viewit",
+          "sharedCategories": [
+            "Real Estate",
+            "PropTech"
+          ],
+          "sharedSpecialties": [
+            "Real Estate Websites and IDX Solutions",
+            "Property Marketing and Media",
+            "Virtual Property Tours",
+            "Property Search and Listing Services"
+          ],
+          "similarityScore": 81.453
+        },
+        {
+          "description": "4property.com is a syndicated white label property portal, delivering geo data and property search through a cloud based SaaS.",
+          "employeeRange": "11-50",
+          "name": "4property.com",
+          "sharedCategories": [
+            "Real Estate"
+          ],
+          "sharedSpecialties": [
+            "Real Estate Websites and IDX Solutions",
+            "Property Marketing and Media",
+            "Property Search and Listing Services",
+            "Real Estate CRM and Agent Platforms"
+          ],
+          "similarityScore": 76.788
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Private Equity round raised $170,000,000, or 14.44% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $18,250,000 to $2,088,120,480, a 114.42x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 83 (-13 over 90 days) and market heat at 57 (-3).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include RealReports, Matterport, Saqan.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "issues": [
+      {
+        "severity": "low",
+        "finding": "Crunchbase reports 252 timeline items but exposes 10 unique items in this payload.",
+        "impact": "Recent news is a partial sample, not a complete history."
+      }
+    ],
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

@@ -1,0 +1,290 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T12:19:39.315Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T12:19:39.313Z",
+    "url": "https://www.crunchbase.com/organization/lex-submersible-pumps"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Lex",
+      "shortDescription": "Lex Submersible Pumps designs, manufactures, and supplies artificial lift equipment.",
+      "description": "Lex is an international oilfield technology company founded in 2016 that focuses on transforming artificial lift systems for the modern energy sector. The company designs and deploys ultra-high-speed electric submersible pump (UHS ESP) technologies engineered to increase oil well productivity, enhance operational reliability, and lower environmental impact. Leveraging aerospace-inspired engineering innovations, Lex provides customized solutions for complex onshore and offshore wells, including remote monitoring, automated production management, and rigless deployment systems. Its technology is used across operational oil fields in Europe, Central Africa, Southeast Asia, and North America. The company also emphasizes sustainability by helping operators reduce carbon emissions and energy overconsumption while improving overall production efficiency.",
+      "website": "https://lexsp.com/",
+      "foundedYear": 2015,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "51-100",
+      "estimatedRevenueRange": "$1M-$10M",
+      "headquarters": "Dubai, United Arab Emirates",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Artificial Intelligence (AI)",
+        "Clean Energy",
+        "Industrial Engineering",
+        "Oil and Gas",
+        "Sustainability"
+      ],
+      "sectors": [
+        "Artificial Intelligence (AI)",
+        "Data and Analytics",
+        "Energy",
+        "Manufacturing",
+        "Natural Resources",
+        "Science and Engineering",
+        "Software",
+        "Sustainability"
+      ],
+      "founders": [
+        "Anton Shakirov"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "An electric submersible pump system operating at speeds up to 12,000 rpm designed for artificial lift in oil wells, optimized for harsh conditions and power savings.",
+        "name": "Ultra-High-Speed ESP (UHS ESP™)"
+      },
+      {
+        "description": "Permanent magnet motors providing rotational energy for submersible pumps, with speeds from 85 to 12,000 rpm and operational capability in high-temperature environments.",
+        "name": "Lex Universal Permanent Magnet Motors (UPMM)"
+      },
+      {
+        "description": "A combined artificial lift system integrating electric submersible pumps with jet pumps to optimize production and enable gas re-injection in gassy wells.",
+        "name": "ESP with Jet Pump (Jet ESP™)"
+      },
+      {
+        "description": "A surface permanent magnet motor system designed to drive sucker rod pumps without V-belts, aiming to reduce power consumption and CO2 emissions.",
+        "name": "Surface Permanent Magnet Motor for Sucker Rod Pumps (SynchroGear™)"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 4500000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 2,
+      "detailedRoundCount": 2,
+      "lastFundingDate": "2022-06-01",
+      "lastFundingType": "Series B",
+      "rounds": [
+        {
+          "announcedDate": "2022-06-01",
+          "amount": {
+            "amount": 4500000,
+            "currency": "USD"
+          },
+          "postMoneyValuation": {
+            "amount": 32144543,
+            "currency": "USD"
+          },
+          "type": "Series B"
+        },
+        {
+          "announcedDate": "2019-12-19",
+          "investorCount": 1,
+          "leadInvestors": [
+            "Phystech Ventures"
+          ],
+          "postMoneyValuation": {
+            "amount": 12285670,
+            "currency": "USD"
+          },
+          "type": "Series A"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "Phystech Ventures",
+            "rounds": [
+              "Series A"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 3,
+      "includedUniqueCount": 3,
+      "items": [
+        {
+          "date": "2022-06-01",
+          "title": "Series B - Lex"
+        },
+        {
+          "date": "2022-06-01",
+          "url": "https://pitchbook.com/profiles/company/471037-87"
+        },
+        {
+          "date": "2019-12-19",
+          "title": "Series A - Lex"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 4500000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "latestToEarliestKnownValuationMultiple": 2.62
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": 1,
+      "growthScore": 61,
+      "heatChange90Days": -8,
+      "heatScore": 77
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 0
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 23.19,
+        "timingEstimatePercent": {
+          "within6Months": 15.67,
+          "months6To11": 13.22,
+          "months12To24": 20.54,
+          "beyond24Months": 25
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 74.49
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 0
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Welltec is a manufacturing company that develops and designs conveyance systems such as automated tools for industries.",
+          "employeeRange": "501-1,000",
+          "name": "Welltec",
+          "sharedCategories": [
+            "Oil and Gas"
+          ],
+          "sharedSpecialties": [
+            "Oilfield and Well Completions Equipment",
+            "Oilfield Equipment and Services",
+            "Fluid Handling Equipment"
+          ],
+          "similarityScore": 100
+        },
+        {
+          "description": "Payoran Parsian Engineering and Equipment Development Company offers equipment and engineering solutions for the oil and gas sector.",
+          "employeeRange": "51-100",
+          "name": "Payoran Parsian Engineering and Equipment Development Company",
+          "sharedSpecialties": [
+            "Oilfield and Well Completions Equipment",
+            "Oilfield Equipment and Services",
+            "Pumps"
+          ],
+          "similarityScore": 95.29
+        },
+        {
+          "description": "Hpogc provides customers with a broad range of equipment, technical expertise and operational services to the oil and gas industry.",
+          "employeeRange": "51-100",
+          "name": "Hpogc",
+          "sharedCategories": [
+            "Oil and Gas"
+          ],
+          "sharedSpecialties": [
+            "Oilfield and Well Completions Equipment",
+            "Oilfield Equipment and Services",
+            "Pump and Fluid Management Services",
+            "Pumps",
+            "Fluid Handling Equipment"
+          ],
+          "similarityScore": 90.75
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Series B round raised $4,500,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $12,285,670 to $32,144,543, a 2.62x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 61 (+1 over 90 days) and market heat at 77 (-8).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Welltec, Payoran Parsian Engineering and Equipment Development Company, Hpogc.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

@@ -1,0 +1,309 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T12:52:22.528Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T12:52:22.526Z",
+    "url": "https://www.crunchbase.com/organization/osool-esb-securities-brokerage"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Osool ESB Securities Brokerage",
+      "shortDescription": "Osool ESB Securities Brokerage provides electronic trading services.",
+      "description": "Osool ESB Securities Brokerage offers integrated investment tools, technical assistance, customer services, financial research and training, and trading tools for buying and selling securities.",
+      "website": "http://www.osoolonline.com/",
+      "foundedYear": 1994,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Public",
+      "companyType": "For profit",
+      "employeeRange": "101-250",
+      "headquarters": "Cairo, Al Qahirah, Egypt",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Middle East",
+        "Middle East and North Africa (MENA)",
+        "North Africa"
+      ],
+      "industries": [
+        "Consulting",
+        "Finance",
+        "Financial Services"
+      ],
+      "sectors": [
+        "Financial Services",
+        "Professional Services"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "Provides a platform for buying and selling securities electronically, enabling clients to execute trades through digital channels.",
+        "name": "Electronic Trading Services"
+      },
+      {
+        "description": "Enables clients to purchase securities using borrowed funds, allowing for leveraged investment positions.",
+        "name": "Margin Trading"
+      },
+      {
+        "description": "Allows clients to buy and sell securities within the same trading session, enabling rapid position adjustments.",
+        "name": "Same Day Trading"
+      },
+      {
+        "description": "Provides financial research and technical analysis to support investment decisions.",
+        "name": "Research and Analysis Services"
+      },
+      {
+        "description": "Facilitates borrowing securities for short selling or other investment strategies under regulatory approval.",
+        "name": "Securities Borrowing and Lending"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 1968731,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2025-02-02",
+      "lastFundingType": "Post IPO Equity",
+      "rounds": [
+        {
+          "announcedDate": "2025-02-02",
+          "amount": {
+            "amount": 1968731,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "AMASS Investments"
+          ],
+          "postMoneyValuation": {
+            "amount": 8808639,
+            "currency": "USD"
+          },
+          "type": "Post IPO Equity"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "AMASS Investments",
+            "rounds": [
+              "Post-IPO Equity"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 9,
+      "includedUniqueCount": 9,
+      "items": [
+        {
+          "date": "2026-06-17",
+          "title": "Post-IPO Equity - Mena for Touristic & Real Estate Investments"
+        },
+        {
+          "date": "2026-06-14",
+          "title": "Post-IPO Secondary - Memphis"
+        },
+        {
+          "date": "2026-02-26",
+          "publisher": "Zawya.com",
+          "title": "Egypt: Osool ESB Securities Brokerage’s profits jump 21.8% YoY in 2025",
+          "url": "https://www.zawya.com/en/capital-markets/equities/egypt-osool-esb-securities-brokerages-profits-jump-218-yoy-in-2025-k37is7t8"
+        },
+        {
+          "date": "2025-08-17",
+          "publisher": "Reuters",
+          "title": "Osool Esb Securities Brokerage Q2 Profit EGP 1.2 Mln",
+          "url": "https://www.tradingview.com/news/reuters.com,2025:newsml_FWN3U805T:0-osool-esb-securities-brokerage-q2-profit-egp-1-2-mln/"
+        },
+        {
+          "date": "2025-03-16",
+          "publisher": "TradingView",
+          "title": "Osool Esb Securities Brokerage FY Profit EGP 13.8 Million",
+          "url": "https://www.tradingview.com/news/reuters.com,2025:newsml_FWN3PY031:0-osool-esb-securities-brokerage-fy-profit-egp-13-8-million/"
+        },
+        {
+          "date": "2025-02-04",
+          "publisher": "Zawya.com",
+          "title": "UAE’s Amass proposes $2mln investment in Osool ESB’s capital raise",
+          "url": "https://www.zawya.com/en/business/investment/uaes-amass-proposes-2mln-investment-in-osool-esbs-capital-raise-b38f4reb"
+        },
+        {
+          "date": "2025-02-02",
+          "title": "Post-IPO Equity - Osool ESB Securities Brokerage"
+        },
+        {
+          "date": "2023-11-12",
+          "publisher": "TradingView",
+          "title": "Osool Esb Securities Brokerage Nine-Month Profit Rises",
+          "url": "https://www.tradingview.com/news/reuters.com,2023:newsml_FWN3CC0JY:0-osool-esb-securities-brokerage-nine-month-profit-rises/"
+        },
+        {
+          "date": "1997-12-07",
+          "title": "EBSC"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 1968731,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthInsightGeneratedDate": "2025-03-17",
+      "growthChange90Days": -1,
+      "growthScore": 63,
+      "heatChange90Days": 3,
+      "heatScore": 58,
+      "status": "Growing"
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Al Orouba is an investment company engaged in the trading of securities.",
+          "employeeRange": "1-10",
+          "name": "Al Orouba",
+          "sharedCategories": [
+            "Financial Services",
+            "Finance"
+          ],
+          "sharedSpecialties": [
+            "Execution Management Systems",
+            "Custody and Depositary Services",
+            "Market Data and Research",
+            "Algorithmic Trading and Order Management",
+            "Trading APIs and FIX Tools",
+            "Clearing and Settlement Services",
+            "Risk and Margin Management Platforms",
+            "Securities Lending and Margin Trading"
+          ],
+          "similarityScore": 100
+        },
+        {
+          "description": "Research for Traders offers independent financial reports in Spanish, focusing on Argentina's corporate distressed credits.",
+          "employeeRange": "11-50",
+          "name": "Research for Traders",
+          "sharedCategories": [
+            "Financial Services",
+            "Consulting"
+          ],
+          "sharedSpecialties": [
+            "Market Data and Research"
+          ],
+          "similarityScore": 95.024
+        },
+        {
+          "description": "LYNX is an online trading platform that offers trade apps, stocks, currencies, ETFs, and tips and tricks for investment.",
+          "employeeRange": "51-100",
+          "name": "LYNX",
+          "sharedCategories": [
+            "Finance"
+          ],
+          "sharedSpecialties": [
+            "Execution Management Systems",
+            "Market Data and Research",
+            "Algorithmic Trading and Order Management",
+            "Trading APIs and FIX Tools",
+            "Risk and Margin Management Platforms",
+            "Securities Lending and Margin Trading"
+          ],
+          "similarityScore": 90.337
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Post IPO Equity round raised $1,968,731, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $8,808,639 to $8,808,639, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 63 (-1 over 90 days) and market heat at 58 (+3).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Strategic repositioning and listing coverage shape the current narrative",
+      "statement": "Osool ESB Securities Brokerage has a recent strategic-positioning change; 3 recent unique news titles explicitly contain the English terms IPO or listing.",
+      "implication": "Their timing coincides with increased visibility in the loaded news and Crunchbase momentum signals, but the data does not establish causation.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.company.formerName",
+        "facts.recentNews",
+        "providerSignals.crunchbaseMomentum"
+      ],
+      "caveats": [
+        "The causal link to Crunchbase momentum is an inference from timing, not a disclosed company metric."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Al Orouba, Research for Traders, LYNX.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

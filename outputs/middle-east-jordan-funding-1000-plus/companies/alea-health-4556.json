@@ -1,0 +1,3446 @@
+{
+  "sourceUrl": "https://www.crunchbase.com/organization/alea-health-4556",
+  "pageTitle": "alea-health-4556",
+  "scrapedAt": "2026-09-01T09:09:41.402Z",
+  "extraction": {
+    "authenticated": true,
+    "method": "curl-cffi-authenticated-entity-fetch-no-browser"
+  },
+  "organization": {
+    "properties": {
+      "facet_ids": [
+        "aberdeen",
+        "ai_insight",
+        "company",
+        "rank"
+      ],
+      "identifier": {
+        "uuid": "79051c35-a709-40d5-8e9d-7c0a1ebb4556",
+        "value": "Alea Health",
+        "image_id": "54c20d9aaba843af9156b06b9cdaa03f",
+        "permalink": "alea-health-4556",
+        "entity_def_id": "organization"
+      },
+      "category_groups": [
+        {
+          "uuid": "a53ce9a6-6612-c5be-b038-2821dad3cdbe",
+          "value": "Health Care",
+          "permalink": "health-care-a53c",
+          "entity_def_id": "category_group"
+        }
+      ],
+      "short_description": "Alea Health is a mental health care centre.",
+      "rank_delta_d90": -0.1,
+      "title": "Alea Health"
+    },
+    "cards": {
+      "semrush_summary": {
+        "identifier": {
+          "uuid": "79051c35-a709-40d5-8e9d-7c0a1ebb4556",
+          "value": "Alea Health",
+          "image_id": "54c20d9aaba843af9156b06b9cdaa03f",
+          "permalink": "alea-health-4556",
+          "entity_def_id": "organization"
+        }
+      },
+      "key_employee_change_list": [],
+      "apptopia_attribution": {},
+      "diversity_spotlight_investments_headline": {},
+      "apptopia_app_rating_list": [],
+      "funds_summary": {
+        "identifier": {
+          "uuid": "79051c35-a709-40d5-8e9d-7c0a1ebb4556",
+          "value": "Alea Health",
+          "image_id": "54c20d9aaba843af9156b06b9cdaa03f",
+          "permalink": "alea-health-4556",
+          "entity_def_id": "organization"
+        }
+      },
+      "funding_prediction": [],
+      "company_about_fields1": {},
+      "current_advisors_image_list": [],
+      "recommended_search": [
+        {
+          "identifier": {
+            "permalink": "mental-health-companies-fewer-than-10-employees",
+            "image_id": "clryvimxcc8yavowqahp",
+            "uuid": "c784deee-e66d-4326-bb07-11e18fb48a6f",
+            "entity_def_id": "hub",
+            "value": "Mental Health Companies With Fewer Than 10 Employees (Top 10K)"
+          },
+          "org_identifiers": [
+            {
+              "permalink": "handspring-health",
+              "image_id": "clryvimxcc8yavowqahp",
+              "uuid": "d1df9038-bf2d-4e1e-a091-158877aa11f7",
+              "entity_def_id": "organization",
+              "value": "Handspring Health"
+            },
+            {
+              "permalink": "bliss-a550",
+              "image_id": "ae5a75cd6e1144bf8d7872aa68552c40",
+              "uuid": "6470961d-2ffb-47f4-8a2d-6217fec1a550",
+              "entity_def_id": "organization",
+              "value": "Bliss"
+            },
+            {
+              "permalink": "psilera-bioscience",
+              "image_id": "2ee4cba6d40d47b89283dff7ac8f3996",
+              "uuid": "9d65af8c-b523-4c49-ad8b-8aa18e47b2cf",
+              "entity_def_id": "organization",
+              "value": "Psilera"
+            },
+            {
+              "permalink": "lanyard-health",
+              "image_id": "f282ab22e6754c88840bd431a4925cc3",
+              "uuid": "a3143045-445b-4635-bfc7-b78b2b96f24e",
+              "entity_def_id": "organization",
+              "value": "Lanyard Health"
+            },
+            {
+              "permalink": "arcarae",
+              "image_id": "5c03309a40a04e8e869e5cbdff98d8b7",
+              "uuid": "ee1d1876-e2fe-408a-bcff-a2fc6b63eb9e",
+              "entity_def_id": "organization",
+              "value": "Arcarae"
+            },
+            {
+              "permalink": "shimmer-76ec",
+              "image_id": "mkkkkgsxrp7x5f6b7nzu",
+              "uuid": "97b40be8-8c9e-41fa-9d20-8936b3eb76ec",
+              "entity_def_id": "organization",
+              "value": "Shimmer"
+            },
+            {
+              "permalink": "reunion-neuroscience",
+              "image_id": "xxacjviyewztr1rcpldi",
+              "uuid": "2f89151f-d190-448c-a2ee-62cb7b52a14d",
+              "entity_def_id": "organization",
+              "value": "Reunion Neuroscience"
+            },
+            {
+              "permalink": "talofa-games",
+              "image_id": "thvzprfer58rb6mnncj9",
+              "uuid": "c46a905d-69f8-437f-8893-773cc5391768",
+              "entity_def_id": "organization",
+              "value": "Talofa"
+            }
+          ],
+          "org_funding_total": {
+            "currency": "USD",
+            "value": 803745173,
+            "value_usd": 803745173
+          },
+          "org_num_investors": 1256,
+          "org_num": 9893,
+          "queries": {
+            "event": [
+              {
+                "field_id": "categories",
+                "operator_id": "includes",
+                "values": [
+                  "1562d5d0-fdd8-4297-bcd9-c88e45293a97"
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "principal.has_event.forward",
+                "query": [
+                  {
+                    "field_id": "facet_ids",
+                    "operator_id": "includes",
+                    "values": [
+                      "company"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "num_employees_enum",
+                    "operator_id": "includes",
+                    "values": [
+                      "c_00001_00010"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "active"
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ],
+            "organization": [
+              {
+                "field_id": "facet_ids",
+                "operator_id": "includes",
+                "values": [
+                  "company"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "categories",
+                "operator_id": "includes",
+                "values": [
+                  "1562d5d0-fdd8-4297-bcd9-c88e45293a97"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "num_employees_enum",
+                "operator_id": "includes",
+                "values": [
+                  "c_00001_00010"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "operating_status",
+                "operator_id": "eq",
+                "values": [
+                  "active"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "rank_org",
+                "operator_id": "lte",
+                "values": [
+                  4500000
+                ],
+                "type": "predicate"
+              }
+            ],
+            "person": [
+              {
+                "field_id": "rank_person",
+                "operator_id": "lte",
+                "values": [
+                  2100000
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "organization.has_primary_organization.forward",
+                "query": [
+                  {
+                    "field_id": "facet_ids",
+                    "operator_id": "includes",
+                    "values": [
+                      "company"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "categories",
+                    "operator_id": "includes",
+                    "values": [
+                      "1562d5d0-fdd8-4297-bcd9-c88e45293a97"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "num_employees_enum",
+                    "operator_id": "includes",
+                    "values": [
+                      "c_00001_00010"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "active"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "rank_org",
+                    "operator_id": "lte",
+                    "values": [
+                      4500000
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ]
+          }
+        },
+        {
+          "identifier": {
+            "permalink": "middle-east-startups-founded-in-2024",
+            "image_id": "2e33696f80c345a48582a428f6144bef",
+            "uuid": "c9a6a669-51db-45dd-be59-07ceae7490ef",
+            "entity_def_id": "hub",
+            "value": "Middle East Startups Founded in 2024"
+          },
+          "org_identifiers": [
+            {
+              "permalink": "hush-security",
+              "image_id": "2e33696f80c345a48582a428f6144bef",
+              "uuid": "470a1eac-b652-4fbf-970a-01638b9d4f2b",
+              "entity_def_id": "organization",
+              "value": "Hush Security"
+            },
+            {
+              "permalink": "perceptron-network",
+              "image_id": "7046a1a5e79f4079b94932c67efa6b6d",
+              "uuid": "1630f854-df7d-4c80-af61-55215880f6cd",
+              "entity_def_id": "organization",
+              "value": "Perceptron Network"
+            },
+            {
+              "permalink": "beacon-security",
+              "image_id": "ed9941c7947c48d6a965ecc3c4ce3aaa",
+              "uuid": "4dacdd13-9069-4fdb-ab57-b9dfdec523b9",
+              "entity_def_id": "organization",
+              "value": "Beacon Security"
+            },
+            {
+              "permalink": "entravel",
+              "image_id": "95c249b05a2c4eb58dbc11a089204ad8",
+              "uuid": "52c0e2d9-c7d9-46fd-b527-84c82b4abebc",
+              "entity_def_id": "organization",
+              "value": "Entravel"
+            },
+            {
+              "permalink": "raff",
+              "image_id": "944c69427be7429d853757a3a1c97429",
+              "uuid": "03a29cfe-cd21-44f8-8200-25d71c9b4bc4",
+              "entity_def_id": "organization",
+              "value": "Raff"
+            },
+            {
+              "permalink": "grand-games",
+              "image_id": "c60740bcd3204eedbba7c0c0dd25dae3",
+              "uuid": "af8cf1c4-4557-42b0-8838-8010f708550b",
+              "entity_def_id": "organization",
+              "value": "Grand Games"
+            },
+            {
+              "permalink": "oro-6e9f",
+              "image_id": "276bba8f0e4e4cd9bd08cf935fae3274",
+              "uuid": "85a2d493-ab9e-4b84-be05-8b0739676e9f",
+              "entity_def_id": "organization",
+              "value": "ORO"
+            },
+            {
+              "permalink": "daylight-security",
+              "image_id": "b5a0646f4cf647c2a9ce68d412df881d",
+              "uuid": "38cccb80-d606-4fb2-ae71-8ef788faab63",
+              "entity_def_id": "organization",
+              "value": "Daylight Security"
+            }
+          ],
+          "org_funding_total": {
+            "currency": "USD",
+            "value": 1363703408,
+            "value_usd": 1363703408
+          },
+          "org_num_investors": 831,
+          "org_num": 433,
+          "queries": {
+            "event": [
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "e0272206-3430-48cb-a5bc-1d4b3eafe15a"
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "principal.has_event.forward",
+                "query": [
+                  {
+                    "field_id": "funding_stage",
+                    "operator_id": "includes",
+                    "values": [
+                      "seed",
+                      "early_stage_venture",
+                      "late_stage_venture"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "founded_on",
+                    "operator_id": "between",
+                    "values": [
+                      "2024-01-01",
+                      "2024-12-31"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "active"
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ],
+            "organization": [
+              {
+                "field_id": "funding_stage",
+                "operator_id": "includes",
+                "values": [
+                  "seed",
+                  "early_stage_venture",
+                  "late_stage_venture"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "e0272206-3430-48cb-a5bc-1d4b3eafe15a"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "founded_on",
+                "operator_id": "between",
+                "values": [
+                  "2024-01-01",
+                  "2024-12-31"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "operating_status",
+                "operator_id": "eq",
+                "values": [
+                  "active"
+                ],
+                "type": "predicate"
+              }
+            ],
+            "person": [
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "e0272206-3430-48cb-a5bc-1d4b3eafe15a"
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "organization.has_primary_organization.forward",
+                "query": [
+                  {
+                    "field_id": "funding_stage",
+                    "operator_id": "includes",
+                    "values": [
+                      "seed",
+                      "early_stage_venture",
+                      "late_stage_venture"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "location_identifiers",
+                    "operator_id": "includes",
+                    "values": [
+                      "e0272206-3430-48cb-a5bc-1d4b3eafe15a"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "founded_on",
+                    "operator_id": "between",
+                    "values": [
+                      "2024-01-01",
+                      "2024-12-31"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "active"
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ]
+          }
+        },
+        {
+          "identifier": {
+            "permalink": "united-arab-emirates-companies-fewer-than-50-employees",
+            "image_id": "1e483de797a14b9fb5fdf94635ca739c",
+            "uuid": "c66a2922-8e39-4359-ac22-f592709f83d0",
+            "entity_def_id": "hub",
+            "value": "United Arab Emirates Companies With Fewer Than 50 Employees (Top 10K)"
+          },
+          "org_identifiers": [
+            {
+              "permalink": "a1r-water",
+              "image_id": "1e483de797a14b9fb5fdf94635ca739c",
+              "uuid": "ce65cd3e-1f1a-41c6-a966-87f53b1d8789",
+              "entity_def_id": "organization",
+              "value": "A1R WATER"
+            },
+            {
+              "permalink": "bluefive-capital",
+              "image_id": "25449f6ef1bd45b3859e604c47fc3016",
+              "uuid": "b31980fa-9e7f-4808-86a8-11bbd3850e69",
+              "entity_def_id": "organization",
+              "value": "BlueFive Capital"
+            },
+            {
+              "permalink": "bundle-a717",
+              "image_id": "6293c7748c3f4511a67e43a92ab715c9",
+              "uuid": "60cab2d6-6198-4f84-8507-2fe77f15a717",
+              "entity_def_id": "organization",
+              "value": "Bundle"
+            },
+            {
+              "permalink": "oraseya-capital",
+              "image_id": "nrwqtikpbaruhdx8lvti",
+              "uuid": "d016a5da-659c-49a0-9b4a-40f11542529e",
+              "entity_def_id": "organization",
+              "value": "Oraseya Capital"
+            },
+            {
+              "permalink": "cobi-26b2",
+              "image_id": "890be9e9bada44279dbb64787f785c96",
+              "uuid": "ad5d5626-e78d-46c3-a45f-3d487fdb26b2",
+              "entity_def_id": "organization",
+              "value": "Cobi"
+            },
+            {
+              "permalink": "naran-49c5",
+              "image_id": "05cba89d79f54f878d5023aac5198e4f",
+              "uuid": "fc040bd9-9a74-4ff2-b942-bc3ab73c49c5",
+              "entity_def_id": "organization",
+              "value": "Naran"
+            },
+            {
+              "permalink": "telegram-messenger",
+              "image_id": "icy14hwiqs3uxvip8fsn",
+              "uuid": "41544b58-79b0-d26a-1e2f-5b54656aa1b5",
+              "entity_def_id": "organization",
+              "value": "Telegram"
+            },
+            {
+              "permalink": "arada",
+              "image_id": "af32aab8738343d0959dd23898c303b1",
+              "uuid": "092f0c9f-a47c-4471-8789-8d138e63cd78",
+              "entity_def_id": "organization",
+              "value": "Arada"
+            }
+          ],
+          "org_funding_total": {
+            "currency": "USD",
+            "value": 11842999601,
+            "value_usd": 11842999601
+          },
+          "org_num_investors": 3258,
+          "org_num": 9592,
+          "queries": {
+            "event": [
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "9314d29a-0a56-02c3-6b27-4168733de77f"
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "principal.has_event.forward",
+                "query": [
+                  {
+                    "field_id": "facet_ids",
+                    "operator_id": "includes",
+                    "values": [
+                      "company"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "num_employees_enum",
+                    "operator_id": "includes",
+                    "values": [
+                      "c_00001_00010",
+                      "c_00011_00050"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "active"
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ],
+            "organization": [
+              {
+                "field_id": "facet_ids",
+                "operator_id": "includes",
+                "values": [
+                  "company"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "9314d29a-0a56-02c3-6b27-4168733de77f"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "num_employees_enum",
+                "operator_id": "includes",
+                "values": [
+                  "c_00001_00010",
+                  "c_00011_00050"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "operating_status",
+                "operator_id": "eq",
+                "values": [
+                  "active"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "rank_org",
+                "operator_id": "lte",
+                "values": [
+                  1600000
+                ],
+                "type": "predicate"
+              }
+            ],
+            "person": [
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "9314d29a-0a56-02c3-6b27-4168733de77f"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "rank_person",
+                "operator_id": "lte",
+                "values": [
+                  210000
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "organization.has_primary_organization.forward",
+                "query": [
+                  {
+                    "field_id": "facet_ids",
+                    "operator_id": "includes",
+                    "values": [
+                      "company"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "location_identifiers",
+                    "operator_id": "includes",
+                    "values": [
+                      "9314d29a-0a56-02c3-6b27-4168733de77f"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "num_employees_enum",
+                    "operator_id": "includes",
+                    "values": [
+                      "c_00001_00010",
+                      "c_00011_00050"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "active"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "rank_org",
+                    "operator_id": "lte",
+                    "values": [
+                      1600000
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ]
+          }
+        },
+        {
+          "identifier": {
+            "permalink": "city-of-dubai-seed-stage-companies",
+            "image_id": "890be9e9bada44279dbb64787f785c96",
+            "uuid": "c655e4f2-add5-41ef-a19c-ec62a841b665",
+            "entity_def_id": "hub",
+            "value": "City of Dubai Seed Stage Companies"
+          },
+          "org_identifiers": [
+            {
+              "permalink": "cobi-26b2",
+              "image_id": "890be9e9bada44279dbb64787f785c96",
+              "uuid": "ad5d5626-e78d-46c3-a45f-3d487fdb26b2",
+              "entity_def_id": "organization",
+              "value": "Cobi"
+            },
+            {
+              "permalink": "perceptron-network",
+              "image_id": "7046a1a5e79f4079b94932c67efa6b6d",
+              "uuid": "1630f854-df7d-4c80-af61-55215880f6cd",
+              "entity_def_id": "organization",
+              "value": "Perceptron Network"
+            },
+            {
+              "permalink": "tax-star",
+              "image_id": "a8c403fd939e40ac8260efbedad69cb7",
+              "uuid": "3e6f3eab-a41f-4046-904e-e045a365a940",
+              "entity_def_id": "organization",
+              "value": "Tax Star"
+            },
+            {
+              "permalink": "entravel",
+              "image_id": "95c249b05a2c4eb58dbc11a089204ad8",
+              "uuid": "52c0e2d9-c7d9-46fd-b527-84c82b4abebc",
+              "entity_def_id": "organization",
+              "value": "Entravel"
+            },
+            {
+              "permalink": "zest-technologies-difc",
+              "image_id": "jldicbq1p6udyjfpgijb",
+              "uuid": "c8fb7e36-4eac-4162-824b-393d369a2c36",
+              "entity_def_id": "organization",
+              "value": "Zest Equity"
+            },
+            {
+              "permalink": "oro-6e9f",
+              "image_id": "276bba8f0e4e4cd9bd08cf935fae3274",
+              "uuid": "85a2d493-ab9e-4b84-be05-8b0739676e9f",
+              "entity_def_id": "organization",
+              "value": "ORO"
+            },
+            {
+              "permalink": "prism56",
+              "image_id": "0a1405083a2341768de2701626793eae",
+              "uuid": "ab436fc5-023c-4632-838d-2d4fa3d5c221",
+              "entity_def_id": "organization",
+              "value": "Prism56"
+            },
+            {
+              "permalink": "kamel-pay",
+              "image_id": "zktlcm7fhgnt6q0q1x8u",
+              "uuid": "bd8ea9ca-620b-4ad1-a549-1e65f1094658",
+              "entity_def_id": "organization",
+              "value": "Kamel Pay"
+            }
+          ],
+          "org_funding_total": {
+            "currency": "USD",
+            "value": 2160108753,
+            "value_usd": 2160108753
+          },
+          "org_num_investors": 2179,
+          "org_num": 1051,
+          "queries": {
+            "event": [
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "0e8010ee-2f59-38db-b7e2-998e92dde222"
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "principal.has_event.forward",
+                "query": [
+                  {
+                    "field_id": "facet_ids",
+                    "operator_id": "includes",
+                    "values": [
+                      "company"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "funding_stage",
+                    "operator_id": "eq",
+                    "values": [
+                      "seed"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "active"
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ],
+            "organization": [
+              {
+                "field_id": "facet_ids",
+                "operator_id": "includes",
+                "values": [
+                  "company"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "0e8010ee-2f59-38db-b7e2-998e92dde222"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "funding_stage",
+                "operator_id": "eq",
+                "values": [
+                  "seed"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "operating_status",
+                "operator_id": "eq",
+                "values": [
+                  "active"
+                ],
+                "type": "predicate"
+              }
+            ],
+            "person": [
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "0e8010ee-2f59-38db-b7e2-998e92dde222"
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "organization.has_primary_organization.forward",
+                "query": [
+                  {
+                    "field_id": "facet_ids",
+                    "operator_id": "includes",
+                    "values": [
+                      "company"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "location_identifiers",
+                    "operator_id": "includes",
+                    "values": [
+                      "0e8010ee-2f59-38db-b7e2-998e92dde222"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "funding_stage",
+                    "operator_id": "eq",
+                    "values": [
+                      "seed"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "active"
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ]
+          }
+        }
+      ],
+      "org_similarity_org_list": [],
+      "investors_summary": {
+        "identifier": {
+          "uuid": "79051c35-a709-40d5-8e9d-7c0a1ebb4556",
+          "value": "Alea Health",
+          "image_id": "54c20d9aaba843af9156b06b9cdaa03f",
+          "permalink": "alea-health-4556",
+          "entity_def_id": "organization"
+        }
+      },
+      "funds_list": [],
+      "alumni_image_list": [],
+      "semrush_overview_headline": {},
+      "frequently_asked_questions_total_funding": {
+        "funding_total": {
+          "value": 180000,
+          "currency": "USD",
+          "value_usd": 180000
+        },
+        "identifier": {
+          "uuid": "79051c35-a709-40d5-8e9d-7c0a1ebb4556",
+          "value": "Alea Health",
+          "image_id": "54c20d9aaba843af9156b06b9cdaa03f",
+          "permalink": "alea-health-4556",
+          "entity_def_id": "organization"
+        }
+      },
+      "exits_summary": {
+        "identifier": {
+          "uuid": "79051c35-a709-40d5-8e9d-7c0a1ebb4556",
+          "value": "Alea Health",
+          "image_id": "54c20d9aaba843af9156b06b9cdaa03f",
+          "permalink": "alea-health-4556",
+          "entity_def_id": "organization"
+        }
+      },
+      "partnership_announcements": [],
+      "bombora_surge_list": [],
+      "diversity_spotlight_investments_list": [],
+      "builtwith_tech_used_list": [],
+      "funding_rounds_summary": {
+        "identifier": {
+          "uuid": "79051c35-a709-40d5-8e9d-7c0a1ebb4556",
+          "value": "Alea Health",
+          "image_id": "54c20d9aaba843af9156b06b9cdaa03f",
+          "permalink": "alea-health-4556",
+          "entity_def_id": "organization"
+        },
+        "last_funding_type": "seed",
+        "last_funding_at": "2024-08-01",
+        "funding_total": {
+          "value": 180000,
+          "currency": "USD",
+          "value_usd": 180000
+        },
+        "num_funding_rounds": 1
+      },
+      "org_similarity_list": [],
+      "ipo_prediction": [],
+      "acquisitions_summary": {
+        "identifier": {
+          "uuid": "79051c35-a709-40d5-8e9d-7c0a1ebb4556",
+          "value": "Alea Health",
+          "image_id": "54c20d9aaba843af9156b06b9cdaa03f",
+          "permalink": "alea-health-4556",
+          "entity_def_id": "organization"
+        }
+      },
+      "advisors_summary": {
+        "identifier": {
+          "uuid": "79051c35-a709-40d5-8e9d-7c0a1ebb4556",
+          "value": "Alea Health",
+          "image_id": "54c20d9aaba843af9156b06b9cdaa03f",
+          "permalink": "alea-health-4556",
+          "entity_def_id": "organization"
+        }
+      },
+      "acquisitions_list": [],
+      "exits_headline": {},
+      "investments_summary": {
+        "identifier": {
+          "uuid": "79051c35-a709-40d5-8e9d-7c0a1ebb4556",
+          "value": "Alea Health",
+          "image_id": "54c20d9aaba843af9156b06b9cdaa03f",
+          "permalink": "alea-health-4556",
+          "entity_def_id": "organization"
+        }
+      },
+      "acquired_by_fields": {},
+      "research_insight_text_link": {},
+      "acquisition_prediction": [],
+      "sub_organizations_headline": {},
+      "layoff_list": [],
+      "growth_and_heat": {
+        "heat_score_history": {
+          "periods": {
+            "i1": {
+              "values": [
+                67,
+                67,
+                67,
+                67,
+                67,
+                67,
+                67,
+                67,
+                67,
+                67,
+                68,
+                68,
+                68,
+                68,
+                68,
+                68,
+                68,
+                65,
+                65,
+                66,
+                66,
+                66,
+                66,
+                66,
+                66,
+                66,
+                66,
+                66,
+                66,
+                67,
+                67,
+                67,
+                67,
+                68,
+                68,
+                69,
+                69,
+                70,
+                70,
+                71,
+                71,
+                71,
+                72,
+                72,
+                73,
+                73,
+                74,
+                74,
+                74,
+                75,
+                76,
+                76,
+                77,
+                78,
+                76,
+                77,
+                77,
+                78,
+                79,
+                79,
+                80,
+                80,
+                79,
+                79,
+                80,
+                80,
+                81,
+                81,
+                82,
+                82,
+                83,
+                83,
+                84,
+                84,
+                85,
+                85,
+                86,
+                86,
+                87,
+                87,
+                88,
+                88,
+                88,
+                89,
+                89,
+                90,
+                90,
+                90,
+                91,
+                91
+              ],
+              "interval": 1
+            },
+            "i2": {
+              "values": [
+                67,
+                67,
+                67,
+                67,
+                67,
+                68,
+                68,
+                68,
+                67,
+                66,
+                66,
+                66,
+                66,
+                66,
+                67,
+                67,
+                68,
+                69,
+                70,
+                71,
+                71,
+                72,
+                73,
+                74,
+                75,
+                76,
+                78,
+                77,
+                78,
+                79,
+                80,
+                79,
+                80,
+                81,
+                82,
+                83,
+                84,
+                85,
+                86,
+                87,
+                88,
+                89,
+                90,
+                90,
+                91,
+                92,
+                75,
+                76,
+                76,
+                77,
+                78,
+                78,
+                76,
+                76,
+                77,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "interval": 2
+            },
+            "i4": {
+              "values": [
+                67,
+                67,
+                68,
+                68,
+                66,
+                66,
+                66,
+                67,
+                68,
+                70,
+                72,
+                74,
+                75,
+                77,
+                78,
+                80,
+                81,
+                83,
+                85,
+                87,
+                88,
+                90,
+                92,
+                76,
+                77,
+                78,
+                76,
+                39,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ],
+              "interval": 4
+            },
+            "i7": {
+              "values": [
+                67,
+                68,
+                67,
+                66,
+                67,
+                70,
+                73,
+                76,
+                79,
+                81,
+                84,
+                88,
+                90,
+                78,
+                77,
+                55,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                7,
+                16,
+                23,
+                30,
+                35
+              ],
+              "interval": 7
+            },
+            "i18": {
+              "values": [
+                67,
+                67,
+                73,
+                80,
+                88,
+                78,
+                9,
+                1,
+                1,
+                1,
+                1,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                16,
+                34,
+                49,
+                57
+              ],
+              "interval": 18
+            },
+            "i36": {
+              "values": [
+                67,
+                76,
+                83,
+                5,
+                1,
+                1,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                3,
+                3,
+                3,
+                3,
+                3,
+                9,
+                42,
+                57
+              ],
+              "interval": 36
+            }
+          }
+        },
+        "growth_score_delta_d90": -1,
+        "growth_score_history": {
+          "periods": {
+            "i1": {
+              "values": [
+                92,
+                92,
+                92,
+                92,
+                92,
+                92,
+                92,
+                92,
+                92,
+                92,
+                92,
+                92,
+                92,
+                92,
+                92,
+                92,
+                92,
+                92,
+                92,
+                92,
+                92,
+                92,
+                92,
+                92,
+                92,
+                92,
+                92,
+                92,
+                92,
+                92,
+                92,
+                92,
+                92,
+                92,
+                92,
+                92,
+                92,
+                92,
+                92,
+                92,
+                92,
+                92,
+                92,
+                92,
+                92,
+                93,
+                93,
+                93,
+                93,
+                93,
+                93,
+                93,
+                93,
+                93,
+                93,
+                93,
+                93,
+                93,
+                93,
+                93,
+                93,
+                93,
+                93,
+                93,
+                93,
+                93,
+                93,
+                93,
+                93,
+                93,
+                93,
+                93,
+                93,
+                93,
+                93,
+                93,
+                93,
+                93,
+                93,
+                93,
+                93,
+                93,
+                93,
+                93,
+                93,
+                93,
+                93,
+                93,
+                93,
+                93
+              ],
+              "interval": 1
+            },
+            "i2": {
+              "values": [
+                92,
+                92,
+                92,
+                92,
+                92,
+                92,
+                92,
+                92,
+                92,
+                92,
+                92,
+                92,
+                92,
+                92,
+                92,
+                92,
+                92,
+                92,
+                92,
+                92,
+                92,
+                92,
+                93,
+                93,
+                93,
+                93,
+                93,
+                93,
+                93,
+                93,
+                93,
+                93,
+                93,
+                93,
+                93,
+                93,
+                93,
+                93,
+                93,
+                93,
+                93,
+                93,
+                93,
+                93,
+                93,
+                93,
+                92,
+                92,
+                92,
+                92,
+                92,
+                92,
+                92,
+                92,
+                92,
+                90,
+                90,
+                90,
+                90,
+                90,
+                90,
+                90,
+                90,
+                90,
+                90,
+                89,
+                89,
+                89,
+                89,
+                89,
+                88,
+                88,
+                87,
+                87,
+                86,
+                85,
+                84,
+                69,
+                57,
+                57,
+                57,
+                58,
+                58,
+                58,
+                58,
+                58,
+                58,
+                58,
+                58,
+                58,
+                58
+              ],
+              "interval": 2
+            },
+            "i4": {
+              "values": [
+                92,
+                92,
+                92,
+                92,
+                92,
+                92,
+                92,
+                92,
+                92,
+                92,
+                92,
+                93,
+                93,
+                93,
+                93,
+                93,
+                93,
+                93,
+                93,
+                93,
+                93,
+                93,
+                93,
+                92,
+                92,
+                92,
+                92,
+                91,
+                90,
+                90,
+                90,
+                90,
+                89,
+                89,
+                89,
+                88,
+                87,
+                86,
+                76,
+                57,
+                58,
+                58,
+                58,
+                58,
+                58,
+                58,
+                58,
+                58,
+                58,
+                59,
+                59,
+                59,
+                59,
+                59,
+                59,
+                59,
+                59,
+                59,
+                60,
+                60,
+                60,
+                60,
+                60,
+                60,
+                60,
+                60,
+                60,
+                61,
+                61,
+                61,
+                61,
+                61,
+                61,
+                61,
+                61,
+                61,
+                62,
+                62,
+                62,
+                62,
+                62,
+                62,
+                62,
+                62,
+                62,
+                62,
+                63,
+                63,
+                63,
+                63,
+                63,
+                63
+              ],
+              "interval": 4
+            },
+            "i7": {
+              "values": [
+                92,
+                92,
+                92,
+                92,
+                92,
+                92,
+                93,
+                93,
+                93,
+                93,
+                93,
+                93,
+                93,
+                92,
+                92,
+                91,
+                90,
+                90,
+                89,
+                89,
+                88,
+                85,
+                60,
+                58,
+                58,
+                58,
+                58,
+                58,
+                59,
+                59,
+                59,
+                59,
+                59,
+                60,
+                60,
+                60,
+                60,
+                60,
+                61,
+                61,
+                61,
+                61,
+                61,
+                61,
+                62,
+                62,
+                62,
+                62,
+                62,
+                63,
+                63,
+                63,
+                63,
+                63,
+                63,
+                64,
+                64,
+                64,
+                64,
+                64,
+                64,
+                65,
+                65,
+                65,
+                65,
+                65,
+                65,
+                65,
+                66,
+                66,
+                66,
+                66,
+                66,
+                66,
+                67,
+                67,
+                67,
+                67,
+                67,
+                67,
+                67,
+                68,
+                68,
+                68,
+                68,
+                68,
+                68,
+                68,
+                68,
+                69,
+                69,
+                69,
+                69,
+                69,
+                69,
+                69,
+                70,
+                70,
+                70,
+                70,
+                70,
+                70,
+                70,
+                70,
+                71
+              ],
+              "interval": 7
+            },
+            "i18": {
+              "values": [
+                92,
+                92,
+                93,
+                93,
+                93,
+                92,
+                90,
+                89,
+                74,
+                58,
+                58,
+                59,
+                59,
+                60,
+                60,
+                61,
+                61,
+                62,
+                62,
+                63,
+                63,
+                64,
+                64,
+                64,
+                65,
+                65,
+                66,
+                66,
+                66,
+                67,
+                67,
+                67,
+                68,
+                68,
+                69,
+                69,
+                69,
+                70,
+                70,
+                70,
+                71,
+                71,
+                71,
+                70,
+                69,
+                68,
+                66,
+                65,
+                63,
+                62,
+                59,
+                55,
+                29,
+                23,
+                22
+              ],
+              "interval": 18
+            },
+            "i36": {
+              "values": [
+                92,
+                93,
+                93,
+                90,
+                66,
+                59,
+                60,
+                61,
+                62,
+                62,
+                63,
+                64,
+                65,
+                66,
+                67,
+                67,
+                68,
+                69,
+                69,
+                70,
+                71,
+                70,
+                68,
+                66,
+                63,
+                57,
+                26,
+                22
+              ],
+              "interval": 36
+            }
+          }
+        },
+        "growth_trend_365": {
+          "periods": {
+            "i1": {
+              "values": [
+                34,
+                34,
+                34,
+                34,
+                34,
+                34,
+                34,
+                34,
+                34,
+                34,
+                34,
+                34,
+                34,
+                34,
+                34,
+                34,
+                34,
+                34,
+                34,
+                34,
+                34,
+                34,
+                34,
+                34,
+                34,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                32,
+                32,
+                32
+              ],
+              "interval": 1
+            },
+            "i2": {
+              "values": [
+                34,
+                34,
+                34,
+                34,
+                34,
+                34,
+                34,
+                34,
+                34,
+                34,
+                34,
+                34,
+                34,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                32,
+                32,
+                31,
+                31,
+                31,
+                31,
+                31,
+                31,
+                30,
+                30,
+                30,
+                29,
+                29,
+                28,
+                28,
+                28,
+                28,
+                28,
+                28,
+                27,
+                27,
+                27,
+                27,
+                26,
+                26,
+                26,
+                25,
+                25,
+                24,
+                24,
+                23,
+                22,
+                20,
+                3,
+                -10,
+                -10,
+                -10,
+                -10,
+                -10,
+                -10,
+                -10,
+                -10,
+                -10,
+                -10,
+                -10,
+                -10,
+                -10
+              ],
+              "interval": 2
+            },
+            "i4": {
+              "values": [
+                34,
+                34,
+                34,
+                34,
+                34,
+                34,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                32,
+                31,
+                31,
+                31,
+                30,
+                30,
+                28,
+                28,
+                28,
+                27,
+                27,
+                26,
+                26,
+                25,
+                24,
+                22,
+                11,
+                -10,
+                -10,
+                -10,
+                -10,
+                -10,
+                -10,
+                -10,
+                -10,
+                -10,
+                -10,
+                -10,
+                -10,
+                -10,
+                -10,
+                -10,
+                -10,
+                -10,
+                -10,
+                -10,
+                -10,
+                -9,
+                -9,
+                -9,
+                -9,
+                -9,
+                -9,
+                -9,
+                -9,
+                -9,
+                -9,
+                -9,
+                -9,
+                -9,
+                -9,
+                -9,
+                -9,
+                -9,
+                -9,
+                -9,
+                -9,
+                -9,
+                -9,
+                -9,
+                -9,
+                -9,
+                -8,
+                -8,
+                -8,
+                -8,
+                -8,
+                -8,
+                -8,
+                -8
+              ],
+              "interval": 4
+            },
+            "i7": {
+              "values": [
+                34,
+                34,
+                34,
+                34,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                33,
+                32,
+                31,
+                31,
+                30,
+                28,
+                28,
+                27,
+                26,
+                25,
+                21,
+                -6,
+                -10,
+                -10,
+                -10,
+                -10,
+                -10,
+                -10,
+                -10,
+                -10,
+                -10,
+                -10,
+                -10,
+                -9,
+                -9,
+                -9,
+                -9,
+                -9,
+                -9,
+                -9,
+                -9,
+                -9,
+                -9,
+                -9,
+                -9,
+                -9,
+                -9,
+                -8,
+                -8,
+                -8,
+                -8,
+                -8,
+                -8,
+                -8,
+                -8,
+                -8,
+                -7,
+                -7,
+                -6,
+                -6,
+                -5,
+                -4,
+                -4,
+                -3,
+                -2,
+                -2,
+                -1,
+                0,
+                1,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                8,
+                9,
+                11,
+                13,
+                16,
+                22,
+                88,
+                99,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100
+              ],
+              "interval": 7
+            },
+            "i18": {
+              "values": [
+                34,
+                33,
+                33,
+                33,
+                33,
+                31,
+                28,
+                26,
+                9,
+                -10,
+                -10,
+                -10,
+                -10,
+                -9,
+                -9,
+                -9,
+                -9,
+                -9,
+                -9,
+                -8,
+                -8,
+                -8,
+                -7,
+                -6,
+                -4,
+                -2,
+                0,
+                2,
+                4,
+                7,
+                11,
+                23,
+                99,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                99,
+                95,
+                91,
+                86,
+                77,
+                17,
+                1,
+                0
+              ],
+              "interval": 18
+            },
+            "i36": {
+              "values": [
+                34,
+                33,
+                32,
+                27,
+                0,
+                -10,
+                -10,
+                -9,
+                -9,
+                -8,
+                -8,
+                -6,
+                -3,
+                1,
+                6,
+                17,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                99,
+                93,
+                81,
+                9,
+                0
+              ],
+              "interval": 36
+            }
+          }
+        },
+        "heat_score": 67,
+        "heat_trend_365": {
+          "periods": {
+            "i1": {
+              "values": [
+                51,
+                51,
+                51,
+                52,
+                52,
+                52,
+                52,
+                52,
+                52,
+                52,
+                52,
+                52,
+                52,
+                52,
+                52,
+                52,
+                53,
+                50,
+                50,
+                50,
+                51,
+                51,
+                51,
+                51,
+                51,
+                51,
+                51,
+                51,
+                51,
+                51,
+                51,
+                51,
+                52,
+                52,
+                53,
+                53,
+                53,
+                54,
+                54,
+                54,
+                55,
+                55,
+                55,
+                56,
+                56,
+                56,
+                57,
+                57,
+                57,
+                58,
+                58,
+                59,
+                59,
+                60,
+                59,
+                59,
+                60,
+                60,
+                61,
+                61,
+                62,
+                62,
+                61,
+                61,
+                62,
+                62,
+                62,
+                63,
+                63,
+                64,
+                64,
+                64,
+                65,
+                65,
+                66,
+                66,
+                66,
+                67,
+                67,
+                67,
+                68,
+                68,
+                68,
+                69,
+                69,
+                69,
+                70,
+                70,
+                70,
+                71
+              ],
+              "interval": 1
+            },
+            "i2": {
+              "values": [
+                51,
+                52,
+                52,
+                52,
+                52,
+                52,
+                52,
+                52,
+                52,
+                50,
+                51,
+                51,
+                51,
+                51,
+                51,
+                51,
+                52,
+                53,
+                54,
+                54,
+                55,
+                56,
+                56,
+                57,
+                58,
+                59,
+                60,
+                59,
+                60,
+                61,
+                62,
+                61,
+                62,
+                63,
+                64,
+                64,
+                65,
+                66,
+                67,
+                67,
+                68,
+                69,
+                69,
+                70,
+                71,
+                71,
+                58,
+                58,
+                59,
+                59,
+                60,
+                60,
+                58,
+                59,
+                59,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1
+              ],
+              "interval": 2
+            },
+            "i4": {
+              "values": [
+                51,
+                52,
+                52,
+                52,
+                51,
+                51,
+                51,
+                51,
+                53,
+                54,
+                55,
+                57,
+                58,
+                59,
+                61,
+                62,
+                62,
+                64,
+                66,
+                67,
+                68,
+                70,
+                71,
+                58,
+                59,
+                60,
+                58,
+                29,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -3,
+                -7,
+                -10,
+                -13,
+                -15,
+                -17,
+                -19,
+                -21
+              ],
+              "interval": 4
+            },
+            "i7": {
+              "values": [
+                51,
+                52,
+                51,
+                51,
+                52,
+                54,
+                56,
+                59,
+                61,
+                62,
+                65,
+                68,
+                70,
+                60,
+                59,
+                42,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -5,
+                -10,
+                -15,
+                -19,
+                -22,
+                -25,
+                -27,
+                -29,
+                -31,
+                -31,
+                -31,
+                -31,
+                -31,
+                -31,
+                -31,
+                -31,
+                -31,
+                -31,
+                -31,
+                -31,
+                -31,
+                -31,
+                -31,
+                -31,
+                -31,
+                -31,
+                -31,
+                -31,
+                -31,
+                -31,
+                -31,
+                -31,
+                -31,
+                -31,
+                -31,
+                -31,
+                -31,
+                -31,
+                -31,
+                -31,
+                -31,
+                -31,
+                -31,
+                -31,
+                -31,
+                -31,
+                -31,
+                -31,
+                -31,
+                -31,
+                -31,
+                -31,
+                -28,
+                -24,
+                -20,
+                -16,
+                -13
+              ],
+              "interval": 7
+            },
+            "i18": {
+              "values": [
+                51,
+                51,
+                56,
+                62,
+                68,
+                60,
+                6,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -2,
+                -13,
+                -23,
+                -29,
+                -31,
+                -31,
+                -31,
+                -31,
+                -31,
+                -31,
+                -31,
+                -31,
+                -31,
+                -31,
+                -31,
+                -31,
+                -31,
+                -31,
+                -31,
+                -31,
+                -31,
+                -24,
+                -13,
+                -5,
+                -1
+              ],
+              "interval": 18
+            },
+            "i36": {
+              "values": [
+                51,
+                59,
+                64,
+                2,
+                -1,
+                -1,
+                -1,
+                -1,
+                -1,
+                -8,
+                -26,
+                -31,
+                -31,
+                -31,
+                -31,
+                -31,
+                -31,
+                -31,
+                -31,
+                -27,
+                -9,
+                -1
+              ],
+              "interval": 36
+            }
+          }
+        },
+        "growth_score": 92,
+        "heat_score_delta_d90": -24
+      },
+      "bombora_summary": {
+        "identifier": {
+          "uuid": "79051c35-a709-40d5-8e9d-7c0a1ebb4556",
+          "value": "Alea Health",
+          "image_id": "54c20d9aaba843af9156b06b9cdaa03f",
+          "permalink": "alea-health-4556",
+          "entity_def_id": "organization"
+        }
+      },
+      "semrush_rank_headline": {},
+      "frequently_asked_questions_latest_funding_round": {
+        "identifier": {
+          "uuid": "79051c35-a709-40d5-8e9d-7c0a1ebb4556",
+          "value": "Alea Health",
+          "image_id": "54c20d9aaba843af9156b06b9cdaa03f",
+          "permalink": "alea-health-4556",
+          "entity_def_id": "organization"
+        },
+        "last_funding_at": "2024-08-01",
+        "last_funding_type": "seed",
+        "num_funding_rounds": 1
+      },
+      "apptopia_app_overview_list_free": [],
+      "contacts": {},
+      "product_launches": [],
+      "alumni_summary": {
+        "identifier": {
+          "uuid": "79051c35-a709-40d5-8e9d-7c0a1ebb4556",
+          "value": "Alea Health",
+          "image_id": "54c20d9aaba843af9156b06b9cdaa03f",
+          "permalink": "alea-health-4556",
+          "entity_def_id": "organization"
+        }
+      },
+      "apptopia_summary": {
+        "identifier": {
+          "uuid": "79051c35-a709-40d5-8e9d-7c0a1ebb4556",
+          "value": "Alea Health",
+          "image_id": "54c20d9aaba843af9156b06b9cdaa03f",
+          "permalink": "alea-health-4556",
+          "entity_def_id": "organization"
+        }
+      },
+      "product_similarity_target_org_list": [],
+      "social_fields": {
+        "facebook": {
+          "value": "https://www.facebook.com/alea-health-61563143901150"
+        },
+        "linkedin": {
+          "value": "https://www.linkedin.com/company/aleahealth"
+        }
+      },
+      "investments_headline": {},
+      "investment_thesis": {
+        "lookup": [],
+        "properties": {
+          "identifier": {
+            "uuid": "79051c35-a709-40d5-8e9d-7c0a1ebb4556",
+            "value": "Alea Health",
+            "image_id": "54c20d9aaba843af9156b06b9cdaa03f",
+            "permalink": "alea-health-4556",
+            "entity_def_id": "organization"
+          }
+        },
+        "data": []
+      },
+      "diversity_spotlight_investments_summary": {
+        "identifier": {
+          "uuid": "79051c35-a709-40d5-8e9d-7c0a1ebb4556",
+          "value": "Alea Health",
+          "image_id": "54c20d9aaba843af9156b06b9cdaa03f",
+          "permalink": "alea-health-4556",
+          "entity_def_id": "organization"
+        }
+      },
+      "contact_fields": {},
+      "growth_prediction": [
+        {
+          "generated_on": "2026-08-24",
+          "identifier": {
+            "uuid": "57a3c081-c4a6-44a3-b92a-96d14fedd8c8",
+            "value": "Growth Prediction 2026-08-24",
+            "image_id": "c1b5cb26337d4fa3a94019decac949fd",
+            "entity_def_id": "growth_prediction"
+          },
+          "probability_score": 0.8123,
+          "created_at": "2026-08-15T22:47:55Z",
+          "updated_at": "2026-08-24T19:21:21Z",
+          "probability_tier": "p200_positive_low"
+        }
+      ],
+      "sub_organizations_summary": {
+        "identifier": {
+          "uuid": "79051c35-a709-40d5-8e9d-7c0a1ebb4556",
+          "value": "Alea Health",
+          "image_id": "54c20d9aaba843af9156b06b9cdaa03f",
+          "permalink": "alea-health-4556",
+          "entity_def_id": "organization"
+        }
+      },
+      "overview_description": {},
+      "current_employees_featured_order_field": [
+        {
+          "person_identifier": {
+            "uuid": "dbb4ab94-c08e-4d24-91ff-7d0ae8f811f2",
+            "value": "Richard Dallala",
+            "image_id": "131eb3e533584e19b3aabc9f1d46fd65",
+            "permalink": "richard-dallala-11f2",
+            "entity_def_id": "person"
+          },
+          "identifier": {
+            "uuid": "a0b71aa2-59e4-438e-b7b3-bb0ee76879e3",
+            "value": "Richard Dallala Co-founder and CEO @ Alea Health",
+            "permalink": "richard-dallala-11f2-executive-alea-health-4556--a0b71aa2",
+            "entity_def_id": "job"
+          },
+          "started_on": {
+            "value": "2024-05-01",
+            "precision": "month"
+          },
+          "title": "Co-founder and CEO"
+        }
+      ],
+      "company_about_fields2": {
+        "website": {
+          "value": "https://aleahealth.co"
+        },
+        "ipo_status": "private",
+        "num_employees_enum": "c_00001_00010",
+        "last_funding_type": "seed",
+        "location_identifiers": [
+          {
+            "uuid": "0e8010ee-2f59-38db-b7e2-998e92dde222",
+            "value": "Dubai",
+            "permalink": "dubai-dubai",
+            "entity_def_id": "location",
+            "location_type": "city"
+          },
+          {
+            "uuid": "bdaf57f0-4a06-3b65-7b13-e2983186c2ab",
+            "value": "Dubai",
+            "permalink": "dubai-united-arab-emirates",
+            "entity_def_id": "location",
+            "location_type": "region"
+          },
+          {
+            "uuid": "9314d29a-0a56-02c3-6b27-4168733de77f",
+            "value": "United Arab Emirates",
+            "permalink": "united-arab-emirates",
+            "entity_def_id": "location",
+            "location_type": "country"
+          },
+          {
+            "uuid": "b41404d2-8ecc-caf5-1268-8fdd3afe73ee",
+            "value": "Asia",
+            "permalink": "asia",
+            "entity_def_id": "location",
+            "location_type": "continent"
+          }
+        ],
+        "rank_org_company": 232073
+      },
+      "sub_organizations_image_list": [],
+      "frequently_asked_questions_headquarters_location": {
+        "identifier": {
+          "uuid": "79051c35-a709-40d5-8e9d-7c0a1ebb4556",
+          "value": "Alea Health",
+          "image_id": "54c20d9aaba843af9156b06b9cdaa03f",
+          "permalink": "alea-health-4556",
+          "entity_def_id": "organization"
+        },
+        "location_identifiers": [
+          {
+            "uuid": "0e8010ee-2f59-38db-b7e2-998e92dde222",
+            "value": "Dubai",
+            "permalink": "dubai-dubai",
+            "entity_def_id": "location",
+            "location_type": "city"
+          },
+          {
+            "uuid": "bdaf57f0-4a06-3b65-7b13-e2983186c2ab",
+            "value": "Dubai",
+            "permalink": "dubai-united-arab-emirates",
+            "entity_def_id": "location",
+            "location_type": "region"
+          },
+          {
+            "uuid": "9314d29a-0a56-02c3-6b27-4168733de77f",
+            "value": "United Arab Emirates",
+            "permalink": "united-arab-emirates",
+            "entity_def_id": "location",
+            "location_type": "country"
+          },
+          {
+            "uuid": "b41404d2-8ecc-caf5-1268-8fdd3afe73ee",
+            "value": "Asia",
+            "permalink": "asia",
+            "entity_def_id": "location",
+            "location_type": "continent"
+          }
+        ]
+      },
+      "investors_headline": {},
+      "ipo_summary": {
+        "identifier": {
+          "uuid": "79051c35-a709-40d5-8e9d-7c0a1ebb4556",
+          "value": "Alea Health",
+          "image_id": "54c20d9aaba843af9156b06b9cdaa03f",
+          "permalink": "alea-health-4556",
+          "entity_def_id": "organization"
+        }
+      },
+      "ipqwery_summary": {
+        "identifier": {
+          "uuid": "79051c35-a709-40d5-8e9d-7c0a1ebb4556",
+          "value": "Alea Health",
+          "image_id": "54c20d9aaba843af9156b06b9cdaa03f",
+          "permalink": "alea-health-4556",
+          "entity_def_id": "organization"
+        }
+      },
+      "awards": [],
+      "siftery_product_list": [],
+      "competitors_list": [],
+      "growth_knowledge": {
+        "lookup": [],
+        "properties": {
+          "identifier": {
+            "uuid": "79051c35-a709-40d5-8e9d-7c0a1ebb4556",
+            "value": "Alea Health",
+            "image_id": "54c20d9aaba843af9156b06b9cdaa03f",
+            "permalink": "alea-health-4556",
+            "entity_def_id": "organization"
+          }
+        },
+        "data": []
+      },
+      "overview_fields_extended": {
+        "location_group_identifiers": [
+          {
+            "uuid": "4e8be435-c63a-4aff-8a2f-44a880d9c341",
+            "value": "Europe, Middle East, and Africa (EMEA)",
+            "permalink": "europe-middle-east-africa-emea",
+            "entity_def_id": "location",
+            "location_type": "group"
+          },
+          {
+            "uuid": "c4365698-c7c5-44b0-b33a-7d13900e5be2",
+            "value": "Gulf Cooperation Council (GCC)",
+            "permalink": "gulf-cooperation-council",
+            "entity_def_id": "location",
+            "location_type": "group"
+          },
+          {
+            "uuid": "e0272206-3430-48cb-a5bc-1d4b3eafe15a",
+            "value": "Middle East",
+            "permalink": "middle-east",
+            "entity_def_id": "location",
+            "location_type": "group"
+          },
+          {
+            "uuid": "8cb7cad4-b7e4-4b28-a496-2ede3720cb19",
+            "value": "Middle East and North Africa (MENA)",
+            "permalink": "middle-east-and-north-africa-mena",
+            "entity_def_id": "location",
+            "location_type": "group"
+          }
+        ],
+        "founded_on": {
+          "value": "2024-01-01",
+          "precision": "year"
+        },
+        "founder_identifiers": [
+          {
+            "uuid": "dbb4ab94-c08e-4d24-91ff-7d0ae8f811f2",
+            "value": "Richard Dallala",
+            "image_id": "131eb3e533584e19b3aabc9f1d46fd65",
+            "permalink": "richard-dallala-11f2",
+            "entity_def_id": "person"
+          }
+        ],
+        "operating_status": "active",
+        "last_funding_type": "seed",
+        "categories": [
+          {
+            "uuid": "1562d5d0-fdd8-4297-bcd9-c88e45293a97",
+            "value": "Mental Health",
+            "image_id": "08347cadfc3d46299e6a0dc62ac45aee",
+            "permalink": "mental-health-be99",
+            "entity_def_id": "category"
+          }
+        ]
+      },
+      "overview_investor_fields": {},
+      "bombora_attribution": {},
+      "semrush_location_list": [],
+      "investors_list": [],
+      "siftery_summary": {
+        "identifier": {
+          "uuid": "79051c35-a709-40d5-8e9d-7c0a1ebb4556",
+          "value": "Alea Health",
+          "image_id": "54c20d9aaba843af9156b06b9cdaa03f",
+          "permalink": "alea-health-4556",
+          "entity_def_id": "organization"
+        }
+      },
+      "acquired_by_summary": {
+        "identifier": {
+          "uuid": "79051c35-a709-40d5-8e9d-7c0a1ebb4556",
+          "value": "Alea Health",
+          "image_id": "54c20d9aaba843af9156b06b9cdaa03f",
+          "permalink": "alea-health-4556",
+          "entity_def_id": "organization"
+        }
+      },
+      "ipo_fields": {},
+      "apptopia_app_overview_list_public": [],
+      "apptopia_sdk_list": [],
+      "trading_view": {},
+      "current_employees_image_list": [
+        {
+          "identifier": {
+            "uuid": "a0b71aa2-59e4-438e-b7b3-bb0ee76879e3",
+            "value": "Richard Dallala Co-founder and CEO @ Alea Health",
+            "permalink": "richard-dallala-11f2-executive-alea-health-4556--a0b71aa2",
+            "entity_def_id": "job"
+          },
+          "person_identifier": {
+            "uuid": "dbb4ab94-c08e-4d24-91ff-7d0ae8f811f2",
+            "value": "Richard Dallala",
+            "image_id": "131eb3e533584e19b3aabc9f1d46fd65",
+            "permalink": "richard-dallala-11f2",
+            "entity_def_id": "person"
+          },
+          "title": "Co-founder and CEO"
+        }
+      ],
+      "frequently_asked_questions_investors": {
+        "identifier": {
+          "uuid": "79051c35-a709-40d5-8e9d-7c0a1ebb4556",
+          "value": "Alea Health",
+          "image_id": "54c20d9aaba843af9156b06b9cdaa03f",
+          "permalink": "alea-health-4556",
+          "entity_def_id": "organization"
+        }
+      },
+      "funding_rounds_list": [
+        {
+          "identifier": {
+            "uuid": "6f36d789-d48a-41a3-bcda-72457b84d3af",
+            "value": "Seed Round - Alea Health",
+            "image_id": "54c20d9aaba843af9156b06b9cdaa03f",
+            "permalink": "alea-health-4556-seed--6f36d789",
+            "entity_def_id": "funding_round"
+          },
+          "announced_on": "2024-08-01",
+          "money_raised": {
+            "value": 180000,
+            "currency": "USD",
+            "value_usd": 180000
+          },
+          "post_money_valuation": {
+            "value": 1990592,
+            "currency": "USD",
+            "value_usd": 1990593
+          },
+          "investment_type": "seed"
+        }
+      ],
+      "technology_highlights": {},
+      "funding_rounds_headline": {
+        "funding_total": {
+          "value": 180000,
+          "currency": "USD",
+          "value_usd": 180000
+        },
+        "num_funding_rounds": 1
+      },
+      "investments_list": [],
+      "exits_image_list": [],
+      "funds_headline": {},
+      "people_highlights": {
+        "num_current_positions": 1
+      },
+      "semrush_attribution": {},
+      "frequently_asked_questions_similar_companies": {
+        "identifier": {
+          "uuid": "79051c35-a709-40d5-8e9d-7c0a1ebb4556",
+          "value": "Alea Health",
+          "image_id": "54c20d9aaba843af9156b06b9cdaa03f",
+          "permalink": "alea-health-4556",
+          "entity_def_id": "organization"
+        }
+      },
+      "semrush_overview": {},
+      "org_category_ranks": {
+        "category_ranks": {
+          "1562d5d0-fdd8-4297-bcd9-c88e45293a97": {
+            "rank": 1114,
+            "count": 54711,
+            "pv_rank": 8221
+          }
+        }
+      },
+      "current_valuation": [],
+      "legal_proceedings": [],
+      "current_employees_summary": {
+        "identifier": {
+          "uuid": "79051c35-a709-40d5-8e9d-7c0a1ebb4556",
+          "value": "Alea Health",
+          "image_id": "54c20d9aaba843af9156b06b9cdaa03f",
+          "permalink": "alea-health-4556",
+          "entity_def_id": "organization"
+        },
+        "num_current_positions": 1
+      },
+      "aberdeen_summary": {
+        "aberdeen_site_it_spend": {
+          "value": 8826792,
+          "currency": "USD",
+          "value_usd": 8826792
+        },
+        "identifier": {
+          "uuid": "79051c35-a709-40d5-8e9d-7c0a1ebb4556",
+          "value": "Alea Health",
+          "image_id": "54c20d9aaba843af9156b06b9cdaa03f",
+          "permalink": "alea-health-4556",
+          "entity_def_id": "organization"
+        }
+      },
+      "offices": [],
+      "overview_timeline": {
+        "count": 1,
+        "entities": [
+          {
+            "uuid": "6f36d789-d48a-41a3-bcda-72457b84d3af",
+            "properties": {
+              "identifier": {
+                "uuid": "6f36d789-d48a-41a3-bcda-72457b84d3af",
+                "value": "Seed Round - Alea Health",
+                "image_id": "54c20d9aaba843af9156b06b9cdaa03f",
+                "permalink": "alea-health-4556-seed--6f36d789",
+                "entity_def_id": "funding_round"
+              },
+              "entity_def_id": "funding_round",
+              "activity_entities": [
+                {
+                  "role": "investee",
+                  "uuid": "79051c35-a709-40d5-8e9d-7c0a1ebb4556",
+                  "value": "Alea Health",
+                  "image_id": "54c20d9aaba843af9156b06b9cdaa03f",
+                  "permalink": "alea-health-4556",
+                  "entity_def_id": "organization"
+                }
+              ],
+              "activity_properties": {
+                "money_raised": {
+                  "value": 180000,
+                  "currency": "USD",
+                  "value_usd": 180000
+                },
+                "investment_type": "seed"
+              },
+              "activity_date": "2024-08-01"
+            }
+          }
+        ]
+      },
+      "company_financials_highlights": {
+        "funding_total": {
+          "value": 180000,
+          "currency": "USD",
+          "value_usd": 180000
+        },
+        "num_funding_rounds": 1
+      },
+      "overview_company_fields": {},
+      "private_tags_pill_list": [],
+      "acquisitions_headline": {},
+      "builtwith_summary": {
+        "identifier": {
+          "uuid": "79051c35-a709-40d5-8e9d-7c0a1ebb4556",
+          "value": "Alea Health",
+          "image_id": "54c20d9aaba843af9156b06b9cdaa03f",
+          "permalink": "alea-health-4556",
+          "entity_def_id": "organization"
+        }
+      },
+      "about_short_description": {
+        "short_description": "Alea Health is a mental health care centre."
+      },
+      "product": [],
+      "apptopia_app_headline": {}
+    }
+  }
+}

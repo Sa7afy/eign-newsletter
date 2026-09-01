@@ -1,0 +1,188 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T12:59:33.786Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T12:59:33.785Z",
+    "url": "https://www.crunchbase.com/organization/pran-arabia"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Pran Arabia",
+      "shortDescription": "Pran Arabia is a food and beverage company that provides confectionery, bakery products, frozen foods, snacks, and dairy products.",
+      "website": "https://www.pranfoods.net/",
+      "foundedYear": 1981,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "10,001+",
+      "estimatedRevenueRange": "$100M-$500M",
+      "headquarters": "Al Ajman, Ajman, United Arab Emirates",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Bakery",
+        "Food and Beverage",
+        "Manufacturing",
+        "Snack Food"
+      ],
+      "sectors": [
+        "Food and Beverage",
+        "Manufacturing"
+      ],
+      "founders": [
+        "Amjad Khan Chowdhury"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "Food items including chocolates, candies, toffees, gums, and lollipops designed for consumption as sweets or treats.",
+        "name": "Confectionery Products"
+      },
+      {
+        "description": "Baked goods including biscuits, bread buns, cakes, cookies, rolls, toast, wafers, and cream rolls for consumption as snacks or meal accompaniments.",
+        "name": "Bakery Products"
+      },
+      {
+        "description": "Pre-prepared frozen food items including paratha, roti, and other ready-to-cook products for convenient meal preparation.",
+        "name": "Frozen Foods"
+      },
+      {
+        "description": "Various snack foods such as potato chips, crackers, puff corn, and local ethnic snacks for casual consumption.",
+        "name": "Snacks"
+      },
+      {
+        "description": "Dairy items including fresh milk, pasteurized milk, UHT milk, flavored milk, yogurt, butter, cheese, ghee, and powdered milk for nutritional consumption.",
+        "name": "Dairy Products"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 30000000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2019-10-01",
+      "lastFundingType": "Debt Financing",
+      "rounds": [
+        {
+          "announcedDate": "2019-10-01",
+          "amount": {
+            "amount": 30000000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "type": "Debt Financing"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "name": "British International Investment",
+            "rounds": [
+              "Debt Financing"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 3,
+      "includedUniqueCount": 3,
+      "items": [
+        {
+          "date": "2026-04-26",
+          "publisher": "DealStreetAsia",
+          "title": "Editor’s Take: The Week That Was - April 20 - 25",
+          "url": "https://www.dealstreetasia.com/stories/editors-take-the-week-that-was-april-20-25-480438/"
+        },
+        {
+          "date": "2025-08-24",
+          "publisher": "Future Startup",
+          "title": "Future Startup Panel: Unraveling Bangladesh's Complex Food Safety Crisis and Forging a Path Forward",
+          "url": "https://futurestartup.com/2025/08/24/future-startup-panel-unraveling-bangladeshs-complex-food-safety-crisis-and-forging-a-path-forward/"
+        },
+        {
+          "date": "2019-10-01",
+          "title": "Debt Financing - Pran Arabia"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 30000000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthInsightGeneratedDate": "2026-05-17",
+      "growthChange90Days": -10,
+      "growthScore": 75,
+      "heatChange90Days": -11,
+      "heatScore": 67,
+      "status": "Growing"
+    },
+    "modelPredictions": {
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 92.29
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors."
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Debt Financing round raised $30,000,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 75 (-10 over 90 days) and market heat at 67 (-11).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

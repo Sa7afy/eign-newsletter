@@ -1,0 +1,247 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T12:30:44.317Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T12:30:44.315Z",
+    "url": "https://www.crunchbase.com/organization/mellbell-electronics"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "MellBell Electronics",
+      "shortDescription": "MellBell Electronics is a community-driven electronics company that offers micro electronic chips.",
+      "description": "MellBell Electronics is a community-driven electronics company. And is going to lead the DIY, and open source hardware movements in the MENA region. It started Its first bet yet, a well placed belief on the world’s smallest Arduino-compatible board, PICO, which lets MellBell set a firm foot in the market. MellBell focuses on helping makers make, by providing a plethora of content that builds the necessary skills, whilst expanding their unique product family. With the vision of leaping from the physical board to the cloud.",
+      "website": "https://www.mellbell.cc/",
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "1-10",
+      "headquarters": "Amman, Jordan",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Developer Tools",
+        "DIY",
+        "Education",
+        "Electronics",
+        "Internet of Things",
+        "Open Source"
+      ],
+      "sectors": [
+        "Consumer Goods",
+        "Education",
+        "Hardware",
+        "Information Technology",
+        "Internet Services",
+        "Software"
+      ],
+      "founders": [
+        "Ahmad Awad",
+        "Mohammad Malhas"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 131000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 3,
+      "detailedRoundCount": 3,
+      "lastFundingDate": "2017-11-01",
+      "lastFundingType": "Convertible note",
+      "rounds": [
+        {
+          "announcedDate": "2017-11-01",
+          "amount": {
+            "amount": 100000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "Oasis500"
+          ],
+          "type": "Convertible note"
+        },
+        {
+          "announcedDate": "2017-10-01",
+          "amount": {
+            "amount": 10000,
+            "currency": "USD"
+          },
+          "type": "Non Equity Assistance"
+        },
+        {
+          "announcedDate": "2017-07-17",
+          "amount": {
+            "amount": 21000,
+            "currency": "USD"
+          },
+          "type": "Product Crowdfunding"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "Oasis500",
+            "rounds": [
+              "Convertible Note"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 3,
+      "includedUniqueCount": 3,
+      "items": [
+        {
+          "date": "2017-11-01",
+          "title": "Convertible Note - MellBell Electronics"
+        },
+        {
+          "date": "2017-10-01",
+          "title": "Non Equity Assistance - MellBell Electronics"
+        },
+        {
+          "date": "2017-07-17",
+          "title": "Product Crowdfunding - MellBell Electronics"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 3,
+    "knownDetailedFundingAmount": {
+      "amount": 131000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 76.34
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": 1,
+      "growthScore": 26,
+      "heatChange90Days": -10,
+      "heatScore": 46
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 38.68
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 79.57
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 25.29
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Microchip Technology develops and manufactures semiconductor products for various embedded control applications worldwide.",
+          "employeeRange": "10,001+",
+          "name": "Microchip Technology",
+          "similarityScore": 97
+        },
+        {
+          "description": "SparkFun Electronics is an online store that sells electronic parts for individual projects and provides online tutorials.",
+          "employeeRange": "51-100",
+          "name": "SparkFun Electronics",
+          "sharedCategories": [
+            "Electronics"
+          ],
+          "similarityScore": 93
+        },
+        {
+          "description": "Adafruit is an online educational platform for learning electronics and making well-designed products.",
+          "employeeRange": "51-100",
+          "name": "Adafruit",
+          "sharedCategories": [
+            "Electronics"
+          ],
+          "similarityScore": 92
+        },
+        {
+          "description": "STMicroelectronics is a semiconductor company that designs and manufactures electronic components and solutions.",
+          "employeeRange": "10,001+",
+          "name": "STMicroelectronics",
+          "sharedCategories": [
+            "Electronics"
+          ],
+          "similarityScore": 91
+        },
+        {
+          "description": "Arduino is an open-source electronic prototyping platform allowing users to create interactive electronic objects.",
+          "employeeRange": "251-500",
+          "name": "Arduino",
+          "similarityScore": 87
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Convertible note round raised $100,000, or 76.34% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 26 (+1 over 90 days) and market heat at 46 (-10).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Microchip Technology, SparkFun Electronics, Adafruit.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

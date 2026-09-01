@@ -1,0 +1,371 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T12:46:13.685Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T12:46:13.683Z",
+    "url": "https://www.crunchbase.com/organization/noordx"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "NoorDx",
+      "shortDescription": "NoorDx offers advanced genetic diagnostic testing laboratory with an aim to provide precision medicine capabilities for the Middle East.",
+      "description": "NoorDx provides genomics, innovation, pathogen genomics, human genomics, targeted gene panels, molecular diagnostics, clinical reporting, genetic counseling, and bioinformatic services.",
+      "website": "https://www.noordx.sa/",
+      "foundedYear": 2017,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "1-10",
+      "estimatedRevenueRange": "$1M-$10M",
+      "headquarters": "Thuwal, Ha'il, Saudi Arabia",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Bioinformatics",
+        "Biotechnology",
+        "Consumer Research",
+        "Health Care",
+        "Intelligent Systems",
+        "Precision Medicine"
+      ],
+      "sectors": [
+        "Artificial Intelligence (AI)",
+        "Biotechnology",
+        "Data and Analytics",
+        "Design",
+        "Health Care",
+        "Sales and Marketing",
+        "Science and Engineering"
+      ],
+      "founders": [
+        "Dillon Fritz",
+        "Jason Schrum",
+        "Pierre Magistretti",
+        "Sami Al Qarawi"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "A genetic test analyzing the protein-coding regions of DNA to identify variants linked to medical conditions, enabling rapid diagnosis of rare diseases.",
+        "name": "Whole Exome Sequencing (WES)"
+      },
+      {
+        "description": "A comprehensive genetic test analyzing the entire genome to diagnose genetically complex and undiagnosed cases with high certainty.",
+        "name": "Whole Genome Sequencing (WGS)"
+      },
+      {
+        "description": "A service providing guidance and support throughout the genetic testing process, helping patients understand results and treatment options.",
+        "name": "Genetic Counseling"
+      },
+      {
+        "description": "A genetic test detecting BRAF V600E mutations to assist in diagnosis, prognosis, and treatment selection for certain cancers.",
+        "name": "BRAF V600E Variant Detection"
+      },
+      {
+        "description": "A test detecting deletions or duplications in the DMD gene for diagnosing Duchenne or Becker muscular dystrophy and carrier status.",
+        "name": "Duchenne Muscular Dystrophy (DMD) Deletion Duplication Analysis"
+      },
+      {
+        "description": "A genomic test using whole-genome sequencing to identify infectious agents directly from patient samples for clinical microbiology.",
+        "name": "Metagenomic Screening"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 2500000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 3,
+      "detailedRoundCount": 3,
+      "lastFundingDate": "2019-01-01",
+      "lastFundingType": "Series A",
+      "rounds": [
+        {
+          "announcedDate": "2019-01-01",
+          "amount": {
+            "amount": 2000000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "KAUST Innovation Fund"
+          ],
+          "postMoneyValuation": {
+            "amount": 9113398,
+            "currency": "USD"
+          },
+          "type": "Series A"
+        },
+        {
+          "announcedDate": "2017-05-10",
+          "amount": {
+            "amount": 500000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "postMoneyValuation": {
+            "amount": 3135622,
+            "currency": "USD"
+          },
+          "type": "Seed"
+        },
+        {
+          "announcedDate": "2017-01-01",
+          "investorCount": 1,
+          "postMoneyValuation": {
+            "amount": 1423463,
+            "currency": "USD"
+          },
+          "type": "Pre Seed"
+        }
+      ],
+      "investors": {
+        "reportedCount": 2,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "KAUST Innovation Fund",
+            "rounds": [
+              "Series A",
+              "Seed Round"
+            ]
+          },
+          {
+            "name": "Taqadam",
+            "rounds": [
+              "Pre Seed Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 4,
+      "includedUniqueCount": 4,
+      "items": [
+        {
+          "date": "2023-06-22",
+          "publisher": "GenomeWeb",
+          "title": "Congenica Inks Middle East Distribution Deal With NoorDx",
+          "url": "https://www.genomeweb.com/business-news/congenica-inks-middle-east-distribution-deal-noordx"
+        },
+        {
+          "date": "2019-01-01",
+          "title": "Series A - NoorDx"
+        },
+        {
+          "date": "2017-05-10",
+          "title": "Seed Round - NoorDx"
+        },
+        {
+          "date": "2017-01-01",
+          "title": "Pre Seed Round - NoorDx"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 2,
+    "knownDetailedFundingAmount": {
+      "amount": 2500000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 80,
+    "latestToEarliestKnownValuationMultiple": 6.4
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": -3,
+      "growthScore": 24,
+      "heatChange90Days": -2,
+      "heatScore": 73
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 0
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 7.86,
+        "timingEstimatePercent": {
+          "within6Months": 15.13,
+          "months6To11": 12.84,
+          "months12To24": 20.15,
+          "beyond24Months": 24.96
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 30.26
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 0
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Novo Genomics specializes in biotechnology research, offering genomic support and precision medicine services.",
+          "employeeRange": "11-50",
+          "name": "Novo Genomics",
+          "sharedCategories": [
+            "Precision Medicine",
+            "Biotechnology"
+          ],
+          "sharedSpecialties": [
+            "DNA Sequencing Analysis",
+            "Genomic Sequencing and Diagnostics",
+            "Molecular Diagnostics",
+            "Genomic Variant Interpretation",
+            "Clinical Laboratory Services",
+            "Cancer Genetics",
+            "Clinical Bioinformatics",
+            "Genetic Counseling",
+            "Carrier Screening"
+          ],
+          "similarityScore": 93
+        },
+        {
+          "description": "GeneDx uses artificial intelligence and machine learning to analyze patient data to provide insights to transform the practice of medicine.",
+          "employeeRange": "1,001-5,000",
+          "name": "GeneDx",
+          "sharedCategories": [
+            "Biotechnology"
+          ],
+          "sharedSpecialties": [
+            "Biorepository Services",
+            "DNA Sequencing Analysis",
+            "Genomic Sequencing and Diagnostics",
+            "Molecular Diagnostics",
+            "Genomic Variant Interpretation",
+            "Clinical Laboratory Services",
+            "Clinical Bioinformatics",
+            "Genetic Counseling",
+            "Rare Disease Genetic Testing"
+          ],
+          "similarityScore": 91
+        },
+        {
+          "description": "genomiQa offers hospitals, clinicians and companies high-quality analysis of data from whole genome sequencing.",
+          "employeeRange": "1-10",
+          "name": "genomiQa",
+          "sharedCategories": [
+            "Biotechnology"
+          ],
+          "sharedSpecialties": [
+            "DNA Sequencing Analysis",
+            "Genomic Sequencing and Diagnostics",
+            "Molecular Diagnostics",
+            "Genomic Variant Interpretation",
+            "Cancer Genetics",
+            "Clinical Bioinformatics",
+            "Rare Disease Genetic Testing"
+          ],
+          "similarityScore": 86
+        },
+        {
+          "description": "Umm Al Qura provides real estate development and construction for urban and investment real estate landscapes.",
+          "employeeRange": "101-250",
+          "name": "Umm Al Qura",
+          "similarityScore": 85
+        },
+        {
+          "description": "CENTOGENE provides methods and technology for human genetics analysis.",
+          "employeeRange": "501-1,000",
+          "name": "Centogene",
+          "sharedCategories": [
+            "Health Care",
+            "Biotechnology"
+          ],
+          "sharedSpecialties": [
+            "DNA Sequencing Analysis",
+            "Genomic Sequencing and Diagnostics",
+            "Genomic Variant Interpretation",
+            "Clinical Bioinformatics",
+            "Genetic Counseling",
+            "Carrier Screening",
+            "Rare Disease Genetic Testing"
+          ],
+          "similarityScore": 83
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Series A round raised $2,000,000, or 80% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $1,423,463 to $9,113,398, a 6.4x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 24 (-3 over 90 days) and market heat at 73 (-2).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Novo Genomics, GeneDx, genomiQa.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

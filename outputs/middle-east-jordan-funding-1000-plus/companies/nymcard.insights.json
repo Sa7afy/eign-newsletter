@@ -1,0 +1,545 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T12:47:26.861Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T12:47:26.857Z",
+    "url": "https://www.crunchbase.com/organization/nymcard"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "NymCard",
+      "shortDescription": "NymCard is an API-first finance platform providing payment infrastructure, card issuance, transaction processing, and digital lending.",
+      "description": "NymCard is a full-stack, API-first embedded finance platform that provides payment infrastructure for banks, fintechs, enterprises, and telecom providers. The platform enables seamless card issuance, transaction processing, digital lending, and real-time money movement through its proprietary nCore system. Operating across multiple countries, NymCard owns its processing and switching technology, offering greater control and flexibility without reliance on third-party providers.\n\nThe company is licensed by the Central Bank of the UAE, ensuring compliance with financial regulations while helping institutions scale their financial services. By integrating with global and regional payment networks, NymCard supports businesses in launching and managing payment products efficiently.",
+      "website": "https://www.nymcard.com/",
+      "foundedYear": 2018,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "101-250",
+      "estimatedRevenueRange": "$50M-$100M",
+      "headquarters": "Dubai, United Arab Emirates",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Banking",
+        "Credit Cards",
+        "Financial Services",
+        "FinTech",
+        "Insurance",
+        "Telecommunications"
+      ],
+      "sectors": [
+        "Financial Services",
+        "Lending and Investments",
+        "Messaging and Telecommunications",
+        "Payments"
+      ],
+      "founders": [
+        "Ayman Chalhoub",
+        "Omar Onsi"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "An API-first embedded finance platform for launching and operating branded card, payment, credit, and lending products across MENA and Pakistan.",
+        "name": "NymCard Platform"
+      },
+      {
+        "description": "A card issuing and processing service for launching Visa, Mastercard, and supported regional-scheme cards in virtual, physical, or tokenized formats.",
+        "name": "Card Issuing"
+      },
+      {
+        "description": "A payment infrastructure service for domestic and cross-border transfers through cards, accounts, wallets, and regional payment networks.",
+        "name": "Money Movement"
+      },
+      {
+        "description": "A configurable lending infrastructure service for credit decisioning, scoring, loan configuration, repayments, and embedded credit experiences.",
+        "name": "Embedded Lending"
+      },
+      {
+        "description": "An end-to-end BNPL infrastructure service for offering installment or deferred-payment options at online and in-store checkout.",
+        "name": "Buy Now, Pay Later (BNPL)"
+      },
+      {
+        "description": "A modular business-finance platform that enables banks and financial providers to offer branded SME cards, credit, payments, and spend-management capabilities.",
+        "name": "Nym4Business"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 69100000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 9,
+      "detailedRoundCount": 9,
+      "lastFundingDate": "2025-03-18",
+      "lastFundingType": "Series B",
+      "rounds": [
+        {
+          "announcedDate": "2025-03-18",
+          "amount": {
+            "amount": 33000000,
+            "currency": "USD"
+          },
+          "investorCount": 10,
+          "leadInvestors": [
+            "QED Investors"
+          ],
+          "postMoneyValuation": {
+            "amount": 189794776,
+            "currency": "USD"
+          },
+          "type": "Series B"
+        },
+        {
+          "announcedDate": "2022-06-08",
+          "amount": {
+            "amount": 22500000,
+            "currency": "USD"
+          },
+          "investorCount": 10,
+          "leadInvestors": [
+            "DisruptAD"
+          ],
+          "postMoneyValuation": {
+            "amount": 105167229,
+            "currency": "USD"
+          },
+          "type": "Series A"
+        },
+        {
+          "announcedDate": "2022-02-24",
+          "investorCount": 1,
+          "leadInvestors": [
+            "Mashreq Bank"
+          ],
+          "type": "Debt Financing"
+        },
+        {
+          "announcedDate": "2022-01-12",
+          "investorCount": 1,
+          "leadInvestors": [
+            "GrowthX Accelerator"
+          ],
+          "type": "Non Equity Assistance"
+        },
+        {
+          "announcedDate": "2021-11-01",
+          "investorCount": 1,
+          "leadInvestors": [
+            "Shorooq Partners"
+          ],
+          "postMoneyValuation": {
+            "amount": 75322867,
+            "currency": "USD"
+          },
+          "type": "Series A"
+        },
+        {
+          "announcedDate": "2021-01-31",
+          "amount": {
+            "amount": 7600000,
+            "currency": "USD"
+          },
+          "investorCount": 3,
+          "leadInvestors": [
+            "Shorooq Partners"
+          ],
+          "postMoneyValuation": {
+            "amount": 42906084,
+            "currency": "USD"
+          },
+          "type": "Series A"
+        },
+        {
+          "announcedDate": "2020-03-01",
+          "amount": {
+            "amount": 1500000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "Shorooq Partners"
+          ],
+          "postMoneyValuation": {
+            "amount": 16680037,
+            "currency": "USD"
+          },
+          "type": "Seed"
+        },
+        {
+          "announcedDate": "2019-08-01",
+          "amount": {
+            "amount": 1500000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "postMoneyValuation": {
+            "amount": 15452994,
+            "currency": "USD"
+          },
+          "type": "Seed"
+        },
+        {
+          "announcedDate": "2018-08-01",
+          "amount": {
+            "amount": 3000000,
+            "currency": "USD"
+          },
+          "investorCount": 2,
+          "postMoneyValuation": {
+            "amount": 12433469,
+            "currency": "USD"
+          },
+          "type": "Seed"
+        }
+      ],
+      "investors": {
+        "reportedCount": 19,
+        "visibleNames": [
+          {
+            "name": "Dubai Future District Fund",
+            "rounds": [
+              "Series B"
+            ]
+          },
+          {
+            "name": "Endeavor",
+            "rounds": [
+              "Series B"
+            ]
+          },
+          {
+            "name": "Endeavor Catalyst"
+          },
+          {
+            "name": "FJ Labs",
+            "rounds": [
+              "Series B"
+            ]
+          },
+          {
+            "name": "Knollwood Investment Advisory",
+            "rounds": [
+              "Series B"
+            ]
+          },
+          {
+            "name": "Lunate",
+            "rounds": [
+              "Series B"
+            ]
+          },
+          {
+            "name": "Mashreq Bank",
+            "rounds": [
+              "Series B"
+            ]
+          },
+          {
+            "name": "Oraseya Capital",
+            "rounds": [
+              "Series B"
+            ]
+          },
+          {
+            "isLead": true,
+            "name": "QED Investors",
+            "rounds": [
+              "Series B"
+            ]
+          },
+          {
+            "name": "Reciprocal Ventures",
+            "rounds": [
+              "Series B"
+            ]
+          },
+          {
+            "name": "Shorooq Partners",
+            "rounds": [
+              "Series B"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 101,
+      "includedUniqueCount": 10,
+      "items": [
+        {
+          "date": "2026-06-21",
+          "publisher": "Paypers",
+          "title": "NymCard launches nCore FullStack payments infrastructure",
+          "url": "https://thepaypers.com/payments/news/nymcard-launches-ncore-fullstack-payments-infrastructure"
+        },
+        {
+          "date": "2026-06-19",
+          "publisher": "Fintech News UAE",
+          "title": "NymCard Launches nCore FullStack to Unify Payments Infrastructure for Banks",
+          "url": "https://fintechnews.ae/32156/payments/nymcard-ncore-fullstack-payments-infrastructure/"
+        },
+        {
+          "date": "2026-06-19",
+          "publisher": "Financial IT",
+          "title": "NymCard Launches nCore FullStack: The Complete Payments Infrastructure Through One Integration",
+          "url": "https://financialit.net/news/payments/nymcard-launches-ncore-fullstack-complete-payments-infrastructure-through-one"
+        },
+        {
+          "date": "2026-06-18",
+          "publisher": "Zawya.com",
+          "title": "NymCard launches nCore FullStack: The complete payments infrastructure through one integration",
+          "url": "https://www.zawya.com/en/press-release/companies-news/nymcard-launches-ncore-fullstack-the-complete-payments-infrastructure-through-one-integration-ozi88bjz"
+        },
+        {
+          "date": "2026-06-18",
+          "publisher": "TechAfrica News",
+          "title": "NymCard Launches nCore FullStack to Unify Payments Infrastructure for Banks in MENA",
+          "url": "https://techafricanews.com/2026/06/18/nymcard-launches-ncore-fullstack-to-unify-payments-infrastructure-for-banks-in-mena/"
+        },
+        {
+          "date": "2026-05-12",
+          "publisher": "Zawya.com",
+          "title": "Mawarid Finance launches Lynq — a financial operating system for UAE businesses",
+          "url": "https://www.zawya.com/en/press-release/companies-news/mawarid-finance-launches-lynq-a-financial-operating-system-for-uae-businesses-qmc3dnpb"
+        },
+        {
+          "date": "2026-05-12",
+          "publisher": "Fintech News UAE",
+          "title": "Mawarid Finance and NymCard Launch B2B Spend Management Platform Lynq",
+          "url": "https://fintechnews.ae/31658/payments/mawarid-finance-nymcard-lynq-uae/"
+        },
+        {
+          "date": "2026-03-16",
+          "publisher": "Fintech News UAE",
+          "title": "Top Funded UAE Fintech Startups of 2026",
+          "url": "https://fintechnews.ae/30634/fintechdubai/top-funded-uae-fintech-startups-of-2026/"
+        },
+        {
+          "date": "2026-02-12",
+          "publisher": "Crowdfund Insider",
+          "title": "UK Fintech Funding Declined YoY, Other Regions Experience Rebound in Overall Funding : Research",
+          "url": "https://www.crowdfundinsider.com/2026/02/261542-uk-fintech-funding-declined-yoy-other-regions-experience-rebound-in-overall-funding-research/"
+        },
+        {
+          "date": "2026-02-09",
+          "publisher": "PYMNTS.com",
+          "title": "FinTechs Reshape Middle East Money Movement as Capital Returns",
+          "url": "https://www.pymnts.com/news/fintech-investments/2026/fintechs-reshape-middle-east-money-movement-as-capital-returns/"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 6,
+    "knownDetailedFundingAmount": {
+      "amount": 69100000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 47.76,
+    "latestToEarliestKnownValuationMultiple": 15.26
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "reportedPartnerships": {
+      "note": "Provider event summaries with linked sources; not independently verified.",
+      "items": [
+        {
+          "date": "2026-02-02",
+          "description": "NymCard and Visa have announced a collaboration to enable USDC-based stablecoin settlement for Visa card transactions across the GCC, supporting faster and more efficient cross-border payments.",
+          "sources": [
+            {
+              "date": "2026-02-02",
+              "publisher": "TradingView",
+              "title": "ZAWYA-PRESSR: NymCard enables Stablecoin settlement with Visa in the GCC",
+              "url": "https://www.tradingview.com/news/reuters.com,2026-02-02:newsml_Zaw99Zg5t:0-zawya-pressr-nymcard-enables-stablecoin-settlement-with-visa-in-the-gcc/"
+            }
+          ]
+        }
+      ]
+    },
+    "crunchbaseMomentum": {
+      "growthInsightGeneratedDate": "2025-11-03",
+      "growthChange90Days": -5,
+      "growthScore": 71,
+      "heatChange90Days": -7,
+      "heatScore": 57,
+      "status": "Growing"
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 34.76
+      },
+      "funding": {
+        "generatedDate": "2026-01-03",
+        "probabilityPercent": 84.11,
+        "timingEstimatePercent": {
+          "within6Months": 99.99,
+          "months6To11": 0,
+          "months12To24": 0.01,
+          "beyond24Months": 0
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 96.05
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 32.54
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Motive is a fleet management and driver safety platform that helps improve the safety, productivity, and profitability of fleet operations.",
+          "employeeRange": "1,001-5,000",
+          "name": "Motive",
+          "sharedCategories": [
+            "Credit Cards"
+          ],
+          "similarityScore": 100
+        },
+        {
+          "description": "Rain is a fintech company that builds stablecoin-powered payment infrastructure, allowing businesses and individuals to use tokenized money.",
+          "employeeRange": "101-250",
+          "name": "Rain",
+          "sharedCategories": [
+            "FinTech"
+          ],
+          "sharedSpecialties": [
+            "Payment Processing",
+            "Banking-as-a-Service (BaaS)",
+            "Tokenization Platforms",
+            "Payment Fraud Detection",
+            "Payment Cards"
+          ],
+          "similarityScore": 95.264
+        },
+        {
+          "description": "Alloy is a developer of an identity verification platform used to detect fraud and make identity management effective and simple for banks.",
+          "employeeRange": "251-500",
+          "name": "Alloy",
+          "sharedCategories": [
+            "Financial Services",
+            "FinTech"
+          ],
+          "sharedSpecialties": [
+            "KYC Automation",
+            "Alternative Credit Data and Scoring"
+          ],
+          "similarityScore": 90.671
+        },
+        {
+          "description": "Creandum is an early-stage venture capital firm focusing on technology companies within the consumer, software, and hardware industries.",
+          "employeeRange": "51-100",
+          "name": "Creandum",
+          "sharedCategories": [
+            "Financial Services"
+          ],
+          "similarityScore": 85.85
+        },
+        {
+          "description": "Checkout.com is a global provider of payment solutions that help businesses and communities thrive in the digital economy.",
+          "employeeRange": "1,001-5,000",
+          "name": "Checkout.com",
+          "sharedCategories": [
+            "Financial Services",
+            "FinTech"
+          ],
+          "sharedSpecialties": [
+            "Payment Processing",
+            "Tokenization Platforms",
+            "Payment Fraud Detection",
+            "Payment Cards",
+            "Mass Payouts and Bulk Disbursements"
+          ],
+          "similarityScore": 80.763
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Series B round raised $33,000,000, or 47.76% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $12,433,469 to $189,794,776, a 15.26x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 71 (-5 over 90 days) and market heat at 57 (-7).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Motive, Rain, Alloy.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "issues": [
+      {
+        "severity": "low",
+        "finding": "Crunchbase reports 101 timeline items but exposes 10 unique items in this payload.",
+        "impact": "Recent news is a partial sample, not a complete history."
+      }
+    ],
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

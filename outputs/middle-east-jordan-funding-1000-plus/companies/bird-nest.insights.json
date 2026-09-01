@@ -1,0 +1,295 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T11:00:40.393Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T11:00:40.391Z",
+    "url": "https://www.crunchbase.com/organization/bird-nest"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "BIRD NEST",
+      "shortDescription": "BIRD NEST is a Co-Living Startup that provides a holistic living experience that drives personal & professional development.",
+      "description": "BIRD NEST is a Co-Living Startup that provides a holistic living experience that drives personal & professional development.",
+      "website": "https://www.birdnestlife.com/",
+      "foundedYear": 2019,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "1-10",
+      "estimatedRevenueRange": "Less than $1M",
+      "headquarters": "Cairo, Al Qahirah, Egypt",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Middle East",
+        "Middle East and North Africa (MENA)",
+        "North Africa"
+      ],
+      "industries": [
+        "Hospitality",
+        "Real Estate",
+        "Social"
+      ],
+      "sectors": [
+        "Community and Lifestyle",
+        "Real Estate",
+        "Travel and Tourism"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "Provision of fully furnished living spaces for short-term and long-term stays across multiple locations.",
+        "name": "Fully Furnished Accommodations"
+      },
+      {
+        "description": "Digital platform enabling remote access to accommodation services such as check-in, rent payment, and door unlocking.",
+        "name": "Tech-Enabled Living Services"
+      },
+      {
+        "description": "Regular cleaning and laundry services provided to residents during their stay.",
+        "name": "Cleaning and Laundry Services"
+      },
+      {
+        "description": "Around-the-clock security monitoring and concierge support for residents.",
+        "name": "24/7 Security and Concierge Services"
+      },
+      {
+        "description": "Service to transform underutilized properties into income-generating assets through BirdNest’s platform.",
+        "name": "Property Investment and Management Service"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 50000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 2,
+      "detailedRoundCount": 2,
+      "lastFundingDate": "2024-05-23",
+      "lastFundingType": "Seed",
+      "rounds": [
+        {
+          "announcedDate": "2024-05-23",
+          "investorCount": 2,
+          "leadInvestors": [
+            "Beltone Venture Capital"
+          ],
+          "postMoneyValuation": {
+            "amount": 2643267,
+            "currency": "USD"
+          },
+          "type": "Seed"
+        },
+        {
+          "announcedDate": "2019-11-01",
+          "amount": {
+            "amount": 50000,
+            "currency": "USD"
+          },
+          "postMoneyValuation": {
+            "amount": 573863,
+            "currency": "USD"
+          },
+          "type": "Angel"
+        }
+      ],
+      "investors": {
+        "reportedCount": 2,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "Beltone Venture Capital",
+            "rounds": [
+              "Seed Round"
+            ]
+          },
+          {
+            "name": "Conservation International Ventures",
+            "rounds": [
+              "Seed Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 2,
+      "includedUniqueCount": 2,
+      "items": [
+        {
+          "date": "2024-05-23",
+          "title": "Seed Round - BIRD NEST"
+        },
+        {
+          "date": "2019-11-01",
+          "title": "Angel Round - BIRD NEST"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 50000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestToEarliestKnownValuationMultiple": 4.61
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": -1,
+      "growthScore": 72,
+      "heatChange90Days": 5,
+      "heatScore": 47
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 30.98
+      },
+      "funding": {
+        "generatedDate": "2026-06-20",
+        "probabilityPercent": 94.21,
+        "timingEstimatePercent": {
+          "within6Months": 96.61,
+          "months6To11": 0,
+          "months12To24": 0,
+          "beyond24Months": 3.39
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 88.2
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 4.29
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "RIO Development is a real estate development company that offers property development and project management services.",
+          "employeeRange": "101-250",
+          "name": "RIO Development",
+          "sharedCategories": [
+            "Real Estate"
+          ],
+          "similarityScore": 100
+        },
+        {
+          "description": "Habyt is a housing company that simplifies housing access with digital-first solutions for tenants and landlords.",
+          "employeeRange": "251-500",
+          "name": "Habyt",
+          "sharedCategories": [
+            "Real Estate"
+          ],
+          "sharedSpecialties": [
+            "Property Management Software",
+            "Coliving and Serviced Residences",
+            "Residential Property Management",
+            "Rental Management"
+          ],
+          "similarityScore": 94
+        },
+        {
+          "description": "Roam is a coliving and coworking community testing the boundaries between work, travel, and life adventure.",
+          "employeeRange": "51-100",
+          "name": "Roam International",
+          "sharedCategories": [
+            "Real Estate"
+          ],
+          "sharedSpecialties": [
+            "Coliving and Serviced Residences"
+          ],
+          "similarityScore": 92
+        },
+        {
+          "description": "The Collective is a community of co-living, serviced living or co-working spaces.",
+          "employeeRange": "11-50",
+          "name": "The Collective",
+          "sharedCategories": [
+            "Social",
+            "Real Estate"
+          ],
+          "sharedSpecialties": [
+            "Coliving and Serviced Residences",
+            "Short-Term Rental Cleaning"
+          ],
+          "similarityScore": 92
+        },
+        {
+          "description": "Selina is a fast-growing hospitality brand built for today’s nomadic traveler to help them live, work, and explore anywhere in the world.",
+          "employeeRange": "1,001-5,000",
+          "name": "Selina",
+          "sharedCategories": [
+            "Hospitality"
+          ],
+          "sharedSpecialties": [
+            "Coliving and Serviced Residences"
+          ],
+          "similarityScore": 90
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $573,863 to $2,643,267, a 4.61x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 72 (-1 over 90 days) and market heat at 47 (+5).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include RIO Development, Habyt, Roam International.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

@@ -1,0 +1,241 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T09:15:31.152Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T09:15:31.150Z",
+    "url": "https://www.crunchbase.com/organization/arabian-shield-cooperative-insurance-co"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Arabian Shield Insurance",
+      "shortDescription": "Arabian Shield is an insurance company that offers corporate and individual insurance services.",
+      "description": "Arabian Shield operates as an insurance company that offers personal and business insurance services for both companies and individuals. They offer various individual insurance services, such as craftsman insurance, travel insurance, and medical insurance. They also provide corporate insurance services such as property insurance, public liability insurance, and personal accident insurance.",
+      "website": "https://www.arabianshield.com/",
+      "operatingStatus": "Active",
+      "ownershipStatus": "Public",
+      "companyType": "For profit",
+      "employeeRange": "251-500",
+      "estimatedRevenueRange": "$10M-$50M",
+      "headquarters": "Riyadh, Ar Riyad, Saudi Arabia",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Financial Services",
+        "Insurance",
+        "Medical",
+        "Property Insurance"
+      ],
+      "sectors": [
+        "Financial Services",
+        "Health Care"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "Insurance coverage designed for businesses to protect against various operational risks and liabilities.",
+        "name": "Corporate Insurance Services"
+      },
+      {
+        "description": "Insurance products aimed at individuals to cover personal risks such as health, life, and property.",
+        "name": "Individual Insurance Services"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 21597189,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2024-02-05",
+      "lastFundingType": "Post IPO Secondary",
+      "rounds": [
+        {
+          "announcedDate": "2024-02-05",
+          "amount": {
+            "amount": 21597189,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "Alinma Bank"
+          ],
+          "postMoneyValuation": {
+            "amount": 375603295,
+            "currency": "USD"
+          },
+          "type": "Post IPO Secondary"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "Alinma Bank",
+            "rounds": [
+              "Post-IPO Secondary"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 6,
+      "includedUniqueCount": 6,
+      "items": [
+        {
+          "date": "2026-03-08",
+          "publisher": "TradingView",
+          "title": "Arabian Shield FY Net Loss 43.8 Million Riyals",
+          "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN3ZU1JT:0-arabian-shield-fy-net-loss-43-8-million-riyals/"
+        },
+        {
+          "date": "2024-11-19",
+          "publisher": "GlobeNewswire News Room",
+          "title": "Saudi Arabia Life Insurance Market - Key Trends and Opportunities to 2028, Featuring Al-Rajhi Insurance, Arabian Shield Insurance, Walaa Insurance, Chubb Insurance and More",
+          "url": "https://www.globenewswire.com/news-release/2024/11/19/2983372/28124/en/Saudi-Arabia-Life-Insurance-Market-Key-Trends-and-Opportunities-to-2028-Featuring-Al-Rajhi-Insurance-Arabian-Shield-Insurance-Walaa-Insurance-Chubb-Insurance-and-More.html"
+        },
+        {
+          "date": "2024-02-05",
+          "title": "Post-IPO Secondary - Arabian Shield Insurance"
+        },
+        {
+          "date": "2023-11-02",
+          "publisher": "وكالة الأنباء السعودية",
+          "title": "SAMA Governor Honors Two Insurance Companies for Smooth Merger",
+          "url": "https://www.spa.gov.sa/en/N1990877"
+        },
+        {
+          "date": "2022-12-13",
+          "title": "Alinma Tokio Marine acquired by Arabian Shield Insurance"
+        },
+        {
+          "date": "2007-06-26",
+          "title": "8070"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 21597189,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthInsightGeneratedDate": "2026-03-29",
+      "growthChange90Days": 2,
+      "growthScore": 82,
+      "heatChange90Days": 4,
+      "heatScore": 76,
+      "status": "Declining"
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2025-05-20",
+        "probabilityPercent": 0
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Säkra is one of Sweden's largest independent chains in insurance mediation, fund placement and financial advice.",
+          "employeeRange": "1-10",
+          "name": "Säkra Falkenberg",
+          "sharedCategories": [
+            "Financial Services",
+            "Insurance"
+          ],
+          "sharedSpecialties": [
+            "Commercial Auto and Fleet Insurance",
+            "Business Interruption Insurance",
+            "Group Life Insurance",
+            "Life and Health Insurance"
+          ],
+          "similarityScore": 100
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Post IPO Secondary round raised $21,597,189, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $375,603,295 to $375,603,295, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 82 (+2 over 90 days) and market heat at 76 (+4).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Strategic repositioning and listing coverage shape the current narrative",
+      "statement": "Arabian Shield Insurance has a recent strategic-positioning change; 1 recent unique news titles explicitly contain the English terms IPO or listing.",
+      "implication": "Their timing coincides with increased visibility in the loaded news and Crunchbase momentum signals, but the data does not establish causation.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.company.formerName",
+        "facts.recentNews",
+        "providerSignals.crunchbaseMomentum"
+      ],
+      "caveats": [
+        "The causal link to Crunchbase momentum is an inference from timing, not a disclosed company metric."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

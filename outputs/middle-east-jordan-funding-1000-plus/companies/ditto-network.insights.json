@@ -1,0 +1,244 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T11:24:45.886Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T11:24:45.884Z",
+    "url": "https://www.crunchbase.com/organization/ditto-network"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Ditto Network",
+      "shortDescription": "Secure execution infrastructure for AI agents interacting with onchain markets.",
+      "description": "Ditto Network is secure execution infrastructure for AI agents that trade, earn yield, and interact with onchain markets without taking custody of users’ funds or private keys.\n\nUsers define approved contracts, chains, spending limits, markets, withdrawal rights, and risk parameters through scoped permissions. AI agents can then identify opportunities, while Ditto simulates, validates, and executes each action through a decentralized operator network.\n\nDitto supports use cases including prediction markets, autonomous yield strategies, smart trading, portfolio rebalancing, cross-chain execution, liquidation protection, and third-party agent skills. Its infrastructure is designed around non-custodial permissions, pre-set guardrails, simulation before settlement, operator consensus, and slashable security.\n\nThe network currently reports 16 independent operators, 317K+ simulations, and $200M+ restaked collateral securing execution. Ditto also operates live Ethereum vault infrastructure and is building toward a broader AI-agent execution marketplace.",
+      "website": "https://dittonetwork.io/",
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "1-10",
+      "headquarters": "Dubai, United Arab Emirates",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Agentic AI",
+        "AI Infrastructure",
+        "Blockchain",
+        "Decentralized Finance (DeFi)",
+        "FinTech",
+        "Prediction Markets"
+      ],
+      "sectors": [
+        "Artificial Intelligence (AI)",
+        "Blockchain and Cryptocurrency",
+        "Financial Services",
+        "Software"
+      ],
+      "founders": [
+        "Vlad Shadrintsev"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "A decentralized keeper network that executes event-driven intents and workflows based on predefined logic with financial guarantees and trustless operation.",
+        "name": "Ditto Execution Network"
+      },
+      {
+        "description": "A service allowing Ethereum holders to restake their ETH to secure Actively Validated Services (AVSs) and earn additional rewards beyond standard staking.",
+        "name": "Restaking Service"
+      },
+      {
+        "description": "A software development kit and modular tools enabling developers to build decentralized trading applications and automate workflows using account abstraction modules.",
+        "name": "Ditto SDK and AutomationKit"
+      },
+      {
+        "description": "Implementation of zero-knowledge proofs to verify execution states and resolve disputes objectively within the Ditto Execution Network.",
+        "name": "Zero-Knowledge Proof Integration"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 8000000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 2,
+      "detailedRoundCount": 2,
+      "lastFundingDate": "2025-05-01",
+      "lastFundingType": "Seed",
+      "rounds": [
+        {
+          "announcedDate": "2025-05-01",
+          "amount": {
+            "amount": 6500000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "type": "Seed"
+        },
+        {
+          "announcedDate": "2024-05-13",
+          "amount": {
+            "amount": 1500000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "postMoneyValuation": {
+            "amount": 4631326,
+            "currency": "USD"
+          },
+          "type": "Pre Seed"
+        }
+      ],
+      "investors": {
+        "reportedCount": 2,
+        "visibleNames": [
+          {
+            "name": "Blockchain Founders Fund",
+            "rounds": [
+              "Pre Seed Round"
+            ]
+          },
+          {
+            "name": "NGC Ventures",
+            "rounds": [
+              "Seed Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 2,
+      "includedUniqueCount": 2,
+      "items": [
+        {
+          "date": "2025-05-01",
+          "title": "Seed Round - Ditto Network"
+        },
+        {
+          "date": "2024-05-13",
+          "title": "Pre Seed Round - Ditto Network"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 2,
+    "knownDetailedFundingAmount": {
+      "amount": 8000000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 81.25,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": 3,
+      "growthScore": 59,
+      "heatChange90Days": 17,
+      "heatScore": 80
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 75.06
+      },
+      "funding": {
+        "generatedDate": "2026-08-13",
+        "probabilityPercent": 51.56,
+        "timingEstimatePercent": {
+          "within6Months": 26.47,
+          "months6To11": 0.02,
+          "months12To24": 0,
+          "beyond24Months": 73.52
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 94.42
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 4.27
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Offchain Labs develops a solution for scaling Ethereum smart contracts.",
+          "employeeRange": "101-250",
+          "name": "Offchain Labs",
+          "sharedCategories": [
+            "Blockchain"
+          ],
+          "sharedSpecialties": [
+            "Staking Services",
+            "Smart Contract Development Frameworks",
+            "SDK Management"
+          ],
+          "similarityScore": 88.177
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Seed round raised $6,500,000, or 81.25% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $4,631,326 to $4,631,326, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 59 (+3 over 90 days) and market heat at 80 (+17).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

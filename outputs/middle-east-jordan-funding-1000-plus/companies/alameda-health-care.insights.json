@@ -1,0 +1,267 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T09:09:10.278Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T09:09:10.276Z",
+    "url": "https://www.crunchbase.com/organization/alameda-health-care"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Alameda Health Care",
+      "shortDescription": "Alameda Health Care is a private healthcare Group with growing activities that include hospitals, outpatient clinics, diagnostic centers.",
+      "description": "Alameda Health Care is a private healthcare Group with growing activities that include hospitals, outpatient clinics, diagnostic centers, medical laboratories, rehabilitation centers, and pharmacies.",
+      "website": "https://alameda-hc.com/",
+      "foundedYear": 1999,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "5,001-10,000",
+      "headquarters": "Cairo, Al Qahirah, Egypt",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Middle East",
+        "Middle East and North Africa (MENA)",
+        "North Africa"
+      ],
+      "industries": [
+        "Health Care",
+        "Hospital",
+        "Medical Device"
+      ],
+      "sectors": [
+        "Health Care"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 190000000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2025-07-06",
+      "lastFundingType": "Private Equity",
+      "rounds": [
+        {
+          "announcedDate": "2025-07-06",
+          "amount": {
+            "amount": 190000000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "Development Partners International"
+          ],
+          "postMoneyValuation": {
+            "amount": 701924352,
+            "currency": "USD"
+          },
+          "type": "Private Equity"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "Development Partners International",
+            "rounds": [
+              "Private Equity Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 3,
+      "includedUniqueCount": 2,
+      "items": [
+        {
+          "date": "2025-07-07",
+          "publisher": "Zawya.com",
+          "title": "Development Partners International signs $190mln investment into Alameda",
+          "url": "https://www.zawya.com/en/press-release/companies-news/development-partners-international-signs-190mln-investment-into-alameda-s3mpebj3"
+        },
+        {
+          "date": "2025-07-06",
+          "title": "Private Equity Round - Alameda Health Care"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 190000000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthInsightGeneratedDate": "2025-07-14",
+      "growthChange90Days": -2,
+      "growthScore": 76,
+      "heatChange90Days": -8,
+      "heatScore": 58,
+      "status": "Growing"
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2025-10-04",
+        "probabilityPercent": 29.27
+      },
+      "funding": {
+        "generatedDate": "2025-10-11",
+        "probabilityPercent": 65.93,
+        "timingEstimatePercent": {
+          "within6Months": 100,
+          "months6To11": 0,
+          "months12To24": 0,
+          "beyond24Months": 0
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 92.36
+      },
+      "ipo": {
+        "generatedDate": "2025-10-04",
+        "probabilityPercent": 20.77
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Headquartered in Dubai, the journey towards excellence in Healthcare was started by Dr. Azad Moopen, a doctor turned entrepreneur.",
+          "employeeRange": "10,001+",
+          "name": "Aster DM Healthcare",
+          "sharedCategories": [
+            "Health Care",
+            "Hospital"
+          ],
+          "similarityScore": 97
+        },
+        {
+          "description": "Burjeel Holdings is a healthcare company that specializes in patient management, medicine, and pharmacies.",
+          "employeeRange": "10,001+",
+          "name": "Burjeel Holdings",
+          "sharedCategories": [
+            "Health Care",
+            "Hospital"
+          ],
+          "similarityScore": 95
+        },
+        {
+          "description": "Saudi German Health is a hospital and health care firm that provides healthcare services.",
+          "employeeRange": "5,001-10,000",
+          "name": "Saudi German Health",
+          "sharedCategories": [
+            "Health Care",
+            "Hospital"
+          ],
+          "similarityScore": 93
+        },
+        {
+          "description": "Cleveland Clinic is a non-profit medical center that combines clinical and hospital care with research and education.",
+          "employeeRange": "10,001+",
+          "name": "Cleveland Clinic",
+          "sharedCategories": [
+            "Health Care",
+            "Hospital"
+          ],
+          "similarityScore": 89
+        },
+        {
+          "description": "Medeor Hospital provides anesthesiology, cardiology, neonatology, ophthalmology, oncology, and urology treatments.",
+          "employeeRange": "501-1,000",
+          "name": "Medeor Hospital",
+          "sharedCategories": [
+            "Health Care",
+            "Hospital"
+          ],
+          "similarityScore": 85
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Private Equity round raised $190,000,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $701,924,352 to $701,924,352, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 76 (-2 over 90 days) and market heat at 58 (-8).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Aster DM Healthcare, Burjeel Holdings, Saudi German Health.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "issues": [
+      {
+        "severity": "low",
+        "finding": "Crunchbase reports 3 timeline items but exposes 2 unique items in this payload.",
+        "impact": "Recent news is a partial sample, not a complete history."
+      }
+    ],
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

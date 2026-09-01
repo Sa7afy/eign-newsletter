@@ -1,0 +1,274 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T11:05:07.771Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T11:05:07.769Z",
+    "url": "https://www.crunchbase.com/organization/brito"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Brito",
+      "shortDescription": "B2B KaaS Food-Tech Cloud Kitchen",
+      "description": "Brito Cloud Kitchens owns and operates a number of commercial food production facilities that allow multiple restaurants to offload their entire kitchen operations, order fulfillment and delivery processes.",
+      "website": "https://getbrito.com/",
+      "foundedYear": 2022,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "51-100",
+      "headquarters": "Cairo, Al Qahirah, Egypt",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Middle East",
+        "Middle East and North Africa (MENA)",
+        "North Africa"
+      ],
+      "industries": [
+        "Food and Beverage",
+        "Food Delivery",
+        "Franchise",
+        "Information Technology",
+        "Restaurants"
+      ],
+      "sectors": [
+        "Food and Beverage",
+        "Information Technology",
+        "Other",
+        "Transportation"
+      ],
+      "founders": [
+        "Moenes Sadeq",
+        "Rania Reda"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "A network of fully operated cloud kitchens in Egypt that enable food brands to expand delivery services without owning physical restaurant locations.",
+        "name": "Brito Cloud Kitchens"
+      },
+      {
+        "description": "A subscription-based service allowing food brands to use commercial kitchen resources on demand without owning kitchen assets.",
+        "name": "Kitchen as a Service (KaaS) Model"
+      },
+      {
+        "description": "Market research and analytics services that provide insights into customer preferences, demand forecasting, and operational optimization for food brands.",
+        "name": "Data-Driven Market Research and Analytics"
+      },
+      {
+        "description": "Comprehensive operational support covering kitchen management, order fulfillment, delivery, and financial and legal consulting for food brands.",
+        "name": "Full Lifecycle Restaurant Brand Support"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 1250000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2022-12-05",
+      "lastFundingType": "Pre Seed",
+      "rounds": [
+        {
+          "announcedDate": "2022-12-05",
+          "amount": {
+            "amount": 1250000,
+            "currency": "USD"
+          },
+          "postMoneyValuation": {
+            "amount": 6830447,
+            "currency": "USD"
+          },
+          "type": "Pre Seed"
+        }
+      ]
+    },
+    "recentNews": {
+      "reportedCount": 1,
+      "includedUniqueCount": 1,
+      "items": [
+        {
+          "date": "2022-12-05",
+          "title": "Pre Seed Round - Brito"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 1250000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": -1,
+      "growthScore": 60,
+      "heatChange90Days": -2,
+      "heatScore": 14
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 44.4
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 27.84,
+        "timingEstimatePercent": {
+          "within6Months": 15.61,
+          "months6To11": 13.17,
+          "months12To24": 20.5,
+          "beyond24Months": 24.99
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 92.02
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 57.4
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Kitopi is a cloud kitchen startup that provides delivery only services for restaurants.",
+          "employeeRange": "5,001-10,000",
+          "name": "Kitopi",
+          "sharedCategories": [
+            "Food and Beverage",
+            "Restaurants",
+            "Food Delivery"
+          ],
+          "sharedSpecialties": [
+            "Last Mile Delivery",
+            "Prepared Meals",
+            "Restaurant Reporting and Analytics",
+            "Commercial Kitchen Equipment"
+          ],
+          "similarityScore": 97
+        },
+        {
+          "description": "The Food Lab is a KaaS cloud kitchen operator that offers food and beverage service operations and delivery.",
+          "employeeRange": "101-250",
+          "name": "The Food Lab",
+          "sharedCategories": [
+            "Food and Beverage",
+            "Restaurants",
+            "Food Delivery"
+          ],
+          "similarityScore": 95
+        },
+        {
+          "description": "Food Nation is a cloud kitchen solution provider that provides kitchen space and delivery services for restaurant and food entrepreneurs.",
+          "employeeRange": "51-100",
+          "name": "Food Nation",
+          "sharedCategories": [
+            "Food and Beverage"
+          ],
+          "sharedSpecialties": [
+            "Commercial Kitchen Equipment"
+          ],
+          "similarityScore": 93
+        },
+        {
+          "description": "REEF Technology is a company that transforms urban real estate such as parking facilities into thriving mobility and logistical hubs.",
+          "employeeRange": "10,001+",
+          "name": "REEF",
+          "sharedCategories": [
+            "Food Delivery"
+          ],
+          "sharedSpecialties": [
+            "Last Mile Delivery"
+          ],
+          "similarityScore": 87
+        },
+        {
+          "description": "Ghost Kitchens is a Restaurant consulting firm and concept incubation team based in Philadelphia PA.",
+          "employeeRange": "1-10",
+          "name": "Ghost Kitchens",
+          "sharedCategories": [
+            "Food and Beverage"
+          ],
+          "similarityScore": 85
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Pre Seed round raised $1,250,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $6,830,447 to $6,830,447, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 60 (-1 over 90 days) and market heat at 14 (-2).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Kitopi, The Food Lab, Food Nation.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

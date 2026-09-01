@@ -1,0 +1,291 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T11:26:25.390Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T11:26:25.388Z",
+    "url": "https://www.crunchbase.com/organization/drc-3de6"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "DRC",
+      "shortDescription": "DRC is a market research and data analysis company.",
+      "description": "DRC offers market research and data analysis services. They offer market research, brand evaluation research, product development research, marketing efficiency research, data management, data analysis, and more.",
+      "website": "https://www.drc.net.sa/",
+      "foundedYear": 2014,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "51-100",
+      "headquarters": "Riyadh, Ar Riyad, Saudi Arabia",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Analytics",
+        "Consulting",
+        "Market Research"
+      ],
+      "sectors": [
+        "Data and Analytics",
+        "Design",
+        "Professional Services"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "Comprehensive research services using internationally accepted methodologies to gather and analyze market data.",
+        "name": "Market Research"
+      },
+      {
+        "description": "Advanced data processing and analysis services that provide actionable insights for decision-making.",
+        "name": "Data & Insights"
+      },
+      {
+        "description": "Expert consulting in strategy, performance management, commercial advisory, organizational transformation, and economics.",
+        "name": "Consulting Services"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 2665114,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2025-01-20",
+      "lastFundingType": "Debt Financing",
+      "rounds": [
+        {
+          "announcedDate": "2025-01-20",
+          "amount": {
+            "amount": 2665114,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "Alinma Bank"
+          ],
+          "type": "Debt Financing"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "Alinma Bank",
+            "rounds": [
+              "Debt Financing"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 4,
+      "includedUniqueCount": 4,
+      "items": [
+        {
+          "date": "2026-04-21",
+          "publisher": "The Philadelphia Inquirer",
+          "title": "PSSA testing was disrupted today due to a ‘statewide outage’",
+          "url": "https://www.inquirer.com/education/pssa-testing-outage-online-disruption-20260421.html"
+        },
+        {
+          "date": "2025-12-22",
+          "publisher": "TradingView",
+          "title": "Digital Research Appoints Fahad Abdullah Suliman Alsaawi As Chairman",
+          "url": "https://www.tradingview.com/news/reuters.com,2025:newsml_FWN3XQ03N:0-digital-research-appoints-fahad-abdullah-suliman-alsaawi-as-chairman/"
+        },
+        {
+          "date": "2025-04-08",
+          "publisher": "Business Standard India",
+          "title": "Draft EV Policy 2.0 recommends phasing out of CNG autorickshaws in Delhi",
+          "url": "https://www.business-standard.com/india-news/draft-ev-policy-2-0-recommends-phasing-out-of-cng-autorickshaws-in-delhi-125040800013_1.html"
+        },
+        {
+          "date": "2025-01-20",
+          "title": "Debt Financing - DRC"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 2665114,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": -6,
+      "growthScore": 58,
+      "heatChange90Days": -3,
+      "heatScore": 62
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 95.43
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 18.71,
+        "timingEstimatePercent": {
+          "within6Months": 0.24,
+          "months6To11": 0,
+          "months12To24": 0,
+          "beyond24Months": 99.76
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-05-23",
+        "probabilityPercent": 95.13
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 13.66
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Kantar is the data investment management division of WPP, is a global insight, information, and consultancy network.",
+          "employeeRange": "10,001+",
+          "name": "Kantar",
+          "sharedCategories": [
+            "Market Research",
+            "Consulting"
+          ],
+          "sharedSpecialties": [
+            "Customer Experience Research",
+            "Survey Platforms",
+            "Participant Recruitment and Panel Management",
+            "Data and Analytics Consulting",
+            "Market Research Data Collection",
+            "Market Intelligence"
+          ],
+          "similarityScore": 97
+        },
+        {
+          "description": "ValuStrat is the Middle East’s leading provider of Strategic Advisory, Valuations, Due Diligence and Asset Divestment services",
+          "employeeRange": "101-250",
+          "name": "Valustrat",
+          "sharedCategories": [
+            "Consulting"
+          ],
+          "sharedSpecialties": [
+            "Market Intelligence"
+          ],
+          "similarityScore": 93
+        },
+        {
+          "description": "NielsenIQ is a consumer intelligence company that offers retailers and consumer goods manufactures.",
+          "employeeRange": "10,001+",
+          "name": "NielsenIQ",
+          "sharedCategories": [
+            "Analytics"
+          ],
+          "sharedSpecialties": [
+            "Marketing Analytics",
+            "Pricing Research",
+            "Quantitative Research",
+            "Market Research Data Collection",
+            "Market Intelligence"
+          ],
+          "similarityScore": 87
+        },
+        {
+          "description": "Ipsos operates is a global market research and consulting firm that provides data and insights regarding society, markets, and people.",
+          "employeeRange": "10,001+",
+          "name": "Ipsos",
+          "sharedCategories": [
+            "Market Research",
+            "Consulting"
+          ],
+          "sharedSpecialties": [
+            "Customer Experience Research",
+            "Survey Platforms",
+            "Quantitative Research",
+            "Product and Concept Testing",
+            "Market Research Data Collection",
+            "Market Intelligence"
+          ],
+          "similarityScore": 85
+        },
+        {
+          "description": "Euromonitor International, an independent global market research company, provides strategy research services for the consumer markets.",
+          "employeeRange": "1,001-5,000",
+          "name": "Euromonitor International",
+          "sharedCategories": [
+            "Market Research"
+          ],
+          "similarityScore": 79
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Debt Financing round raised $2,665,114, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 58 (-6 over 90 days) and market heat at 62 (-3).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Kantar, Valustrat, NielsenIQ.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

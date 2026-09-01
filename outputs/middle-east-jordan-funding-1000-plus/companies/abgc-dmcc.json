@@ -1,0 +1,3933 @@
+{
+  "sourceUrl": "https://www.crunchbase.com/organization/abgc-dmcc",
+  "pageTitle": "abgc-dmcc",
+  "scrapedAt": "2026-09-01T08:57:08.145Z",
+  "extraction": {
+    "authenticated": true,
+    "method": "curl-cffi-authenticated-entity-fetch-no-browser"
+  },
+  "organization": {
+    "properties": {
+      "facet_ids": [
+        "ai_insight",
+        "company",
+        "rank"
+      ],
+      "identifier": {
+        "uuid": "42529947-5ada-4d01-8b1a-bee129356624",
+        "value": "ABGC DMCC",
+        "permalink": "abgc-dmcc",
+        "entity_def_id": "organization"
+      },
+      "short_description": "ABGC DMCC, a joint venture (JV) between Al Seer Marine and BGN, operates an energy transportation firm.",
+      "rank_delta_d90": -0.2,
+      "title": "ABGC DMCC"
+    },
+    "cards": {
+      "semrush_summary": {
+        "identifier": {
+          "uuid": "42529947-5ada-4d01-8b1a-bee129356624",
+          "value": "ABGC DMCC",
+          "permalink": "abgc-dmcc",
+          "entity_def_id": "organization"
+        }
+      },
+      "key_employee_change_list": [],
+      "apptopia_attribution": {},
+      "diversity_spotlight_investments_headline": {},
+      "apptopia_app_rating_list": [],
+      "funds_summary": {
+        "identifier": {
+          "uuid": "42529947-5ada-4d01-8b1a-bee129356624",
+          "value": "ABGC DMCC",
+          "permalink": "abgc-dmcc",
+          "entity_def_id": "organization"
+        }
+      },
+      "funding_prediction": [],
+      "company_about_fields1": {},
+      "current_advisors_image_list": [],
+      "recommended_search": [
+        {
+          "identifier": {
+            "permalink": "private-middle-east-and-north-africa-companies",
+            "image_id": "kermvpjt6vvcclqvly6k",
+            "uuid": "c20881b7-c355-4af0-88c8-9f400b003658",
+            "entity_def_id": "hub",
+            "value": "Private Middle East and North Africa (MENA) Companies (Top 10K)"
+          },
+          "org_identifiers": [
+            {
+              "permalink": "binance-labs-b05e",
+              "image_id": "kermvpjt6vvcclqvly6k",
+              "uuid": "8b52e412-7d11-4b4d-ae49-3811f29fb05e",
+              "entity_def_id": "organization",
+              "value": "YZi Labs"
+            },
+            {
+              "permalink": "fasset",
+              "image_id": "216886c7d09c49d39cce6277f342d12d",
+              "uuid": "fb8d3cbb-6706-4fda-941f-7add24517f7c",
+              "entity_def_id": "organization",
+              "value": "Fasset"
+            },
+            {
+              "permalink": "african-export-import-bank",
+              "image_id": "aa1e4a9f367f4a34a29d5f81de4cb62b",
+              "uuid": "971b156a-46e5-c04c-2ae9-d36127a9bd9f",
+              "entity_def_id": "organization",
+              "value": "African Export-Import Bank"
+            },
+            {
+              "permalink": "biocatch",
+              "image_id": "eauvaq6djrm4cjktjmxi",
+              "uuid": "516abfe7-ee23-d825-b1e2-144b41ca591e",
+              "entity_def_id": "organization",
+              "value": "BioCatch"
+            },
+            {
+              "permalink": "humain-c7c3",
+              "image_id": "dc960b95a8634d398fb802e43c760504",
+              "uuid": "6bde23ba-59a6-43e2-882e-2fdf96c1c7c3",
+              "entity_def_id": "organization",
+              "value": "HUMAIN"
+            },
+            {
+              "permalink": "omilia",
+              "image_id": "a6e6d6f0223b4e70840705a17f248b9e",
+              "uuid": "49e3e363-63c7-e951-4974-1c79137fcef0",
+              "entity_def_id": "organization",
+              "value": "Omilia"
+            },
+            {
+              "permalink": "team8",
+              "image_id": "jgzvsw4o9vpv30kqv7yg",
+              "uuid": "192acc26-46d6-5961-2a18-2ec462242091",
+              "entity_def_id": "organization",
+              "value": "Team8"
+            },
+            {
+              "permalink": "investcorp-2",
+              "image_id": "v1444307467/wjljtmzfwxmg9xxokd23.png",
+              "uuid": "2f09a625-dfd1-bea9-d16b-0a45158c80c9",
+              "entity_def_id": "organization",
+              "value": "Investcorp"
+            }
+          ],
+          "org_funding_total": {
+            "currency": "USD",
+            "value": 455660454580,
+            "value_usd": 455660454580
+          },
+          "org_num_investors": 25058,
+          "org_num": 9884,
+          "queries": {
+            "event": [
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "8cb7cad4-b7e4-4b28-a496-2ede3720cb19"
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "principal.has_event.forward",
+                "query": [
+                  {
+                    "field_id": "facet_ids",
+                    "operator_id": "includes",
+                    "values": [
+                      "company"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "ipo_status",
+                    "operator_id": "includes",
+                    "values": [
+                      "private"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "active"
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ],
+            "organization": [
+              {
+                "field_id": "facet_ids",
+                "operator_id": "includes",
+                "values": [
+                  "company"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "8cb7cad4-b7e4-4b28-a496-2ede3720cb19"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "ipo_status",
+                "operator_id": "includes",
+                "values": [
+                  "private"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "operating_status",
+                "operator_id": "eq",
+                "values": [
+                  "active"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "rank_org",
+                "operator_id": "lte",
+                "values": [
+                  320000
+                ],
+                "type": "predicate"
+              }
+            ],
+            "person": [
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "8cb7cad4-b7e4-4b28-a496-2ede3720cb19"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "rank_person",
+                "operator_id": "lte",
+                "values": [
+                  77000
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "organization.has_primary_organization.forward",
+                "query": [
+                  {
+                    "field_id": "facet_ids",
+                    "operator_id": "includes",
+                    "values": [
+                      "company"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "location_identifiers",
+                    "operator_id": "includes",
+                    "values": [
+                      "8cb7cad4-b7e4-4b28-a496-2ede3720cb19"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "ipo_status",
+                    "operator_id": "includes",
+                    "values": [
+                      "private"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "active"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "rank_org",
+                    "operator_id": "lte",
+                    "values": [
+                      320000
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ]
+          }
+        },
+        {
+          "identifier": {
+            "permalink": "private-gulf-cooperation-council-companies",
+            "image_id": "216886c7d09c49d39cce6277f342d12d",
+            "uuid": "c1c34dcc-688b-4c51-8510-1d64c7dfaaaf",
+            "entity_def_id": "hub",
+            "value": "Private Gulf Cooperation Council (GCC) Companies (Top 10K)"
+          },
+          "org_identifiers": [
+            {
+              "permalink": "fasset",
+              "image_id": "216886c7d09c49d39cce6277f342d12d",
+              "uuid": "fb8d3cbb-6706-4fda-941f-7add24517f7c",
+              "entity_def_id": "organization",
+              "value": "Fasset"
+            },
+            {
+              "permalink": "humain-c7c3",
+              "image_id": "dc960b95a8634d398fb802e43c760504",
+              "uuid": "6bde23ba-59a6-43e2-882e-2fdf96c1c7c3",
+              "entity_def_id": "organization",
+              "value": "HUMAIN"
+            },
+            {
+              "permalink": "investcorp-2",
+              "image_id": "v1444307467/wjljtmzfwxmg9xxokd23.png",
+              "uuid": "2f09a625-dfd1-bea9-d16b-0a45158c80c9",
+              "entity_def_id": "organization",
+              "value": "Investcorp"
+            },
+            {
+              "permalink": "masdar-abu-dhabi-future-energy-company",
+              "image_id": "jcx27u7bl3ql8jco2dng",
+              "uuid": "6277c63a-1dc8-a7b5-f900-5c392c026afd",
+              "entity_def_id": "organization",
+              "value": "Masdar"
+            },
+            {
+              "permalink": "careem",
+              "image_id": "89cebfad73fa4d1da5101b16a8eb7d5e",
+              "uuid": "8044fef3-7107-8de4-9564-ab7ecf80eae4",
+              "entity_def_id": "organization",
+              "value": "Careem"
+            },
+            {
+              "permalink": "aila-a6e1",
+              "image_id": "710c1bdcc944473395943d44b58eb7bb",
+              "uuid": "55e3c4b4-7408-4306-99e4-bb3c02d0a6e1",
+              "entity_def_id": "organization",
+              "value": "AILA"
+            },
+            {
+              "permalink": "riyadh-air",
+              "image_id": "c2219fb5e93b488287630d7981e565bd",
+              "uuid": "c4ba0df9-a8b8-4efa-bfa8-c1088fd49b29",
+              "entity_def_id": "organization",
+              "value": "Riyadh Air"
+            },
+            {
+              "permalink": "bluefive-capital",
+              "image_id": "25449f6ef1bd45b3859e604c47fc3016",
+              "uuid": "b31980fa-9e7f-4808-86a8-11bbd3850e69",
+              "entity_def_id": "organization",
+              "value": "BlueFive Capital"
+            }
+          ],
+          "org_funding_total": {
+            "currency": "USD",
+            "value": 300175975286,
+            "value_usd": 300175975286
+          },
+          "org_num_investors": 7510,
+          "org_num": 9912,
+          "queries": {
+            "event": [
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "c4365698-c7c5-44b0-b33a-7d13900e5be2"
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "principal.has_event.forward",
+                "query": [
+                  {
+                    "field_id": "facet_ids",
+                    "operator_id": "includes",
+                    "values": [
+                      "company"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "ipo_status",
+                    "operator_id": "includes",
+                    "values": [
+                      "private"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "active"
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ],
+            "organization": [
+              {
+                "field_id": "facet_ids",
+                "operator_id": "includes",
+                "values": [
+                  "company"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "c4365698-c7c5-44b0-b33a-7d13900e5be2"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "ipo_status",
+                "operator_id": "includes",
+                "values": [
+                  "private"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "operating_status",
+                "operator_id": "eq",
+                "values": [
+                  "active"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "rank_org",
+                "operator_id": "lte",
+                "values": [
+                  710000
+                ],
+                "type": "predicate"
+              }
+            ],
+            "person": [
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "c4365698-c7c5-44b0-b33a-7d13900e5be2"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "rank_person",
+                "operator_id": "lte",
+                "values": [
+                  98000
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "organization.has_primary_organization.forward",
+                "query": [
+                  {
+                    "field_id": "facet_ids",
+                    "operator_id": "includes",
+                    "values": [
+                      "company"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "location_identifiers",
+                    "operator_id": "includes",
+                    "values": [
+                      "c4365698-c7c5-44b0-b33a-7d13900e5be2"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "ipo_status",
+                    "operator_id": "includes",
+                    "values": [
+                      "private"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "active"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "rank_org",
+                    "operator_id": "lte",
+                    "values": [
+                      710000
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ]
+          }
+        },
+        {
+          "identifier": {
+            "permalink": "middle-east-companies",
+            "image_id": "216886c7d09c49d39cce6277f342d12d",
+            "uuid": "b1a51423-31c6-471b-aad4-59abd1d6f6ca",
+            "entity_def_id": "hub",
+            "value": "Middle East Companies (Top 10K)"
+          },
+          "org_identifiers": [
+            {
+              "permalink": "fasset",
+              "image_id": "216886c7d09c49d39cce6277f342d12d",
+              "uuid": "fb8d3cbb-6706-4fda-941f-7add24517f7c",
+              "entity_def_id": "organization",
+              "value": "Fasset"
+            },
+            {
+              "permalink": "african-export-import-bank",
+              "image_id": "aa1e4a9f367f4a34a29d5f81de4cb62b",
+              "uuid": "971b156a-46e5-c04c-2ae9-d36127a9bd9f",
+              "entity_def_id": "organization",
+              "value": "African Export-Import Bank"
+            },
+            {
+              "permalink": "biocatch",
+              "image_id": "eauvaq6djrm4cjktjmxi",
+              "uuid": "516abfe7-ee23-d825-b1e2-144b41ca591e",
+              "entity_def_id": "organization",
+              "value": "BioCatch"
+            },
+            {
+              "permalink": "humain-c7c3",
+              "image_id": "dc960b95a8634d398fb802e43c760504",
+              "uuid": "6bde23ba-59a6-43e2-882e-2fdf96c1c7c3",
+              "entity_def_id": "organization",
+              "value": "HUMAIN"
+            },
+            {
+              "permalink": "omilia",
+              "image_id": "a6e6d6f0223b4e70840705a17f248b9e",
+              "uuid": "49e3e363-63c7-e951-4974-1c79137fcef0",
+              "entity_def_id": "organization",
+              "value": "Omilia"
+            },
+            {
+              "permalink": "team8",
+              "image_id": "jgzvsw4o9vpv30kqv7yg",
+              "uuid": "192acc26-46d6-5961-2a18-2ec462242091",
+              "entity_def_id": "organization",
+              "value": "Team8"
+            },
+            {
+              "permalink": "investcorp-2",
+              "image_id": "v1444307467/wjljtmzfwxmg9xxokd23.png",
+              "uuid": "2f09a625-dfd1-bea9-d16b-0a45158c80c9",
+              "entity_def_id": "organization",
+              "value": "Investcorp"
+            },
+            {
+              "permalink": "groundcover",
+              "image_id": "1e72fd70219541fc8c97c87e9faa67c6",
+              "uuid": "6ee7de61-7f3a-4f7c-8fd7-3b8059c41eb6",
+              "entity_def_id": "organization",
+              "value": "Groundcover"
+            }
+          ],
+          "org_funding_total": {
+            "currency": "USD",
+            "value": 774756625051,
+            "value_usd": 774756625051
+          },
+          "org_num_investors": 24832,
+          "org_num": 9764,
+          "queries": {
+            "event": [
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "e0272206-3430-48cb-a5bc-1d4b3eafe15a"
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "principal.has_event.forward",
+                "query": [
+                  {
+                    "field_id": "facet_ids",
+                    "operator_id": "includes",
+                    "values": [
+                      "company"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "active"
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ],
+            "organization": [
+              {
+                "field_id": "facet_ids",
+                "operator_id": "includes",
+                "values": [
+                  "company"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "e0272206-3430-48cb-a5bc-1d4b3eafe15a"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "operating_status",
+                "operator_id": "eq",
+                "values": [
+                  "active"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "rank_org",
+                "operator_id": "lte",
+                "values": [
+                  330000
+                ],
+                "type": "predicate"
+              }
+            ],
+            "person": [
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "e0272206-3430-48cb-a5bc-1d4b3eafe15a"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "rank_person",
+                "operator_id": "lte",
+                "values": [
+                  72000
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "organization.has_primary_organization.forward",
+                "query": [
+                  {
+                    "field_id": "facet_ids",
+                    "operator_id": "includes",
+                    "values": [
+                      "company"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "location_identifiers",
+                    "operator_id": "includes",
+                    "values": [
+                      "e0272206-3430-48cb-a5bc-1d4b3eafe15a"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "active"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "rank_org",
+                    "operator_id": "lte",
+                    "values": [
+                      330000
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ]
+          }
+        },
+        {
+          "identifier": {
+            "permalink": "united-arab-emirates-companies",
+            "image_id": "216886c7d09c49d39cce6277f342d12d",
+            "uuid": "af94a9a4-39d3-4e40-8e0e-703b1273094f",
+            "entity_def_id": "hub",
+            "value": "United Arab Emirates Companies (Top 10K)"
+          },
+          "org_identifiers": [
+            {
+              "permalink": "fasset",
+              "image_id": "216886c7d09c49d39cce6277f342d12d",
+              "uuid": "fb8d3cbb-6706-4fda-941f-7add24517f7c",
+              "entity_def_id": "organization",
+              "value": "Fasset"
+            },
+            {
+              "permalink": "masdar-abu-dhabi-future-energy-company",
+              "image_id": "jcx27u7bl3ql8jco2dng",
+              "uuid": "6277c63a-1dc8-a7b5-f900-5c392c026afd",
+              "entity_def_id": "organization",
+              "value": "Masdar"
+            },
+            {
+              "permalink": "a1r-water",
+              "image_id": "1e483de797a14b9fb5fdf94635ca739c",
+              "uuid": "ce65cd3e-1f1a-41c6-a966-87f53b1d8789",
+              "entity_def_id": "organization",
+              "value": "A1R WATER"
+            },
+            {
+              "permalink": "careem",
+              "image_id": "89cebfad73fa4d1da5101b16a8eb7d5e",
+              "uuid": "8044fef3-7107-8de4-9564-ab7ecf80eae4",
+              "entity_def_id": "organization",
+              "value": "Careem"
+            },
+            {
+              "permalink": "space42",
+              "image_id": "1c6e561f90a940a79fe2763abb98166f",
+              "uuid": "ad76c23e-553c-4a37-a45a-b0a2645369a0",
+              "entity_def_id": "organization",
+              "value": "Space42"
+            },
+            {
+              "permalink": "talabat-general-trading-and-contracting-company",
+              "image_id": "gbsesowtl32gnnkklpvj",
+              "uuid": "6a76e96f-86b9-fc5b-fdca-3c4c4c96a7a1",
+              "entity_def_id": "organization",
+              "value": "Talabat"
+            },
+            {
+              "permalink": "bluefive-capital",
+              "image_id": "25449f6ef1bd45b3859e604c47fc3016",
+              "uuid": "b31980fa-9e7f-4808-86a8-11bbd3850e69",
+              "entity_def_id": "organization",
+              "value": "BlueFive Capital"
+            },
+            {
+              "permalink": "bundle-a717",
+              "image_id": "6293c7748c3f4511a67e43a92ab715c9",
+              "uuid": "60cab2d6-6198-4f84-8507-2fe77f15a717",
+              "entity_def_id": "organization",
+              "value": "Bundle"
+            }
+          ],
+          "org_funding_total": {
+            "currency": "USD",
+            "value": 205347202278,
+            "value_usd": 205347202278
+          },
+          "org_num_investors": 5120,
+          "org_num": 9941,
+          "queries": {
+            "event": [
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "9314d29a-0a56-02c3-6b27-4168733de77f"
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "principal.has_event.forward",
+                "query": [
+                  {
+                    "field_id": "facet_ids",
+                    "operator_id": "includes",
+                    "values": [
+                      "company"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "active"
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ],
+            "organization": [
+              {
+                "field_id": "facet_ids",
+                "operator_id": "includes",
+                "values": [
+                  "company"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "9314d29a-0a56-02c3-6b27-4168733de77f"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "operating_status",
+                "operator_id": "eq",
+                "values": [
+                  "active"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "rank_org",
+                "operator_id": "lte",
+                "values": [
+                  1000000
+                ],
+                "type": "predicate"
+              }
+            ],
+            "person": [
+              {
+                "field_id": "location_identifiers",
+                "operator_id": "includes",
+                "values": [
+                  "9314d29a-0a56-02c3-6b27-4168733de77f"
+                ],
+                "type": "predicate"
+              },
+              {
+                "field_id": "rank_person",
+                "operator_id": "lte",
+                "values": [
+                  110000
+                ],
+                "type": "predicate"
+              },
+              {
+                "collection_id": "organization.has_primary_organization.forward",
+                "query": [
+                  {
+                    "field_id": "facet_ids",
+                    "operator_id": "includes",
+                    "values": [
+                      "company"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "location_identifiers",
+                    "operator_id": "includes",
+                    "values": [
+                      "9314d29a-0a56-02c3-6b27-4168733de77f"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "operating_status",
+                    "operator_id": "eq",
+                    "values": [
+                      "active"
+                    ],
+                    "type": "predicate"
+                  },
+                  {
+                    "field_id": "rank_org",
+                    "operator_id": "lte",
+                    "values": [
+                      1000000
+                    ],
+                    "type": "predicate"
+                  }
+                ],
+                "type": "sub_query"
+              }
+            ]
+          }
+        }
+      ],
+      "org_similarity_org_list": [],
+      "investors_summary": {
+        "identifier": {
+          "uuid": "42529947-5ada-4d01-8b1a-bee129356624",
+          "value": "ABGC DMCC",
+          "permalink": "abgc-dmcc",
+          "entity_def_id": "organization"
+        }
+      },
+      "funds_list": [],
+      "alumni_image_list": [],
+      "semrush_overview_headline": {},
+      "frequently_asked_questions_total_funding": {
+        "funding_total": {
+          "value": 370002587,
+          "currency": "USD",
+          "value_usd": 370002587
+        },
+        "identifier": {
+          "uuid": "42529947-5ada-4d01-8b1a-bee129356624",
+          "value": "ABGC DMCC",
+          "permalink": "abgc-dmcc",
+          "entity_def_id": "organization"
+        }
+      },
+      "exits_summary": {
+        "identifier": {
+          "uuid": "42529947-5ada-4d01-8b1a-bee129356624",
+          "value": "ABGC DMCC",
+          "permalink": "abgc-dmcc",
+          "entity_def_id": "organization"
+        }
+      },
+      "partnership_announcements": [],
+      "bombora_surge_list": [],
+      "diversity_spotlight_investments_list": [],
+      "builtwith_tech_used_list": [],
+      "funding_rounds_summary": {
+        "identifier": {
+          "uuid": "42529947-5ada-4d01-8b1a-bee129356624",
+          "value": "ABGC DMCC",
+          "permalink": "abgc-dmcc",
+          "entity_def_id": "organization"
+        },
+        "last_funding_type": "debt_financing",
+        "last_funding_at": "2024-03-27",
+        "funding_total": {
+          "value": 370002587,
+          "currency": "USD",
+          "value_usd": 370002587
+        },
+        "num_funding_rounds": 2
+      },
+      "org_similarity_list": [],
+      "ipo_prediction": [
+        {
+          "generated_on": "2026-08-24",
+          "identifier": {
+            "uuid": "5befed06-d7e1-47c6-9950-a95eafdd3f74",
+            "value": "IPO Prediction 2026-08-24",
+            "entity_def_id": "ipo_prediction"
+          },
+          "media_sentiment": "c200_evidence_present",
+          "probability_score": 0.2396,
+          "created_at": "2026-07-16T01:02:59Z",
+          "updated_at": "2026-08-24T18:28:41Z",
+          "probability_tier": "p400_negative_low",
+          "growth_insight": {
+            "uuid": "72eb59ad-8e21-4747-8959-876c11a1b298",
+            "value": "Growth Insight 2025-11-17",
+            "entity_def_id": "growth_insight"
+          }
+        }
+      ],
+      "acquisitions_summary": {
+        "identifier": {
+          "uuid": "42529947-5ada-4d01-8b1a-bee129356624",
+          "value": "ABGC DMCC",
+          "permalink": "abgc-dmcc",
+          "entity_def_id": "organization"
+        }
+      },
+      "advisors_summary": {
+        "identifier": {
+          "uuid": "42529947-5ada-4d01-8b1a-bee129356624",
+          "value": "ABGC DMCC",
+          "permalink": "abgc-dmcc",
+          "entity_def_id": "organization"
+        }
+      },
+      "acquisitions_list": [],
+      "exits_headline": {},
+      "investments_summary": {
+        "identifier": {
+          "uuid": "42529947-5ada-4d01-8b1a-bee129356624",
+          "value": "ABGC DMCC",
+          "permalink": "abgc-dmcc",
+          "entity_def_id": "organization"
+        }
+      },
+      "acquired_by_fields": {},
+      "research_insight_text_link": {},
+      "acquisition_prediction": [
+        {
+          "generated_on": "2026-03-28",
+          "identifier": {
+            "uuid": "05b830a9-b2c9-45b1-9e2e-107f7b69afb8",
+            "value": "Acquisition Prediction 2026-03-28",
+            "entity_def_id": "acquisition_prediction"
+          },
+          "probability_score": 0.2794,
+          "created_at": "2026-01-15T09:33:04Z",
+          "updated_at": "2026-03-30T19:36:16Z",
+          "probability_tier": "p400_negative_low",
+          "growth_insight": {
+            "uuid": "72eb59ad-8e21-4747-8959-876c11a1b298",
+            "value": "Growth Insight 2025-11-17",
+            "entity_def_id": "growth_insight"
+          }
+        }
+      ],
+      "sub_organizations_headline": {},
+      "layoff_list": [],
+      "growth_and_heat": {
+        "heat_score_history": {
+          "periods": {
+            "i1": {
+              "values": [
+                43,
+                43,
+                43,
+                43,
+                44,
+                44,
+                44,
+                44,
+                44,
+                44,
+                44,
+                44,
+                45,
+                45,
+                45,
+                45,
+                45,
+                45,
+                45,
+                45,
+                45,
+                46,
+                46,
+                46,
+                46,
+                47,
+                47,
+                48,
+                48,
+                48,
+                49,
+                49,
+                49,
+                50,
+                50,
+                51,
+                51,
+                51,
+                52,
+                52,
+                52,
+                53,
+                53,
+                53,
+                54,
+                54,
+                54,
+                54,
+                54,
+                55,
+                55,
+                55,
+                55,
+                56,
+                56,
+                56,
+                57,
+                57,
+                57,
+                57,
+                58,
+                58,
+                58,
+                58,
+                58,
+                59,
+                59,
+                59,
+                59,
+                60,
+                60,
+                60,
+                60,
+                60,
+                61,
+                61,
+                61,
+                61,
+                62,
+                62,
+                62,
+                62,
+                62,
+                58,
+                51,
+                51,
+                51,
+                51,
+                51,
+                51
+              ],
+              "interval": 1
+            },
+            "i2": {
+              "values": [
+                43,
+                43,
+                44,
+                44,
+                44,
+                44,
+                45,
+                45,
+                45,
+                45,
+                46,
+                46,
+                47,
+                48,
+                48,
+                49,
+                50,
+                51,
+                51,
+                52,
+                53,
+                53,
+                54,
+                54,
+                55,
+                55,
+                56,
+                56,
+                57,
+                57,
+                58,
+                58,
+                59,
+                59,
+                60,
+                60,
+                60,
+                61,
+                61,
+                62,
+                62,
+                60,
+                51,
+                51,
+                51,
+                51,
+                51,
+                52,
+                53,
+                54,
+                55,
+                55,
+                56,
+                57,
+                57,
+                58,
+                58,
+                59,
+                59,
+                60,
+                60,
+                61,
+                61,
+                62,
+                62,
+                63,
+                63,
+                64,
+                64,
+                65,
+                66,
+                66,
+                67,
+                67,
+                67,
+                68,
+                68,
+                60,
+                61,
+                61,
+                62,
+                62,
+                63,
+                64,
+                64,
+                65,
+                65,
+                66,
+                67,
+                68,
+                68
+              ],
+              "interval": 2
+            },
+            "i4": {
+              "values": [
+                43,
+                44,
+                44,
+                45,
+                45,
+                46,
+                47,
+                49,
+                50,
+                52,
+                53,
+                54,
+                55,
+                56,
+                57,
+                58,
+                59,
+                60,
+                61,
+                62,
+                61,
+                51,
+                51,
+                52,
+                53,
+                55,
+                56,
+                57,
+                59,
+                60,
+                61,
+                61,
+                62,
+                64,
+                65,
+                66,
+                67,
+                68,
+                64,
+                61,
+                62,
+                63,
+                64,
+                66,
+                67,
+                69,
+                70,
+                69,
+                70,
+                72,
+                71,
+                72,
+                73,
+                75,
+                77,
+                78,
+                77,
+                78,
+                78,
+                78,
+                79,
+                82,
+                80,
+                81,
+                84,
+                86,
+                87,
+                87,
+                86,
+                88,
+                90,
+                92,
+                93,
+                83,
+                82,
+                83,
+                86,
+                87,
+                87,
+                87,
+                89,
+                88,
+                86,
+                87,
+                88,
+                87,
+                85,
+                64,
+                62,
+                62,
+                61,
+                61
+              ],
+              "interval": 4
+            },
+            "i7": {
+              "values": [
+                43,
+                44,
+                45,
+                47,
+                49,
+                52,
+                54,
+                55,
+                57,
+                59,
+                60,
+                61,
+                51,
+                52,
+                55,
+                57,
+                59,
+                61,
+                62,
+                64,
+                66,
+                68,
+                61,
+                63,
+                65,
+                67,
+                70,
+                69,
+                71,
+                72,
+                75,
+                77,
+                78,
+                78,
+                79,
+                81,
+                82,
+                86,
+                87,
+                87,
+                91,
+                91,
+                81,
+                85,
+                87,
+                88,
+                88,
+                86,
+                87,
+                80,
+                62,
+                61,
+                58,
+                60,
+                58,
+                59,
+                62,
+                64,
+                63,
+                62,
+                59,
+                54,
+                56,
+                55,
+                54,
+                57,
+                61,
+                63,
+                63,
+                64,
+                67,
+                66,
+                66,
+                63,
+                59,
+                60,
+                63,
+                65,
+                64,
+                66,
+                68,
+                67,
+                64,
+                62,
+                62,
+                56,
+                57,
+                57,
+                60,
+                61,
+                62,
+                63,
+                66,
+                67,
+                68,
+                70,
+                70,
+                68,
+                65,
+                65,
+                61,
+                57,
+                53,
+                53,
+                49
+              ],
+              "interval": 7
+            },
+            "i18": {
+              "values": [
+                43,
+                48,
+                54,
+                58,
+                58,
+                54,
+                59,
+                64,
+                64,
+                65,
+                70,
+                73,
+                77,
+                79,
+                85,
+                89,
+                85,
+                87,
+                87,
+                70,
+                59,
+                59,
+                63,
+                59,
+                55,
+                58,
+                63,
+                66,
+                64,
+                61,
+                65,
+                67,
+                63,
+                57,
+                60,
+                63,
+                67,
+                70,
+                65,
+                57,
+                51,
+                50,
+                54,
+                55,
+                54,
+                58,
+                66,
+                77,
+                82,
+                19,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                6,
+                14,
+                21,
+                24
+              ],
+              "interval": 18
+            },
+            "i36": {
+              "values": [
+                43,
+                56,
+                56,
+                61,
+                65,
+                71,
+                78,
+                87,
+                86,
+                79,
+                59,
+                61,
+                56,
+                65,
+                62,
+                66,
+                60,
+                61,
+                69,
+                61,
+                51,
+                54,
+                56,
+                71,
+                50,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                10,
+                22
+              ],
+              "interval": 36
+            }
+          }
+        },
+        "growth_score_delta_d90": 1,
+        "growth_score_history": {
+          "periods": {
+            "i1": {
+              "values": [
+                52,
+                52,
+                52,
+                52,
+                52,
+                52,
+                52,
+                52,
+                52,
+                52,
+                52,
+                52,
+                52,
+                52,
+                52,
+                52,
+                52,
+                52,
+                52,
+                52,
+                52,
+                52,
+                52,
+                52,
+                53,
+                53,
+                53,
+                53,
+                53,
+                53,
+                53,
+                53,
+                53,
+                53,
+                53,
+                53,
+                53,
+                53,
+                53,
+                53,
+                53,
+                53,
+                53,
+                53,
+                53,
+                53,
+                53,
+                53,
+                53,
+                53,
+                53,
+                53,
+                53,
+                53,
+                53,
+                53,
+                53,
+                53,
+                53,
+                53,
+                53,
+                53,
+                53,
+                53,
+                53,
+                53,
+                53,
+                53,
+                53,
+                53,
+                53,
+                53,
+                53,
+                53,
+                53,
+                53,
+                53,
+                53,
+                53,
+                53,
+                53,
+                53,
+                53,
+                52,
+                52,
+                52,
+                52,
+                52,
+                52,
+                51
+              ],
+              "interval": 1
+            },
+            "i2": {
+              "values": [
+                52,
+                52,
+                52,
+                52,
+                52,
+                52,
+                52,
+                52,
+                52,
+                52,
+                52,
+                52,
+                53,
+                53,
+                53,
+                53,
+                53,
+                53,
+                53,
+                53,
+                53,
+                53,
+                53,
+                53,
+                53,
+                53,
+                53,
+                53,
+                53,
+                53,
+                53,
+                53,
+                53,
+                53,
+                53,
+                53,
+                53,
+                53,
+                53,
+                53,
+                53,
+                53,
+                52,
+                52,
+                52,
+                51,
+                51,
+                51,
+                51,
+                51,
+                51,
+                51,
+                51,
+                51,
+                52,
+                52,
+                53,
+                53,
+                54,
+                54,
+                54,
+                55,
+                55,
+                55,
+                56,
+                56,
+                56,
+                57,
+                57,
+                57,
+                57,
+                57,
+                57,
+                57,
+                57,
+                57,
+                56,
+                48,
+                42,
+                42,
+                42,
+                43,
+                43,
+                44,
+                44,
+                45,
+                46,
+                46,
+                47,
+                47,
+                48
+              ],
+              "interval": 2
+            },
+            "i4": {
+              "values": [
+                52,
+                52,
+                52,
+                52,
+                52,
+                52,
+                53,
+                53,
+                53,
+                53,
+                53,
+                53,
+                53,
+                53,
+                53,
+                53,
+                53,
+                53,
+                53,
+                53,
+                53,
+                52,
+                51,
+                51,
+                51,
+                51,
+                51,
+                52,
+                53,
+                54,
+                54,
+                55,
+                56,
+                56,
+                57,
+                57,
+                57,
+                57,
+                52,
+                42,
+                43,
+                44,
+                45,
+                46,
+                47,
+                48,
+                49,
+                50,
+                51,
+                51,
+                52,
+                53,
+                54,
+                55,
+                56,
+                56,
+                57,
+                58,
+                58,
+                59,
+                59,
+                60,
+                60,
+                61,
+                62,
+                63,
+                63,
+                64,
+                64,
+                65,
+                65,
+                66,
+                66,
+                66,
+                65,
+                65,
+                65,
+                64,
+                64,
+                63,
+                63,
+                62,
+                62,
+                61,
+                61,
+                60,
+                59,
+                58,
+                57,
+                56,
+                54,
+                53
+              ],
+              "interval": 4
+            },
+            "i7": {
+              "values": [
+                52,
+                52,
+                52,
+                53,
+                53,
+                53,
+                53,
+                53,
+                53,
+                53,
+                53,
+                53,
+                52,
+                51,
+                51,
+                52,
+                53,
+                54,
+                56,
+                57,
+                57,
+                57,
+                43,
+                43,
+                45,
+                47,
+                49,
+                50,
+                52,
+                53,
+                54,
+                56,
+                57,
+                58,
+                59,
+                60,
+                61,
+                63,
+                64,
+                64,
+                66,
+                66,
+                65,
+                65,
+                64,
+                63,
+                62,
+                61,
+                60,
+                59,
+                57,
+                55,
+                52,
+                49,
+                48,
+                47,
+                47,
+                47,
+                48,
+                49,
+                63,
+                66,
+                65,
+                65,
+                83,
+                86,
+                87,
+                89,
+                90,
+                90,
+                91,
+                91,
+                92,
+                92,
+                92,
+                92,
+                93,
+                93,
+                93,
+                94,
+                94,
+                94,
+                94,
+                94,
+                94,
+                93,
+                94,
+                94,
+                94,
+                94,
+                94,
+                94,
+                94,
+                94,
+                94,
+                93,
+                93,
+                92,
+                91,
+                90,
+                89,
+                76,
+                68,
+                68,
+                68
+              ],
+              "interval": 7
+            },
+            "i18": {
+              "values": [
+                52,
+                53,
+                53,
+                53,
+                53,
+                51,
+                53,
+                56,
+                51,
+                45,
+                49,
+                53,
+                57,
+                59,
+                62,
+                65,
+                66,
+                64,
+                61,
+                58,
+                51,
+                48,
+                48,
+                59,
+                67,
+                86,
+                89,
+                91,
+                92,
+                92,
+                93,
+                94,
+                94,
+                94,
+                94,
+                94,
+                94,
+                93,
+                91,
+                77,
+                68,
+                68,
+                69,
+                69,
+                69,
+                70,
+                71,
+                71,
+                71,
+                69,
+                69,
+                68,
+                68,
+                68,
+                68,
+                68,
+                68,
+                67,
+                67,
+                67,
+                67,
+                67,
+                66,
+                66,
+                66,
+                66,
+                66,
+                65,
+                65,
+                65,
+                65,
+                65,
+                66,
+                66,
+                66,
+                66,
+                66,
+                67,
+                67,
+                67,
+                67,
+                67,
+                68,
+                68,
+                68,
+                68,
+                68,
+                68,
+                68,
+                68,
+                67,
+                67,
+                67,
+                66,
+                66,
+                65,
+                65,
+                41,
+                27,
+                27,
+                26,
+                26
+              ],
+              "interval": 18
+            },
+            "i36": {
+              "values": [
+                52,
+                53,
+                52,
+                55,
+                48,
+                51,
+                58,
+                64,
+                65,
+                60,
+                49,
+                53,
+                76,
+                90,
+                92,
+                94,
+                94,
+                94,
+                93,
+                84,
+                68,
+                69,
+                70,
+                71,
+                70,
+                69,
+                68,
+                68,
+                67,
+                67,
+                67,
+                66,
+                66,
+                66,
+                65,
+                65,
+                66,
+                66,
+                67,
+                67,
+                67,
+                68,
+                68,
+                68,
+                68,
+                67,
+                66,
+                66,
+                53,
+                27,
+                26,
+                25,
+                24,
+                21
+              ],
+              "interval": 36
+            }
+          }
+        },
+        "growth_trend_365": {
+          "periods": {
+            "i1": {
+              "values": [
+                -1,
+                0,
+                0,
+                1,
+                1,
+                2,
+                3,
+                3,
+                4,
+                4,
+                5,
+                6,
+                6,
+                6,
+                7,
+                7,
+                7,
+                7,
+                7,
+                7,
+                8,
+                8,
+                8,
+                8,
+                8,
+                8,
+                8,
+                8,
+                8,
+                9,
+                9,
+                9,
+                9,
+                9,
+                9,
+                9,
+                9,
+                9,
+                9,
+                9,
+                9,
+                9,
+                9,
+                9,
+                9,
+                9,
+                9,
+                9,
+                9,
+                8,
+                8,
+                8,
+                7,
+                6,
+                5,
+                4,
+                2,
+                -18,
+                -18,
+                -17,
+                -17,
+                -17,
+                -16,
+                -16,
+                -16,
+                -15,
+                -15,
+                -15,
+                -15,
+                -15,
+                -15,
+                -15,
+                -15,
+                -15,
+                -15,
+                -15,
+                -15,
+                -15,
+                -15,
+                -15,
+                -15,
+                -15,
+                -15,
+                -30,
+                -31,
+                -32,
+                -33,
+                -33,
+                -33,
+                -34
+              ],
+              "interval": 1
+            },
+            "i2": {
+              "values": [
+                -1,
+                1,
+                2,
+                3,
+                4,
+                6,
+                6,
+                7,
+                7,
+                7,
+                8,
+                8,
+                8,
+                8,
+                9,
+                9,
+                9,
+                9,
+                9,
+                9,
+                9,
+                9,
+                9,
+                9,
+                9,
+                8,
+                7,
+                5,
+                -8,
+                -17,
+                -17,
+                -16,
+                -15,
+                -15,
+                -15,
+                -15,
+                -15,
+                -15,
+                -15,
+                -15,
+                -15,
+                -22,
+                -31,
+                -33,
+                -33,
+                -34,
+                -34,
+                -35,
+                -35,
+                -35,
+                -35,
+                -36,
+                -36,
+                -36,
+                -36,
+                -35,
+                -35,
+                -35,
+                -35,
+                -34,
+                -34,
+                -34,
+                -34,
+                -34,
+                -33,
+                -33,
+                -33,
+                -33,
+                -33,
+                -32,
+                -32,
+                -32,
+                -32,
+                -32,
+                -32,
+                -33,
+                -33,
+                -41,
+                -47,
+                -47,
+                -46,
+                -46,
+                -46,
+                -45,
+                -45,
+                -44,
+                -44,
+                -43,
+                -43,
+                -43,
+                -42
+              ],
+              "interval": 2
+            },
+            "i4": {
+              "values": [
+                -1,
+                2,
+                5,
+                7,
+                7,
+                8,
+                8,
+                9,
+                9,
+                9,
+                9,
+                9,
+                8,
+                6,
+                -13,
+                -16,
+                -15,
+                -15,
+                -15,
+                -15,
+                -19,
+                -32,
+                -34,
+                -34,
+                -35,
+                -35,
+                -36,
+                -36,
+                -35,
+                -35,
+                -34,
+                -34,
+                -33,
+                -33,
+                -33,
+                -32,
+                -32,
+                -33,
+                -37,
+                -47,
+                -46,
+                -45,
+                -45,
+                -44,
+                -43,
+                -42,
+                -41,
+                -41,
+                -40,
+                -39,
+                -38,
+                -38,
+                -37,
+                -36,
+                -35,
+                -35,
+                -34,
+                -33,
+                -32,
+                -32,
+                -32,
+                -31,
+                -30,
+                -30,
+                -29,
+                -29,
+                -28,
+                -28,
+                -27,
+                -27,
+                -26,
+                -25,
+                -25,
+                -26,
+                -26,
+                -26,
+                -27,
+                -27,
+                -27,
+                -27,
+                -27,
+                -27,
+                -27,
+                -27,
+                -27,
+                -26,
+                -15,
+                -12,
+                -13,
+                -15,
+                -17,
+                -18
+              ],
+              "interval": 4
+            },
+            "i7": {
+              "values": [
+                -1,
+                5,
+                7,
+                8,
+                9,
+                9,
+                9,
+                7,
+                -14,
+                -15,
+                -15,
+                -17,
+                -33,
+                -35,
+                -35,
+                -36,
+                -35,
+                -34,
+                -33,
+                -33,
+                -32,
+                -33,
+                -45,
+                -46,
+                -44,
+                -43,
+                -41,
+                -40,
+                -39,
+                -38,
+                -36,
+                -35,
+                -34,
+                -32,
+                -32,
+                -31,
+                -30,
+                -29,
+                -28,
+                -27,
+                -26,
+                -25,
+                -26,
+                -26,
+                -27,
+                -27,
+                -27,
+                -27,
+                -27,
+                -16,
+                -13,
+                -16,
+                -20,
+                -23,
+                -25,
+                -25,
+                -26,
+                -26,
+                -26,
+                -25,
+                -8,
+                -4,
+                -5,
+                -6,
+                16,
+                19,
+                20,
+                21,
+                22,
+                23,
+                23,
+                23,
+                23,
+                24,
+                27,
+                28,
+                29,
+                29,
+                30,
+                30,
+                31,
+                31,
+                31,
+                31,
+                31,
+                31,
+                31,
+                31,
+                31,
+                32,
+                31,
+                32,
+                32,
+                32,
+                32,
+                32,
+                31,
+                31,
+                29,
+                28,
+                27,
+                11,
+                2,
+                2,
+                1
+              ],
+              "interval": 7
+            },
+            "i18": {
+              "values": [
+                -1,
+                8,
+                9,
+                -13,
+                -22,
+                -35,
+                -35,
+                -33,
+                -38,
+                -44,
+                -41,
+                -38,
+                -34,
+                -31,
+                -29,
+                -27,
+                -26,
+                -27,
+                -27,
+                -15,
+                -20,
+                -25,
+                -26,
+                -12,
+                -3,
+                19,
+                22,
+                23,
+                24,
+                28,
+                30,
+                31,
+                31,
+                31,
+                31,
+                32,
+                32,
+                31,
+                29,
+                12,
+                2,
+                2,
+                3,
+                4,
+                4,
+                5,
+                6,
+                7,
+                8,
+                5,
+                4,
+                4,
+                3,
+                3,
+                2,
+                2,
+                1,
+                1,
+                0,
+                0,
+                0,
+                -1,
+                -1,
+                -2,
+                -2,
+                -3,
+                -3,
+                -3,
+                -3,
+                -3,
+                -2,
+                -2,
+                -1,
+                0,
+                0,
+                1,
+                3,
+                83,
+                95,
+                98,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                66,
+                43,
+                41,
+                40,
+                39
+              ],
+              "interval": 18
+            },
+            "i36": {
+              "values": [
+                -1,
+                -2,
+                -28,
+                -34,
+                -41,
+                -39,
+                -33,
+                -28,
+                -26,
+                -21,
+                -23,
+                -19,
+                8,
+                22,
+                26,
+                30,
+                31,
+                31,
+                32,
+                20,
+                2,
+                4,
+                5,
+                7,
+                7,
+                4,
+                3,
+                2,
+                1,
+                0,
+                -1,
+                -2,
+                -2,
+                -3,
+                -3,
+                -2,
+                -1,
+                1,
+                43,
+                96,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                83,
+                42,
+                39,
+                35,
+                31,
+                22
+              ],
+              "interval": 36
+            }
+          }
+        },
+        "heat_score": 43,
+        "heat_trend_365": {
+          "periods": {
+            "i1": {
+              "values": [
+                -11,
+                -10,
+                -10,
+                -10,
+                -10,
+                -11,
+                -11,
+                -11,
+                -11,
+                -11,
+                -12,
+                -11,
+                -11,
+                -11,
+                -9,
+                -9,
+                -9,
+                -10,
+                -10,
+                -10,
+                -10,
+                -9,
+                -9,
+                -9,
+                -10,
+                -9,
+                -9,
+                -9,
+                -9,
+                -9,
+                -9,
+                -9,
+                -9,
+                -9,
+                -9,
+                -9,
+                -9,
+                -9,
+                -9,
+                -8,
+                -8,
+                -7,
+                -7,
+                -7,
+                -7,
+                -6,
+                -6,
+                -6,
+                -5,
+                -5,
+                -4,
+                -4,
+                -5,
+                -5,
+                -5,
+                -4,
+                -4,
+                -3,
+                -1,
+                0,
+                0,
+                0,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                4,
+                4,
+                4,
+                6,
+                6,
+                5,
+                8,
+                4,
+                -2,
+                -2,
+                -2,
+                -2,
+                -3,
+                -3
+              ],
+              "interval": 1
+            },
+            "i2": {
+              "values": [
+                -11,
+                -10,
+                -10,
+                -11,
+                -11,
+                -11,
+                -11,
+                -9,
+                -9,
+                -10,
+                -9,
+                -9,
+                -9,
+                -9,
+                -9,
+                -9,
+                -9,
+                -9,
+                -9,
+                -8,
+                -7,
+                -7,
+                -6,
+                -6,
+                -5,
+                -4,
+                -5,
+                -4,
+                -3,
+                0,
+                0,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                4,
+                5,
+                6,
+                6,
+                -2,
+                -2,
+                -3,
+                -3,
+                -4,
+                -4,
+                -4,
+                -5,
+                -5,
+                -5,
+                -5,
+                -5,
+                -4,
+                -3,
+                -3,
+                -3,
+                -3,
+                -2,
+                -3,
+                -3,
+                -3,
+                -3,
+                -3,
+                -3,
+                -3,
+                -2,
+                -1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                2,
+                5,
+                6,
+                0,
+                1,
+                3,
+                2,
+                2,
+                2,
+                2,
+                1,
+                1,
+                1,
+                1,
+                1,
+                2,
+                3
+              ],
+              "interval": 2
+            },
+            "i4": {
+              "values": [
+                -11,
+                -11,
+                -11,
+                -10,
+                -10,
+                -9,
+                -9,
+                -9,
+                -9,
+                -9,
+                -7,
+                -6,
+                -4,
+                -5,
+                -2,
+                2,
+                3,
+                3,
+                3,
+                5,
+                6,
+                -2,
+                -3,
+                -4,
+                -5,
+                -5,
+                -5,
+                -3,
+                -3,
+                -3,
+                -3,
+                -3,
+                -3,
+                -3,
+                0,
+                0,
+                0,
+                3,
+                3,
+                2,
+                2,
+                2,
+                1,
+                1,
+                1,
+                3,
+                4,
+                2,
+                2,
+                2,
+                3,
+                3,
+                5,
+                8,
+                10,
+                11,
+                10,
+                13,
+                17,
+                16,
+                16,
+                18,
+                16,
+                15,
+                17,
+                18,
+                17,
+                19,
+                17,
+                17,
+                17,
+                18,
+                17,
+                11,
+                9,
+                9,
+                10,
+                12,
+                12,
+                13,
+                16,
+                16,
+                15,
+                15,
+                19,
+                21,
+                20,
+                7,
+                7,
+                7,
+                6,
+                9
+              ],
+              "interval": 4
+            },
+            "i7": {
+              "values": [
+                -11,
+                -11,
+                -10,
+                -9,
+                -9,
+                -8,
+                -6,
+                -5,
+                -1,
+                3,
+                3,
+                5,
+                -2,
+                -4,
+                -5,
+                -4,
+                -3,
+                -3,
+                -3,
+                -1,
+                0,
+                4,
+                1,
+                2,
+                1,
+                2,
+                3,
+                2,
+                2,
+                3,
+                8,
+                10,
+                11,
+                17,
+                16,
+                17,
+                16,
+                17,
+                18,
+                16,
+                17,
+                16,
+                9,
+                9,
+                12,
+                14,
+                16,
+                15,
+                20,
+                17,
+                7,
+                6,
+                7,
+                8,
+                6,
+                5,
+                6,
+                7,
+                7,
+                5,
+                3,
+                0,
+                2,
+                -1,
+                -3,
+                -1,
+                0,
+                -3,
+                -5,
+                -6,
+                -8,
+                -9,
+                -10,
+                -10,
+                26,
+                70,
+                74,
+                77,
+                76,
+                78,
+                80,
+                79,
+                75,
+                74,
+                73,
+                66,
+                67,
+                67,
+                70,
+                72,
+                72,
+                74,
+                77,
+                79,
+                80,
+                83,
+                83,
+                81,
+                77,
+                77,
+                71,
+                68,
+                62,
+                62,
+                57
+              ],
+              "interval": 7
+            },
+            "i18": {
+              "values": [
+                -11,
+                -9,
+                -6,
+                1,
+                2,
+                -5,
+                -3,
+                -2,
+                2,
+                1,
+                3,
+                4,
+                12,
+                17,
+                17,
+                17,
+                11,
+                13,
+                17,
+                11,
+                7,
+                6,
+                7,
+                3,
+                0,
+                -1,
+                -4,
+                -8,
+                -7,
+                70,
+                77,
+                79,
+                74,
+                67,
+                71,
+                74,
+                80,
+                83,
+                77,
+                67,
+                60,
+                59,
+                63,
+                65,
+                64,
+                68,
+                78,
+                91,
+                97,
+                20,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                -7,
+                -14,
+                -20,
+                -22,
+                -22,
+                -22,
+                -22,
+                -22,
+                -22,
+                -22,
+                -22,
+                -22,
+                -22,
+                -22,
+                -22,
+                -22,
+                -22,
+                -22,
+                -22,
+                -22,
+                -19,
+                -11,
+                -5,
+                -1
+              ],
+              "interval": 18
+            },
+            "i36": {
+              "values": [
+                -11,
+                -3,
+                -1,
+                -2,
+                2,
+                4,
+                14,
+                17,
+                12,
+                14,
+                7,
+                5,
+                -1,
+                -6,
+                31,
+                78,
+                70,
+                72,
+                81,
+                72,
+                59,
+                64,
+                66,
+                84,
+                59,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                -11,
+                -21,
+                -22,
+                -22,
+                -22,
+                -22,
+                -22,
+                -22,
+                -22,
+                -22,
+                -15,
+                -4
+              ],
+              "interval": 36
+            }
+          }
+        },
+        "growth_score": 52,
+        "heat_score_delta_d90": -8
+      },
+      "bombora_summary": {
+        "identifier": {
+          "uuid": "42529947-5ada-4d01-8b1a-bee129356624",
+          "value": "ABGC DMCC",
+          "permalink": "abgc-dmcc",
+          "entity_def_id": "organization"
+        }
+      },
+      "semrush_rank_headline": {},
+      "frequently_asked_questions_latest_funding_round": {
+        "identifier": {
+          "uuid": "42529947-5ada-4d01-8b1a-bee129356624",
+          "value": "ABGC DMCC",
+          "permalink": "abgc-dmcc",
+          "entity_def_id": "organization"
+        },
+        "last_funding_at": "2024-03-27",
+        "last_funding_type": "debt_financing",
+        "num_funding_rounds": 2
+      },
+      "apptopia_app_overview_list_free": [],
+      "contacts": {},
+      "product_launches": [],
+      "alumni_summary": {
+        "identifier": {
+          "uuid": "42529947-5ada-4d01-8b1a-bee129356624",
+          "value": "ABGC DMCC",
+          "permalink": "abgc-dmcc",
+          "entity_def_id": "organization"
+        }
+      },
+      "apptopia_summary": {
+        "identifier": {
+          "uuid": "42529947-5ada-4d01-8b1a-bee129356624",
+          "value": "ABGC DMCC",
+          "permalink": "abgc-dmcc",
+          "entity_def_id": "organization"
+        }
+      },
+      "product_similarity_target_org_list": [],
+      "social_fields": {},
+      "investments_headline": {},
+      "investment_thesis": {
+        "lookup": [],
+        "properties": {
+          "identifier": {
+            "uuid": "42529947-5ada-4d01-8b1a-bee129356624",
+            "value": "ABGC DMCC",
+            "permalink": "abgc-dmcc",
+            "entity_def_id": "organization"
+          }
+        },
+        "data": []
+      },
+      "diversity_spotlight_investments_summary": {
+        "identifier": {
+          "uuid": "42529947-5ada-4d01-8b1a-bee129356624",
+          "value": "ABGC DMCC",
+          "permalink": "abgc-dmcc",
+          "entity_def_id": "organization"
+        }
+      },
+      "contact_fields": {},
+      "growth_prediction": [
+        {
+          "generated_on": "2025-01-11",
+          "identifier": {
+            "uuid": "adf3dd7d-1048-4a0f-a0f1-0f66be1d0683",
+            "value": "Growth Prediction 2025-01-11",
+            "entity_def_id": "growth_prediction"
+          },
+          "probability_score": 0.961,
+          "runway_speculation": {
+            "uuid": "ff88397f-cb10-4ecb-8665-ac95b06bbcc0",
+            "value": "Debt Financing - ABGC DMCC",
+            "permalink": "abgc-dmcc-debt-financing--ff88397f",
+            "entity_def_id": "funding_round"
+          },
+          "created_at": "2025-01-17T22:36:46Z",
+          "updated_at": "2025-01-17T22:36:46Z",
+          "probability_tier": "p100_positive_high"
+        }
+      ],
+      "sub_organizations_summary": {
+        "identifier": {
+          "uuid": "42529947-5ada-4d01-8b1a-bee129356624",
+          "value": "ABGC DMCC",
+          "permalink": "abgc-dmcc",
+          "entity_def_id": "organization"
+        }
+      },
+      "overview_description": {
+        "description": "ABGC DMCC, a joint venture (JV) between Al Seer Marine and BGN, operates an energy transportation firm."
+      },
+      "current_employees_featured_order_field": [],
+      "company_about_fields2": {
+        "ipo_status": "private",
+        "last_funding_type": "debt_financing",
+        "location_identifiers": [
+          {
+            "uuid": "0e8010ee-2f59-38db-b7e2-998e92dde222",
+            "value": "Dubai",
+            "permalink": "dubai-dubai",
+            "entity_def_id": "location",
+            "location_type": "city"
+          },
+          {
+            "uuid": "bdaf57f0-4a06-3b65-7b13-e2983186c2ab",
+            "value": "Dubai",
+            "permalink": "dubai-united-arab-emirates",
+            "entity_def_id": "location",
+            "location_type": "region"
+          },
+          {
+            "uuid": "9314d29a-0a56-02c3-6b27-4168733de77f",
+            "value": "United Arab Emirates",
+            "permalink": "united-arab-emirates",
+            "entity_def_id": "location",
+            "location_type": "country"
+          },
+          {
+            "uuid": "b41404d2-8ecc-caf5-1268-8fdd3afe73ee",
+            "value": "Asia",
+            "permalink": "asia",
+            "entity_def_id": "location",
+            "location_type": "continent"
+          }
+        ],
+        "rank_org_company": 91407
+      },
+      "sub_organizations_image_list": [],
+      "frequently_asked_questions_headquarters_location": {
+        "identifier": {
+          "uuid": "42529947-5ada-4d01-8b1a-bee129356624",
+          "value": "ABGC DMCC",
+          "permalink": "abgc-dmcc",
+          "entity_def_id": "organization"
+        },
+        "location_identifiers": [
+          {
+            "uuid": "0e8010ee-2f59-38db-b7e2-998e92dde222",
+            "value": "Dubai",
+            "permalink": "dubai-dubai",
+            "entity_def_id": "location",
+            "location_type": "city"
+          },
+          {
+            "uuid": "bdaf57f0-4a06-3b65-7b13-e2983186c2ab",
+            "value": "Dubai",
+            "permalink": "dubai-united-arab-emirates",
+            "entity_def_id": "location",
+            "location_type": "region"
+          },
+          {
+            "uuid": "9314d29a-0a56-02c3-6b27-4168733de77f",
+            "value": "United Arab Emirates",
+            "permalink": "united-arab-emirates",
+            "entity_def_id": "location",
+            "location_type": "country"
+          },
+          {
+            "uuid": "b41404d2-8ecc-caf5-1268-8fdd3afe73ee",
+            "value": "Asia",
+            "permalink": "asia",
+            "entity_def_id": "location",
+            "location_type": "continent"
+          }
+        ]
+      },
+      "investors_headline": {},
+      "ipo_summary": {
+        "identifier": {
+          "uuid": "42529947-5ada-4d01-8b1a-bee129356624",
+          "value": "ABGC DMCC",
+          "permalink": "abgc-dmcc",
+          "entity_def_id": "organization"
+        }
+      },
+      "ipqwery_summary": {
+        "identifier": {
+          "uuid": "42529947-5ada-4d01-8b1a-bee129356624",
+          "value": "ABGC DMCC",
+          "permalink": "abgc-dmcc",
+          "entity_def_id": "organization"
+        }
+      },
+      "awards": [],
+      "siftery_product_list": [],
+      "competitors_list": [],
+      "growth_knowledge": {
+        "lookup": [
+          {
+            "press_references": [
+              {
+                "uuid": "176eda36-a67c-43d5-9705-88298603199d",
+                "value": "Al Seer Marine and BGN JV announce delivery of the third VLGC Merak",
+                "posted_on": "2025-09-19",
+                "publisher": "LogisticsGulf",
+                "source_url": "https://logisticsgulf.com/2025/09/al-seer-marine-and-bgn-jv-announce-delivery-of-the-third-vlgc-merak/",
+                "entity_def_id": "press_reference",
+                "thumbnail_url": "https://logisticsgulf.com/2025/09/al-seer-marine-and-bgn-jv-announce-delivery-of-the-third-vlgc-merak/"
+              },
+              {
+                "uuid": "1d7f9b57-1530-4a3c-87e4-78da6e71083a",
+                "value": "Al Seer Marine attains fleet of 18 vessels in just three years",
+                "posted_on": "2025-11-13",
+                "publisher": "LogisticsGulf",
+                "source_url": "https://logisticsgulf.com/2025/11/al-seer-marine-attains-fleet-of-18-vessels-in-just-three-years/",
+                "entity_def_id": "press_reference",
+                "thumbnail_url": "https://logisticsgulf.com/2025/11/al-seer-marine-attains-fleet-of-18-vessels-in-just-three-years/"
+              },
+              {
+                "uuid": "60159d27-3059-4b66-b184-4b7d2bee77c8",
+                "value": "Al Seer Marine and BGN JV announces delivery of third VLGC Merak",
+                "posted_on": "2025-09-18",
+                "publisher": "Zawya.com",
+                "source_url": "https://www.zawya.com/en/press-release/companies-news/al-seer-marine-and-bgn-jv-announces-delivery-of-third-vlgc-merak-u14l0uda",
+                "entity_def_id": "press_reference",
+                "thumbnail_url": "https://www.zawya.com/en/press-release/companies-news/al-seer-marine-and-bgn-jv-announces-delivery-of-third-vlgc-merak-u14l0uda"
+              },
+              {
+                "uuid": "e18d23ce-fead-471a-a050-473067a45a31",
+                "value": "Al Seer Marine, BGN JV announce delivery of third VLGC 'Merak'",
+                "posted_on": "2025-09-17",
+                "publisher": "Zawya.com",
+                "source_url": "https://www.zawya.com/en/projects/industry/al-seer-marine-bgn-jv-announce-delivery-of-third-vlgc-merak-gzh1wltg",
+                "entity_def_id": "press_reference",
+                "thumbnail_url": "https://www.zawya.com/en/projects/industry/al-seer-marine-bgn-jv-announce-delivery-of-third-vlgc-merak-gzh1wltg"
+              }
+            ],
+            "generated_on": "2025-11-17",
+            "identifier": {
+              "uuid": "72eb59ad-8e21-4747-8959-876c11a1b298",
+              "value": "Growth Insight 2025-11-17",
+              "entity_def_id": "growth_insight"
+            },
+            "mergers_acquisitions": "c200_improving",
+            "funding_raised": "c200_improving"
+          }
+        ],
+        "properties": {
+          "identifier": {
+            "uuid": "42529947-5ada-4d01-8b1a-bee129356624",
+            "value": "ABGC DMCC",
+            "permalink": "abgc-dmcc",
+            "entity_def_id": "organization"
+          },
+          "growth_insight_indicator": "growing"
+        },
+        "preview_properties": {
+          "growth_insight_description": {
+            "is_present": true,
+            "length": 359
+          },
+          "growth_insight_direction": {
+            "is_present": true
+          }
+        },
+        "data": [
+          {
+            "press_references": [
+              {
+                "uuid": "176eda36-a67c-43d5-9705-88298603199d",
+                "value": "Al Seer Marine and BGN JV announce delivery of the third VLGC Merak",
+                "posted_on": "2025-09-19",
+                "publisher": "LogisticsGulf",
+                "source_url": "https://logisticsgulf.com/2025/09/al-seer-marine-and-bgn-jv-announce-delivery-of-the-third-vlgc-merak/",
+                "entity_def_id": "press_reference",
+                "thumbnail_url": "https://logisticsgulf.com/2025/09/al-seer-marine-and-bgn-jv-announce-delivery-of-the-third-vlgc-merak/"
+              },
+              {
+                "uuid": "1d7f9b57-1530-4a3c-87e4-78da6e71083a",
+                "value": "Al Seer Marine attains fleet of 18 vessels in just three years",
+                "posted_on": "2025-11-13",
+                "publisher": "LogisticsGulf",
+                "source_url": "https://logisticsgulf.com/2025/11/al-seer-marine-attains-fleet-of-18-vessels-in-just-three-years/",
+                "entity_def_id": "press_reference",
+                "thumbnail_url": "https://logisticsgulf.com/2025/11/al-seer-marine-attains-fleet-of-18-vessels-in-just-three-years/"
+              },
+              {
+                "uuid": "60159d27-3059-4b66-b184-4b7d2bee77c8",
+                "value": "Al Seer Marine and BGN JV announces delivery of third VLGC Merak",
+                "posted_on": "2025-09-18",
+                "publisher": "Zawya.com",
+                "source_url": "https://www.zawya.com/en/press-release/companies-news/al-seer-marine-and-bgn-jv-announces-delivery-of-third-vlgc-merak-u14l0uda",
+                "entity_def_id": "press_reference",
+                "thumbnail_url": "https://www.zawya.com/en/press-release/companies-news/al-seer-marine-and-bgn-jv-announces-delivery-of-third-vlgc-merak-u14l0uda"
+              },
+              {
+                "uuid": "e18d23ce-fead-471a-a050-473067a45a31",
+                "value": "Al Seer Marine, BGN JV announce delivery of third VLGC 'Merak'",
+                "posted_on": "2025-09-17",
+                "publisher": "Zawya.com",
+                "source_url": "https://www.zawya.com/en/projects/industry/al-seer-marine-bgn-jv-announce-delivery-of-third-vlgc-merak-gzh1wltg",
+                "entity_def_id": "press_reference",
+                "thumbnail_url": "https://www.zawya.com/en/projects/industry/al-seer-marine-bgn-jv-announce-delivery-of-third-vlgc-merak-gzh1wltg"
+              }
+            ],
+            "generated_on": "2025-11-17",
+            "identifier": {
+              "uuid": "72eb59ad-8e21-4747-8959-876c11a1b298",
+              "value": "Growth Insight 2025-11-17",
+              "entity_def_id": "growth_insight"
+            },
+            "mergers_acquisitions": "c200_improving",
+            "funding_raised": "c200_improving"
+          }
+        ]
+      },
+      "overview_fields_extended": {
+        "last_funding_type": "debt_financing",
+        "location_group_identifiers": [
+          {
+            "uuid": "4e8be435-c63a-4aff-8a2f-44a880d9c341",
+            "value": "Europe, Middle East, and Africa (EMEA)",
+            "permalink": "europe-middle-east-africa-emea",
+            "entity_def_id": "location",
+            "location_type": "group"
+          },
+          {
+            "uuid": "c4365698-c7c5-44b0-b33a-7d13900e5be2",
+            "value": "Gulf Cooperation Council (GCC)",
+            "permalink": "gulf-cooperation-council",
+            "entity_def_id": "location",
+            "location_type": "group"
+          },
+          {
+            "uuid": "e0272206-3430-48cb-a5bc-1d4b3eafe15a",
+            "value": "Middle East",
+            "permalink": "middle-east",
+            "entity_def_id": "location",
+            "location_type": "group"
+          },
+          {
+            "uuid": "8cb7cad4-b7e4-4b28-a496-2ede3720cb19",
+            "value": "Middle East and North Africa (MENA)",
+            "permalink": "middle-east-and-north-africa-mena",
+            "entity_def_id": "location",
+            "location_type": "group"
+          }
+        ],
+        "operating_status": "active"
+      },
+      "overview_investor_fields": {},
+      "bombora_attribution": {},
+      "semrush_location_list": [],
+      "investors_list": [],
+      "siftery_summary": {
+        "identifier": {
+          "uuid": "42529947-5ada-4d01-8b1a-bee129356624",
+          "value": "ABGC DMCC",
+          "permalink": "abgc-dmcc",
+          "entity_def_id": "organization"
+        }
+      },
+      "acquired_by_summary": {
+        "identifier": {
+          "uuid": "42529947-5ada-4d01-8b1a-bee129356624",
+          "value": "ABGC DMCC",
+          "permalink": "abgc-dmcc",
+          "entity_def_id": "organization"
+        }
+      },
+      "ipo_fields": {},
+      "apptopia_app_overview_list_public": [],
+      "apptopia_sdk_list": [],
+      "trading_view": {},
+      "current_employees_image_list": [],
+      "frequently_asked_questions_investors": {
+        "identifier": {
+          "uuid": "42529947-5ada-4d01-8b1a-bee129356624",
+          "value": "ABGC DMCC",
+          "permalink": "abgc-dmcc",
+          "entity_def_id": "organization"
+        }
+      },
+      "funding_rounds_list": [
+        {
+          "identifier": {
+            "uuid": "ff88397f-cb10-4ecb-8665-ac95b06bbcc0",
+            "value": "Debt Financing - ABGC DMCC",
+            "permalink": "abgc-dmcc-debt-financing--ff88397f",
+            "entity_def_id": "funding_round"
+          },
+          "announced_on": "2024-03-27",
+          "money_raised": {
+            "value": 863000000,
+            "currency": "AED",
+            "value_usd": 235002587
+          },
+          "investment_type": "debt_financing"
+        },
+        {
+          "identifier": {
+            "uuid": "7592eb8d-c49e-4202-a146-f5b3f717b771",
+            "value": "Debt Financing - ABGC DMCC",
+            "permalink": "abgc-dmcc-debt-financing--7592eb8d",
+            "entity_def_id": "funding_round"
+          },
+          "announced_on": "2022-05-11",
+          "money_raised": {
+            "value": 135000000,
+            "currency": "USD",
+            "value_usd": 135000000
+          },
+          "investment_type": "debt_financing"
+        }
+      ],
+      "technology_highlights": {},
+      "funding_rounds_headline": {
+        "funding_total": {
+          "value": 370002587,
+          "currency": "USD",
+          "value_usd": 370002587
+        },
+        "num_funding_rounds": 2
+      },
+      "investments_list": [],
+      "exits_image_list": [],
+      "funds_headline": {},
+      "people_highlights": {},
+      "semrush_attribution": {},
+      "frequently_asked_questions_similar_companies": {
+        "identifier": {
+          "uuid": "42529947-5ada-4d01-8b1a-bee129356624",
+          "value": "ABGC DMCC",
+          "permalink": "abgc-dmcc",
+          "entity_def_id": "organization"
+        }
+      },
+      "semrush_overview": {},
+      "org_category_ranks": {},
+      "current_valuation": [],
+      "legal_proceedings": [],
+      "current_employees_summary": {
+        "identifier": {
+          "uuid": "42529947-5ada-4d01-8b1a-bee129356624",
+          "value": "ABGC DMCC",
+          "permalink": "abgc-dmcc",
+          "entity_def_id": "organization"
+        }
+      },
+      "aberdeen_summary": {
+        "identifier": {
+          "uuid": "42529947-5ada-4d01-8b1a-bee129356624",
+          "value": "ABGC DMCC",
+          "permalink": "abgc-dmcc",
+          "entity_def_id": "organization"
+        }
+      },
+      "offices": [],
+      "overview_timeline": {
+        "count": 7,
+        "entities": [
+          {
+            "uuid": "1d7f9b57-1530-4a3c-87e4-78da6e71083a",
+            "properties": {
+              "identifier": {
+                "uuid": "1d7f9b57-1530-4a3c-87e4-78da6e71083a",
+                "value": "Al Seer Marine attains fleet of 18 vessels in just three years",
+                "entity_def_id": "press_reference"
+              },
+              "entity_def_id": "press_reference",
+              "activity_entities": [
+                {
+                  "uuid": "42529947-5ada-4d01-8b1a-bee129356624",
+                  "value": "ABGC DMCC",
+                  "permalink": "abgc-dmcc",
+                  "entity_def_id": "organization"
+                }
+              ],
+              "activity_properties": {
+                "url": {
+                  "value": "https://logisticsgulf.com/2025/11/al-seer-marine-attains-fleet-of-18-vessels-in-just-three-years/"
+                },
+                "title": "Al Seer Marine attains fleet of 18 vessels in just three years",
+                "author": "LG Content Team",
+                "publisher": "LogisticsGulf",
+                "thumbnail_url": "https://logisticsgulf.com/2025/11/al-seer-marine-attains-fleet-of-18-vessels-in-just-three-years/"
+              },
+              "activity_date": "2025-11-13"
+            }
+          },
+          {
+            "uuid": "d82184fc-c39b-4242-a7ea-935033a061bb",
+            "properties": {
+              "identifier": {
+                "uuid": "d82184fc-c39b-4242-a7ea-935033a061bb",
+                "value": "Al Seer Marine achieves fleet of 18 vessels in just three years",
+                "entity_def_id": "press_reference"
+              },
+              "entity_def_id": "press_reference",
+              "activity_entities": [
+                {
+                  "uuid": "42529947-5ada-4d01-8b1a-bee129356624",
+                  "value": "ABGC DMCC",
+                  "permalink": "abgc-dmcc",
+                  "entity_def_id": "organization"
+                }
+              ],
+              "activity_properties": {
+                "url": {
+                  "value": "https://www.zawya.com/en/press-release/companies-news/al-seer-marine-achieves-fleet-of-18-vessels-in-just-three-years-c238njma"
+                },
+                "title": "Al Seer Marine achieves fleet of 18 vessels in just three years",
+                "author": "Press Release",
+                "publisher": "Zawya.com"
+              },
+              "activity_date": "2025-11-11"
+            }
+          },
+          {
+            "uuid": "176eda36-a67c-43d5-9705-88298603199d",
+            "properties": {
+              "identifier": {
+                "uuid": "176eda36-a67c-43d5-9705-88298603199d",
+                "value": "Al Seer Marine and BGN JV announce delivery of the third VLGC Merak",
+                "entity_def_id": "press_reference"
+              },
+              "entity_def_id": "press_reference",
+              "activity_entities": [
+                {
+                  "uuid": "42529947-5ada-4d01-8b1a-bee129356624",
+                  "value": "ABGC DMCC",
+                  "permalink": "abgc-dmcc",
+                  "entity_def_id": "organization"
+                }
+              ],
+              "activity_properties": {
+                "url": {
+                  "value": "https://logisticsgulf.com/2025/09/al-seer-marine-and-bgn-jv-announce-delivery-of-the-third-vlgc-merak/"
+                },
+                "title": "Al Seer Marine and BGN JV announce delivery of the third VLGC Merak",
+                "author": "LG Content Team",
+                "publisher": "LogisticsGulf",
+                "thumbnail_url": "https://logisticsgulf.com/2025/09/al-seer-marine-and-bgn-jv-announce-delivery-of-the-third-vlgc-merak/"
+              },
+              "activity_date": "2025-09-19"
+            }
+          },
+          {
+            "uuid": "60159d27-3059-4b66-b184-4b7d2bee77c8",
+            "properties": {
+              "identifier": {
+                "uuid": "60159d27-3059-4b66-b184-4b7d2bee77c8",
+                "value": "Al Seer Marine and BGN JV announces delivery of third VLGC Merak",
+                "entity_def_id": "press_reference"
+              },
+              "entity_def_id": "press_reference",
+              "activity_entities": [
+                {
+                  "uuid": "42529947-5ada-4d01-8b1a-bee129356624",
+                  "value": "ABGC DMCC",
+                  "permalink": "abgc-dmcc",
+                  "entity_def_id": "organization"
+                }
+              ],
+              "activity_properties": {
+                "url": {
+                  "value": "https://www.zawya.com/en/press-release/companies-news/al-seer-marine-and-bgn-jv-announces-delivery-of-third-vlgc-merak-u14l0uda"
+                },
+                "title": "Al Seer Marine and BGN JV announces delivery of third VLGC Merak",
+                "author": "Press Release",
+                "publisher": "Zawya.com",
+                "thumbnail_url": "https://www.zawya.com/en/press-release/companies-news/al-seer-marine-and-bgn-jv-announces-delivery-of-third-vlgc-merak-u14l0uda"
+              },
+              "activity_date": "2025-09-18"
+            }
+          },
+          {
+            "uuid": "e18d23ce-fead-471a-a050-473067a45a31",
+            "properties": {
+              "identifier": {
+                "uuid": "e18d23ce-fead-471a-a050-473067a45a31",
+                "value": "Al Seer Marine, BGN JV announce delivery of third VLGC 'Merak'",
+                "entity_def_id": "press_reference"
+              },
+              "entity_def_id": "press_reference",
+              "activity_entities": [
+                {
+                  "uuid": "42529947-5ada-4d01-8b1a-bee129356624",
+                  "value": "ABGC DMCC",
+                  "permalink": "abgc-dmcc",
+                  "entity_def_id": "organization"
+                }
+              ],
+              "activity_properties": {
+                "url": {
+                  "value": "https://www.zawya.com/en/projects/industry/al-seer-marine-bgn-jv-announce-delivery-of-third-vlgc-merak-gzh1wltg"
+                },
+                "title": "Al Seer Marine, BGN JV announce delivery of third VLGC 'Merak'",
+                "author": ", WAM",
+                "publisher": "Zawya.com",
+                "thumbnail_url": "https://www.zawya.com/en/projects/industry/al-seer-marine-bgn-jv-announce-delivery-of-third-vlgc-merak-gzh1wltg"
+              },
+              "activity_date": "2025-09-17"
+            }
+          },
+          {
+            "uuid": "ff88397f-cb10-4ecb-8665-ac95b06bbcc0",
+            "properties": {
+              "identifier": {
+                "uuid": "ff88397f-cb10-4ecb-8665-ac95b06bbcc0",
+                "value": "Debt Financing - ABGC DMCC",
+                "permalink": "abgc-dmcc-debt-financing--ff88397f",
+                "entity_def_id": "funding_round"
+              },
+              "entity_def_id": "funding_round",
+              "activity_entities": [
+                {
+                  "role": "investee",
+                  "uuid": "42529947-5ada-4d01-8b1a-bee129356624",
+                  "value": "ABGC DMCC",
+                  "permalink": "abgc-dmcc",
+                  "entity_def_id": "organization"
+                }
+              ],
+              "activity_properties": {
+                "money_raised": {
+                  "value": 863000000,
+                  "currency": "AED",
+                  "value_usd": 235002587
+                },
+                "investment_type": "debt_financing"
+              },
+              "activity_date": "2024-03-27"
+            }
+          },
+          {
+            "uuid": "7592eb8d-c49e-4202-a146-f5b3f717b771",
+            "properties": {
+              "identifier": {
+                "uuid": "7592eb8d-c49e-4202-a146-f5b3f717b771",
+                "value": "Debt Financing - ABGC DMCC",
+                "permalink": "abgc-dmcc-debt-financing--7592eb8d",
+                "entity_def_id": "funding_round"
+              },
+              "entity_def_id": "funding_round",
+              "activity_entities": [
+                {
+                  "role": "investee",
+                  "uuid": "42529947-5ada-4d01-8b1a-bee129356624",
+                  "value": "ABGC DMCC",
+                  "permalink": "abgc-dmcc",
+                  "entity_def_id": "organization"
+                }
+              ],
+              "activity_properties": {
+                "money_raised": {
+                  "value": 135000000,
+                  "currency": "USD",
+                  "value_usd": 135000000
+                },
+                "investment_type": "debt_financing"
+              },
+              "activity_date": "2022-05-11"
+            }
+          }
+        ]
+      },
+      "company_financials_highlights": {
+        "funding_total": {
+          "value": 370002587,
+          "currency": "USD",
+          "value_usd": 370002587
+        },
+        "num_funding_rounds": 2
+      },
+      "overview_company_fields": {
+        "company_type": "for_profit"
+      },
+      "private_tags_pill_list": [],
+      "acquisitions_headline": {},
+      "builtwith_summary": {
+        "identifier": {
+          "uuid": "42529947-5ada-4d01-8b1a-bee129356624",
+          "value": "ABGC DMCC",
+          "permalink": "abgc-dmcc",
+          "entity_def_id": "organization"
+        }
+      },
+      "about_short_description": {
+        "short_description": "ABGC DMCC, a joint venture (JV) between Al Seer Marine and BGN, operates an energy transportation firm."
+      },
+      "product": [],
+      "apptopia_app_headline": {}
+    }
+  }
+}

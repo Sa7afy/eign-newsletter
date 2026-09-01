@@ -1,0 +1,205 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T12:56:29.592Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T12:56:29.591Z",
+    "url": "https://www.crunchbase.com/organization/pickappo"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Pickappo",
+      "shortDescription": "Pickappo is not a delivery company but a tech platform that connects various delivery apps with rapid delivery companies.",
+      "description": "Pickappo is not a delivery company but a tech platform that connects various delivery apps with rapid delivery companies to solve issues such as low order volumes and delivery captain fragmentation, in addition to addressing delivery apps' challenges in scaling and expansion.",
+      "website": "https://www.pickappo.com/",
+      "foundedYear": 2023,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "11-50",
+      "headquarters": "Riyadh, Ar Riyad, Saudi Arabia",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Logistics",
+        "Transportation"
+      ],
+      "sectors": [
+        "Transportation"
+      ],
+      "founders": [
+        "Walid Ghonim"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 533036,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2026-06-16",
+      "lastFundingType": "Pre Seed",
+      "rounds": [
+        {
+          "announcedDate": "2026-06-16",
+          "amount": {
+            "amount": 533036,
+            "currency": "USD"
+          },
+          "postMoneyValuation": {
+            "amount": 6301135,
+            "currency": "USD"
+          },
+          "type": "Pre Seed"
+        }
+      ]
+    },
+    "recentNews": {
+      "reportedCount": 6,
+      "includedUniqueCount": 6,
+      "items": [
+        {
+          "date": "2026-06-21",
+          "publisher": "إنت عربي | entARABI",
+          "title": "MENA Startups Secure Over $65 m in Weekly Funding as AI Leads Investment Activity",
+          "url": "https://entarabi.com/en/2026/06/mena-startups-secure-over-65-m-in-weekly/"
+        },
+        {
+          "date": "2026-06-20",
+          "publisher": "Arab News",
+          "title": "Startup Wrap: More than $69m flows into MENA startups",
+          "url": "https://www.arabnews.com/node/2647977/business-economy"
+        },
+        {
+          "date": "2026-06-18",
+          "publisher": "FWDStart | MENA Startups, Tech News & VC Insights",
+          "title": "Revolut nears UAE launch, Lean debuts Pay by Bank",
+          "url": "https://www.fwdstart.me/p/revolut-nears-uae-launch-lean-debuts-pay-by-bank"
+        },
+        {
+          "date": "2026-06-18",
+          "publisher": "KSA",
+          "title": "Aljazira Bank closes AT1 issuance, Pickappo raises SAR 2 mn",
+          "url": "https://enterpriseam.com/ksa/2026/06/18/aljazira-bank-closes-at1-issuance-pickappo-raises-sar-2-mn/"
+        },
+        {
+          "date": "2026-06-16",
+          "title": "Pre Seed Round - Pickappo"
+        },
+        {
+          "date": "2026-06-15",
+          "publisher": "Wamda",
+          "title": "Pickappo secures $530,000 to expand on-demand delivery infrastructure",
+          "url": "https://www.wamda.com/2026/06/pickappo-secures-530000-expand-demand-delivery-infrastructure"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 533036,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthInsightGeneratedDate": "2026-07-05",
+      "growthChange90Days": 4,
+      "growthScore": 87,
+      "heatChange90Days": 44,
+      "heatScore": 46,
+      "status": "Growing"
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 5
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 94.72,
+        "timingEstimatePercent": {
+          "within6Months": 99.81,
+          "months6To11": 0.18,
+          "months12To24": 0,
+          "beyond24Months": 0
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 95.92
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 0
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors."
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Pre Seed round raised $533,036, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $6,301,135 to $6,301,135, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 87 (+4 over 90 days) and market heat at 46 (+44).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

@@ -1,0 +1,291 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T13:26:54.894Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T13:26:54.892Z",
+    "url": "https://www.crunchbase.com/organization/smart-green"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Smart Green",
+      "shortDescription": "Smart Green offers agri-tech solutions to agricultural enterprises that use Industry 4.0 technology to facilitate digital transformation.",
+      "description": "Smart Green offers agri-tech solutions to agricultural enterprises that use Industry 4.0 technology to facilitate the digital transformation of conventional agriculture to modern agriculture.",
+      "website": "https://sg-agritech.com/",
+      "foundedYear": 2020,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "1-10",
+      "estimatedRevenueRange": "Less than $1M",
+      "headquarters": "Amman, Jordan",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "AgTech",
+        "Simulation",
+        "Sustainability"
+      ],
+      "sectors": [
+        "Agriculture and Farming",
+        "Software",
+        "Sustainability"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "A system that controls irrigation and fertilizer delivery to optimize water and nutrient use for crops, enabling remote farm management.",
+        "name": "Smart Irrigation and Fertigation System (Fertigo)"
+      },
+      {
+        "description": "A precision irrigation system that uses sensors to monitor root zone conditions and provide data for optimized irrigation management.",
+        "name": "Rootrika Monitoring System"
+      },
+      {
+        "description": "A weather-driven application that informs irrigation and farm management decisions based on meteorological data.",
+        "name": "Weather-Based Application (Taqs Scope)"
+      },
+      {
+        "description": "A virtual farming tool that simulates crop growth scenarios to support decision-making on planting, irrigation, and fertilization strategies.",
+        "name": "Crop Simulation Service"
+      },
+      {
+        "description": "Consulting services that assess water quality, irrigation efficiency, and soil health to identify and address farm water management challenges.",
+        "name": "Agricultural Water Management Diagnostic Services"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 20000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2023-06-12",
+      "lastFundingType": "Grant",
+      "rounds": [
+        {
+          "announcedDate": "2023-06-12",
+          "amount": {
+            "amount": 20000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "PepsiCo Greenhouse Accelerator Program"
+          ],
+          "type": "Grant"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "PepsiCo Greenhouse Accelerator Program",
+            "rounds": [
+              "Grant"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 1,
+      "includedUniqueCount": 1,
+      "items": [
+        {
+          "date": "2023-06-12",
+          "title": "Grant - Smart Green"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 20000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "grantFunding": {
+      "amount": {
+        "amount": 20000,
+        "currency": "USD"
+      },
+      "disclosedRoundCount": 1,
+      "shareOfTotalPercent": 100
+    }
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": -16,
+      "growthScore": 62,
+      "heatChange90Days": -18,
+      "heatScore": 51
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 0
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 0,
+        "timingEstimatePercent": {
+          "within6Months": 0,
+          "months6To11": 0,
+          "months12To24": 0,
+          "beyond24Months": 0
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 76.4
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 0
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Netafim is an irrigation company that provides irrigation solutions to fighting scarcity of food, water, and land, for a sustainable future.",
+          "employeeRange": "1,001-5,000",
+          "name": "Netafim",
+          "sharedCategories": [
+            "Sustainability"
+          ],
+          "sharedSpecialties": [
+            "Smart Irrigation Systems",
+            "Irrigation Equipment and Systems",
+            "Soil Monitoring and Sensors",
+            "Greenhouse Automation and Climate Control",
+            "Precision Agriculture",
+            "Farm Management Software"
+          ],
+          "similarityScore": 97
+        },
+        {
+          "description": "Jain Irrigation Systems is an Indian multinational company with manufacturing plants in 29 locations across the globe.",
+          "employeeRange": "10,001+",
+          "name": "Jain Irrigation Systems",
+          "sharedSpecialties": [
+            "Smart Irrigation Systems",
+            "Irrigation Equipment and Systems"
+          ],
+          "similarityScore": 95
+        },
+        {
+          "description": "Lindsay Corporation is a provider of range of water management and road infrastructure products and services.",
+          "employeeRange": "1,001-5,000",
+          "name": "Lindsay Corporation",
+          "sharedSpecialties": [
+            "Smart Irrigation Systems",
+            "Irrigation Equipment and Systems",
+            "Soil Monitoring and Sensors",
+            "Precision Agriculture",
+            "Farm Management Software"
+          ],
+          "similarityScore": 93
+        },
+        {
+          "description": "Valmont Industries provides vital infrastructure and advances agricultural productivity while driving innovation through technology.",
+          "employeeRange": "10,001+",
+          "name": "Valmont Industries",
+          "sharedSpecialties": [
+            "Smart Irrigation Systems",
+            "Irrigation Equipment and Systems",
+            "Precision Agriculture",
+            "Farm Management Software"
+          ],
+          "similarityScore": 89
+        },
+        {
+          "description": "Rivulis Irrigation provides Industry drip and micro irrigation solutions: Drip Lines, Drip Tapes.",
+          "employeeRange": "1,001-5,000",
+          "name": "Rivulis Irrigation",
+          "sharedSpecialties": [
+            "Smart Irrigation Systems",
+            "Irrigation Equipment and Systems",
+            "Greenhouse Automation and Climate Control",
+            "Precision Agriculture",
+            "Farm Management Software"
+          ],
+          "similarityScore": 88
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Grant round raised $20,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Meaningful non-dilutive funding",
+      "statement": "1 disclosed grants total $20,000, representing 100% of reported funding.",
+      "implication": "The grants reduce the share of reported financing attributed to equity or notes, although their restrictions and milestone requirements need separate verification.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.grantFunding"
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 62 (-16 over 90 days) and market heat at 51 (-18).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Netafim, Jain Irrigation Systems, Lindsay Corporation.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T13:33:56.127Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T13:33:56.126Z",
+    "url": "https://www.crunchbase.com/organization/sunergy"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Sunergy",
+      "shortDescription": "Sunergy is a new venture renewable energy solution provider based in Egypt.",
+      "description": "Sunergy is a new venture renewable energy solution provider based in Egypt.They offer a comprehensive range of vertically-integrated end-to-end renewable energy solutions customized to satisfyabout us 1 different clients’ energy needs.\r\n\r\nAs they work with their clients from consultation and analysis of their requirements all the way to installation and maintenance, we provide regular follow up service as per clients’ needs to ensure they will always have their energy needs met.\r\n\r\nCustomer service is paramount to Sunergy. So, they go beyond contracting and supply of solutions to have all our services delivered with a personal touch so clients get the best of both worlds.\r\n\r\nThey believe alternative and renewable energy sources will play a significant role in meeting future energy demand. So, we’ve made it their mission to empower individuals and corporate bodies to actively become energy independent through the use of renewable energy",
+      "website": "http://sunergytech.net/",
+      "foundedYear": 2013,
+      "operatingStatus": "Closed",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "1-10",
+      "estimatedRevenueRange": "Less than $1M",
+      "headquarters": "Cairo, Al Qahirah, Egypt",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Middle East",
+        "Middle East and North Africa (MENA)",
+        "North Africa"
+      ],
+      "industries": [
+        "Clean Energy",
+        "Energy"
+      ],
+      "sectors": [
+        "Energy",
+        "Sustainability"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 15000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2014-01-01",
+      "lastFundingType": "Seed",
+      "rounds": [
+        {
+          "announcedDate": "2014-01-01",
+          "amount": {
+            "amount": 15000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "type": "Seed"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "name": "F6 Ventures",
+            "rounds": [
+              "Seed Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 3,
+      "includedUniqueCount": 3,
+      "items": [
+        {
+          "date": "2024-03-07",
+          "publisher": "Globe Newswire",
+          "title": "ESGEN Acquisition Corp. Shareholders Approve Proposed Business Combination with Sunergy Renewables",
+          "url": "https://www.globenewswire.com/en/news-release/2024/03/07/2842262/0/en/ESGEN-Acquisition-Corp-Shareholders-Approve-Proposed-Business-Combination-with-Sunergy-Renewables.html"
+        },
+        {
+          "date": "2024-02-13",
+          "publisher": "Morningstar",
+          "title": "ESGEN Acquisition Corp. Announces Registration Statement Effectiveness in Connection with Business Combination with Sunergy Renewables",
+          "url": "https://www.morningstar.com/news/globe-newswire/9036928/esgen-acquisition-corp-announces-registration-statement-effectiveness-in-connection-with-business-combination-with-sunergy-renewables"
+        },
+        {
+          "date": "2014-01-01",
+          "title": "Seed Round - Sunergy"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 15000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors."
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Seed round raised $15,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

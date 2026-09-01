@@ -1,0 +1,313 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T12:01:59.180Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T12:01:59.177Z",
+    "url": "https://www.crunchbase.com/organization/ibea-ec59"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "IBEA",
+      "shortDescription": "SaaS, B2B Payment Automation, Epayments, Fintech",
+      "description": "SaaS B2B Payment Automation.",
+      "website": "http://www.ibea.com/",
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "1-10",
+      "headquarters": "Riyadh, Ar Riyad, Saudi Arabia",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Financial Services",
+        "FinTech",
+        "Software"
+      ],
+      "sectors": [
+        "Financial Services",
+        "Software"
+      ],
+      "founders": [
+        "Ismail Amonette"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "A solution that enables companies to generate revenue by capturing early payment discounts through predictive analytics and supplier engagement.",
+        "name": "Dynamic Discounting"
+      },
+      {
+        "description": "A system that automates invoice processing, payment workflows, and reconciliation to reduce manual tasks, errors, and delays in accounts payable.",
+        "name": "Accounts Payable Automation"
+      },
+      {
+        "description": "A service that facilitates secure, fast, and cost-effective global payments to suppliers worldwide.",
+        "name": "Mass Payments"
+      },
+      {
+        "description": "A service ensuring accurate accounting of payments and resolution of discrepancies in accounts payable.",
+        "name": "Payment Reconciliation"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 750000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 2,
+      "detailedRoundCount": 2,
+      "lastFundingDate": "2026-06-25",
+      "lastFundingType": "Pre Seed",
+      "rounds": [
+        {
+          "announcedDate": "2026-06-25",
+          "investorCount": 1,
+          "leadInvestors": [
+            "Sanabil Accelerator by 500 Global"
+          ],
+          "postMoneyValuation": {
+            "amount": 9851847,
+            "currency": "USD"
+          },
+          "type": "Pre Seed"
+        },
+        {
+          "announcedDate": "2023-06-01",
+          "amount": {
+            "amount": 750000,
+            "currency": "USD"
+          },
+          "postMoneyValuation": {
+            "amount": 4343916,
+            "currency": "USD"
+          },
+          "type": "Pre Seed"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "Sanabil Accelerator by 500 Global",
+            "rounds": [
+              "Pre Seed Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 2,
+      "includedUniqueCount": 2,
+      "items": [
+        {
+          "date": "2026-06-25",
+          "title": "Pre Seed Round - IBEA"
+        },
+        {
+          "date": "2023-06-01",
+          "title": "Pre Seed Round - IBEA"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 750000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestToEarliestKnownValuationMultiple": 2.27
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": 2,
+      "growthScore": 28,
+      "heatChange90Days": 18,
+      "heatScore": 73
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 5
+      },
+      "funding": {
+        "generatedDate": "2026-08-13",
+        "probabilityPercent": 33.68,
+        "timingEstimatePercent": {
+          "within6Months": 16.02,
+          "months6To11": 13.45,
+          "months12To24": 20.79,
+          "beyond24Months": 25
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 96.07
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 0
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Tipalti is a global payables automation platform that provides a cloud solution to scale and automate global payables operations.",
+          "employeeRange": "1,001-5,000",
+          "name": "Tipalti",
+          "sharedCategories": [
+            "Financial Services",
+            "Software",
+            "FinTech"
+          ],
+          "sharedSpecialties": [
+            "Invoice Processing Automation",
+            "ACH and Bank Transfer Services",
+            "Accounts Payable Services",
+            "Reconciliation Services",
+            "Payment Processing",
+            "Payment Orchestration Platforms",
+            "Mass Payouts and Bulk Disbursements"
+          ],
+          "similarityScore": 97
+        },
+        {
+          "description": "AvidXchange is a payments firm that specializes in AP automation software and payment solutions for mid-sized companies and their suppliers.",
+          "employeeRange": "1,001-5,000",
+          "name": "AvidXchange",
+          "sharedCategories": [
+            "FinTech"
+          ],
+          "sharedSpecialties": [
+            "Invoice Processing Automation",
+            "ACH and Bank Transfer Services",
+            "Accounts Payable Services",
+            "Payment Processing",
+            "Intelligent Document Processing",
+            "Payment Orchestration Platforms",
+            "Payment Analytics and Dashboard",
+            "Mass Payouts and Bulk Disbursements"
+          ],
+          "similarityScore": 93
+        },
+        {
+          "description": "BILL is a developer of financial automation software for small and midsize businesses (SMBs).",
+          "employeeRange": "1,001-5,000",
+          "name": "BILL",
+          "sharedCategories": [
+            "Financial Services",
+            "FinTech"
+          ],
+          "sharedSpecialties": [
+            "ACH and Bank Transfer Services",
+            "Accounts Payable Services",
+            "Cash Flow Management",
+            "Payment Analytics and Dashboard"
+          ],
+          "similarityScore": 92
+        },
+        {
+          "description": "Coupa is a cloud platform for business spend that offers a fully unified suite of financial applications for business spend management.",
+          "employeeRange": "1,001-5,000",
+          "name": "Coupa",
+          "sharedCategories": [
+            "Software",
+            "FinTech"
+          ],
+          "sharedSpecialties": [
+            "Invoice Processing Automation",
+            "Payment Orchestration Platforms",
+            "Supply Chain Finance"
+          ],
+          "similarityScore": 91
+        },
+        {
+          "description": "MineralTree provides mobile and online accounts payable automation software for finance professionals at growing organizations.",
+          "employeeRange": "101-250",
+          "name": "MineralTree",
+          "sharedCategories": [
+            "Financial Services",
+            "Software",
+            "FinTech"
+          ],
+          "sharedSpecialties": [
+            "Invoice Processing Automation",
+            "ACH and Bank Transfer Services",
+            "Accounts Payable Services",
+            "Reconciliation Services",
+            "Payment Processing",
+            "Intelligent Document Processing",
+            "Payment Orchestration Platforms"
+          ],
+          "similarityScore": 89
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $4,343,916 to $9,851,847, a 2.27x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 28 (+2 over 90 days) and market heat at 73 (+18).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Tipalti, AvidXchange, BILL.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

@@ -1,0 +1,258 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T09:01:34.493Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T09:01:34.491Z",
+    "url": "https://www.crunchbase.com/organization/ajeej-steel"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Ajeej Steel",
+      "shortDescription": "Ajeej Steel manufactures and supplies steel billets and rebars.",
+      "website": "https://ajeejsteel.com/",
+      "foundedYear": 2009,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "251-500",
+      "estimatedRevenueRange": "$1M-$10M",
+      "headquarters": "Riyadh, Ar Riyad, Saudi Arabia",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Industrial",
+        "Manufacturing",
+        "Product Design",
+        "Wholesale"
+      ],
+      "sectors": [
+        "Commerce and Shopping",
+        "Design",
+        "Manufacturing"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 53800078,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 2,
+      "detailedRoundCount": 2,
+      "lastFundingDate": "2026-08-24",
+      "lastFundingType": "Debt Financing",
+      "rounds": [
+        {
+          "announcedDate": "2026-08-24",
+          "amount": {
+            "amount": 19945265,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "First Abu Dhabi Bank"
+          ],
+          "type": "Debt Financing"
+        },
+        {
+          "announcedDate": "2025-11-27",
+          "amount": {
+            "amount": 33854813,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "Al-Rajhi Bank"
+          ],
+          "type": "Debt Financing"
+        }
+      ],
+      "investors": {
+        "reportedCount": 2,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "Al-Rajhi Bank",
+            "rounds": [
+              "Debt Financing"
+            ]
+          },
+          {
+            "isLead": true,
+            "name": "First Abu Dhabi Bank",
+            "rounds": [
+              "Debt Financing"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 2,
+      "includedUniqueCount": 2,
+      "items": [
+        {
+          "date": "2026-08-24",
+          "title": "Debt Financing - Ajeej Steel"
+        },
+        {
+          "date": "2025-11-27",
+          "title": "Debt Financing - Ajeej Steel"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 2,
+    "knownDetailedFundingAmount": {
+      "amount": 53800078,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 37.07
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": 2,
+      "growthScore": 68,
+      "heatChange90Days": 27,
+      "heatScore": 94
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 95.4
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 9.26,
+        "timingEstimatePercent": {
+          "within6Months": 0.63,
+          "months6To11": 0,
+          "months12To24": 0,
+          "beyond24Months": 99.37
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 90.92
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 32.37
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Rajhi Steel specializes in the production of different types of iron products, including iron pipes, glavanizes pipes, and sheet panels.",
+          "employeeRange": "1,001-5,000",
+          "name": "Rajhi Steel",
+          "sharedCategories": [
+            "Manufacturing",
+            "Industrial"
+          ],
+          "similarityScore": 95
+        },
+        {
+          "description": "Emirates Steel is an integrated steel mill that prioritizes efficiency, sustainability, and cutting-edge manufacturing technology.",
+          "employeeRange": "1,001-5,000",
+          "name": "Emirates Steel",
+          "sharedCategories": [
+            "Manufacturing"
+          ],
+          "similarityScore": 94
+        },
+        {
+          "description": "Saudi Iron and Steel Company (Hadeed) manufactures iron and steel products for the local construction, automotive, utility, renewables.",
+          "employeeRange": "1-10",
+          "name": "Saudi Iron and Steel Company (Hadeed)",
+          "sharedCategories": [
+            "Manufacturing",
+            "Industrial"
+          ],
+          "similarityScore": 88
+        },
+        {
+          "description": "Watania Steel is a steel manufacturing company.",
+          "employeeRange": "1,001-5,000",
+          "name": "Watania Steel",
+          "sharedCategories": [
+            "Manufacturing",
+            "Industrial"
+          ],
+          "similarityScore": 87
+        },
+        {
+          "description": "Solb Steel is a steel production firm that manufactures billet, riber, wire rod, riber in coil, and other steel products.",
+          "employeeRange": "101-250",
+          "name": "Solb Steel",
+          "sharedCategories": [
+            "Manufacturing"
+          ],
+          "similarityScore": 85
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Debt Financing round raised $19,945,265, or 37.07% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 68 (+2 over 90 days) and market heat at 94 (+27).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Rajhi Steel, Emirates Steel, Saudi Iron and Steel Company (Hadeed).",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

@@ -1,0 +1,284 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T11:55:17.152Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T11:55:17.151Z",
+    "url": "https://www.crunchbase.com/organization/hal-capital"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Hal Capital",
+      "shortDescription": "Hal Capital offers microfinance alternatives to help you expand your business.",
+      "description": "Hal Capital's mission is to knock down financial barriers and make funding available to underprivileged Micro, Small, and Medium Enterprises (MSMEs) and individuals.",
+      "website": "https://halcapital.org/",
+      "foundedYear": 2021,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "11-50",
+      "headquarters": "Muscat, Masqat, Oman",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Financial Services"
+      ],
+      "sectors": [
+        "Financial Services"
+      ],
+      "founders": [
+        "Lutfi Al Shukaili",
+        "Mohamoud Dualeh"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "A digital platform providing access to financing products for underbanked MSMEs and individuals to address funding gaps.",
+        "name": "Digital Mobile Finance Platform"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 39802,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2024-06-19",
+      "lastFundingType": "Grant",
+      "rounds": [
+        {
+          "announcedDate": "2024-06-19",
+          "amount": {
+            "amount": 39802,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "Visa Everywhere Initiative"
+          ],
+          "type": "Grant"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "Visa Everywhere Initiative",
+            "rounds": [
+              "Grant"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 1,
+      "includedUniqueCount": 1,
+      "items": [
+        {
+          "date": "2024-06-19",
+          "title": "Grant - Hal Capital"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 39802,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "grantFunding": {
+      "amount": {
+        "amount": 39802,
+        "currency": "USD"
+      },
+      "disclosedRoundCount": 1,
+      "shareOfTotalPercent": 100
+    }
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": -2,
+      "growthScore": 48,
+      "heatChange90Days": -1,
+      "heatScore": 56
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 30.6
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 13.64,
+        "timingEstimatePercent": {
+          "within6Months": 0.69,
+          "months6To11": 0,
+          "months12To24": 0,
+          "beyond24Months": 99.31
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 74.24
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 4.72
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Tala is a digital financial services company that provides access to credit, payments, savings, and transfer services.",
+          "employeeRange": "501-1,000",
+          "name": "Tala",
+          "sharedCategories": [
+            "Financial Services"
+          ],
+          "sharedSpecialties": [
+            "Digital Microfinance",
+            "Loan Management Systems",
+            "Microfinance and Women's Microloans",
+            "Banking-as-a-Service (BaaS)",
+            "Mobile Banking",
+            "Alternative Credit Data and Scoring"
+          ],
+          "similarityScore": 93
+        },
+        {
+          "description": "M-KOPA provides connected asset financing solutions for underbanked customers.",
+          "employeeRange": "1,001-5,000",
+          "name": "M-KOPA",
+          "sharedCategories": [
+            "Financial Services"
+          ],
+          "sharedSpecialties": [
+            "Digital Microfinance",
+            "Digital Inclusion and Digital Literacy",
+            "Loan Management Systems",
+            "Loan Payment Services"
+          ],
+          "similarityScore": 91
+        },
+        {
+          "description": "Kiva is an international non-profit organization that enables families to make small loans to entrepreneurs in developing countries.",
+          "employeeRange": "101-250",
+          "name": "Kiva",
+          "sharedCategories": [
+            "Financial Services"
+          ],
+          "sharedSpecialties": [
+            "Digital Microfinance",
+            "Microfinance and Women's Microloans",
+            "Community Investing"
+          ],
+          "similarityScore": 89
+        },
+        {
+          "description": "Happy Pay is a payment platform that delivers merchants, shoppers, and the planet.",
+          "employeeRange": "11-50",
+          "name": "Happy Pay",
+          "sharedCategories": [
+            "Financial Services"
+          ],
+          "sharedSpecialties": [
+            "Digital Microfinance",
+            "Loan Payment Services"
+          ],
+          "similarityScore": 88
+        },
+        {
+          "description": "PayJoy is a financial service company that provides affordable smartphone financing to people in emerging markets.",
+          "employeeRange": "1,001-5,000",
+          "name": "PayJoy",
+          "sharedCategories": [
+            "Financial Services"
+          ],
+          "sharedSpecialties": [
+            "Digital Microfinance",
+            "Loan Management Systems",
+            "Microfinance and Women's Microloans",
+            "Mass Payouts and Bulk Disbursements"
+          ],
+          "similarityScore": 81
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Grant round raised $39,802, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Meaningful non-dilutive funding",
+      "statement": "1 disclosed grants total $39,802, representing 100% of reported funding.",
+      "implication": "The grants reduce the share of reported financing attributed to equity or notes, although their restrictions and milestone requirements need separate verification.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.grantFunding"
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 48 (-2 over 90 days) and market heat at 56 (-1).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Tala, M-KOPA, Kiva.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

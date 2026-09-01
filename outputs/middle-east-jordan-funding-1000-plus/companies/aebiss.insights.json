@@ -1,0 +1,243 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T08:59:41.861Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T08:59:41.857Z",
+    "url": "https://www.crunchbase.com/organization/aebiss"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "AEBISS",
+      "shortDescription": "AEBISS is a software development company that offers web and app development services.",
+      "description": "AEBISS is an information technology company that offers software development, web and app development, embedded systems programming, and decentralized application development services.",
+      "website": "https://aebiss.com/",
+      "foundedYear": 1998,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "1-10",
+      "headquarters": "Sharjah, United Arab Emirates",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Information Technology",
+        "Mobile Apps",
+        "Software"
+      ],
+      "sectors": [
+        "Apps",
+        "Information Technology",
+        "Mobile",
+        "Software"
+      ],
+      "founders": [
+        "Hashim Al Zaabi"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "An IoT-based temperature monitoring system that provides real-time alerts and data management to protect critical assets.",
+        "name": "TempGuard"
+      },
+      {
+        "description": "Development of customized websites, web applications, e-commerce platforms, and social networks across various platforms.",
+        "name": "Web and App Development Services"
+      },
+      {
+        "description": "Data processing and analysis services that identify patterns and trends to support strategic decision-making.",
+        "name": "AI and Data Analytics Services"
+      },
+      {
+        "description": "Custom design, development, manufacturing, and programming of IoT hardware solutions tailored to client requirements.",
+        "name": "IoT Hardware Services"
+      },
+      {
+        "description": "Design and development of custom backend applications using advanced technologies like Blockchain to enhance security and streamline processes.",
+        "name": "Custom Backend Systems Development"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 9530,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2016-10-01",
+      "lastFundingType": "Grant",
+      "rounds": [
+        {
+          "announcedDate": "2016-10-01",
+          "amount": {
+            "amount": 9530,
+            "currency": "USD"
+          },
+          "type": "Grant"
+        }
+      ]
+    },
+    "recentNews": {
+      "reportedCount": 1,
+      "includedUniqueCount": 1,
+      "items": [
+        {
+          "date": "2016-10-01",
+          "title": "Grant - AEBISS"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 9530,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "grantFunding": {
+      "amount": {
+        "amount": 9530,
+        "currency": "USD"
+      },
+      "disclosedRoundCount": 1,
+      "shareOfTotalPercent": 100
+    }
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": 1,
+      "growthScore": 47,
+      "heatChange90Days": -21,
+      "heatScore": 28
+    },
+    "modelPredictions": {
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 73.32
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "If you can imagine it, we can build it",
+          "employeeRange": "501-1,000",
+          "name": "Arbisoft",
+          "sharedCategories": [
+            "Software"
+          ],
+          "similarityScore": 97
+        },
+        {
+          "description": "Erbis is a reliable provider of customized software solutions for legal tech and supply chain companies.",
+          "employeeRange": "51-100",
+          "name": "Erbis",
+          "sharedCategories": [
+            "Information Technology"
+          ],
+          "sharedSpecialties": [
+            "Supply Chain Visibility Platforms",
+            "Smart Contract Development Frameworks"
+          ],
+          "similarityScore": 95
+        },
+        {
+          "description": "PhoenixBizz is a leading Custom Software Development company in Phoenix. We provide mobile app, web development, SEO & wireframing services.",
+          "name": "PhoenixBizz",
+          "sharedCategories": [
+            "Mobile Apps",
+            "Software",
+            "Information Technology"
+          ],
+          "similarityScore": 91
+        },
+        {
+          "description": "WEDOWEBAPPS LLC develops custom software, web and mobile apps, AI solutions, and eCommerce platforms for businesses.",
+          "employeeRange": "11-50",
+          "name": "WEDOWEBAPPS LLC",
+          "sharedCategories": [
+            "Software"
+          ],
+          "similarityScore": 90
+        },
+        {
+          "description": "\"A leading global Mobile App Development Firm empowering startups & Fortune 500 Companies to bridge the gap between ideas and reality.\"",
+          "employeeRange": "1,001-5,000",
+          "name": "Appinventiv",
+          "similarityScore": 88
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Grant round raised $9,530, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Meaningful non-dilutive funding",
+      "statement": "1 disclosed grants total $9,530, representing 100% of reported funding.",
+      "implication": "The grants reduce the share of reported financing attributed to equity or notes, although their restrictions and milestone requirements need separate verification.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.grantFunding"
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 47 (+1 over 90 days) and market heat at 28 (-21).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Arbisoft, Erbis, PhoenixBizz.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

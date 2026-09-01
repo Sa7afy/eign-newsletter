@@ -1,0 +1,264 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T12:46:20.646Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T12:46:20.644Z",
+    "url": "https://www.crunchbase.com/organization/noqood"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "NoQood",
+      "shortDescription": "NoQood aims to provide users with information about financial market products and services.",
+      "description": "NoQood is a financial platform that aims to provide users with information about Egyptian financial market products and services. It helps to learn and compare different financial products and services to make a better financial decision.\n\nFounded in 2017 by Adham Mamdouh and Ahmed Bassiouny, NoQood is based in Alexandria, Egypt.",
+      "website": "https://noqood.co/",
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "1-10",
+      "headquarters": "Alexandria, Al Iskandariyah, Egypt",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Middle East",
+        "Middle East and North Africa (MENA)",
+        "North Africa"
+      ],
+      "industries": [
+        "Finance",
+        "Financial Services",
+        "FinTech",
+        "Insurance"
+      ],
+      "sectors": [
+        "Financial Services"
+      ],
+      "founders": [
+        "Adham Mamdouh",
+        "Ahmed Bassiouny"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 28000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2018-06-04",
+      "lastFundingType": "Pre Seed",
+      "rounds": [
+        {
+          "announcedDate": "2018-06-04",
+          "amount": {
+            "amount": 28000,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "postMoneyValuation": {
+            "amount": 401339,
+            "currency": "USD"
+          },
+          "type": "Pre Seed"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "name": "Falak Startups",
+            "rounds": [
+              "Pre Seed Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 3,
+      "includedUniqueCount": 3,
+      "items": [
+        {
+          "date": "2023-11-20",
+          "publisher": "FinTech Futures",
+          "title": "Egypt's KashNow partners Sandah to provide small ...",
+          "url": "https://www.fintechfutures.com/2023/11/kashnow-partners-sandah-for-in-app-microfinance-offering/"
+        },
+        {
+          "date": "2023-10-11",
+          "publisher": "Daily News Egypt",
+          "title": "Contact partners with Kash Nowto offer consumer financing ...",
+          "url": "https://www.dailynewsegypt.com/2023/10/11/contact-partners-with-kash-nowto-offer-consumer-financing-services-in-egypt/"
+        },
+        {
+          "date": "2018-06-04",
+          "title": "Pre Seed Round - NoQood"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 28000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthInsightGeneratedDate": "2024-01-18",
+      "growthChange90Days": 4,
+      "growthScore": 32,
+      "heatChange90Days": 2,
+      "heatScore": 52,
+      "status": "Growing"
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 16.39
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 5.23,
+        "timingEstimatePercent": {
+          "within6Months": 16.22,
+          "months6To11": 13.59,
+          "months12To24": 20.93,
+          "beyond24Months": 24.99
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 88.86
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 29.04
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Malaysia' most comprehensive online platform for comparing financial services including personal loans, credit cards and, insurances.",
+          "employeeRange": "11-50",
+          "name": "CompareHero",
+          "sharedCategories": [
+            "Financial Services",
+            "Finance",
+            "FinTech"
+          ],
+          "similarityScore": 97
+        },
+        {
+          "description": "iCompare Loan is Most Advanced & ONLY Cloud-based Home Loan Reporting Tool Covering over 200 Active Property Loan Packages.",
+          "employeeRange": "1-10",
+          "name": "iCompare Loan",
+          "sharedCategories": [
+            "Financial Services",
+            "FinTech"
+          ],
+          "similarityScore": 93
+        },
+        {
+          "description": "MoneyHero.com.hk is one-stop financial product comparison platform.",
+          "employeeRange": "11-50",
+          "name": "MoneyHero.com.hk",
+          "sharedCategories": [
+            "Financial Services",
+            "Finance",
+            "Insurance",
+            "FinTech"
+          ],
+          "similarityScore": 92
+        },
+        {
+          "description": "RinggitPlus is Malaysia's #1 online comparison site for credit cards, personal loans home loans and saving products.",
+          "employeeRange": "11-50",
+          "name": "Ringgitplus",
+          "sharedCategories": [
+            "Financial Services"
+          ],
+          "similarityScore": 85
+        },
+        {
+          "description": "Sahibinden is a shopping website based in Turkey that provides deals and discounts on a range of products.",
+          "employeeRange": "501-1,000",
+          "name": "sahibinden.com",
+          "similarityScore": 85
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Pre Seed round raised $28,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $401,339 to $401,339, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 32 (+4 over 90 days) and market heat at 52 (+2).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include CompareHero, iCompare Loan, MoneyHero.com.hk.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

@@ -10,6 +10,8 @@
     "build:vercel-api": "pnpm exec esbuild api/vercel-handler.ts --bundle --platform=node --format=esm --packages=external --outfile='api/[[...route]].js'",
     "build:riseup-entities": "tsx scripts/build-riseup-entities.ts",
     "build:unified-people": "tsx scripts/build-unified-people.ts",
+    "collect:middle-east-crunchbase": "tsx scripts/collect-middle-east-crunchbase-links.ts",
+    "collect:middle-east-funded-1000": "tsx scripts/collect-middle-east-crunchbase-links.ts --funded-1000",
     "categorize:yc-crunchbase-audit": "tsx scripts/categorize-yc-crunchbase-audit.ts",
     "analyze:yc-crunchbase-risky": "tsx scripts/analyze-risky-link-error-sample.ts",
     "sample:yc-crunchbase-risky": "tsx scripts/create-risky-link-audit-sample.ts",
@@ -18,6 +20,8 @@
     "export:yc-crunchbase-links": "tsx scripts/export-yc-crunchbase-links.ts",
     "export:yc-crunchbase-links:public": "tsx scripts/export-yc-crunchbase-links-public.ts",
     "scrape:crunchbase": "tsx scripts/scrape-crunchbase.ts",
+    "watch:middle-east-crunchbase": "tsx scripts/watch-middle-east-crunchbase.ts",
+    "watch:middle-east-funded-1000": "tsx scripts/watch-middle-east-crunchbase.ts --funded-1000",
     "test:yc-crunchbase-links:public": "tsx --test scripts/lib/public-yc-crunchbase-links.test.ts",
     "test:yc-crunchbase-links": "tsx --test scripts/lib/yc-crunchbase-links.test.ts"
   },

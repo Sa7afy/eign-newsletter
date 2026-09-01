@@ -1,0 +1,243 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T13:17:45.408Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T13:17:45.406Z",
+    "url": "https://www.crunchbase.com/organization/saudi-lime-industries-company"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Saudi Lime Industries Company",
+      "shortDescription": "Saudi Lime Industries is a distributor of limestone products and their derivatives such as quick lime, dololime, blocks, and bricks.",
+      "description": "Saudi Lime Industries is a distributor of limestone products and their derivatives such as quick lime, dololime, blocks, and bricks.",
+      "website": "https://saudilime.com/",
+      "foundedYear": 1977,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Public",
+      "companyType": "For profit",
+      "employeeRange": "251-500",
+      "estimatedRevenueRange": "$50M-$100M",
+      "headquarters": "Riyadh, Ar Riyad, Saudi Arabia",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Chemical",
+        "Construction",
+        "Industrial Manufacturing",
+        "Manufacturing"
+      ],
+      "sectors": [
+        "Manufacturing",
+        "Real Estate",
+        "Science and Engineering"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "A natural mineral product with high purity (97%-99%) used in various industrial and non-industrial applications.",
+        "name": "Limestone"
+      },
+      {
+        "description": "A chemical compound used in multiple industries, produced by heating limestone to create calcium oxide.",
+        "name": "Quicklime (Calcium Oxide)"
+      },
+      {
+        "description": "A sedimentary rock used as a raw material in various industrial applications.",
+        "name": "Dolomite"
+      },
+      {
+        "description": "A processed form of dolomite combined with water, used in multiple industrial applications.",
+        "name": "Hydrated Dolomite (Dololime)"
+      },
+      {
+        "description": "A product made by slaking quicklime with water, used in various industrial processes.",
+        "name": "Hydrated Lime"
+      },
+      {
+        "description": "Building materials made from limestone, used in construction for architectural and structural purposes.",
+        "name": "Limestone Blocks and Bricks"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 6664468,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2025-12-28",
+      "lastFundingType": "Post IPO Debt",
+      "rounds": [
+        {
+          "announcedDate": "2025-12-28",
+          "amount": {
+            "amount": 6664468,
+            "currency": "USD"
+          },
+          "investorCount": 1,
+          "leadInvestors": [
+            "Emirates NBD"
+          ],
+          "type": "Post IPO Debt"
+        }
+      ],
+      "investors": {
+        "reportedCount": 1,
+        "visibleNames": [
+          {
+            "isLead": true,
+            "name": "Emirates NBD",
+            "rounds": [
+              "Post-IPO Debt"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 4,
+      "includedUniqueCount": 4,
+      "items": [
+        {
+          "date": "2026-03-29",
+          "publisher": "TradingView",
+          "title": "Saudi Lime Industries FY Net Profit 23.3 Million Riyals",
+          "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN40G00D:0-saudi-lime-industries-fy-net-profit-23-3-million-riyals/"
+        },
+        {
+          "date": "2025-12-28",
+          "title": "Post-IPO Debt - Saudi Lime Industries Company"
+        },
+        {
+          "date": "2023-07-23",
+          "publisher": "Zawya.com",
+          "title": "Saudi Lime appoints new Chairman, Vice Chairman",
+          "url": "https://www.zawya.com/en/markets/equities/saudi-lime-appoints-new-chairman-vice-chairman-y025s150"
+        },
+        {
+          "date": "2023-04-27",
+          "title": "9566"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 6664468,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthInsightGeneratedDate": "2026-04-12",
+      "growthChange90Days": -7,
+      "growthScore": 64,
+      "heatChange90Days": -9,
+      "heatScore": 56,
+      "status": "Growing"
+    },
+    "modelPredictions": {
+      "growth": {
+        "generatedDate": "2025-12-27",
+        "probabilityPercent": 95.78
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "BMS Factories manufactures and supplies water treatment filtration and industrial raw materials.",
+          "employeeRange": "251-500",
+          "name": "BMS Factories",
+          "sharedCategories": [
+            "Manufacturing"
+          ],
+          "sharedSpecialties": [
+            "Aggregates and Quarrying Materials",
+            "Stone and Natural Stone Fabrication"
+          ],
+          "similarityScore": 100
+        },
+        {
+          "description": "Saudi Carbonate Co. supplies calcium carbonate, dolomite, and talc for use in paints, plastics, paper, and construction industries.",
+          "employeeRange": "251-500",
+          "name": "Saudi Carbonate Company",
+          "sharedCategories": [
+            "Chemical",
+            "Manufacturing"
+          ],
+          "sharedSpecialties": [
+            "Refractory Materials and Services",
+            "Construction Chemicals",
+            "Cement and Concrete"
+          ],
+          "similarityScore": 87.5
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Post IPO Debt round raised $6,664,468, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 64 (-7 over 90 days) and market heat at 56 (-9).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Strategic repositioning and listing coverage shape the current narrative",
+      "statement": "Saudi Lime Industries Company has a recent strategic-positioning change; 1 recent unique news titles explicitly contain the English terms IPO or listing.",
+      "implication": "Their timing coincides with increased visibility in the loaded news and Crunchbase momentum signals, but the data does not establish causation.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.company.formerName",
+        "facts.recentNews",
+        "providerSignals.crunchbaseMomentum"
+      ],
+      "caveats": [
+        "The causal link to Crunchbase momentum is an inference from timing, not a disclosed company metric."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

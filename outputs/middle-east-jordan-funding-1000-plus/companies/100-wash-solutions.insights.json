@@ -1,0 +1,216 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T08:42:26.192Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T08:42:26.183Z",
+    "url": "https://www.crunchbase.com/organization/100-wash-solutions"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "100 WASH Solutions",
+      "shortDescription": "100 WASH Solutions treat all water problems (salinity - turbidity - odor and impurities).",
+      "description": "100 WASH Solutions is a leading provider of water treatment and purification services. Founded in 2018, the company has quickly become a trusted name in the industry and a go-to provider of safe drinking water. \nThe company offers a wide range of services, from water filtration and purification to wastewater treatment and desalination. They use the latest technologies and equipment to ensure their customers have access to clean and safe water. \nIn addition, 100 WASH Solutions also offers maintenance and repair services for their products. This ensures that customers have peace of mind knowing their water treatment systems are in good condition and are running properly. \nThe company is committed to providing the highest level of customer service and satisfaction. They are dedicated to delivering timely and effective solutions to their customers’ water treatment needs. \nOverall, 100 WASH Solutions is a trusted name in the industry and a go-to provider of water treatment services. Their knowledgeable staff and quality products ensure that customers have access to clean and safe drinking water.",
+      "website": "http://www.100washsolutions.com/",
+      "operatingStatus": "Active",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "1-10",
+      "headquarters": "Cairo, Al Qahirah, Egypt",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Middle East",
+        "Middle East and North Africa (MENA)",
+        "North Africa"
+      ],
+      "industries": [
+        "Social Entrepreneurship",
+        "Water Purification"
+      ],
+      "sectors": [
+        "Community and Lifestyle",
+        "Social Impact",
+        "Sustainability"
+      ]
+    },
+    "funding": {
+      "totalRaised": {
+        "amount": 7000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2017-01-01",
+      "lastFundingType": "Seed",
+      "rounds": [
+        {
+          "announcedDate": "2017-01-01",
+          "amount": {
+            "amount": 7000,
+            "currency": "USD"
+          },
+          "postMoneyValuation": {
+            "amount": 78731,
+            "currency": "USD"
+          },
+          "type": "Seed"
+        }
+      ]
+    },
+    "recentNews": {
+      "reportedCount": 1,
+      "includedUniqueCount": 1,
+      "items": [
+        {
+          "date": "2017-01-01",
+          "title": "Seed Round - 100 WASH Solutions"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 7000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100,
+    "latestToEarliestKnownValuationMultiple": 1
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": 1,
+      "growthScore": 56,
+      "heatChange90Days": -10,
+      "heatScore": 35
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 36.11
+      },
+      "funding": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 4.86,
+        "timingEstimatePercent": {
+          "within6Months": 14.32,
+          "months6To11": 12.27,
+          "months12To24": 19.52,
+          "beyond24Months": 24.85
+        }
+      },
+      "growth": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 80.92
+      },
+      "ipo": {
+        "generatedDate": "2026-08-24",
+        "probabilityPercent": 36.97
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "VA Tech Wabag provides a range of water solutions focused on conservation, optimization, recycling, and reuse of resources.",
+          "employeeRange": "1,001-5,000",
+          "name": "VA Tech Wabag",
+          "similarityScore": 95
+        },
+        {
+          "description": "Triveni Engineering & Industries is a company that provides high speed gears, gearboxes, and water treatment solutions.",
+          "employeeRange": "5,001-10,000",
+          "name": "Triveni Engineering & Industries",
+          "similarityScore": 90
+        },
+        {
+          "description": "Thermax Group is an INR 5516 crore company, providing a range of engineering solutions to the energy and environment sectors.",
+          "employeeRange": "10,001+",
+          "name": "Thermax",
+          "similarityScore": 88
+        },
+        {
+          "description": "Eureka Forbes Ltd is a consumer goods company.",
+          "employeeRange": "1,001-5,000",
+          "name": "Eureka Forbes",
+          "similarityScore": 87
+        },
+        {
+          "description": "Cleanflo is a water and corrosion management company that offers water treatment, waste management, and chemical cleaning services.",
+          "employeeRange": "51-100",
+          "name": "Cleanflo",
+          "similarityScore": 86
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Seed round raised $7,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Valuation increased across disclosed rounds",
+      "statement": "Known post-money valuation rose from $78,731 to $78,731, a 1x increase.",
+      "implication": "The disclosed financing history indicates a material valuation step-up between the earliest and latest rounds with known valuations.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.funding.rounds",
+        "derivedMetrics.latestToEarliestKnownValuationMultiple"
+      ],
+      "caveats": [
+        "Only rounds with a disclosed post-money valuation are compared."
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 56 (+1 over 90 days) and market heat at 35 (-10).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include VA Tech Wabag, Triveni Engineering & Industries, Thermax.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

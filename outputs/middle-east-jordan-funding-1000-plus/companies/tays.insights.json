@@ -1,0 +1,238 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T13:39:45.210Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T13:39:45.208Z",
+    "url": "https://www.crunchbase.com/organization/tays"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Tays",
+      "shortDescription": "Tays is a professional user to user networking app.",
+      "description": "Tays is a professional user to user networking app that uses a unique machine-learning algorithm to matchmake individuals based on their professional interests and aspirations to help people in expanding and maintaining their network on a professional level while keeping the social and casual touch.",
+      "website": "https://tays.app/",
+      "foundedYear": 2020,
+      "operatingStatus": "Closed",
+      "ownershipStatus": "Private",
+      "companyType": "For profit",
+      "employeeRange": "11-50",
+      "headquarters": "Cairo, Al Qahirah, Egypt",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Middle East",
+        "Middle East and North Africa (MENA)",
+        "North Africa"
+      ],
+      "industries": [
+        "Internet",
+        "Professional Networking"
+      ],
+      "sectors": [
+        "Community and Lifestyle",
+        "Information Technology",
+        "Professional Services"
+      ],
+      "founders": [
+        "Sherif Bacheet"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "A platform that enables professional users to connect and network directly with each other.",
+        "name": "Tays User-to-User Networking App"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 100000,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2021-05-23",
+      "lastFundingType": "Pre Seed",
+      "rounds": [
+        {
+          "announcedDate": "2021-05-23",
+          "amount": {
+            "amount": 100000,
+            "currency": "USD"
+          },
+          "investorCount": 4,
+          "type": "Pre Seed"
+        }
+      ],
+      "investors": {
+        "reportedCount": 4,
+        "visibleNames": [
+          {
+            "name": "Ashraf Bacheet",
+            "rounds": [
+              "Pre Seed Round"
+            ]
+          },
+          {
+            "name": "Joseph Hanna",
+            "rounds": [
+              "Pre Seed Round"
+            ]
+          },
+          {
+            "name": "Karen Sewasa",
+            "rounds": [
+              "Pre Seed Round"
+            ]
+          },
+          {
+            "name": "Khaled Nasser",
+            "rounds": [
+              "Pre Seed Round"
+            ]
+          }
+        ]
+      }
+    },
+    "recentNews": {
+      "reportedCount": 3,
+      "includedUniqueCount": 3,
+      "items": [
+        {
+          "date": "2022-03-01",
+          "publisher": "Business Journals",
+          "title": "$700 million Taystee Lab Building opens in West Harlem (PHOTOS)",
+          "url": "https://www.bizjournals.com/newyork/news/2022/03/01/taystee-lab-building-opens-west-harlem.html"
+        },
+        {
+          "date": "2021-05-23",
+          "title": "Pre Seed Round - Tays"
+        },
+        {
+          "date": "2021-05-23",
+          "publisher": "Zawya.com",
+          "title": "Tays app raises seven-figure pre-seed investment",
+          "url": "https://bit.ly/3oIIMIj"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 100000,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "heatChange90Days": -17,
+      "heatScore": 8
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2025-09-22",
+        "probabilityPercent": 59.29
+      },
+      "funding": {
+        "generatedDate": "2025-10-18",
+        "probabilityPercent": 25.6,
+        "timingEstimatePercent": {
+          "within6Months": 14.14,
+          "months6To11": 12.14,
+          "months12To24": 19.37,
+          "beyond24Months": 24.81
+        }
+      },
+      "growth": {
+        "generatedDate": "2025-10-18",
+        "probabilityPercent": 74.82
+      },
+      "ipo": {
+        "generatedDate": "2025-09-22",
+        "probabilityPercent": 3.27
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Lunchclub utilizes AI to match people for one-on-one video meetings.",
+          "employeeRange": "11-50",
+          "name": "Lunchclub",
+          "sharedCategories": [
+            "Professional Networking"
+          ],
+          "similarityScore": 87
+        },
+        {
+          "description": "F6S is the world's largest platform for founders.",
+          "employeeRange": "11-50",
+          "name": "F6S",
+          "similarityScore": 85
+        },
+        {
+          "description": "LinkedIn is a professional networking site that allows users to create business connections, search for jobs, and find potential clients.",
+          "employeeRange": "1-10",
+          "name": "LinkedIn Corporation",
+          "sharedCategories": [
+            "Professional Networking"
+          ],
+          "similarityScore": 83
+        },
+        {
+          "description": "Meetup brings people together in thousands of cities to do more of what they want to do in life.",
+          "employeeRange": "1-10",
+          "name": "Meetup",
+          "sharedCategories": [
+            "Internet"
+          ],
+          "similarityScore": 77
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Pre Seed round raised $100,000, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Lunchclub, F6S, LinkedIn Corporation.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}

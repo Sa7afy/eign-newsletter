@@ -1,0 +1,234 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T13:07:23.820Z",
+  "source": {
+    "provider": "Crunchbase",
+    "scrapedAt": "2026-09-01T13:07:23.818Z",
+    "url": "https://www.crunchbase.com/organization/rawasi-al-bina"
+  },
+  "methodology": {
+    "facts": "Strict allowlist of company-facing fields from the authenticated organization payload.",
+    "insights": "Deterministic calculations and evidence-linked interpretations; no external facts were added.",
+    "limitation": "Crunchbase profile data, third-party models, and company descriptions were not independently verified."
+  },
+  "facts": {
+    "company": {
+      "name": "Rawasi Al Bina",
+      "shortDescription": "Rawasi Al Bina provides technical services and management consulting for telecoms.",
+      "description": "Rawasi Al Bina provides technical services and management consulting for telecoms.",
+      "website": "https://rawasi-albina.com/",
+      "foundedYear": 2008,
+      "operatingStatus": "Active",
+      "ownershipStatus": "Public",
+      "companyType": "For profit",
+      "employeeRange": "251-500",
+      "estimatedRevenueRange": "$10M-$50M",
+      "headquarters": "Riyadh, Ar Riyad, Saudi Arabia",
+      "geographicRegions": [
+        "Europe, Middle East, and Africa (EMEA)",
+        "Gulf Cooperation Council (GCC)",
+        "Middle East",
+        "Middle East and North Africa (MENA)"
+      ],
+      "industries": [
+        "Management Consulting",
+        "Telecommunications",
+        "Venture Capital"
+      ],
+      "sectors": [
+        "Financial Services",
+        "Lending and Investments",
+        "Messaging and Telecommunications",
+        "Professional Services"
+      ]
+    },
+    "productsAndServices": [
+      {
+        "description": "Provides indoor cellular coverage solutions to ensure signal availability inside buildings regardless of structural challenges.",
+        "name": "IBS Solution"
+      },
+      {
+        "description": "Delivers fiber optic connectivity from the network to customers’ premises to support high-speed communication services.",
+        "name": "FTTH, OSP"
+      },
+      {
+        "description": "Supplies and installs underground and overhead power networks and substations up to 69 kV, including turnkey projects and maintenance.",
+        "name": "Power Projects"
+      },
+      {
+        "description": "Facilitates the integration and deployment of telecom networks to support new technologies and evolving business needs without service disruption.",
+        "name": "Network Integration and Implementation"
+      },
+      {
+        "description": "Provides ongoing operation and maintenance services for telecom and power networks, including electrical and mechanical systems.",
+        "name": "Operation & Maintenance"
+      },
+      {
+        "description": "Handles installation, dismantling, and removal of telecom towers and related electromechanical equipment for GSM networks.",
+        "name": "GSM Sites Electromechanical"
+      }
+    ],
+    "funding": {
+      "totalRaised": {
+        "amount": 13331513,
+        "currency": "USD"
+      },
+      "reportedRoundCount": 1,
+      "detailedRoundCount": 1,
+      "lastFundingDate": "2025-03-04",
+      "lastFundingType": "Post IPO Debt",
+      "rounds": [
+        {
+          "announcedDate": "2025-03-04",
+          "amount": {
+            "amount": 13331513,
+            "currency": "USD"
+          },
+          "type": "Post IPO Debt"
+        }
+      ]
+    },
+    "recentNews": {
+      "reportedCount": 2,
+      "includedUniqueCount": 2,
+      "items": [
+        {
+          "date": "2025-03-04",
+          "title": "Post-IPO Debt - Rawasi Al Bina"
+        },
+        {
+          "date": "2022-08-18",
+          "title": "9547"
+        }
+      ]
+    }
+  },
+  "derivedMetrics": {
+    "disclosedAmountRoundCount": 1,
+    "knownDetailedFundingAmount": {
+      "amount": 13331513,
+      "currency": "USD"
+    },
+    "fundingAmountCoveragePercent": 100,
+    "latestRoundShareOfTotalPercent": 100
+  },
+  "providerSignals": {
+    "note": "The following are Crunchbase-generated or algorithmic signals, not verified company facts.",
+    "crunchbaseMomentum": {
+      "growthChange90Days": -1,
+      "growthScore": 87,
+      "heatChange90Days": -4,
+      "heatScore": 62
+    },
+    "modelPredictions": {
+      "acquisition": {
+        "generatedDate": "2025-09-22",
+        "probabilityPercent": 0.03
+      }
+    },
+    "similarCompanies": {
+      "description": "Top five algorithmic similarity matches; not verified direct competitors.",
+      "companies": [
+        {
+          "description": "Optima Telecom is an integrated networking firm that offers hardware and software solutions like wireless routers, sensors, apps, and more.",
+          "employeeRange": "11-50",
+          "name": "Optima Telecom",
+          "sharedCategories": [
+            "Telecommunications"
+          ],
+          "similarityScore": 100
+        },
+        {
+          "description": "Voereir AB is a start-up founded mid 2015 and our focus is to help operators succeed with their NFV transformation.",
+          "employeeRange": "11-50",
+          "name": "VoerEir",
+          "similarityScore": 95.453
+        },
+        {
+          "description": "Virtual Open Systems is an innovative SME software company that specializes in virtualization, linux and embedded software services.",
+          "employeeRange": "1-10",
+          "name": "Virtual Open Systems",
+          "similarityScore": 90.945
+        },
+        {
+          "description": "CloudSmartz provides an digital customer experience and marketplace platform.",
+          "employeeRange": "51-100",
+          "name": "CloudSmartz",
+          "sharedCategories": [
+            "Telecommunications"
+          ],
+          "similarityScore": 86.435
+        },
+        {
+          "description": "Corigine delivers innovative solutions in connectivity, storage, and machine learning for cloud, automotive, and emerging applications.",
+          "employeeRange": "51-100",
+          "name": "Corigine",
+          "similarityScore": 81.84
+        }
+      ]
+    }
+  },
+  "insights": [
+    {
+      "title": "Funding is concentrated in the latest major round",
+      "statement": "The latest disclosed Post IPO Debt round raised $13,331,513, or 100% of reported total funding.",
+      "implication": "This round accounts for most reported historical financing, making it important when assessing funding-source concentration and fundraising cadence.",
+      "confidence": "high",
+      "evidence": [
+        "facts.funding.totalRaised",
+        "facts.funding.rounds.0",
+        "derivedMetrics.latestRoundShareOfTotalPercent"
+      ]
+    },
+    {
+      "title": "Sharp recent attention and growth momentum",
+      "statement": "Crunchbase scores growth at 87 (-1 over 90 days) and market heat at 62 (-4).",
+      "implication": "The company has recently become much more visible, but the scores should be treated as attention/activity indicators rather than revenue or clinical-performance metrics.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.crunchbaseMomentum",
+        "facts.recentNews"
+      ],
+      "caveats": [
+        "Crunchbase does not expose the complete weighting behind these proprietary scores."
+      ]
+    },
+    {
+      "title": "Strategic repositioning and listing coverage shape the current narrative",
+      "statement": "Rawasi Al Bina has a recent strategic-positioning change; 1 recent unique news titles explicitly contain the English terms IPO or listing.",
+      "implication": "Their timing coincides with increased visibility in the loaded news and Crunchbase momentum signals, but the data does not establish causation.",
+      "confidence": "medium",
+      "evidence": [
+        "facts.company.formerName",
+        "facts.recentNews",
+        "providerSignals.crunchbaseMomentum"
+      ],
+      "caveats": [
+        "The causal link to Crunchbase momentum is an inference from timing, not a disclosed company metric."
+      ]
+    },
+    {
+      "title": "Competitive benchmark reflects the modeled peer set",
+      "statement": "Crunchbase’s closest modeled peers include Optima Telecom, VoerEir, Virtual Open Systems.",
+      "implication": "These matches provide a starting point for comparing differentiation, scale, and shared specialties, but they should not be treated as a verified competitor set.",
+      "confidence": "medium",
+      "evidence": [
+        "providerSignals.similarCompanies",
+        "facts.productsAndServices"
+      ],
+      "caveats": [
+        "Similarity scores are algorithmic matches, not verified direct competitors."
+      ]
+    }
+  ],
+  "dataQuality": {
+    "overallAssessment": "Core company and funding facts are usable with caveats; detailed lists are partial and model-generated signals are provisional.",
+    "intentionallyOmitted": [
+      "Browser session, account, authentication, and internal page metadata",
+      "UUIDs, permalinks, image references, entity wrappers, and layout fields",
+      "Semrush traffic/location estimates because the sample is extremely small and geographic shares are inconsistent",
+      "Aberdeen IT-spend estimate because its date and methodology are not supplied",
+      "Empty cards and chart-history arrays"
+    ]
+  }
+}
